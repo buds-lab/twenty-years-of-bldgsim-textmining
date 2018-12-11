@@ -1,0 +1,3737 @@
+From larry at taz.tamu.edu  Thu Jan  8 18:26:40 2004
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Thu, 8 Jan 2004 20:26:40 -0600
+Subject: [bldg-sim] IBPSA News Update Notice.
+Message-ID: <MDAEMON-F200401082027.AA2737687pd80000552772@gard.com>
+
+In November '03, the IBPSA News Vol. 13, No. 2 was revised and updated
+on the IBPSA web site (http://www.ibpsa.org <http://www.ibpsa.org/> )
+after it was noticed that I had inadvertently left out a software
+announcement from Alware of Germany.  This addition is now included as
+well the ISC'2004 conference announcement from Philippe Geril of
+Belgium.  In case you've missed looking at the revised BPSA News, you
+can find it at http://www.ibpsa.org/IBPSANews-13-2r.pdf.  Deadlines for
+abstracts and papers for the ISC'2004 conference are imminent, so look
+at this right away if you are interested.
+ 
+Note to Affilate Reps: If you are managing any IBPSA Affiliate web sites
+that link to the IBPSA News, please make note that the most recent issue
+in Vol. 13, No. 2.    News contributions for the next issue (Vol. 14,
+No. 1) are due by 21 March 2004.
+ 
+Best wishes for '04 !!!
+ 
+Larry D. --  IBPSA News Chair
+===================================== 
+Larry O. Degelman, P.E.                  larry at taz.tamu.edu 
+Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+Texas A&M University
+2206 Quail Run 
+College Station, TX 77845
+=====================================
+ 
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040108/7e0649d8/attachment.htm>
+
+From jon at esru.strath.ac.uk  Thu Jan  8 03:41:11 2004
+From: jon at esru.strath.ac.uk (Jon Hand)
+Date: Thu, 08 Jan 2004 11:41:11 +0000
+Subject: [bldg-sim] Checking for interest in a UK TRNSYS introductory course.
+Message-ID: <MDAEMON-F200401080540.AA4052468pd80000551824@gard.com>
+
+Please forward this email to anyone else who might have an
+interest...
+
+IBPSA (Scotland) also known as The Scottish Energy Systems Group (SESG), 
+in conjunction with the Solar Energy Laboratory of the University of 
+Wisconsin-Madison, are sending this message to see if there is 
+sufficient interest to run a TRNSYS introductory course in Glasgow 
+Scotland in May of 2004.
+
+TRNSYS has an active user community and local expertise in many parts 
+of the world, but is exceedingly rare in the UK. SESG exists to help
+practitioners to make better use of design decision support software.
+SESG has used hands-on experience with a tool and access to an 
+expert/developer to help our members evaluate software and make
+informed decisions about simulation tool deployment.
+
+If there is sufficient interest, Michael Kummert of SEL would be
+prepared to give a two day introductory course for up to a dozen
+participants. The course fee (excluding accommodation) will be 400 
+Pounds. If the course if fully subscribed the first six SESG members
+will get a discounted fee of 275 Pounds. If there are fewer 
+participants then fewer discounts will be offered.
+
+SESG is discussing with TRNSYS vendors to see if discounts on
+the software might be offered to course participants. There is a
+tick box in the reply form to mark if you would be interested
+in joining such a scheme.
+
+Please have a look at the schedule below and if you have an interest
+in attending, please return the form at the bottom of the email to 
+Jon Hand <jon at sesg.strath.ac.uk>
+
+Proposed course:
+
+Day 1
+-----
+
+1. Introduction to TRNSYS (Presentation)
+     - TRNSYS principles and applications
+
+2. Creating projects using the Visual Interface
+     - Short presentation + example done by the instructor
+       and participants
+
+Optional Topics (depending on the interest):
+
+3. Links with other programs
+    (Presentation + hands-on session)
+    - Links between TRNSYS and EES, Excel.
+
+4. Creating Stand-alone TRNSYS applications
+    (Presentation + hands-on session)
+    - How to create redistributable applications based on TRNSED
+
+Day 2
+-----
+
+5. Multizone Building Simulation
+    - Simple building project
+    - Short presentation + one example done by the instructor
+      and participants
+
+Optional topics:
+
+6. TRNFLOW
+    - Multizone building model with integrated COMIS engine
+      for detailed ventilation studies
+
+7. TRNSYSLite
+    - simple tool to simulate 1-zone buildings very quickly
+
+8. Projects (hands-on session)
+    - Participants work on one chosen projects with the instructor
+    or
+    - Each participant works on her/his project with support from
+      the instructor
+
+
+Micha?l Kummert graduated as a Mechanical - Electrical Engineer at the 
+Free University of Brussels. He obtained a PhD in Environmental Sciences 
+at the FUL (Arlon, Belgium) studying optimal control of passive solar 
+buildings. He has worked as a consulting engineer for 3E (Brussels), 
+designing low-energy buildings and active solar systems.
+Since November 2001, he is the TRNSYS Coordinator at the University of 
+Wisconsin-Madison Solar Energy Lab. He contributes to the TRNSYS 
+development and coordinates the developers team. He is also involved in 
+user support and he contributes to the TRNSYS education programs. He has 
+taught beginners and advanced TRNSYS courses in the US, France, Belgium, 
+Spain and Korea.
+
+The course venue will provide a limited number of computers with
+relevant software. Participants will have the option to bring their
+own computers and a time-limited version of TRNSYS will be made
+available for use during the course.
+
+
+ ---------------------------------------------------------
+Reply form (email back to jon at sesg.strath.ac.uk)
+
+[ ] I am interested in the introductory TRNSYS course.
+[ ] I would be interested in being notified about other TRNSYS
+    courses.
+[ ] I would be interested in joining a UK based TRNSYS group.
+[ ] I would be interested in finding out more about possible
+    software discounts for course participants.
+[ ] I would be interested in bringing along my own laptop for
+    use during the course.
+
+[ ] I am interested in the day-1 Links with other programs
+[ ] I am interested in the day-1 Creating TRNSYS applications
+
+[ ] I am interested in the day-2 TRNFLOW option
+[ ] I am interested in the day-2 TRNSYSLite option
+[ ] I am interested in the day-2 Projects (extended session)
+    to work on my own model
+
+My preference is during the week of _________ May
+
+Name:
+Organization:
+
+Address:
+
+
+Email:
+Phone:
+Fax:
+ -------------------------------------------------------
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jon at esru.strath.ac.uk  Thu Jan  8 03:41:11 2004
+From: jon at esru.strath.ac.uk (Jon Hand)
+Date: Thu, 08 Jan 2004 11:41:11 +0000
+Subject: [bldg-sim] Checking for interest in a UK TRNSYS introductory course.
+Message-ID: <MDAEMON-F200401080550.AA5026531pd80000551838@gard.com>
+
+Please forward this email to anyone else who might have an
+interest...
+
+IBPSA (Scotland) also known as The Scottish Energy Systems Group (SESG), 
+in conjunction with the Solar Energy Laboratory of the University of 
+Wisconsin-Madison, are sending this message to see if there is 
+sufficient interest to run a TRNSYS introductory course in Glasgow 
+Scotland in May of 2004.
+
+TRNSYS has an active user community and local expertise in many parts 
+of the world, but is exceedingly rare in the UK. SESG exists to help
+practitioners to make better use of design decision support software.
+SESG has used hands-on experience with a tool and access to an 
+expert/developer to help our members evaluate software and make
+informed decisions about simulation tool deployment.
+
+If there is sufficient interest, Michael Kummert of SEL would be
+prepared to give a two day introductory course for up to a dozen
+participants. The course fee (excluding accommodation) will be 400 
+Pounds. If the course if fully subscribed the first six SESG members
+will get a discounted fee of 275 Pounds. If there are fewer 
+participants then fewer discounts will be offered.
+
+SESG is discussing with TRNSYS vendors to see if discounts on
+the software might be offered to course participants. There is a
+tick box in the reply form to mark if you would be interested
+in joining such a scheme.
+
+Please have a look at the schedule below and if you have an interest
+in attending, please return the form at the bottom of the email to 
+Jon Hand <jon at sesg.strath.ac.uk>
+
+Proposed course:
+
+Day 1
+-----
+
+1. Introduction to TRNSYS (Presentation)
+     - TRNSYS principles and applications
+
+2. Creating projects using the Visual Interface
+     - Short presentation + example done by the instructor
+       and participants
+
+Optional Topics (depending on the interest):
+
+3. Links with other programs
+    (Presentation + hands-on session)
+    - Links between TRNSYS and EES, Excel.
+
+4. Creating Stand-alone TRNSYS applications
+    (Presentation + hands-on session)
+    - How to create redistributable applications based on TRNSED
+
+Day 2
+-----
+
+5. Multizone Building Simulation
+    - Simple building project
+    - Short presentation + one example done by the instructor
+      and participants
+
+Optional topics:
+
+6. TRNFLOW
+    - Multizone building model with integrated COMIS engine
+      for detailed ventilation studies
+
+7. TRNSYSLite
+    - simple tool to simulate 1-zone buildings very quickly
+
+8. Projects (hands-on session)
+    - Participants work on one chosen projects with the instructor
+    or
+    - Each participant works on her/his project with support from
+      the instructor
+
+
+Micha?l Kummert graduated as a Mechanical - Electrical Engineer at the 
+Free University of Brussels. He obtained a PhD in Environmental Sciences 
+at the FUL (Arlon, Belgium) studying optimal control of passive solar 
+buildings. He has worked as a consulting engineer for 3E (Brussels), 
+designing low-energy buildings and active solar systems.
+Since November 2001, he is the TRNSYS Coordinator at the University of 
+Wisconsin-Madison Solar Energy Lab. He contributes to the TRNSYS 
+development and coordinates the developers team. He is also involved in 
+user support and he contributes to the TRNSYS education programs. He has 
+taught beginners and advanced TRNSYS courses in the US, France, Belgium, 
+Spain and Korea.
+
+The course venue will provide a limited number of computers with
+relevant software. Participants will have the option to bring their
+own computers and a time-limited version of TRNSYS will be made
+available for use during the course.
+
+
+ ---------------------------------------------------------
+Reply form (email back to jon at sesg.strath.ac.uk)
+
+[ ] I am interested in the introductory TRNSYS course.
+[ ] I would be interested in being notified about other TRNSYS
+    courses.
+[ ] I would be interested in joining a UK based TRNSYS group.
+[ ] I would be interested in finding out more about possible
+    software discounts for course participants.
+[ ] I would be interested in bringing along my own laptop for
+    use during the course.
+
+[ ] I am interested in the day-1 Links with other programs
+[ ] I am interested in the day-1 Creating TRNSYS applications
+
+[ ] I am interested in the day-2 TRNFLOW option
+[ ] I am interested in the day-2 TRNSYSLite option
+[ ] I am interested in the day-2 Projects (extended session)
+    to work on my own model
+
+My preference is during the week of _________ May
+
+Name:
+Organization:
+
+Address:
+
+
+Email:
+Phone:
+Fax:
+ -------------------------------------------------------
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From rkstrand at uiuc.edu  Wed Jan  7 15:37:31 2004
+From: rkstrand at uiuc.edu (Rick Strand)
+Date: Wed, 07 Jan 2004 17:37:31 -0600
+Subject: [bldg-sim] SimBuild 2004 (First Reminder)
+Message-ID: <MDAEMON-F200401071741.AA4112359pd80000551294@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040107/a29f3557/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 6d3f163.jpg
+Type: image/jpeg
+Size: 14655 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040107/a29f3557/attachment.jpg>
+
+From MWetter at lbl.gov  Tue Jan  6 16:17:36 2004
+From: MWetter at lbl.gov (Michael Wetter)
+Date: Tue, 06 Jan 2004 16:17:36 -0800
+Subject: [bldg-sim] GenOpt 2.0.0 released
+Message-ID: <MDAEMON-F200401061817.AA1749812pd80000550024@gard.com>
+
+Dear Building Simulation Colleagues,
+
+We are pleased to announce the release of GenOpt 2.0.0.
+
+GenOpt is an optimization program for the minimization of a ?cost 
+function? (such as annual energy use, peak electrical demand, utility 
+cost, etc.) that is evaluated by an external simulation program.
+
+For example, you can compute a building's annual energy cost in 
+EnergyPlus, TRNSYS, SPARK, DOE-2, or any simulation program with 
+text-based input and output, and let GenOpt automatically find the 
+values of selected parameters that yield lowest cost.
+
+GenOpt has a library with local and global multi-dimensional and 
+one-dimensional optimization algorithms, as well as algorithms for doing 
+parametric studies.
+
+For free download and more information, please visit
+http://SimulationResearch.lbl.gov/GO
+
+Thank you for your interest in GenOpt.
+
+Sincerely,
+
+Michael Wetter
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From rkstrand at uiuc.edu  Tue Jan  6 08:38:30 2004
+From: rkstrand at uiuc.edu (Rick Strand)
+Date: Tue, 06 Jan 2004 10:38:30 -0600
+Subject: [bldg-sim] IBPSA-USA Anaheim Meeting (Second Announcement)
+Message-ID: <MDAEMON-F200401061040.AA4031968pd80000549480@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040106/c17c2ef3/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 2de2c3.jpg
+Type: image/jpeg
+Size: 14655 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040106/c17c2ef3/attachment.jpg>
+
+From idoebber at vt.edu  Sat Jan 31 16:48:53 2004
+From: idoebber at vt.edu (Ian Doebber)
+Date: Sat, 31 Jan 2004 19:48:53 -0500
+Subject: [BLDG-SIM] infiltration heat loss in summer
+References: <MDAEMON-F200401291035.AA3538843pd80000745160@gard.com>
+Message-ID: <MDAEMON-F200401311848.AA4836203pd80000584376@gard.com>
+
+Analyzing my summer component loads for Atlanta GA, I discover that the net
+sensible effect of infiltration is negative.  In other words, infiltration
+sensibly overall cools my house during the summer.  The infiltration latent
+effect is as it should be, adding heat into the house.  When I view
+pre-existing data on summer infiltration effects on homes the reported
+effect is that it heats the house.  I am wondering if data showing sensible
+cooling effect of infiltration during the summer is legitamate and that the
+published summer effects of infiltration adds the latent and sensible
+infiltration effects together to get a rough estimate of the overall
+infiltration effect during the summer.
+
+Thanks
+Ian
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ttxu at lbl.gov  Sat Jan 31 13:20:44 2004
+From: ttxu at lbl.gov (Tim T. Xu)
+Date: Sat, 31 Jan 2004 13:20:44 -0800
+Subject: [BLDG-SIM] Metro Stations
+References: <MDAEMON-F200401301859.AA5950765pd80000752931@gard.com> <MDAEMON-F200401302051.AA5149500pd80000754138@gard.com>
+Message-ID: <MDAEMON-F200401311522.AA2205750pd80000584173@gard.com>
+
+All-
+
+That is the right group of people to contact, but perhaps the very best
+person is Prof. Xudong Yang of the University of Miami (xudongy at miami.edu).
+He was the backbone person developing the complex modeling programs for
+underground transportation projects in Shanghai and later some other
+international projects while at Tsinghua.
+
+Tengfang (Tim) Xu, Ph.D., PE
+Project Manager
+Building Technologies Department
+Lawrence Berkeley National Laboratory
+One Cyclotron Road  BLDG 90R3111
+Berkeley CA 94720-8134
+Tel  +1.510.486.7810
+Fax +1.510.486.4089
+
+----- Original Message ----- 
+From: "Joe Huang" <YJHuang at lbl.gov>
+To: <BLDG-SIM at gard.com>
+Sent: Friday, January 30, 2004 6:50 PM
+Subject: [BLDG-SIM] Metro Stations
+
+
+> S. Hassid, Ed,
+>
+> That is correct. I remember that Tsinghua University had a project about
+> 8-10 years ago where they modeled metro stations in Teheran, Iran, using
+CFD
+> to study smoke control strategies.  The best person to contact at Tsinghua
+> is Dr. JIANG Yi (Jiang is the family name) at jiangyi at tsinghua.edu.cn.
+>
+> Joe Huang
+>
+> ----- Original Message -----
+> From: "Edward F. Sowell" <sowell at fullerton.edu>
+> To: <BLDG-SIM at gard.com>
+> Sent: Friday, January 30, 2004 4:58 PM
+> Subject: [BLDG-SIM] Metro Stations
+>
+>
+> > I have a recollection of hearing a presentation on modeling of a metro
+> > station while visiting the Thermal Engineering department at
+> > Tsinghua University  several years ago. I do not remember the
+investigator
+> > for sure, but perhaps
+> > Prof. Yingxin Zhu zhuyx at tsinghua.edu.cn.
+> >
+> > Ed Sowell
+> >
+> >  I was wondering if anybody has any information on dealing with the
+> climate
+> > with metro (underground) stations.
+> >                              S. Hassid
+> >
+> >
+> >
+> > ======================================================
+> > You received this e-mail because you are subscribed
+> > to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> > from this mailing list send a blank message to
+> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> >
+> >
+>
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From hamnmegs at ozemail.com.au  Fri Jan 30 20:25:53 2004
+From: hamnmegs at ozemail.com.au (Graham & Megan)
+Date: Sat, 31 Jan 2004 15:25:53 +1100
+Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+References: <MDAEMON-F200401272348.AA4812171pd80000739098@gard.com>
+Message-ID: <MDAEMON-F200401302227.AA2713671pd80000583320@gard.com>
+
+I agree with David's advice on approach.  There are many tools that will
+allow you to gain some insight into double skin facades, but you need to
+understand first principles so that you know when you are stretching your
+analysis tool beyond its capability ...  Your tool(s) of choice will depend
+on whether you are talking about internally or externally ventilated
+facades, whether the facade is used as part of a natural ventilation system,
+and whether you want to look at just the energy impact or thermal comfort
+aspects as well ... based on this you may find a DOE-2 sunspace gives you
+some of the direction you are looking for or alternatively you can start to
+look at TAS (by EDSL) or Apache (by IES) to look at energy / comfort to
+allow you to draw some broad conclusions on what the value of the facade is
+and the critical variables.
+
+With respect to the discussions on cost, a double skin facade will never
+stack up if viewed as an energy efficiency measure in isolation.  There are
+the obvious opportunities for architectural expression, but teh key drivers
+will always be the improvements in thermal comfort and the additional system
+options that emerge by knocking out 90%+ of the solar load.  Chilled
+ceilings are not feasible at the perimeter unless the solar is controlled.
+Similarly the capacity of passive chilled beams will be stretched unless the
+skin load is adequately taken care of.
+
+Lend Lease's new head office in Sydney (The Bond) will feature passive
+chilled beams with the dominant western facade facing over the harbour
+protected by operable external blinds.  The blinds retract during high winds
+so don't require the second skin.  Many double skin applications have
+effectively been a wind buffer allowing the use of cavity blinds in summer
+(wind or no wind) and closing the cavity in winter to buffer temperatures
+and increase the insulation value of the glazed portion of the facade ...
+Regards,
+Graham
+Bovis Lend lease
+
+----- Original Message ----- 
+From: "Callan, David" <dcallan at syska.com>
+To: <BLDG-SIM at GARD.COM>
+Sent: Wednesday, January 28, 2004 4:45 PM
+Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+
+
+There are no commercially available energy simulation tools, I am aware of,
+that will simulate the complexity of a double skin fa?ade.  The performance
+of these systems varies dramatically with the type of fa?ade and its
+interaction with the building's HVAC system.  At best, I would suggest you
+dig into the research and publications to determine what kind of system you
+wish to model, then begin to develop a set of assumptions you can use in the
+analysis. When modeling an advanced fa?ade, one should go back to first
+principles.  Best of luck!
+
+
+David P. Callan, MS, PE, CEM
+Senior Associate
+LEEDTM Accredited Professional
+Syska Hennessy Group, Inc.
+Email:dcallan at syska.com
+http://www.syska.com
+
+
+-----Original Message-----
+From: stvgates at pacbell.net [mailto:stvgates at pacbell.net]
+Sent: Tuesday, January 27, 2004 8:36 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+
+See comments imbedded below ........
+
+----- Original Message ----- 
+From: "Kevin Krudwig" <kdk_71 at yahoo.com>
+To: <BLDG-SIM at GARD.COM>
+Sent: Saturday, January 24, 2004 8:26 PM
+Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+
+
+> Hello,
+> Can anyone tell me:
+>
+> Is it possible to simulate a double skin fa?ade with
+> eQuest?
+> If so, how to?
+
+I am not aware of an accurate way to simulate a double skin facade in
+eQUEST, but a quick back-of-the-envelope analysis may suffice to draw
+conclusions about this concept:
+
+1.  Assume your building costs $150/sq.ft. to build, and that the
+double-skin is 10% of that cost, or $15.
+2.  Assume that energy for the building costs $1.25/sq.ft./year, and that
+the double-skin saves 25% of the total energy budget, or $0.31/sq.ft./year.
+(In many buildings, lights and plug loads comprise about half the energy
+cost, and this analysis assumes the double-skin has no impact on either.  So
+this guestimate is based on the double skin saving 50% of the HVAC costs,
+which seems quite optimistic.)
+3.  The simple payback is then $15/$0.31 = 48 years.  This assumes an
+opportunity cost of 0%, and no additional operating and/or maintenance
+costs. If the actual interest rate is 5%,
+the annual interest cost is $15*0.05 = $0.75/year; or more than twice the
+energy savings.  Given the interest cost, the double-skin would have to
+eliminate ALL of the HVAC energy, and a portion of the lighting as well.
+
+So, is a double-skin facade worthwhile?  Unless the assumed cost of the
+double skin is high by a factor of at least 3, this concept does not appear
+worth considering.
+
+Does anyone have any better information on construction costs and energy
+savings of an actual building using a double-skin facade?  To me, this
+concept is so far out in left field that I don't understand why there is so
+much interest in it.
+
+>
+> Is it possible to simulate a dynamic fa?ade with
+> eQuest?
+
+I'm not sure what you mean by a dynamic facade.  In regards to dynamic
+shading in eQUEST, you can define a schedule that modifies the transmittance
+of a building shade.
+
+> One that incorporates Photovoltaics?
+
+Yes, eQUEST simulates photovoltaics.  The PV modules can be mounted
+stand-alone, or incorporated as part of a building shade.  Be sure to use a
+recent version, as the photovoltaic algorithms were upgraded last fall.
+Study the PV-MODULE and ELEC-GENERATOR sections in the DOE-2.2 Dictionary.
+>
+> Thanks
+> Kevin K.
+>
+>
+> __________________________________
+> Do you Yahoo!?
+> Yahoo! SiteBuilder - Free web site building tool. Try it!
+> http://webhosting.yahoo.com/ps/sb/
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From YJHuang at lbl.gov  Fri Jan 30 18:50:19 2004
+From: YJHuang at lbl.gov (Joe Huang)
+Date: Fri, 30 Jan 2004 18:50:19 -0800
+Subject: [BLDG-SIM] Metro Stations
+References: <MDAEMON-F200401301859.AA5950765pd80000752931@gard.com>
+Message-ID: <MDAEMON-F200401302051.AA5147296pd80000583188@gard.com>
+
+S. Hassid, Ed,
+
+That is correct. I remember that Tsinghua University had a project about
+8-10 years ago where they modeled metro stations in Teheran, Iran, using CFD
+to study smoke control strategies.  The best person to contact at Tsinghua
+is Dr. JIANG Yi (Jiang is the family name) at jiangyi at tsinghua.edu.cn.
+
+Joe Huang
+
+----- Original Message -----
+From: "Edward F. Sowell" <sowell at fullerton.edu>
+To: <BLDG-SIM at gard.com>
+Sent: Friday, January 30, 2004 4:58 PM
+Subject: [BLDG-SIM] Metro Stations
+
+
+> I have a recollection of hearing a presentation on modeling of a metro
+> station while visiting the Thermal Engineering department at
+> Tsinghua University  several years ago. I do not remember the investigator
+> for sure, but perhaps
+> Prof. Yingxin Zhu zhuyx at tsinghua.edu.cn.
+>
+> Ed Sowell
+>
+>  I was wondering if anybody has any information on dealing with the
+climate
+> with metro (underground) stations.
+>                              S. Hassid
+>
+>
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From sowell at fullerton.edu  Fri Jan 30 16:58:32 2004
+From: sowell at fullerton.edu (Edward F. Sowell)
+Date: Fri, 30 Jan 2004 16:58:32 -0800
+Subject: [BLDG-SIM] Metro Stations
+In-Reply-To: <MDAEMON-F200401280528.AA285578pd80000740202@gard.com>
+Message-ID: <MDAEMON-F200401301859.AA5952187pd80000583068@gard.com>
+
+ I have a recollection of hearing a presentation on modeling of a metro
+station while visiting the Thermal Engineering department at
+Tsinghua University  several years ago. I do not remember the investigator
+for sure, but perhaps
+Prof. Yingxin Zhu zhuyx at tsinghua.edu.cn.
+
+Ed Sowell
+
+ I was wondering if anybody has any information on dealing with the climate
+with metro (underground) stations.
+                             S. Hassid
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kdk_71 at yahoo.com  Fri Jan 30 15:59:13 2004
+From: kdk_71 at yahoo.com (Kevin Krudwig)
+Date: Fri, 30 Jan 2004 15:59:13 -0800 (PST)
+Subject: [BLDG-SIM] eQuest Footprint
+Message-ID: <MDAEMON-F200401301800.AA0026187pd80000582966@gard.com>
+
+I want a building to slope up on one side. Is this
+possible in eQuest? If
+so, any suggestions?
+
+Thanks
+Kevin
+
+
+__________________________________
+Do you Yahoo!?
+Yahoo! SiteBuilder - Free web site building tool. Try it!
+http://webhosting.yahoo.com/ps/sb/
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From JAulbach at semprasolutions.com  Fri Jan 30 11:46:47 2004
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Fri, 30 Jan 2004 11:46:47 -0800
+Subject: [BLDG-SIM] determining summer vs. winter loads
+Message-ID: <MDAEMON-F200401301349.AA491293pd80000582661@gard.com>
+
+If you have a 70C thermostat setpoint, your house must be close to the
+Martian lander site (158F). I assume you mean 70F.
+
+You need a load simulation program to simulate the house, or use a Bin
+temperature setup to establish heating and cooling loads. Since your house
+is running 24/7, the Bin Method is very appropriate, and the 8,760 loading
+will break down into all heating or all cooling loads. Assuming 70F is both
+the heating and the cooling setpoint, you can determine total hours cooling
+and total hours heating LOAD.
+
+Then subtract off the hours your cooling and heating system ran. You will
+then have the load hours happening when the HVAC is not running.
+
+There are Bin Method experts out there who can explain it much better. But I
+believe this is your gist.
+
+-----Original Message-----
+From: Ian Doebber [mailto:idoebber at vt.edu]
+Sent: Friday, January 30, 2004 11:26 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] determining summer vs winter loads
+
+
+I have a years worth of energy data for a house.  I am wondering how to
+break it up into what contributes to the overall heating load and what
+contributes to the overall cooling load.  So far, all the energy data during
+hours the HVAC system is heating goes to the heating load and likewise, all
+the energy data during hours the HVAC system is cooling goes to the cooling
+load.  Pretty straight forward.  Yet I am wondering how to break up those
+hours when the HVAC system is off.  Right now all I do is put data into
+heating load if the hourly outside drybulb temperature is less then my
+inside temperature set point (70 C) and the rest of these hours into my
+cooling load.  This is just a rough estimate.  I am wondering if there is a
+set benchmark for breaking up the cooling and heating loads.
+
+Thanks
+Ian Doebber
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From idoebber at vt.edu  Fri Jan 30 11:26:28 2004
+From: idoebber at vt.edu (Ian Doebber)
+Date: Fri, 30 Jan 2004 14:26:28 -0500
+Subject: [BLDG-SIM] determining summer vs winter loads
+References: <MDAEMON-F200401272348.AA4812312pd80000739119@gard.com>
+Message-ID: <MDAEMON-F200401301326.AA2602296pd80000582618@gard.com>
+
+I have a years worth of energy data for a house.  I am wondering how to
+break it up into what contributes to the overall heating load and what
+contributes to the overall cooling load.  So far, all the energy data during
+hours the HVAC system is heating goes to the heating load and likewise, all
+the energy data during hours the HVAC system is cooling goes to the cooling
+load.  Pretty straight forward.  Yet I am wondering how to break up those
+hours when the HVAC system is off.  Right now all I do is put data into
+heating load if the hourly outside drybulb temperature is less then my
+inside temperature set point (70 C) and the rest of these hours into my
+cooling load.  This is just a rough estimate.  I am wondering if there is a
+set benchmark for breaking up the cooling and heating loads.
+
+Thanks
+Ian Doebber
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From sagerer at paonline.com  Fri Jan 30 07:14:30 2004
+From: sagerer at paonline.com (Sheila Sagerer)
+Date: Fri, 30 Jan 2004 10:14:30 -0500
+Subject: [BLDG-SIM] DOE 2 reports for load and energy comparison
+In-Reply-To: <MDAEMON-F200401292156.AA5627687pd80000749185@gard.com>
+Message-ID: <MDAEMON-F200401300915.AA1549875pd80000582301@gard.com>
+
+Hi Leela-
+
+Another report you can use is the LS-C which gives the peak load per
+building component, i.e. wall conduction, roof conduction, window
+conduction, window solar gain, etc.  When making similar comparisons, I
+usually don't bother with the LS-F report but use the BEPU &/or the BEPS
+along with the LS-A report you mentioned.  I find the BEP reports easier to
+use than the LS-F unless you're looking for more detailed info.
+
+I hope this helps.  Have a nice weekend.
+
+Sheila Sagerer
+Energy Engineer
+
+Energy Opportunities, Inc
+Phone: 717-880-9069
+Fax:  717-291-9497
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Leela Kala
+Sent: Thursday, January 29, 2004 10:55 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] DOE 2 reports for load and energy comparison
+
+
+Hi,
+
+I am comparing a couple of insulation materials and
+their effect on load and energy consumption of a
+building using DOE2 programs. I would like to carry
+out similar exercise for windows. I am not sure which
+output data should I use for comparison. I think it
+would be more appropriate to use loads at space level
+i.e. use LS-A (KBTU//hr)for peak load and LS-F
+(MBTU)for energy instead of PS reports. This can give
+the contribution of individual components as well. Am
+I making any mistake here? Any suggestions will be
+highly appreciated.
+
+Thanks
+
+Leela
+
+
+________________________________________________________________________
+Yahoo! India Mobile: Download the latest polyphonic ringtones.
+Go to http://in.mobile.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cj at cr-jay.ca  Fri Jan 30 03:59:31 2004
+From: cj at cr-jay.ca (Chris Jones)
+Date: Fri, 30 Jan 2004 06:59:31 -0500
+Subject: [BLDG-SIM] FW:  ASHRAE 90.1-1989 Power Adjustment Factors
+In-Reply-To: <64246EB5AD1B6E42970E2E721DF5E0DC4E79C4@pnlmse25.pnl.gov>
+References: <64246EB5AD1B6E42970E2E721DF5E0DC4E79C4@pnlmse25.pnl.gov>
+Message-ID: <MDAEMON-F200401300549.AA490315pd80000582072@gard.com>
+
+Thanks for that reply.  I was actually looking for back ground on the 
+Lighting Control Power Adjustment Factors as outlined in ASHRAE 90.1-1989 
+Section 6.4.3.  For example, for daylighting, on/off control the PAF is 0.1.
+
+
+>Here is the response I got from Eric Richman, 90.1 lighting subcommittee 
+>chair,
+>
+>- krishnan
+>
+>         -----Original Message-----
+>         From: Richman, Eric E
+>         Sent: Thu 1/29/2004 4:50 PM
+>         To: Gowri, Krishnan
+>         Cc:
+>         Subject: RE: [BLDG-SIM] ASHRAE 90.1-1989 Power Adjustment Factors
+>
+>
+>
+>         As the current chair of the 90.1 lighting subcommittee, I can 
+> offer the following:
+>         The power adjustment factors (the factor that uses room 
+> dimensions to adjust LPD values up) are based on the calculation method 
+> for LPD determination from the old IESNA LEM-1 procedure.  These factors 
+> recognize the fact that different space types have different dimensions 
+> that will effect the required LPD to light a room.
+>
+>         The 90.1-1999/2001 standard has done away with these adjustments 
+> (primarily for ease of use of the standard) in favor of a standard 
+> representative LPD that reflects the commonly expected RCR value for each 
+> specific space type.  It was recognized early in the 90.1-1999 
+> development process that specific space types generally had consistent 
+> RCR categories within that space type.  The resulting LPDs used in the 
+> standard incorporate these typical RCR characteristics.
+>
+>         Eric E. Richman
+>         Pacific Northwest National Laboratory
+>         P. O. Box 999  MS K5-16
+>         Richland, WA  99352
+>         (509) 375-3655
+>         (509) 375-3614 (FAX)
+>
+>
+>         -----Original Message-----
+>         From: Gowri, Krishnan
+>         Sent: Thursday, January 29, 2004 10:50 AM
+>         To: Richman, Eric E
+>         Subject: FW: [BLDG-SIM] ASHRAE 90.1-1989 Power Adjustment Factors
+>
+>
+>         Eric:  You may have an answer for this question, - krishnan
+>
+>         -----Original Message-----
+>         From: Chris Jones [mailto: <mailto:cj at cr-jay.ca> ]
+>         Sent: Thursday, January 29, 2004 10:32 AM
+>         To:
+>         Subject: [BLDG-SIM] ASHRAE 90.1-1989 Power Adjustment Factors
+>
+>
+>         Does anyone know how the ASHRAE 90.1-1989 Lighting Power 
+> Adjustment Factors
+>         were derived?  See 90.1-1989 6.4.3.
+>         Why were they dropped from subsequent versions of 90.1?
+>
+>
+>
+>         Chris Jones, P. Eng.
+>         14 Oneida Avenue
+>         Toronto, ON M5J 2E3
+>         Tel. 416 203-7465
+>         Fax. 416 203-8249
+>
+>         ======================================================
+>         You received this e-mail because you are subscribed
+>         to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>         from this mailing list send a blank message to
+>         BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+Chris Jones, P. Eng.
+14 Oneida Avenue
+Toronto, ON M5J 2E3
+Tel. 416 203-7465
+Fax. 416 203-8249
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kala_sim at yahoo.co.in  Thu Jan 29 19:55:10 2004
+From: kala_sim at yahoo.co.in (=?iso-8859-1?q?Leela=20Kala?=)
+Date: Fri, 30 Jan 2004 03:55:10 +0000 (GMT)
+Subject: [BLDG-SIM] DOE 2 reports for load and energy comparison
+In-Reply-To: <MDAEMON-F200401291046.AA4613421pd80000745908@gard.com>
+Message-ID: <MDAEMON-F200401292156.AA5626531pd80000581604@gard.com>
+
+Hi,
+
+I am comparing a couple of insulation materials and
+their effect on load and energy consumption of a
+building using DOE2 programs. I would like to carry
+out similar exercise for windows. I am not sure which
+output data should I use for comparison. I think it
+would be more appropriate to use loads at space level
+i.e. use LS-A (KBTU//hr)for peak load and LS-F
+(MBTU)for energy instead of PS reports. This can give
+the contribution of individual components as well. Am
+I making any mistake here? Any suggestions will be
+highly appreciated.
+
+Thanks
+
+Leela
+
+
+________________________________________________________________________
+Yahoo! India Mobile: Download the latest polyphonic ringtones.
+Go to http://in.mobile.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From krishnan.gowri at pnl.gov  Thu Jan 29 17:18:24 2004
+From: krishnan.gowri at pnl.gov (Gowri, Krishnan)
+Date: Thu, 29 Jan 2004 17:18:24 -0800
+Subject: [BLDG-SIM] ASHRAE 90.1-1989 Power Adjustment Factors
+Message-ID: <MDAEMON-F200401291933.AA3328843pd80000581456@gard.com>
+
+Here is the response I got from Eric Richman, 90.1 lighting subcommittee chair,
+ 
+- krishnan
+
+	-----Original Message----- 
+	From: Richman, Eric E 
+	Sent: Thu 1/29/2004 4:50 PM 
+	To: Gowri, Krishnan 
+	Cc: 
+	Subject: RE: [BLDG-SIM] ASHRAE 90.1-1989 Power Adjustment Factors
+	
+	
+
+	As the current chair of the 90.1 lighting subcommittee, I can offer the following: 
+	The power adjustment factors (the factor that uses room dimensions to adjust LPD values up) are based on the calculation method for LPD determination from the old IESNA LEM-1 procedure.  These factors recognize the fact that different space types have different dimensions that will effect the required LPD to light a room.
+
+	The 90.1-1999/2001 standard has done away with these adjustments (primarily for ease of use of the standard) in favor of a standard representative LPD that reflects the commonly expected RCR value for each specific space type.  It was recognized early in the 90.1-1999 development process that specific space types generally had consistent RCR categories within that space type.  The resulting LPDs used in the standard incorporate these typical RCR characteristics.
+
+	Eric E. Richman 
+	Pacific Northwest National Laboratory 
+	P. O. Box 999  MS K5-16 
+	Richland, WA  99352 
+	(509) 375-3655 
+	(509) 375-3614 (FAX) 
+
+
+	-----Original Message----- 
+	From: Gowri, Krishnan 
+	Sent: Thursday, January 29, 2004 10:50 AM 
+	To: Richman, Eric E 
+	Subject: FW: [BLDG-SIM] ASHRAE 90.1-1989 Power Adjustment Factors 
+
+
+	Eric:  You may have an answer for this question, - krishnan 
+
+	-----Original Message----- 
+	From: Chris Jones [mailto: <mailto:cj at cr-jay.ca> ] 
+	Sent: Thursday, January 29, 2004 10:32 AM 
+	To:  
+	Subject: [BLDG-SIM] ASHRAE 90.1-1989 Power Adjustment Factors 
+
+
+	Does anyone know how the ASHRAE 90.1-1989 Lighting Power Adjustment Factors 
+	were derived?  See 90.1-1989 6.4.3. 
+	Why were they dropped from subsequent versions of 90.1? 
+
+
+
+	Chris Jones, P. Eng. 
+	14 Oneida Avenue 
+	Toronto, ON M5J 2E3 
+	Tel. 416 203-7465 
+	Fax. 416 203-8249 
+
+	====================================================== 
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM 
+
+
+From rkstrand at uiuc.edu  Thu Jan 29 15:11:55 2004
+From: rkstrand at uiuc.edu (Rick Strand)
+Date: Thu, 29 Jan 2004 17:11:55 -0600
+Subject: [BLDG-SIM] SimBuild 2004 Final Reminder
+Message-ID: <MDAEMON-F200401291733.AA3357296pd80000581328@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040129/0c430b9b/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 8b05b8.jpg
+Type: image/jpeg
+Size: 14655 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040129/0c430b9b/attachment.jpg>
+
+From cj at cr-jay.ca  Thu Jan 29 10:31:34 2004
+From: cj at cr-jay.ca (Chris Jones)
+Date: Thu, 29 Jan 2004 13:31:34 -0500
+Subject: [BLDG-SIM] ASHRAE 90.1-1989 Power Adjustment Factors
+Message-ID: <MDAEMON-F200401291221.AA2103265pd80000580897@gard.com>
+
+Does anyone know how the ASHRAE 90.1-1989 Lighting Power Adjustment Factors 
+were derived?  See 90.1-1989 6.4.3.
+Why were they dropped from subsequent versions of 90.1?
+
+
+
+Chris Jones, P. Eng.
+14 Oneida Avenue
+Toronto, ON M5J 2E3
+Tel. 416 203-7465
+Fax. 416 203-8249
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From werner at cstb.fr  Thu Jan 29 08:44:48 2004
+From: werner at cstb.fr (Werner Keilholz)
+Date: Thu, 29 Jan 2004 17:44:48 +0100
+Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+References: <MDAEMON-F200401290731.AA3148500pd80000744754@gard.com>
+Message-ID: <MDAEMON-F200401291046.AA4613218pd80000580754@gard.com>
+
+You may also wish to take a look at the example projects
+for the TRNSYS-COMIS coupling done by EMPA.
+
+One of them is a double facade.
+
+They are still on our Web site at
+http://software.cstb.fr/IISiBat/coupling.asp
+
+-> section "Download Service Pack 2 - Advanced example of a coupled simulation"
+then "Download short Powerpoint presentation ".
+
+Werner
+--
+  /    \____ Werner Keilholz, Software Development Group Leader
+  \____/     CSTB Sophia Antipolis, SAIL
+  /    \____ s-mail: BP 209, 06904 SOPHIA ANTIPOLIS,  F R A N C E
+  \____/     phone: +33 (0)4 93 95 67 00 -- fax: +33 (0)4 93 95 67 33
+  /    \____ Mailto:werner at cstb.fr -- ASPAM=antispamwpk42
+  \____/     http://evl.cstb.fr/english/team/WK/werner.htm
+
+  French TRNSYS user meeting: March 8, 2004 - http://software.cstb.fr
+
+
+
+"Ferguson, Alex" wrote:
+
+> A fair bit of double-facade modelling work has been done in Europe using
+> ESP-r. If you are seriously considering this technology, you may find the
+> following lecture notes from a course offered by Jan Hensen to be a useful
+> starting point:
+>
+> http://www.bwk.tue.nl/fago/hensen/courseware/CVUT-capita/
+>
+> In his notes, Hensen provides a brief description of the relevant physics
+> and an example set of ESP-r input files.
+>
+> - Regards
+>
+> Alex Ferguson
+> Research Assistant
+> Buildings Group, CETC
+> Natural Resources Canada
+> P:+1 613 995 3294
+> F:+1 613 996 9909
+> Alex.Ferguson at nrcan.gc.ca
+>
+> -----Original Message-----
+> From: Callan, David [mailto:dcallan at syska.com]
+> Sent: Wednesday, January 28, 2004 12:45 AM
+> To: BLDG-SIM at GARD.COM
+> Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+>
+> There are no commercially available energy simulation tools, I am aware of,
+> that will simulate the complexity of a double skin fa?ade.  The performance
+> of these systems varies dramatically with the type of fa?ade and its
+> interaction with the building's HVAC system.  At best, I would suggest you
+> dig into the research and publications to determine what kind of system you
+> wish to model, then begin to develop a set of assumptions you can use in the
+> analysis. When modeling an advanced fa?ade, one should go back to first
+> principles.  Best of luck!
+>
+> David P. Callan, MS, PE, CEM
+> Senior Associate
+> LEEDTM Accredited Professional
+> Syska Hennessy Group, Inc.
+> Email:dcallan at syska.com
+> http://www.syska.com
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ckmail at pd.jaring.my  Thu Jan 29 08:21:55 2004
+From: ckmail at pd.jaring.my (CKTang)
+Date: Fri, 30 Jan 2004 00:21:55 +0800
+Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+In-Reply-To: <MDAEMON-F200401290731.AA3135921pd80000744317@gard.com>
+Message-ID: <MDAEMON-F200401291035.AA3538984pd80000580735@gard.com>
+
+If you don't have the time to learn up esp-r, you may use ies virtual 
+environment that is modeled after esp-r. although not as 
+comprehensive as esp-r, it provides the necessary bulk network flow 
+coupled with energy simulation to give a good prediction of double 
+skin. 
+
+check their website at: www.iesve.com
+
+
+On 29 Jan 2004 at 8:22, Ferguson, Alex wrote:
+
+> A fair bit of double-facade modelling work has been done in Europe using
+> ESP-r. If you are seriously considering this technology, you may find the
+> following lecture notes from a course offered by Jan Hensen to be a 
+useful
+> starting point:
+> 
+> http://www.bwk.tue.nl/fago/hensen/courseware/CVUT-capita/
+> 
+> In his notes, Hensen provides a brief description of the relevant 
+physics
+> and an example set of ESP-r input files.  
+> 
+> - Regards
+> 
+> 
+> Alex Ferguson
+> Research Assistant
+> Buildings Group, CETC
+> Natural Resources Canada
+> P:+1 613 995 3294
+> F:+1 613 996 9909
+> Alex.Ferguson at nrcan.gc.ca
+> 
+> 
+> 
+> -----Original Message-----
+> From: Callan, David [mailto:dcallan at syska.com]
+> Sent: Wednesday, January 28, 2004 12:45 AM
+> To: BLDG-SIM at GARD.COM
+> Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+> 
+> 
+> There are no commercially available energy simulation tools, I am 
+aware of,
+> that will simulate the complexity of a double skin fa?ade.  The 
+performance
+> of these systems varies dramatically with the type of fa?ade and its
+> interaction with the building's HVAC system.  At best, I would 
+suggest you
+> dig into the research and publications to determine what kind of 
+system you
+> wish to model, then begin to develop a set of assumptions you can 
+use in the
+> analysis. When modeling an advanced fa?ade, one should go back 
+to first
+> principles.  Best of luck!
+> 
+> 
+> David P. Callan, MS, PE, CEM
+> Senior Associate
+> LEEDTM Accredited Professional
+> Syska Hennessy Group, Inc.
+> Email:dcallan at syska.com 
+> http://www.syska.com 
+> 
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From AFerguso at NRCan.gc.ca  Thu Jan 29 05:22:48 2004
+From: AFerguso at NRCan.gc.ca (Ferguson, Alex)
+Date: Thu, 29 Jan 2004 08:22:48 -0500
+Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+Message-ID: <MDAEMON-F200401290731.AA3136718pd80000580435@gard.com>
+
+A fair bit of double-facade modelling work has been done in Europe using
+ESP-r. If you are seriously considering this technology, you may find the
+following lecture notes from a course offered by Jan Hensen to be a useful
+starting point:
+
+http://www.bwk.tue.nl/fago/hensen/courseware/CVUT-capita/
+
+In his notes, Hensen provides a brief description of the relevant physics
+and an example set of ESP-r input files.  
+
+- Regards
+
+
+Alex Ferguson
+Research Assistant
+Buildings Group, CETC
+Natural Resources Canada
+P:+1 613 995 3294
+F:+1 613 996 9909
+Alex.Ferguson at nrcan.gc.ca
+
+
+
+-----Original Message-----
+From: Callan, David [mailto:dcallan at syska.com]
+Sent: Wednesday, January 28, 2004 12:45 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+
+
+There are no commercially available energy simulation tools, I am aware of,
+that will simulate the complexity of a double skin fa?ade.  The performance
+of these systems varies dramatically with the type of fa?ade and its
+interaction with the building's HVAC system.  At best, I would suggest you
+dig into the research and publications to determine what kind of system you
+wish to model, then begin to develop a set of assumptions you can use in the
+analysis. When modeling an advanced fa?ade, one should go back to first
+principles.  Best of luck!
+
+
+David P. Callan, MS, PE, CEM
+Senior Associate
+LEEDTM Accredited Professional
+Syska Hennessy Group, Inc.
+Email:dcallan at syska.com 
+http://www.syska.com 
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From JAulbach at semprasolutions.com  Wed Jan 28 18:10:41 2004
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Wed, 28 Jan 2004 18:10:41 -0800
+Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+Message-ID: <MDAEMON-F200401282012.AA1235687pd80000579892@gard.com>
+
+What is a double skinned building? The term is unfamiliar to me..
+
+-----Original Message-----
+From: Fred Porter [mailto:fporter at archenergy.com]
+Sent: Wednesday, January 28, 2004 5:48 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+
+
+The only way a double skin pays off is if it replaces most of the VAC 
+part of the HVAC system, greatly decreasing the net cost in the payback 
+numerator. This may only be possible where the design conditions are  
+moderate such as northern Europe or some maritime climates. High Euro 
+energy costs, and use of the interstitial space for daylighting 
+parephenalia will increase the denominator.
+
+If that is possible, the numbers might look like 
+($15-10+)/($0.31*2+/year) equals under 9 years. The architect gets a 
+"transparent" building, and it might be worth the simulation time. But 
+you might not want to hang out on the top floor during a heat storm like 
+last summer's.
+
+
+stvgates at pacbell.net wrote:
+
+>
+>1.  Assume your building costs $150/sq.ft. to build, and that the
+>double-skin is 10% of that cost, or $15.
+>2.  Assume that energy for the building costs $1.25/sq.ft./year, and that
+>the double-skin saves 25% of the total energy budget, or $0.31/sq.ft./year.
+>(In many buildings, lights and plug loads comprise about half the energy
+>cost, and this analysis assumes the double-skin has no impact on either.
+So
+>this guestimate is based on the double skin saving 50% of the HVAC costs,
+>which seems quite optimistic.)
+>3.  The simple payback is then $15/$0.31 = 48 years.  
+>
+
+-- 
+Fred W. Porter 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From fporter at archenergy.com  Wed Jan 28 17:48:02 2004
+From: fporter at archenergy.com (Fred Porter)
+Date: Wed, 28 Jan 2004 18:48:02 -0700
+Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+References: <MDAEMON-F200401242228.AA2803281pd80000735157@gard.com> <MDAEMON-F200401271942.AA4200281pd80000738370@gard.com>
+Message-ID: <MDAEMON-F200401281949.AA4954593pd80000579855@gard.com>
+
+The only way a double skin pays off is if it replaces most of the VAC 
+part of the HVAC system, greatly decreasing the net cost in the payback 
+numerator. This may only be possible where the design conditions are  
+moderate such as northern Europe or some maritime climates. High Euro 
+energy costs, and use of the interstitial space for daylighting 
+parephenalia will increase the denominator.
+
+If that is possible, the numbers might look like 
+($15-10+)/($0.31*2+/year) equals under 9 years. The architect gets a 
+"transparent" building, and it might be worth the simulation time. But 
+you might not want to hang out on the top floor during a heat storm like 
+last summer's.
+
+
+stvgates at pacbell.net wrote:
+
+>
+>1.  Assume your building costs $150/sq.ft. to build, and that the
+>double-skin is 10% of that cost, or $15.
+>2.  Assume that energy for the building costs $1.25/sq.ft./year, and that
+>the double-skin saves 25% of the total energy budget, or $0.31/sq.ft./year.
+>(In many buildings, lights and plug loads comprise about half the energy
+>cost, and this analysis assumes the double-skin has no impact on either.  So
+>this guestimate is based on the double skin saving 50% of the HVAC costs,
+>which seems quite optimistic.)
+>3.  The simple payback is then $15/$0.31 = 48 years.  
+>
+
+-- 
+Fred W. Porter 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Vikram at ensargroup.com  Wed Jan 28 09:58:19 2004
+From: Vikram at ensargroup.com (Vikram Sami)
+Date: Wed, 28 Jan 2004 10:58:19 -0700
+Subject: [BLDG-SIM] Metering in eQUEST
+Message-ID: <MDAEMON-F200401281159.AA5932781pd80000579266@gard.com>
+
+I'm working on a project where I need to separate out the energy used in a single zone of my building from the rest of the building for the BEPU & BEPS reports, as well as for the simulation results reports. Can anyone suggest a method to do this?
+
+Thanks
+
+Vikram Sami
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mbusman at noresco.com  Wed Jan 28 09:09:20 2004
+From: mbusman at noresco.com (mbusman at noresco.com)
+Date: Wed, 28 Jan 2004 12:09:20 -0500
+Subject: [BLDG-SIM] DOE2.1E variable speed exhaust fans
+Message-ID: <MDAEMON-F200401281107.AA0747828pd80000579190@gard.com>
+
+Greg,
+
+It probably depends on what type of lab building it is.  If the labs are
+going to be controlled by space conditions and don't have any unusual
+exhaust requirements, you can probably do this in the systems tab.  As you
+define your air handling system, click the check box for return fan
+(return/exhaust) and define it as variable speed.  You'll need to define the
+supply fan as variable speed also.  If it is a 100% outside air system, make
+sure you check the box for min. O.A. and input 100%.
+
+This could get a little trickier if you have a lab with fume hoods and VAV
+sash controllers.  In this instance, you might have to interview or observe
+the occupants to get an idea of the typical operation of the hoods and sash
+positions.  In this instance you can probably define the air handling system
+as 100% outdoor air and variable volume reheat with the variable speed
+return/exhaust fan.  Based on the interview or observations, it's probably
+possible to come up with an hourly fraction schedule to apply to outdoor
+air.  If the sashes are generally closed, make sure you still maintain a
+negative pressure in relation to the corridor outside.  If I remember
+correctly, the fraction schedule should override the fan operating on/off
+schedule and vary the air quantity and fan kW.
+
+Mike Busman, C.E.M.
+Senior Project Engineer
+NORESCO, LLC
+17671 Cowan, Suite 206
+Irvine, CA  92614
+tel. 949-253-3533, ext. 303
+fax  949-253-2049
+
+-----Original Message-----
+From: Greg Schlegel [mailto:gschlegel at aeieng.com]
+Sent: Wednesday, January 28, 2004 7:54 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] DOE2.1E variable speed exhaust fans
+
+
+I am working on an  DOE2 energy analysis (using Visual DOE 3.1) for a
+laboratory building.
+I'm relatively new to DOE2 and was wondering if anyone knew
+of a method to model variable speed exhaust fans?
+Thanks.
+
+Greg Schlegel
+
+=====================================================You received this
+e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From gschlegel at aeieng.com  Wed Jan 28 07:53:59 2004
+From: gschlegel at aeieng.com (Greg Schlegel)
+Date: Wed, 28 Jan 2004 09:53:59 -0600
+Subject: [BLDG-SIM] DOE2.1E variable speed exhaust fans
+Message-ID: <MDAEMON-F200401280955.AA5522812pd80000579088@gard.com>
+
+I am working on an  DOE2 energy analysis (using Visual DOE 3.1) for a laboratory building.
+I'm relatively new to DOE2 and was wondering if anyone knew
+of a method to model variable speed exhaust fans?
+Thanks.
+
+Greg Schlegel
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cvrhasd at techunix.technion.ac.il  Wed Jan 28 03:27:52 2004
+From: cvrhasd at techunix.technion.ac.il (Samuel Hassid)
+Date: Wed, 28 Jan 2004 13:27:52 +0200
+Subject: [BLDG-SIM] Metro Stations
+Message-ID: <MDAEMON-F200401280528.AA285031pd80000578803@gard.com>
+
+I was wondering if anybody has any information on dealing with the climate with metro (underground) stations.
+                             S. Hassid
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040128/599081dd/attachment.htm>
+
+From dcallan at syska.com  Tue Jan 27 21:45:25 2004
+From: dcallan at syska.com (Callan, David)
+Date: Wed, 28 Jan 2004 00:45:25 -0500
+Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+Message-ID: <MDAEMON-F200401272348.AA4812453pd80000578456@gard.com>
+
+There are no commercially available energy simulation tools, I am aware of,
+that will simulate the complexity of a double skin fa?ade.  The performance
+of these systems varies dramatically with the type of fa?ade and its
+interaction with the building's HVAC system.  At best, I would suggest you
+dig into the research and publications to determine what kind of system you
+wish to model, then begin to develop a set of assumptions you can use in the
+analysis. When modeling an advanced fa?ade, one should go back to first
+principles.  Best of luck!
+
+
+David P. Callan, MS, PE, CEM
+Senior Associate
+LEEDTM Accredited Professional
+Syska Hennessy Group, Inc.
+Email:dcallan at syska.com 
+http://www.syska.com 
+
+
+-----Original Message-----
+From: stvgates at pacbell.net [mailto:stvgates at pacbell.net] 
+Sent: Tuesday, January 27, 2004 8:36 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+
+See comments imbedded below ........
+
+----- Original Message ----- 
+From: "Kevin Krudwig" <kdk_71 at yahoo.com>
+To: <BLDG-SIM at GARD.COM>
+Sent: Saturday, January 24, 2004 8:26 PM
+Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+
+
+> Hello,
+> Can anyone tell me:
+>
+> Is it possible to simulate a double skin fa?ade with
+> eQuest?
+> If so, how to?
+
+I am not aware of an accurate way to simulate a double skin facade in
+eQUEST, but a quick back-of-the-envelope analysis may suffice to draw
+conclusions about this concept:
+
+1.  Assume your building costs $150/sq.ft. to build, and that the
+double-skin is 10% of that cost, or $15.
+2.  Assume that energy for the building costs $1.25/sq.ft./year, and that
+the double-skin saves 25% of the total energy budget, or $0.31/sq.ft./year.
+(In many buildings, lights and plug loads comprise about half the energy
+cost, and this analysis assumes the double-skin has no impact on either.  So
+this guestimate is based on the double skin saving 50% of the HVAC costs,
+which seems quite optimistic.)
+3.  The simple payback is then $15/$0.31 = 48 years.  This assumes an
+opportunity cost of 0%, and no additional operating and/or maintenance
+costs. If the actual interest rate is 5%,
+the annual interest cost is $15*0.05 = $0.75/year; or more than twice the
+energy savings.  Given the interest cost, the double-skin would have to
+eliminate ALL of the HVAC energy, and a portion of the lighting as well.
+
+So, is a double-skin facade worthwhile?  Unless the assumed cost of the
+double skin is high by a factor of at least 3, this concept does not appear
+worth considering.
+
+Does anyone have any better information on construction costs and energy
+savings of an actual building using a double-skin facade?  To me, this
+concept is so far out in left field that I don't understand why there is so
+much interest in it.
+
+>
+> Is it possible to simulate a dynamic fa?ade with
+> eQuest?
+
+I'm not sure what you mean by a dynamic facade.  In regards to dynamic
+shading in eQUEST, you can define a schedule that modifies the transmittance
+of a building shade.
+
+> One that incorporates Photovoltaics?
+
+Yes, eQUEST simulates photovoltaics.  The PV modules can be mounted
+stand-alone, or incorporated as part of a building shade.  Be sure to use a
+recent version, as the photovoltaic algorithms were upgraded last fall.
+Study the PV-MODULE and ELEC-GENERATOR sections in the DOE-2.2 Dictionary.
+>
+> Thanks
+> Kevin K.
+>
+>
+> __________________________________
+> Do you Yahoo!?
+> Yahoo! SiteBuilder - Free web site building tool. Try it!
+> http://webhosting.yahoo.com/ps/sb/
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From stvgates at pacbell.net  Tue Jan 27 17:36:08 2004
+From: stvgates at pacbell.net (stvgates at pacbell.net)
+Date: Tue, 27 Jan 2004 17:36:08 -0800
+Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+References: <MDAEMON-F200401242228.AA2803281pd80000735157@gard.com>
+Message-ID: <MDAEMON-F200401271942.AA4200734pd80000578223@gard.com>
+
+See comments imbedded below ........
+
+----- Original Message ----- 
+From: "Kevin Krudwig" <kdk_71 at yahoo.com>
+To: <BLDG-SIM at GARD.COM>
+Sent: Saturday, January 24, 2004 8:26 PM
+Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+
+
+> Hello,
+> Can anyone tell me:
+>
+> Is it possible to simulate a double skin fa?ade with
+> eQuest?
+> If so, how to?
+
+I am not aware of an accurate way to simulate a double skin facade in
+eQUEST, but a quick back-of-the-envelope analysis may suffice to draw
+conclusions about this concept:
+
+1.  Assume your building costs $150/sq.ft. to build, and that the
+double-skin is 10% of that cost, or $15.
+2.  Assume that energy for the building costs $1.25/sq.ft./year, and that
+the double-skin saves 25% of the total energy budget, or $0.31/sq.ft./year.
+(In many buildings, lights and plug loads comprise about half the energy
+cost, and this analysis assumes the double-skin has no impact on either.  So
+this guestimate is based on the double skin saving 50% of the HVAC costs,
+which seems quite optimistic.)
+3.  The simple payback is then $15/$0.31 = 48 years.  This assumes an
+opportunity cost of 0%, and no additional operating and/or maintenance
+costs. If the actual interest rate is 5%,
+the annual interest cost is $15*0.05 = $0.75/year; or more than twice the
+energy savings.  Given the interest cost, the double-skin would have to
+eliminate ALL of the HVAC energy, and a portion of the lighting as well.
+
+So, is a double-skin facade worthwhile?  Unless the assumed cost of the
+double skin is high by a factor of at least 3, this concept does not appear
+worth considering.
+
+Does anyone have any better information on construction costs and energy
+savings of an actual building using a double-skin facade?  To me, this
+concept is so far out in left field that I don't understand why there is so
+much interest in it.
+
+>
+> Is it possible to simulate a dynamic fa?ade with
+> eQuest?
+
+I'm not sure what you mean by a dynamic facade.  In regards to dynamic
+shading in eQUEST, you can define a schedule that modifies the transmittance
+of a building shade.
+
+> One that incorporates Photovoltaics?
+
+Yes, eQUEST simulates photovoltaics.  The PV modules can be mounted
+stand-alone, or incorporated as part of a building shade.  Be sure to use a
+recent version, as the photovoltaic algorithms were upgraded last fall.
+Study the PV-MODULE and ELEC-GENERATOR sections in the DOE-2.2 Dictionary.
+>
+> Thanks
+> Kevin K.
+>
+>
+> __________________________________
+> Do you Yahoo!?
+> Yahoo! SiteBuilder - Free web site building tool. Try it!
+> http://webhosting.yahoo.com/ps/sb/
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kdk_71 at yahoo.com  Tue Jan 27 15:36:20 2004
+From: kdk_71 at yahoo.com (Kevin Krudwig)
+Date: Tue, 27 Jan 2004 15:36:20 -0800 (PST)
+Subject: [BLDG-SIM] Base Case Model-eQuest
+Message-ID: <MDAEMON-F200401271737.AA3732484pd80000578048@gard.com>
+
+Hello All,
+
+Would anyone be willing to share with me a Base Case
+Model that they may
+have done in eQuest for a typical office building.
+Maybe like 3 stories and
+about 30,000 square feet. Those number could
+definitely vary. I am not an
+engineer, so I am not certain that my figures for HVAC
+and electrical are
+normal. Any help would be greatly appreciated.
+
+Thanks
+Kevin Krudwig
+RPI
+Troy, NY. 
+
+
+__________________________________
+Do you Yahoo!?
+Yahoo! SiteBuilder - Free web site building tool. Try it!
+http://webhosting.yahoo.com/ps/sb/
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kdk_71 at yahoo.com  Mon Jan 26 19:46:44 2004
+From: kdk_71 at yahoo.com (Kevin Krudwig)
+Date: Mon, 26 Jan 2004 19:46:44 -0800 (PST)
+Subject: [BLDG-SIM] eQuest-Ceiling & Fl.
+Message-ID: <MDAEMON-F200401262147.AA4756218pd80000576850@gard.com>
+
+Does anyone know if eQuest allows you to have no drop
+ceiling but rather an
+exposed ceiling? ( for thermal storage purposes )
+Also, is there an option
+for a raised floor with an underfloor air plenum?
+
+Best
+Kevin K.
+
+
+__________________________________
+Do you Yahoo!?
+Yahoo! SiteBuilder - Free web site building tool. Try it!
+http://webhosting.yahoo.com/ps/sb/
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Vikram at ensargroup.com  Mon Jan 26 13:19:34 2004
+From: Vikram at ensargroup.com (Vikram Sami)
+Date: Mon, 26 Jan 2004 14:19:34 -0700
+Subject: [BLDG-SIM] more on utility rates
+Message-ID: <MDAEMON-F200401261520.AA2043906pd80000576435@gard.com>
+
+The process is quite simple in the wizard. You can either create your own custom rate structure (the custom option under utility in the first window), or if you are importing a rate structure, you click on the file option in the same window. If you are importing a rate file, it has to be stored in the eQUEST folder under the sub folder 'rates' with the extension *.ert for electric rates, and *.grt for gas rates. 
+Hope this helps
+
+Vikram
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of rij73
+Sent: Saturday, January 24, 2004 8:16 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] more on utility rates
+
+
+All the answers have been very helpful, and I have been getting it to work
+well. I am wondering if anyone knows how I can make a utility cost
+spreadsheet?
+
+I apologize if my questions are elementary. I have been asked to learn this
+software, and I don't really know what I am doing...
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From razerbegi at rmhgroup.com  Mon Jan 26 07:07:53 2004
+From: razerbegi at rmhgroup.com (Azerbegi, Renee)
+Date: Mon, 26 Jan 2004 08:07:53 -0700
+Subject: [BLDG-SIM] more on utility rates
+Message-ID: <MDAEMON-F200401260909.AA0903437pd80000576046@gard.com>
+
+You don't really need to make your own file. eQuest has a feature called Utility and Economics and you can create utility rates in there. Let me know if you have questions doing so.
+Renee
+
+-----Original Message-----
+From: rij73 [mailto:php at rij73.com]
+Sent: Saturday, January 24, 2004 8:16 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] more on utility rates
+
+
+All the answers have been very helpful, and I have been getting it to work
+well. I am wondering if anyone knows how I can make a utility cost
+spreadsheet?
+
+I apologize if my questions are elementary. I have been asked to learn this
+software, and I don't really know what I am doing...
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+---->
+This email and any files transmitted with it are confidential and intended solely for the use
+of the individual or entity to whom they are addressed. If you have received this email in
+error please immediately notify the RMH Group Inc. by telephone at (303) 239-0909 and/or
+send a reply to Services at RMHgroup.com with "Return to sender" in the subject line.
+<----
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kdk_71 at yahoo.com  Sat Jan 24 20:26:50 2004
+From: kdk_71 at yahoo.com (Kevin Krudwig)
+Date: Sat, 24 Jan 2004 20:26:50 -0800 (PST)
+Subject: [BLDG-SIM] eQuest Dbl Skin Sim
+Message-ID: <MDAEMON-F200401242228.AA2800281pd80000574421@gard.com>
+
+Hello,
+Can anyone tell me:
+
+Is it possible to simulate a double skin fa?ade with
+eQuest?
+If so, how to?
+
+Is it possible to simulate a dynamic fa?ade with
+eQuest?
+One that incorporates Photovoltaics?
+
+Thanks
+Kevin K.
+
+
+__________________________________
+Do you Yahoo!?
+Yahoo! SiteBuilder - Free web site building tool. Try it!
+http://webhosting.yahoo.com/ps/sb/
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From php at rij73.com  Sat Jan 24 07:15:55 2004
+From: php at rij73.com (rij73)
+Date: Sat, 24 Jan 2004 10:15:55 -0500
+Subject: [BLDG-SIM] more on utility rates
+Message-ID: <MDAEMON-F200401240917.AA1704515pd80000573814@gard.com>
+
+All the answers have been very helpful, and I have been getting it to work
+well. I am wondering if anyone knows how I can make a utility cost
+spreadsheet?
+
+I apologize if my questions are elementary. I have been asked to learn this
+software, and I don't really know what I am doing...
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mroberts20 at kc.rr.com  Fri Jan 23 21:01:25 2004
+From: mroberts20 at kc.rr.com (Mike Roberts)
+Date: Fri, 23 Jan 2004 23:01:25 -0600
+Subject: [BLDG-SIM] utility rate files
+In-Reply-To: <MDAEMON-F200401232101.AA0128828pd80000732962@gard.com>
+Message-ID: <MDAEMON-F200401232302.AA023693pd80000573317@gard.com>
+
+We have several rates posted on http://www.roberts-engineering.com/.  
+
+Mike
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of rij73
+Sent: Friday, January 23, 2004 9:00 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] utility rate files
+
+
+I am wondering if anyone has any knowledge of where I can obtain sample bdl
+utility rate files? I am trying to learn the eQuest software (based on DOE
+2.2), but I need a utility rate file. Do I just have to learn how to write
+them myself?
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From php at rij73.com  Fri Jan 23 19:00:21 2004
+From: php at rij73.com (rij73)
+Date: Fri, 23 Jan 2004 22:00:21 -0500
+Subject: [BLDG-SIM] utility rate files
+Message-ID: <MDAEMON-F200401232101.AA0128125pd80000573173@gard.com>
+
+I am wondering if anyone has any knowledge of where I can obtain sample bdl
+utility rate files? I am trying to learn the eQuest software (based on DOE
+2.2), but I need a utility rate file. Do I just have to learn how to write
+them myself?
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From razerbegi at rmhgroup.com  Fri Jan 23 13:41:11 2004
+From: razerbegi at rmhgroup.com (Azerbegi, Renee)
+Date: Fri, 23 Jan 2004 14:41:11 -0700
+Subject: [BLDG-SIM] Water side economizers
+Message-ID: <MDAEMON-F200401231542.AA4236171pd80000572815@gard.com>
+
+eQuest / DOE2 does not seem to simulate water side economizers well. In fact, in some cases it actually seems to increase the energy usage. Does anyone have an idea of how best to simulate this, or how best to approximate it, in eQuest? 
+
+Thanks for your time,
+
+Renee
+ 
+Ren?e Azerbegi, CEM 
+The RMH Group, Inc. 
+12600 West Colfax, Suite A400 
+Lakewood, Colorado  80403 
+t - 303-239-0909 x641 
+f - 303-235-0218 
+
+---->
+This email and any files transmitted with it are confidential and intended solely for the use
+of the individual or entity to whom they are addressed. If you have received this email in
+error please immediately notify the RMH Group Inc. by telephone at (303) 239-0909 and/or
+send a reply to Services at RMHgroup.com with "Return to sender" in the subject line.
+<----
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040123/f82c5d71/attachment.htm>
+
+From miket at etcgrp.com  Fri Jan 23 11:06:29 2004
+From: miket at etcgrp.com (Mike Tillou)
+Date: Fri, 23 Jan 2004 12:06:29 -0700
+Subject: [BLDG-SIM] eQUEST-enduses contributing to space loads
+Message-ID: <MDAEMON-F200401231310.AA1041937pd80000572616@gard.com>
+
+David,
+ 
+Include electric use that affects the building load within individual spaces.  Add electric use that doesn't affect the load under the electric meter (external loads).  You can add schedules to the loads to describe how much of the load gets included in each hourly calculation. 
+ 
+Michael Tillou, PE
+etc Group, Inc.
+PO Box 749 
+North Adams, MA 01247
+413-664-9070
+ 
+
+________________________________
+
+From: postman at gard.com on behalf of David Lanceta
+Sent: Wed 1/21/2004 7:42 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] eQUEST-enduses contributing to space loads
+
+
+Hello everybody, first of all, thank you for your support
+ 
+I?m using eQUEST to simulate some buildings. I have a list with some equipment that the buildings have, for example: computer (3000 W), microwave (2200 W), fridge (2000 W), lights(2000 W), elevator (30000 W).....
+ 
+I know that some of this loads contributes to space loads and some doesn?t, but I don?t know how much of the power really contributes for each load
+ 
+Is there any web where I can know which part of this power enters the space depending on the kind of load?
+ 
+How does eQUEST handle what you write in the fields? does it suppose that all this power contributes as a sensible heat load?
+ 
+To sum up, what should I write in eQUEST to take into account my different kinds of loads?
+ 
+Thanks
+ 
+=================================
+David Lanceta 
+?rea de Mec?nica de Fluidos
+Centro Polit?cnico Superior
+Universidad de Zaragoza
+Mar?a de Luna 3, tel (0034)9761000 ext 5044
+50015 ZARAGOZA
+ESPA?A
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040123/1e3260d0/attachment.htm>
+
+From miket at etcgrp.com  Fri Jan 23 11:04:55 2004
+From: miket at etcgrp.com (Mike Tillou)
+Date: Fri, 23 Jan 2004 12:04:55 -0700
+Subject: [BLDG-SIM] Day-Lighting and DOE2.1E
+Message-ID: <MDAEMON-F200401231305.AA0501921pd80000572605@gard.com>
+
+Varkie,
+ 
+The answer to your question is Yes.  LEED is going to allow the inclusion of daylighting as part of EA1.  They have been working with ASHRAE to develop Appendix G for ASHARAE 90.1-2001 Energy Code.  Appendix G provides a methodology for modeling the energy performance of a building using ASHRAE 90.1-2001 as the baseline.  I think (don't quote me) the intent is that LEED will adopt Appednix G as an acceptable methodology for determining energy performance.  The methodology addresses many of the issues that are not addressed by the Cost Budget Method to show code compliance.  Appendix G will not replace the Cost Budget Method as a means for showing code compliance.  
+ 
+Appendix G has not been officially released by ASHRAE, I am sure it will be soon though.
+ 
+Here is some of what it says about the simulation of lighting systems that pertains to your question.
+ 
+(f) Credit may be taken for the use of automatic controls for daylight utilization but only if their operation is either modeled directly in the building simulation or modeled in the building simulation through schedule adjustments determined by a separate daylighting analysis approved by the rating authority.
+(g) For automatic lighting controls in addition to those required for minimum code compliance under 9.2, credit may be taken for automatically controlled systems by reducing the connected lighting power by the applicable percentages listed in Table G3.8. Alternatively, credit may be taken for these devices by modifying the lighting schedules used for the proposed design provided credible technical documentation for the modifications are provided to the rating authority. Table G3.8 is shown below.
+ 	  	 Non 24 hr.
+ 	  	 &
+All
+Automatic Control Devices(s)
+<=5,000ft2
+Other
+(1) Programmable timing control
+10%
+0%
+(2) Occupancy sensor
+ 	 15%
+10%
+(3) Occupancy sensor and
+programmable
+timing
+ 	
+control
+ 	 15%
+10%
+Notes: The 5,000 ft2 condition pertains to the total conditioned floor area of
+the building.
+ 	  	  	
+					
+G4.4 Baseline Lighting Systems. Lighting power in the baseline building design shall be determined using the same categorization procedure (Building Area or Space Function) and categories as the proposed design with lighting power set equal to the maximum allowed for the corresponding method and category in 9.3. No automatic lighting controls (e.g., programmable controls or automatic controls for daylight utilization) shall be modeled in the baseline building design, as the lighting schedules used are understood to reflect the mandatory control requirements in this standard.
+Hope this helps.
+ 
+Michael Tillou, PE
+etc Group, Inc.
+PO Box 749 
+North Adams, MA 01247
+413-664-9070
+ 
+
+________________________________
+
+From: postman at gard.com on behalf of Larry Degelman
+Sent: Thu 1/22/2004 9:43 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Day-Lighting and DOE2.1E
+
+
+Just a side note of interest (with no judgment inferred):
+ 
+ASHRAE/IESNA Standard 90.1-1999 no longer allows lighting control credits.  Compliance is based on connected lighting power alone.  With the 1989 Standard, credits could be taken for automatic controls/sensors and daylighting controls.  (Inference about the dependability of lighting sensors/controls??? - I don't know.)
+ 
+Furthermore, VLT (Visible Light Transmittance) is not considered in the Prescriptive Envelope Option, but it is considered in the Envelope Trade-off Option, a la Chapter 5 (Sect. 5.3.2.4 and 5.4).
+ 
+Regards,
+===================================== 
+Larry O. Degelman, P.E.                  larry at taz.tamu.edu 
+Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+Texas A&M University
+=====================================
+ 
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Varkie Thomas
+Sent: Wednesday, January 21, 2004 3:37 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Day-Lighting and DOE2.1E
+ 
+Can day-lighting controls be considered for LEED certification under "Energy & Atmosphere - Optimize Energy Performance"?  If so where should the light sensor be located in the space?  Is there any energy code that allows credit for day-lighting controls? The DOE2 program allows two light sensors per space.  Supposing the two sensors are located 5 ft and 10 ft from the window.  Is the average daylight at these two points used in determining the reduction in artificial lighting?
+ 
+The DOE2 program expects zones to have 6 surfaces defined with X,Y,Z coordinates and reflectance values for day-lighting analysis.  Ignoring this produces warning messages but the results show a reduction in artificial lighting energy.  For day-lighting analysis we only enter into DOE2 the X,Y coordinates of the window origin relative to the wall and also the wall and window dimensions.  Can we assume that the energy savings results from the DOE2 program are on the safe side (the actual energy saved is more) when we use the program without all the surfaces and coordinates?
+ 
+Are there any rules for day-lighting analysis for establishing energy savings and for comparing the results from different studies?
+ 
+Varkie Thomas
+Skidmore, Owings & Merrill LLP
+Tel: (312) 360-4467 (direct)
+ 
+ 
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040123/ce30394e/attachment.htm>
+
+From j_a_herbert at yahoo.com  Thu Jan 22 20:56:48 2004
+From: j_a_herbert at yahoo.com (John Herbert)
+Date: Thu, 22 Jan 2004 20:56:48 -0800 (PST)
+Subject: [BLDG-SIM] DOE2.1E weather files for China
+In-Reply-To: <MDAEMON-F200401221024.AA2410406pd80000724002@gard.com>
+Message-ID: <MDAEMON-F200401222257.AA5755171pd80000571797@gard.com>
+
+
+I certainly hope you are not modelling
+a real project, these locations are not 
+similar.
+
+Regards,
+John Herbert
+Hong Kong
+
+> Is there a source of weather files for 
+> DOE2.1E?  In particular  Quindao.  
+> Shanghai is close enough if Quindao is not
+> available?
+
+__________________________________
+Do you Yahoo!?
+Yahoo! SiteBuilder - Free web site building tool. Try it!
+http://webhosting.yahoo.com/ps/sb/
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From dmahone at h-m-g.com  Thu Jan 22 18:00:25 2004
+From: dmahone at h-m-g.com (Douglas Mahone)
+Date: Thu, 22 Jan 2004 18:00:25 -0800
+Subject: [BLDG-SIM] Day-Lighting and DOE2.1E
+Message-ID: <MDAEMON-F200401222001.AA013893pd80000571585@gard.com>
+
+Varkie - 
+ 
+You raise an old issue (old, in the sense that when I was on the ECB
+subcommittee leading up to the adoption of  90.1-1999 we spent a lot of
+time talking about this) - how to ensure that th eintent of the standard
+is not defeated by the detailed modeling decisions of the analyst.
+ 
+California has a long history of providing detailed technical
+specifications for modeling software (or a front end thereto) to ensure
+that simulations are done correctly for compliance.  Indeed, one can
+only use CEC-certified compliance software for that purpose. The user
+inputs and the user interface are specified, modeling assumptions are
+built into the software, and outputs are standardized.
+ 
+For 90.1, the committee did not have the resources to develop a
+comparably detailed specification.  The effort of the committee was to
+clearly state the intention of the standard, and to describe in concise
+terms how the proposed and budget designs were to be modeled consistent
+with the rest of the standard.  The expectation was that private vendors
+would take it from there and generate compliance software that met the
+intent of the standard, as well as any locally adopted variations in the
+states and jurisdictions that would adopt 90.1.  It was left to the
+adopting authorities to certify the software for compliance purposes.
+There was even some talk of ASHRAE getting into this business, but no
+leadership emerged to capitalize on this opportunity.
+ 
+So that was the intent for how the problems you raise would be
+addressed.  I haven't followed the story very closely since then, but it
+is my impression that compliance software has not emerged, and that
+there is therefore a lot of opportunity for analysts to game the ECB
+method. I hope I'm wrong about this.
+ 
+Doug.
+
+
+
+Douglas Mahone, Principal
+Heschong Mahone Group, Inc.
+11626 Fair Oaks Blvd. #302
+Fair Oaks, CA  95628
+
+(916) 962-7001 x30
+fax (916) 962-0101
+dmahone at h-m-g.com
+
+web site: www.h-m-g.com
+
+
+
+	-----Original Message-----
+	From: Varkie Thomas [mailto:Varkie.Thomas at som.com] 
+	Sent: Thursday, January 22, 2004 2:41 PM
+	To: BLDG-SIM at GARD.COM
+	Subject: [BLDG-SIM] Day-Lighting and DOE2.1E
+	
+	
+
+	I am forwarding my response to Larry Degelman in case there are
+others in the BLDG-SIM Group that might be interested.  Varkie
+
+	 
+
+	-----Original Message-----
+	From: Varkie Thomas 
+	Sent: Thursday, January 22, 2004 3:03 PM
+	To: 'larry at taz.tamu.edu'
+	Subject: RE: [BLDG-SIM] Day-Lighting and DOE2.1E
+
+	 
+
+	Larry
+
+	 
+
+	Thanks for your response.  The percent glass of all building
+envelopes designed by architects in this office is greater than 50%.
+This has to do with exterior appearance, indoor working conditions,
+building construction costs, exterior maintenance costs and client
+satisfaction.  So we always have to use the energy cost budget method to
+show code compliance.  We have been doing this with DOE21.E.  First
+analyze the building with Std90 criteria (50% glass with Table B
+properties, lighting densities, EERs, COPs, etc.) and then with the
+proposed building design using more efficient glass, lights, systems,
+equipment and renewable energy sources that will produce less than or
+equal to energy use and cost (using thermal storage, etc.) results.  The
+attachment to our energy report includes the DOE2 output BDL for the
+base and the proposed designs as verification.  I assume we can use this
+procedure to show energy savings from day-lighting controls under
+Building Envelope Trade-Off Options of Std90, Section 5.4 and
+Appendix-C.  Can any other computer program, other than DOE2.1E, be used
+to show ECB compliance?
+
+	 
+
+	Based on the responses I received regarding day-lighting and
+LEED certification, I could cheat and locate the light sensor in a
+perimeter space in the DOE2 program run, so that it produces the highest
+lighting energy savings results.  The single sensor location could
+represent a space with a perimeter depth of 50 ft or more and any floor
+area.  I could also use a computer program that produces higher lighting
+energy savings than some other computer program.  Title 24 code requires
+compliance using specific computer programs and there are instructions
+on using the programs so that everyone is on the same playing field.  I
+think the location of the sensors and the geometry of the space (without
+going into the X,Y,Z coordinates of all the interior walls since there
+aren't any in base speculative office building design) should be
+considered in energy codes.
+
+	 
+
+	Can 5 cfm per person of outdoor air be used for all types of
+commercial (non-industrial) spaces if the filtration system can produce
+the same indoor air quality as, say, 20 cfm per person for an office
+space?  Does this qualify under "Energy Cost Budget" and "Energy &
+Atmosphere - Optimize Energy Performance"?
+
+	 
+
+	I apologize for sounding so ignorant?  Since we have to use
+computer programs to show energy code compliance, the developers of the
+programs should adjust the program input and output to make it easier to
+use the programs to show code compliance.  We were once asked to show
+Std90 compliance for an architecturally complex performing arts center
+using ComCheck-Plus.  We had to create an equivalent rectangular box
+with 5 zones to do this.  It could have been done with DOE2.1E using the
+procedure described above.
+
+	 
+
+	Should I send this message to the BLDG-SIM group?  I don't know
+who are out there and whether I am making a fool of myself
+
+	 
+
+	Varkie Thomas
+
+	 
+
+	-----Original Message-----
+	From: Larry Degelman [mailto:larry at taz.tamu.edu] 
+	Sent: Thursday, January 22, 2004 10:43 AM
+	To: BLDG-SIM at GARD.COM
+	Subject: [BLDG-SIM] Day-Lighting and DOE2.1E
+
+	 
+
+	Just a side note of interest (with no judgment inferred):
+
+	 
+
+	ASHRAE/IESNA Standard 90.1-1999 no longer allows lighting
+control credits.  Compliance is based on connected lighting power alone.
+With the 1989 Standard, credits could be taken for automatic
+controls/sensors and daylighting controls.  (Inference about the
+dependability of lighting sensors/controls??? - I don't know.)
+
+	 
+
+	Furthermore, VLT (Visible Light Transmittance) is not considered
+in the Prescriptive Envelope Option, but it is considered in the
+Envelope Trade-off Option, a la Chapter 5 (Sect. 5.3.2.4 and 5.4).
+
+	 
+
+	Regards,
+
+	===================================== 
+
+	Larry O. Degelman, P.E.                  larry at taz.tamu.edu 
+
+	Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+
+	Texas A&M University
+
+	=====================================
+
+	 
+
+	-----Original Message-----
+	From: postman at gard.com [mailto:postman at gard.com] On Behalf Of
+Varkie Thomas
+	Sent: Wednesday, January 21, 2004 3:37 PM
+	To: BLDG-SIM at gard.com
+	Subject: [BLDG-SIM] Day-Lighting and DOE2.1E
+
+	 
+
+	Can day-lighting controls be considered for LEED certification
+under "Energy & Atmosphere - Optimize Energy Performance"?  If so where
+should the light sensor be located in the space?  Is there any energy
+code that allows credit for day-lighting controls? The DOE2 program
+allows two light sensors per space.  Supposing the two sensors are
+located 5 ft and 10 ft from the window.  Is the average daylight at
+these two points used in determining the reduction in artificial
+lighting?
+
+	 
+
+	The DOE2 program expects zones to have 6 surfaces defined with
+X,Y,Z coordinates and reflectance values for day-lighting analysis.
+Ignoring this produces warning messages but the results show a reduction
+in artificial lighting energy.  For day-lighting analysis we only enter
+into DOE2 the X,Y coordinates of the window origin relative to the wall
+and also the wall and window dimensions.  Can we assume that the energy
+savings results from the DOE2 program are on the safe side (the actual
+energy saved is more) when we use the program without all the surfaces
+and coordinates?
+
+	 
+
+	Are there any rules for day-lighting analysis for establishing
+energy savings and for comparing the results from different studies?
+
+	 
+
+	Varkie Thomas
+
+	Skidmore, Owings & Merrill LLP
+
+	Tel: (312) 360-4467 (direct)
+
+	 
+	 
+	==================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+	 
+	 
+	==================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+	
+	==================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040122/32550290/attachment.htm>
+
+From Varkie.Thomas at som.com  Thu Jan 22 14:41:02 2004
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Thu, 22 Jan 2004 17:41:02 -0500
+Subject: [BLDG-SIM] Day-Lighting and DOE2.1E
+Message-ID: <MDAEMON-F200401221650.AA5025421pd80000571369@gard.com>
+
+I am forwarding my response to Larry Degelman in case there are others
+in the BLDG-SIM Group that might be interested.  Varkie
+
+ 
+
+-----Original Message-----
+From: Varkie Thomas 
+Sent: Thursday, January 22, 2004 3:03 PM
+To: 'larry at taz.tamu.edu'
+Subject: RE: [BLDG-SIM] Day-Lighting and DOE2.1E
+
+ 
+
+Larry
+
+ 
+
+Thanks for your response.  The percent glass of all building envelopes
+designed by architects in this office is greater than 50%.  This has to
+do with exterior appearance, indoor working conditions, building
+construction costs, exterior maintenance costs and client satisfaction.
+So we always have to use the energy cost budget method to show code
+compliance.  We have been doing this with DOE21.E.  First analyze the
+building with Std90 criteria (50% glass with Table B properties,
+lighting densities, EERs, COPs, etc.) and then with the proposed
+building design using more efficient glass, lights, systems, equipment
+and renewable energy sources that will produce less than or equal to
+energy use and cost (using thermal storage, etc.) results.  The
+attachment to our energy report includes the DOE2 output BDL for the
+base and the proposed designs as verification.  I assume we can use this
+procedure to show energy savings from day-lighting controls under
+Building Envelope Trade-Off Options of Std90, Section 5.4 and
+Appendix-C.  Can any other computer program, other than DOE2.1E, be used
+to show ECB compliance?
+
+ 
+
+Based on the responses I received regarding day-lighting and LEED
+certification, I could cheat and locate the light sensor in a perimeter
+space in the DOE2 program run, so that it produces the highest lighting
+energy savings results.  The single sensor location could represent a
+space with a perimeter depth of 50 ft or more and any floor area.  I
+could also use a computer program that produces higher lighting energy
+savings than some other computer program.  Title 24 code requires
+compliance using specific computer programs and there are instructions
+on using the programs so that everyone is on the same playing field.  I
+think the location of the sensors and the geometry of the space (without
+going into the X,Y,Z coordinates of all the interior walls since there
+aren't any in base speculative office building design) should be
+considered in energy codes.
+
+ 
+
+Can 5 cfm per person of outdoor air be used for all types of commercial
+(non-industrial) spaces if the filtration system can produce the same
+indoor air quality as, say, 20 cfm per person for an office space?  Does
+this qualify under "Energy Cost Budget" and "Energy & Atmosphere -
+Optimize Energy Performance"?
+
+ 
+
+I apologize for sounding so ignorant?  Since we have to use computer
+programs to show energy code compliance, the developers of the programs
+should adjust the program input and output to make it easier to use the
+programs to show code compliance.  We were once asked to show Std90
+compliance for an architecturally complex performing arts center using
+ComCheck-Plus.  We had to create an equivalent rectangular box with 5
+zones to do this.  It could have been done with DOE2.1E using the
+procedure described above.
+
+ 
+
+Should I send this message to the BLDG-SIM group?  I don't know who are
+out there and whether I am making a fool of myself
+
+ 
+
+Varkie Thomas
+
+ 
+
+-----Original Message-----
+From: Larry Degelman [mailto:larry at taz.tamu.edu] 
+Sent: Thursday, January 22, 2004 10:43 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Day-Lighting and DOE2.1E
+
+ 
+
+Just a side note of interest (with no judgment inferred):
+
+ 
+
+ASHRAE/IESNA Standard 90.1-1999 no longer allows lighting control
+credits.  Compliance is based on connected lighting power alone.  With
+the 1989 Standard, credits could be taken for automatic controls/sensors
+and daylighting controls.  (Inference about the dependability of
+lighting sensors/controls??? - I don't know.)
+
+ 
+
+Furthermore, VLT (Visible Light Transmittance) is not considered in the
+Prescriptive Envelope Option, but it is considered in the Envelope
+Trade-off Option, a la Chapter 5 (Sect. 5.3.2.4 and 5.4).
+
+ 
+
+Regards,
+
+===================================== 
+
+Larry O. Degelman, P.E.                  larry at taz.tamu.edu 
+
+Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+
+Texas A&M University
+
+=====================================
+
+ 
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Varkie
+Thomas
+Sent: Wednesday, January 21, 2004 3:37 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Day-Lighting and DOE2.1E
+
+ 
+
+Can day-lighting controls be considered for LEED certification under
+"Energy & Atmosphere - Optimize Energy Performance"?  If so where should
+the light sensor be located in the space?  Is there any energy code that
+allows credit for day-lighting controls? The DOE2 program allows two
+light sensors per space.  Supposing the two sensors are located 5 ft and
+10 ft from the window.  Is the average daylight at these two points used
+in determining the reduction in artificial lighting?
+
+ 
+
+The DOE2 program expects zones to have 6 surfaces defined with X,Y,Z
+coordinates and reflectance values for day-lighting analysis.  Ignoring
+this produces warning messages but the results show a reduction in
+artificial lighting energy.  For day-lighting analysis we only enter
+into DOE2 the X,Y coordinates of the window origin relative to the wall
+and also the wall and window dimensions.  Can we assume that the energy
+savings results from the DOE2 program are on the safe side (the actual
+energy saved is more) when we use the program without all the surfaces
+and coordinates?
+
+ 
+
+Are there any rules for day-lighting analysis for establishing energy
+savings and for comparing the results from different studies?
+
+ 
+
+Varkie Thomas
+
+Skidmore, Owings & Merrill LLP
+
+Tel: (312) 360-4467 (direct)
+
+ 
+ 
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+ 
+ 
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040122/e8f79a6c/attachment.htm>
+
+From peter_ellis at nrel.gov  Thu Jan 22 10:51:25 2004
+From: peter_ellis at nrel.gov (Ellis, Peter)
+Date: Thu, 22 Jan 2004 11:51:25 -0700
+Subject: [BLDG-SIM] Heat gain from light pipes
+Message-ID: <MDAEMON-F200401221252.AA5232468pd80000571057@gard.com>
+
+ 
+Hi Vikram, 
+ 
+The latest release of EnergyPlus (v. 1.1.1) added a model for light pipes, i.e. tubular daylighting devices.  The model is fully described in the documentation that comes with the program.  
+ 
+Just to give you an idea in brief, light pipes can add both solar gains and conductive/convective gains to the space below.  The solar gains are calculated by analyzing the multiple internal reflections of the incident beam, sky, and ground radiation entering the pipe.  The amount of radiation transmitted depends on the incident angle, reflectivity, and geometry of the pipe, and on the properties of the glazing at either end of the pipe.  Fortunately, all of this is entirely handled by the program.  
+ 
+The conductive/convective gains, on the other hand, require the user to enter an effective thermal resistance (R-value) between the top and bottom of the light pipe.  The problem is knowing what R-value to use.  Very little research has been done on this area of the problem (as of about 1 year ago--the last time I looked).  I have only found one paper that analyzes the conductive/convective behavior of light pipes:  
+ 
+Harrison, S. J., McCurdy, G. G., Cooke, R.  "Preliminary Evaluation of the Daylighting and Thermal Performance of Cylindrical Skylights", Proceedings of International Daylight Conference, Ottawa, Canada, 1998, pp. 205-212.
+ 
+They report an average thermal resistance of 0.279 m2 K/W for a pipe measuring 1.83 m by 0.33 m.  
+ 
+Hope this helps!
+ 
+Peter Graham Ellis
+National Renewable Energy Laboratory
+Center for Buildings and Thermal Systems
+1617 Cole Boulevard
+Golden, Colorado 80401-3393
+303-384-7443
+peter_ellis at nrel.gov
+ 
+ 
+ 
+-----Original Message-----
+From: Vikram Sami [mailto:Vikram at ensargroup.com]
+Sent: Wednesday, January 21, 2004 4:04 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Heat gain from light pipes
+
+
+Hi,
+I have a question about light pipes. We are using then for a project, and I was wondering if there was any way to calculate the heat transmitted to the space below through the pipes.
+ 
+Thanks
+ 
+Vikram Sami
+
+ENSAR Group, Inc.
+2305 Broadway
+Boulder, C0 80304
+(303).449.5226 Tel
+(303).449.5276 Fax
+
+
+
+
+
+=====================================================You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040122/e5f44cae/attachment.htm>
+
+From cj at cr-jay.ca  Thu Jan 22 09:18:27 2004
+From: cj at cr-jay.ca (Chris Jones)
+Date: Thu, 22 Jan 2004 12:18:27 -0500
+Subject: [BLDG-SIM] DOE2.1E weather files for China
+In-Reply-To: <00b101c3e107$edc35cd0$b738fea9@larryd>
+References: <MDAEMON-F200401221024.AA2410828pd80000724079@gard.com>
+ <00b101c3e107$edc35cd0$b738fea9@larryd>
+Message-ID: <MDAEMON-F200401221108.AA0805578pd80000570886@gard.com>
+
+I would like to test them.  I found a TMY file for Shanghai at 
+http://www.doe2.com.  I will compare your file to this one and I will let 
+you know if there are any major differences.
+
+
+
+
+>Hello Chris,
+>
+>I have "generated" TMY-2 files for Shanghai and Qingdao (is that the
+>same city as Quindao?) if you would like to try them (no warranties
+>implied.)  These are generated from statistical data and are not
+>recorded records.  You might find these useful if you don't find "real"
+>TMY2 files.
+>
+>Regards,
+>=====================================
+>Larry O. Degelman, P.E.                  larry at taz.tamu.edu
+>Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+>Texas A&M University
+>=====================================
+>
+>
+>-----Original Message-----
+>From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Chris
+>Jones
+>Sent: Thursday, January 22, 2004 10:35 AM
+>To: BLDG-SIM at gard.com
+>Subject: [BLDG-SIM] DOE2.1E weather files for China
+>
+>Is there a source of weather files for DOE2.1E?  In particular
+>Quindao.  Shanghai is close enough if Quindao is not available?
+>
+>
+>
+>Chris Jones, P. Eng.
+>14 Oneida Avenue
+>Toronto, ON M5J 2E3
+>Tel. 416 203-7465
+>Fax. 416 203-8249
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+Chris Jones, P. Eng.
+14 Oneida Avenue
+Toronto, ON M5J 2E3
+Tel. 416 203-7465
+Fax. 416 203-8249
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From larry at taz.tamu.edu  Thu Jan 22 08:51:06 2004
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Thu, 22 Jan 2004 10:51:06 -0600
+Subject: [BLDG-SIM] DOE2.1E weather files for China
+In-Reply-To: <MDAEMON-F200401221024.AA2410828pd80000724079@gard.com>
+Message-ID: <MDAEMON-F200401221052.AA524200pd80000570858@gard.com>
+
+Hello Chris,
+
+I have "generated" TMY-2 files for Shanghai and Qingdao (is that the
+same city as Quindao?) if you would like to try them (no warranties
+implied.)  These are generated from statistical data and are not
+recorded records.  You might find these useful if you don't find "real"
+TMY2 files.
+
+Regards,
+===================================== 
+Larry O. Degelman, P.E.                  larry at taz.tamu.edu 
+Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+Texas A&M University
+=====================================
+ 
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Chris
+Jones
+Sent: Thursday, January 22, 2004 10:35 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] DOE2.1E weather files for China
+
+Is there a source of weather files for DOE2.1E?  In particular 
+Quindao.  Shanghai is close enough if Quindao is not available?
+
+
+
+Chris Jones, P. Eng.
+14 Oneida Avenue
+Toronto, ON M5J 2E3
+Tel. 416 203-7465
+Fax. 416 203-8249
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From larry at taz.tamu.edu  Thu Jan 22 08:43:03 2004
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Thu, 22 Jan 2004 10:43:03 -0600
+Subject: [BLDG-SIM] Day-Lighting and DOE2.1E
+In-Reply-To: <MDAEMON-F200401211547.AA4722125pd80000720199@gard.com>
+Message-ID: <MDAEMON-F200401221044.AA4411546pd80000570840@gard.com>
+
+Just a side note of interest (with no judgment inferred):
+ 
+ASHRAE/IESNA Standard 90.1-1999 no longer allows lighting control
+credits.  Compliance is based on connected lighting power alone.  With
+the 1989 Standard, credits could be taken for automatic controls/sensors
+and daylighting controls.  (Inference about the dependability of
+lighting sensors/controls??? - I don't know.)
+ 
+Furthermore, VLT (Visible Light Transmittance) is not considered in the
+Prescriptive Envelope Option, but it is considered in the Envelope
+Trade-off Option, a la Chapter 5 (Sect. 5.3.2.4 and 5.4).
+ 
+Regards,
+===================================== 
+Larry O. Degelman, P.E.                  larry at taz.tamu.edu 
+Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+Texas A&M University
+=====================================
+ 
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Varkie
+Thomas
+Sent: Wednesday, January 21, 2004 3:37 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Day-Lighting and DOE2.1E
+ 
+Can day-lighting controls be considered for LEED certification under
+"Energy & Atmosphere - Optimize Energy Performance"?  If so where should
+the light sensor be located in the space?  Is there any energy code that
+allows credit for day-lighting controls? The DOE2 program allows two
+light sensors per space.  Supposing the two sensors are located 5 ft and
+10 ft from the window.  Is the average daylight at these two points used
+in determining the reduction in artificial lighting?
+ 
+The DOE2 program expects zones to have 6 surfaces defined with X,Y,Z
+coordinates and reflectance values for day-lighting analysis.  Ignoring
+this produces warning messages but the results show a reduction in
+artificial lighting energy.  For day-lighting analysis we only enter
+into DOE2 the X,Y coordinates of the window origin relative to the wall
+and also the wall and window dimensions.  Can we assume that the energy
+savings results from the DOE2 program are on the safe side (the actual
+energy saved is more) when we use the program without all the surfaces
+and coordinates?
+ 
+Are there any rules for day-lighting analysis for establishing energy
+savings and for comparing the results from different studies?
+ 
+Varkie Thomas
+Skidmore, Owings & Merrill LLP
+Tel: (312) 360-4467 (direct)
+ 
+ 
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040122/1f02ab37/attachment.htm>
+
+From cj at cr-jay.ca  Thu Jan 22 08:34:31 2004
+From: cj at cr-jay.ca (Chris Jones)
+Date: Thu, 22 Jan 2004 11:34:31 -0500
+Subject: [BLDG-SIM] DOE2.1E weather files for China
+Message-ID: <MDAEMON-F200401221024.AA2410484pd80000570788@gard.com>
+
+Is there a source of weather files for DOE2.1E?  In particular 
+Quindao.  Shanghai is close enough if Quindao is not available?
+
+
+
+Chris Jones, P. Eng.
+14 Oneida Avenue
+Toronto, ON M5J 2E3
+Tel. 416 203-7465
+Fax. 416 203-8249
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Christoph.Reinhart at nrc-cnrc.gc.ca  Thu Jan 22 06:00:16 2004
+From: Christoph.Reinhart at nrc-cnrc.gc.ca (Reinhart, Christoph)
+Date: Thu, 22 Jan 2004 09:00:16 -0500
+Subject: [BLDG-SIM] Day-Lighting and DOE2.1E
+Message-ID: <MDAEMON-F200401220801.AA0133468pd80000570547@gard.com>
+
+Dear Varkie,
+ 
+I agree with Jon that 
+(a) Sensor placement has a huge impact on the results.
+(b) I wouldn't expect that [not providing a geometry] would be an acceptable
+method since you really do not know what you are modeling. 
+ 
+With respect to your earlier question I believe that even if you do provide
+geometry data, DOE2 saving predictions will be on the optimistic side. One
+flaw of basically all simulation programs that predict electric lighting
+savings due to lighting controls is that they tend to compare an ideally
+dimmed lighting system with a lighting system as is permanently switched on
+during occupied hours. This leads to overly optimistic savings, as the IESNA
+handbook rightfully states: "an undimmed lighting system with a regular
+on/off wall switch should be the reference system". To be able to compare
+results to manually controlled lighting, you need a user behavior model that
+predicts how individuals interact with their manual lighting controls.
+Another aspect you should pay attention to is the blind control algorithm.
+If the blinds are permanently retracted, you will again predict wildly
+overoptimistic savings. I think there is a way in DOE2 to set the blind
+control to manual.
+ 
+If you want to develop a feeling for electric lighting savings due to
+controls, you might want to use the Lightswitch Wizard, www.buildwiz.com
+<http://www.buildwiz.com> , a simple online daylighting analysis tool that
+is based on pre-calculated RADIANCE simulations and a manual lighting
+control model. The model has been developed based on field data from several
+countries and is currently further refined within International Energy
+Agency's Task 31, Daylight Buildings in the 21st Century.
+ 
+Christoph
+Christoph Reinhart, Ph.D.                        tel: (613) 993-9703 
+Research Officer                                      fax: (613) 954-3733 
+Institute for Research in Construction      e-mail:
+christoph.reinhart at nrc-cnrc.gc.ca 
+National Research Council Canada        1200 Montreal Road M-24, Ottawa 
+Ontario K1A 0R6 Canada 
+
+Daylighting Analysis Software: 
+The Lightswitch Wizard (initial design)
+<http://www.buildwiz.com/lightswitch/index.cfm> www.buildwiz.com 
+DAYSIM (expert software)                       www.daysim.com
+<outbind://26/www.daysim.com>   <outbind://26/www.daysim.com> 
+
+
+IEA Task 31
+http://www.iea-shc.org/task31/ <http://www.iea-shc.org/task31/>  
+
+ 
+ 
+-----Original Message-----
+From: Varkie Thomas [mailto:Varkie.Thomas at som.com]
+Sent: Wednesday, January 21, 2004 4:37 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Day-Lighting and DOE2.1E
+
+
+
+Can day-lighting controls be considered for LEED certification under "Energy
+& Atmosphere - Optimize Energy Performance"?  If so where should the light
+sensor be located in the space?  Is there any energy code that allows credit
+for day-lighting controls? The DOE2 program allows two light sensors per
+space.  Supposing the two sensors are located 5 ft and 10 ft from the
+window.  Is the average daylight at these two points used in determining the
+reduction in artificial lighting?
+
+ 
+
+The DOE2 program expects zones to have 6 surfaces defined with X,Y,Z
+coordinates and reflectance values for day-lighting analysis.  Ignoring this
+produces warning messages but the results show a reduction in artificial
+lighting energy.  For day-lighting analysis we only enter into DOE2 the X,Y
+coordinates of the window origin relative to the wall and also the wall and
+window dimensions.  Can we assume that the energy savings results from the
+DOE2 program are on the safe side (the actual energy saved is more) when we
+use the program without all the surfaces and coordinates?
+
+ 
+
+Are there any rules for day-lighting analysis for establishing energy
+savings and for comparing the results from different studies?
+
+ 
+
+Varkie Thomas
+
+Skidmore, Owings & Merrill LLP
+
+Tel: (312) 360-4467 (direct)
+
+
+
+=====================================================You received this
+e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040122/38a743c1/attachment.htm>
+
+From jallard at bpa.ca  Thu Jan 22 05:43:26 2004
+From: jallard at bpa.ca (Allard, Julien)
+Date: Thu, 22 Jan 2004 08:43:26 -0500
+Subject: [BLDG-SIM] eQUEST/DOE: Load shedding
+Message-ID: <MDAEMON-F200401220745.AA4506546pd80000570518@gard.com>
+
+
+
+Bouthillette Parizeau
+&  a s s o c i ? s  i n c .
+9825, rue Verville, Montr?al, Qu?bec, H3L 3E1
+T?l?phone: (514) 383-3747 T?l?copieur: (514) 383-8760
+______________________________________________________________
+CERTIFI?    ISO 9001
+
+I would like to know how to simulate the use of a "load-miser" on baseboards and electrical coils within eQUEST. If DOE does not allow this, has anyone ever encountered this problem and how to overcome it??
+Thanks,
+Julien Allard, ing. jr.
+Courriel : jallard at bpa.ca
+Site Web :www.bpa.ca
+Ce message ?lectronique et toutes les pi?ces jointes qu'il contient sont confidentiels et destin?s exclusivement ? l'usage de la personne ? laquelle ils sont adress?s.  Si vous avez re?u ce message par erreur, merci de le retourner ? son ?metteur.  Les id?es et opinions pr?sent?es dans ce message sont celles de son auteur, et ne repr?sentent pas n?cessairement celles de Bouthillette Parizeau & associ?s inc.  La publication, l'usage, la distribution, l'impression ou la copie non autoris?e de ce message et des fichiers joints qu'il contient sont strictement interdits.
+ 
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mchugh at h-m-g.com  Wed Jan 21 15:26:13 2004
+From: mchugh at h-m-g.com (Jon McHugh)
+Date: Wed, 21 Jan 2004 15:26:13 -0800
+Subject: [BLDG-SIM] Day-Lighting and DOE2.1E
+Message-ID: <MDAEMON-F200401211727.AA2720656pd80000569674@gard.com>
+
+Varkie,
+ 
+California's Title 24 energy code has established values of energy
+credits for daylighting controls.  These credits are used in both the
+prescriptive approach and the performance method which is based upon an
+energy simulation.  For the LEED credits the performance method would be
+used as you are trying to estimate the energy consumption as a fraction
+of the consumption of a minimally compliant building. The current tool
+is EnergyPro which is DOE-2.1E with a user interface that places some
+limits on inputs and automatically creates a reference or minimally code
+compliance comparison case.  
+ 
+The lighting power of controlled lighting that is in the daylit zone (no
+more than 15 feet from a window and currently no more than 1 ceiling
+height horizontally from a skylight) is reduced by a Power Adjustment
+Factor (PAF).  The factor is a function of the visible transmittance and
+the fraction of wall area for glazing.  Though this doesn't capture peak
+reduction effects, the simplicity of the method provides some confidence
+in the results.  Sensor placement has a huge impact on the results.
+ 
+The Title 24 standards can be downloaded from:
+http://www.energy.ca.gov/title24/
+ 
+I don't know what rule set is involved for daylighting in DOE-2 when a
+geometry is not described.  I wouldn't expect that this would be an
+acceptable method since you really do not know what you are modeling.
+The bottom line is that your model approximates what your daylighting
+design does and that the design would reasonably save energy - thus a
+lighting design that does not provide the desired light levels in all
+the task locations would not likely provide maintained savings.
+Modeling two sensors does not make any sense if your control system has
+only one sensor and is designed to switch or dim lights evenly across
+the entire control zone.  "Virtual" sensors are usually placed in a
+relatively dark spot in the controlled zone so that electric lighting
+provides sufficient light in the entire zone on the lighting control not
+just next to the window or directly under a skylight.  
+ 
+Modeling two sensors would make sense if the amount of dimming or
+fraction of switched lights were segregated by how close they were to
+the window or skylight.  In that case you really have two separate
+control zones.
+ 
+ 
+Jon McHugh, PE, LC
+Heschong Mahone Group Inc.
+11626 Fair Oaks Blvd #302
+Fair Oaks, CA 95628 (Sacramento)
+(916)962-7001 ext 38
+(916)962-0101 FAX
+e-mail: mchugh at h-m-g.com
+URL: www.h-m-g.com 
+
+ 
+ 
+-----Original Message-----
+From: Varkie Thomas [mailto:Varkie.Thomas at som.com] 
+Sent: Wednesday, January 21, 2004 1:37 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Day-Lighting and DOE2.1E
+
+
+
+Can day-lighting controls be considered for LEED certification under
+"Energy & Atmosphere - Optimize Energy Performance"?  If so where should
+the light sensor be located in the space?  Is there any energy code that
+allows credit for day-lighting controls? The DOE2 program allows two
+light sensors per space.  Supposing the two sensors are located 5 ft and
+10 ft from the window.  Is the average daylight at these two points used
+in determining the reduction in artificial lighting?
+
+ 
+
+The DOE2 program expects zones to have 6 surfaces defined with X,Y,Z
+coordinates and reflectance values for day-lighting analysis.  Ignoring
+this produces warning messages but the results show a reduction in
+artificial lighting energy.  For day-lighting analysis we only enter
+into DOE2 the X,Y coordinates of the window origin relative to the wall
+and also the wall and window dimensions.  Can we assume that the energy
+savings results from the DOE2 program are on the safe side (the actual
+energy saved is more) when we use the program without all the surfaces
+and coordinates?
+
+ 
+
+Are there any rules for day-lighting analysis for establishing energy
+savings and for comparing the results from different studies?
+
+ 
+
+Varkie Thomas
+
+Skidmore, Owings & Merrill LLP
+
+Tel: (312) 360-4467 (direct)
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040121/c4c3bee8/attachment.htm>
+
+From Vikram at ensargroup.com  Wed Jan 21 15:03:59 2004
+From: Vikram at ensargroup.com (Vikram Sami)
+Date: Wed, 21 Jan 2004 16:03:59 -0700
+Subject: [BLDG-SIM] Heat gain from light pipes
+Message-ID: <MDAEMON-F200401211705.AA0507421pd80000569620@gard.com>
+
+Hi,
+I have a question about light pipes. We are using then for a project, and I was wondering if there was any way to calculate the heat transmitted to the space below through the pipes.
+ 
+Thanks
+ 
+Vikram Sami
+
+ENSAR Group, Inc.
+2305 Broadway
+Boulder, C0 80304
+(303).449.5226 Tel
+(303).449.5276 Fax
+
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040121/04fd0f6e/attachment.htm>
+
+From Varkie.Thomas at som.com  Wed Jan 21 13:37:17 2004
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Wed, 21 Jan 2004 16:37:17 -0500
+Subject: [BLDG-SIM] Day-Lighting and DOE2.1E
+Message-ID: <MDAEMON-F200401211547.AA4721718pd80000569503@gard.com>
+
+Can day-lighting controls be considered for LEED certification under
+"Energy & Atmosphere - Optimize Energy Performance"?  If so where should
+the light sensor be located in the space?  Is there any energy code that
+allows credit for day-lighting controls? The DOE2 program allows two
+light sensors per space.  Supposing the two sensors are located 5 ft and
+10 ft from the window.  Is the average daylight at these two points used
+in determining the reduction in artificial lighting?
+
+ 
+
+The DOE2 program expects zones to have 6 surfaces defined with X,Y,Z
+coordinates and reflectance values for day-lighting analysis.  Ignoring
+this produces warning messages but the results show a reduction in
+artificial lighting energy.  For day-lighting analysis we only enter
+into DOE2 the X,Y coordinates of the window origin relative to the wall
+and also the wall and window dimensions.  Can we assume that the energy
+savings results from the DOE2 program are on the safe side (the actual
+energy saved is more) when we use the program without all the surfaces
+and coordinates?
+
+ 
+
+Are there any rules for day-lighting analysis for establishing energy
+savings and for comparing the results from different studies?
+
+ 
+
+Varkie Thomas
+
+Skidmore, Owings & Merrill LLP
+
+Tel: (312) 360-4467 (direct)
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040121/843c3136/attachment.htm>
+
+From sbedard at bpa.ca  Wed Jan 21 09:28:08 2004
+From: sbedard at bpa.ca (=?Windows-1252?Q?=22B=E9dard=2C_Simon=22?=)
+Date: Wed, 21 Jan 2004 12:28:08 -0500
+Subject: [BLDG-SIM] equest/DOE: loads not met
+Message-ID: <MDAEMON-F200401211129.AA2944859pd80000569204@gard.com>
+
+We are modeling an office building under Equest 3.4/DOE 2.2. The outside air is preheated at 55F and is supplied to the main VAV systems via a dedicated system. The program seems to understand adequately the loads and sizes the systems correctly. 
+ 
+During the year, we are getting a large amount of "load not met" hours in the internal zones, even though there are enough cfm to cool the total loads for the zones at the wanted supply temperature (these total loads for the zones and supply temperatures were obtained with an hourly report). The dedicated outside air system seems to work well when we are calculating manually the outside air mix with the return. We did try to oversize the cfm and cooling capacities, and the loads not met dissapear. But why oversizing the cfms when they were adequately sized according to the peak loads ?
+ 
+My questions are : Do you understand what is happening & how does DOE calculates the load not met ?
+ <?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" />
+Thanks for your support ! 
+ 
+ 
+ 
+=====================
+Simon B?dard, ing. jr
+Bouthillette Parizeau & Ass.
+T. (514) 383-3747  ext. 217
+F. (514) 383-8760
+sbedard at bpa.ca
+ 
+ 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040121/12525b8b/attachment.htm>
+
+From dlanceta at mafalda.cps.unizar.es  Wed Jan 21 06:42:26 2004
+From: dlanceta at mafalda.cps.unizar.es (David Lanceta)
+Date: Wed, 21 Jan 2004 15:42:26 +0100
+Subject: [BLDG-SIM] eQUEST-enduses contributing to space loads
+Message-ID: <MDAEMON-F200401210844.AA4403171pd80000568988@gard.com>
+
+Hello everybody, first of all, thank you for your support
+
+I?m using eQUEST to simulate some buildings. I have a list with some equipment that the buildings have, for example: computer (3000 W), microwave (2200 W), fridge (2000 W), lights(2000 W), elevator (30000 W).....
+
+I know that some of this loads contributes to space loads and some doesn?t, but I don?t know how much of the power really contributes for each load
+
+Is there any web where I can know which part of this power enters the space depending on the kind of load?
+
+How does eQUEST handle what you write in the fields? does it suppose that all this power contributes as a sensible heat load?
+
+To sum up, what should I write in eQUEST to take into account my different kinds of loads?
+
+Thanks
+
+=================================
+David Lanceta 
+?rea de Mec?nica de Fluidos
+Centro Polit?cnico Superior
+Universidad de Zaragoza
+Mar?a de Luna 3, tel (0034)9761000 ext 5044
+50015 ZARAGOZA
+ESPA?A
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040121/66f373c3/attachment.htm>
+
+From idoebber at vt.edu  Fri Jan 16 13:25:13 2004
+From: idoebber at vt.edu (Ian Doebber)
+Date: Fri, 16 Jan 2004 16:25:13 -0500
+Subject: [BLDG-SIM] experimental energy loads throughout the U.S.
+References: <MDAEMON-F200312281921.AA2151734pd80000699817@gard.com>
+Message-ID: <MDAEMON-F200401161524.AA2454203pd80000563003@gard.com>
+
+I am in the process of validating my Energy Plus model residence and need
+experimental energy data for various locations throughout the US. I already
+have looked at the 1997 RECs data but wanted more specific energy loads for
+different cities.  For example, the heating/cooling loads and electric/gas
+consumption of an actual residence in or near Atlanta, GA.  If anyone could
+direct me to data done for typical residences for Atlanta, Phoenix, New York
+City, Boston, Chicago, Denver, Washington DC, and San Fran, I would really
+appreciate it.
+
+Thanks
+Ian
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mstein at geopraxis.com  Thu Jan 15 14:14:04 2004
+From: mstein at geopraxis.com (Marjorie Stein)
+Date: Thu, 15 Jan 2004 14:14:04 -0800
+Subject: [BLDG-SIM] GeoPraxis Announces the "Green Building Studio" Web Service Beta Program
+Message-ID: <MDAEMON-F200401151615.AA1508250pd80000561535@gard.com>
+
+GeoPraxis Announces Beta Program Release of "Green BuildingDear Colleagues,
+This exciting announcement may be of interest to you. Please go to
+www.greenbuildingstudio.com if you are interested in participating in the
+beta testing of Green Building Studio.
+
+Best Regards,
+Marjorie Stein
+Research Analyst, LEED(tm) Accredited Professional
+GeoPraxis, Inc.
+205 Keller Street, Suite 202
+Petaluma, CA 94952-2886
+Phone (707) 766-7010
+Fax (707) 766-7014
+mstein at geopraxis.com
+www.geopraxis.com
+
+
+
+
+For Immediate Release
+
+Contact James McCray ? Chief Operating Officer - GeoPraxis, Inc.
+
+707-766-7010
+
+jmccray at geopraxis.com
+
+GeoPraxis Announces the "Green Building StudioTM" Web Service Beta Program
+
+
+Green Building StudioTM brings immediate building energy performance and
+targeted equipment information for Architects and Designers using 3D-CAD at
+the earliest conceptual design stage.
+
+
+
+San Francisco, CA. -- Jan 14, 2004 -- GeoPraxis, an architectural,
+engineering and construction software company, today announced the beta
+release of Green Building Studio, the industry's first web service for
+energy analysis.  Green Building Studio (GBS) streamlines the design of
+green buildings, seamlessly linking architectural 3-D CAD building designs
+with energy analysis.  GBS enables architects to immediately understand the
+operational and energy implications of early design decisions using Green
+Building XML (gbXML) based connectors for AutoDesk?s Architectural Desktop
+and Graphisoft's ArchiCAD.  Architects and building designers can
+participate in the GBS beta program for free, beginning January 14, 2004.
+The GBS web-service is expected to be generally available in early 2004.
+
+"GBS will significantly accelerate the incorporation of energy efficient and
+sustainable technologies into new and retrofit buildings.  The GBS
+web-service is based on R&D funded by the California Energy Commission and
+leading Utilities," said John Kennedy, President and CTO of GeoPraxis.  "The
+GBS beta program lets the design community access the GBS web service for
+the first time.  User feedback will help fine tune the linkages between
+Architectural Desktop and ArchiCAD.  The beta program will provide feedback
+on technologies that for the first time link early design decisions with
+precisely targeted, relevant equipment and vendor information. This
+represents a huge breakthrough for the building design industry,
+leapfrogging other information services.?
+
+GBS web service drives significant time and cost out of building design and
+lifecycle management processes.  Major benefits include:
+
+?        It's Free, and saves thousands of dollars in advanced Green
+Building analyses.
+
+      ?        Reduced design costs, allowing more design options to be
+explored within budget.
+
+      ?        Compression of early design time, speeding project time to
+completion.
+
+      ?        Acceleration of Green Building ?LEED? Compliance Analysis.
+
+      ?         Identify relevant products necessary for early building
+designs decisions.
+
+GBS automatically generates geometrically accurate, detailed input files for
+major energy simulation programs.  GBS currently uses the DOE-2.2 simulation
+engine and will provide geometrically accurate input files for EnergyPlus
+simulation software.
+
+To participate in the beta, you can sign up over the web at
+http://www.greenbuildingstudio.com.  Participation in the beta program is
+free of charge.  A simple beta test non-disclosure agreement is required.
+Participants selected will be notified by GeoPraxis and are required to
+provide feedback to the developers.  The beta program will run from early
+January until March 30th, 2004.
+
+About GeoPraxis
+GeoPraxis, Inc., an architectural, engineering and construction software
+company, is the industry leader in the development and implementation of
+building energy analysis tools and web-based solutions.  With the release of
+Green Building Studio, GeoPraxis is pioneering integration with
+architectural 3D-CAD programs using gbXML.  Please contact GeoPraxis' COO,
+James McCray for assistance at 1-707-766-7010,  jmccray at geopraxis.com.
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040115/150741c0/attachment.htm>
+
+From rkstrand at uiuc.edu  Thu Jan 15 10:50:32 2004
+From: rkstrand at uiuc.edu (Rick Strand)
+Date: Thu, 15 Jan 2004 12:50:32 -0600
+Subject: [BLDG-SIM] IBPSA-USA Anaheim Meeting (Final Reminder)
+Message-ID: <MDAEMON-F200401151253.AA5303562pd80000561231@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040115/44613366/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 5bf3c0c.jpg
+Type: image/jpeg
+Size: 14655 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040115/44613366/attachment.jpg>
+
+From dlanceta at mafalda.cps.unizar.es  Tue Jan 13 10:56:11 2004
+From: dlanceta at mafalda.cps.unizar.es (David Lanceta)
+Date: Tue, 13 Jan 2004 19:56:11 +0100
+Subject: [BLDG-SIM] eQUEST: FREE-COOLING; CONSTRUCTION
+Message-ID: <MDAEMON-F200401131257.AA5715656pd80000558578@gard.com>
+
+Dear colleagues
+
+I?m using eQUEST to simulate the energy demand of some buildings for few months. Now I?m trying with a kind of shopping mall. In the results, it can be seen that the building needs cooling during all the year, even in winter. This makes sense to me because the ilumination load is huge but my question is:
+
+1? Can eQUEST take advantage of the outside temperature (in winter) to save energy for cooling? I think this is called free-cooling but I don?t know it is an usual process or if it?s profitable, where can I find good information about free-cooling?  
+
+and another question not related is
+
+2? In eQUEST menu "building envelope constructions" I would like to know which are the exact meaning of the numbers in expressions like "metal frame, 2x6, 24 in. o.c." ?where can I found an image?
+
+3? Does anybody know if it?s a good idea using the construction intelligent default of eQUEST for European buildings?  
+
+Thank you all
+
+=================================
+David Lanceta 
+?rea de Mec?nica de Fluidos
+Centro Polit?cnico Superior
+Universidad de Zaragoza
+Mar?a de Luna 3, tel (0034)9761000 ext 5044
+50015 ZARAGOZA
+ESPA?A
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040113/af53d816/attachment.htm>
+

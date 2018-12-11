@@ -1,0 +1,1184 @@
+From jross3 at erols.com  Sat Aug 30 19:49:28 2003
+From: jross3 at erols.com (john ross)
+Date: Sat, 30 Aug 2003 19:49:28 -0700
+Subject: [BLDG-SIM] Furniture Surface Area
+References: <MDAEMON-F200308291057.AA5757296pd80000543207@gard.com>
+Message-ID: <MDAEMON-F200308302143.AA4322453pd80000395181@gard.com>
+
+AIA Architectural Graphic Standards gives nominal dimensions for all std furniture
+pieces; it is an oversize book............bye  jrr......
+
+idoebber wrote:
+
+> I am running a standard 3 bedroom ranch style house in Energy Plus and am
+> having problems determining the amount of surface area exposed to the zone.  I
+> designed a total furniture weight of 5 lb/ft2 and with a density of 7 lb/ft3
+> and specific heat and conducitivity values from spruce/pine/fir wood which I
+> assumed the furniture was mostly composed of.  I need to specify how much area
+> of that weight is exposed to the zone.  Can anyone tell me a rough estimate or
+> point me in the direction of some journals that have basic specifications
+> about furniture in residences.
+>
+> Thanks
+> Ian
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: jross3.vcf
+Type: text/x-vcard
+Size: 406 bytes
+Desc: Card for john ross
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030830/1de5eeb1/attachment.vcf>
+
+From jhaberl at esl.tamu.edu  Sat Aug 30 14:10:56 2003
+From: jhaberl at esl.tamu.edu (Jeff Haberl)
+Date: Sat, 30 Aug 2003 16:10:56 -0500
+Subject: [BLDG-SIM] Furniture Surface Area
+Message-ID: <MDAEMON-F200308302008.AA0845859pd80000395115@gard.com>
+
+Hello:
+
+I'd suggest you consult the article by Janet Manke and Doug Hittle...this
+should shed some light on your probelm.
+
+Jeff
+
+
+Manke, J., Hittle, D. and Hancock 1996. "Calibrating Building Energy
+Analysis Models Using Short Term Test Data", Proceedings of the 1996
+International ASME Solar Energy Conference, p.369, San Antonio, TX. 
+
+
+8=!   8=)  :=)   8=)   ;=)   8=)   8=(   8=)   8=()   8=)   8=|   8=)   :=')
+8=)   8=)   8=?
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+Professor...............................................Office Ph:
+979-845-6507
+Department of Architecture...........................Lab Ph: 979-845-6065
+Energy Systems Laboratory...........................FAX: 979-862-2457
+Texas A&M University..................................77843-3581
+College Station, Texas, USA...........................URL: www-esl.tamu.edu
+
+8=/   8=)  :=)   8=)  ;=)   8=)   8=()   8=)   :=)   8=)   8=!   8=)   8=?
+8=)   8=)   8=0   
+
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of idoebber
+Sent: Friday, August 29, 2003 11:04 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Furniture Surface Area
+
+
+I am running a standard 3 bedroom ranch style house in Energy Plus and am 
+having problems determining the amount of surface area exposed to the zone.
+I 
+designed a total furniture weight of 5 lb/ft2 and with a density of 7 lb/ft3
+
+and specific heat and conducitivity values from spruce/pine/fir wood which I
+
+assumed the furniture was mostly composed of.  I need to specify how much
+area 
+of that weight is exposed to the zone.  Can anyone tell me a rough estimate
+or 
+point me in the direction of some journals that have basic specifications 
+about furniture in residences.
+
+Thanks
+Ian
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From idoebber at vt.edu  Fri Aug 29 09:03:36 2003
+From: idoebber at vt.edu (idoebber)
+Date: Fri, 29 Aug 2003 12:03:36 -0400
+Subject: [BLDG-SIM] Furniture Surface Area
+Message-ID: <MDAEMON-F200308291057.AA5756343pd80000393966@gard.com>
+
+I am running a standard 3 bedroom ranch style house in Energy Plus and am 
+having problems determining the amount of surface area exposed to the zone.  I 
+designed a total furniture weight of 5 lb/ft2 and with a density of 7 lb/ft3 
+and specific heat and conducitivity values from spruce/pine/fir wood which I 
+assumed the furniture was mostly composed of.  I need to specify how much area 
+of that weight is exposed to the zone.  Can anyone tell me a rough estimate or 
+point me in the direction of some journals that have basic specifications 
+about furniture in residences.
+
+Thanks
+Ian
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jhaberl at esl.tamu.edu  Tue Aug 26 15:29:15 2003
+From: jhaberl at esl.tamu.edu (Jeff Haberl)
+Date: Tue, 26 Aug 2003 17:29:15 -0500
+Subject: [BLDG-SIM] Ice Storage Curve-fits
+Message-ID: <MDAEMON-F200308261723.AA2341765pd80000391191@gard.com>
+
+Check with Bill Bahnfleth at Penn State.
+
+Jeff
+
+
+8=!   8=)  :=)   8=)   ;=)   8=)   8=(   8=)   8=()   8=)   8=|   8=)   :=')
+8=)   8=)   8=?
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+Associate Professor....................................Office Ph:
+979-845-6507
+Department of Architecture...........................Lab Ph: 979-845-6065
+Energy Systems Laboratory...........................FAX: 979-862-2457
+Texas A&M University..................................77843-3581
+College Station, Texas, USA...........................URL: www-esl.tamu.edu
+
+8=/   8=)  :=)   8=)  ;=)   8=)   8=()   8=)   :=)   8=)   8=!   8=)   8=?
+8=)   8=)   8=0   
+
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Peter
+Alspach
+Sent: Tuesday, August 26, 2003 1:17 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Ice Storage Curve-fits
+
+
+Does anyone have curve fits for an ice-on-coil ice storage tank for use with
+DOE2.2 (eQuest)?  - Curve-fits are for charge rate, discharge rate and
+charge temperature as a function of the length of time of charging or
+discharging.
+
+Thanks,
+
+Peter
+
+__________________________________________________
+Peter Alspach
+Mechanical Engineer, LEED(tm) AP
+
+ARUP
+901 Market Street, Suite 260, San Francisco, CA 94103
+T 415-957-9445
+D 415-946-0284
+F 415-957-9096
+peter.alspach at arup.com
+www.arup.com
+
+
+
+
+___________________________________________________________________
+Electronic mail messages entering and leaving Arup business
+systems are scanned for acceptability of content and viruses.
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cj at cr-jay.ca  Tue Aug 26 14:27:37 2003
+From: cj at cr-jay.ca (Chris Jones)
+Date: Tue, 26 Aug 2003 17:27:37 -0400
+Subject: [BLDG-SIM] esim 2004, Vancouver BC, June 2004
+Message-ID: <MDAEMON-F200308261614.AA1457734pd80000391098@gard.com>
+
+IBPSA Canada is pleased to announce esim 2004.  See http://www.esim.ca
+Abstracts are due November 7, 2003.
+
+
+
+Chris Jones, P. Eng.
+14 Oneida Avenue
+Toronto, ON M5J 2E3
+Tel. 416 203-7465
+Fax. 416 203-8249
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From peter.alspach at arup.com  Tue Aug 26 11:17:10 2003
+From: peter.alspach at arup.com (Peter Alspach)
+Date: Tue, 26 Aug 2003 19:17:10 +0100
+Subject: [BLDG-SIM] Ice Storage Curve-fits
+Message-ID: <MDAEMON-F200308261311.AA1135578pd80000390889@gard.com>
+
+Does anyone have curve fits for an ice-on-coil ice storage tank for use with
+DOE2.2 (eQuest)?  - Curve-fits are for charge rate, discharge rate and
+charge temperature as a function of the length of time of charging or
+discharging.
+
+Thanks,
+
+Peter
+
+__________________________________________________
+Peter Alspach
+Mechanical Engineer, LEED(tm) AP
+
+ARUP
+901 Market Street, Suite 260, San Francisco, CA 94103
+T 415-957-9445
+D 415-946-0284
+F 415-957-9096
+peter.alspach at arup.com
+www.arup.com
+
+
+
+
+___________________________________________________________________
+Electronic mail messages entering and leaving Arup business
+systems are scanned for acceptability of content and viruses.
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From akocharian at nri.ac.ir  Tue Aug 26 00:08:08 2003
+From: akocharian at nri.ac.ir (Albert Kochari)
+Date: Tue, 26 Aug 2003 11:38:08 +0430
+Subject: [BLDG-SIM] Capabilities of Commercial Building Analysis Tools
+Message-ID: <MDAEMON-F200308260202.AA0222375pd80000390308@gard.com>
+
+Dear BLDG-SIM members,
+
+We decided to develop a new  energy analysis software for commercial and public buildings for different climatic conditions of Iran. It will be a design tool for modeling, calculation and analyzing of HVAC, Lighting, DHW and appliances energy performance and assessment of energy conservation opportunities.
+Questions:
+1. Which software do you recommend for benchmarking in this project? EnergyPlus, HAP, CHVAC, COMcheck or other else?
+2. What are the main capabilities of commercial building energy analysis tools?
+3. Is there any idea for thermal loads time profiles?
+
+Sincerely yours
+
+Albert Kocharian
+Energy and Load Management Dept.
+Niroo Research Institute (NRI), 
+End of Poonak-e Bakhtari Blvd.
+Shahrak Gharb, Tehran, Iran
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030826/710672da/attachment.htm>
+
+From mail at smitagupta.com  Thu Aug 21 09:48:16 2003
+From: mail at smitagupta.com (mail at smitagupta.com)
+Date: Thu, 21 Aug 2003 11:48:16 -0500 (CDT)
+Subject: [BLDG-SIM] Indirect Evaporative Cooling
+Message-ID: <MDAEMON-F200308211142.AA4234281pd80000384106@gard.com>
+
+
+Hi,
+
+I am using eQUEST and having trouble with the results when indirect evap
+cooling is introduced as preconditioner. I found the msg below in the
+blg-sim archive narrating the similar problem, but no response is posted,
+hence I am posing the question again. The load profiles see an abnormal
+increase and the otherwise smooth hourly load profile graph developes
+kinks with the introduction of indirect evap cooling for outside air.
+Would appreciate if anyone has an explanation.
+
+Thanks,
+
+-Smita Gupta
+
+
+------------------------------------------------------
+To: <BLDG-SIM at xxxxxxxx>
+Subject: [BLDG-SIM] Indirect Evaporative Cooling
+From: "Matt Gangemi" <mg at xxxxxxxxxxxxx>
+Date: Tue, 8 Oct 2002 10:04:24 -0700
+Importance: Normal
+List-unsubscribe: <mailto:BLDG-SIM-Unsubscribe at GARD.COM>
+Reply-to: <mg at xxxxxxxxxxxxx>
+Sender: postman at xxxxxxxx
+
+Hello,
+I'm analyzing a building with a central plant, and would like to simulate
+pre-cooling the outside air using indirect evaporative
+cooling, using relief air as the secondary stream.  Does anyone know how
+to do this with DOE2?  (I've been using 2.2, but let me
+know if there's a solution in any version)
+Not knowing how to simulate this exact situation, I've tried to simulate
+indirect evaporative cooling using outside air as the
+secondary stream.  However, this gave me results that I don't believe. 
+Specifically, after adding evaporative cooling our increased
+fan energy dwarfed any chiller savings.  Although this is possible if the
+climate is mild enough, in that case the demand should
+still be reduced.  According to some spreadsheet calculations, we should
+save ~40kW in demand from the reduction in chiller size,
+and gain ~10kW in fans.  However, in the simulation results the demand
+increases by ~200 kW.
+Here are the commands I had  added:
+   EVAP-CL-TYPE     = INDIRECT
+   EVAP-CL+M-SUP    = TOGETHER
+   EVAP-CL+REC-RA   = YES
+Does anyone know of oddities in modeling indirect evaporation that I
+should know about?
+Thanks,
+-Matt Gangemi
+ GeoPraxis
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Thu Aug 21 08:07:33 2003
+From: jglazer at gard.com (Jason Glazer)
+Date: Thu, 21 Aug 2003 10:07:33 -0500
+Subject: [BLDG-SIM] heat recovery in PowerDOE
+Message-ID: <MDAEMON-F200308211001.AA0151171pd80000383993@gard.com>
+
+I'm using PowerDOE version 1.17e.  I cannot get outside air 
+heat recovery to work with a ground-source (water loop) 
+heat pump system.  Anyone have any insights?  
+
+
+Andrew S. Lau, P.E.
+7Group, www.sevengroup.com
+1007 Bayberry Drive
+State College, PA  16801
+814-238-4273,   FAX 814-863-7229
+andylau at psu.edu
+
+
+=========================================================
+Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Wed Aug 20 11:46:28 2003
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 20 Aug 2003 13:46:28 -0500
+Subject: [BLDG-SIM] Admin> BLDG-SIM and Email Viruses
+Message-ID: <MDAEMON-F200308201340.AA4035750pd80000383114@gard.com>
+
+Several messages were sent out yesterday and early this 
+morning through the BLDG-SIM mailing list that were due to 
+a email virus that is going around (sobig.f). I have added 
+new filters to the GARD mailserver to prevent this from 
+happening.  I don't believe that any of the messages 
+actually contained the virus attachment - our software 
+already was configured to not allow that - but the message 
+itself without attachment did go out a number of times. 
+
+Continuing to try to stay one step ahead of those causing 
+email mischief,
+
+Jason 
+
+
+=========================================================
+Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From larry at taz.tamu.edu  Tue Aug 19 10:18:39 2003
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Tue, 19 Aug 2003 12:18:39 -0500
+Subject: [bldg-sim] Simulation news time:  October 2003 IBPSA News, Vol. 13, No. 2
+Message-ID: <MDAEMON-F200308191213.AA1313156pd80000380340@gard.com>
+
+Hello to all,
+ 
+The BS-2003 papers and the venue were great in Eindhoven last week.  I
+hope all who attended enjoyed the conference as much as I did.  Now,
+it's time again for you to submit articles for the October 2003 issue of
+IBPSA News - even photos of Holland are welcomed on a space-available
+basis.  The deadline for news items is 21 September.  Please send these
+in to me a.s.a.p.
+ 
+Send me anything you have that relates to simulation conferences (past
+or future), publications, short courses, seminars, awards, college
+courses, new software, simulation models, etc.  Include as many figures
+and photographs that you can (in color).   The IBPSA Board has decided
+to allow a software section that would show software names, URL
+addresses for web pages, and contact person.  So, go ahead and send in
+software announcements as well as position announcements.
+ 
+This next issue will contain a post-conference report on Building
+Simulation'03 <http://www.bs2003.tue.nl/>  held in Eindhoven on 11-14
+August 2003 as well as any upcoming events that you wish to announce.
+Look at what's in previous IBPSA News issues at: http://www.ibpsa.org
+<http://www.ibpsa.org/>  under "Newsletter".
+ 
+Send anything you can think of.
+ 
+L.O. Degelman, IBPSA Newsletter Chairperson
+larry at taz.tamu.edu
+=====================================
+ 
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030819/c86533ad/attachment.htm>
+
+From mchugh at h-m-g.com  Mon Aug 18 13:52:35 2003
+From: mchugh at h-m-g.com (Jon McHugh)
+Date: Mon, 18 Aug 2003 13:52:35 -0700
+Subject: [bldg-sim] motor efficiency vs. VFD speed
+Message-ID: <MDAEMON-F200308181546.AA4650703pd80000379495@gard.com>
+
+Alec,
+ 
+Another great motors resource is Gil McCoy who works for the Western Area Power Administration (WAPA) Powerline http://www.es.wapa.gov/ta/powerline.cfm.  The WAPA Powerline is a great public service provided by Western and their experts have helped me many times over the past decade on a wide range of energy efficiency topics.
+ 
+Most fluids books contain equations for estimating pump flow and power at different motor speeds.  The equations are  different for essentially fixed head applications (cooling towers, make-up water) versus systems where head is primarily a function of pipe or duct friction.   The same system can have areas where flow is laminar and other areas where the flow is turbulent.  Since most of the energy in these systems is the energy imparted into the fluid - getting this part right is more critical than the couple of percent variation you might find in motor efficiency.
+ 
+Jon McHugh, PE, LC 
+
+
+ 
+ 
+
+-----Original Message-----
+From: Tom Anderson [mailto:hvac at cx-assoc.com]
+Sent: Monday, August 18, 2003 8:59 AM
+To: bldg-sim at gard.com
+Cc: bldg-sim at gard.com
+Subject: [bldg-sim] motor efficiency vs. VFD speed
+
+
+I have had the same question for years and years.  Unfortunately, the only motor part load efficiency curves available are for constant speed motors a various percent loading, where frequency remains constant. 
+
+To my knowledge... and this was confirmed by a recent Engineered Systems magazine article (August 2003).  In this article, "How to Calculate Motor Efficiency for Variable Speed Centrifugal Pumps" by Burt Rishel, Burt states there are no part load motor efficiency curves available in the industry.  I agree with Burt recommendation... they should be developed and would be quite useful. Burt is an elder pump guru who has been around since time began, as is considered by many as an authority on pumping systems. 
+
+
+Which is why Burt stated the best one can expect when comparing caclulated part load energy use on a variable speed pump (or fan) to field measured part load results are +/- 10%. 
+
+
+If by chance you should come across such curves, I'd certainly be interested in seeing them. 
+
+
+Thomas E. Anderson 
+
+President 
+
+Cx Associates, Ltd. 
+
+Building Commissioning Specialists 
+
+http://www.cx-assoc.com 
+
+933 Road 101 
+
+Jeffersonville, Vermont 05464 USA 
+
+hvac at cx-assoc.com 
+
+Tel: 802-644-5616 Fax: 802-644-6797 
+
+
+  
+  
+
+Alec Stevens wrote: 
+
+
+Hello, Does anyone know of published research that relates motor efficiency to percent load as well as drive frequency?We have motor curves for efficiency vs. percent load, but these curves all assume a nominal speed that is being maintained as load decreases.  What happens to your motor efficiency when you are also changing the drive frequency? Thanks for any leads.Sincerely, Alec Stevens, PE 
+DMI 
+450 Lexington St, Newton, MA 02466 
+p: 617-527-1525 x105  f: 617-527-6606 
+e: astevens at dmiinc.com
+
+
+
+======================================================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030818/6f25ab17/attachment.htm>
+
+From astevens at dmiinc.com  Mon Aug 18 13:32:41 2003
+From: astevens at dmiinc.com (Alec Stevens)
+Date: Mon, 18 Aug 2003 16:32:41 -0400
+Subject: [bldg-sim] Thanks - VFD speed vs. motor efficiency
+Message-ID: <MDAEMON-F200308181527.AA2705937pd80000379458@gard.com>
+
+Hello again
+
+I found the article that Fred Porter recommended at ASHRAE's bookstore, in the Transactions section.
+The article is titled Efficiencies of an 11.2 kW Variable Speed Motor and Drive and has metered data of both motor and drive efficiency at different loads and speeds.  Not sure how well this applies to larger motors, but it so happens that the motors I am looking at right now are in this size range, so this does the trick.
+
+Thanks to others who pointed out the timely article in this month's Engineered Systems, as well as a previous article in ASHRAE Journal from 1999.  
+
+Thanks again to all.
+
+Alec
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030818/afd72ed8/attachment.htm>
+
+From gstaengl at earthlink.net  Mon Aug 18 09:07:10 2003
+From: gstaengl at earthlink.net (Galen Staengl)
+Date: Mon, 18 Aug 2003 12:07:10 -0400
+Subject: [bldg-sim] motor efficiency vs. VFD speed
+In-Reply-To: <MDAEMON-F200308181008.AA0848703pd80000526434@gard.com>
+Message-ID: <MDAEMON-F200308181101.AA0125609pd80000379230@gard.com>
+
+Alec,
+
+There are a couple of curves in the 2001 E-source electronic encyclopedia
+(probably more recent versions as well).  They show vfd & motor efficiency
+vs. speed for a vfd-fan-motor system.
+
+
+Regards,
+
+Galen Staengl, P.E.
+
+Staengl Engineering
+
+129 Goodman St.
+
+Charlottesville, VA  22902
+(434)295-8105 (phone/fax)
+
+(434)242-5859 (cell)
+
+
+  -----Original Message-----
+  From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Alec Stevens
+  Sent: Monday, August 18, 2003 11:14 AM
+  To: bldg-sim at gard.com
+  Subject: [bldg-sim] motor efficiency vs. VFD speed
+
+
+  Hello,
+
+  Does anyone know of published research that relates motor efficiency to
+percent load as well as drive frequency?
+  We have motor curves for efficiency vs. percent load, but these curves all
+assume a nominal speed that is being maintained as load decreases.  What
+happens to your motor efficiency when you are also changing the drive
+frequency?
+
+  Thanks for any leads.
+  Sincerely,
+
+  Alec Stevens, PE
+  DMI
+  450 Lexington St, Newton, MA 02466
+  p: 617-527-1525 x105  f: 617-527-6606
+  e: astevens at dmiinc.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030818/6d6e2b13/attachment.htm>
+
+From hvac at cx-assoc.com  Mon Aug 18 08:59:09 2003
+From: hvac at cx-assoc.com (Tom Anderson)
+Date: Mon, 18 Aug 2003 11:59:09 -0400
+Subject: [bldg-sim] motor efficiency vs. VFD speed
+References: <MDAEMON-F200308181008.AA0849671pd80000526455@gard.com>
+Message-ID: <MDAEMON-F200308181100.AA0002656pd80000379224@gard.com>
+
+I have had the same question for years and years.  Unfortunately, the
+only motor part load efficiency curves available are for constant speed
+motors a various percent loading, where frequency remains constant.
+
+To my knowledge... and this was confirmed by a recent Engineered Systems
+magazine article (August 2003).  In this article, "How to Calculate
+Motor Efficiency for Variable Speed Centrifugal Pumps" by Burt Rishel,
+Burt states there are no part load motor efficiency curves available in
+the industry.  I agree with Burt recommendation... they should be
+developed and would be quite useful. Burt is an elder pump guru who has
+been around since time began, as is considered by many as an authority
+on pumping systems.
+
+Which is why Burt stated the best one can expect when comparing
+caclulated part load energy use on a variable speed pump (or fan) to
+field measured part load results are +/- 10%.
+
+If by chance you should come across such curves, I'd certainly be
+interested in seeing them.
+
+     Thomas E. Anderson
+     President
+     Cx Associates, Ltd.
+     Building Commissioning Specialists
+     http://www.cx-assoc.com
+     933 Road 101
+     Jeffersonville, Vermont 05464 USA
+     hvac at cx-assoc.com
+     Tel: 802-644-5616 Fax: 802-644-6797
+
+
+
+
+Alec Stevens wrote:
+
+> Hello, Does anyone know of published research that relates motor
+> efficiency to percent load as well as drive frequency?We have motor
+> curves for efficiency vs. percent load, but these curves all assume a
+> nominal speed that is being maintained as load decreases.  What
+> happens to your motor efficiency when you are also changing the drive
+> frequency? Thanks for any leads.Sincerely, Alec Stevens, PE
+> DMI
+> 450 Lexington St, Newton, MA 02466
+> p: 617-527-1525 x105  f: 617-527-6606
+> e: astevens at dmiinc.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030818/261fd250/attachment.htm>
+
+From astevens at dmiinc.com  Mon Aug 18 08:14:29 2003
+From: astevens at dmiinc.com (Alec Stevens)
+Date: Mon, 18 Aug 2003 11:14:29 -0400
+Subject: [bldg-sim] motor efficiency vs. VFD speed
+Message-ID: <MDAEMON-F200308181008.AA0850968pd80000379160@gard.com>
+
+Hello,
+
+Does anyone know of published research that relates motor efficiency to percent load as well as drive frequency?
+We have motor curves for efficiency vs. percent load, but these curves all assume a nominal speed that is being maintained as load decreases.  What happens to your motor efficiency when you are also changing the drive frequency?
+
+Thanks for any leads.
+Sincerely,
+
+Alec Stevens, PE
+DMI
+450 Lexington St, Newton, MA 02466
+p: 617-527-1525 x105  f: 617-527-6606
+e: astevens at dmiinc.com
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030818/f7487c9b/attachment.htm>
+
+From JAulbach at semprasolutions.com  Thu Aug  7 16:29:11 2003
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Thu, 7 Aug 2003 16:29:11 -0700 
+Subject: [bldg-sim] Another DOE-2 question..
+Message-ID: <MDAEMON-F200308071823.AA2339625pd80000372311@gard.com>
+
+Question answered...
+ 
+-----Original Message-----
+From: Jeff Hirsch [mailto:Jeff.Hirsch at DOE2.com]
+Sent: Thursday, August 07, 2003 4:17 PM
+To: Aulbach, John
+Subject: Re: [bldg-sim] Another DOE-2 question..
+
+
+LS-F (and LS-E), you must remember, list the load components for a NET
+heating or cooling load;
+thus a reduction of lighting load will probably cause a change in the hours
+of net heating and cooling
+load for both the spaces and the whole building ... thus, when you then look
+at the occ/equ contributions
+to the net load, they may change greatly even though the total occ/equ loads
+are very close to the same
+(not exactly as we are talking about net load to the spaces when some goes
+out the windows and walls
+via direct radiation to the surface then conduction out the other side.)
+
+---
+Jeff Hirsch
+James J. Hirsch & Associates
+Building Performance Analysis Software & Consulting
+12185 Presilla Road
+Camarillo, CA 93012-9243 USA
+phone: (805) 553-9000
+fax: (805) 532-2401
+email:  Jeff.Hirsch at DOE2.com <mailto:Jeff.Hirsch at DOE2.com> 
+web:  http://DOE2.com <http://DOE2.com> 
+ 
+ 
+
+----- Original Message ----- 
+From: Aulbach, John <mailto:JAulbach at semprasolutions.com>  
+To: bldg-sim at gard.com <mailto:bldg-sim at gard.com>  
+Sent: Thursday, August 07, 2003 12:40 PM
+Subject: [bldg-sim] Another DOE-2 question..
+
+By the way, I resolved my previous OSA question. Thanks to all who
+contributed..
+ 
+Same school. A Base Case and a Retrofit Case.
+ 
+Base Case is a central plant with 20 some air units, fixed economizer.
+ 
+Retrofit Case are individual Air heat Pumps, WITH economizer. Also a
+Lighting Retrofit (same operating hours).
+ 
+The LS-F report shows a DOUBLING of the contribution of Occupancy AND
+Equipment on the load. Same building envelope, occupancy and equipment
+density, same operating schedules. And the program does NOT yet know that
+the SYSTEM has changed.
+ 
+Any ideas?
+ 
+ 
+ 
+John R. Aulbach, PE, CEM
+Project Engineer
+Sempra Energy Solutions
+555 West Fifth Street
+Mail Location 27F3
+Los Angeles, CA 90013
+Tel: (213) 244-8551 Cell (213) 219-4875
+ 
+
+"Sempra Energy Solutions is not the same company as SDG&E/ SoCalGas, the
+Utilities.  Sempra Energy Solutions is not regulated by the California
+Public Utilities Commission, and you do not have to buy Sempra Energy
+Solutions products or services to continue to receive quality regulated
+service from the Utilities."  
+
+ 
+======================================================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030807/1b0465bd/attachment.htm>
+
+From JAulbach at semprasolutions.com  Thu Aug  7 14:48:49 2003
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Thu, 7 Aug 2003 14:48:49 -0700 
+Subject: [bldg-sim] Another DOE-2 question..
+Message-ID: <MDAEMON-F200308071643.AA4319187pd50000372208@gard.com>
+
+Jason - My previous question had to do with the apparent small difference in
+Return Air and Mixed Air Temperature in hourly printout from a DOE-2.1E
+model. I also asked if the input of Outside Air at the ZONE level translated
+into the SYSTEM level.
+
+I received several kind suggestions to insure I had my OUTSIDE-AIR-CFM set
+correctly, as well as:
+----------------------------------------------------------------------------
+-----
+
+No, OA is done as PO being <>0 thus Tmix being Trx(1-PO) + Toa*PO.
+ 
+Is OA-CONTROL fixed?  Does SV-A show the system OA fraction as what you
+expected; if not, you may
+have used the wrong keyword.
+
+---
+Jeff Hirsch
+James J. Hirsch & Associates
+Building Performance Analysis Software & Consulting
+12185 Presilla Road
+Camarillo, CA 93012-9243 USA
+phone: (805) 553-9000
+fax: (805) 532-2401
+email: Jeff.Hirsch at DOE2.com
+web: http://DOE2.com
+----------------------------------------------------------------------------
+-------
+Graham & Megan [hamnmegs at ozemail.com.au]
+
+Outside air set at zone level should be fine and takes precedence over any
+system level outdoor air command.  
+ 
+Have you checked variable #39 (PO) to see if the outdoor air damper is in
+fact open?  If not then have you set outdoor air requirements using
+OA-CHANGES or CFM/person?  if the latter then you need to have people in the
+space to have outside air delivered - i.e. works like demand controlled
+ventilation.
+ 
+Aside from that what you suggest should work.  You may want to look at
+ambient and return air humidity ratio as well so you can see you latent
+ventilation load ...
+Graham
+----------------------------------------------------------------------------
+----------
+(John again)
+
+As it turned out, I DID have my OUTSIDE-AIR-CFM in ZONE set ridiculously low
+(BLUSH). When I correct the OSA back to the Design numbers, the T mix and T
+Return became much further apart. So, indeed, the ZONE level OSA DID
+translate into the SYSTEM level. And reasonable numbers ensued.
+
+Thanks again to ALL who helped me square this away !!!
+
+John R. Aulbach, PE, CEM
+Project Engineer
+Sempra Energy Solutions
+555 West Fifth Street
+Mail Location 27F3
+Los Angeles, CA 90013
+Tel: (213) 244-8551 Cell (213) 219-4875
+ 
+
+"Sempra Energy Solutions is not the same company as SDG&E/ SoCalGas, the
+Utilities.  Sempra Energy Solutions is not regulated by the California
+Public Utilities Commission, and you do not have to buy Sempra Energy
+Solutions products or services to continue to receive quality regulated
+service from the Utilities."  
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030807/9d696161/attachment.htm>
+
+From JAulbach at semprasolutions.com  Thu Aug  7 12:40:30 2003
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Thu, 7 Aug 2003 12:40:30 -0700 
+Subject: [bldg-sim] Another DOE-2 question..
+Message-ID: <MDAEMON-F200308071521.AA2153812pd80000372110@gard.com>
+
+By the way, I resolved my previous OSA question. Thanks to all who
+contributed..
+ 
+Same school. A Base Case and a Retrofit Case.
+ 
+Base Case is a central plant with 20 some air units, fixed economizer.
+ 
+Retrofit Case are individual Air heat Pumps, WITH economizer. Also a
+Lighting Retrofit (same operating hours).
+ 
+The LS-F report shows a DOUBLING of the contribution of Occupancy AND
+Equipment on the load. Same building envelope, occupancy and equipment
+density, same operating schedules. And the program does NOT yet know that
+the SYSTEM has changed.
+ 
+Any ideas?
+ 
+ 
+ 
+John R. Aulbach, PE, CEM
+Project Engineer
+Sempra Energy Solutions
+555 West Fifth Street
+Mail Location 27F3
+Los Angeles, CA 90013
+Tel: (213) 244-8551 Cell (213) 219-4875
+ 
+
+"Sempra Energy Solutions is not the same company as SDG&E/ SoCalGas, the
+Utilities.  Sempra Energy Solutions is not regulated by the California
+Public Utilities Commission, and you do not have to buy Sempra Energy
+Solutions products or services to continue to receive quality regulated
+service from the Utilities."  
+
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030807/2643acb5/attachment.htm>
+
+From zhxu1 at vt.edu  Thu Aug  7 07:30:16 2003
+From: zhxu1 at vt.edu (Xu Zheng)
+Date: Thu, 7 Aug 2003 10:30:16 -0400
+Subject: [bldg-sim] DOE2 function problem
+Message-ID: <3F70A927@zathras>
+
+Thank you anyway, Jason.
+
+===== Original Message From jglazer at gard.com =====
+>Zheng,
+>
+>I don't understand why they are not working.  I have not
+>used functions very much.
+>
+>Jason
+>
+>
+>On 6 Aug 2003 at 15:57, Xu Zheng wrote:
+>
+>> Did you copy those files in your DOEPLUS folder? I tried
+>> them before and Got a conclusion: I have to either copy the
+>> files into DOEPLUS folder or into C: drive to open them.
+>>
+>> By the way, which DOE2 edition are you using?
+>>
+>> Here I send the .INP file to you also. Please see the
+>> attachment. Can you try to open them again? Or import the
+>> file as .INP format.
+>>
+>> Thanks a lot!
+>>
+>> Zheng
+>>
+>>
+>>
+>>
+>> >===== Original Message From jglazer at gard.com =====
+>> >I can't open these files. They don't appear to be text
+>> >files with DOE-2 in them.
+>> >
+>> >Jason
+>> >
+>> >On 6 Aug 2003 at 15:22, Xu Zheng wrote:
+>> >
+>> >> Thank you, Jason.
+>> >>
+>> >> Please look into the attachment for my files. There are 4
+>> >> files altogether: two bdl-1 files with function(dbl-1.dp2
+>> >> and dbl-1.idx); two dbl-2 files without
+>> >> function(dbl-2.dp2 and dbl-2.idx).
+>> >>
+>> >> The .idx file is an index file for the dp2 file. The
+>> >> system won't recognize the .dp2 file without the .idx
+>> >> file. If you can't open it, please let me know.
+>> >>
+>> >> Hope you can give me some advice. I am just dismayed by
+>> >> the same result from the function one. I'll appreciate
+>> >> any of your suggestion.
+>> >>
+>> >> Zheng Xu
+>> >>
+>> >>
+>> >>
+>> >>
+>> >> >===== Original Message From jglazer at gard.com =====
+>> >> >I cannot give you advice without seeing the file. If you
+>> >> >want, I will take a look at it.
+>> >> >
+>> >> >Jason
+>> >> >
+>> >> >On 6 Aug 2003 at 12:03, Xu Zheng wrote:
+>> >> >
+>> >> >> Is there anybody who could give me an indication about
+>> >> >> my simulation problem?
+>> >> >>
+>> >> >> I am doing simulation on double-glass-facade's
+>> >> >> feasibility on improve building's energy performance.
+>> >> >> From the data I collected from my mock-up, I conducted
+>> >> >> a function. In DOE 2, I define it as an input
+>> >> >> function. Then I input all the data, including
+>> >> >> geometry,material property, system, plant, and my own
+>> >> >> function. But the output shows me that the function I
+>> >> >> referred to those facades has never been called during
+>> >> >> the calculation!
+>> >> >>
+>> >> >> Any kind of help would be highly appreciated!
+>> >> >>
+>> >> >> Xu, Zheng
+>> >> >> Environmental Design & Planning Studio
+>> >> >> College of Architecture & Urban Studies
+>> >> >> Tel.540-953-0555(H)540-231-4359(O)
+>> >> >>
+>> >> >>
+>> >> >> ======================================================
+>> >> >> You received this e-mail because you are subscribed to
+>> >> >> the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>> >> >> from this mailing list send a blank message to
+>> >> >> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>> >> >>
+>> >> >
+>> >> >
+>> >> >========================================================
+>> >> >= Jason Glazer, P.E.  jglazer AT gard DOT com  847 698
+>> >> >5686 GARD Analytics - http://www.gard.com/ 1028 Busse
+>> >> >Highway, Park Ridge, IL 60068 Building Energy Simulation
+>> >> >and Analysis Admin of BLDG-SIM list for building
+>> >> >simulation users
+>> >>
+>> >> Xu, Zheng
+>> >> Environmental Design & Planning Studio
+>> >> College of Architecture & Urban Studies
+>> >> Tel.540-953-0555(H)540-231-4359(O)
+>> >>
+>> >
+>> >
+>> >=========================================================
+>> >Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+>> >GARD Analytics - http://www.gard.com/ 1028 Busse Highway,
+>> >Park Ridge, IL 60068 Building Energy Simulation and
+>> >Analysis Admin of BLDG-SIM list for building simulation
+>> >users
+>>
+>> Xu, Zheng
+>> Environmental Design & Planning Studio
+>> College of Architecture & Urban Studies
+>> Tel.540-953-0555(H)540-231-4359(O)
+>>
+>
+>
+>=========================================================
+>Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+>GARD Analytics - http://www.gard.com/
+>1028 Busse Highway, Park Ridge, IL 60068
+>Building Energy Simulation and Analysis
+>Admin of BLDG-SIM list for building simulation users
+
+Xu, Zheng
+Environmental Design & Planning Studio
+College of Architecture & Urban Studies
+Tel.540-953-0555(H)540-231-4359(O)
+
+
+
+From zhxu1 at vt.edu  Wed Aug  6 09:03:49 2003
+From: zhxu1 at vt.edu (Xu Zheng)
+Date: Wed, 6 Aug 2003 12:03:49 -0400
+Subject: [bldg-sim] DOE2 function problem
+Message-ID: <MDAEMON-F200308061058.AA5814656pd80000370993@gard.com>
+
+Is there anybody who could give me an indication about my simulation
+problem?
+
+I am doing simulation on double-glass-facade's feasibility on improve 
+building's energy performance. From the data I collected from my mock-up, I 
+conducted a function. In DOE 2, I define it as an input function.
+Then I input all the data, including geometry,material property,
+system, plant, and my own function. But the output shows me that the function 
+I referred to those facades has never been called during the calculation!
+
+Any kind of help would be highly appreciated!
+
+Xu, Zheng
+Environmental Design & Planning Studio
+College of Architecture & Urban Studies
+Tel.540-953-0555(H)540-231-4359(O)
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

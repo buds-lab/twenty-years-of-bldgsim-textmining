@@ -1,0 +1,1222 @@
+From bob at rer.com  Fri Jun 23 13:19:44 2000
+From: bob at rer.com (Bob Ramirez)
+Date: Fri, 23 Jun 2000 13:19:44 -0700
+Subject: [BLDG-SIM] Bldg Sim in Japan
+Message-ID: <MDAEMON-F200006231525.AA252885MD45908@gard.com>
+
+Hello group
+
+Does anyone know what building simulation programs have been developed
+and/or are utilized for Commercial buildings in Japan?  I am particularly
+interested in their state of sophistication with regard to computer
+simulation of building energy use?  I am particularly interested in programs
+that might be used for measurement and verification (M&V) work, i.e. their
+capabilities for calibrating computer simulations to actual bills.
+
+Any information would be greatly appreciated!
+
+Bob
+
+
+Bob Ram?rez (bobram at rer.com or bob at rer.com)
+Senior Engineer, P.E.
+
+Regional Economic Research, Inc.             http://www.rer.com
+11236 El Camino Real, San Diego, CA 92130
+Phone: 858.481.0081 ext. 427
+FAX: 858.481.7550
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From phaves at lbl.gov  Thu Jun 22 11:33:28 2000
+From: phaves at lbl.gov (Philip Haves)
+Date: Thu, 22 Jun 2000 11:33:28 -0700
+Subject: [BLDG-SIM] Job openings at LBNL
+Message-ID: <MDAEMON-F200006221329.AA295026MD45530@gard.com>
+
+(Apologies for cross-posting)
+
+***  Building Science Positions at LBNL  ***
+
+We have three new job openings in the Building Technologies Department
+at
+LBNL.  Most of this work is associated with a new multiyear project on
+"High Performance Commercial Building Systems".
+
+Summaries of each are provided below; additional details are available
+on the Lab website.  Go to   http://cjo.lbl.gov/ , search by Department,
+
+then select Environmental Energy Technologies.  The position numbers are
+
+011997, 012000 and 012003/012082.
+
+  011997  Senior Research Associate - assist in coordination and
+  communication support for a new large research program on commercial
+buildings, with
+  multiple projects, funding sources and partners(~50% time); technical
+work
+  will include research on performance metrics, benchmarking,
+commissioning
+  and diagnostics (~50% time).
+
+  012000  Principal Research Associate - conduct research on building
+  information technologies related to HVAC systems performance, low
+energy
+  cooling systems, commissioning and diagnostics; includes model
+development,
+  field monitoring and data analysis.
+
+  012003/012082  Mechanical Engineer/Staff Mechanical Engineer - ( this
+is posted
+  at two different levels; only one position will be filled, level
+  dependent on qualifications)  Conduct research in the area of HVAC
+  diagnostics and interoperability; create model-based fault detection
+  and diagnostics techniques; participate in effort to create
+standardized
+  HVAC data model using Industry Foundation Classes (IFC).
+
+The Environmental Energy Technologies Division at LBNL has $20M+/year
+RD&D activity with over 200 staff working in the building science area.
+For more information about Building Science at LBNL see
+http://eetd.lbl.gov .
+
+I'll be at ASHRAE through Wednesday (6/28) and would be glad to talk to
+anybody
+who is interested (I'm staying at the Regal).  If you won't be in
+Minneapolis and want
+to talk to somebody before next Thursday, contact Mary Ann Piette (510
+486 6286,
+ MAPiette at lbl.gov ) who is also very much involved with the new project.
+
+--
+Philip Haves, PhD
+Leader, Commercial Building Systems Group
+Lawrence Berkeley National Laboratory, MS 90-3111
+Berkeley, CA 94720
+Tel: (510) 486 6512
+Fax: (510) 486 4089
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From maddox at sover.net  Wed Jun 21 15:15:48 2000
+From: maddox at sover.net (Doug Maddox)
+Date: Wed, 21 Jun 2000 18:15:48 -0400
+Subject: [BLDG-SIM] DOE2.1E Refrigerated case airflow control
+Message-ID: <MDAEMON-F200006211719.AA193381MD45301@gard.com>
+
+I seem to recall hearing that some release of DOE2 could model a strategy in
+which air drawn off from the surface of open refigerated cases is
+"reclaimed". Does anyone know of this?
+
+Thanks,
+Doug Maddox
+maddox at sover.net
+802-287-9690
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From vsmith at archenergy.com  Wed Jun 21 12:51:57 2000
+From: vsmith at archenergy.com (Vern Smith)
+Date: Wed, 21 Jun 2000 13:51:57 -0600
+Subject: [BLDG-SIM] New York Energy Conservation Code
+References: <MDAEMON-F200006201312.AA125892MD39260@gard.com>
+Message-ID: <MDAEMON-F200006211451.AA511721MD45238@gard.com>
+
+Two other sites also have good information on building codes:
+http://www.buildingteam.com
+http://www.myFacilities.com
+
+MEC and IECC can both be purchased on-line and you may be able to find copies in
+a local technical bookstore.  The buildingteam.com site has building code
+officials and contact information listed for most US cities and counties.  Since
+MEC and IECC are model codes that may be amended by the local jurisdiction, it
+may be best to contact the local AHJ (authority having jurisdiction -- code
+legalese) if you have a particular issue.
+
+--
+Vern Smith, Senior Engineer
+Architectural Energy Corporation
+303-444-4149
+http://www.archenergy.com
+
+
+
+
+Pat Bailey wrote:
+
+> Bob,
+>
+> The CREST web site has information from the "Building Codes Assistance
+> Project" which lists the status of various codes by state.  It is my
+> understanding that the IECC either has or will supercede the MEC across the
+> board.  The web site below provides the newsletter that gives the updates on
+> state codes including MEC and IECC.  According to the site, New York has a
+> state developed code that nominally meets ASHRAE 90.1-1989.
+>
+> http://solstice.crest.org/efficiency/bcap/050600.pdf
+>
+> As a general note, the CREST web site is being shut down in July and will
+> re-emerge later under a difference moniker.  I would go there asap if you
+> need the information.
+>
+> I hope this helps,
+>
+> Pat Bailey
+> Principal, Energy Engineer
+> GeoPraxis, Inc.
+> 461 Seventh Street West
+> Sonoma, CA 95476 USA
+>
+> http://www.geopraxis.com
+> 707.996.9408 voice
+> 707.939.8702 fax
+>
+> > -----Original Message-----
+> > From: Postman at gard.com [mailto:Postman at gard.com]On Behalf Of Bob Ramirez
+> > Sent: Tuesday, June 20, 2000 6:27 AM
+> > To: BLDG-SIM at gard.com
+> > Subject: [BLDG-SIM] New York Energy Conservation Code
+> >
+> >
+> > Hello All
+> >
+> > Does anyone know of a good on-line source of the latest Energy Code (is it
+> > the 1995 MEC?) used for new building construction in New York?
+> >
+> > Also, I believe NY is also considering adopting the 2000 Int'l Energy
+> > Conservation Code.  Know of any good online source for this code, and/or
+> > contacts in NY that I could call or e-mail to ask about this process?
+> >
+> > Any leads will be appreciated.  Thanks!
+> >
+> > Sincerely,
+> >
+> > Bob Ramirez
+> >
+> >
+> > Bob Ram?rez (bobram at rer.com or bob at rer.com)
+> > Senior Engineer, P.E.
+> >
+> > Regional Economic Research, Inc.             http://www.rer.com
+> > 11236 El Camino Real, San Diego, CA 92130
+> > Phone: 858.481.0081 ext. 427
+> > FAX: 858.481.7550
+> >
+> >
+> >
+> >
+> > ==================
+> > You received this e-mail because you are subscribed
+> > to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> > from this mailing list send a blank message to
+> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> >
+> >
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mcase at etcgrp.com  Wed Jun 21 09:19:28 2000
+From: mcase at etcgrp.com (Mark Case)
+Date: Wed, 21 Jun 2000 10:19:28 -0600
+Subject: [BLDG-SIM] Weather data for Rota, Spain
+Message-ID: <MDAEMON-F200006211124.AA240828MD45152@gard.com>
+
+
+Antonio,
+Thank you very much! I will let you know if it works.
+
+
+an aside:
+My thanks to the list in general.
+The BLDG-SIM list is one of the most helpful, and apparently widely read,
+lists to which I subscribe.
+I believe it is a great service to our profession, as well as a valuable
+business resource.
+
+
+  -----Original Message-----
+  From: Ant?nio Rego Teixeira [mailto:rego at itime.ineti.pt]
+  Sent: Wednesday, June 21, 2000 9:11 AM
+  To: Mark Case
+  Subject: Weather data for Rota, Spain
+  Importance: High
+
+
+  Mr. Case,
+  I have a TRY file for Rota, which I obtained five years ago from
+ERG/ACROSOFT International, Inc. (they sold me MICRO-DOE2, a PC
+implementation of DOE-2.1E). I never used this file and I can not assure its
+integrity. I am sending you this file (Rota.dat) which must be packed using
+the DOE-2 weather processor. To execute the weather preocessor, you must
+supply an input file (Input.tmp) that I am also sending you.
+
+  Alternatively, I suggest that you contact Luis Fernando Zarzalejo
+(lf.zarzalejo at ciemat.es) at CIEMAT (www.ciemat.es), Madrid. Maybe he can
+help you.
+
+  Ant?nio Rego Teixeira
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20000621/dc21dd55/attachment.htm>
+
+From jglazer at gard.com  Wed Jun 21 06:48:14 2000
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 21 Jun 2000 08:48:14 -0500
+Subject: [BLDG-SIM] prebid
+Message-ID: <MDAEMON-F200006210845.AA455589MD45096@gard.com>
+
+Below is a message for the BLDG-SIM mailing list.
+
+Jason
+
+==============================================
+
+Date: Wed, 21 Jun 2000 09:54:26 +0200
+From: Werner Keilholz <werner at cstb.fr>
+To: f.al-ajmi at lboro.ac.uk
+Cc: BLDG-SIM at GARD.COM
+Subject: Re: [BLDG-SIM] prebid
+
+Hi Farraji,
+
+there are different approaches to this in TRNSYS, each with 
+different advantages/drawbacks. The enclosed slides from 
+our TRNSYS course summarize the most frequently used 
+solutions.  
+
+A variation of using the boundary wall method with modified 
+ground temperature is to calculate the ground temperature 
+with Jeff Thornton's Type 164 (or with some user-defined 
+equation). See also the TESS website for more information 
+about the non-standard types: http://www.tess-inc.com/  
+
+(Type 164 is on this page: http://www.tess-
+inc.com/tess/trnsys/tessutil.htm)  
+
+Hope this helps,
+
+Werner
+
+"F.Alajmi" wrote:
+
+> Hi everybody
+> does any one Know how to simulate underground building 
+using prebid
+> (trnsys simulation program ) explain  Which category of 
+wall type is used
+> for exterior walls .we have  6 walls (four walls 
+,floor&roof)are they
+> catergorized as   boundery or wboundary or......
+> thanks
+>
+> Farraj Alajmi
+> Department of Civil & Building Engineering
+> Loughborough University
+> Loughborough Leics  LE11 3TU  UK
+>
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+--
+  /    \____ Werner Keilholz, Project Manager
+  \____/     CSTB Sophia Antipolis, EVL Division
+  /    \____ s-mail: BP 209, 06904 SOPHIA ANTIPOLIS,  F R A 
+N C E
+  \____/     phone: +33 (0)4 93 95 67 46 -- fax: +33 (0)4 
+93 95 67 33
+  /    \____ Mailto:werner at cstb.fr
+  \____/     http://evl.cstb.fr/english/team/WK/werner.htm
+
+* 3rd French TRNSYS meeting - Sophia Antipolis France, Oct. 
+23-25 *
+                 http://evl.cstb.fr/flash/trnsys_anim.html
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From pbailey at geopraxis.com  Tue Jun 20 11:11:51 2000
+From: pbailey at geopraxis.com (Pat Bailey)
+Date: Tue, 20 Jun 2000 11:11:51 -0700
+Subject: [BLDG-SIM] New York Energy Conservation Code
+In-Reply-To: <MDAEMON-F200006200846.AA464395MD38557@gard.com>
+Message-ID: <MDAEMON-F200006201312.AA124476MD44812@gard.com>
+
+Bob,
+
+The CREST web site has information from the "Building Codes Assistance
+Project" which lists the status of various codes by state.  It is my
+understanding that the IECC either has or will supercede the MEC across the
+board.  The web site below provides the newsletter that gives the updates on
+state codes including MEC and IECC.  According to the site, New York has a
+state developed code that nominally meets ASHRAE 90.1-1989.
+
+http://solstice.crest.org/efficiency/bcap/050600.pdf
+
+As a general note, the CREST web site is being shut down in July and will
+re-emerge later under a difference moniker.  I would go there asap if you
+need the information.
+
+I hope this helps,
+
+Pat Bailey
+Principal, Energy Engineer
+GeoPraxis, Inc.
+461 Seventh Street West
+Sonoma, CA 95476 USA
+
+http://www.geopraxis.com
+707.996.9408 voice
+707.939.8702 fax
+
+
+
+> -----Original Message-----
+> From: Postman at gard.com [mailto:Postman at gard.com]On Behalf Of Bob Ramirez
+> Sent: Tuesday, June 20, 2000 6:27 AM
+> To: BLDG-SIM at gard.com
+> Subject: [BLDG-SIM] New York Energy Conservation Code
+>
+>
+> Hello All
+>
+> Does anyone know of a good on-line source of the latest Energy Code (is it
+> the 1995 MEC?) used for new building construction in New York?
+>
+> Also, I believe NY is also considering adopting the 2000 Int'l Energy
+> Conservation Code.  Know of any good online source for this code, and/or
+> contacts in NY that I could call or e-mail to ask about this process?
+>
+> Any leads will be appreciated.  Thanks!
+>
+> Sincerely,
+>
+> Bob Ramirez
+>
+>
+> Bob Ram?rez (bobram at rer.com or bob at rer.com)
+> Senior Engineer, P.E.
+>
+> Regional Economic Research, Inc.             http://www.rer.com
+> 11236 El Camino Real, San Diego, CA 92130
+> Phone: 858.481.0081 ext. 427
+> FAX: 858.481.7550
+>
+>
+>
+>
+> ==================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bob at rer.com  Tue Jun 20 06:27:16 2000
+From: bob at rer.com (Bob Ramirez)
+Date: Tue, 20 Jun 2000 06:27:16 -0700
+Subject: [BLDG-SIM] New York Energy Conservation Code
+Message-ID: <MDAEMON-F200006200846.AA462907MD44701@gard.com>
+
+Hello All
+
+Does anyone know of a good on-line source of the latest Energy Code (is it
+the 1995 MEC?) used for new building construction in New York?
+
+Also, I believe NY is also considering adopting the 2000 Int'l Energy
+Conservation Code.  Know of any good online source for this code, and/or
+contacts in NY that I could call or e-mail to ask about this process?
+
+Any leads will be appreciated.  Thanks!
+
+Sincerely,
+
+Bob Ramirez
+
+
+Bob Ram?rez (bobram at rer.com or bob at rer.com)
+Senior Engineer, P.E.
+
+Regional Economic Research, Inc.             http://www.rer.com
+11236 El Camino Real, San Diego, CA 92130
+Phone: 858.481.0081 ext. 427
+FAX: 858.481.7550
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From F.Al-ajmi at lboro.ac.uk  Tue Jun 20 02:57:37 2000
+From: F.Al-ajmi at lboro.ac.uk (F.Alajmi)
+Date: Tue, 20 Jun 2000 10:57:37 +0100
+Subject: [BLDG-SIM] prebid
+Message-ID: <MDAEMON-F200006200508.AA082342MD44655@gard.com>
+
+Hi everybody
+does any one Know how to simulate underground building using prebid
+(trnsys simulation program ) explain  Which category of wall type is used
+for exterior walls .we have  6 walls (four walls ,floor&roof)are they
+catergorized as   boundery or wboundary or......
+thanks
+
+
+Farraj Alajmi 
+Department of Civil & Building Engineering
+Loughborough University
+Loughborough Leics  LE11 3TU  UK
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mcase at etcgrp.com  Mon Jun 19 07:48:18 2000
+From: mcase at etcgrp.com (Mark Case)
+Date: Mon, 19 Jun 2000 08:48:18 -0600
+Subject: [BLDG-SIM] Spanish Weather
+Message-ID: <MDAEMON-F200006190952.AA525771MD44383@gard.com>
+
+My thanks to the list for all responses. Someone very graciously sent me a
+weather file for Lisbon, which is probably as good as I can expect. (Without
+spending a ridiculous amount of time and money.) We are looking for Cadiz
+which is southeast of Lisbon, but still on the Atlantic coast. If anyone
+knows of significant discrepancies between the climates, I would appreciate
+a heads up.
+
+Mark E. Case, P.E.
+President, etc Group, Inc.
+3481 South 2300 East
+Salt Lake City, Utah 84109
+801-278-1927, 801-278-1942 (F)
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20000619/e72cfee1/attachment.htm>
+
+From cbarnaby at wrightsoft.com  Fri Jun 16 11:49:58 2000
+From: cbarnaby at wrightsoft.com (Chip Barnaby)
+Date: Fri, 16 Jun 2000 14:49:58 -0400
+Subject: [BLDG-SIM] IBPSA-USA Minneapolis 6/24/00
+Message-ID: <MDAEMON-F200006161349.AA494812MD43906@gard.com>
+
+Please excuse duplicate Emails -- I am using multiple lists (also if you've 
+already responded).
+
+ONLY ONE WEEK LEFT!!
+
+International Building Performance Simulation Association -- USA Affiliate
+IBPSA-USA
+
+ >> NOTE: Dinner response needed, see below <<<
+
+MEETING ANNOUNCEMENT
+
+4 PM, Sat., June 24, 2000
+
+Table of Contents Restaurant
+1310 Hennepin Ave.
+Minneapolis, MN 55403
+612-339-1133
+(Walking distance from the Convention Center.)
+
+
+Program
+=======
+
+4 - 5:30 PM -- Workshop and Forum: XML-Based Data Exchange for Building 
+Simulation
+
+Presenter / Moderator: John Kennedy, P.E. of GeoPraxis, Inc., Sonoma, 
+CA.  John is the developer of the Green Building XML Schema (gbXML).  See 
+www.geopraxis.com.
+
+
+5:30 - 6:30 PM -- Social hour with appetizers and cash bar
+
+
+6:30 PM -- Dinner
+
+Dinner speaker: David Eijadi AIA, VIce-President, The Weidt Group, 
+Minnetonka, MN.
+
+Topic: "Ecology and Economy".  The relationship between the two and key 
+indicators that should be measured.
+
+
+Price of dinner is $30.
+
+If you haven't already done so, please RSVP by eMail (to me) if you plan to 
+attend the dinner.  We need a count for planning purposes.   ALSO let me 
+know if you want a vegetarian meal (default meal will be chicken).
+
+I hope to see you there!
+
+Chip Barnaby
+President, IBPSA-USA
+
+---------------------------------------------------------
+Chip Barnaby                   cbarnaby at wrightsoft.com
+Director of Software Development
+Wrightsoft Corp.               781-862-8719 x118 voice
+394 Lowell St, Suite 12        781-861-2058 fax
+Lexington, MA 02420            www.wrightsoft.com
+(Note new area code, formerly 617.)
+(Note new zip code, formerly 02173.  Insult to injury.)
+---------------------------------------------------------
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From fcw at pegasus.lbl.gov  Wed Jun 14 10:09:21 2000
+From: fcw at pegasus.lbl.gov (Fred Winkelmann)
+Date: Wed, 14 Jun 00 10:09:21 PDT
+Subject: [BLDG-SIM] DOE2.1E:Systems
+Message-ID: <MDAEMON-F200006141208.AA084454MD43259@gard.com>
+
+Mahabir,
+
+What version of DOE-2.1E are you using? You should contact
+whoever you got the program from about the sample input/output
+files that are available for the program. There is also a
+"Sample Run Book" as part of the documentation. Both the files
+and the book illustrate many different system and plant types.
+
+Also, you may want to contact the DOE-2 Resource Center for India:
+Jiten Prajapati or Anil Anand, Energy Systems Engineering, IIT Mumbai,
+Powai, Mumbai 400 076, Tel: 91 022 578 2545 x7378. They have complete
+sets of DOE-2.1E documentation, technical reports, etc.
+
+We publish (on the web) a bi-monthly Building Energy Simulation User News
+that lists DOE-2 services, documentation sources, program vendors, etc.
+(as well as information on related simulation tools). To subscribe go to
+http://SimulationResearch.lbl.gov and click on User News, Subscribe.
+Back issues of the User News are available at this web site.
+
+Fred Winkelmann
+Leader, Simulation Research Group
+
+
+----- Begin Included Message -----
+
+From: "Mahabir Bhandari" <mahabir_bhandari at hotmail.com>
+To: <BLDG-SIM at gard.com>
+Subject: [BLDG-SIM] DOE2.1E:Systems
+Date: Wed, 14 Jun 2000 05:15:44 PDT
+
+I have recently started working with the simulation of DOE2.1E system and 
+plants. I would be grateful, if someone could send me the sample files.
+
+with best regards
+
+M.S. Bhandari
+IIT Delhi
+India
+________________________________________________________________________
+Get Your Private, Free E-mail from MSN Hotmail at http://www.hotmail.com
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+----- End Included Message -----
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mahabir_bhandari at hotmail.com  Wed Jun 14 05:15:44 2000
+From: mahabir_bhandari at hotmail.com (Mahabir Bhandari)
+Date: Wed, 14 Jun 2000 05:15:44 PDT
+Subject: [BLDG-SIM] DOE2.1E:Systems
+Message-ID: <MDAEMON-F200006140728.AA282664MD43152@gard.com>
+
+I have recently started working with the simulation of DOE2.1E system and 
+plants. I would be grateful, if someone could send me the sample files.
+
+with best regards
+
+M.S. Bhandari
+IIT Delhi
+India
+________________________________________________________________________
+Get Your Private, Free E-mail from MSN Hotmail at http://www.hotmail.com
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mcase at etcgrp.com  Mon Jun 12 13:37:04 2000
+From: mcase at etcgrp.com (Mark Case)
+Date: Mon, 12 Jun 2000 14:37:04 -0600
+Subject: [BLDG-SIM] DOE weather
+Message-ID: <MDAEMON-F200006121548.AA483318MD42623@gard.com>
+
+Peter,
+
+Did you have any luck finding weather data for Lisbon or Porto? (re: 2/23
+post to BLDG-SIM)?
+We need weather for south Atlantic coast of Spain (Rota/Cadiz). The closest
+city is Jerez de la Frontera.
+
+Mark E. Case, P.E.
+President, etc Group, Inc.
+3481 South 2300 East
+Salt Lake City, Utah 84109
+801-278-1927, 801-278-1942 (F)
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20000612/79e6da8c/attachment.htm>
+
+From Drury.Crawley at ee.doe.gov  Mon Jun 12 11:28:30 2000
+From: Drury.Crawley at ee.doe.gov (Drury.Crawley at ee.doe.gov)
+Date: Mon, 12 Jun 2000 14:28:30 -0400
+Subject: [BLDG-SIM] EnergyPlus beta 2 and licensing
+Message-ID: <MDAEMON-F200006121329.AA290914MD42569@gard.com>
+
+
+
+Building Simulation Colleagues:
+
+We are pleased to announce that the beta 2 of EnergyPlus
+is now available.  Instructions for obtaining beta 2 can
+be found at:
+
+  http://www.eren.doe.gov/buildings/energy_tools/energyplus.htm
+
+This site includes a link to the beta download site and other
+EnergyPlus information--including information about EnergyPlus
+licensing and schedules for future betas and release 1.0.
+
+Follow the links to the beta 2 download site.  The install file
+contains the EnergyPlus Beta 2 release (executables, readme files,
+documentation, sample input/output files, a simple editor to
+create input files, an EnergyPlus launch utility, a translator
+for converting BLAST input files to EnergyPlus input files, and
+some sample weather data).
+
+When your beta test license agreement is received, we will furnish
+you with an installation password.  Questions and comments may be
+directed to EnergyPlus-Support at gard.com
+
+Thank you for your interest in EnergyPlus.
+
+Sincerely,
+
+The EnergyPlus Team
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cbarnaby at wrightsoft.com  Thu Jun  8 09:41:52 2000
+From: cbarnaby at wrightsoft.com (Chip Barnaby)
+Date: Thu, 08 Jun 2000 12:41:52 -0400
+Subject: [BLDG-SIM] IBPSA-USA Minneapolis 6/24/00
+Message-ID: <MDAEMON-F200006081146.AA464814MD41749@gard.com>
+
+International Building Performance Simulation Association -- USA Affiliate
+IBPSA-USA
+
+ >> NOTE: Dinner response needed, see below <<<
+
+MEETING ANNOUNCEMENT
+
+4 PM, Sat., June 24, 2000
+
+Table of Contents Restaurant
+1310 Hennepin Ave.
+Minneapolis, MN 55403
+612-339-1133
+(Walking distance from the Convention Center.)
+
+Program
+=======
+
+4 - 5:30 PM -- Workshop and Forum: XML-Based Data Exchange for Building 
+Simulation
+
+Presenter / Moderator: John Kennedy, P.E. of GeoPraxis, Inc., Sonoma, 
+CA.  John is the developer of the Green Building XML Schema (gbXML).  See 
+www.geopraxis.com.
+
+
+5:30 - 6:30 PM -- Social hour with appetizers and cash bar
+
+
+6:30 PM -- Dinner
+
+Dinner speaker: David Eijadi, The Weidt Group, Minnetonka, MN
+
+Price of dinner is $30.
+
+
+
+If you haven't already done so, please RSVP by eMail (to me) if you plan to 
+attend the dinner.  We need a count for planning purposes.   ALSO let me 
+know if you want a vegetarian meal (default meal will be chicken).
+
+I hope to see you there!
+
+Chip Barnaby
+President, IBPSA-USA
+
+
+
+---------------------------------------------------------
+Chip Barnaby                   cbarnaby at wrightsoft.com
+Director of Software Development
+Wrightsoft Corp.               781-862-8719 x118 voice
+394 Lowell St, Suite 12        781-861-2058 fax
+Lexington, MA 02420            www.wrightsoft.com
+(Note new area code, formerly 617.)
+(Note new zip code, formerly 02173.  Insult to injury.)
+---------------------------------------------------------
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Dominique.Michaud at dessausoprin.com  Thu Jun  8 08:49:00 2000
+From: Dominique.Michaud at dessausoprin.com (Dominique Michaud)
+Date: Thu, 8 Jun 2000 11:49:00 -0400
+Subject: [BLDG-SIM] Request for help simulating a reservoir
+Message-ID: <MDAEMON-F200006081043.AA434770MD41720@gard.com>
+
+I am trying to simulate a 78 600 gallon reservoir for a water loop heat pump
+system in DOE-2.1E. I want to operate the reservoir to store energy during
+off-peak hours (between the hours of 22 and 7) for cooling and heating
+purposes. The heat will be supplied by an electric boiler and the cooling
+supplied by a water tower. I am having trouble with the PLANT portion of the
+simulation (ie. the SYSTEMS component runs optimally but when the loads are
+carried over to the PLANT, the peak power demand is much too high). I think
+the problem lies in the boiler: the boiler seems to be trying to warm the
+reservoir instantaneously, drawing far too much power.
+
+If someone has simulated a similar reservoir and could guide me through the
+process, it would be greatly appreciated.
+
+Thank you,
+
+Dominique Michaud
+Building Energy Analyst
+
+Environment and Sustainable Development
+Dessau-Soprin
+375 blvd. Rolland-Therrien Suite 400
+Longueuil, Quebec, Canada J4H 4A6
+(514) 281-1010
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Mon Jun  5 13:58:36 2000
+From: jglazer at gard.com (Jason Glazer)
+Date: Mon, 5 Jun 2000 15:58:36 -0500
+Subject: [BLDG-SIM] DOE Capabilities
+In-Reply-To: <MDAEMON-F200006030713.AA133564MD40675@gard.com>
+Message-ID: <MDAEMON-F200006051556.AA564173MD41022@gard.com>
+
+Mike,
+
+The DOE-2.1e program can simulate all of the systems that 
+you described.  Combining electric centrifugal and direct 
+fired absorption chillers in a single plant with controls I 
+have done many times and it works well.  The chillers can 
+be sequenced in a variety of ways to meet the load and the 
+sequencing can be modified hourly by schedules.   
+
+All three items are well documented in the "DOE-2 
+Supplement Version 2.1e" by Winkelmann, et al, November 
+1993 and comes with the DOE-2 documentation package.  
+
+Jason
+
+On 3 Jun 2000, at 6:49, Lemmon, Mike wrote:
+
+> I need to know if the DOE program can model the equipment
+> and energy systems listed below.  Any comments from users
+> who have modeled any of these systems will be appreciated. 
+> Thanks
+> 
+> 
+> 
+> 
+> Peak Shaving with a Gas generator
+>  Rejection of generator jacket water to heat exchanger and
+>  applied
+> towards boiler water pre-heat.
+> 
+> Ice Storage
+>  Partial Storage
+> 
+> Hybrid Plants (switchover scheduling)
+>  Centrifugal
+>  Direct Fired Absorption
+> 
+> 
+> Best regards,
+> 
+>  <<...>> 
+> 
+> Mike Lemmon
+> Account Executive - Federal Sector Team
+> The Trane Company
+> Asset Management Services
+> 
+> Phone (608) 787-4297
+> Fax (801) 751-8574
+> Cell (612) 845-4495
+> E-mail mlemmon at trane.com
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mlemmon at trane.com  Sat Jun  3 04:49:02 2000
+From: mlemmon at trane.com (Lemmon, Mike)
+Date: Sat, 3 Jun 2000 06:49:02 -0500
+Subject: [BLDG-SIM] DOE Capabilities
+Message-ID: <MDAEMON-F200006030713.AA133564MD40675@gard.com>
+
+I need to know if the DOE program can model the equipment and energy systems
+listed below.  Any comments from users who have modeled any of these systems
+will be appreciated.  Thanks
+
+
+
+
+Peak Shaving with a Gas generator
+	Rejection of generator jacket water to heat exchanger and applied
+towards boiler water pre-heat.
+
+Ice Storage
+	Partial Storage
+
+Hybrid Plants (switchover scheduling)
+	Centrifugal
+	Direct Fired Absorption
+
+
+Best regards,
+
+ <<...>> 
+
+Mike Lemmon
+Account Executive - Federal Sector Team
+The Trane Company
+Asset Management Services
+
+Phone (608) 787-4297
+Fax (801) 751-8574
+Cell (612) 845-4495
+E-mail mlemmon at trane.com
+
+Visit our intranet site at: http://tranenetlax1/AMS
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From tconlon at geopraxis.com  Fri Jun  2 23:45:30 2000
+From: tconlon at geopraxis.com (Tom Conlon)
+Date: Fri, 2 Jun 2000 23:45:30 -0700
+Subject: [BLDG-SIM] GeoPraxis Publishes First XML Schema for Building Energy and Environmental Performance Analysis
+Message-ID: <MDAEMON-F200006030212.AA124196MD40651@gard.com>
+
+FOR IMMEDIATE RELEASE
+
+GeoPraxis Publishes First XML Schema for Building Energy and Environmental
+Performance Analysis
+Open ?Green Building XML? Schema Now Available
+
+
+SONOMA, CA --(BUSINESS WIRE)-- June 2, 2000 -- Keeping to a schedule set
+last month, GeoPraxis, Inc., the leading provider of XML-based energy and
+environmental analysis software today published an open XML schema that will
+greatly facilitate the analysis of building energy and environmental
+performance by architects, engineers, and others who design and build
+buildings.
+
+The new schema, Green Building XML (gbXML), will facilitate the transfer of
+building product characteristics and equipment performance data between
+manufacturer?s databases, CAD applications, and energy simulation engines.
+The gbXML schema is poised to become the interoperability standard for
+sharing data between programs of this type.  Improved data interoperability
+between the desktop and web-based tools currently used in the architecture,
+engineering, and construction (A/E/C) industry will greatly reduce the time
+and cost of designing high performance, energy and resource efficient
+buildings.
+
+John Kennedy, Principal and head of software development at GeoPraxis, said,
+?After public review by 45 representatives from industry, research, and
+media organizations, V1.0 of the schema has been completed and submitted to
+the BizTalk and IAI/aecXML organizations.  We are thankful for the many
+comments and words of encouragement we received during the review process
+and look forward to working with many of these parties to make the vision of
+truly useful building performance analysis tools become a reality.?
+
+Mr. Kennedy has been invited to discuss the schema and demonstrate it in
+action at three upcoming venues: a workshop at Lawrence Berkeley National
+Laboratory (June 16), the International Alliance for Interoperability?s
+aecXML/IFC meeting held in conjunction with the Construction Specifications
+Institute annual convention in Atlanta  (June 23), and the International
+Building Performance Simulation Association (IBPSA) semiannual meeting in
+Minneapolis (June 24).
+
+?Building performance analysis is a hot topic right now and gbXML appears to
+be the best way to get powerful building performance simulation capabilities
+into the hands of new users as quickly as possible", said Duane Barrett,
+Product Manager, HVAC Applications at Bentley Systems, Incorporated.
+
+GbXML V1.0 is fully compatible with the most recent revisions of the aecXML
+guidelines and the BizTalk framework.  Developers and others who wish to
+download the schema may do so immediately via www.BizTalk.org or visit
+www.idea-server.com/gbXML.htm.
+============================
+About GeoPraxis.
+GeoPraxis, Inc. combines its expertise in energy engineering, market
+research, and software development to meet the rigorous research and
+development needs of some of the most sophisticated resource companies,
+research organizations, and policy-making bodies in the world. GeoPraxis is
+all about putting the best ideas to work for the most effective use of
+limited resources.
+
+
+Contact: Tom Conlon, Principal
+GeoPraxis, Inc.
+Phone: 707.996.9408
+Fax: 707.939.8702
+tconlon at geopraxis.com
+www.GeoPraxis.Com
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From nmendes at rla01.pucpr.br  Fri Jun  2 12:54:05 2000
+From: nmendes at rla01.pucpr.br (Nathan Mendes)
+Date: Fri, 02 Jun 2000 16:54:05 -0300
+Subject: [BLDG-SIM] IBPSA 2001
+Message-ID: <MDAEMON-F200006021510.AA102535MD40553@gard.com>
+
+
+Dear colleague,
+
+We take this opportunity to e-mail you information on the
+next Building Simulation conference (see text below), promoted by
+IBPSA (International Building Performance Simulation Association),
+to be held in Rio de Janeiro, Brazil, August 13-15th, 2001.
+
+Please, visit the homepage http://www.labeee.ufsc.br/bs2001/
+where you can have all information about the conference
+and can also download the folder.
+
+I apologize if this is not the first time you receive this message.
+
+Yours Sincerely,
+
+Nathan Mendes
+Organizing Committee - IBPSA 2001
+
+IBPSA aims to advance and promote the science of building performance
+simulation in order to improve the design, construction, operation and
+maintenance
+of new and existing buildings worldwide. Any good quality paper related
+to this
+mission will be acceptable.
+
+Important Dates:
+Abstracts due: September 15, 2000
+Manuscript due: February 15, 2001
+Final papers due: June 1, 2001
+Conference: August 13-15, 2001
+
+Example topics are modelling and simulation of:
+   -Building physics including heat, air and moisture flow, heating and
+     cooling loads, electric and day lighting, acoustics, smoke
+transport...
+   - Heating, ventilation and air-conditoning systems
+   - Energy supply systems including renewable energy systems, thermal
+      storage systems, district heating and cooling, combined heating
+and power systems
+    -Human factors including health, productivity, thermal comfort,
+      visual comfort, acoustical comfort, indoor air quality
+    -Building services such as lighting systems, sound/vibration control
+
+     systems, fire/smoke and emergency control systems, cold/hot water
+supply
+     systems, sewerage systems
+    - Advances and recent developments in modelling and simulation
+      technology including coupling with CAD, product modelling,
+software
+     interoperability, user interface issues, validation and calibration
+techniques.
+
+All these topics may be addressed at different levels of resolution;
+from urban scale to microscopic scalefor different stages in the
+building life cycle;
+from early sketch design, via detailed design to construction,
+commissioning, operation,
+control and maintenance of new and existing buildings worldwide.
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: nmendes.vcf
+Type: text/x-vcard
+Size: 574 bytes
+Desc: Card for Nathan Mendes
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20000602/a608df8c/attachment.vcf>
+

@@ -1,0 +1,1162 @@
+From fcw at pegasus.lbl.gov  Wed Jul 28 10:34:24 1999
+From: fcw at pegasus.lbl.gov (Fred Winkelmann)
+Date: Wed, 28 Jul 99 10:34:24 PDT
+Subject: [BLDG-SIM] DOE-2 inside film resistances
+Message-ID: <MDAEMON-F199907281228.AA283071MD62521@gard.com>
+
+Re: Jeff Hirsch's comments below on varying inside film resistances.
+I would discourage anyone from trying to do this with DOE-2. The
+reason is that in calculating loads, DOE-2 uses weighting factors
+that are precalculated at a FIXED (but user specifiable using
+the INSIDE-FILM-RES keyword) combined inside film resistance for
+each zone surface (but different surfaces can have different fixed
+film resistances). So if you manage to change the inside film
+resistances in the hourly calculation your conductive heat transfer
+will be incompatible with the weighting factors and your results
+will be highly suspicious.
+
+Fred Winkelmann
+
+
+----- Begin Included Message -----
+
+
+From JJHirsch at ez2.net  Wed Jul 28 10:10:58 1999
+From: JJHirsch at ez2.net (James J. Hirsch)
+Date: Wed, 28 Jul 1999 10:10:58 -0700
+Subject: [BLDG-SIM] DOE-2 Modelling Capabilities
+References: <MDAEMON-F199907280923.AA233443MD56956@gard.com>
+Message-ID: <379F39A2.9171B6DB@ez2.net>
+
+If you do not want to bother looking at the source, manuals,
+and papers, Fred Winkelmann is the definitive source for this
+kind of information on the DOE-2 LOADS calculation
+(FCWinkelmann at lbl.gov), but here is my quick summary
+(see comments embedded below ...)
+
+Steve Moller wrote:
+
+> Hi All,
+> I'm interested in DOE-2's modelling capabilities.  Can the 2.1E engine
+> handle
+>     a. Walls that lean in or out (non-vertical)?
+
+Yes.  Form factors are calculated by default for sky/ground "seen" and
+the tilt is also used in solar and outside film coefficient calculations hourly.
+
+Inside film coefficient is set, based upon tilt for exterior walls and a
+constant
+of .68 for windows -interior and exterior- and interior walls, and does not vary
+
+hourly unless you explicitly specify and hourly variation (easily - but
+cumbersome
+- to do with a schedule for windows, and much more difficult - using functions,
+and thus really impractical for most all users to consider trying - for walls.)
+
+For 2.1E the tilt range is 0-180; for 2.2 it is -180 to 180.
+
+>
+>     b. Curved walls?
+
+No.  You need to break them into planar sufraces.  In 2.1e these are
+rectangular; in 2.2 these can be up to 30 sided polygons and can be
+automatically generated once you "draw" the space outline on which
+you want the walls placed.
+
+>
+>     c. Windows that lean in or out (non-vertical) with fixed shading
+> devices?
+>
+
+Same as comment above for wall tilt.
+
+>
+> Thanks in advance
+>
+> Steve Moller                                 EMail:
+> Steven.Moller at dbce.csiro.au
+> CSIRO B C & E                                FAX:   +61 3 9252 6251
+> PO Box 56, Highett, Vic. 3190                Voice: +61 3 9252 6000
+> Australia                                    Web:
+> http://www.dbce.csiro.au/res-cap/attl/
+>
+> Mr. Steven Moller
+> Building Thermal Analyst
+> CSIRO Building Construction & Engineering
+>
+> Interests:
+> Developing building thermal simulation tools
+> Reading/Writing IFC files
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+--
+Jeff Hirsch
+James J. Hirsch & Associates
+Building Performance Analysis Software & Consulting
+12185 Presilla Road
+Camarillo, CA 93012-9243 USA
+phone: (805) 532-1045
+fax: (805) 532-2401
+email: Jeff.Hirsch at DOE2.com OR JJHirsch at ez2.net
+web: http://DOE2.com
+
+
+----- End Included Message -----
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From fcw at pegasus.lbl.gov  Wed Jul 28 09:22:32 1999
+From: fcw at pegasus.lbl.gov (Fred Winkelmann)
+Date: Wed, 28 Jul 99 09:22:32 PDT
+Subject: [BLDG-SIM] DOE-2 Modelling Capabilities
+Message-ID: <MDAEMON-F199907281116.AA163725MD62481@gard.com>
+
+Steve:
+
+The answers follow.
+
+Fred Winkelmann
+
+>Hi All,
+>I'm interested in DOE-2's modelling capabilities.  Can the 2.1E engine
+>handle
+>   a. Walls that lean in or out (non-vertical)? YES
+>   b. Curved walls? NOT DIRECTLY; CURVED WALLS HAVE TO BE DECOMPOSED INTO A
+       SET OF RECTANGULAR WALLS WHOSE AZIMUTHS AND TILTS FOLLOW THE CURVE
+       OF THE ORIGINAL WALL. THE TOTAL AREA OF THESE RECTANGLES
+       SHOULD ADD UP TO THE SAME AREA AS THE ORIGINAL CURVED WALL.
+>   c. Windows that lean in or out (non-vertical) with fixed shading
+       devices? YES
+
+>Thanks in advance
+Steve Moller                                 EMail:
+Steven.Moller at dbce.csiro.au
+CSIRO B C & E                                FAX:   +61 3 9252 6251
+PO Box 56, Highett, Vic. 3190                Voice: +61 3 9252 6000
+Australia                                    Web:
+http://www.dbce.csiro.au/res-cap/attl/
+
+Mr. Steven Moller
+Building Thermal Analyst
+CSIRO Building Construction & Engineering
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Steven.Moller at dbce.csiro.au  Tue Jul 27 20:52:56 1999
+From: Steven.Moller at dbce.csiro.au (Steve Moller)
+Date: Wed, 28 Jul 1999 13:52:56 +1000
+Subject: [BLDG-SIM] DOE-2 Modelling Capabilities
+Message-ID: <MDAEMON-F199907280923.AA233420MD62392@gard.com>
+
+Hi All,
+I'm interested in DOE-2's modelling capabilities.  Can the 2.1E engine
+handle
+    a. Walls that lean in or out (non-vertical)?
+    b. Curved walls?
+    c. Windows that lean in or out (non-vertical) with fixed shading
+devices?
+
+Thanks in advance
+
+Steve Moller                                 EMail:
+Steven.Moller at dbce.csiro.au
+CSIRO B C & E                                FAX:   +61 3 9252 6251
+PO Box 56, Highett, Vic. 3190                Voice: +61 3 9252 6000
+Australia                                    Web:
+http://www.dbce.csiro.au/res-cap/attl/
+
+Mr. Steven Moller
+Building Thermal Analyst
+CSIRO Building Construction & Engineering
+
+Interests:
+Developing building thermal simulation tools
+Reading/Writing IFC files
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From deblombard at swinter.com  Mon Jul 26 07:39:58 1999
+From: deblombard at swinter.com (Debra Lombard)
+Date: Mon, 26 Jul 1999 10:39:58 -0400
+Subject: [BLDG-SIM] Engineers/HVAC - CT
+Message-ID: <MDAEMON-F199907260934.AA345292MD61918@gard.com>
+
+Engineers/HVAC (CT) - Immediate
+
+Award-winning firm at the forefront of green/energy-efficiency, seeks
+engineers with 1-7 years design or energy analysis experience.
+Experience with energy analysis software a plus, such as DOE-2.1E,
+BLAST, TRNSYS, TRACE.  Recent projects: Four Times Square NY,
+zero energy - Oberlin College.  Exceptional opportunity to make a
+difference. Visit our web site at: www.swinter.com.
+Contact: Mr. Adrian Tuluca, Email: atuluca at swinter.com
+Steven Winter Associates, Inc., 50 Washington Street, Norwalk, CT 06854.
+
+Fax: 203-852-0741.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990726/fd6c427e/attachment.htm>
+-------------- next part --------------
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+From mattb at rlw.com  Fri Jul 23 13:36:06 1999
+From: mattb at rlw.com (Matt Brost)
+Date: Fri, 23 Jul 1999 13:36:06 -0700
+Subject: [BLDG-SIM] engineering position
+Message-ID: <MDAEMON-F199907231610.AA100942MD61600@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990723/c20e4263/attachment.htm>
+
+From bseaton at ASHRAE.org  Wed Jul 14 12:03:03 1999
+From: bseaton at ASHRAE.org (Seaton, Bill)
+Date: Wed, 14 Jul 1999 15:03:03 -0400
+Subject: [BLDG-SIM] ARTI  21-CR  RFPs  released
+Message-ID: <MDAEMON-F199907141401.AA010860MD59486@gard.com>
+
+
+FOR IMMEDIATE RELEASE		
+14 July 1999					
+
+FOR INFORMATION CONTACT
+Glenn Hourahan, Vice President ARTI
+703/524-8800, or hourahan at ari.org
+
+
+THREE  ADDITIONAL  21-CR  PROJECTS  RELEASED  FOR  BID
+
+ARLINGTON, VA -- Three additional projects within the ARTI HVAC&R Research
+for the 21st Century (21-CR) program have been released for bid:
+
+*	State-of-the-Art Review of Whole-Building and Building Envelope
+Simulation and Design Tools
+*	State-of-the-Art Review of HVAC Component and System Simulation, and
+Design Tools
+*	Microchannel Heat Exchangers with Carbon Dioxide
+
+Perspective bidders are instructed to access the 21-CR website
+(www.arti-21cr.org) to download the work statements for these three
+projects.  Mailed copies of the two request-for-proposals (RFPs) can be
+obtained by contacting Glenn Hourahan (hourahan at ari.org) or Karim Amrane
+(Email: kamrane at ari.org), respectively.
+
+These three projects join four earlier proposal solicitations that were
+released in late-June/early-July 1999:
+*	High Performance Heat Exchangers for AC&R Applications (non-circular
+tubes)
+*	Energy Savings Potential of Flexible and Adaptive HVAC Distribution
+Systems for Office Buildings
+*	The Efficiency Limits of Water Vapor Compressors Suitable for
+Air-Conditioning Applications
+*	Investigation of the Causes of "Black Soot" Phenomena
+
+In September 1999, ARTI will review additional research recommendations for
+funding consideration.  It is anticipated that additional RFPs will be
+released by ARTI in late-Fall 1999.
+
+Monetary support for the ARTI 21-CR program is provided by the
+Air-Conditioning & Refrigeration Institute (ARI), the Copper Development
+Association (CDA), the U.S. Department of Energy (DOE), the Heating,
+Refrigeration, Air-Conditioning Institute of Canada (HRAI), and the
+Refrigeration Service Engineers Society (RSES).
+
+ARTI is a not-for-profit organization established in 1989 to undertake
+scientific research in the public interest.  ARTI strives to be responsive
+to the research needs of the HVAC&R community with an emphasis placed on
+precompetitive investigations.  It is ARTI's role to provide guidance and
+cohesiveness to research efforts while providing an umbrella for related
+research by others. 
+
+For more information on the 21-CR research effort, contact the
+Air-Conditioning and Refrigeration Technology Institute (ARTI) at
+703-524-8800 or visit the ARTI web site at http://www.arti-21cr.org. 
+# # # # #
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From tbeek at wnainc.com  Sat Jul 10 11:07:49 1999
+From: tbeek at wnainc.com (Tom Beekhuysen)
+Date: Sat, 10 Jul 1999 14:07:49 -0400
+Subject: [BLDG-SIM] powerdoe
+Message-ID: <MDAEMON-F199907101312.AA125559MD58492@gard.com>
+
+I am in the process of installing Power DOE and before I go through the whole process I wanted to make sure that I will be able to calculate utility cost (with demand rates) for annual electrical bill estimates.  Can PowerDOE do this? 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cpederse at uiuc.edu  Fri Jul  9 15:53:51 1999
+From: cpederse at uiuc.edu (Curtis Pedersen)
+Date: Fri, 9 Jul 1999 17:53:51 -0500
+Subject: [BLDG-SIM] simulation tool for thermal comfort
+In-Reply-To: <MDAEMON-F199907090628.AA283396MD52506@gard.com>
+Message-ID: <MDAEMON-F199907091748.AA485129MD58393@gard.com>
+
+The BLAST program performs three thermal comfort
+calculations(Fanger,KSU,Pierce).  For information go to:
+http://www.bso.uiuc.edu/blastmain.htm
+
+
+
+Curtis Pedersen
+
+
+
+>I am searching a program designed for simulating the thermal behaviour of
+>buildings. I'm particularly interested in the study of thermal comfort.
+>Is TRNSYS suitable for this purpose?
+>What about other tools?
+> 
+>Thanks to all.
+> 
+>Demba NDIAYE
+>Technical Assistant
+>PNUD/ENERBAT
+>E-mail : <mailto:enerbat at metissacana.sn>enerbat at metissacana.sn
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: text/enriched
+Size: 638 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990709/8e59d8b3/attachment.bin>
+-------------- next part --------------
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+From werner at cstb.fr  Fri Jul  9 08:36:42 1999
+From: werner at cstb.fr (Werner Keilholz)
+Date: Fri, 09 Jul 1999 17:36:42 +0200
+Subject: [BLDG-SIM] simulation tool for thermal comfort, 2nd try
+Message-ID: <MDAEMON-F199907091028.AA284759MD58197@gard.com>
+
+Hello again,
+
+sorry for the prvious message that lost its body for
+some mysterious reason... here it is again:
+
+TRNSYS user Alain Cordier (Toulouse, France) has implemented thermal
+comfort
+calculations within a modified Type 56 (multi-zone building model).
+
+This improvement allows the output of:
+
+   PMV (Predicted Mean Vote)
+
+        PPD (Predicted Percentage of Dissatisfied) and
+        PPS (Predicted Percentage of Satisfied).
+
+See
+http://evl.cstb.fr/francais/projets/IISiBat/TRNSYS/trnsys14.htm
+for details.
+
+The team at university of Toulouse has also developped a detailed model
+of the
+human body (MARCL). The french version of an article describing this can
+
+be downloaded from the WEB site of IBPSA France:
+
+http://ibpsa-france.cstb.fr/
+
+Hope this helps,
+
+Werner
+
+--
+  /    \____ Werner Keilholz, Project Manager
+  \____/     CSTB Sophia Antipolis, EVL Division
+  /    \____ s-mail: BP 209, 06904 SOPHIA ANTIPOLIS,  F R A N C E
+  \____/     phone: +33 (0)4 93 95 67 46 -- fax: +33 (0)4 92 96 05 37
+  /    \____ Mailto:werner at cstb.fr
+  \____/     http://evl.cstb.fr/english/team/WK/werner.htm
+
+  I'd rather be happy than right every day - Slartibartfast
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From werner at cstb.fr  Fri Jul  9 05:54:00 1999
+From: werner at cstb.fr (Werner Keilholz)
+Date: Fri, 09 Jul 1999 14:54:00 +0200
+Subject: [BLDG-SIM] simulation tool for thermal comfort
+References: <MDAEMON-F199907090628.AA284571MD52694@gard.com>
+Message-ID: <MDAEMON-F199907090746.AA463685MD58121@gard.com>
+
+Hello,
+
+TRNSYS user Alain Cordier (Toulouse, France) has implemented thermal
+comfort
+calculations within a modified Type 56 (multi-zone building model).
+
+This improvement allows the output of:
+
+   PMV (Predicted Mean Vote)
+
+        PPD (Predicted Percentage of Dissatisfied) and
+        PPS (Predicted Percentage of Satisfied).
+
+See
+http://evl.cstb.fr/francais/projets/IISiBat/TRNSYS/trnsys14.htm
+for details.
+
+The team at university of Toulouse has also developped a detailed model
+of the
+human body (MARCL). The french version of an article describing this can
+
+be downloaded from the WEB site of IBPSA France:
+
+http://ibpsa-france.cstb.fr/
+
+Hope this helps,
+
+Werner
+
+PNUD/ENERBAT wrote:
+
+>  I am searching a program designed for simulating the thermal
+> behaviour of buildings. I'm particularly interested in the study of
+> thermal comfort.Is TRNSYS suitable for this purpose?What about other
+> tools? Thanks to all. Demba NDIAYE
+> Technical Assistant
+> PNUD/ENERBAT
+> E-mail : enerbat at metissacana.sn
+
+
+
+--
+  /    \____ Werner Keilholz, Project Manager
+  \____/     CSTB Sophia Antipolis, EVL Division
+  /    \____ s-mail: BP 209, 06904 SOPHIA ANTIPOLIS,  F R A N C E
+  \____/     phone: +33 (0)4 93 95 67 46 -- fax: +33 (0)4 92 96 05 37
+  /    \____ Mailto:werner at cstb.fr
+  \____/     http://evl.cstb.fr/english/team/WK/werner.htm
+
+  I'd rather be happy than right every day - Slartibartfast
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990709/155c0ab3/attachment.htm>
+-------------- next part --------------
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+From enerbat at metissacana.sn  Fri Jul  9 03:35:38 1999
+From: enerbat at metissacana.sn (PNUD/ENERBAT)
+Date: Fri, 9 Jul 1999 11:35:38 +0100
+Subject: [BLDG-SIM] simulation tool for thermal comfort
+Message-ID: <MDAEMON-F199907090628.AA283765MD58082@gard.com>
+
+I am searching a program designed for simulating the thermal behaviour of buildings. I'm particularly interested in the study of thermal comfort. 
+Is TRNSYS suitable for this purpose?
+What about other tools?
+ 
+Thanks to all.
+ 
+Demba NDIAYE
+Technical Assistant
+PNUD/ENERBAT
+E-mail : enerbat at metissacana.sn
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990709/ce6d447f/attachment.htm>
+
+From bob at rer.com  Thu Jul  8 07:41:31 1999
+From: bob at rer.com (Bob Ramirez)
+Date: Thu, 8 Jul 1999 07:41:31 -0700
+Subject: [BLDG-SIM] Looking for DOE-2 weather data for the UK
+Message-ID: <MDAEMON-F199907080946.AA462893MD57811@gard.com>
+
+Dear Group
+
+Well, it was a long road, but I was finally able to track down the data as
+well as other useful information.  For future reference, I thought I would
+summarize my search results for the group:
+
+1) There are two sources of the ASCII files:
+   a) Jeff Hirsch (Jeff.Hirsch at DOE-2.com, http://DOE2.com
+   b) IES Ltd. (contact Ian Molloy => ian at ies4d.com or http://www.ies4d.com
+
+NOTE: These ASCII files are not in typical NOAA format and still need a
+substantial amount of work to be able to read and convert them into DOE-2
+BIN files.
+
+2) Per an email from a John Fullwood (jfullwood at meto.gov.uk), the CISBE is
+currently rewriting their guide to weather and solar data and, in conjuction
+with this, a new series of weather datasets for design applications is being
+produced.  These datasets will become available either from CIBSE or John's
+office (phone is 44-1344-854673) at a special low price but not until early
+next year.
+
+A special thanks to Jim Pegues for the initial lead on this data, as well as
+to all others for their help!
+
+Sincerely,
+
+Bob Ramirez
+RER, Inc.
+
+> -----Original Message-----
+> From:	James.F.Pegues at carrier.utc.com [SMTP:James.F.Pegues at carrier.utc.com]
+> Sent:	Thursday, July 01, 1999 2:31 PM
+> To:	BLDG-SIM at gard.com
+> Subject:	[BLDG-SIM] Looking for DOE-2 weather data for the UK
+> 
+> Bob,
+>      
+> In the late 1980s a task group for the Chartered Institute of Building
+> Service 
+> Engineers (CIBSE) in the UK assembled example weather years for 15 sites
+> in the 
+> UK to be used for building simulation work.  While the weather data files
+> are 
+> not in the exact format of a NOAA TMY file or a DOE-2 BIN file, I believe
+> the 
+> files have all the required data elements needed by DOE-2 (temperature, 
+> humidity, 2 components of solar radiation, wind speed and direction).  All
+> that 
+> would be needed is to write some software to convert the data format to
+> one 
+> DOE-2 can read.
+>      
+> The 15 cities in the CIBSE Example Year data set are:
+>      
+> Scotland
+>   Glasgow
+>   Aberdeen, Scotland
+>   Dundee, Scotland
+>   Eskdalemuir, Scotland
+> Northern Ireland
+>   Aldergrove
+> Wales
+>   Aberporth
+> England
+>   Newcastle
+>   Manchester
+>   Birmingham
+>   Norwich
+>   Bristol
+>   Heathrow
+>   London - Kew
+>   London - Heathrow Airport
+>   Camborne
+>   
+> The big question is how do you get this data.  At one point in the early
+> 1990s 
+> disks were being sold by a company named Facet Ltd.  Its address is:
+> 
+> Facet Ltd.
+> Marlborough House
+> Upper Marlborough Road
+> St. Albans
+> Hertfordshire
+> England
+> 
+> But I don't have a phone, fax or e-mail contact for them.  Perhaps one of
+> the 
+> BLDG-SIM subscribers in the UK can provide these if Facet is still the
+> vendor 
+> for the data.
+> 
+> Best Regards,
+>             Jim Pegues
+>             Carrier Corporation
+>             Title: Sr. HVAC Systems Engineer
+>             Job: Software development for HVAC system modeling tools (15
+> yrs)
+>      
+>      
+> ______________________________ Reply Separator
+> _________________________________
+> Subject: [BLDG-SIM] Looking for DOE-2 weather data for the UK
+> Author:  Bob Ramirez <bob at rer.com> at Internet 
+> Date:    7/1/99 12:39 PM
+>      
+>      
+> Dear fellow Bldg Sim'ers:
+>      
+> Does anyone know of a good source of DOE-2 compatible weather data (BIN 
+> files) for the UK, specifically for the major metropolitan areas of
+> England 
+> (say London to Manchester)?  Any information will be greatly appreciated. 
+> Thanks!
+>      
+> Bob Ramirez
+> Senior Engineer
+>      
+>      
+>      
+> Bob Ram?rez (bobram at rer.com or bob at rer.com)
+>      
+> Regional Economic Research, Inc.             http://www.rer.com 
+> 11236 El Camino Real #A, San Diego, CA 92130
+> Phone: 858.481.0081 ext. 427
+> FAX: 858.481.7550
+>      
+>      
+> ??????????????????
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>      
+> 
+> 
+> 
+> =====================================================You received this
+> e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From andelman at jrma-ae.com  Mon Jul  5 09:49:27 1999
+From: andelman at jrma-ae.com (Michael Andelman)
+Date: Mon, 05 Jul 1999 12:49:27 -0400
+Subject: [BLDG-SIM] DOE-2
+References: <MDAEMON-F199907032112.AA124076MD51449@gard.com>
+Message-ID: <MDAEMON-F199907051148.AA482945MD57146@gard.com>
+
+I agree with Dave Walker, the programs with GUI's are useful tools - like any tool they can be misused, but so can the
+text-based DOE2 programs.  It's easy for a beginner to rely on defaults no matter what the program is.  A GUI based
+program, such as PowerDOE can assist in making sure the geometry is correct (a major stumbling block to new users), and
+the on-line help is easier than sifting through the manuals.  The one thing I like about PowerDOE is that it is fully
+functional (all the DOE2.2 commands are available)- not all GUI based DOE2 programs are fully functional.  The
+spreadsheet feature of PowerDOE is also an excellent way of checking through input data.  The other important feature
+of PowerDOE is that it creates a BDL input file that is transpotrable - it can be modified outside PowerDOE (using a
+text editor) and later modified using PowerDOE.
+
+I've been using DOE2 since it started out as CAL-ERDA, and even though I have no problem with the BDL input language, I
+find I'm using PowerDOE exclusively.
+
+Over the years, I've found new users creating poor models because they did not spend the time to understand the input
+and default values, they messed up on the geometry, and - most important - they did not understand the mechanical
+systems they were trying to model.
+
+Mike Andelman
+
+
+
+
+david walker wrote:
+
+> Tom Beekhuysen Wrote:
+>
+> >Can anyone advise me on which version of DOE-2 and add-on software would be >best to obtain for a first time user.
+>
+> I have to disagree with John Karasaki and Bill Koran when it comes to
+> GUI's.  I used DOE 2.1e for several years and currently use PowerDOE.  I
+> find the GUI with PowerDOE helpful in preventing acceptance of default
+> values. While using DOE 2.1e, I spent hours looking through manuals
+> trying to determine exactly what default values were being used.  There
+> were times when defaults were affecting my simulations and I had no idea
+> they even existed until I got unreasonable results.  PowerDOE includes
+> inputs for all variables available in DOE 2.2 and the default values can
+> be readily seen or called up on the screen.  Coupled with the on-line
+> help, understanding the significance of each value and inputting correct
+> values is much easier and quicker than with a text based version.
+> Granted, you will have to review the screens to determine what defaults
+> relate to your systems, but the time required is minimized.  I believe
+> my simulations have improved significantly since I started using
+> PowerDOE.
+>
+> The 3D visualization of the structure also is a great help for me.  I am
+> an engineer, but I must be geometrically impaired. I have a difficult
+> time getting roof overhangs and shading correct without being able to
+> see a representation of the structure on the screen.
+>
+> I have also been impressed with response time from JJ Hirsh.  They
+> actually answer questions and corrected a small bug that I found within
+> three weeks.  They have a trial period and a reasonable price.  I would
+> recommend PowerDOE to anyone, first time user or veteran.  I haven't
+> used the other version, so I can't really tell you much about them.
+>
+> Dave
+>
+>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: andelman.vcf
+Type: text/x-vcard
+Size: 317 bytes
+Desc: Card for Michael Andelman
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990705/922708b6/attachment.vcf>
+
+From walkeng at swva.net  Sat Jul  3 19:09:23 1999
+From: walkeng at swva.net (david walker)
+Date: Sat, 03 Jul 1999 22:09:23 -0400
+Subject: [BLDG-SIM] DOE-2
+Message-ID: <MDAEMON-F199907032112.AA124643MD57010@gard.com>
+
+Tom Beekhuysen Wrote:
+
+>Can anyone advise me on which version of DOE-2 and add-on software would be >best to obtain for a first time user.
+
+I have to disagree with John Karasaki and Bill Koran when it comes to
+GUI's.  I used DOE 2.1e for several years and currently use PowerDOE.  I
+find the GUI with PowerDOE helpful in preventing acceptance of default
+values. While using DOE 2.1e, I spent hours looking through manuals
+trying to determine exactly what default values were being used.  There
+were times when defaults were affecting my simulations and I had no idea
+they even existed until I got unreasonable results.  PowerDOE includes
+inputs for all variables available in DOE 2.2 and the default values can
+be readily seen or called up on the screen.  Coupled with the on-line
+help, understanding the significance of each value and inputting correct
+values is much easier and quicker than with a text based version. 
+Granted, you will have to review the screens to determine what defaults
+relate to your systems, but the time required is minimized.  I believe
+my simulations have improved significantly since I started using
+PowerDOE.
+
+The 3D visualization of the structure also is a great help for me.  I am
+an engineer, but I must be geometrically impaired. I have a difficult
+time getting roof overhangs and shading correct without being able to
+see a representation of the structure on the screen.  
+
+I have also been impressed with response time from JJ Hirsh.  They
+actually answer questions and corrected a small bug that I found within
+three weeks.  They have a trial period and a reasonable price.  I would
+recommend PowerDOE to anyone, first time user or veteran.  I haven't
+used the other version, so I can't really tell you much about them.
+
+Dave
+
+
+-- 
+===============================================================
+Dave Walker			       mailto:walkeng at swva.net
+Walker Engineering, Dublin, VA	   http://www.swva.net/walkeng/
+===============================================================
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From BKoran at aol.com  Fri Jul  2 15:07:44 1999
+From: BKoran at aol.com (BKoran at aol.com)
+Date: Fri, 2 Jul 1999 18:07:44 EDT
+Subject: [BLDG-SIM] DOE-2
+Message-ID: <MDAEMON-F199907021709.AA091467MD56870@gard.com>
+
+I wholeheartedly concur with John Karasaki's comments, although I have had no 
+opportunity to use DOE-2 for several years now, and so have little experience 
+with graphical versions.
+
+I have seen serious flaws even in DOE-2 models created without using a GUI 
+version. I believe it is a certainty that the greater tendency to be 
+satisfied with defaults, as well as the typically decreased understanding of 
+what the program is actually doing, means that using a GUI version will often 
+result in a less appropriate simulation.
+
+A careful modeler can certainly create a good model with a text-based or a 
+GUI-based version, but being forced to input nearly everything really helps 
+with long-term understanding.  A think the keys to simulation, with any model 
+(including spreadsheet models) are (1) extreme care, and (2) question 
+everything to the point of paranoia.  Since most project timelines don't 
+allow this, there are a lot of mediocre-to-poor models out there!  (Although 
+I hope not from the readers of this list!<g>)
+
+Bill
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jpkarasa at cbg-engrs.com  Fri Jul  2 09:21:52 1999
+From: jpkarasa at cbg-engrs.com (John P. Karasaki, P.E.)
+Date: Fri, 2 Jul 1999 09:21:52 -0700
+Subject: [BLDG-SIM] DOE-2
+Message-ID: <MDAEMON-F199907021503.AA032878MD56834@gard.com>
+
+First time user or not, you should start with the current version of DOE-2,
+DOE-2.2.  Using any other version would be a waste of time.  DOE-2.2 is
+significantly different than the earlier versions.
+
+One of the DOE-2.2 vendors had a great quote: "DOE-2.2 is deceivingly
+similar to DOE-2.1E."  What he meant was that you can use 2.2 just like
+2.1E.  However, doing so prevents one from using the full potential of 2.2.
+
+I would avoid any of the programs with a graphical interface (PowerDOE,
+VisualDOE, etc.) because it is too easy to make mistakes that go un-noticed
+and learn bad habits.  Regardless of what their marketing literature says,
+these interface tools should only be used in the hands of experienced
+modelers.  I'm sure I will get alot of heat for that statement, but I have
+seen a few studies done with those tools that had real flaws buried in the
+input files.
+
+As you do your first input files, you should have some experienced DOE-2
+modelers review the files.  You should also allow yourself a huge amount of
+time to complete any project.
+
+HTH.
+
+-----Original Message-----
+From: Tom Beekhuysen [mailto:tbeek at wnainc.com]
+Sent: Friday, July 02, 1999 6:18 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] DOE-2
+
+
+I have just started searching the internet to obtain DOE-2 software.  There
+is allot of information out there.
+
+Can anyone advise me on which version of DOE-2 and add-on software would be
+best to obtain for a first time user.
+
+ (I am familiar with ASEAM 5.0, BLCC, and ERATES).
+
+Thankyou
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at ee.doe.gov  Fri Jul  2 07:06:33 1999
+From: Drury.Crawley at ee.doe.gov (Drury.Crawley at ee.doe.gov)
+Date: Fri, 2 Jul 1999 10:06:33 -0400
+Subject: [BLDG-SIM] DOE-2
+Message-ID: <MDAEMON-F199907020928.AA283579MD56735@gard.com>
+
+
+
+Tom,
+
+LBNL maintains a list of DOE-2 vendors
+and their self-reported features of their
+software and interfaces on the
+Simulation Research Group's web site.
+Follow the links to DOE-2 from:
+
+http://gundog.lbl.gov/
+
+Dru Crawley
+DOE
+
+
+
+
+
+"Tom Beekhuysen" <tbeek at wnainc.com> on 07/02/99 09:18:18 AM
+
+Please respond to tbeek at wnainc.com
+
+To:   BLDG-SIM at gard.com
+cc:    (bcc: Drury Crawley/EE/DOE)
+Subject:  [BLDG-SIM] DOE-2
+
+
+
+
+I have just started searching the internet to obtain DOE-2 software.  There is
+allot of information out there.
+
+Can anyone advise me on which version of DOE-2 and add-on software would be best
+to obtain for a first time user.
+
+ (I am familiar with ASEAM 5.0, BLCC, and ERATES).
+
+Thankyou
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From tbeek at wnainc.com  Fri Jul  2 06:18:18 1999
+From: tbeek at wnainc.com (Tom Beekhuysen)
+Date: Fri, 2 Jul 1999 09:18:18 -0400
+Subject: [BLDG-SIM] DOE-2
+Message-ID: <MDAEMON-F199907020828.AA281181MD56708@gard.com>
+
+I have just started searching the internet to obtain DOE-2 software.  There is allot of information out there.
+
+Can anyone advise me on which version of DOE-2 and add-on software would be best to obtain for a first time user.
+
+ (I am familiar with ASEAM 5.0, BLCC, and ERATES).
+
+Thankyou
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Raphael.Compagnon at eif.ch  Fri Jul  2 00:57:14 1999
+From: Raphael.Compagnon at eif.ch (Raphael Compagnon)
+Date: Fri, 02 Jul 1999 09:57:14 +0200
+Subject: [BLDG-SIM] Looking for DOE-2 weather data for the UK
+Message-ID: <MDAEMON-F199907020727.AA274518MD56686@gard.com>
+
+At 12:39 01.07.99 -0700, you wrote:
+>Does anyone know of a good source of DOE-2 compatible weather data (BIN
+>files) for the UK, specifically for the major metropolitan areas of =
+>England (say London to Manchester)?  Any information will be greatly
+>appreciated.
+
+The METEONORM software is able to generate hourly data for virtually any
+location in the world. Data can be directly formatted for DOE. Learn more
+at the METONORM Web site:
+
+http://www.meteotest.ch/products/meteonorm/index.html
+
+
+__________________________________________________________
+Dr. Raphael Compagnon
+HES-SO Ecole d'ingenieurs et d'architectes de Fribourg
+Bd. de Perolles 80, 1705 Fribourg  Switzerland
+Tel:    +41 26 429 6666 or +41 26 429 6611 (secretariat)
+Fax:    +41 26 429 6600
+E-Mail: Raphael.Compagnon at eif.ch    WWW: http://www.eif.ch
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From James.F.Pegues at carrier.utc.com  Thu Jul  1 14:30:46 1999
+From: James.F.Pegues at carrier.utc.com (James F Pegues)
+Date: Thu, 1 Jul 1999 17:30:46 -0400
+Subject: [BLDG-SIM] Looking for DOE-2 weather data for the UK
+Message-ID: <MDAEMON-F199907011629.AA292542MD56510@gard.com>
+
+Bob,
+     
+In the late 1980s a task group for the Chartered Institute of Building Service 
+Engineers (CIBSE) in the UK assembled example weather years for 15 sites in the 
+UK to be used for building simulation work.  While the weather data files are 
+not in the exact format of a NOAA TMY file or a DOE-2 BIN file, I believe the 
+files have all the required data elements needed by DOE-2 (temperature, 
+humidity, 2 components of solar radiation, wind speed and direction).  All that 
+would be needed is to write some software to convert the data format to one 
+DOE-2 can read.
+     
+The 15 cities in the CIBSE Example Year data set are:
+     
+Scotland
+  Glasgow
+  Aberdeen, Scotland
+  Dundee, Scotland
+  Eskdalemuir, Scotland
+Northern Ireland
+  Aldergrove
+Wales
+  Aberporth
+England
+  Newcastle
+  Manchester
+  Birmingham
+  Norwich
+  Bristol
+  Heathrow
+  London - Kew
+  London - Heathrow Airport
+  Camborne
+  
+The big question is how do you get this data.  At one point in the early 1990s 
+disks were being sold by a company named Facet Ltd.  Its address is:
+
+Facet Ltd.
+Marlborough House
+Upper Marlborough Road
+St. Albans
+Hertfordshire
+England
+
+But I don't have a phone, fax or e-mail contact for them.  Perhaps one of the 
+BLDG-SIM subscribers in the UK can provide these if Facet is still the vendor 
+for the data.
+
+Best Regards,
+            Jim Pegues
+            Carrier Corporation
+            Title: Sr. HVAC Systems Engineer
+            Job: Software development for HVAC system modeling tools (15 yrs)
+     
+     
+______________________________ Reply Separator _________________________________
+Subject: [BLDG-SIM] Looking for DOE-2 weather data for the UK
+Author:  Bob Ramirez <bob at rer.com> at Internet 
+Date:    7/1/99 12:39 PM
+     
+     
+Dear fellow Bldg Sim'ers:
+     
+Does anyone know of a good source of DOE-2 compatible weather data (BIN 
+files) for the UK, specifically for the major metropolitan areas of England 
+(say London to Manchester)?  Any information will be greatly appreciated. 
+Thanks!
+     
+Bob Ramirez
+Senior Engineer
+     
+     
+     
+Bob Ram?rez (bobram at rer.com or bob at rer.com)
+     
+Regional Economic Research, Inc.             http://www.rer.com 
+11236 El Camino Real #A, San Diego, CA 92130
+Phone: 858.481.0081 ext. 427
+FAX: 858.481.7550
+     
+     
+??????????????????
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+     
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bob at rer.com  Thu Jul  1 12:39:32 1999
+From: bob at rer.com (Bob Ramirez)
+Date: Thu, 1 Jul 1999 12:39:32 -0700
+Subject: [BLDG-SIM] Looking for DOE-2 weather data for the UK
+Message-ID: <MDAEMON-F199907011444.AA442571MD56481@gard.com>
+
+Dear fellow Bldg Sim'ers:
+
+Does anyone know of a good source of DOE-2 compatible weather data (BIN
+files) for the UK, specifically for the major metropolitan areas of England
+(say London to Manchester)?  Any information will be greatly appreciated.
+Thanks!
+
+Bob Ramirez
+Senior Engineer
+
+
+
+Bob Ram?rez (bobram at rer.com or bob at rer.com)
+
+Regional Economic Research, Inc.             http://www.rer.com
+11236 El Camino Real #A, San Diego, CA 92130
+Phone: 858.481.0081 ext. 427
+FAX: 858.481.7550
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

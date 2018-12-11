@@ -1,0 +1,4309 @@
+From tcornish at taylor-engineering.com  Fri Jun 28 13:33:00 2002
+From: tcornish at taylor-engineering.com (Tracy Cornish)
+Date: Fri, 28 Jun 2002 13:33:00 -0700
+Subject: [Bldg-sim] heating degree days
+Message-ID: <MDAEMON-F200206281524.AA241473pd80000166043@gard.com>
+
+Alec,
+
+You might also try this site:
+
+http://www.energyusernews.com/FILES/HTML/EUN_statistics/0,2634,,00.html
+
+
+Tracy L. Cornish, P.E., Mechanical Engineer, Taylor Engineering, LLC
+1305 Marina Village Parkway, Suite 101, Alameda CA 94501-1028
+(510) 749-9135 office, (510) 749-9136 fax, (925) 381-8183 mobile
+
+tcornish at taylor-engineering.com
+www.taylor-engineering.com 
+
+
+
+
+-----Original Message-----
+From: Jason Glazer [mailto:jglazer at gard.com]
+Sent: Friday, June 28, 2002 1:12 PM
+To: Bldg-sim at gard.com
+Subject: [Bldg-sim] heating degree days
+
+
+Alec,
+
+I don't know the NOAA address but I'm sure they still do 
+what you are looking for. Try NCDC, which is part of NOAA:
+
+  http://lwf.ncdc.noaa.gov/oa/ncdc.html
+
+You may want to also look at:
+
+  http://www.engr.udayton.edu/weather/
+
+  http://www.weatherbank.com/archive.html
+
+Jason
+
+On 28 Jun 2002 at 15:54, Alec Stevens wrote:
+
+> Hello,
+> I am looking for a source of actual historical heating
+> degree days by month for Boston, MA.
+> 
+> The most promising link that a google search brought up was
+> on the noaa.gov website, but the link was dead.
+> 
+> www.erh.noaa.gov/er/box/climate/boshdd.html
+> 
+> Anyone know of any other sources for this data?
+> Thanks
+> 
+> Sincerely,
+> 
+> Alec Stevens
+> DMI
+> 450 Lexington St.
+> Newton, MA 02466
+> p: 617-527-1525x105      f: 617-527-6606
+> e: astevens at dmiinc.com
+> 
+> 
+> 
+> 
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+> this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From njbourassa at lbl.gov  Fri Jun 28 13:22:35 2002
+From: njbourassa at lbl.gov (Norman J Bourassa)
+Date: Fri, 28 Jun 2002 13:22:35 -0700
+Subject: [Bldg-sim] heating degree days
+In-Reply-To: <MDAEMON-F200206281502.AA025953pd80000221265@gard.com>
+Message-ID: <MDAEMON-F200206281516.AA165787pd80000166034@gard.com>
+
+Alec,
+
+The NOAA HDD and CDD websites are here:
+http://lwf.ncdc.noaa.gov/oa/climate/online/ccd/nrmhdd.html
+http://lwf.ncdc.noaa.gov/oa/climate/online/ccd/nrmcdd.html
+
+--
+Norman J. Bourassa
+Lawrence Berkeley National Lab
+1 Cyclotron Road, Mail Stop 90-3111 
+Berkeley, CA  94720
+tel: 510-486-6724, fax: 510-486-4089
+ 
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Jason
+Glazer
+Sent: Friday, June 28, 2002 1:12 PM
+To: Bldg-sim at gard.com
+Subject: [Bldg-sim] heating degree days
+
+
+Alec,
+
+I don't know the NOAA address but I'm sure they still do 
+what you are looking for. Try NCDC, which is part of NOAA:
+
+  http://lwf.ncdc.noaa.gov/oa/ncdc.html
+
+You may want to also look at:
+
+  http://www.engr.udayton.edu/weather/
+
+  http://www.weatherbank.com/archive.html
+
+Jason
+
+On 28 Jun 2002 at 15:54, Alec Stevens wrote:
+
+> Hello,
+> I am looking for a source of actual historical heating
+> degree days by month for Boston, MA.
+> 
+> The most promising link that a google search brought up was
+> on the noaa.gov website, but the link was dead.
+> 
+> www.erh.noaa.gov/er/box/climate/boshdd.html
+> 
+> Anyone know of any other sources for this data?
+> Thanks
+> 
+> Sincerely,
+> 
+> Alec Stevens
+> DMI
+> 450 Lexington St.
+> Newton, MA 02466
+> p: 617-527-1525x105      f: 617-527-6606
+> e: astevens at dmiinc.com
+> 
+> 
+> 
+> 
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+> this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Fri Jun 28 13:11:49 2002
+From: jglazer at gard.com (Jason Glazer)
+Date: Fri, 28 Jun 2002 15:11:49 -0500
+Subject: [Bldg-sim] heating degree days
+In-Reply-To: <MDAEMON-F200206281441.AA413132pd80000166005@gard.com>
+Message-ID: <MDAEMON-F200206281503.AA031629pd80000166024@gard.com>
+
+Alec,
+
+I don't know the NOAA address but I'm sure they still do 
+what you are looking for. Try NCDC, which is part of NOAA:
+
+  http://lwf.ncdc.noaa.gov/oa/ncdc.html
+
+You may want to also look at:
+
+  http://www.engr.udayton.edu/weather/
+
+  http://www.weatherbank.com/archive.html
+
+Jason
+
+On 28 Jun 2002 at 15:54, Alec Stevens wrote:
+
+> Hello,
+> I am looking for a source of actual historical heating
+> degree days by month for Boston, MA.
+> 
+> The most promising link that a google search brought up was
+> on the noaa.gov website, but the link was dead.
+> 
+> www.erh.noaa.gov/er/box/climate/boshdd.html
+> 
+> Anyone know of any other sources for this data?
+> Thanks
+> 
+> Sincerely,
+> 
+> Alec Stevens
+> DMI
+> 450 Lexington St.
+> Newton, MA 02466
+> p: 617-527-1525x105      f: 617-527-6606
+> e: astevens at dmiinc.com
+> 
+> 
+> 
+> 
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+> this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From astevens at dmiinc.com  Fri Jun 28 12:54:18 2002
+From: astevens at dmiinc.com (Alec Stevens)
+Date: Fri, 28 Jun 2002 15:54:18 -0400
+Subject: [Bldg-sim] heating degree days
+Message-ID: <MDAEMON-F200206281441.AA413132pd80000166005@gard.com>
+
+Hello,
+I am looking for a source of actual historical heating degree days by month for Boston, MA.
+
+The most promising link that a google search brought up was on the noaa.gov website, but the link was dead.
+
+www.erh.noaa.gov/er/box/climate/boshdd.html
+
+Anyone know of any other sources for this data?
+Thanks
+
+Sincerely,
+
+Alec Stevens
+DMI
+450 Lexington St.
+Newton, MA 02466
+p: 617-527-1525x105      f: 617-527-6606
+e: astevens at dmiinc.com
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020628/3c96a73f/attachment.htm>
+
+From campbellj3 at eudoramail.com  Fri Jun 28 07:25:34 2002
+From: campbellj3 at eudoramail.com (James Campbell)
+Date: Fri, 28 Jun 2002 10:25:34 -0400
+Subject: [Bldg-sim] Light Shelves
+Message-ID: <MDAEMON-F200206280917.AA171262pd80000165855@gard.com>
+
+All,
+
+I need to evaluate the addition of light shelves to an existing DOE-2.1E-133 model. I'm interested in the effect that the light shelves will have on both heat transfer through the glazing and on daylighting controls. 
+
+Can light shelves be modeled in DOE-2.1E or must this analysis be performed outside of the model? If anyone has experience modeling light shelves in DOE-2.1E, I would appreciate any suggestions.
+
+Thanks,
+
+James 
+
+
+Join 18 million Eudora users by signing up for a free Eudora Web-Mail account at http://www.eudoramail.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From sagerer at paonline.com  Thu Jun 27 14:12:05 2002
+From: sagerer at paonline.com (Sheila Sagerer)
+Date: Thu, 27 Jun 2002 17:12:05 -0400
+Subject: [Bldg-sim] Radiant Floor Heat in PowerDOE
+Message-ID: <MDAEMON-F200206271605.AA052310pd80000165571@gard.com>
+
+Hello,
+
+I need some help with modelling Radiant floor heat in slab on grade from a natural gas boiler with an air-cooled chiller/AHU both for the same thermal zone.  When I put the thermal zone on the AHU, the cooling coil shows up on the chilled water loop but not the boiler loop.  When I put the thermal zone on the radiant slab, it shows on the hot water loop but not the chilled water loop.  I can't get the radiant floor to show on the heating side of the AHU as an alternate heat source, but I'm not allowed to have the same thermal zone on two different systems.  Can anyone please help me?
+
+Thank you.
+
+Sheila Sagerer
+Energy Opportunities, Inc.
+
+P-717-880-9069
+sagerer at paonline.com
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020627/366b0136/attachment.htm>
+
+From MAW at abacus-engr.com  Wed Jun 26 15:36:48 2002
+From: MAW at abacus-engr.com (Mark A. Webb)
+Date: Wed, 26 Jun 2002 15:36:48 -0700
+Subject: [Bldg-sim] Job Opening - Immediate
+Message-ID: <MDAEMON-F200206261728.AA285254pd10000165200@gard.com>
+
+Abacus Engineered Systems, Inc. is a full-service mechanical/electrical design engineering and construction services firm which specializes in energy design/build projects (ESCO projects).  We are a Seattle-based firm with offices in Portland, Boston, Saratoga Springs, NY, and Harrisburg, PA.  For more information on Abacus, please visit http://www.abacus-engr.com.
+
+We have an immediate opening in our Harrisburg office for a highly-motivated individual with the following qualifications:
+
+- Degree in Mechanical Engineering
+- 3 to 7 years of HVAC design experience
+- P.E. is a bonus
+- Experience with DOE2 modeling (VisualDOE, eQUEST or equivalent) large/complex buildings and systems
+
+Compensation is approximately $60,000 to $80,000 depending on exerience and qualifications.
+
+Harrisburg is within 2 hours of Philadelphia, Baltimore, and Washington, D.C.
+
+Please reply to this e-mail with a resume and contact information.
+
+Mark Webb, P.E.
+Director of Business Development (Northeast Region)
+Abacus Engineered Systems, Inc.
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From b.walker.smith at velux.com  Wed Jun 26 02:58:53 2002
+From: b.walker.smith at velux.com (b.walker.smith at velux.com)
+Date: Wed, 26 Jun 2002 11:58:53 +0200
+Subject: [Bldg-sim] TRNSYS/EnergyPlus questions
+Message-ID: <MDAEMON-F200206260450.AA502470pd80000164938@gard.com>
+
+Hello,
+
+I would very much appreciate your thoughts on a few questions I have
+relating to building simulation programs. Specifically:
+
+1. Are there any commercial EnergyPlus interfaces now available? The
+EnergyPlus website suggests that several are being developed for release as
+early as mid-2002 (i.e., now), but I have been unable to find any
+information about them.
+2. Are there any building simulation programs/add-ons that incorporate
+daylighting analysis? Alternately, is there any compatability between
+programs like EnergyPlus/TRNSYS and Radiance?
+3. For whole-building (energy) analysis of window systems, are TRNSYS and
+EnergyPlus best used separately or in combination? I?d be interested in
+your experience with these programs, particularly as they relate to
+modeling applications focused on window systems.
+
+Thanks for your help.
+
+Sincerely / Med venlig hilsen / Mit freundlichen Gr??en,
+______________________________
+Bryant Walker Smith
+VELUX A/S W-Product Quality (W-PQ) (M4)
+
+Maskinvej 4, DK-2860 S?borg
+
+
+Telephone Direct:      +45 39 57 06 27
+Telephone Office:      +45 39 57 06 00
+b.walker.smith at velux.com
+http://www.VELUX.com
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bulusu at sankhya.com  Sun Jun 23 22:45:20 2002
+From: bulusu at sankhya.com (Gopi Kumar Bulusu)
+Date: Mon, 24 Jun 2002 11:15:20 +0530 (IST)
+Subject: [Bldg-sim] CORBA/SOAP/Middleware for Distributed Simulation ?
+Message-ID: <MDAEMON-F200206240035.AA352053pd80000164151@gard.com>
+
+
+Hello,
+
+We are a company based in Chennai, India with middleware products targeted
+for building simulation and automation industry as one of the verticals.
+
+We would like to understand how the simulation industry uses CORBA for 
+interoperable/distributed building simulation and automation. In particular
+we are interested in information relating to building simulation in 
+environments that are a combinations of building simulation and emulation.
+
+Pointers to relevant information will be greatly appreciated. Sorry, if 
+this is a faq !
+
+Best Regards,
+gopi
+
+---
+
+Gopi Kumar Bulusu
+Sankhya Technologies Private Limited
+http://www.sankhya.com
+Tel: +91 44 822 7358
+Fax: +91 44 822 7357
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From linda at lawrie.com  Sun Jun 23 16:39:42 2002
+From: linda at lawrie.com (Linda Lawrie)
+Date: Sun, 23 Jun 2002 18:39:42 -0500
+Subject: [Bldg-sim] [EnergyPlus_Support] Re:  (No Subject)
+In-Reply-To: <Pine.SOL.4.44.0206231215570.11436-100000@xexex.gpcc.itd.um
+ ich.edu>
+References: <5.1.0.14.2.20020621102141.030aa370@getmail.lawrie.com>
+Message-ID: <MDAEMON-F200206231833.AA331687pd80000164079@gard.com>
+
+At 11:23 AM 6/23/02, Shefali Rajendra Modi wrote:
+>Linda,
+>
+>YOu seem to be working on a Sunday, since u responded immediately to my
+>membership request.
+
+Not really.  But I did check email.
+
+>I have requested for about totally 64 report variables (where each
+>variable is duplicated to follow two different schedules.) These are
+>multiplied when each variable is applied to each surface of different
+>zones. While the simulation works, it reports only the first 254
+>variables. My model gets more complicated with more surfaces - than the
+>current simulation. I was wondering if there is some way to have a report
+>of all the variables, apart from simply deleting the reported variables in
+>the input file and running the simulation again.
+
+Actually, all the variables get reported in the .eso file.  But the post 
+processing program will limit its creation of the .csv file to 254 
+variables, due to Excel's limititation of same.  So, what you could do is a 
+more targeted request to the post processing program (ReadVarsESO) and use 
+the created .eso file.
+
+This program is described in both the Output Details document and in the 
+InputOutput Reference document (I think).  You can give it a list of just 
+the variables you want -- if you give it nothing it tries to report on the 
+entire set of variables in the .eso file and probably runs into the limit.
+
+Though you are looking for surface variables, I think, if you were looking 
+for meter variables (Report Meter), the .mtr file that gets saved can also 
+be run from the post processing program (I think we do it automatically) 
+and is usually a lot less individual variables.
+
+In order to do this, you will have to use the Command mode or MS-DOS mode 
+rather than use EP-Launch or other methods.
+
+Hope this helps.
+
+Linda
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From smodi at umich.edu  Sun Jun 23 09:23:32 2002
+From: smodi at umich.edu (Shefali Rajendra Modi)
+Date: Sun, 23 Jun 2002 12:23:32 -0400 (EDT)
+Subject: [Bldg-sim] (No Subject)
+In-Reply-To: <5.1.0.14.2.20020621102141.030aa370@getmail.lawrie.com>
+Message-ID: <MDAEMON-F200206231115.AA155948pd80000164002@gard.com>
+
+Linda,
+
+YOu seem to be working on a Sunday, since u responded immediately to my
+membership request. If you happen to read this email today and have the
+time to reply to it, can you please tell me if there is a solution to my
+problem.
+
+I have requested for about totally 64 report variables (where each
+variable is duplicated to follow two different schedules.) These are
+multiplied when each variable is applied to each surface of different
+zones. While the simulation works, it reports only the first 254
+variables. My model gets more complicated with more surfaces - than the
+current simulation. I was wondering if there is some way to have a report
+of all the variables, apart from simply deleting the reported variables in
+the input file and running the simulation again.
+
+thanks a lot
+Shefali
+
+
+--------------------------------------------------------
+Shefali Modi
+M.Sc. Architecture, Environmental Technology
+Art and Architecture Building 2094
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kala_sim at yahoo.co.in  Fri Jun 21 15:02:11 2002
+From: kala_sim at yahoo.co.in (=?iso-8859-1?q?Leela=20Kala?=)
+Date: Fri, 21 Jun 2002 23:02:11 +0100 (BST)
+Subject: [Bldg-sim] error message in PowerDoe
+Message-ID: <MDAEMON-F200206211653.AA534765pd80000163684@gard.com>
+
+Hi,
+I get an error message in PowerDoe
+: Pump: DEFAULT-CW-PUMP is not attached to any
+equipment. 
+
+In the model, there is already a pump assigned to the
+CW loop. Everytime I delete this default pump the
+simulation runs without error but when I open the
+model again this Default-CW-Pump is created by the
+program.
+
+Pl let me know how to resolve this problem. 
+
+The BDL file creates the following entry:
+
+
+"CW Loop" = CIRCULATION-LOOP
+     *7255 *    LIBRARY-ENTRY "DEFAULT-CW"
+     *   1 * $LIBRARY-ENTRY DEFAULT-CW                
+     CIRCULATION-LOOPStarting Points
+     *   2 *  TYPE = CW    LOOP-PUMP = DEFAULT-CW-PUMP
+   ..
+     *   1 * $LIBRARY-ENTRY DEFAULT-CW-PUMP           
+     PUMP            Starting Points
+     *   2 *  FLOW-RATIO 1.1  HEAD-RATIO 1.1      ..
+     *7256 *    LOOP-PUMP        = "CW PUMP"
+
+Thanks
+
+L. Kala
+
+
+________________________________________________________________________
+Want to sell your car? advertise on Yahoo Autos Classifieds. It's Free!!
+       visit http://in.autos.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From linda at lawrie.com  Fri Jun 21 08:31:41 2002
+From: linda at lawrie.com (Linda Lawrie)
+Date: Fri, 21 Jun 2002 10:31:41 -0500
+Subject: [Bldg-sim] (No Subject)
+In-Reply-To: <MDAEMON-F200206210847.AA472815md50000215408@gard.com>
+References: <3D0E26CC.7D790E9E@lbl.gov>
+Message-ID: <MDAEMON-F200206211023.AA235129pd80000163499@gard.com>
+
+At 08:55 AM 6/21/02, Shefali Rajendra Modi wrote:
+>Hi,
+>
+>I was wondering if there is a database which explains or defines the
+>output variables in Energy Plus.
+>
+>Secondly, when I add a schedule name in my report variables sub group I
+>get the following error:
+
+Questions answered via private email.
+
+Linda Lawrie
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mjwitte at gard.com  Fri Jun 21 08:20:56 2002
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Fri, 21 Jun 2002 10:20:56 -0500
+Subject: [Bldg-sim] (No Subject)
+In-Reply-To: <MDAEMON-F200206210847.AA470323md50000163450@gard.com>
+References: <3D0E26CC.7D790E9E@lbl.gov>
+Message-ID: <MDAEMON-F200206211013.AA130845pd80000163491@gard.com>
+
+Schedules must be fully defined for the entire year, zeros will not 
+be assumed for undefined portions.
+
+On 21 Jun 2002, at 9:55, Shefali Rajendra Modi wrote:
+
+> SCHEDULE,
+>     MAR1,                    !- Name
+>     S1,                      !- ScheduleType
+>     W1,                      !- Name of WEEKSCHEDULE 1
+>      3,                      !- Start Month 1
+>      1,                      !- Start Day 1
+>      3,                      !- End Month 1
+>      31;                     !- End Day 1
+
+
+
+========================================================
+EnergyPlus Testing and Support      
+EnergyPlus-Support at gard.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From smodi at umich.edu  Fri Jun 21 06:55:45 2002
+From: smodi at umich.edu (Shefali Rajendra Modi)
+Date: Fri, 21 Jun 2002 09:55:45 -0400 (EDT)
+Subject: [Bldg-sim] (No Subject)
+In-Reply-To: <3D0E26CC.7D790E9E@lbl.gov>
+Message-ID: <MDAEMON-F200206210847.AA472456md50000163451@gard.com>
+
+Hi,
+
+I was wondering if there is a database which explains or defines the
+output variables in Energy Plus.
+
+Secondly, when I add a schedule name in my report variables sub group I
+get the following error:
+
+Program Version,EnergyPlus 1.0.1.042, 6/21/02 9:47 AM
+   ** Severe  ** Schedule MAR1 has missing days in its schedule pointers
+   ** Severe  ** Schedule JUN1 has missing days in its schedule pointers
+   **  Fatal  ** Preceding Errors during Schedule Input Processing cause
+termination.
+   ************* EnergyPlus Terminated--Fatal Error Detected. 0 Warning; 2
+Severe Errors
+
+A sample of my schedule input and my report variables is given below. If
+anyone can identify, the reason for this error, please let me know.
+
+thank you very much
+Shefali Modi
+
+RunPeriod,
+     1,                      !- Begin Month
+    1,                       !- Begin Day Of Month
+    12,                      !- End Month
+    31,                      !- End Day Of Month
+    UseWeatherFile,          !- Day Of Week For Start Day
+    No,                      !- Use WeatherFile Holidays/Special Days
+    Yes;                     !- Use WeatherFile DaylightSavingPeriod
+
+!-   ===========  ALL OBJECTS IN CLASS: DESIGNDAY ===========
+
+DesignDay,
+    DET3,                    !- DesignDayName
+    21.7,                    !- Maximum Dry-Bulb Temperature {C}
+    39.5,                    !- Daily Temperature Range {C}
+    11.4,                    !- Wet-Bulb Temperature At MaxTemp {C}
+    99284.51,                !- Barometric Pressure {Pa}
+    18,                      !- Wind Speed {m/s}
+    181,                     !- Wind Direction {deg}
+    .46,                     !- Sky Clearness
+    1,                       !- Rain Indicator
+    0,                       !- Snow Indicator
+    21,                      !- Day Of Month
+    3,                       !- Month
+    Monday,                  !- Day Type
+    0;                       !- Daylight Saving Time Indicator
+
+DesignDay,
+    DET6,                    !- DesignDayName
+    33.9,                    !- Maximum Dry-Bulb Temperature {C}
+    34.6,                    !- Daily Temperature Range {C}
+    24.2,                    !- Wet-Bulb Temperature At MaxTemp {C}
+    99284.51,                !- Barometric Pressure {Pa}
+    11.8,                    !- Wind Speed {m/s}
+    170,                     !- Wind Direction {deg}
+    .53,                     !- Sky Clearness
+    1,                       !- Rain Indicator
+    0,                       !- Snow Indicator
+    21,                      !- Day Of Month
+    6,                       !- Month
+    Monday,                  !- Day Type
+    0;                       !- Daylight Saving Time Indicator
+
+DesignDay,
+    DET9,                    !- DesignDayName
+    32.8,                    !- Maximum Dry-Bulb Temperature {C}
+    36,                      !- Daily Temperature Range {C}
+    22.5,                    !- Wet-Bulb Temperature At MaxTemp {C}
+    99284.51,                !- Barometric Pressure {Pa}
+    10.3,                    !- Wind Speed {m/s}
+    150,                     !- Wind Direction {deg}
+    .5,                      !- Sky Clearness
+    1,                       !- Rain Indicator
+    1,                       !- Snow Indicator
+    21,                      !- Day Of Month
+    9,                       !- Month
+    Monday,                  !- Day Type
+    1;                       !- Daylight Saving Time Indicator
+
+DesignDay,
+    DET12,                   !- DesignDayName
+    15,                      !- Maximum Dry-Bulb Temperature {C}
+    30.4,                    !- Daily Temperature Range {C}
+    10.7,                    !- Wet-Bulb Temperature At MaxTemp {C}
+    99284.51,                !- Barometric Pressure {Pa}
+    20.6,                    !- Wind Speed {m/s}
+    171,                     !- Wind Direction {deg}
+    .37,                     !- Sky Clearness
+    1,                       !- Rain Indicator
+    1,                       !- Snow Indicator
+    21,                      !- Day Of Month
+    12,                      !- Month
+    Monday,                  !- Day Type
+     1;                      !- Daylight Saving Time Indicator
+
+!-   ===========  ALL OBJECTS IN CLASS: SCHEDULETYPE ===========
+
+ScheduleType,
+    S1,                      !- ScheduleType Name
+    0.0:1.0,                 !- range
+    CONTINUOUS;              !- Numeric Type
+
+
+!-   ===========  ALL OBJECTS IN CLASS: DAYSCHEDULE ===========
+
+DAYSCHEDULE,
+    D1,                      !- Name
+    S1,                      !- ScheduleType
+    1,                       !- Hour 1
+    1,                       !- Hour 2
+    1,                       !- Hour 3
+    1,                       !- Hour 4
+    1,                       !- Hour 5
+    1,                       !- Hour 6
+    1,                       !- Hour 7
+    1,                       !- Hour 8
+    1,                       !- Hour 9
+    1,                       !- Hour 10
+    1,                       !- Hour 11
+    1,                       !- Hour 12
+    1,                       !- Hour 13
+    1,                       !- Hour 14
+    1,                       !- Hour 15
+    1,                       !- Hour 16
+     1,                      !- Hour 17
+    1,                       !- Hour 18
+    1,                       !- Hour 19
+    1,                       !- Hour 20
+    1,                       !- Hour 21
+    1,                       !- Hour 22
+    1,                       !- Hour 23
+    1;                       !- Hour 24
+
+
+!-   ===========  ALL OBJECTS IN CLASS: WEEKSCHEDULE ===========
+
+WEEKSCHEDULE,
+    W1,                      !- Name
+    D1,                      !- Sunday DAYSCHEDULE Name
+    D1,                      !- Monday DAYSCHEDULE Name
+    D1,                      !- Tuesday DAYSCHEDULE Name
+    D1,                      !- Wednesday DAYSCHEDULE Name
+    D1,                      !- Thursday DAYSCHEDULE Name
+    D1,                      !- Friday DAYSCHEDULE Name
+    D1,                      !- Saturday DAYSCHEDULE Name
+    D1,                      !- Holiday DAYSCHEDULE Name
+    D1,                      !- SummerDesignDay DAYSCHEDULE Name
+    D1,                      !- WinterDesignDay DAYSCHEDULE Name
+    D1,                      !- CustomDay1 DAYSCHEDULE Name
+    D1;                      !- CustomDay2 DAYSCHEDULE Name
+
+
+!-   ===========  ALL OBJECTS IN CLASS: SCHEDULE ===========
+
+SCHEDULE,
+    MAR1,                    !- Name
+    S1,                      !- ScheduleType
+    W1,                      !- Name of WEEKSCHEDULE 1
+     3,                      !- Start Month 1
+     1,                      !- Start Day 1
+     3,                      !- End Month 1
+     31;                     !- End Day 1
+
+SCHEDULE,
+    JUN1,                    !- Name
+    S1,                      !- ScheduleType
+    W1,                      !- Name of WEEKSCHEDULE 1
+     6,                      !- Start Month 1
+     1,                      !- Start Day 1
+     6,                      !- End Month 1
+     30;                     !- End Day 1
+
+Report Variable,
+    *,                       !- Key_Value
+    Outdoor Wet Bulb,        !- Variable_Name
+    monthly,                 !- Reporting_Frequency
+    MAR1;                    !- Schedule_Name
+
+Report Variable,
+    *,                       !- Key_Value
+    Wind Speed,              !- Variable_Name
+    daily;                   !- Reporting_Frequency
+
+Report Variable,
+    *,                       !- Key_Value
+    Outdoor Dry Bulb,        !- Variable_Name
+    daily;                   !- Reporting_Frequency
+
+
+--------------------------------------------------------
+Shefali Modi
+M.Sc. Architecture, Environmental Technology
+Art and Architecture Building 2094
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From larry at taz.tamu.edu  Wed Jun 19 19:18:07 2002
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Wed, 19 Jun 2002 21:18:07 -0500
+Subject: [Bldg-sim] IBPSA News (Short Notice)
+Message-ID: <MDAEMON-F200206192109.AA095495pd80000162818@gard.com>
+
+ 
+To ALL creatures, far and wide.
+ 
+Please send me any info (announcements, achievements, new simulation
+software, meeting and conference notices, etc.) by 3 July.  Preferred
+before that date.
+ 
+Thanks.
+ 
+Larry Degelman
+IBPSA Newsletter Chair
+ 
+ 
+ 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020619/fe2f092d/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 2743 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020619/fe2f092d/attachment.jpeg>
+
+From jglazer at gard.com  Wed Jun 19 07:40:24 2002
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 19 Jun 2002 09:40:24 -0500
+Subject: [Bldg-sim] Building Energy Software Survey
+Message-ID: <MDAEMON-F200206190932.AA320140pd80000162511@gard.com>
+
+
+------- Forwarded message follows -------
+Date sent:      	Tue, 4 Jun 2002 09:56:53 -0700 (PDT)
+From:           	Kathy Ellington <kathy at srge.lbl.gov>
+To:             	jglazer at gard.com
+Send reply to:  	kathy at srge.lbl.gov
+
+
+June 3, 2002
+
+Subject:  Building Energy Software Survey
+
+The U.S. Department of Energy is conducting a web-based 
+survey of users of government-sponsored building simulation 
+programs. The survey is directed at users of EnergyPlus, 
+ENERGY-10, DOE-2 and BLAST.  The goal is to find out how 
+much these programs are being used and what features you 
+would like to see added to them.  
+
+Please try your hand at the survey by visiting 
+
+   http://SimulationResearch.lbl.gov/ 
+
+then click on "Survey" at the top of the left menu. 
+
+The survey takes only a few minutes to complete and your 
+responses will influence future program enhancements, 
+especially to EnergyPlus and ENERGY-10, which are still 
+under development.  
+
+Thanks in advance from the EnergyPlus, ENERGY-10, DOE-2 and 
+BLAST development teams, and from Dru Crawley, DOE Program 
+Manager for Building Energy Tools Development.  
+
+
+
+------- End of forwarded message -------
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From smodi at umich.edu  Mon Jun 17 09:41:32 2002
+From: smodi at umich.edu (Shefali Rajendra Modi)
+Date: Mon, 17 Jun 2002 12:41:32 -0400 (EDT)
+Subject: [Bldg-sim] Simulation Used in Over 60%  High Performance Building
+ Database
+In-Reply-To: <MDAEMON-F200205300905.AA054309pd80000196916@gard.com>
+Message-ID: <MDAEMON-F200206171133.AA334603md50000161565@gard.com>
+
+I created a window gas material using the inbuilt option of "air" for the
+gas instead of customizing it. The way I understand the program, I do not
+need to enter values for conductivity, viscosity and specific heat
+coeeficients and molecular weight. However my program terminates with the
+following errors. Does anyone know why this happens. I have pasted the
+input file in here, i am sorry, its very long.
+
+thanks a lot
+Shefali Modi
+
+ERrors:
+Program Version,EnergyPlus 1.0.1.042, 6/17/02 12:29 PM
+   ** Severe  ** Out of range value numeric Field#2 (Conductivity
+Coefficient A), value=0.00000, range=>0.0, in MATERIAL:WINDOWGAS=AIR13MM
+   ** Severe  ** Out of range value numeric Field#4 (Viscosity Coefficient
+A), value=0.00000, range=>0.0, in MATERIAL:WINDOWGAS=AIR13MM
+   ** Severe  ** Out of range value numeric Field#6 (Specific Heat
+Coefficient A), value=0.00000, range=>0.0, in MATERIAL:WINDOWGAS=AIR13MM
+   ** Severe  ** Out of range value numeric Field#8 (Molecular Weight),
+value=0.00000, range=>=20.0 and <=200.0, in MATERIAL:WINDOWGAS=AIR13MM
+   ** Severe  ** Out of "range" values found in input
+   **  Fatal  ** Out of "range" values and/or blank required fields found
+in input
+   ************* EnergyPlus Terminated--Fatal Error Detected. 0 Warning; 5
+Severe Errors
+
+
+Input File:
+!-Generator IDFEditor 1.05
+
+!-NOTE: All comments with '!-' are ignored by the IDFEditor and are
+generated automatically.
+!-      Use '!' comments if they need to be retained when using the
+IDFEditor.
+
+
+!-   ===========  ALL OBJECTS IN CLASS: VERSION ===========
+
+VERSION,
+! 1ZoneUncontrolled.idf
+! Basic file description: Basic test for EnergyPlus
+! Run:      2 design days.
+! Building: Fictional 1 zone building with resistive walls.  No floor.  No
+Roof.
+! Internal: None.
+! System:   None.
+! Plant:    None.
+! 4/7/00 -- Updated with most "detailed" models for this input file:
+! SolDis=-1, Aniso, Detailed Interior and Exterior Convection
+    1.0.1;                   !- Version Identifier
+
+
+!-   ===========  ALL OBJECTS IN CLASS: BUILDING ===========
+
+BUILDING,
+! Building Name
+    A1,                      !- Building Name
+! Building Azimuth
+    0,                       !- North Axis {deg}
+! Building Terrain
+    City,                    !- Terrain
+! Loads Convergence Tolerance
+    .04,                     !- Loads Convergence Tolerance Value {W}
+! Temperature Convergence Tolerance
+    .4,                      !- Temperature Convergence Tolerance Value
+{C}
+! Solar Distribution
+    FullInteriorAndExterior; !- Solar Distribution
+
+
+!-   ===========  ALL OBJECTS IN CLASS: TIMESTEP IN HOUR ===========
+
+TIMESTEP IN HOUR,
+    6;                       !- Time Step in Hour
+
+
+!-   ===========  ALL OBJECTS IN CLASS: INSIDE CONVECTION ALGORITHM
+===========
+
+INSIDE CONVECTION ALGORITHM,
+! Inside Convection Algorithm
+    Detailed;                !- InsideConvectionValue
+
+
+!-   ===========  ALL OBJECTS IN CLASS: OUTSIDE CONVECTION ALGORITHM
+===========
+
+OUTSIDE CONVECTION ALGORITHM,
+! Outside Convection Algorithm
+    Detailed;                !- OutsideConvectionValue
+
+
+!-   ===========  ALL OBJECTS IN CLASS: SKY RADIANCE DISTRIBUTION
+===========
+
+SKY RADIANCE DISTRIBUTION,
+! MinimalShadowing is appropriate Solar Distribution -- this has no floor
+    1;                       !- SkyRadianceValue
+
+
+!-   ===========  ALL OBJECTS IN CLASS: SOLUTION ALGORITHM ===========
+
+SOLUTION ALGORITHM,
+! Solution Algorithm
+    MTF;                     !- SolutionAlgo
+
+
+!-   ===========  ALL OBJECTS IN CLASS: SHADOWING CALCULATIONS ===========
+
+SHADOWING CALCULATIONS,
+    20;                      !- Period_for_calculations
+
+
+!-   ===========  ALL OBJECTS IN CLASS: AIRFLOW MODEL ===========
+
+Airflow Model,
+    COMIS;                   !- AirFlowModelValue
+
+
+!-   ===========  ALL OBJECTS IN CLASS: ZONE VOLUME CAPACITANCE MULTIPLIER
+===========
+
+ZONE VOLUME CAPACITANCE MULTIPLIER,
+    1;                       !- Capacitance Multiplier
+
+
+!-   ===========  ALL OBJECTS IN CLASS: RUN CONTROL ===========
+
+RUN CONTROL,
+    Yes,                     !- Do the zone sizing calculation
+    No,                      !- Do the system sizing calculation
+    No,                      !- Do the plant sizing calculation
+    Yes,                     !- Do the design day simulations
+    Yes;                     !- Do the weather file simulation
+
+
+!-   ===========  ALL OBJECTS IN CLASS: RUNPERIOD ===========
+
+RunPeriod,
+    3,                       !- Begin Month
+    1,                       !- Begin Day Of Month
+    3,                       !- End Month
+    31,                      !- End Day Of Month
+    UseWeatherFile,          !- Day Of Week For Start Day
+    No,                      !- Use WeatherFile Holidays/Special Days
+    Yes;                     !- Use WeatherFile DaylightSavingPeriod
+
+RunPeriod,
+    6,                       !- Begin Month
+    1,                       !- Begin Day Of Month
+    6,                       !- End Month
+    31,                      !- End Day Of Month
+    UseWeatherFile,          !- Day Of Week For Start Day
+    No,                      !- Use WeatherFile Holidays/Special Days
+    Yes;                     !- Use WeatherFile DaylightSavingPeriod
+
+RunPeriod,
+    9,                       !- Begin Month
+    1,                       !- Begin Day Of Month
+    9,                       !- End Month
+    31,                      !- End Day Of Month
+    UseWeatherFile,          !- Day Of Week For Start Day
+    No,                      !- Use WeatherFile Holidays/Special Days
+    Yes;                     !- Use WeatherFile DaylightSavingPeriod
+
+RunPeriod,
+    12,                      !- Begin Month
+    1,                       !- Begin Day Of Month
+    12,                      !- End Month
+    31,                      !- End Day Of Month
+    UseWeatherFile,          !- Day Of Week For Start Day
+    No,                      !- Use WeatherFile Holidays/Special Days
+    Yes;                     !- Use WeatherFile DaylightSavingPeriod
+
+
+!-   ===========  ALL OBJECTS IN CLASS: DESIGNDAY ===========
+
+DesignDay,
+    DET3,                    !- DesignDayName
+    21.7,                    !- Maximum Dry-Bulb Temperature {C}
+    39.5,                    !- Daily Temperature Range {C}
+    11.4,                    !- Wet-Bulb Temperature At MaxTemp {C}
+    99284.51,                !- Barometric Pressure {Pa}
+    18,                      !- Wind Speed {m/s}
+    181,                     !- Wind Direction {deg}
+    .46,                     !- Sky Clearness
+    1,                       !- Rain Indicator
+    0,                       !- Snow Indicator
+    21,                      !- Day Of Month
+    3,                       !- Month
+    Monday,                  !- Day Type
+    0;                       !- Daylight Saving Time Indicator
+
+DesignDay,
+    DET6,                    !- DesignDayName
+    33.9,                    !- Maximum Dry-Bulb Temperature {C}
+    34.6,                    !- Daily Temperature Range {C}
+    24.2,                    !- Wet-Bulb Temperature At MaxTemp {C}
+    99284.51,                !- Barometric Pressure {Pa}
+    11.8,                    !- Wind Speed {m/s}
+    170,                     !- Wind Direction {deg}
+    .53,                     !- Sky Clearness
+    1,                       !- Rain Indicator
+    0,                       !- Snow Indicator
+    21,                      !- Day Of Month
+    6,                       !- Month
+    Monday,                  !- Day Type
+    0;                       !- Daylight Saving Time Indicator
+
+DesignDay,
+    DET9,                    !- DesignDayName
+    32.8,                    !- Maximum Dry-Bulb Temperature {C}
+    36,                      !- Daily Temperature Range {C}
+    22.5,                    !- Wet-Bulb Temperature At MaxTemp {C}
+    99284.51,                !- Barometric Pressure {Pa}
+    10.3,                    !- Wind Speed {m/s}
+    150,                     !- Wind Direction {deg}
+    .5,                      !- Sky Clearness
+    1,                       !- Rain Indicator
+    1,                       !- Snow Indicator
+    21,                      !- Day Of Month
+    9,                       !- Month
+    Monday,                  !- Day Type
+    1;                       !- Daylight Saving Time Indicator
+
+DesignDay,
+    DET12,                   !- DesignDayName
+    15,                      !- Maximum Dry-Bulb Temperature {C}
+    30.4,                    !- Daily Temperature Range {C}
+    10.7,                    !- Wet-Bulb Temperature At MaxTemp {C}
+    99284.51,                !- Barometric Pressure {Pa}
+    20.6,                    !- Wind Speed {m/s}
+    171,                     !- Wind Direction {deg}
+    .37,                     !- Sky Clearness
+    1,                       !- Rain Indicator
+    1,                       !- Snow Indicator
+    21,                      !- Day Of Month
+    12,                      !- Month
+    Monday,                  !- Day Type
+    1;                       !- Daylight Saving Time Indicator
+
+
+!-   ===========  ALL OBJECTS IN CLASS: GROUNDTEMPERATURES ===========
+
+GroundTemperatures,
+    1.9,                     !- January Ground Temperature {C}
+    .1,                      !- February Ground Temperature {C}
+    .5,                      !- March Ground Temperature {C}
+    3.3,                     !- April Ground Temperature {C}
+    7.6,                     !- May Ground Temperature {C}
+    12.4,                    !- June Ground Temperature {C}
+    16.3,                    !- July Ground Temperature {C}
+    18.3,                    !- August Ground Temperature {C}
+    17.8,                    !- September Ground Temperature {C}
+    15,                      !- October Ground Temperature {C}
+    10.6,                    !- November Ground Temperature {C}
+    5.8;                     !- December Ground Temperature {C}
+
+
+!-   ===========  ALL OBJECTS IN CLASS: GROUNDREFLECTANCES ===========
+
+GroundReflectances,
+    1,                       !- January Ground Reflectance {dimensionless}
+    1,                       !- February Ground Reflectance
+{dimensionless}
+    0.2,                     !- March Ground Reflectance {dimensionless}
+    0.2,                     !- April Ground Reflectance {dimensionless}
+    .2,                      !- May Ground Reflectance {dimensionless}
+    0.2,                     !- June Ground Reflectance {dimensionless}
+    .2,                      !- July Ground Reflectance {dimensionless}
+    .2,                      !- August Ground Reflectance {dimensionless}
+    .5,                      !- September Ground Reflectance
+{dimensionless}
+    1,                       !- October Ground Reflectance {dimensionless}
+    1,                       !- November Ground Reflectance
+{dimensionless}
+    1;                       !- December Ground Reflectance
+{dimensionless}
+
+
+!-   ===========  ALL OBJECTS IN CLASS: SNOW GROUND REFLECTANCE MODIFIERS
+===========
+
+Snow Ground Reflectance Modifiers,
+    1,                       !- Ground Reflected Solar Modifier
+    1;                       !- Daylighting Ground Reflected Solar
+Modifier
+
+
+!-   ===========  ALL OBJECTS IN CLASS: MATERIAL:REGULAR ===========
+
+MATERIAL:REGULAR,
+    BRICK1,                  !- Name
+    Rough,                   !- Roughness
+    .2,                      !- Thickness {m}
+    .89404,                  !- Conductivity {W/m-K}
+    1922.216,                !- Density {kg/m3}
+    794.96,                  !- Specific Heat {J/kg-K}
+    .9,                      !- Absorptance:Thermal
+    .9,                      !- Absorptance:Solar
+    .95;                     !- Absorptance:Visible
+
+MATERIAL:REGULAR,
+    CONCRETE1,               !- Name
+    Rough,                   !- Roughness
+    .3,                      !- Thickness {m}
+    1.9467,                  !- Conductivity {W/m-K}
+    2242.585,                !- Density {kg/m3}
+    899.56,                  !- Specific Heat {J/kg-K}
+    .9,                      !- Absorptance:Thermal
+    .9,                      !- Absorptance:Solar
+    1;                       !- Absorptance:Visible
+
+MATERIAL:REGULAR,
+    WOOD1,                   !- Name
+    Rough,                   !- Roughness
+    .1016,                   !- Thickness {m}
+    .152852,                 !- Conductivity {W/m-K}
+    616.7108,                !- Density {kg/m3}
+    1631.76,                 !- Specific Heat {J/kg-K}
+    .9,                      !- Absorptance:Thermal
+    .8,                      !- Absorptance:Solar
+    .9;                      !- Absorptance:Visible
+
+
+!-   ===========  ALL OBJECTS IN CLASS: MATERIAL:WINDOWGLASS ===========
+
+MATERIAL:WINDOWGLASS,
+    G1,                      !- Name
+    SpectralAverage,         !- Optical Data Type
+    A1,                      !- Name of Window Glass Spectral Data Set
+    .0057,                   !- Thickness {m}
+    .253,                    !- Solar Transmittance at Normal Incidence
+    .244,                    !- Solar Reflectance at Normal Incidence:
+Front Side
+    .261,                    !- Solar Reflectance at Normal Incidence:
+Back Side
+    .406,                    !- Visible Transmittance at Normal Incidence
+    .139,                    !- Visible Reflectance at Normal Incidence:
+Front Side
+    .141,                    !- Visible Reflectance at Normal Incidence:
+Back Side
+    0,                       !- IR Transmittance at Normal Incidence
+    .84,                     !- IR Hemispherical Emissivity: Front Side
+    .089,                    !- IR Hemispherical Emissivity: Back Side
+    .9;                      !- Conductivity {W/m-K}
+
+
+!-   ===========  ALL OBJECTS IN CLASS: MATERIAL:WINDOWGAS ===========
+
+MATERIAL:WINDOWGAS,
+    AIR13mm,                 !- Name
+    Air,                     !- Gas Type
+     .0127,                  !- Thickness {m}
+     0,                      !- Conductivity Coefficient A {W/m-K}
+     0,                      !- Conductivity Coefficient B {W/m-K2}
+    0,                       !- Viscosity Coefficient A {g/m-s}
+    0,                       !- Viscosity Coefficient B {g/m-s-K}
+    0,                       !- Specific Heat Coefficient A {J/kg-K}
+    0,                       !- Specific Heat Coefficient B {J/kg-K2}
+     0;                      !- Molecular Weight
+
+
+!-   ===========  ALL OBJECTS IN CLASS: CONSTRUCTION ===========
+
+CONSTRUCTION,
+    WALL1,                   !- Name
+    BRICK1;                  !- Outside Layer
+
+CONSTRUCTION,
+    SLAB1,                   !- Name
+    CONCRETE1;               !- Outside Layer
+
+CONSTRUCTION,
+    WIN1,                    !- Name
+    G1,                      !- Outside Layer
+    AIR13mm,                 !- Layer #2
+    G1;                      !- Layer #3
+
+CONSTRUCTION,
+    WIN2,                    !- Name
+    G1;                      !- Outside Layer
+
+CONSTRUCTION,
+    WALL2,                   !- Name
+    WOOD1;                   !- Outside Layer
+
+
+!-   ===========  ALL OBJECTS IN CLASS: ZONE ===========
+
+ZONE,
+! Zone Name
+    Z1,                      !- Zone Name
+! Zone North Axis (relative to Building)
+    0,                       !- Relative North (to building) {deg}
+! Zone X Origin {m}
+    0,                       !- X Origin {m}
+! Zone Y Origin {m}
+    0,                       !- Y Origin {m}
+! Zone Z Origin {m}
+    0,                       !- Z Origin {m}
+! Zone Type
+    1,                       !- Type
+! Zone Multiplier
+    1,                       !- Multiplier
+! Zone Ceiling Height {m}
+    4,                       !- Ceiling Height {m}
+! Zone Volume {m**3}
+    96,                      !- Volume {m3}
+    Detailed;                !- Zone Inside Convection Algorithm
+
+ZONE,
+    Z2,                      !- Zone Name
+    0,                       !- Relative North (to building) {deg}
+    4,                       !- X Origin {m}
+    0,                       !- Y Origin {m}
+    0,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    4,                       !- Ceiling Height {m}
+    96,                      !- Volume {m3}
+    Detailed;                !- Zone Inside Convection Algorithm
+
+ZONE,
+    Z3,                      !- Zone Name
+    0,                       !- Relative North (to building) {deg}
+    8,                       !- X Origin {m}
+    0,                       !- Y Origin {m}
+    0,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    4,                       !- Ceiling Height {m}
+    96,                      !- Volume {m3}
+    Detailed;                !- Zone Inside Convection Algorithm
+
+ZONE,
+    Z4,                      !- Zone Name
+    0,                       !- Relative North (to building) {deg}
+    0,                       !- X Origin {m}
+    0,                       !- Y Origin {m}
+    4,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    4,                       !- Ceiling Height {m}
+    96,                      !- Volume {m3}
+    Detailed;                !- Zone Inside Convection Algorithm
+
+ZONE,
+    Z5,                      !- Zone Name
+    0,                       !- Relative North (to building) {deg}
+    4,                       !- X Origin {m}
+    0,                       !- Y Origin {m}
+    4,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    4,                       !- Ceiling Height {m}
+    96,                      !- Volume {m3}
+    Detailed;                !- Zone Inside Convection Algorithm
+
+ZONE,
+    Z6,                      !- Zone Name
+    0,                       !- Relative North (to building) {deg}
+    8,                       !- X Origin {m}
+    0,                       !- Y Origin {m}
+    4,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    4,                       !- Ceiling Height {m}
+    96,                      !- Volume {m3}
+    Detailed;                !- Zone Inside Convection Algorithm
+
+ZONE,
+    Z7,                      !- Zone Name
+    0,                       !- Relative North (to building) {deg}
+    0,                       !- X Origin {m}
+    0,                       !- Y Origin {m}
+    8,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    4,                       !- Ceiling Height {m}
+    96,                      !- Volume {m3}
+    Detailed;                !- Zone Inside Convection Algorithm
+
+ZONE,
+    Z8,                      !- Zone Name
+    0,                       !- Relative North (to building) {deg}
+    4,                       !- X Origin {m}
+    0,                       !- Y Origin {m}
+    8,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    4,                       !- Ceiling Height {m}
+    96,                      !- Volume {m3}
+    Detailed;                !- Zone Inside Convection Algorithm
+
+ZONE,
+    Z9,                      !- Zone Name
+    0,                       !- Relative North (to building) {deg}
+    8,                       !- X Origin {m}
+    0,                       !- Y Origin {m}
+    8,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    4,                       !- Ceiling Height {m}
+    96,                      !- Volume {m3}
+    Detailed;                !- Zone Inside Convection Algorithm
+
+ZONE,
+    Z10,                     !- Zone Name
+    0,                       !- Relative North (to building) {deg}
+    0,                       !- X Origin {m}
+    -.6,                     !- Y Origin {m}
+    0,                       !- Z Origin {m}
+    1,                       !- Type
+    1,                       !- Multiplier
+    12,                      !- Ceiling Height {m}
+    86.4,                    !- Volume {m3}
+    Detailed;                !- Zone Inside Convection Algorithm
+
+
+!-   ===========  ALL OBJECTS IN CLASS: SURFACEGEOMETRY ===========
+
+SurfaceGeometry,
+! BLAST Translator units, UpperLeftCorner, Counter Clock-Wise, World
+Coordinate System
+! Note original Building and Zone Origins are retained
+    UpperLeftCorner,         !- SurfaceStartingPosition
+    CW,                      !- VertexEntry
+    WorldCoordinateSystem;   !- SurfaceGeometryKey
+
+
+!-   ===========  ALL OBJECTS IN CLASS: SURFACE:HEATTRANSFER ===========
+
+Surface:HeatTransfer,
+    Z1W,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL1,                   !- Construction Name of the Surface
+    Z1,                      !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    0,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    0,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    0,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z1N,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL1,                   !- Construction Name of the Surface
+    Z1,                      !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    0,                       !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    0,                       !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z1E,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z1,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z2W,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z1S,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z1,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z10N,                    !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    0,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z2W,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z2,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z1E,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z2N,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL1,                   !- Construction Name of the Surface
+    Z2,                      !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z2E,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z2,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z3W,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z2S,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z2,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z10N,                    !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z3W,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z3,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z2E,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z3N,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL1,                   !- Construction Name of the Surface
+    Z3,                      !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    12,                      !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    12,                      !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z3E,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z3,                      !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    12,                      !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    12,                      !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    12,                      !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z3S,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z3,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z10N,                    !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    12,                      !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z4W,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL1,                   !- Construction Name of the Surface
+    Z4,                      !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    0,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    4,                       !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    4,                       !- Vertex 2 Z-coordinate {m}
+    0,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    0,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z4N,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL1,                   !- Construction Name of the Surface
+    Z4,                      !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    0,                       !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    4,                       !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    4,                       !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    0,                       !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z4E,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z4,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z5W,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    4,                       !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    4,                       !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z4S,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z4,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z10N,                    !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    4,                       !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    4,                       !- Vertex 2 Z-coordinate {m}
+    0,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z5W,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z5,                      !- InsideFaceEnvironment
+    OtherSideCoeff,          !- OutsideFaceEnvironment
+    Z6E,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    4,                       !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    4,                       !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z5N,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL1,                   !- Construction Name of the Surface
+    Z5,                      !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    4,                       !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z5E,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z5,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z5W,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    4,                       !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    4,                       !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z5S,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z5,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z10N,                    !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    4,                       !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    4,                       !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z6W,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z6,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z5E,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    4,                       !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    4,                       !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z6N,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL1,                   !- Construction Name of the Surface
+    Z6,                      !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    4,                       !- Vertex 1 Z-coordinate {m}
+    12,                      !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    4,                       !- Vertex 2 Z-coordinate {m}
+    12,                      !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z6E,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL1,                   !- Construction Name of the Surface
+    Z6,                      !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    12,                      !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    4,                       !- Vertex 1 Z-coordinate {m}
+    12,                      !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    4,                       !- Vertex 2 Z-coordinate {m}
+    12,                      !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z6S,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z6,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z10N,                    !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    12,                      !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    4,                       !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    4,                       !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z7W,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL1,                   !- Construction Name of the Surface
+    Z7,                      !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    0,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    8,                       !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    0,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    0,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z7N,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL1,                   !- Construction Name of the Surface
+    Z7,                      !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    0,                       !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    8,                       !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    0,                       !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z7E,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z7,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z8W,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    8,                       !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z7S,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z7,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z10N,                    !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    8,                       !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    0,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z8W,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z8,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z7E,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    8,                       !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z8N,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL1,                   !- Construction Name of the Surface
+    Z8,                      !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    8,                       !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z8E,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z8,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z9W,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    8,                       !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z8S,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z8,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z10N,                    !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    8,                       !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z9W,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z9,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z8E,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    8,                       !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z9N,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL1,                   !- Construction Name of the Surface
+    Z9,                      !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    8,                       !- Vertex 1 Z-coordinate {m}
+    12,                      !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    12,                      !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z9E,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL1,                   !- Construction Name of the Surface
+    Z9,                      !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    12,                      !- Vertex 1 X-coordinate {m}
+    6,                       !- Vertex 1 Y-coordinate {m}
+    8,                       !- Vertex 1 Z-coordinate {m}
+    12,                      !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    12,                      !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    6,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z9S,                     !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z9,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z10N,                    !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    12,                      !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    8,                       !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z1D,                     !- User Supplied Surface Name
+    FLOOR,                   !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z1,                      !- InsideFaceEnvironment
+    Ground,                  !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    0,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    0,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    0,                       !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    0;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z1U,                     !- User Supplied Surface Name
+    CEILING,                 !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z1,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z4U,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    1,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    0,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    4,                       !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    4,                       !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z4D,                     !- User Supplied Surface Name
+    FLOOR,                   !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z4,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z1U,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    0,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    0,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    4,                       !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    4,                       !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z4U,                     !- User Supplied Surface Name
+    CEILING,                 !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z4,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z7D,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    1,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    0,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    8,                       !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z7D,                     !- User Supplied Surface Name
+    FLOOR,                   !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z7,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z4U,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    0,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    0,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    8,                       !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z7U,                     !- User Supplied Surface Name
+    CEILING,                 !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z7,                      !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    1,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    0,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    12,                      !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    12,                      !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z2D,                     !- User Supplied Surface Name
+    FLOOR,                   !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z2,                      !- InsideFaceEnvironment
+    Ground,                  !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    0,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    0,                       !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    0;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z2U,                     !- User Supplied Surface Name
+    CEILING,                 !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z2,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z5D,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    1,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    4,                       !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    4,                       !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z5D,                     !- User Supplied Surface Name
+    FLOOR,                   !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z5,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z2U,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    0,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    4,                       !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    4,                       !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z5U,                     !- User Supplied Surface Name
+    CEILING,                 !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z5,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z8D,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    1,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    8,                       !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z8D,                     !- User Supplied Surface Name
+    FLOOR,                   !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z8,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z5U,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    0,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    8,                       !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z8U,                     !- User Supplied Surface Name
+    CEILING,                 !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z8,                      !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    1,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    12,                      !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    12,                      !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z3D,                     !- User Supplied Surface Name
+    FLOOR,                   !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z3,                      !- InsideFaceEnvironment
+    Ground,                  !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    0,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    12,                      !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    0,                       !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    0;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z3U,                     !- User Supplied Surface Name
+    CEILING,                 !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z3,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z6D,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    1,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    4,                       !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    4,                       !- Vertex 2 Z-coordinate {m}
+    12,                      !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z6D,                     !- User Supplied Surface Name
+    FLOOR,                   !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z6,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z3U,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    0,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    4,                       !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    4,                       !- Vertex 2 Z-coordinate {m}
+    12,                      !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z6U,                     !- User Supplied Surface Name
+    CEILING,                 !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z6,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z9D,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    1,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    8,                       !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    12,                      !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z9D,                     !- User Supplied Surface Name
+    FLOOR,                   !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z9,                      !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z6U,                     !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    0,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    8,                       !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    8,                       !- Vertex 2 Z-coordinate {m}
+    12,                      !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z9U,                     !- User Supplied Surface Name
+    CEILING,                 !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z9,                      !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    1,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    12,                      !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    6,                       !- Vertex 2 Y-coordinate {m}
+    12,                      !- Vertex 2 Z-coordinate {m}
+    12,                      !- Vertex 3 X-coordinate {m}
+    6,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z10W,                    !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL1,                   !- Construction Name of the Surface
+    Z10,                     !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    0,                       !- Vertex 1 X-coordinate {m}
+    -.6,                     !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    0,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    0,                       !- Vertex 4 X-coordinate {m}
+    -.6,                     !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z10N,                    !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL2,                   !- Construction Name of the Surface
+    Z10,                     !- InsideFaceEnvironment
+    OtherZoneSurface,        !- OutsideFaceEnvironment
+    Z1S,                     !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    0,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    12,                      !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    12,                      !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    0,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z10E,                    !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL1,                   !- Construction Name of the Surface
+    Z10,                     !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    12,                      !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    12,                      !- Vertex 2 X-coordinate {m}
+    -.6,                     !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    12,                      !- Vertex 3 X-coordinate {m}
+    -.6,                     !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z10S,                    !- User Supplied Surface Name
+    WALL,                    !- Surface Type
+    WALL1,                   !- Construction Name of the Surface
+    Z10,                     !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    .5,                      !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    12,                      !- Vertex 1 X-coordinate {m}
+    -.6,                     !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    -.6,                     !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    0,                       !- Vertex 3 X-coordinate {m}
+    -.6,                     !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    -.6,                     !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z10D,                    !- User Supplied Surface Name
+    FLOOR,                   !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z10,                     !- InsideFaceEnvironment
+    Ground,                  !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
+    0,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    0,                       !- Vertex 1 X-coordinate {m}
+    -.6,                     !- Vertex 1 Y-coordinate {m}
+    0,                       !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    0,                       !- Vertex 2 Z-coordinate {m}
+    12,                      !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    0,                       !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    -.6,                     !- Vertex 4 Y-coordinate {m}
+    0;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer,
+    Z10U,                    !- User Supplied Surface Name
+    CEILING,                 !- Surface Type
+    SLAB1,                   !- Construction Name of the Surface
+    Z10,                     !- InsideFaceEnvironment
+    ExteriorEnvironment,     !- OutsideFaceEnvironment
+    ,                        !- OutsideFaceEnvironment Object
+    SunExposed,              !- Sun Exposure
+    WindExposed,             !- Wind Exposure
+    1,                       !- View Factor to Ground
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    0,                       !- Vertex 1 X-coordinate {m}
+    -.6,                     !- Vertex 1 Y-coordinate {m}
+    12,                      !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    12,                      !- Vertex 2 Z-coordinate {m}
+    12,                      !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    -.6,                     !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+
+!-   ===========  ALL OBJECTS IN CLASS: SURFACE:HEATTRANSFER:SUB
+===========
+
+Surface:HeatTransfer:Sub,
+    W1S,                     !- User Supplied Surface Name
+    WINDOW,                  !- Surface Type
+    WIN1,                    !- Construction Name of the Surface
+    Z1S,                     !- Base Surface Name
+    W10N,                    !- OutsideFaceEnvironment Object
+    .5,                      !- View Factor to Ground
+    ,                        !- Name of shading control
+    ,                        !- WindowFrameAndDivider Name
+    1,                       !- Multiplier
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    .25,                     !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    .25,                     !- Vertex 2 Z-coordinate {m}
+    0,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer:Sub,
+    W2S,                     !- User Supplied Surface Name
+    WINDOW,                  !- Surface Type
+    WIN1,                    !- Construction Name of the Surface
+    Z2S,                     !- Base Surface Name
+    W10N,                    !- OutsideFaceEnvironment Object
+    .5,                      !- View Factor to Ground
+    ,                        !- Name of shading control
+    ,                        !- WindowFrameAndDivider Name
+    1,                       !- Multiplier
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    .25,                     !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    .25,                     !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer:Sub,
+    W3S,                     !- User Supplied Surface Name
+    WINDOW,                  !- Surface Type
+    WIN1,                    !- Construction Name of the Surface
+    Z3S,                     !- Base Surface Name
+    W10N,                    !- OutsideFaceEnvironment Object
+    .5,                      !- View Factor to Ground
+    ,                        !- Name of shading control
+    ,                        !- WindowFrameAndDivider Name
+    1,                       !- Multiplier
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    12,                      !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    .25,                     !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    .25,                     !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    4,                       !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    4;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer:Sub,
+    W4S,                     !- User Supplied Surface Name
+    WINDOW,                  !- Surface Type
+    WIN1,                    !- Construction Name of the Surface
+    Z4S,                     !- Base Surface Name
+    W10N,                    !- OutsideFaceEnvironment Object
+    .5,                      !- View Factor to Ground
+    ,                        !- Name of shading control
+    ,                        !- WindowFrameAndDivider Name
+    1,                       !- Multiplier
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    4.25,                    !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    4.25,                    !- Vertex 2 Z-coordinate {m}
+    0,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer:Sub,
+    W5S,                     !- User Supplied Surface Name
+    WINDOW,                  !- Surface Type
+    WIN1,                    !- Construction Name of the Surface
+    Z5S,                     !- Base Surface Name
+    W10N,                    !- OutsideFaceEnvironment Object
+    .5,                      !- View Factor to Ground
+    ,                        !- Name of shading control
+    ,                        !- WindowFrameAndDivider Name
+    1,                       !- Multiplier
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    4.25,                    !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    4.25,                    !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer:Sub,
+    W6S,                     !- User Supplied Surface Name
+    WINDOW,                  !- Surface Type
+    WIN1,                    !- Construction Name of the Surface
+    Z6S,                     !- Base Surface Name
+    W10N,                    !- OutsideFaceEnvironment Object
+    .5,                      !- View Factor to Ground
+    ,                        !- Name of shading control
+    ,                        !- WindowFrameAndDivider Name
+    1,                       !- Multiplier
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    12,                      !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    4.25,                    !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    4.25,                    !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    8,                       !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    8;                       !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer:Sub,
+    W7S,                     !- User Supplied Surface Name
+    WINDOW,                  !- Surface Type
+    WIN1,                    !- Construction Name of the Surface
+    Z7S,                     !- Base Surface Name
+    W10N,                    !- OutsideFaceEnvironment Object
+    .5,                      !- View Factor to Ground
+    ,                        !- Name of shading control
+    ,                        !- WindowFrameAndDivider Name
+    1,                       !- Multiplier
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    4,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    8.25,                    !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    8.25,                    !- Vertex 2 Z-coordinate {m}
+    0,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    4,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer:Sub,
+    W8S,                     !- User Supplied Surface Name
+    WINDOW,                  !- Surface Type
+    WIN1,                    !- Construction Name of the Surface
+    Z8S,                     !- Base Surface Name
+    W10N,                    !- OutsideFaceEnvironment Object
+    .5,                      !- View Factor to Ground
+    ,                        !- Name of shading control
+    ,                        !- WindowFrameAndDivider Name
+    1,                       !- Multiplier
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    8,                       !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    8.25,                    !- Vertex 1 Z-coordinate {m}
+    4,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    8.25,                    !- Vertex 2 Z-coordinate {m}
+    4,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    8,                       !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer:Sub,
+    W9S,                     !- User Supplied Surface Name
+    WINDOW,                  !- Surface Type
+    WIN1,                    !- Construction Name of the Surface
+    Z9S,                     !- Base Surface Name
+    W10N,                    !- OutsideFaceEnvironment Object
+    .5,                      !- View Factor to Ground
+    ,                        !- Name of shading control
+    ,                        !- WindowFrameAndDivider Name
+    1,                       !- Multiplier
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    12,                      !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    8.25,                    !- Vertex 1 Z-coordinate {m}
+    8,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    8.25,                    !- Vertex 2 Z-coordinate {m}
+    8,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer:Sub,
+    W10N,                    !- User Supplied Surface Name
+    WINDOW,                  !- Surface Type
+    WIN1,                    !- Construction Name of the Surface
+    Z10N,                    !- Base Surface Name
+    W1S,                     !- OutsideFaceEnvironment Object
+    .5,                      !- View Factor to Ground
+    ,                        !- Name of shading control
+    ,                        !- WindowFrameAndDivider Name
+    1,                       !- Multiplier
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    12,                      !- Vertex 1 X-coordinate {m}
+    0,                       !- Vertex 1 Y-coordinate {m}
+    .25,                     !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    0,                       !- Vertex 2 Y-coordinate {m}
+    .25,                     !- Vertex 2 Z-coordinate {m}
+    0,                       !- Vertex 3 X-coordinate {m}
+    0,                       !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    0,                       !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+Surface:HeatTransfer:Sub,
+    W10S,                    !- User Supplied Surface Name
+    WINDOW,                  !- Surface Type
+    WIN1,                    !- Construction Name of the Surface
+    Z10S,                    !- Base Surface Name
+    ,                        !- OutsideFaceEnvironment Object
+    .5,                      !- View Factor to Ground
+    ,                        !- Name of shading control
+    ,                        !- WindowFrameAndDivider Name
+    1,                       !- Multiplier
+    4,                       !- Number of Surface Vertice Groups -- Number
+of (X,Y,Z) groups in this surface
+    12,                      !- Vertex 1 X-coordinate {m}
+    -.6,                     !- Vertex 1 Y-coordinate {m}
+    .25,                     !- Vertex 1 Z-coordinate {m}
+    0,                       !- Vertex 2 X-coordinate {m}
+    -.6,                     !- Vertex 2 Y-coordinate {m}
+    .25,                     !- Vertex 2 Z-coordinate {m}
+    0,                       !- Vertex 3 X-coordinate {m}
+    -.6,                     !- Vertex 3 Y-coordinate {m}
+    12,                      !- Vertex 3 Z-coordinate {m}
+    12,                      !- Vertex 4 X-coordinate {m}
+    -.6,                     !- Vertex 4 Y-coordinate {m}
+    12;                      !- Vertex 4 Z-coordinate {m}
+
+
+!-   ===========  ALL OBJECTS IN CLASS: SCHEDULETYPE ===========
+
+ScheduleType,
+    S1,                      !- ScheduleType Name
+    0.0:1.0,                 !- range
+    CONTINUOUS;              !- Numeric Type
+
+
+!-   ===========  ALL OBJECTS IN CLASS: DAYSCHEDULE ===========
+
+DAYSCHEDULE,
+    D1,                      !- Name
+    S1,                      !- ScheduleType
+    1,                       !- Hour 1
+    1,                       !- Hour 2
+    1,                       !- Hour 3
+    1,                       !- Hour 4
+    1,                       !- Hour 5
+    1,                       !- Hour 6
+    1,                       !- Hour 7
+    1,                       !- Hour 8
+    1,                       !- Hour 9
+    1,                       !- Hour 10
+    1,                       !- Hour 11
+    1,                       !- Hour 12
+    1,                       !- Hour 13
+    1,                       !- Hour 14
+    1,                       !- Hour 15
+    1,                       !- Hour 16
+    1,                       !- Hour 17
+    1,                       !- Hour 18
+    1,                       !- Hour 19
+    1,                       !- Hour 20
+    1,                       !- Hour 21
+    1,                       !- Hour 22
+    1,                       !- Hour 23
+    1;                       !- Hour 24
+
+
+!-   ===========  ALL OBJECTS IN CLASS: WEEKSCHEDULE ===========
+
+WEEKSCHEDULE,
+    W1,                      !- Name
+    D1,                      !- Sunday DAYSCHEDULE Name
+    D1,                      !- Monday DAYSCHEDULE Name
+    D1,                      !- Tuesday DAYSCHEDULE Name
+    D1,                      !- Wednesday DAYSCHEDULE Name
+    D1,                      !- Thursday DAYSCHEDULE Name
+    D1,                      !- Friday DAYSCHEDULE Name
+    D1,                      !- Saturday DAYSCHEDULE Name
+    D1,                      !- Holiday DAYSCHEDULE Name
+    D1,                      !- SummerDesignDay DAYSCHEDULE Name
+    D1,                      !- WinterDesignDay DAYSCHEDULE Name
+    D1,                      !- CustomDay1 DAYSCHEDULE Name
+    D1;                      !- CustomDay2 DAYSCHEDULE Name
+
+
+!-   ===========  ALL OBJECTS IN CLASS: SCHEDULE ===========
+
+SCHEDULE,
+    M1,                      !- Name
+    S1,                      !- ScheduleType
+    W1,                      !- Name of WEEKSCHEDULE 1
+    3,                       !- Start Month 1
+    1,                       !- Start Day 1
+    3,                       !- End Month 1
+    31,                      !- End Day 1
+    W1,                      !- Name of WEEKSCHEDULE 2
+    6,                       !- Start Month 2
+    1,                       !- Start Day 2
+    6,                       !- End Month 2
+    30,                      !- End Day 2
+    W1,                      !- Name of WEEKSCHEDULE 3
+    9,                       !- Start Month 3
+    1,                       !- Start Day 3
+    9,                       !- End Month 3
+    30,                      !- End Day 3
+    W1,                      !- Name of WEEKSCHEDULE 4
+    12,                      !- Start Month 4
+    1,                       !- Start Day 4
+    12,                      !- End Month 4
+    31;                      !- End Day 4
+
+
+!-   ===========  ALL OBJECTS IN CLASS: SIZING PARAMETERS ===========
+
+SIZING PARAMETERS,
+    1;                       !- sizing factor
+
+
+!-   ===========  ALL OBJECTS IN CLASS: ZONE SIZING ===========
+
+ZONE SIZING,
+    ,                        !- Name of a zone
+    ,                        !- Zone cooling design supply air temperature
+{C}
+    ,                        !- Zone heating design supply air temperature
+{C}
+    ,                        !- Zone cooling design supply air humidity
+ratio {kg-H20/kg-air}
+    ,                        !- Zone heating design supply air humidity
+ratio {kg-H2O/kg-air}
+    ,                        !- outside air method
+    .00944;                  !- outside air flow per person {m3/s}
+
+
+!-   ===========  ALL OBJECTS IN CLASS: REPORT VARIABLE ===========
+
+Report Variable,
+    *,                       !- Key_Value
+    outdoor dry bulb,        !- Variable_Name
+    hourly;                  !- Reporting_Frequency
+
+Report Variable,
+    *,                       !- Key_Value
+    mean air temperature,    !- Variable_Name
+    hourly;                  !- Reporting_Frequency
+
+Report Variable,
+    *,                       !- Key_Value
+    Zone-Total Latent Gain,  !- Variable_Name
+    hourly;                  !- Reporting_Frequency
+
+Report Variable,
+    *,                       !- Key_Value
+    Zone-Total Electric Consumption,
+                             !- Variable_Name
+    hourly;                  !- Reporting_Frequency
+
+Report Variable,
+    *,                       !- Key_Value
+    mean radiant temperature,!- Variable_Name
+    hourly;                  !- Reporting_Frequency
+
+Report Variable,
+    *,                       !- Key_Value
+    Surface Inside Temperature,
+                             !- Variable_Name
+    hourly;                  !- Reporting_Frequency
+
+Report Variable,
+    *,                       !- Key_Value
+    Surface Outside Temperature,
+                             !- Variable_Name
+    daily;                   !- Reporting_Frequency
+
+Report Variable,
+    *,                       !- Key_Value
+    Surface Int Convection Coeff,
+                             !- Variable_Name
+    daily;                   !- Reporting_Frequency
+
+Report Variable,
+    *,                       !- Key_Value
+    Surface Ext Convection Coeff,
+                             !- Variable_Name
+    daily;                   !- Reporting_Frequency
+
+Report Variable,
+    *,                       !- Key_Value
+    Zone- Total Sensible Gain,
+                             !- Variable_Name
+    hourly;                  !- Reporting_Frequency
+
+
+!-   ===========  ALL OBJECTS IN CLASS: REPORT ===========
+
+Report,
+    variable dictionary;     !- Type_of_Report
+
+Report,
+    surfaces,                !- Type_of_Report
+    dxf;                     !- Name_of_Report
+
+Report,
+    construction;            !- Type_of_Report
+
+
+
+--------------------------------------------------------
+Shefali Modi
+M.Sc. Architecture, Environmental Technology
+Art and Architecture Building 2094
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jahe at fago.bwk.tue.nl  Fri Jun 14 09:16:46 2002
+From: jahe at fago.bwk.tue.nl (Jan Hensen)
+Date: Fri, 14 Jun 2002 18:16:46 +0200 (MEST)
+Subject: [Bldg-sim] Building_Simulation_2003_in_Eindhoven
+Message-ID: <MDAEMON-F200206141108.AA084018pd80000160625@gard.com>
+
+
+Apologies for cross-postings.
+
+Building Simulation 2003, the 8th IBPSA Conference and Exhibition,
+will take place in Eindhoven, Netherlands, August 11 - 14, 2003.
+
+Abstracts are due on September 15, 2002.
+
+For more information, registration, and abstract submission visit
+http://www.bs2003.tue.nl
+
+
+We are looking forward to welcoming you in Eindhoven next August.
+
+The Organizing Committee.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From r-strand at uiuc.edu  Wed Jun 12 13:34:06 2002
+From: r-strand at uiuc.edu (Rick Strand)
+Date: Wed, 12 Jun 2002 15:34:06 -0500
+Subject: [Bldg-sim] IBPSA-USA Honolulu Meeting Announcement (Final Notice)
+Message-ID: <MDAEMON-F200206121532.AA320909md50000159889@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020612/ed85db89/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 8cdfbe.jpg
+Type: image/jpeg
+Size: 27771 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020612/ed85db89/attachment.jpg>
+
+From stvgates at pacbell.net  Tue Jun 11 13:46:32 2002
+From: stvgates at pacbell.net (Steve Gates)
+Date: Tue, 11 Jun 2002 13:46:32 -0700
+Subject: [Bldg-sim] help: doe2.1e capability in HP simulation
+References: <MDAEMON-F200206080401.AA013739pd80000204856@gard.com>
+Message-ID: <MDAEMON-F200206111539.AA394767pd80000159418@gard.com>
+
+The capability to model a water/water chiller/heat-pump was recently added to DOE-2.2, Version 41.  This chiller can be coupled with the floor panel system to approximate the radiant floor,  and either a ground-loop heat-exchanger or a lake/well/sea to provide the source of heat.
+  ----- Original Message ----- 
+  From: marco.beccali at dream.unipa.it 
+  To: Bldg-sim at gard.com 
+  Sent: Friday, June 07, 2002 11:37 AM
+  Subject: [Bldg-sim] help: doe2.1e capability in HP simulation
+
+
+  Dear collegues,
+  Does anyone knows if it is possible to simulate a water/water Heat Pump 
+  connected to a radiant floor (for heating and cooling)with DOE2.1 (doeplus). 
+  More: 
+  can I provide a water temperature schedule (water from the sea)?
+  can I also suppose to have a ground heat exchanger for the HP?
+  Thanks in advance.
+  Marco Beccali
+
+  -------------------------------------------------
+  This mail sent through IMP: www.dream.unipa.it
+  Report bugs to Postmaster: lo_brano at dream.unipa.it
+
+
+  ======================================================
+  You received this e-mail because you are subscribed 
+  to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+  from this mailing list send a blank message to 
+  BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020611/0010d316/attachment.htm>
+
+From Drury.Crawley at EE.DOE.GOV  Tue Jun 11 13:19:23 2002
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Tue, 11 Jun 2002 16:19:23 -0400
+Subject: [Bldg-sim] EnergyPlus Update
+Message-ID: <MDAEMON-F200206111516.AA162898pd80000159305@gard.com>
+
+Dear colleagues,
+
+A lot of new information to tell you about EnergyPlus.
+
+1. Building Energy Analysis Tools Survey.
+We are conducting a web-based survey of energy simulation tool users to
+find out how much energy simulation
+is being used and what features users think are most important for near-
+and long-term development.
+Please try your hand at the survey by visiting
+http://SimulationResearch.lbl.gov/  then click on "Survey"
+in the left menu. The survey takes only a few minutes to complete and your
+responses will influence
+future program enhancements.  Your responses are completely confidential.
+
+2. New, Version 1.0.1 EnergyPlus Now Available.
+A new version of EnergyPlus was released in late April and is available for
+download from the EnergyPlus
+web site  (http://www.energyplus.gov).  Version 1.0.1 contains many new
+features including:
+extensive end-use meters, auto sizing of system components and equipment,
+Trombe wall, photovoltaic
+calculations (link to TRNSYS), new window-related features (blinds,
+controls, data import from Window 5,
+interior window solar radiation, movable slats, mixtures of gases,
+triangular windows), many new input file
+examples and HVAC system templates, continuous extensive testing, movable
+transparent wall insulation,
+and many more!
+
+3. Weather Data for >550 Locations Worldwide Available for EnergyPlus.
+The EnergyPlus web site also now includes weather data for more than 550
+locations around the world --
+more than 300 in North America with the other 200 in 70 other countries.
+Check out the list of available
+weather files at:
+http://www.eren.doe.gov/buildings/energy_tools/energyplus/energyplus_weatherdata.html
+
+4. Progress on User Interfaces for EnergyPlus.
+The most asked questions are 'Where is the interface?' and 'When will
+commercial interfaces be available?'.
+We are pleased to announce that we expect the first interface to be
+available later this summer.  Also tools to
+make using EnergyPlus easier--although it's not a full user-friendly
+interface--are now available.  Check
+out these two web site for more information:
+http://www.deringergroup.com/Software/EPlusTools.htm
+and  http://www.tse-inc.net/epi.htm .   We will also announce the
+availability of user interfaces and tools as
+they become available on the EnergyPlus web site.  Note that at least 5
+other organizations have indicated
+that they plan to develop user interfaces over the next year or so.
+
+Thanks in advance,
+
+Dru Crawley
+Program Manager, Building Energy  Tools
+DOE
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mahabir_bhandari at hotmail.com  Mon Jun 10 14:40:28 2002
+From: mahabir_bhandari at hotmail.com (Mahabir Bhandari)
+Date: Mon, 10 Jun 2002 21:40:28 +0000
+Subject: [Bldg-sim] User library in PowerDoe
+Message-ID: <MDAEMON-F200206101632.AA321323pd80000159036@gard.com>
+
+HI,
+	Is it possible to select a component from user library using PowerDoe? If I 
+want to select a construction or glass from library by library method the 
+only choice is  - library name: bdllib.dat. I would like to retrieve some 
+data from Usrlib.dat. How can I change it to usrlib.dat.
+
+Thanks
+
+Mahabir Bhandari
+
+
+
+
+_________________________________________________________________
+Chat with friends online, try MSN Messenger: http://messenger.msn.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From r-strand at uiuc.edu  Mon Jun 10 11:32:35 2002
+From: r-strand at uiuc.edu (Rick Strand)
+Date: Mon, 10 Jun 2002 13:32:35 -0500
+Subject: [Bldg-sim] IBPSA-USA Honolulu Meeting Announcement (2nd Notice)
+Message-ID: <MDAEMON-F200206101328.AA284487md50000158922@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020610/f2822241/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 31c72f.jpg
+Type: image/jpeg
+Size: 28112 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020610/f2822241/attachment.jpg>
+
+From marco.beccali at dream.unipa.it  Sat Jun  8 01:44:44 2002
+From: marco.beccali at dream.unipa.it (marco.beccali at dream.unipa.it)
+Date: Sat, 08 Jun 2002 10:44:44 +0200 (CEST)
+Subject: [Bldg-sim] doe2.1e capability in HP simulation
+Message-ID: <MDAEMON-F200206080336.AA364364pd80000158342@gard.com>
+
+
+Dear collegues,
+Does anyone knows if it is possible to simulate a water/water Heat Pump
+connected to a radiant floor (for heating and cooling)with DOE2.1E (#107 in 
+doeplus).
+More:
+1)The ground-loop heat exchanger for the HP is also allowable for this case?
+2)It is possible to provide a water temperature schedule (water from the sea)?
+Thanks in advance.
+Marco Beccali
+
+
+-------------------------------------------------
+This mail sent through IMP: www.dream.unipa.it
+Report bugs to Postmaster: lo_brano at dream.unipa.it
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From marco.beccali at dream.unipa.it  Fri Jun  7 11:37:24 2002
+From: marco.beccali at dream.unipa.it (marco.beccali at dream.unipa.it)
+Date: Fri, 07 Jun 2002 20:37:24 +0200 (CEST)
+Subject: [Bldg-sim] help: doe2.1e capability in HP simulation
+Message-ID: <MDAEMON-F200206080401.AA012498pd80000158346@gard.com>
+
+Dear collegues,
+Does anyone knows if it is possible to simulate a water/water Heat Pump 
+connected to a radiant floor (for heating and cooling)with DOE2.1 (doeplus). 
+More: 
+can I provide a water temperature schedule (water from the sea)?
+can I also suppose to have a ground heat exchanger for the HP?
+Thanks in advance.
+Marco Beccali
+
+-------------------------------------------------
+This mail sent through IMP: www.dream.unipa.it
+Report bugs to Postmaster: lo_brano at dream.unipa.it
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From FCWinkelmann at lbl.gov  Fri Jun  7 09:08:22 2002
+From: FCWinkelmann at lbl.gov (Frederick C. Winkelmann)
+Date: Fri, 07 Jun 2002 09:08:22 -0700
+Subject: [Bldg-sim] double facades in EnergyPlus
+References: <MDAEMON-F200206062332.AA324407md50000201683@gard.com>
+Message-ID: <MDAEMON-F200206071105.AA054950pd80000158053@gard.com>
+
+Yes, EnergyPlus will calculate beam solar radiation entering an exterior
+window in a zone and then passing through interior windows in the zone to
+adjacent zone(s). It does this by tracking where beam solar radiation
+falls inside the primary zone. It will also apportion some of the diffuse
+solar entering an exterior window to interior window(s). However,
+daylighting through interior windows is not calculated.
+
+Shefali Rajendra Modi wrote:
+
+> In energy plus, can a zone surface facing another zone surface be sun
+> exposed, if the second zone surface is part of a zone with all glass
+> surfaces? (example: double skin facade)
+>
+> thank you
+> shefali
+> --------------------------------------------------------
+> Shefali Modi
+> M.Sc. Architecture, Environmental Technology
+> Art and Architecture Building 2094
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mjwitte at gard.com  Fri Jun  7 07:51:54 2002
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Fri, 7 Jun 2002 09:51:54 -0500
+Subject: [Bldg-sim] (No Subject)
+In-Reply-To: <MDAEMON-F200206062332.AA324625md50000157858@gard.com>
+References: <MDAEMON-F200206050938.AA380596pd80000199353@gard.com>
+Message-ID: <MDAEMON-F200206070942.AA421426pd80000157983@gard.com>
+
+> In energy plus, can a zone surface facing another zone surface be sun
+> exposed, if the second zone surface is part of a zone with all glass
+> surfaces? (example: double skin facade)
+> 
+
+Yes, but only if you select Solar Distribution =  
+FullInteriorAndExterior (in the BUILDING object).  With this option 
+selected, direct sunlight is projected into the space onto the other 
+zone surfaces.  If this option is not selected, then all direct 
+sunlight entering the space is projected onto the floor surfaces.  
+Use of this option requires that the zone be a completely enclosed 
+convex volume.  EnergyPlus will also transmit sunlight from one zone 
+into another through a window placed on an interior wall.  This may 
+be the configuration you have with your double-skin facade.
+
+
+========================================================
+Michael J. Witte                        mjwitte at gard.com
+GARD Analytics, Inc.                        www.gard.com
+1028 Busse Highway                    Phone 847-698-5685
+Park Ridge, Illinois 60068-1802         FAX 847-698-5600
+USA          Energy, Environmental and Economic Research
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mjwitte at gard.com  Fri Jun  7 07:37:58 2002
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Fri, 7 Jun 2002 09:37:58 -0500
+Subject: [Bldg-sim] Simulation Used in Over 60%  High Performance Building Database
+In-Reply-To: <MDAEMON-F200206031921.AA214795md50000156560@gard.com>
+References: <MDAEMON-F200205300905.AA054309pd80000196916@gard.com>
+Message-ID: <MDAEMON-F200206070928.AA282057pd80000157965@gard.com>
+
+On 3 Jun 2002, at 20:30, Shefali Rajendra Modi wrote:
+
+> I am working on a simulation in energy plus and have a few questions.
+> 
+> The rpt weather file does not provide all weather information such as
+> barometric pressure for design days, snow reflectance, etc. Where
+> can one get this information.
+
+There are two main sources of design day data.  In the 
+EnergyPlus\DataSets folder, the file BLASTDesignDays.idf contains 
+dozens of design day definitions for primarily U.S. locations which 
+are already in EnergyPlus format.  For other locations, data is 
+available in the ASHRAE Handbook of Fundamentals, Chapter 27.
+
+> 
+> Secondly, I am studying heat performance of a double skin envelope in
+> comparision to a single glass surface. Would it be recommended to use the
+> trombe wall for the inside convection algorithm for the double skin or is
+> it better to create the airspace as a second zone?
+
+You need to do both.  The inside convection algorithm applies to the 
+interior surface of every wall (not to the inside of wall cavities).  
+So, your trombe space of the double skin space needs to be treated as 
+a separate zone.  Understand, though, that it may not be possible 
+with current features to truly represent your double-skin facade, 
+depending on how it is configured.
+
+> 
+> Thirdly, the program prevents me from creating a glass wall and a
+> window has to be part of a wall. Its surface area cannot be equal to
+> the wall surface. Has anyone tried modeling a curtain wall
+> or something similar? How have you circumvented this?
+
+Windows are the only objects which can transmit sunlight.  So, a 
+glass wall is created by placing a window wall so that the window 
+covers nearly the entire wall (it is true that there must be a small 
+nonzero area of wall left over).  For curtainwalls, however, you may 
+have opaque sections as well as window sections.  For this case, 
+specify the base wall as having glass as it's exerior layer, and then 
+size the windows to cover just the light-transmitting section of the 
+curtainwall.  Note that the opaque glass layer must be 
+MATERIAL:REGULAR, not MATERIAL:WINDOWGLASS.
+
+
+
+========================================================
+EnergyPlus Testing and Support      
+EnergyPlus-Support at gard.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mjwitte at gard.com  Fri Jun  7 07:22:49 2002
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Fri, 7 Jun 2002 09:22:49 -0500
+Subject: [Bldg-sim] Weather data conversion tools?
+In-Reply-To: <MDAEMON-F200205281432.AA323453md50000154369@gard.com>
+References: <MDAEMON-F200205281103.AA031612pd80000194882@gard.com>
+Message-ID: <MDAEMON-F200206070913.AA130918pd80000157957@gard.com>
+
+On 28 May 2002, at 15:40, Shefali Rajendra Modi wrote:
+
+> I am studying was unable to generate a report which included the specific
+> heat load inside a space. I have not specified any mechanical system and
+> am simply studying the heat load through different types of glass
+> surfaces. How do I decide the different output paramters in EP
+> terminology.
+
+The EnergyPlus *.rdd file lists all available output variables for a 
+given idf file.  Since the heat gain into a zone is going to depend 
+on the zone temperature, you need to control the zone to the desired 
+setpoint.  The simplest way to do this is in EnergyPlus is with 
+"purchased air" which is essentially an infinite source of hot or 
+cold air.  The purchased air "system" will report total heating and 
+cooling loads for the space.  For component loads, such as the heat 
+gain just through a window, see the *.rdd file for a list of 
+reportable components.
+
+Mike Witte
+
+========================================================
+EnergyPlus Testing and Support      
+EnergyPlus-Support at gard.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From smodi at umich.edu  Thu Jun  6 21:41:14 2002
+From: smodi at umich.edu (Shefali Rajendra Modi)
+Date: Fri, 7 Jun 2002 00:41:14 -0400 (EDT)
+Subject: [Bldg-sim] (No Subject)
+In-Reply-To: <MDAEMON-F200206050938.AA380596pd80000199353@gard.com>
+Message-ID: <MDAEMON-F200206062333.AA330314md50000157859@gard.com>
+
+
+In energy plus, can a zone surface facing another zone surface be sun
+exposed, if the second zone surface is part of a zone with all glass
+surfaces? (example: double skin facade)
+
+thank you
+shefali
+--------------------------------------------------------
+Shefali Modi
+M.Sc. Architecture, Environmental Technology
+Art and Architecture Building 2094
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kala_sim at yahoo.co.in  Thu Jun  6 16:17:32 2002
+From: kala_sim at yahoo.co.in (=?iso-8859-1?q?Leela=20Kala?=)
+Date: Fri, 7 Jun 2002 00:17:32 +0100 (BST)
+Subject: [Bldg-sim] Warning message in Doe2
+Message-ID: <MDAEMON-F200206061809.AA092171pd80000157789@gard.com>
+
+Hi,
+I get the following warning in PowerDoe. How to
+resolve it..
+
+
+Zone: upper_outside  could not successfully           
+allocate all equipment energy to the 5-minute bins
+             because of an equipment overload.  The
+peak load used in ECONOMICS will not include the
+fraction due  to the overload, but the PLANT reports
+will. Mon/Day/Hour:  1  2  7  Energy:  64.1 
+Unallocated: 7.240
+
+Thanks
+
+Leela
+
+
+________________________________________________________________________
+Everything you always wanted to know about cars and bikes,now
+ at: http://in.autos.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mchugh at h-m-g.com  Wed Jun  5 14:53:54 2002
+From: mchugh at h-m-g.com (Jon McHugh)
+Date: Wed, 5 Jun 2002 14:53:54 -0700
+Subject: [Bldg-sim] zip code to weather file
+Message-ID: <MDAEMON-F200206051646.AA463534md50000157401@gard.com>
+
+Jason et al;
+
+For California, there is a database of cities and the corresponding climate zone mapping.  Each climate zone has an approved weather file for performing energy code compliance calculations.  These files are in WYEC2 format (but no illuminance data).
+
+I have attached the MS Excel file that maps 600 California cities to their appropriate climate zone.  This file was exported from the "City List" table in the California Non-Residential New Construction [NRNC] Characteristics Database.  This database has a publication ID # of 3522, and can be found on the CALMAC (California DSM Measurement Advisory Committee) website - http://www.calmac.org.
+
+Jon McHugh, PE, LC
+Heschong Mahone Group
+11626 Fair Oaks Blvd #302
+Fair Oaks, CA 95628 (Sacramento)
+(916)962-7001
+(916)962-0101 FAX
+e-mail: mchugh at h-m-g.com
+URL: www.h-m-g.com
+
+
+
+-----Original Message-----
+From: Jason Glazer [mailto:jglazer at gard.com]
+Sent: Wednesday, June 05, 2002 8:05 AM
+To: Bldg-sim at gard.com
+Subject: [Bldg-sim] zip code to weather file
+
+
+Selecting the most appropriate weather file is not always 
+straight forward.  I usually look for the weather file that 
+is geographically close and still has about the same CDD 
+and HDD as the building location.  I would like to make 
+this process as easy as possible for people using some 
+software I'm developing.
+
+Does anyone have a database that would relate something 
+that most people know about their location in the US (such 
+as a zip code or state/county) to the appropriate weather 
+file to use for building simulation (such as TMY2 or WYEC)? 
+How about a location to design data?  
+
+Jason
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: CityList.xls
+Type: application/vnd.ms-excel
+Size: 69632 bytes
+Desc: CityList.xls
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020605/f3f9fa13/attachment.xls>
+
+From larry at taz.tamu.edu  Wed Jun  5 12:48:58 2002
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Wed, 5 Jun 2002 14:48:58 -0500
+Subject: [Bldg-sim] New Building Simulation Weather Data Resource Page
+In-Reply-To: <MDAEMON-F200206050937.AA375629pd80000199251@gard.com>
+Message-ID: <MDAEMON-F200206051441.AA413593md50000157287@gard.com>
+
+One more resource that you might add to your list is the GWDS (Global
+Weather Data Sources) that is the result of ASHRAE's research project
+1170-RP, completed in June 2001.  It's on the web and has a neat little
+GUI that was developed by NCDC for ASHRAE.  It is only available to
+ASHRAE members by logging onto the ASHRAE home page
+(http//:www.ashrae.org), then clicking a shortcut to Technical
+Committees, then selecting T.C.-4.2 (Weather Information), then the
+ASHRAE weather data products, and finally 1170-RP.  This will link you
+to NCDC's GWDS site, which cannot be accessed except through ASHRAE.
+
+This web site tells you what sorts of weather data are available at
+about one-hundred international sites, along with the full address and
+contact info on how to obtain the data.  The web site does not contain
+actual weather data.
+
+I thought there might be enough ASHRAE members on the BLDG-SIM list that
+could benefit from this.  Even non-members of ASHRAE could find the
+1170-RP final report to be useful.  The report lists at least 72
+contacts names and addresses, 92 international weather data web sites,
+and 15 more web sites just on solar radiation.  NCDC maintains the site
+and intends to keep the site dynamic by updating the data as such become
+available.
+
+LOD  
+===================================== 
+Larry O. Degelman, P.E.                  larry at taz.tamu.edu 
+Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+Texas A&M University
+2206 Quail Run 
+College Station, TX 77845
+Ener-Win site:   http://taz.tamu.edu/~energy/enerwin.html 
+=====================================
+ 
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Jason
+Glazer
+Sent: Wednesday, June 05, 2002 9:46 AM
+To: Bldg-sim at gard.com
+Subject: [Bldg-sim] New Building Simulation Weather Data Resource Page
+
+The BLDG-SIM mailing list has always been a good forum for 
+questions about how to find weather data for use with 
+building energy simulation programs.  I pulled together 
+some of sources that I know about and found URLs.  Please 
+see:
+
+  http://www.gard.com/weather/
+
+It is not a very exhaustive list, I know it could be much 
+more comprehensive.  I'm hoping for your help to add to it. 
+If you have additional resources, please e-mail them to me 
+with a short description and an URL and I'll add them to 
+the page.  
+
+In the past we have gotten questions about Russia, Italy, 
+England, Poland, Germany, Israel, Portugal, Morocco, China, 
+Argentina, Spain, Lebanon, Netherlands, Canada, United 
+States and probably a few that I missed.  If you asked and 
+got an answer about these locations or are the one that 
+answered a message about them, please forward the e-mail 
+with the source to me.
+
+Thanks
+
+Jason=======================================================
+==
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020605/f7dc4aab/attachment.htm>
+
+From jglazer at gard.com  Wed Jun  5 08:04:57 2002
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 5 Jun 2002 10:04:57 -0500
+Subject: [Bldg-sim] zip code to weather file
+Message-ID: <MDAEMON-F200206050956.AA564764pd80000157172@gard.com>
+
+Selecting the most appropriate weather file is not always 
+straight forward.  I usually look for the weather file that 
+is geographically close and still has about the same CDD 
+and HDD as the building location.  I would like to make 
+this process as easy as possible for people using some 
+software I'm developing.
+
+Does anyone have a database that would relate something 
+that most people know about their location in the US (such 
+as a zip code or state/county) to the appropriate weather 
+file to use for building simulation (such as TMY2 or WYEC)? 
+How about a location to design data?  
+
+Jason
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Wed Jun  5 07:46:00 2002
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 5 Jun 2002 09:46:00 -0500
+Subject: [Bldg-sim] New Building Simulation Weather Data Resource Page
+Message-ID: <MDAEMON-F200206050937.AA375315pd80000157156@gard.com>
+
+The BLDG-SIM mailing list has always been a good forum for 
+questions about how to find weather data for use with 
+building energy simulation programs.  I pulled together 
+some of sources that I know about and found URLs.  Please 
+see:
+
+  http://www.gard.com/weather/
+
+It is not a very exhaustive list, I know it could be much 
+more comprehensive.  I'm hoping for your help to add to it. 
+If you have additional resources, please e-mail them to me 
+with a short description and an URL and I'll add them to 
+the page.  
+
+In the past we have gotten questions about Russia, Italy, 
+England, Poland, Germany, Israel, Portugal, Morocco, China, 
+Argentina, Spain, Lebanon, Netherlands, Canada, United 
+States and probably a few that I missed.  If you asked and 
+got an answer about these locations or are the one that 
+answered a message about them, please forward the e-mail 
+with the source to me.
+
+Thanks
+
+Jason=======================================================
+==
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From smodi at umich.edu  Mon Jun  3 17:30:12 2002
+From: smodi at umich.edu (Shefali Rajendra Modi)
+Date: Mon, 3 Jun 2002 20:30:12 -0400 (EDT)
+Subject: [Bldg-sim] Simulation Used in Over 60%  High Performance Building
+ Database
+In-Reply-To: <MDAEMON-F200205300905.AA054309pd80000196916@gard.com>
+Message-ID: <MDAEMON-F200206031922.AA220625md50000156561@gard.com>
+
+I am working on a simulation in energy plus and have a few questions.
+
+The rpt weather file does not provide all weather information such as
+barometric pressure for design days, snow reflectance, etc. Where
+can one get this information.
+
+Secondly, I am studying heat performance of a double skin envelope in
+comparision to a single glass surface. Would it be recommended to use the
+trombe wall for the inside convection algorithm for the double skin or is
+it better to create the airspace as a second zone?
+
+Thirdly, the program prevents me from creating a glass wall and a
+window has to be part of a wall. Its surface area cannot be equal to
+the wall surface. Has anyone tried modeling a curtain wall
+or something similar? How have you circumvented this?
+
+Thank you
+Shefali Modi
+
+ --------------------------------------------------------
+Shefali Modi
+M.Sc. Architecture, Environmental Technology
+Art and Architecture Building 2094
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

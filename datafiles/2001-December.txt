@@ -1,0 +1,1027 @@
+From cvrhasd at techunix.technion.ac.il  Sat Dec  1 03:22:20 2001
+From: cvrhasd at techunix.technion.ac.il (Samuel Hassid)
+Date: Sat, 1 Dec 2001 13:22:20 +0200 (IST)
+Subject: [BLDG-SIM] Energy Simulation of Parliaments or State Legislature Buildings
+Message-ID: <MDAEMON-F200112010517.AA170560pd80000096286@gard.com>
+
+  Anybody aware of the energy simulation of a parliament or a State
+Legislature building - preferable that can be found on the web ?
+                                          Thanks
+                                          S.Hassid
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cvrhasd at techunix.technion.ac.il  Mon Dec  3 06:40:17 2001
+From: cvrhasd at techunix.technion.ac.il (Samuel Hassid)
+Date: Mon, 3 Dec 2001 16:40:17 +0200 (IST)
+Subject: [BLDG-SIM] Heating Sizing Calculations
+Message-ID: <MDAEMON-F200112030835.AA350506pd80000097493@gard.com>
+
+  The following problem occurs many times with the climate of the
+Mediterranean:
+  Building energy simulation codes are used both for sizing equipment and
+for energy simulation. In the heating part, given the very large internal
+loads of some modern buildings, this results in undersizing the heating
+equipment - the heating equipment should be able to heat even if some of
+the internal loads are not present.
+  I was wondering if any of the codes take this into account explicitely
+(ie not through using SIZING_ADJUST factors).
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From D.Spillane at ldn.cjp.co.uk  Tue Dec  4 04:53:57 2001
+From: D.Spillane at ldn.cjp.co.uk (Spillane, Damien)
+Date: Tue, 4 Dec 2001 12:53:57 -0000
+Subject: [BLDG-SIM] Weather File Converter?
+Message-ID: <MDAEMON-F200112040649.AA493193pd80000097812@gard.com>
+
+Good day all.
+We have been trying to manipulate some weather files but are running into
+formatting troubles. Specifically, I am trying to convert a TRY file to the
+.WEA format.
+Is anyone aware of a universal weather converter for, or even a
+viewer/editor with which I could manipulate a .WEA file.
+Failing that, does anyone have a TRY file for Kew, London in a .WEA format.
+Your help would be greatly appreciated.
+
+Many Thanks
+Damien
+
+Damien Spillane
+Cundall Johnston & Partners LLP
+13-17 Long Lane,
+London 
+EC1A 9RH
+T: 020 7776 5000
+D: 020 7776 5093
+F: 020 7776 5001 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cvrhasd at techunix.technion.ac.il  Tue Dec  4 07:21:22 2001
+From: cvrhasd at techunix.technion.ac.il (Samuel Hassid)
+Date: Tue, 4 Dec 2001 17:21:22 +0200 (IST)
+Subject: [BLDG-SIM] (No Subject)
+Message-ID: <MDAEMON-F200112040916.AA161056pd80000097870@gard.com>
+
+  what is the accepted value for internal loads in a high tech building ?
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From brian.fountain at energyadvantage.com  Tue Dec  4 13:15:01 2001
+From: brian.fountain at energyadvantage.com (Brian Fountain)
+Date: Tue, 4 Dec 2001 16:15:01 -0500
+Subject: [BLDG-SIM] Supermarket refrigeration modelling questions
+Message-ID: <MDAEMON-F200112041509.AA094692pd80000098014@gard.com>
+
+I am working on a simulation of a supermarket using DOE2.1e and using the
+refrigeration model.  I have two questions regarding the effect of humidity
+on the refrigeration system.  Firstly, when the fans are off, humidity is
+not reported in the SS-N as it uses return air humidity.  What does the
+refrigeration model use for space humidity during the periods when the fan
+is off?
+
+More fundamentally, how is humidity data reflected in the refrigeration
+energy simulation?  Does the defrost energy reduce with reduced humidity?
+How is the compressor energy reduced with reduced space humidity?
+
+Many thanks!
+
+Brian Fountain, P.Eng
+Energy Engineer
+
+Energy Advantage Inc.
+690 Dorval Dr., Suite 400
+Oakville, ON L6K 3W7
+phone:  (905) 337-2205 ext. 250
+fax:      (905) 337-2209
+
+brian.fountain at energyadvantage.com
+<mailto:brian.fountain at energyadvantage.com>
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20011204/6a7f30f7/attachment.htm>
+
+From hvac at cx-assoc.com  Wed Dec  5 02:47:15 2001
+From: hvac at cx-assoc.com (Tom Anderson)
+Date: Wed, 05 Dec 2001 05:47:15 -0500
+Subject: [BLDG-SIM] Internal Loads for Office Buildings
+References: <MDAEMON-F200112040916.AA160918pd80000134542@gard.com>
+Message-ID: <MDAEMON-F200112050441.AA415878pd80000098217@gard.com>
+
+If by high tech buildings you are referring to a modern office buildings,
+then loads from desktop PC's, monitors, printers, copiers, etc. typically
+will be about .5 watts per square foot, but may range from .5 to 1.0 watts
+per foot.  Note the actual power use by such equipment is well below the
+nameplate power data.
+
+Refer to published ASHRAE papers, starting in 1994, authored by Chris
+Wilkins, who reported on extensive monitoring of such loads in real world
+office buildings.
+
+Lighting loads, refer to 90.1-1999 for maximum power densities permissible
+for office occupancies.  But lighting designers who apply efficient fixtures
+for interior lighting design can easily achieve excellent illumination levels
+using well below 1.0 watts per foot.
+
+     Thomas E. Anderson
+     President
+     Cx Associates, Ltd.
+     Building Commissioning Specialists
+     http://www.cx-assoc.com
+     933 Road 101
+     Jeffersonville, Vermont 05464 USA
+     hvac at cx-assoc.com
+     Tel: 802-644-5616 Fax: 802-644-6797
+
+Samuel Hassid wrote:
+
+>   what is the accepted value for internal loads in a high tech building ?
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20011205/c9a34781/attachment.htm>
+
+From brian.fountain at energyadvantage.com  Wed Dec  5 04:57:25 2001
+From: brian.fountain at energyadvantage.com (Brian Fountain)
+Date: Wed, 5 Dec 2001 07:57:25 -0500
+Subject: [BLDG-SIM] Internal Loads for Office Buildings
+In-Reply-To: <MDAEMON-F200112050441.AA414995pd80000135256@gard.com>
+Message-ID: <MDAEMON-F200112050652.AA520628pd80000098249@gard.com>
+
+I recall a study by the British Columbia Energy Management Task Force that
+monitored the current draw on outlet circuits in a couple of buildings in
+the mid-1990's.  As suggested below, it found plug loads to be in the order
+of 0.75 to 0.85W/ft? during the day.  The interesting part was the
+unoccupied plug loads of around 0.35W/ft?.
+
+
+  -----Original Message-----
+  From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Tom Anderson
+  Sent: Wednesday, December 05, 2001 5:47 AM
+  To: BLDG-SIM at gard.com
+  Cc: BLDG-SIM at gard.com
+  Subject: [BLDG-SIM] Internal Loads for Office Buildings
+
+
+  If by high tech buildings you are referring to a modern office buildings,
+then loads from desktop PC's, monitors, printers, copiers, etc. typically
+will be about .5 watts per square foot, but may range from .5 to 1.0 watts
+per foot.  Note the actual power use by such equipment is well below the
+nameplate power data.
+  Refer to published ASHRAE papers, starting in 1994, authored by Chris
+Wilkins, who reported on extensive monitoring of such loads in real world
+office buildings.
+
+  Lighting loads, refer to 90.1-1999 for maximum power densities permissible
+for office occupancies.  But lighting designers who apply efficient fixtures
+for interior lighting design can easily achieve excellent illumination
+levels using well below 1.0 watts per foot.
+
+    Thomas E. Anderson
+    President
+    Cx Associates, Ltd.
+    Building Commissioning Specialists
+    http://www.cx-assoc.com
+    933 Road 101
+    Jeffersonville, Vermont 05464 USA
+    hvac at cx-assoc.com
+    Tel: 802-644-5616 Fax: 802-644-6797
+  Samuel Hassid wrote:
+
+      what is the accepted value for internal loads in a high tech building
+?
+    ======================================================
+    You received this e-mail because you are subscribed
+    to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+    from this mailing list send a blank message to
+    BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20011205/fcc4b909/attachment.htm>
+
+From jglazer at gard.com  Wed Dec  5 07:14:57 2001
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 5 Dec 2001 09:14:57 -0600
+Subject: [BLDG-SIM] Internal Loads for Office Buildings
+In-Reply-To: <MDAEMON-F200112050652.AA520628pd80000098249@gard.com>
+References: <MDAEMON-F200112050441.AA414995pd80000135256@gard.com>
+Message-ID: <MDAEMON-F200112050909.AA093393pd80000098299@gard.com>
+
+You might want to check out some of the publications LBNL 
+has been doing in the area of office equipment at:
+
+ http://enduse.lbl.gov/
+
+The most recent report shows that less than half of the 
+computers were turned off at night.
+
+Jason
+
+On 5 Dec 2001, at 7:57, Brian Fountain wrote:
+
+> I recall a study by the British Columbia Energy Management
+> Task Force that monitored the current draw on outlet
+> circuits in a couple of buildings in the mid-1990's.  As
+> suggested below, it found plug loads to be in the order of
+> 0.75 to 0.85W/ft? during the day.  The interesting part was
+> the unoccupied plug loads of around 0.35W/ft?.
+> 
+> 
+>   -----Original Message-----
+>   From: postman at gard.com [mailto:postman at gard.com]On Behalf
+>   Of Tom Anderson Sent: Wednesday, December 05, 2001 5:47 AM
+>   To: BLDG-SIM at gard.com Cc: BLDG-SIM at gard.com Subject:
+>   [BLDG-SIM] Internal Loads for Office Buildings
+> 
+> 
+>   If by high tech buildings you are referring to a modern
+>   office buildings,
+> then loads from desktop PC's, monitors, printers, copiers,
+> etc. typically will be about .5 watts per square foot, but
+> may range from .5 to 1.0 watts per foot.  Note the actual
+> power use by such equipment is well below the nameplate
+> power data.
+>   Refer to published ASHRAE papers, starting in 1994,
+>   authored by Chris
+> Wilkins, who reported on extensive monitoring of such loads
+> in real world office buildings.
+> 
+>   Lighting loads, refer to 90.1-1999 for maximum power
+>   densities permissible
+> for office occupancies.  But lighting designers who apply
+> efficient fixtures for interior lighting design can easily
+> achieve excellent illumination levels using well below 1.0
+> watts per foot.
+> 
+>     Thomas E. Anderson
+>     President
+>     Cx Associates, Ltd.
+>     Building Commissioning Specialists
+>     http://www.cx-assoc.com
+>     933 Road 101
+>     Jeffersonville, Vermont 05464 USA
+>     hvac at cx-assoc.com
+>     Tel: 802-644-5616 Fax: 802-644-6797
+>   Samuel Hassid wrote:
+> 
+>       what is the accepted value for internal loads in a
+>       high tech building
+> ?
+>     ======================================================
+>     You received this e-mail because you are subscribed to
+>     the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+>     this mailing list send a blank message to
+>     BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+> this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Wed Dec  5 07:14:57 2001
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 5 Dec 2001 09:14:57 -0600
+Subject: [BLDG-SIM] Internal Loads for Office Buildings
+In-Reply-To: <MDAEMON-F200112050652.AA520628pd80000098249@gard.com>
+References: <MDAEMON-F200112050441.AA414995pd80000135256@gard.com>
+Message-ID: <MDAEMON-F200112050909.AA094717pd80000136388@gard.com>
+
+You might want to check out some of the publications LBNL 
+has been doing in the area of office equipment at:
+
+ http://enduse.lbl.gov/
+
+The most recent report shows that less than half of the 
+computers were turned off at night.
+
+Jason
+
+On 5 Dec 2001, at 7:57, Brian Fountain wrote:
+
+> I recall a study by the British Columbia Energy Management
+> Task Force that monitored the current draw on outlet
+> circuits in a couple of buildings in the mid-1990's.  As
+> suggested below, it found plug loads to be in the order of
+> 0.75 to 0.85W/ft? during the day.  The interesting part was
+> the unoccupied plug loads of around 0.35W/ft?.
+> 
+> 
+>   -----Original Message-----
+>   From: postman at gard.com [mailto:postman at gard.com]On Behalf
+>   Of Tom Anderson Sent: Wednesday, December 05, 2001 5:47 AM
+>   To: BLDG-SIM at gard.com Cc: BLDG-SIM at gard.com Subject:
+>   [BLDG-SIM] Internal Loads for Office Buildings
+> 
+> 
+>   If by high tech buildings you are referring to a modern
+>   office buildings,
+> then loads from desktop PC's, monitors, printers, copiers,
+> etc. typically will be about .5 watts per square foot, but
+> may range from .5 to 1.0 watts per foot.  Note the actual
+> power use by such equipment is well below the nameplate
+> power data.
+>   Refer to published ASHRAE papers, starting in 1994,
+>   authored by Chris
+> Wilkins, who reported on extensive monitoring of such loads
+> in real world office buildings.
+> 
+>   Lighting loads, refer to 90.1-1999 for maximum power
+>   densities permissible
+> for office occupancies.  But lighting designers who apply
+> efficient fixtures for interior lighting design can easily
+> achieve excellent illumination levels using well below 1.0
+> watts per foot.
+> 
+>     Thomas E. Anderson
+>     President
+>     Cx Associates, Ltd.
+>     Building Commissioning Specialists
+>     http://www.cx-assoc.com
+>     933 Road 101
+>     Jeffersonville, Vermont 05464 USA
+>     hvac at cx-assoc.com
+>     Tel: 802-644-5616 Fax: 802-644-6797
+>   Samuel Hassid wrote:
+> 
+>       what is the accepted value for internal loads in a
+>       high tech building
+> ?
+>     ======================================================
+>     You received this e-mail because you are subscribed to
+>     the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+>     this mailing list send a blank message to
+>     BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+> this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From igt at integral-design-engineering.ca  Wed Dec  5 09:26:06 2001
+From: igt at integral-design-engineering.ca (I.G. Theaker)
+Date: Wed, 5 Dec 2001 09:26:06 -0800
+Subject: [BLDG-SIM] Internal Loads for Office Buildings
+References: <MDAEMON-F200112050441.AA414995pd80000135256@gard.com> <MDAEMON-F200112050909.AA093303pd80000136263@gard.com>
+Message-ID: <MDAEMON-F200112051120.AA205934pd80000098354@gard.com>
+
+Hello, fellow Bldg-Sim listers,
+
+In the early 90s, I took two looks at office plug loads for the British
+Columbia Buildings Corporation:
+o "Measurement of Heat Output of Typical Office Equipment" (1991)
+o "Office Equipment Energy Use in the Richard Blanshard Building, 1992 &
+1994" (1995)
+(These might be the studies Brian Fountain referred to.  While I was here in
+BC, and loosely connected with the BC EMTF, I don't recall any EMTF reports
+on the subject.)
+
+The first study measured electricity draw of typical computer equipment, a
+facsimile and a medium-sized photocopier, using a BMI Mod. 3060 Power
+Profiler, which could capture the effects of switching power supplies.  The
+computers covered the SOFTA for the time (8086s, 286s, 386s and 486s -
+remember them?) but the measurements may shed some light on todays' Pentiums
+and Athlons; I believe the chip consumption was only a small part of the
+total.  I suspect a bigger issue today is probably penetration of LCD
+screens, rather than CRTs.
+
+For a workplace of 10 people, at 150 sq.ft. / workstation, with a (typical
+for the time) mix of 1 computer per station, 2 printers, a fax & a
+photocopier, I estimated typical office plug loads at 0.65 W/sq.ft.
+
+
+The second study used data gathered over several weeks from 3 floors of
+BCBCs 244,000 sq.ft. Richard Blanshard Building, a government office in
+Victoria where the receptacle circuits were broken out from lighting.  The
+devices used were ACM Mod 3710s, which again could capture voltage & current
+waveform distortions due to switching power supplies.  The measured floors
+had ~425 occupants on 68,387 sq.ft., with 256 PCs and 406 computer monitors
+(the difference made up by terminals connected to a mini-comp); with a
+typical mix of printers, photocopiers, etc.
+
+For all three measured floors:
+- peak simultaneous plug load demand was 0.883 W/sq.ft.
+- during occupied hours, the mean plug load demand was 0.792 W/sq.ft.
+- unoccupied hours mean plug load demand was 0.360 W/sq.ft.
+
+(Isn't it a pity that what we've gained in lighting has largely been lost to
+plug loads?)
+
+These studies indicated that using office equipment nameplate ratings would
+overestimate actual electricity demand and heat output by 480 & 590%,
+respectively.
+
+
+However, if you use these measurements, please note that
+- the computers measured are not P3s & 4s or Athlons, nor equipped with CDs
+or CD-Rs/RWs
+- in some "high-tech" installations such as server farms, stockbrokers,
+graphics etc., computer density are often much higher than 1 / worker
+- LCDs draw much less than the CRTs measured
+- If Energy Star equipment features are enabled, unoccupied demands might be
+much lower.
+
+Personally, for simulation of typical offices, I still use 0.8 - 0.9
+W/sq.ft., and enquire about LCD screen penetration, & numbers of computers /
+worker.  For "high-tech" installations like server farms, I'd recommend
+measuring the typical equipment to be installed, with 'meters' capable of
+capturing switching power supplies' voltage & current waveform distortions -
+*not* a standard RMS meter.
+
+If anyone on the list knows of electricity demand & consumption measurements
+of current computers and LCD screens, I suspect we'd all appreciate hearing
+about them.
+
+
+Hope this helps,
+Ian Theaker, P.Eng.
+
+- - -- --- ----- -------- ------------- --------------------- --------------
+--------------------
+Integral Design / Engineering           Helping create beautiful,
+Ste. 303 - 2050 Scotia Street           comfortable, ecologically-
+Vancouver, BC V5T 4T1 Canada     responsive buildings.
+- - -- --- ----- -------- ------------- --------------------- --------------
+--------------------
+----- Original Message -----
+From: "Jason Glazer" <jglazer at gard.com>
+To: <BLDG-SIM at gard.com>
+Sent: Wednesday, December 05, 2001 7:14 AM
+Subject: [BLDG-SIM] Internal Loads for Office Buildings
+
+
+You might want to check out some of the publications LBNL
+has been doing in the area of office equipment at:
+
+ http://enduse.lbl.gov/
+
+The most recent report shows that less than half of the
+computers were turned off at night.
+
+Jason
+
+On 5 Dec 2001, at 7:57, Brian Fountain wrote:
+
+> I recall a study by the British Columbia Energy Management
+> Task Force that monitored the current draw on outlet
+> circuits in a couple of buildings in the mid-1990's.  As
+> suggested below, it found plug loads to be in the order of
+> 0.75 to 0.85W/ft? during the day.  The interesting part was
+> the unoccupied plug loads of around 0.35W/ft?.
+>
+>
+>   -----Original Message-----
+>   From: postman at gard.com [mailto:postman at gard.com]On Behalf
+>   Of Tom Anderson Sent: Wednesday, December 05, 2001 5:47 AM
+>   To: BLDG-SIM at gard.com Cc: BLDG-SIM at gard.com Subject:
+>   [BLDG-SIM] Internal Loads for Office Buildings
+>
+>
+>   If by high tech buildings you are referring to a modern
+>   office buildings,
+> then loads from desktop PC's, monitors, printers, copiers,
+> etc. typically will be about .5 watts per square foot, but
+> may range from .5 to 1.0 watts per foot.  Note the actual
+> power use by such equipment is well below the nameplate
+> power data.
+>   Refer to published ASHRAE papers, starting in 1994,
+>   authored by Chris
+> Wilkins, who reported on extensive monitoring of such loads
+> in real world office buildings.
+>
+>   Lighting loads, refer to 90.1-1999 for maximum power
+>   densities permissible
+> for office occupancies.  But lighting designers who apply
+> efficient fixtures for interior lighting design can easily
+> achieve excellent illumination levels using well below 1.0
+> watts per foot.
+>
+>     Thomas E. Anderson
+>     President
+>     Cx Associates, Ltd.
+>     Building Commissioning Specialists
+>     http://www.cx-assoc.com
+>     933 Road 101
+>     Jeffersonville, Vermont 05464 USA
+>     hvac at cx-assoc.com
+>     Tel: 802-644-5616 Fax: 802-644-6797
+>   Samuel Hassid wrote:
+>
+>       what is the accepted value for internal loads in a
+>       high tech building
+> ?
+>     ======================================================
+>     You received this e-mail because you are subscribed to
+>     the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+>     this mailing list send a blank message to
+>     BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From fporter at archenergy.com  Wed Dec  5 11:42:41 2001
+From: fporter at archenergy.com (Fred Porter)
+Date: Wed, 05 Dec 2001 12:42:41 -0700
+Subject: [BLDG-SIM] Internal Loads for Office Buildings
+References: <MDAEMON-F200112050441.AA414995pd80000135256@gard.com> <MDAEMON-F200112050909.AA092948pd80000136227@gard.com>
+Message-ID: <MDAEMON-F200112051336.AA365156pd80000098398@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20011205/10a5708f/attachment.htm>
+
+From jzhang at selectenergysi.com  Tue Dec 11 08:46:32 2001
+From: jzhang at selectenergysi.com (Jinsong Zhang)
+Date: Tue, 11 Dec 2001 11:46:32 -0500
+Subject: [BLDG-SIM] Specific year's weather data in TMY2 format?
+Message-ID: <MDAEMON-F200112111042.AA421712pd80000099904@gard.com>
+
+Hi,
+
+Does anyone know how to get specific year's weather data in TMY2 format and then convert the TMY2 format text file into binary file for DOE2 simulation? Many thanks,
+
+
+Song
+
+****************************************************************
+Jinsong (Song) Zhang, Project Engineer
+Select Energy Services, Inc., (Formerly HEC) 
+24 Prime Parkway, Natick, MA 01760
+Tel: 508-653-0456 x 1284  Fax: 508-653-0266
+Toll Free: 800-325-4432 x 1284
+E-mail: jzhang at selectenergysi.com
+****************************************************************
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From D.Spillane at ldn.cjp.co.uk  Tue Dec 11 09:00:41 2001
+From: D.Spillane at ldn.cjp.co.uk (Spillane, Damien)
+Date: Tue, 11 Dec 2001 17:00:41 -0000
+Subject: [BLDG-SIM] Fans, Pumps energy consumption
+Message-ID: <MDAEMON-F200112111056.AA561017pd80000099920@gard.com>
+
+Hello all,
+I am trying to relate fan, pumps and controls energy consumption to an
+space/air load for different systems, i.e. fan coils or VAV versus chilled
+beams.
+Or can the pump load be related to some other factor, i.e. a circuit load
+Many thanks
+Damien
+
+
+Damien Spillane
+Cundall Johnston & Partners
+13-17 Long Lane,
+London 
+EC1A 9RH
+T: 020 7776 5000
+D: 020 7776 5093
+F: 020 7776 5001 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From D.Spillane at ldn.cjp.co.uk  Tue Dec 11 09:10:34 2001
+From: D.Spillane at ldn.cjp.co.uk (Spillane, Damien)
+Date: Tue, 11 Dec 2001 17:10:34 -0000
+Subject: [BLDG-SIM] Fans, Pumps energy consumption
+Message-ID: <MDAEMON-F200112111105.AA055054pd80000099929@gard.com>
+
+
+Apologies,
+Has anyone looked at these issues, or had any experience calculating these
+figures?
+There has been very little done on this topic in the UK.
+
+> Hello all,
+> I am trying to relate fan, pumps and controls energy consumption to an
+> space/air load for different systems, i.e. fan coils or VAV versus chilled
+> beams.
+> Or can the pump load be related to some other factor, i.e. a circuit load
+> Many thanks
+> Damien
+> 
+> 
+> Damien Spillane
+> Cundall Johnston & Partners
+> 13-17 Long Lane,
+> London 
+> EC1A 9RH
+> T: 020 7776 5000
+> D: 020 7776 5093
+> F: 020 7776 5001 
+> 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From tirumayammari at yahoo.com  Wed Dec 12 07:00:16 2001
+From: tirumayammari at yahoo.com (Mariappan Kalyanaraman)
+Date: Wed, 12 Dec 2001 07:00:16 -0800 (PST)
+Subject: [BLDG-SIM] Research-Guidance
+Message-ID: <MDAEMON-F200112120854.AA545062pd80000100267@gard.com>
+
+Hello 
+Is there any body to advise me which area is more
+suitable for my research in Enegy engg.I wish to work
+on Thermal Related, Energy Engg.I am a post Grad in
+Energy Engg.Wish to pursue for P.hd.
+With thanks.
+Mariappan.
+India.
+
+__________________________________________________
+Do You Yahoo!?
+Check out Yahoo! Shopping and Yahoo! Auctions for all of
+your unique holiday gifts! Buy at http://shopping.yahoo.com
+or bid at http://auctions.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ers-tl at execpc.com  Wed Dec 12 10:58:38 2001
+From: ers-tl at execpc.com (Tim Lawler)
+Date: Wed, 12 Dec 2001 12:58:38 -0600
+Subject: [BLDG-SIM] Energy Analysis/Sustainable Design Leader Position
+Message-ID: <MDAEMON-F200112121250.AA502354pd80000100391@gard.com>
+
+The following position is available.  Anyone who may be interested in being
+considered or in learning more, please refer to the contact information in
+this message to call or email.
+
+Energy Analysis/Sustainable Design Leader:
+
+* Engineering design firm looking for a key person to lead work in energy
+analysis and sustainable design - firm specializes in mechanical and
+electrical building engineering
+* This person will act as the energy and sustainable building specialist
+within the firm and will have an impact on commercial, industrial, and
+institutional building design projects, many of which are large, high
+profile, technically complex projects
+* Looking for a self directed person to work on sustainable design studies
+and implementation on projects, performing energy optimization studies,
+cogeneration analysis, alternative fuel source studies, and evaluating new
+technologies.
+* Position will be involved with existing projects/clients and as the
+business development team's energy/sustainability lead person in securing
+new projects
+* Education qualifications, at minimum, include a degree in Mechanical
+Engineering, Chemical Engineering, Applied Math, Physics or other
+combination of technical degree(s) and relevant work experience
+* Experience range would start at minimum 5 + years, most importantly
+though, is the technical experience combined with the skills and interest in
+working with people/clients
+* Requires someone who will thrive in a team centered environment, and we
+are looking for a person who can take a leadership role on projects and use
+their own creativity and initiative to advance energy and sustainability
+ideas
+* Position will be located in one of several offices in the US (i.e Northern
+CA, FL, etc.)
+* Salary range is very competitive and the firm offers excellent benefits as
+well as significant opportunity for further career growth
+* Please respond to Tim Lawler at 877-425-6351, ers-tl at execpc.com with any
+questions or for consideration
+* All discussions will be handled confidentially.  ERS is an executive and
+professional search firm servicing companies in the engineering and
+construction industry.
+
+Also, please feel free to forward this message on to anyone you feel is
+qualified and may benefit from hearing about this opportunity.
+
+Sincerely,
+
+Timothy Lawler
+ERS, LLC
+t: 877-425-6351
+e: ers-tl at execpc.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mjwitte at gard.com  Mon Dec 17 07:37:05 2001
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Mon, 17 Dec 2001 09:37:05 -0600
+Subject: [BLDG-SIM] EnergyPlus Training,  January 7-9, 2002
+Message-ID: <MDAEMON-F200112170930.AA300510pd80000101717@gard.com>
+
+*** EnergyPlus Training Teleconference ***
+
+January 7-9, 2002, 10am to 1pm , Chicago time (1600-1900 GMT) 
+
+Join us for the first EnergyPlus training event.  EnergyPlus includes 
+many innovative simulation capabilities including time steps of less 
+than one hour and modular system simulation modules that are 
+integrated with a heat balance-based zone simulation.  With the many 
+new features available in EnergyPlus, even those who have used other 
+energy simulation software will benefit from these training sessions. 
+ 
+This informal introduction to EnergyPlus will provide an overview of  
+EnergyPlus input requirements and help you to use EnergyPlus more 
+effectively.  The format will be a teleconference supported with 
+presentation files, the EnergyPlus documentation files, and example 
+input files.  Participants will receive the files via e-mail prior to 
+the teleconference and will view the files on their own computers as 
+guided by the instructor.  Time for questions and answers will be 
+provided for each topic.  
+
+Early registration fees are $300 for all three days or $110 per three-
+hour session, through December 30.
+
+For more details, go to http://www.gard.com/eptrain.htm
+
+
+========================================================
+Michael J. Witte                        mjwitte at gard.com
+GARD Analytics, Inc.                        www.gard.com
+1028 Busse Highway                    Phone 847-698-5685
+Park Ridge, Illinois 60068-1802         FAX 847-698-5600
+USA          Energy, Environmental and Economic Research
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From r-strand at uiuc.edu  Wed Dec 19 09:55:58 2001
+From: r-strand at uiuc.edu (Rick Strand)
+Date: Wed, 19 Dec 2001 11:55:58 -0600
+Subject: [BLDG-SIM] IBPSA-USA Atlantic City Meeting Announcement (Second Notice)
+Message-ID: <MDAEMON-F200112191224.AA241289pd80000102602@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20011219/f432821c/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 6e9c07.jpg
+Type: image/jpeg
+Size: 28733 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20011219/f432821c/attachment.jpg>
+
+From bulusu at sankhya.com  Thu Dec 20 22:25:33 2001
+From: bulusu at sankhya.com (Gopi Kumar Bulusu)
+Date: Fri, 21 Dec 2001 11:55:33 +0530 (IST)
+Subject: [BLDG-SIM] Announcing SANKHYA Varadhi 1.1 - Beta4 Release
+Message-ID: <MDAEMON-F200112210019.AA194979pd80000103173@gard.com>
+
+
+1) Announcing Availability of SANKHYA Varadhi - Version 1.1, Beta-4 Release.
+
+(Attached: SANKHYA Varadhi - Version 1.1, Beta-4 Release Announcement)
+
+2) Using Varadhi for Building Energy Simulation, Automation and Analysis:
+
+SANKHYA Varadhi (http://www.sankhya.com/info/varadhi.html) is an Object
+Middleware Platform that can be used for creating a distributed system 
+that Simulates and/or Manages intelligent buildings without the need for 
+centralized control.
+
+ a) A building automation usage scenario is provided at the following location:
+
+        http://www.sankhya.com/info/products/varadhi/usage.html
+
+ b) Here is an example that demonstrates the use of CORBA in Building 
+    Energy Simulation:
+
+Using Varadhi, different entitites that are part of a Building, which 
+have to be simulated/analyzed can be treated as objects. For example,
+it should be possible to declare a CORBA IDL interface as shown below 
+(An example only - a real interface (or set of interfaces) are better 
+designed and standardized by a group of domain experts).
+
+ interface window {
+
+  attribute long external_temparature;
+  attribute long internal_temparature;
+
+  // Low Tech: Adjust Ventilator; Hi-Tech: Don't know :-)
+  void set_conductivity(in long c);
+
+  attribute long internal_luminance;
+  attribute long external_luminance;
+
+  // Low Tech: operate blinds. Hi-Tech: Use a polaraid film
+  void set_translucence(in long t);
+
+  ....
+
+ }
+
+Consider an 'Intelligent Window' that can be configured for optimal 
+energy control. Now, a simulation system can use a 'Simulated' Window 
+Object that implements the above interface. A 'real' system would use 
+an actual intelligent window. Either case, the other objects in the 
+system need not know if something is being 'simulated' or if it is real !
+
+Basically, this will allow simulation of parts of a system working together 
+with other 'real' parts of the system. As well as provide for a standard 
+framework for fitting together 'simulation components' that can be designed 
+and implemented by different groups and companies ! These can run on different 
+computers, be implemented in different languages and SANKHYA Varadhi 
+(possibly along with other ORBs) will take care of such language and 
+location details in a standards compliant manner.
+
+For more information contact a Sankhya Technologies Marketing Representative:
+
+    WWW       : http://www.sankhya.com/info/varadhi.html
+    E-mail    : varadhi-support at sankhya.com
+    Telephone : +91 44 822 7358
+    Fax       : +91 44 822 7357
+
+Best Regards,
+gopi
+
+---
+
+Gopi Kumar Bulusu
+Sankhya Technologies Private Limited
+http://www.sankhya.com
+Tel: +91 44 822 7358
+Fax: +91 44 822 7357
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+
+Announcing Availability of SANKHYA Varadhi - Version 1.1, Beta-4 Release.
+
+Chennai, India; November 21, 2001
+
+Sankhya Technologies today announced the availability of a free evaluation 
+version (Beta4) of its Object Middleware Product -- SANKHYA Varadhi.
+
+SANKHYA Varadhi is an Object Request Broker compliant with OMG's 
+CORBA 2.2 (Minimum CORBA). Varadhi provides embedded system developers
+a standards-based framework for building and deploying distributed systems.
+
+SANKHYA Varadhi Beta-4 is available for download for evaluation purposes.
+A 30-Day free evaluation license including free support during the evaluation
+period is available. Visit the following links for additional details:
+
+	http://www.sankhya.com/info/products/varadhi/docs.html
+	http://www.sankhya.com/info/varadhi.html
+
+This release of SANKHYA Varadhi improves on the earlier releases by adding
+the following features:
+
+   -> Cross Platform Development Support for PowerPC, MIPS and x86
+      targets.
+
+   -> Enhanced Transport Layer Abstraction including connection caching and
+      support for porting to new platforms.
+
+   -> Reduced Memory Footprint. A simple and complete Varadhi client/server for 
+      the x86 target takes up just about 100KB of space (code size + data size).
+
+   -> Enhanced OS Layer Abstraction with support for porting to new platforms.
+
+   -> Includes Varadhi Names Beta-2 and an enhanced nsman - Naming Service 
+      Manager tool.
+
+   -> Greatly enhanced IDL compiler.
+
+Sankhya Technologies Private Limited is one of India's leading System Software
+Development Companies. Sankhya offers System Software Development services,
+Contract Research and Development and Platform products for Embedded Systems
+Development. The technologies and tools developed by Sankhya are used by
+developers worldwide in the development of a wide range of mission critical
+Embedded systems including Telecommunications, Networking and Industrial 
+Automation. Sankhya is a platform member of the Object Management Group.
+
+SANKHYA, Varadhi and SANKHYA Technologies are Trademarks of Sankhya 
+Technologies Private Limited. OMG marks and logos are trademarks or registered 
+trademarks, service marks and/or certification marks of Object Management 
+Group, Inc., registered in the United States. All other names are property of 
+their respective owners.
+
+For more information contact a Sankhya Technologies Marketing Representative:
+
+    Telephone : +91 44 822 7358
+    Fax       : +91 44 822 7357
+    E-mail    : varadhi-support at sankhya.com
+    http://www.sankhya.com/info/varadhi.html
+

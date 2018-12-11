@@ -1,0 +1,3907 @@
+From thong at lbl.gov  Thu Nov  1 14:49:38 2012
+From: thong at lbl.gov (Tianzhen Hong)
+Date: Thu, 1 Nov 2012 14:49:38 -0700
+Subject: [Bldg-sim] Bldg-sim Digest, Vol 60, Issue 1
+In-Reply-To: <mailman.1.1351800039.21766.bldg-sim-onebuilding.org@lists.onebuilding.org>
+References: <mailman.1.1351800039.21766.bldg-sim-onebuilding.org@lists.onebuilding.org>
+Message-ID: <CADgQ+4iKta27R362udvLdA5JvnqfaRkyTARpnVmi-deGZRVLNg@mail.gmail.com>
+
+You can also look at a state-space model, I developed almost 20 years ago,
+that can directly output what you need. The model is now used in a tool
+DeST developed by Tsinghua University, China.
+
+Tianzhen
+
+On Thu, Nov 1, 2012 at 1:00 PM, <bldg-sim-request at lists.onebuilding.org>wrote:
+
+> Send Bldg-sim mailing list submissions to
+>         bldg-sim at lists.onebuilding.org
+>
+> To subscribe or unsubscribe via the World Wide Web, visit
+>         http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> or, via email, send a message with subject or body 'help' to
+>         bldg-sim-request at lists.onebuilding.org
+>
+> You can reach the person managing the list at
+>         bldg-sim-owner at lists.onebuilding.org
+>
+> When replying, please edit your Subject line so it is more specific
+> than "Re: Contents of Bldg-sim digest..."
+>
+>
+> Today's Topics:
+>
+>    1. Re: Estimating system matrix A from simulation engine
+>       (Bryan Eisenhower)
+>
+>
+> ----------------------------------------------------------------------
+>
+> Message: 1
+> Date: Wed, 31 Oct 2012 17:24:40 -0700
+> From: Bryan Eisenhower <bryane at engr.ucsb.edu>
+> To: bldg-sim at lists.onebuilding.org
+> Cc: ??? <deukwookim at skku.edu>
+> Subject: Re: [Bldg-sim] Estimating system matrix A from simulation
+>         engine
+> Message-ID: <5091C148.6090501 at engr.ucsb.edu>
+> Content-Type: text/plain; charset="utf-8"; Format="flowed"
+>
+> Deuk-Woo,
+>
+> I have thought of this a lot before and will outline my experience
+> below, in summary, if you are looking for accurate dynamical systems
+> matrices from a building energy model (other than a hand-built RC
+> network model), you will probably want to learn *Modelica*. Folks in the
+> Modelica community have been using this method to study dynamics and
+> controls for over a decade in the automotive, aerospace, and other
+> industries.
+>
+> As for other simulation environments, its really up to the one you
+> pick.  Remember that the equations in an energy model are an
+> approximation to reality.  The numerical solution of these equations are
+> yet another approximation to the dynamics in the equations.  So, if you
+> are going to do system identification on the model, you are going to get
+> artifacts of both approximations.  In my experience, the numerical
+> solvers in programs like E+ and TRNSYS are not developed for accuracy in
+> dynamics that you would need for this approach.  They are developed more
+> for long term analysis and numerical stability - both of which they do a
+> great job on.
+>
+> I have been involved with a project to try and obtain ABCD matrices from
+> *TRNSYS*.  In this project, we went into the fortran code and wrote
+> extra code to perturb state variables to observe how they relax and
+> obtain matrices from this.  We were successful in implementing this but
+> did not trust the results because we felt the solver was overwriting the
+> short term dynamics in the equations.
+>
+> I also worked on ABCD matrices using *EnergyPlus*, this time using a
+> different approach.  In this approach, I wrote an analytical model that
+> can 'talk' to the EnergyPlus input file and .sql database files.  In the
+> sql file, there is most of the information about materials (e.g.
+> capacitance), as well as all the bookkeeping on view factors and which
+> constructions pertain to which zones.  I wrote some scripts that read
+> this file and automatically generate a linearized model.  The linearized
+> model does not take any time trace information (it does take some
+> operating point information).  It was a lot of work and although I trust
+> the results, I wouldn't pass on the code to anyone else because it was a
+> bit of a mess in the end. I have published this work this year and if
+> you would like the papers, please write me personally.
+>
+> A fourth data point: *IDA-ICE* is another modeling tool that has a nice
+> solver should capture short term dynamics.  I asked Per Sahlin at IBPSA
+> London this September if there was a way to produce ABCD matrices from
+> the model and he said his customers were not interested (my paraphrasing
+> - hopefully correct) - which is completely fair.  My understanding is
+> that the historical intersection of control analysis and building energy
+> models has been on longer time scales (e.g. setback / setpoint analysis)
+> or just time trace analysis - very little stability, frequency domain,
+> or other advanced traditional techniques.
+>
+> Good luck!  Since I have thought of this for some time, I'd be
+> interested to discuss further with you, especially if you obtain any
+> good results.
+>
+> Bryan
+>
+>
+>
+> On 10/30/2012 6:32 PM, ??? wrote:
+> >
+> > Thank you for your reply.
+> >
+> > Unfortunately, I?m not familiar with Modelica simulation environments.
+> >
+> > If you don?t mind, could you please let me know any other ways?
+> >
+> > Best Regards,
+> > Deuk-Woo Kim
+> >
+> > *From:*Michael Wetter [mailto:mwetter at lbl.gov]
+> > *Sent:* Wednesday, October 31, 2012 1:49 AM
+> > *To:* ???
+> > *Cc:* bldg-sim at lists.onebuilding.org
+> > *Subject:* Re: [Bldg-sim] Estimating system matrix A from simulation
+> > engine
+> >
+> > Most Modelica simulation environments allow you to linearize a model
+> > at the current state and save the A,B,C and D matrix that are its
+> > state-space representation at the point of linearization. See
+> >
+> > Michael Wetter.
+> >
+> > Modelica-based Modeling and Simulation to Support Research and
+> > Development in Building Energy and Control Systems.
+> > <http://dx.doi.org/10.1080/19401490902818259>
+> >
+> > /Journal of Building Performance Simulation/, 2(2):143-161, 2009.
+> >
+> > Also available as LBNL Technical Report LBNL-2740E.pdf
+> > <http://simulationresearch.lbl.gov/wetter/download/LBNL-2740E.pdf>.
+> >
+> > where this is demonstrated for a nonlinear heat exchanger model. The
+> > Modelica Buildings library
+> > (http://simulationresearch.lbl.gov/modelica/) contains a room model
+> > which you should be able to use for the same process to get the A,B,C
+> > and D matrices for a building model.
+> >
+> > Best,
+> >
+> > Michael
+> >
+> > On Sun, Oct 28, 2012 at 6:54 AM, ???<deukwookim at skku.edu
+> > <mailto:deukwookim at skku.edu>> wrote:
+> >
+> > Dear all,
+> >
+> > Is there a method to estimate system matrix *A* (of zone or building)
+> > from simulation engines such as E+, ESP-r??
+> >
+> > (The*A* is commonly found in state-space equation, e.g. x? = *A*x + Bu.)
+> >
+> > As far as I know, only system identification method can be applied in
+> > this situation.
+> >
+> > (but, I not sure that it is reliable)
+> >
+> > If there is more advanced way or efficient way to estimate *A, *please
+> > let me know.
+> >
+> > Any comments would be appreciated.
+> >
+> > Thanks in advance.
+> >
+> > Best Regards,
+> > Deuk-Woo Kim
+> >
+> >
+> > _______________________________________________
+> > Bldg-sim mailing list
+> > http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> > To unsubscribe from this mailing list send  a blank message to
+> > BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+> > <mailto:BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG>
+> >
+> >
+> >
+> > _______________________________________________
+> > Bldg-sim mailing list
+> > http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> > To unsubscribe from this mailing list send  a blank message to
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+> -------------- next part --------------
+> An HTML attachment was scrubbed...
+> URL: <
+> http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121031/aabe0aef/attachment.html
+> >
+>
+> ------------------------------
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> Bldg-sim at lists.onebuilding.org
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+>
+>
+> End of Bldg-sim Digest, Vol 60, Issue 1
+> ***************************************
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121101/0a3e9807/attachment.htm>
+
+From peter at xergyconsulting.com  Thu Nov  1 15:22:33 2012
+From: peter at xergyconsulting.com (Peter May-Ostendorp)
+Date: Thu, 1 Nov 2012 16:22:33 -0600
+Subject: [Bldg-sim] Model predictive control and rule extraction applied to
+	mixed mode buildings
+Message-ID: <8C1E66D4-6E63-4FCF-B758-B76FD339FA9F@xergyconsulting.com>
+
+Hello modeling community,
+
+I am at long last announcing the publication of my dissertation and associated USGBC-funded research that investigates the application of model predictive control to mixed mode buildings, examines the optimality of typical control schemes for these facilities, and explores the use of data mining techniques to automate the extraction of near-optimal control rules from offline model predictive control results (in other words, training simplified decision models to operate a building in a near-optimal manner based on heavy offline computation with detailed EnergyPlus models). Research was conducted with oversight from my advisor, Gregor Henze at the University of Colorado Boulder's Building Systems Program. You may find the work particularly interesting if you have explored the related research of Brian Coffey (also recently posted to this forum).
+
+The results are available through a few publications listed below:
+Dissertation, Offline Model Predictive Control of Mixed Mode Buildings for Near-Optimal Supervisory Control Strategy Development. A thorough treatment of both the MPC and rule extraction processes, with experimental validation and associated source code.
+USGBC final report, HVAC Control Algorithms for Mixed Mode Buildings. A slightly more accessible report that ignores the rule extraction angle and instead benchmarks existing mixed mode control strategies against MPC. Simplified, near-optimal heuristics are analyzed.
+For those with access, you might be interested in the following journal publications: Extraction of supervisory building control rules from model predictive control of windows in a mixed mode building (JBPS, 2012); Model predictive control of mixed mode buildings with rule extraction (Building and Environment, 2011). One more is in the works on experimental validation.
+
+I am more than happy to discuss the work and share associated rule extraction code with interested parties. Hoping this can be of use to some of you.
+
+Best regards,
+Peter
+
+Peter May-Ostendorp, PhD, LEED AP
+Principal
+
+ 
+t: 970.459.4588 
+www.xergyconsulting.com
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121101/efca7d6f/attachment.htm>
+
+From HopfeC at cardiff.ac.uk  Fri Nov  2 13:26:55 2012
+From: HopfeC at cardiff.ac.uk (Christina Hopfe)
+Date: Fri, 2 Nov 2012 20:26:55 -0000
+Subject: [Bldg-sim] IBPSA News Vol 22 No 2 and IBPSA website information
+Message-ID: <0d7b01cdb938$6bea3270$43be9750$@ac.uk>
+
+Dear IBPSA Board,
+
+ 
+
+The IBPSA News Volume 22 No 2 is now available at  <http://www.ibpsa.org>
+www.ibpsa.org. It is dedicated in honour of Curtis Pedersen. 
+
+ 
+
+Features include: an interview with Jon Wright about IBPSA England's first
+conference, an interview with Hugo Hens about the limitations of Heat, Air
+and Moisture simulation, and a message from Joe D'Angelo about JBPS' first
+impact factor. 
+
+ 
+
+A big thank you to all those who have contributed to the News!
+
+ 
+
+With respect to your individual bios on the IBPSA website, kindly fill in
+the attached form and send it back to me at your earliest convenience. It
+should only take you a couple of minutes to do this, however, so far I have
+only received 5 in total! Please rename the attached document with your name
+and country, e.g. in the case of our president
+"Beausoleil-Morrison_Canada_information". (Btw, Ian is one of the few people
+who have already submitted it!)
+
+ 
+
+Happy reading!
+
+ 
+
+Regards,
+
+Christina Hopfe
+
+Editor-in-Chief
+
+ 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121102/186c0f3b/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: name_country_information.docx
+Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Size: 13725 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121102/186c0f3b/attachment.bin>
+
+From sukreetsingh at gmail.com  Fri Nov  2 20:11:30 2012
+From: sukreetsingh at gmail.com (sukreet singh)
+Date: Fri, 2 Nov 2012 23:11:30 -0400
+Subject: [Bldg-sim] IBPSA-USA/LA Chapter 2nd Event! Mon 11/19 6pm
+Message-ID: <CANC0d123PGb85JrAtPFMAmQ1KMzG4a94-AEcatozYM11ohaiig@mail.gmail.com>
+
+Dear All,
+
+The IBPSA-USA Los Angeles national chapter is proud to bring you another
+lecture series event in November. It was a pleasure to see great turnout
+for our first kick-off event ?Pecha Kucha Night? and we hope the trend
+continues.
+
+
+Details:
+
+*SimBuild 2012 Comes to LA*
+
+Thursday November 19th, 2012, 6pm ? 8pm
+Harley Ellis Devereaux?s LA downtown office, 601 South Figueroa Street, Los
+Angeles, CA 90017
+
+Ph: 213-271-8914 (Sukreet)
+
+
+
+IBPSA-USA held its fifth biennial conference (SimBuild) in Madison,
+Wisconsin in August. The event was a great success, and included two and
+one-half full days of 15 minute presentations from performance
+simulationists from around the globe. We realize not everyone can abandon
+their workstation to attend such a conference, so we decided to bring a
+glimpse of it to you here locally!
+
+
+We will be providing an overview of SimBuild, showing a list of the
+presentations that were given this year, and then presenting a few of those
+presentations live for the audience.
+
+
+RSVP & Event Page (for more details):
+
+
+http://www.eventbrite.com/event/4672368179
+
+
+We would like to further expand our audience and it would be lovely to see
+and meet more people in the LA area who are interested in high performance
+designs and building simulations. Please sign up for the IBPSA USA/LA
+newsletter if you haven?t already done so. You can join our mailing list by
+clicking on the link below to get all updates:
+
+
+http://eepurl.com/oDBff
+
+
+Thanks for your support as we continue this mission to improve buildings
+through performance-based design!
+
+
+IBPSA LA newly elected board
+
+
+Greg Collins (President)
+
+Sukreet Singh (Secretary)
+
+Luke McGuire (Treasurer)
+
+Morgan Wiener (Director)
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121102/a7d425ab/attachment.htm>
+
+From jglazer at gard.com  Sat Nov  3 11:24:03 2012
+From: jglazer at gard.com (Jason Glazer)
+Date: Sat, 03 Nov 2012 13:24:03 -0500
+Subject: [Bldg-sim] November Conference Call for SPC 209P Committee
+Message-ID: <50956143.4020403@gard.com>
+
+SPC209P Committee members and interested parties:
+
+You must register for the call prior to joining. Please 
+click on the following link to register.
+
+https://www3.gotomeeting.com/register/815310838
+
+Title: 	SPC 209P November Full Committee Conference Call
+Date: 	Thursday, November 8, 2012
+Time: 	2:00 PM - 4:00 PM CST
+
+After registering you will receive a confirmation email 
+containing information about joining the Webinar.
+
+Agenda
+------
+
+1. Introductions - Glazer
+
+2. Announcements - Glazer
+
+3. Masterplanning/Predesign - Marcus Sheffer
+
+4. Conceptual design/Schematic design - Dan Katzenberger
+
+5. Design development/Construction documents - Chris Baker
+
+6. Construction/Commissioning/As-built/Operations - David Reddy
+
+7. Resources/References/Definitions - Lee DeBaillie
+
+8. Overall standard form and format - Lee DeBaillie/Ellen 
+Franconi
+
+9. Cross cutting issues: modeler credentials, output quality 
+control, output documentation, potential use of peer reviews 
+- Lee DeBaillie
+
+10. Request for energy model QC resource documents - 
+checklists, benchmarks, etc. - for general committee 
+reference. - Lee DeBaillie
+
+11. Next Full SPC 209P Call December 13, 2pm-4pm Central
+
+Thanks
+
+Jason Glazer
+Chair SPC209P
+
+From cristian.jara.toro at gmail.com  Mon Nov  5 09:01:00 2012
+From: cristian.jara.toro at gmail.com (Cristian Salvador Jara Toro)
+Date: Mon, 5 Nov 2012 13:01:00 -0400
+Subject: [Bldg-sim] IES e-training
+Message-ID: <CACwmnFfJgOfO=EQAYadDXr31E24kYdnN9axWXaCrEGVnOZ9UnA@mail.gmail.com>
+
+Dear all:
+
+Where can I find IES VE e-trining courses instead of IESVE.COM,
+
+where the topics be more wide, or maybe cheaper.
+
+best!
+*
+
+Cristian Jara Toro*
+Ingeniero - Editor de Libros.
+
+Cel: 6 207 8566
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121105/0055dd3a/attachment.htm>
+
+From eduardocunha81 at gmail.com  Mon Nov  5 12:25:34 2012
+From: eduardocunha81 at gmail.com (Eduardo Cunha)
+Date: Mon, 5 Nov 2012 15:25:34 -0500
+Subject: [Bldg-sim] Excel file output
+Message-ID: <CAJsVO4jDC4LedpCzvyX7BZXrwE9x-g4nrE4XS_rLOru=ag52Kg@mail.gmail.com>
+
+Dear Collegues,
+
+
+In some simulations I have an excel file output (.xls) as follow (and
+attached) but in others I don't know why it doesn't appears. Do you know
+where I need to change to the .xls file appears always as an output?
+
+  Program
+
+
+Model Number 1
+Building Name Fahrenheit_test _low energy case
+Simulation Directory
+C:\projects\optimization\buildings\email_sims\id_005495\
+Input File Date/Time
+
+Results File Date/Time 09/10/2012 13:24
+Simulation Run Time (s) 103
+Location
+(Latitude, Longitude)
+Weather File Boulder, CO
+(0, 0)
+USA_CO_Boulder_TMY2.epw
+ASHRAE 90.1-2004 Climate Zone ASHRAE_2004_5B
+Available Fuel Types gas, electricity
+Principal Building Activity
+
+Weighting Factor 0,00  Form
+
+
+Total Floor Area (ft^2 [m^2]) 32,291.73 [3,000.00]
+Building Shape See Picture
+Aspect Ratio See Picture
+Number of Floors 3
+Window Fraction (Window to Wall Ratio) South: 0.17
+East: 0.17
+North: 0.17
+West: 0.17
+Total: 0.17
+Window Locations See Picture
+Skylight/TDD Percentage 0.00%
+Shading Geometry None
+Azimuth 0,00
+Thermal Zoning See Picture
+Floor to Floor Height (ft [m]) 9.84 [3.00]  Fabric
+
+
+Exterior walls
+
+Construction Type Steel-Framed
+Construction Description R-13 + R-7.5 ci
+R-value (ft^2?hr??F/Btu [m^2?K/W]) 22.71 [4.00]
+Gross Dimensions - Total Area (ft^2 [m^2]) 13,562.53 [1,260.00]
+Net Dimensions - Total Area (ft^2 [m^2]) 11,256.90 [1,045.80]
+Wall to Skin Ratio 0,56
+Tilts and orientations
+
+
+Thanks a lot!
+Regards,
+Eduardo Cunha
+Vertical
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121105/56215e09/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Fahrenheit_test_lowenergycase.xls
+Type: application/vnd.ms-excel
+Size: 54784 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121105/56215e09/attachment.xls>
+
+From Jim.Bradburn at mortenson.com  Tue Nov  6 10:16:52 2012
+From: Jim.Bradburn at mortenson.com (Jim.Bradburn at mortenson.com)
+Date: Tue, 6 Nov 2012 12:16:52 -0600
+Subject: [Bldg-sim] HELP WANTED - Energy Modeler/Analyst
+Message-ID: <OF4B94D28A.BC140B9E-ON86257AAE.005E833C-86257AAE.00646C73@mortenson.com>
+
+Energy Modeling / Energy Systems Analyst (IRC5390)
+
+Mortenson Construction is searching for a qualified building energy 
+modeler/analyst to support our efforts to deliver aggressive energy 
+reductions - including net-zero energy - to our customers. 
+
+Interested candidates can apply at careers.mortenson.com (job # IRC5390)
+
+Position Description:
+
+The individual selected for this new position will have a strong interest, 
+passion, and ethic for a sustainable approach to the design and 
+construction of commercial buildings. He or she will be a partner in a 
+highly motivated, synergistic team focused exclusively on this important 
+effort. There will be significant opportunities and requirements for 
+technical research, creative thinking and the application of problem 
+solving skills. This person will work with many individuals and teams 
+within the Mortenson organization, as well as interface with outside 
+consultants, architects/engineers, manufacturers, subcontractors and 
+customers. The position will be resident in our Center for Sustainable 
+Energy located in Minneapolis but will provide energy strategies and 
+support for all company regional and other operating groups. Strong 
+writing and speaking skills are essential.
+
+Qualifications:
+
+Essential
+- Four year college degree in Mechanical Engineering, Architectural 
+Engineering, or related field
+- 2 - 3 years previous building energy modeling and related experience
+- Understanding of mechanical, electrical, lighting and architectural 
+building systems
+- Self-motivated, detail oriented and ability to react to rapidly changing 
+requirements
+- Strong teamwork orientation, positive attitude and professional customer 
+service skills
+- Competency in eQuest, Trane Trace, and other energy modeling software; 
+Excel and other Microsoft Office software
+
+Preferred
+- PE or EIT with ability to become licensed, ASHRAE BEMP certification 
+LEEDAP accreditation
+- 3 - 5 years previous building energy modeling and related experience
+- Significant experience with variety of building analysis techniques 
+throughout all phases of design
+- Previous building design and/or construction experience
+- Detailed understanding of building energy and energy reduction 
+strategies
+- Experience with life-cycle cost calculations and presentation of results
+- Experience with integrated design process and ability to work in a 
+collaborative team environment
+- Experience with renewable energy design and/or analysis
+- Experience with marketing / business development of energy related 
+services
+
+Interested candidates can apply at careers.mortenson.com (job # IRC5390)
+
+Company Description
+
+Mortenson Construction is a family-owned, privately-held corporation that 
+began in Minneapolis, Minnesota in 1954. Today the company operates as a 
+diversified construction organization, offering services in construction, 
+design-build, development, diverse workforce planning, facility 
+operations, preconstruction, and program management.  Mortenson helps all 
+customers achieve their goals anywhere in the world. Mortenson maintains 
+its company headquarters in Minneapolis, and supports offices in Chicago, 
+Denver, Milwaukee, Phoenix, Seattle, and Shanghai, China. Smaller offices 
+are staffed as needed around the world in order to serve the unique needs 
+of our customers.  We also have teams that specialize in certain types of 
+markets, such as federal work, renewable energies, sports arenas, and 
+mission critical facilities.  Our business philosophy is dedicated to 
+trusting relationships, excellence in performing services, and advanced 
+technology in building. We have built a reputation for being a solid and 
+progressive company that is trustworthy, responsible, and a leader in our 
+industry and in the communities in which we live and work.
+ 
+
+ Jim Bradburn, PE, LEED-AP BD+C 
+ Manager, Center for Sustainable Energy 
+ Mortenson Construction: Building what?s next. 
+ phone  763.287.3621 
+ cell  720.244.4499 
+ fax  763.287.5370 
+ www.mortenson.com 
+ 
+  Please consider your responsibility to the environment before printing 
+this e-mail.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121106/de151ed1/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/gif
+Size: 1366 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121106/de151ed1/attachment.gif>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/gif
+Size: 1650 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121106/de151ed1/attachment-0001.gif>
+
+From ahussein at spsu.edu  Wed Nov  7 17:42:05 2012
+From: ahussein at spsu.edu (Hussein Abaza)
+Date: Wed, 7 Nov 2012 20:42:05 -0500 (EST)
+Subject: [Bldg-sim] model radiant ceiling for heating and cooling in e-Quest
+In-Reply-To: <50800C02.8000006@tess-inc.com>
+Message-ID: <156182747.1454106.1352338925039.JavaMail.root@zstore1.spsu.edu>
+
+Dear All 
+I am trying to model radiant ceiling for heating and cooling. Is there any better way than using fan coil units with turned down fans as the e-quest archive suggests? 
+Thank you in advance 
+
+----- Original Message -----
+
+From: "David BRADLEY" <d.bradley at tess-inc.com> 
+To: "Karol Bandurski" <karol.bandurski at put.poznan.pl> 
+Cc: trnsys-users at cae.wisc.edu, bldg-sim at lists.onebuilding.org 
+Sent: Thursday, October 18, 2012 10:02:42 AM 
+Subject: Re: [Bldg-sim] [TRNSYS-users] TYM2 weather data 
+
+Karol, 
+Without knowing the specifics of which data file you are using, its hard to give a definitive answer. My understanding is that the original set of TMY2 weather files are a series of files that were developed at NREL for 230 or so sites in the US based on something called the Solmet data base. Only 30 sites actually had measured data; the rest were modeled, correlated, statistically processed, etc. The original set of TMY2 data files for those US cities should not, I think, be confused with the use of the TMY2 file format for weather files from other cities. 
+
+As for your other question, there is no particular need to create a file that has the TMY2 format if you don't want to. Type9 is designed to read an interpolate data files. Radiation data read by Type9 can then be passed to Type16 for processing and calculation of radiation falling on other surfaces. This saves you the trouble of having to figure out where to obtain data values for the fields that you don't need in the TMY2 format. Type15 (the weather reader/processor) is really just a combination of Type9 and Type16 glued together internally and given the ability to read a series of standard file formats (TMY, TMY2, TMY3, E+, etc.) 
+Kind regards, 
+David 
+
+
+
+On 10/18/2012 05:22, Karol Bandurski wrote: 
+
+
+
+
+Dear All, 
+
+1) 
+I have already converted TYM2 data for Poznan (PL-Poznan-Lawica-123300) from text file to excel using: http://sel.me.wisc.edu/trnsys/weather/tmy2data.htm . 
+Some of meteorological data, which are there, have additional columns named Flag of Data Source . Dry bulb temperature is one of these data. In my file is written that data source for dry bub temperature is E, and in TYM2 manual ( http://rredc.nrel.gov/solar/pubs/tmy2/PDFs/tmy2man.pdf ) I have read that it means: 
+
+Modeled or estimated, except: precipitable water, calculated from 
+radiosonde data; dew point temperature calculated from dry bulb 
+temperature and relative humidity; and relative humidity 
+calculated from dry bulb temperature and dew point temperature 
+
+Could you explain me what it is mean? I expected that temperature is measured? 
+
+2) 
+The second issue is that I would like to create my own TYM2 file to run TRNSYS simulation with my own meteorological data. How should I model e.g. illuminance? of maybe I don?t need this value if I use in simulation only: 
+? Dry bulb temperature, 
+? Effective sky temperature, 
+? Humidity, 
+? Wind velocity and direction, 
+? Atmospheric pressure, 
+? Solar zenith and azimuth angle, 
+? Total surface radiation, 
+? Beam surface radiation, 
+? Angle of incidence for surface, 
+? Ground reflectance. 
+
+Which data (columns) do I need in TYM2 file to get above values? 
+
+I will be grateful for any tips!!! 
+Regards 
+
+------------------------------------------------ 
+Karol Bandurski MSc. 
+Institute of Environmental Engineering 
+Poznan University of Technology 
+www.ee.put.poznan.pl 
+www.put.poznan.pl 
+
+
+_______________________________________________
+TRNSYS-users mailing list TRNSYS-users at cae.wisc.edu https://mailman.cae.wisc.edu/listinfo/trnsys-users 
+
+
+-- 
+***************************
+David BRADLEY
+Principal
+Thermal Energy Systems Specialists, LLC
+22 North Carroll Street - suite 370
+Madison, WI  53703 USA
+
+P:+1.608.274.2577
+F:+1.608.278.1475 d.bradley at tess-inc.com http://www.tess-inc.com http://www.trnsys.com 
+_______________________________________________ 
+Bldg-sim mailing list 
+http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org 
+To unsubscribe from this mailing list send a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121107/a23280bd/attachment.htm>
+
+From anup at kalpakrit.com  Thu Nov  8 04:40:33 2012
+From: anup at kalpakrit.com (Anup Rathi)
+Date: Thu, 08 Nov 2012 18:10:33 +0530
+Subject: [Bldg-sim] IES e-training
+In-Reply-To: <CACwmnFfJgOfO=EQAYadDXr31E24kYdnN9axWXaCrEGVnOZ9UnA@mail.gmail.com>
+References: <CACwmnFfJgOfO=EQAYadDXr31E24kYdnN9axWXaCrEGVnOZ9UnA@mail.gmail.com>
+Message-ID: <509BA841.9050803@kalpakrit.com>
+
+Hi,
+
+There are few online videos for basic and advanced users on IES forum on 
+youtube which you can look at.
+http://www.youtube.com/user/iesve?feature=results_main
+
+Alternatively, the harder but more efficient way of going about it would 
+be going through the user guides especially Apache HVAC user mannual 
+which is pretty much in detail if you are specifically looking for help 
+with HVAC.
+
+Thanks,
+
+Kind Regards
+Anup Rathi
+Energy Analyst
+Kalpakrit Sustainable Environments Pvt. Ltd.
+
+Office Address:
+72, Khirki village, Malviya Nagar,
+New Delhi 110017
+t: +91.11.29545120
+M: +91.7428897507
+
+On 11/5/2012 10:31 PM, Cristian Salvador Jara Toro wrote:
+> Dear all:
+>
+> Where can I find IES VE e-trining courses instead of IESVE.COM 
+> <http://IESVE.COM>,
+>
+> where the topics be more wide, or maybe cheaper.
+>
+> best!
+> *
+>
+> Cristian Jara Toro*
+> Ingeniero - Editor de Libros.
+>
+> Cel: 6 207 8566
+>
+>
+>
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121108/02ecacd3/attachment.htm>
+
+From Dru.Crawley at bentley.com  Thu Nov  8 06:55:21 2012
+From: Dru.Crawley at bentley.com (Dru.Crawley at bentley.com)
+Date: Thu, 8 Nov 2012 14:55:21 +0000
+Subject: [Bldg-sim] AECOsim Energy Simulator at GreenBuild next week
+Message-ID: <0373D25B536A0846862A0635516750B448E39B13@extprdmbx03.bentley.com>
+
+
+[X]
+Going to GreenBuild next week in San Francisco?
+
+Looking for comprehensive, BIM-friendly energy simulation software?
+
+
+Visit Bentley Systems' booth (515S, Moscone Center South Hall) to get a live demo of AECOsim Energy Simulator and request a free 30-day trial version.
+
+AECOsim Energy Simulator is a full-featured EnergyPlus v7.2 interface built on a BIM platform.
+
+Options for creating an AECOsim Energy Simulator model include:
+        -       Conceptual Design mode with 3 steps (13 inputs and sketch the building outline).  Result - complete simulation model including all the ASHRAE 90.1 baseline and budget HVAC systems.
+
+-       Import 2-D CAD - DGN, DWG, or DXF, trace the building outline.
+
+-       Import gbXML - guided import to ensure that all spaces and zones have data.
+
+-       Import graphics - bitmap, JPEG, GIF, PDF and trace spaces
+
+Automatically create baseline and budget buildings for ASHRAE Standard 90.1-2004, 2007, 2010.  Extensive room type data set includes default data for all space types in 90.1 (lighting, plug loads, schedules) and 62.1-2004, 2007, and 2010 airflow requirements. Other robust data sets include materials, schedules, and weather data.
+
+29 preconfigured HVAC systems available - EnergyPlus nodes, branches, and connections automatically generated. Users can drill down into the individual EnergyPlus and customize for their building.  Create HVAC systems from set of graphic HVAC components for easy drag and drop HVAC system definition.
+
+
+To see a live demo of AECOsim Energy Simulator and a 30-day trial version, visit Bentley Systems'  booth (515S) at GreenBuild,
+
+our web site  www.bentley.com/en-US/Products/AECOsim+Energy+Simulator/<http://www.bentley.com/en-US/Products/AECOsim+Energy+Simulator/>
+
+or our YouTube Channel   www.youtube.com/user/EnergySimulator<http://www.youtube.com/user/EnergySimulator> .
+
+ <http://www.bentley.com/en-US/Products/Building+Analysis+and+Design/Building-Performance.ht>
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121108/d0447612/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Picture (Device Independent Bitmap) 1.jpg
+Type: image/jpeg
+Size: 631 bytes
+Desc: Picture (Device Independent Bitmap) 1.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121108/d0447612/attachment.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Picture (Device Independent Bitmap) 2.jpg
+Type: image/jpeg
+Size: 631 bytes
+Desc: Picture (Device Independent Bitmap) 2.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121108/d0447612/attachment-0001.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Picture (Device Independent Bitmap) 3.jpg
+Type: image/jpeg
+Size: 631 bytes
+Desc: Picture (Device Independent Bitmap) 3.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121108/d0447612/attachment-0002.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Picture (Device Independent Bitmap) 4.jpg
+Type: image/jpeg
+Size: 631 bytes
+Desc: Picture (Device Independent Bitmap) 4.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121108/d0447612/attachment-0003.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Picture (Device Independent Bitmap) 5.jpg
+Type: image/jpeg
+Size: 631 bytes
+Desc: Picture (Device Independent Bitmap) 5.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121108/d0447612/attachment-0004.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Picture (Device Independent Bitmap) 6.jpg
+Type: image/jpeg
+Size: 631 bytes
+Desc: Picture (Device Independent Bitmap) 6.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121108/d0447612/attachment-0005.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Picture (Device Independent Bitmap) 7.jpg
+Type: image/jpeg
+Size: 631 bytes
+Desc: Picture (Device Independent Bitmap) 7.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121108/d0447612/attachment-0006.jpg>
+
+From karol.bandurski at put.poznan.pl  Mon Nov 12 09:22:45 2012
+From: karol.bandurski at put.poznan.pl (Karol Bandurski)
+Date: Mon, 12 Nov 2012 18:22:45 +0100
+Subject: [Bldg-sim] simulation trend opposite to reality (validation)
+Message-ID: <002c01cdc0fa$5443aa10$fccafe30$@put.poznan.pl>
+
+Dear All,
+
+ 
+
+I simulate the dwelling in TRNSYS. Last time a try to validate my model and
+I compare simulation results with measurements.
+
+Heat consumption has been measured in dwelling every week (the same day of
+week and the same hour).
+
+Trnsys simulation generate results for dwelling's model with ideal heating
+assumptions (set temperature 20/21) -NTYPE2 (sensible energy demand).
+
+ 
+
+Total heat consumption (measurements) of dwelling and energy demand
+(simulation) of simulated model are quite similar (36 weeks from September
+to June), but if we look on weekly results there are bigger difference with
+interesting regularity:
+
+ 
+
+if heat consumption decreases from one week to the next, then energy demand
+increase, and vice versa (I enclose graph).
+
+ 
+
+Could you tell me what can cause this lack of coincidence?
+
+I will be grateful for any hints!
+
+Regards,
+
+Karol
+
+ 
+
+------------------------------------------------
+
+Karol Bandurski MSc.
+
+ <http://www.ee.put.poznan.pl/> Institute of Environmental Engineering
+
+Poznan University of Technology
+
+ <http://www.ee.put.poznan.pl/> www.ee.put.poznan.pl
+
+ <http://www.put.poznan.pl/> www.put.poznan.pl
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121112/b25502b4/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: validation_h.png
+Type: image/png
+Size: 43878 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121112/b25502b4/attachment.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: validation_t.png
+Type: image/png
+Size: 28040 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121112/b25502b4/attachment-0001.png>
+
+From GUY at cua.edu  Mon Nov 12 14:47:31 2012
+From: GUY at cua.edu (Guy, G. Bradley)
+Date: Mon, 12 Nov 2012 22:47:31 +0000
+Subject: [Bldg-sim] Tenure Track Position in Sustainable Design: Energy
+ Simulation and Modeling - Catholic U
+Message-ID: <47DA884F936A6F4F908EF1F0A7DDD5257BCFCA0B@MAILSRV05.cua.edu>
+
+Dear colleagues,
+
+
+
+I would like to inform you of the following Assistant or Associate Professor - Tenure Track Position we are advertising in our highly successful Master of Science in Sustainable Design program at The Catholic University of America.
+
+
+
+Our location in the District of Columbia offers unique opportunities to interact with national and international institutions - we are proud to be developing pilot courses with both USGBC/GBCI and NIBS ? as well as grant awarding bodies. Our campus is committed to sustainable policies and supports the work our faculty and students are undertaking; we have the largest photovoltaic panel installation in DC; our students have embarked on a program to LEED certify campus buildings starting with our own school of architecture; we have put together Team Capitol DC (Catholic U, George Washington U and American U) for the 2013 Solar Decathlon competition; we are committed to an annual symposium ? the next being on the topic Reclaim + Remake, April 11-13, 2013, http://architecture.cua.edu/reclaimremake
+
+
+
+JOIN A VIBRANT PROGRAM IN SUSTAINABLE DESIGN
+
+
+
+The position description is given below and can also be found at:
+
+https://provost.cua.edu/positions.cfm#Arch_SD:_Energy_Simulation
+
+Please circulate amongst any colleagues, friends who you think might be interested.
+
+
+
+Sustainable Design: Energy Simulation and Modeling
+
+School of Architecture & Planning
+
+Assistant or Associate Professor - Tenure Track
+
+https://provost.cua.edu/positions.cfm#Arch_SD:_Energy_Simulation
+
+
+
+The Catholic University of America School of Architecture and Planning in Washington, D.C., seeks an Assistant or Associate Professor of Sustainable Design: Energy Simulation and Modeling (Full-Time, Tenure-Track).
+
+The Catholic University of America has the oldest and largest School of Architecture and Planning in the Washington metropolitan region. The school is recognized for high quality design balancing theory and practice, as well as for its long-standing ties to the professional community. Our strong design culture and creative community spirit attract a local, national, and international faculty and student body. The school offers the pre-professional Bachelor of Science in Architecture. Its graduate programs include the accredited Master of Architecture and a post-professional Master of Architectural Studies; two additional graduate programs, the Master of Science in Sustainable Design and the Master of City and Regional Planning, add to the traditional offerings of the school.
+
+
+
+The Catholic University of America is the national university of the Catholic Church and was founded as a center of research and scholarship. We seek candidates who, regardless of their religious affiliation, understand and will make a significant contribution to the university?s mission and goals.
+
+
+
+QUALIFICATIONS: The successful candidate will have significant expertise in the integration of sustainable environmental control technologies and building design at an advanced level through the use of simulation software as well as traditional methods. Faculty filling this position will be required to teach a two course sequence in energy modeling and simulation as well as elective courses on related topics. The ideal candidate will balance theory and practice, exhibiting skills in both lecturing and studio critique; clear communication with both graduate and undergraduate level students is an essential requirement. A related research agenda, publications, and grants are important considerations. The successful candidate will demonstrate experience or potential in teaching and will possess a terminal or professional degree in architecture or engineering and fluency in software applications related to the area of expertise. Added consideration will be given for additional credentials beyond the professional degree (e.g., Ph.D.). Primary duties will include teaching at the graduate level within the Master of Science in Sustainable Design program. The position may involve participation in design studios, lectures, advanced seminars, the supervision of thesis students, and student advising. Research/creative activities and school/university/community service are also required, as per faculty handbook expectations. Research may be creative, professional, or theoretical. External grants, commissions, competitions, committee duties, and service to the community, University, and the school are important.
+
+PROCESS:  Please send a letter of interest; a curriculum vita; a one-page written statement of professional, pedagogical, and research interests and goals; a 20-page (max.) nonreturnable portfolio of research work samples and/or projects; and the names, addresses, phone numbers, and e-mail addresses of three references. Applicants should also include a specific, brief statement of how their work relates to the mission of the University and of the School, available on the website. Refer all materials to:
+
+Chair, Faculty Search Committee (Sustainable Design)
+
+School of Architecture and Planning
+
+The Catholic University of America
+
+Washington, DC 20064
+
+
+
+We will begin reviewing applications January 15, 2013, and continue until the position is filled.
+
+For more information, please visit the school?s website at http://architecture.cua.edu
+
+The Catholic University of America is an AA/EO employer and does not discriminate on the basis of race, color, national origin, age, sexual orientation, religion, veterans? status, or physical or mental disabilities.
+
+Call for Abstracts Due EXTENDED to November 19, 2012
+Reclaim + Remake Symposium, April 11-13, 2013
+http://architecture.cua.edu/reclaimremake
+
+Bradley Guy, Assoc. AIA, LEED AP BD+C
+Associate Director
+Center for Building Stewardship
+Assistant Professor
+School of Architecture and Planning
+The Catholic University of America
+Crough Center for Architectural Studies
+620 Michigan Avenue NE
+Washington, DC 20064
+GUY at cua.edu<mailto:GUY at cua.edu>
+
+From peter.benson at npl.co.uk  Tue Nov 13 05:07:04 2012
+From: peter.benson at npl.co.uk (Peter Benson)
+Date: Tue, 13 Nov 2012 13:07:04 -0000
+Subject: [Bldg-sim] The Building Performance Gap - closing it through better
+ measurement [NIC]
+Message-ID: <F306B33DF68B7A4397E2AFD2565DC33E0346FBAC@exchsvr1.npl.ad.local>
+
+Classification: NPL Management Ltd - In Confidence
+
+
+
+Dear Bldg-sim members, 
+
+ 
+
+The National Physical Laboratory (www.npl.co.uk) - the UK's National
+Measurement Institute, based in London - is holding an event in Building
+Performance Evaluation on the 5th of December at ARUP in London as part
+of its work under the Centre for Carbon Measurement
+<http://www.npl.co.uk/carbon-measurement/>  
+
+ 
+
+The purpose of the event is to understand from the evaluation community
+some of the measurement challenges faced and work/ research that needs
+to be done. This will hopefully provide useful insight in to the
+formulation of NPL research projects going forward, making sure what we
+do is relevant to and supports the community. It may also provide some
+useful opportunities for other collaborations. 
+
+ 
+
+More details of the event can be found here: 
+http://www.npl.co.uk/events/5-dec-2012-the-building-performance-gap 
+
+ 
+
+A snap shot of the agenda can be seen below. 
+
+ 
+
+If you can't make the event, please feel free to send me some of your
+thoughts on the subject. 'All' input is useful.  
+
+ 
+
+ 
+
+ 
+
+Yours with thanks
+
+Peter
+
+ 
+
+ 
+
+Peter Benson
+
+Knowledge Networks - Technology Innovation Fund
+<http://www.npl.co.uk/commercial-services/products-and-services/technolo
+gy-innovation-fund/> 
+
+NPL <http://www.npl.co.uk/> , Hampton Rd, Teddington, Middlesex, TW11
+0LW, UK
+
++44 (0) 20 8943 8746  
+
+ 
+
+Stay Connected
+
+  <https://ktn.innovateuk.org/web/measurement-network>   
+<http://www.twitter.com/npl>    <http://www.youtube.com/npldigital>   
+<http://itunes.apple.com/us/podcast/national-physical-laboratory/id29507
+6289>    <http://www.facebook.com/npldigital> 
+
+ 
+
+ 
+
+Session 1: Opening - the importance of closing the gap
+
+0950-1005 Anne King - Modern Built Environment KTN; Early outcomes of
+the TSB BPE programme
+
+1005-1030 Rob Pannell - Zero Carbon Hub; Meeting Zero Carbon Targets
+
+1030-1055 David Adams - Willmott Dixon; The view from industry
+
+1055-1120 Alasdair Young - Buro Happold; Performance in practice
+
+1120-1150 Coffee and Networking
+
+Session 2: The role of measurement in BPE
+
+1150-1210 Hilary Elliott - Centre for Carbon Measurement - Importance of
+Data
+
+1210-1230 Elena Gaura - Coventry University; Data to information
+
+1230-1250 Alistair Forbes - NPL; Metrology Information Products
+
+1250-1310 Open discussion: what other measurement challenges exist? -
+Bill Bordass (Chair)
+
+1310-1400 Lunch and Networking
+
+Session 3: Tools, methods and models - what we're using today and where
+they can go
+
+1400-1410 Malcolm Bell - Leeds Metropolitan University; Co-heating,
+where we're at and where we can go
+
+1410-1420 Rob Simpson - NPL; Thermal Imaging, Accuracy and value of
+
+1420-1430 Ray Williams - NPL; Hot Box and the importance of empirical
+data
+
+1430-1440 Prof. Robert Low - UCL Energy Institute; How wrong can the
+models be?
+
+1440-1500 Open Discussion - the tools used today - Rob Pannell (Chair)
+
+1500-1530 Coffee and Networking
+
+Session 4: Closing - funding opportunities, now and in the future
+
+1530-1540 Tiju Joseph - Measurement Network; Technology Innovation Fund
+
+1540-1555 Michael Trousdell - ARUP; Energy Efficient Buildings and
+Horizon 2020
+
+1555-1610 Anne King - Modern Built Environment KTN; Funding
+opportunities (now & future) available
+
+ 
+
+
+
+
+--
+If you have received this message in error, please notify us and remove it from your system.
+NPL Management Ltd cannot guarantee that the e-mail or any attachments are free from viruses.
+ 
+NPL Management Ltd is a company registered in England and Wales, number: 2937881
+Registered office: Serco House | 16 Bartley Wood Business Park | Hook, Hampshire | UK | RG27 9UY
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121113/d2c01e53/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/png
+Size: 1118 bytes
+Desc: image001.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121113/d2c01e53/attachment.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/png
+Size: 1214 bytes
+Desc: image002.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121113/d2c01e53/attachment-0001.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/png
+Size: 1594 bytes
+Desc: image003.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121113/d2c01e53/attachment-0002.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/png
+Size: 1092 bytes
+Desc: image004.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121113/d2c01e53/attachment-0003.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/png
+Size: 1214 bytes
+Desc: image005.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121113/d2c01e53/attachment-0004.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: npl-logo.jpg
+Type: image/jpeg
+Size: 2302 bytes
+Desc: npl-logo.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121113/d2c01e53/attachment.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: twitter.jpg
+Type: image/jpeg
+Size: 1011 bytes
+Desc: twitter.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121113/d2c01e53/attachment-0001.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: facebook.jpg
+Type: image/jpeg
+Size: 1108 bytes
+Desc: facebook.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121113/d2c01e53/attachment-0002.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: youtube.jpg
+Type: image/jpeg
+Size: 1235 bytes
+Desc: youtube.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121113/d2c01e53/attachment-0003.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: apple.jpg
+Type: image/jpeg
+Size: 901 bytes
+Desc: apple.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121113/d2c01e53/attachment-0004.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: connect.jpg
+Type: image/jpeg
+Size: 1114 bytes
+Desc: connect.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121113/d2c01e53/attachment-0005.jpg>
+
+From d.bradley at tess-inc.com  Wed Nov 14 08:49:05 2012
+From: d.bradley at tess-inc.com (David BRADLEY)
+Date: Wed, 14 Nov 2012 10:49:05 -0600
+Subject: [Bldg-sim] simulation trend opposite to reality (validation)
+In-Reply-To: <002c01cdc0fa$5443aa10$fccafe30$@put.poznan.pl>
+References: <002c01cdc0fa$5443aa10$fccafe30$@put.poznan.pl>
+Message-ID: <50A3CB81.9000509@tess-inc.com>
+
+Karol,
+   The behavior that you describe is certainly contrary to gut sense. 
+However, there are any number of reasons why the simulation might be 
+showing you these results, ranging from user error to the equipment 
+operating at a much less efficient operating point under lower load 
+conditions. I would recommend that you check energy balances in your 
+simulation and make sure that it is operating the way that you intend 
+for it to.
+Regards,
+  David
+
+
+On 11/12/2012 11:22, Karol Bandurski wrote:
+>
+> Dear All,
+>
+> I simulate the dwelling in TRNSYS. Last time a try to validate my 
+> model and I compare simulation results with measurements.
+>
+> *_Heat consumption_* has been measured in dwelling every week (the 
+> same day of week and the same hour).
+>
+> Trnsys simulation generate results for dwelling's model with ideal 
+> heating assumptions (set temperature 20/21) --NTYPE2 (sensible 
+> *_energy demand_*).
+>
+> Total *_heat consumption (measurements)_* of dwelling and *_energy 
+> demand (simulation)_* of simulated model are quite similar (36 weeks 
+> from September to June), but if we look on weekly results there are 
+> bigger difference with interesting regularity:
+>
+> if *_heat consumption_* decreases from one week to the next, then 
+> *_energy demand_* increase, and vice versa (I enclose graph).
+>
+> Could you tell me what can cause this lack of coincidence?
+>
+> I will be grateful for any hints!
+>
+> Regards,
+>
+> Karol
+>
+> ------------------------------------------------
+>
+> Karol Bandurski MSc.
+>
+> Institute of Environmental Engineering <http://www.ee.put.poznan.pl/>
+>
+> Poznan University of Technology
+>
+> www.ee.put.poznan.pl <http://www.ee.put.poznan.pl/>
+>
+> www.put.poznan.pl <http://www.put.poznan.pl/>
+>
+>
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+
+-- 
+***************************
+David BRADLEY
+Principal
+Thermal Energy Systems Specialists, LLC
+22 North Carroll Street - suite 370
+Madison, WI  53703 USA
+
+P:+1.608.274.2577
+F:+1.608.278.1475
+d.bradley at tess-inc.com
+
+http://www.tess-inc.com
+http://www.trnsys.com
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121114/95976cab/attachment.htm>
+
+From jhaberl at tamu.edu  Wed Nov 14 10:28:21 2012
+From: jhaberl at tamu.edu (Jeff Haberl)
+Date: Wed, 14 Nov 2012 18:28:21 +0000
+Subject: [Bldg-sim] simulation trend opposite to reality (validation)
+In-Reply-To: <002c01cdc0fa$5443aa10$fccafe30$@put.poznan.pl>
+References: <002c01cdc0fa$5443aa10$fccafe30$@put.poznan.pl>
+Message-ID: <ABE6407F-0ABC-403E-BD6D-493EEEEED957@tees.tamus.edu>
+
+FYI.
+
+You should not expect a model to exactly match real data from a real building, unless some very specific things have been done. Unfortunately, residences can sometimes be the worst to calibrate.
+
+The new ASHRAE Guideline 14 will have advice on this, SPC 209 is also looking into this as is the EDF in NYC for multifamily and commercial existing projects to reduce financing uncertainty.
+
+You can find a papers and thesis on our website that discuss efforts by students and faculty in our lab, over the years, for residential and commercial projects, including calibration tools.
+
+Jeff
+
+Jeff S. Haberl, Ph.D., P.E., FASHRAE
+Department of Architecture
+Texas A&M University
+College Station, Texas 77845-3581
+Office: 979-845-6507, Lab: 979-845-6065
+Fax: 970-862-2457, jhaberl at tamu.edu<mailto:jhaberl at tamu.edu>, www.esl.tamu.edu<http://www.esl.tamu.edu>
+
+On Nov 12, 2012, at 12:07 PM, "Karol Bandurski" <karol.bandurski at put.poznan.pl<mailto:karol.bandurski at put.poznan.pl>> wrote:
+
+Dear All,
+
+I simulate the dwelling in TRNSYS. Last time a try to validate my model and I compare simulation results with measurements.
+Heat consumption has been measured in dwelling every week (the same day of week and the same hour).
+Trnsys simulation generate results for dwelling?s model with ideal heating assumptions (set temperature 20/21) ?NTYPE2 (sensible energy demand).
+
+Total heat consumption (measurements) of dwelling and energy demand (simulation) of simulated model are quite similar (36 weeks from September to June), but if we look on weekly results there are bigger difference with interesting regularity:
+
+if heat consumption decreases from one week to the next, then energy demand increase, and vice versa (I enclose graph).
+
+Could you tell me what can cause this lack of coincidence?
+I will be grateful for any hints!
+Regards,
+Karol
+
+------------------------------------------------
+Karol Bandurski MSc.
+Institute of Environmental Engineering<http://www.ee.put.poznan.pl/>
+Poznan University of Technology
+www.ee.put.poznan.pl<http://www.ee.put.poznan.pl/>
+www.put.poznan.pl<http://www.put.poznan.pl/>
+
+<validation_h.png>
+<validation_t.png>
+_______________________________________________
+Bldg-sim mailing list
+http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG<mailto:BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121114/ebaaabdf/attachment.htm>
+
+From jra_sac at yahoo.com  Wed Nov 14 18:31:07 2012
+From: jra_sac at yahoo.com (John Aulbach)
+Date: Wed, 14 Nov 2012 18:31:07 -0800
+Subject: [Bldg-sim] John Aulbach wants to share new pictures with you
+Message-ID: <0.0.3B.87A.1CDC2D94431C3D8.0@invite4.zoosk.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121114/82986d36/attachment.htm>
+
+From hittle.doug at gmail.com  Wed Nov 14 19:50:42 2012
+From: hittle.doug at gmail.com (Doug Hittle)
+Date: Wed, 14 Nov 2012 20:50:42 -0700
+Subject: [Bldg-sim] spam
+Message-ID: <CAJzgU-gQ=niFqB3azHzK8=OPehA7Z4Xg1P171ftr0C2tmVsf+g@mail.gmail.com>
+
+I got an email fro John Aulbach, someone I don't know wanting me to sigh up
+for a dating service. Maybe you could tell him that I am an old
+heterosexual guy that only my wife finds attractive.
+
+thanks
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121114/c53d5562/attachment.htm>
+
+From jhaberl at tamu.edu  Thu Nov 15 06:01:23 2012
+From: jhaberl at tamu.edu (Jeff Haberl)
+Date: Thu, 15 Nov 2012 14:01:23 +0000
+Subject: [Bldg-sim] spam
+In-Reply-To: <CAJzgU-gQ=niFqB3azHzK8=OPehA7Z4Xg1P171ftr0C2tmVsf+g@mail.gmail.com>
+References: <CAJzgU-gQ=niFqB3azHzK8=OPehA7Z4Xg1P171ftr0C2tmVsf+g@mail.gmail.com>
+Message-ID: <2FD55F3A-CF44-4780-BB09-8D5E845F29A4@tees.tamus.edu>
+
+Doug. 
+
+John is a consulting engineer in Torrance, CA who post regularly to bldgsim. Obviously, his email was hacked. 
+
+Jeff
+
+
+Jeff S. Haberl, Ph.D., P.E., FASHRAE
+Department of Architecture
+Texas A&M University
+College Station, Texas 77845-3581
+Office: 979-845-6507, Lab: 979-845-6065
+Fax: 970-862-2457, jhaberl at tamu.edu, www.esl.tamu.edu
+
+On Nov 14, 2012, at 9:50 PM, "Doug Hittle" <hittle.doug at gmail.com> wrote:
+
+> I got an email fro John Aulbach, someone I don't know wanting me to sigh up for a dating service. Maybe you could tell him that I am an old heterosexual guy that only my wife finds attractive.
+> 
+> thanks
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+
+From hr at rushingco.com  Thu Nov 15 08:25:09 2012
+From: hr at rushingco.com (HR)
+Date: Thu, 15 Nov 2012 08:25:09 -0800 (PST)
+Subject: [Bldg-sim] HELP WANTED
+Message-ID: <242572632.526890.1352996709256.JavaMail.root@cypress.seattleserver.com>
+
+Energy Modeler
+Rushing is seeking a dynamic, self-driven Energy Modeler to join our Mechanical Energy Department.  
+Rushing is a Seattle based MEP (Mechanical, Electrical, and Plumbing) engineering and sustainability consulting firm.  Our firm is founded on the principles that a multi-disciplinary approach is critical in evaluating building performance from a whole-building perspective. 
+Position Summary
+This individual will be part of an integrated team performing energy modeling analysis.  We are looking for a team member who can function independently, collaborate on a team level, manage multiple assignments, and contribute to the growth of Rushing.
+Responsibilities:
+?	Building envelope compliance calculations.
+?	Building energy code compliance modeling calculations.
+?	Energy analysis using eQUEST and Excel spreadsheet calculations.
+?	Collaborate with other energy modelers and engineers.
+?	Energy auditing responsibilities including field measurements and site audits.
+?	Collaborative approach to problem solving and personal interactions.
+?	Assign tasks to project team members, receive assignments, and share energy simulation technical expertise.
+Qualifications:
+?	Bachelors Degree in Mechanical Engineering desired.
+?	Prefer 2+ years experience in LEED Energy simulation using eQuest.
+?	Working knowledge of ASHRAE 90.1, local energy code, and local utility incentives.
+?	Experienced with both Microsoft Office and AutoCAD.
+?	Demonstrated leadership skills with the desire for career growth.
+?	Excellent organizational skills.
+?	Excellent verbal and written communication skills.
+?	Demonstrated success managing client relationships, staff, and projects.
+?	Experience in sustainable design / LEED AP is desired, but not required.
+The position is Full Time.  Salary is DOE.  Rushing provides competitive compensation and benefits package.  Rushing is an equal opportunity employer.    Qualified applicants please submit your cover letter and resume in MS Word or PDF format to hr at rushingco.com with Energy Modeler in the subject line.  
+No phone calls please.  No recruiters or agents please. 
+
+From hittle.doug at gmail.com  Thu Nov 15 09:11:44 2012
+From: hittle.doug at gmail.com (Doug Hittle)
+Date: Thu, 15 Nov 2012 10:11:44 -0700
+Subject: [Bldg-sim] spam
+In-Reply-To: <CAJzgU-gQ=niFqB3azHzK8=OPehA7Z4Xg1P171ftr0C2tmVsf+g@mail.gmail.com>
+References: <CAJzgU-gQ=niFqB3azHzK8=OPehA7Z4Xg1P171ftr0C2tmVsf+g@mail.gmail.com>
+Message-ID: <CAJzgU-jFnDbAeieZo_CBKw580pQ_QZr91RsOp+=q-bBR33Owcg@mail.gmail.com>
+
+Please accept my sincere apologies, John Aulbach in particular. I should
+have contacted John first. There is a potential for a lot of humor here but
+it would all be tasteless.
+
+Doug Hittle
+
+
+On Wed, Nov 14, 2012 at 8:50 PM, Doug Hittle <hittle.doug at gmail.com> wrote:
+
+> I got an email fro John Aulbach, someone I don't know wanting me to sigh
+> up for a dating service. Maybe you could tell him that I am an old
+> heterosexual guy that only my wife finds attractive.
+>
+> thanks
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121115/e906c2bf/attachment.htm>
+
+From cstalberg at naturalintelligence.us  Fri Nov 16 04:01:14 2012
+From: cstalberg at naturalintelligence.us (Christian Stalberg)
+Date: Fri, 16 Nov 2012 07:01:14 -0500
+Subject: [Bldg-sim] need weather file for Medellin, Colombia
+Message-ID: <001901cdc3f2$14978a30$3dc69e90$@naturalintelligence.us>
+
+.or similar weather pattern file. Any format will do. thank you in advance.
+
+ 
+
+ 
+
+---
+
+Christian Stalberg
+Principal
+Natural Intelligence, LLC  
+http://naturalintelligence.us
+<blocked::blocked::http://naturalintelligence.us/> 
+Tel. 919.986.9237
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121116/aedf504f/attachment.htm>
+
+From ClaireDasBhaumik at hoarelea.com  Fri Nov 16 06:07:16 2012
+From: ClaireDasBhaumik at hoarelea.com (Claire Das Bhaumik)
+Date: Fri, 16 Nov 2012 14:07:16 -0000
+Subject: [Bldg-sim] CIBSE future weather (UK based query)
+Message-ID: <1AEDEECB91FA7646B3E635ED4CE8A83B11B1021A@HLMAILSERVER2.hoarelea.local>
+
+Hi,
+
+ 
+
+We are proposing to carry out some modelling using future weather data
+to assess the effect of future climate change scenarios on overheating
+risk for a development in London.
+
+ 
+
+Does anyone have experience of using the CIBSE future weather files for
+such modelling? I have a few queries I hope someone can help with.
+
+ 
+
+Regards,
+
+ 
+
+Dr Claire Das Bhaumik CEng MCIBSE
+
+Senior Environmental Modeller
+
+ 
+
+HOARE LEA 
+
+SUSTAINABILITY 
+
+ 
+
+Celebrating 150 years of engineering excellence
+
+ 
+
+Tel    +44 (0)20 7890 2500
+
+Fax   +44 (0)20 7436 8466
+
+ 
+
+Visit Hoare Lea's website www.hoarelea.com <http://www.hoarelea.com/>   
+
+ 
+
+This email (and any attachment) is intended only for the attention of
+the addressee. It is STRICTLY CONFIDENTIAL and may be legally
+privileged.
+
+If you have received it in error any disclosure distribution or copying
+of all or any part of the contents is prohibited. While virus checked by
+Hoare Lea, the recipient remains responsible for the consequences of any
+virus received.
+
+ 
+
+If you must print then qrecycle
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121116/7b957007/attachment.htm>
+
+From sareena.nagpal at gmail.com  Sat Nov 17 11:28:32 2012
+From: sareena.nagpal at gmail.com (sareena nagpal)
+Date: Sat, 17 Nov 2012 14:28:32 -0500
+Subject: [Bldg-sim] HELP WANTED - BR+A - Building Energy Analyst
+In-Reply-To: <EFEBF32503D8D34EA55D2A65BD4486480106357D@bosexchange.brplusa.com>
+References: <EFEBF32503D8D34EA55D2A65BD4486480106357D@bosexchange.brplusa.com>
+Message-ID: <CAE+V2zksvTEGMbj5D2hVe1AZL1qYm1bmKucn67YhYPtrpd2_og@mail.gmail.com>
+
+Hi Jacob
+
+Thank you for the prompt reply. That was really quick!! I replied back to
+you on LinkedIn but I guess you were keeping busy. I could not reply
+earlier since office is keeping very busy these days. I was wondering if a
+phone conversation was possible sometime this weekend or maybe next week.
+I'm free during lunch hours or in the evening after 7. I definitely would
+be able to connect and explain better this way. Please let me know.
+
+Thanks
+Sareena
+Regards
+
+Sareena Nagpal, LEED GA
+Sustainable Design Consultant
+Carnegie Mellon University
+Ph. No. *857-222-2208*
+
+
+
+On Wed, Oct 10, 2012 at 9:58 AM, Knowles, Jacob <JWK at brplusa.com> wrote:
+
+> *Job Posting - Building Energy Analyst:*
+>
+> Bard, Rao + Athanas Consulting Engineers, LLC (BR+A) provides professional
+> MEP/FP/Low-Voltage and Commissioning services for public and private sector
+> clients, with a particular expertise in healthcare, research, and academic
+> facilities.  We are an employee-owned firm with nearly 200 team-members in
+> five office locations.  BR+A maintains an excellent national reputation by
+> developing high-quality innovative solutions on complex projects.  Our
+> portfolio includes over 20 million square feet of LEED-Certified projects
+> and we are currently working with clients seeking LEED Platinum and
+> Zero-Carbon.  Please visit us on the web at www.brplusa.com.****
+>
+> ** **
+>
+> BR+A seeks a Building Energy Analyst in our Watertown, MA (Boston) office
+> for projects pursuing LEED Certification, ASHRAE 90.1 compliance, 2030
+> Challenge, and Utility Incentives.  The ideal candidate would have 2+ years
+> experience in the industry, with 2+ years of experience specifically with
+> HVAC Simulation.  In this position you will work as part of our expert
+> Energy and Sustainability Group, developing energy-models and evaluating
+> high-performance strategies for unique and challenging projects.  Your work
+> will be utilized directly by the architectural and MEP design team members
+> to help guide building and system optimization.****
+>
+> ** **
+>
+> *Preferred:*****
+>
+> **?         **PE, RA, CEM and/or LEED AP****
+>
+> **?         **2+ yrs experience related to building energy-systems design
+> or energy-audits/evaluations****
+>
+> **?         **2+ yrs energy-modeling experience****
+>
+> **?         **Computer Skills:  Trace 700, eQUEST, EnergyPlus, Revit,
+> AutoCAD, Excel-based energy calcs.****
+>
+> **?         **Experience with application for utility incentives****
+>
+> **?         **Experience with existing building energy-evaluations****
+>
+> **?         **Experience with alternative energy feasibility assessment***
+> *
+>
+> **?         **Understanding of building system operation and controls****
+>
+> **?         **Experience with CFD modeling is a plus****
+>
+> ** **
+>
+> *Contact:*****
+>
+> Jacob Knowles, Director of Sustainable Design****
+>
+> JWK at BRPLUSA.COM****
+>
+> ** **
+>
+> BR+A offers a first-class environment, excellent compensation and complete
+> benefits package including 401K.  BR+A is an equal opportunity employer.**
+> **
+>
+> ** **
+>
+>   .......... [image: [BR+A]] Jacob Knowles, LEED AP
+> Associate, Director of Sustainable Design  *Bard, Rao + Athanas
+> Consulting Engineers, LLC* *|* 311 Arsenal Street *|* Watertown, MA 02472
+> *e *jwk at brplusa.com <jwk at brplusa.com>   *t *617.925.8376   *f *
+> 617.924.9339   *|*   www.brplusa.com
+> Boston  *|*   New York  *|*   Philadelphia  *|*   DC  *|*   Miami
+>
+> *INNOVATION* *|* *EXPERIENCE* *|* *PROVEN SUCCESS*
+>
+> This email and any files transmitted with it are confidential and intended
+> solely for the addressee. If you are not the named addressee you should not
+> disseminate, distribute, copy or alter this email.  *P*  Please consider
+> the environment before printing this e-mail
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121117/a0448b02/attachment.htm>
+
+From sareena.nagpal at gmail.com  Sat Nov 17 13:54:12 2012
+From: sareena.nagpal at gmail.com (sareena nagpal)
+Date: Sat, 17 Nov 2012 16:54:12 -0500
+Subject: [Bldg-sim] HELP WANTED - BR+A - Building Energy Analyst
+In-Reply-To: <CAE+V2zksvTEGMbj5D2hVe1AZL1qYm1bmKucn67YhYPtrpd2_og@mail.gmail.com>
+References: <EFEBF32503D8D34EA55D2A65BD4486480106357D@bosexchange.brplusa.com>
+	<CAE+V2zksvTEGMbj5D2hVe1AZL1qYm1bmKucn67YhYPtrpd2_og@mail.gmail.com>
+Message-ID: <CAE+V2z=1rd3PxhTAxXskf8G2FTj0QHggf0Q2NoMfKzDtVWZ1jw@mail.gmail.com>
+
+Hi Jacob
+
+Thank you for the prompt reply. That was really quick!! I replied back to
+you on LinkedIn but I guess you were keeping busy. I could not reply
+earlier since office is keeping very busy these days. I was wondering if a
+phone conversation was possible sometime this weekend or maybe next week.
+I'm free during lunch hours or in the evening after 7.
+
+I would be happy to put you in touch with friends who are in need of such a
+position in the Boston area. They will contact you directly via email.
+
+Thanks
+Sareena
+
+
+>
+> On Wed, Oct 10, 2012 at 9:58 AM, Knowles, Jacob <JWK at brplusa.com> wrote:
+>
+>> *Job Posting - Building Energy Analyst:*
+>>
+>> Bard, Rao + Athanas Consulting Engineers, LLC (BR+A) provides
+>> professional MEP/FP/Low-Voltage and Commissioning services for public and
+>> private sector clients, with a particular expertise in healthcare,
+>> research, and academic facilities.  We are an employee-owned firm with
+>> nearly 200 team-members in five office locations.  BR+A maintains an
+>> excellent national reputation by developing high-quality innovative
+>> solutions on complex projects.  Our portfolio includes over 20 million
+>> square feet of LEED-Certified projects and we are currently working with
+>> clients seeking LEED Platinum and Zero-Carbon.  Please visit us on the web
+>> at www.brplusa.com.****
+>>
+>> ** **
+>>
+>> BR+A seeks a Building Energy Analyst in our Watertown, MA (Boston) office
+>> for projects pursuing LEED Certification, ASHRAE 90.1 compliance, 2030
+>> Challenge, and Utility Incentives.  The ideal candidate would have 2+ years
+>> experience in the industry, with 2+ years of experience specifically with
+>> HVAC Simulation.  In this position you will work as part of our expert
+>> Energy and Sustainability Group, developing energy-models and evaluating
+>> high-performance strategies for unique and challenging projects.  Your work
+>> will be utilized directly by the architectural and MEP design team members
+>> to help guide building and system optimization.****
+>>
+>> ** **
+>>
+>> *Preferred:*****
+>>
+>> **?         **PE, RA, CEM and/or LEED AP****
+>>
+>> **?         **2+ yrs experience related to building energy-systems
+>> design or energy-audits/evaluations****
+>>
+>> **?         **2+ yrs energy-modeling experience****
+>>
+>> **?         **Computer Skills:  Trace 700, eQUEST, EnergyPlus, Revit,
+>> AutoCAD, Excel-based energy calcs.****
+>>
+>> **?         **Experience with application for utility incentives****
+>>
+>> **?         **Experience with existing building energy-evaluations****
+>>
+>> **?         **Experience with alternative energy feasibility assessment**
+>> **
+>>
+>> **?         **Understanding of building system operation and controls****
+>>
+>> **?         **Experience with CFD modeling is a plus****
+>>
+>> ** **
+>>
+>> *Contact:*****
+>>
+>> Jacob Knowles, Director of Sustainable Design****
+>>
+>> JWK at BRPLUSA.COM****
+>>
+>> ** **
+>>
+>> BR+A offers a first-class environment, excellent compensation and
+>> complete benefits package including 401K.  BR+A is an equal opportunity
+>> employer.****
+>>
+>> ** **
+>>
+>>   .......... [image: [BR+A]] Jacob Knowles, LEED AP
+>> Associate, Director of Sustainable Design  *Bard, Rao + Athanas
+>> Consulting Engineers, LLC* *|* 311 Arsenal Street *|* Watertown, MA 02472
+>> *e *jwk at brplusa.com <jwk at brplusa.com>   *t *617.925.8376   *f *
+>> 617.924.9339   *|*   www.brplusa.com
+>> Boston  *|*   New York  *|*   Philadelphia  *|*   DC  *|*   Miami
+>>
+>> *INNOVATION* *|* *EXPERIENCE* *|* *PROVEN SUCCESS*
+>>
+>> This email and any files transmitted with it are confidential and
+>> intended solely for the addressee. If you are not the named addressee you
+>> should not disseminate, distribute, copy or alter this email.  *P* Please consider the environment before printing this e-mail
+>>
+>> _______________________________________________
+>> Bldg-sim mailing list
+>> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+>> To unsubscribe from this mailing list send  a blank message to
+>> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>>
+>>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121117/2a0969b9/attachment.htm>
+
+From felipe at b-green.cl  Wed Nov 21 10:56:23 2012
+From: felipe at b-green.cl (Felipe Duran)
+Date: Wed, 21 Nov 2012 15:56:23 -0300
+Subject: [Bldg-sim] Does 90.1 Minimum Efficiency Requirements include fans?
+Message-ID: <5A36AC37-80A6-4CC2-B302-6328BB7CE301@b-green.cl>
+
+Dear Group,
+
+Does 90.1 Minimum Efficiency Requirements include fan energy?, I am referring to table 6.8.A which specifies for air conditioners less that 8.8 kW capacity a minimum COP of 3.52.
+Since my building does now have a cooling system I have to use the baseline system (PTAC) and I am not sure if I have to model fans explicitly. 
+
+Kind Regards,
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121121/9d13498c/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: PastedGraphic-1.tiff
+Type: image/tiff
+Size: 38234 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121121/9d13498c/attachment.tiff>
+
+From jim at buildingperformanceteam.com  Wed Nov 21 16:10:58 2012
+From: jim at buildingperformanceteam.com (Jim Dirkes)
+Date: Wed, 21 Nov 2012 18:10:58 -0600
+Subject: [Bldg-sim] Does 90.1 Minimum Efficiency Requirements include
+ fans?
+In-Reply-To: <5A36AC37-80A6-4CC2-B302-6328BB7CE301@b-green.cl>
+References: <5A36AC37-80A6-4CC2-B302-6328BB7CE301@b-green.cl>
+Message-ID: <FC1586506FC3D647A8CEAB83BA211A6902D686E4@CH2MBX01.ch2.comcast.net>
+
+Felipe,
+This may help.... (there are fan power limitations)
+
+Item
+
+ASHRAE 90.1-2007 reference
+
+Baseline systems affected
+
+Fan Power Limitations and part load curve
+
+Tables 6.5.3.1.1A & B, Table G3.1.3.15
+
+all
+
+Fan Power Limitations
+
+G3.1.3.14
+
+6, 8
+
+
+
+
+James V Dirkes II, PE, BEMP, LEED AP
+www.buildingperformanceteam.com<http://www.buildingperformanceteam.com/>
+Energy Analysis, Commissioning & Training Services
+1631 Acacia Drive, Grand Rapids, MI 49504 USA
+616 450 8653
+
+From: bldg-sim-bounces at lists.onebuilding.org [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Felipe Duran
+Sent: Wednesday, November 21, 2012 1:56 PM
+To: bldg-sim at lists.onebuilding.org
+Subject: [Bldg-sim] Does 90.1 Minimum Efficiency Requirements include fans?
+
+Dear Group,
+
+Does 90.1 Minimum Efficiency Requirements include fan energy?, I am referring to table 6.8.A which specifies for air conditioners less that 8.8 kW capacity a minimum COP of 3.52.
+Since my building does now have a cooling system I have to use the baseline system (PTAC) and I am not sure if I have to model fans explicitly.
+
+Kind Regards,
+
+[cid:image001.png at 01CDC81B.EF19A580]
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121121/c2fdadca/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 26272 bytes
+Desc: image001.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121121/c2fdadca/attachment.png>
+
+From ldegelman at suddenlink.net  Wed Nov 21 18:49:42 2012
+From: ldegelman at suddenlink.net (Larry Degelman)
+Date: Wed, 21 Nov 2012 20:49:42 -0600
+Subject: [Bldg-sim] Does 90.1 Minimum Efficiency Requirements include
+	fans?
+In-Reply-To: <FC1586506FC3D647A8CEAB83BA211A6902D686E4@CH2MBX01.ch2.comcast.net>
+References: <5A36AC37-80A6-4CC2-B302-6328BB7CE301@b-green.cl>
+	<FC1586506FC3D647A8CEAB83BA211A6902D686E4@CH2MBX01.ch2.comcast.net>
+Message-ID: <EBD2F4DF045B4ED28893799CA03A9BE9@DV7>
+
+Felipe,
+
+You may find it of interest that one of the options in the Tables that James Dirkes mentioned is to use brake h.p. in place of name plate h.p. for the fan motors.  Using brake h.p. seems to lessen the burden on the designer by allowing numerous power adjustments based on the various items in the air circuit that cause added friction losses ? like MERV filters, sound attenuators, etc.  The adjustments are found in the second table (6.5.3.1.1B).  This is common to both the 2007 and the 2010 versions. 
+
+In addition, you might be interested to look at the proposed Addendum BL (for version 2010) that would require the user to remove fan energy from equipment where the fan energy is included in the energy efficiency rating of the equipment, when using Chapter 11 (ECB Method) and Appendix G.  This addendum includes a methodology for removing the fan energy from packaged equipment efficiency ratings.  
+
+Regards,
+
+LOD
+===============================
+Larry O. Degelman, P.E., BEMP, HBDP
+Professor Emeritus of Architecture
+Texas A&M University
+2206 Quail Run
+College Station, TX 77845
+Ph: 979-307-1746
+URL: http://enerwin.com
+===============================
+
+From: Jim Dirkes 
+Sent: Wednesday, November 21, 2012 6:10 PM
+To: Felipe Duran ; bldg-sim at lists.onebuilding.org 
+Subject: Re: [Bldg-sim] Does 90.1 Minimum Efficiency Requirements include fans?
+
+Felipe,
+
+This may help?. (there are fan power limitations)
+
+ 
+
+      Item
+     ASHRAE 90.1-2007 reference
+     Baseline systems affected
+     
+      Fan Power Limitations and part load curve 
+     Tables 6.5.3.1.1A & B, Table G3.1.3.15
+     all
+     
+      Fan Power Limitations
+     G3.1.3.14
+     6, 8
+     
+
+ 
+
+ 
+
+ 
+
+James V Dirkes II, PE, BEMP, LEED AP
+www.buildingperformanceteam.com 
+Energy Analysis, Commissioning & Training Services
+1631 Acacia Drive, Grand Rapids, MI 49504 USA
+616 450 8653
+
+ 
+
+From: bldg-sim-bounces at lists.onebuilding.org [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Felipe Duran
+Sent: Wednesday, November 21, 2012 1:56 PM
+To: bldg-sim at lists.onebuilding.org
+Subject: [Bldg-sim] Does 90.1 Minimum Efficiency Requirements include fans?
+
+ 
+
+Dear Group,
+
+ 
+
+Does 90.1 Minimum Efficiency Requirements include fan energy?, I am referring to table 6.8.A which specifies for air conditioners less that 8.8 kW capacity a minimum COP of 3.52.
+
+Since my building does now have a cooling system I have to use the baseline system (PTAC) and I am not sure if I have to model fans explicitly. 
+
+ 
+
+Kind Regards,
+
+ 
+
+
+
+ 
+
+
+
+--------------------------------------------------------------------------------
+_______________________________________________
+Bldg-sim mailing list
+http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+
+
+
+--------------------------------------------------------------------------------
+
+No virus found in this message.
+Checked by AVG - www.avg.com
+Version: 2013.0.2793 / Virus Database: 2629/5896 - Release Date: 11/15/12
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121121/c0ae6b8e/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/png
+Size: 26272 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121121/c0ae6b8e/attachment.png>
+
+From dgarciasanchez at greenaffair.com  Fri Nov 23 05:23:23 2012
+From: dgarciasanchez at greenaffair.com (David GARCIA-SANCHEZ)
+Date: Fri, 23 Nov 2012 14:23:23 +0100
+Subject: [Bldg-sim] Solar gains differences between Design Builder and IES
+	VE....
+Message-ID: <95F0356A0810C44AB56ADD48FA44184101A9290F@greengo>
+
+Dear group, 
+
+ 
+
+In our current projects we noticed a big difference when modeling solar
+gains between the software IES VE and Designbuilder (EnergyPlus). IES VE
+underestimate the values of solar gains, by almost 1 to 2 of difference
+than EnergyPlus,
+
+ 
+
+So I just try to ask if someone of you are experienced the same
+difference and if you know the reasons of that big difference. We test a
+"cell-test" and we found also this underestimation of solar gains.
+
+ 
+
+Thanks in advance,
+
+ 
+
+David Garcia Sanchez
+
+ 
+
+ 
+
+David GARCIA-SANCHEZ
+
+greenaffair
+
+Tel. +33 (0)1 46 03 80 10
+
+Mobile +33 (0)6 78 15 08 09
+
+102 avenue Edouard Vaillant - 92100 Boulogne-Billancourt
+
+www.greenaffair.com <http://www.greenaffair.com/>  
+
+ 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121123/8aced13e/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/png
+Size: 5833 bytes
+Desc: image001.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121123/8aced13e/attachment.png>
+
+From Andy.Tindale at designbuilder.co.uk  Fri Nov 23 07:02:38 2012
+From: Andy.Tindale at designbuilder.co.uk (Andy Tindale)
+Date: Fri, 23 Nov 2012 15:02:38 +0000
+Subject: [Bldg-sim] Solar gains differences between Design Builder and
+ IES	VE....
+In-Reply-To: <95F0356A0810C44AB56ADD48FA44184101A9290F@greengo>
+References: <95F0356A0810C44AB56ADD48FA44184101A9290F@greengo>
+Message-ID: <A0E02212526D2847B8F1F78E9A5B17C901BEAA7FAC59@DBSERVER01.designbuilder.local>
+
+David,
+
+One thing to check is the definition of solar gain in the 2 programs. For example, in DesignBuilder EnergyPlus the solar gain reported is the gross solar gain, including any solar heat that is subsequently re-reflected back out of the windows. I don't know the definition of solar gains in IES VE, but if it displays the net solar gain then this might explain the difference, especially in zones with large areas of glazing where re-reflection is more significant.
+
+Regards,
+
+Andy
+
+Andy Tindale
+DesignBuilder Software ltd
+www.designbuilder.com
+Tel: +44 (0)1453 755500
+
+From: bldg-sim-bounces at lists.onebuilding.org [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of David GARCIA-SANCHEZ
+Sent: 23 November 2012 13:23
+To: bldg-sim at lists.onebuilding.org
+Subject: [Bldg-sim] Solar gains differences between Design Builder and IES VE....
+
+Dear group,
+
+In our current projects we noticed a big difference when modeling solar gains between the software IES VE and Designbuilder (EnergyPlus). IES VE underestimate the values of solar gains, by almost 1 to 2 of difference than EnergyPlus,
+
+So I just try to ask if someone of you are experienced the same difference and if you know the reasons of that big difference. We test a "cell-test" and we found also this underestimation of solar gains.
+
+Thanks in advance,
+
+David Garcia Sanchez
+
+[cid:image001.png at 01CDC98B.923B0130]
+
+David GARCIA-SANCHEZ
+greenaffair
+Tel. +33 (0)1 46 03 80 10
+Mobile +33 (0)6 78 15 08 09
+102 avenue Edouard Vaillant - 92100 Boulogne-Billancourt
+www.greenaffair.com<http://www.greenaffair.com/>
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121123/f1a769bf/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 5833 bytes
+Desc: image001.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121123/f1a769bf/attachment.png>
+
+From Iain.Macdonald at nrc-cnrc.gc.ca  Fri Nov 23 08:51:12 2012
+From: Iain.Macdonald at nrc-cnrc.gc.ca (Macdonald, Iain)
+Date: Fri, 23 Nov 2012 08:51:12 -0800
+Subject: [Bldg-sim] Solar gains differences between Design Builder and
+ IES	VE....
+In-Reply-To: <95F0356A0810C44AB56ADD48FA44184101A9290F@greengo>
+References: <95F0356A0810C44AB56ADD48FA44184101A9290F@greengo>
+Message-ID: <ED9C8D2810063B4A8E0C687A201901427B62913788@NRCCENMB2.nrc.ca>
+
+David,
+
+I suspect that you are not comparing apples to apples. Intermodel comparisons are generally difficult to complete without a thorough understanding of the inputs and algorithms used in the tools. Its very easy to think you have equivalency in your input models when you do not. You have the added complication in your case that the DesignBuilder interface adds another layer of translation to the problem.
+
+Also note that both simulation engines (IES VE and EnergyPlus) have been through the BESTEST/ASHRAE 140 process as well as many other validation exercises. This should mean that given the same input the output will be similar (within some bound due to different algorithms and implementations).
+
+I suggest that you make a careful comparison of all the inputs and understand how they impact the simulation, then do the same with the output variables that you are comparing.
+
+Regards,
+
+Iain
+
+From: bldg-sim-bounces at lists.onebuilding.org [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of David GARCIA-SANCHEZ
+Sent: November-23-12 8:23 AM
+To: bldg-sim at lists.onebuilding.org
+Subject: [Bldg-sim] Solar gains differences between Design Builder and IES VE....
+
+Dear group,
+
+In our current projects we noticed a big difference when modeling solar gains between the software IES VE and Designbuilder (EnergyPlus). IES VE underestimate the values of solar gains, by almost 1 to 2 of difference than EnergyPlus,
+
+So I just try to ask if someone of you are experienced the same difference and if you know the reasons of that big difference. We test a "cell-test" and we found also this underestimation of solar gains.
+
+Thanks in advance,
+
+David Garcia Sanchez
+
+[cid:image001.png at 01CDC96F.768FF0B0]
+
+David GARCIA-SANCHEZ
+greenaffair
+Tel. +33 (0)1 46 03 80 10
+Mobile +33 (0)6 78 15 08 09
+102 avenue Edouard Vaillant - 92100 Boulogne-Billancourt
+www.greenaffair.com<http://www.greenaffair.com/>
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121123/ceb09202/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 5833 bytes
+Desc: image001.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121123/ceb09202/attachment.png>
+
+From javedvit at gmail.com  Fri Nov 23 09:57:48 2012
+From: javedvit at gmail.com (javed iqbal)
+Date: Fri, 23 Nov 2012 09:57:48 -0800
+Subject: [Bldg-sim] Solar gains differences between Design Builder and
+	IES VE....
+In-Reply-To: <95F0356A0810C44AB56ADD48FA44184101A9290F@greengo>
+References: <95F0356A0810C44AB56ADD48FA44184101A9290F@greengo>
+Message-ID: <CAEF2+-k_21B2GpTsNneph7KyAf0B7KFg1aN4i8pwNkANuA+ZXw@mail.gmail.com>
+
+David,
+
+The attached research paper may help you on this.
+
+Thanks.
+
+On Fri, Nov 23, 2012 at 5:23 AM, David GARCIA-SANCHEZ <
+dgarciasanchez at greenaffair.com> wrote:
+
+> Dear group, ****
+>
+> ** **
+>
+> In our current projects we noticed a big difference when modeling solar
+> gains between the software IES VE and Designbuilder (EnergyPlus). IES VE
+> underestimate the values of solar gains, by almost 1 to 2 of difference
+> than EnergyPlus,****
+>
+> ** **
+>
+> So I just try to ask if someone of you are experienced the same difference
+> and if you know the reasons of that big difference. We test a ?cell-test?
+> and we found also this underestimation of solar gains.****
+>
+> ** **
+>
+> Thanks in advance,****
+>
+> ** **
+>
+> David Garcia Sanchez****
+>
+> ** **
+>
+> *[image: cid:image001.png at 01CD52C2.E1AE1DF0]***
+>
+> David GARCIA-SANCHEZ****
+>
+> *green**affair***
+>
+> Tel. +33 (0)1 46 03 80 10****
+>
+> Mobile +33 (0)6 78 15 08 09****
+>
+> 102 avenue Edouard Vaillant ? 92100 Boulogne-Billancourt****
+>
+> *www.greenaffair.com** ***
+>
+> ** **
+>
+> ** **
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+
+
+-- 
+*
+*
+Javed Iqbal, LEED AP, CEA
+Energy Analyst
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121123/34b81617/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: SB10-DOC-TS04A-01-Kasarekar.pdf
+Type: application/pdf
+Size: 1476329 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121123/34b81617/attachment.pdf>
+
+From Liam_OBrien at carleton.ca  Fri Nov 23 05:23:18 2012
+From: Liam_OBrien at carleton.ca (Liam O'Brien)
+Date: Fri, 23 Nov 2012 08:23:18 -0500
+Subject: [Bldg-sim] SimAUD 2013 submissions reminder
+Message-ID: <50AF78C6.7000801@cunet.carleton.ca>
+
+Hello Everyone,
+
+With four weeks before submissions (papers & notes, works in progress, 
+videos, and data sets (with note)) are due (Dec. 21), we'd like to put 
+out one last reminder.
+
+Direct link to submission site: http://www.softconf.com/scs/SimAud13/
+
+Main conference site: http://www.simaud.org/2013/
+
+Abstracts (due Dec. 7) are primarily used for reviewer assignment purposes.
+
+We've had a large number of submissions so far, so we look forward to 
+your high-quality submissions and a great SimAUD 2013!
+
+Thanks,
+Liam O'Brien
+Conference General Chair
+
+&
+
+Azam Khan,
+Conference Co-Chair
+
+-- 
+William (Liam) O'Brien, PhD
+Assistant Professor, Architectural Conservation and Sustainability
+Carleton University
+Canal Building, 5208
+(613) 520-2600 ext. 8037
+
+
+From vaibhav.energyarchitect at gmail.com  Sat Nov 24 05:47:38 2012
+From: vaibhav.energyarchitect at gmail.com (Vaibhav Jain)
+Date: Sat, 24 Nov 2012 14:47:38 +0100
+Subject: [Bldg-sim] Solar gains differences between Design Builder and
+	IES VE....
+In-Reply-To: <CAEF2+-k_21B2GpTsNneph7KyAf0B7KFg1aN4i8pwNkANuA+ZXw@mail.gmail.com>
+References: <95F0356A0810C44AB56ADD48FA44184101A9290F@greengo>
+	<CAEF2+-k_21B2GpTsNneph7KyAf0B7KFg1aN4i8pwNkANuA+ZXw@mail.gmail.com>
+Message-ID: <CAD7gt0WUY50kxS3nusqmPA0Ahs+2kotDwTWZN9zL90gJszNpng@mail.gmail.com>
+
+That wasn't my question, but the topic is interesting to follow. Thanks
+Javed! for the paper.
+
+Vaibhav Jain (Veb)
+www.vaibhavjain.co
+
+
+
+
+On 23 November 2012 18:57, javed iqbal <javedvit at gmail.com> wrote:
+
+> David,
+>
+> The attached research paper may help you on this.
+>
+> Thanks.
+>
+> On Fri, Nov 23, 2012 at 5:23 AM, David GARCIA-SANCHEZ <
+> dgarciasanchez at greenaffair.com> wrote:
+>
+>> Dear group, ****
+>>
+>> ** **
+>>
+>> In our current projects we noticed a big difference when modeling solar
+>> gains between the software IES VE and Designbuilder (EnergyPlus). IES VE
+>> underestimate the values of solar gains, by almost 1 to 2 of difference
+>> than EnergyPlus,****
+>>
+>> ** **
+>>
+>> So I just try to ask if someone of you are experienced the same
+>> difference and if you know the reasons of that big difference. We test a
+>> ?cell-test? and we found also this underestimation of solar gains.****
+>>
+>> ** **
+>>
+>> Thanks in advance,****
+>>
+>> ** **
+>>
+>> David Garcia Sanchez****
+>>
+>> ** **
+>>
+>> *[image: cid:image001.png at 01CD52C2.E1AE1DF0]***
+>>
+>> David GARCIA-SANCHEZ****
+>>
+>> *green**affair***
+>>
+>> Tel. +33 (0)1 46 03 80 10****
+>>
+>> Mobile +33 (0)6 78 15 08 09****
+>>
+>> 102 avenue Edouard Vaillant ? 92100 Boulogne-Billancourt****
+>>
+>> *www.greenaffair.com** ***
+>>
+>> ** **
+>>
+>> ** **
+>>
+>> _______________________________________________
+>> Bldg-sim mailing list
+>> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+>> To unsubscribe from this mailing list send  a blank message to
+>> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>>
+>>
+>
+>
+> --
+> *
+> *
+> Javed Iqbal, LEED AP, CEA
+> Energy Analyst
+>
+>
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121124/a50f4da2/attachment.htm>
+
+From elenisoulti at co2engineering.eu  Sun Nov 25 14:18:09 2012
+From: elenisoulti at co2engineering.eu (elenisoulti at co2engineering.eu)
+Date: Sun, 25 Nov 2012 22:18:09 +0000
+Subject: [Bldg-sim] Schedule flags
+Message-ID: <20121125221809.11862gigaqncjxnl@webmail.co2engineering.eu>
+
+Dear all,
+
+I am trying to include the cost for electricity and gas in my eQUEST  
+model. I have "on-peak", "off-peak" and "normal use" values for summer  
+and winter during each day for electricity and one price for gas. How  
+do I set the schedule flags? Is it the time when the price changes or  
+is it the cost per unit?
+
+Thank you very much in advance.
+
+Best wishes,
+
+Eleni
+-- 
+Eleni Soulti
+
+On behalf of
+
+CO2 Engineering
+
+Oficina Sevilla
+
+Cartuja - Edificio Marie Curie
+
+C/Leonardo da Vinci 18, Planta1 3?B
+
+41092 Sevilla | Espa?a
+
+T.             (0034) 679883055  
+begin_of_the_skype_highlighting&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(0034)  
+679883055&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end_of_the_skype_highlighting
+
+London Office
+
+17, Bishops Close
+
+E17 9RP London | UK
+
+T.             (0044) 7969235926  
+begin_of_the_skype_highlighting&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(0044)  
+7969235926&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end_of_the_skype_highlighting
+
+Oficina Huelva.
+
+Plaza Hermanos Costalero n? 2, 6? A
+
+21001 Huelva | Espa?a
+
+T.             (0034) 647143558  
+begin_of_the_skype_highlighting&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(0034)  
+647143558&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end_of_the_skype_highlighting
+
+w.   www.co2engineering.eu
+
+e.   elenisoulti at co2engineering.eu
+
+
+
+
+From bfountain at greensim.com  Sun Nov 25 15:59:23 2012
+From: bfountain at greensim.com (bfountain at greensim.com)
+Date: Sun, 25 Nov 2012 23:59:23 +0000
+Subject: [Bldg-sim] [Equest-users] Schedule flags
+In-Reply-To: <20121125221809.11862gigaqncjxnl@webmail.co2engineering.eu>
+References: <20121125221809.11862gigaqncjxnl@webmail.co2engineering.eu>
+Message-ID: <1530685959-1353887958-cardhu_decombobulator_blackberry.rim.net-1660566612-@b27.c1.bise6.blackberry>
+
+The wizard has a great tool for defining time-of-use rates. Even if I am in the detailed interface on a project, I will start a new project, create the TOU rate in the wizard, then file import that bit of the .inp file into my original model.
+Brian Fountain
+bfountain at greensim.com
+
+-----Original Message-----
+From: elenisoulti at co2engineering.eu
+Sender: equest-users-bounces at lists.onebuilding.org
+Date: Sun, 25 Nov 2012 22:18:09 
+To: bldg-sim at lists.onebuilding.org<bldg-sim at lists.onebuilding.org>; equest-users at lists.onebuilding.org<equest-users at lists.onebuilding.org>
+Subject: [Equest-users] Schedule flags
+
+Dear all,
+
+I am trying to include the cost for electricity and gas in my eQUEST  
+model. I have "on-peak", "off-peak" and "normal use" values for summer  
+and winter during each day for electricity and one price for gas. How  
+do I set the schedule flags? Is it the time when the price changes or  
+is it the cost per unit?
+
+Thank you very much in advance.
+
+Best wishes,
+
+Eleni
+-- 
+Eleni Soulti
+
+On behalf of
+
+CO2 Engineering
+
+Oficina Sevilla
+
+Cartuja - Edificio Marie Curie
+
+C/Leonardo da Vinci 18, Planta1 3?B
+
+41092 Sevilla | Espa?a
+
+T.             (0034) 679883055  
+begin_of_the_skype_highlighting&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(0034)  
+679883055&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end_of_the_skype_highlighting
+
+London Office
+
+17, Bishops Close
+
+E17 9RP London | UK
+
+T.             (0044) 7969235926  
+begin_of_the_skype_highlighting&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(0044)  
+7969235926&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end_of_the_skype_highlighting
+
+Oficina Huelva.
+
+Plaza Hermanos Costalero n? 2, 6? A
+
+21001 Huelva | Espa?a
+
+T.             (0034) 647143558  
+begin_of_the_skype_highlighting&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(0034)  
+647143558&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end_of_the_skype_highlighting
+
+w.   www.co2engineering.eu
+
+e.   elenisoulti at co2engineering.eu
+
+
+
+_______________________________________________
+Equest-users mailing list
+http://lists.onebuilding.org/listinfo.cgi/equest-users-onebuilding.org
+To unsubscribe from this mailing list send  a blank message to EQUEST-USERS-UNSUBSCRIBE at ONEBUILDING.ORG
+
+From pmlaroche at csupomona.edu  Sun Nov 25 17:35:54 2012
+From: pmlaroche at csupomona.edu (Pablo La Roche)
+Date: Sun, 25 Nov 2012 17:35:54 -0800
+Subject: [Bldg-sim] BESS SB 13 Conference
+In-Reply-To: <5050BB5A.1030506@whiteboxtechnologies.com>
+References: <505082EE.80000@corpoelec.gob.ve>,
+	<5050BB5A.1030506@whiteboxtechnologies.com>
+Message-ID: <CEA4AF2EEE5DA14EA99EA34BFEE46F7916F616953B@EXCH03.win.csupomona.edu>
+
+Dear Colleagues,
+
+Apologies for Cross posting.....I wanted to remind you of the BESS SB13 conference ?Advancing Towards Net Zero? that we are organizing in Southern California on the 24th and 25th of June, 2013.  SB13 is part of a major international series of conferences that focuses on sustainable buildings and there will be 16 conferences in 2013, culminating in an international event in 2014 in Barcelona, Spain.  
+
+We are looking for papers in six major topics:  innovative design, improving existing building stock, validation, affordability, user control, and education (more information on the topics in our website).  Papers will be rigorously reviewed by an international panel of leading experts and the top papers will be fast-tracked for inclusion at SB14 in Barcelona. All approved papers will also be included in the ICONDA?CIBlibrary as (free for all) downloadable pdf documents (full proceedings and searchable by papers) and we are also looking into a special edition of an international journal. 
+
+Authors from any country are welcome. We have tried to make the conference very affordable and the registration will include lunches and the keynote dinner. In the interest of promoting a wider and more diverse exchange of ideas we are also providing very reduced registration to students and attendees from developing countries. Detailed registration information is available on our website.  We will be posting hotel information soon but there is a very affordable hotel on site at Cal Poly Pomona and many other hotels close by.
+
+The deadline to submit the papers using our template and through the open conference site is January 21, 2013. 	
+
+More information on BESS-SB13 conference at:
+http://www.bess-sb.org/
+
+More information on the SB series of conferences at:
+http://sbconferences.org/
+
+To use the ICONDA?CIBlibrary:
+http://www.irb.fraunhofer.de/CIBlibrary/search-advanced.jsp
+
+Thank you for considering attending this conference,
+
+Pablo La Roche
+
+Pablo La Roche Ph.D. LEED AP BD+C
+Professor
+Department of Architecture
+Cal Poly Pomona
+3801 West Temple Avenue,
+Pomona CA 91768
+Tel: (909) 869 2700
+Fax: (909) 869 4331
+http://www.csupomona.edu/~pmlaroche
+
+From Kristin.Field at nrel.gov  Mon Nov 26 09:17:31 2012
+From: Kristin.Field at nrel.gov (Field, Kristin)
+Date: Mon, 26 Nov 2012 10:17:31 -0700
+Subject: [Bldg-sim] DOE Commercial Reference Buildings in Recent EnergyPlus
+	versions
+Message-ID: <D1168E6C4207B742BFC631BD652B1E922D15520152@MAILBOX1.nrel.gov>
+
+All,
+
+The DOE Commercial Reference Buildings website has some updates to include files compatible with the most recent version of EnergyPlus (7.2):
+
+http://www1.eere.energy.gov/buildings/commercial/ref_buildings.html
+
+A few other changes were made to the models, as well, as listed here:
+
+http://apps1.eere.energy.gov/buildings/publications/pdfs/commercial_initiative/refbldgs_changes_v40tov70.pdf
+
+The only changes between v1.4_7.0 and v1.4_7.2 were transitioning the models to the newer EnergyPlus version (that's why the document only lists "changes_v40tov70").  Also, the models were run in EnergyPlus v7.0, and you can find a table of EUI results here:
+
+http://apps1.eere.energy.gov/buildings/publications/pdfs/commercial_initiative/refbldgs_eui_tables_1-4_7-0.pdf
+
+Thanks to those that requested updates - we're glad you find the models useful!
+
+Kristin Field
+
+***********************************************************************
+Kristin M. Field
+Mechanical Engineer
+Electricity, Resources, and Building Systems Integration Center
+National Renewable Energy Laboratory
+15013 Denver West Pkwy., MS RSF 202
+Golden, CO  80401
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121126/1a6289f1/attachment.htm>
+
+From timothy.moore at iesve.com  Mon Nov 26 11:27:40 2012
+From: timothy.moore at iesve.com (Timothy Moore)
+Date: Mon, 26 Nov 2012 19:27:40 +0000
+Subject: [Bldg-sim] Solar gains differences between Design Builder
+	and	IES VE....
+In-Reply-To: <CAD7gt0WUY50kxS3nusqmPA0Ahs+2kotDwTWZN9zL90gJszNpng@mail.gmail.com>
+References: <95F0356A0810C44AB56ADD48FA44184101A9290F@greengo>
+	<CAEF2+-k_21B2GpTsNneph7KyAf0B7KFg1aN4i8pwNkANuA+ZXw@mail.gmail.com>
+	<CAD7gt0WUY50kxS3nusqmPA0Ahs+2kotDwTWZN9zL90gJszNpng@mail.gmail.com>
+Message-ID: <DE4ACC0EB1A35249A45E9FCC6D148D211ABC57@GL-EXC-01.iesve.com>
+
+David,
+
+I would caution you not to be so quick to use the term "underestimate," which implies that you are certain that your test is set up correctly and that know the EnergyPlus calcs to be accurate. Furthermore, given the magnitude of the disparity you've described-which does not show up either in the published ASHRAE 140 tests comparing results for the VE and EnergyPlus or in the SimBuild paper from Cassie Waddell and Shruti Kaserekar that Javed Iqbal attached to his reply-there may be something significantly amiss in your comparison.
+
+You need to ensure that you are consistent with your glazing properties and you may want to be running the "detailed solar calculations" in EnergyPlus and, likewise, linking the simulation to results from the SunCast module within the VE if you want a suitably consistent basis for the comparison. This will facilitate calculation of incident solar radiation on specific surfaces, etc.
+
+While I'm not sure how this works in EnergyPlus, when you run simulations coupled to the SunCast module in the VE, you need to be cognizant of the relative placement of glazing in your "test cell," as low-angle direct-beam radiation striking an east window in the early morning, for example, can pass through the space and out the other side, in keeping with the location and solar transmission of glazing on the fa?ades through which the solar gain is entering and exiting.
+
+On a related note, whereas the paper from Waddell and Kaserekar attributes the calculation of interior inter-surface radiant exchanges to the SunCast module of the VE, this is actually a function of the ApacheSim engine used for all dynamic thermal simulations in the VE. SunCast determines which surface the solar gain will fall upon and what fraction of each surface is shaded from direct-beam radiation at any given time step, as well as how much of those surfaces are shaded from the cooling effects of the night sky; however, regardless of SunCast, the hot interior surface of a piece of glass having absorbed solar gain, for example, will always exchange radiant energy with any interior surfaces of lower temperature during the simulation run. Conversely, the cold interior surface of a window or exterior wall in winter will always act as a sink for radiant energy from warmer interior surfaces.
+
+Finally, if you're interested in digging deeper into the comparison, I was told by researchers at the Technical University at Eindhoven in The Netherlands attending the last SimBuild conference that their current findings (yet to be published) show that the solar calculations in the VE are actually somewhat more accurate than those in other tools, including EnergyPlus and ESPr, particularly when passing through multiple glazed surfaces, cavities, or thermal zones. As it's not yet published and IES was not involved in this research, I'll leave it to TU Eindhoven to elaborate on what they tested, what they found, and whether or not they believe this to be of any significance. They may be willing to share some results in advance of publication.
+
+Regards,
+Timothy
+
+
+[cid:image001.jpg at 01CBEDFA.628DACD0]<http://www.iesve.com/>
+
+Timothy Moore
+Senior Product Manager
+
+Mobile: 415 810-2495
+Office: 415 983-0603
+Internal IP ext. 8549 and 8589
+timothy.moore at iesve.com<mailto:timothy.moore at iesve.com>
+www.iesve.com <http://www.iesve.com/>
+
+
+**Design, Simulate + Innovate with the <Virtual Environment>**
+
+    Email Disclaimer<http://www.iesve.com/disclaimer.html>
+
+
+
+
+
+
+
+
+
+
+On Fri, Nov 23, 2012 at 5:23 AM, David GARCIA-SANCHEZ <dgarciasanchez at greenaffair.com<mailto:dgarciasanchez at greenaffair.com>> wrote:
+Dear group,
+
+In our current projects we noticed a big difference when modeling solar gains between the software IES VE and Designbuilder (EnergyPlus). IES VE underestimate the values of solar gains, by almost 1 to 2 of difference than EnergyPlus,
+
+So I just try to ask if someone of you are experienced the same difference and if you know the reasons of that big difference. We test a "cell-test" and we found also this underestimation of solar gains.
+
+Thanks in advance,
+
+David Garcia Sanchez
+
+
+David GARCIA-SANCHEZ
+greenaffair
+Tel. +33 (0)1 46 03 80 10<tel:%2B33%20%280%291%2046%2003%2080%2010>
+Mobile +33 (0)6 78 15 08 09<tel:%2B33%20%280%296%2078%2015%2008%2009>
+102 avenue Edouard Vaillant - 92100 Boulogne-Billancourt
+www.greenaffair.com<http://www.greenaffair.com/>
+
+
+
+
+_______________________________________________
+Bldg-sim mailing list
+http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG<mailto:BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG>
+
+
+
+--
+
+Javed Iqbal, LEED AP, CEA
+Energy Analyst
+
+
+_______________________________________________
+Bldg-sim mailing list
+http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG<mailto:BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121126/51513305/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image003.jpg
+Type: image/jpeg
+Size: 1668 bytes
+Desc: image003.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121126/51513305/attachment.jpg>
+
+From kyriaki.goulouti at epfl.ch  Mon Nov 26 13:02:36 2012
+From: kyriaki.goulouti at epfl.ch (Goulouti Kyriaki)
+Date: Mon, 26 Nov 2012 21:02:36 +0000
+Subject: [Bldg-sim] Thermal bridges
+Message-ID: <7AB8735B132DBF429329D27AC5C826689CAD04@REXMF.intranet.epfl.ch>
+
+Dear all,
+
+I am a student from Switzerland, studying building physics and I would like to ask you how LEED takes into account the thermal bridges.
+Are there specific values for the linear thermal transmittance, like Passivhaus?
+
+I would really appreciate if somebody can answer to my question.
+
+I would like to thank you in advance,
+
+Best regards,
+
+Kyriaki Goulouti
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121126/13b2fec4/attachment.htm>
+
+From asheaffer at environcorp.com  Mon Nov 26 13:42:24 2012
+From: asheaffer at environcorp.com (Andrew Sheaffer)
+Date: Mon, 26 Nov 2012 21:42:24 +0000
+Subject: [Bldg-sim] Multiple HVAC systems serving one zone
+Message-ID: <BB47BD04E7AC9E46940B504CC8E76ABE058D19D9@MWEXS2.ENVIRONCORP.INT>
+
+I am having some difficulty setting up multiple HVAC systems serving one zone.
+The situation is that I am modeling a building with packaged rooftop units as
+well as exhaust fans. However, I can't model the exhaust fans using the exhaust
+fan object because the exhaust fans are controlled based on enthalpy
+differential with outdoor air (as I understand it, exhaust fan availability
+managers only allow temperature differential).
+
+So I thought I would set up another HVAC system in addition to the RTUs that
+would function like the exhaust fans (with a supply fan, rather than exhaust, no
+heating or cooling coils). I could then use an outside air controller to
+specify the enthapy differential control. The issue I am having is setting up
+both systems to serve one zone. Do I connect the second system (exhaust
+system)to the zone inlet node, or upstream of the zone splitter associated with
+the RTUs? Where do I connect downstream of the zone?
+
+Any help would be much appreciated. Of course, if anyone has a way of getting
+the exhaust fan object to run on differential enthalpy, I would take suggestions
+there too!!
+
+Andrew
+
+[cid:image003.jpg at 01CDCBEC.967765A0]<http://www.environcorp.com/>
+Andrew Sheaffer, PE, CPEnMS, CEM | Manager, Carbon and Energy
+ENVIRON International Corporation
+333 W. Wacker | Suite 2700 | Chicago, IL 60606
+T: +1 312 288 3897 | F: +1 312 288 3801 | M: +1 312 731 7096
+asheaffer at environcorp.com<mailto:asheaffer at environcorp.com>
+
+
+________________________________
+This message contains information that may be confidential, privileged or otherwise protected by law from disclosure. It is intended for the exclusive use of the Addressee(s). Unless you are the addressee or authorized agent of the addressee, you may not review, copy, distribute or disclose to anyone the message or any information contained within. If you have received this message in error, please contact the sender by electronic reply to email at environcorp.com and immediately delete all copies of the message.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121126/288653cc/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image003.jpg
+Type: image/jpeg
+Size: 1845 bytes
+Desc: image003.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121126/288653cc/attachment.jpg>
+
+From CCianfrone at morrisonhershfield.com  Mon Nov 26 15:35:38 2012
+From: CCianfrone at morrisonhershfield.com (Christian Cianfrone)
+Date: Mon, 26 Nov 2012 23:35:38 +0000
+Subject: [Bldg-sim] Thermal bridges
+In-Reply-To: <7AB8735B132DBF429329D27AC5C826689CAD04@REXMF.intranet.epfl.ch>
+References: <7AB8735B132DBF429329D27AC5C826689CAD04@REXMF.intranet.epfl.ch>
+Message-ID: <FEC2942ACA0DE24598A430AB7E43AE64DA91E81E@TDC36.mh.local>
+
+LEED is no more specific than ASHRAE 90.1, which is not very specific on thermal bridges other than those occurring in the assembly (studs, cladding attachments, etc).  It is not specific about thermal bridges such as slabs, shelf angles, parapets, etc.
+
+Aside from LEED, standard linear transmittance values are available for common North American details, as per ASHRAE 1365-RP.  Our company authored the report, which can be found here:
+
+http://www.morrisonhershfield.com/ashrae1365research/Pages/Insights-Publications.aspx
+
+
+Christian Cianfrone, M.A.Sc., P.Eng., LEED(r) AP BD+C
+Principal, Building Energy Specialist
+ccianfrone at morrisonhershfield.com<mailto:email at morrisonhershfield.com>
+
+[Description: Description: Description: logo4email4]<http://www.morrisonhershfield.com/Pages/default.aspx>
+
+Suite 310, 4321 Still Creek Drive  |  Burnaby, BC  V5C 6S7
+Dir: 604 454 9305 x1052319  |  Cell: 604 376 1315  |  Fax: 604 454 0403
+morrisonhershfield.com/sustainability
+
+
+
+From: bldg-sim-bounces at lists.onebuilding.org [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Goulouti Kyriaki
+Sent: Monday, November 26, 2012 1:03 PM
+To: bldg-sim at lists.onebuilding.org
+Subject: [Bldg-sim] Thermal bridges
+
+Dear all,
+
+I am a student from Switzerland, studying building physics and I would like to ask you how LEED takes into account the thermal bridges.
+Are there specific values for the linear thermal transmittance, like Passivhaus?
+
+I would really appreciate if somebody can answer to my question.
+
+I would like to thank you in advance,
+
+Best regards,
+
+Kyriaki Goulouti
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121126/d8a3ecfd/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.jpg
+Type: image/jpeg
+Size: 2368 bytes
+Desc: image001.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121126/d8a3ecfd/attachment.jpg>
+
+From oconnor_dj at hotmail.com  Tue Nov 27 06:55:27 2012
+From: oconnor_dj at hotmail.com (=?iso-8859-1?B?RPNuYWwgTydDb25ub3I=?=)
+Date: Tue, 27 Nov 2012 14:55:27 +0000
+Subject: [Bldg-sim] How to Model Parkade CO2 Levels for Exhaust Requirements
+Message-ID: <DUB103-W295A9CD3936B9FFD6BE9FEE05E0@phx.gbl>
+
+
+Dear building-sim,
+
+
+ 
+I'm currently working on a LEED NC sports facility with an underground 
+parkade for approximately 200 cars.
+
+
+ 
+The parkade exhaust system (100% OA) turns on if the CO2 
+levels detected in the parkade exceed a particular threshold. Has anybody modeled such a system? What 
+assumptions can be made for the CO2 profile? As it is in a northern climate, I 
+do not want to overestimate the usage of the system which would skew the heating 
+energy required to heat the OA to the required supply temperature.
+
+
+ 
+Your help is greatly appreciated.
+
+
+ 
+Thanks
+
+
+ 
+Donal 		 	   		  
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121127/9c77b9cb/attachment.htm>
+
+From amitbhansali7 at gmail.com  Tue Nov 27 12:40:18 2012
+From: amitbhansali7 at gmail.com (amit bhansali)
+Date: Tue, 27 Nov 2012 14:40:18 -0600
+Subject: [Bldg-sim] Modeling Water Cooled Unitary Systems With Single
+ Outside Air System and Cooling Tower
+Message-ID: <CAMdiMCLswKV8gcmSE5PVWO0x25N=g8nKeVbCMv-9TZaGVa5HiA@mail.gmail.com>
+
+Hi All,
+I am working on a LEED Energy model for a 8 floor Office Building. The
+Baseline System type I have is Type 8 -VAV with PFP boxes / Chilled
+Water-cooling, Electric Heating.
+
+Now, the proposed building has Water cooling unitary units with a single
+Outside Air unit. The outside air is supplied to mechanical room on each
+floor through a ducted shaft with each floor having its own VAV box to
+control the OA. Also, there is one single cooling tower that is used as a
+Heat rejection equipment. I am doing this model in TRACE, so all the trace
+experts are welcomed to answer this as well.
+
+1. Since i have a Dedicated Outside Air Unit, I should model the outside
+air fan for the baseline as well and allow it be sized based on PRM method
+? Now, TRACE does not allow me to create a overall Air side system type
+Outside air unit and thus i have to basically provide a Optional
+Ventilation fan on each unit (i guess this is limitation but i cant think
+of other way) for the Baseline.  Also, TRACE only allows 90.1 Fan power
+adjustment to Primary fan (Supply fan) so i will not be able to take any
+credit for fan power adjustment on Outside air fan for using better filters.
+Similarly, for proposed building i have to model the Optional Ventilation
+Fan but this would be based on my actual selection. The selection i have is
+for Dedicated Outside Air fan. Is it safe to assume the proposed outside
+air fan power in "KW/CFM" from the actual selection for the energy
+consumption?
+
+2. Similar to point 1, TRACE does not allow to create a single plant as a
+heat rejection equipment for all the Indoor units. Thus, based on my
+selection for cooling tower , condenser water pump, is it safe to simulate
+the proposed building with cooling tower and pump for each water cooled
+unitary system with the same KW/TON and Watts/GPM respectively?
+
+Finally, if i do the above mentioned things in simulation, does anyone else
+have any experience with this kind of situation for the LEED model. I can
+explain everything in Narrative (that these are limitations of Modeling
+software), but i am afraid what the LEED reviewer may or may not approve
+and if he/she does not approve, would he/she suggest a way of doing it the
+right way or not.
+
+Any thoughts, suggestions are greatly appreciated.
+
+-- 
+Thanks
+
+Sincerely,
+Amit Bhansali, LEED Green Associate, M.S. , EIT
+Mobile: (+1)972-207-5180
+             (+1)405-312-1047
+
+www.godparents.in
+Please do not print this e-mail unless necessary
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121127/f0a69929/attachment.htm>
+
+From bquitadamo at RDKEngineers.com  Tue Nov 27 12:45:58 2012
+From: bquitadamo at RDKEngineers.com (Quitadamo, Bob)
+Date: Tue, 27 Nov 2012 15:45:58 -0500
+Subject: [Bldg-sim] How to Model Parkade CO2 Levels for Exhaust
+	Requirements
+In-Reply-To: <DUB103-W295A9CD3936B9FFD6BE9FEE05E0@phx.gbl>
+References: <DUB103-W295A9CD3936B9FFD6BE9FEE05E0@phx.gbl>
+Message-ID: <889CC69EC9378548AF99B7CE8891730B2810AA@rdk-exchangeb.RDKEngineers.local>
+
+Hi Donal,
+
+ 
+
+You'll want to control outside air off CO (not CO2) in a parking garage and be sure the controls sequence utilize the correct ppm setpoints.  Generally there is a minimum ventilation/exhaust rate to maintain even when CO levels are in check for code compliance. 
+
+ 
+
+For modeling the system, a specific ventilation schedule correlating to expected usage of the car garage has worked for me in the past.  I would imagine similar schedules for this facility have been created for occupancy and lighting/plug loads.
+
+ 
+
+Regards,
+
+ 
+
+Bob Quitadamo
+
+ 
+
+ 
+
+From: bldg-sim-bounces at lists.onebuilding.org [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of D?nal O'Connor
+Sent: Tuesday, November 27, 2012 9:55 AM
+To: Building Sim Forum
+Subject: [Bldg-sim] How to Model Parkade CO2 Levels for Exhaust Requirements
+
+ 
+
+Dear building-sim,
+
+I'm currently working on a LEED NC sports facility with an underground parkade for approximately 200 cars.
+
+The parkade exhaust system (100% OA) turns on if the CO2 levels detected in the parkade exceed a particular threshold. Has anybody modeled such a system? What assumptions can be made for the CO2 profile? As it is in a northern climate, I do not want to overestimate the usage of the system which would skew the heating energy required to heat the OA to the required supply temperature.
+
+Your help is greatly appreciated.
+
+Thanks
+
+Donal
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121127/fcde8bce/attachment.htm>
+
+From david at 360-analytics.com  Tue Nov 27 14:20:51 2012
+From: david at 360-analytics.com (David Reddy)
+Date: Tue, 27 Nov 2012 14:20:51 -0800
+Subject: [Bldg-sim] Thermal bridges
+In-Reply-To: <FEC2942ACA0DE24598A430AB7E43AE64DA91E81E@TDC36.mh.local>
+References: <7AB8735B132DBF429329D27AC5C826689CAD04@REXMF.intranet.epfl.ch>
+	<FEC2942ACA0DE24598A430AB7E43AE64DA91E81E@TDC36.mh.local>
+Message-ID: <50B53CC3.9090904@360-Analytics.com>
+
+The 90.1 user's manual briefly touches on modeling uninsulated and minor 
+uninsulated assemblies; here are some snipets from the section that 
+describes modeling for PRM:
+
+/All uninsulated assemblies shall be explicitly modeled. Examples 
+include projecting balconies, perimeter edges of intermediate floor 
+slabs, concrete floor beams over parking garages.//All//
+//uninsulated assemblies shall be separately modeled using a separate 
+description of each of these assemblies within the energy simulation 
+model, or the area-weighted average U-factor based on separate 
+calculation of the U-factor for each of these assemblies. The latter 
+approach may only be used for assemblies with similar thermal mass/
+...
+/Provided that these assemblies are insulated, the method allows any 
+envelope assembly that covers less than 5% of the total area of a given 
+assembly type (e.g., exterior walls or roofs) to be added to an adjacent 
+assembly of the same type with the same orientation and the same thermal 
+properties. This is not intended, however to allow framing members in 
+walls to be ignored  just because they have an area less than 5%./
+
+There are some graphics that help illustrate the recommendations.
+
+- David
+
+
+On 11/26/2012 3:35 PM, Christian Cianfrone wrote:
+>
+> LEED is no more specific than ASHRAE 90.1, which is not very specific 
+> on thermal bridges other than those occurring in the assembly (studs, 
+> cladding attachments, etc).  It is not specific about thermal bridges 
+> such as slabs, shelf angles, parapets, etc.
+>
+> Aside from LEED, standard linear transmittance values are available 
+> for common North American details, as per ASHRAE 1365-RP.  Our company 
+> authored the report, which can be found here:
+>
+> http://www.morrisonhershfield.com/ashrae1365research/Pages/Insights-Publications.aspx
+>
+> *Christian Cianfrone, M.A.Sc., P.Eng., LEED*^? *AP BD+C*
+>
+> Principal, Building Energy Specialist
+>
+> ccianfrone at morrisonhershfield.com <mailto:email at morrisonhershfield.com>
+>
+> Description: Description: Description: logo4email4 
+> <http://www.morrisonhershfield.com/Pages/default.aspx>
+>
+> Suite 310, 4321 Still Creek Drive  |  Burnaby, BC  V5C 6S7
+> Dir: 604 454 9305 x1052319  |  Cell: 604 376 1315  |  Fax: 604 454 0403
+>
+> _morrisonhershfield.com/sustainability___
+>
+> *From:*bldg-sim-bounces at lists.onebuilding.org 
+> [mailto:bldg-sim-bounces at lists.onebuilding.org] *On Behalf Of 
+> *Goulouti Kyriaki
+> *Sent:* Monday, November 26, 2012 1:03 PM
+> *To:* bldg-sim at lists.onebuilding.org
+> *Subject:* [Bldg-sim] Thermal bridges
+>
+> Dear all,
+>
+> I am a student from Switzerland, studying building physics and I would 
+> like to ask you how LEED takes into account the thermal bridges.
+>
+> Are there specific values for the linear thermal transmittance, like 
+> Passivhaus?
+>
+> I would really appreciate if somebody can answer to my question.
+>
+> I would like to thank you in advance,
+>
+> Best regards,
+>
+> Kyriaki Goulouti
+>
+>
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121127/e5057e39/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 2368 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121127/e5057e39/attachment.jpeg>
+
+From dgarciasanchez at greenaffair.com  Wed Nov 28 00:52:38 2012
+From: dgarciasanchez at greenaffair.com (David GARCIA-SANCHEZ)
+Date: Wed, 28 Nov 2012 09:52:38 +0100
+Subject: [Bldg-sim] Multiple HVAC systems serving one zone
+Message-ID: <95F0356A0810C44AB56ADD48FA44184101A92EC3@greengo>
+
+Maybe you should tell us in which software are you modeling your building,
+
+ 
+
+Regards,
+
+
+
+
+
+ 
+
+ 
+
+David GARCIA-SANCHEZ
+
+greenaffair
+
+Tel. +33 (0)1 46 03 80 10
+
+Mobile +33 (0)6 78 15 08 09
+
+102 avenue Edouard Vaillant - 92100 Boulogne-Billancourt
+
+www.greenaffair.com <http://www.greenaffair.com/>  
+
+ 
+
+ 
+
+De : Andrew Sheaffer [mailto:asheaffer at environcorp.com] 
+Envoy? : lundi 26 novembre 2012 22:42
+? : bldg-sim at lists.onebuilding.org
+Objet : [Bldg-sim] Multiple HVAC systems serving one zone
+
+ 
+
+I am having some difficulty setting up multiple HVAC systems serving one zone. 
+The situation is that I am modeling a building with packaged rooftop units as
+well as exhaust fans. However, I can't model the exhaust fans using the exhaust
+fan object because the exhaust fans are controlled based on enthalpy
+differential with outdoor air (as I understand it, exhaust fan availability
+managers only allow temperature differential).
+
+So I thought I would set up another HVAC system in addition to the RTUs that
+would function like the exhaust fans (with a supply fan, rather than exhaust, no
+heating or cooling coils). I could then use an outside air controller to
+specify the enthapy differential control. The issue I am having is setting up
+both systems to serve one zone. Do I connect the second system (exhaust
+system)to the zone inlet node, or upstream of the zone splitter associated with
+the RTUs? Where do I connect downstream of the zone?
+
+Any help would be much appreciated. Of course, if anyone has a way of getting
+the exhaust fan object to run on differential enthalpy, I would take suggestions
+there too!!
+
+Andrew
+
+ 
+
+  <http://www.environcorp.com/> 
+
+Andrew Sheaffer, PE, CPEnMS, CEM | Manager, Carbon and Energy
+
+ENVIRON International Corporation
+
+333 W. Wacker | Suite 2700 | Chicago, IL 60606
+T: +1 312 288 3897 | F: +1 312 288 3801 | M: +1 312 731 7096
+
+asheaffer at environcorp.com <mailto:asheaffer at environcorp.com>  
+
+ 
+
+ 
+
+________________________________
+
+This message contains information that may be confidential, privileged or otherwise protected by law from disclosure. It is intended for the exclusive use of the Addressee(s). Unless you are the addressee or authorized agent of the addressee, you may not review, copy, distribute or disclose to anyone the message or any information contained within. If you have received this message in error, please contact the sender by electronic reply to email at environcorp.com and immediately delete all copies of the message. 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121128/b6cd8089/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/png
+Size: 5833 bytes
+Desc: image001.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121128/b6cd8089/attachment.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 1845 bytes
+Desc: image002.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121128/b6cd8089/attachment.jpeg>
+
+From fbetz at aeieng.com  Wed Nov 28 07:02:03 2012
+From: fbetz at aeieng.com (Fred Betz)
+Date: Wed, 28 Nov 2012 15:02:03 +0000
+Subject: [Bldg-sim] How to Model Parkade CO2 Levels for
+	Exhaust	Requirements
+In-Reply-To: <889CC69EC9378548AF99B7CE8891730B2810AA@rdk-exchangeb.RDKEngineers.local>
+References: <DUB103-W295A9CD3936B9FFD6BE9FEE05E0@phx.gbl>
+	<889CC69EC9378548AF99B7CE8891730B2810AA@rdk-exchangeb.RDKEngineers.local>
+Message-ID: <E0609B5984990F4B81F10542BA7E12F3170C193D@AEI-EX2.aeieng.lan>
+
+Donal,
+
+Yes, the fans are controlled based on CO, not CO2.
+
+You would just create different schedules for the exhaust. The baseline is constant flow during the occupied hours plus 1 hr before and after occupancy to capture people arriving early and leaving late. ASHRAE 62.1 requires 0.75 cfm/ft2 of outside air flow. You'll have to determine what flow rate your local code requires.
+
+For the proposed model, create a new air flow schedule that gets you approximately 80-95% energy savings. There are several reports online that provide these ranges. Look for the ones from building owners or researchers, not manufacturers that claim 98-99% savings. The 80-95% range is based on a number of studies of these systems, as the fans spend most of their time at minimum flow, ~0.15 cfm/ft2. In general, if the building operates many hours you'll be closer to 95%, and 80% if the building operates few hours.
+
+I like to create a profile so I capture demand charges properly rather than a flat average curve. For an office space, you'd have peaks from 7-9, a bump from 12-1 for those people going out to lunch, and another peak from 4-6 as people go home. For a hospital parking garage I just modeled, I had peaks from 11pm - 1am, 7-8am, and 4-6pm to capture shift changes. You'll have to decide what makes sense for your specific project.
+
+Hope that makes sense.
+
+Fred
+
+
+P.S. CO demand control ventilation will be included in the Baseline model for ASHRAE 90.1-2010 per section  6.4.3.4.5 Enclosed Parking Garage Ventilation. Enjoy the model savings while it lasts!
+
+
+Fred Betz  PhD., LEED AP
+Sustainable Systems Analyst
+
+
+
+AEI | AFFILIATED ENGINEERS, INC.
+5802 Research Park Blvd. | Madison, WI  53719
+
+P: 608.236.1175 | F: 608.238.2614
+fbetz at aeieng.com<mailto:fbetz at aeieng.com>  |  www.aeieng.com<http://www.aeieng.com/>
+
+
+
+From: Quitadamo, Bob [mailto:bquitadamo at RDKEngineers.com]
+Sent: Tuesday, November 27, 2012 2:46 PM
+To: D?nal O'Connor; Building Sim Forum
+Subject: Re: [Bldg-sim] How to Model Parkade CO2 Levels for Exhaust Requirements
+
+Hi Donal,
+
+You'll want to control outside air off CO (not CO2) in a parking garage and be sure the controls sequence utilize the correct ppm setpoints.  Generally there is a minimum ventilation/exhaust rate to maintain even when CO levels are in check for code compliance.
+
+For modeling the system, a specific ventilation schedule correlating to expected usage of the car garage has worked for me in the past.  I would imagine similar schedules for this facility have been created for occupancy and lighting/plug loads.
+
+Regards,
+
+Bob Quitadamo
+
+
+From: bldg-sim-bounces at lists.onebuilding.org<mailto:bldg-sim-bounces at lists.onebuilding.org> [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of D?nal O'Connor
+Sent: Tuesday, November 27, 2012 9:55 AM
+To: Building Sim Forum
+Subject: [Bldg-sim] How to Model Parkade CO2 Levels for Exhaust Requirements
+
+Dear building-sim,
+I'm currently working on a LEED NC sports facility with an underground parkade for approximately 200 cars.
+The parkade exhaust system (100% OA) turns on if the CO2 levels detected in the parkade exceed a particular threshold. Has anybody modeled such a system? What assumptions can be made for the CO2 profile? As it is in a northern climate, I do not want to overestimate the usage of the system which would skew the heating energy required to heat the OA to the required supply temperature.
+Your help is greatly appreciated.
+Thanks
+Donal
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121128/e5b2adbf/attachment.htm>
+
+From CCianfrone at morrisonhershfield.com  Wed Nov 28 09:00:45 2012
+From: CCianfrone at morrisonhershfield.com (Christian Cianfrone)
+Date: Wed, 28 Nov 2012 17:00:45 +0000
+Subject: [Bldg-sim] Job Posting: Energy Modeling Engineer
+Message-ID: <FEC2942ACA0DE24598A430AB7E43AE64DA9268BD@TDC36.mh.local>
+
+Hi All,
+
+We're looking for an Energy Modeling Engineer in our Vancouver office.  See details at https://jobs-morrisonhershfield.icims.com/jobs/2753/energy-modeling-engineer/job.  Apply using the link on the page or send me your resume/cover letter directly.
+
+Thanks,
+
+Christian Cianfrone, M.A.Sc., P.Eng., LEED(r) AP BD+C
+Principal, Building Energy Specialist
+ccianfrone at morrisonhershfield.com<mailto:email at morrisonhershfield.com>
+
+[Description: Description: Description: logo4email4]<http://www.morrisonhershfield.com/Pages/default.aspx>
+
+Suite 310, 4321 Still Creek Drive  |  Burnaby, BC  V5C 6S7
+Dir: 604 454 9305 x1052319  |  Cell: 604 376 1315  |  Fax: 604 454 0403
+morrisonhershfield.com/sustainability
+
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121128/8294159a/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.jpg
+Type: image/jpeg
+Size: 2368 bytes
+Desc: image001.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121128/8294159a/attachment.jpg>
+
+From JHANSEN at ghtltd.com  Wed Nov 28 09:05:13 2012
+From: JHANSEN at ghtltd.com (James Hansen)
+Date: Wed, 28 Nov 2012 12:05:13 -0500
+Subject: [Bldg-sim] How to Model Parkade CO2 Levels
+	forExhaust	Requirements
+In-Reply-To: <E0609B5984990F4B81F10542BA7E12F3170C193D@AEI-EX2.aeieng.lan>
+References: <DUB103-W295A9CD3936B9FFD6BE9FEE05E0@phx.gbl><889CC69EC9378548AF99B7CE8891730B2810AA@rdk-exchangeb.RDKEngineers.local>
+	<E0609B5984990F4B81F10542BA7E12F3170C193D@AEI-EX2.aeieng.lan>
+Message-ID: <45F8782E55EE2447A5AB9754140F3AC6303E45@EXCHANGE1.cadd_group.ghtltd.com>
+
+Be prepared to argue your case with the LEED reviewer.  On the past several projects for which I tried to take credit for CO control of garage exhaust fans, the reviewer wanted me to provide a list of newly constructed buildings in my area that had non CO-based control of parking garage ventilation systems.  They want you to prove that it is not common practice in your area.  In the DC area, almost every engineer I know is doing CO control of garage exhaust fans, so we've had to abandon this ECM for all of our LEED projects.  Would love to hear of someone arguing this point successfully, and what tactic they used! 
+
+ 
+
+GHT Limited
+James Hansen, P.E., LEED AP
+Senior Associate
+1010 N. Glebe Road, Suite 200
+Arlington, VA  22201-4749
+703-243-1200 (office)
+
+703-338-5754 (cell)
+703-276-1376 (fax)
+
+www.ghtltd.com <http://www.ghtltd.com/> 
+
+ 
+
+From: bldg-sim-bounces at lists.onebuilding.org [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Fred Betz
+Sent: Wednesday, November 28, 2012 10:02 AM
+To: Quitadamo, Bob; D?nal O'Connor; Building SimForum
+Subject: Re: [Bldg-sim] How to Model Parkade CO2 Levels forExhaust Requirements
+
+ 
+
+Donal,
+
+ 
+
+Yes, the fans are controlled based on CO, not CO2. 
+
+ 
+
+You would just create different schedules for the exhaust. The baseline is constant flow during the occupied hours plus 1 hr before and after occupancy to capture people arriving early and leaving late. ASHRAE 62.1 requires 0.75 cfm/ft2 of outside air flow. You'll have to determine what flow rate your local code requires. 
+
+ 
+
+For the proposed model, create a new air flow schedule that gets you approximately 80-95% energy savings. There are several reports online that provide these ranges. Look for the ones from building owners or researchers, not manufacturers that claim 98-99% savings. The 80-95% range is based on a number of studies of these systems, as the fans spend most of their time at minimum flow, ~0.15 cfm/ft2. In general, if the building operates many hours you'll be closer to 95%, and 80% if the building operates few hours.
+
+ 
+
+I like to create a profile so I capture demand charges properly rather than a flat average curve. For an office space, you'd have peaks from 7-9, a bump from 12-1 for those people going out to lunch, and another peak from 4-6 as people go home. For a hospital parking garage I just modeled, I had peaks from 11pm - 1am, 7-8am, and 4-6pm to capture shift changes. You'll have to decide what makes sense for your specific project. 
+
+ 
+
+Hope that makes sense. 
+
+ 
+
+Fred
+
+ 
+
+ 
+
+P.S. CO demand control ventilation will be included in the Baseline model for ASHRAE 90.1-2010 per section  6.4.3.4.5 Enclosed Parking Garage Ventilation. Enjoy the model savings while it lasts!
+
+ 
+
+ 
+
+Fred Betz  PhD., LEED AP 
+Sustainable Systems Analyst
+
+ 
+
+AEI | AFFILIATED ENGINEERS, INC.  
+5802 Research Park Blvd. | Madison, WI  53719
+
+P: 608.236.1175 | F: 608.238.2614  
+fbetz at aeieng.com <mailto:fbetz at aeieng.com>   |  www.aeieng.com <http://www.aeieng.com/>   
+
+ 
+
+ 
+
+From: Quitadamo, Bob [mailto:bquitadamo at RDKEngineers.com] 
+Sent: Tuesday, November 27, 2012 2:46 PM
+To: D?nal O'Connor; Building Sim Forum
+Subject: Re: [Bldg-sim] How to Model Parkade CO2 Levels for Exhaust Requirements
+
+ 
+
+Hi Donal,
+
+ 
+
+You'll want to control outside air off CO (not CO2) in a parking garage and be sure the controls sequence utilize the correct ppm setpoints.  Generally there is a minimum ventilation/exhaust rate to maintain even when CO levels are in check for code compliance. 
+
+ 
+
+For modeling the system, a specific ventilation schedule correlating to expected usage of the car garage has worked for me in the past.  I would imagine similar schedules for this facility have been created for occupancy and lighting/plug loads.
+
+ 
+
+Regards,
+
+ 
+
+Bob Quitadamo
+
+ 
+
+ 
+
+From: bldg-sim-bounces at lists.onebuilding.org [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of D?nal O'Connor
+Sent: Tuesday, November 27, 2012 9:55 AM
+To: Building Sim Forum
+Subject: [Bldg-sim] How to Model Parkade CO2 Levels for Exhaust Requirements
+
+ 
+
+Dear building-sim,
+
+I'm currently working on a LEED NC sports facility with an underground parkade for approximately 200 cars.
+
+The parkade exhaust system (100% OA) turns on if the CO2 levels detected in the parkade exceed a particular threshold. Has anybody modeled such a system? What assumptions can be made for the CO2 profile? As it is in a northern climate, I do not want to overestimate the usage of the system which would skew the heating energy required to heat the OA to the required supply temperature.
+
+Your help is greatly appreciated.
+
+Thanks
+
+Donal
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121128/7ba225b5/attachment.htm>
+
+From Paul.Riemer at dunhameng.com  Wed Nov 28 09:42:21 2012
+From: Paul.Riemer at dunhameng.com (Paul Riemer)
+Date: Wed, 28 Nov 2012 11:42:21 -0600
+Subject: [Bldg-sim] How to Model Parkade CO2 Levels
+	for	Exhaust	Requirements
+In-Reply-To: <E0609B5984990F4B81F10542BA7E12F3170C193D@AEI-EX2.aeieng.lan>
+References: <DUB103-W295A9CD3936B9FFD6BE9FEE05E0@phx.gbl>
+	<889CC69EC9378548AF99B7CE8891730B2810AA@rdk-exchangeb.RDKEngineers.local>
+	<E0609B5984990F4B81F10542BA7E12F3170C193D@AEI-EX2.aeieng.lan>
+Message-ID: <057EF46662FE994F8119F0A903BCD0F8019CB787DB25@eml1.dunham.corp>
+
+Donal,
+We have discussed this previously so I suggest reviewing both the Bldg-Sim and equest-users archives.  I vaguely recalled posts about GBCI pushing back on crediting CO-based control, so I found one and pasted it below.
+
+As for 'while it lasts' - if addendum bm succeeds in rolling Appendix G back to align with 90.1-2004 then it seems like CO-based control of garage fans could be back in play as we simulate to demonstrate 40%-50%-60%-? savings vs. 90.1-2004 baseline.
+
+Paul Riemer, PE, LEED AP BD+C
+DUNHAM
+
+
+
+-----Original Message-----
+
+From: James Hansen [mailto:JHANSEN at ghtltd.com<http://lists.onebuilding.org/listinfo.cgi/equest-users-onebuilding.org>]
+
+Sent: Tuesday, August 02, 2011 10:08 AM
+
+To: Nick Caton; ?mer Moltay; equest-users at lists.onebuilding.org<http://lists.onebuilding.org/listinfo.cgi/equest-users-onebuilding.org>
+
+Subject: RE: [Equest-users] Modelling Parking Garage Exhaust Combined withJetFans
+
+
+
+Please also note that if this is for a LEED project, one of the "default" review comments now for CO-based control of garage fans is that the design professional must demonstrate that this is not a "standard practice" for new base-building projects in the area.  I personally think this is a ridiculous comment, but regardless, be prepared to provide a list of new projects in the area that you've worked on that have not had CO-based control of the parking garage fans, otherwise you might have to include it in both the baseline and proposed models.  I would love to hear how other people have addressed this comment.
+
+
+
+GHT Limited
+
+James Hansen, P.E., LEED AP
+
+
+From: bldg-sim-bounces at lists.onebuilding.org [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Fred Betz
+Sent: Wednesday, November 28, 2012 9:02 AM
+To: Quitadamo, Bob; D?nal O'Connor; Building Sim Forum
+Subject: Re: [Bldg-sim] How to Model Parkade CO2 Levels for Exhaust Requirements
+
+Donal,
+
+Yes, the fans are controlled based on CO, not CO2.
+
+You would just create different schedules for the exhaust. The baseline is constant flow during the occupied hours plus 1 hr before and after occupancy to capture people arriving early and leaving late. ASHRAE 62.1 requires 0.75 cfm/ft2 of outside air flow. You'll have to determine what flow rate your local code requires.
+
+For the proposed model, create a new air flow schedule that gets you approximately 80-95% energy savings. There are several reports online that provide these ranges. Look for the ones from building owners or researchers, not manufacturers that claim 98-99% savings. The 80-95% range is based on a number of studies of these systems, as the fans spend most of their time at minimum flow, ~0.15 cfm/ft2. In general, if the building operates many hours you'll be closer to 95%, and 80% if the building operates few hours.
+
+I like to create a profile so I capture demand charges properly rather than a flat average curve. For an office space, you'd have peaks from 7-9, a bump from 12-1 for those people going out to lunch, and another peak from 4-6 as people go home. For a hospital parking garage I just modeled, I had peaks from 11pm - 1am, 7-8am, and 4-6pm to capture shift changes. You'll have to decide what makes sense for your specific project.
+
+Hope that makes sense.
+
+Fred
+
+
+P.S. CO demand control ventilation will be included in the Baseline model for ASHRAE 90.1-2010 per section  6.4.3.4.5 Enclosed Parking Garage Ventilation. Enjoy the model savings while it lasts!
+
+
+Fred Betz  PhD., LEED AP
+Sustainable Systems Analyst
+
+
+
+AEI | AFFILIATED ENGINEERS, INC.
+5802 Research Park Blvd. | Madison, WI  53719
+
+P: 608.236.1175 | F: 608.238.2614
+fbetz at aeieng.com<mailto:fbetz at aeieng.com>  |  www.aeieng.com<http://www.aeieng.com/>
+
+
+
+From: Quitadamo, Bob [mailto:bquitadamo at RDKEngineers.com]
+Sent: Tuesday, November 27, 2012 2:46 PM
+To: D?nal O'Connor; Building Sim Forum
+Subject: Re: [Bldg-sim] How to Model Parkade CO2 Levels for Exhaust Requirements
+
+Hi Donal,
+
+You'll want to control outside air off CO (not CO2) in a parking garage and be sure the controls sequence utilize the correct ppm setpoints.  Generally there is a minimum ventilation/exhaust rate to maintain even when CO levels are in check for code compliance.
+
+For modeling the system, a specific ventilation schedule correlating to expected usage of the car garage has worked for me in the past.  I would imagine similar schedules for this facility have been created for occupancy and lighting/plug loads.
+
+Regards,
+
+Bob Quitadamo
+
+
+From: bldg-sim-bounces at lists.onebuilding.org<mailto:bldg-sim-bounces at lists.onebuilding.org> [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of D?nal O'Connor
+Sent: Tuesday, November 27, 2012 9:55 AM
+To: Building Sim Forum
+Subject: [Bldg-sim] How to Model Parkade CO2 Levels for Exhaust Requirements
+
+Dear building-sim,
+I'm currently working on a LEED NC sports facility with an underground parkade for approximately 200 cars.
+The parkade exhaust system (100% OA) turns on if the CO2 levels detected in the parkade exceed a particular threshold. Has anybody modeled such a system? What assumptions can be made for the CO2 profile? As it is in a northern climate, I do not want to overestimate the usage of the system which would skew the heating energy required to heat the OA to the required supply temperature.
+Your help is greatly appreciated.
+Thanks
+Donal
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121128/821c4de7/attachment.htm>
+
+From oconnor_dj at hotmail.com  Wed Nov 28 10:03:53 2012
+From: oconnor_dj at hotmail.com (=?Windows-1252?B?RPNuYWwgTydDb25ub3I=?=)
+Date: Wed, 28 Nov 2012 18:03:53 +0000
+Subject: [Bldg-sim] How to Model Parkade CO2 Levels for Exhaust
+ Requirements
+In-Reply-To: <057EF46662FE994F8119F0A903BCD0F8019CB787DB25@eml1.dunham.corp>
+References: <DUB103-W295A9CD3936B9FFD6BE9FEE05E0@phx.gbl>,
+	<889CC69EC9378548AF99B7CE8891730B2810AA@rdk-exchangeb.RDKEngineers.local>,
+	<E0609B5984990F4B81F10542BA7E12F3170C193D@AEI-EX2.aeieng.lan>,
+	<057EF46662FE994F8119F0A903BCD0F8019CB787DB25@eml1.dunham.corp>
+Message-ID: <DUB103-W40778E79B0B2ADECCFEB50E05D0@phx.gbl>
+
+
+Hi all,
+
+Thanks for all of your responses! They're greatly appreciated!
+
+Cheers
+
+D?nal
+
+From: Paul.Riemer at dunhameng.com
+To: fbetz at aeieng.com; bquitadamo at RDKEngineers.com; oconnor_dj at hotmail.com; bldg-sim at lists.onebuilding.org
+Date: Wed, 28 Nov 2012 11:42:21 -0600
+Subject: RE: [Bldg-sim] How to Model Parkade CO2 Levels for	Exhaust	Requirements
+
+Donal,We have discussed this previously so I suggest reviewing both the Bldg-Sim and equest-users archives.  I vaguely recalled posts about GBCI pushing back on crediting CO-based control, so I found one and pasted it below. As for ?while it lasts? - if addendum bm succeeds in rolling Appendix G back to align with 90.1-2004 then it seems like CO-based control of garage fans could be back in play as we simulate to demonstrate 40%-50%-60%-? savings vs. 90.1-2004 baseline. Paul Riemer, PE, LEED AP BD+C DUNHAM  -----Original Message-----From: James Hansen [mailto:JHANSEN at ghtltd.com] Sent: Tuesday, August 02, 2011 10:08 AMTo: Nick Caton; ?mer Moltay; equest-users at lists.onebuilding.orgSubject: RE: [Equest-users] Modelling Parking Garage Exhaust Combined withJetFans Please also note that if this is for a LEED project, one of the "default" review comments now for CO-based control of garage fans is that the design professional must demonstrate that this is not a "standard practice" for new base-building projects in the area.  I personally think this is a ridiculous comment, but regardless, be prepared to provide a list of new projects in the area that you've worked on that have not had CO-based control of the parking garage fans, otherwise you might have to include it in both the baseline and proposed models.  I would love to hear how other people have addressed this comment. GHT LimitedJames Hansen, P.E., LEED AP  From: bldg-sim-bounces at lists.onebuilding.org [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Fred Betz
+Sent: Wednesday, November 28, 2012 9:02 AM
+To: Quitadamo, Bob; D?nal O'Connor; Building Sim Forum
+Subject: Re: [Bldg-sim] How to Model Parkade CO2 Levels for Exhaust Requirements Donal, Yes, the fans are controlled based on CO, not CO2.  You would just create different schedules for the exhaust. The baseline is constant flow during the occupied hours plus 1 hr before and after occupancy to capture people arriving early and leaving late. ASHRAE 62.1 requires 0.75 cfm/ft2 of outside air flow. You?ll have to determine what flow rate your local code requires.  For the proposed model, create a new air flow schedule that gets you approximately 80-95% energy savings. There are several reports online that provide these ranges. Look for the ones from building owners or researchers, not manufacturers that claim 98-99% savings. The 80-95% range is based on a number of studies of these systems, as the fans spend most of their time at minimum flow, ~0.15 cfm/ft2. In general, if the building operates many hours you?ll be closer to 95%, and 80% if the building operates few hours. I like to create a profile so I capture demand charges properly rather than a flat average curve. For an office space, you?d have peaks from 7-9, a bump from 12-1 for those people going out to lunch, and another peak from 4-6 as people go home. For a hospital parking garage I just modeled, I had peaks from 11pm - 1am, 7-8am, and 4-6pm to capture shift changes. You?ll have to decide what makes sense for your specific project.  Hope that makes sense.  Fred  P.S. CO demand control ventilation will be included in the Baseline model for ASHRAE 90.1-2010 per section  6.4.3.4.5 Enclosed Parking Garage Ventilation. Enjoy the model savings while it lasts!  Fred Betz  PhD., LEED AP 
+Sustainable Systems Analyst AEI | AFFILIATED ENGINEERS, INC.  
+5802 Research Park Blvd. | Madison, WI  53719
+
+P: 608.236.1175 | F: 608.238.2614  
+fbetz at aeieng.com  |  www.aeieng.com    From: Quitadamo, Bob [mailto:bquitadamo at RDKEngineers.com] 
+Sent: Tuesday, November 27, 2012 2:46 PM
+To: D?nal O'Connor; Building Sim Forum
+Subject: Re: [Bldg-sim] How to Model Parkade CO2 Levels for Exhaust Requirements Hi Donal, You?ll want to control outside air off CO (not CO2) in a parking garage and be sure the controls sequence utilize the correct ppm setpoints.  Generally there is a minimum ventilation/exhaust rate to maintain even when CO levels are in check for code compliance.  For modeling the system, a specific ventilation schedule correlating to expected usage of the car garage has worked for me in the past.  I would imagine similar schedules for this facility have been created for occupancy and lighting/plug loads. Regards, Bob Quitadamo  From: bldg-sim-bounces at lists.onebuilding.org [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of D?nal O'Connor
+Sent: Tuesday, November 27, 2012 9:55 AM
+To: Building Sim Forum
+Subject: [Bldg-sim] How to Model Parkade CO2 Levels for Exhaust Requirements Dear building-sim,I'm currently working on a LEED NC sports facility with an underground parkade for approximately 200 cars.The parkade exhaust system (100% OA) turns on if the CO2 levels detected in the parkade exceed a particular threshold. Has anybody modeled such a system? What assumptions can be made for the CO2 profile? As it is in a northern climate, I do not want to overestimate the usage of the system which would skew the heating energy required to heat the OA to the required supply temperature.Your help is greatly appreciated.ThanksDonal 		 	   		  
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121128/5ef860ae/attachment.htm>
+
+From S.Smith at ha-inc.com  Wed Nov 28 11:52:55 2012
+From: S.Smith at ha-inc.com (Stephen Smith)
+Date: Wed, 28 Nov 2012 14:52:55 -0500
+Subject: [Bldg-sim] HELP WANTED: Energy Modeler at H&A Architects & Engineers
+Message-ID: <6C8F8EAA77A623498E3FDE41EB52451D01308EF0@svexch2.haengineers.com>
+
+ 
+
+H&A. Advancing the built environment!
+
+H&A Architects & Engineers is a multi-disciplined, full-service
+consulting architectural and engineering firm with offices located in
+Richmond, VA; Virginia Beach, VA; and San Diego, CA.  At H&A we create a
+built environment that enables people to succeed!  Our core principles
+and strong focus on client relationships have us committed to providing
+groundbreaking answers for diverse and challenging questions.  Join H&A
+and you will become part of a team of innovative thinkers and some of
+the industry's most talented individuals.  Using cutting edge
+technologies, renewable energy systems, and an emphasis on quality we
+are designed for success! At H&A we are not just committed to enabling
+our clients to succeed... we are committed to our team succeeding by
+creating a friendly, yet challenging environment, offering competitive
+benefits, and developing talent through training and growth
+opportunities.
+
+H&A is seeking a qualified and self-motivated Energy Modeler to join our
+Building Sciences Studio.  H&A's Building Sciences Studio is a core
+interdisciplinary group of talented and skilled professionals with the
+experience and desire to provide high performance buildings around the
+world.  
+
+The ideal candidate will possess the ability to generate energy models
+for LEED, EPACT, and 10 CFR 433 compliance; complete LEED EAC1 template
+submissions; review plans, schedules, and controls; interact with
+multiple disciplines; and author reports and studies, while performing
+supervised research in areas related to energy modeling.  The ideal
+candidate will also have demonstrated interpersonal skills through
+experience interfacing with clients, engineers, architects and others of
+varying technical abilities, and must be able to work effectively within
+a team environment.
+
+Requirements:
+
+*         Bachelors degree in Mechanical Engineering 
+
+*         2+ years of energy modeling experience with the ability to
+interpret results and correlate to equipment designs 
+
+*         Experience in completion of LEED EAC1 templates 
+
+*         Experience with eQuest, Trace 700, EnergyPlus and/or IESVE 
+
+*         Proficiency in AutoCAD, Word, Excel, Outlook 
+
+*         Excellent written and verbal communication skills 
+
+*         U.S. Citizenship 
+
+ 
+
+Preferred:
+
+*         PE or EIT  
+
+*         LEED AP 
+
+*         BEMP
+
+ 
+
+Qualified candidates may apply online at
+http://www.ha-inc.com/careers/openings/. 
+
+Employer maintains a drug-free workplace!
+EOE, M/F, D/V
+
+ 
+
+
+Elizabeth A. Goetz, SPHR-CA 
+Associate 
+Human Resources Manager 
+
+H&A Architects & Engineers | www.ha-inc.com <http://www.ha-inc.com>  
+4880 Sadler Road, Suite 300, Glen Allen, Virginia 23060 
+d: (804) 521-7109 p: (804) 285-4171 f: (804) 217-9110 
+
+Richmond | San Diego | Virginia Beach | Denver
+
+Celebrating 65 Years of Service! 1947-2012 
+Follow Us: Twitter <http://twitter.com/#!/hainctweets>  | Facebook
+<http://www.facebook.com/HAArchitectsEngineers>  | LinkedIn
+<http://www.linkedin.com/company/h&a-architects-&-engineers>  
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20121128/565d2e61/attachment.htm>
+
+From elenisoulti at co2engineering.eu  Fri Nov 30 12:58:48 2012
+From: elenisoulti at co2engineering.eu (elenisoulti at co2engineering.eu)
+Date: Fri, 30 Nov 2012 20:58:48 +0000
+Subject: [Bldg-sim] International Climate Zone specification
+Message-ID: <20121130205848.95372ixdk9v0lp1k@webmail.co2engineering.eu>
+
+Dear all,
+
+I am using eQUEST for a project in Spain and I have used the weather  
+data from the EERE (Energy Efficiency & Renewable Energy) website. The  
+climate zone described in the weather file doesn't seem to agree with  
+the one I calculate according to the ASHRAE 90.1 description for  
+International climate zones, based on the precipitation levels. Has  
+anyone had any similar problems with weather data outside the US? Any  
+suggestions about dealing with this?
+
+Thank you in advance.
+
+Kind regards,
+
+Eleni
+
+-- 
+Eleni Soulti
+
+On behalf of
+
+CO2 Engineering
+
+Oficina Sevilla
+
+Cartuja - Edificio Marie Curie
+
+C/Leonardo da Vinci 18, Planta1 3?B
+
+41092 Sevilla | Espa?a
+
+T.             (0034) 679883055  
+begin_of_the_skype_highlighting&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(0034)  
+679883055&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end_of_the_skype_highlighting
+
+London Office
+
+17, Bishops Close
+
+E17 9RP London | UK
+
+T.             (0044) 7969235926  
+begin_of_the_skype_highlighting&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(0044)  
+7969235926&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end_of_the_skype_highlighting
+
+Oficina Huelva.
+
+Plaza Hermanos Costalero n? 2, 6? A
+
+21001 Huelva | Espa?a
+
+T.             (0034) 647143558  
+begin_of_the_skype_highlighting&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(0034)  
+647143558&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end_of_the_skype_highlighting
+
+w.   www.co2engineering.eu
+
+e.   elenisoulti at co2engineering.eu
+
+
+
+
+From Kristin.Field at nrel.gov  Fri Nov 30 13:18:35 2012
+From: Kristin.Field at nrel.gov (Field, Kristin)
+Date: Fri, 30 Nov 2012 14:18:35 -0700
+Subject: [Bldg-sim] DOE Commercial Reference Buildings in Recent EnergyPlus
+	versions
+In-Reply-To: <20121130205848.95372ixdk9v0lp1k@webmail.co2engineering.eu>
+References: <20121130205848.95372ixdk9v0lp1k@webmail.co2engineering.eu>
+Message-ID: <D1168E6C4207B742BFC631BD652B1E922D155645F9@MAILBOX1.nrel.gov>
+
+All,
+
+The DOE Commercial Reference Buildings website has some updates to include files compatible with the most recent version of EnergyPlus (7.2):
+
+http://www1.eere.energy.gov/buildings/commercial/ref_buildings.html
+
+A few other changes were made to the models, as well, as listed here:
+
+http://apps1.eere.energy.gov/buildings/publications/pdfs/commercial_initiative/refbldgs_changes_v40tov70.pdf
+
+The only changes between v1.4_7.0 and v1.4_7.2 were transitioning the models to the newer EnergyPlus version (that's why the document only lists "changes_v40tov70").  Also, the models were run in EnergyPlus v7.0, and you can find a table of EUI results here:
+
+http://apps1.eere.energy.gov/buildings/publications/pdfs/commercial_initiative/refbldgs_eui_tables_1-4_7-0.pdf
+
+Thanks to those that requested updates - we're glad you find the models useful!
+
+Kristin Field
+
+***********************************************************************
+Kristin M. Field
+Mechanical Engineer
+Electricity, Resources, and Building Systems Integration Center
+National Renewable Energy Laboratory
+15013 Denver West Pkwy., MS RSF 202
+Golden, CO  80401
+

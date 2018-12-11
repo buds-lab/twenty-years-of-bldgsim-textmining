@@ -1,0 +1,1550 @@
+From jfk at geopraxis.com  Wed Mar 30 17:31:11 2005
+From: jfk at geopraxis.com (John F. Kennedy)
+Date: Wed, 30 Mar 2005 17:31:11 -0800
+Subject: [bldg-sim] Web Application Energy Engineer Position Open
+Message-ID: <MDAEMON-F200503301938.AA3829531pd80000617252@gard.com>
+
+GeoPraxis, Inc., the industry leader in web-based building energy analysis
+tools, is looking for web application energy engineers. If you are an
+individual whose goals include applying your advanced programming knowledge
+to solve today's energy and resource issues, GeoPraxis is looking for you.
+We are extending the functionality of our Green Building Studio web service
+to better serve the architects and engineers using it. This web service
+provides immediate energy results using DOE-2 from within Autodesk's
+Architectural Desktop, Revit, and Building Systems applications as well as
+Graphisoft's ArchiCAD application.
+
+ 
+
+Responsibilities:
+
+Work with senior engineers to extend the capabilities of our Green Building
+Studio web service as well as work with and manage our partner developers.
+Provide assistance with our training and helpline. 
+
+ 
+
+Requirements (Minimum):
+
+Degreed engineer (BS or MS) or equivalent. Working knowledge of XML, XSLT,
+SOAP, C#, .NET, VB, JavaScript, SQL Server, Stored Procedures, MS Office,
+DOE-2.2, EnergyPlus and good oral and written communication skills. 
+
+ 
+
+Requirements (desired):
+
+Creative, open-minded, eager, excellent oral and written communications,
+experience in the building energy field, experience in the building design
+sector, and environmentally aware.
+
+ 
+
+Location: Petaluma, CA - San Francisco North Bay Wine Region.
+
+ 
+
+Email your resume (or a link to your resume, if available online), in XML
+(http://ns.hr-xml.org/2_0/HR-XML-2_0/SEP/Resume.pdf preferred), HTML, or MS
+Word attachment with "Web Application Energy Engineer" in the subject line
+to: resumes at geopraxis.com
+
+ 
+
+For more information on GeoPraxis you can visit http://www.geopraxis.com.
+For more information on the Green Building Studio you can visit
+http://www.greenbuildingstudio.com. 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050330/abd74b1c/attachment.htm>
+
+From kajalm at gmail.com  Wed Mar 30 12:28:08 2005
+From: kajalm at gmail.com (Kajal Mehta)
+Date: Wed, 30 Mar 2005 12:28:08 -0800
+Subject: [bldg-sim] Zone Split
+Message-ID: <MDAEMON-F200503301434.AA343478pd80000617008@gard.com>
+
+Hi all,
+
+In the detailed mode of V 3.54 eQUEST, I need to split a pre-existing
+zone in three
+zones. Is there any way of doing this?
+
+This zone has one space and several exterior/interior walls and window
+child components. So I basically need to create three spaces with
+relative components.
+
+Is there any easier way of doing this? Ideas/suggestions?
+Thanks in advance.
+
+Kajal Mehta
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From nburrows at EMEGroup.com  Tue Mar 29 08:24:44 2005
+From: nburrows at EMEGroup.com (Neville Burrows)
+Date: Tue, 29 Mar 2005 11:24:44 -0500
+Subject: [bldg-sim] Position Available
+Message-ID: <MDAEMON-F200503291029.AA2958296pd80000615239@gard.com>
+
+Engineer/Architect
+
+ 
+
+EME Group is seeking an engineer or architect to assist in our
+sustainable design and energy conservation services.  The successful
+candidate will be responsible for performing LEED(r) and energy
+conservation analysis, including DOE-2.1E building energy modeling, HVAC
+design and commissioning, detailed feasibility and technical assistance
+studies and energy audits in multifamily, commercial, institutional and
+educational buildings.  We are seeking a candidate to have LEED(r) and
+energy modeling knowledge as one of the firm's focus is based on green
+building design. Good written and oral skills required.  Positions are
+available in both the New York City and Albany offices.
+
+ 
+
+Email resumes to hr at emegroup.com.
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050329/fe93e343/attachment.htm>
+
+From hamnmegs at ozemail.com.au  Mon Mar 28 16:40:30 2005
+From: hamnmegs at ozemail.com.au (hamnmegs at ozemail.com.au)
+Date: Tue, 29 Mar 2005 10:40:30 +1000
+Subject: [bldg-sim] DOE2.2-How to link two different systems to the same thermal zone?
+Message-ID: <MDAEMON-F200503281846.AA4656218pd80000614462@gard.com>
+
+The latest version of DOE-2.2 (and I assume EQuest) allows the FC and SZRH systems to have "intermittent" indoor fan operation (ie. fans do not run when the zone is in deadband).  Check out the DOE22Vol6-NewFeatures40-44.PDF document in the DOE-2.2 downloads area of DOE2.COM.
+
+I haven't tried this new capability, but it would appear to allow exactly what you would like when combined with the OA-FROM-SYSTEM - outdoor air system on a common schedule with zone FCUs independently scheduled.  You may need to play with the outdoor air system type as different systems respond differently to the no load dummy zone.
+
+Regards,
+Graham
+
+----- Original Message ----- 
+From: "Pedro Rodrigo" <pedromanuelrc at yahoo.es>
+To: <bldg-sim at gard.com>
+Cc: <pedromanuelrc at yahoo.es>
+Sent: Tuesday, March 29, 2005 5:59 AM
+Subject: [bldg-sim] DOE2.2-How to link two different systems to the same
+thermal zone?
+
+
+> Thank you Mike, I agree the best way to solve the
+> problem is to be creative.
+>
+> The building we are dealing with has a very random use
+> (it has university departments, research laboratories
+> and teachers offices), and we are trying to implement
+> HVAC control strategies that may be able to change
+> plant operation and setpoints taking into account the
+> actual demand of the users. When we will get a
+> validated model of the building, we will programme
+> control algorithms and try them with changing
+> end-users conditions.
+>
+> We are thinking in modeling for example five different
+> fancoils so that if we want a 20% of use we will
+> schedule one fancoil ON, if we want a 40% of use we
+> will schedule two fancoils ON, ... The problem is that
+> the number of thermal zones will be multiplied by five
+> and that could affect the application performance.
+>
+> Do you think it's a good idea?
+>
+> Thanks in advance,
+> Pedro Rodrigo
+> University of Jaen
+>
+>  --- Mike Tillou <miket at etcgrp.com> escribi?:
+> >
+> >
+> > I think Justins approach is the way to go in this
+> > situation.  DOE 2.2 can't model what you want to do
+> > exactly so you have to get creative.  Just remember
+> > to calibrate the model carefully and be sure the
+> > results match what you see in the field.
+> >
+> > The newest version of equest, v3.54, has changed how
+> > the OA-FROM-SYSTEM keyword works so that OA
+> > flowrates can be based on hourly zone requirements
+> > (variable OA) rather than simply providing a fixed
+> > volume of OA.
+> >
+> > As far as determining how to model the fan coils,
+> > try doing some data logging to create a load profile
+> > of when and how the various FC operate.  If there is
+> > a central elec panel that all the fan coils  are
+> > served from you could monitor how the load on the
+> > panel changes throughout the day.  That should give
+> > you a good indication of the percentage of fans that
+> > run at any given time.
+> >
+> >
+> > Good luck,
+> >
+> > Mike Tillou, PE
+> > etc Group, Inc
+> >
+> >
+> > -----Original Message-----
+> > From: postman at gard.com [mailto:postman at gard.com] On
+> > Behalf Of Justin Harrell
+> > Sent: Monday, March 28, 2005 11:02 AM
+> > To: bldg-sim at gard.com
+> > Cc: pedromanuelrc at yahoo.es
+> > Subject: [bldg-sim] DOE2.2-How to link two different
+> > systems to the same thermal zone?
+> >
+> >
+> > I have recently modeled (in eQUEST) a building with
+> > a similar situation in which laboratory zones with
+> > fume hood exhaust had a central make-up air system
+> > in addition to multiple water-loop heat pump units.
+> > The make-up air was 100% OA and conditioned to a
+> > neutral temperature by a chilled water coil and gas
+> > furnace.  In order to simulate this I created a
+> > dummy zone, maintained at 75F supplied by the
+> > make-up air system.  The laboratory zones were
+> > specified with their own water-loop heat pumps and
+> > zone thermostats.  In the WLHP systems I specified
+> > OA-FROM-SYSTEM to come from the make-up air system
+> > with a fixed CFM because the make-up air had a
+> > constant volume supply.  This forced the WLHPs to
+> > have their fans ON at all times, so I moved the WLHP
+> > fan energy into the cooling and heating EIRs so that
+> > the fans could run for free for the OA.  In the real
+> > building, the WLHP fans run only when the compressor
+> > is running. This may not have been the best
+> > solution, but it gave pretty good results.
+> >
+> > Perhaps you could do something similar by moving the
+> > reheat coil energy either into the central system,
+> > or into the FC systems, and using the OA-FROM-SYSTEM
+> > keyword.  As far as I know, there is no way to
+> > simulate this situation directly.  The best
+> > work-around will depend on how your systems are
+> > controlled and what ECMs you want to simulate.
+> >
+> > Justin Harrell
+> > Southern Illinois University Carbondale
+> >
+> > ---------Included Message----------
+> > >Date: 28-Mar-2005 05:48:25 -0600
+> > >From: "Pedro Rodrigo" <pedromanuelrc at yahoo.es>
+> > >Reply-To: <pedromanuelrc at yahoo.es>
+> > >To: <bldg-sim at gard.com>
+> > >Subject: [bldg-sim] DOE2.2-How to link two
+> > different systems to the
+> > >same thermal zone?
+> > >
+> > >Hello all!
+> > >I belong to a team of researchers in the University
+> > of
+> > >Jaen, Spain. It would be very useful for us if you
+> > >could
+> > >tell us your opinion about a little DOE2-related
+> > >question.
+> > >We are simulating a real (yet existing) multi-zone
+> > >building in eQuest. The problem is that we have two
+> > >kinds of terminal units operating together in each
+> > >zone: i) a two-pipe air handler unit (with outside
+> > air
+> > >dampers) and ii) several two-pipe fan-coils. The
+> > AHU
+> > >provides a primary flow of 21?C set conditioned
+> > air.
+> > >Users in different rooms served by the same AHU,
+> > >operate on/off and set room temperature via the
+> > >individual fan-coils.
+> > >We have realized that it?s not possible to link two
+> > >different systems (i.e. SZR + FC) to the same
+> > thermal
+> > >zone in DOE2 (only one is allowed). How could we
+> > model
+> > >this building without increasing too much the
+> > number
+> > >of thermal zones? And how could we schedule the
+> > >operation of the individual fancoils, for example
+> > >20%-On, 40%-On, 60$-On,...? (We have up to 50
+> > fan-coil
+> > >units working together with a single AHU).
+> > >Thanks in advance,
+> > >Regards,
+> > >Pedro Rodrigo
+> > >University of Jaen
+> > >
+> > >
+> > >
+> > >______________________________________________
+> > >Renovamos el Correo Yahoo!: ?250 MB GRATIS!
+> > >Nuevos servicios, m?s seguridad
+> > >http://correo.yahoo.es
+> > >
+> >
+> >======================================================
+> > >You received this e-mail because you are subscribed
+> > >to the BLDG-SIM at GARD.COM mailing list.  To
+> > unsubscribe
+> > >from this mailing list send a blank message to
+> > >BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> > >
+> > >
+> > >
+> > ---------End of Included Message----------
+> >
+> >
+> >
+> >
+> ======================================================
+> > You received this e-mail because you are subscribed
+> > to the BLDG-SIM at GARD.COM mailing list.  To
+> > unsubscribe
+> > from this mailing list send a blank message to
+> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> >
+> >
+> >
+> =====================================================You
+> > received this e-mail because you are subscribed
+> > to the BLDG-SIM at GARD.COM mailing list.  To
+> > unsubscribe
+> > from this mailing list send a blank message to
+> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> >
+> >
+>
+>
+>
+> ______________________________________________
+> Renovamos el Correo Yahoo!: ?250 MB GRATIS!
+> Nuevos servicios, m?s seguridad
+> http://correo.yahoo.es
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+
+
+This message was sent through MyMail http://www.mymail.com.au
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From pedromanuelrc at yahoo.es  Mon Mar 28 11:59:03 2005
+From: pedromanuelrc at yahoo.es (Pedro Rodrigo)
+Date: Mon, 28 Mar 2005 21:59:03 +0200 (CEST)
+Subject: [bldg-sim] DOE2.2-How to link two different systems to the same thermal zone?
+In-Reply-To: <MDAEMON-F200503281307.AA0709468pd80000624608@gard.com>
+Message-ID: <MDAEMON-F200503281405.AA0527140pd80000614120@gard.com>
+
+Thank you Mike, I agree the best way to solve the
+problem is to be creative.
+
+The building we are dealing with has a very random use
+(it has university departments, research laboratories
+and teachers offices), and we are trying to implement
+HVAC control strategies that may be able to change
+plant operation and setpoints taking into account the
+actual demand of the users. When we will get a
+validated model of the building, we will programme
+control algorithms and try them with changing
+end-users conditions.
+
+We are thinking in modeling for example five different
+fancoils so that if we want a 20% of use we will
+schedule one fancoil ON, if we want a 40% of use we
+will schedule two fancoils ON, ... The problem is that
+the number of thermal zones will be multiplied by five
+and that could affect the application performance.
+
+Do you think it's a good idea?
+
+Thanks in advance,
+Pedro Rodrigo
+University of Jaen
+
+ --- Mike Tillou <miket at etcgrp.com> escribi?: 
+> 
+> 
+> I think Justins approach is the way to go in this
+> situation.  DOE 2.2 can't model what you want to do
+> exactly so you have to get creative.  Just remember
+> to calibrate the model carefully and be sure the
+> results match what you see in the field.
+> 
+> The newest version of equest, v3.54, has changed how
+> the OA-FROM-SYSTEM keyword works so that OA
+> flowrates can be based on hourly zone requirements
+> (variable OA) rather than simply providing a fixed
+> volume of OA.
+> 
+> As far as determining how to model the fan coils,
+> try doing some data logging to create a load profile
+> of when and how the various FC operate.  If there is
+> a central elec panel that all the fan coils  are
+> served from you could monitor how the load on the
+> panel changes throughout the day.  That should give
+> you a good indication of the percentage of fans that
+> run at any given time.    
+>   
+> 
+> Good luck,
+> 
+> Mike Tillou, PE
+> etc Group, Inc
+> 
+> 
+> -----Original Message-----
+> From: postman at gard.com [mailto:postman at gard.com] On
+> Behalf Of Justin Harrell
+> Sent: Monday, March 28, 2005 11:02 AM
+> To: bldg-sim at gard.com
+> Cc: pedromanuelrc at yahoo.es
+> Subject: [bldg-sim] DOE2.2-How to link two different
+> systems to the same thermal zone?
+> 
+> 
+> I have recently modeled (in eQUEST) a building with
+> a similar situation in which laboratory zones with
+> fume hood exhaust had a central make-up air system
+> in addition to multiple water-loop heat pump units. 
+> The make-up air was 100% OA and conditioned to a
+> neutral temperature by a chilled water coil and gas
+> furnace.  In order to simulate this I created a
+> dummy zone, maintained at 75F supplied by the
+> make-up air system.  The laboratory zones were
+> specified with their own water-loop heat pumps and
+> zone thermostats.  In the WLHP systems I specified
+> OA-FROM-SYSTEM to come from the make-up air system
+> with a fixed CFM because the make-up air had a
+> constant volume supply.  This forced the WLHPs to
+> have their fans ON at all times, so I moved the WLHP
+> fan energy into the cooling and heating EIRs so that
+> the fans could run for free for the OA.  In the real
+> building, the WLHP fans run only when the compressor
+> is running. This may not have been the best
+> solution, but it gave pretty good results.
+> 
+> Perhaps you could do something similar by moving the
+> reheat coil energy either into the central system,
+> or into the FC systems, and using the OA-FROM-SYSTEM
+> keyword.  As far as I know, there is no way to
+> simulate this situation directly.  The best
+> work-around will depend on how your systems are
+> controlled and what ECMs you want to simulate.
+> 
+> Justin Harrell
+> Southern Illinois University Carbondale
+> 
+> ---------Included Message----------
+> >Date: 28-Mar-2005 05:48:25 -0600
+> >From: "Pedro Rodrigo" <pedromanuelrc at yahoo.es>
+> >Reply-To: <pedromanuelrc at yahoo.es>
+> >To: <bldg-sim at gard.com>
+> >Subject: [bldg-sim] DOE2.2-How to link two
+> different systems to the 
+> >same thermal zone?
+> >
+> >Hello all!
+> >I belong to a team of researchers in the University
+> of
+> >Jaen, Spain. It would be very useful for us if you
+> >could
+> >tell us your opinion about a little DOE2-related
+> >question.
+> >We are simulating a real (yet existing) multi-zone
+> >building in eQuest. The problem is that we have two
+> >kinds of terminal units operating together in each
+> >zone: i) a two-pipe air handler unit (with outside
+> air
+> >dampers) and ii) several two-pipe fan-coils. The
+> AHU
+> >provides a primary flow of 21?C set conditioned
+> air.
+> >Users in different rooms served by the same AHU,
+> >operate on/off and set room temperature via the
+> >individual fan-coils.
+> >We have realized that it?s not possible to link two
+> >different systems (i.e. SZR + FC) to the same
+> thermal
+> >zone in DOE2 (only one is allowed). How could we
+> model
+> >this building without increasing too much the
+> number
+> >of thermal zones? And how could we schedule the
+> >operation of the individual fancoils, for example
+> >20%-On, 40%-On, 60$-On,...? (We have up to 50
+> fan-coil
+> >units working together with a single AHU).
+> >Thanks in advance,
+> >Regards,
+> >Pedro Rodrigo
+> >University of Jaen
+> >
+> >
+> >		
+> >______________________________________________
+> >Renovamos el Correo Yahoo!: ?250 MB GRATIS! 
+> >Nuevos servicios, m?s seguridad 
+> >http://correo.yahoo.es
+> >
+>
+>======================================================
+> >You received this e-mail because you are subscribed
+> >to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> >from this mailing list send a blank message to 
+> >BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> >
+> >
+> >
+> ---------End of Included Message----------
+> 
+> 
+> 
+>
+======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+>
+=====================================================You
+> received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+>  
+
+
+		
+______________________________________________ 
+Renovamos el Correo Yahoo!: ?250 MB GRATIS! 
+Nuevos servicios, m?s seguridad 
+http://correo.yahoo.es
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From miket at etcgrp.com  Mon Mar 28 11:07:21 2005
+From: miket at etcgrp.com (Mike Tillou)
+Date: Mon, 28 Mar 2005 12:07:21 -0700
+Subject: [bldg-sim] DOE2.2-How to link two different systems to the same thermal zone?
+Message-ID: <MDAEMON-F200503281307.AA0707937pd80000613957@gard.com>
+
+
+
+I think Justins approach is the way to go in this situation.  DOE 2.2 can't model what you want to do exactly so you have to get creative.  Just remember to calibrate the model carefully and be sure the results match what you see in the field.
+
+The newest version of equest, v3.54, has changed how the OA-FROM-SYSTEM keyword works so that OA flowrates can be based on hourly zone requirements (variable OA) rather than simply providing a fixed volume of OA.
+
+As far as determining how to model the fan coils, try doing some data logging to create a load profile of when and how the various FC operate.  If there is a central elec panel that all the fan coils  are served from you could monitor how the load on the panel changes throughout the day.  That should give you a good indication of the percentage of fans that run at any given time.    
+  
+
+Good luck,
+
+Mike Tillou, PE
+etc Group, Inc
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Justin Harrell
+Sent: Monday, March 28, 2005 11:02 AM
+To: bldg-sim at gard.com
+Cc: pedromanuelrc at yahoo.es
+Subject: [bldg-sim] DOE2.2-How to link two different systems to the same thermal zone?
+
+
+I have recently modeled (in eQUEST) a building with a similar situation in which laboratory zones with fume hood exhaust had a central make-up air system in addition to multiple water-loop heat pump units.  The make-up air was 100% OA and conditioned to a neutral temperature by a chilled water coil and gas furnace.  In order to simulate this I created a dummy zone, maintained at 75F supplied by the make-up air system.  The laboratory zones were specified with their own water-loop heat pumps and zone thermostats.  In the WLHP systems I specified OA-FROM-SYSTEM to come from the make-up air system with a fixed CFM because the make-up air had a constant volume supply.  This forced the WLHPs to have their fans ON at all times, so I moved the WLHP fan energy into the cooling and heating EIRs so that the fans could run for free for the OA.  In the real building, the WLHP fans run only when the compressor is running. This may not have been the best solution, but it gave pretty good results.
+
+Perhaps you could do something similar by moving the reheat coil energy either into the central system, or into the FC systems, and using the OA-FROM-SYSTEM keyword.  As far as I know, there is no way to simulate this situation directly.  The best work-around will depend on how your systems are controlled and what ECMs you want to simulate.
+
+Justin Harrell
+Southern Illinois University Carbondale
+
+---------Included Message----------
+>Date: 28-Mar-2005 05:48:25 -0600
+>From: "Pedro Rodrigo" <pedromanuelrc at yahoo.es>
+>Reply-To: <pedromanuelrc at yahoo.es>
+>To: <bldg-sim at gard.com>
+>Subject: [bldg-sim] DOE2.2-How to link two different systems to the 
+>same thermal zone?
+>
+>Hello all!
+>I belong to a team of researchers in the University of
+>Jaen, Spain. It would be very useful for us if you
+>could
+>tell us your opinion about a little DOE2-related
+>question.
+>We are simulating a real (yet existing) multi-zone
+>building in eQuest. The problem is that we have two
+>kinds of terminal units operating together in each
+>zone: i) a two-pipe air handler unit (with outside air
+>dampers) and ii) several two-pipe fan-coils. The AHU
+>provides a primary flow of 21?C set conditioned air.
+>Users in different rooms served by the same AHU,
+>operate on/off and set room temperature via the
+>individual fan-coils.
+>We have realized that it?s not possible to link two
+>different systems (i.e. SZR + FC) to the same thermal
+>zone in DOE2 (only one is allowed). How could we model
+>this building without increasing too much the number
+>of thermal zones? And how could we schedule the
+>operation of the individual fancoils, for example
+>20%-On, 40%-On, 60$-On,...? (We have up to 50 fan-coil
+>units working together with a single AHU).
+>Thanks in advance,
+>Regards,
+>Pedro Rodrigo
+>University of Jaen
+>
+>
+>		
+>______________________________________________
+>Renovamos el Correo Yahoo!: ?250 MB GRATIS! 
+>Nuevos servicios, m?s seguridad 
+>http://correo.yahoo.es
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+>
+---------End of Included Message----------
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From harrell at siu.edu  Mon Mar 28 08:02:28 2005
+From: harrell at siu.edu (Justin Harrell)
+Date: Mon, 28 Mar 2005 10:02:28 -0600
+Subject: [bldg-sim] DOE2.2-How to link two different systems to the same thermal zone?
+In-Reply-To: <MDAEMON-F200503280538.AA3853187pd80000621969@gard.com>
+Message-ID: <MDAEMON-F200503281008.AA085262pd80000613691@gard.com>
+
+I have recently modeled (in eQUEST) a building with a similar situation in which laboratory zones
+with fume hood exhaust had a central make-up air system in addition to multiple water-loop heat pump
+units.  The make-up air was 100% OA and conditioned to a neutral temperature by a chilled water coil
+and gas furnace.  In order to simulate this I created a dummy zone, maintained at 75F supplied by
+the make-up air system.  The laboratory zones were specified with their own water-loop heat pumps
+and zone thermostats.  In the WLHP systems I specified OA-FROM-SYSTEM to come from the make-up air
+system with a fixed CFM because the make-up air had a constant volume supply.  This forced the WLHPs
+to have their fans ON at all times, so I moved the WLHP fan energy into the cooling and heating EIRs
+so that the fans could run for free for the OA.  In the real building, the WLHP fans run only when
+the compressor is running. This may not have been the best solution, but it gave pretty good results.
+
+Perhaps you could do something similar by moving the reheat coil energy either into the central
+system, or into the FC systems, and using the OA-FROM-SYSTEM keyword.  As far as I know, there is no
+way to simulate this situation directly.  The best work-around will depend on how your systems are
+controlled and what ECMs you want to simulate.
+
+Justin Harrell
+Southern Illinois University Carbondale
+
+---------Included Message----------
+>Date: 28-Mar-2005 05:48:25 -0600
+>From: "Pedro Rodrigo" <pedromanuelrc at yahoo.es>
+>Reply-To: <pedromanuelrc at yahoo.es>
+>To: <bldg-sim at gard.com>
+>Subject: [bldg-sim] DOE2.2-How to link two different systems to the same thermal zone?
+>
+>Hello all!
+>I belong to a team of researchers in the University of
+>Jaen, Spain. It would be very useful for us if you
+>could
+>tell us your opinion about a little DOE2-related
+>question.
+>We are simulating a real (yet existing) multi-zone
+>building in eQuest. The problem is that we have two
+>kinds of terminal units operating together in each
+>zone: i) a two-pipe air handler unit (with outside air
+>dampers) and ii) several two-pipe fan-coils. The AHU
+>provides a primary flow of 21?C set conditioned air.
+>Users in different rooms served by the same AHU,
+>operate on/off and set room temperature via the
+>individual fan-coils.
+>We have realized that it?s not possible to link two
+>different systems (i.e. SZR + FC) to the same thermal
+>zone in DOE2 (only one is allowed). How could we model
+>this building without increasing too much the number
+>of thermal zones? And how could we schedule the
+>operation of the individual fancoils, for example
+>20%-On, 40%-On, 60$-On,...? (We have up to 50 fan-coil
+>units working together with a single AHU).
+>Thanks in advance,
+>Regards,
+>Pedro Rodrigo
+>University of Jaen
+>
+>
+>		
+>______________________________________________ 
+>Renovamos el Correo Yahoo!: ?250 MB GRATIS! 
+>Nuevos servicios, m?s seguridad 
+>http://correo.yahoo.es
+>
+>======================================================
+>You received this e-mail because you are subscribed 
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+>
+---------End of Included Message----------
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From pedromanuelrc at yahoo.es  Mon Mar 28 03:32:26 2005
+From: pedromanuelrc at yahoo.es (Pedro Rodrigo)
+Date: Mon, 28 Mar 2005 13:32:26 +0200 (CEST)
+Subject: [bldg-sim] DOE2.2-How to link two different systems to the same thermal zone?
+Message-ID: <MDAEMON-F200503280538.AA3854328pd80000613431@gard.com>
+
+Hello all!
+I belong to a team of researchers in the University of
+Jaen, Spain. It would be very useful for us if you
+could
+tell us your opinion about a little DOE2-related
+question.
+We are simulating a real (yet existing) multi-zone
+building in eQuest. The problem is that we have two
+kinds of terminal units operating together in each
+zone: i) a two-pipe air handler unit (with outside air
+dampers) and ii) several two-pipe fan-coils. The AHU
+provides a primary flow of 21?C set conditioned air.
+Users in different rooms served by the same AHU,
+operate on/off and set room temperature via the
+individual fan-coils.
+We have realized that it?s not possible to link two
+different systems (i.e. SZR + FC) to the same thermal
+zone in DOE2 (only one is allowed). How could we model
+this building without increasing too much the number
+of thermal zones? And how could we schedule the
+operation of the individual fancoils, for example
+20%-On, 40%-On, 60$-On,...? (We have up to 50 fan-coil
+units working together with a single AHU).
+Thanks in advance,
+Regards,
+Pedro Rodrigo
+University of Jaen
+
+
+		
+______________________________________________ 
+Renovamos el Correo Yahoo!: ?250 MB GRATIS! 
+Nuevos servicios, m?s seguridad 
+http://correo.yahoo.es
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From VSami at lasarchitect.com  Fri Mar 25 12:06:06 2005
+From: VSami at lasarchitect.com (Vikram Sami)
+Date: Fri, 25 Mar 2005 15:06:06 -0500
+Subject: [bldg-sim] A question about exporting PV to the grid in eQUEST
+Message-ID: <MDAEMON-F200503251412.AA1231609pd80000611118@gard.com>
+
+Hi,
+I am trying to set up a PV system that  is grid tied. I have manages to set it up on the meter, and I tried to use a secondary meter (surplus meter) option with electric sale, but it doesnt seem tobe working. What am I missing? Is it possible to do this in eQUEST? Am I doing it right, but not looking at the right report for the output?
+ 
+eUEST has not developed help file for this yet, so I was hoping I could get some guidance for this
+ 
+Thanks
+ 
+Vikram Sami,  LEED AP 
+Direct Phone 404-253-1466 | Direct Fax  404-253-1366 
+
+LORD, AECK & SARGENT ARCHITECTURE
+Responsive Design * Technological Expertise * Exceptional Service 
+www.lordaecksargent.com 
+
+ 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050325/3e40e7b4/attachment.htm>
+
+From jeffhaberl at tees.tamus.edu  Fri Mar 25 09:13:26 2005
+From: jeffhaberl at tees.tamus.edu (Jeff Haberl)
+Date: Fri, 25 Mar 2005 11:13:26 -0600
+Subject: [bldg-sim] Green Roofs
+Message-ID: <MDAEMON-F200503251120.AA2015906pd80000610915@gard.com>
+
+Hello:
+
+I'm sorry for not doing this earlier, but I do not think that the
+current generation of simulation programs (i.e., DOE-2, BLAST,
+EnergyPlus) are capable of accounting for all the properties in at
+"green roof", which include moisture transport, adsorption, desorption,
+solar conversion by the plants, multispectral properties of the plant
+surfaces, transpiration, evaporation, etc. 
+
+Hence, I would be careful about the claims that one has "simulated a
+green roof" with any of these programs.  
+
+This area of study needs further work to define those properties that
+have a significant impact on the heat flux into the building through the
+roof. I would certainly think that the best place to start is for
+someone to offer up a literature search that points to some of the areas
+I've mentioned above.
+
+Jeff
+
+8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  8=()  8=)  8=|  8=)  :=')  8=)
+8=)  8=?
+
+Jeff S. Haberl, Ph.D.,
+P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office
+Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=)  :=)  8=)  8=!  8=)  8=?  8=)
+8=)  8=0 
+
+ 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cj at cr-jay.ca  Fri Mar 25 07:48:21 2005
+From: cj at cr-jay.ca (Chris Jones)
+Date: Fri, 25 Mar 2005 10:48:21 -0500
+Subject: [bldg-sim] Green Roofs
+In-Reply-To: <MDAEMON-F200502281059.AA5940421pd80000600505@gard.com>
+References: <MDAEMON-F200502281059.AA5940421pd80000600505@gard.com>
+Message-ID: <MDAEMON-F200503250949.AA4942421pd80000610757@gard.com>
+
+I finally got around to reading this interesting paper.  It is too bad that 
+someone didn't check the energy simulation results more closely.  In Table 
+1, Part 6, the total for the fourth row is incorrect.
+
+I am wondering about the assumed R-30 value for the "green roof" average 
+insulation value over the entire year.  If you examine the winter heat flux 
+diagrams, there difference in total flux for heating days is quite small 
+between the reference and green roofs.  I think that assuming an R-30 
+heating insulation value is too optimistic.
+
+In terms of heating, cooling, and heat island effects, and $cost how would 
+the green roof compare with an R-30 conventional roof with a low-emissivity 
+finish?
+
+
+At 11:53 28/02/2005, Ferguson, Alex wrote:
+>The Institute of Research and Construction (IRC, part of the National
+>Research Council of Canada) has conducted a fair amount of research in this
+>area. Much of this work, including hydrology modelling, experimental
+>investigations and Visual DOE simulations, is summarized in the following
+>report:
+>
+>http://irc.nrc-cnrc.gc.ca/fulltext/nrcc46737/
+>
+>...
+>Alex Ferguson
+>CANMET Energy Technology Centre
+>Natural Resources Canada
+>P:+1 613 995 3294
+>F:+1 613 996 9909
+>Alex.Ferguson at nrcan.gc.ca
+>
+>
+>
+>
+>-----Original Message-----
+>From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Brian Thornton
+>Sent: Monday, February 28, 2005 11:40
+>To: BLDG-SIM at GARD.COM
+>Subject: [BLDG-SIM] Green Roofs
+>
+>
+>
+>One issue with Green Roofs that has come up, is analyzing potential energy
+>savings benefits from evaporation, and plant evapo-transpiration.  There is
+>at least one program out there that apparently addresses this.
+>
+>1)       Are there opinions on whether these effects generate credible
+>supportable energy savings from typical green roof installations?
+>
+>2)       Does anyone know of a standard methodology that could be
+>incorporated in a broad energy simulation such as eQuest?
+>
+>3)       Has anyone received approval from USGBC or a utility incentive
+>program to claim energy savings from these effects, and if so what kind of
+>documentation was used?
+>
+>Thanks-Brian Thornton
+>
+>Thornton Energy Consulting
+>p. 503-231-6600 f. 503-231-3555
+>thorntonenergy at comcast.net
+>
+>
+>
+>
+>From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Nikhil Kapur
+>Sent: Tuesday, February 22, 2005 2:40 PM
+>To: BLDG-SIM at GARD.COM
+>Subject: [BLDG-SIM] Green Roofs
+>
+>Hi  Dan,
+>
+>You can use a reflectance of 0.70 or greater i.e. absorptance of 0.3 or less
+>for the roof. Also the effect of the U-value of the roof construction will
+>change so you will have to set a multiplier for the u-vlaue of the roof.
+>This can be referenced in the ASHRAE 90.1 - 1999 Users manual in the
+>Building Envelope section - page 5-20 table 5-E which gives the Roof
+>U-factor multipliers for the various climate zones.
+>
+>Regards,
+>
+>Nikhil
+>
+>
+>
+>Dan Sobrinski <sobrinski at econergy.net> wrote:
+>Hi,
+>
+>I am looking for some advice on modeling a green roofin Equest.
+>Specifically, what should I set Surface Roughnessand Ext. Color
+>(absort)too?  Are there any other parameters that need to be modified to
+>simulate a vegetated roofing system?
+>
+>Thanks in advance
+>
+>Dan Sobrinski, CEM, LEED AP
+>Associate Engineer
+>Econergy International Corporation
+>3825 Iris Avenue, Suite 350
+>Boulder, CO  80301
+>303-473-9007  voice
+>303-473-9060  fax
+>sobrinski at econergy.net
+>
+>
+>
+>Do you Yahoo!?
+>Yahoo! Search presents - Jib Jab's 'Second Term'
+>
+>=====================================================You received this
+>e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+Chris Jones, P.Eng.
+14 Oneida Avenue
+Toronto, ON M5J2E3
+Tel. 416 203-7465
+Fax. 416 946-1005 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From geraldpde at yahoo.com  Wed Mar 23 12:43:43 2005
+From: geraldpde at yahoo.com (Gerald Pde)
+Date: Wed, 23 Mar 2005 12:43:43 -0800 (PST)
+Subject: [bldg-sim] Guadalajara, Mexico Weather File
+In-Reply-To: 6667
+Message-ID: <MDAEMON-F200503231450.AA500515pd80000608292@gard.com>
+
+Hi All,
+Does anyone know where I could get a hand on weather
+file for Guadalahara, Mexico?
+Thanks,
+Gerald
+
+
+		
+__________________________________ 
+Do you Yahoo!? 
+Yahoo! Small Business - Try our new resources site!
+http://smallbusiness.yahoo.com/resources/ 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Tue Mar 22 08:00:23 2005
+From: jglazer at gard.com (Jason Glazer)
+Date: Tue, 22 Mar 2005 10:00:23 -0600
+Subject: [BLDG-SIM] EnergyPlus workshop - Sydney Australia
+Message-ID: <MDAEMON-F200503221006.AA0638875pd80000606669@gard.com>
+
+Posted for PC Thomas:
+
+To BLDG-SIM members
+---------------------------------
+
+Dru Crawley will be conducting a 2 day workshop at Faculty 
+of Design, Building and Architecture, at the University of 
+Technology, Sydney, Australia, on March 31 and April 1, 
+2005.  
+
+The workshop is for experienced simulators who are 
+interested in learning About Energy Plus.  Approximately 
+50% of the time is hands on.  Cost is $500 (plus GST for 
+companies) and includes slide handouts (450 or so) and 
+Lunch, teas for the 2 days. Should you be interested please 
+contact Kerryn to register. 
+
+Kerryn Stanton 
+Program Assistant, Architecture 
+Faculty of Design, Architecture and Building University of 
+Technology 
+Sydney PO Box 123, Broadway NSW 2007 
+PH: (02) 9514 8024,FAX: (02) 9514 8078 
+Email: Kerryn.Stanton at uts.edu.au  
+
+
+=========================================================
+Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From tianzhen9 at yahoo.com  Thu Mar 17 11:58:23 2005
+From: tianzhen9 at yahoo.com (Zhen Tian)
+Date: Thu, 17 Mar 2005 11:58:23 -0800 (PST)
+Subject: [BLDG-SIM] infiltration rate
+Message-ID: <MDAEMON-F200503171404.AA0438421pd80000601668@gard.com>
+
+Hello, everyone:
+ 
+I am simulating a building with air-conditioning system and openable windows with EnergyPlus.  The air conditioning syetem opens 24 hours a day, seven days a week. The windows are often opened in April to October and left open at night. This cause high reheating energy use at summer night becasue of the site is located in a cold area.  Right now, I am considering approximate this in my simulation model.  Could somebody tell me how to set up appropriate infiltration rate to approximate this phenomenon? or any reference?
+ 
+Any suggestion is appreciated.
+ 
+Thanks a lot.
+ 
+Regards,
+ 
+Zhen
+
+		
+---------------------------------
+Do you Yahoo!?
+ Yahoo! Small Business - Try our new resources site! 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050317/7bc1ce52/attachment.htm>
+
+From xiaobing.liu at okstate.edu  Tue Mar 15 09:59:58 2005
+From: xiaobing.liu at okstate.edu (Liu, Xiaobing)
+Date: Tue, 15 Mar 2005 11:59:58 -0600
+Subject: [BLDG-SIM] Experience of using eQUEST in designing HVAC system?
+Message-ID: <MDAEMON-F200503151206.AA0613296pd80000598884@gard.com>
+
+Dear BLDG_SIM users,
+
+Would you like to share your experience of using eQUEST in designing HVAC systems? Specifically, how do the heating and cooling loads calculated with eQUEST compared with those calculated with other energy analysis program such as E+, Esp-r, etc. Maybe more practically, how do the eQUEST calculated loads compared with those "rule of thumb"?
+
+I'm wondering whether anyone has done such kind of comparison. If there is such comparison available, could you please let me know where to find it? 
+
+Thanks in advance,
+
+Xiaobing
+
+ 
+
+
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050315/515d4072/attachment.htm>
+
+From larry at taz.tamu.edu  Mon Mar 14 15:15:10 2005
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Mon, 14 Mar 2005 17:15:10 -0600
+Subject: [BLDG-SIM] ** REMINDER ** Only 7-days left for IBPSA News articles.
+Message-ID: <MDAEMON-F200503141721.AA2138484pd80000597724@gard.com>
+
+This is a reminder that IBPSA News items are due by next Monday, 21
+March.  Please send in any news that relates to building simulation,
+especially if you've already indicated to me that you were planning to
+send in an article or an announcement.
+ 
+Thanks you.
+ 
+Larry D.   IBPSA News Chairperson
+===================================== 
+Larry O. Degelman, P.E.                  larry at taz.tamu.edu 
+Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+Texas A&M University
+College Station, TX 77845
+=====================================
+ 
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050314/6d68245a/attachment.htm>
+
+From thornton at tess-inc.com  Mon Mar 14 13:07:05 2005
+From: thornton at tess-inc.com (Jeff Thornton)
+Date: Mon, 14 Mar 2005 15:07:05 -0600
+Subject: [BLDG-SIM] experience with desuperheaters?
+In-Reply-To: <MDAEMON-F200503141213.AA135093pd80000611422@gard.com>
+References: <MDAEMON-F200503141213.AA135093pd80000611422@gard.com>
+Message-ID: <MDAEMON-F200503141522.AA2249484pd80000597548@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050314/5205cc3d/attachment.htm>
+
+From jra_sac at yahoo.com  Mon Mar 14 11:24:00 2005
+From: jra_sac at yahoo.com (John Aulbach)
+Date: Mon, 14 Mar 2005 11:24:00 -0800 (PST)
+Subject: [BLDG-SIM] why is energy simulation better?
+In-Reply-To: 6667
+Message-ID: <MDAEMON-F200503141330.AA3009281pd80000597390@gard.com>
+
+Dear Sir:
+
+May I say it is nice to converse with an individual in
+your country able to speak freely? I am glad to see we
+are now able to openly discuss things with individuals
+in your area of the world once again.
+
+As a side note, one of my best friends and colleagues
+(and a fellow simulation engineer) graduated from the
+University of Baghdad.
+
+My short take from 25 years of modeling experience is
+as follows:
+
+1) Models usually remember things that spreadsheets
+don't. As much effort as goes into spreadsheets, a
+model usually remembers to add or subtract energy use
+when changing from a baseline to Energy Conservation
+Measures (ECMs). Simplistic case - when lighting
+efficiency is improved, it adjusts the cooling load
+down and the heating load up.
+
+2) Models allow for more dynamics than a straight
+calculation. Especially with those using 8,760 hours
+of simulation, they account for building usage change,
+weather change, control system changes SIMULTANEOUSLY.
+Once you have built your model building, and given it
+instructions how to operate, any ECM modification will
+automatically be affected by any and all systems
+affected by that change.
+
+3) You can try more than one way to improve the
+building's and/or systems efficiency with a model.
+Assume you have a new building and you wish to
+investigate if a distribute packaged HVAC or a central
+plant system will be the best "bang for the buck".
+Once your building model is created, you can run
+either system through its paces, and compare the
+operating costs of each.
+
+4) Modeling allows building orientation changes,
+window/wall system changes, system changes, central
+versus distributed plant changes, and even
+cogeneration/thermal storage/gas-electric options to
+be evaluated on a "level playing field". And a good
+simulation program will remember to add components to
+systems you may forget (pumps, crankcase heaters, and
+the like).
+
+5) For MY money, models are usually easier to follow
+that massive spreadsheet calculation. Model inputs are
+logically ordered, so one can see what the inputs are
+clearly. And they don't have to be all on one page.
+
+Spreadsheets usually have hidden formulae and take
+information from several other spreadsheets. You
+REALLY have to follow the bouncing ball to keep up
+with spreadsheet logic.
+
+So that is my two cents...
+
+
+__________________________________________________
+Do You Yahoo!?
+Tired of spam?  Yahoo! Mail has the best spam protection around 
+http://mail.yahoo.com 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From thorntonenergy at comcast.net  Mon Mar 14 10:07:07 2005
+From: thorntonenergy at comcast.net (Brian Thornton)
+Date: Mon, 14 Mar 2005 10:07:07 -0800
+Subject: [BLDG-SIM] experience with desuperheaters?
+Message-ID: <MDAEMON-F200503141213.AA1325234pd80000597243@gard.com>
+
+Subject: Desuperheaters to recover heat from refrigerant superheat for
+packaged equipment including WSHPs and GSHPs
+
+ 
+
+Can anyone share experience with the benefits, downsides, and
+cost-effectiveness of desuperheaters.
+
+ 
+
+How about anything on analyzing/modeling the energy recovery?
+
+ 
+
+Thanks-Brian Thornton
+
+ 
+
+Thornton Energy Consulting
+
+p. 503-231-6600 f. 503-231-3555
+
+thorntonenergy at comcast.net
+
+ 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050314/9103c2df/attachment.htm>
+
+From arch_mohammeds at yahoo.com  Mon Mar 14 07:20:04 2005
+From: arch_mohammeds at yahoo.com (mohammed samier)
+Date: Mon, 14 Mar 2005 07:20:04 -0800 (PST)
+Subject: [BLDG-SIM] why is energy simulation better?
+Message-ID: <MDAEMON-F200503140926.AA2612875pd80000597012@gard.com>
+
+hi
+i am a user of energy plus
+someone asked me a question which was, "what makes energy simulation(in general) better than other calculation programs ?"...frankly i couldnt find a good answer for it .. i just know it is better that is all !! but could anyone tell me why it is better?....what is the mean difference between these two programs? 
+thanks for helping me
+mohammed s. khaylani
+msc student
+U.O.T /ARCH. Dep.
+baghdad
+iraq
+
+__________________________________________________
+Do You Yahoo!?
+Tired of spam?  Yahoo! Mail has the best spam protection around 
+http://mail.yahoo.com 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050314/50fa6bd2/attachment.htm>
+
+From thong at archenergy.com  Thu Mar 10 08:40:48 2005
+From: thong at archenergy.com (Tianzhen Hong)
+Date: Thu, 10 Mar 2005 08:40:48 -0800
+Subject: [BLDG-SIM] Second Announcement: VisualDOE 4 and LEED Training Seminar on April 20-22, 2005 in San Francisco
+Message-ID: <MDAEMON-F200503101047.AA4701781pd80000592668@gard.com>
+
+
+Architectural Energy Corporation is pleased to announce a VisualDOE 4.0
+and LEED training seminar on April 20-22, 2005 in San Francisco.
+
+The seminar includes two days focused on DOE-2.1E, the VisualDOE
+interface, VisualDOE 4.0 new features, and general energy simulation
+skills. The third day covers LEED energy savings calculations for green
+buildings. The LEED module covers LEED-NC 2.1 as well as proposed
+calculation methods for LEED-NC 2.2.
+
+No prior energy modeling experience is required, but a good
+understanding of building systems is very helpful.
+
+VisualDOE 4.0 is available at a discount to training attendees.  However
+a free one-month license for VisualDOE 4.0 is included with the
+training.
+
+For questions, please contact us via email vdoetraining at archenergy.com
+or phone (415) 957-1977 ext 111.
+
+Seats are limited, to register or get more training information, please
+go to http://www.archenergy.com/products/visualdoe/training/
+
+
+
+VisualDOE Training Team
+Architectural Energy Corporation
+142 Minna Street, Second Floor
+San Francisco, CA 94105
+Voice: (415) 957-1977
+Fax: (415) 957-1381
+Email: vdoetraining at archenergy.com
+Web: www.visualdoe.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bojic at knez.uis.kg.ac.yu  Fri Mar  4 12:39:20 2005
+From: bojic at knez.uis.kg.ac.yu (MB)
+Date: Fri, 4 Mar 2005 21:39:20 +0100
+Subject: [BLDG-SIM] Special session on BUILDING ENERGY SIMULATIONS
+References: <MDAEMON-F200503021740.AA404062pd80000604101@gard.com>
+Message-ID: <MDAEMON-F200503041442.AA4226187pd80000585455@gard.com>
+
+*Excuse for cross posting*
+
+Dear friends,
+
+Please note that the special session titled "Building energy simulations"
+will be organized at the Fifth IASTED International Conference on
+MODELLING, SIMULATION, AND OPTIMIZATION (MSO 2005) August 29-31, 2005,
+Oranjestad, Aruba: http://www.iasted.org/conferences/2005/aruba/mso.htm We
+would highly appreciate active participation (papers) of people that have
+research interest in building energy simulations.
+Please, kindly forward this message to your friends, colleagues and any
+other interested contacts and please do not hesitate to contact me for any
+inquiries you might have.
+
+Best regards
+
+Milorad Bojic
+===============================
+Prof. Milorad Bojic,
+B.Eng.,M.Sci, Dr.Tech. Sci., MASHRAE
+Faculty of Mechanical Engineering
+University of Kragujevac
+Sestre Janjic 6
+34000 Kragujevac
+Serbia and Montenegro
+Tel.Fax.+381-34-330196
+Email: bojic at kg.ac.yu
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From larry at taz.tamu.edu  Thu Mar  3 09:04:44 2005
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Thu, 3 Mar 2005 11:04:44 -0600
+Subject: [BLDG-SIM] Just 18 days left -- IBPSA NEWS
+Message-ID: <MDAEMON-F200503031112.AA1204359pd80000583740@gard.com>
+
+REMINDER:
+ 
+We need more news for IBPSA News, Vol. 15, No. 1.  Send photos, events,
+award notices, software news, new books, book reviews, conference
+announcements, training seminar notices.  You have until 21 March (one
+day beyond the Vernal Equinox) to get news items to me - just 18 days.
+ 
+Thanks!
+ 
+Larry Degelman, IBPSA News chairperson. 
+ 
+===================================== 
+Larry O. Degelman, P.E.                  larry at taz.tamu.edu 
+College Station, TX 77845
+=====================================
+ 
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050303/69fc82a9/attachment.htm>
+
+From bmunger at bhengineers.com  Wed Mar  2 15:35:09 2005
+From: bmunger at bhengineers.com (Bryce Munger)
+Date: Wed, 2 Mar 2005 15:35:09 -0800
+Subject: [BLDG-SIM] Commercial kitchen refrigeration equipment loads
+Message-ID: <MDAEMON-F200503021740.AA4045125pd80000582763@gard.com>
+
+Hi,
+
+I am looking for guidelines concerning the simulation of commercial
+refrigeration equipment and internal space gains.  I found  Table 5 on page
+29.10 of the 2001 ASHRAE Fundamentals, but the handbook values are for a
+single point in time i.e. when the equipment is actively running.  This is
+good for maximum gain and system sizing, but the equipment is not going to
+run at this level at all times  Does anyone have any scheduling information
+(documented) that can be used to modify the maximum for use with an hourly
+sim like eQuest?
+
+Bryce K. Munger
+Energy Analyst
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Balzhiser & Hubbard Engineers
+100 West 13th Avenue
+Eugene, OR 97401
+V: (541) 686-8478
+F: (541) 345-5303
+bmunger at bhengineers.com
+www.bhengineers.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

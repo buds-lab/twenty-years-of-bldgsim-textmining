@@ -1,0 +1,1633 @@
+From keirh at bluestoneenergy.com  Tue Aug 31 12:28:17 2004
+From: keirh at bluestoneenergy.com (Keir Howell)
+Date: Tue, 31 Aug 2004 15:28:17 -0400
+Subject: [BLDG-SIM] Modeling 100% OA VAV systems in eQuest (and new EQUEST/DOE-2 versions)
+References: <MDAEMON-F200408300710.AA1032500pd80000307872@gard.com> <MDAEMON-F200408301037.AA375262pd80000308400@gard.com> <MDAEMON-F200408311021.AA2143187pd80000313120@gard.com>
+Message-ID: <MDAEMON-F200408311434.AA3406343pd80000330439@gard.com>
+
+MessageThank you everyone for your suggestions. I was able to solve the problem with Mr. Hirsch's help. I will have to try out version 3.51. Sounds like some interesting and useful improvements have been made.
+
+Keir Howell
+Bluestone Energy Services, Inc.
+phone:    781-356-8865
+fax:    781-356-8864
+  ----- Original Message ----- 
+  From: Jeff Hirsch 
+  To: BLDG-SIM at gard.com 
+  Sent: Tuesday, August 31, 2004 11:18 AM
+  Subject: [BLDG-SIM] Modeling 100% OA VAV systems in eQuest (and new EQUEST/DOE-2 versions)
+
+
+  The problem being asked about arises due to the different uses of the
+  alternative methods available in eQUEST freeware (a MS Windows implementation
+  of DOE-2.2) to describe both the minimum outside air (OA) damper position
+  as well as the minimum flow fraction setting of the VAV boxes in each zone.  
+
+  The min-flow-ratio for a VAVS system (DOE-2 keyword found on the SYSTEM
+  properties sheet, fan tab, flow parameters sub tab in the eQUEST details mode
+  interface) is the minimum VAV box flow fraction for all boxes supplied by the "parent"
+  air handler for the zone; this value can be specified for each individual box or for
+  a system and thus "inherited" by all zone boxes supplied by the system. If not given
+  a value (min flow fraction control on the mentioned subtab) defaults to the larger of
+  the minimum ventilation requirement, the flow required to satisfy the zone peak heating
+  load heating, or other available minimum flow specifications (such as cfm/sqft, etc.)
+  In dual duct or dual fan dual duct VAV systems the boxes have many more controls
+  including separate heat/cool and overall box minimum flow; consult the DOE-2.2
+  dictionary (http://doe2.com/download/DOE-22/DOE22Vol2-Dictionary.pdf) or eQUEST
+  online help (although this is less complete and not as up to date) for more detail.
+
+  When the outside air fraction is set to 1 this is interpreted as a minimum ventilation
+  requirement and thus is found to be the maximum value of the various defaults for
+  the VAV box minimum flow value.  If the minimum cfm fraction is specified (on the
+  subtab mentioned above) rather than letting it default, the specified value will be used
+  for all ZONE VAV boxes in that SYSTEM.
+
+  For example, on the system properties sheet the fan tab and flow parameters sub tab,
+  you can place a value for min flow ratio, and that will become the min flow for all VAV
+  boxes on the SV-A report  ...
+  the hourly OA fraction will then be governed by the fraction of design vs. hourly values
+  choice on the system properties sheet outdoor air tab, outside air and economizer subtab.
+  If (on the same properties sheet fans /flow subtab) the min flow cfm/ft2 control is set instead,
+  you would still get OA=1 all hours because this is one of the values compared to the ventilation
+  to choose the maximum needed minimum box flow setting.  (I know the online help is a bit
+  dated and poorly worded ... we are trying to get funding to improve it ... but this information
+  is all there, just requires a bit of a careful read.)
+
+  By the way, the SV-A, and other DOE-2 reports are now easily examined: the eQUEST
+  version 3.51 freeware pre-release posted on http://DOE2.com/eQUEST/ has a new simulation
+  results details viewer that allows viewing of multiple .sim files with direct access to reports through
+  an index. This viewer can be used to view .sim results file produced by any version of DOE-2.2
+  freeware, but is best used with versions 43 and beyond due to fully uniform report headers (in those
+  versions) that the viewer uses to locate reports and error messages within a .sim file.
+
+  Version 3.51 of eQUEST has many other improvements to both the simulation engine and interface
+  including: a 5-10 times speed increase of project open and compliance simulation times, an first version
+  of a BDL error manager to view an error tree to assist in navigation to and fixing of model errors, and new DOE-2
+  simulation features that can be found documented (with other post version 40 additions) in Volume 6
+  of the DOE-2.2 documentation at
+         http://doe2.com/download/DOE-22/DOE22Vol6-NewFeatures.pdf
+
+  This is a pre-release to allow extensive public comment and review (followed by our fixing issues
+  identified) prior to the retirement of older versions; this version has been in wide use for some time
+  now (starting with version 3.50) and appears to be close to "ready for prime time."
+
+  Happy simulating ...
+
+  ---
+  Jeff Hirsch
+  James J. Hirsch & Associates
+  Building Performance Analysis Software & Consulting
+  12185 Presilla Road
+  Camarillo, CA 93012-9243 USA
+  phone: (805) 553-9000
+  fax: (805) 532-2401
+  email: Jeff.Hirsch at DOE2.com
+  web: http://DOE2.com
+
+
+    ----- Original Message ----- 
+    From: Keir Howell 
+    To: BLDG-SIM at gard.com 
+    Sent: Monday, August 30, 2004 8:25 AM
+    Subject: [BLDG-SIM] Modeling 100% OA VAV systems in eQuest
+
+
+    Hello. Whenever I try to model a VAV system with 100% OA in eQuest, I end up with a constant volume system. It seems to be multiplying the Minimum OA Ratio (which I have set at 1.00) by the design air flow, rather than the hourly air flow, even though I have set the Minimum OA Method to "Fraction of Hourly Flow". As far as I know, I have not set any other variables (such as zonal settings) that might override the system settings. Please help. Thanks,
+
+    Keir Howell
+    Bluestone Energy Services, Inc.
+    phone:    781-356-8865
+    fax:    781-356-8864
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+====================================================You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040831/bc7907cf/attachment.htm>
+
+From lirainer at davisenergy.com  Tue Aug 31 11:20:20 2004
+From: lirainer at davisenergy.com (Leo Rainer)
+Date: Tue, 31 Aug 2004 11:20:20 -0700
+Subject: [BLDG-SIM] metal bracing in wood construction
+In-Reply-To: <MDAEMON-F200408301723.AA2336359pd80000311405@gard.com>
+References: <MDAEMON-F200408301723.AA2336359pd80000311405@gard.com>
+Message-ID: <MDAEMON-F200408311323.AA2335437pd80000330304@gard.com>
+
+Smita,
+
+I suggest you take a look at the report that Enermodal did on residential 
+framing factors. The PIER funded part of the study is at:
+http://www.energy.ca.gov/pier/buildings/projects/400-00-002-0.html
+
+This is part of a national level study they did for ASHRAE. There should be 
+some data in there on the effect of various types of bracing.
+
+Regards,
+
+         Leo Rainer
+         Senior Engineer
+
+At 03:20 PM 8/30/04, Smita Gupta wrote:
+>Hi,
+>
+>I was looking for some information regarding the amount of metal bracing 
+>being used in wood stud wall construction for seismic reasons in 
+>California. Wanted to estimate the change in U-values becoz of the 
+>addition of steel to the wood construction and its impact on the energy 
+>performance. Would appreciate any references to source of such data, 
+>........and in the lack of, any anecdotal evidence of how much steel does 
+>typically get added to shear walls.
+>
+>Thanks a lot,
+>
+>Smita Gupta
+>Energy Analyst, LEED AP
+>
+>Buildings & Appliances Office
+>California Energy Commission
+>1516 Ninth St. MS 42
+>Sacramento, CA 95814
+>Phone: (916) 657-4034
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Jeff.Hirsch at DOE2.com  Tue Aug 31 08:18:54 2004
+From: Jeff.Hirsch at DOE2.com (Jeff Hirsch)
+Date: Tue, 31 Aug 2004 08:18:54 -0700
+Subject: [BLDG-SIM] Modeling 100% OA VAV systems in eQuest (and new EQUEST/DOE-2 versions)
+References: <MDAEMON-F200408300710.AA1032500pd80000307872@gard.com> <MDAEMON-F200408301037.AA375262pd80000308400@gard.com>
+Message-ID: <MDAEMON-F200408311021.AA2138781pd80000330106@gard.com>
+
+MessageThe problem being asked about arises due to the different uses of the
+alternative methods available in eQUEST freeware (a MS Windows implementation
+of DOE-2.2) to describe both the minimum outside air (OA) damper position
+as well as the minimum flow fraction setting of the VAV boxes in each zone.  
+
+The min-flow-ratio for a VAVS system (DOE-2 keyword found on the SYSTEM
+properties sheet, fan tab, flow parameters sub tab in the eQUEST details mode
+interface) is the minimum VAV box flow fraction for all boxes supplied by the "parent"
+air handler for the zone; this value can be specified for each individual box or for
+a system and thus "inherited" by all zone boxes supplied by the system. If not given
+a value (min flow fraction control on the mentioned subtab) defaults to the larger of
+the minimum ventilation requirement, the flow required to satisfy the zone peak heating
+load heating, or other available minimum flow specifications (such as cfm/sqft, etc.)
+In dual duct or dual fan dual duct VAV systems the boxes have many more controls
+including separate heat/cool and overall box minimum flow; consult the DOE-2.2
+dictionary (http://doe2.com/download/DOE-22/DOE22Vol2-Dictionary.pdf) or eQUEST
+online help (although this is less complete and not as up to date) for more detail.
+
+When the outside air fraction is set to 1 this is interpreted as a minimum ventilation
+requirement and thus is found to be the maximum value of the various defaults for
+the VAV box minimum flow value.  If the minimum cfm fraction is specified (on the
+subtab mentioned above) rather than letting it default, the specified value will be used
+for all ZONE VAV boxes in that SYSTEM.
+
+For example, on the system properties sheet the fan tab and flow parameters sub tab,
+you can place a value for min flow ratio, and that will become the min flow for all VAV
+boxes on the SV-A report  ...
+the hourly OA fraction will then be governed by the fraction of design vs. hourly values
+choice on the system properties sheet outdoor air tab, outside air and economizer subtab.
+If (on the same properties sheet fans /flow subtab) the min flow cfm/ft2 control is set instead,
+you would still get OA=1 all hours because this is one of the values compared to the ventilation
+to choose the maximum needed minimum box flow setting.  (I know the online help is a bit
+dated and poorly worded ... we are trying to get funding to improve it ... but this information
+is all there, just requires a bit of a careful read.)
+
+By the way, the SV-A, and other DOE-2 reports are now easily examined: the eQUEST
+version 3.51 freeware pre-release posted on http://DOE2.com/eQUEST/ has a new simulation
+results details viewer that allows viewing of multiple .sim files with direct access to reports through
+an index. This viewer can be used to view .sim results file produced by any version of DOE-2.2
+freeware, but is best used with versions 43 and beyond due to fully uniform report headers (in those
+versions) that the viewer uses to locate reports and error messages within a .sim file.
+
+Version 3.51 of eQUEST has many other improvements to both the simulation engine and interface
+including: a 5-10 times speed increase of project open and compliance simulation times, an first version
+of a BDL error manager to view an error tree to assist in navigation to and fixing of model errors, and new DOE-2
+simulation features that can be found documented (with other post version 40 additions) in Volume 6
+of the DOE-2.2 documentation at
+       http://doe2.com/download/DOE-22/DOE22Vol6-NewFeatures.pdf
+
+This is a pre-release to allow extensive public comment and review (followed by our fixing issues
+identified) prior to the retirement of older versions; this version has been in wide use for some time
+now (starting with version 3.50) and appears to be close to "ready for prime time."
+
+Happy simulating ...
+
+---
+Jeff Hirsch
+James J. Hirsch & Associates
+Building Performance Analysis Software & Consulting
+12185 Presilla Road
+Camarillo, CA 93012-9243 USA
+phone: (805) 553-9000
+fax: (805) 532-2401
+email: Jeff.Hirsch at DOE2.com
+web: http://DOE2.com
+
+
+  ----- Original Message ----- 
+  From: Keir Howell 
+  To: BLDG-SIM at gard.com 
+  Sent: Monday, August 30, 2004 8:25 AM
+  Subject: [BLDG-SIM] Modeling 100% OA VAV systems in eQuest
+
+
+  Hello. Whenever I try to model a VAV system with 100% OA in eQuest, I end up with a constant volume system. It seems to be multiplying the Minimum OA Ratio (which I have set at 1.00) by the design air flow, rather than the hourly air flow, even though I have set the Minimum OA Method to "Fraction of Hourly Flow". As far as I know, I have not set any other variables (such as zonal settings) that might override the system settings. Please help. Thanks,
+
+  Keir Howell
+  Bluestone Energy Services, Inc.
+  phone:    781-356-8865
+  fax:    781-356-8864
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040831/51894992/attachment.htm>
+
+From miket at etcgrp.com  Mon Aug 30 17:05:32 2004
+From: miket at etcgrp.com (Mike Tillou)
+Date: Mon, 30 Aug 2004 18:05:32 -0600
+Subject: [BLDG-SIM] Modeling 100% OA VAV systems in eQuest
+Message-ID: <MDAEMON-F200408301906.AA0607734pd80000329188@gard.com>
+
+Keir,
+I tried to reproduce your error but cannot get eQuest to simulate a VAV
+with 100% OA as a constant volume system.  Without seeing your input
+file I suggest the following:
+ 
+1. Check the version of eQuest you are using.  I used version 3.44 build
+2930 and had no problems.  Version 3.5 is also available but I haven't
+spent much time with it yet.
+ 
+2. I assume you have checked the hourly reports to verify the constant
+airflow.  If not run hourly reports to verify supply airflow rate and %
+OA.
+ 
+3. Check to be sure you're not using a minimum OA schedule.
+ 
+4. Verify that at the zone level you have reset all values for OA
+calculations to zero
+ 
+5. If you have manually entered a design CFM, it may not be large enough
+to meet the load and as a result the VAV is not modulating.  I suggest
+reseting the Design CFM to default and letting eQuest size the air-flow
+rate.  Another way to check this is to look at the SS-O reports.  If
+zone temp setpoint is not being met you will have a wide distribution of
+hours at different temp ranges.  This could happen if you have a large
+internal cooling load that isn't very sensitive to fluctuations in
+outdoor temperature.  
+ 
+6.  Try changing the minimum outside air ratio to 0.25 or some value
+other than 1.0, does the hourly supply air flow change?  It shouldn't
+change because supply air flow is dependent on the loads at the zone
+level.  
+ 
+Those are some of the things I would try to help understand what is
+going on.  It may be that the model is doing what it is supposed to.  
+ 
+I hope this helps.
+ 
+Mike
+ 
+ 
+Michael Tillou, PE
+etc Group, Inc.
+PO Box 7, Williamstown, MA 01267
+ph. (413) 458-9870 
+  
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Keir
+Howell
+Sent: Monday, August 30, 2004 11:26 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Modeling 100% OA VAV systems in eQuest
+
+
+Hello. Whenever I try to model a VAV system with 100% OA in eQuest, I
+end up with a constant volume system. It seems to be multiplying the
+Minimum OA Ratio (which I have set at 1.00) by the design air flow,
+rather than the hourly air flow, even though I have set the Minimum OA
+Method to "Fraction of Hourly Flow". As far as I know, I have not set
+any other variables (such as zonal settings) that might override the
+system settings. Please help. Thanks,
+ 
+Keir Howell
+Bluestone Energy Services, Inc.
+phone:    781-356-8865
+fax:    781-356-8864
+
+
+==================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040830/c49e5b87/attachment.htm>
+
+From Sgupta at energy.state.ca.us  Mon Aug 30 15:20:42 2004
+From: Sgupta at energy.state.ca.us (Smita Gupta)
+Date: Mon, 30 Aug 2004 15:20:42 -0700
+Subject: [BLDG-SIM] metal bracing in wood construction
+Message-ID: <MDAEMON-F200408301723.AA2335968pd80000329052@gard.com>
+
+Hi,
+
+I was looking for some information regarding the amount of metal bracing being used in wood stud wall construction for seismic reasons in California. Wanted to estimate the change in U-values becoz of the addition of steel to the wood construction and its impact on the energy performance. Would appreciate any references to source of such data, ........and in the lack of, any anecdotal evidence of how much steel does typically get added to shear walls.
+
+Thanks a lot,
+
+Smita Gupta
+Energy Analyst, LEED AP
+
+Buildings & Appliances Office
+California Energy Commission
+1516 Ninth St. MS 42
+Sacramento, CA 95814
+Phone: (916) 657-4034
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From sagerer at paonline.com  Mon Aug 30 11:29:39 2004
+From: sagerer at paonline.com (Sheila Sagerer)
+Date: Mon, 30 Aug 2004 14:29:39 -0400
+Subject: [BLDG-SIM] Modeling 100% OA VAV systems in eQuest
+In-Reply-To: <MDAEMON-F200408301118.AA1826703pd80000309726@gard.com>
+Message-ID: <MDAEMON-F200408301333.AA3302968pd80000328748@gard.com>
+
+MessageBelow I have inserted part of the eQuest help screen for the minimum
+OA schedule:
+
+Minimum Outside Air Schedule
+
+Specifies the ratio of minimum outside air flow to Supply Air Flow for each
+hour.
+
+If the value in the schedule is a fraction, this specifies the minimum
+outside air damper position as a ratio of the design supply air flow rate.
+In addition, this enables the economizer.
+
+Since the OA damper position is based on the system design flow, this
+definition explains why a schedule specifying 1.00 24/7 converts the VAV to
+a constant volume system.  I don't know if this would work but if I was you,
+I would first try to set the min OA ratio at 1.00 with the min OA method at
+"Fraction of Hourly Flow" and eliminate the OA schedule altogether.  Please
+let me know what you find.
+
+Thanks and Good Luck,
+
+Sheila Sagerer
+Energy Engineer, LEED AP
+Energy Opportunities, Inc
+Phone: 717-880-9069
+Fax: 717-291-9497
+
+
+
+
+
+  -----Original Message-----
+  From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Joe Hager
+  Sent: Monday, August 30, 2004 12:16 PM
+  To: BLDG-SIM at gard.com
+  Subject: [BLDG-SIM] Modeling 100% OA VAV systems in eQuest
+
+
+  I recently encountered this same issue.  I found out if I switched the
+system type to a Powered Induction Unit that the model would have variable
+flow.  Another place to look at is your thermostat type, some systems
+default to either proportional or reverse action which effects how VAV boxes
+respond to heating and cooling loads.
+
+  Joe Hager
+  DMI
+  450 Lexington St.
+  Newton, MA 02466
+  voice: 617-527-1525 ext. 102
+  fax: 617-527-6606
+    ----- Original Message -----
+    From: Keir Howell
+    To: BLDG-SIM at gard.com
+    Sent: Monday, August 30, 2004 11:25 AM
+    Subject: [BLDG-SIM] Modeling 100% OA VAV systems in eQuest
+
+
+    Hello. Whenever I try to model a VAV system with 100% OA in eQuest, I
+end up with a constant volume system. It seems to be multiplying the Minimum
+OA Ratio (which I have set at 1.00) by the design air flow, rather than the
+hourly air flow, even though I have set the Minimum OA Method to "Fraction
+of Hourly Flow". As far as I know, I have not set any other variables (such
+as zonal settings) that might override the system settings. Please help.
+Thanks,
+
+    Keir Howell
+    Bluestone Energy Services, Inc.
+    phone:    781-356-8865
+    fax:    781-356-8864
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040830/8ee0aa98/attachment.htm>
+
+From jhager at dmiinc.com  Mon Aug 30 09:15:41 2004
+From: jhager at dmiinc.com (Joe Hager)
+Date: Mon, 30 Aug 2004 12:15:41 -0400
+Subject: [BLDG-SIM] Modeling 100% OA VAV systems in eQuest
+References: <MDAEMON-F200408300710.AA1032500pd80000307872@gard.com> <MDAEMON-F200408301037.AA3754234pd80000308758@gard.com>
+Message-ID: <MDAEMON-F200408301118.AA1824875pd80000328567@gard.com>
+
+MessageI recently encountered this same issue.  I found out if I switched the system type to a Powered Induction Unit that the model would have variable flow.  Another place to look at is your thermostat type, some systems default to either proportional or reverse action which effects how VAV boxes respond to heating and cooling loads.
+
+Joe Hager
+DMI
+450 Lexington St.
+Newton, MA 02466
+voice: 617-527-1525 ext. 102
+fax: 617-527-6606 
+  ----- Original Message ----- 
+  From: Keir Howell 
+  To: BLDG-SIM at gard.com 
+  Sent: Monday, August 30, 2004 11:25 AM
+  Subject: [BLDG-SIM] Modeling 100% OA VAV systems in eQuest
+
+
+  Hello. Whenever I try to model a VAV system with 100% OA in eQuest, I end up with a constant volume system. It seems to be multiplying the Minimum OA Ratio (which I have set at 1.00) by the design air flow, rather than the hourly air flow, even though I have set the Minimum OA Method to "Fraction of Hourly Flow". As far as I know, I have not set any other variables (such as zonal settings) that might override the system settings. Please help. Thanks,
+
+  Keir Howell
+  Bluestone Energy Services, Inc.
+  phone:    781-356-8865
+  fax:    781-356-8864
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040830/bbfd3860/attachment.htm>
+
+From keirh at bluestoneenergy.com  Mon Aug 30 08:25:55 2004
+From: keirh at bluestoneenergy.com (Keir Howell)
+Date: Mon, 30 Aug 2004 11:25:55 -0400
+Subject: [BLDG-SIM] Modeling 100% OA VAV systems in eQuest
+References: <MDAEMON-F200408300710.AA1032500pd80000307872@gard.com>
+Message-ID: <MDAEMON-F200408301037.AA3754218pd80000328483@gard.com>
+
+MessageHello. Whenever I try to model a VAV system with 100% OA in eQuest, I end up with a constant volume system. It seems to be multiplying the Minimum OA Ratio (which I have set at 1.00) by the design air flow, rather than the hourly air flow, even though I have set the Minimum OA Method to "Fraction of Hourly Flow". As far as I know, I have not set any other variables (such as zonal settings) that might override the system settings. Please help. Thanks,
+
+Keir Howell
+Bluestone Energy Services, Inc.
+phone:    781-356-8865
+fax:    781-356-8864
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040830/56690824/attachment.htm>
+
+From mrzoeteman at FTCH.com  Mon Aug 30 05:07:22 2004
+From: mrzoeteman at FTCH.com (Zoeteman, Mark R.)
+Date: Mon, 30 Aug 2004 08:07:22 -0400
+Subject: [BLDG-SIM] ASHRAE 90.1 Energy Cost Budget Method
+Message-ID: <MDAEMON-F200408300710.AA1031484pd80000328220@gard.com>
+
+The purpose of ECBM is allow trade-offs like you describe.  The lighting
+may exceed prescriptive requirements (like in your case), but other
+building components would need to have better performance to bring the
+proposed building into compliance.  You would need to demonstrate
+compliance using a building energy simulation program described in
+section 11 of ASHRAE 90.1.
+Mark Zoeteman, P.E.
+FTC&H, Inc. 
+(616) 464-3739 
+mrzoeteman at ftch.com 
+
+	-----Original Message-----
+	From: Ketterer, Al [mailto:Al.Ketterer at benham.com] 
+	Sent: Saturday, August 28, 2004 9:27 AM
+	To: BLDG-SIM at gard.com
+	Subject: [BLDG-SIM] ASHRAE 90.1 Energy Cost Budget Method
+	
+	
+	Does anyone have any experience with using ASHRAE 90.1-2001 and
+proving compliance through the Energy Cost Budget Method? There's a
+statement in Section 11.3.8 that says lighting power in the proposed
+design shall be determined in accordance with section 9.3. Section 9.3
+gives the prescriptive path for determining lighting power allowance by
+both the building area method or the space by space method.
+	 
+	My question comes in, that for the building I am trying to prove
+compliance for, the actual lighting exceeds the lighting allowance,
+which for this building is 1.3 w/sf. The actual lighting is on the order
+of 2 to 2.25 w/sf. If I prove that the proposed building even with these
+higher lighting levels has a lower design energy cost than the budget
+building is the proposed building in compliance with ASHRAE 90.1? I take
+this to be a trade off, but the wording in section 11.3.8 confuses the
+issue. In the User's Manual for ASHRAE 90.1 under documentation
+compliance, it says that a written description of those energy features
+that either exceed the minimal requirements or that are less than the
+requirements must be documented. This shows the plan checker which items
+are involved in the trade-offs.
+	 
+
+	Albert E. Ketterer, PE
+	Senior Mechanical Engineer and Mechanical Discipline Manager
+
+	The Benham Companies
+	3668 S. Geyer Rd.
+	St. Louis, MO 63127-1243
+
+	314/821-7017 ext. 109 voice
+	314/315-8509 direct
+	314/821-8499 fax
+	Al.Ketterer at Benham.com  email 
+
+	 
+	
+	==================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+	This E-mail and any attached files are confidential, and may be
+copyright protected. If you are not the addressee, any dissemination of
+this communication is strictly prohibited. If you have received this
+message in error, please contact the sender immediately and
+delete/destroy all information received.
+	
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040830/6592630a/attachment.htm>
+
+From Vikram at ensargroup.com  Fri Aug 27 13:51:13 2004
+From: Vikram at ensargroup.com (Vikram Sami)
+Date: Fri, 27 Aug 2004 14:51:13 -0600
+Subject: [BLDG-SIM] CO2 pollution data
+Message-ID: <MDAEMON-F200408271553.AA5358328pd80000324914@gard.com>
+
+Hi,
+Is there a way to get emmission results from an eQUEST simulation (SO2,
+NOx & CO2 pollution data)? Or do the results have to be post processed
+to get this data?
+ 
+Thanks
+ 
+Vikram Sami
+Ensar Group Inc.
+ 
+2305 Broadway -  Boulder, CO 80304  |  tel 303.449.5226  -  fax
+303.449.5276 | <http://www.ensargroup.com/> www.ensargroup.com |  
+  _____  
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040827/20ee4099/attachment.htm>
+
+From lesolarch at vsnl.net  Thu Aug 26 22:37:00 2004
+From: lesolarch at vsnl.net (Anil Misra)
+Date: Fri, 27 Aug 2004 11:07:00 +0530
+Subject: [BLDG-SIM] Error during weather data conversion
+References: <MDAEMON-F200408252223.AA2313250pd80000303261@gard.com>
+Message-ID: <MDAEMON-F200408270044.AA443362pd80000323856@gard.com>
+
+I received the following error while converting TMY2 data to EnergyPlus weather file:
+
+--------------------------------------------------------------------------------------
+Error ( 64 { 40}) [Input conversion error] found while Reading TMY2 file=c:\Energyplus\weatherconverter\final.tm2
+Severe ** Error after processing 45 days
+--------------------------------------------------------------------------------------
+
+How can I know where the error is? By manual inspection of the input file, I do not find any mistake. I would like to know if the errors are explained somewhere.
+
+Thanks
+
+Anil Misra
+New Delhi, India
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040827/839fd475/attachment.htm>
+
+From Drury.Crawley at EE.DOE.GOV  Wed Aug 25 19:10:34 2004
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Wed, 25 Aug 2004 22:10:34 -0400
+Subject: [BLDG-SIM] Weather data for Jackson, WY
+Message-ID: <MDAEMON-F200408252223.AA2312625pd80000322018@gard.com>
+
+
+TMY2 data are available for these locations
+in Wyoming:  Casper, Cheyenne, Lander,
+Rock Springs, and Sheridan.
+
+http://rredc.nrel.gov/solar/old_data/nsrdb/tmy2/
+
+
+
+                                                                                                           
+                      "Vikram Sami"                                                                        
+                      <Vikram at ensargrou        To:       BLDG-SIM at GARD.COM                                 
+                      p.com>                   cc:                                                         
+                      Sent by:                 Subject:  [BLDG-SIM] Weather data for Jackson, WY           
+                      postman at gard.com                                                                     
+                                                                                                           
+                                                                                                           
+                      08/25/2004 01:10                                                                     
+                      PM                                                                                   
+                      Please respond to                                                                    
+                      Vikram                                                                               
+                                                                                                           
+                                                                                                           
+
+
+
+
+Hi,
+I'm doing a project in Jackson, Wyoming, and I was wondering if anyone had
+TMY2 weather data available for that location.
+
+Thanks
+
+Vikram Sami
+Ensar Group Inc.
+
+2305 Broadway -  Boulder, CO 80304  |  tel 303.449.5226  -  fax
+303.449.5276 |www.ensargroup.com |
+
+
+=====================================================You received this
+e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Vikram at ensargroup.com  Wed Aug 25 10:10:05 2004
+From: Vikram at ensargroup.com (Vikram Sami)
+Date: Wed, 25 Aug 2004 11:10:05 -0600
+Subject: [BLDG-SIM] Weather data for Jackson, WY
+Message-ID: <MDAEMON-F200408251213.AA1302890pd80000321311@gard.com>
+
+Hi,
+I'm doing a project in Jackson, Wyoming, and I was wondering if anyone
+had TMY2 weather data available for that location.
+ 
+Thanks
+ 
+Vikram Sami
+Ensar Group Inc.
+ 
+2305 Broadway -  Boulder, CO 80304  |  tel 303.449.5226  -  fax
+303.449.5276 | <http://www.ensargroup.com/> www.ensargroup.com |  
+  _____  
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040825/b8064103/attachment.htm>
+
+From jon at esru.strath.ac.uk  Wed Aug 25 02:13:16 2004
+From: jon at esru.strath.ac.uk (Jon Hand)
+Date: Wed, 25 Aug 2004 10:13:16 +0100
+Subject: [BLDG-SIM] comments on Mac version of EnergyPlus
+In-Reply-To: <MDAEMON-F200408231224.AA244946pd80000300589@gard.com>
+References: <MDAEMON-F200408231224.AA244946pd80000300589@gard.com>
+Message-ID: <MDAEMON-F200408250422.AA2231921pd80000320767@gard.com>
+
+RE: Mac version of EnergyPlus
+
+I got my Mac version of EnergyPlus via Linda Lawrie. I didn't find
+the magic location on the web site. 
+
+The Mac version uses an installation process which is Mac-like. It
+would appear to genereate the same 'results'. It includes a
+script that starts up a terminal window with the correct environment
+variables setup for executing runs.
+
+It is somewhat restricted in that it will take an IDF file or macro file
+as input. There is no IDF editor and neither is there
+a way (yet) to generate DXF output. Occasional access to
+a PC is assumed for model creation and QA tasks.
+
+I was using it to test the generation of EnergyPlus models from the ESP-r 
+simulation suite (so working in a terminal was sufficient and the audit
+and error file streams are fully functional in the Mac version).
+
+It makes for better code when alternative compilers are used.
+And why shouldn't practitioners use the tools they need on a 
+computing infrastructure that they are confortable with. So lets
+keep the pressure up for continued support of simulaton on
+Linux and Mac!
+
+Regards, Jon Hand
+Energy Simulation Research Group, Glasgow
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ksorce at tin.it  Mon Aug 23 10:20:22 2004
+From: ksorce at tin.it (Maurizio Sorce)
+Date: Mon, 23 Aug 2004 19:20:22 +0200
+Subject: [BLDG-SIM] Climatic Data and Training Course
+Message-ID: <MDAEMON-F200408231224.AA2448937pd80000318524@gard.com>
+
+Dear TRNSYS users, I've two question for you...
+
+1) Does someone know where I can find climatic data related to the Sicilia (Italy)? I need it to use with TRNSYS and ECOTECH.
+
+2) I'm interested to some (italian or english) training course of ESP and TRNSYS near Italy or in London. 
+
+As usual thanks to all for the jewel help.
+
+
+Maurizio Sorce
+Department of Energy and Environmental Research (DREAM)
+Universit? degli Studi di Palermo (Italy)
+Tel: 00393495386296
+E-mail: ksorce at tin.it
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040823/9ec3ac6c/attachment.htm>
+
+From geraldpde at yahoo.com  Mon Aug 23 09:40:07 2004
+From: geraldpde at yahoo.com (Gerald Pde)
+Date: Mon, 23 Aug 2004 09:40:07 -0700 (PDT)
+Subject: [BLDG-SIM] PV and WYEC files
+In-Reply-To: <MDAEMON-F200408201937.AA3735562pd80000297446@gard.com>
+Message-ID: <MDAEMON-F200408231142.AA4241437pd80000318435@gard.com>
+
+Check http://rredc.nrel.gov/solar/calculators/PVWATTS/
+Gerald
+--- Vikram Sami <Vikram at ensargroup.com> wrote:
+
+> Smita,
+> Current versionsof eQUEST have PV options thn allow
+> you to plug in manufacturers data for individual
+> panels, and then set them up as an array. I dont
+> think you can run the PV option independant of the
+> building (i.e., you would probably need to build the
+> rest of the building), but if you are just
+> interested in PV, I would go through the wizard with
+> a generic building, and then model the PV array in
+> the detailed interface. I have used the PV option
+> for a couple of projects, and it is fairly simple to
+> model.
+>  
+> Hope this helps
+>  
+> Vikram Sami
+> Ensar Group Inc.
+> Boulder, CO 80304
+> 
+> 	-----Original Message----- 
+> 	From: postman at gard.com on behalf of Smita Gupta 
+> 	Sent: Fri 8/20/2004 12:24 PM 
+> 	To: BLDG-SIM at GARD.COM 
+> 	Cc: 
+> 	Subject: [BLDG-SIM] PV and WYEC files
+> 	
+> 	
+> 
+> 	Hi,
+> 	
+> 	Where can I get detailed explaination of the fields
+> of data in the WYEC files? Need the data to do some
+> hand calcs for PV energy. Any other pointers and
+> references regarding calculating PV performance will
+> be helpful. Any software recommendations will be
+> good too.
+> 	
+> 	Thanks,
+> 	
+> 	-Smita
+> 	
+> 	
+> 	==================
+> 	You received this e-mail because you are subscribed
+> 	to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe
+> 	from this mailing list send a blank message to
+> 	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 	
+> 	
+> 
+> 
+
+
+
+	
+		
+__________________________________
+Do you Yahoo!?
+New and Improved Yahoo! Mail - 100MB free storage!
+http://promotions.yahoo.com/new_mail 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From idoebber at vt.edu  Sun Aug 22 20:15:32 2004
+From: idoebber at vt.edu (Ian Doebber)
+Date: Sun, 22 Aug 2004 23:15:32 -0400
+Subject: [BLDG-SIM] question about modeling detached shading surfaces around a typical house
+References: <MDAEMON-F200408181852.AA5253765pd80000294156@gard.com>
+Message-ID: <MDAEMON-F200408222218.AA1811703pd80000317811@gard.com>
+
+I figure this is a long shot, but I was wondering whether anyone knows of a
+study that determined the typical amount of shading surfaces surrounding a
+single family house.  My solar radiation loads are too large for both the
+summer and winter and are making my heating and cooling loads different from
+RECS energy consumption data.  I determined that probably a typical house
+has trees surrounding it.  Before I start determining a realistic scenario,
+I just wanted to check whether anyone has looked into this before.
+
+Thanks
+Ian Doebber
+Graduate Student
+Mechanical Engineering
+Virginia Tech
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Vikram at ensargroup.com  Fri Aug 20 17:35:04 2004
+From: Vikram at ensargroup.com (Vikram Sami)
+Date: Fri, 20 Aug 2004 18:35:04 -0600
+Subject: [BLDG-SIM] PV and WYEC files
+Message-ID: <MDAEMON-F200408201937.AA3735921pd80000316140@gard.com>
+
+Smita,
+Current versionsof eQUEST have PV options thn allow you to plug in manufacturers data for individual panels, and then set them up as an array. I dont think you can run the PV option independant of the building (i.e., you would probably need to build the rest of the building), but if you are just interested in PV, I would go through the wizard with a generic building, and then model the PV array in the detailed interface. I have used the PV option for a couple of projects, and it is fairly simple to model.
+ 
+Hope this helps
+ 
+Vikram Sami
+Ensar Group Inc.
+Boulder, CO 80304
+
+	-----Original Message----- 
+	From: postman at gard.com on behalf of Smita Gupta 
+	Sent: Fri 8/20/2004 12:24 PM 
+	To: BLDG-SIM at GARD.COM 
+	Cc: 
+	Subject: [BLDG-SIM] PV and WYEC files
+	
+	
+
+	Hi,
+	
+	Where can I get detailed explaination of the fields of data in the WYEC files? Need the data to do some hand calcs for PV energy. Any other pointers and references regarding calculating PV performance will be helpful. Any software recommendations will be good too.
+	
+	Thanks,
+	
+	-Smita
+	
+	
+	==================
+	You received this e-mail because you are subscribed
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+	from this mailing list send a blank message to
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+	
+	
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040820/f9f01ec8/attachment.htm>
+
+From Brent_Griffith at nrel.gov  Fri Aug 20 14:14:06 2004
+From: Brent_Griffith at nrel.gov (Griffith, Brent)
+Date: Fri, 20 Aug 2004 15:14:06 -0600
+Subject: [BLDG-SIM] PV and WYEC files
+Message-ID: <MDAEMON-F200408201616.AA1639140pd80000315984@gard.com>
+
+Smita,
+
+A software package to consider here is EnergyPlus which now has a various ways of calculating photovoltaic power production using EnergyPlus weather data.  It isn't necessary to model an entire building, so developing input files isn't terribly difficult for PV-only modeling. EnergyPlus is free from www.energyplus.gov and the example file demonstrating PV systems is "GeneratorswithPV.idf"  There are three types of models available including a simple user-defined/constant efficiency, the equivalent one-diode model (originating from TRNSYS), and the newer, David King model from Sandia National Labs.   100+ input data sets are provided for the Sandia model.  The incident solar can be modeled to include the effects of other surfaces that might shade, or reflect onto, the panels.   
+
+Brent Griffith
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Smita Gupta
+Sent: Friday, August 20, 2004 12:24 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] PV and WYEC files
+
+
+Hi,
+
+Where can I get detailed explaination of the fields of data in the WYEC files? Need the data to do some hand calcs for PV energy. Any other pointers and references regarding calculating PV performance will be helpful. Any software recommendations will be good too.
+
+Thanks,
+
+-Smita
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From frederic.miranville at univ-reunion.fr  Fri Aug 20 13:15:48 2004
+From: frederic.miranville at univ-reunion.fr (=?iso-8859-1?Q?Fr=E9d=E9ric_Miranville?=)
+Date: Sat, 21 Aug 2004 00:15:48 +0400
+Subject: [BLDG-SIM] meteorological data Europe
+Message-ID: <CKELKGMHEFMMNPMLMDAFGEJDCEAA.frederic.miranville@univ-reunion.fr>
+
+Dear all,
+
+I'm working on building design as a function of the climate and for a
+project, I have to run simulations for the European capitals. Therefore I
+need meteorological data for these cities.
+Does anybody have an idea of some web ressources for such information ?
+
+Thanks for help.
+________________________________________________
+
+Fr?d?ric Miranville
+Assistant Professor
+Civil Engineering and Building Physics research Team
+University of Technology
+40, avenue de Soweto
+97410 Saint-Pierre
+t?l.: 0262 96 28 56
+gsm: 0262 22 81 61
+fax: 0262 96 28 99
+email: frederic.miranville at univ-reunion.fr
+________________________________________________
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040821/0f3c9274/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 6281 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040821/0f3c9274/attachment.jpeg>
+
+From bradley at tess-inc.com  Fri Aug 20 13:14:27 2004
+From: bradley at tess-inc.com (David Bradley)
+Date: Fri, 20 Aug 2004 15:14:27 -0500
+Subject: [BLDG-SIM] PV and WYEC files
+In-Reply-To: <MDAEMON-F200408201326.AA2644281pd80000295007@gard.com>
+Message-ID: <MDAEMON-F200408201517.AA1703531pd80000315915@gard.com>
+
+Smita,
+  The Solar Energy Laboratory at the University of Wisconsin - Madison 
+developed a freely downloadable PV performance estimating tool based on 
+TRNSYS. You can download the tool from http://sel.me.wisc.edu/trnsys 
+byfollowing the "Demos" link on the left followed by the "TRNSYS 14.2 demos 
+page" link at the very bottom of that page. The PV demo is listed as 
+"Building Integrated Photovoltaics" You can get straight to the download 
+page by following: http://sel.me.wisc.edu/trnsys/downloads/trnsedapps/demos.htm
+Kind regards,
+   David
+
+
+At 11:24 AM 8/20/2004 -0700, Smita Gupta wrote:
+>Hi,
+>
+>Where can I get detailed explaination of the fields of data in the WYEC 
+>files? Need the data to do some hand calcs for PV energy. Any other 
+>pointers and references regarding calculating PV performance will be 
+>helpful. Any software recommendations will be good too.
+>
+>Thanks,
+>
+>-Smita
+>
+>
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+****************************************************************************************
+Thermal Energy System Specialists (TESS), LLC
+David BRADLEY                           2916 Marketplace Drive - Suite 104
+Partner                                        Madison, WI 53719
+Phone: (608) 274-2577 USA
+Fax: (608) 278-1475
+E-mail: bradley at tess-inc.com
+Web Pages:  http://www.tess-inc.com     and      http://www.trnsys.com
+
+"Providing software solutions for today's energy engineering projects"
+****************************************************************************************
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Sgupta at energy.state.ca.us  Fri Aug 20 11:24:00 2004
+From: Sgupta at energy.state.ca.us (Smita Gupta)
+Date: Fri, 20 Aug 2004 11:24:00 -0700
+Subject: [BLDG-SIM] PV and WYEC files
+Message-ID: <MDAEMON-F200408201326.AA2645281pd80000315803@gard.com>
+
+Hi,
+
+Where can I get detailed explaination of the fields of data in the WYEC files? Need the data to do some hand calcs for PV energy. Any other pointers and references regarding calculating PV performance will be helpful. Any software recommendations will be good too.
+
+Thanks,
+
+-Smita
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at EE.DOE.GOV  Wed Aug 18 16:49:25 2004
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Wed, 18 Aug 2004 19:49:25 -0400
+Subject: [BLDG-SIM] More EnergyPlus Weather Data ...and comparison of EnergyPlus
+ with DOE-2/BLAST
+Message-ID: <MDAEMON-F200408181852.AA5254406pd80000313744@gard.com>
+
+Two new sets of weather data covering Spain and six countries in
+Central America/Caribbean are now available in EnergyPlus format:
+
+Spanish Weather for Energy Calculations (SWEC)
+Originally developed for use with Calener, a new program for building
+energy labelling in Spain, these weather files cover all 52 Spanish
+provincial capitals. Calener was developed by the Grupo de Termotecnia
+of the Escuela Superior de Ingeneiros in Seville for the Spanish
+Government. The weather files were synthetically generated using
+Climed (Portuguese software developed by Ricardo Aguiar) from mean
+monthly data coming from the Spanish Meteorological National Institute.
+These weather files were converted from the DOE-2 binary to EnergyPlus
+format and include constant wind speeds of 6.7 m/s.  Our thanks to
+Profesor Luis P?rez-Lombard and the Grupo de Termotecnia of the
+Escuela Superior de Ingenieros for sharing these data with the EnergyPlus
+community.
+
+New EnergyPlus format Weather Data for Central America and Cuba
+We are happy to announce the availability of new EnergyPlus-format weather
+data for 37 locations in Central America (Belize, El Salvador, Guatemala,
+Honduras, and Nicaragua) and Cuba.  The data are from the Solar and
+Wind Energy Resource Assessment (SWERA) project, funded by the United
+National Environment Programme, Global Environment Facility. (More
+information on SWERA is available on their web site: http://swera.unep.net/
+).
+Thanks to SWERA for making these data available.
+
+These two new sets bring the total number of weather files available
+on the EnergyPlus web site to 665 with more than 280 in the US, 55
+in Canada, and 320 around the world.  All the new data are available
+on the international weather page of the EnergyPlus web site:
+http://www.energyplus.gov/cfm/weatherdata_int.cfm
+
+If you know of other typical weather data that could be shared with
+EnergyPlus and ESP-r users, please contact us directly.  We have
+another set of 60+ files created for Italy and a few others throughout
+the world that we plan to post as soon as time allows.
+
+
+
+Comparison of EnergyPlus with DOE-2 and BLAST
+A recently published paper compares the capabilities of EnergyPlus
+with those of DOE-2.1E and BLAST.  The paper was presented at
+the IBPSA-USA SimBuild 2004 conference in early August and is
+available here:  http://ceae.colorado.edu/ibpsa/ocs/viewpaper.php?id=75
+We recently collected similar information on Energy-10, ESP-r, TRNSYS,
+and eQuest, and plan to extend the comparison over the next few months.
+
+
+Information on EnergyPlus, interfaces under development, and other
+resources are available on our web site:  www.energyplus.gov
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From miket at etcgrp.com  Tue Aug 17 05:52:19 2004
+From: miket at etcgrp.com (Mike Tillou)
+Date: Tue, 17 Aug 2004 06:52:19 -0600
+Subject: [bldg-sim] LEED Modeling question
+Message-ID: <MDAEMON-F200408170751.AA5126140pd80000312038@gard.com>
+
+I have a question for everyone.  I am currently working on an energy
+model for a LEED project and the architect has done a good job of
+putting low occupancy spaces / corridors along the perimeter of the
+building.  I was hoping for some in-sight into how to set up a baseline
+model so that I can capture the benefits of the architects floor plan
+given that I am not supposed to change schedules or occupant levels.
+How appropriate would it be to put occupied zones on the perimeter in
+the baseline model and then move them to the interior?  It seems like
+the right answer but i'm not sure.
+ 
+Thanks for any help.
+ 
+ 
+Michael Tillou, PE
+etc Group, Inc.
+PO Box 749, North Adams, MA 01247
+ph. (413) 458-9870  fx. (801) 278-1927
+www.etcgrp.com
+  
+-----Original 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040817/10ebe250/attachment.htm>
+
+From cvrhasd at techunix.technion.ac.il  Tue Aug 17 03:25:56 2004
+From: cvrhasd at techunix.technion.ac.il (Samuel Hassid)
+Date: Tue, 17 Aug 2004 12:25:56 +0200
+Subject: [bldg-sim] Double Skin Buildings
+References: <5C0252D944ED584D8804CF3F619C2D4F0AD101@bnemail.lincolnescott.com>
+Message-ID: <MDAEMON-F200408170427.AA2750859pd80000311847@gard.com>
+
+Dear Rob
+   I very much appreciate your answer as well as those of others on double skin buildings. I understand that you more or less do agree that there is a problem with double skin buildings in climates in which cooling is more important than heating. If someone does not agree with this statement, I would very much appreciate it if he responds.
+   I have no problem with understanding that natural ventilation is a good policy - and this can be easily simulated in DOE2.
+My problem is when I use double skin buildings with Natural ventilation - in that case the outside velocity is relevant.
+   I would like once more to repeat that in many places in teh Mediterranean that during teh 90ies there was an explosion of air conditioning, people insist in having open windows even when the air conditioning functions  (I even watched a fist fight over that but of course this is irrelevant to the list)
+  ----- Original Message ----- 
+  From: Rob Lord 
+  To: cvrhasd at techunix.technion.ac.il ; bldg-sim at gard.com 
+  Sent: Tuesday, August 17, 2004 12:24 AM
+  Subject: RE: [bldg-sim] Double Skin Buildings
+
+
+  Samuel,
+
+   
+
+  In my part of Australia, we have similar climate patterns. Double skin buildings rarely are built because of energy reasons except in our cooler climates. However, have you tried simulating a mixed mode building? 
+
+  the architect will then have the openable windows and the occupant can choose to close them whenever the climate outside is not favourable.
+
+   
+
+  As a basis of simulation, I would organise the windows to open (and the AC to stop) whenever the external conditions are between 18C and 25C. Organise the windows to close when the average hourly wind speed is above 5m/s or when the RH is approaching 90%. There are also security and acoustic issues with opening windows but hey, life wasn?t meant to be easy.
+
+   
+
+  Our Brisbane climate is perhaps closest to that of Tel Aviv, it is a little more humid perhaps. Our simulations portray 4-5 months of the year can easily operate on natural ventilation mode.
+
+   
+
+   
+
+   
+
+   
+
+  Regards
+
+   
+
+  Rob Lord
+
+  Senior Engineer
+
+  Lincolne Scott
+
+  1 Gardner Close
+  PO Box 2227 Milton
+  Queensland 4064 Australia
+  Telephone 61 7 3368 6600 
+  Direct 61 7 3368 6614
+  Facsimile 61 7 3368 6699
+  Mobile 0419 204046
+
+  rob.lord at lincolnescott.com
+  lincolnescott.com
+
+  Consulting Engineers
+  Adelaide Auckland Bangkok Brisbane
+  Cairns Hong Kong Honolulu Melbourne
+  Perth Shanghai Singapore Sydney
+  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+  This email message is intended only for the addressee(s) and
+  contains information which may be confidential. If you are not
+  the intended recipient please do not read, save, forward, disclose,
+  or copy the contents of this email.
+  If this email has been sent to you in error, please delete this email 
+  and any copies or links to this email completely and immediately
+  from your system. Views expressed in this message are those
+  of the individual sender and are not necessarily the views
+  of Lincolne Scott.
+  Long time Collingwood Supporter!
+
+   
+
+   
+
+  -----Original Message-----
+  From: Samuel Hassid [mailto:cvrhasd at techunix.technion.ac.il]
+  Sent: Tuesday, 17 August 2004 2:18 AM
+  To: bldg-sim at gard.com
+  Subject: [bldg-sim] Double Skin Buildings
+
+   
+
+     I have simulated a double skin building using DOE2.1.E.
+
+     My conclusion for the climate of Israel - in which the summer problems are far more important than the winter ones - was that
+
+  whatever advanrage one has during the winter is balanced by higher energy consumption during the summer period.
+
+     The results of my simulation are very much resented by the architect who asked for it. In particular, he points out to something that cannot be put into simulation codes - that many people in air-conditioned buildings in mediterranean countries resent very much having to stay with closed windows.
+
+     I was wondering if someone has any comments on what i wrinting.    Thanks    S.  Hassid 
+
+  ==================You received this e-mail because you are subscribed to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this mailing list send a blank message to BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040817/be2b21ca/attachment.htm>
+
+From cvrhasd at techunix.technion.ac.il  Mon Aug 16 09:18:22 2004
+From: cvrhasd at techunix.technion.ac.il (Samuel Hassid)
+Date: Mon, 16 Aug 2004 18:18:22 +0200
+Subject: [bldg-sim] Double Skin Buildings
+Message-ID: <MDAEMON-F200408161020.AA2006937pd80000311029@gard.com>
+
+   I have simulated a double skin building using DOE2.1.E.
+   My conclusion for the climate of Israel - in which the summer problems are far more important than the winter ones - was that
+whatever advanrage one has during the winter is balanced by higher energy consumption during the summer period.
+   The results of my simulation are very much resented by the architect who asked for it. In particular, he points out to something that cannot be put into simulation codes - that many people in air-conditioned buildings in mediterranean countries resent very much having to stay with closed windows.
+   I was wondering if someone has any comments on what i wrinting.    Thanks    S.  Hassid 
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040816/ad16e643/attachment.htm>
+
+From thong at archenergy.com  Thu Aug 12 13:34:49 2004
+From: thong at archenergy.com (Tianzhen Hong)
+Date: Thu, 12 Aug 2004 13:34:49 -0700
+Subject: [bldg-sim] October 20-22, 2004 in San Francisco - VisualDOE 4.0 Training Seminar for Building Energy Simulations and LEED Energy Savings Calculations
+Message-ID: <MDAEMON-F200408121538.AA3825781pd80000307484@gard.com>
+
+
+Architectural Energy Corporation is pleased to announce a VisualDOE 4.0
+training seminar on October 20-22, 2004 in San Francisco. 
+
+The seminar focuses on DOE-2, VisualDOE interface, VisualDOE 4.0 new
+features, energy simulation skills, as well as a full-day LEED energy
+savings calculations for green building projects.
+
+You get some discount if you purchase VisualDOE 4.0 and register for the
+training seminar. We provide a free one-month version of VisualDOE 4.0
+for trainees, you don't have to be a VisualDOE user.
+
+For questions, please contact us via email vdoetraining at archenergy.com
+or phone (415) 957-1977.
+
+To register or get more information of the training, please go to
+http://www.archenergy.com/products/visualdoe/training/
+
+Sorry if you get multiple copies of this message.
+
+
+VisualDOE Training Team
+Architectural Energy Corporation
+142 Minna Street, Second Floor
+San Francisco, CA 94105
+Voice: (415) 957-1977
+Fax: (415) 957-1381
+Email: vdoetraining at archenergy.com
+Web: www.visualdoe.com
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Wed Aug  4 10:30:27 2004
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 04 Aug 2004 12:30:27 -0500
+Subject: [bldg-sim] Beta Test: EP-Quick - An EnergyPlus Input File Generator
+Message-ID: <MDAEMON-F200408041232.AA324146pd80000298465@gard.com>
+
+Please participate in the beta test of EP-Quick.  EP-Quick 
+is a simple program that creates an EnergyPlus input file.  
+You may use EP-Quick to create an input file for a 
+building, without HVAC, using simple templates for the 
+shape and zone layout. EP-Quick is not a full interface for 
+EnergyPlus but simply a way to generate input files 
+quickly.
+ 
+The installer may be downloaded from:
+
+  http://www.gard.com/ep-quick/EP-Quick-Setup.exe
+
+To use it, press the "NEW" button and select a template and 
+the types of floors. I am planning on having additional 
+templates by the time it is released. Once a template is 
+selected, zoning and shape are fixed but the overall 
+dimension of the building can be changed.  The buildings 
+are "prismatic" and are the same shape and size on all 
+floors.  Windows and doors may be added and constructions 
+and schedules may be modified.   
+
+Use main "tree" interface to examine and modify the many 
+different details of the building.  The main parts of the 
+tree are:  
+
++ Overall Geometry - depth, width
+
++ Building - roof, floor, interior constructions
+
++ Defaults - default values used in "Floorplans" 
+
++ Internal Gain Types - lighting, people, schedules
+
++ Floorplans - zones, exterior walls, windows, etc
+
++ Corners - locations of the building vertices
+
++ Roof corners - locations of special roof vertices
+
+Please take a look at the software and the resulting IDF 
+files. Your feedback is welcome on: 
+
+  Bugs
+
+  User Interface
+
+  Capabilities
+
+  Price
+
+  Templates desired
+
+The beta test will end and the beta version will stop 
+working on September 30 but please send your comments to me 
+a soon as possible. 
+
+I'm sending this message to the BLDG-SIM mailing list, the 
+EnergyPlus_Support at yahoo.com mailing list, and others so I 
+apologize if you receive more than one copy.
+
+Thanks,
+
+Jason
+
+=========================================================
+Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From sagerer at paonline.com  Wed Aug  4 08:07:01 2004
+From: sagerer at paonline.com (Sheila Sagerer)
+Date: Wed, 4 Aug 2004 11:07:01 -0400
+Subject: [bldg-sim] Radiant Slab: EQUEST
+In-Reply-To: <MDAEMON-F200407281511.AA1125156pd80000280987@gard.com>
+Message-ID: <MDAEMON-F200408041010.AA1002328pd80000298302@gard.com>
+
+Gerald-
+
+did you ever get any responses to this question?  I am working on a building
+with the same setup and am very interested in any responses received.
+
+Thank you.
+Sheila Sagerer
+Energy Engineer, LEED AP
+Energy Opportunities, Inc
+717-880-9069
+Fax: 717-291-9497
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Gerald Pde
+Sent: Wednesday, July 28, 2004 4:09 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Radiant Slab: EQUEST
+
+
+Can anyone suggest me how to simulate a conventional
+VAV system coupled with a radiant slab for heating in
+a building using equest.
+
+Gerald
+
+
+
+
+__________________________________
+Do you Yahoo!?
+Yahoo! Mail Address AutoComplete - You start. We finish.
+http://promotions.yahoo.com/new_mail
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

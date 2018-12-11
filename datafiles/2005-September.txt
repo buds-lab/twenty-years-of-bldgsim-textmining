@@ -1,0 +1,4846 @@
+From VSami at lasarchitect.com  Fri Sep 30 16:03:57 2005
+From: VSami at lasarchitect.com (Vikram Sami)
+Date: Fri, 30 Sep 2005 19:03:57 -0400
+Subject: [bldg-sim] Utility Rates and eQUEST
+Message-ID: <MDAEMON-F200509301806.AA064493pd80000804442@gard.com>
+
+Scott,
+For the LEED ECB, you have 2 options for energy rates:
+1. Use the kWh rate for the state your building is in on pg 144 of the
+reference guide (v2.1).
+2. If you want to, you can use a specific energy rate for the building,
+provided you can show that this is what will be provided for your
+building by the local utility company.
+ 
+So for LEED purposes, you could use the flat rate from the reference
+guide. Although, if you have a demand rate structure and you are shaving
+your peaks in your designed building, the flat rate structure might end
+up hurting you.
+ 
+ 
+
+Vikram Sami,  LEED AP
+Direct Phone 404-253-1466 | Direct Fax  404-253-1366 
+
+LORD, AECK & SARGENT ARCHITECTURE
+Responsive Design * Technological Expertise * Exceptional Service
+www.lordaecksargent.com 
+
+ 
+
+________________________________
+
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Scott
+Runyon
+Sent: Friday, September 30, 2005 10:40 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Utility Rates and eQUEST
+
+
+
+I am a new user of eQUEST and am trying to model a building for LEED
+energy savings purposes. I am comparing my design building to the ASHRAE
+90.1 Code requirements of the same building. 
+
+ 
+
+When setting up my electricity rates I can use Block Charges and
+Ratchets. If I was able to find an average rate per kWh, how much would
+this impact my energy reports? I am concerned that trying to get too
+complicated by using multiple types of rates could actually hurt my
+model more than help it.
+
+ 
+
+Any thoughts would be appreciated
+
+Scott Runyon 
+RMF Engineering, Inc.
+Design Engineer
+
+474 Wando Park Blvd, Suite 100 
+Mt. Pleasant, SC 29464 
+Phone: 843-971-9639 Ext. 108 
+Fax: 843-971-9641 
+
+ 
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050930/e003ac2a/attachment.htm>
+
+From jllona at cdiengineers.com  Fri Sep 30 10:11:49 2005
+From: jllona at cdiengineers.com (Joe Llona)
+Date: Fri, 30 Sep 2005 10:11:49 -0700
+Subject: [bldg-sim] VisualDOE 4.0 geothermal modeling
+Message-ID: <MDAEMON-F200509301214.AA1436265pd80000803971@gard.com>
+
+What wound up working was changing the low-safety loop temperature from
+45 to 40.  Increasing the flow rate per ton would have helped also.
+
+
+________________________________
+
+	From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of
+Dawne Herrick
+	Sent: Friday, September 30, 2005 9:09 AM
+	To: bldg-sim at gard.com
+	Cc: Leslie Jonsson
+	Subject: [bldg-sim] VisualDOE 4.0 geothermal modeling
+	
+	
+
+	VisualDOE will not let me define any supplemental heating for my
+ground source heat pump system.  Thus, I have unmet heating loads.  Any
+suggestions?
+
+	~Dawne Herrick, PE 
+	CDi ENGINEERS 
+	(425) 672-1071 
+	www.cdiengineers.com <file://www.cdiengineers.com>  
+
+	TAKE NOTICE - CDi is moving! 
+	Effective October 10, 2005, CDi's address is: 
+	4200 194th St SW, Suite 200, Lynnwood, WA 98036 
+	Phone, fax, and e-mail remain the same. 
+
+
+	
+	==================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050930/2885d8bf/attachment.htm>
+
+From shaunmartin at shaw.ca  Fri Sep 30 09:42:27 2005
+From: shaunmartin at shaw.ca (Shaun Martin)
+Date: Fri, 30 Sep 2005 09:42:27 -0700
+Subject: [bldg-sim] Modelling Pool Areas with eQuest & DOE
+Message-ID: <MDAEMON-F200509301145.AA4554843pd80000803884@gard.com>
+
+Hi Grant,
+
+As Jeff says, this is tricky. There seems to be three approaches I've seen
+discussed,
+
+1. you can't do it, don't try
+2. DOE2 functions
+3. schedules
+
+I can't speak to the function approach, which I know others have tried, but
+I've had some good success matching billing histories with the schedule
+approach. It's a lot of spreadsheet work, but the evaporation can be
+calculated and entered as a process load. Conduction can be handled by
+creating a dummy zone at the pool temperature. If the pool room temperature
+is kept above the pool water temperture, convection and radiation are
+relatively minor.
+
+Indoor pools are generally kept at one temperature, and the pool room is
+usually a degree or two higher than the main pool temperature.  "the
+temperature of the water moderates the air temperature of the zone" which
+"affects the load on the HVAC system". Yes, but controls ensure the pool
+room temperature remains relatively constant. Humidity control is available
+to a PSZ system.
+
+DOE2.2 does not currently model water-water heat exchangers, so you have to
+fool around with primary-secondary loops.
+
+A good reference is TRNSYS 144.
+
+Hope this helps,
+
+
+
+Shaun Martin
+Principal
+Shaun Martin Consulting
+2840 West 11th Avenue
+Vancouver, BC V6K 2M1
+tel 604-789-1095
+email shaunmartin at shaw.ca
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From dherrick at CDiengineers.com  Fri Sep 30 09:08:31 2005
+From: dherrick at CDiengineers.com (Dawne Herrick)
+Date: Fri, 30 Sep 2005 09:08:31 -0700
+Subject: [bldg-sim] VisualDOE 4.0 geothermal modeling
+Message-ID: <MDAEMON-F200509301111.AA1118156pd80000803789@gard.com>
+
+VisualDOE will not let me define any supplemental heating for my ground
+source heat pump system.  Thus, I have unmet heating loads.  Any
+suggestions?
+
+~Dawne Herrick, PE
+CDi ENGINEERS
+(425) 672-1071
+www.cdiengineers.com
+
+TAKE NOTICE - CDi is moving! 
+Effective October 10, 2005, CDi's address is:
+4200 194th St SW, Suite 200, Lynnwood, WA 98036
+Phone, fax, and e-mail remain the same.
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050930/956c41a9/attachment.htm>
+
+From kala_sim at yahoo.co.in  Fri Sep 30 08:17:03 2005
+From: kala_sim at yahoo.co.in (Leela Kala)
+Date: Fri, 30 Sep 2005 16:17:03 +0100 (BST)
+Subject: [bldg-sim] GHP in eQuest
+Message-ID: <MDAEMON-F200509301019.AA1936375pd80000803671@gard.com>
+
+Hi,
+Can I model GHP in eQuest? If yes, I will appreaciate
+if someone can send me teh details.
+
+thanks
+
+Leela
+
+
+		
+__________________________________________________________ 
+Yahoo! India Matrimony: Find your partner now. Go to http://yahoo.shaadi.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jra_sac at yahoo.com  Fri Sep 30 07:55:17 2005
+From: jra_sac at yahoo.com (John Aulbach)
+Date: Fri, 30 Sep 2005 07:55:17 -0700 (PDT)
+Subject: [bldg-sim] Modelling Pool Areas with eQuest & DOE
+In-Reply-To: <MDAEMON-F200509300853.AA5320750pd80000998253@gard.com>
+Message-ID: <MDAEMON-F200509300957.AA5747312pd80000803588@gard.com>
+
+Hi Grant:
+
+This is something I have been SCREAMING for to add to
+DOE2 ever since 2.1C. Indoor AND outdoor pools. I used
+to do modeling foe hotels and motels.
+
+I once actually had a outdoor pool usage meter AND
+outdoor air to correlate, so tried to pretend a room
+was a pool, with the ceiling being the pool surace.
+
+For am indoor pool, perhaps the water could be a
+direct process load. I believe eQuest can tie your
+pool nantorium to a user input pool load profile,
+input as a direct process load.
+
+
+
+		
+__________________________________ 
+Yahoo! Mail - PC Magazine Editors' Choice 2005 
+http://mail.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From srunyon at rmf.com  Fri Sep 30 07:40:12 2005
+From: srunyon at rmf.com (Scott Runyon)
+Date: Fri, 30 Sep 2005 10:40:12 -0400
+Subject: [bldg-sim] Utility Rates and eQUEST
+Message-ID: <MDAEMON-F200509301519.AA1931718pd80000804214@gard.com>
+
+I am a new user of eQUEST and am trying to model a building for LEED
+energy savings purposes. I am comparing my design building to the ASHRAE
+90.1 Code requirements of the same building. 
+
+ 
+
+When setting up my electricity rates I can use Block Charges and
+Ratchets. If I was able to find an average rate per kWh, how much would
+this impact my energy reports? I am concerned that trying to get too
+complicated by using multiple types of rates could actually hurt my
+model more than help it.
+
+ 
+
+Any thoughts would be appreciated
+
+Scott Runyon 
+RMF Engineering, Inc.
+Design Engineer
+
+474 Wando Park Blvd, Suite 100 
+Mt. Pleasant, SC 29464 
+Phone: 843-971-9639 Ext. 108 
+Fax: 843-971-9641 
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050930/e8810c3a/attachment.htm>
+
+From jeffhaberl at tees.tamus.edu  Fri Sep 30 07:32:26 2005
+From: jeffhaberl at tees.tamus.edu (Jeff Haberl)
+Date: Fri, 30 Sep 2005 09:32:26 -0500
+Subject: [bldg-sim] Modelling Pool Areas with eQuest & DOE
+Message-ID: <MDAEMON-F200509300935.AA3513359pd80000803513@gard.com>
+
+Hello:
+
+This is tricky...since DOE-2.1e does not really model moisture
+conditions, so you can't tell about surface conditions. Also, popular
+systems such as the "Pool Pack" HP system cannot be modeled in DOE-2.1e,
+and perhaps DOE-2.2. 
+
+However, you can model the coil loads, etc. You'll find some advice in
+the paper: Haberl, J., Claridge, D. 1985. "Retrofit Energy Studies of a
+Recreation Center",  ASHRAE Transactions-Research, Volume 91, Part 2,
+pp.  1421 - 1433, (June), and the technical report on which it was
+based. In this work we mimicked the pool load by creating a proxy zone
+inside the zone that had all the humidity loads that we estimated with
+measured data from the pool at the Rec Center we studied. 
+
+There is also useful information in the FCHART software, including a
+list of references that are old but useful, and probably others I'm not
+aware of.
+
+Jeff
+
+
+8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  8=()  8=)  8=|  8=)  :=')  8=)
+8=)  8=?
+
+Jeff S. Haberl, Ph.D.,
+P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office
+Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=)  :=)  8=)  8=!  8=)  8=?  8=)
+8=)  8=0 
+
+ 
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Grant
+Unsworth
+Sent: Friday, September 30, 2005 8:52 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Modelling Pool Areas with eQuest & DOE
+
+I am currently modelling buildings with eQuest to simulate proposed 
+mechanical retrofits for a Canadian University (to calculate the energy 
+savings). My problem is that two of the buildings contain indoor pools. 
+The pool retrofits include controls changes to the pool's heating 
+converters (steam to hot water), and the pool's circulation pumps. So, I
+
+need to find a relatively accurate way of modeling a pool zone in eQuest
+
+and attaching this equiptment to it.
+
+Does anyone have a good strategy for modeling pool zones in eQuest (or 
+simply DOE2)? I need to model:
+ - the HVAC system serving the pool area
+ - the pool pumps
+ - the pool heating converters
+
+To get an idea, the problem is that the temperature of the water 
+moderates the air temperature of the zone. This affects the load on the 
+HVAC system. In addition, humidity becomes a major factor.
+
+Any discussion on this topic would be great!
+
+Thanks,
+
+Grant Unsworth
+-------------------------------------------
+MCW Custom Energy Solutions
+156 Front St. W, Suite 600
+Toronto, ON  M5J 2L6
+tel: 416-598-2920 ext. 259
+fax: 416-598-5394
+email: gunsworth at mcw.com
+-------------------------------------------
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From gunsworth at mcw.com  Fri Sep 30 06:52:04 2005
+From: gunsworth at mcw.com (Grant Unsworth)
+Date: Fri, 30 Sep 2005 09:52:04 -0400
+Subject: [bldg-sim] Modelling Pool Areas with eQuest & DOE
+Message-ID: <MDAEMON-F200509300853.AA5320609pd80000803405@gard.com>
+
+I am currently modelling buildings with eQuest to simulate proposed 
+mechanical retrofits for a Canadian University (to calculate the energy 
+savings). My problem is that two of the buildings contain indoor pools. 
+The pool retrofits include controls changes to the pool's heating 
+converters (steam to hot water), and the pool's circulation pumps. So, I 
+need to find a relatively accurate way of modeling a pool zone in eQuest 
+and attaching this equiptment to it.
+
+Does anyone have a good strategy for modeling pool zones in eQuest (or 
+simply DOE2)? I need to model:
+ - the HVAC system serving the pool area
+ - the pool pumps
+ - the pool heating converters
+
+To get an idea, the problem is that the temperature of the water 
+moderates the air temperature of the zone. This affects the load on the 
+HVAC system. In addition, humidity becomes a major factor.
+
+Any discussion on this topic would be great!
+
+Thanks,
+
+Grant Unsworth
+-------------------------------------------
+MCW Custom Energy Solutions
+156 Front St. W, Suite 600
+Toronto, ON  M5J 2L6
+tel: 416-598-2920 ext. 259
+fax: 416-598-5394
+email: gunsworth at mcw.com
+-------------------------------------------
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From AGilbert at icfconsulting.com  Thu Sep 29 14:15:18 2005
+From: AGilbert at icfconsulting.com (Gilbert, Angela)
+Date: Thu, 29 Sep 2005 17:15:18 -0400
+Subject: [bldg-sim] Job announcement - Fairfax, VA
+Message-ID: <MDAEMON-F200509291618.AA1814515pd80000802734@gard.com>
+
+Sustainable Building Energy Analyst - Fairfax, VA
+
+ICF Consulting is a leading management, technology, and policy
+consulting firm. Drawing upon extensive industry knowledge,
+distinguished professionals, and innovative analytics, the firm develops
+solutions to complex energy, environment, emergency management,
+community development, and transportation issues.
+
+ 
+
+Our Energy Policy and Programs Practice is seeking a junior-level
+engineer to provide broad-based technical support to innovative building
+related (residential and commercial) energy efficiency programs.  Ideal
+candidate will have an understanding of residential design and
+construction practices and/or commercial building systems, experience
+with energy modeling tools (e.g., DOE-2, BLAST, EnergyPlus, etc.), and
+knowledge of sustainable design practices.  
+
+ 
+
+Position requires a BA/BS degree in engineering or a related field, 0-3
+years of experience, strong analytical and computer skills, excellent
+oral and written communication skills, and the ability to communicate
+technical information to non-technical audiences.  Strong interest in
+energy efficiency a plus.
+
+ 
+
+Interested candidates should apply by submitting a cover letter, resume
+and salary requirements to resumesag at icfconsulting.com
+<mailto:resumesag at icfconsulting.com?subject=Energy%20Markets%20Research%
+20Assistant> .   ICF is an EOE.
+
+ 
+
+ 
+
+
+NOTICE:
+This message is for the designated recipient only and may contain privileged or confidential information. If you have received it in error, please notify the sender immediately and delete the original. Any other use of this e-mail by you is prohibited.
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050929/b89d52eb/attachment.htm>
+
+From James.F.Pegues at carrier.utc.com  Thu Sep 29 13:13:15 2005
+From: James.F.Pegues at carrier.utc.com (Pegues, James F           CAR)
+Date: Thu, 29 Sep 2005 16:13:15 -0400
+Subject: [bldg-sim] Questions about EPACT 2005 and Building Simulation
+Message-ID: <MDAEMON-F200509291519.AA1924359pd80000802635@gard.com>
+
+I have two questions about the Energy Policy Act of 2005 that
+I'm hoping someone can help with.
+
+1. In section 1331, on page 1335 there is a discussion of
+   special rules which allow you to receive a reduced tax
+   credit for commercial building energy efficiency
+   if you can achieve energy savings targets just for
+   lighting, HVAC or HW systems rather than for the whole building.
+   In item "(ii)" on page 1335 it mentions that the energy
+   savings targets will be established by the Secretary (of Treasury?).
+
+   Question: Have these energy targets been published and if so
+   in what publication?  If not yet published, where should I be
+   watching for their publication?  Federal Register?
+
+2. Later on page 1336, again regarding commercial building energy
+   efficiency tax credits, there is a paragraph that states:
+
+   "(2) METHODS OF CALCULATION - The Secretary, after consultation 
+   with the Secretary of Energy shall promulgate regulations which
+   describe in detail methods for calculating and verifying energy
+   and power consumption and cost, based on the provisions of
+   the 2005 California Nonresidentail Alternative Calculation
+   Method Approval Manual"
+ 
+   Question: Same as before.  Have these regulations have been
+   released and if so where they are published?  If not yet
+   published, where should I be watching for publication?
+
+Thanks in advance for any help you can provide.
+
+Best Regards,
+
+Jim Pegues
+Carrier Corporation
+Syracuse, NY, USA
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bmunger at bhengineers.com  Thu Sep 29 11:45:01 2005
+From: bmunger at bhengineers.com (Bryce Munger)
+Date: Thu, 29 Sep 2005 11:45:01 -0700
+Subject: [bldg-sim] Scheduling multiple generators
+Message-ID: <MDAEMON-F200509291347.AA4732593pd80000802515@gard.com>
+
+I am trying to simulate the use of multiple bio-diesel generators that
+operate at different times of the day to provide electricity and use Heat
+Recovery to heat domestic hot water.  Following Example 2 on page 340 of the
+DOE22Vol3-Topics manual I created a flag schedule (with 0's and either or
+1's to track the load or 5's to run at max) and then used that schedule with
+a Utility Electric Meter to operate the generators.  This works fine when
+there is only 1 generator.  When I try to do it with 4 generators with
+different operating schedules it doesn't seem to work.  Does anyone have any
+tips on who to do this?
+
+Thanks,
+
+Bryce Munger
+Balzhiser & Hubbard Engineers
+Mechanical - Electrical - Civil - Energy - Lighting - Surveying -
+Commissioning - Sustainability
+100 West 13th Avenue, Eugene, Oregon 97401  (541) 686-8478  fax (541)
+345-5303
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050929/650425a9/attachment.htm>
+
+From hamnmegs at ozemail.com.au  Tue Sep 27 14:08:24 2005
+From: hamnmegs at ozemail.com.au (Graham & Megan)
+Date: Wed, 28 Sep 2005 07:08:24 +1000
+Subject: [bldg-sim] Validity of Computer Simulation
+References: <MDAEMON-F200509230123.AA2346765pd80000983073@gard.com>
+Message-ID: <MDAEMON-F200509271610.AA1054218pd80000800554@gard.com>
+
+At the risk of oversimplifyimg the feedback you have received, the
+validation studies and tests referred to in other responses are primarily
+focussed on the loads a building experiences.  This is important but far
+from the whole story.
+
+If your interest is in predicting likely energy use of mechanical systems
+then calibrated simulations and comparison reports such as those Jeff Haberl
+has referred to are very relevant.  Simulation can predict energy use with
+reasonable accuracy provided:
+1) the simulation engine can represent your building and its systems
+reasonably well; and,
+2) the user provides inputs to the simulation that are representative of
+reality.
+
+The latter issue will always be an issue.  Buildings that have been
+commissioned and controlled poorly could have some simple control changes
+made from design intent that lead to a 40%+ difference in energy use.  A
+tenant's light and power energy use can change over time and impact the
+mechanical services energy use ...
+
+Also be careful if you are using the simulation to try and estimate total
+base building or whole building energy use, ensure that you have coverage of
+all energy use.  There are numerous systems and equipment that energy
+simulation does not account for directly.  As a result some of these systems
+are overlooked and do not attract the attention from energy simulation
+specialists that they should.
+
+Never accept a single answer from simulation, a likely range is a more
+appropriate way to use simulation if your interest is in 'absolute' energy
+use.  Unless assumptions are made that account for manufacturer's
+tolerances, non-homogenous operational profiles, installation imperfections
+and control imperfections, simulation can only provide a theoretical limit
+that may be approached but in most cases never reached.
+
+Regards,
+Graham Carter
+----- Original Message ----- 
+From: "MDK" <dkoerniawan at yahoo.com>
+To: <bldg-sim at gard.com>
+Sent: Friday, September 23, 2005 4:21 PM
+Subject: [bldg-sim] Validity of Computer Simulation
+
+
+> Dear All who know,
+>
+> I have some researchs, my researchs have been analyzed
+> with Computer Simulation. Some people in here doubt
+> over the true validity of computer simulation methods
+> when compared directly with real buildings.
+>
+> Do you know about that? How much valid do analize the
+> researchs with computer simulation?
+>
+> Regards
+>
+> M Donny Koerniawan
+> Department of Architecture
+> Institut Teknologi Bandung
+> Indonesia
+>
+>
+>
+>
+>
+> __________________________________
+> Yahoo! Mail - PC Magazine Editors' Choice 2005
+> http://mail.yahoo.com
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From twhite at glumac.com  Tue Sep 27 11:49:28 2005
+From: twhite at glumac.com (Thomas White)
+Date: Tue, 27 Sep 2005 11:49:28 -0700
+Subject: [bldg-sim] error reports on metering
+Message-ID: <MDAEMON-F200509271408.AA0849843pd80000800404@gard.com>
+
+Scott,
+ 
+You nailed the problem, and your advice was right on! So, the take home
+lesson is NOT to include periods in eQUEST project names. Thanks for your
+help.
+ 
+...Tom
+ 
+Thomas J. White, P.E.
+Lead Engineer, Energy Services
+503.345.6246  |  twhite at glumac.com
+ 
+320 SW Washington, Suite 200
+Portland, OR 97204-2640
+T. 503.227.5280   F. 503.274.7674 
+http://www.glumac.com <http://www.glumac.com/> 
+ 
+-----Original Message-----
+From: Scott Criswell [mailto:Scott.Criswell at doe2.com]
+Sent: Tuesday, September 27, 2005 11:42 AM
+To: twhite at glumac.com
+Subject: Re: [bldg-sim] error reports on metering
+
+
+Check the name of your project file.  If it contains a '.' (dot) before the
+file extention, such as "Sample Project file ver1.23.pd2", then you should
+find that this error goes away by removing the dot within the project
+filename.  For some reason, dots within filenames confuse DOE-2 and result
+in the truncation of results files, which in turn prevents the eQUEST
+interface from being able to find the corresponding simulation results
+files.
+
+If this is not the case, e-mail me a zip file continaing the PD2 and INP and
+I will take a look.
+
+- Scott
+
+
+Thomas White wrote:
+
+
+Hello, fellow modelers:
+ 
+I'm having a problem getting my model to run. I keep getting messages of the
+following type:
+
+Error retrieving EG_MoEU_ED CSV simulation results for table "Electric
+Consumption (kWh)" (returned -3).
+
+I get three other dimilar messages that address Gas Consumption, Electric
+Demand, and Gas Demand.
+ 
+My model had run previously, but when I went through the zones and plugged
+in daylighting, these four error messages cropped up.
+ 
+Any ideas? I'm obliged to you all for your help. Thanks.
+ 
+..Tom
+ 
+ 
+Thomas J. White, P.E.
+Lead Engineer, Energy Services
+
+ <http://www.glumac.com/>  
+  _____  
+
+320 SW Washington, Suite 200
+Portland, OR 97204-2640
+T.  503.227.5280  F. 503.274.7674  D. 503-345-6246
+
+Thinking. Inside the building.
+ <http://www.glumac.com/> http://www.glumac.com
+ 
+ 
+ 
+======================================================
+
+You received this e-mail because you are subscribed 
+
+to the  BLDG-SIM at GARD.COM <mailto:BLDG-SIM at GARD.COM>  mailing list.  To
+unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM <mailto:BLDG-SIM-UNSUBSCRIBE at GARD.COM> 
+
+  
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050927/8afefc24/attachment.htm>
+
+From twhite at glumac.com  Tue Sep 27 09:37:14 2005
+From: twhite at glumac.com (Thomas White)
+Date: Tue, 27 Sep 2005 09:37:14 -0700
+Subject: [bldg-sim] error reports on metering
+Message-ID: <MDAEMON-F200509271139.AA3956515pd80000800238@gard.com>
+
+Hello, fellow modelers:
+ 
+I'm having a problem getting my model to run. I keep getting messages of the
+following type:
+
+Error retrieving EG_MoEU_ED CSV simulation results for table "Electric
+Consumption (kWh)" (returned -3).
+
+I get three other dimilar messages that address Gas Consumption, Electric
+Demand, and Gas Demand.
+ 
+My model had run previously, but when I went through the zones and plugged
+in daylighting, these four error messages cropped up.
+ 
+Any ideas? I'm obliged to you all for your help. Thanks.
+ 
+..Tom
+ 
+ 
+Thomas J. White, P.E.
+Lead Engineer, Energy Services
+
+ <http://www.glumac.com/>  
+  _____  
+
+320 SW Washington, Suite 200
+Portland, OR 97204-2640
+T.  503.227.5280  F. 503.274.7674  D. 503-345-6246
+
+Thinking. Inside the building.
+ <http://www.glumac.com/> http://www.glumac.com
+ 
+ 
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050927/51013e55/attachment.htm>
+
+From john_m_porterfield at yahoo.com  Sun Sep 25 19:05:22 2005
+From: john_m_porterfield at yahoo.com (John Porterfield)
+Date: Sun, 25 Sep 2005 19:05:22 -0700 (PDT)
+Subject: [bldg-sim] Heat recovery: Any data on central water/sewer drain line temperatures from multi-family buildings?
+In-Reply-To: <MDAEMON-F200509230804.AA0437921pd80000986737@gard.com>
+Message-ID: <MDAEMON-F200509252107.AA0759625pd80000798502@gard.com>
+
+Brian,
+Search for ?gfx? at http://www.eere.energy.gov/
+However, I do not know if documents referenced at this site include measured waste water temperature.
+Perhaps the inventor of GFX can guide you to this data.
+Dr. Carmine Vasile, CEO Voice: 516-758-6271 >WaterFilm Energy Inc. Fax: 516-758-0438 >P.O. Box 48 Email: gfx-ch at msn.com >Oakdale, NY 11769
+Waste water heat exchange topics have appeared at the http://www.repp.org greenbuilding listserve.
+Please let me know what you find.
+ 
+John Porterfield
+John at energydetectives.com
+
+
+Brian Thornton <thorntonenergy at comcast.net> wrote:
+st1\:*{behavior:url(#default#ieooui) }
+I am looking for information on the temperatures of the waste water leaving multi-family buildings.
+
+ 
+
+We have looked at drain heat recovery at individual showers and units, and found the space requirements (and placement of heat recovery equipment in some other tenant/owner spaces) to be too big an obstacle.
+
+ 
+
+I am wondering if there is enough heat to consider central heat recovery off of the combined drain lines to pre-heat domestic hot water make-up.
+
+ 
+
+Any one have history in trying such a heat recovery approach?
+
+ 
+
+Brian
+
+ 
+
+Thornton Energy Consulting
+
+p. 503-231-6600 f. 503-231-3555
+
+thorntonenergy at comcast.net
+
+ 
+
+
+=====================================================You received this e-mail because you are subscribedto the BLDG-SIM at GARD.COM mailing list.  To unsubscribefrom this mailing list send a blank message toBLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+		
+---------------------------------
+Yahoo! for Good
+ Click here to donate to the Hurricane Katrina relief effort. 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050925/39bebeac/attachment.htm>
+
+From jeffhaberl at tees.tamus.edu  Sat Sep 24 08:29:26 2005
+From: jeffhaberl at tees.tamus.edu (Jeff Haberl)
+Date: Sat, 24 Sep 2005 10:29:26 -0500
+Subject: [bldg-sim] Validity of Computer Simulation
+Message-ID: <MDAEMON-F200509241032.AA3207671pd80000797515@gard.com>
+
+There are a number of analytical test results available, for example the ASHRAE 865RP. ASHRAE Standard 140 will be useful as well. The IEA has an Annex with test results from several programs. LBNL also has a number of reports from their MOWITT facility. Comparison reports can also be found from PNNL, NREL, FSEC and many other places.  Our lab has papers on calibrated simulation as well. 
+
+Jeff
+BB 8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  :=')  8=)  8=)  8=? BB
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+BB 8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=) 8=?  8=)  8=)  8= BB
+
+
+-----Original Message-----
+From: bldg-sim at gard.com <bldg-sim at gard.com>
+To: bldg-sim at gard.com <bldg-sim at gard.com>
+Sent: Fri Sep 23 01:21:25 2005
+Subject: [bldg-sim] Validity of Computer Simulation
+
+Dear All who know,
+
+I have some researchs, my researchs have been analyzed
+with Computer Simulation. Some people in here doubt
+over the true validity of computer simulation methods
+when compared directly with real buildings.  
+
+Do you know about that? How much valid do analize the
+researchs with computer simulation?
+
+Regards
+
+M Donny Koerniawan
+Department of Architecture
+Institut Teknologi Bandung
+Indonesia
+
+
+
+
+		
+__________________________________ 
+Yahoo! Mail - PC Magazine Editors' Choice 2005 
+http://mail.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From apappas at enermodal.com  Fri Sep 23 13:38:01 2005
+From: apappas at enermodal.com (Aleka Pappas)
+Date: Fri, 23 Sep 2005 14:38:01 -0600
+Subject: [bldg-sim] EQuest Refrigeration
+Message-ID: <MDAEMON-F200509231540.AA4045250pd80000796937@gard.com>
+
+Has anyone successfully used the EQuest Refrigeration version?  I'm having
+major problems trying to work with a building envelope and refrigeration
+system in the same EQuest file - I'd love to chat with someone for a bit
+who's done it before, if you're out there.
+
+ 
+
+Thanks,
+
+ 
+
+Aleka Pappas
+
+Mechanical Engineer
+
+***********************************
+
+Enermodal Engineering, Inc.
+
+t: 303.861.2070
+
+f: 303.830.2016
+
+ 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050923/b91685df/attachment.htm>
+
+From neymarkj at msn.com  Fri Sep 23 07:27:44 2005
+From: neymarkj at msn.com (Joel Neymark)
+Date: Fri, 23 Sep 2005 08:27:44 -0600
+Subject: [bldg-sim] Validity of Computer Simulation
+References: <MDAEMON-F200509230710.AA1005187pd80000985119@gard.com>
+Message-ID: <MDAEMON-F200509230930.AA3012968pd80000796599@gard.com>
+
+Donny,
+
+You may also want to see the IEA SHC Task 22 website at:
+www.iea-shc.org/task22
+Click on "Outcomes" at the top of the page. Most of the reports there relate
+to testing and validation of building energy analysis simulation tools.
+
+Additionally, American Society of Heating Refrigerating and Air-Conditioning
+Engineers (www.ashrae.org) has published ANSI/ASHRAE Standard 140-2004
+"Method of Test for the Evaluation of Building Energy Simulation Computer
+Programs".
+
+Regards.
+
+Joel Neymark
+
+----- Original Message ----- 
+From: "Ferguson, Alex" <AFerguso at NRCan.gc.ca>
+To: <bldg-sim at gard.com>
+Sent: Friday, September 23, 2005 6:07 AM
+Subject: [bldg-sim] Validity of Computer Simulation
+
+
+> Hi Donny,
+>
+> You may want to look at the outputs from IEA/ECBCS Annex  21 ---
+> specifically the BESTEST diagnostic method proposed by Judkoff and Neymark
+> (http://www.ecbcs.org/bookshop/21_95_2.htm) and the report 1994 report
+> "Empirical validation of thermal building simulation programs using test
+> room data" by Lomas et al.
+>
+> - Alex Ferguson
+>
+> -----Original Message-----
+> From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of MDK
+> Sent: Friday, September 23, 2005 02:22
+> To: bldg-sim at gard.com
+> Subject: [bldg-sim] Validity of Computer Simulation
+>
+> Dear All who know,
+>
+> I have some researchs, my researchs have been analyzed with Computer
+> Simulation. Some people in here doubt over the true validity of computer
+> simulation methods when compared directly with real buildings.
+>
+> Do you know about that? How much valid do analize the researchs with
+> computer simulation?
+>
+> Regards
+>
+> M Donny Koerniawan
+> Department of Architecture
+> Institut Teknologi Bandung
+> Indonesia
+>
+>
+>
+> __________________________________________________
+> Do You Yahoo!?
+> Tired of spam?  Yahoo! Mail has the best spam protection around
+> http://mail.yahoo.com
+>
+> ======================================================
+> You received this e-mail because you are subscribed to the
+BLDG-SIM at GARD.COM
+> mailing list.  To unsubscribe from this mailing list send a blank message
+to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From thorntonenergy at comcast.net  Fri Sep 23 06:02:09 2005
+From: thorntonenergy at comcast.net (Brian Thornton)
+Date: Fri, 23 Sep 2005 06:02:09 -0700
+Subject: [bldg-sim] Heat recovery: Any data on central water/sewer drain line temperatures from multi-family buildings?
+Message-ID: <MDAEMON-F200509230804.AA0437781pd80000796501@gard.com>
+
+I am looking for information on the temperatures of the waste water leaving
+multi-family buildings.
+
+ 
+
+We have looked at drain heat recovery at individual showers and units, and
+found the space requirements (and placement of heat recovery equipment in
+some other tenant/owner spaces) to be too big an obstacle.
+
+ 
+
+I am wondering if there is enough heat to consider central heat recovery off
+of the combined drain lines to pre-heat domestic hot water make-up.
+
+ 
+
+Any one have history in trying such a heat recovery approach?
+
+ 
+
+Brian
+
+ 
+
+Thornton Energy Consulting
+
+p. 503-231-6600 f. 503-231-3555
+
+thorntonenergy at comcast.net
+
+ 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050923/96218e90/attachment.htm>
+
+From christopher.yates at halcrowyolles.com  Fri Sep 23 05:34:50 2005
+From: christopher.yates at halcrowyolles.com (Yates, Christopher)
+Date: Fri, 23 Sep 2005 13:34:50 +0100
+Subject: [bldg-sim] ASHRAE 140
+Message-ID: <MDAEMON-F200509230737.AA3700484pd80000796435@gard.com>
+
+Dear All,
+
+Apache has a directory of ASHRAE 140 test data to demonstrate compliance. It
+provides a brief description of the 140 test building model - basic dims +
+permutations of glazing, etc.
+
+However, one omission from the supplementary PDF manual is the details of
+the low mass and high mass constructions. Does anybody know this?
+
+Unfortunately, the information services that my company subscribe to do not
+supply this document because it falls within the realms of "test data".
+
+Best regards and thanks
+
+Chris Yates
+
+
+The contents of this email are confidential to 
+the intended recipient at the email address to 
+which it has been addressed and do not give rise 
+to any binding legal obligation upon Halcrow 
+Group Limited unless subsequently confirmed on 
+headed business notepaper sent by fax, letter 
+or as an email attachment. It may contain 
+confidential and/or privileged material and may 
+not be disclosed to or used by anyone other 
+than this addressee, nor may it be copied in 
+any way. If you are not the intended recipient, 
+please email the sender immediately by replying 
+to this message and delete the material from 
+your system.
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050923/ecec270c/attachment.htm>
+
+From AFerguso at NRCan.gc.ca  Fri Sep 23 05:07:36 2005
+From: AFerguso at NRCan.gc.ca (Ferguson, Alex)
+Date: Fri, 23 Sep 2005 08:07:36 -0400
+Subject: [bldg-sim] Validity of Computer Simulation
+Message-ID: <MDAEMON-F200509230710.AA1004187pd80000796399@gard.com>
+
+Hi Donny, 
+
+You may want to look at the outputs from IEA/ECBCS Annex  21 ---
+specifically the BESTEST diagnostic method proposed by Judkoff and Neymark
+(http://www.ecbcs.org/bookshop/21_95_2.htm) and the report 1994 report
+"Empirical validation of thermal building simulation programs using test
+room data" by Lomas et al.
+
+- Alex Ferguson
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of MDK
+Sent: Friday, September 23, 2005 02:22
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Validity of Computer Simulation
+
+Dear All who know,
+
+I have some researchs, my researchs have been analyzed with Computer
+Simulation. Some people in here doubt over the true validity of computer
+simulation methods when compared directly with real buildings.  
+
+Do you know about that? How much valid do analize the researchs with
+computer simulation?
+
+Regards
+
+M Donny Koerniawan
+Department of Architecture
+Institut Teknologi Bandung
+Indonesia
+
+
+
+__________________________________________________
+Do You Yahoo!?
+Tired of spam?  Yahoo! Mail has the best spam protection around
+http://mail.yahoo.com 
+
+======================================================
+You received this e-mail because you are subscribed to the BLDG-SIM at GARD.COM
+mailing list.  To unsubscribe from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From dkoerniawan at yahoo.com  Thu Sep 22 23:21:36 2005
+From: dkoerniawan at yahoo.com (MDK)
+Date: Thu, 22 Sep 2005 23:21:36 -0700 (PDT)
+Subject: [bldg-sim] Validity of Computer Simulation
+In-Reply-To: <MDAEMON-F200509211617.AA1710750pd80000981807@gard.com>
+Message-ID: <MDAEMON-F200509230124.AA2420406pd80000796108@gard.com>
+
+Dear All who know,
+
+I have some researchs, my researchs have been analyzed
+with Computer Simulation. Some people in here doubt
+over the true validity of computer simulation methods
+when compared directly with real buildings.  
+
+Do you know about that? How much valid do analize the
+researchs with computer simulation?
+
+Regards
+
+M Donny Koerniawan
+Department of Architecture
+Institut Teknologi Bandung
+Indonesia
+
+
+
+__________________________________________________
+Do You Yahoo!?
+Tired of spam?  Yahoo! Mail has the best spam protection around 
+http://mail.yahoo.com 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kemerson2002 at yahoo.com  Wed Sep 21 14:14:46 2005
+From: kemerson2002 at yahoo.com (K Emerson)
+Date: Wed, 21 Sep 2005 14:14:46 -0700 (PDT)
+Subject: [bldg-sim] ASHRAE system and fuel comparisons
+In-Reply-To: <MDAEMON-F200509211451.AA5137921pd80000980129@gard.com>
+Message-ID: <MDAEMON-F200509211617.AA1711578pd80000794836@gard.com>
+
+Gerald, 
+
+You'll be happy to know that waste heat is free
+energy, and yes, you would compare your absorption
+heater with a gas unit.  If I recall correctly, a unit
+off 100 tons or less would be compared to a single
+effect direct fired absorber (probably COP = 0.7),
+over 100 tons with a double effect direct fired unit
+(COP and IPLV of 1.0).  
+
+Keith Emerson 
+(member, ECB subcommittee of 90.1)
+
+
+--- Gerald Pde <geraldpde at yahoo.com> wrote:
+
+> Hi all,
+> I have a general ASHRAE question. From my
+> understanding, ASHRAE 90.1 does not allow comparison
+> of buildings with different system types or
+> different
+> fuel types.
+> 
+> If this is true, then can a base case model with a
+> gas-fired absorption chiller be compared with an
+> absorption chiller that utilizes waste heat? If so,
+> then can one take credit for the reduction in energy
+> cost from the former to latter system?
+> 
+> Thanks in advance for your input.
+> Gerald Pde
+> 
+> 
+> 
+> 		
+> __________________________________ 
+> Yahoo! Mail - PC Magazine Editors' Choice 2005 
+> http://mail.yahoo.com
+> 
+>
+======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ldegelman at cox.net  Wed Sep 21 13:44:56 2005
+From: ldegelman at cox.net (Larry Degelman)
+Date: Wed, 21 Sep 2005 15:44:56 -0500
+Subject: [bldg-sim] ASHRAE system and fuel comparisons
+In-Reply-To: <MDAEMON-F200509211451.AA513878pd80000980157@gard.com>
+Message-ID: <MDAEMON-F200509211547.AA4744781pd80000794783@gard.com>
+
+My inputs:
+
+Using the ECB Method, the budget building does not take credit for
+site-recovered energy, but your proposed design building does.
+
+Provisions:
+1.  The design energy cost and energy cost budget shall be calculated using:
+(a) the same simulation program, (b) the same weather data, and (c) the same
+purchased energy rates.
+
+2.  Where on-site renewable or site-recovered sources are used, the budget
+building design shall be based on the energy source used as the backup
+energy source or electricity if no backup energy source has been specified.
+
+3.  The type of HVAC system (for both the proposed design and the budget
+building) is mapped on a 1-to-1 correspondence with one of the 11 HVAC
+systems in Fig. 11.3.2 (HVAC Systems Map.)
+
+4.  Lastly, when you do an HVAC design, the HVAC model used in your proposed
+design has to be consistent with your design documents.  The budget building
+HVAC system has to follow Fig. 11.3.2 and the dozen or so accompanying
+notes.
+
+===================================== 
+Larry O. Degelman, P.E.                  ldegelman at cox.net 
+Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+Texas A&M University
+2206 Quail Run 
+College Station, TX 77845
+Ener-Win site: http://members.cox.net/enerwin 
+=====================================
+ 
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Gerald Pde
+Sent: Wednesday, September 21, 2005 2:49 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] ASHRAE system and fuel comparisons
+
+Hi all,
+I have a general ASHRAE question. From my
+understanding, ASHRAE 90.1 does not allow comparison
+of buildings with different system types or different
+fuel types.
+
+If this is true, then can a base case model with a
+gas-fired absorption chiller be compared with an
+absorption chiller that utilizes waste heat? If so,
+then can one take credit for the reduction in energy
+cost from the former to latter system?
+
+Thanks in advance for your input.
+Gerald Pde
+
+
+
+		
+__________________________________ 
+Yahoo! Mail - PC Magazine Editors' Choice 2005 
+http://mail.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From geraldpde at yahoo.com  Wed Sep 21 12:49:09 2005
+From: geraldpde at yahoo.com (Gerald Pde)
+Date: Wed, 21 Sep 2005 12:49:09 -0700 (PDT)
+Subject: [bldg-sim] ASHRAE system and fuel comparisons
+In-Reply-To: <MDAEMON-F200509211145.AA454962pd80000978957@gard.com>
+Message-ID: <MDAEMON-F200509211451.AA5137406pd80000794688@gard.com>
+
+Hi all,
+I have a general ASHRAE question. From my
+understanding, ASHRAE 90.1 does not allow comparison
+of buildings with different system types or different
+fuel types.
+
+If this is true, then can a base case model with a
+gas-fired absorption chiller be compared with an
+absorption chiller that utilizes waste heat? If so,
+then can one take credit for the reduction in energy
+cost from the former to latter system?
+
+Thanks in advance for your input.
+Gerald Pde
+
+
+
+		
+__________________________________ 
+Yahoo! Mail - PC Magazine Editors' Choice 2005 
+http://mail.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From sagerer at paonline.com  Wed Sep 21 09:43:16 2005
+From: sagerer at paonline.com (Sheila Sagerer)
+Date: Wed, 21 Sep 2005 12:43:16 -0400
+Subject: [bldg-sim] eQuest Ice storage on a ground source loop
+Message-ID: <MDAEMON-F200509211145.AA4549546pd80000794456@gard.com>
+
+Good afternoon Everyone-
+
+Does anyone have any idea how to simulate an ice storage system coupled to a
+vertical-loop ground source system in eQuest?
+
+Thanks for your help.
+
+Sheila Sagerer
+Energy Engineer, LEED AP
+Energy Opportunities, Inc
+Phone: 717-880-9069
+Fax: 717-291-9497
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From RRaustad at fsec.ucf.edu  Wed Sep 21 09:37:40 2005
+From: RRaustad at fsec.ucf.edu (Richard Raustad)
+Date: Wed, 21 Sep 2005 12:37:40 -0400
+Subject: Check in for CR's
+Message-ID: <43318C54.3010503@fsec.ucf.edu>
+
+Check in fixes for CR's:
+
+CR6735 - Supermarket input files fail reverse DD test
+CR6757 - maximum iteration limit exceeded in Furnace
+CR6791 - warn user that control zone/thermostat is not served by the air 
+loop containing the furnace
+
+Files changed:
+
+HVACFurnace.f90
+RefrigeratedCase.f90
+
+No diff's in test suite except for supermarket files (expected).
+
+-- 
+Richard A. Raustad
+Senior Research Engineer
+Florida Solar Energy Center
+University of Central Florida
+1679 Clearlake Road
+Cocoa, FL  32922-5703
+Phone:   (321) 638-1454
+Fax:     (321) 638-1439 or 1010
+Visit our web site at: http://www.fsec.ucf.edu
+
+UCF - From Promise to Prominence: Celebrating 40 Years
+
+
+
+
+
+From jon at esru.strath.ac.uk  Wed Sep 21 08:24:50 2005
+From: jon at esru.strath.ac.uk (Jon Hand)
+Date: Wed, 21 Sep 2005 16:24:50 +0100
+Subject: [bldg-sim] Hygrothermal analysis capability
+In-Reply-To: <MDAEMON-F200509210940.AA401731pd80000977279@gard.com>
+References: <MDAEMON-F200509210940.AA401731pd80000977279@gard.com>
+Message-ID: <MDAEMON-F200509211025.AA2543171pd80000794337@gard.com>
+
+
+>    The concrete structure is expected to give off moisture for many years
+> as part of its cure. I expect that it will also react to internal and
+> external vapour pressure and act in a hygroscopic manner. Can this be
+> modelled with ESP-r for example?
+Hygroscopic is possible in ESP-r and is dependant on some difficult-to-find
+material properties. Be aware the facility expects a high degree of
+domain and tool expertise and occassionally dragons have been spotted.
+>
+>    Another interesting feature could be the inclusion of unfired clay for
+> hygroscopic buffering.
+Ditto the comments above. 
+>
+> 2. In order to model the thermal mass of waste within the store it was
+> necessary to represent it as "internal partitions". Does esp-r (or any
+> similar) have the capability to "fudge in" extra thermal mass into a room
+> space along with any other parameters such as surface area, thermal
+> transmittance, surface resistance, etc.
+In esp-r internal mass can be explicitly modelled via surfaces floating
+within a zone. Such surfaces take part in explicit longwave radiation
+exchange with all other surfaces in the zone and take part in the usual
+convective exchanges or can use user supplied hc coeff.  Radiation
+viewfactors can be either explicitly calculated or based on area-weightings.
+
+Such interior surfaces have mass and will act as thermal sponges. There are
+a few rules to follow in defining layers in constructions, but folk have 
+worked with mass of 1-1.5m thickness with little or no difficulty. Run times
+are longer because of the extended start-up day requirements which
+are associated with really massive construction.
+
+Truly clever folk could include phase change properties, but that probably
+is not an issue for this sort of constructoin. The limit the the degree of 
+internal 'clutter' is largely a function of how many extra surfaces you 
+include.
+
+-Jon Hand
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From christopher.yates at halcrowyolles.com  Wed Sep 21 07:37:44 2005
+From: christopher.yates at halcrowyolles.com (Yates, Christopher)
+Date: Wed, 21 Sep 2005 15:37:44 +0100
+Subject: [bldg-sim] Hygrothermal analysis capability
+Message-ID: <MDAEMON-F200509210940.AA4016890pd80000794235@gard.com>
+
+Good afternoon one and all,
+
+1. Does anybody know of an IES apache type piece of dynamic simulation
+software that can model the hygroscopic effects of building materials? The
+job in question is an above ground, thermally massive nuclear waste facility
+with very low levels of ventilation. 
+
+   The concrete structure is expected to give off moisture for many years as
+part of its cure. I expect that it will also react to internal and external
+vapour pressure and act in a hygroscopic manner. Can this be modelled with
+ESP-r for example?
+
+   Another interesting feature could be the inclusion of unfired clay for
+hygroscopic buffering.
+
+   The results of the thermal analysis feed into the concrete design and are
+critical because the concept design of store contains no expansion joints to
+avoid radiation "shine paths".
+
+2. In order to model the thermal mass of waste within the store it was
+necessary to represent it as "internal partitions". Does esp-r (or any
+similar) have the capability to "fudge in" extra thermal mass into a room
+space along with any other parameters such as surface area, thermal
+transmittance, surface resistance, etc.
+
+Best regards
+
+Chris Yates
+
+
+The contents of this email are confidential to 
+the intended recipient at the email address to 
+which it has been addressed and do not give rise 
+to any binding legal obligation upon Halcrow 
+Group Limited unless subsequently confirmed on 
+headed business notepaper sent by fax, letter 
+or as an email attachment. It may contain 
+confidential and/or privileged material and may 
+not be disclosed to or used by anyone other 
+than this addressee, nor may it be copied in 
+any way. If you are not the intended recipient, 
+please email the sender immediately by replying 
+to this message and delete the material from 
+your system.
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050921/8c9f1f30/attachment.htm>
+
+From mattiasj at clallampud.net  Tue Sep 20 14:06:01 2005
+From: mattiasj at clallampud.net (Mattias Jarvegren  x263)
+Date: Tue, 20 Sep 2005 14:06:01 -0700
+Subject: [bldg-sim] eQUEST question - error with construction tab
+Message-ID: <MDAEMON-F200509201608.AA083378pd80000793428@gard.com>
+
+A quick reminder before you go changing the inp file.  If you have put any substantial time into the project: make a back up copy of the inp file first.  Other than that, Mr. Sami's solution should do the trick for you.
+
+
+Mattias
+
+Mattias J?rvegren
+Utility Services Advisor
+PUD No. 1 of Clallam County
+2444 East Pioneer Road
+P.O. Box 1090
+Port Angeles, WA 98362
+mattiasj at clallampud.net
+Phone: (360) 565-3263
+Fax:   (360) 452-9724 
+
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Vikram Sami
+Sent: Tuesday, September 20, 2005 1:38 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] eQUEST question - error with construction tab
+
+Paul,
+I tried repeating what I just suggested to you, and it turns out that you really cannot fix your problem without going into the inp file. It seems to be some kind of bug in the program, but it will not let you edit it in eQUEST. 
+
+However, changing the inp is simple enough, so it shouldn't be a problem.
+
+
+Vikram Sami,  LEED AP
+Direct Phone 404-253-1466 | Direct Fax  404-253-1366 
+
+LORD, AECK & SARGENT ARCHITECTURE
+Responsive Design * Technological Expertise * Exceptional Service www.lordaecksargent.com 
+
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Paul
+Erickson
+Sent: Tuesday, September 20, 2005 3:29 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] eQUEST question - error with construction tab
+
+Hello,
+
+I'm a DOE-2 (mainly VisualDOE) user just getting acquainted with eQUEST.
+
+Has anyone else ever experienced a problem with the construction tab?  I
+somehow inadvertently created a "new" construction that titles itself
+"Construction", though when looking at the construction detail
+window/screen, the "name" is actually blank.  This creates a problem
+when I try to run eQUEST simulations...I get an error.
+
+- When opening the file, it says that there is one BDL error.  I see the
+error tree screen and it refers to a construction titled "Construction".
+I double click on it, the construction tab comes up, I click "done" and
+then it tells me there are no more errors.  However, when I run the
+simulation, the output file is empty and I do not get the output reports
+accessible through eQUEST.  
+
+The inp and BDL files support the fact that there is a construction
+error due to the lack of a name...only the command "CONSTRUCTION" is on
+the line where it should be  "name" = CONSTRUCTION.
+
+On the construction tab:
+
+- I am not able to write a new name in for the construction.
+- I cannot change the specification method.
+- I can change the Construction Layers selection.
+- I cannot delete the construction.  When I try I get a window that says
+that there are no components that exist, but I get "error encountered
+searching for keyword assignments."
+
+Does anyone have a suggestion how to deal with this without going into
+the inp file?  Or is there a way to manipulate the inp file and then
+read it back into eQUEST?
+
+Any help would be greatly appreciated. THanks!
+
+Paul
+
+
+==================
+You received this e-mail because you are subscribed to the
+BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this mailing list
+send a blank message to BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Scott.Criswell at doe2.com  Tue Sep 20 13:57:42 2005
+From: Scott.Criswell at doe2.com (Scott Criswell)
+Date: Tue, 20 Sep 2005 13:57:42 -0700
+Subject: [bldg-sim] eQUEST question - error with construction tab
+In-Reply-To: <MDAEMON-F200509201517.AA1757578pd80000971279@gard.com>
+References: <MDAEMON-F200509201517.AA1757578pd80000971279@gard.com>
+Message-ID: <MDAEMON-F200509201600.AA0007437pd80000793394@gard.com>
+
+Interesting problem.
+I don't believe there is a way to fix this within the eQUEST user 
+interface - unless your project was populated from the wizard and you 
+don't mind loosing all changes you may have made in the detailed 
+interface since leaving the wizard.  If that is the case, then you can 
+simply re-enter the wizard and press the Finish button to re-populate 
+the detailed (BDL) model.
+If this is not the case, then Brian's suggestion of editing the .INP 
+file is the way to go.  You should be able to remove the bogus command 
+entry(s) using a text editor and then pull the project back into eQUEST.
+
+FYI - The problem here is a result of BDL (DOE-2's database) not being 
+able to handle component names being the same as BDL command names 
+(ignoring case).  We are careful to prevent users from naming components 
+using "reserved" names or no name at all when creating components within 
+the interface, but we do not do the same checking when users edit 
+components using the detailed UI tabbed dialogs.
+A fix for this will get added to our list and you should find this no 
+longer a problem once the next public release is posted.
+
+FYI - "EL#" or "E##" stands for Envelope/Loads # and is used as a prefix 
+for all BDL components generated from wizard shell number # (to ensure 
+component name uniqueness within BDL).
+
+- Scott Criswell
+
+
+Brian Fountain wrote:
+
+>Actually, one of the great (and sometimes dangerous!) features of eQUEST is
+>that all the data entered is stored in the .inp text file.  So you can make
+>changes directly to the .inp file that will then "show up" when you reopen
+>eQUEST.  This is helpful for bulk renaming things (like those shell names
+>the wizard creates -- what is EL1, EL2 etc.?) using search & replace in a
+>good text editor.
+>
+>With regard to the specific problem, can you create a new construction?  Are
+>there any constructions created for the building? (It eQUEST in detailed
+>data edit mode, not wizard data edit? -- which precludes many changes?)
+>
+>Brian Fountain - GreenSim
+>bfountain at greensim.com
+>
+>-----Original Message-----
+>From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Paul
+>Erickson
+>Sent: September 20, 2005 3:29 PM
+>To: bldg-sim at gard.com
+>Subject: [bldg-sim] eQUEST question - error with construction tab
+>
+>Hello,
+>
+>I'm a DOE-2 (mainly VisualDOE) user just getting acquainted with eQUEST.
+>
+>Has anyone else ever experienced a problem with the construction tab?  I
+>somehow inadvertently created a "new" construction that titles itself
+>"Construction", though when looking at the construction detail
+>window/screen, the "name" is actually blank.  This creates a problem when I
+>try to run eQUEST simulations...I get an error.
+>
+>- When opening the file, it says that there is one BDL error.  I see the
+>error tree screen and it refers to a construction titled "Construction".  I
+>double click on it, the construction tab comes up, I click "done" and then
+>it tells me there are no more errors.  However, when I run the simulation,
+>the output file is empty and I do not get the output reports accessible
+>through eQUEST.  
+>
+>The inp and BDL files support the fact that there is a construction error
+>due to the lack of a name...only the command "CONSTRUCTION" is on the line
+>where it should be  "name" = CONSTRUCTION.
+>
+>On the construction tab:
+>
+>- I am not able to write a new name in for the construction.
+>- I cannot change the specification method.
+>- I can change the Construction Layers selection.
+>- I cannot delete the construction.  When I try I get a window that says
+>that there are no components that exist, but I get "error encountered
+>searching for keyword assignments."
+>
+>Does anyone have a suggestion how to deal with this without going into the
+>inp file?  Or is there a way to manipulate the inp file and then read it
+>back into eQUEST?
+>
+>Any help would be greatly appreciated. THanks!
+>
+>Paul
+>
+>
+>==================
+>You received this e-mail because you are subscribed 
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+>====================================================
+>You received this e-mail because you are subscribed 
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+>
+>  
+>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From VSami at lasarchitect.com  Tue Sep 20 13:37:51 2005
+From: VSami at lasarchitect.com (Vikram Sami)
+Date: Tue, 20 Sep 2005 16:37:51 -0400
+Subject: [bldg-sim] eQUEST question - error with construction tab
+Message-ID: <MDAEMON-F200509201540.AA4012484pd80000793313@gard.com>
+
+Paul,
+I tried repeating what I just suggested to you, and it turns out that
+you really cannot fix your problem without going into the inp file. It
+seems to be some kind of bug in the program, but it will not let you
+edit it in eQUEST. 
+
+However, changing the inp is simple enough, so it shouldn't be a
+problem.
+
+
+Vikram Sami,  LEED AP 
+Direct Phone 404-253-1466 | Direct Fax  404-253-1366 
+
+LORD, AECK & SARGENT ARCHITECTURE
+Responsive Design * Technological Expertise * Exceptional Service 
+www.lordaecksargent.com 
+
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Paul
+Erickson
+Sent: Tuesday, September 20, 2005 3:29 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] eQUEST question - error with construction tab
+
+Hello,
+
+I'm a DOE-2 (mainly VisualDOE) user just getting acquainted with eQUEST.
+
+Has anyone else ever experienced a problem with the construction tab?  I
+somehow inadvertently created a "new" construction that titles itself
+"Construction", though when looking at the construction detail
+window/screen, the "name" is actually blank.  This creates a problem
+when I try to run eQUEST simulations...I get an error.
+
+- When opening the file, it says that there is one BDL error.  I see the
+error tree screen and it refers to a construction titled "Construction".
+I double click on it, the construction tab comes up, I click "done" and
+then it tells me there are no more errors.  However, when I run the
+simulation, the output file is empty and I do not get the output reports
+accessible through eQUEST.  
+
+The inp and BDL files support the fact that there is a construction
+error due to the lack of a name...only the command "CONSTRUCTION" is on
+the line where it should be  "name" = CONSTRUCTION.
+
+On the construction tab:
+
+- I am not able to write a new name in for the construction.
+- I cannot change the specification method.
+- I can change the Construction Layers selection.
+- I cannot delete the construction.  When I try I get a window that says
+that there are no components that exist, but I get "error encountered
+searching for keyword assignments."
+
+Does anyone have a suggestion how to deal with this without going into
+the inp file?  Or is there a way to manipulate the inp file and then
+read it back into eQUEST?
+
+Any help would be greatly appreciated. THanks!
+
+Paul
+
+
+==================
+You received this e-mail because you are subscribed to the
+BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this mailing list
+send a blank message to BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From VSami at lasarchitect.com  Tue Sep 20 13:27:19 2005
+From: VSami at lasarchitect.com (Vikram Sami)
+Date: Tue, 20 Sep 2005 16:27:19 -0400
+Subject: [bldg-sim] eQUEST question - error with construction tab
+Message-ID: <MDAEMON-F200509201530.AA3001937pd80000793267@gard.com>
+
+ 
+Paul,
+When you open the file and get the bdl error screen, click on the error.
+It should open up the construction window that you mention. The name
+will be blank - type in a name there. This should fix the error.
+
+The problem is that you created a component without a name. I tried
+replicating what you described, and eQUEST will not allow you to do this
+while creating the component. You must have accidentally deleted it
+while trying to edit it. When you do delete the name, it shows up as
+"construction", but will give you the error.
+
+Hope this helps
+
+Vikram Sami,  LEED AP 
+Direct Phone 404-253-1466 | Direct Fax  404-253-1366 
+
+LORD, AECK & SARGENT ARCHITECTURE
+Responsive Design * Technological Expertise * Exceptional Service 
+www.lordaecksargent.com 
+
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Paul
+Erickson
+Sent: Tuesday, September 20, 2005 3:29 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] eQUEST question - error with construction tab
+
+Hello,
+
+I'm a DOE-2 (mainly VisualDOE) user just getting acquainted with eQUEST.
+
+Has anyone else ever experienced a problem with the construction tab?  I
+somehow inadvertently created a "new" construction that titles itself
+"Construction", though when looking at the construction detail
+window/screen, the "name" is actually blank.  This creates a problem
+when I try to run eQUEST simulations...I get an error.
+
+- When opening the file, it says that there is one BDL error.  I see the
+error tree screen and it refers to a construction titled "Construction".
+I double click on it, the construction tab comes up, I click "done" and
+then it tells me there are no more errors.  However, when I run the
+simulation, the output file is empty and I do not get the output reports
+accessible through eQUEST.  
+
+The inp and BDL files support the fact that there is a construction
+error due to the lack of a name...only the command "CONSTRUCTION" is on
+the line where it should be  "name" = CONSTRUCTION.
+
+On the construction tab:
+
+- I am not able to write a new name in for the construction.
+- I cannot change the specification method.
+- I can change the Construction Layers selection.
+- I cannot delete the construction.  When I try I get a window that says
+that there are no components that exist, but I get "error encountered
+searching for keyword assignments."
+
+Does anyone have a suggestion how to deal with this without going into
+the inp file?  Or is there a way to manipulate the inp file and then
+read it back into eQUEST?
+
+Any help would be greatly appreciated. THanks!
+
+Paul
+
+
+==================
+You received this e-mail because you are subscribed to the
+BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this mailing list
+send a blank message to BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From renee at ambient-e.com  Tue Sep 20 13:22:15 2005
+From: renee at ambient-e.com (Renee J. Azerbegi)
+Date: Tue, 20 Sep 2005 14:22:15 -0600
+Subject: [bldg-sim] eQUEST question - error with construction tab
+In-Reply-To: <MDAEMON-F200509201432.AA3233109pd80000971100@gard.com>
+Message-ID: <MDAEMON-F200509201524.AA2444656pd80000793250@gard.com>
+
+Paul, 
+I would recommend deleting the line in the input file referring to this
+construction problem and saving the input file as another name. Then opening
+up the new named file in eQuest. But first just try closing eQuest, opening
+it up again, then running your file again. Often that works.
+Renee
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Paul
+Erickson
+Sent: Tuesday, September 20, 2005 1:29 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] eQUEST question - error with construction tab
+
+Hello,
+
+I'm a DOE-2 (mainly VisualDOE) user just getting acquainted with eQUEST.
+
+Has anyone else ever experienced a problem with the construction tab?  I
+somehow inadvertently created a "new" construction that titles itself
+"Construction", though when looking at the construction detail
+window/screen, the "name" is actually blank.  This creates a problem when I
+try to run eQUEST simulations...I get an error.
+
+- When opening the file, it says that there is one BDL error.  I see the
+error tree screen and it refers to a construction titled "Construction".  I
+double click on it, the construction tab comes up, I click "done" and then
+it tells me there are no more errors.  However, when I run the simulation,
+the output file is empty and I do not get the output reports accessible
+through eQUEST.  
+
+The inp and BDL files support the fact that there is a construction error
+due to the lack of a name...only the command "CONSTRUCTION" is on the line
+where it should be  "name" = CONSTRUCTION.
+
+On the construction tab:
+
+- I am not able to write a new name in for the construction.
+- I cannot change the specification method.
+- I can change the Construction Layers selection.
+- I cannot delete the construction.  When I try I get a window that says
+that there are no components that exist, but I get "error encountered
+searching for keyword assignments."
+
+Does anyone have a suggestion how to deal with this without going into the
+inp file?  Or is there a way to manipulate the inp file and then read it
+back into eQUEST?
+
+Any help would be greatly appreciated. THanks!
+
+Paul
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bfountain at greensim.com  Tue Sep 20 13:14:41 2005
+From: bfountain at greensim.com (Brian Fountain)
+Date: Tue, 20 Sep 2005 16:14:41 -0400
+Subject: [bldg-sim] eQUEST question - error with construction tab
+In-Reply-To: <MDAEMON-F200509201432.AA3227718pd80000970595@gard.com>
+Message-ID: <MDAEMON-F200509201518.AA1800656pd80000793238@gard.com>
+
+Actually, one of the great (and sometimes dangerous!) features of eQUEST is
+that all the data entered is stored in the .inp text file.  So you can make
+changes directly to the .inp file that will then "show up" when you reopen
+eQUEST.  This is helpful for bulk renaming things (like those shell names
+the wizard creates -- what is EL1, EL2 etc.?) using search & replace in a
+good text editor.
+
+With regard to the specific problem, can you create a new construction?  Are
+there any constructions created for the building? (It eQUEST in detailed
+data edit mode, not wizard data edit? -- which precludes many changes?)
+
+Brian Fountain - GreenSim
+bfountain at greensim.com
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Paul
+Erickson
+Sent: September 20, 2005 3:29 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] eQUEST question - error with construction tab
+
+Hello,
+
+I'm a DOE-2 (mainly VisualDOE) user just getting acquainted with eQUEST.
+
+Has anyone else ever experienced a problem with the construction tab?  I
+somehow inadvertently created a "new" construction that titles itself
+"Construction", though when looking at the construction detail
+window/screen, the "name" is actually blank.  This creates a problem when I
+try to run eQUEST simulations...I get an error.
+
+- When opening the file, it says that there is one BDL error.  I see the
+error tree screen and it refers to a construction titled "Construction".  I
+double click on it, the construction tab comes up, I click "done" and then
+it tells me there are no more errors.  However, when I run the simulation,
+the output file is empty and I do not get the output reports accessible
+through eQUEST.  
+
+The inp and BDL files support the fact that there is a construction error
+due to the lack of a name...only the command "CONSTRUCTION" is on the line
+where it should be  "name" = CONSTRUCTION.
+
+On the construction tab:
+
+- I am not able to write a new name in for the construction.
+- I cannot change the specification method.
+- I can change the Construction Layers selection.
+- I cannot delete the construction.  When I try I get a window that says
+that there are no components that exist, but I get "error encountered
+searching for keyword assignments."
+
+Does anyone have a suggestion how to deal with this without going into the
+inp file?  Or is there a way to manipulate the inp file and then read it
+back into eQUEST?
+
+Any help would be greatly appreciated. THanks!
+
+Paul
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From perickson at aeieng.com  Tue Sep 20 12:29:09 2005
+From: perickson at aeieng.com (Paul Erickson)
+Date: Tue, 20 Sep 2005 14:29:09 -0500
+Subject: [bldg-sim] eQUEST question - error with construction tab
+Message-ID: <MDAEMON-F200509201432.AA3230218pd80000793158@gard.com>
+
+Hello,
+
+I'm a DOE-2 (mainly VisualDOE) user just getting acquainted with eQUEST.
+
+Has anyone else ever experienced a problem with the construction tab?  I somehow inadvertently created a "new" construction that titles itself "Construction", though when looking at the construction detail window/screen, the "name" is actually blank.  This creates a problem when I try to run eQUEST simulations...I get an error.
+
+- When opening the file, it says that there is one BDL error.  I see the error tree screen and it refers to a construction titled "Construction".  I double click on it, the construction tab comes up, I click "done" and then it tells me there are no more errors.  However, when I run the simulation, the output file is empty and I do not get the output reports accessible through eQUEST.  
+
+The inp and BDL files support the fact that there is a construction error due to the lack of a name...only the command "CONSTRUCTION" is on the line where it should be  "name" = CONSTRUCTION.
+
+On the construction tab:
+
+- I am not able to write a new name in for the construction.
+- I cannot change the specification method.
+- I can change the Construction Layers selection.
+- I cannot delete the construction.  When I try I get a window that says that there are no components that exist, but I get "error encountered searching for keyword assignments."
+
+Does anyone have a suggestion how to deal with this without going into the inp file?  Or is there a way to manipulate the inp file and then read it back into eQUEST?
+
+Any help would be greatly appreciated. THanks!
+
+Paul
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From sjudson at noresco.com  Tue Sep 20 08:27:30 2005
+From: sjudson at noresco.com (sjudson at noresco.com)
+Date: Tue, 20 Sep 2005 11:27:30 -0400
+Subject: [bldg-sim] plenum temperature and roof heat transfer using eQuest
+Message-ID: <MDAEMON-F200509201029.AA2956984pd80000792900@gard.com>
+
+If there are a large number of samples, why would the windspeed be
+overstated by sampling at 15 minutes before the hour?
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Jeff
+Haberl
+Sent: Monday, September 19, 2005 11:52 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] plenum temperature and roof heat transfer using
+eQuest
+
+FYI. 
+
+You must also enable CWFs, and have properly layered roofs and walls or
+the hourly temperature profiles can be meaningless. Even with this it
+remains difficult to match meas temps from an attic without manipulating
+a proxy variable such as infiltration. 
+
+Jeff
+BB 8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  :=')  8=)  8=)  8=? BB
+
+Jeff S. Haberl, Ph.D.,
+P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office
+Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+BB 8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=) 8=?  8=)  8=)  8= BB
+
+
+-----Original Message-----
+From: bldg-sim at gard.com <bldg-sim at gard.com>
+To: bldg-sim at gard.com <bldg-sim at gard.com>
+Sent: Mon Sep 19 11:31:24 2005
+Subject: [bldg-sim] plenum temperature and roof heat transfer using
+eQuest
+
+Glenn,
+
+Thank you for the trick. I will try it out. the problem is I don't have
+complete data on measured peak attic temperature for all the cases I
+want to study, i.e. with different insulation level, different climate
+zone, etc.
+ 
+Guo.
+
+
+
+On 9/19/05, Glenn Haynes <glenn.haynes at rlw.com> wrote:
+
+	Guo,
+
+	 
+
+	Accurate treatment of radiant heat transfer in attics, etc., is
+too cumbersome for an overall building simulation code like DOE2 (maybe
+future generations with faster computers...).  A little trick I
+discovered to help compensate for the underestimation of attic
+temperatures is to put a little glass in the roof deck.  If you get the
+right amount, it tends to correct for both summer and winter attic
+temperatures.  How much glass depends on a number of variables, but if
+you have some idea what that peak temperature is (measured data
+indicated about 118-122 degrees F. in St Petersburg, Florida), you can
+find the right amount by trial and error.  I found that about 5% was
+sufficient to obtain the result I desired.  If you have enough attic
+temperature data under differing conditions, you can experiment with
+emissivity, U-value, etc.  I just never had enough time to explore those
+variables, but it seemed that the right glass area was the most
+important variable.
+
+	 
+
+	Glenn Haynes
+
+	 
+
+	________________________________
+
+		From: bldg-sim at gard.com [mailto: bldg-sim at gard.com
+<mailto:bldg-sim at gard.com> ] On Behalf Of Guo Zhou
+	Sent: Friday, September 16, 2005 2:47 PM
+	To: bldg-sim at gard.com
+	Subject: [bldg-sim] plenum temperature and roof heat transfer
+using eQuest
+
+	 
+
+	Dear All,
+	
+	I'm using eQuest 3.54 to model a simple 5 zone (perimeter +
+core) big box retail building with 4' plenum in Fresno, CA. Roof
+insulation = R-11, Wall insulation = R-19. Ceiling is not insulated. not
+much glazing.
+	
+	The following are the findings:
+	On hot summer days(outside dry bulb above 100 degree F), when
+the rooms are controlled to maintain 75 degree F:
+	
+	1. with R-11 roof insulation and no ceiling insulation, the
+plenum temperature is very close to room temperature( about 2 degree F
+higher) during the day.
+	
+	2. with R-11 roof and R-19 ceiling, the plenum temperature is
+5~8 degree F higher than room temperature
+	
+	3. with no roof insulation and R-19 ceiling, the plenum
+temperature can reach 93 degree with outside is 103 degree.
+	
+	4. in all above 1,2 and 3 cases, the plenum temperature results
+from return-air-path = plenum-zones and duct are identical.
+	
+	I think the actual plenum temperature would be much higher than
+the simulation results. Especially in case #3.
+	
+	Can anybody please tell me what you think about it? What's
+causing it?
+	
+	As a result, the cooling load from the roof being largely
+underestimated...
+	
+	Thanks.
+	
+	Guo
+
+	
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jeffhaberl at tees.tamus.edu  Mon Sep 19 20:51:56 2005
+From: jeffhaberl at tees.tamus.edu (Jeff Haberl)
+Date: Mon, 19 Sep 2005 22:51:56 -0500
+Subject: [bldg-sim] plenum temperature and roof heat transfer using eQuest
+Message-ID: <MDAEMON-F200509192254.AA5429578pd80000792414@gard.com>
+
+FYI. 
+
+You must also enable CWFs, and have properly layered roofs and walls or the hourly temperature profiles can be meaningless. Even with this it remains difficult to match meas temps from an attic without manipulating a proxy variable such as infiltration. 
+
+Jeff
+BB 8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  :=')  8=)  8=)  8=? BB
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+BB 8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=) 8=?  8=)  8=)  8= BB
+
+
+-----Original Message-----
+From: bldg-sim at gard.com <bldg-sim at gard.com>
+To: bldg-sim at gard.com <bldg-sim at gard.com>
+Sent: Mon Sep 19 11:31:24 2005
+Subject: [bldg-sim] plenum temperature and roof heat transfer using eQuest
+
+Glenn,
+
+Thank you for the trick. I will try it out. the problem is I don't have complete data on measured peak attic temperature for all the cases I want to study, i.e. with different insulation level, different climate zone, etc.
+ 
+Guo.
+
+
+
+On 9/19/05, Glenn Haynes <glenn.haynes at rlw.com> wrote:
+
+	Guo,
+
+	 
+
+	Accurate treatment of radiant heat transfer in attics, etc., is too cumbersome for an overall building simulation code like DOE2 (maybe future generations with faster computers?).  A little trick I discovered to help compensate for the underestimation of attic temperatures is to put a little glass in the roof deck.  If you get the right amount, it tends to correct for both summer and winter attic temperatures.  How much glass depends on a number of variables, but if you have some idea what that peak temperature is (measured data indicated about 118-122 degrees F. in St Petersburg, Florida), you can find the right amount by trial and error.  I found that about 5% was sufficient to obtain the result I desired.  If you have enough attic temperature data under differing conditions, you can experiment with emissivity, U-value, etc.  I just never had enough time to explore those variables, but it seemed that the right glass area was the most important variable.
+
+	 
+
+	Glenn Haynes
+
+	 
+
+	________________________________
+
+		From: bldg-sim at gard.com [mailto: bldg-sim at gard.com <mailto:bldg-sim at gard.com> ] On Behalf Of Guo Zhou
+	Sent: Friday, September 16, 2005 2:47 PM
+	To: bldg-sim at gard.com
+	Subject: [bldg-sim] plenum temperature and roof heat transfer using eQuest
+
+	 
+
+	Dear All,
+	
+	I'm using eQuest 3.54 to model a simple 5 zone (perimeter + core) big box retail building with 4' plenum in Fresno, CA. Roof insulation = R-11, Wall insulation = R-19. Ceiling is not insulated. not much glazing.
+	
+	The following are the findings:
+	On hot summer days(outside dry bulb above 100 degree F), when the rooms are controlled to maintain 75 degree F:
+	
+	1. with R-11 roof insulation and no ceiling insulation, the plenum temperature is very close to room temperature( about 2 degree F higher) during the day.
+	
+	2. with R-11 roof and R-19 ceiling, the plenum temperature is 5~8 degree F higher than room temperature
+	
+	3. with no roof insulation and R-19 ceiling, the plenum temperature can reach 93 degree with outside is 103 degree.
+	
+	4. in all above 1,2 and 3 cases, the plenum temperature results from return-air-path = plenum-zones and duct are identical.
+	
+	I think the actual plenum temperature would be much higher than the simulation results. Especially in case #3.
+	
+	Can anybody please tell me what you think about it? What's causing it?
+	
+	As a result, the cooling load from the roof being largely underestimated...
+	
+	Thanks.
+	
+	Guo
+
+	
+
+From guozhou2005 at gmail.com  Mon Sep 19 10:27:06 2005
+From: guozhou2005 at gmail.com (Guo Zhou)
+Date: Mon, 19 Sep 2005 10:27:06 -0700
+Subject: [bldg-sim] plenum temperature and roof heat transfer using eQuest
+In-Reply-To: <E0172E772F6084479C1D715FA71F0E0E1FA0C4@rlwcaex.rlw.com>
+References: <E0172E772F6084479C1D715FA71F0E0E1FA0C4@rlwcaex.rlw.com>
+Message-ID: <MDAEMON-F200509191229.AA2921828pd80000791887@gard.com>
+
+Glenn,
+
+Thank you for the trick. I will try it out. 
+the problem is 1). I don't have complete data on measured peak attic 
+temperature for all the cases I want to study, i.e. with different 
+insulation level, different climate zone, etc.
+2). how to handle the reflective roof that reduces radiant heat.
+
+
+Guo.
+
+ASPAM=antispamwpk42
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050919/1f6d6891/attachment.htm>
+
+From guozhou2005 at gmail.com  Mon Sep 19 09:31:24 2005
+From: guozhou2005 at gmail.com (Guo Zhou)
+Date: Mon, 19 Sep 2005 09:31:24 -0700
+Subject: [bldg-sim] plenum temperature and roof heat transfer using eQuest
+In-Reply-To: <E0172E772F6084479C1D715FA71F0E0E1FA0C4@rlwcaex.rlw.com>
+References: <E0172E772F6084479C1D715FA71F0E0E1FA0C4@rlwcaex.rlw.com>
+Message-ID: <MDAEMON-F200509191133.AA3343578pd80000791796@gard.com>
+
+Glenn,
+
+Thank you for the trick. I will try it out. the problem is I don't have 
+complete data on measured peak attic temperature for all the cases I want to 
+study, i.e. with different insulation level, different climate zone, etc.
+
+Guo.
+
+
+On 9/19/05, Glenn Haynes <glenn.haynes at rlw.com> wrote:
+> 
+>  Guo,
+> 
+>  Accurate treatment of radiant heat transfer in attics, etc., is too 
+> cumbersome for an overall building simulation code like DOE2 (maybe future 
+> generations with faster computers?). A little trick I discovered to help 
+> compensate for the underestimation of attic temperatures is to put a little 
+> glass in the roof deck. If you get the right amount, it tends to correct for 
+> both summer and winter attic temperatures. How much glass depends on a 
+> number of variables, but if you have some idea what that peak temperature is 
+> (measured data indicated about 118-122 degrees F. in St Petersburg, 
+> Florida), you can find the right amount by trial and error. I found that 
+> about 5% was sufficient to obtain the result I desired. If you have enough 
+> attic temperature data under differing conditions, you can experiment with 
+> emissivity, U-value, etc. I just never had enough time to explore those 
+> variables, but it seemed that the right glass area was the most important 
+> variable.
+> 
+>  Glenn Haynes
+> 
+>   ------------------------------
+>  
+> *From:* bldg-sim at gard.com [mailto:bldg-sim at gard.com] *On Behalf Of *Guo 
+> Zhou
+> *Sent:* Friday, September 16, 2005 2:47 PM
+> *To:* bldg-sim at gard.com
+> *Subject:* [bldg-sim] plenum temperature and roof heat transfer using 
+> eQuest
+>  
+>  Dear All,
+> 
+> I'm using eQuest 3.54 to model a simple 5 zone (perimeter + core) big box 
+> retail building with 4' plenum in Fresno, CA. Roof insulation = R-11, Wall 
+> insulation = R-19. Ceiling is not insulated. not much glazing.
+> 
+> The following are the findings:
+> On hot summer days(outside dry bulb above 100 degree F), when the rooms 
+> are controlled to maintain 75 degree F:
+> 
+> 1. with R-11 roof insulation and no ceiling insulation, the plenum 
+> temperature is very close to room temperature( about 2 degree F higher) 
+> during the day.
+> 
+> 2. with R-11 roof and R-19 ceiling, the plenum temperature is 5~8 degree F 
+> higher than room temperature
+> 
+> 3. with no roof insulation and R-19 ceiling, the plenum temperature can 
+> reach 93 degree with outside is 103 degree.
+> 
+> 4. in all above 1,2 and 3 cases, the plenum temperature results from 
+> return-air-path = plenum-zones and duct are identical.
+> 
+> I think the actual plenum temperature would be much higher than the 
+> simulation results. Especially in case #3.
+> 
+> Can anybody please tell me what you think about it? What's causing it?
+> 
+> As a result, the cooling load from the roof being largely 
+> underestimated...
+> 
+> Thanks.
+> 
+> Guo
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050919/93ba3449/attachment.htm>
+
+From jeffhaberl at tees.tamus.edu  Mon Sep 19 07:18:32 2005
+From: jeffhaberl at tees.tamus.edu (Jeff Haberl)
+Date: Mon, 19 Sep 2005 09:18:32 -0500
+Subject: [bldg-sim] wind speed data in TMY2 files
+Message-ID: <MDAEMON-F200509190921.AA2108468pd80000791587@gard.com>
+
+Sorry, I should have made this more clear. 
+
+The "ground temps" that show up when one runs DOE-2 are from Kusuda's algorithm. These are calculated by internally by DOE-2 in the absense of data on the file. These values are also used by default for the water source temperatures for DHW. One can replace either or both of these with real monthly average temps in the input file. 
+
+Jeff 
+BB 8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  :=')  8=)  8=)  8=? BB
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+BB 8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=) 8=?  8=)  8=)  8= BB
+
+
+-----Original Message-----
+From: Drury.Crawley at EE.DOE.GOV <Drury.Crawley at EE.DOE.GOV>
+To: Jeff Haberl <jeffhaberl at tees.tamus.edu>
+Sent: Sun Sep 18 22:43:38 2005
+Subject: Re: [bldg-sim] wind speed data in TMY2 files
+
+
+Jeff,
+
+TMY2s don't have ground temps.
+
+Dru
+
+
+
+                                                                                                        
+                      "Jeff Haberl"                                                                     
+                      <jeffhaberl at tees.ta      To: bldg-sim at gard.com                                    
+                      mus.edu>                 cc:                                                      
+                      Sent by:                 Subject:  [bldg-sim] wind speed data in TMY2 files       
+                      bldg-sim at gard.com                                                                 
+                                                                                                        
+                                                                                                        
+                      09/18/2005 10:49 PM                                                               
+                      Please respond to                                                                 
+                      jeffhaberl                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+
+
+
+FYI
+
+This point was well described by Geoff Levermore in his recent ASHRAE
+Seminar presentation, where he showed side-by-side measurements of  contact
+anemometers vs more accurate ultrasound sensors. This will cause
+under-predictions of buildings being analyzed for natural ventilation.
+
+So, until TMY2 files are recompiled with new data, or corrected somehow, we
+are all at least using the same bad data. Oh and don't forget the
+suspicious ground temperatures,  and as yet to be compiled service water
+temperatures, both potential fodder for future ASHRAE RPs.
+
+Jeff
+BB 8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  :=')  8=)  8=)  8=? BB
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office Ph:
+979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065
+
+Energy Systems Laboratory.......................FAX: 979-862-2457
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+BB 8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=) 8=?  8=)  8=)  8= BB
+
+
+-----Original Message-----
+From: Andy Lau <asl1 at psu.edu>
+To: Jeff Haberl <jeffhaberl at tees.tamus.edu>
+Sent: Sun Sep 18 18:37:54 2005
+Subject: Re: [bldg-sim] wind speed data in TMY2 files
+
+Jeff,
+
+Thanks.  Do you know of any investigations that have tried to better
+quantify the error?   Cutting out below 3-5 mph is not a big problem if
+using the data to predict turbine performance because they typically do not
+
+operate below 5-8 mph.
+
+Andy
+At 03:20 PM 9/18/2005, you wrote:
+>I believe these are derived from NWS measurements, which tend to be 10
+>meter towers. However, the problem with NWS wind data is that it
+>represents an average of a 3-5 minute snapshot taken 15 minutes before the
+
+>hour, and thus seriously overstates the integrated average wind speed
+>taken over the whole hour.
+>
+>Also, until quite recently,  these were taken with contact anemometers
+>that cut-out below 3-5 MPH, which understates the amount of wind at low
+>wind speeds.
+>
+>Jeff
+>BB 8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  :=')  8=)  8=)  8=? BB
+>
+>Jeff S. Haberl, Ph.D.,
+P.E.............................jhaberl at esl.tamu.edu
+>
+>Professor......................................................Office Ph:
+>979-845-6507
+>
+>Department of Architecture.......................Lab Ph: 979-845-6065
+>
+>Energy Systems Laboratory.......................FAX: 979-862-2457
+>
+>Texas A&M University..............................77843-3581
+>
+>College Station, Texas, USA.......................URL: www-esl.tamu.edu
+>
+>BB 8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=) 8=?  8=)  8=)  8= BB
+>
+>
+>-----Original Message-----
+>From: bldg-sim at gard.com <bldg-sim at gard.com>
+>To: bldg-sim at gard.com <bldg-sim at gard.com>
+>Sent: Sat Sep 17 07:45:10 2005
+>Subject: [bldg-sim] wind speed data in TMY2 files
+>
+>Does anybody know at what height the TMY2 wind speed data was measured?
+>
+>
+>
+>Andy Lau, Associate Director, Center for Sustainability, Penn State
+>213-F Hammond Building, University Park, PA 16802
+>814-863-9075, 814-863-7229 (FAX), andylau at psu.edu, www.engr.psu.edu/cfs
+>
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+
+
+
+From jeffhaberl at tees.tamus.edu  Sun Sep 18 19:49:17 2005
+From: jeffhaberl at tees.tamus.edu (Jeff Haberl)
+Date: Sun, 18 Sep 2005 21:49:17 -0500
+Subject: [bldg-sim] wind speed data in TMY2 files
+Message-ID: <MDAEMON-F200509182151.AA5154687pd80000791128@gard.com>
+
+FYI
+
+This point was well described by Geoff Levermore in his recent ASHRAE Seminar presentation, where he showed side-by-side measurements of  contact anemometers vs more accurate ultrasound sensors. This will cause under-predictions of buildings being analyzed for natural ventilation. 
+
+So, until TMY2 files are recompiled with new data, or corrected somehow, we are all at least using the same bad data. Oh and don't forget the suspicious ground temperatures,  and as yet to be compiled service water temperatures, both potential fodder for future ASHRAE RPs.
+
+Jeff
+BB 8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  :=')  8=)  8=)  8=? BB
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+BB 8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=) 8=?  8=)  8=)  8= BB
+
+
+-----Original Message-----
+From: Andy Lau <asl1 at psu.edu>
+To: Jeff Haberl <jeffhaberl at tees.tamus.edu>
+Sent: Sun Sep 18 18:37:54 2005
+Subject: Re: [bldg-sim] wind speed data in TMY2 files
+
+Jeff,
+
+Thanks.  Do you know of any investigations that have tried to better 
+quantify the error?   Cutting out below 3-5 mph is not a big problem if 
+using the data to predict turbine performance because they typically do not 
+operate below 5-8 mph.
+
+Andy
+At 03:20 PM 9/18/2005, you wrote:
+>I believe these are derived from NWS measurements, which tend to be 10 
+>meter towers. However, the problem with NWS wind data is that it 
+>represents an average of a 3-5 minute snapshot taken 15 minutes before the 
+>hour, and thus seriously overstates the integrated average wind speed 
+>taken over the whole hour.
+>
+>Also, until quite recently,  these were taken with contact anemometers 
+>that cut-out below 3-5 MPH, which understates the amount of wind at low 
+>wind speeds.
+>
+>Jeff
+>BB 8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  :=')  8=)  8=)  8=? BB
+>
+>Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+>
+>Professor......................................................Office Ph: 
+>979-845-6507
+>
+>Department of Architecture.......................Lab Ph: 979-845-6065
+>
+>Energy Systems Laboratory.......................FAX: 979-862-2457
+>
+>Texas A&M University..............................77843-3581
+>
+>College Station, Texas, USA.......................URL: www-esl.tamu.edu
+>
+>BB 8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=) 8=?  8=)  8=)  8= BB
+>
+>
+>-----Original Message-----
+>From: bldg-sim at gard.com <bldg-sim at gard.com>
+>To: bldg-sim at gard.com <bldg-sim at gard.com>
+>Sent: Sat Sep 17 07:45:10 2005
+>Subject: [bldg-sim] wind speed data in TMY2 files
+>
+>Does anybody know at what height the TMY2 wind speed data was measured?
+>
+>
+>
+>Andy Lau, Associate Director, Center for Sustainability, Penn State
+>213-F Hammond Building, University Park, PA 16802
+>814-863-9075, 814-863-7229 (FAX), andylau at psu.edu, www.engr.psu.edu/cfs
+>
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jeffhaberl at tees.tamus.edu  Sun Sep 18 12:20:47 2005
+From: jeffhaberl at tees.tamus.edu (Jeff Haberl)
+Date: Sun, 18 Sep 2005 14:20:47 -0500
+Subject: [bldg-sim] wind speed data in TMY2 files
+Message-ID: <MDAEMON-F200509181423.AA2323437pd80000790889@gard.com>
+
+I believe these are derived from NWS measurements, which tend to be 10 meter towers. However, the problem with NWS wind data is that it represents an average of a 3-5 minute snapshot taken 15 minutes before the hour, and thus seriously overstates the integrated average wind speed taken over the whole hour. 
+
+Also, until quite recently,  these were taken with contact anemometers that cut-out below 3-5 MPH, which understates the amount of wind at low wind speeds. 
+
+Jeff
+BB 8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  :=')  8=)  8=)  8=? BB
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+BB 8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=) 8=?  8=)  8=)  8= BB
+
+
+-----Original Message-----
+From: bldg-sim at gard.com <bldg-sim at gard.com>
+To: bldg-sim at gard.com <bldg-sim at gard.com>
+Sent: Sat Sep 17 07:45:10 2005
+Subject: [bldg-sim] wind speed data in TMY2 files
+
+Does anybody know at what height the TMY2 wind speed data was measured?
+
+
+
+Andy Lau, Associate Director, Center for Sustainability, Penn State
+213-F Hammond Building, University Park, PA 16802
+814-863-9075, 814-863-7229 (FAX), andylau at psu.edu, www.engr.psu.edu/cfs 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From gmehta75 at gmail.com  Sat Sep 17 12:00:22 2005
+From: gmehta75 at gmail.com (Gaurav Mehta)
+Date: Sat, 17 Sep 2005 12:00:22 -0700
+Subject: [bldg-sim] wind speed data in TMY2 files
+References: <MDAEMON-F200509170747.AA4733265pd80000962148@gard.com>
+Message-ID: <MDAEMON-F200509171402.AA0244359pd80000790302@gard.com>
+
+Andy,
+
+The TMY2 wind speed data is measured at about 33ft (10 m) above ground. 
+
+Please refer pp 16.3, Chapter 16, Airflow Around Buildings, ASHRAE 2001. ASHRAE Handbook - 2001 Fundamentals, Atlanta GA.
+
+
+Best,
+
+Gaurav
+
+
+  ----- Original Message ----- 
+  From: Andy Lau 
+  To: bldg-sim at gard.com 
+  Sent: Saturday, September 17, 2005 05:45
+  Subject: [bldg-sim] wind speed data in TMY2 files
+
+
+  Does anybody know at what height the TMY2 wind speed data was measured?
+
+
+  Andy Lau, Associate Director, Center for Sustainability, Penn State
+  213-F Hammond Building, University Park, PA 16802
+  814-863-9075, 814-863-7229 (FAX), andylau at psu.edu, www.engr.psu.edu/cfs 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050917/3185217c/attachment.htm>
+
+From asl1 at psu.edu  Sat Sep 17 05:45:10 2005
+From: asl1 at psu.edu (Andy Lau)
+Date: Sat, 17 Sep 2005 08:45:10 -0400
+Subject: [bldg-sim] wind speed data in TMY2 files
+Message-ID: <MDAEMON-F200509170747.AA4733671pd80000790083@gard.com>
+
+Does anybody know at what height the TMY2 wind speed data was measured?
+
+
+Andy Lau, Associate Director, Center for Sustainability, Penn State
+213-F Hammond Building, University Park, PA 16802
+814-863-9075, 814-863-7229 (FAX), andylau at psu.edu, www.engr.psu.edu/cfs  
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050917/9d48ec96/attachment.htm>
+
+From hamnmegs at ozemail.com.au  Fri Sep 16 16:09:53 2005
+From: hamnmegs at ozemail.com.au (Graham & Megan)
+Date: Sat, 17 Sep 2005 09:09:53 +1000
+Subject: [bldg-sim] Apache uni-dimensional heat transfer assumption
+References: <MDAEMON-F200509160908.AA0847296pd80000956267@gard.com>
+Message-ID: <MDAEMON-F200509161812.AA1214796pd80000789758@gard.com>
+
+You may find LBNL's Therm program to be of some use to understand how
+U-Values may change under the influence of 2D flow compared to 1D.  Last
+time I used Therm it was steady state thus no ability to account for the
+transient dynamics through a thermally massive wall.  Nevertheless you may
+find it useful to understand how an extended external surface area may
+impact the internal heat transfer and thus effective U-Value - you could
+work out your modified extrnal heat transfer coefficient from this.
+
+With regard to some other comments made in this thread, while I cannot speak
+definitively, it is my understanding that TAS and Apache handle
+inter-surface radiant heat transfer very similarly and that true view
+factors are not calculated.  Not having the technical manuals in front of me
+I cannot comment further.  The approximations are good for square boxes and
+increasingly poor with more complex and non-symmetric geometries.  If my
+memory serves me correctly Energy+ also doesn't attempt to calculate view
+factors precisely and also uses an approximation.
+
+It would be worth someone clarifying this to avoid mis-information.
+
+Regards,
+Graham
+----- Original Message ----- 
+From: "Yates, Christopher" <christopher.yates at halcrowyolles.com>
+To: <bldg-sim at gard.com>
+Sent: Saturday, September 17, 2005 12:06 AM
+Subject: [bldg-sim] Apache uni-dimensional heat transfer assumption
+
+
+ASPAM=antispamwpk42
+
+Thanks Gunter,
+
+Are you aware of any guidance for adjusting this external heat transfer
+coefficient (I assume you mean surface emissivity) to account for such
+things as thermal bridging at corners?
+
+I'll take the comments regarding Apache's thermal radiation model on board -
+thank you very much.
+
+Regards, Chris
+
+-----Original Message-----
+From: Pueltz, Gunter [mailto:GPueltz at MuellerBBM.de]
+Sent: 16 September 2005 14:52
+To: 'christopher.yates at halcrowyolles.com'; bldg-sim at gard.com
+Subject: RE: [bldg-sim] Apache uni-dimensional heat transfer assumption
+
+Dear Chris,
+
+the error caused by the 1-D heat conduction of very thick walls can be
+minimized by an adjusted (higher) external heat transfer coefficient.
+
+But be aware of following fact:
+The main problem with Apache is that the thermal radiation model is a simple
+"mean-radient-model" (like TRNSYS), which is not very accurate, and not a
+more sophisticated model based upon view-factors (like ESP-r, Eplus, TAS,
+etc.).
+Thus the errors induced by the minor radiation model will exceed the errors
+caused by restricted 1D heat conduction extensively .......
+
+Regards,
+Gunter
+
+--------------------------------------------
+Dr. Gunter P?ltz
+M?ller-BBM GmbH
+Robert-Koch-Stra?e 11
+82152 Planegg
+Telefon +49 (0)89 85602 - 336
+Telefax +49 (0)89 85602 - 111
+http://www.MuellerBBM.de
+
+
+> -----Original Message-----
+> From: bldg-sim at gard.com [mailto:bldg-sim at gard.com]On Behalf Of Yates,
+> Christopher
+> Sent: Friday, September 16, 2005 3:35 PM
+> To: bldg-sim at gard.com
+> Subject: [bldg-sim] Apache uni-dimensional heat transfer assumption
+>
+>
+> Dear All,
+>
+> The thermal analysis package Apache (from IES) is a multi zone model
+> type analysis package, utilising finite difference methods to model
+> building performance against weather data. One of the assumptions that
+> it makes is that heat transfer only occurs between adjacent spaces in
+> a direction normal to the adjacent surfaces. I believe that this is a
+> common assumption for most building sim software (e.g. ESP-r).
+>
+> The assumption holds true for traditional building types with
+> constructions that are relatively thin when compared to the overall
+> building volume.
+>
+> However, we are analysing a building with wall constructions that are
+> quite thick when compared to the overall volume. Common sense tells me
+> that there will be a substantial 3 dimensional component to heat
+> transfer.
+>
+> Does anybody have any experience of modelling the thermal response of
+> extremely heavyweight buildings that could give me some advice on the
+> limitations of this type of software (it's a nuclear waste storage
+> facility)?
+>
+> It may be possible that this is the preserve of high end CFD,
+> generating large amounts of transient data with the help of super
+> computing facilities.
+> However, it is difficult to know this because of the apparent lack of
+> work done on modelling such facilities.
+>
+> Facts/ opinions???!
+>
+> Thank you in advance
+>
+> Chris Yates
+>
+>
+> The contents of this email are confidential to the intended recipient
+> at the email address to which it has been addressed and do not give
+> rise to any binding legal obligation upon Halcrow Group Limited unless
+> subsequently confirmed on headed business notepaper sent by fax,
+> letter or as an email attachment. It may contain confidential and/or
+> privileged material and may not be disclosed to or used by anyone
+> other than this addressee, nor may it be copied in any way. If you are
+> not the intended recipient, please email the sender immediately by
+> replying to this message and delete the material from your system.
+>
+>
+> ======================================================
+> You received this e-mail because you are subscribed to the
+> BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this mailing list
+> send a blank message to BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+
+
+The contents of this email are confidential to
+the intended recipient at the email address to
+which it has been addressed and do not give rise
+to any binding legal obligation upon Halcrow
+Group Limited unless subsequently confirmed on
+headed business notepaper sent by fax, letter
+or as an email attachment. It may contain
+confidential and/or privileged material and may
+not be disclosed to or used by anyone other
+than this addressee, nor may it be copied in
+any way. If you are not the intended recipient,
+please email the sender immediately by replying
+to this message and delete the material from
+your system.
+
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From guozhou2005 at gmail.com  Fri Sep 16 11:46:35 2005
+From: guozhou2005 at gmail.com (Guo Zhou)
+Date: Fri, 16 Sep 2005 11:46:35 -0700
+Subject: [bldg-sim] plenum temperature and roof heat transfer using eQuest
+Message-ID: <MDAEMON-F200509161349.AA4906562pd80000789537@gard.com>
+
+Dear All,
+
+I'm using eQuest 3.54 to model a simple 5 zone (perimeter + core) big box 
+retail building with 4' plenum in Fresno, CA. Roof insulation = R-11, Wall 
+insulation = R-19. Ceiling is not insulated. not much glazing.
+
+The following are the findings:
+On hot summer days(outside dry bulb above 100 degree F), when the rooms are 
+controlled to maintain 75 degree F:
+
+1. with R-11 roof insulation and no ceiling insulation, the plenum 
+temperature is very close to room temperature( about 2 degree F higher) 
+during the day.
+
+2. with R-11 roof and R-19 ceiling, the plenum temperature is 5~8 degree F 
+higher than room temperature
+
+3. with no roof insulation and R-19 ceiling, the plenum temperature can 
+reach 93 degree with outside is 103 degree.
+
+4. in all above 1,2 and 3 cases, the plenum temperature results from 
+return-air-path = plenum-zones and duct are identical.
+
+I think the actual plenum temperature would be much higher than the 
+simulation results. Especially in case #3.
+
+Can anybody please tell me what you think about it? What's causing it?
+
+As a result, the cooling load from the roof being largely underestimated...
+
+Thanks.
+
+Guo
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050916/5933d443/attachment.htm>
+
+From ldegelman at cox.net  Fri Sep 16 08:17:59 2005
+From: ldegelman at cox.net (Larry Degelman)
+Date: Fri, 16 Sep 2005 10:17:59 -0500
+Subject: [bldg-sim] IBPSA News Reminder ** Only 5 days left
+Message-ID: <MDAEMON-F200509161020.AA2054859pd80000789282@gard.com>
+
+Hello IBPSA members and friends,
+
+ 
+
+Please be aware that there only 5 days left (until 21 September) to get news
+items in to me for the next issue of IBPSA News!  Send anything related to
+building simulation, meeting announcements, software upgrades, awards, etc.
+
+ 
+
+Look at our previous issue for ideas.
+http://www.ibpsa.org/IBPSANews-15-1.pdf
+
+ 
+
+Regards,
+
+ 
+
+Larry Degelman, IBPSA Newsletter Chair
+
+===================================== 
+
+Larry O. Degelman, P.E.                  ldegelman at cox.net 
+
+Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+
+Texas A&M University
+
+=====================================
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050916/821a99fc/attachment.htm>
+
+From GPueltz at MuellerBBM.de  Fri Sep 16 07:38:24 2005
+From: GPueltz at MuellerBBM.de (Pueltz, Gunter)
+Date: Fri, 16 Sep 2005 16:38:24 +0200
+Subject: [bldg-sim] Apache uni-dimensional heat transfer assumption
+Message-ID: <MDAEMON-F200509160940.AA4042375pd80000789173@gard.com>
+
+Dear Chris,
+
+I recommend you to perform some detailled FEM-calculations combined 
+with CFD-Sims for typical corners of your building and afterwards 
+you can adjust the 1-D heatflux of related walls by varying the external 
+heat transfer coefficients; for that you can increase the external 
+heat transfer coefficient either for convection and/or for
+thermal radiation (emissivity of external surface) .....
+
+As a more sophisticated alternative you can also use a simulation tool,
+which shows the
+facility of 3-D-heat conduction within a wall. As far as I know this
+facility is available in the software package ESP-r of Joe Clark, ESRU, ....
+
+Regards,
+Gunter
+
+
+> -----Original Message-----
+> From: bldg-sim at gard.com [mailto:bldg-sim at gard.com]On Behalf Of Yates,
+> Christopher
+> Sent: Friday, September 16, 2005 4:07 PM
+> To: bldg-sim at gard.com
+> Subject: [bldg-sim] Apache uni-dimensional heat transfer assumption
+> 
+> 
+>  ASPAM=antispamwpk42
+> 
+> Thanks Gunter,
+> 
+> Are you aware of any guidance for adjusting this external 
+> heat transfer
+> coefficient (I assume you mean surface emissivity) to account for such
+> things as thermal bridging at corners?
+> 
+> I'll take the comments regarding Apache's thermal radiation 
+> model on board -
+> thank you very much.
+> 
+> Regards, Chris
+> 
+> -----Original Message-----
+> From: Pueltz, Gunter [mailto:GPueltz at MuellerBBM.de] 
+> Sent: 16 September 2005 14:52
+> To: 'christopher.yates at halcrowyolles.com'; bldg-sim at gard.com
+> Subject: RE: [bldg-sim] Apache uni-dimensional heat transfer 
+> assumption
+> 
+> Dear Chris,
+> 
+> the error caused by the 1-D heat conduction of very thick walls can be
+> minimized by an adjusted (higher) external heat transfer coefficient.
+> 
+> But be aware of following fact:
+> The main problem with Apache is that the thermal radiation 
+> model is a simple
+> "mean-radient-model" (like TRNSYS), which is not very 
+> accurate, and not a
+> more sophisticated model based upon view-factors (like ESP-r, 
+> Eplus, TAS,
+> etc.).
+> Thus the errors induced by the minor radiation model will 
+> exceed the errors
+> caused by restricted 1D heat conduction extensively .......
+> 
+> Regards,
+> Gunter
+> 
+> --------------------------------------------
+> Dr. Gunter P?ltz
+> M?ller-BBM GmbH
+> Robert-Koch-Stra?e 11
+> 82152 Planegg
+> Telefon +49 (0)89 85602 - 336
+> Telefax +49 (0)89 85602 - 111
+> http://www.MuellerBBM.de 
+> 
+> 
+> > -----Original Message-----
+> > From: bldg-sim at gard.com [mailto:bldg-sim at gard.com]On Behalf 
+> Of Yates, 
+> > Christopher
+> > Sent: Friday, September 16, 2005 3:35 PM
+> > To: bldg-sim at gard.com
+> > Subject: [bldg-sim] Apache uni-dimensional heat transfer assumption
+> > 
+> > 
+> > Dear All,
+> > 
+> > The thermal analysis package Apache (from IES) is a multi 
+> zone model 
+> > type analysis package, utilising finite difference methods to model 
+> > building performance against weather data. One of the 
+> assumptions that 
+> > it makes is that heat transfer only occurs between adjacent 
+> spaces in 
+> > a direction normal to the adjacent surfaces. I believe that 
+> this is a 
+> > common assumption for most building sim software (e.g. ESP-r).
+> > 
+> > The assumption holds true for traditional building types with 
+> > constructions that are relatively thin when compared to the overall 
+> > building volume.
+> > 
+> > However, we are analysing a building with wall 
+> constructions that are 
+> > quite thick when compared to the overall volume. Common 
+> sense tells me 
+> > that there will be a substantial 3 dimensional component to heat 
+> > transfer.
+> > 
+> > Does anybody have any experience of modelling the thermal 
+> response of 
+> > extremely heavyweight buildings that could give me some 
+> advice on the 
+> > limitations of this type of software (it's a nuclear waste storage 
+> > facility)?
+> > 
+> > It may be possible that this is the preserve of high end CFD, 
+> > generating large amounts of transient data with the help of super 
+> > computing facilities.
+> > However, it is difficult to know this because of the 
+> apparent lack of 
+> > work done on modelling such facilities.
+> > 
+> > Facts/ opinions???!
+> > 
+> > Thank you in advance
+> > 
+> > Chris Yates
+> > 
+> > 
+> > The contents of this email are confidential to the intended 
+> recipient 
+> > at the email address to which it has been addressed and do not give 
+> > rise to any binding legal obligation upon Halcrow Group 
+> Limited unless 
+> > subsequently confirmed on headed business notepaper sent by fax, 
+> > letter or as an email attachment. It may contain 
+> confidential and/or 
+> > privileged material and may not be disclosed to or used by anyone 
+> > other than this addressee, nor may it be copied in any way. 
+> If you are 
+> > not the intended recipient, please email the sender immediately by 
+> > replying to this message and delete the material from your system.
+> > 
+> > 
+> > ======================================================
+> > You received this e-mail because you are subscribed to the 
+> > BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this 
+> mailing list 
+> > send a blank message to BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> > 
+> 
+> 
+> The contents of this email are confidential to 
+> the intended recipient at the email address to 
+> which it has been addressed and do not give rise 
+> to any binding legal obligation upon Halcrow 
+> Group Limited unless subsequently confirmed on 
+> headed business notepaper sent by fax, letter 
+> or as an email attachment. It may contain 
+> confidential and/or privileged material and may 
+> not be disclosed to or used by anyone other 
+> than this addressee, nor may it be copied in 
+> any way. If you are not the intended recipient, 
+> please email the sender immediately by replying 
+> to this message and delete the material from 
+> your system.
+> 
+> 
+> =====================================================You 
+> received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jon at esru.strath.ac.uk  Fri Sep 16 07:30:27 2005
+From: jon at esru.strath.ac.uk (Jon Hand)
+Date: Fri, 16 Sep 2005 15:30:27 +0100
+Subject: [bldg-sim] Apache uni-dimensional heat transfer assumption
+In-Reply-To: <MDAEMON-F200509160836.AA3646296pd80000954577@gard.com>
+References: <MDAEMON-F200509160836.AA3646296pd80000954577@gard.com>
+Message-ID: <MDAEMON-F200509160931.AA3145890pd80000789136@gard.com>
+
+
+Christopher is correct that most simulation tools default to 1D
+conduction. There is, however, the option to turn on 2D and
+3D conduction within a model in ESP-r. When this has been used it
+has tended to be in the context of external thermal bridges,
+but the concept should be applicable to internal portions
+of a building (although I know of no one who has reported
+trying that). 
+
+It should be noted that 3D conduction implies
+additional descriptive detail. Also, such
+facilities are typically geared for research use.
+
+-Jon Hand
+
+On Friday 16 Sep 2005 14:34, Yates, Christopher wrote:
+> Dear All,
+>
+> The thermal analysis package Apache (from IES) is a multi zone model type
+> analysis package, utilising finite difference methods to model building
+> performance against weather data. One of the assumptions that it makes is
+> that heat transfer only occurs between adjacent spaces in a direction
+> normal to the adjacent surfaces. I believe that this is a common assumption
+> for most building sim software (e.g. ESP-r).
+>
+> The assumption holds true for traditional building types with constructions
+> that are relatively thin when compared to the overall building volume.
+>
+> However, we are analysing a building with wall constructions that are quite
+> thick when compared to the overall volume. Common sense tells me that there
+> will be a substantial 3 dimensional component to heat transfer.
+>
+> Does anybody have any experience of modelling the thermal response of
+> extremely heavyweight buildings that could give me some advice on the
+> limitations of this type of software (it's a nuclear waste storage
+> facility)?
+>
+> It may be possible that this is the preserve of high end CFD, generating
+> large amounts of transient data with the help of super computing
+> facilities. However, it is difficult to know this because of the apparent
+> lack of work done on modelling such facilities.
+>
+> Facts/ opinions???!
+>
+> Thank you in advance
+>
+> Chris Yates
+>
+>
+> The contents of this email are confidential to
+> the intended recipient at the email address to
+> which it has been addressed and do not give rise
+> to any binding legal obligation upon Halcrow
+> Group Limited unless subsequently confirmed on
+> headed business notepaper sent by fax, letter
+> or as an email attachment. It may contain
+> confidential and/or privileged material and may
+> not be disclosed to or used by anyone other
+> than this addressee, nor may it be copied in
+> any way. If you are not the intended recipient,
+> please email the sender immediately by replying
+> to this message and delete the material from
+> your system.
+>
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From christopher.yates at halcrowyolles.com  Fri Sep 16 07:06:31 2005
+From: christopher.yates at halcrowyolles.com (Yates, Christopher)
+Date: Fri, 16 Sep 2005 15:06:31 +0100
+Subject: [bldg-sim] Apache uni-dimensional heat transfer assumption
+Message-ID: <MDAEMON-F200509160908.AA085046pd80000789067@gard.com>
+
+ ASPAM=antispamwpk42
+
+Thanks Gunter,
+
+Are you aware of any guidance for adjusting this external heat transfer
+coefficient (I assume you mean surface emissivity) to account for such
+things as thermal bridging at corners?
+
+I'll take the comments regarding Apache's thermal radiation model on board -
+thank you very much.
+
+Regards, Chris
+
+-----Original Message-----
+From: Pueltz, Gunter [mailto:GPueltz at MuellerBBM.de] 
+Sent: 16 September 2005 14:52
+To: 'christopher.yates at halcrowyolles.com'; bldg-sim at gard.com
+Subject: RE: [bldg-sim] Apache uni-dimensional heat transfer assumption
+
+Dear Chris,
+
+the error caused by the 1-D heat conduction of very thick walls can be
+minimized by an adjusted (higher) external heat transfer coefficient.
+
+But be aware of following fact:
+The main problem with Apache is that the thermal radiation model is a simple
+"mean-radient-model" (like TRNSYS), which is not very accurate, and not a
+more sophisticated model based upon view-factors (like ESP-r, Eplus, TAS,
+etc.).
+Thus the errors induced by the minor radiation model will exceed the errors
+caused by restricted 1D heat conduction extensively .......
+
+Regards,
+Gunter
+
+--------------------------------------------
+Dr. Gunter P?ltz
+M?ller-BBM GmbH
+Robert-Koch-Stra?e 11
+82152 Planegg
+Telefon +49 (0)89 85602 - 336
+Telefax +49 (0)89 85602 - 111
+http://www.MuellerBBM.de 
+
+
+> -----Original Message-----
+> From: bldg-sim at gard.com [mailto:bldg-sim at gard.com]On Behalf Of Yates, 
+> Christopher
+> Sent: Friday, September 16, 2005 3:35 PM
+> To: bldg-sim at gard.com
+> Subject: [bldg-sim] Apache uni-dimensional heat transfer assumption
+> 
+> 
+> Dear All,
+> 
+> The thermal analysis package Apache (from IES) is a multi zone model 
+> type analysis package, utilising finite difference methods to model 
+> building performance against weather data. One of the assumptions that 
+> it makes is that heat transfer only occurs between adjacent spaces in 
+> a direction normal to the adjacent surfaces. I believe that this is a 
+> common assumption for most building sim software (e.g. ESP-r).
+> 
+> The assumption holds true for traditional building types with 
+> constructions that are relatively thin when compared to the overall 
+> building volume.
+> 
+> However, we are analysing a building with wall constructions that are 
+> quite thick when compared to the overall volume. Common sense tells me 
+> that there will be a substantial 3 dimensional component to heat 
+> transfer.
+> 
+> Does anybody have any experience of modelling the thermal response of 
+> extremely heavyweight buildings that could give me some advice on the 
+> limitations of this type of software (it's a nuclear waste storage 
+> facility)?
+> 
+> It may be possible that this is the preserve of high end CFD, 
+> generating large amounts of transient data with the help of super 
+> computing facilities.
+> However, it is difficult to know this because of the apparent lack of 
+> work done on modelling such facilities.
+> 
+> Facts/ opinions???!
+> 
+> Thank you in advance
+> 
+> Chris Yates
+> 
+> 
+> The contents of this email are confidential to the intended recipient 
+> at the email address to which it has been addressed and do not give 
+> rise to any binding legal obligation upon Halcrow Group Limited unless 
+> subsequently confirmed on headed business notepaper sent by fax, 
+> letter or as an email attachment. It may contain confidential and/or 
+> privileged material and may not be disclosed to or used by anyone 
+> other than this addressee, nor may it be copied in any way. If you are 
+> not the intended recipient, please email the sender immediately by 
+> replying to this message and delete the material from your system.
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed to the 
+> BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this mailing list 
+> send a blank message to BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+
+The contents of this email are confidential to 
+the intended recipient at the email address to 
+which it has been addressed and do not give rise 
+to any binding legal obligation upon Halcrow 
+Group Limited unless subsequently confirmed on 
+headed business notepaper sent by fax, letter 
+or as an email attachment. It may contain 
+confidential and/or privileged material and may 
+not be disclosed to or used by anyone other 
+than this addressee, nor may it be copied in 
+any way. If you are not the intended recipient, 
+please email the sender immediately by replying 
+to this message and delete the material from 
+your system.
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From GPueltz at MuellerBBM.de  Fri Sep 16 06:52:26 2005
+From: GPueltz at MuellerBBM.de (Pueltz, Gunter)
+Date: Fri, 16 Sep 2005 15:52:26 +0200
+Subject: [bldg-sim] Apache uni-dimensional heat transfer assumption
+Message-ID: <MDAEMON-F200509160854.AA5448578pd80000789059@gard.com>
+
+Dear Chris,
+
+the error caused by the 1-D heat conduction of very thick walls
+can be minimized by an adjusted (higher) external heat transfer coefficient.
+
+But be aware of following fact:
+The main problem with Apache is that the thermal radiation model is
+a simple "mean-radient-model" (like TRNSYS), which is not very accurate, and
+not
+a more sophisticated model based upon view-factors (like ESP-r, Eplus, TAS,
+etc.).
+Thus the errors induced by the minor radiation model will exceed the errors
+caused by restricted 1D heat conduction extensively .......
+
+Regards,
+Gunter
+
+--------------------------------------------
+Dr. Gunter P?ltz
+M?ller-BBM GmbH
+Robert-Koch-Stra?e 11
+82152 Planegg
+Telefon +49 (0)89 85602 - 336
+Telefax +49 (0)89 85602 - 111
+http://www.MuellerBBM.de 
+
+
+> -----Original Message-----
+> From: bldg-sim at gard.com [mailto:bldg-sim at gard.com]On Behalf Of Yates,
+> Christopher
+> Sent: Friday, September 16, 2005 3:35 PM
+> To: bldg-sim at gard.com
+> Subject: [bldg-sim] Apache uni-dimensional heat transfer assumption
+> 
+> 
+> Dear All,
+> 
+> The thermal analysis package Apache (from IES) is a multi 
+> zone model type
+> analysis package, utilising finite difference methods to 
+> model building
+> performance against weather data. One of the assumptions that 
+> it makes is
+> that heat transfer only occurs between adjacent spaces in a 
+> direction normal
+> to the adjacent surfaces. I believe that this is a common 
+> assumption for
+> most building sim software (e.g. ESP-r).
+> 
+> The assumption holds true for traditional building types with 
+> constructions
+> that are relatively thin when compared to the overall building volume.
+> 
+> However, we are analysing a building with wall constructions 
+> that are quite
+> thick when compared to the overall volume. Common sense tells 
+> me that there
+> will be a substantial 3 dimensional component to heat transfer. 
+> 
+> Does anybody have any experience of modelling the thermal response of
+> extremely heavyweight buildings that could give me some advice on the
+> limitations of this type of software (it's a nuclear waste storage
+> facility)?
+> 
+> It may be possible that this is the preserve of high end CFD, 
+> generating
+> large amounts of transient data with the help of super 
+> computing facilities.
+> However, it is difficult to know this because of the apparent 
+> lack of work
+> done on modelling such facilities.
+> 
+> Facts/ opinions???!
+> 
+> Thank you in advance
+> 
+> Chris Yates
+> 
+> 
+> The contents of this email are confidential to 
+> the intended recipient at the email address to 
+> which it has been addressed and do not give rise 
+> to any binding legal obligation upon Halcrow 
+> Group Limited unless subsequently confirmed on 
+> headed business notepaper sent by fax, letter 
+> or as an email attachment. It may contain 
+> confidential and/or privileged material and may 
+> not be disclosed to or used by anyone other 
+> than this addressee, nor may it be copied in 
+> any way. If you are not the intended recipient, 
+> please email the sender immediately by replying 
+> to this message and delete the material from 
+> your system.
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From christopher.yates at halcrowyolles.com  Fri Sep 16 06:34:33 2005
+From: christopher.yates at halcrowyolles.com (Yates, Christopher)
+Date: Fri, 16 Sep 2005 14:34:33 +0100
+Subject: [bldg-sim] Apache uni-dimensional heat transfer assumption
+Message-ID: <MDAEMON-F200509160836.AA3646187pd80000789010@gard.com>
+
+Dear All,
+
+The thermal analysis package Apache (from IES) is a multi zone model type
+analysis package, utilising finite difference methods to model building
+performance against weather data. One of the assumptions that it makes is
+that heat transfer only occurs between adjacent spaces in a direction normal
+to the adjacent surfaces. I believe that this is a common assumption for
+most building sim software (e.g. ESP-r).
+
+The assumption holds true for traditional building types with constructions
+that are relatively thin when compared to the overall building volume.
+
+However, we are analysing a building with wall constructions that are quite
+thick when compared to the overall volume. Common sense tells me that there
+will be a substantial 3 dimensional component to heat transfer. 
+
+Does anybody have any experience of modelling the thermal response of
+extremely heavyweight buildings that could give me some advice on the
+limitations of this type of software (it's a nuclear waste storage
+facility)?
+
+It may be possible that this is the preserve of high end CFD, generating
+large amounts of transient data with the help of super computing facilities.
+However, it is difficult to know this because of the apparent lack of work
+done on modelling such facilities.
+
+Facts/ opinions???!
+
+Thank you in advance
+
+Chris Yates
+
+
+The contents of this email are confidential to 
+the intended recipient at the email address to 
+which it has been addressed and do not give rise 
+to any binding legal obligation upon Halcrow 
+Group Limited unless subsequently confirmed on 
+headed business notepaper sent by fax, letter 
+or as an email attachment. It may contain 
+confidential and/or privileged material and may 
+not be disclosed to or used by anyone other 
+than this addressee, nor may it be copied in 
+any way. If you are not the intended recipient, 
+please email the sender immediately by replying 
+to this message and delete the material from 
+your system.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Jeff.Hirsch at DOE2.com  Fri Sep 16 05:52:10 2005
+From: Jeff.Hirsch at DOE2.com (Jeff Hirsch)
+Date: Fri, 16 Sep 2005 05:52:10 -0700
+Subject: [bldg-sim] Generator Control
+References: <MDAEMON-F200509151115.AA1508484pd80000952285@gard.com>
+Message-ID: <MDAEMON-F200509160752.AA5238656pd80000788935@gard.com>
+
+That "flag" value corresponds to "MAX-OUTPUT" codeword for
+COGEN-TRACK-MODE; see description starting on page
+258 (PDF 265) of the Vol2-Dictionary (ELEC-METER command).
+
+---
+Jeff Hirsch
+James J. Hirsch & Associates
+Building Performance Analysis Software & Consulting
+12185 Presilla Road
+Camarillo, CA 93012-9243 USA
+phone: (805) 553-9000
+fax: (805) 532-2401
+email: Jeff.Hirsch at DOE2.com
+web: http://DOE2.com
+
+
+  ----- Original Message ----- 
+  From: Bryce Munger 
+  To: bldg-sim at gard.com 
+  Sent: Thursday, September 15, 2005 9:12 AM
+  Subject: [bldg-sim] Generator Control
+
+
+  I am setting up an eQuest sim with a bio-diesel generator used onsite to reduce the load.  I have an operation schedule defined by the electrical engineer that is not 24/7.  On page 342 of the DOE22Vol3-Topics manual there is an example of a 12-hour surplus sale operation sequence that looks like this:
+
+  Gen-DS = DAY-SCHEDULE-PD
+  TYPE = FLAG
+  VALUES = (0,0,0,0,0,5,5,5, $ 0=don't run
+                    5,5,5,5,5,5,5,5, $ 5=maximum output
+                    5,0,0,0,0,0,0,0) ..
+
+  I couldn't find any reference to the values used in the flag schedule.  Does "5" correspond to running at full capacity as defined in the ELECTRIC-GENERATOR command?  Would values from 0-5 then be part capacity operation?
+
+  Thanks,
+
+  Bryce Munger
+  Balzhiser & Hubbard Engineers
+  Mechanical - Electrical - Civil - Energy - Lighting - Surveying - Commissioning - Sustainability
+  100 West 13th Avenue, Eugene, Oregon 97401  (541) 686-8478  fax (541) 345-5303 
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050916/8cf55b45/attachment.htm>
+
+From bmunger at bhengineers.com  Thu Sep 15 09:12:51 2005
+From: bmunger at bhengineers.com (Bryce Munger)
+Date: Thu, 15 Sep 2005 09:12:51 -0700
+Subject: [bldg-sim] Generator Control
+Message-ID: <MDAEMON-F200509151115.AA1511265pd80000788094@gard.com>
+
+I am setting up an eQuest sim with a bio-diesel generator used onsite to
+reduce the load.  I have an operation schedule defined by the electrical
+engineer that is not 24/7.  On page 342 of the DOE22Vol3-Topics manual there
+is an example of a 12-hour surplus sale operation sequence that looks like
+this:
+
+Gen-DS = DAY-SCHEDULE-PD
+TYPE = FLAG
+VALUES = (0,0,0,0,0,5,5,5, $ 0=don't run
+                  5,5,5,5,5,5,5,5, $ 5=maximum output
+                  5,0,0,0,0,0,0,0) ..
+
+I couldn't find any reference to the values used in the flag schedule.  Does
+"5" correspond to running at full capacity as defined in the
+ELECTRIC-GENERATOR command?  Would values from 0-5 then be part capacity
+operation?
+
+Thanks,
+
+Bryce Munger
+Balzhiser & Hubbard Engineers
+Mechanical - Electrical - Civil - Energy - Lighting - Surveying -
+Commissioning - Sustainability
+100 West 13th Avenue, Eugene, Oregon 97401  (541) 686-8478  fax (541)
+345-5303
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050915/46427564/attachment.htm>
+
+From miket at etcgrp.com  Wed Sep 14 18:46:24 2005
+From: miket at etcgrp.com (Mike Tillou)
+Date: Wed, 14 Sep 2005 19:46:24 -0600
+Subject: [bldg-sim] Energy Recovery in eQUEST
+Message-ID: <MDAEMON-F200509142039.AA3949156pd80000787482@gard.com>
+
+Shruti,
+
+I think I can answer your questions. 
+
+1. You can specify the static pressure drop of both the supply and
+exhaust side of the ERV and eQuest calculates the fan energy assuming
+that the main AHU supply and return fans pick up the extra static (this
+is the default).  You can also specify dedicated fans for the ERV.  You
+find this on the Second Heat Recovery tab.
+
+2. I think the Bypass OA hourly value reports 0 whenever the ERV is off
+because eQuest is assuming none of the OA is going through the ERV so
+there is no air being bypassed to maintain the temperature control of
+the ERV (in other words if the ERV is off, equest assumes it's not
+there)
+
+It's not obvious how eQuest does the ERV calculation.  If you look at
+the hourly reports and the standard reports the effects of the increased
+pressure drop of the ERV only show up in a few places.
+
+The extra pressure drop does not show up in the SV-A report which
+summarizes the fan system characteristics, nor does the extra fan energy
+show up in the hourly report values of Supply Fan kW and Return Fan kW.
+
+You can see the added fan energy in the monthly breakdowns in the SS-L
+report but not in the breakdown of annual fan power usage in the same
+report.
+
+There is also an ERV report that gets included in the SIM file whenever
+an ERV is simulated.  This report appears after the SS-N report for the
+system with the ERV.  The report is NOT included in the report list
+drop-down-box included with the D2SimViewer so you need to scroll down
+past the SS-N report to find it.
+
+Maybe one of the DOE2.2 folks could explain a little better how the ERV
+is simulated and how the results get reported. 
+
+Just be careful when you're calibrating the model and don't get
+frustrated if it looks like its not working.  
+
+Mike
+
+Mike Tillou, PE
+etc Group, Inc.
+
+
+
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of shruti
+narayan
+Sent: Wednesday, September 14, 2005 7:37 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Energy Recovery in eQUEST
+
+We have modeled a 100% OA AHU system with Energy Recovery in eQUEST
+based on 
+the following control mechanism.
+
+Enthalpy Wheel type- recovering both sensible and latent heat,
+Operating mode - both heat/cool,
+Make up air temperature control- Mixed Air Reset
+Capacity Control- Bypass OA
+Operation-OA Exhaust DT
+OA/Exhaust DT- 5degF
+
+As stated by others previously, the energy savings potential can vary 
+markedly depending on the effectiveness of the control sequence. An ERV
+that 
+operates continuously can incur a significant fan energy penalty. In 
+addition, it may recover heat when the heat is not needed, thereby 
+increasing cooling energy. A properly controlled ERV may prove to be
+cost 
+effective, while the same ERV improperly controlled may actually
+increase 
+energy usage and cost.
+
+The questions are:
+
+1. To relieve the static pressure drop (not to provide control), a
+bypass 
+damper has been incorporated into the design on both the exhaust and
+supply 
+decks.  Intention is for the damper to open when the energy recovery is
+off, 
+thereby reducing the static pressure drop.  How should one model the
+bypass 
+dampers to accurately account for the static pressure relief...
+perhaps a 
+schedule of pressure drop or fan energy tied to the ERV status?
+
+2. Also hourly reports obtained from the current model for " ERV
+fraction of 
+OA bypassed around the HX ". Indicate a fraction of air being bypassed
+when 
+the ERV is on, however it gives a value of 0 when the ERV is off, which 
+should not be the case. The fraction of OA being bypassed should be 1
+when 
+the ERV is off. What could be wrong? Any thoughts or suggestions?
+
+This perhaps adds onto the previous thread of in-depth discussion on
+Energy 
+Recovery, but having been through the Bldg-sim archive and the DOE 2
+manual 
+we have not been able to find an answer to the above issues. Any
+direction 
+would be really appreciated, either in the modeling inputs or using post
+
+processing to get the Energy Recovery with bypass dampers to show
+accurate 
+savings.
+
+Thanks
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From shruti_narayan at hotmail.com  Wed Sep 14 16:36:37 2005
+From: shruti_narayan at hotmail.com (shruti narayan)
+Date: Thu, 15 Sep 2005 05:06:37 +0530
+Subject: [bldg-sim] Energy Recovery in eQUEST
+In-Reply-To: <MDAEMON-F200509131141.AA4147687pd80000949044@gard.com>
+Message-ID: <MDAEMON-F200509141838.AA3853453pd80000787345@gard.com>
+
+We have modeled a 100% OA AHU system with Energy Recovery in eQUEST based on 
+the following control mechanism.
+
+Enthalpy Wheel type- recovering both sensible and latent heat,
+Operating mode - both heat/cool,
+Make up air temperature control- Mixed Air Reset
+Capacity Control- Bypass OA
+Operation-OA Exhaust DT
+OA/Exhaust DT- 5degF
+
+As stated by others previously, the energy savings potential can vary 
+markedly depending on the effectiveness of the control sequence. An ERV that 
+operates continuously can incur a significant fan energy penalty. In 
+addition, it may recover heat when the heat is not needed, thereby 
+increasing cooling energy. A properly controlled ERV may prove to be cost 
+effective, while the same ERV improperly controlled may actually increase 
+energy usage and cost.
+
+The questions are:
+
+1. To relieve the static pressure drop (not to provide control), a bypass 
+damper has been incorporated into the design on both the exhaust and supply 
+decks.  Intention is for the damper to open when the energy recovery is off, 
+thereby reducing the static pressure drop.  How should one model the bypass 
+dampers to accurately account for the static pressure relief?   perhaps a 
+schedule of pressure drop or fan energy tied to the ERV status?
+
+2. Also hourly reports obtained from the current model for " ERV fraction of 
+OA bypassed around the HX ". Indicate a fraction of air being bypassed when 
+the ERV is on, however it gives a value of 0 when the ERV is off, which 
+should not be the case. The fraction of OA being bypassed should be 1 when 
+the ERV is off. What could be wrong? Any thoughts or suggestions?
+
+This perhaps adds onto the previous thread of in-depth discussion on Energy 
+Recovery, but having been through the Bldg-sim archive and the DOE 2 manual 
+we have not been able to find an answer to the above issues. Any direction 
+would be really appreciated, either in the modeling inputs or using post 
+processing to get the Energy Recovery with bypass dampers to show accurate 
+savings.
+
+Thanks
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From geraldpde at yahoo.com  Wed Sep 14 10:12:04 2005
+From: geraldpde at yahoo.com (Gerald Pde)
+Date: Wed, 14 Sep 2005 10:12:04 -0700 (PDT)
+Subject: [bldg-sim] eQUEST: Gas Cost Factor
+In-Reply-To: <MDAEMON-F200509131141.AA4138625pd80000948681@gard.com>
+Message-ID: <MDAEMON-F200509141214.AA1416531pd80000786972@gard.com>
+
+For utility rate structure, I have monthly cost
+adjustment and Gas Cost Factor that need to build into
+the rate structure. Can anyone tell me how to put in
+Gas Cost Factors into eQUEST rate structure?
+Gerald
+
+
+__________________________________________________
+Do You Yahoo!?
+Tired of spam?  Yahoo! Mail has the best spam protection around 
+http://mail.yahoo.com 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From renee at ambient-e.com  Tue Sep 13 09:39:28 2005
+From: renee at ambient-e.com (Renee J. Azerbegi)
+Date: Tue, 13 Sep 2005 10:39:28 -0600
+Subject: [bldg-sim] weather file for Frisco, Colorado?
+Message-ID: <MDAEMON-F200509131141.AA4139937pd80000785929@gard.com>
+
+Does anyone have a weather file for Frisco, Colorado or know the HDDs and
+CDDs?
+
+
+
+Thanks much,
+
+
+Renee
+
+ 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050913/f286298a/attachment.htm>
+
+From geraldpde at yahoo.com  Sat Sep 10 15:35:44 2005
+From: geraldpde at yahoo.com (Gerald Pde)
+Date: Sat, 10 Sep 2005 15:35:44 -0700 (PDT)
+Subject: [bldg-sim] eQUEST: Space cooling question.
+In-Reply-To: <63E5D654-3313-4435-984E-73CA0ABE065C@siu.edu>
+Message-ID: <MDAEMON-F200509101737.AA3754765pd80000783783@gard.com>
+
+Thanks for all your inputs,
+The fancoil system which was defined is a four pipe,
+and I suspect that the chilled water loop is always
+loaded to provide space cooling whenever necessary.
+And I also suspect that the loop in standby model  was
+providing for constant flow within the loop thus the
+absorbtion chiller need to be cooling all the time to
+supply a constant cooling flow within the loop. I
+changed the loop operation control to "demand" instead
+of "standby" which was previously defined and that
+solved the problem.
+Thanks again,
+Gerald
+
+--- Justin Harrell <harrell at siu.edu> wrote:
+
+> Gerald,
+> I would be suspicious of the loop or the chiller
+> itself.  Check to  
+> make sure that (for a 2-pipe system) that the 3-way
+> valve isn't stuck  
+> at a minimum setting and sending some water to the
+> chiller in  
+> winter.  You might also try using a time or
+> temperature schedule to  
+> make the chiller unavailable in winter.  I hope this
+> helps.
+> Justin
+> 
+> On Sep 10, 2005, at 2:48 AM, Gerald Pde wrote:
+> 
+> > I have a generic single zone space which I am
+> trying
+> > to model eQUEST. The air-side is a fan coil unit
+> and
+> > the chiller is an absorption chiller which rejects
+> > heat to a colling tower and a boiler that provides
+> the
+> > cooling. Most values are equest default values.
+> Maybe
+> > I am missing out something, but I haven't been
+> able to
+> > figure out in any of the simulation why I am
+> getting a
+> > significant cooling load in winter. I have tried
+> to
+> > find this out by removing all space loads and
+> outside
+> > air loads, but I still get cooling in winter. I
+> know
+> > its because of some system element which I am not
+> > understanding. I tried this with a few system
+> types,
+> > like VAV, or single zone reheat and it was still
+> > giving cooling energy.I tried removed all loads
+> and
+> > cooling potential, and there was a constant chunk
+> of
+> > space cooling energy in the system all the year
+> round.
+> > I know this cannot be any kind of space cooling
+> and
+> > has to be from some other source.  Can anyone
+> enligten
+> > me as to where this space cooling is comming from?
+> > Your inputs are appreciated.
+> > Gerald
+> >
+> >
+> >
+> >
+> >
+>
+______________________________________________________
+> > Click here to donate to the Hurricane Katrina
+> relief effort.
+> > http://store.yahoo.com/redcross-donate3/
+> >
+> >
+>
+======================================================
+> > You received this e-mail because you are
+> subscribed
+> > to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe
+> > from this mailing list send a blank message to
+> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> >
+> >
+> 
+> 
+
+
+
+	
+		
+______________________________________________________
+Click here to donate to the Hurricane Katrina relief effort.
+http://store.yahoo.com/redcross-donate3/
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From harrell at siu.edu  Sat Sep 10 11:54:10 2005
+From: harrell at siu.edu (Justin Harrell)
+Date: Sat, 10 Sep 2005 13:54:10 -0500
+Subject: [bldg-sim] eQUEST: Space cooling question.
+In-Reply-To: <MDAEMON-F200509100250.AA5020156pd80000945507@gard.com>
+References: <MDAEMON-F200509100250.AA5020156pd80000945507@gard.com>
+Message-ID: <MDAEMON-F200509101356.AA561415pd80000783653@gard.com>
+
+Gerald,
+I would be suspicious of the loop or the chiller itself.  Check to  
+make sure that (for a 2-pipe system) that the 3-way valve isn't stuck  
+at a minimum setting and sending some water to the chiller in  
+winter.  You might also try using a time or temperature schedule to  
+make the chiller unavailable in winter.  I hope this helps.
+Justin
+
+On Sep 10, 2005, at 2:48 AM, Gerald Pde wrote:
+
+> I have a generic single zone space which I am trying
+> to model eQUEST. The air-side is a fan coil unit and
+> the chiller is an absorption chiller which rejects
+> heat to a colling tower and a boiler that provides the
+> cooling. Most values are equest default values. Maybe
+> I am missing out something, but I haven't been able to
+> figure out in any of the simulation why I am getting a
+> significant cooling load in winter. I have tried to
+> find this out by removing all space loads and outside
+> air loads, but I still get cooling in winter. I know
+> its because of some system element which I am not
+> understanding. I tried this with a few system types,
+> like VAV, or single zone reheat and it was still
+> giving cooling energy.I tried removed all loads and
+> cooling potential, and there was a constant chunk of
+> space cooling energy in the system all the year round.
+> I know this cannot be any kind of space cooling and
+> has to be from some other source.  Can anyone enligten
+> me as to where this space cooling is comming from?
+> Your inputs are appreciated.
+> Gerald
+>
+>
+>
+>
+> ______________________________________________________
+> Click here to donate to the Hurricane Katrina relief effort.
+> http://store.yahoo.com/redcross-donate3/
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From geraldpde at yahoo.com  Sat Sep 10 00:48:09 2005
+From: geraldpde at yahoo.com (Gerald Pde)
+Date: Sat, 10 Sep 2005 00:48:09 -0700 (PDT)
+Subject: [bldg-sim] eQUEST: Space cooling question.
+In-Reply-To: <MDAEMON-F200509081442.AA4227609pd80000944475@gard.com>
+Message-ID: <MDAEMON-F200509100250.AA5021203pd80000783371@gard.com>
+
+I have a generic single zone space which I am trying
+to model eQUEST. The air-side is a fan coil unit and
+the chiller is an absorption chiller which rejects
+heat to a colling tower and a boiler that provides the
+cooling. Most values are equest default values. Maybe
+I am missing out something, but I haven't been able to
+figure out in any of the simulation why I am getting a
+significant cooling load in winter. I have tried to
+find this out by removing all space loads and outside
+air loads, but I still get cooling in winter. I know
+its because of some system element which I am not
+understanding. I tried this with a few system types,
+like VAV, or single zone reheat and it was still
+giving cooling energy.I tried removed all loads and
+cooling potential, and there was a constant chunk of
+space cooling energy in the system all the year round.
+I know this cannot be any kind of space cooling and
+has to be from some other source.  Can anyone enligten
+me as to where this space cooling is comming from?
+Your inputs are appreciated.
+Gerald
+
+
+	
+		
+______________________________________________________
+Click here to donate to the Hurricane Katrina relief effort.
+http://store.yahoo.com/redcross-donate3/
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ajain at setty.com  Thu Sep  8 12:37:37 2005
+From: ajain at setty.com (Alpana Jain)
+Date: Thu, 8 Sep 2005 15:37:37 -0400
+Subject: [bldg-sim] ground loop heat exchanger in eQUEST
+Message-ID: <MDAEMON-F200509081442.AA4228140pd80000781996@gard.com>
+
+Hi, 
+
+ 
+
+I am trying to model a Ground loop heat exchanger using eQUEST.
+Obviously, I am going wrong somewhere, because the energy use in the
+building is going up by almost 20kbtu/sqft/yr as against a variable
+volume system, which in reality should actually go down.
+
+I am modeling the GLHX along with a fluid cooler. I notice that the vent
+fan energy and cooling energy go up drastically although heating energy
+is reduced to almost nil.
+
+Has anyone any experience with modeling a ground source heat pump in
+eQUEST? And can tell me where I might be going wrong?
+
+ 
+
+Thanks
+
+ 
+
+Regards
+
+Alpana
+
+ 
+
+________________________________
+
+Alpana Jain Kapoor 
+
+LEEDTM  A.P., Energy Analyst
+
+Setty & Associates, Ltd.
+
+10340 Democracy Lane, Suite 304
+
+Fairfax, VA - 22030
+
+ 
+
+Phone:
+
+703-691-2115 ex: 19 (Work)
+
+703-691-8084 (Fax)
+
+ 
+
+Mail: ajain at setty.com <mailto:ajain at setty.com> 
+
+Web: www.setty.com
+
+________________________________
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050908/0617606c/attachment.htm>
+
+From ldegelman at cox.net  Wed Sep  7 09:49:55 2005
+From: ldegelman at cox.net (Larry Degelman)
+Date: Wed, 7 Sep 2005 11:49:55 -0500
+Subject: [bldg-sim] Reminder -- IBPSA News items needed before 21 September.
+Message-ID: <MDAEMON-F200509071153.AA5332828pd50000780827@gard.com>
+
+Reminder to IBPSA members and friends,
+
+ 
+
+The due date for news items is 21 September.  Please send news on conference
+and meeting announcements, promotions, new software releases, honors and
+awards, etc.  We even accept newly authored articles related to building
+simulation.  For a look at previous IBPSA News issues, log into
+http://www.ibpsa.org/m_newsletter.asp
+
+ 
+
+Remember the Equinox.
+
+ 
+
+Thanks!
+
+ 
+
+Larry Degelman, IBPSA Newsletter Chairperson
+
+ ===================================== 
+
+Larry O. Degelman, P.E.                  ldegelman at cox.net 
+
+Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+
+Texas A&M University
+
+=====================================
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050907/df138d51/attachment.htm>
+
+From miket at etcgrp.com  Tue Sep  6 07:57:34 2005
+From: miket at etcgrp.com (Mike Tillou)
+Date: Tue, 6 Sep 2005 08:57:34 -0600
+Subject: [bldg-sim] eQUEST Heat Pumps.
+Message-ID: <MDAEMON-F200509060956.AA5600218pd80000779648@gard.com>
+
+eQuest will only do room heat pumps.  
+ 
+MMT
+ 
+Michael Tillou, PE
+etc Group, Inc.
+PO Box 749,  North Adams, MA 01247
+Ph. (413) 458-9870   Mbl. (413) 652-1087  
+
+________________________________
+
+From: bldg-sim at gard.com on behalf of Gerald Pde
+Sent: Tue 9/6/2005 8:22 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] eQUEST Heat Pumps.
+
+
+
+Is it possible to have centralized heatpumps which
+supply conditioned air to a number of zones or are we
+limited to roomside heatpumps in equest?
+Thanks,
+Gerald
+
+__________________________________________________
+Do You Yahoo!?
+Tired of spam?  Yahoo! Mail has the best spam protection around
+http://mail.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050906/9ff92545/attachment.htm>
+
+From geraldpde at yahoo.com  Tue Sep  6 07:22:19 2005
+From: geraldpde at yahoo.com (Gerald Pde)
+Date: Tue, 6 Sep 2005 07:22:19 -0700 (PDT)
+Subject: [bldg-sim] eQUEST Heat Pumps.
+Message-ID: <MDAEMON-F200509060924.AA2422609pd80000779580@gard.com>
+
+Is it possible to have centralized heatpumps which
+supply conditioned air to a number of zones or are we
+limited to roomside heatpumps in equest? 
+Thanks,
+Gerald
+
+__________________________________________________
+Do You Yahoo!?
+Tired of spam?  Yahoo! Mail has the best spam protection around 
+http://mail.yahoo.com 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From vaipotnis at hotmail.com  Thu Sep  1 21:40:59 2005
+From: vaipotnis at hotmail.com (Vaibhav Potnis)
+Date: Fri, 02 Sep 2005 10:10:59 +0530
+Subject: [bldg-sim] Demand Control Ventilation On Kitchen Exhaust
+In-Reply-To: <MDAEMON-F200509011619.AA1908125pd80000939734@gard.com>
+Message-ID: <MDAEMON-F200509012342.AA4256921pd80000776415@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050902/39f3a18c/attachment.htm>
+
+From geraldpde at yahoo.com  Thu Sep  1 14:17:03 2005
+From: geraldpde at yahoo.com (Gerald Pde)
+Date: Thu, 1 Sep 2005 14:17:03 -0700 (PDT)
+Subject: [bldg-sim] Demand Control Ventilation On Kitchen Exhaust
+In-Reply-To: <MDAEMON-F200509011118.AA182431pd80000938388@gard.com>
+Message-ID: <MDAEMON-F200509011619.AA1905875pd80000776157@gard.com>
+
+I have a residential apartment situation where heating
+and cooling is provided by fan coil units which
+recirculates air within the apartment. There is a
+seperate make-up air unit which supplier ventilation
+outside air at room temperature. The system is set up
+such that the room side VAV box is set at a static
+pressure where when the kitchen exhaust is turned on
+it draws in air from the OA unit.
+
+Any ideas on how to simulate this control system?
+Your inputs are appreciated.
+Gerald
+
+__________________________________________________
+Do You Yahoo!?
+Tired of spam?  Yahoo! Mail has the best spam protection around 
+http://mail.yahoo.com 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Stephen_Turner at brown.edu  Thu Sep  1 09:12:31 2005
+From: Stephen_Turner at brown.edu (Turner, Stephen)
+Date: Thu, 1 Sep 2005 12:12:31 -0400
+Subject: [bldg-sim] Too capacity in AHU's?
+Message-ID: <MDAEMON-F200509011118.AA1824515pd80000775872@gard.com>
+
+Pedro,
+I am not certain, but I suspect that the large cooling capacity is for dehumidification of (outdoor) air at design wet bulb temperatures, in addition to the sensible load.  If the energy recovery is anything but an enthalpy wheel, it is unlikely to provide any latent capacity.  So the energy recovery may not help dehumidify, and the air may need to be "wrung out" with the large cooling capacity, and then reheated -- hopefully not with primary energy!  I realize this may raise more questions than it answers, but I thought I'd contribute this thought anyway.
+Regards,
+Stephen Turner
+Mechanical Engineer, Brown University, 401 255 9897
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Pedro Rodrigo
+Sent: Thursday, September 01, 2005 11:56 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Too capacity in AHU's?
+
+Hi all.
+We have developed a TRNSYS building model of a real yet existing building in Jaen (Spain) in order to study different ways to operate the HVAC systems for improving energy efficiency. We are now working in the summer mode (cooling) that is much more important due to Jaen climate.
+The HVAC systems are divided in two groups: first, several AHUs that provide a constant volume of conditioned outside air at 21?C; second, each room has its own fancoil units so that when a user goes into a room, he turns on the fancoils to get the confort temperature.
+We have tried to turn off the AHU's coils so that the ventilating air is now entering at the outside temperature minus some degrees due to the effect of energy recovery equipment. The model shows that the fancoil units still have enough capacity to provide the confort temperature in the occupied rooms. The unoccupied rooms are now hotter so that the mean temperature in the building has increased. This means that the energy comsuption has decreased.
+It seems to be very simple but we have no experience about. Do you think there could be any problems by operating the system in this way? Why have the designers installed a so big amount of capacity in the AHUs?
+Thanks for your suggestions,
+Regards,
+
+
+Pedro Manuel Rodrigo Cruz
+University of Jaen, Spain
+
+
+		
+______________________________________________
+Renovamos el Correo Yahoo! 
+Nuevos servicios, m?s seguridad
+http://correo.yahoo.es
+
+======================================================
+You received this e-mail because you are subscribed to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this mailing list send a blank message to BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From pedromanuelrc at yahoo.es  Thu Sep  1 08:56:21 2005
+From: pedromanuelrc at yahoo.es (Pedro Rodrigo)
+Date: Thu, 1 Sep 2005 17:56:21 +0200 (CEST)
+Subject: [bldg-sim] Too capacity in AHU's?
+Message-ID: <MDAEMON-F200509011058.AA5825671pd80000775815@gard.com>
+
+Hi all.
+We have developed a TRNSYS building model of a real
+yet existing building in Jaen (Spain) in order to
+study different ways to operate the HVAC systems for
+improving energy efficiency. We are now working in the
+summer mode (cooling) that is much more important due
+to Jaen climate.
+The HVAC systems are divided in two groups: first,
+several AHUs that provide a constant volume of
+conditioned outside air at 21?C; second, each room has
+its own fancoil units so that when a user goes into a
+room, he turns on the fancoils to get the confort
+temperature.
+We have tried to turn off the AHU's coils so that the
+ventilating air is now entering at the outside
+temperature minus some degrees due to the effect of
+energy recovery equipment. The model shows that the
+fancoil units still have enough capacity to provide
+the confort temperature in the occupied rooms. The
+unoccupied rooms are now hotter so that the mean
+temperature in the building has increased. This means
+that the energy comsuption has decreased.
+It seems to be very simple but we have no experience
+about. Do you think there could be any problems by
+operating the system in this way? Why have the
+designers installed a so big amount of capacity in the
+AHUs?
+Thanks for your suggestions,
+Regards,
+
+
+Pedro Manuel Rodrigo Cruz
+University of Jaen, Spain
+
+
+		
+______________________________________________ 
+Renovamos el Correo Yahoo! 
+Nuevos servicios, m?s seguridad 
+http://correo.yahoo.es
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jra_sac at yahoo.com  Thu Sep  1 07:20:16 2005
+From: jra_sac at yahoo.com (John Aulbach)
+Date: Thu, 1 Sep 2005 07:20:16 -0700 (PDT)
+Subject: [bldg-sim] Inconsistencies between DOE2.1E Reports PS-B and BEPU
+In-Reply-To: <MDAEMON-F200508311325.AA2518578pd80000935770@gard.com>
+Message-ID: <MDAEMON-F200509010922.AA221462pd80000775669@gard.com>
+
+Sir:
+
+You got my interest.
+
+I do not know the makeup of your simulation run, but
+the 2.1E Maual, page C-155 states that, if you have
+energy storage tanks, PS-B and BEPU (actually look
+under BEPS) reports the energy differently.
+
+Otherwise, we will need to know the systems and
+central plant type you are running, to better
+understand where the difference may lie.
+
+
+__________________________________________________
+Do You Yahoo!?
+Tired of spam?  Yahoo! Mail has the best spam protection around 
+http://mail.yahoo.com 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

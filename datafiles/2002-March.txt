@@ -1,0 +1,625 @@
+From dve at BOUILLON-OR.com  Wed Mar 27 12:14:06 2002
+From: dve at BOUILLON-OR.com (David V. Edelstein)
+Date: Wed, 27 Mar 2002 12:14:06 -0800
+Subject: [BLDG-SIM] Modelling DDC vs Pnuematic Controls
+Message-ID: <MDAEMON-F200203271402.AA024217pd80000133496@gard.com>
+
+I was wondering how other people approach this modeling scenario.
+
+You have an existing building with a constant volume re-heat system all
+Controlled pneumatically.
+
+You want to estimate savings in an EEM for installing DDC controls on the
+air 
+Handler cooling coil and all re-heat coils.
+
+How would you model this? We have been debating two methods.
+
+The first strategy:
+
+		In the baseline model set the heating setpoint to 70 degs
+and the cooling setpoint to 74 degs.
+		Then to model the DDC in the measure set the heating
+setpoint to 69 degs and the cooling setpoint to 75 degs.
+
+		The argument goes that pneumatic thermostats are not as
+accurate as digital temperature sensors and the savings
+		would be expected from the reduced cooling and heating load.
+
+The second strategy:
+
+		In the baseline model set the zone level throttling range to
+4 deg. and the cool coil control range to 4 deg.
+		Then in the DDC model, set the zone level throttling range
+to 2 deg. and the cool coil control range to 2 deg.
+
+		The value you would set the DDC throttling ranges are
+arbitrary and can be bumped higher or lower based on operating conditions.
+
+		This strategy, I feel reflects the "tighter" control the DDC
+would offer over pneumatics.
+
+
+These strategies only address controls at the coiling and heating coil
+level.
+
+I would be greatly interested in how others view this problem.
+
+Thanks for your input!
+
+David Edelstein, PE
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From rgl.lsbris at lincolne.com.au  Tue Mar 26 13:44:04 2002
+From: rgl.lsbris at lincolne.com.au (Robert Lord)
+Date: Wed, 27 Mar 2002 07:44:04 +1000
+Subject: [BLDG-SIM] Modeling VAV Exhaust in PowerDOE
+Message-ID: <MDAEMON-F200203261538.AA380468pd10000133223@gard.com>
+
+I am currently working on a 'green' laboratory building for US Govt - we don't use DOE in any form so excuse my ignorance - our simulation programs (ATAS/BTAS) allow us to model cooling and also dehumidification as separate to exhaust/airflow/pressure needs - we model a "heat neutral" (i.e. air @ "design room air temperature & humidity") supply air that tracks the exhaust and a conventional system that controls sensible & and another that controls latent gains - then we re-combine these airflows. It is often an outworking of that approach that if separate airflows were provided as part of the design, there should be significant energy savings....costs bit up front though...from a modelling point-of-view we are only allowed 8 different day types and 8 different events per day - should be enough -
+
+cheers, and I do think Russell Crowe should have got the Oscar for A Beautiful Mind!
+
+Regards
+
+
+Rob Lord
+Lincolne Scott
+1 Gardner Close
+Milton Qld 4064
+Ph:          61 7 3368 6614
+Fax:        61 7 3368 6699
+Mobile:   0418 641 707
+Email:    rgl.lsbris at lincolne.com.au
+
+This message contains information that is intended for the addressee.  If you have received this message in error, you are asked to respect its confidentiality by destroying it and not copying or disclosing it.  Please notify the sender and remove it from your computer system.  Lincolne Scott accepts no responsibility concerning the security, transmission, content, virus status or delay in receipt of any information electronically transmitted.
+
+
+
+-----Original Message-----
+From: Brian K. Schultz [mailto:brians at paemail.com]
+Sent: Wednesday, March 27, 2002 3:58 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Modeling VAV Exhaust in PowerDOE
+
+
+
+We are trying to use PowerDOE to model Variable Air Volume Exhaust in the
+laboratory spaces in a five-story engineering building.  At the same time we
+are trying to adhere to the ECB in ASHRAE 90.1, which does not allow
+changing schedules.  We have tried to model it by giving these spaces their
+own dedicated VAV unit that supplies 100% outside air (so the exhaust will
+track the supply), and has a minimum of 4 air changes per hour of outside
+air (per fire code).  This seems reasonable, but does not take into account
+the instances when a fume hood is completely open and the exhaust rate
+exceeds the required supply for the space.
+
+Does anyone have any experience with VAV exhaust?  Any insight would be
+greatly appreciated.  Thanks.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From brians at paemail.com  Tue Mar 26 09:58:11 2002
+From: brians at paemail.com (Brian K. Schultz)
+Date: Tue, 26 Mar 2002 09:58:11 -0800
+Subject: [BLDG-SIM] Modeling VAV Exhaust in PowerDOE
+Message-ID: <MDAEMON-F200203261149.AA494373pd80000133146@gard.com>
+
+
+We are trying to use PowerDOE to model Variable Air Volume Exhaust in the
+laboratory spaces in a five-story engineering building.  At the same time we
+are trying to adhere to the ECB in ASHRAE 90.1, which does not allow
+changing schedules.  We have tried to model it by giving these spaces their
+own dedicated VAV unit that supplies 100% outside air (so the exhaust will
+track the supply), and has a minimum of 4 air changes per hour of outside
+air (per fire code).  This seems reasonable, but does not take into account
+the instances when a fume hood is completely open and the exhaust rate
+exceeds the required supply for the space.
+
+Does anyone have any experience with VAV exhaust?  Any insight would be
+greatly appreciated.  Thanks.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From marcb at paemail.com  Fri Mar 22 11:15:27 2002
+From: marcb at paemail.com (Marc Brune)
+Date: Fri, 22 Mar 2002 11:15:27 -0800
+Subject: [BLDG-SIM] PowerDOE evaporative cooling system
+Message-ID: <MDAEMON-F200203221307.AA070390pd80000132198@gard.com>
+
+I am trying to run a PowerDOE simulation with the "evap-cool" system type
+and am having trouble controlling the system's supply fans. The fans need to
+be run as constant volume, and I have specified this in the input:
+
+   FAN-CONTROL      = CONSTANT-VOLUME
+
+But, the run at cfm's ranging from 0 to my entered supply flow of 3900 cfm.
+My baseline model is setup as a packaged heat pump and has no problems with
+the constant volume fan control.
+
+Has anyone run into a similar problem and have an idea how to properly
+control the fans?
+
+Marc Brune
+Mechanical
+PAE Consulting Engineers, Inc.
+(p) 503.226.2921
+(f) 503.226.2930
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bliu at emcengineers.com  Thu Mar 21 15:02:58 2002
+From: bliu at emcengineers.com (Bing Liu)
+Date: Thu, 21 Mar 2002 16:02:58 -0700
+Subject: [BLDG-SIM] GSHP feasibility
+Message-ID: <MDAEMON-F200203211658.AA582651pd80000131890@gard.com>
+
+eQuest does have GSHP system for simulation.  You have to go to detailed
+mode instead of wizard mode, though.  
+And you can download GSHP performance curve GroundLoopHP_curves.zip on the
+link of www.doe2.com
+
+Bing Liu
+
+
+
+-----Original Message-----
+From: James Campbell [mailto:campbellj3 at eudoramail.com]
+Sent: Thursday, March 21, 2002 12:15 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] GSHP feasibility
+
+
+I'd like to use a DOE-2 based BEA software to estimate the feasibility of
+GSHP (ground source heat pump) applications? I looked at the eQUEST wizard,
+but GSHP isn't an available HVAC system option. I thought about creating a
+generic model using DOE-2.1E, however, creating "generic" GSHP systems
+wouldn't be a simple task. 
+
+Any ideas will be appreciated. 
+
+James
+
+
+Join 18 million Eudora users by signing up for a free Eudora Web-Mail
+account at http://www.eudoramail.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From campbellj3 at eudoramail.com  Thu Mar 21 11:14:38 2002
+From: campbellj3 at eudoramail.com (James Campbell)
+Date: Thu, 21 Mar 2002 14:14:38 -0500
+Subject: [BLDG-SIM] GSHP feasibility
+Message-ID: <MDAEMON-F200203211308.AA081942pd80000131796@gard.com>
+
+I'd like to use a DOE-2 based BEA software to estimate the feasibility of GSHP (ground source heat pump) applications? I looked at the eQUEST wizard, but GSHP isn't an available HVAC system option. I thought about creating a generic model using DOE-2.1E, however, creating "generic" GSHP systems wouldn't be a simple task. 
+
+Any ideas will be appreciated. 
+
+James
+
+
+Join 18 million Eudora users by signing up for a free Eudora Web-Mail account at http://www.eudoramail.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ajochems at aerotek.com  Tue Mar 19 11:10:03 2002
+From: ajochems at aerotek.com (Andrew Jochems)
+Date: Tue, 19 Mar 2002 14:10:03 -0500
+Subject: [BLDG-SIM] DOE-2 Job Announcement
+Message-ID: <MDAEMON-F200203191259.AA591909pd80000131165@gard.com>
+
+ENERGY CONSERVATION ENGINEER-
+
+LOCATION: Portland, OR
+
+JOB DESCRIPTION-
+Participate on a team of individuals who are responsible for delivering
+bottom line energy cost reductions to our clients. Our clients
+ENGINEERING responsibilities include energy audits of large commercial,
+institutional facilities, and industrial manufacturing client sites,
+including HVAC, motors, EMS, production equipment, and central plants.
+Candidate must be capable of performing detailed engineering analyses to
+evaluate energy efficiency opportunities. This includes identifying,
+justifying, developing conceptual designs and verifying cost reduction
+opportunities. Other duties include preparation of budgetary cost
+estimates, and preparation of technical reports.
+
+ADDITIONAL RESPONSIBILITIES INCLUDE-
+Construction support, system commissioning and metering and
+verification, and project management.
+
+Other duties include coordinating with architects, contractors, &
+utility vendors, preparation of technical specifications and site
+observations
+
+QUALIFICATIONS-
+Minimum qualifications include a BSME, BSEE, or related degree, and a
+strong interest in energy analysis and consulting. Proficiency with MS
+Office software is required.  Other desirable qualifications include
+experience with measurement and verification of energy efficiency
+projects, with minimum 3 yrs. exp. in DOE-2 and Trace building energy
+simulation modeling, 4-10 yrs. exp. in the design/construction in
+mechanical, electrical or architectural disciplines., cost estimating
+experience, and hands-on experience with mechanical system installation
+and operation.  PE Preferred.
+
+Successful candidate must possess good organizational skills, be
+enthusiastic, responsible, committed and willing to travel. The position
+requires an individual who is self-directed with excellent communication
+skills and a willingness to work in a team-based environment.
+
+Key Terms-
+Energy, energy savings, energy services, energy efficiency, energy
+analysis, energy management, energy conservation, energy engineering,
+PE, CEM, HVAC, ME, HVAC controls, building controls, performance
+contract, project management, construction management, cogeneration
+
+DURATION: DIRECT HIRE (Includes full benefits etc
+)
+
+SALARY: D.O.E (open)
+
+RELOCATION WILL BE PROVIDED FOR THE RIGHT CANDIDATE
+
+Interested????  Please feel free to contact Andy Jochems at your
+convenience  [Direct] 503.291.4222 or [Toll Free] 800.366.2304 x4222 or
+email your resume as a word.doc to ajochems at aerotek.com or
+ajochems at onsitecompanies.com.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020319/4c66ef52/attachment.htm>
+
+From cvrhasd at techunix.technion.ac.il  Fri Mar 15 07:14:22 2002
+From: cvrhasd at techunix.technion.ac.il (Samuel Hassid)
+Date: Fri, 15 Mar 2002 17:14:22 +0200 (IST)
+Subject: [BLDG-SIM] Energy Rating of Buildings
+Message-ID: <MDAEMON-F200203150907.AA073403pd80000130187@gard.com>
+
+  I was wondering if anybody in the list is aware of a comparative study
+of energy rating of buildings based on energy calculations vs. energy
+rating of buildings on the basis of a point system.
+                                                   Thanks
+                                                   S.Hassid
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bseaton at ASHRAE.org  Thu Mar 14 12:55:32 2002
+From: bseaton at ASHRAE.org (Seaton, Bill)
+Date: Thu, 14 Mar 2002 15:55:32 -0500
+Subject: [BLDG-SIM] RESEARCH PROJECTS READY TO BID
+Message-ID: <MDAEMON-F200203141458.AA583446md50000129622@gard.com>
+
+
+We are pleased to announce that 13 new Requests-For-Proposal have been
+-posted on the ASHRAE web-site. (www.ashrae.org), click on "Research" and on
+"Research Projects Ready to Bid".  Please give this information wide
+distribution within your organization. 
+
+One project (1257-TRP) has been granted extended bidding period status; that
+is bids are not due until next Winter.  All other bids are due May 10th.  If
+you plan on submitting a proposal on any project except 1257-RP, please so
+inform me by  April 26th.
+
+You are encouraged to review the ASHRAE Research Agreement and General
+Conditions that are now posted on the web-site to assure yourself that these
+documents will be acceptable to you and your institution's contracting
+officer.
+
+The titles of the projects listed are as follows:
+
+1092-TRP, Development Of Procedures To Determine In-Situ Performance Of HVAC
+Air Side Systems. TC 9.6, Systems Energy Utilization. 
+1143-TRP. Reference Procedure to Obtain Typical Solar Spectra for Advanced
+Solar Heat Gain Calculation. TC 4.5, Fenestration.  
+1180-TRP, Design Guide For Duct Systems. TC 5.2, Duct Design.  
+1221-TRP, Development Of Rating Parameters For Hybrid HVAC Systems. TC 6.4,
+In Space Convection Heating. 
+1239-TRP, Distribution Of Water Between Vapor And Liquid Phases Of
+Refrigerants. TC 3.3, Refrigerant Contaminant Control.  
+1243-TRP, Detection And Removal Of Gaseous Effluents And By-Products Of
+Fungal Growth That Affect Indoor Environments Phase II. TC 2.3, Gaseous Air
+Contaminants and Gas Contaminant Removal Equipment.  
+1246-TRP, Design Data For Optimization Of Cryosurgical Probes. TC 10.4,
+Ultra Low Temperature And Cryogenics. 
+1247-TRP, Balcony Spill Plumes. TC 5.6, Control of Fire and Smoke.  
+1251-TRP, Benchmarking Energy Usage In Supermarkets. TC 10.7, Commercial
+Food and Beverage Cooling Display and Storage.  
+1253-TRP, Measurement Of Solubility, Viscosity And Density Of R-507
+(R-125/143a; 50:50) Refrigerant/Lubricant Mixtures. TC 3.4, Lubrication and
+TC 8.1, Positive Displacement Compressors.  
+1254-TRP, Evaluating The Ability Of Unitary Equipment To Maintain Adequate
+Space Humidity Levels (Phase II) Simulations, Summary And Development Of
+Guidelines. TC 6.7, Solar Energy Utilization.  
+1257-TRP, Indoor Environmental Effects On Performance Of School Work By
+Children. TC 2.1, Physiology and Human Environment.  
+1260-TRP, Refrigerant Distribution In Evaporator Manifolds. TC 8.4,
+Air-to-Refrigerant Heat Transfer Equipment.  
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ibeausol at NRCan.gc.ca  Mon Mar 11 05:37:38 2002
+From: ibeausol at NRCan.gc.ca (Beausoleil-Morrison, Ian)
+Date: Mon, 11 Mar 2002 08:37:38 -0500
+Subject: [BLDG-SIM] abstract call
+Message-ID: <MDAEMON-F200203110731.AA311571pd80000127707@gard.com>
+
+ Symposium on the coupling of building air flow
+and energy modelling programs<?xml:namespace prefix = o ns =
+"urn:schemas-microsoft-com:office:office" />
+
+Call for Abstracts
+
+ASHRAE Technical Committees 4.7 (Energy Calculations) and TC 4.10 (Indoor
+Environment Modelling) are jointly organizing a symposium on the subject of
+coupling energy and air flow modelling programs.  The target date for the
+symposium is the summer 2003 ASHRAE meeting.
+
+The symposium will consider the coupling of energy analysis and: nodal or
+network air flow methods for modelling infiltration, inter-zone air flow,
+and pollutant dispersion; zonal or computational fluid dynamics methods for
+modelling air motion, indoor air quality and comfort conditions within
+rooms; intermediate methods for resolving room stratification; strategies
+for integrating these diverse modelling domains; innovative applications of
+coupled models; and other advances related to the coupling of energy
+analysis and air flow programs.
+
+Interested authors are invited to submit an abstract of their proposed paper
+to Ian Beausoleil-Morrison at the e-mail address shown below.  The abstract
+should not exceed 500 words and should provide an outline of the paper,
+demonstrate the unique contribution, and should clearly indicate how the
+paper will relate to the theme "coupling of energy and air flow modelling
+programs ".  Abstracts should be submitted in either PDF (preferred) or Word
+format and must be received by June 10.  Authors will be notified of
+abstract acceptance in July, following the ASHRAE summer meeting.
+
+Contact
+Ian Beausoleil-Morrison
+Leader / Building Simulation Team
+CANMET Energy Technology Centre
+Natural Resources Canada
+580 Booth Street, 13th Floor
+Ottawa, K1A 0E4
+ 
+(613) 943-2262  phone
+(613) 996-9909  fax
+ <mailto:ibeausol at nrcan.gc.ca> ibeausol at nrcan.gc.ca
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020311/457f54d6/attachment.htm>
+
+From per.sahlin at equa.se  Thu Mar  7 12:17:28 2002
+From: per.sahlin at equa.se (Per Sahlin)
+Date: Thu, 7 Mar 2002 21:17:28 +0100
+Subject: [BLDG-SIM] storage effect
+In-Reply-To: <MDAEMON-F200203070828.AA285662pd80000167632@gard.com>
+Message-ID: <MDAEMON-F200203071413.AA130296pd80000126796@gard.com>
+
+Dear Farraj,
+
+If you need to monitor the heat flux, temperatures etc. of individual walls
+you may want to take a look at IDA Indoor Climate and Energy (ICE) at
+www.equa.se/ice . ICE allows you to interact closely with the models and
+monitor each variable. Three alternative wall models are offered: (1) a full
+finite difference model where all internal temperatures are available, (2) a
+corresponding model with a separate BDF integration algorithm (default), and
+(3) a  two or three node RC network model, where parameters are
+automatically optimized at relevant frequences.
+
+Best regards,
+
+Per Sahlin
+
+----------------------------------------------------------------------------
+--------------
+Per Sahlin,
+EQUA Simulation AB
+(formerly Bris Data AB)			phone: 	+46-8-27 27 67   (work)
+                        	    				+46 70 422 03 02 (mobile)
+P.O. Box 1376		            	     		+46 8   83 95 82   (home)
+172 27 Sundbyberg, Sweden		fax:	+46-8-27 40 32
+http://www.equa.se      			email: 	per.sahlin at equa.se
+----------------------------------------------------------------------------
+--------------
+
+
+
+   > -----Original Message-----
+   > From: postman at gard.com [mailto:postman at gard.com]On Behalf Of F.ajmi
+   > Sent: Thursday, March 07, 2002 3:35 PM
+   > To: BLDG-SIM at gard.com
+   > Subject: [BLDG-SIM] storage effect
+   >
+   >
+   > Hi, everybody
+   >   Does any one know if TRNSYS-PREBID (Multi-zone building simulation)
+   > includes  the rate of heat flow into or out of the mass of building
+   > materials in it when simulating  the energy consumption of a
+   > building
+
+   > heavy weight structure).
+   > if the answer is no any other packages recommended,
+   > Thanks in advance,
+   >
+   >
+   >
+   > Farraj Alajmi
+   > Department of Civil & Building Engineering
+   > Loughborough University
+   > Loughborough Leics  LE11 3TU  UK
+   > Tel(01509)263171 ext.4140
+   >
+   >
+   >
+   > ======================================================
+   > You received this e-mail because you are subscribed
+   > to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+   > from this mailing list send a blank message to
+   > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+   >
+   >
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From rudolph at transsolar.com  Thu Mar  7 07:41:12 2002
+From: rudolph at transsolar.com (Matthias Rudolph)
+Date: Thu, 07 Mar 2002 16:41:12 +0100
+Subject: [BLDG-SIM] storage effect
+References: <MDAEMON-F200203070828.AA285831pd80000167655@gard.com>
+Message-ID: <MDAEMON-F200203070934.AA342806pd80000126685@gard.com>
+
+Dear Farraj Alajmi,
+
+the multizone building model Type56 of TRNSYS, where Prebid is the user
+surface for the definition of the builing, does consider the thermal
+capacity effects of the walls. The walls are modeled according to the
+transfer function relationships of Mitalas and Arseneault defined from
+surface to surface.
+
+Mitalas G.P., Arseneault, J.G.: " Fortran IV Program to calculate
+z-transfer functions for the calculation of transient heat transfer through
+
+walls and roofs", Division of National Research Council of Canada, Ottawa.
+
+For further information about the Program TRNSYS and their distributors,
+please visit
+
+www.TRNSYS.com
+
+With kind regards,
+
+Matthias Rudolph
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+ Matthias Rudolph
+ TRANSSOLAR Energietechnik GmbH
+ Curiestrasse 2
+ 70563 Stuttgart
+ Germany
+
+ Mailto:rudolph at transsolar.com
+ http://www.transsolar.com
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From F.Al-ajmi at lboro.ac.uk  Thu Mar  7 06:35:23 2002
+From: F.Al-ajmi at lboro.ac.uk (F.ajmi)
+Date: Thu, 07 Mar 2002 14:35:23 +0000
+Subject: [BLDG-SIM] storage effect
+Message-ID: <MDAEMON-F200203070828.AA284987pd80000126649@gard.com>
+
+Hi, everybody
+  Does any one know if TRNSYS-PREBID (Multi-zone building simulation) 
+includes  the rate of heat flow into or out of the mass of building 
+materials in it when simulating  the energy consumption of a building ( 
+heavy weight structure).
+if the answer is no any other packages recommended,
+Thanks in advance,
+
+
+
+Farraj Alajmi
+Department of Civil & Building Engineering
+Loughborough University
+Loughborough Leics  LE11 3TU  UK
+Tel(01509)263171 ext.4140
+  
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

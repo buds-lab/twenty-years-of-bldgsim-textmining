@@ -1,0 +1,1221 @@
+From jglazer at gard.com  Tue Aug 28 09:45:49 2001
+From: jglazer at gard.com (Jason Glazer)
+Date: Tue, 28 Aug 2001 11:45:49 -0500
+Subject: [BLDG-SIM] Need BIN Data
+In-Reply-To: <MDAEMON-F200108280851.AA510065pd80000071567@gard.com>
+Message-ID: <MDAEMON-F200108281142.AA422182pd80000071690@gard.com>
+
+Bruce,
+
+Another source you can try is BinMaker Plus at:
+
+  http://www.interenergysoftware.com/BinM/aboutbmp.htm
+
+or
+
+  http://www.linric.com/bminfo.htm
+
+Jason
+
+On 28 Aug 2001, at 8:53, STANLEY, BRUCE E wrote:
+
+> We are looking at energy costs for residential applications
+> in the Omaha, NE area.
+> 
+> We are using both Degree Day Method and BIN Method for
+> approximating energy consumption.
+> 
+> Degree Day data is easy to find off of the web. However, BIN
+> Data is much more difficult. What are good sources of BIN
+> Data?
+> 
+> Prefer free sources, but would be willing to pay. Can this
+> data be obtained based on yearly totals? Recent years are
+> preferred.
+> 
+> Thank you in Advance,
+> 
+> Bruce Stanley
+
+<snip>
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mwilsonbc at yahoo.com  Tue Aug 28 09:35:15 2001
+From: mwilsonbc at yahoo.com (Michael Wilson)
+Date: Tue, 28 Aug 2001 09:35:15 -0700 (PDT)
+Subject: [BLDG-SIM] Need BIN Data
+In-Reply-To: <MDAEMON-F200108280851.AA510562pd80000101395@gard.com>
+Message-ID: <MDAEMON-F200108281131.AA314953pd80000071682@gard.com>
+
+You could also create your own BIN data from TMY or
+WYEC2 files using Excel. Just manipulate the data and
+you can create whatever you want. the advantage of
+this is that you can break the data up by time of day,
+and also use whatever bin size you like.
+
+You can get TMY data free at:
+
+http://rredc.nrel.gov/solar/old_data/nsrdb/tmy2/State.html
+
+Or there's lots of places to get TMY/WYEC2 data for a
+fee (ie. Ashrae)
+
+For recent (specific year) data you could try the
+University of Dayton site. This is just daily average
+temp, but is complete from 1995 to today. You could
+use it to compare/adjust BIN data:
+
+http://www.engr.udayton.edu/weather/
+
+
+Michael Wilson
+
+
+--- "STANLEY, BRUCE E" <bstanley at oppd.com> wrote:
+> We are looking at energy costs for residential
+> applications in the Omaha, NE
+> area.
+> 
+> We are using both Degree Day Method and BIN Method
+> for approximating energy
+> consumption.
+> 
+> Degree Day data is easy to find off of the web.
+> However, BIN Data is much
+> more difficult. What are good sources of BIN Data?
+> 
+> Prefer free sources, but would be willing to pay.
+> Can this data be obtained
+> based on yearly totals? Recent years are preferred.
+> 
+> Thank you in Advance,
+> 
+> Bruce Stanley
+> 
+> Heat pumps are energy efficient.
+> ****************************************
+> Bruce E. Stanley, P.E. C.E.M.
+> Energy Management Engineer
+> Omaha Public Power District
+> 444 South 16th Street Mall, 2E/EP2
+> Omaha, Nebraska 68102-2247
+> Phone:   (402) 636-3519
+> Fax:       (402) 636-3918
+> E-Mail:  bstanley at oppd.com
+> 
+> 
+>
+======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+
+=====
+Michael Wilson, P.Eng.
+1502 - 2045 Nelson St.
+Vancouver, BC, Canada, V6G 1N8
+(604)899-4597  (604)899-4591 fax
+
+__________________________________________________
+Do You Yahoo!?
+Make international calls for as low as $.04/minute with Yahoo! Messenger
+http://phonecard.yahoo.com/
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at EE.DOE.GOV  Tue Aug 28 07:30:19 2001
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Tue, 28 Aug 2001 10:30:19 -0400
+Subject: [BLDG-SIM] Need BIN Data
+Message-ID: <MDAEMON-F200108280932.AA325518pd80000071606@gard.com>
+
+
+The National Climatic Data Center recently published
+Engineering Weather Data, an update of the old Tri-Serices
+blue manual from the 70s.  This includes US and international
+locations and bin data.  You can order the CD online for $75 at:
+
+http://nndc.noaa.gov/?http://ols.nndc.noaa.gov/plolstore/plsql/olstore.prodspecific?prodnum=C00515-CDR-A0001
+
+This link goes to the documentation and a sample location file:
+
+http://www.ncdc.noaa.gov/ol/documentlibrary/ewdcd/handbook.pdf
+
+
+
+
+
+
+"STANLEY, BRUCE E" <bstanley at oppd.com>@gard.com on 08/28/2001 09:53:59 AM
+
+Please respond to bstanley at oppd.com
+
+Sent by:  postman at gard.com
+
+
+To:   BLDG-SIM at gard.com
+cc:   "LAWRENCE, JUSTIN J" <jjlawrence at oppd.com>
+
+Subject:  [BLDG-SIM] Need BIN Data
+
+
+We are looking at energy costs for residential applications in the Omaha,
+NE
+area.
+
+We are using both Degree Day Method and BIN Method for approximating energy
+consumption.
+
+Degree Day data is easy to find off of the web. However, BIN Data is much
+more difficult. What are good sources of BIN Data?
+
+Prefer free sources, but would be willing to pay. Can this data be obtained
+based on yearly totals? Recent years are preferred.
+
+Thank you in Advance,
+
+Bruce Stanley
+
+Heat pumps are energy efficient.
+****************************************
+Bruce E. Stanley, P.E. C.E.M.
+Energy Management Engineer
+Omaha Public Power District
+444 South 16th Street Mall, 2E/EP2
+Omaha, Nebraska 68102-2247
+Phone:   (402) 636-3519
+Fax:       (402) 636-3918
+E-Mail:  bstanley at oppd.com
+
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bstanley at oppd.com  Tue Aug 28 06:53:59 2001
+From: bstanley at oppd.com (STANLEY, BRUCE E)
+Date: Tue, 28 Aug 2001 08:53:59 -0500
+Subject: [BLDG-SIM] Need BIN Data
+Message-ID: <MDAEMON-F200108280851.AA510065pd80000071567@gard.com>
+
+We are looking at energy costs for residential applications in the Omaha, NE
+area.
+
+We are using both Degree Day Method and BIN Method for approximating energy
+consumption.
+
+Degree Day data is easy to find off of the web. However, BIN Data is much
+more difficult. What are good sources of BIN Data?
+
+Prefer free sources, but would be willing to pay. Can this data be obtained
+based on yearly totals? Recent years are preferred.
+
+Thank you in Advance,
+
+Bruce Stanley
+
+Heat pumps are energy efficient.
+****************************************
+Bruce E. Stanley, P.E. C.E.M.
+Energy Management Engineer
+Omaha Public Power District
+444 South 16th Street Mall, 2E/EP2
+Omaha, Nebraska 68102-2247
+Phone:   (402) 636-3519
+Fax:       (402) 636-3918
+E-Mail:  bstanley at oppd.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ers-tl at execpc.com  Fri Aug 24 10:34:50 2001
+From: ers-tl at execpc.com (Tim Lawler)
+Date: Fri, 24 Aug 2001 12:34:50 -0500
+Subject: [BLDG-SIM] Energy Analysis Leader Position Available
+Message-ID: <MDAEMON-F200108241229.AA294868pd80000070873@gard.com>
+
+Energy Analysis Leader
+
+* Unique opportunity for an engineer, architect or other professional with a
+background in energy and resource utilization as it relates to building
+design
+* The position is with a successful, innovative, national engineering design
+firm who is looking to further develop their focus on energy analysis and
+sustainable design
+* Looking for someone with entrepreneurial characteristics who is interested
+in taking a leadership role in advancing ideas in areas such as energy
+conservation, alternative technologies, engineering optimization and green
+building design
+* Focus of position is to analyze the firm's new and existing projects and
+client base to integrate sustainable design practices
+* Leading and mentoring of others within the company is an important
+function of this position
+* The right candidate will have a solid level of ability and interest in
+being involved in new business development
+* Company has multiple offices, position would preferably be based in their
+Midwest location, other location options are possible
+
+Please call or email with any questions or to be considered for the
+position.  Confidentiality will be respected.  Feel free to pass this info
+along to any colleagues who you think may be interested or qualified.
+
+Sincerely,
+
+
+Timothy Lawler
+
+Executive Recruitment Solutions, LLC
+t:  414-906-9442 or 877-425-6351
+f:  414-906-9387
+e: ers-tl at execpc.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From thong at eley.com  Mon Aug 20 11:07:08 2001
+From: thong at eley.com (Tianzhen Hong)
+Date: Mon, 20 Aug 2001 11:07:08 -0700
+Subject: [BLDG-SIM] Update to EnvStd Program Available
+Message-ID: <MDAEMON-F200108201615.AA155470pd80000069924@gard.com>
+
+Dear EnvStd User BLDG-SIM at gard.com:
+
+We have an update to the EnvStd 4.0 program. The update fixes some bugs
+listed below reported by users.
+
+If you would like to try the update, please: 1) Backup your EnvStd project
+files, 2) uninstall the EnvStd program by clicking the Add/Remove Programs
+at the Control Panel, and selecting the EnvStd to remove, 3) download the
+new installation program from http://www.eley.com/EnvStd/Env4_010720.exe,
+and 4) run the Env4_010720.exe (about 6.5 MB) file to install EnvStd
+program.
+
+If you have bugs to report or problems installing the program, please send
+email to envstd at eley.com.
+
+Version
+Date
+Component
+Problem Description
+1.00.0001
+7/11/00
+CE
+EnvStd901.exe
+CExplorer.cls
+AddNode
+The program crashed when you tried to add surfaces. The problem was
+corrected in the AddNode procedure.
+1.00.0001
+8/9/00
+CE
+eaDataStructure.dll
+frmEnvGlz.frm
+UpdateControls
+Problem reported by David Costella. When the SC was used in openings, the
+program crashed when you tried to reopen the glazing construction. The
+problem was in UpdateControls routine, where a Boolean (UseSC) was being
+forced into an integer.
+1.00.0001
+8/10/00
+CE
+eaEnvStd.dll
+Opn.cls
+getEpf
+Large skylights with a SHGC larger than the U causes a very negative value
+for EPF. The problem was in the getEpf function in the Opn.cls file. The
+Round( ) function brackets were in the wrong place.
+1.00.0002
+9/26/00
+CE
+EnvStd901.exe
+Cexplorer.cls
+GetImages, AddNode
+Can't delete surfaces. Problem was reported by Bob Cashner.
+1.00.0002
+10/3/00
+eaEnvStd.dll
+EnvStd.cls
+Opq.cls, ExtWallZn.cls
+ExtWallZns.cls
+User reported that project complies with higher WWR. The problem was that
+the window area adjustment was not being made correctly
+
+1/22/2001
+eaDataStructure901.dll
+frmEnvSrf
+User reported display of surface area in SI not correct. This is due to a
+bug in the unit conversion of frmEnvSrf.
+1.00.0003
+7/16/2001
+eaDataStructure901.dll
+frmEnvGlz
+Ryan W. Staab reported SC value keeps being updated when the editing form
+frmEnvGlz is launched.
+Another bug fix in CEnvGlz.Copy to include the IDSubClass(3 to 6).
+1.00.0005
+7/20/2001
+EnvStd901.exe
+FrmReport
+John Perry reported problems in printing reports on a Mac G3 using Virtual
+PC with Windows 98.
+Jerry Robertson reported installation problem on Windows 95 machines
+Note, the version number of the EnvStd program can be known by right
+clicking the EnvStd901.exe file (default to C:\Program Files\EnvStd folder)
+and selecting the Properties menu item.
+
+Thank you for your interest in EnvStd program.
+
+Eley Associates
+142 Minna Street, Floor 2
+San Francisco, CA 94105
+Tel: 415-9571977
+Fax: 415-9571381
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From John_Karasaki at pgn.com  Mon Aug 13 10:34:40 2001
+From: John_Karasaki at pgn.com (John Karasaki )
+Date: Mon, 13 Aug 2001 10:34:40 -0700
+Subject: [BLDG-SIM] Energy Engineer Wanted for GBS Group (ad)
+Message-ID: <MDAEMON-F200108131601.AA014521pd80000068618@gard.com>
+
+All:
+
+Portland General Electric's Green Building Services Group is looking for an energy engineer to do DOE2 modeling.  I've attached the ad for the position.  Please forward it to anyone who might be interested.  Thanks!
+
+
+
+Best Regards,
+
+John P. Karasaki, P.E.
+New Construction, Retrofit Commissioning and HVAC Programs Lead
+
+Portland General Electric National Earth Advantage Center
+16280 SW Upper Boones Ferry Road
+Portland, Oregon 97224
+(503) 603-1629
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010813/b4836590/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: GBS Engr Ad.doc
+Type: application/msword
+Size: 24576 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010813/b4836590/attachment.doc>
+
+From brian.fountain at energyadvantage.com  Thu Aug  9 11:18:54 2001
+From: brian.fountain at energyadvantage.com (Brian Fountain)
+Date: Thu, 9 Aug 2001 14:18:54 -0400
+Subject: [BLDG-SIM] Desiccant system simulations using DOE2.1e
+Message-ID: <MDAEMON-F200108091316.AA161240pd80000067915@gard.com>
+
+
+I am modeling a building in DOE2.1e using the add on solid desiccant
+dehumidification option.
+
+How do I determine what the part load performance curves that the program is
+using for the system?  Pg 3.77 of the 2.1e supplement states that "For the
+SOL-VENT-AIR-1 unit, they [the unit's exit temperature, exit humidity ratio,
+gas use and auxiliary kW] are obtained from subroutines containing hardwired
+curves."
+
+Does this mean the curves for this equipment are not changeable?  Do they
+reflect actual system operation?
+
+Included in the simulation output is the following info.  How is it
+interpreted?
+
+
+**************DESICCANT DESIGN VALUES *************
+
+SYSTEM= SYSTEM-1
+
+ PA    =  0.7200E+04  TPI   =  0.8748E+02  MPI   =  0.5890E+02
+ WBPI  =  0.6523E+02  IML   =  0.1067E+02  MCL   =  0.6248E+02
+ HE    =  0.8500E+00  FANE  =  0.5000E+00  MOTORE=  0.8500E+00
+ HXE   =  0.9000E+00  DELPHX=  0.1000E+01  EVEFFR=  0.8500E+00
+ MODE  =           0
+
+TPU   =  0.1596E+03  RBTU  =  0.1599E+06  PAVET =  0.7610E+01
+ABVIS =  0.4400E-01  VISCOS=  0.8490E+00  DELPP =  0.1417E+01
+PBHP  =  0.3211E+01  PAREA =  0.9000E+01  RAREA =  0.3470E+01
+RVEL  =  0.4511E+03  RAVET = -0.3500E+02  DELPR =  0.6757E+00
+RBHP =   0.3328E+00  IMR   =  0.1003E+03
+
+
+PVEL  =  0.8000E+03  TPO   =  0.1027E+03  MPO   =  0.3724E+02
+VR    =  0.1565E+04  TRI   =  0.1900E+03  RRBTU =  0.1881E+06
+PKW   =  0.2819E+01  RKW   =  0.2921E+00  DKW   =  0.4388E+00
+TOTKW =  0.3549E+01  IML1  =  0.1067E+02  IML2  = -0.9491E+01
+
+
+Many thanks!
+
+Brian Fountain,
+Energy Engineer
+Energy Advantage Inc.
+
+Phone:	(905) 337-2205 ext. 250
+Fax:	(905) 337-2209
+e-mail:	brian.fountain at energyadvantage.com
+
+690 Dorval Dr., Suite 400
+Oakville, ON, L7K 3W7
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Dominique.Michaud at dessausoprin.com  Wed Aug  1 12:53:57 2001
+From: Dominique.Michaud at dessausoprin.com (Dominique Michaud)
+Date: Wed, 1 Aug 2001 15:53:57 -0400
+Subject: [BLDG-SIM] Refrigeration casework, part 2
+Message-ID: <MDAEMON-F200108011451.AA513553pd80000066402@gard.com>
+
+First off, I would like to thank everyone who replied to my inquiry. The
+response was so overwhelming that it may take a couple of days to go through
+all of the information I received. I will post all responses that were not
+CC-ed to the Building SIm Group.
+
+I received this information from an engineer at Tyler Refrigeration
+
+
+From michael.brandemuehl at colorado.edu  Wed Aug  1 08:34:31 2001
+From: michael.brandemuehl at colorado.edu (Michael Brandemuehl)
+Date: Wed, 1 Aug 2001 09:34:31 -0600
+Subject: [BLDG-SIM] DOE2.1E Heat recovery question
+In-Reply-To: <MDAEMON-F200107311029.AA291871pd80000096425@gard.com>
+Message-ID: <MDAEMON-F200108011030.AA303784pd80000066312@gard.com>
+
+Dominique,
+
+The issue of refrigerated cased in supermarkets is messy. Physically, the
+net total and sensible cooling effect on the supermarket zone (sometimes
+called the "case credit") are driven by heat and mass transfer from the case
+itself, and therefore is dependent on store temperature and humidity. Cases
+are typically rated at 75 F and 55% RH store conditions, but the latent
+cooling effect of the cases is particularly sensitive to indoor humidity.
+The sensitivity is different for low-temperature and medium temperature
+cases. However, most of the models calculate the cooling effect as the
+difference between the average compressor load and the internal case heat
+gains, including fans, lights, and anti-sweat heaters. Depending on case
+design, these heat gains can be surprisingly large. In addition, the
+compressor capacity will naturally be oversized to account for product
+pull-down.
+
+I would suggest two sources of info. First, ASHRAE sponsored Research
+Project 596-RP Effects of Indoor Space Conditions on Refrigerated Display
+Case Performance. The work was completed by Ron Howell in 1991. I expect
+that the final report can be obtained directly from Bill Seaton at ASHRAE.
+Second, EPRI has done quite a bit of work in this area. They have also
+developed a computer program call SST - Supermarket Simulation Tool.
+However, you may have difficulty obtaining the reports if you are not
+affiliated with an EPRI member.
+
+Good luck,
+Michael J. Brandemuehl, Ph.D., P.E.
+Civil, Environmental, and Architectural Engineering
+University of Colorado
+428 UCB, ECOT 441
+Boulder, CO 80309-0428
+303 492 8594
+303 492 7317 fax
+michael.brandemuehl at colorado.edu
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Dominique
+Michaud
+Sent: Tuesday, July 31, 2001 9:31 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] DOE2.1E Heat recovery question
+
+
+>From the DOE2.1E Supplement:
+
+REFG-ZONE-LOAD	is the total cooling effect...
+
+			Manufacturers of supermarket cases usually do not
+list the
+			total cooling effect of their cases directly.
+Instead, they list the
+			compressor capacity at a standard suction
+temperature
+			required per lineal foot of case work. The sensible
+cooling effect
+			is typically 65% of this number, and the latent
+cooling effect is
+			about 10%. The total cooling effect is then about
+75% of the
+			listed compressor capacity per lineal foot,
+multiplied by the
+			lineal feet of case work.
+
+Does this mean that 75% of the compressor's cooling capacity cools the zone?
+Where does the other 25% disappear to?
+Do these figures vary depending on ambient conditions?
+Are there any references for these numbers (ASHRAE or otherwise)?
+
+Any and all help is greatly appreciated.
+
+Dominique Michaud
+Building Energy Technician
+Dessau-Soprin Inc.
+375 blvd Rolland-Therrien, Suite 400
+Longueuil, Quebec, J4H 4A6
+Tel.: (514) 281-1033 ext 2568
+Fax: (450) 442-9996
+
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From hvac at cx-assoc.com  Wed Aug  1 07:28:46 2001
+From: hvac at cx-assoc.com (Tom Anderson)
+Date: Wed, 01 Aug 2001 10:28:46 -0400
+Subject: [BLDG-SIM] DOE2.1E Heat recovery question
+References: <MDAEMON-F200107311029.AA291348pd80000096361@gard.com>
+Message-ID: <MDAEMON-F200108010926.AA260146pd80000066281@gard.com>
+
+Dominique:
+
+I have a response but note that my response is *speculation*, but here goes.
+
+My guess is that the difference between compressor load and total cooling effect
+is actually the difference between evaporator load and total case load per
+hour.  When I was in refrigeration school, over two decades ago, I was taught to
+size the refrigerated case evaporator so that the daily heat gain can be met by
+16 hours of evaporator run time per 24 hours.  The reason for this was to allow
+sufficient time for off cycle defrost.  Have not kept up with modern
+refrigerated display cases, so do not know if the schooled methodology is still
+appropriate.
+
+This brings up an important air conditioning sizing issue for supermarkets.
+ASHRAE recommends HVAC designers take into account the heat absorbed by
+refrigerated display cases when running heat gain/loss calcs.  Unfortunately,
+ASHRAE offers no guidance for imperical hourly heat absorption by the display
+case verses the evaporator load.
+
+For a recent supermarket commissioning project, the HVAC designer assumed 16
+hr/day evaporator sizing, thus the heat absorbed from the space was 2/3 of the
+scheduled evaporated loads.  This was further multiplied by another fudge
+factor, since the designer was hesitant to assume net heat absorption to space
+as 2/3 of scheduled evaporator load, which seems reasonable to me.
+
+Hope this helps.
+
+     Thomas E. Anderson
+     President
+     Cx Associates, Ltd.
+     Building Commissioning Specialists
+     http://www.cx-assoc.com
+     933 Road 101
+     Jeffersonville, Vermont 05464 USA
+     hvac at cx-assoc.com
+     Tel: 802-644-5616 Fax: 802-644-6797
+
+
+
+
+Dominique Michaud wrote:
+
+> >From the DOE2.1E Supplement:
+>
+> REFG-ZONE-LOAD  is the total cooling effect...
+>
+>                         Manufacturers of supermarket cases usually do not
+> list the
+>                         total cooling effect of their cases directly.
+> Instead, they list the
+>                         compressor capacity at a standard suction
+> temperature
+>                         required per lineal foot of case work. The sensible
+> cooling effect
+>                         is typically 65% of this number, and the latent
+> cooling effect is
+>                         about 10%. The total cooling effect is then about
+> 75% of the
+>                         listed compressor capacity per lineal foot,
+> multiplied by the
+>                         lineal feet of case work.
+>
+> Does this mean that 75% of the compressor's cooling capacity cools the zone?
+> Where does the other 25% disappear to?
+> Do these figures vary depending on ambient conditions?
+> Are there any references for these numbers (ASHRAE or otherwise)?
+>
+> Any and all help is greatly appreciated.
+>
+> Dominique Michaud
+> Building Energy Technician
+> Dessau-Soprin Inc.
+> 375 blvd Rolland-Therrien, Suite 400
+> Longueuil, Quebec, J4H 4A6
+> Tel.: (514) 281-1033 ext 2568
+> Fax: (450) 442-9996
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010801/0520a0d5/attachment.htm>
+
+From kala_sim at yahoo.co.in  Wed Aug  1 06:33:47 2001
+From: kala_sim at yahoo.co.in (=?iso-8859-1?q?Leela=20Kala?=)
+Date: Wed, 1 Aug 2001 14:33:47 +0100 (BST)
+Subject: [BLDG-SIM] DOE
+Message-ID: <MDAEMON-F200108010830.AA305260pd80000066253@gard.com>
+
+Hi,
+  I am simulating a 14 storey office building as a
+case study for my reasearch. The building has more
+than 70% glass. Can anyone send me a sample glass
+building simulated in DOE.
+
+Thanks
+
+L. Kaala
+
+
+____________________________________________________________
+Do You Yahoo!?
+For regular News updates go to http://in.news.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Tue Aug 28 10:31:00 2001
+From: jglazer at gard.com (Jason Glazer)
+Date: Tue, 28 Aug 2001 12:31:00 -0500
+Subject: [BLDG-SIM] Message Archive Updated
+Message-ID: <MDAEMON-F200108281227.AA273704pd80000071723@gard.com>
+
+The BLDG-SIM archive has been updated to cover through 
+today.  The archive was last updated in March.
+
+The BLDG-SIM mailing list page is:
+
+  http://www.gard.com/ml/bldg-sim.htm
+
+Sorted by topic:
+
+  http://www.gard.com/ml/bldg-sim-archive/threads.html
+
+Sorted by date:
+
+  http://www.gard.com/ml/bldg-sim-archive/maillist.html
+
+Jason
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Tue Aug 28 11:13:58 2001
+From: jglazer at gard.com (Jason Glazer)
+Date: Tue, 28 Aug 2001 13:13:58 -0500
+Subject: [BLDG-SIM] Spread the word about BLDG-SIM
+Message-ID: <MDAEMON-F200108281310.AA102543pd80000071751@gard.com>
+
+I happened to be at the Building Energy Software Tools Directory 
+today and noticed that DOE-2, Trace and HAP have about 8,000 
+users all together.  The BLDG-SIM mailing list goes out to 350 
+people.  That is only 4%!  That means that 96% of the users may 
+still have questions about where to get weather data files or how 
+to simulate something unusual in DOE-2.  Can we try to help these 
+poor people out?   The first step is to let them know about the 
+BLDG-SIM mailing list.  If you know of other people that use 
+building energy simulation software, could you please e-mail them 
+and tell them about the mailing list.  The description of the 
+mailing list from the web site is shown at the end of the e-mail.
+
+Thanks for spreading the word,
+
+Jason
+
+---------------------------------------------- 
+
+BLDG-SIM is a mailing list for users of building energy 
+simulation programs. Building energy simulation programs allow 
+users to estimate the energy use and operating cost of 
+residential, commercial and other types of buildings. This allows 
+engineers, architects and others in the building design trade to 
+compare alternative designs and select the design that is cost 
+justified. They are frequently used during the design process 
+when choosing between alternatives in the components that make up 
+a building including insulation level, heating and cooling 
+distribution systems, furnaces, boilers and air conditioning 
+equipment. The web page for this mailing list is located at:  
+
+http://www.gard.com/ml/bldg-sim.htm
+
+Examples of building simulation programs include DOE-2, Trace-
+600, HAP, Blast, ESP, SERIRES, TRNSYS, TASE, Energy-10, and 
+others (see link below for a more complete list).  
+
+http://www.eren.doe.gov/buildings/tools_directory/
+
+Since the users of building energy simulation programs are spread 
+across the world, this mailing list is an attempt to foster the 
+development of a community of those users. Experienced and 
+inexperienced users of building energy simulation programs are 
+welcome and are expected to share their questions and insights  
+about these programs. 
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From randy at hvacware.net  Tue Aug 28 13:57:35 2001
+From: randy at hvacware.net (Randy Wilkinson)
+Date: Tue, 28 Aug 2001 12:57:35 -0800
+Subject: [BLDG-SIM] Freeware BIN data generator
+In-Reply-To: <MDAEMON-F200108280851.AA510737pd80000101419@gard.com>
+Message-ID: <MDAEMON-F200108281453.AA535214pd80000071820@gard.com>
+
+On 28 Aug 01, at 8:53, STANLEY, BRUCE E wrote: 
+
+> We are looking at energy costs for residential applications in the
+> Omaha, NE area.
+> 
+> Degree Day data is easy to find off of the web. However, BIN Data is
+> much more difficult. What are good sources of BIN Data?
+> 
+> Prefer free sources, but would be willing to pay. Can this data be
+> obtained based on yearly totals? Recent years are preferred.
+
+Hi Bruce and all, 
+
+I wrote a FREE windows program using Visual Basic that might help.  This 
+allows you to make bin data for any of the 239 US cities where TMY2 data 
+was collected and published by the US government. 
+
+Download the self extracting zip file by entering this URL:  
+
+   http://www.hvacware.net/free-bin.exe 
+
+There is no link from my site to this program.  You must type the above 
+URL to start the download.  So far, this is an exclusive offer to members of 
+this list.  After I make a few more improvements, I will make it available to 
+the public.  Some people took a copy of this program last month when I 
+announced it on this list.  Those of you who gave me feedback...I 
+appreciate your input.  
+
+If you took a copy last month, you might want to upgrade to this version...it 
+breaks down temperature bins by month and also includes the source 
+code.  It also fixes a problem where reading the TMY2 data file from a 
+network drive was VERY slow.  This program is written in Visual Basic 6.  
+The VB6 source is included with the program in case you want to modify it 
+to suit your needs.  I only ask that this software not be used in any 
+commercial software sold for profit. 
+
+This program converts TMY2 weather files to bin weather data for quick 
+energy calulations.  The bin data is stored in .CSV files that can be opened 
+directly by Excel or just about any other spreadsheet.  It considers the dry 
+bulb temperature only. And currently, only US imperial units. Your can 
+choose to create 2 degree, 4 degree, 5 degree, or 10 degree temperature 
+bins.   
+
+TMY2 weather data files are available for free on the Internet.  See the 
+README.TXT file for details. 
+
+
+-----------------------------------
+Randall C. Wilkinson, P.E.
+http://www.hvacware.net
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Michel.DePaepe at rug.ac.be  Wed Aug 29 04:22:32 2001
+From: Michel.DePaepe at rug.ac.be (Michel.DePaepe at rug.ac.be)
+Date: Wed, 29 Aug 2001 13:22:32 +0200
+Subject: [BLDG-SIM] weather files in VISDoe
+Message-ID: <MDAEMON-F200108290619.AA190128pd80000072042@gard.com>
+
+
+
+We want to start simulations with Vis Doe in the BELGIAN  
+climate situation
+We have the TRY file for Uccle (Belgium)
+
+We tried several ways get the correct weather format for Doe but 
+the conversion allways fails in a floating point error !
+
+After having asked Eley about this, we did not recieve a conclusive 
+answer
+
+does somebody have an idea ?
+Or does somebody have a weather file for DOE for BELGIUM
+
+many thanks
+
+
+Michel De Paepe
+University Gent          
+Department of Fluid, Heat and Combustion Mechanics
+Sint-Pietersnieuwstraat 41, B-9000 Gent, Belgium
+Tel : ++32 9 264.32.94    Fax : ++32 9 264.35.75
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bradley at tess-inc.com  Wed Aug 29 14:33:00 2001
+From: bradley at tess-inc.com (David Bradley)
+Date: Wed, 29 Aug 2001 16:33:00 -0500
+Subject: [BLDG-SIM] Spread the word about BLDG-SIM
+Message-ID: <MDAEMON-F200108291631.AA314157pd80000072324@gard.com>
+
+Hello All,
+	I wanted to represent the minority of people who subscribe to this mailing list and who aren't DOE-2 users (our company primarily uses TRNSYS). I think that this forum lends itself well to all of us getting to know more about the capabilities of the simulation programs that we don't use regularly. The more people who subscribe the better!
+Cheers,
+	David
+*********************************************************************************
+Thermal Energy System Specialists (TESS)
+David BRADLEY			5610 Medical Circle
+Engineer					Suite 31
+Phone:? (608) 274-2577	Madison WI 53719
+Fax:? (608) 278-1475		USA
+E-mail:?? bradley at tess-inc.com 		
+Web Page:	www.tess-inc.com
+
+"Providing software solutions for today's energy engineering projects"
+*********************************************************************************
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ers-tl at execpc.com  Thu Aug 30 13:34:05 2001
+From: ers-tl at execpc.com (Tim Lawler)
+Date: Thu, 30 Aug 2001 15:34:05 -0500
+Subject: [BLDG-SIM] Follow Up - Energy Analysis Leader Position Available
+Message-ID: <MDAEMON-F200108301529.AA290717pd80000072727@gard.com>
+
+This is a follow up to my Energy Analysis position posting from last week.
+It is based on requests I have had for more information that might be
+helpful in assessing the opportunity.
+
+1) The company is a MEP design firm
+2) Responsibilities include integrating sustainable design practices into
+projects, performing energy optimization studies, cogeneration analysis,
+alternative fuel source studies and evaluating new technologies
+3) Some examples of building types include:  research, laboratory, health
+care, university, industrial - technical complexity is a common factor
+4) This is a new position within the firm and salary is flexible, depending
+on the combination of experience, education, etc.
+5) Focus is on both existing projects and being a part of the business
+development team to help bring in new projects
+
+Please call or email if you are interested in exploring the position further
+and let me know if there is any more information I can provide.
+
+Sincerely,
+
+
+Timothy Lawler
+
+Executive Recruitment Solutions, LLC
+t:  414-906-9442 or 877-425-6351
+f:  414-906-9387
+e: ers-tl at execpc.com
+
+-----Original Message-----
+From: Tim Lawler [mailto:ers-tl at execpc.com]
+Sent: Friday, August 24, 2001 12:35 PM
+To: bldg-sim at gard.com
+Subject: Energy Analysis Leader Position Available
+
+Energy Analysis Leader
+
+* Unique opportunity for an engineer, architect or other professional with a
+background in energy and resource utilization as it relates to building
+design
+* The position is with a successful, innovative, national engineering design
+firm who is looking to further develop their focus on energy analysis and
+sustainable design
+* Looking for someone with entrepreneurial characteristics who is interested
+in taking a leadership role in advancing ideas in areas such as energy
+conservation, alternative technologies, engineering optimization and green
+building design
+* Focus of position is to analyze the firm's new and existing projects and
+client base to integrate sustainable design practices
+* Leading and mentoring of others within the company is an important
+function of this position
+* The right candidate will have a solid level of ability and interest in
+being involved in new business development
+* Company has multiple offices, position would preferably be based in their
+Midwest location, other location options are possible
+
+Please call or email with any questions or to be considered for the
+position.  Confidentiality will be respected.  Feel free to pass this info
+along to any colleagues who you think may be interested or qualified.
+
+Sincerely,
+
+
+Timothy Lawler
+
+Executive Recruitment Solutions, LLC
+t:  414-906-9442 or 877-425-6351
+f:  414-906-9387
+e: ers-tl at execpc.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From RMalcolm at edison-source.com  Thu Aug 30 14:27:40 2001
+From: RMalcolm at edison-source.com (RMalcolm at edison-source.com)
+Date: Thu, 30 Aug 2001 14:27:40 -0700
+Subject: [BLDG-SIM] Process Loads
+Message-ID: <MDAEMON-F200108301623.AA230581pd80000072765@gard.com>
+
+
+I have a DOE question for you.  If I wanted to simulate the energy
+consumption of a building that have negative process load, could I input a
+negative process load to be considered in the buildings load calc?  Maybe
+there is a way to create a lighting system with negative wattage that
+operates 24 hours per day or what ever the equivalent of the process load
+is.
+
+I am asking because I am trying to simulate a supermarket which has reduced
+cooling load because the refrigeration systems provide cooling that is not
+seen by the HVAC system.
+
+Anyway, let me know what you think.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mjwitte at gard.com  Fri Aug 31 06:14:58 2001
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Fri, 31 Aug 2001 08:14:58 -0500
+Subject: [BLDG-SIM] Process Loads
+In-Reply-To: <MDAEMON-F200108301622.AA225331pd80000072764@gard.com>
+Message-ID: <MDAEMON-F200108310810.AA100496pd80000072941@gard.com>
+
+DOE-2 has refrigerated case equipment models which will do just what 
+you want.  You specify a nominal sensible and latent load for up to 
+three different types of cases (each type can have a different 
+setpoint and compressor efficiency) and the loads are adjusted as the 
+temperature and humidity change in the space.  You can also specify 
+auxiliaries and defrost controls.
+
+On 30 Aug 2001, at 14:27, RMalcolm at edison-source.com wrote:
+
+> 
+> I have a DOE question for you.  If I wanted to simulate the energy
+> consumption of a building that have negative process load, could I input a
+> negative process load to be considered in the buildings load calc?  Maybe
+> there is a way to create a lighting system with negative wattage that
+> operates 24 hours per day or what ever the equivalent of the process load
+> is.
+> 
+> I am asking because I am trying to simulate a supermarket which has reduced
+> cooling load because the refrigeration systems provide cooling that is not
+> seen by the HVAC system.
+> 
+> Anyway, let me know what you think.
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+
+
+========================================================
+Michael J. Witte                        mjwitte at gard.com
+GARD Analytics, Inc.                        www.gard.com
+1028 Busse Highway                    Phone 847-698-5685
+Park Ridge, Illinois 60068-1802         FAX 847-698-5600
+USA          Energy, Environmental and Economic Research
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Fri Aug 31 11:59:52 2001
+From: jglazer at gard.com (Jason Glazer)
+Date: Fri, 31 Aug 2001 13:59:52 -0500
+Subject: [BLDG-SIM] Testers Wanted for Simulation Screening Tool
+Message-ID: <MDAEMON-F200108311356.AA562031pd80000073081@gard.com>
+
+BLDG-SIM List Members,
+
+Today marks the beginning of the beta test of DoeRayMe, a 
+new screening tool application using DOE-2.1e that I have 
+developed.  All are welcome to join this public beta of the 
+DoeRayMe software.   
+
+DoeRayMe is a simple and flexible user interface for the 
+building energy simulation program called DOE-2.  It is 
+intended to be used as a user interface for many "screening 
+tool" applications.  DoeRayMe may be used by inexperienced 
+as well as experienced DOE-2 users.  
+
+Some prerequisites for testing DoeRayMe:  
+
+ 1) You must already have the DOE-2.1e software program to
+    run this program.
+
+ 2) You should have at least 30 minutes to spend testing
+    the software.
+
+To find out more about the beta test and download the beta 
+software go to:
+
+ http://www.gard.com/DoeRayMe/
+
+DoeRayMe is an open source program covered by the license 
+based on the Mozilla Public License. 
+
+Thanks
+
+Jason
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

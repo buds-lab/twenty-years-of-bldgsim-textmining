@@ -1,0 +1,1295 @@
+From blair at sel.me.wisc.edu  Wed Mar  1 15:01:50 2000
+From: blair at sel.me.wisc.edu (Nate Blair)
+Date: Wed, 1 Mar 2000 17:01:50 -0600
+Subject: [BLDG-SIM] Hornets Nest, Round 2
+In-Reply-To: <MDAEMON-F200003011048.AA481448MD01683@gard.com>
+Message-ID: <MDAEMON-F200003011809.AA092792MD15320@gard.com>
+
+For those of us who were not in Dallas, is there anyone who has the
+information concerning what the licensing prices will be for EnergyPlus?
+What will it cost to resell it, purchase it directly, etc.  Are those prices
+set yet or are there ballpark figures available?  If so, how were those
+prices set?  I checked the Energyplus website but it seems to only mention
+the beta version licensing price.
+
+Thanks,
+Nate Blair
+
+Visit my website!!! = http://sel.me.wisc.edu/blair
+Nathan Blair Home             Phone: 608-256-8343
+630 East Johnson St. Apt.3    Cell Phone: 608-576-3000
+Madison WI 53703 USA          mailto:blair at sel.me.wisc.edu
+
+
+  -----Original Message-----
+  From: Postman at gard.com [mailto:Postman at gard.com]On Behalf Of Jeff Hirsch
+  Sent: Wednesday, March 01, 2000 10:54 AM
+  To: BLDG-SIM at gard.com
+  Subject: [BLDG-SIM] Hornets Nest, Round 2
+
+
+  Some similar opinions were expressed in a recent issue of Energy Design
+Update
+  which, with permission of the publisher, we have posted at the following
+link
+
+
+http://www.doe2.com/download/doe2/Truth/EnergyDesignUpdateArticleJan2000.pdf
+
+  ---
+  Jeff Hirsch
+  James J. Hirsch & Associates
+  Building Performance Analysis Software & Consulting
+  12185 Presilla Road
+  Camarillo, CA 93012-9243 USA
+  phone: (805) 553-9000
+  fax: (805) 532-2401
+  email: Jeff.Hirsch at DOE2.com
+  web: http://DOE2.com
+
+
+    ----- Original Message -----
+    From: Mark Case
+    To: BLDG-SIM at gard.com
+    Sent: Wednesday, March 01, 2000 8:11 AM
+    Subject: [BLDG-SIM] Hornets Nest, Round 2
+
+
+    Things have been too quiet so:
+
+    At the IBPSA meeting in Dallas someone mentioned a variety of licenses
+were available or pending for EnergyPlus. This was in response to my
+marginally ignorant comment that `giving DOE free license to development
+work done by the private sector seemed like a dis-incentive to private
+sector development` (marginally ignorant because I haven't personally
+examined the existing EnergyPlus licensing agreements)
+
+    Any comments?
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20000301/32d66471/attachment.htm>
+
+From thornton at tess-inc.com  Wed Mar  1 10:30:24 2000
+From: thornton at tess-inc.com (Jeff Thornton)
+Date: Wed, 01 Mar 2000 12:30:24 -0600
+Subject: [BLDG-SIM] Hydronic Coil Model
+In-Reply-To: <MDAEMON-F200003011142.AA420814MD02229@gard.com>
+References: <MDAEMON-F200003010853.AA534642MD15129@gard.com>
+Message-ID: <MDAEMON-F200003011219.AA191853MD15216@gard.com>
+
+At 11:51 AM 3/1/00 -0600, you wrote:
+
+>Sorry, I didn't make myself clear enough in my initial request.  I'm
+>looking for a model that will simulate a natural convection/radiation
+>coil such as fin-tube hydronic baseboard.  It should give the heat
+>transfer rate as a function of water flow rate, incoming water
+>temperature, and room conditions given some set of design parameters
+>to characterize the coil.  
+
+Mike,
+
+May I suggest the TRNSYS program for this task.  The HVACSIM+ hot water to
+air heating coil model has been rewritten as a TRNSYS module and may suit
+your purposes.  I can send you the documentation for the model if you are
+interested.  Also, the TRNSYS code is open so you could modify the existing
+component or write your own if you wish.  The programs tremendous
+flexibility would also allow you to control the coil in countless ways to
+study the response.  Check out the TRNSYS web page at
+http://sel.me.wisc.edu/TRNSYS for more information on the package or give
+me a call if you have any specific questions on your project.
+
+With kindest regards,
+
+Jeff Thornton
+Executive Partner
+Thermal Energy System Specialists
+10 Years Personal Experience with Modeling and Simulation
+*****************************************************************
+Jeff Thornton		    Thermal Energy System Specialists
+Partner			    5610 Medical Circle - Suite 31
+			    	    Madison WI 53719
+
+Phone: (608) 274-2577	    E-mail: thornton at tess-inc.com
+Fax:   (608) 278-1475	    Web Page: http://www.tess-inc.com
+
+"Providing Software Solutions for Today's Energy Engineering Projects"
+*****************************************************************
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mjwitte at gard.com  Wed Mar  1 09:51:42 2000
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Wed, 1 Mar 2000 11:51:42 -0600
+Subject: [BLDG-SIM] Hydronic Coil Model
+In-Reply-To: <MDAEMON-F200003010853.AA534642MD15129@gard.com>
+Message-ID: <MDAEMON-F200003011141.AA415675MD15205@gard.com>
+
+Sorry, I didn't make myself clear enough in my initial request.  I'm
+looking for a model that will simulate a natural convection/radiation
+coil such as fin-tube hydronic baseboard.  It should give the heat
+transfer rate as a function of water flow rate, incoming water
+temperature, and room conditions given some set of design parameters
+to characterize the coil.  
+
+Several have suggested the ASHRAE toolkits, but there are only
+forced-air coils in the HVAC-2 toolkit and HVAC-1 is primary 
+equipment.  So, I'm still looking . . .
+
+Mike
+
+
+
+On  1 Mar 00 at 9:03, Michael J. Witte wrote:
+
+> I received this request from a colleague.  Anyone know where to find 
+> a good hydronic coil model?
+> Mike Witte
+> 
+> ---------------------
+> Have you run into a hydronic coil (water to air heat exchanger)
+> simulation program?  I'm trying look at coil control and field
+> validate the program.  What I'm specifically trying to do is create
+> response curves (% flow vs. % heat transfer) for different coil design
+> temperature drops.
+> 
+> I've looked over the text books and haven't really bumped into
+> anything that seems to go into this area.  Have you seen anything?
+> ---------------------
+> 
+> 
+> ========================================================
+> Michael J. Witte                        mjwitte at gard.com
+> GARD Analytics, Inc.                        www.gard.com
+> 1028 Busse Highway                    Phone 847-698-5685
+> Park Ridge, Illinois 60068-1802         FAX 847-698-5600
+> USA          Energy, Environmental and Economic Research
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Jeff.Hirsch at DOE2.com  Wed Mar  1 08:54:12 2000
+From: Jeff.Hirsch at DOE2.com (Jeff Hirsch)
+Date: Wed, 1 Mar 2000 08:54:12 -0800
+Subject: [BLDG-SIM] Hornets Nest, Round 2
+References: <MDAEMON-F200003011000.AA003785MD01475@gard.com>
+Message-ID: <MDAEMON-F200003011048.AA482318MD15183@gard.com>
+
+Some similar opinions were expressed in a recent issue of Energy Design Update
+which, with permission of the publisher, we have posted at the following link
+
+http://www.doe2.com/download/doe2/Truth/EnergyDesignUpdateArticleJan2000.pdf
+
+---
+Jeff Hirsch
+James J. Hirsch & Associates
+Building Performance Analysis Software & Consulting
+12185 Presilla Road
+Camarillo, CA 93012-9243 USA
+phone: (805) 553-9000
+fax: (805) 532-2401
+email: Jeff.Hirsch at DOE2.com
+web: http://DOE2.com
+
+
+  ----- Original Message -----
+  From: Mark Case
+  To: BLDG-SIM at gard.com
+  Sent: Wednesday, March 01, 2000 8:11 AM
+  Subject: [BLDG-SIM] Hornets Nest, Round 2
+
+
+  Things have been too quiet so:
+
+  At the IBPSA meeting in Dallas someone mentioned a variety of licenses were available or pending for EnergyPlus. This was in
+response to my marginally ignorant comment that `giving DOE free license to development work done by the private sector seemed like
+a dis-incentive to private sector development` (marginally ignorant because I haven't personally examined the existing EnergyPlus
+licensing agreements)
+
+  Any comments?
+
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20000301/a7e25989/attachment.htm>
+
+From mcase at etcgrp.com  Wed Mar  1 08:11:07 2000
+From: mcase at etcgrp.com (Mark Case)
+Date: Wed, 1 Mar 2000 09:11:07 -0700
+Subject: [BLDG-SIM] Hornets Nest, Round 2
+Message-ID: <MDAEMON-F200003011000.AA003842MD15161@gard.com>
+
+Things have been too quiet so:
+
+At the IBPSA meeting in Dallas someone mentioned a variety of licenses were
+available or pending for EnergyPlus. This was in response to my marginally
+ignorant comment that `giving DOE free license to development work done by
+the private sector seemed like a dis-incentive to private sector
+development` (marginally ignorant because I haven't personally examined the
+existing EnergyPlus licensing agreements)
+
+Any comments?
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20000301/68ab1fd4/attachment.htm>
+
+From mjwitte at gard.com  Wed Mar  1 07:03:27 2000
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Wed, 1 Mar 2000 09:03:27 -0600
+Subject: [BLDG-SIM] Hydronic Coil Model
+Message-ID: <MDAEMON-F200003010853.AA534137MD15128@gard.com>
+
+I received this request from a colleague.  Anyone know where to find 
+a good hydronic coil model?
+Mike Witte
+
+---------------------
+Have you run into a hydronic coil (water to air heat exchanger)
+simulation program?  I'm trying look at coil control and field
+validate the program.  What I'm specifically trying to do is create
+response curves (% flow vs. % heat transfer) for different coil design
+temperature drops.
+
+I've looked over the text books and haven't really bumped into
+anything that seems to go into this area.  Have you seen anything?
+---------------------
+
+
+========================================================
+Michael J. Witte                        mjwitte at gard.com
+GARD Analytics, Inc.                        www.gard.com
+1028 Busse Highway                    Phone 847-698-5685
+Park Ridge, Illinois 60068-1802         FAX 847-698-5600
+USA          Energy, Environmental and Economic Research
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bseaton at ASHRAE.org  Tue Mar 28 13:10:13 2000
+From: bseaton at ASHRAE.org (Seaton, Bill)
+Date: Tue, 28 Mar 2000 16:10:13 -0500
+Subject: [BLDG-SIM] New Research Projects Ready To Bid
+Message-ID: <MDAEMON-F200003281458.AA585870MD22749@gard.com>
+
+ASHRAE is pleased to announce that seven new requests-for-proposal have been
+posted on their Home Page (www.ashrae.org).  These RFPs may be read and
+downloaded by clicking on "Research" and then "Research Projects Ready to
+Bid".
+
+An additional ten projects will be added to the Home Page in about 10 days.
+Please check again then.
+
+Please forward this information to any other interested parties.  Others may
+be added to this announcement list by contacting me at the address below.
+
+Bill Seaton
+
+
+William W. Seaton             bseaton at ashrae.org
+Manager of Research           Ph.  404-636-8400
+ASHRAE, Inc.
+1791 Tullie Circle            Fax  404-321-5478
+Atlanta, GA 30329
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mjwitte at gard.com  Fri Mar 24 10:26:37 2000
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Fri, 24 Mar 2000 12:26:37 -0600
+Subject: [BLDG-SIM] exhaust in heat pump
+In-Reply-To: <MDAEMON-F200003241034.AA341342MD21822@gard.com>
+Message-ID: <MDAEMON-F200003241216.AA163246MD21868@gard.com>
+
+What program and version are you using?
+
+On 24 Mar 00 at 11:41, olivier dosiere wrote:
+
+> 
+> 
+>   hi,
+> 
+>   Does anybody knows how I can model an exhaust fan
+>   in the zones of a water loop heat pump system,
+>    that has a heating/ventilating system for
+>   outside air.
+> 
+>   thanks,
+> 
+> 
+>   Olivier Dosiere
+>   Project engineer
+>   DMI - 450 lexigton street
+>   Newton, MA 02466
+>   617-527-1525 x 102
+> 
+> 
+> > You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+========================================================
+Michael J. Witte                        mjwitte at gard.com
+GARD Analytics, Inc.                        www.gard.com
+1028 Busse Highway                    Phone 847-698-5685
+Park Ridge, Illinois 60068-1802         FAX 847-698-5600
+USA          Energy, Environmental and Economic Research
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From odosiere at dmiinc.com  Fri Mar 24 08:41:57 2000
+From: odosiere at dmiinc.com (olivier dosiere)
+Date: Fri, 24 Mar 2000 11:41:57 -0500
+Subject: [BLDG-SIM] exhaust in heat pump
+Message-ID: <MDAEMON-F200003241034.AA340767MD21821@gard.com>
+
+
+
+  hi,
+
+  Does anybody knows how I can model an exhaust fan
+  in the zones of a water loop heat pump system,
+   that has a heating/ventilating system for
+  outside air.
+
+  thanks,
+
+
+  Olivier Dosiere
+  Project engineer
+  DMI - 450 lexigton street
+  Newton, MA 02466
+  617-527-1525 x 102
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20000324/8d435c7b/attachment.htm>
+
+From larry at archone.tamu.edu  Thu Mar 23 16:17:56 2000
+From: larry at archone.tamu.edu (Larry Degelman)
+Date: Thu, 23 Mar 2000 18:17:56 -0600
+Subject: [BLDG-SIM] thermal conductivity of wet soil
+References: <MDAEMON-F200003231024.AA243934MD10086@gard.com>
+Message-ID: <MDAEMON-F200003231809.AA094093MD21605@gard.com>
+
+Erwin,
+
+Have you looked into SIMULAT, sponsored by the German Research Society or
+RETC by the Scientific Software Group in Washington, DC?
+The software relates to hydraulic conductivity of the soil in both saturated
+and unsaturated conditions?  Algorithms are given for conductivity as a
+function of the soil water content. The parameters of the model are taken
+from the van Genuchten or Brooks and Corey equations describing soil water
+retention.
+I believe there's some other related software available.
+
+The SIMULAT site is:  http://www.gsf.de/UFIS/ufis/modell65/gle319.html
+The RETC site is:
+http://www.scisoftware.com/products/retc_details/retc_details.html
+
+LOD
+****************************************************************************
+*
+Larry O. Degelman, P.E., Professor     e-mail: larry at taz.tamu.edu
+Department of Architecture                  Phone: +1-979-845-1891
+Texas A&M University                         Fax:    +1-979-862-1571
+College Station, TX 77843-3137
+Download ENER-WIN at: http://taz.tamu.edu/~energy/enerwin.html
+****************************************************************************
+**
+
+
+----- Original Message -----
+From: "Erwin Mlecnik" <erwin.mlecnik at cenergie.be>
+To: <BLDG-SIM at gard.com>
+Cc: "Patrick Verdonck" <patrick.verdonck at cenergie.be>; "Koen Govers"
+<koen.govers at cenergie.be>
+Sent: Wednesday, March 22, 2000 10:06 AM
+Subject: [BLDG-SIM] thermal conductivity of wet soil
+
+
+> Hello,
+>
+> For the evalution of office ventilation, we try to model the dynamic
+> behaviour of ventilated ground tubes using Capsol software.
+> For this we are looking for the value of the thermal conductivity (l) of
+> common types of soil (humus, sand, loamy sand, loam, clay,..) and wet
+> soil, preferably in function of the moisture content. We would be very
+> happy if somebody could give us some references or values.
+> Are there any approaches to define 'equivalent' thermal conductivity
+> values when ground water streams occur, preferably in function of the
+> speed of the water?
+>
+> Best regards,
+> Erwin Mlecnik.
+>
+> ir. Erwin MLECNIK
+> CENERGIE cvba
+> Gitschotellei 138
+> B-2600 Berchem
+>
+> tel.: +32 3 271 19 39
+> fax: +32 3 271 03 59
+> e-mail: erwin.mlecnik at cenergie.be
+>
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From erwin.mlecnik at cenergie.be  Wed Mar 22 08:06:15 2000
+From: erwin.mlecnik at cenergie.be (Erwin Mlecnik)
+Date: Wed, 22 Mar 2000 17:06:15 +0100
+Subject: [BLDG-SIM] thermal conductivity of wet soil
+Message-ID: <MDAEMON-F200003231024.AA243637MD21476@gard.com>
+
+Hello,
+
+For the evalution of office ventilation, we try to model the dynamic
+behaviour of ventilated ground tubes using Capsol software.
+For this we are looking for the value of the thermal conductivity (l) of
+common types of soil (humus, sand, loamy sand, loam, clay,..) and wet
+soil, preferably in function of the moisture content. We would be very
+happy if somebody could give us some references or values.
+Are there any approaches to define 'equivalent' thermal conductivity
+values when ground water streams occur, preferably in function of the
+speed of the water?
+
+Best regards,
+Erwin Mlecnik.
+
+ir. Erwin MLECNIK
+CENERGIE cvba
+Gitschotellei 138
+B-2600 Berchem
+
+tel.: +32 3 271 19 39
+fax: +32 3 271 03 59
+e-mail: erwin.mlecnik at cenergie.be
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From odosiere at dmiinc.com  Wed Mar 22 06:33:28 2000
+From: odosiere at dmiinc.com (olivier dosiere)
+Date: Wed, 22 Mar 2000 09:33:28 -0500
+Subject: [BLDG-SIM] water source heat pump ( powerdoe)
+Message-ID: <MDAEMON-F200003220828.AA284093MD21131@gard.com>
+
+hi,
+
+I've got a problem to model a water source heat pump with heat rejection to a cooling tower
+and a gas fired boiler as a backup for my  water loop.
+
+Here is what I've already done :
+
+first ( Jeff advice) I created a heating/ventilating system   ( AIR HVAC ) assigned to a fake zone.
+this is to model my make up air preheated, constant volume, @  55 F 100 % OA.
+
+I created the water loop HP ( WATER HVAC ) with my boiler and my cooling tower.
+in reality I have an evap. cooling tower BUT I considered an OPEN CT in powerdoe
+
+Then my main HVAC system ( AIR HVAC) WATER LOOP HP type.
+in that system I assign my outside air coming from my heating/ventilating system.
+
+In my building as I have a bunch of heat pumps I entered my total
+cooling and heating capacity in my system level and I entered for each zone
+their own cooling and heating capacity depending on the number of heat pumps
+( my total zone  capacities equals my system capacities)
+I also entered my total flow ( corresponding to the recirculating and OA).
+
+In my water loop (that as a 20 F delta T), I want the boiler to turns on only when my water loop
+temperature goes below 75 F, and my cooling tower to reject heat when my water loop
+goes above 80 F.
+
+I entered the design GPM for my loop.
+
+then comes the problem :
+
+In my ouput
+
+I almost don't have any heat rejection, and very small cooling.
+( My EIR seems ok 0.015 for CT, 0.24 for HP)
+
+I use a lot of electrical heat ( my heat pump meter is EM1) and I have rooms that remains
+under 60 F with a setpoint @ 72 F.
+
+But I use an incredible high amount of gas in my boiler..
+
+plus I get these  error message
+
+the first message  with the heat  and cooling capacity appears for all the zones !!
+ Powerdoe do not appreciate that my heat pump heating capacity is higher than my cooling
+capacity??? 
+
+
+ 
+ **WARNING**********************************************************************
+
+             HEATING-CAPACITY of   -5040000. is inconsistent with a 
+
+             COOLING-CAPACITY of    4032000.in ZONE 2P-INT ZONE     
+
+ 
+
+ **WARNING**********************************************************************
+
+             Pump: water source HP PUMP             has a total user-specified flow
+
+             of       485. gpm, but the loop flow is      3903. gpm.
+
+ 
+
+ **WARNING**********************************************************************
+
+             Pump: water source HP PUMP             has a user-specified head
+
+             of        57. feet, but the loop head is        67. feet.
+
+ 
+
+ **CAUTION**********************************************************************
+
+             Plant equipment: OPEN CT                          has a different
+
+             pressure drop on loop: HP LOOP                          than the
+
+             other equipment.  This is unusual unless the loop
+
+             uses flow meters or other dynamic flow control
+
+             devices to allocate the flow on an hourly basis to
+
+             the active equipment.
+
+ 
+
+ **WARNING**********************************************************************
+
+             Loop: HP LOOP                          heating capacity is smaller
+
+             than the secondary demand. Primary= -2000000.
+
+              Secondary= -7089648.
+
+ 
+
+ **WARNING**********************************************************************
+
+             Loop: HP LOOP                          cooling capacity is smaller
+
+             than the secondary demand. Primary=  4800000.
+
+             Secondary= 39062304.
+
+
+
+I   must say that I am a little bit lost...
+
+
+Thanks,
+
+
+Olivier Dosiere
+Project engineer
+DMI - 450 lexington street
+Newton, MA 02466
+617-527-1525 x 102
+
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20000322/b6205d03/attachment.htm>
+
+From Mmullins at hecenergy.com  Fri Mar 17 05:05:31 2000
+From: Mmullins at hecenergy.com (Mark Mullins)
+Date: Fri, 17 Mar 2000 08:05:31 -0500
+Subject: [BLDG-SIM] static pressure reset control
+Message-ID: <MDAEMON-F200003170659.AA590368MD19910@gard.com>
+
+In the "real "world" it is important to program the static pressure reset control strategy properly in order to get it to work.  If sp reset is a strategy that reduces the sp setpoint based on the most open VAV damper via an EMS, then it would only take one "rogue" damper that is stuck in the open position to defeat the control.  The damper could get stuck in the open position for a number of reasons:  the damper is simply inoperable and stuck, the temp sensor is reading high, the occupant has cranked down the thermostat, the vav box is undersized and unable to meet the load, etc.  These odds of any of these things happening of course increases as the number of zones increase.
+
+In order to mitigate this effect, I would suggest adding two features to the sp reset controls sequence:
+1.  Set a maximum or "not to exceed" sp setpoint.
+2.  Base the current sp setpoint on an average of the most open two to four boxes, rather than just one.  This will reduce the effect of the rogue box.  The flaw with this is that if there is in fact no rogue box, then a warm room may become starved.  However, I would argue that if the VAV boxes are sized properly, it will simply take longer to cool the warm space.  If the boxes weren't  sized properly, the room would have been warm w/o sp reset anyway, and the underlying problem should be fixed.  
+
+Mark J. Mullins, PE
+Project Engineer
+HEC Energy & Design Services, Inc.
+24 Prime Parkway
+Natick, MA  01760
+(800) 325-4432 ext. 1229
+mmullins at hecenergy.com
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From F.Al-ajmi at lboro.ac.uk  Fri Mar 17 04:19:54 2000
+From: F.Al-ajmi at lboro.ac.uk (F.Alajmi)
+Date: Fri, 17 Mar 2000 12:19:54 +0000
+Subject: [BLDG-SIM]
+Message-ID: <MDAEMON-F200003170629.AA291121MD19889@gard.com>
+
+Hi
+Does any body Know a simulation program calculate earth cooling tubes. 
+Farraj Alajmi 
+Department of Civil & Building Engineering
+Loughborough University
+Loughborough Leics  LE11 4TU  UK
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From beccali at cdc8g5.cdc.polimi.it  Fri Mar 17 00:43:46 2000
+From: beccali at cdc8g5.cdc.polimi.it (marco beccali)
+Date: Fri, 17 Mar 2000 09:43:46 +0100
+Subject: [BLDG-SIM] DOE-2 weather processor
+Message-ID: <MDAEMON-F200003170309.AA090293MD19854@gard.com>
+
+Hello,
+I've experienced a problem with the weather processor of micro-doe2 (pc
+version of DOE2.1E vers. 58) trying to utilise the OTHER file type in the
+PACK command.
+My purpose is to convert measured data (DBT, RH, atm press, total horiz
+radiation, wind speed and direction) to a DOE-2 packed and readable weather
+file.
+I have followed the instructions reported in the DOE-2 User New Vol 2, N.1,
+Spring 99, but I don't succed to have any packed file.
+Could someone help me (maybe providing samples of INPUT.TMP and WEATHR.TMP
+files)?
+
+Thanks
+*************************************************************************
+*  Ing. Marco Beccali							*
+*  Dipartimento di Disegno Industriale e Tecnologie dell'Architettura	*
+*  (DITEC)                                                              *
+*  Politecnico di Milano						*	
+*  Via Bonardi,3 20133 MILANO - ITALY					*
+*  tel. +39-2-23995106							*
+*************************************************************************
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From fporter at archenergy.com  Thu Mar 16 12:23:48 2000
+From: fporter at archenergy.com (Fred Porter)
+Date: Thu, 16 Mar 2000 13:23:48 -0700
+Subject: [BLDG-SIM] static pressure reset control
+References: <MDAEMON-F200003161343.AA432712MD07257@gard.com>
+Message-ID: <MDAEMON-F200003161422.AA221421MD19707@gard.com>
+
+It would be the same for PIU or any VAV systems in DOE2.x:
+
+I use a spreadsheet programmed with the algorithms of Englander and
+Norford, outlined most clearly in an ACEEE paper (VSDs: Improving
+Analysis...) in mid '90s. This is used to create custom fan curves
+(FAN-EIR-FPLR = ) based on the total and static setpoints. The
+baseline curve produced will calculate power at varying flow for
+constant total and static setpoints. Then assume some reset in static
+setpoints at lower flow rates.The evaluation of this curve will
+produce comparatively lower power at partial flow rates. The reset of
+the setpoint at patial flows is just a SWAG that depends on your
+opinion of the sizing of the critical boxes.
+
+This method doesn't use any feedback from the zones, which would be
+needed to explicitly model this strategy, but the only way to do that
+would be a function and DOE2.2 doesn't have functions, and accuracy
+might not increase anyway. Note that in real, as opposed to virtual,
+buildings, some engineers have said it is difficult to integrate this
+with "warmest" zone SAT reset, and that SAT reset should be scheduled
+if zone flow static pressure reset control is enabled. (Trane claims
+they can do this however, and have some nice info on their website.)
+
+
+olivier dosiere wrote:
+
+>   Hi, I don't know how to model in powerdoeSTATIC PRESSURE RESET
+> CONTROLusing PIU.(  HVAC system : POWER INDUCTION UNIT, zone
+> terminal : parallel PIU ) Do you have an idea? Thanks, Olivier
+> Dosiere
+> Project engineer
+> DMI - 450 lexigton street
+> Newton, MA 02466
+> 617-527-1525 x 102
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+--
+Fred W. Porter
+Senior Engineer
+Architectural Energy Corp.
+2540 Frontier Ave. Suite 201
+Boulder CO 80301
+email: fporter at archenergy.com
+phone: 303-444-4149
+fax: 303-444-4304
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From odosiere at dmiinc.com  Thu Mar 16 11:51:25 2000
+From: odosiere at dmiinc.com (olivier dosiere)
+Date: Thu, 16 Mar 2000 14:51:25 -0500
+Subject: [BLDG-SIM] static pressure reset control
+Message-ID: <MDAEMON-F200003161343.AA433026MD19681@gard.com>
+
+
+
+Hi,
+
+I don't know how to model in powerdoe
+STATIC PRESSURE RESET CONTROL
+using PIU.(  HVAC system : POWER INDUCTION UNIT, zone terminal : parallel PIU )
+
+Do you have an idea?
+
+Thanks,
+
+Olivier Dosiere
+Project engineer
+DMI - 450 lexigton street
+Newton, MA 02466
+617-527-1525 x 102
+
+
+
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20000316/e428e48d/attachment.htm>
+
+From John.Avina at SRC-Systems.com  Mon Mar 13 13:05:45 2000
+From: John.Avina at SRC-Systems.com (John Avina)
+Date: Mon, 13 Mar 2000 13:05:45 -0800
+Subject: [BLDG-SIM] Websites that may have German 30 year average wind and solar weat
+	her data
+Message-ID: <MDAEMON-F200003131513.AA134954MD18546@gard.com>
+
+Hi,
+
+At the request of Dipak Shah of Honeywell, I am listing the websites that
+BLDG-SIM members have directed me to in my search for German 30 year average
+data.  Unfortunately, most of them are still works in progress.
+
+NASA provides solar irradiation data for any place on earth based on
+satellite measurements.  http://eosweb.larc.nasa.gov/sse/
+
+
+German wind energy institute (DEWI, http://www.dewi.de/) has some info on
+wind. 
+Try Fraunhofer Institute for solar systems (http://www.ise.fhg.de/) for wind
+and solar data.
+
+
+The University of Oldenburg. They have used Trnsys, so they should have some
+suitable climate data, which you may be able to convert.
+http://www.physik.uni-oldenburg.de/ehf/
+
+Again, many thanks to the BDLG-SIM members who have helped me,
+
+John Avina
+SRC Systems
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From larry at taz.tamu.edu  Thu Mar  9 18:08:13 2000
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Thu, 9 Mar 2000 20:08:13 -0600
+Subject: [BLDG-SIM] German Weather Data
+References: <MDAEMON-F200003091728.AA285946MD05832@gard.com>
+Message-ID: <MDAEMON-F200003092009.AA094853MD17588@gard.com>
+
+Hello John,
+
+The WMO CD contains average monthly data for the following cities:
+DL GERMANY      Schleswig                    WMO- 10035     54.5 N  9.6 E
+48 m
+DL GERMANY      Hamburg-Fuhlsbuettel         WMO- 10147     53.6 N  10 E
+15 m
+DL GERMANY      Rostock-Warnemuende          WMO- 10170     54.2 N  12.1 E
+10 m
+DL GERMANY      Hannover                     WMO- 10338     52.5 N  9.7 E
+59 m
+DL GERMANY      Potsdam                      WMO- 10379     52.4 N  13.1 E
+100 m
+DL GERMANY      Berlin-Dahlem                WMO- 10381     52.5 N  13.3 E
+58 m
+DL GERMANY      Lindenberg                   WMO- 10393     52.2 N  14.1 E
+104 m
+DL GERMANY      Essen                        WMO- 10410     51.4 N  7 E
+161 m
+DL GERMANY      Kassel                       WMO- 10438     51.3 N  9.5 E
+233 m
+DL GERMANY      Goerlitz                     WMO- 10499     51.2 N  15 E
+238 m
+DL GERMANY      Fichtelberg                  WMO- 10578     50.4 N  13 E
+1215 m
+DL GERMANY      Trier-Petrisberg             WMO- 10609     49.8 N  6.7 E
+273 m
+DL GERMANY      Geisenheim                   WMO- 10628     50 N    8 E
+120 m
+DL GERMANY      Karlsruhe                    WMO- 10727     49 N    8.4 E
+145 m
+DL GERMANY      Nuernberg                    WMO- 10763     49.5 N  11.1 E
+318 m
+DL GERMANY      Muenchen-Flughafen           WMO- 10870     48.4 N  11.8 E
+447 m
+DL GERMANY      Konstanz                     WMO- 10929     47.7 N  9.2 E
+447 m
+DL GERMANY      Zugspitze                    WMO- 10961     47.4 N  11 E
+2962 m
+DL GERMANY      Hohenpeissenberg             WMO- 10962     47.8 N  11 E
+986 m
+
+However, for some reason, wind speeds are missing.  I have been using my
+hourly statistical weather model to generate TMY2-like files for cities in
+the WMO database.  If someone can provide average wind speeds for each
+month, I could generate several of the above cities in TMY2 format.  These
+data are averaged for the period covering 1961 through 1990. (This is the
+latest data set as they are updated only once every 30 years.)
+
+A second big IF, is if you are willing to utilize "statistically generated"
+data.
+
+Larry D
+
+****************************************************************************
+*
+Larry O. Degelman, P.E., Professor     e-mail: larry at taz.tamu.edu
+Department of Architecture                  Phone: +1-979-845-1891
+Texas A&M University                         Fax:    +1-979-862-1571
+College Station, TX 77843-3137
+Download ENER-WIN at: http://taz.tamu.edu/~energy/enerwin.html
+****************************************************************************
+**
+
+
+----- Original Message -----
+From: "John Avina" <John.Avina at SRC-Systems.com>
+To: <BLDG-SIM at gard.com>
+Sent: Thursday, March 09, 2000 5:12 PM
+Subject: [BLDG-SIM] German Weather Data
+
+
+> Hi everyone,
+>
+> Does anyone know where I can get DOE2 weather for German cities?  I am
+very
+> grateful to those of you who directed me to European weather sites on the
+> web.
+>
+> Many thanks in advance,
+>
+> John Avina
+> SRC Systems
+>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From John.Avina at SRC-Systems.com  Thu Mar  9 15:12:57 2000
+From: John.Avina at SRC-Systems.com (John Avina)
+Date: Thu, 9 Mar 2000 15:12:57 -0800
+Subject: [BLDG-SIM] German Weather Data
+Message-ID: <MDAEMON-F200003091728.AA285696MD17555@gard.com>
+
+Hi everyone,
+
+Does anyone know where I can get DOE2 weather for German cities?  I am very
+grateful to those of you who directed me to European weather sites on the
+web.
+
+Many thanks in advance,
+
+John Avina
+SRC Systems
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From deblombard at swinter.com  Thu Mar  9 14:02:04 2000
+From: deblombard at swinter.com (Debra A. Lombard)
+Date: Thu, 09 Mar 2000 17:02:04 -0500
+Subject: [BLDG-SIM] NYC & Buffalo - Green Building Workshop (2 days in ea. city)
+Message-ID: <MDAEMON-F200003091554.AA543021MD17525@gard.com>
+
+The New York State Energy Research and Development Authority
+(NYSERDA) is offering two-day Green Building Workshops.
+The first day of training will focus on energy simulations using DOE 2;
+the second day will cover sustainable materials and the US Green
+Building Council's LEED Rating System.  Steven Winter Associates,
+www.swinter.com, will be the instructors for these seminars, which are
+targeted toward architects and engineers.
+
+The workshops will be held in New York City (3/23-24/00) and Buffalo
+(4/18-19/00).  The registration fee is $95/day in New York City and
+$75/day in Buffalo.  For more information, contact Doug Schroeder
+at 202-628-6100 x 210; Email: swadc at aol.com .
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From SKumar at lbl.gov  Wed Mar  8 15:04:59 2000
+From: SKumar at lbl.gov (Satish Kumar)
+Date: Wed, 08 Mar 2000 18:04:59 -0500
+Subject: [BLDG-SIM] DHW consumption
+Message-ID: <MDAEMON-F200003081706.AA061900MD17217@gard.com>
+
+I am trying to model a prototypical New England home in DOE2. I would appreciate if I can get some information on the source intensity for hot water and the hourly schedule indicating the time of use for DHW consumption. Any help will be greatly appreciated.
+
+- Satish
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From deblombard at swinter.com  Wed Mar  8 14:33:33 2000
+From: deblombard at swinter.com (Debra A. Lombard)
+Date: Wed, 08 Mar 2000 17:33:33 -0500
+Subject: [BLDG-SIM] [Fwd: [be2] Building Energy 2000 Press release]
+Message-ID: <MDAEMON-F200003081625.AA253926MD17198@gard.com>
+
+> Jonathan Tauer wrote:
+>
+> Greetings one and all. One week away and still a small window of opportunity to get the word out on this event. Attached is a copy of a press release on the event, please forward to anyone you think might be interested in this event as every additional registration or press coverage at this point is all in the black. Please call or email me with any questions or concerns
+> Jonathan Tauer
+> Buildings Program Manager, NESEA
+> jtauer at nesea.org
+> 413-774-6051 ext 20
+>   ------------------------------------------------------------------------
+> The Building Energy 2000 Conference March 16-17, 2000 Yale University
+> Messages are archives at http://www.egroups.com/group/be2
+> If you have any questions about the be2-list, send mailto:be2 at rnn.com
+> To unsubscribe send mailto:be2-unsubscribe at egroups.com
+>   ------------------------------------------------------------------------
+>
+> eGroups.com Home: http://www.egroups.com/group/be2
+> www.egroups.com - Simplifying group communications
+>
+>                           Name: News Release.doc
+>    News Release.doc       Type: Winword File (application/msword)
+>                       Encoding: base64
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at ee.doe.gov  Wed Mar  8 10:17:35 2000
+From: Drury.Crawley at ee.doe.gov (Drury.Crawley at ee.doe.gov)
+Date: Wed, 8 Mar 2000 13:17:35 -0500
+Subject: [BLDG-SIM] conf announcement
+Message-ID: <MDAEMON-F200003081209.AA090770MD17069@gard.com>
+
+
+
+DESIGN MANAGEMENT IN THE ARCHITECTURAL AND ENGINEERING DESIGN OFFICE
+
+CIB-W96 International Conference, 19+20 May, 2000
+
+Host: Georgia Institute of Technology, College of Architecture
+Atlanta, USA
+
+DEADLINE FOR SUBMISSION OF ABSTRACTS: end of March, 2000
+(send a 1 page abstract to cibw96conf at arch.gatech.edu)
+
+The conference intends to bring together the leading researchers and
+practitioners in the field of design and engineering management in AEC.
+Topics:
+- design and engineering project management: methods and theories
+- web hosted project management (e.g. project web sites)
+- remote collaboration styles in engineering and design
+- web services (ASP) for remote collaboration and teamware
+- information and knowledge management in AEC teams
+- from e-management to e-commerce: supply chain management
+
+The conference will be conducted in plenary sessions only with a  limited
+seating of 60. Papers are due at time of the conference; a selection
+will appear in special issues of selected International Journals.
+
+For information and registration goto:  http://www.arch.gatech.edu/cibw96
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From deblombard at swinter.com  Wed Mar  8 09:27:14 2000
+From: deblombard at swinter.com (Debra A. Lombard)
+Date: Wed, 08 Mar 2000 12:27:14 -0500
+Subject: [BLDG-SIM] Architects, Mechanical Engineers & Energy Analysts Needed
+Message-ID: <MDAEMON-F200003081119.AA192985MD17047@gard.com>
+
+Steven Winter Associates, a nationally recognized, award winning
+Architectural/Engineering firm promoting and designing high performance,
+energy and resource efficient buildings for over 25 years currently has
+several professional positions available for Architects, Mechanical
+(HVAC) Engineers, and Energy Analysts.
+
+Our firm is at the leading edge of sustainable design for numerous high
+profile and innovative corporate, institutional, and residential
+projects.  We are
+seeking individuals at various experience levels with good analytical,
+technical, and verbal skills with specific interest in our area of
+expertise.
+
+Please visit our website to learn more about our available postions and
+our organization at www.swinter.com and submit a resume for
+consideration
+to Jacqui Ham at:
+
+Steven Winter Associates
+50 Washington Street
+Norwalk, CT 06854
+Fax: 203 852 0741, or swinter at swinter.com.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20000308/fcafb84f/attachment.htm>
+
+From John.Avina at SRC-Systems.com  Wed Mar  8 08:34:21 2000
+From: John.Avina at SRC-Systems.com (John Avina)
+Date: Wed, 8 Mar 2000 08:34:21 -0800
+Subject: [BLDG-SIM] German 30 year average wind and solar weather data
+Message-ID: <MDAEMON-F200003081041.AA412729MD17034@gard.com>
+
+Does anyone know where I can find 30 year average wind and solar weather
+data for German cities?  I am looking for average wind speed per month (12
+values/year) and average daily sunshine % per month (12 values/year).  Any
+format will do.  Many thanks to any who respond.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Thu Mar  2 13:15:17 2000
+From: jglazer at gard.com (Jason Glazer)
+Date: Thu, 2 Mar 2000 15:15:17 -0600
+Subject: [BLDG-SIM] 1st Anniversary and Mailing List Archive
+Message-ID: <MDAEMON-F200003021504.AA045317MD15581@gard.com>
+
+Anniversary
+-----------
+
+The BLDG-SIM list has had a good first year with over 200 
+messages and about 300 subscribers.  I think it has 
+maintained a high "signal-to-noise" ratio and has covered 
+both nitty-gritty simulation detail questions and explored 
+policy issues.  
+
+Archive
+-------
+
+To see the messages posted to the list over the last year, 
+please see the new web-based mailing list archive at:
+
+http://www.gard.com/ml/bldg-sim-archive/threads.html
+
+The archive has two limitations that hopefully can be 
+resolved within the next year.  It has no search capability 
+and it is manually processed.  The manual process means 
+that their will be a delay of a few weeks between when a 
+message is posted and when it shows up in the archive. 
+
+Now that we have an web archive, I would encourage anyone 
+that posts a question to later summarize the responses they 
+get in a follow-up post.  It will help close the loop and 
+make this mailing list even more useful.
+
+Thank you all for a good year.
+
+Jason
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

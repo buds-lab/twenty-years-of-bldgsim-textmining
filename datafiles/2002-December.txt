@@ -1,0 +1,811 @@
+From randy at hvacware.net  Wed Dec  4 22:40:09 2002
+From: randy at hvacware.net (randy wilkinson)
+Date: 04 Dec 2002 22:40:09 -0800
+Subject: [BLDG-SIM] New: TMY2BIN creates bin weather files from TMY2 files
+Message-ID: <MDAEMON-F200212042337.AA370531pd80000225612@gard.com>
+
+hvacware.net announces:  TMY2BIN
+
+This program converts TMY2 weather files to bin weather data for quick
+energy calulations. It considers the dry bulb temperature only. And
+currently, only US imperial units. Your can choose to create 2 degree, 4
+degree, 5 degree, or 10 degree temperature bins. There is also an 8760
+hourly output option so you can perform more detailed studies. 
+
+As you know, TMY2 weather files for most major cities are available for
+free on the Internet.
+
+The really great thing about this bin weather file generator is it's
+method of separating occupied hours from unoccupied hours.  It takes a
+few simple clicks to define the occupied periods.
+
+Find out more at our site:  http://www.hvacware.net
+
+-- 
+Randy Wilkinson <randy at hvacware.net>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021204/36fb2026/attachment.htm>
+
+From Drury.Crawley at EE.DOE.GOV  Wed Dec  4 18:23:00 2002
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Wed, 4 Dec 2002 21:23:00 -0500
+Subject: [BLDG-SIM] New Version of EnergyPlus (1.0.3) Now Available
+Message-ID: <MDAEMON-F200212042022.AA2243187pd80000225528@gard.com>
+
+A new version of EnergyPlus (1.0.3) was released on November 29, 2002 and
+is now available on the EnergyPlus web site (www.energyplus.gov).  Version
+1.0.3 is currently available for Windows with a Linux version to follow in
+mid-December.
+
+What's New in EnergyPlus V 1.0.3
+
+The following new or improved capabilities have been added in this release:
+?     Composite Constructions data set
+?     Variable Speed Fans
+?     Cooling Tower improvements
+?     Many COMIS improvements (e.g. COMIS air flow through interzone
+windows and doors,
+            venting through openable doors, add "no vent" strategy)
+?     Pond heat exchanger
+?     Ground surface heat exchanger
+?     Coldest Zone supply air set point strategy
+?     Atmospheric pollution calculation reporting
+?     Design Day "inputs" from weather files
+?     Entire Design Conditions produced as Location-Design Day combo data
+set file
+?     New input file example for each new feature
+?     Weather data interpolation (hourly to time step)
+?     Improved reporting (EnergyPlus, Weather statistics)
+?     Searching capability (Acrobat index) for all documentation
+?     Improved documentation (Output Details document, Input Output
+Reference, Engineering,
+            Auxiliary Programs)
+
+Available for download at no cost from the EnergyPlus web site:
+http://www.energyplus.gov
+
+To get your questions quickly answered about EnergyPlus?joint the
+EnergyPlus email group on Yahoo?
+
+Email Group EnergyPlus_Support at yahoogroups
+
+We have established an email group is to foster discussion as well as
+maintain an archive of information for EnergyPlus users.  The files area
+will allow for uploads of specific files though attachments to email are
+also allowed.  Suggestions on improvements for EnergyPlus as well as
+questions about EnergyPlus usage are welcomed.  This group does not replace
+the primary support email address of EnergyPlus-Support at gard.com .
+
+The main page for the group is at:
+http://groups.yahoo.com/group/EnergyPlus_Support
+
+To subscribe, send an email message to:
+EnergyPlus_Support-subscribe at yahoogroups.com
+
+Building Energy Simulation User News
+
+Bi-monthly newsletter for users of DOE-2, BLAST, EnergyPlus, Genopt, SPARK,
+Energy-10, and Building Design Advisor.   See
+http://simulationresearch.lbl.gov/un.html
+
+BLDG-SIM
+
+Free e-mail list for all building energy simulation program users to ask
+questions to other users.  See http://www.gard.com/ml/bldg-sim.htm  for
+information on joining this email list.
+
+Thanks!
+EnergyPlus Team
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From thong at eley.com  Mon Dec  2 16:35:23 2002
+From: thong at eley.com (Tianzhen Hong)
+Date: Mon, 2 Dec 2002 16:35:23 -0800
+Subject: [BLDG-SIM] =?US-ASCII?Q?VisualDOE_3.1_-_A_New_Tool_for_Green_Building_Design?=
+Message-ID: <MDAEMON-F200212021847.AA4708578pd80000224438@gard.com>
+
+ 
+
+VisualDOE 3.1 - A New Tool for Green Building Design
+
+Eley Associates is pleased to announce Version 3.1 of VisualDOE, a state
+of the art program for performing whole-building energy analysis using
+DOE-2 on PCs running MS Windows 95/98/NT/Me/2000/XP. 
+
+
+What is VisualDOE
+
+
+VisualDOE 3.1 is a new green building design tool that allows users to
+evaluate energy and demand impacts of design alternatives.  The program
+covers all major building systems, including building envelope,
+lighting, daylighting, water heating, HVAC and central plant. 
+
+The first release of VisualDOE in 1994 dramatically reduced the time
+required to perform accurate energy simulations,  version 3.1 takes this
+ease-of-use and power to a new level. The program is targeted for
+architects, engineers, MEP firms, energy consultants, utilities,
+national laboratories, universities, energy service companies, HVAC
+equipment manufacturers, and building product manufacturers. 
+
+
+What Is New
+
+
+.          Faster modeling and easier simulation results diagnosis
+
+.          LEED style end-use report
+
+.          Life cycle cost analysis of design alternatives
+
+.          Supports both SI (metric) and IP units. All reports are
+revised for SI units
+
+.          Free LiveUpdate via the internet to download and install new
+features
+
+.          Modeling Tips to save your time and help diagnose simulation
+results
+
+.          Create up to 99 design alternatives within a project file
+
+.          Weather File Converter to pack and unpack DOE-2 weather files
+
+.          Create  a big energy model with 1024 zones and 256 systems
+
+.          Re-use data from libraries, templates, and previous projects
+
+.          Shows building statistics while you build an energy model
+
+.          Improved custom block editor and DXF file import to create
+complicated building shapes
+
+.          New 3D view controls
+
+.          Enhanced VisualDOE Reports for more useful information of the
+building, zones and systems
+
+.          Share library file to make VisualDOE network compatible
+
+.          Export simulation reports to RTF or PDF files
+
+.          One-stop editor showing files of input, BDL, output, hourly
+reports, and weather statistics
+
+.          Flexible data input of room internal heat gains in either
+power density or total power use
+
+.          Flexible data input of zone air flow. Air flow autosized or
+manually sized
+
+.          Define source energy use and process loads of a room
+
+.          Adds escalation rate at the utility rate editor for life
+cycle cost calculation
+
+.          Adds emissivity to the outside surface of a construction
+under construction editor
+
+.          Periodic professional training seminars
+
+.          Future integration of other calculation engines like
+EnergyPlus 
+
+.          Share your VisualDOE experience with thousands of users in
+more than 35 countries
+
+
+More Information and Ordering
+
+
+We have flexible licensing policy for different types of users. For
+license details, free demo download and ordering, please visit our web
+site  <http://www.eley.com/> www.eley.com or contact 
+
+Eley Associates
+
+142 Minna Street, Second Floor
+
+San Francisco, CA 94105
+
+Phone: (415) 957-1977 Fax: (415) 957-1381
+
+Email:  <mailto:sales at eley.com> sales at eley.com,
+<mailto:support at eley.com> support at eley.com
+
+ 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021202/cd56b46b/attachment.htm>
+
+From JMaxwell at aspensys.com  Tue Dec 24 11:26:32 2002
+From: JMaxwell at aspensys.com (Maxwell, Jon)
+Date: Tue, 24 Dec 2002 14:26:32 -0500
+Subject: [bldg-sim] Data source for cold water inlet temperatures
+Message-ID: <MDAEMON-F200212241324.AA244562md50000233892@gard.com>
+
+Excuse the partial reference, but I am away from my office right now...
+
+Arthur D. Little and others assembled data for EPRI on this in support of
+hourly water heater modeling in the late 1980s.  It may have a longer
+history than that.  I know the data can be found in the old EPRI ESPRE
+User's Manual Appendix A.  It has average annual water temperature for about
+150 cities.  It also includes a factor for seasonal temperature variation,
+with the variation using a sinusoidal formula (1992) and amplitude that
+varies by city.  
+
+Jon Maxwell
+Aspen Systems
+
+-----Original Message-----
+From: Jason Glazer
+To: bldg-sim at gard.com
+Sent: 12/23/02 5:11 PM
+Subject: [bldg-sim] Data source for cold water inlet temperatures
+
+I'm looking for a data source for typical inlet water 
+temperatures (water main temperature) for residential 
+service water heaters for locations in the United States.  
+This is roughly equivalent to the ground temperature at 6 
+to 8 feet depth. The temperature varies seasonally so 
+knowing the average monthly value would be best.  
+
+I am already aware of two sources of data that don't really 
+help: Engineering Weather Data from NCDC has the 50 ft 
+temperature and the map in the old ASHRAE Load Calculation 
+Manual is for depths of 4 inches. 
+
+Any leads would be appreciated.
+
+Jason
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From vlado at gundog.lbl.gov  Tue Dec 24 09:49:37 2002
+From: vlado at gundog.lbl.gov (Vladimir Bazjanac)
+Date: Tue, 24 Dec 2002 09:49:37 -0800
+Subject: [bldg-sim] IFC HVAC software implementations - addendum
+Message-ID: <MDAEMON-F200212241147.AA4751453pd80000233838@gard.com>
+
+The next IFC HVAC implementers teleconference will take place on January
+8, as announced last Friday.  The starting time will change a bit,
+however: The teleconference will start at 16:30 GMT (not at 15:00 GMT,
+as previously announced).  That is 8:30 PST and 11:30 EST in the U.S.,
+17:30 in continental Europe, 18:30 in Finland, etc.
+
+I made a couple of mistakes in the previous announcement.  The deadline
+to notify me about participation in the teleconference is Friday,
+January 3 (not December 3).  Documents that served as background in the
+discussion on December 13 are posted on the FTP site, not http; thus the
+correct address to download these documents is
+ftp://iaiweb.lbl.gov/International/Technical/Projects/IFC_Release_3.0/DomainProjectDirs/BS-8_HvacModeling&Simulation/documents/DC_Meeting/.
+I am sorry for any inconvenience these mistakes may have caused you.
+
+I wish you all happy holidays and a successful implementation year!
+
+-- Vlado Bazjanac, LBNL
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From wpb5 at psu.edu  Mon Dec 23 16:29:24 2002
+From: wpb5 at psu.edu (William Bahnfleth)
+Date: Mon, 23 Dec 2002 19:29:24 -0500
+Subject: [bldg-sim] Data source for cold water inlet temperatures
+Message-ID: <MDAEMON-F200212231827.AA2731734pd80000233593@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021223/a77dcf1c/attachment.htm>
+
+From sjrees at okstate.edu  Mon Dec 23 14:55:36 2002
+From: sjrees at okstate.edu (Simon J Rees)
+Date: Mon, 23 Dec 2002 16:55:36 -0600
+Subject: [bldg-sim] Data source for cold water inlet temperatures
+In-Reply-To: <MDAEMON-F200212231609.AA0929796pd80000307492@gard.com>
+Message-ID: <MDAEMON-F200212231653.AA5347656pd80000233519@gard.com>
+
+Jason
+
+You might want to look at:
+Kusuda, T., P.R. Achenbach (1965), Earth Temperature and Thermal Diffusivities at Selected Stations in the United States. ASHRAE Transactions.
+
+This gives a model that allows you to calculated temps at different depths near the surface, and the variation through the year. Sorry but I don't have the volume and page numbers.
+Simon
+
+At 04:11 PM 12/23/2002, you wrote:
+>I'm looking for a data source for typical inlet water 
+>temperatures (water main temperature) for residential 
+>service water heaters for locations in the United States.  
+>This is roughly equivalent to the ground temperature at 6 
+>to 8 feet depth. The temperature varies seasonally so 
+>knowing the average monthly value would be best.  
+>
+>I am already aware of two sources of data that don't really 
+>help: Engineering Weather Data from NCDC has the 50 ft 
+>temperature and the map in the old ASHRAE Load Calculation 
+>Manual is for depths of 4 inches. 
+>
+>Any leads would be appreciated.
+>
+>Jason
+>
+>=========================================================
+>Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+>GARD Analytics - http://www.gard.com/
+>1028 Busse Highway, Park Ridge, IL 60068
+>Building Energy Simulation and Analysis
+>Admin of BLDG-SIM list for building simulation users
+>
+>======================================================
+>You received this e-mail because you are subscribed 
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ABLekov at lbl.gov  Mon Dec 23 14:52:36 2002
+From: ABLekov at lbl.gov (Alex B. Lekov)
+Date: Mon, 23 Dec 2002 14:52:36 -0800
+Subject: [bldg-sim] Data source for cold water inlet temperatures
+References: <MDAEMON-F200212231609.AA0906968pd80000307054@gard.com>
+Message-ID: <MDAEMON-F200212231650.AA5047718md50000233515@gard.com>
+
+Jason,
+
+1) National Well Water Association publishes annual average groundwater
+temperatures for the various regions in the country.
+2) see also Labs, K.,  Underground building Climate. Solar Age, 1979.
+4(10),p.44-50.
+He recommends to add two degrees to NOAA average annual outside air
+temperature to calculate the inlet water temperature. The comparison
+showed that in the majority of cases, the inlet water temperature
+averages 2deg F  warmer than the outside air temperature.
+
+Alex Lekov
+
+Jason Glazer wrote:
+> 
+> I'm looking for a data source for typical inlet water
+> temperatures (water main temperature) for residential
+> service water heaters for locations in the United States.
+> This is roughly equivalent to the ground temperature at 6
+> to 8 feet depth. The temperature varies seasonally so
+> knowing the average monthly value would be best.
+> 
+> I am already aware of two sources of data that don't really
+> help: Engineering Weather Data from NCDC has the 50 ft
+> temperature and the map in the old ASHRAE Load Calculation
+> Manual is for depths of 4 inches.
+> 
+> Any leads would be appreciated.
+> 
+> Jason
+> 
+> =========================================================
+> Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+> GARD Analytics - http://www.gard.com/
+> 1028 Busse Highway, Park Ridge, IL 60068
+> Building Energy Simulation and Analysis
+> Admin of BLDG-SIM list for building simulation users
+> 
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+-- 
+
+**** This is intended for the addressee only and may contain
+confidential business information. It may not be copied without our
+permission. If you are not the intended recipient, please contact the
+sender as soon as possible and delete the material from any computer.
+****
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: ABLekov.vcf
+Type: text/x-vcard
+Size: 642 bytes
+Desc: Card for Alex B. Lekov
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021223/b4522980/attachment.vcf>
+
+From jglazer at gard.com  Mon Dec 23 14:11:11 2002
+From: jglazer at gard.com (Jason Glazer)
+Date: Mon, 23 Dec 2002 16:11:11 -0600
+Subject: [bldg-sim] Data source for cold water inlet temperatures
+Message-ID: <MDAEMON-F200212231609.AA0921843pd80000233476@gard.com>
+
+I'm looking for a data source for typical inlet water 
+temperatures (water main temperature) for residential 
+service water heaters for locations in the United States.  
+This is roughly equivalent to the ground temperature at 6 
+to 8 feet depth. The temperature varies seasonally so 
+knowing the average monthly value would be best.  
+
+I am already aware of two sources of data that don't really 
+help: Engineering Weather Data from NCDC has the 50 ft 
+temperature and the map in the old ASHRAE Load Calculation 
+Manual is for depths of 4 inches. 
+
+Any leads would be appreciated.
+
+Jason
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From odditems at yahoo.com  Fri Dec 20 19:06:25 2002
+From: odditems at yahoo.com (ranjith a)
+Date: Fri, 20 Dec 2002 19:06:25 -0800 (PST)
+Subject: [bldg-sim] IFC implementations - HVAC software
+In-Reply-To: <MDAEMON-F200212201023.AA2335468pd80000306299@gard.com>
+Message-ID: <MDAEMON-F200212202104.AA0437921pd80000232754@gard.com>
+
+Hi,
+
+I am interested in having a look at the implementation
+schemata, since i am doing some FM related software
+development for HVAC myself. But the link you provided
+seems to be old.Or is it member access? 
+
+Thanks,
+
+Ranjith
+Department of Building
+National University of Singapore
+
+
+--- Vladimir Bazjanac <v_bazjanac at lbl.gov> wrote:
+>>
+>>
+>> 
+>> Materials from the
+> December 13 meeting
+> are posted on the BS-8 web site at
+http://iaiweb.lbl.gov/International/Technical/Projects/IFC_Release_3.0/DomainProjectDirs/BS-8_HvacModeling&Simulation/documents/DC_Meeting/;
+> additional materials will be added as they are
+> developed.  We are
+> looking forward to your participation in this
+> effort. 
+> 
+> -- Vlado Bazjanac, LBNL
+
+
+__________________________________________________
+Do you Yahoo!?
+Yahoo! Mail Plus - Powerful. Affordable. Sign up now.
+http://mailplus.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From v_bazjanac at lbl.gov  Fri Dec 20 08:23:54 2002
+From: v_bazjanac at lbl.gov (Vladimir Bazjanac)
+Date: Fri, 20 Dec 2002 08:23:54 -0800
+Subject: [bldg-sim] IFC implementations - HVAC software
+Message-ID: <MDAEMON-F200212201023.AA2329890pd80000232468@gard.com>
+
+IFC HVAC definitions have been extended to support exchange among design
+and simulation applications.  The integration of the HVAC extension
+schemata with the IFC core model is in progress right now; the new
+version of the IFC data model (IFC2x2) that will include these
+extensions will be released in May 2003.  Software implementation of the
+new IFC2x2 model (based on the beta release) can start three months from
+now.  LBNL plans to follow that schedule and develop a comprehensive
+IFC2x2 interface to EnergyPlus that will implement the new IFC HVAC
+definitions.
+
+The extended IFC HVAC model includes more than most HVAC and/or related
+applications need to implement individually.  HVAC and related
+developers need to agree which definitions need to be implemented by
+*all* implementations, and which need not be implemented at all.  In
+addition, they need to agree how to commonly implement abstract concepts
+such as relationships, systems, groups, etc., to facilitate meaningful
+data exchange.  In other words, there is a need to formulate
+implementers' agreements for HVAC applications, similar to what IAI CAD
+developers have done for their IFC implementations.
+
+HVAC implementers' agreements will provide the basis for HVAC data
+exchange among more than just HVAC applications.  Critical application
+developers from other related industry disciplines that also use HVAC
+data (such as cost estimating, CAD, construction management, project
+management and facilities management) will also participate in the
+forging of HVAC implementers' agreements.
+
+The initial IFC HVAC implementers meeting to start the formulation of
+these implementers' agreements was held in Washington, DC on December
+13.  All key stakeholders participated in the meeting either in person
+or via a virtual link.  These included representatives of the major
+North American HVAC design software houses (such as Carrier, Trane and
+Wrightsoft) and related disciplines (such as Timberline for cost
+estimating), as well as representatives of the U.S. government that are
+engaged in the development of HVAC related software.  Also attending
+were representatives from Olof Granlund from Finland.
+
+The formulation of IFC HVAC implementers' agreements will continue via
+virtual meetings: Beginning in January 2003 LBNL will host bi-weekly
+teleconferences and NetMeetings.  These teleconferences will be free of
+cost to the participants.  The first of such teleconferences will take
+place on Wednesday, January 8 at 15:00 GMT.  If you are interested in
+participating in the teleconference, please contact v_bazjanac at lbl.gov
+by Friday, December 3 to receive dial in instructions.
+
+An IFC HVAC implementers two-day workshop will be held (at a location to
+be determined) later in January or early in February; we will solicit
+suggestions on the place and time of this workshop from potential
+participants.  The objective of the workshop will be to explain the HVAC
+schemata in IFC2x2 in detail to HVAC software developers.  The goal is
+to forge a basis for consensus about implementers' agreements by March,
+so that implementations can start on time.
+
+Everyone with an interest in the implementation of the IFC HVAC schemata
+is invited to join this effort.  Materials from the December 13 meeting
+are posted on the BS-8 web site at
+http://iaiweb.lbl.gov/International/Technical/Projects/IFC_Release_3.0/DomainProjectDirs/BS-8_HvacModeling&Simulation/documents/DC_Meeting/;
+additional materials will be added as they are developed.  We are
+looking forward to your participation in this effort. 
+
+-- Vlado Bazjanac, LBNL
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From larry at taz.tamu.edu  Tue Dec 17 08:26:06 2002
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Tue, 17 Dec 2002 10:26:06 -0600
+Subject: [bldg-sim] IBPSA News, Vol. 12, No. 3
+Message-ID: <MDAEMON-F200212171024.AA2447343pd80000230870@gard.com>
+
+ 
+HEY!  Read all about it!  
+Marion has outdone herself by producing three issues of IBPSA News this
+year.  Look at the latest issue:
+http://www.ibpsa.org/images/IBPSANews-12-3.pdf.  You'll need Acrobat
+Reader <http://www.adobe.com/products/acrobat/alternate.html>  to look
+at this.  Don't have it?  Click here.
+<http://www.adobe.com/products/acrobat/alternate.html>   
+IBPSAlogo.jpgIBPSA
+International Building Performance Simulation Association
+ 
+ 
+NOTICE: ====> With the publication of each issue of IBPSA News, it's
+time to start assembling articles for the next issue.  Please send me
+any building simulation-related articles you have - conference
+announcements, awards, promotions, new software, or even technical
+articles.   Our next issue will appear in mid-March 2003 (80 days after
+Christmas).
+ 
+Thanks, and Happy Holidays!!!!
+===================================== 
+Larry O. Degelman, P.E.                  larry at taz.tamu.edu 
+Newsletter Chairperson
+=====================================
+  
+ 
+ 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021217/d55f95d2/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 2743 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021217/d55f95d2/attachment.jpeg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 14655 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021217/d55f95d2/attachment-0001.jpeg>
+
+From r-strand at uiuc.edu  Mon Dec 16 14:14:55 2002
+From: r-strand at uiuc.edu (Rick Strand)
+Date: Mon, 16 Dec 2002 16:14:55 -0600
+Subject: [BLDG-SIM] IBPSA-USA Chicago Meeting (Preliminary Announcement)
+Message-ID: <MDAEMON-F200212161617.AA1759546md50000230572@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021216/02343a74/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: IBPSAlogo.jpg
+Type: image/jpeg
+Size: 14655 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021216/02343a74/attachment.jpg>
+
+From r-strand at uiuc.edu  Wed Dec 11 14:21:40 2002
+From: r-strand at uiuc.edu (Rick Strand)
+Date: Wed, 11 Dec 2002 16:21:40 -0600
+Subject: [BLDG-SIM] IBPSA-USA Presentation Request for Proposal
+Message-ID: <MDAEMON-F200212111624.AA2408156pd80000228687@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021211/9d039ccc/attachment.htm>
+
+From mjwitte at gard.com  Tue Dec 10 13:08:12 2002
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Tue, 10 Dec 2002 15:08:12 -0600
+Subject: [BLDG-SIM] Introduction to EnergyPlus for Experienced Modelers
+Message-ID: <MDAEMON-F200212101506.AA0628734pd80000228052@gard.com>
+
+(Apologies for cross postings.)
+
+Introduction to EnergyPlus for Experienced Modelers    
+
+January 29-31, 2003, Chicago, Illinois, USA    
+
+Come to this EnergyPlus training course immediately following the 
+Chicago ASHRAE meeting in January.  The course schedule is:  
+
+Wednesday, January 29, 2:00 to 6:00 pm  
+Thursday, January 30, 8:30 am to 5:30 pm
+Friday, January 31, 8:30 am to 1:00 pm     
+
+This workshop will introduce EnergyPlus to experienced modelers who 
+are familiar with the basic concepts of energy simulation.  The 
+course will cover the mechanics of using EnergyPlus with an emphasis 
+on aspects of EnergyPlus that differ substantially from other common 
+modeling tools (e.g., DOE-2 and BLAST), such as the use of a multiple 
+time-step approach, the integrated simulation of loads, systems and 
+plant, and defining fluid and air loops.  Bring your own laptop for 
+the hands-on workshop sessions.    
+
+The course will be held in "the loop" in Chicago at the Crowne Plaza 
+Silversmith, 10 South Wabash Avenue (1 block north of the Palmer 
+House Hilton which is the ASHRAE headquarters hotel).    
+
+For more details on the course outline, registration fees, and 
+accomodations please see 
+
+http://www.gard.com/training.htm 
+
+Future courses:      
+
+Introduction to EnergyPlus for Beginning Modelers, 4 day course, 
+Spring 2003      
+
+Advanced use of EnergyPlus, 2 day course, Early Summer 2003      
+
+Acknowledgements:
+
+Development of course material and support for these workshops 
+provided by the U.S. Department of Energy Office of the Building 
+Technology Program Energy Efficiency and Renewable Energy 
+(http://www.eren.doe.gov/buildings) through the National Renewable 
+Energy Laboratory, and the Oak Ridge National Laboratory.      
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Fri Dec  6 08:35:53 2002
+From: jglazer at gard.com (Jason Glazer)
+Date: Fri, 06 Dec 2002 10:35:53 -0600
+Subject: [BLDG-SIM] Message Archive Updated
+Message-ID: <MDAEMON-F200212061034.AA3418640pd80000226410@gard.com>
+
+The BLDG-SIM archive has been updated to cover through 
+today.  The archive was last updated in August.  About 100 
+messages were added.  
+
+The BLDG-SIM mailing list page is:
+
+  http://www.gard.com/ml/bldg-sim.htm
+
+Sorted by topic:
+
+  http://www.gard.com/ml/bldg-sim-archive/threads.html
+
+Sorted by date:
+
+  http://www.gard.com/ml/bldg-sim-archive/maillist.html
+
+Although not part of the archive, you may also want to look 
+at the "Building Simulation Weather Data Resources" page:   
+
+  http://www.gard.com/weather/
+
+Jason
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

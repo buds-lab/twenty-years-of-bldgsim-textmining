@@ -1,0 +1,545 @@
+From mcase at etcgrp.com  Mon Mar  5 06:37:13 2001
+From: mcase at etcgrp.com (Mark E. Case)
+Date: Mon, 5 Mar 2001 07:37:13 -0700
+Subject: [BLDG-SIM] Trane System Analyzer
+Message-ID: <MDAEMON-F200103050832.AA325775pd80000024738@gard.com>
+
+I'm not very familiar with Trane's System Analyzer but have a particular
+question: According to Trane's website,
+"System Analyzer generalizes building load characteristics. All buildings
+are calculated as rectangular with two zones ? an interior and a perimeter ?
+and evenly distributed internal loads, ventilation, and glass."
+I'm looking at a project reference to 75 zones in a 15 story building.
+That's five zones per floor which implies four perimeter and one internal
+zone per floor.
+Questions:
+Does SA use four perimeter zones per floor? Or one?
+
+
+
+Mark E. Case, P.E.
+etc Group, Inc.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mlemmon at trane.com  Mon Mar  5 07:12:10 2001
+From: mlemmon at trane.com (Lemmon, Mike)
+Date: Mon, 5 Mar 2001 09:12:10 -0600
+Subject: [BLDG-SIM] Trane System Analyzer
+Message-ID: <MDAEMON-F200103050904.AA043878pd80000024776@gard.com>
+
+Mark,
+
+System Analyzer uses one perimeter zone per floor.  Therefore, there is no
+diversity accounted for in the model.  The load at one point on the east
+side of the perimeter zone is modeled as the same load found at any point on
+the west side at the design hour or during the simulation.  While the
+program generates a "rough" design load in it's wizard role, the program
+documentation warns against using System Analyzer to generate heating and
+cooling loads for system or building design.  
+
+The program works very well in an energy and economic analysis role as this
+"average design" can be adjusted prior to running an energy simulation.
+There is overstatement of the amount of energy needed to cool or heat the
+west portion of the perimeter zone in the morning hours.  This overstatement
+is counterbalanced by the opposite effect in the afternoon. The program will
+do a good job reporting the net energy required to maintain space conditions
+during the simulation.  
+
+DO NOT USE SYSTEM ANALYZER FOR A LOAD DESIGN TOOL. It is an excellent
+comparative anlysis and energy analysis tool.  I would Also like to point
+out that the user is able to model performance curves for all equipment
+included in the equipment library making this a level analysis tool for
+those concerned with "equipment vendor software".   
+
+Best Regards,
+
+
+Mike Lemmon
+
+Account Executive Federal Sector Team 
+AMS - The Trane Company
+Bldg 17-2, 3600 Pammel Creek Road
+LaCrosse, WI 54601
+
+Office: 608.787.4297
+Mobile: 612.845.4495
+Fax: 630.214.0835
+mlemmon at trane.com
+
+
+
+
+-----Original Message-----
+From: Mark E. Case [mailto:mcase at etcgrp.com]
+Sent: Monday, March 05, 2001 8:37 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Trane System Analyzer
+
+
+I'm not very familiar with Trane's System Analyzer but have a particular
+question: According to Trane's website,
+"System Analyzer generalizes building load characteristics. All buildings
+are calculated as rectangular with two zones - an interior and a perimeter -
+and evenly distributed internal loads, ventilation, and glass."
+I'm looking at a project reference to 75 zones in a 15 story building.
+That's five zones per floor which implies four perimeter and one internal
+zone per floor.
+Questions:
+Does SA use four perimeter zones per floor? Or one?
+
+
+
+Mark E. Case, P.E.
+etc Group, Inc.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Peter.Simmonds at arup.com  Tue Mar  6 11:09:57 2001
+From: Peter.Simmonds at arup.com (Peter Simmonds)
+Date: Tue, 6 Mar 2001 19:09:57 -0000
+Subject: [BLDG-SIM] casablanca weather files
+Message-ID: <MDAEMON-F200103061305.AA052096pd80000025184@gard.com>
+
+can anyone help me with a weather file for Casablanca, Please  please
+
+Peter Simmonds, Ph.D.
+> ARUP
+> 13 Fitzroy Street (3/CH)
+> London W1T 4BQ, UK 
+> *T: +44 (0)20 7755 3637
+> *F: +44 (0)20 7755 3667
+mailto:peter.simmonds at arup.com
+website:www.arup.com
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010306/712b527b/attachment.htm>
+
+From odosiere at dmiinc.com  Wed Mar 21 14:20:28 2001
+From: odosiere at dmiinc.com (Olivier Dosiere)
+Date: Wed, 21 Mar 2001 15:20:28 -0700
+Subject: [BLDG-SIM] powerdoe memory size
+Message-ID: <MDAEMON-F200103211419.AA195587pd80000029182@gard.com>
+
+hello,
+
+I habe built a quite big and complex file in powerdoe
+and as I tried to run it , I had an error message
+ 
+
+CKKA Errors
+
+Problem to large for memory size - Aborting
+
+
+
+Is there anybody who have an idea how to get around this problem?
+I using a PIII, 667 128 Mo of Ram.
+
+Thanks
+
+Olivier DOSIERE
+DMI
+450 Lexington Street
+Newton, MA
+02466
+Tel : 617 527 1525 x102
+Fax : 617 527 6606
+http://www.dmiinc.com
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010321/d53f753f/attachment.htm>
+
+From cbarnaby at wrightsoft.com  Wed Mar 28 13:55:03 2001
+From: cbarnaby at wrightsoft.com (Chip Barnaby)
+Date: Wed, 28 Mar 2001 16:55:03 -0500
+Subject: [BLDG-SIM] Weather data for Lebanon
+Message-ID: <MDAEMON-F200103281555.AA551479pd80000031167@gard.com>
+
+Greetings ... does anyone know of any sources of design weather data for 
+Lebanon?
+
+
+---------------------------------------------------------
+Chip Barnaby                   cbarnaby at wrightsoft.com
+Vice President of Research
+Wrightsoft Corp.               781-862-8719 x118 voice
+394 Lowell St, Suite 12        781-861-2058 fax
+Lexington, MA 02420            www.wrightsoft.com
+---------------------------------------------------------
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From larry at taz.tamu.edu  Sun Mar 25 08:51:52 2001
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Sun, 25 Mar 2001 10:51:52 -0600
+Subject: [BLDG-SIM] weather question
+References: <MDAEMON-F200103242309.AA091967pd80000033938@gard.com>
+Message-ID: <MDAEMON-F200103251048.AA482504pd80000030237@gard.com>
+
+Hello Yang Miao,
+
+Attached is an hourly data file in TMY2 format for Shanghai.  This file was
+generated from the WMO (World Meteorological Organization) database for
+30-year (1960-1991) statistics.
+
+The TMY2 file is in zipped format (Shanghai.zip) and is accompanied by a
+second file of monthly summary data.
+
+Best wishes.
+
+LODegelman
+
+=================================================
+Larry O. Degelman, P.E.                                larry at taz.tamu.edu
+Professor Emeritus of Architecture           Ph./Fax: 1-979-696-2506
+Texas A&M University
+2206 Quail Run
+College Station, TX 77845
+Download ENER-WIN at: http://taz.tamu.edu/~energy/enerwin.html
+=================================================
+----- Original Message -----
+From: "yang miao" <miaoworld at chinaren.com>
+To: <BLDG-SIM at gard.com>
+Sent: Saturday, March 24, 2001 11:00 PM
+Subject: [BLDG-SIM] weather question
+
+
+> hi,everyone :
+> I wonder whether I can obtained the weather files of Shanghai ,a city in
+China?
+> if not possible,can I modify the tmy file to "suit" Shanghai's weather?
+But it need lots of parimeters that I don't know.
+> I don't know how to do now. Can you give me some advice?
+> thanks a lot!
+>
+>             yang miao
+>         HVAC Engineering  ,PhD
+> South East University
+>   Nanjing,Jiangsu Province,China
+> Phone: 86 25 3791478
+>            email: miaoworld at chinaren.com
+>
+>
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From miaoworld at chinaren.com  Sat Mar 24 21:05:15 2001
+From: miaoworld at chinaren.com (yang miao)
+Date: Sun, 25 Mar 2001 13:5:15 +0800
+Subject: [BLDG-SIM] weather question
+Message-ID: <MDAEMON-F200103242309.AA091531pd80000030194@gard.com>
+
+hi,everyone :
+	I wonder whether I can obtained the weather files of Shanghai ,a city in China?
+	if not possible,can I modify the tmy file to "suit" Shanghai's weather? But it need lots of parimeters that I don't know.
+	I don't know how to do now. Can you give me some advice?
+	thanks a lot!
+	
+            yang miao
+	        HVAC Engineering  ,PhD
+		 	South East University
+	  		Nanjing,Jiangsu Province,China
+			Phone: 86 25 3791478 
+           	email: miaoworld at chinaren.com
+                  
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From miaoworld at chinaren.com  Sat Mar 24 21:04:38 2001
+From: miaoworld at chinaren.com (yang miao)
+Date: Sun, 25 Mar 2001 13:4:38 +0800
+Subject: [BLDG-SIM]
+Message-ID: <MDAEMON-F200103242308.AA082393pd80000030188@gard.com>
+
+hi,everyone :
+	I wonder whether I can obtained the weather files of Shanghai ,a city in China?
+	if not possible,can I modify the tmy file to "suit" Shanghai's weather? But it need lots of parimeters that I don't know.
+	I don't know how to do now. Can you give me some advice?
+	thanks a lot!
+	
+            yang miao
+	        HVAC Engineering  ,PhD
+		 	South East University
+	  		Nanjing,Jiangsu Province,China
+			Phone: 86 25 3791478 
+           	email: miaoworld at chinaren.com
+                  
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From gcg at ucsd.edu  Fri Mar 23 12:21:34 2001
+From: gcg at ucsd.edu (Guilherme CG)
+Date: Fri, 23 Mar 2001 12:21:34 -0800
+Subject: [BLDG-SIM] Natural Ventilation: Towards Low Energy Buildings
+Message-ID: <MDAEMON-F200103231419.AA193770pd80000029950@gard.com>
+
+
+A two day meeting on theoretical and practical aspects of the design of low 
+energy buildings is being jointly organized by the Environmental 
+Engineering Group at the University of California, San Diego, and the BP 
+Institute at the University of Cambridge.  May 3-4 2001, in San Diego.
+
+If you are interested, please follow the link for further details:
+
+http://www.mae.ucsd.edu/enveng/vent01.html
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Fri Mar 23 08:39:10 2001
+From: jglazer at gard.com (Jason Glazer)
+Date: Fri, 23 Mar 2001 10:39:10 -0600
+Subject: [BLDG-SIM] Mailing List Mentioned in Home Energy Magazine
+Message-ID: <MDAEMON-F200103231038.AA383976pd80000029853@gard.com>
+
+The March/April 2001 issue of Home Energy lists the BLDG-
+SIM mailing list in the article "Seeking Green Building on  
+the Internet" along with 10 other electronic discussion 
+groups.  It is nice to get some publicity.  
+
+The more people on the mailing list the greater the 
+collective wisdom and the more we can help each other.  At 
+least that is a common theory.  For this type of mailing 
+list with such a specialized topic, one of the best ways to 
+increase its membership is for the participants to spread 
+the word.  If you feel that subscribing to this mailing 
+list would help someone else in the building energy 
+simulation field who might not be aware of the mailing 
+list, please point them to our web site at:
+
+  http://www.gard.com/ml/bldg-sim.htm
+
+Thanks
+
+Jason
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bseaton at ASHRAE.org  Fri Mar 23 07:29:31 2001
+From: bseaton at ASHRAE.org (Seaton, Bill)
+Date: Fri, 23 Mar 2001 10:29:31 -0500
+Subject: [BLDG-SIM] Research question
+Message-ID: <MDAEMON-F200103230934.AA343710pd80000029829@gard.com>
+
+Colleagues,
+
+My apologies to the Ladies I offended yesterday by addressing my question to
+"Gentlemen".  I had sent this earlier to 4 men, who I believe are all
+Gentlemen, and I neglected to remove that salutation when I forwarded it to
+this larger audience. The error was unintentional.
+
+Bill Seaton
+
+-----Original Message-----
+From: Seaton, Bill 
+Sent: Thursday, March 22, 2001 3:11 PM
+To: 'BLDG-SIM-GARD'
+Subject: FW: Research question
+
+
+
+
+Gentlemen,
+
+Someone is trying to show the average annual savings that can be realized by
+a
+homeowner installing a whole-house fan and using it in the months before and
+after the hot portion of summer, and also in the evening and overnight
+during the peak summer months.
+
+I seem to remember such a study being done some time ago, but don't remember
+who did it or when.
+
+This is a pretty basic, practical question.  Can you help me out on this?
+
+Bill Seaton
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From pjacobs at archenergy.com  Thu Mar 22 14:43:45 2001
+From: pjacobs at archenergy.com (Pete Jacobs)
+Date: Thu, 22 Mar 2001 15:43:45 -0700
+Subject: [BLDG-SIM] Hourly weather data for San Diego and vicinity
+Message-ID: <MDAEMON-F200103221643.AA431901pd80000029664@gard.com>
+
+I'm looking for hourly weather data for the years 1996-1998 for sites in
+and around San Diego, CA.  Files processed into DOE-2 format would be
+most useful.
+
+Thanks!!
+
+--
+Peter C. Jacobs, P.E.
+Senior Engineer
+Architectural Energy Corporation
+2540 Frontier Avenue, Suite 201
+Boulder, Colorado  80301
+Phone: 303-444-4149 extension 211
+Fax:  303-444-4304
+email:  pjacobs at archenergy.com
+website: www.archenergy.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bseaton at ASHRAE.org  Thu Mar 22 12:10:44 2001
+From: bseaton at ASHRAE.org (Seaton, Bill)
+Date: Thu, 22 Mar 2001 15:10:44 -0500
+Subject: [BLDG-SIM] Research question
+Message-ID: <MDAEMON-F200103221415.AA155106pd80000029586@gard.com>
+
+
+
+Gentlemen,
+
+Someone is trying to show the average annual savings that can be realized by
+a
+homeowner installing a whole-house fan and using it in the months before and
+after the hot portion of summer, and also in the evening and overnight
+during the peak summer months.
+
+I seem to remember such a study being done some time ago, but don't remember
+who did it or when.
+
+This is a pretty basic, practical question.  Can you help me out on this?
+
+Bill Seaton
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Thu Mar 22 12:09:12 2001
+From: jglazer at gard.com (Jason Glazer)
+Date: Thu, 22 Mar 2001 14:09:12 -0600
+Subject: [BLDG-SIM] Message Archive Updated
+Message-ID: <MDAEMON-F200103221408.AA084260pd80000029562@gard.com>
+
+The BLDG-SIM archive has been updated to cover through 
+today.  The archive was last updated a few months ago.
+
+The BLDG-SIM mailing list page is:
+
+  http://www.gard.com/ml/bldg-sim.htm
+
+Sorted by topic:
+
+  http://www.gard.com/ml/bldg-sim-archive/threads.html
+
+Sorted by date:
+
+  http://www.gard.com/ml/bldg-sim-archive/maillist.html
+
+Jason
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

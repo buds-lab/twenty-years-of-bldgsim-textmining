@@ -1,0 +1,3535 @@
+From jglazer at gard.com  Mon Nov 29 10:35:22 2004
+From: jglazer at gard.com (Jason Glazer)
+Date: Mon, 29 Nov 2004 12:35:22 -0600
+Subject: [BLDG-SIM] (Fwd) RE:  Loop-to-Loop Heat Pump
+Message-ID: <MDAEMON-F200411291239.AA3935484pd80000441766@gard.com>
+
+
+------- Forwarded message follows -------
+Subject:        	RE: [BLDG-SIM] Loop-to-Loop Heat Pump
+Date sent:      	Mon, 29 Nov 2004 12:32:00 -0600
+From:           	"Baker, Kristopher" <kbaker at syska.com>
+To:             	<JAruck at emoenergy.com>, <BLDG-SIM at GARD.COM>
+
+Justin,
+
+
+
+The condenser loop needs to be a "Lake/Well" type.  It is
+described on page 205 of the eQuest Dictionary (Volume 2).  
+
+
+KB
+
+Kristopher S. Baker
+Sustainability Specialist
+LEED(r) Accredited Professional
+
+Syska Hennessy Group, Inc.
+
+
+
+
+
+11350 Random Hills Road,
+Suite 750
+Fairfax, VA 22030
+Tel: 703.383.9383
+Email:kbaker at syska.com <mailto:dcallan at syska.com>  
+http://www.syska.com <http://www.syska.com/>  
+
+
+
+
+
+________________________________
+
+From: postman at gard.com [mailto:postman at gard.com] On Behalf
+Of Justin Aruck Sent: Monday, November 29, 2004 12:07 PM 
+To:
+BLDG-SIM at GARD.COM Subject: [BLDG-SIM] Loop-to-Loop Heat 
+Pump
+
+
+
+Greetings,
+
+
+
+I am using eQuest and trying to model a loop-to-loop heat
+pump.  The condensing water loop is a required input, but
+upon selection of any loop type available an error message
+occurs advising that the loop type is incompatible.  Has
+anyone come across this or have any idea what the problem
+is.
+
+
+
+Thank You  
+
+
+
+Justin Aruck, LEED
+
+Energy Engineer 
+
+EMO Energy Solutions, LLC
+
+2733 Hartland Road
+
+Falls Church, VA 22043
+
+Phone: 703-205-0445  Fax: 703-205-0449
+
+
+
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+------- End of forwarded message -------
+=========================================================
+Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From JAruck at emoenergy.com  Mon Nov 29 09:06:53 2004
+From: JAruck at emoenergy.com (Justin Aruck)
+Date: Mon, 29 Nov 2004 12:06:53 -0500
+Subject: [BLDG-SIM] Loop-to-Loop Heat Pump
+Message-ID: <MDAEMON-F200411291112.AA1200406pd80000441615@gard.com>
+
+Greetings,
+ 
+I am using eQuest and trying to model a loop-to-loop heat pump.  The
+condensing water loop is a required input, but upon selection of any
+loop type available an error message occurs advising that the loop type
+is incompatible.  Has anyone come across this or have any idea what the
+problem is.
+ 
+Thank You  
+ 
+Justin Aruck, LEED
+Energy Engineer 
+EMO Energy Solutions, LLC
+2733 Hartland Road
+Falls Church, VA 22043
+Phone: 703-205-0445  Fax: 703-205-0449
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041129/72e67ff6/attachment.htm>
+
+From wbahnfleth at psu.edu  Fri Nov 26 22:56:10 2004
+From: wbahnfleth at psu.edu (William Bahnfleth)
+Date: Sat, 27 Nov 2004 01:56:10 -0500
+Subject: [BLDG-SIM] Simulation on Thermal Energy Storage using
+  DOE2.2
+In-Reply-To: <MDAEMON-F200411262131.AA310700pd80000435963@gard.com>
+References: <MDAEMON-F200411261404.AA0419750pd80000434589@gard.com>
+ <MDAEMON-F200411262131.AA310700pd80000435963@gard.com>
+Message-ID: <MDAEMON-F200411270101.AA010693pd80000439486@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041127/c21991c4/attachment.htm>
+
+From nob_naka at va.starcat.ne.jp  Fri Nov 26 19:48:52 2004
+From: nob_naka at va.starcat.ne.jp (=?ISO-2022-JP?B?GyRCQ2Y4Nj8uQDgbKEI=?=)
+Date: Sat, 27 Nov 2004 12:48:52 +0900
+Subject: [BLDG-SIM] Simulation on Thermal Energy Storage using DOE2.2
+In-Reply-To: <20041127113727.4165.NOB_NAKA@va.starcat.ne.jp>
+References: <MDAEMON-F200411261404.AA0430421pd80000435000@gard.com> <20041127113727.4165.NOB_NAKA@va.starcat.ne.jp>
+Message-ID: <MDAEMON-F200411262153.AA5322156pd80000439285@gard.com>
+
+Sorry I forgot to identify myself.
+
+Nobuo Nakahara
+Prof. Emeritus, Nagoya University
+Nakahara Laboratory, Environmental Syst.-Tech. (NESTEC)
+20-48-2, Harusatocho, Chikusaku, 
+Nagoya 464-0038
+Tel: +81-52-759-1638, Fax: +81-52-759-1639
+Email: nob_naka at va.starcat.ne.jp
+URL:  http://www2.starcat.ne.jp/~nob_naka/
+
+> Some comments from Japan.
+> 
+> I have sufficient experience on practical design as well as reserches,
+> including system simulation and economic analysis on water thermal
+> storage system. I am consulting for the Heat Pump and Thermal Storage
+> Technology Center of Japan and compiling manuals on thermal storage
+> technolgy design, control, maintenance, fault detection and diagnosis.  
+> 
+> First of all, energy efficiency and economy of thermal storage system
+> are surely verified, only if correct design and control system are
+> applied. Important points are as follows.
+> 
+> 1. Storage tank shall have the pistow flow chacteristics as far as
+> possible. Several methods are available. (reference at the end)
+> 
+> 2. Constant temperature of chilled water, in case of cooling for instant,
+> shall be output from the chiller to the loweest temperature part of the
+> tank using either mixing control valve or variable flow rate chiller.
+> 
+> 3. Two-way valve controlled VWV system shall be applied to secondary, or
+> HVAC, water circuit.
+> 
+> 4. In case of highrise building, the plate heat exchanger between
+> the primary circuit and secondary circuit is required, but highly care
+> shall be taken for the control system not to return low temperature
+> difference water into the highest temperature part of the tank. 
+> 
+> 5. That means, high temperature difference, say more than 10 degree C,
+> between supply water and return water shall always kept using
+> appropreate control systems.
+> 
+> 6. Optimal control system with daily cooling load prediction algorithm
+> is recommended to make sure the chiller operation to be shifted to night
+> as far as possible for part load season.
+> 
+> 7. Chiller shall be always operated in full capacity, never to be
+> operated in part load mode. Capacity control of the chiller shall be
+> excluded. 
+> 
+> It is of course you must choose as higher COP chiller as possible. In
+> most case, water-cooled centrifugal or screw chiller is better than
+> air-cooled chiller.
+> 
+> One more thing I would like to add is that DOE2 as well as other popular
+> HVAC system simulation programs are not sufficiently able to  reproduce
+> high efficient thermal storage system as I have mentioned above.
+> 
+> I hope above information is of any use to you. Please refer my papers in
+> the following, if you are willing to.
+> 
+> N. Nalkahara, et al.: Water thermal storage tank: 
+> Part 1-Basic design concept and storage estimation for multi-connected
+> complete mixing tanks
+> Part 2-Mixing model and storage estimation for temperature-stratified
+> tanks
+> ASHRAE Transactions, Vol 94, Part 1.
+> 
+> 
+> Ditto: Part 2
+> 
+> ASHRAE TRANSACTIONS
+> 
+> > The last TES I did was for a military base.  I think the base energy manager
+> > must have gone to a seminar and picked up the buzz word, because he wanted
+> > TES.  We tried to talk them out of it and just go with a new water-cooled
+> > central chilled water plant to replace about 10 rotten air-cooled chillers.
+> > We explained that TES requires the right combination of factors, including
+> > high demand charge, high peak hour time of use kWh charge, low off peak TOU
+> > kWh charge, and quite often a utility company or state rebate for demand
+> > reduction programs to make the project economically viable.  Well they
+> > wanted their TES and wanted ice storage versus chilled water storage.
+> > Fortunately, as this was a super ESPC project, the customer was able to kick
+> > in a few $$ to cover the incremental cost of the ice tanks and associated
+> > equipment and the rest of the project funded as an energy savings perforance
+> > contract.  Fortunate, because the electric rates were not conducive to TES.
+> > Perhaps, the customer saw other value or intangible benefits from the TES.
+> > 
+> > As expected, between circulating glycol through the chillers and taking the
+> > performance hit of recharging the ice tanks with an evaporator temperature
+> > in the 22 deg.F - 26 deg.F range,kWh consumption during ice charging period
+> > went up.    In the end, though, the difference in kW/ton between the old
+> > air-cooled recips with corroded condensers and the new electric screw
+> > chillers measurement and verification (and the few $ of buydown on the TES
+> > portion) were sufficient and made for a successful project.  One final note
+> > of interest.  We ran an analysis with and without the TES and as I recall,
+> > the TES only contributed a couple of $thousand/year in savings with about
+> > 98% of the electric savings coming from the improved kW/ton of the electric
+> > cooling.
+> > 
+> > So, don't believe all the buzz words, get the correct rate data and chiller
+> > part-load data..........and the customer is always right.
+> > 
+> > Mike Busman
+> > Senior Project Engineer
+> > NORESCO, LLC
+> > 
+> > -----Original Message-----
+> > From: Chris Jones [mailto:cj at cr-jay.ca]
+> > Sent: Friday, November 26, 2004 10:23 AM
+> > To: BLDG-SIM at gard.com
+> > Subject: [BLDG-SIM] Simulation on Thermal Energy Storage using DOE2.2
+> > 
+> > 
+> > We did an analysis of an existing building with a large heat/cool storage 
+> > system.  The Owners were very surprised to find out that the building was 
+> > not energy efficient - it just saved on demand charges.  The pumping of 
+> > fluid in and out of the tanks, through heat exchangers occurred 24 hours a 
+> > day significantly increasing the kWh beyond that of a conventional hydronic 
+> > heat/cool building.
+> > 
+> > At 01:26 11/26/2004, you wrote:
+> > >Dear Martin,
+> > >I think the findings may be correct.
+> > >First, for a TES system the leaving chilled water temperature usually will 
+> > >be lower, so the COP will be deduced, but as the outside temperature is 
+> > >lower, it does not deduced alot.
+> > >Second, if the TES system using brine water, i think the efficiency will 
+> > >reduce more.
+> > >As our experience in some project in Hong Kong and Mainland, TES system 
+> > >can only reduce electricity cost due to tariff rate rather than
+> > consumption.
+> > >I hope these comment would help.
+> > >
+> > >Regards,
+> > >Ernest Tsang
+> > >Meinhardt (M&E) Ltd
+> > >
+> > >
+> > >Martin Yip <yipch at emsd.gov.hk> wrote:
+> > >Dear Bldg-sim Subscribers,<?xml:namespace prefix = o ns = 
+> > >"urn:schemas-microsoft-com:office:office" />
+> > >
+> > >I recently simulated an air cooled chiller plant with cold water tank 
+> > >thermal energy storage using DOE 2.2.  I originally expected some energy 
+> > >saving due to improve chiller COP at night charging the storage when 
+> > >compare it with a system without storage.  However, the results showed an 
+> > >energy penalty of a few percentages even though hourly data actually 
+> > >showed COP improvement during charging.  I have already set the loss 
+> > >coefficient to zero for the TES.  I should be most grateful if anyone can 
+> > >comment on this issue and provide some suggestion.
+> > >
+> > >Thanks
+> > >
+> > >Martin YIP
+> > >Engineer
+> > >EMSD, HKSAR
+> > >
+> > >
+> > >
+> > >
+> > >=====================================================You received this 
+> > >e-mail because you are subscribed
+> > >
+> > >to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> > >
+> > >from this mailing list send a blank message to
+> > >
+> > >BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> > >$B%e%N%1(BL$B!#(BB$B!"(B@$B%%n*d6%$!#(BB$B%%(B_$B%c!&%!(Bu:$B{x%*%r(B^$B%)(BH...
+> > >$B!&(B~4$Bh5%U!"(Bj$B!"d@(Bw$U$B%/(B|$$B!"!"!k(B
+> > ><http://us.rd.yahoo.com/evt=22281/*http://hk.yahoo.com/mail_tagline/?http:/
+> > /mobile.yahoo.com.hk/>http://mobile.yahoo.com.hk/
+> > 
+> > 
+> > ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+> > Chris Jones
+> > EnerSys Analytics Inc.
+> > 14 Oneida Avenue
+> > Toronto, ON M5J-2E3
+> > Tel. 416 203-7465
+> > Fax. 416 946-1005  
+> > 
+> > 
+> > =====================================================You received this
+> > e-mail because you are subscribed 
+> > to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> > from this mailing list send a blank message to 
+> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> > 
+> > ======================================================
+> > You received this e-mail because you are subscribed 
+> > to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> > from this mailing list send a blank message to 
+> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> > 
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From nob_naka at va.starcat.ne.jp  Fri Nov 26 19:44:50 2004
+From: nob_naka at va.starcat.ne.jp (=?ISO-2022-JP?B?GyRCQ2Y4Nj8uQDgbKEI=?=)
+Date: Sat, 27 Nov 2004 12:44:50 +0900
+Subject: [BLDG-SIM] Simulation on Thermal Energy Storage using DOE2.2
+In-Reply-To: <MDAEMON-F200411261404.AA0430421pd80000435000@gard.com>
+References: <MDAEMON-F200411261404.AA0430421pd80000435000@gard.com>
+Message-ID: <MDAEMON-F200411262150.AA5007187pd80000439272@gard.com>
+
+Some comments from Japan.
+
+I have sufficient experience on practical design as well as reserches,
+including system simulation and economic analysis on water thermal
+storage system. I am consulting for the Heat Pump and Thermal Storage
+Technology Center of Japan and compiling manuals on thermal storage
+technolgy design, control, maintenance, fault detection and diagnosis.  
+
+First of all, energy efficiency and economy of thermal storage system
+are surely verified, only if correct design and control system are
+applied. Important points are as follows.
+
+1. Storage tank shall have the pistow flow chacteristics as far as
+possible. Several methods are available. (reference at the end)
+
+2. Constant temperature of chilled water, in case of cooling for instant,
+shall be output from the chiller to the loweest temperature part of the
+tank using either mixing control valve or variable flow rate chiller.
+
+3. Two-way valve controlled VWV system shall be applied to secondary, or
+HVAC, water circuit.
+
+4. In case of highrise building, the plate heat exchanger between
+the primary circuit and secondary circuit is required, but highly care
+shall be taken for the control system not to return low temperature
+difference water into the highest temperature part of the tank. 
+
+5. That means, high temperature difference, say more than 10 degree C,
+between supply water and return water shall always kept using
+appropreate control systems.
+
+6. Optimal control system with daily cooling load prediction algorithm
+is recommended to make sure the chiller operation to be shifted to night
+as far as possible for part load season.
+
+7. Chiller shall be always operated in full capacity, never to be
+operated in part load mode. Capacity control of the chiller shall be
+excluded. 
+
+It is of course you must choose as higher COP chiller as possible. In
+most case, water-cooled centrifugal or screw chiller is better than
+air-cooled chiller.
+
+One more thing I would like to add is that DOE2 as well as other popular
+HVAC system simulation programs are not sufficiently able to  reproduce
+high efficient thermal storage system as I have mentioned above.
+
+I hope above information is of any use to you. Please refer my papers in
+the following, if you are willing to.
+
+N. Nalkahara, et al.: Water thermal storage tank: 
+Part 1-Basic design concept and storage estimation for multi-connected
+complete mixing tanks
+Part 2-Mixing model and storage estimation for temperature-stratified
+tanks
+ASHRAE Transactions, Vol 94, Part 1.
+
+
+Ditto: Part 2
+
+ASHRAE TRANSACTIONS
+
+> The last TES I did was for a military base.  I think the base energy manager
+> must have gone to a seminar and picked up the buzz word, because he wanted
+> TES.  We tried to talk them out of it and just go with a new water-cooled
+> central chilled water plant to replace about 10 rotten air-cooled chillers.
+> We explained that TES requires the right combination of factors, including
+> high demand charge, high peak hour time of use kWh charge, low off peak TOU
+> kWh charge, and quite often a utility company or state rebate for demand
+> reduction programs to make the project economically viable.  Well they
+> wanted their TES and wanted ice storage versus chilled water storage.
+> Fortunately, as this was a super ESPC project, the customer was able to kick
+> in a few $$ to cover the incremental cost of the ice tanks and associated
+> equipment and the rest of the project funded as an energy savings perforance
+> contract.  Fortunate, because the electric rates were not conducive to TES.
+> Perhaps, the customer saw other value or intangible benefits from the TES.
+> 
+> As expected, between circulating glycol through the chillers and taking the
+> performance hit of recharging the ice tanks with an evaporator temperature
+> in the 22 deg.F - 26 deg.F range,kWh consumption during ice charging period
+> went up.    In the end, though, the difference in kW/ton between the old
+> air-cooled recips with corroded condensers and the new electric screw
+> chillers measurement and verification (and the few $ of buydown on the TES
+> portion) were sufficient and made for a successful project.  One final note
+> of interest.  We ran an analysis with and without the TES and as I recall,
+> the TES only contributed a couple of $thousand/year in savings with about
+> 98% of the electric savings coming from the improved kW/ton of the electric
+> cooling.
+> 
+> So, don't believe all the buzz words, get the correct rate data and chiller
+> part-load data..........and the customer is always right.
+> 
+> Mike Busman
+> Senior Project Engineer
+> NORESCO, LLC
+> 
+> -----Original Message-----
+> From: Chris Jones [mailto:cj at cr-jay.ca]
+> Sent: Friday, November 26, 2004 10:23 AM
+> To: BLDG-SIM at gard.com
+> Subject: [BLDG-SIM] Simulation on Thermal Energy Storage using DOE2.2
+> 
+> 
+> We did an analysis of an existing building with a large heat/cool storage 
+> system.  The Owners were very surprised to find out that the building was 
+> not energy efficient - it just saved on demand charges.  The pumping of 
+> fluid in and out of the tanks, through heat exchangers occurred 24 hours a 
+> day significantly increasing the kWh beyond that of a conventional hydronic 
+> heat/cool building.
+> 
+> At 01:26 11/26/2004, you wrote:
+> >Dear Martin,
+> >I think the findings may be correct.
+> >First, for a TES system the leaving chilled water temperature usually will 
+> >be lower, so the COP will be deduced, but as the outside temperature is 
+> >lower, it does not deduced alot.
+> >Second, if the TES system using brine water, i think the efficiency will 
+> >reduce more.
+> >As our experience in some project in Hong Kong and Mainland, TES system 
+> >can only reduce electricity cost due to tariff rate rather than
+> consumption.
+> >I hope these comment would help.
+> >
+> >Regards,
+> >Ernest Tsang
+> >Meinhardt (M&E) Ltd
+> >
+> >
+> >Martin Yip <yipch at emsd.gov.hk> wrote:
+> >Dear Bldg-sim Subscribers,<?xml:namespace prefix = o ns = 
+> >"urn:schemas-microsoft-com:office:office" />
+> >
+> >I recently simulated an air cooled chiller plant with cold water tank 
+> >thermal energy storage using DOE 2.2.  I originally expected some energy 
+> >saving due to improve chiller COP at night charging the storage when 
+> >compare it with a system without storage.  However, the results showed an 
+> >energy penalty of a few percentages even though hourly data actually 
+> >showed COP improvement during charging.  I have already set the loss 
+> >coefficient to zero for the TES.  I should be most grateful if anyone can 
+> >comment on this issue and provide some suggestion.
+> >
+> >Thanks
+> >
+> >Martin YIP
+> >Engineer
+> >EMSD, HKSAR
+> >
+> >
+> >
+> >
+> >=====================================================You received this 
+> >e-mail because you are subscribed
+> >
+> >to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> >
+> >from this mailing list send a blank message to
+> >
+> >BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> >$B%e%N%1(BL$B!#(BB$B!"(B@$B%%n*d6%$!#(BB$B%%(B_$B%c!&%!(Bu:$B{x%*%r(B^$B%)(BH...
+> >$B!&(B~4$Bh5%U!"(Bj$B!"d@(Bw$U$B%/(B|$$B!"!"!k(B
+> ><http://us.rd.yahoo.com/evt=22281/*http://hk.yahoo.com/mail_tagline/?http:/
+> /mobile.yahoo.com.hk/>http://mobile.yahoo.com.hk/
+> 
+> 
+> ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+> Chris Jones
+> EnerSys Analytics Inc.
+> 14 Oneida Avenue
+> Toronto, ON M5J-2E3
+> Tel. 416 203-7465
+> Fax. 416 946-1005  
+> 
+> 
+> =====================================================You received this
+> e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From asl1 at psu.edu  Fri Nov 26 19:26:21 2004
+From: asl1 at psu.edu (Andrew S. LAU)
+Date: Fri, 26 Nov 2004 22:26:21 -0500
+Subject: [BLDG-SIM] Simulation on Thermal Energy Storage using
+  DOE2.2
+In-Reply-To: <MDAEMON-F200411261404.AA0419750pd80000434589@gard.com>
+Message-ID: <MDAEMON-F200411262131.AA3102390pd80000439251@gard.com>
+
+On the energy savings potential of TES.  I do recall that with TES, there 
+is an opportunity to save significantly on fan power if the AHU's are 
+designed to take advantage of the colder supply air temperatures possible 
+with certain types of TES systems.  There is also first cost savings from 
+smaller fans and ducts.
+
+Andy Lau, 7group
+
+
+At 02:59 PM 11/26/2004 -0500, mbusman at noresco.com wrote:
+>The last TES I did was for a military base.  I think the base energy manager
+>must have gone to a seminar and picked up the buzz word, because he wanted
+>TES.  We tried to talk them out of it and just go with a new water-cooled
+>central chilled water plant to replace about 10 rotten air-cooled chillers.
+>We explained that TES requires the right combination of factors, including
+>high demand charge, high peak hour time of use kWh charge, low off peak TOU
+>kWh charge, and quite often a utility company or state rebate for demand
+>reduction programs to make the project economically viable.  Well they
+>wanted their TES and wanted ice storage versus chilled water storage.
+>Fortunately, as this was a super ESPC project, the customer was able to kick
+>in a few $$ to cover the incremental cost of the ice tanks and associated
+>equipment and the rest of the project funded as an energy savings perforance
+>contract.  Fortunate, because the electric rates were not conducive to TES.
+>Perhaps, the customer saw other value or intangible benefits from the TES.
+>
+>As expected, between circulating glycol through the chillers and taking the
+>performance hit of recharging the ice tanks with an evaporator temperature
+>in the 22 deg.F - 26 deg.F range,kWh consumption during ice charging period
+>went up.    In the end, though, the difference in kW/ton between the old
+>air-cooled recips with corroded condensers and the new electric screw
+>chillers measurement and verification (and the few $ of buydown on the TES
+>portion) were sufficient and made for a successful project.  One final note
+>of interest.  We ran an analysis with and without the TES and as I recall,
+>the TES only contributed a couple of $thousand/year in savings with about
+>98% of the electric savings coming from the improved kW/ton of the electric
+>cooling.
+>
+>So, don't believe all the buzz words, get the correct rate data and chiller
+>part-load data..........and the customer is always right.
+>
+>Mike Busman
+>Senior Project Engineer
+>NORESCO, LLC
+>
+>-----Original Message-----
+>From: Chris Jones [mailto:cj at cr-jay.ca]
+>Sent: Friday, November 26, 2004 10:23 AM
+>To: BLDG-SIM at gard.com
+>Subject: [BLDG-SIM] Simulation on Thermal Energy Storage using DOE2.2
+>
+>
+>We did an analysis of an existing building with a large heat/cool storage
+>system.  The Owners were very surprised to find out that the building was
+>not energy efficient - it just saved on demand charges.  The pumping of
+>fluid in and out of the tanks, through heat exchangers occurred 24 hours a
+>day significantly increasing the kWh beyond that of a conventional hydronic
+>heat/cool building.
+>
+>At 01:26 11/26/2004, you wrote:
+> >Dear Martin,
+> >I think the findings may be correct.
+> >First, for a TES system the leaving chilled water temperature usually will
+> >be lower, so the COP will be deduced, but as the outside temperature is
+> >lower, it does not deduced alot.
+> >Second, if the TES system using brine water, i think the efficiency will
+> >reduce more.
+> >As our experience in some project in Hong Kong and Mainland, TES system
+> >can only reduce electricity cost due to tariff rate rather than
+>consumption.
+> >I hope these comment would help.
+> >
+> >Regards,
+> >Ernest Tsang
+> >Meinhardt (M&E) Ltd
+> >
+> >
+> >Martin Yip <yipch at emsd.gov.hk> wrote:
+> >Dear Bldg-sim Subscribers,<?xml:namespace prefix = o ns =
+> >"urn:schemas-microsoft-com:office:office" />
+> >
+> >I recently simulated an air cooled chiller plant with cold water tank
+> >thermal energy storage using DOE 2.2.  I originally expected some energy
+> >saving due to improve chiller COP at night charging the storage when
+> >compare it with a system without storage.  However, the results showed an
+> >energy penalty of a few percentages even though hourly data actually
+> >showed COP improvement during charging.  I have already set the loss
+> >coefficient to zero for the TES.  I should be most grateful if anyone can
+> >comment on this issue and provide some suggestion.
+> >
+> >Thanks
+> >
+> >Martin YIP
+> >Engineer
+> >EMSD, HKSAR
+> >
+> >
+> >
+> >
+> >=====================================================You received this
+> >e-mail because you are subscribed
+> >
+> >to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> >
+> >from this mailing list send a blank message to
+> >
+> >BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> >???L?B?@???????B?_?????????^?H...
+> >???????j?????U??????
+> ><http://us.rd.yahoo.com/evt=22281/*http://hk.yahoo.com/mail_tagline/?http:/
+>/mobile.yahoo.com.hk/>http://mobile.yahoo.com.hk/
+>
+>
+>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+>Chris Jones
+>EnerSys Analytics Inc.
+>14 Oneida Avenue
+>Toronto, ON M5J-2E3
+>Tel. 416 203-7465
+>Fax. 416 946-1005
+>
+>
+>=====================================================You received this
+>e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+Andrew S. Lau, P.E.
+7group, www.sevengroup.com
+1007 Bayberry Drive
+State College, PA  16801
+814-238-4273,   FAX 814-863-7229
+andylau at psu.edu
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mbusman at noresco.com  Fri Nov 26 11:59:54 2004
+From: mbusman at noresco.com (mbusman at noresco.com)
+Date: Fri, 26 Nov 2004 14:59:54 -0500
+Subject: [BLDG-SIM] Simulation on Thermal Energy Storage using DOE2.2
+Message-ID: <MDAEMON-F200411261404.AA0428218pd80000438952@gard.com>
+
+The last TES I did was for a military base.  I think the base energy manager
+must have gone to a seminar and picked up the buzz word, because he wanted
+TES.  We tried to talk them out of it and just go with a new water-cooled
+central chilled water plant to replace about 10 rotten air-cooled chillers.
+We explained that TES requires the right combination of factors, including
+high demand charge, high peak hour time of use kWh charge, low off peak TOU
+kWh charge, and quite often a utility company or state rebate for demand
+reduction programs to make the project economically viable.  Well they
+wanted their TES and wanted ice storage versus chilled water storage.
+Fortunately, as this was a super ESPC project, the customer was able to kick
+in a few $$ to cover the incremental cost of the ice tanks and associated
+equipment and the rest of the project funded as an energy savings perforance
+contract.  Fortunate, because the electric rates were not conducive to TES.
+Perhaps, the customer saw other value or intangible benefits from the TES.
+
+As expected, between circulating glycol through the chillers and taking the
+performance hit of recharging the ice tanks with an evaporator temperature
+in the 22 deg.F - 26 deg.F range,kWh consumption during ice charging period
+went up.    In the end, though, the difference in kW/ton between the old
+air-cooled recips with corroded condensers and the new electric screw
+chillers measurement and verification (and the few $ of buydown on the TES
+portion) were sufficient and made for a successful project.  One final note
+of interest.  We ran an analysis with and without the TES and as I recall,
+the TES only contributed a couple of $thousand/year in savings with about
+98% of the electric savings coming from the improved kW/ton of the electric
+cooling.
+
+So, don't believe all the buzz words, get the correct rate data and chiller
+part-load data..........and the customer is always right.
+
+Mike Busman
+Senior Project Engineer
+NORESCO, LLC
+
+-----Original Message-----
+From: Chris Jones [mailto:cj at cr-jay.ca]
+Sent: Friday, November 26, 2004 10:23 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Simulation on Thermal Energy Storage using DOE2.2
+
+
+We did an analysis of an existing building with a large heat/cool storage 
+system.  The Owners were very surprised to find out that the building was 
+not energy efficient - it just saved on demand charges.  The pumping of 
+fluid in and out of the tanks, through heat exchangers occurred 24 hours a 
+day significantly increasing the kWh beyond that of a conventional hydronic 
+heat/cool building.
+
+At 01:26 11/26/2004, you wrote:
+>Dear Martin,
+>I think the findings may be correct.
+>First, for a TES system the leaving chilled water temperature usually will 
+>be lower, so the COP will be deduced, but as the outside temperature is 
+>lower, it does not deduced alot.
+>Second, if the TES system using brine water, i think the efficiency will 
+>reduce more.
+>As our experience in some project in Hong Kong and Mainland, TES system 
+>can only reduce electricity cost due to tariff rate rather than
+consumption.
+>I hope these comment would help.
+>
+>Regards,
+>Ernest Tsang
+>Meinhardt (M&E) Ltd
+>
+>
+>Martin Yip <yipch at emsd.gov.hk> wrote:
+>Dear Bldg-sim Subscribers,<?xml:namespace prefix = o ns = 
+>"urn:schemas-microsoft-com:office:office" />
+>
+>I recently simulated an air cooled chiller plant with cold water tank 
+>thermal energy storage using DOE 2.2.  I originally expected some energy 
+>saving due to improve chiller COP at night charging the storage when 
+>compare it with a system without storage.  However, the results showed an 
+>energy penalty of a few percentages even though hourly data actually 
+>showed COP improvement during charging.  I have already set the loss 
+>coefficient to zero for the TES.  I should be most grateful if anyone can 
+>comment on this issue and provide some suggestion.
+>
+>Thanks
+>
+>Martin YIP
+>Engineer
+>EMSD, HKSAR
+>
+>
+>
+>
+>=====================================================You received this 
+>e-mail because you are subscribed
+>
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>
+>from this mailing list send a blank message to
+>
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>???L?B?@???????B?_?????????^?H...
+>???????j?????U??????
+><http://us.rd.yahoo.com/evt=22281/*http://hk.yahoo.com/mail_tagline/?http:/
+/mobile.yahoo.com.hk/>http://mobile.yahoo.com.hk/
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Chris Jones
+EnerSys Analytics Inc.
+14 Oneida Avenue
+Toronto, ON M5J-2E3
+Tel. 416 203-7465
+Fax. 416 946-1005  
+
+
+=====================================================You received this
+e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cj at cr-jay.ca  Fri Nov 26 10:22:51 2004
+From: cj at cr-jay.ca (Chris Jones)
+Date: Fri, 26 Nov 2004 13:22:51 -0500
+Subject: [BLDG-SIM] Simulation on Thermal Energy Storage using
+  DOE2.2
+In-Reply-To: <MDAEMON-F200411260030.AA3046718pd80000433050@gard.com>
+References: <MDAEMON-F200411240207.AA0739921pd80000430333@gard.com>
+ <MDAEMON-F200411260030.AA3046718pd80000433050@gard.com>
+Message-ID: <MDAEMON-F200411261241.AA4158125pd80000438857@gard.com>
+
+We did an analysis of an existing building with a large heat/cool storage 
+system.  The Owners were very surprised to find out that the building was 
+not energy efficient - it just saved on demand charges.  The pumping of 
+fluid in and out of the tanks, through heat exchangers occurred 24 hours a 
+day significantly increasing the kWh beyond that of a conventional hydronic 
+heat/cool building.
+
+At 01:26 11/26/2004, you wrote:
+>Dear Martin,
+>I think the findings may be correct.
+>First, for a TES system the leaving chilled water temperature usually will 
+>be lower, so the COP will be deduced, but as the outside temperature is 
+>lower, it does not deduced alot.
+>Second, if the TES system using brine water, i think the efficiency will 
+>reduce more.
+>As our experience in some project in Hong Kong and Mainland, TES system 
+>can only reduce electricity cost due to tariff rate rather than consumption.
+>I hope these comment would help.
+>
+>Regards,
+>Ernest Tsang
+>Meinhardt (M&E) Ltd
+>
+>
+>Martin Yip <yipch at emsd.gov.hk> wrote:
+>Dear Bldg-sim Subscribers,<?xml:namespace prefix = o ns = 
+>"urn:schemas-microsoft-com:office:office" />
+>
+>I recently simulated an air cooled chiller plant with cold water tank 
+>thermal energy storage using DOE 2.2.  I originally expected some energy 
+>saving due to improve chiller COP at night charging the storage when 
+>compare it with a system without storage.  However, the results showed an 
+>energy penalty of a few percentages even though hourly data actually 
+>showed COP improvement during charging.  I have already set the loss 
+>coefficient to zero for the TES.  I should be most grateful if anyone can 
+>comment on this issue and provide some suggestion.
+>
+>Thanks
+>
+>Martin YIP
+>Engineer
+>EMSD, HKSAR
+>
+>
+>
+>
+>=====================================================You received this 
+>e-mail because you are subscribed
+>
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>
+>from this mailing list send a blank message to
+>
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>???L?B?@???????B?_?????????^?H...
+>???????j?????U??????
+><http://us.rd.yahoo.com/evt=22281/*http://hk.yahoo.com/mail_tagline/?http://mobile.yahoo.com.hk/>http://mobile.yahoo.com.hk/
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Chris Jones
+EnerSys Analytics Inc.
+14 Oneida Avenue
+Toronto, ON M5J-2E3
+Tel. 416 203-7465
+Fax. 416 946-1005  
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ekwtsang at yahoo.com.hk  Thu Nov 25 22:26:24 2004
+From: ekwtsang at yahoo.com.hk (Kin Wai Tsang)
+Date: Fri, 26 Nov 2004 14:26:24 +0800 (CST)
+Subject: [BLDG-SIM] Simulation on Thermal Energy Storage using DOE2.2
+In-Reply-To: <MDAEMON-F200411240207.AA0739921pd80000430333@gard.com>
+Message-ID: <MDAEMON-F200411260030.AA3049187pd80000438345@gard.com>
+
+Dear Martin,
+I think the findings may be correct.
+First, for a TES system the leaving chilled water temperature usually will be lower, so the COP will be deduced, but as the outside temperature is lower, it does not deduced alot.
+Second, if the TES system using brine water, i think the efficiency will reduce more.
+As our experience in some project in Hong Kong and Mainland, TES system can only reduce electricity cost due to tariff rate rather than consumption.
+I hope these comment would help.
+ 
+Regards,
+Ernest Tsang
+Meinhardt (M&E) Ltd
+
+
+Martin Yip <yipch at emsd.gov.hk> wrote:
+
+
+Dear Bldg-sim Subscribers,
+
+ 
+
+I recently simulated an air cooled chiller plant with cold water tank thermal energy storage using DOE 2.2.  I originally expected some energy saving due to improve chiller COP at night charging the storage when compare it with a system without storage.  However, the results showed an energy penalty of a few percentages even though hourly data actually showed COP improvement during charging.  I have already set the loss coefficient to zero for the TES.  I should be most grateful if anyone can comment on this issue and provide some suggestion.
+
+ 
+
+Thanks
+
+ 
+
+Martin YIP
+
+Engineer
+
+EMSD, HKSAR
+
+ 
+
+
+=====================================================You received this e-mail because you are subscribedto the BLDG-SIM at GARD.COM mailing list.  To unsubscribefrom this mailing list send a blank message toBLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+???????????????...
+??????????
+http://mobile.yahoo.com.hk/
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041126/0594fe1f/attachment.htm>
+
+From jra_sac at yahoo.com  Thu Nov 25 13:49:02 2004
+From: jra_sac at yahoo.com (John Aulbach)
+Date: Thu, 25 Nov 2004 13:49:02 -0800 (PST)
+Subject: [BLDG-SIM] Simulation on Thermal Energy Storage using DOE2.2
+In-Reply-To: <MDAEMON-F200411240207.AA0741984pd80000430471@gard.com>
+Message-ID: <MDAEMON-F200411251553.AA5319765pd80000438054@gard.com>
+
+Sir:
+
+Have you checked your tower fan and pumping energy?
+
+It may be that the program kicks these items up during
+charging time.
+
+
+
+
+
+		
+__________________________________ 
+Do you Yahoo!? 
+All your favorites on one personal page ? Try My Yahoo!
+http://my.yahoo.com 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cj at cr-jay.ca  Wed Nov 24 16:25:09 2004
+From: cj at cr-jay.ca (Chris Jones)
+Date: Wed, 24 Nov 2004 19:25:09 -0500
+Subject: [BLDG-SIM] Operative Temperature Thermostats
+Message-ID: <MDAEMON-F200411241844.AA4407984pd80000437183@gard.com>
+
+Sort of off topic but I have predicted energy savings via infloor radiant 
+heating and operative temperature sensing.  Now the Owner wants to install 
+operative temperature thermostats.  Does anyone know of a manufacture for a 
+commercial (school) building?
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Chris Jones
+EnerSys Analytics Inc.
+14 Oneida Avenue
+Toronto, ON M5J-2E3
+Tel. 416 203-7465
+Fax. 416 946-1005  
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From yipch at emsd.gov.hk  Wed Nov 24 00:02:44 2004
+From: yipch at emsd.gov.hk (Martin Yip)
+Date: Wed, 24 Nov 2004 16:02:44 +0800
+Subject: [BLDG-SIM] Simulation on Thermal Energy Storage using DOE2.2
+Message-ID: <MDAEMON-F200411240207.AA0741640pd80000436330@gard.com>
+
+Dear Bldg-sim Subscribers,
+ 
+I recently simulated an air cooled chiller plant with cold water tank
+thermal energy storage using DOE 2.2.  I originally expected some energy
+saving due to improve chiller COP at night charging the storage when
+compare it with a system without storage.  However, the results showed
+an energy penalty of a few percentages even though hourly data actually
+showed COP improvement during charging.  I have already set the loss
+coefficient to zero for the TES.  I should be most grateful if anyone
+can comment on this issue and provide some suggestion.
+ 
+Thanks
+ 
+Martin YIP
+Engineer
+EMSD, HKSAR
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041124/341c9cc1/attachment.htm>
+
+From twhite at glumac.com  Mon Nov 22 10:04:47 2004
+From: twhite at glumac.com (Thomas White)
+Date: Mon, 22 Nov 2004 10:04:47 -0800
+Subject: [BLDG-SIM] standard or typical schedules generated by eQUEST
+Message-ID: <MDAEMON-F200411221209.AA092031pd80000434775@gard.com>
+
+Greetings, everyone:
+ 
+I'm trying to nail down the source of the typical schedules
+generated from eQUEST. After some years aware from
+modeling, I'm back to working in the field. Currently, I'm modeling 
+a 450,000sf medical facility, building a baseline for energy use.
+ 
+I'm curious about the basis for the default profiles eQUEST uses
+for occupancy, equipment, lighting, infiltration and mass.
+ 
+Also, other than the eQUEST tutorial and online Help (and 
+the 5 volume DOE-2 manuals) I'm wondering if there is 
+additional documentation for eQUEST that might address
+my question about defaults for various building types and
+corresponding systems?
+ 
+Any advice you all might offer would be very much appreciated.
+Thanks.
+ 
+..Tom
+ 
+ 
+Thomas J. White, P.E.
+Lead Engineer, Energy Services
+503.345.6246  | twhite at glumac.com <mailto:twhite at glumac.com> 
+
+ <http://www.glumac.com/>  
+  _____  
+
+320 SW Washington, Suite 200
+Portland, OR 97204-2640
+T.  503.227.5280  F. 503.274.7674
+
+Thinking. Inside the building.
+ <http://www.glumac.com/> http://www.glumac.com
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041122/8152cd1e/attachment.htm>
+
+From Jeff.Hirsch at DOE2.com  Fri Nov 19 17:03:41 2004
+From: Jeff.Hirsch at DOE2.com (Jeff Hirsch)
+Date: Fri, 19 Nov 2004 17:03:41 -0800
+Subject: [BLDG-SIM] external louvres
+References: <MDAEMON-F200411190552.AA5231937pd80000423608@gard.com>
+Message-ID: <MDAEMON-F200411191906.AA0635718pd80000432127@gard.com>
+
+eQUEST (or DOE-2.2) freeware can handle windows that include
+one bind layer (outside, between glass or inside) that is either
+louvers blinds or a pull-down shade.  These blinds interact with the
+hourly thermal as well as daylighting calculation; included is the
+effect of the slat angle on an hourly basis.  You could test this
+model using a simple test zone with a window to decide for
+yourself if the approach used is adquate to answer your
+performance questions.  Like all modeling programs, many
+simplifications are used; you can consult the complete documentation
+to get a better idea of how the calculation is performed and which
+effects are tracked at the level of detail you require.
+
+At this time there is a limit of defining up to only 40 windows,
+in a building model, that are layer-by-layer specified (but a
+total of  8192 windows of all types, such as window5 library
+imported glazing)
+
+Below are some relevant pages from the DOE-2 Dictionary
+with some information on specifying windows layer-by-layer to
+use the hourly window4/therm detail calculation within DOE-2
+(yes, it uses an older single band window4 based hourly calc
+rather than multi-band window5 style hourly calc - EnergyPlus,
+I believe, uses a Window5 based hourly calc - check its
+documentation to be sure - but I do not recall if it has the
+same type of blind capability, probably does or will soon )
+
+---
+Jeff Hirsch
+James J. Hirsch & Associates
+Building Performance Analysis Software & Consulting
+12185 Presilla Road
+Camarillo, CA 93012-9243 USA
+phone: (805) 553-9000
+fax: (805) 532-2401
+email: Jeff.Hirsch at DOE2.com 
+web: http://DOE2.com 
+
+>From the DOE-2.2 Dictionary (Vol 2 of 6) Full set
+can be downloaded from http://DOE2.com/DOE2   
+
+
+Describing a Window Using Layers
+A window can be described layer by layer using the following WINDOW-LAYERS keyword.
+
+Example input:  A window consists of a layer of glass named GLASS-1, a gap named GAP-1 and a blind named BLIND-1.
+
+GLASS-1 = WINDOW-LAYER ....
+
+GAP-1   = WINDOW-LAYER ....
+
+BLIND-1 = WINDOW-LAYER ....
+
+WIN-1   =  WINDOW
+WIN-SPEC-METHOD    = LAYERS-INPUT 
+WINDOW-LAYERS      = (GLASS-1, GAP-1, BLIND-1) 
+....
+
+WINDOW-LAYERS keyword
+Takes a list of up to nine U-names of WINDOW-LAYER commands or of window layers from the Library. This is a required keyword when WIN-SPEC-METHOD=LAYERS-INPUT. A U-name corresponds to a glass layer, a gap layer or a blind layer (see WINDOW-LAYER command). Figure 25 shows examples of layered windows for single- and double-glazed windows. 
+
+Glass layers in the Library are shown in "Glass Layer Library," in the DOE-2.2 Libraries & Reports. Gap layers in the library are shown in Table 31. Blind layers in the library are shown in Table 32. Pull-down shade layers (pull-down shades modeled as closed blinds) in the library are shown in Table 33.
+
+Notes:
+
+?       The layers are entered from outside to inside. 
+
+?       There can be up to five solid (i.e., glass or blind) layers. 
+
+?       There can be at most one blind layer.
+
+?       If there is a blind layer there must also be one or more glass layers; i.e., a layered window consisting only of a blind is not allowed.
+
+?       Adjacent solid layers are not allowed; i.e., solid layers must be separated by one, and only one, gap layer.
+
+?       Adjacent gap layers are not allowed; i.e., gap layers must be separated by one, and only one, solid layer.
+
+?       A blind layer can be the first layer (exterior blind), the last layer (interior blind), or an intermediate layer (between-glass blind).
+
+?       The gas in the gap on the inside of an exterior blind or the outside of an interior blind must be air.
+
+?       The gaps on either side of a between-glass blind must have the same gas (but this gas does not need to be air).
+
+
+
+Window Blind Control
+The following keywords are used to control slat-type window blinds. They apply only if WIN-SPEC-METHOD=LAYERS-INPUT and one of the layers is a blind. See WINDOW-LAYERS keyword, above, and WINDOW-LAYER command.
+
+BLIND-ADJ-TYPE
+Takes a code-word that indicates how the blind coverage (the fraction of the window covered by a blind) is adjusted if a blind is present.
+
+    NONE                              There is no adjustment; the blind coverage is fixed at the value of BLIND-COVER in the blind's WINDOW-LAYER command. 
+
+    SCHEDULE                      The blind coverage varies according to a user-defined schedule given by BLIND-SCHEDULE.
+
+    SOLAR-INTENSITY         If the direct plus diffuse solar radiation incident on the window exceeds the value given by BLIND-TRIGG-SCH, the blind coverage is set to the value of BLIND-COVER-MAX in the blind's WINDOW-LAYER command. Otherwise, the blind coverage stays at BLIND-COVER.
+
+    ROOM-TEMP                   If the room temperature at the beginning of the hour exceeds the value given by BLIND-TRIGG-SCH, the blind coverage is set to the value of BLIND-COVER-MAX in the blind's WINDOW-LAYER command. Otherwise, the blind coverage stays at BLIND-COVER. [FOR FUTURE IMPLEMENTAITON]
+
+BLIND-SCHEDULE
+Takes the U-name of a schedule that adjusts the blind coverage between the values of BLIND-COVER-MIN and BLIND-COVER-MAX in the blind's WINDOW-LAYER command. This schedule is used only if BLIND-ADJ-TYPE = SCHEDULE. It should have TYPE = FRACTION. A schedule value of f , which should be between 0.0 and 1.0, gives 
+
+            blind coverage = f * [BLIND-COVER-MAX] + (1-f) * [BLIND-COVER-MIN]
+
+BLIND-TRIGG-SCH
+Takes the U-name of a schedule of solar intensity values (if BLIND-ADJ-TYPE = SOLAR-INTENSITY) or room temperature values (if BLIND-ADJ-TYPE = ROOM-TEMP) that are used to adjust blind coverage. For solar intensity, the schedule should have TYPE = RADIATION and the schedule value should be the sum of direct plus diffuse solar radiation incident on the window (after shading by overhangs and other obstructions) per unit window area (Btuh/ft2 or W/m2). For room temperature, the schedule should have TYPE = TEMPERATURE and the schedule value should be in ?F or ?C. 
+
+SLAT-ADJ-TYPE
+Takes a code-word indicating how the slat angle is adjusted if a blind is present.
+
+NONE                              There is no adjustment; the slat angle is fixed at the value of SLAT-ANGLE in the blind's WINDOW-LAYER command.
+
+SCHEDULE                      The slat angle varies according to a user-defined schedule given by SLAT-SCHEDULE, below.
+
+SOLAR-INTENSITY         If the direct plus diffuse solar radiation incident on the window exceeds the value given by SLAT-TRIGG-SCH, then:
+
+The slat angle is adjusted to a value that just blocks direct sun if the sun is in front of the window and SLAT-SEPARATION is less than or equal to SLAT-WIDTH (the usual case).?F
+
+If the sun is in front of the window but SLAT-SEPARATION is greater than SLAT-WIDTH, then the sun cannot be fully blocked and the slat angle is set to 90o, which maximizes blockage.
+
+If the sun is in back of the window, the slat angle is set to SLAT-ANGLE.
+
+The above adjustments are made even on overcast days when there is no direct sun.
+
+ROOM-TEMP                   If the room temperature at the beginning of the hour exceeds the value given by SLAT-TRIGG-SCH, then the slat angle is adjusted as described for SOLAR-INTENSITY. [FOR FUTURE IMPLEMENTAITON]
+
+SLAT-SCHEDULE
+Takes the U-name of a schedule that adjusts the slat angle to a fraction of SLAT-ANGLE-MAX or SLAT-ANGLE-MIN. This schedule is used only if SLAT-ADJ-TYPE = SCHEDULE. A schedule value of f gives 
+
+            slat angle           = f  * [SLAT-ANGLE-MAX], if f > 0
+
+            slat angle           = f * [SLAT-ANGLE-MIN], if f < 0
+
+The schedule should have TYPE = FRACTION if only positive values of f are used, in which case f should be between 0 and 1. If positive and negative values of f are used than the schedule should have TYPE = EXP-FRACTION, in which case f should be between -1 and 1.
+
+SLAT-TRIGG-SCH
+Takes the U-name of a schedule of solar intensity values (if SLAT-ADJ-TYPE = SOLAR-INTENSITY) or room temperature values (if SLAT-ADJ-TYPE = ROOM-TEMP) that are used to adjust the slat angle. For solar intensity, the schedule should have TYPE = RADIATION and the schedule value should be the sum of direct plus diffuse solar radiation incident on the window (after shading by overhangs and other obstructions) per unit window area (Btuh/h-ft2 or W/m2). For room temperature, the schedule should have TYPE = TEMPERATURE and the schedule value should be a temperature (?F or ?C).
+
+WINDOW-LAYER COMMAND
+This command, and the associated WINDOW-LAYERS keyword in the WINDOW command, are used when you want to build up a window from layers, much as a wall can be built up from layers. Three types of window layer are allowed: glass, gap and blind. For example, a single-glazed window with no covering would have only a glass layer. A double-glazed window would have three layers: two glass layers separated by a gap of air or other gas. A single-glazed window with a blind would also have three layers: a glass layer and a blind layer separated by a gap. The WINDOW-LAYER command allows you to specify the type and properties of a layer.
+
+U-name is required. To specify the set of one or more layers that comprise a window, you assign a list of WINDOW-LAYER U-names to the WINDOW-LAYERS keyword in the WINDOW command.
+
+The program calculates the overall thermal and solar-optical properties of a window from the individual layer properties and the order of the layers in the window. Accounted for are the layer-to-layer interreflection of solar, visible and IR radiation and the dependence of transmittance, absorptance, and reflectance on the angle of incidence of solar and visible radiation on the window. For blind layers, the program accounts for the effect on transmittance of slat angle and other slat properties.
+
+Table 37 shows all of the WINDOW-LAYER keywords and their default values by layer type. 
+
+In the following:
+
+ For a glass or gap layer, "front" means the outside of the layer (the side facing outdoors). For a horizontal blind in a vertical window, "front" means the side of the slat that faces up when the blind is fully open. For vertical blinds in a vertical window, "front" means the side of the slat that faces to the right when you look at the blind from the outside of the window and the blind is fully open.
+
+For a glass or gap layer, "back" means the inside of a layer (the side facing the room). For a blind layer, "back" means the side of the slat that faces indoors when the slat points downwards (SLAT-ANGLE > 0).
+
+ "Solar" means the full spectrum of radiation from the sun
+
+"Visible" means the visible part of radiation from the sun
+
+"Beam" means direct radiation
+
+"Hemispherical" means diffuse radiation
+
+TYPE
+Takes a code-word indicating the type of layer.
+
+GLASS                              is a layer of glass, plastic or other transparent material. 
+
+GAP                                  is a layer of gas, usually air, but possibly argon or other gas, that separates two glass layers or a glass layer and a blind layer.
+
+BLIND                              is a slatted shading device such as a venetian blind. The slats may be fixed or movable. A blind can be on the outside of the window, on the inside, or between glass layers.
+
+Solar radiation keywords
+TRANS-SOL-BB
+For glass or blind layer: Beam-beam transmittance at normal incidence of solar radiation striking the front or back of a glass layer or slat in a blind layer. Although TRANS-SOL-BB can be defined for a blind (in the rare case that the slats are transparent or perforated), the program will calculate the transmitted radiation as diffuse.
+
+TRANS-SOL-BH
+For blind layer only: Beam-hemispherical transmittance of solar radiation striking the front or back of a slat at normal incidence. 
+
+REFL-SOL-BH
+For blind layer only: Beam-hemispherical reflectance of solar radiation striking the front of a slat at normal incidence.
+
+BACKREFL-SOL-BH
+For blind layer only: Beam-hemispherical reflectance of solar radiation striking the back of a slat at normal incidence.
+
+TRANS-SOL-HH
+For blind layer only: Hemispherical-hemispherical transmittance of solar radiation striking the front or back of a slat.
+
+REFL-SOL-HH
+For blind layer only: Hemispherical-hemispherical reflectance of solar radiation striking the front of a slat.
+
+BACKREFL-SOL-HH
+For blind layer only: Hemispherical-hemispherical reflectance of solar radiation striking the back of a slat.
+
+Visible radiation keywords (blinds)
+TRANS-VIS-BH
+For blind layer only: Beam-hemispherical transmittance of visible radiation striking the front or back of a slat at normal incidence.
+
+REFL-VIS-BH
+For blind layer only: Beam-hemispherical reflectance of visible radiation striking the front of a slat at normal incidence.
+
+BACKREFL-VIS-BH
+For blind layer only: Beam-hemispherical reflectance of visible radiation striking the back of a slat at normal incidence.
+
+TRANS-VIS-HH
+For blind layer only: Hemispherical-hemispherical transmittance of visible radiation striking the front or back of a slat.
+
+REFL-VIS-HH
+For blind layer only: Hemispherical-hemispherical reflectance for visible radiation striking the front of a slat.
+
+BACKREFL-VIS-HH
+For blind layer only: Hemispherical-hemispherical reflectance for visible radiation striking the back of a slat.
+
+Infrared radiation keywords (apply only to glass or blind layers)
+TRANS-IR
+The infrared transmittance of a glass layer or slat in a blind layer. Assumed independent of angle of incidence.
+
+EMIS-IR
+The hemispherical infrared emissivity of the front of a glass layer or the front of a slat in a blind layer.
+
+BACKEMIS-IR
+The hemispherical infrared emissivity of the back of a glass layer or the back of a slat in a blind layer.
+
+Slat and blind keywords (apply only to blind layers)
+SLAT-ORIENTATION
+Takes a code-word that indicates the orientation of the slats in a blind layer.
+
+HORIZONTAL                 indicates that the slats are parallel to the X-axis of the window. For a vertical window, the slats are horizontal (parallel to the ground).
+
+VERTICAL                        indicates that the slats are parallel to the Y-axis of the window. For a vertical window, the slats are vertical (perpendicular to the ground).
+
+SLAT-ANGLE
+The angle between the plane of the slat and the window outward normal (see Figure 29). For horizontal slats in a vertical window, this is the angle between the slat and a horizontal plane; in this case SLAT-ANGLE is positive when the front of the slat points down and negative when the front of the slat points up. For vertical slats in a vertical window, this is the angle between the front of the slat and vertical plane normal to the window; in this case SLAT-ANGLE is positive when the front of the slat points to the right and negative when the front of the slat points to the left when you are facing the outside of the window.
+
+SLAT-ANGLE-MIN
+The minimum slat angle for angle-adjustable slats (due to limitations in the blind construction or control).
+
+SLAT-ANGLE-MAX
+The maximum slat angle for angle-adjustable slats (due to limitations in the blind construction or control). SLAT-ANGLE-MAX should be greater than SLAT-ANGLE-MIN.
+
+SLAT-WIDTH
+The width of the slat, as shown in Figure 29. The default value corresponds to slats that are 1.0 in wide.
+
+SLAT-SEPARATION
+The distance between slats. See Figure 29. The default value corresponds to slats that are 0.75 in apart.
+
+BLIND-COVER
+Fraction of the glazed area covered by the blind. Used only when the blind coverage is fixed (i.e., blinds cannot move up and down). It is assumed that a blind,if present, covers all or part of the glazed area of the window. It does not cover any of the framed portion of the window if the window has a frame.
+
+BLIND-COVER-MIN
+Minimum fraction of glazed area covered by blind (used when blind coverage is variable). If all of the retracted slats remain over the glazed opening (e.g., there is no recess above the window to accept retracted slats), then BLIND-COVER-MIN should be greater than
+
+            (THICKNESS + ?) / (THICKNESS + [SLAT-SEPARATION]),
+
+which is the fraction of the window covered by the blind when the blind is fully retracted. (Here, ? is the separation between adjacent slat faces when the blinds are fully retracted.)
+
+BLIND-COVER-MAX
+Maximum fraction of window area covered by blind (used when blind coverage is variable). BLIND-COVER-MAX should be greater than BLIND-COVER-MIN.
+
+Keywords for a glass, blind, or gap layer
+THICKNESS
+The thickness of a glass layer, a gap layer, or the slats in a blind layer. For a glass layer, THICKNESS is the surface-to-surface thickness. 
+
+For a gap between two glass layers, THICKNESS is the distance between the inside surface of one glass layer and the outside surface of the other glass layer. 
+
+For a gap between a glass layer and a blind layer, THICKNESS is the distance between the center plane of the blinds and the glass surface. In this case, the gap THICKNESS should be greater than SLAT-WIDTH/2 to allow room for the slats when fully open. 
+
+For a blind layer, THICKNESS is the surface-to-surface thickness of the slats. 
+
+The default thickness for glass and gap corresponds to 1/4 in (6.3 mm) and for blinds corresponds to 0.04 in (1.0 mm).
+
+CONDUCTIVITY
+For a glass or gap layer, the conductance of the layer times its THICKNESS. For a blind layer, the conductance of the slat times its THICKNESS.
+
+How to Model Pull-Down Shades
+
+You can model a translucent pull-down shade by entering it as a blind with closed slats in the WINDOW-LAYERS list. In this case, you should not specify SLAT-ADJ-TYPE, SLAT-SCHEDULE, or SLAT-TRIGG-SCH. Shades that are input this way will give a more accurate calculation of solar gain than if modeled using SHADING-SCHEDULE and VIS-TRANS-SCH because inter-reflections between the shade and glass layers are properly taken into account in the calculation. 
+
+Table 33 shows the pull-down shade layers that are in the Library. To describe your own pull-down shade layer, your input might look like the following for a shade with a solar and visible transmittance of 20% and a solar and visible reflectance of 70%:
+
+Shade-T20-R70 = WINDOW-LAYER
+TYPE               = BLIND
+THICKNESS          = 0.00066
+CONDUCTIVITY       = 0.0667
+SLAT-ANGLE         = 89.95
+SLAT-ORIENTATION   = HORIZONTAL
+SLAT-WIDTH         = 0.0840
+SLAT-SEPARATION    = 0.0833
+TRANS-SOL-BH       = 0.20
+TRANS-SOL-HH       = 0.20
+REFL-SOL-BH        = 0.70
+REFL-SOL-HH        = 0.70
+BACKREFL-SOL-BH    = 0.70
+BACKREFL-SOL-HH    = 0.70
+TRANS-VIS-BH       = 0.20
+TRANS-VIS-HH       = 0.20
+REFL-VIS-BH        = 0.70
+REFL-VIS-HH        = 0.70 
+BACKREFL-VIS-BH    = 0.70
+BACKREFL-VIS-HH    = 0.70 ..
+
+
+
+
+----- Original Message ----- 
+From: "Victor Hanby" <vhanby at dmu.ac.uk>
+To: <BLDG-SIM at gard.com>
+Sent: Friday, November 19, 2004 3:46 AM
+Subject: [BLDG-SIM] external louvres
+
+
+> Are there any simulation programs that handle external louvres by 
+> calculating multiple reflections, or is it normal to e.g. factor down 
+> the exposed area of glass?
+> 
+> Vic Hanby
+> -- 
+> -------------------------------------------------
+> Professor V I Hanby
+> Institute of Energy and Sustainable Development
+> De Montfort University
+> The Gateway
+> Leicester LE1 9BH, UK
+> +44 (0)116 257 7980,  7977 (fax)
+> -------------------------------------------------
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041119/7e6d9c20/attachment.htm>
+
+From RJHitchcock at lbl.gov  Fri Nov 19 17:02:44 2004
+From: RJHitchcock at lbl.gov (Rob Hitchcock)
+Date: Fri, 19 Nov 2004 17:02:44 -0800
+Subject: [BLDG-SIM] external louvres
+In-Reply-To: <MDAEMON-F200411190552.AA5232218pd80000423661@gard.com>
+References: <MDAEMON-F200411190552.AA5232218pd80000423661@gard.com>
+Message-ID: <MDAEMON-F200411191907.AA0722750pd80000432131@gard.com>
+
+Have you looked at the EnergyPlus Engineering Documentation related to 
+"Optical Properties of Window Shading Devices" to see if the Exterior 
+Blind approach might be applicable to your louvres?   This topic is 
+under the Daylighting and Window Calculations section.
+
+Rob Hitchcock
+============
+Victor Hanby wrote:
+
+> Are there any simulation programs that handle external louvres by 
+> calculating multiple reflections, or is it normal to e.g. factor down 
+> the exposed area of glass?
+>
+> Vic Hanby
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From YJHuang at lbl.gov  Fri Nov 19 16:21:30 2004
+From: YJHuang at lbl.gov (Joe Huang)
+Date: Fri, 19 Nov 2004 16:21:30 -0800
+Subject: [BLDG-SIM] external louvres
+References: <MDAEMON-F200411190911.AA1145953pd80000425504@gard.com>
+Message-ID: <MDAEMON-F200411191825.AA254431pd80000432052@gard.com>
+
+Jeff, Vic,
+
+I was the PMS chair for Sue Reilly's project, which was on a topic somewhat
+(or a lot) different from Vic's question. Sue's project was to model
+secondary sources of solar gain, esp. solar gain reflected by adjoining
+buildings on the building being studied.  Sue did this by combining Radiance
+with DOE-2.  The modeling method worked, but on a practical level, I doubt
+very many people used it because the effort to build the daughter Radiance
+input file and then run Radiance was an order of magnitude greater than the
+mother DOE-2 run.
+
+It seems Vic's problem can be solved by measurements or ray-tracing programs
+that can then be simplified as effective Shading Coefficients dependent on
+louver angle, and sun angle.  How much the louvers are drawn would be
+difficult to model, as it would require splitting the window into two parts
+that change in size dependent on the louver schedule.  I don't know if
+there's any program that can model this.
+
+Joe
+----- Original Message ----- 
+From: "Jeff Haberl" <jeffhaberl at tees.tamus.edu>
+To: <BLDG-SIM at gard.com>
+Sent: Friday, November 19, 2004 7:07 AM
+Subject: [BLDG-SIM] external louvres
+
+
+Vic:
+
+I seem to recall an ASHRAE Research Project on this...I think it was
+done by Sue Reilly at Enermodel. It dealt with secondary radiation
+sources for building energy simulation. So there should at least be an
+ASHRAE paper on this with her name on it...or you can contact her at
+Enermodel. I don't know if this made its way into EnergyPlus or DOE-2?
+
+Jeff
+
+Sue Reilly
+Enermodel Engineering Inc.
+1554 Emerson St
+Denver, Co  80218-1450
+Phone: (303) 861-2070 Fax: (303) 830-2016
+E-mail: sreilly at enermodal.com
+
+8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  8=()  8=)  8=|  8=)  :=')  8=)
+8=)  8=?
+
+Jeff S. Haberl, Ph.D.,
+P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office
+Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065
+
+Energy Systems Laboratory.......................FAX: 979-862-2457
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=)  :=)  8=)  8=!  8=)  8=?  8=)
+8=)  8=0
+
+
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Victor
+Hanby
+Sent: Friday, November 19, 2004 5:47 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] external louvres
+
+Are there any simulation programs that handle external louvres by
+calculating multiple reflections, or is it normal to e.g. factor down
+the exposed area of glass?
+
+Vic Hanby
+-- 
+-------------------------------------------------
+Professor V I Hanby
+Institute of Energy and Sustainable Development
+De Montfort University
+The Gateway
+Leicester LE1 9BH, UK
++44 (0)116 257 7980,  7977 (fax)
+-------------------------------------------------
+
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jeffhaberl at tees.tamus.edu  Fri Nov 19 07:07:43 2004
+From: jeffhaberl at tees.tamus.edu (Jeff Haberl)
+Date: Fri, 19 Nov 2004 09:07:43 -0600
+Subject: [BLDG-SIM] external louvres
+Message-ID: <MDAEMON-F200411190911.AA114878pd80000431555@gard.com>
+
+Vic:
+
+I seem to recall an ASHRAE Research Project on this...I think it was
+done by Sue Reilly at Enermodel. It dealt with secondary radiation
+sources for building energy simulation. So there should at least be an
+ASHRAE paper on this with her name on it...or you can contact her at
+Enermodel. I don't know if this made its way into EnergyPlus or DOE-2?
+
+Jeff
+
+Sue Reilly
+Enermodel Engineering Inc.
+1554 Emerson St
+Denver, Co  80218-1450
+Phone: (303) 861-2070 Fax: (303) 830-2016
+E-mail: sreilly at enermodal.com
+
+8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  8=()  8=)  8=|  8=)  :=')  8=)
+8=)  8=?
+
+Jeff S. Haberl, Ph.D.,
+P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office
+Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=)  :=)  8=)  8=!  8=)  8=?  8=)
+8=)  8=0 
+
+ 
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Victor
+Hanby
+Sent: Friday, November 19, 2004 5:47 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] external louvres
+
+Are there any simulation programs that handle external louvres by 
+calculating multiple reflections, or is it normal to e.g. factor down 
+the exposed area of glass?
+
+Vic Hanby
+-- 
+-------------------------------------------------
+Professor V I Hanby
+Institute of Energy and Sustainable Development
+De Montfort University
+The Gateway
+Leicester LE1 9BH, UK
++44 (0)116 257 7980,  7977 (fax)
+-------------------------------------------------
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From GPueltz at MuellerBBM.de  Fri Nov 19 04:37:00 2004
+From: GPueltz at MuellerBBM.de (Pueltz, Gunter)
+Date: Fri, 19 Nov 2004 13:37:00 +0100
+Subject: [BLDG-SIM] external louvres
+Message-ID: <MDAEMON-F200411190641.AA4126906pd80000431424@gard.com>
+
+Vic,
+
+you have to split the simulation of external louvres into following two
+parts:
+
+1) Calculating the energetic properties of the louvers by special software:
+The energetic properties - usually the angle dependant overall-transmission 
+(over all single layers of the facade) and absorption (at each layer of the
+transparent component) - must be calculated by a tool, which considers
+multiple reflections between all layers (i.e. the external louvers and
+usually two glaz panes) as well as the spectral distribution of
+transmission,
+reflectance and absorption of each layer. This means that the calculations
+must be done for several wavelength intervalls (multiband calculations)
+within
+the wavelength-range of solar radiation (appr. 300 - 2500 nm) and at last a
+weigted integration of the single-band results must be done.
+These complex calculations are described in ISO 15099: Thermal performance 
+of windows, doors and shading devices - Detailed calculations.
+If you don?t want to code these complexe calculations for yourself, the
+cost-free European software WIS can be recommended to you. See
+http://windat.ucd.ie/wis/html/index.html
+
+The American people from LBNL also are working on enhancing their
+WINDOW-software
+with a model for louvres. See
+http://windows.lbl.gov/software/window/window.html
+
+As results you will get integral energetic properies (integrated over the
+complete range of solar radiation) as a function of incident angle; these
+values take into account all multiple reflections between the layers as well
+
+as the spectral distribution of all considered layers (i.e. glaz panes or 
+inclined louvres). 
+
+2) Using these angle dependant transmission and absorption at each layer of
+the facade as input data for the simulation tool (condition: It is a high
+quality simulation tool, which includes a model for heat conduction within
+even the transparent components based upon 1-D-finite-Element heat
+conduction)
+
+You see multiple reflections (as well as spectral distributions) can
+be taken into account for thermal simulations.
+
+Regards,
+Gunter 
+
+
+--------------------------------------------
+Dr.-Ing. Gunter P?ltz
+M?ller-BBM GmbH
+Robert-Koch-Str. 11
+82152 Planegg bei M?nchen
+Telefon +49 (89) 85602-336
+Telefax +49 (89) 85602-111
+http://www.mbbm.de
+email:plz at mbbm.de
+
+
+
+
+> -----Original Message-----
+> From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Victor
+> Hanby
+> Sent: Friday, November 19, 2004 12:47 PM
+> To: BLDG-SIM at gard.com
+> Subject: [BLDG-SIM] external louvres
+> 
+> 
+> Are there any simulation programs that handle external louvres by 
+> calculating multiple reflections, or is it normal to e.g. factor down 
+> the exposed area of glass?
+> 
+> Vic Hanby
+> -- 
+> -------------------------------------------------
+> Professor V I Hanby
+> Institute of Energy and Sustainable Development
+> De Montfort University
+> The Gateway
+> Leicester LE1 9BH, UK
+> +44 (0)116 257 7980,  7977 (fax)
+> -------------------------------------------------
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From vhanby at dmu.ac.uk  Fri Nov 19 03:46:39 2004
+From: vhanby at dmu.ac.uk (Victor Hanby)
+Date: Fri, 19 Nov 2004 11:46:39 +0000
+Subject: [BLDG-SIM] external louvres
+Message-ID: <MDAEMON-F200411190552.AA5235921pd80000431367@gard.com>
+
+Are there any simulation programs that handle external louvres by 
+calculating multiple reflections, or is it normal to e.g. factor down 
+the exposed area of glass?
+
+Vic Hanby
+-- 
+-------------------------------------------------
+Professor V I Hanby
+Institute of Energy and Sustainable Development
+De Montfort University
+The Gateway
+Leicester LE1 9BH, UK
++44 (0)116 257 7980,  7977 (fax)
+-------------------------------------------------
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bills at fo.com  Thu Nov 18 08:49:10 2004
+From: bills at fo.com (Bill Shadish)
+Date: Thu, 18 Nov 2004 11:49:10 -0500
+Subject: [BLDG-SIM] foAudits new release
+Message-ID: <MDAEMON-F200411181053.AA5322343pd80000430429@gard.com>
+
+The next release of our foAudits PDA and 
+web-based audits is now available. 
+
+foAudits provides a framework to handle 
+energy audits, inspections and surveys for
+the Palm OS, Pocket PC and various phones.
+
+Your existing paper-based audit is modified
+to utilize a PDA format.
+
+Additions include new field types (such as 
+support for very large lists); linked lists; 
+customer signatures; pop-up tool tip-like help; 
+and hardware support for Symbian phones. 
+
+But most importantly -- we work with energy 
+companies. See our site for examples.
+
+If you need any help with a website or 
+energy-related software tools in the future, 
+please give us a call!
+
+ ----------------------------------------
+  Fundamental Objects, Inc.
+  Downingtown, PA
+  http://www.foaudits.com
+  info at fo.com
+  610.873.8022
+ ----------------------------------------
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cj at cr-jay.ca  Thu Nov 18 06:41:39 2004
+From: cj at cr-jay.ca (Chris Jones)
+Date: Thu, 18 Nov 2004 09:41:39 -0500
+Subject: [BLDG-SIM] Steam-Turbine Drive Centrigugal LiquidChillers
+  - UPDATE
+In-Reply-To: <MDAEMON-F200411121439.AA3919671pd80000408253@gard.com>
+References: <MDAEMON-F200411121439.AA3919671pd80000408253@gard.com>
+Message-ID: <MDAEMON-F200411180957.AA5733765pd80000430348@gard.com>
+
+District steam is not always waste energy from a power plant.  In the case 
+that district steam is just for heating and cooling, then the ASHRAE 90.1 
+states correctly that the heating and/or cooling should be modelled as 
+purchased using the applicable rate.  For situations were the building uses 
+steam that can't be used by the power plant I would suggest that the 
+proposed would only get credit if the overall steam efficiency (work out/ 
+fuel in) is greater than 75% AFUE.  This is the budget building 
+perscriptive requirement for steam boilers.  LEED should not give credit 
+for using a convenient heat/cool source if that source is inefficient overall.
+
+
+At 15:24 12/11/2004, Varkie Thomas wrote:
+>
+>At the end of this message is the part load performance of steam turbine 
+>chillers.  As you can see from the response from Rob Firnstein of York, 
+>energy software developers can incorporate this data into their programs.
+>
+>Steam turbine chillers have recently been specified for buildings in 
+>NYC.  ConEd has low summer rates for steam.  Cities like Boston, 
+>Minneapolis and Philadelphia also provide district steam.  Since district 
+>steam is waste energy from a power plant perhaps there should be LEED 
+>credits for using this waste energy although the ECB method might show 
+>higher costs over electric centrifugal.
+>
+>Varkie Thomas
+>
+>
+>-----Original Message-----
+>From: Robert Firnstein [mailto:robert.firnstein at york.com]
+>Sent: Thursday, November 11, 2004 3:20 PM
+>To: Varkie Thomas
+>Subject: RE: Steam Turbine YK rating
+>
+>Varkie,
+>
+>Feel free to forward on the information. Recently, York re-designed the
+>software for selecting our steam turbine chillers so that we now have
+>greater capability to pair compressors and steam turbines for optimum
+>performance. If you are interested in seeing any generic selections for
+>additional chillers please let me know.
+>
+>Regards,
+>
+>Rob Firnstein
+>Sales Engineer
+>York International - Chicago
+>PH:(847)493-6124 FX:(847)759-0676
+>
+>Part Load Performance at Condenser Water Temperatures (CWT)
+>Constant Speed Operation at 4500 RPM, 125 PSIG D&S Steam Supply, Producing 
+>41oF Chilled Water
+>      RCLWT = Refrigerant Condenser Leaving Water Temperature
+>CWT     % 
+>Load        100%     90%       80%      70%      60%      50%    40% 
+>30%    20%    15%
+>             Tons            1800        1620        1440        1260 
+>   1080       900       720       540       360       270
+>85oF      BHP            1,378.0     1,210.6     1,058.2     923.6 
+>802.4      690.4     583.9     - - -       - - -       - - -
+>             Lbs/Hr         17,873     15,919      13,884     12,210 
+> 10,744     9,383     8,029     - - -       - - -       - - -
+>             Lbs/TR-Hr    9.93        9.83         9.64        9.69 
+> 9.95        10.43     11.15     - - -       - - -       - - -
+>             RCLWT 
+> oF    94.33       93.38       92.43       91.50      90.57      89.67 
+> 88.76     - - -       - - -       - - -
+>75oF      BHP            1,182.8     1,043.2     918.6       808.1 
+>706.6      611.3     519.1     427.5     335.3     307.1
+>             Lbs/Hr         15,069     13,395      11,832     10,497 
+> 9,264      8,106     6,982     5,912     4,781     4,453
+>             Lbs/TR-Hr    8.37        8.27         8.22        8.33 
+> 8.58        9.01      9.70      10.95     13.28     16.49
+>             RCLWT 
+> oF    84.14       83.20       82.28       81.37      80.47      79.58 
+> 78.69     77.80     76.92     76.34
+>65oF      BHP            1,035.7     921.1       817.9       723.4 
+>634.6      550.3     467.6     384.3     299.7     264.8
+>             Lbs/Hr         13,008     11,633      10,412     9,332 
+> 8,180      7,215     6,256     5,292     4,307     3,901
+>             Lbs/TR-Hr    7.23        7.18         7.23        7.41 
+> 7.57        8.02      8.69      9.80      11.96     14.45
+>             RCLWT 
+> oF    73.99       73.08       72.18       71.28      70.40      69.52 
+> 68.64     67.76     66.88     66.42
+>55oF      BHP            926.6       828.4       738.3       654.3 
+>574.3      496.1     418.8     339.9     259.5     220.2
+>             Lbs/Hr         11,527     10,405      9,369       8,408 
+> 7,485      6,588     5,691     4,776     3,834     3,365
+>             Lbs/TR-Hr    6.40        6.42         6.51        6.67 
+> 6.93        7.32      7.90      8.84      10.65     12.46
+>             RCLWT 
+> oF    63.87       62.98       62.09       61.21      60.34      59.46 
+> 58.59     57.72     56.84     56.43
+>
+>
+>
+>
+>
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+Chris Jones, P.Eng.
+14 Oneida Avenue
+Toronto, ON M5J2E3
+Tel. 416 203-7465
+Fax. 416 946-1005 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041118/8affc661/attachment.htm>
+
+From SeanH at ieice.com  Wed Nov 17 16:07:13 2004
+From: SeanH at ieice.com (Sean Henry)
+Date: Wed, 17 Nov 2004 16:07:13 -0800
+Subject: [BLDG-SIM] eQUEST shade schedule
+Message-ID: <MDAEMON-F200411171810.AA1030890pd80000429558@gard.com>
+
+eQuest shade schedules
+
+ 
+
+Individual window overhangs or fins can be assigned directly from the window properties menu (attached shade). 
+
+External shades and building shades can also be created that are independent of any specific window geometry. Blinds-Slats-Drapes Tab allows a shading schedule to be introduced.
+
+ 
+
+Another way is to use Building Shades (see DOE 2.2 Dictionary p.45). These can also be used to represent overhangs or fins or they even can be crudely shaped to roughly simulate a tree or adjacent wall, etc. 
+
+ 
+
+Shading schedules are created in the schedule section (see the component tree-Annual, Weekly and Daily Schedules are available creation and editing) of eQuest and then assigned within the property menus. The eQuest help index will identify what schedule type is appropriate. Shade schedules add a time-dependant element to the transmittance. Thus you could simulate times of year when the "tree" losses it's leaves.
+
+ 
+
+Hope that helps some.
+
+ 
+
+SP Henry
+
+Interface Engineering Inc.
+
+ 
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Mohit Mehta
+Sent: Wednesday, November 17, 2004 2:15 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] eQUEST shade schedule
+
+ 
+
+Where and how does one enter a "shade" schedule in eQUEST? For example for deciduous trees or louvers detached from the facade. Where do you enter its properties. Would it be entered as a building shade or a fixed shade? If as a building shade then does it get assigned to a window or a fa?ade?
+
+Thank you,
+
+~m        
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041117/a2b1f160/attachment.htm>
+
+From mmehta at bnim.com  Wed Nov 17 14:14:39 2004
+From: mmehta at bnim.com (Mohit Mehta)
+Date: Wed, 17 Nov 2004 16:14:39 -0600
+Subject: [BLDG-SIM] eQUEST shade schedule
+Message-ID: <MDAEMON-F200411171618.AA1844125pd80000429419@gard.com>
+
+Where and how does one enter a "shade" schedule in eQUEST? For example for deciduous trees or louvers detached from the facade. Where do you enter its properties. Would it be entered as a building shade or a fixed shade? If as a building shade then does it get assigned to a window or a fa?ade?
+
+Thank you,
+
+~m        
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041117/ed057cb8/attachment.htm>
+
+From colliver at bae.uky.edu  Tue Nov 16 12:41:36 2004
+From: colliver at bae.uky.edu (Donald Colliver)
+Date: Tue, 16 Nov 2004 15:41:36 -0500
+Subject: [BLDG-SIM] Weather Data -- Joint Frequency Distribution Plots Superimposed on a Psychrometric Chart
+In-Reply-To: <MDAEMON-F200411160952.AA5259906pd80000417481@gard.com>
+Message-ID: <MDAEMON-F200411161445.AA4549718pd80000427926@gard.com>
+
+Joint frequency tables for DB/WB, DB/DP, DB/enthalpy, and DB/WS are
+available on the ASHRAE Weather Data Viewer (WDVIEW) CD-ROM product. The
+cumulative frequencies and joint frequencies of these parameters are given
+by month or for the entire year for each of the 1400+ locations that are
+listed in the ASHRAE Handbook - Fundamentals. A description of the CD can be
+found on the ASHRAE TC4.2 website or at
+http://www.bae.uky.edu/~colliver/Programs/wdview_21.htm 
+
+ 
+
+The joint frequency data presented in the CD will then have to be imported
+into a program than can plot the 3-D data. I used Excel but other packages
+may be used.
+
+ 
+
+Hope this helps.
+
+ 
+
+Don Colliver
+
+----------------------------------------------------------------------------
+----
+
+Donald Colliver, Ph.D., P.E.
+
+128 C. E. Barnhart Building         1.859.257.3000 (Tel)
+
+University of Kentucky                1.859.257.5671 (Fax)
+
+Lexington, KY 40546-0276 USA    <mailto:colliver at bae.uky.edu>
+colliver at bae.uky.edu
+
+----------------------------------------------------------------------------
+----
+
+ 
+
+  _____  
+
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Davidson, Tom
+Sent: Tuesday, November 16, 2004 10:49 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Weather Data -- Joint Frequency Distribution Plots
+Superimposed on a Psychrometric Chart
+
+ 
+
+Dear Building Simulation List, 
+
+I think that I've seen joint frequency binned weather data (drybulb,
+wetbulb) plotted on a psychrometric chart. Colors may have been used to
+indicate the number of hours in each bin.
+
+It may well have been a custom application, but if there is a commercial
+product that does this, I would be interested in knowing who to contact.
+
+Thank you, 
+
+Tom Davidson 
+
+Thomas A. Davidson, P.E. 
+DLB Associates Consulting Engineers 
+2403 State Route 66 
+Ocean, NJ 07712-3962 
+phone: 732-774-2000 
+fax: 732-774-5000 
+email: tdavidson at dlbassociates.com 
+www.dlbassociates.com 
+
+ 
+
+ 
+ 
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041116/5db89fe5/attachment.htm>
+
+From TDavidson at DLBASSOCIATES.com  Tue Nov 16 07:48:52 2004
+From: TDavidson at DLBASSOCIATES.com (Davidson, Tom)
+Date: Tue, 16 Nov 2004 10:48:52 -0500
+Subject: [BLDG-SIM] Weather Data -- Joint Frequency Distribution Plots Superimposed o
+	n a Psychrometric Chart
+Message-ID: <MDAEMON-F200411160953.AA5300828pd80000427610@gard.com>
+
+Dear Building Simulation List,
+
+I think that I've seen joint frequency binned weather data (drybulb,
+wetbulb) plotted on a psychrometric chart. Colors may have been used to
+indicate the number of hours in each bin.
+
+It may well have been a custom application, but if there is a commercial
+product that does this, I would be interested in knowing who to contact.
+
+Thank you,
+
+Tom Davidson
+
+Thomas A. Davidson, P.E.
+DLB Associates Consulting Engineers
+2403 State Route 66
+Ocean, NJ 07712-3962
+phone: 732-774-2000
+fax: 732-774-5000
+email: tdavidson at dlbassociates.com
+www.dlbassociates.com 
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041116/01fd4186/attachment.htm>
+
+From smita at swinter.com  Mon Nov 15 14:12:00 2004
+From: smita at swinter.com (Smita Chandra)
+Date: Mon, 15 Nov 2004 17:12:00 -0500
+Subject: [BLDG-SIM] Masonry Anchors -- Plastic Ties
+Message-ID: <MDAEMON-F200411151617.AA1714500pd80000426610@gard.com>
+
+This question is regarding brick masonry facades for high-rise buildings 
+(more than 3 stories).   I am looking for "plastic" ties/masonry anchors 
+for use in masonry facades to reduce the heat loss usually seen through the 
+steel ties.  The ties will bind a 4" thick brick veneer facade to a 6" 
+thick CMU block backing. The assembly includes insulation (3") and an air 
+cavity (1") between the brick and block. I'd appreciate if you could let me 
+know of any manufacturers/suppliers of plastic ties that you may be 
+familiar with, even if they are based outside the US.
+
+Thank you.
+
+Sincerely,
+Smita
+
+
+Smita Chandra
+Energy Analyst
+M. Arch., LEED accredited professional
+smita at swinter.com
+Phone Extension 295
+
+Steven Winter Associates, Inc.
+50, Washington St
+Norwalk, CT 06854
+(203) 857-0200 (Phone)
+(203) 852-0741 (Fax)
+www.swinter.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041115/7ab2afea/attachment.htm>
+
+From kelsey at kw-engineering.com  Mon Nov 15 11:55:49 2004
+From: kelsey at kw-engineering.com (Jim Kelsey)
+Date: Mon, 15 Nov 2004 11:55:49 -0800
+Subject: [BLDG-SIM] Energy Engineering Position Available - Salt Lake City
+Message-ID: <MDAEMON-F200411151400.AA0038343pd80000426420@gard.com>
+
+Senior Engineer Position - Salt Lake City Utah
+
+kW Engineering is seeking a Senior Engineer with 5 or more years of
+experience in energy efficiency. We are looking for a self-motivated person
+interested in technical engineering and project management responsibilities
+to head up our new office in Salt Lake City. For the right individual this
+will provide an opportunity to work with a highly experienced staff
+committed to saving energy in buildings and industrial processes. We offer
+flexible work hours, hands-on experience, and a creative, casual work
+environment. DOE-2, M&V, site data collection and experience with utility
+incentive programs and/or a P.E. are pluses. Reply with r?sum? to
+hr at kw-engineering.com. 
+
+________________________
+Jim Kelsey, P.E.
+kW Engineering
+360 17th Street, Suite 100
+Oakland, CA 94612
+510.834.6420
+http://www.kw-engineering.com
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From lesolarch at vsnl.net  Mon Nov 15 09:25:41 2004
+From: lesolarch at vsnl.net (Anil Misra)
+Date: Mon, 15 Nov 2004 22:55:41 +0530
+Subject: [BLDG-SIM] Windows Shading Coefficient
+References: <MDAEMON-F200411130903.AA0317281pd80000411047@gard.com>
+ <MDAEMON-F200411151012.AA1210609pd80000413351@gard.com>
+Message-ID: <MDAEMON-F200411151129.AA2957640pd80000426193@gard.com>
+
+One has to be careful about defining the shading factor. The shaded portion of the window in PREBID is treated as the opaque part of the window which may have a very different U-value than that of the glass (glazing). The heat conducted across the window will be affected if a glazing forms significantly large portion of the wall.
+
+Let me explain by the following example (a single glazed window with wooden frame).
+
+If the shading coefficient is 0.5, beam and diffuse radiation will pass through 50% of the area of the glass. The remaining 50% of glass area would be treated as wood.
+
+In reality, heat conduction will take place through the remaining 50% of the glass area (it should not be treated as wood).  (Imagine the difference when the conductivity of glass = 2.88 kJ/m-K and the conductivity of wood = 0.54 kJ/m-K).
+
+A better method to model shading would be to treat the beam and diffuse radiation with the shading coefficients in IISiBat before it is given as input to Type 56.
+
+Caution: The modified radiation to be given separately for windows, it should not affect the radiation incident on the walls. This would require creating a separate surface to contain the windows only. Same caution is required also when Types 34 and 68 are used as suggested by David.
+
+David: pl confirm the above statement.
+
+Anil Misra
+
+  ----- Original Message ----- 
+  From: David Bradley 
+  To: BLDG-SIM at gard.com 
+  Sent: Monday, November 15, 2004 9:38 PM
+  Subject: [BLDG-SIM] Windows Shading Coefficient
+
+
+  Dear Maurizio,
+
+
+    1) I'm currently modelling in PREBID a residential building for which the montly Shading Coefficients on the windows have been calculated with the software ECOTECT. I insert the SC in the appropriate field ("external shading coefficient") as an input and set the "view factor" to 0,5 (vertical surfaces). It's the exact way? My doubt is that the solar incident radiation is halved (view factor = 0,5) and then reduced of the SC...
+
+  It is correct, provided that the shading coefficient from Ecotect is the opaque fraction of the window (i.e. 1 = completely shaded).
+  The view factor to the sky (FSky) is only used for longwave radiation so it will not interfere with shading.
+
+  The one thing to bear in mind about PREBID's external and internal shading coefficient is that the entered fraction effects both beam and diffuse radiation equally. Thus if you enter a value of 0.5 for the external shading factor, half of the incident diffuse radiation and half of the incident beam radiation will enter the space. If you want to treat beam and diffuse radiation separately, you can use one of the external shading models (Type34, or Type68).
+
+
+    2) It's possible to use old TESS libraries with TRNSYS 16 or are they already comprised in the new version?
+
+  Because of the change in coding standards for components between version 15 and 16, the TESS Libraries v. 1.x are not directly useable with TRNSYS v 16. We have, however, expanded the libraries and released version 2.0, which are not only compatible with TRNSYS 16 but are also backwards compatible with TRNSYS 15. If you are interested in upgrading, you will be credited the full amount that you paid for your version 1.x libraries toward the purchase of version 2.x libraries. If you do not wish to upgrade then you can follow the steps laid out in the TRNSYS 16 documentation that show you how to modify a TRNSYS 15 Type to make it accessible from TRNSYS 16. I will send along a second email containing a document that lists the contents of the 12 version 2.0 libraries as well as an order form that contains the pricing information. I would be happy to answer any questions that you might have about them.
+
+  Kind regards,
+    David
+
+
+
+  ****************************************************************************************
+  Thermal Energy System Specialists (TESS), LLC 
+  David BRADLEY                           2916 Marketplace Drive - Suite 104 
+  Partner                                        Madison, WI 53719 
+  Phone: (608) 274-2577 USA 
+  Fax: (608) 278-1475 
+  E-mail: bradley at tess-inc.com 
+  Web Pages:  http://www.tess-inc.com     and      http://www.trnsys.com
+
+  "Providing software solutions for today's energy engineering projects" 
+  ****************************************************************************************
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041115/ae039223/attachment.htm>
+
+From bradley at tess-inc.com  Mon Nov 15 08:08:01 2004
+From: bradley at tess-inc.com (David Bradley)
+Date: Mon, 15 Nov 2004 10:08:01 -0600
+Subject: [BLDG-SIM] Windows Shading Coefficient
+In-Reply-To: <MDAEMON-F200411130903.AA0317281pd80000411047@gard.com>
+References: <MDAEMON-F200411130903.AA0317281pd80000411047@gard.com>
+Message-ID: <MDAEMON-F200411151012.AA1209531pd80000426017@gard.com>
+
+Dear Maurizio,
+
+>1) I'm currently modelling in PREBID a residential building for which the 
+>montly Shading Coefficients on the windows have been calculated with the 
+>software ECOTECT. I insert the SC in the appropriate field ("external 
+>shading coefficient") as an input and set the "view factor" to 0,5 
+>(vertical surfaces). It's the exact way? My doubt is that the solar 
+>incident radiation is halved (view factor = 0,5) and then reduced of the SC...
+
+It is correct, provided that the shading coefficient from Ecotect is the 
+opaque fraction of the window (i.e. 1 = completely shaded).
+The view factor to the sky (FSky) is only used for longwave radiation so it 
+will not interfere with shading.
+
+The one thing to bear in mind about PREBID's external and internal shading 
+coefficient is that the entered fraction effects both beam and diffuse 
+radiation equally. Thus if you enter a value of 0.5 for the external 
+shading factor, half of the incident diffuse radiation and half of the 
+incident beam radiation will enter the space. If you want to treat beam and 
+diffuse radiation separately, you can use one of the external shading 
+models (Type34, or Type68).
+
+>2) It's possible to use old TESS libraries with TRNSYS 16 or are they 
+>already comprised in the new version?
+
+Because of the change in coding standards for components between version 15 
+and 16, the TESS Libraries v. 1.x are not directly useable with TRNSYS v 
+16. We have, however, expanded the libraries and released version 2.0, 
+which are not only compatible with TRNSYS 16 but are also backwards 
+compatible with TRNSYS 15. If you are interested in upgrading, you will be 
+credited the full amount that you paid for your version 1.x libraries 
+toward the purchase of version 2.x libraries. If you do not wish to upgrade 
+then you can follow the steps laid out in the TRNSYS 16 documentation that 
+show you how to modify a TRNSYS 15 Type to make it accessible from TRNSYS 
+16. I will send along a second email containing a document that lists the 
+contents of the 12 version 2.0 libraries as well as an order form that 
+contains the pricing information. I would be happy to answer any questions 
+that you might have about them.
+
+Kind regards,
+   David
+
+
+
+****************************************************************************************
+Thermal Energy System Specialists (TESS), LLC
+David BRADLEY                           2916 Marketplace Drive - Suite 104
+Partner                                        Madison, WI 53719
+Phone: (608) 274-2577 USA
+Fax: (608) 278-1475
+E-mail: bradley at tess-inc.com
+Web Pages:  http://www.tess-inc.com     and      http://www.trnsys.com
+
+"Providing software solutions for today's energy engineering projects"
+****************************************************************************************
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041115/504b12e3/attachment.htm>
+
+From VSami at lasarchitect.com  Mon Nov 15 07:30:07 2004
+From: VSami at lasarchitect.com (Vikram Sami)
+Date: Mon, 15 Nov 2004 10:30:07 -0500
+Subject: [BLDG-SIM] SPAM:  simulation for sun shading devices
+Message-ID: <MDAEMON-F200411150934.AA3424968pd80000425934@gard.com>
+
+Nesen,
+I have been working in collaboration with Victor Olgyay on a design tool that runs off Microsoft Excel, that uses a building's balance point temperature to determine optimum shading angles (profile angles) for different facades. Its still in the beta test version, and I am working on getting it done within the next 3 months. I would be happy to let you, (and anyone else who is interested) try it out. I would love feedback. I'm not sure if I am allowed to send a 2+ megabyte attachment to this list, so if anyone is interested, I will be happy to reply individually with the attachment.
+ 
+good luck
+ 
+Vikram Sami,  LEED AP 
+Direct Phone 404-253-1466 | Direct Fax  404-253-1366 
+
+LORD, AECK & SARGENT ARCHITECTURE
+Responsive Design * Technological Expertise * Exceptional Service 
+www.lordaecksargent.com 
+
+ 
+ 
+ 
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Nesen Surmeli
+Sent: Wednesday, November 10, 2004 2:20 AM
+To: BLDG-SIM at gard.com
+Subject: SPAM: [BLDG-SIM] simulation for sun shading devices
+
+
+
+Hi all, 
+
+I need a tool to analyze performance of the sun shading elements on the facade of a 42.000 m. square building. Any recommendations (calculation method or software) would be very helpfull... :)
+
+Regards..
+
+Nesen Surmeli
+
+
+
+  _____  
+
+Do you Yahoo!?
+Check out the new Yahoo! Front Page. www.yahoo.com
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041115/0bb89fe3/attachment.htm>
+
+From ksorce at tin.it  Sat Nov 13 06:58:40 2004
+From: ksorce at tin.it (Maurizio Sorce)
+Date: Sat, 13 Nov 2004 15:58:40 +0100
+Subject: [BLDG-SIM] Windows Shading Coefficient
+Message-ID: <MDAEMON-F200411130903.AA0318484pd80000423776@gard.com>
+
+Dear users, I have some questions for you:
+
+1) I'm currently modelling in PREBID a residential building for which the montly Shading Coefficients on the windows have been calculated with the software ECOTECT. I insert the SC in the appropriate field ("external shading coefficient") as an input and set the "view factor" to 0,5 (vertical surfaces). It's the exact way? My doubt is that the solar incident radiation is halved (view factor = 0,5) and then reduced of the SC...
+
+2) It's possible to use old TESS libraries with TRNSYS 16 or are they already comprised in the new version?
+
+Eng. Maurizio Sorce
+Department of Energy and Environmental Research (DREAM)
+Universit? degli Studi di Palermo
+(+39) 3495386296
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041113/aa37a6c2/attachment.htm>
+
+From kemerson2002 at yahoo.com  Fri Nov 12 14:51:59 2004
+From: kemerson2002 at yahoo.com (K Emerson)
+Date: Fri, 12 Nov 2004 14:51:59 -0800 (PST)
+Subject: [BLDG-SIM] Steam-Turbine Drive Centrigugal LiquidChillers - UPDATE
+In-Reply-To: <MDAEMON-F200411121439.AA3929906pd80000408484@gard.com>
+Message-ID: <MDAEMON-F200411121656.AA5601109pd80000422916@gard.com>
+
+Varkie, I don't know where you got the idea that steam
+distributed through a district system is "waste
+energy."  While about 2/3 of the energy going out the
+cooling tower is from condensing steam back into
+water, turbine discharge pressures at a typical power
+plant are sub-atmospheric (relatively low
+temperatures).  Bleed steam taken out of a point on
+the turbine and put into a district system is steam
+that is not generating all the electric power that it
+could.  
+
+Keith
+
+PS The likely reason that summer rates are being
+offered is to boost sales and improve load factor in
+the non-heating season.  
+
+
+
+
+--- Varkie Thomas <Varkie.Thomas at som.com> wrote:
+
+>  
+> 
+> At the end of this message is the part load
+> performance of steam turbine
+> chillers.  As you can see from the response from Rob
+> Firnstein of York,
+> energy software developers can incorporate this data
+> into their
+> programs. 
+> 
+>  
+> 
+> Steam turbine chillers have recently been specified
+> for buildings in
+> NYC.  ConEd has low summer rates for steam.  Cities
+> like Boston,
+> Minneapolis and Philadelphia also provide district
+> steam.  Since
+> district steam is waste energy from a power plant
+> perhaps there should
+> be LEED credits for using this waste energy although
+> the ECB method
+> might show higher costs over electric centrifugal.
+> 
+>  
+> 
+> Varkie Thomas
+> 
+>  
+> 
+>  
+> 
+> -----Original Message-----
+> 
+> From: Robert Firnstein
+> [mailto:robert.firnstein at york.com] 
+> 
+> Sent: Thursday, November 11, 2004 3:20 PM
+> 
+> To: Varkie Thomas
+> 
+> Subject: RE: Steam Turbine YK rating
+> 
+>  
+> 
+> Varkie,
+> 
+>  
+> 
+> Feel free to forward on the information. Recently,
+> York re-designed the
+> 
+> software for selecting our steam turbine chillers so
+> that we now have
+> 
+> greater capability to pair compressors and steam
+> turbines for optimum
+> 
+> performance. If you are interested in seeing any
+> generic selections for
+> 
+> additional chillers please let me know.
+> 
+>  
+> 
+> Regards,
+> 
+>  
+> 
+> Rob Firnstein
+> 
+> Sales Engineer
+> 
+> York International - Chicago
+> 
+> PH:(847)493-6124 FX:(847)759-0676
+> 
+>  
+> 
+> Part Load Performance at Condenser Water
+> Temperatures (CWT)
+> 
+> Constant Speed Operation at 4500 RPM, 125 PSIG D&S
+> Steam Supply,
+> Producing 41oF Chilled Water
+> 
+>      RCLWT = Refrigerant Condenser Leaving Water
+> Temperature  
+> 
+> CWT     % Load        100%     90%       80%     
+> 70%      60%      50%
+> 40%    30%    20%    15%
+> 
+>             Tons            1800        1620       
+> 1440        1260
+> 1080       900       720       540       360      
+> 270
+> 
+> 85oF      BHP            1,378.0     1,210.6    
+> 1,058.2     923.6
+> 802.4      690.4     583.9     - - -       - - -    
+>   - - -
+> 
+>             Lbs/Hr         17,873     15,919     
+> 13,884     12,210
+> 10,744     9,383     8,029     - - -       - - -    
+>   - - -
+> 
+>             Lbs/TR-Hr    9.93        9.83        
+> 9.64        9.69
+> 9.95        10.43     11.15     - - -       - - -   
+>    - - -
+> 
+>             RCLWT oF    94.33       93.38      
+> 92.43       91.50
+> 90.57      89.67     88.76     - - -       - - -    
+>   - - -
+> 
+> 75oF      BHP            1,182.8     1,043.2    
+> 918.6       808.1
+> 706.6      611.3     519.1     427.5     335.3    
+> 307.1
+> 
+>             Lbs/Hr         15,069     13,395     
+> 11,832     10,497
+> 9,264      8,106     6,982     5,912     4,781    
+> 4,453
+> 
+>             Lbs/TR-Hr    8.37        8.27        
+> 8.22        8.33
+> 8.58        9.01      9.70      10.95     13.28    
+> 16.49
+> 
+>             RCLWT oF    84.14       83.20      
+> 82.28       81.37
+> 80.47      79.58     78.69     77.80     76.92    
+> 76.34
+> 
+> 65oF      BHP            1,035.7     921.1      
+> 817.9       723.4
+> 634.6      550.3     467.6     384.3     299.7    
+> 264.8
+> 
+>             Lbs/Hr         13,008     11,633     
+> 10,412     9,332
+> 8,180      7,215     6,256     5,292     4,307    
+> 3,901
+> 
+>             Lbs/TR-Hr    7.23        7.18        
+> 7.23        7.41
+> 7.57        8.02      8.69      9.80      11.96    
+> 14.45
+> 
+>             RCLWT oF    73.99       73.08      
+> 72.18       71.28
+> 70.40      69.52     68.64     67.76     66.88    
+> 66.42
+> 
+> 55oF      BHP            926.6       828.4      
+> 738.3       654.3
+> 574.3      496.1     418.8     339.9     259.5    
+> 220.2
+> 
+>             Lbs/Hr         11,527     10,405     
+> 9,369       8,408
+> 7,485      6,588     5,691     4,776     3,834    
+> 3,365
+> 
+>             Lbs/TR-Hr    6.40        6.42        
+> 6.51        6.67
+> 6.93        7.32      7.90      8.84      10.65    
+> 12.46
+> 
+>             RCLWT oF    63.87       62.98      
+> 62.09       61.21
+> 60.34      59.46     58.59     57.72     56.84    
+> 56.43
+> 
+>  
+> 
+> 
+> 
+>
+=====================================================You
+> received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From klellington at lbl.gov  Fri Nov 12 13:14:11 2004
+From: klellington at lbl.gov (Kathy Ellington)
+Date: Fri, 12 Nov 2004 13:14:11 -0800
+Subject: [BLDG-SIM] EnergyPlus consultants
+Message-ID: <MDAEMON-F200411121517.AA1705906pd80000422751@gard.com>
+
+If you would like to be listed as an EnergyPlus consultant
+in the /Building Energy Simulation User News /(Newsletter)
+and on our website (at Lawrence Berkeley Nat'l Lab)
+please send email to klellington at lbl.gov
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041112/bba65ff3/attachment.htm>
+
+From Varkie.Thomas at som.com  Fri Nov 12 12:24:10 2004
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Fri, 12 Nov 2004 15:24:10 -0500
+Subject: [BLDG-SIM] Steam-Turbine Drive Centrigugal LiquidChillers -
+	UPDATE
+Message-ID: <MDAEMON-F200411121439.AA3925187pd80000422689@gard.com>
+
+ 
+
+At the end of this message is the part load performance of steam turbine
+chillers.  As you can see from the response from Rob Firnstein of York,
+energy software developers can incorporate this data into their
+programs. 
+
+ 
+
+Steam turbine chillers have recently been specified for buildings in
+NYC.  ConEd has low summer rates for steam.  Cities like Boston,
+Minneapolis and Philadelphia also provide district steam.  Since
+district steam is waste energy from a power plant perhaps there should
+be LEED credits for using this waste energy although the ECB method
+might show higher costs over electric centrifugal.
+
+ 
+
+Varkie Thomas
+
+ 
+
+ 
+
+-----Original Message-----
+
+From: Robert Firnstein [mailto:robert.firnstein at york.com] 
+
+Sent: Thursday, November 11, 2004 3:20 PM
+
+To: Varkie Thomas
+
+Subject: RE: Steam Turbine YK rating
+
+ 
+
+Varkie,
+
+ 
+
+Feel free to forward on the information. Recently, York re-designed the
+
+software for selecting our steam turbine chillers so that we now have
+
+greater capability to pair compressors and steam turbines for optimum
+
+performance. If you are interested in seeing any generic selections for
+
+additional chillers please let me know.
+
+ 
+
+Regards,
+
+ 
+
+Rob Firnstein
+
+Sales Engineer
+
+York International - Chicago
+
+PH:(847)493-6124 FX:(847)759-0676
+
+ 
+
+Part Load Performance at Condenser Water Temperatures (CWT)
+
+Constant Speed Operation at 4500 RPM, 125 PSIG D&S Steam Supply,
+Producing 41oF Chilled Water
+
+     RCLWT = Refrigerant Condenser Leaving Water Temperature  
+
+CWT     % Load        100%     90%       80%      70%      60%      50%
+40%    30%    20%    15%
+
+            Tons            1800        1620        1440        1260
+1080       900       720       540       360       270
+
+85oF      BHP            1,378.0     1,210.6     1,058.2     923.6
+802.4      690.4     583.9     - - -       - - -       - - -
+
+            Lbs/Hr         17,873     15,919      13,884     12,210
+10,744     9,383     8,029     - - -       - - -       - - -
+
+            Lbs/TR-Hr    9.93        9.83         9.64        9.69
+9.95        10.43     11.15     - - -       - - -       - - -
+
+            RCLWT oF    94.33       93.38       92.43       91.50
+90.57      89.67     88.76     - - -       - - -       - - -
+
+75oF      BHP            1,182.8     1,043.2     918.6       808.1
+706.6      611.3     519.1     427.5     335.3     307.1
+
+            Lbs/Hr         15,069     13,395      11,832     10,497
+9,264      8,106     6,982     5,912     4,781     4,453
+
+            Lbs/TR-Hr    8.37        8.27         8.22        8.33
+8.58        9.01      9.70      10.95     13.28     16.49
+
+            RCLWT oF    84.14       83.20       82.28       81.37
+80.47      79.58     78.69     77.80     76.92     76.34
+
+65oF      BHP            1,035.7     921.1       817.9       723.4
+634.6      550.3     467.6     384.3     299.7     264.8
+
+            Lbs/Hr         13,008     11,633      10,412     9,332
+8,180      7,215     6,256     5,292     4,307     3,901
+
+            Lbs/TR-Hr    7.23        7.18         7.23        7.41
+7.57        8.02      8.69      9.80      11.96     14.45
+
+            RCLWT oF    73.99       73.08       72.18       71.28
+70.40      69.52     68.64     67.76     66.88     66.42
+
+55oF      BHP            926.6       828.4       738.3       654.3
+574.3      496.1     418.8     339.9     259.5     220.2
+
+            Lbs/Hr         11,527     10,405      9,369       8,408
+7,485      6,588     5,691     4,776     3,834     3,365
+
+            Lbs/TR-Hr    6.40        6.42         6.51        6.67
+6.93        7.32      7.90      8.84      10.65     12.46
+
+            RCLWT oF    63.87       62.98       62.09       61.21
+60.34      59.46     58.59     57.72     56.84     56.43
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041112/6329a884/attachment.htm>
+
+From mcase at etcgrp.com  Thu Nov 11 15:20:34 2004
+From: mcase at etcgrp.com (Mark Case)
+Date: Thu, 11 Nov 2004 16:20:34 -0700
+Subject: [BLDG-SIM] Higher Education Energy management
+Message-ID: <MDAEMON-F200411111724.AA244215pd80000421465@gard.com>
+
+We are involved in a statewide study of higher education energy use,
+efficiency and energy management. One of the (rather minor) tasks is to
+identify exemplary programs in other higher education systems and
+facility groups that could be used for education of the facility
+managers and/or policy and financial interests (re: Legislature, Board
+of Regents, ...).  We know of a few but don't want to assume we know
+them all, or even know all about the ones we know of. 
+ 
+Particular areas of interest are:
+Energy Master Planning (campus wide interaction of energy with other
+master plan activities)
+Innovative procurement (supply side - not performance contracting)
+Energy management (bill tracking, prioritizing, cost management,
+budgeting, etc.)
+Greyware management (training, outreach, student involvement,
+behavioral, etc.)
+ 
+ 
+If any of you know of, or are involved in something like this, I'd
+appreciate a quick note. Thanks.
+ 
+
+Mark E. Case, President
+
+etc Group, Inc.
+
+3481 South 2300 East
+
+Salt Lake City, UT 84109
+
+801-278-1927, 801-278-1942(F)
+
+ 
+
+---------------------------------------------------------------------- 
+
+CONFIDENTIALITY NOTICE This e-mail transmission, and any documents,
+files or previous e-mail messages attached to it may contain
+confidential information that is legally privileged.  If you are not the
+intended recipient or the person responsible for delivering it to the
+intended recipient, you are hereby notified that any disclosure,
+copying, distribution or use of any of the information contained in or
+attached to this transmission is strictly prohibited.  If you have
+received this transmission in error, please immediately notify us by
+telephone at (801) 278-1927 and destroy the original transmission and
+its attachments without reading them. Thank you. 
+
+ 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041111/af8ac019/attachment.htm>
+
+From bills at fo.com  Thu Nov 11 04:18:52 2004
+From: bills at fo.com (Bill Shadish)
+Date: Thu, 11 Nov 2004 07:18:52 -0500
+Subject: [BLDG-SIM] FASER software replacements
+Message-ID: <MDAEMON-F200411110623.AA2338109pd80000420693@gard.com>
+
+We keep getting customer questions 
+about possible replacements for
+Enron's FASER energy management
+software.
+
+If you are still in the hunt for this, 
+please contact me, as we are working
+on something for those who are still in
+need [at this late date].
+
+Thank you,
+~Bill (bills at fo.com)
+
+foAudits handheld audits and reporting
+http://www.foaudits.com
+610.873.8022
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at EE.DOE.GOV  Wed Nov 10 09:53:54 2004
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Wed, 10 Nov 2004 12:53:54 -0500
+Subject: [BLDG-SIM] simulation for sun shading devices
+Message-ID: <MDAEMON-F200411101216.AA1643343pd80000419654@gard.com>
+
+
+There are a number of tools available which
+deal specifically with sun shading elements.
+
+(from the Building Tools Directory:  www.energytoolsdirectory.gov ):
+
+LESO-SHADE:  http://lesowww.epfl.ch/
+Solar Tool: http://www.squ1.com/
+SUN_CHART:  http://www.srv.net/opt/sunchrt.html
+Sombrero:   http://nesa1.uni-siegen.de/
+SUNDI:            http://emsolar.ee.tu-berlin.de/simulation/sundi.html
+Suncast:    http://www.ies4d.com/
+ShadowFX:   http://www.shadowfx.co.uk/
+Overhang:   http://www.susdesign.com/
+Awnshade:   http://www.fsec.ucf.edu/
+
+More introductory information on each tool is given in the Tools Directory.
+
+Also, all of the energy simulation programs calculate the impact of sun
+shading devices.
+
+
+
+                                                                                                              
+                      "Nesen Surmeli"                                                                         
+                      <n_surmeli at yahoo.co      To: BLDG-SIM at gard.com                                          
+                      m>                       cc:                                                            
+                      Sent by:                 Subject:  [BLDG-SIM] simulation for sun shading devices        
+                      postman at gard.com                                                                        
+                                                                                                              
+                                                                                                              
+                      11/10/2004 02:20 AM                                                                     
+                      Please respond to                                                                       
+                      n_surmeli                                                                               
+                                                                                                              
+                                                                                                              
+                                                                                                              
+
+
+
+Hi all,
+
+
+I need a tool to analyze performance of the sun shading elements on the
+facade of a 42.000 m. square building. Any recommendations (calculation
+method or software) would be very helpfull... :)
+
+
+Regards..
+
+
+Nesen Surmeli
+
+
+Do you Yahoo!?
+Check out the new Yahoo! Front Page. www.yahoo.com
+
+
+
+
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From vaipotnis at hotmail.com  Wed Nov 10 09:21:18 2004
+From: vaipotnis at hotmail.com (Vaibhav Potnis)
+Date: Wed, 10 Nov 2004 22:51:18 +0530
+Subject: [BLDG-SIM] simulation for sun shading devices
+Message-ID: <MDAEMON-F200411101129.AA2958656pd80000419583@gard.com>
+
+Nesen,
+
+Please elaborate. If you need just visual analysis a 3D tool like SketchUp 
+would be great or on a little more  involved level the Sun Tool module of 
+Ecotect.
+
+If you need thermal performance you might consider a whole building analysis 
+tool like eQuest.
+
+Hope this helps.
+Best,
+Vaibhav Potnis
+M.S. Building Design,LEED Accredited Professional
+--------------------------------------------------------------------------------
+To improve is to change. To be perfect is to change often.
+                                               ? Winston Churchill
+
+
+
+
+>From: Nesen Surmeli <n_surmeli at yahoo.com>
+>Reply-To: n_surmeli at yahoo.com
+>To: <BLDG-SIM at gard.com>
+>Subject: [BLDG-SIM] simulation for sun shading devices
+>Date: Tue, 9 Nov 2004 23:20:03 -0800 (PST)
+>
+>
+>Hi all,
+>
+>I need a tool to analyze performance of the sun shading elements on the 
+>facade of a 42.000 m. square building. Any recommendations (calculation 
+>method or software) would be very helpfull... :)
+>
+>Regards..
+>
+>Nesen Surmeli
+>
+>
+>---------------------------------
+>Do you Yahoo!?
+>  Check out the new Yahoo! Front Page. www.yahoo.com
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+_________________________________________________________________
+Mergers, takeovers, buyouts. Get all the latest biz bytes. 
+http://www.msn.co.in/business/ Tune in to MSN Business!
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From n_surmeli at yahoo.com  Tue Nov  9 23:20:03 2004
+From: n_surmeli at yahoo.com (Nesen Surmeli)
+Date: Tue, 9 Nov 2004 23:20:03 -0800 (PST)
+Subject: [BLDG-SIM] simulation for sun shading devices
+In-Reply-To: <MDAEMON-F200411090842.AA4216546pd80000401678@gard.com>
+Message-ID: <MDAEMON-F200411100124.AA240815pd80000418935@gard.com>
+
+
+Hi all, 
+
+I need a tool to analyze performance of the sun shading elements on the facade of a 42.000 m. square building. Any recommendations (calculation method or software) would be very helpfull... :)
+
+Regards..
+
+Nesen Surmeli
+
+			
+---------------------------------
+Do you Yahoo!?
+ Check out the new Yahoo! Front Page. www.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041109/2a5d4a3f/attachment.htm>
+
+From bills at fo.com  Tue Nov  9 06:37:46 2004
+From: bills at fo.com (Bill Shadish)
+Date: Tue, 9 Nov 2004 09:37:46 -0500
+Subject: [BLDG-SIM] Energy app uses for Phones (in building scenarios)?
+References: <MDAEMON-F200411041359.AA5956312pd80000400096@gard.com>
+Message-ID: <MDAEMON-F200411090842.AA4211687pd80000417744@gard.com>
+
+I have another article coming up, and would
+like to gather a few additional client experiences 
+where phone apps are being used, especially in 
+energy-related situations. 
+
+Not the Nextel phone-to-phone communication
+stuff, but Java/C/etc apps on phones, or similar 
+uses of phones / smartphones.
+
+Please contact me by email if you have an
+experience to share.
+
+Thanks
+~Bill Shadish  bills at fo.com
+
+ foAudits handheld energy audits
+ http://www.foaudits.com
+
+ Free PDA Newsletters
+ http://www.fo.com/newsletters
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cj at cr-jay.ca  Thu Nov  4 12:00:15 2004
+From: cj at cr-jay.ca (Chris Jones)
+Date: Thu, 04 Nov 2004 15:00:15 -0500
+Subject: [BLDG-SIM] Trinidad weather file
+Message-ID: <MDAEMON-F200411041359.AA5957734pd80000412112@gard.com>
+
+Does anyone know where I might find a DOE2.1E weather file for Trinidad?
+
+
+
+Chris Jones, P.Eng.
+14 Oneida Avenue
+Toronto, ON M5J2E3
+Tel. 416 203-7465
+Fax. 416 946-1005 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From fdmfernando at yahoo.es  Thu Nov  4 01:05:24 2004
+From: fdmfernando at yahoo.es (=?iso-8859-1?q?Fernando=20Dom=EDnguez=20Mu=F1oz?=)
+Date: Thu, 4 Nov 2004 10:05:24 +0100 (CET)
+Subject: [BLDG-SIM] Zoning
+Message-ID: <MDAEMON-F200411040309.AA0919296pd80000411486@gard.com>
+
+Hellow,I'm looking for some article about energy and comfort savings in residential split systems with zoning bypass.
+ 
+Thank you in advance.
+ 
+Fernando Dom?nguez Mu?oz
+Universidad de M?laga (SPAIN)
+
+
+
+
+		
+---------------------------------
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041104/3650637d/attachment.htm>
+
+From larry at taz.tamu.edu  Tue Nov  2 09:23:08 2004
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Tue, 2 Nov 2004 11:23:08 -0600
+Subject: [BLDG-SIM] IBPSA News, Vol. 14, No.2 has been published.
+Message-ID: <MDAEMON-F200411021127.AA2704406pd80000409501@gard.com>
+
+Hello Building Simulation enthusiasts:
+ 
+The IBPSA News is now ready for your viewing pleasure.   Find it at:
+http://www.ibpsa.org/IBPSANews-14-2.pdf or just go to
+http://www.ibpsa.org <http://www.ibpsa.org/>  and navigate to News Vol.
+14, No. 2.
+ 
+In this issue are three feature articles, including two award winning
+papers from SimBuild2004.
+ 
+You will also notice in this issue a notification that IBPSA members
+must subscribe to the BLDG-SIM list in order to receive future IBPSA
+News announcements.
+ 
+Best regards,
+ 
+Larry Degelman, Newsletter Chairperson
+===================================== 
+Larry O. Degelman, P.E.                  larry at taz.tamu.edu 
+Texas A&M University
+College Station, TX 77845
+=====================================
+ 
+ 
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041102/7b23b20b/attachment.htm>
+
+From babetsk at jbb.com  Mon Nov  1 13:11:42 2004
+From: babetsk at jbb.com (Konstantine Babets)
+Date: Mon, 1 Nov 2004 16:11:42 -0500
+Subject: [BLDG-SIM] nighttime pre-cooling @ underfloor air distribution
+References: <MDAEMON-F200410141709.AA0925609pd80000377283@gard.com>
+Message-ID: <MDAEMON-F200411011520.AA2038375pd80000408427@gard.com>
+
+Hello,
+
+ 
+
+I am trying to simulate (using DOE2) the effect of nighttime pre-cooling of underfloor air plenum with outside air to take advantage of the thermal mass of the floor slab to reduce space peak cooling load and annual cooling energy consumption. There is no direct way to model this in DOE2. Any idea on what is the best way to emulate this effect using DOE2?
+
+ 
+
+Thank you
+
+ 
+
+Konstantin Babets
+
+Jaros Baum and Bolles
+
+(212) 530 9455
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041101/3f84d522/attachment.htm>
+
+From PDolan at serenasturm.com  Tue Nov 30 14:38:54 2004
+From: PDolan at serenasturm.com (Pat Dolan)
+Date: Tue, 30 Nov 2004 16:38:54 -0600
+Subject: [BLDG-SIM] LEED Measurement and Verification Credit
+Message-ID: <MDAEMON-F200411301633.AA3358296pd80000444007@gard.com>
+
+Hopefully this is not straying too far away from simulation discussions,
+but....
+ 
+Is anyone familiar, or had any experience, with the USGBC's LEED Energy
+and Atmosphere Measurement and Verification Credit?  I am aware that
+there is much written out there about the IPMVP, but I was looking for
+specific information from people who have done M&V work specifically to
+achieve the LEED credit.  I am wondering if any US LEED projects have
+actually obtained this credit besides the Chicago Center for Green
+Technology and the Donald Bren School of Environmental Science &
+Management.  I am going to give a presentation to the local USGBC
+chapter on the credit and I wondered if any other Bldg-Sim listers have
+experiences that I could refer to in my presentation.  Any information
+on costs to meet the credit would be especially appreciated.
+ 
+Patrick Dolan
+Serena Sturm Architects, Ltd.
+3351 Commercial Ave.
+Northbrook, IL  60062
+847-564-0370, ext. 24 voice
+847-205-5089, fax
+ 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041130/85bef13e/attachment.htm>
+
+From mcase at etcgrp.com  Mon Nov 29 14:15:40 2004
+From: mcase at etcgrp.com (Mark Case)
+Date: Mon, 29 Nov 2004 15:15:40 -0700
+Subject: [BLDG-SIM] Higher Education Energy management
+Message-ID: <MDAEMON-F200411291614.AA1450875pd80000442119@gard.com>
+
+I would like to sincerely thank all those who provided leads and
+information in response to my recent request. I've received well over 20
+replies and am overwhelmed by  your assistance. If things work out, I'll
+take the relative information we include in our report, repackage it and
+and maybe add to it and send it to the lists servers. It promises to be
+an interesting compilation.
+
+ 
+
+Mark E. Case, President
+
+etc Group, Inc.
+
+3481 South 2300 East
+
+Salt Lake City, UT 84109
+
+801-278-1927, 801-278-1942(F)
+
+ 
+
+---------------------------------------------------------------------- 
+
+CONFIDENTIALITY NOTICE This e-mail transmission, and any documents,
+files or previous e-mail messages attached to it may contain
+confidential information that is legally privileged.  If you are not the
+intended recipient or the person responsible for delivering it to the
+intended recipient, you are hereby notified that any disclosure,
+copying, distribution or use of any of the information contained in or
+attached to this transmission is strictly prohibited.  If you have
+received this transmission in error, please immediately notify us by
+telephone at (801) 278-1927 and destroy the original transmission and
+its attachments without reading them. Thank you. 
+
+ 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20041129/5d18642d/attachment.htm>
+

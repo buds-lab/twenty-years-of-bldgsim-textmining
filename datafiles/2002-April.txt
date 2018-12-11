@@ -1,0 +1,806 @@
+From rgl.lsbris at lincolne.com.au  Thu Apr 25 15:24:54 2002
+From: rgl.lsbris at lincolne.com.au (Robert Lord)
+Date: Fri, 26 Apr 2002 08:24:54 +1000
+Subject: [Bldg-sim] eQUEST simulation
+Message-ID: <MDAEMON-F200204251718.AA184618pd10000143143@gard.com>
+
+I don't know anything about eQuest. We utilise TAS and it is successful in modelling buildings without HVAC, with full HVAC or even with "fan-only" HVAC.
+
+
+Regards
+
+
+Rob Lord
+Lincolne Scott
+1 Gardner Close
+Milton Qld 4064
+Ph:          61 7 3368 6614
+Fax:        61 7 3368 6699
+Mobile:   0418 641 707
+Email:    rgl.lsbris at lincolne.com.au
+
+This message contains information that is intended for the addressee.  If you have received this message in error, you are asked to respect its confidentiality by destroying it and not copying or disclosing it.  Please notify the sender and remove it from your computer system.  Lincolne Scott accepts no responsibility concerning the security, transmission, content, virus status or delay in receipt of any information electronically transmitted.
+
+
+
+-----Original Message-----
+From: Gllf22 at aol.com [mailto:Gllf22 at aol.com]
+Sent: Friday, April 26, 2002 8:05 AM
+To: Bldg-sim at gard.com
+Subject: [Bldg-sim] eQUEST simulation
+
+
+I would like to use eQUEST to simulate buildings that do not have any HVAC 
+equipment and that will be naturally ventilated.  I am interested in getting 
+hourly temperature of different locations within the buildings.  I would like 
+to get some advice and guidance on how to do this?  Thanks in advance for any 
+suggestions.
+
+-Gladys Lopez
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From JAulbach at semprasolutions.com  Thu Apr 25 15:18:28 2002
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Thu, 25 Apr 2002 15:18:28 -0700
+Subject: [Bldg-sim] eQUEST simulation
+Message-ID: <MDAEMON-F200204251723.AA234720pd80000143154@gard.com>
+
+I still run the original DOE-2.1E, but eQuest is DOE-2.2. So, as if to
+satisfy government bill collection computers by writing a check for $0.00,
+try modeling the building that has a fan with zero (or virtually zero)
+airflow and kW in the fan ?
+
+-----Original Message-----
+From: Gllf22 at aol.com [mailto:Gllf22 at aol.com]
+Sent: Thursday, April 25, 2002 3:05 PM
+To: Bldg-sim at gard.com
+Subject: [Bldg-sim] eQUEST simulation
+
+
+I would like to use eQUEST to simulate buildings that do not have any HVAC 
+equipment and that will be naturally ventilated.  I am interested in getting
+
+hourly temperature of different locations within the buildings.  I would
+like 
+to get some advice and guidance on how to do this?  Thanks in advance for
+any 
+suggestions.
+
+-Gladys Lopez
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020425/704bb3d5/attachment.htm>
+
+From Gllf22 at aol.com  Thu Apr 25 15:05:05 2002
+From: Gllf22 at aol.com (Gllf22 at aol.com)
+Date: Thu, 25 Apr 2002 18:05:05 EDT
+Subject: [Bldg-sim] eQUEST simulation
+Message-ID: <MDAEMON-F200204251657.AA574492pd80000143124@gard.com>
+
+I would like to use eQUEST to simulate buildings that do not have any HVAC 
+equipment and that will be naturally ventilated.  I am interested in getting 
+hourly temperature of different locations within the buildings.  I would like 
+to get some advice and guidance on how to do this?  Thanks in advance for any 
+suggestions.
+
+-Gladys Lopez
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ordenes at ctcinternet.cl  Wed Apr 17 05:57:12 2002
+From: ordenes at ctcinternet.cl (Familia Ordenes)
+Date: Wed, 17 Apr 2002 08:57:12 -0400
+Subject: [BLDG-SIM] International weather data
+Message-ID: <MDAEMON-F200204170746.AA460829pd80000140034@gard.com>
+
+I work for the Civil Engineering Department of the Catholic University of Chile. At this very moment I am studying the energy performance for residential projects in order to modify the present laws that rule in my country. To do my research I am using PowerDOE as a energy simulation tool, but unfortunately I don't have any chilean weather file to use with this software.
+
+Has anyone had PowerDOE experience using ASHRAE international weather data which they offer
+on the "Internation Weather for Energy Calculations" CD? Do those files have a good correlation results with the real local data?
+
+Any observations would be greatly appreciated. 
+Thanks
+
+Mart?n Ordenes M. 
+Departamento de Ingenier?a y Gesti?n de la Construcci?n.
+Pontificia Universidad Cat?lica de Chile.
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020417/65a9d686/attachment.htm>
+
+From astevens at dmiinc.com  Tue Apr 16 12:54:13 2002
+From: astevens at dmiinc.com (Alec Stevens)
+Date: Tue, 16 Apr 2002 15:54:13 -0400
+Subject: [BLDG-SIM] Job Posting at DMI
+Message-ID: <MDAEMON-F200204161442.AA425775pd80000139727@gard.com>
+
+DMI is looking to hire an engineer for a position in suburban Boston that involves:
+
+Building energy efficiency engineering for commercial, industrial, and institutional customers
+Building energy modeling using tools such as DOE, Trace, and advanced spreadsheet analysis
+Interacting with clients, engineers, architects, vendors, etc. over the phone and in the field for new construction and retrofit projects
+Technical report writing and presentation
+
+We are looking for someone with good modeling experience as part of an overall skill set that focuses on practical solutions to energy efficiency opportunities.
+
+Please see our posting on Monster.com, which is attached below.
+
+Thanks for your interest.
+
+--------
+HVAC/Mechanical Engineer  Energy Efficiency
+Demand Management Institute, Inc. (DMI) seeks an innovative person to join 
+our staff of eight in working to improve energy efficiency in business and 
+industry.  DMI, established in 1989, is an independently-owned 
+engineering-based consulting company which focuses on energy 
+efficiency.  With our attention to quality, we are one of the most 
+respected energy engineering firms in New England.
+
+Ideal candidate will have an engineering degree, strong analytical 
+abilities, mechanical aptitude, and commercial building HVAC 
+experience.  Strong written and oral communication skills are important, 
+along with expertise with Excel and Word.   Experience with building energy 
+modeling is a plus.
+
+For the right person, motivation to contribute to energy efficiency and 
+ability to learn quickly might substitute for lack of related experience.
+
+EOE.  For more information about DMI, see our website: www.dmiinc.com
+
+Forward resume to Peter J. Barrer, P.E. DMI, 450 Lexington St., Newton, MA 
+02466  Fax: (617) 527-6606 pbarrer at dmiinc.com
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020416/1272d4c0/attachment.htm>
+
+From astevens at dmiinc.com  Tue Apr 16 12:38:15 2002
+From: astevens at dmiinc.com (Alec Stevens)
+Date: Tue, 16 Apr 2002 15:38:15 -0400
+Subject: [BLDG-SIM] PowerDOE VFDs on HW pumps
+Message-ID: <MDAEMON-F200204161427.AA270351pd80000139714@gard.com>
+
+Hello,
+Has anyone had PowerDOE experience modeling VFDs on hot water pumps with two-way valves on the coils vs.constant speed pumps and three way valves?  
+
+We have tried this measure on more than one model and get a strange result.  With the VFDs, the pump electric energy decreases as expected, but there is a substantial penalty in fuel use for heating which we cannot explain.  The fuel penalty is much greater than what you could attribute to the energy that a constant speed pump would be adding to the fluid.
+
+Has anyone else had this result, and does anyone have any suggestions?  Any help would be appreciated.
+
+Thanks.
+
+Sincerely,
+
+Alec Stevens
+DMI
+450 Lexington St.
+Newton, MA 02466
+p: 617-527-1525x105      f: 617-527-6606
+e: astevens at dmiinc.com  
+
+p.s. I got a voicemail from someone in the group the other day about refrigeration modeling.  The voicemail got garbled and I didn't catch all the contact info.  I believe the name of the person who called me was David Civic.  David, if you could please get in touch with me via email, I'll try to give some assistance, but it has been a while since I've modeled any supermarkets.  
+
+The question was:  How does DOE take into account the space load on refrigeration casework?  If anyone else has suggestions on this, maybe they can post info to the group.
+
+Thanks!
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020416/72062911/attachment.htm>
+
+From brian.fountain at energyadvantage.com  Mon Apr 15 07:04:33 2002
+From: brian.fountain at energyadvantage.com (Brian Fountain)
+Date: Mon, 15 Apr 2002 14:04:33 -0000
+Subject: [BLDG-SIM] Modelling desiccant systems in DOE2.1e
+Message-ID: <MDAEMON-F200204151257.AA572159pd80000139311@gard.com>
+
+I am simulating a supermarket in DOE2.1e with a desiccant dehumidification
+and am using the add-on desiccant keywords.
+
+What I am not clear on is how the operation of the humidification system is
+controlled. The DOE 2.1e supplement reads that, in control mode 0, "the
+desiccant wheel is cycled on and off during the hour to control the removal
+of the latent loads".  Is the max-humidity keyword required to determine the
+level of dehumidification required?  Or, does max humidity only act on the
+cooling control?
+
+DESICCANT  SOL-VENT-AIR-1
+DESC-CTRL-MODE =  0
+
+Any observations / experiences would be greatly appreciated.
+
+Brian Fountain, P.Eng
+Energy Engineer
+
+Energy Advantage Inc.
+
+brian.fountain at energyadvantage.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From stvgates at pacbell.net  Fri Apr 12 14:26:19 2002
+From: stvgates at pacbell.net (Steve Gates)
+Date: Fri, 12 Apr 2002 14:26:19 -0700
+Subject: [BLDG-SIM] Barrow, Alaska weather file
+References: <MDAEMON-F200204121412.AA122745pd80000179976@gard.com>
+Message-ID: <MDAEMON-F200204121624.AA244520pd80000138683@gard.com>
+
+Drury and Jason are correct; this is a DOE-2 bug (all versions) that does not allow the program to simulate latitudes at or above the arctic circle (also true in the Southern hemisphere). Drury's suggestion should allow you to get around the problem.
+
+DOE-2.2, Version 41 and later fixes this problem. The program now also recognizes that sun angles can change radically from one month to the next in high latitudes (especially spring/fall, even in more temperate latitudes), and will recalculate shading angles more often than once per month when it encounters this situation.  Users of DOE-2.2 should download Version 41a from the FTP site. 
+
+eQUEST is expected will contain this fix sometime this quarter. We are considering porting this fix into DOE-2.1e as well, but have not yet done so.
+
+
+  ----- Original Message ----- 
+  From: Drury.Crawley at EE.DOE.GOV 
+  To: BLDG-SIM at gard.com 
+  Sent: Friday, April 12, 2002 12:18 PM
+  Subject: [BLDG-SIM] Barrow, Alaska weather file
+
+
+
+  The easy fix is to move the location latitude
+  slightly below the arctic circle.  DOE-2.1E won't
+  bomb then.
+
+
+
+
+                                                                                     
+                      "Jason Glazer"                                                 
+                      <jglazer at gard.       To:     BLDG-SIM at gard.com                 
+                      com>                 cc:                                       
+                      Sent by:             Subject:     [BLDG-SIM] Barrow, Alaska    
+                      postman at gard.c        weather file                             
+                      om                                                             
+                                                                                     
+                                                                                     
+                      04/12/2002                                                     
+                      02:39 PM                                                       
+                      Please respond                                                 
+                      to jglazer                                                     
+                                                                                     
+                                                                                     
+
+
+
+
+  Barrow, Alaska is above the arctic circle so (many? all?)
+  DOE-2.1e versions will crash.  It is a bug that has been
+  around a while.
+
+  Jason
+
+  On 12 Apr 2002 at 10:56, Tanmay wrote:
+
+  > Has anyone successfully used the  Barrow, Alaska TMY2
+  > weather file for DOE-2 simulations? I've tried using the
+  > file from a couple of different sources, and the file
+  > appears to be corrupt everywhere. It crashes the simulation
+  > after BDL.
+  >
+  > Does anyone have another DOE-2 weather file for Barrow,
+  > Alaska?
+  >
+  > Thanks,
+  >
+  >
+  > Tanmay Tathagat
+  >
+  >
+  >
+  > ======================================================
+  > You received this e-mail because you are subscribed
+  > to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+  > this mailing list send a blank message to
+  > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+  =========================================================
+  Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+  GARD Analytics - http://www.gard.com/
+  1028 Busse Highway, Park Ridge, IL 60068
+  Building Energy Simulation and Analysis
+  List Administrator for 90.1, GPC18 and BLDG-SIM
+
+
+  ======================================================
+  You received this e-mail because you are subscribed
+  to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+  from this mailing list send a blank message to
+  BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+
+
+
+  ======================================================
+  You received this e-mail because you are subscribed 
+  to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+  from this mailing list send a blank message to 
+  BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020412/bdb1aa62/attachment.htm>
+
+From tanmay at eley.com  Fri Apr 12 14:12:08 2002
+From: tanmay at eley.com (Tanmay)
+Date: Fri, 12 Apr 2002 14:12:08 -0700
+Subject: [BLDG-SIM] Barrow, Alaska weather file
+In-Reply-To: <MDAEMON-F200204121412.AA122768pd80000179979@gard.com>
+Message-ID: <MDAEMON-F200204121600.AA005779pd80000138661@gard.com>
+
+
+Thanks Everyone,
+
+I'm using LBNL's DOE2.1E v-114, and it seems that even if the LATITUDE is
+specified in the input file, the program reverts to the one in the weather
+file if the two numbers don't match.
+
+I unpacked the weather file changed the LATITUDE to 66.5 (maximum allowed by
+DOE-2), and packed it again. It seems to work OK now.
+
+Tanmay Tathagat
+
+tanmay at eley.com
+http://www.eley.com
+415-957-1977 phone
+415-957-1381 fax
+
+
+
+|-----Original Message-----
+|From: postman at gard.com [mailto:postman at gard.com]On Behalf Of
+|Drury.Crawley at EE.DOE.GOV
+|Sent: Friday, April 12, 2002 12:18 PM
+|To: BLDG-SIM at gard.com
+|Subject: [BLDG-SIM] Barrow, Alaska weather file
+|
+|The easy fix is to move the location latitude
+|slightly below the arctic circle.  DOE-2.1E won't
+|bomb then.
+|
+|
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ordenes at ctcinternet.cl  Fri Apr 12 12:46:05 2002
+From: ordenes at ctcinternet.cl (Familia Ordenes)
+Date: Fri, 12 Apr 2002 15:46:05 -0400
+Subject: [BLDG-SIM] WYEC2 format
+Message-ID: <MDAEMON-F200204121436.AA365635pd80000138625@gard.com>
+
+Does anyone know a good manual to create WYEC2 weather files?
+
+Thanks.
+
+Mart?n Ordenes M. 
+Departamento de Ingenier?a y Gesti?n de la Construcci?n.
+Pontificia Universidad Cat?lica de Chile.
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020412/efc66441/attachment.htm>
+
+From Drury.Crawley at EE.DOE.GOV  Fri Apr 12 12:18:07 2002
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Fri, 12 Apr 2002 15:18:07 -0400
+Subject: [BLDG-SIM] Barrow, Alaska weather file
+Message-ID: <MDAEMON-F200204121412.AA121657pd80000138608@gard.com>
+
+
+The easy fix is to move the location latitude
+slightly below the arctic circle.  DOE-2.1E won't
+bomb then.
+
+
+
+
+                                                                                   
+                    "Jason Glazer"                                                 
+                    <jglazer at gard.       To:     BLDG-SIM at gard.com                 
+                    com>                 cc:                                       
+                    Sent by:             Subject:     [BLDG-SIM] Barrow, Alaska    
+                    postman at gard.c        weather file                             
+                    om                                                             
+                                                                                   
+                                                                                   
+                    04/12/2002                                                     
+                    02:39 PM                                                       
+                    Please respond                                                 
+                    to jglazer                                                     
+                                                                                   
+                                                                                   
+
+
+
+
+Barrow, Alaska is above the arctic circle so (many? all?)
+DOE-2.1e versions will crash.  It is a bug that has been
+around a while.
+
+Jason
+
+On 12 Apr 2002 at 10:56, Tanmay wrote:
+
+> Has anyone successfully used the  Barrow, Alaska TMY2
+> weather file for DOE-2 simulations? I've tried using the
+> file from a couple of different sources, and the file
+> appears to be corrupt everywhere. It crashes the simulation
+> after BDL.
+>
+> Does anyone have another DOE-2 weather file for Barrow,
+> Alaska?
+>
+> Thanks,
+>
+>
+> Tanmay Tathagat
+>
+>
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+> this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Fri Apr 12 11:39:33 2002
+From: jglazer at gard.com (Jason Glazer)
+Date: Fri, 12 Apr 2002 13:39:33 -0500
+Subject: [BLDG-SIM] Barrow, Alaska weather file
+In-Reply-To: <MDAEMON-F200204121246.AA464553pd80000138541@gard.com>
+References: <MDAEMON-F200204101531.AA311559pd80000178149@gard.com>
+Message-ID: <MDAEMON-F200204121332.AA322001pd80000138569@gard.com>
+
+Barrow, Alaska is above the arctic circle so (many? all?) 
+DOE-2.1e versions will crash.  It is a bug that has been 
+around a while.  
+
+Jason
+
+On 12 Apr 2002 at 10:56, Tanmay wrote:
+
+> Has anyone successfully used the  Barrow, Alaska TMY2
+> weather file for DOE-2 simulations? I've tried using the
+> file from a couple of different sources, and the file
+> appears to be corrupt everywhere. It crashes the simulation
+> after BDL.
+> 
+> Does anyone have another DOE-2 weather file for Barrow,
+> Alaska?
+> 
+> Thanks,
+> 
+> 
+> Tanmay Tathagat
+> 
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+> this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From stvgates at pacbell.net  Fri Apr 12 11:28:21 2002
+From: stvgates at pacbell.net (Steve Gates)
+Date: Fri, 12 Apr 2002 11:28:21 -0700
+Subject: [BLDG-SIM] Barrow, Alaska weather file
+References: <MDAEMON-F200204121246.AA465645pd80000178679@gard.com>
+Message-ID: <MDAEMON-F200204121326.AA264270pd80000138559@gard.com>
+
+Have you tried the DOE2.com website?  I just ran the DOE-2.2 example SM-OFF.INP with the TMY2 barrowak.bin weather off this site, and it ran fine.
+  ----- Original Message ----- 
+  From: Tanmay 
+  To: BLDG-SIM at gard.com 
+  Sent: Friday, April 12, 2002 10:56 AM
+  Subject: [BLDG-SIM] Barrow, Alaska weather file
+
+
+  Has anyone successfully used the  Barrow, Alaska TMY2 weather file for DOE-2 simulations? I've tried using the file from a couple of different sources, and the file appears to be corrupt everywhere. It crashes the simulation after BDL. 
+
+  Does anyone have another DOE-2 weather file for Barrow, Alaska? 
+
+  Thanks,
+
+
+  Tanmay Tathagat
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020412/c6dceff3/attachment.htm>
+
+From tanmay at eley.com  Fri Apr 12 10:56:55 2002
+From: tanmay at eley.com (Tanmay)
+Date: Fri, 12 Apr 2002 10:56:55 -0700
+Subject: [BLDG-SIM] Barrow, Alaska weather file
+In-Reply-To: <MDAEMON-F200204101531.AA311559pd80000178149@gard.com>
+Message-ID: <MDAEMON-F200204121246.AA464553pd80000138541@gard.com>
+
+Has anyone successfully used the  Barrow, Alaska TMY2 weather file for DOE-2
+simulations? I've tried using the file from a couple of different sources,
+and the file appears to be corrupt everywhere. It crashes the simulation
+after BDL.
+
+Does anyone have another DOE-2 weather file for Barrow, Alaska?
+
+Thanks,
+
+
+Tanmay Tathagat
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020412/3e0b318f/attachment.htm>
+
+From ordenes at ctcinternet.cl  Wed Apr 10 13:39:51 2002
+From: ordenes at ctcinternet.cl (Familia Ordenes)
+Date: Wed, 10 Apr 2002 16:39:51 -0400
+Subject: [BLDG-SIM] Direct Solar Radiation (DOE2)
+Message-ID: <MDAEMON-F200204101531.AA310035pd80000137764@gard.com>
+
+Dear Sr or Madam: 
+
+My name is Mart?n Ordenes and I work for the Civil Engineering Department of the Catholic University of Chile. At this very moment I'm trying to create some chilean weather files but I don't have all the information I need. 
+
+I just have hourly data of Horizontal Global radiation and I would be very grateful if you could send me some information about any equation or coefficient that would allow me to estimate the Horizontal solar radiation and Direct (beam) solar radiation. 
+
+  I look forward to hearing from you. 
+  Sincerely yours. 
+
+Mart?n Ordenes M. 
+Departamento de Ingenier?a y Gesti?n de la Construcci?n.
+
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020410/4894fbe4/attachment.htm>
+
+From Drury.Crawley at EE.DOE.GOV  Fri Apr  5 10:22:18 2002
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Fri, 5 Apr 2002 13:22:18 -0500
+Subject: [BLDG-SIM] More than  500 Weather Locations Now Available for EnergyPlus
+Message-ID: <MDAEMON-F200204051216.AA161092pd80000136163@gard.com>
+
+The EnergyPlus team is pleased to announce that
+our web site now has more than 570 weather locations
+available for download, ready to use with EnergyPlus.
+
+Go to our new URL:     www.energyplus.gov
+
+On the right side, under Weather Data, Click on one of
+the four links -- US, California, Canada, or International.
+
+578 locations!
+
+   274 USA
+     16 California Thermal Zones
+     55 Canada
+   233 International locations in more than 80 countries including:
+     Algeria, Argentina, Australia, Austria, Belarus, Belgium, Bolivia,
+     Bosnia and Herzegowina, Brazil, Brunei Darussalam, Bulgaria, Chile,
+     China, Colombia, Cuba, Cyprus, Czech Republic, Denmark, Ecuador,
+     Egypt, Fiji, Finland, France, Germany, Greece, Guam, Hungary, Iceland,
+     India, Ireland, Israel, Italy, Japan, Kazakhstan, Kenya, North Korea,
+     South Korea, Libya, Lithuania, Macau, Madagascar, Malaysia, Marshall
+     Islands, Martinique, Mexico, Mongolia, Morocco, Netherlands, New
+     Zealand, Norway, Pakistan, Palau, Paraguay, Peru, Philippines, Poland,
+     Portugal, Puerto Rico, Romania, Russia, Saudi Arabia, Senegal,
+     Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden,
+     Switzerland, Syria, Taiwan, Thailand, Tunisia, Turkey, Ukraine, United
+     Arab Emirates, United Kingdom, United States Minor Outlying Islands,
+     Uruguay, Uzbekistan, Venezuela, Viet Nam, Yugoslavia, and Zimbabwe.
+
+We recommend that you also download the weather utility
+RPT file for each location.  The RPT file includes design
+data where available, statistics for the weather file including
+typical and extreme periods (hottest summer week, coldest
+winter week, typical spring week, etc), Koppen climate
+classification, heating and cooling degree days, monthly
+average min and max dry bulb and dew point temperatures,
+undisturbed ground temperatures, direct and diffuse solar
+radiation, relative humidity, and wind speed and direction.
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From John_Karasaki at pgn.com  Mon Apr  1 11:26:39 2002
+From: John_Karasaki at pgn.com (John Karasaki)
+Date: Mon, 01 Apr 2002 11:26:39 -0800
+Subject: [BLDG-SIM] Energy Engineer Wanted for GBS Group (ad)
+Message-ID: <MDAEMON-F200204011319.AA194610pd80000134729@gard.com>
+
+All:
+
+Portland General Electric's Green Building Services Group is looking for an energy engineer to do DOE2 modeling.  I've attached the ad for the position.  Please forward it to anyone who might be interested.  Thanks!
+
+
+
+Best Regards,
+
+John P. Karasaki, P.E.
+New Construction Programs Lead
+
+Portland General Electric National Earth Advantage Center
+16280 SW Upper Boones Ferry Road
+Portland, Oregon 97224
+(503) 603-1629
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020401/6c64a505/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: GBS Engr Ad.doc
+Type: application/msword
+Size: 25088 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020401/6c64a505/attachment.doc>
+

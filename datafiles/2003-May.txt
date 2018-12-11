@@ -1,0 +1,1952 @@
+From jimwill at indy.net  Sat May 31 21:55:08 2003
+From: jimwill at indy.net (James K. Willson)
+Date: Sat, 31 May 2003 23:55:08 -0500
+Subject: [BLDG-SIM] Invitation to Participate - Getting the Design Team to Use Energy Simulation from the Beginning
+Message-ID: <MDAEMON-F200305312350.AA5030359pd80000321515@gard.com>
+
+To ALL Interested Parties:
+
+In February, a very interesting exchange of ideas occurred on BLDG-SIM at gard.com regarding the limited use of building energy simulation in the early design stages,  thoughts on why its limited,  and what might be done to increase the use of simulations in the early stage of design.  For those who did not see this exchange or would like to refresh their recollection of this, a compilation of these e-mails is found in the attached Word file.  
+
+As the Chair of the Applications Subcommittee of ASHRAE TC 4.7- Energy Calculations, I would like to invite anyone and everyone interested in this subject to attend our next TC 4.7 Applications Subcommittee Meeting which will be held on July 1, 2003 from 3:30 to 5:00 p.m.. in Kansas City, Missouri, as part of the ASHRAE Summer Meeting.  (See the meeting program for the meeting location).
+
+
+The subject to Getting the Design Team to Use Energy Simulation from the start of Design Process will be our main topic of discussion.  The purpose of this will be to continue this exchange of ideas and from there to create actionable items which will then be implemented.  
+
+In some ways we've already started approaching this item.  At the Winter ASHRAE Meeting in Chicago, January 2003,  we presented a Seminar entitled "Getting Started with Building Simulation"  which was chaired by Chip Barnaby.  The four talks were an excellent presentation of "what is energy simulation", "why would I want to do it" and "what's available for doing it".  The third presentation - Allan Daly's presentation of "Using Building Simulation to Life-Cycle Cost Optimize HVAC System Design at UC Merced"  is a case study of project which actually did use simulation in the very early design stages.  Copies of the PowerPoints from each of these four presentations are available to download at the ASHRAE web site (www.ashrae.org ).  From the homepage, click on "ASHRAE Activities", then Technical Committees, then TC 4.7, then Programs.  Scroll down about a third of the page to previously presented programs.  The seminar was one of the best attended TC 4.7 presentations in recent history (standing room only) which shows that a lot of interest is there, we just need to do a good job of tapping into it.  
+
+We welcome the opportunity to broaden the discussion and to broaden the participation.  ASHRAE, with its 55,000 world wide members,  Winter and Summer meetings with 2,500 to 3,500 technical program registrants, and over 160 local chapters,  can provide an effective venue for reaching the building design community.  Our successful "Getting Started with Building Simulation" seminar in Chicago and the ASHRAE Profession Development Session on Building Simulation which is now under development is only a start.  There is much, much more which could and should be done - and we welcome your ideas and involvement.
+
+Some of our previous work identified the need for a good basic treatise on what building simulation is, what programs are available, who to contact, etc.  As we research that subject, we were pleased to learn that some excellent sources already existed and/or were nearing completion.  Let me appraise you of them so those who are interested can get a good overview of what is currently available in the building simulation (not just HVAC) arena.  The Air-Conditioning and Refrigeration Technology Institute (the research arm of ARI) has available on its web site an report appropriately titled "State-of-the-Art Review, Whole-Building and Bulling Envelope Simulation and Design Tools"  It available at www.arti-21cr.org   There is also a companion report which focuses specifically on HVAC Component and System Simulation.   For specific cost and who to contact information on over 250 energy estimating programs, including most of the simulations DOE maintains a very comprehensive website at www.energytoolsdirectory.gov 
+
+To help us plan a most productive session, I would appreciate your ideas on what you see as:
+ 
+    1.    The most important or critical items that we need to discuss and try to reach consensus in our meeting at Kansas City.
+
+    2.    The most important actions or programs our committee should be implementing in the short term (6 to 18 months)
+
+    3.    The most important actions or programs our committee should get ASHRAE to implement in the longer term (1 to 5 years)  This could well include research projects.
+
+
+For those who will be unable to join us in Kansas City, I invite you to share your ideas via the BLDG-SIM at gard.com list server.  I would ask that you post those ideas by June 20th as my travel schedule will make it difficult for me to print out material to distribute at the Kansas City meeting after that date.
+
+
+   
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030531/c6c34793/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Early Use of Building Energy Simulation.doc
+Type: application/msword
+Size: 40960 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030531/c6c34793/attachment.doc>
+
+From Drury.Crawley at EE.DOE.GOV  Fri May 30 13:52:52 2003
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Fri, 30 May 2003 16:52:52 -0400
+Subject: [BLDG-SIM] (Near) Real-Time Weather Data Archive now available
+Message-ID: <MDAEMON-F200305301550.AA5050875pd80000320927@gard.com>
+
+DOE is pleased to announce that a weather data archive with very recent
+data (near real-time) for more than 1600 locations in the US and another
+2500 locations around the world is now available on the web:
+
+http://www.eere.energy.gov/buildings/energy_tools/cfm/weather_request.cfm
+
+(Or through the real-time weather data link on the right hand side of the
+EnergyPlus web site:  www.energyplus.gov)
+
+Background
+
+In 1998, the Gas Technology Institute (formerly the Gas Research Institute)
+created a real-time (very recent data) weather data archive for 245
+locations in the United States.  After the original funding ended in 1999,
+GTI was no longer able to maintain the weather data archive.
+
+In 2001, DOE began investigating ways to restart and extend the database to
+other locations in the US and throughout the world.  In 2002, the National
+Renewable Energy Laboratory (NREL) began collecting hourly data for DOE as
+it was reported the same day from the US National Weather Service (NWS) ftp
+site for more than 4100 locations throughout the world.  This new
+'real-time' weather data archive was developed by, and is hosted and
+maintained by NREL.   Most locations have data which begins in early 2002.
+
+GTI and its subcontractors, Mason-Grant Company and Rocket  Science Inc,
+graciously agreed to donate the existing data archive and allowed DOE to
+incorporate that data into the new database. The 245 US locations
+originally in the GTI data archive often have data from 1998 through today.
+But there are often significant gaps in the data.
+
+Data Available
+
+Because of network interruptions or missing data on the NWS ftp site, the
+weather data archive does have gaps of hours to days.  If missing data is
+less than 48 hours in length, the web site can interpolate the data for the
+user. (Currently only wet bulb and dry bulb temperatures are interpolated.)
+When data are missing, the data are broken into separate files.
+
+The following data are available:
+
+1. Local Date and Time, MM/DD/YYYY HH:MM
+2. Greenwich Mean Time, MM/DD/YYYY HH:MM
+3. Dry Bulb Temperature, tenths of degree Celsius
+4. Wet Bulb Temperature, tenths of degree Celsius
+5. Wind Direction, degrees (0? = North)
+6. Wind Speed, tenths of meters per second
+7. Wind Gusts, tenths of meters per second
+8. Wind Variability Range, degrees
+9. Altimeter, hundreds of pascals
+10. Visibility, tenths of kilometers
+11. Weather Description, MI, BC, PR, TS, BL, SH, DR, F
+12. Weather Precipitation, DZ, RA, SN, SG, IC, PL, GR, GS, UP
+13. Weather Observation, BR, FG, FU, VA, SA, HZ, PY, DU
+14. Weather Other, SQ, SS, DS, PO, FC
+15. Cloud Cover Level 1, identifier, height in hundreds of feet
+16. Cloud Cover Level 2, identifier, height in hundreds of feet
+17. Cloud Cover Level 3, identifier, height in hundreds of feet
+18. Sea Level Pressure, hundreds of pascals
+
+NOTE--There are NO SOLAR DATA reported through the NWS ftp site.
+
+Users can request any amount of data--from a single day to the entire
+available period of record (1998-May 2003 for the 245 US locations,
+2002-May 2003 for most locations).  Data are usually available within a
+week or so after they are reported on the NWS ftp site and updated
+continually (It takes a long time to process 4100 locations!).  Data are
+emailed directly to the user, usually within minutes.
+
+Output formats include comma-separated values (CSV) and IWEC (ASHRAE's
+International Weather for Energy Calculations).  Both are documented in the
+manual available on the web site.
+
+We hope that you find the archive useful and we welcome feedback!
+
+Dru Crawley
+DOE
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mjwitte at gard.com  Fri May 30 11:24:15 2003
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Fri, 30 May 2003 13:24:15 -0500
+Subject: [BLDG-SIM] IWEC weather for DOE-2.1E
+Message-ID: <MDAEMON-F200305301317.AA1719359pd80000320829@gard.com>
+
+Does anyone know of a source of packed IWEC weather files for DOE-
+2.1E?   Is there a version of the weather packer that can process 
+IWEC files?
+
+Mike Witte
+
+
+
+========================================================
+Michael J. Witte                        mjwitte at gard.com
+GARD Analytics, Inc.                        www.gard.com
+1028 Busse Highway                    Phone 847-698-5685
+Park Ridge, Illinois 60068-1802         FAX 847-698-5600
+USA          Energy, Environmental and Economic Research
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From markzoeteman at core.com  Wed May 28 06:39:03 2003
+From: markzoeteman at core.com (Mark Zoeteman)
+Date: Wed, 28 May 2003 09:39:03 -0400
+Subject: [BLDG-SIM] EQUEST Baseboard Heating
+Message-ID: <MDAEMON-F200305280835.AA3534234pd80000319280@gard.com>
+
+It appears it is required to input baseboard capacity in Btu/hour when
+baseboard heating in a specific zone is desired.  This would require an
+estimation of envelope heat loss.  Does EQUEST distribute the baseboard
+capacity equally along the perimeter wall surfaces?
+ 
+Mark Zoeteman
+Sustainable Engineering
+(616) 765-3500 
+ <mailto:markzoeteman at core.com> markzoeteman at core.com
+ 
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030528/1623f9be/attachment.htm>
+
+From cliff_f at uclink.berkeley.edu  Tue May 20 13:42:20 2003
+From: cliff_f at uclink.berkeley.edu (Clifford Federspiel)
+Date: Tue, 20 May 2003 13:42:20 -0700
+Subject: [BLDG-SIM] E+ IDF file of a residence
+Message-ID: <MDAEMON-F200305201539.AA3906265pd80000314614@gard.com>
+
+Does anyone have an EnergyPlus IDF file for a residential building that 
+they would be willing to give us? We are working on a project that involves 
+controlling residential indoor temperatures in response to real-time prices.
+
+
+Clifford C. Federspiel, Ph.D.
+Research Specialist, Center for the Built Environment, University of California
+390 Wurster Hall, #1839, Berkeley, CA 94720-1839
+Tel: 510-643-1209 / FAX: 510-643-5571
+email: cliff_f at uclink.berkeley.edu
+web: http://arch1.ced.berkeley.edu:8012/~cfedersp/
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From fporter at archenergy.com  Fri May 16 10:10:59 2003
+From: fporter at archenergy.com (Fred Porter)
+Date: Fri, 16 May 2003 11:10:59 -0600
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+References: <MDAEMON-F200305151500.AA0012812pd80000455188@gard.com>
+Message-ID: <MDAEMON-F200305161210.AA1007437pd80000311943@gard.com>
+
+The old default DOE2 centrifugal chiller curves, evaluated directly for 
+leaving CHW Ts of 42 & 38 and completely independently of any other 
+inputs, show a consistent increase in chiller kW/ton of 11% for a range 
+of normal CW temperatures. The newer DOE2.2 curves use "lift"(CW-CHW) 
+and part load fraction in addition to a new CHW & CW, so I can't 
+evaluate the default curves as directly. There are other adjustments for 
+performance under varying, or off-rated, primary flow and temperature 
+that must be accounted for.
+
+Results from TRACE probably reflect Trane chiller performance, which 
+tends to be less sensitive to chiller "lift," and more suited for these 
+lower temperature applications.
+
+So even preliminary analysis can be biased by either generic or 
+manufacturer-specific curves, and the limitations of the simulation. 
+Resets of CHW, CW, and pressure along with coil performance, etc, 
+interact to affect the "optimum" system. Lowest life-cycle cost SYSTEMS 
+using different manufacturers' chillers may be very different.
+
+
+
+Varkie Thomas wrote:
+
+>This is in response to comments and questions that I received.
+>
+>This was a preliminary attempt using DOE2.1E to find out large tonnage chiller energy usage at decreasing LWTs and a fixed EWT to reduce the CHW-flow.  I may not have used the DOE2.1E correctly because results showed the chiller LWT was always the default value of 44F.  The test building was a single zone per floor, 70% single glass, with multiple floors to produce over 6000 tons.  The DOE2 program was run with SOM office building template defaults.  The TRACE program was run twice, with all TRACE defaults for an office building, VAV system and water-cooled centrifugal chillers, first with CHW temp range of 38 to 56 and next with 42 to 56.  In the first case the program gave warning messages for LWT < 40 and CHW-DT > 15.  
+>
+>The energy usage of a chiller operating from 38 to 56 was higher, but not significantly higher (relative to potential savings in the pump operating, heat transfer equipment and piping costs) than 42 to 56.  This might be because of limitations in the energy program algorithms, and actual physical tests with chillers might produce different results. 	Cooling coil sizes in terms of fins, rows, etc are going to be affected.  I did not check this out using cooling coil selection programs.  I did not check or compare the results of the air-side system equipment performance.
+>
+>What would be the results from other energy programs such EnergyPlus, HAP and eQUEST?  I would be particularly interested in the results from HAP.  We do not have this program in this office.  I would also be interested in comments from Trane regarding the results from TRACE. Was the program used incorrectly?
+>
+>Varkie
+>-------------------------------------------
+>
+>-----Original Message-----
+>From: Varkie Thomas 
+>Sent: Thursday, May 15, 2003 8:48 AM
+>To: BLDG-SIM at gard.com
+>Subject: [BLDG-SIM] DOE2.1E Chiller performance
+>
+>
+>To those who responded to this inquiry:
+>
+>We tested the two conditions with TRACE-700.  There is little difference in the energy consumed by the chillers for CHW temp range of 38F to 56F and 44F to 56F particularly in the large tonnage range.  This is also indicated in chiller performance data catalogs.  There is a big difference in pumping and piping costs.
+>
+>Varkie Thomas
+>---------------------------------------
+>
+>We are trying to compare the performance of a 2000 ton chiller operating at (1) 42 F LWT and (2) 38 F LWT.  The chiller EWT is 56 in both cases.  The tower temp range is 85 F to 100 F.  We want to know how the chiller COP varies under these conditions.  
+>
+>The hourly output for the design day from DOE2.1E shows chiller LWT of 44 F (DOE2 default) no matter what the input.  Here is the input and output for the option with 38 F Chiller LWT.  Can the Chiller LWT be changed from the default value of 44 F ?  How do I check that the CHW EWT & LWT temps are being maintained? Is the input below correct to model the conditions described?
+>
+>----------------------------------------------------------------
+>
+>PLANT-PARAMETERS
+>
+>CHILL-WTR-T = 37                     $ Def = 44. LWT at bottom of Thrott Range $
+>CHILL-WTR-THROTT = 2.0         $ Def = 2.5. Thrott Range = 37 to 39.  LWT = 38 $
+>
+>TWR-SETPT-T = 85                      
+>TWR-DESIGN-RANGE = 15.0        $ Def = 10. Tower temp range :85 to 100 $ 
+>
+>CCIRC-DESIGN-T-DROP = 18       $ Def = 10. Chiller EWT = 56 $
+>
+>----------------------------------------------------------------
+>
+>
+>MMDDHH    OPEN-CEN       OPEN-CEN    OPEN-CEN   OPEN-CEN   OPEN-CEN   OPEN-CEN
+>	T-CHLR         T-CHLR      T-CHLR     T-CHLR     T-CHLR     T-CHLR  
+>	LOAD           ELECTRIC    OPER PT    FRAC HR    ENTERING   LEAVING 
+>	USE         LD RATIO   OPERATED   COND TEM   COLD TEM
+>	BTU/HR         KW          FRAC.OR    FRAC.OR    F          F  	 
+>	MULT.      MULT.                    	 
+>	----( 1)       ----( 3)    ----(10)   ----(11)   ----(12)   ----(13)
+>	7 1 1             0.         0.000      0.000      0.000        0.0     	0.0
+>	7 1 2             0.         0.000      0.000      0.000        0.0     	0.0
+>	7 1 3             0.         0.000      0.000      0.000        0.0     	0.0
+>	7 1 4             0.         0.000      0.000      0.000        0.0     	0.0
+>	7 1 5             0.         0.000      0.000      0.000        0.0     	0.0
+>	7 1 6       8887730.       528.301      0.328      1.000       84.6     	44.0
+>	7 1 7      20704076.      1019.228      0.760      1.000       83.7     	44.0
+>	7 1 8      25529894.      1301.530      0.940      1.000       84.3     	44.0
+>	7 1 9      25563408.      1312.150      0.944      1.000       84.7     	44.0
+>	7 110      22676038.      1142.870      0.838      1.000       84.9     	44.0
+>	7 111      23148816.      1167.610      0.855      1.000       84.7     	44.0
+>	7 112      22012680.      1103.797      0.813      1.000       84.7     	44.0
+>	7 113      22536236.      1132.213      0.832      1.000       84.7     	44.0
+>	7 114      22738694.      1144.069      0.840      1.000       84.7     	44.0
+>	7 115      22827700.      1149.287      0.843      1.000       84.7     	44.0
+>	7 116      22768860.      1146.011      0.841      1.000       84.7     	44.0
+>	7 117      21899154.      1097.228      0.809      1.000       84.7     	44.0
+>	7 118      20232738.      1007.025      0.747      1.000       84.7     	44.0
+>	7 119             0.         0.000      0.000      0.000        0.0     	0.0
+>	7 120             0.         0.000      0.000      0.000        0.0     	0.0
+>	7 121             0.         0.000      0.000      0.000        0.0     	0.0
+>	7 122             0.         0.000      0.000      0.000        0.0     	0.0
+>	7 123             0.         0.000      0.000      0.000        0.0     	0.0
+>	7 124             0.         0.000      0.000      0.000        0.0     	0.0
+>
+>====================================================
+>You received this e-mail because you are subscribed 
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+
+-- 
+Fred W. Porter
+Senior Engineer
+Architectural Energy Corp.
+2540 Frontier Ave. Suite 201
+Boulder CO 80301
+email: fporter at archenergy.com
+fax: 303-444-4304
+
+office: 303-444-4149 x225
+mobile: 303-748-4536
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From stvgates at pacbell.net  Fri May 16 09:27:05 2003
+From: stvgates at pacbell.net (Steve Gates)
+Date: Fri, 16 May 2003 09:27:05 -0700
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+References: <MDAEMON-F200305151706.AA0650562pd80000456609@gard.com>
+Message-ID: <MDAEMON-F200305161123.AA2347437pd80000311885@gard.com>
+
+As a rough rule-of-thumb, you can expect about a 1%-1.5% change in
+efficiency for every degree change in chilled-water supply temperature.
+
+----- Original Message ----- 
+From: "Varkie Thomas" <Varkie.Thomas at som.com>
+To: <BLDG-SIM at gard.com>
+Sent: Thursday, May 15, 2003 3:05 PM
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+
+
+Jon
+
+This is for a "pre-conceptual?" phase of a project and the only interest
+here at the moment is whether there is difference in chiller energy
+consumption.  As the project progresses we will be looking at other issues.
+I cannot give numbers from this rough "pre-analysis?" of the project because
+this is a confidential internal matter.  You could check out chiller and
+building component energy use with the various energy programs available.
+Each chiller size has to be at least 1000 tons and the building could be
+anything.  I only brought up this issue on BLDG-SIM because I think there
+might be a bug in the DOE2.1E program.
+
+Varkie
+
+-----Original Message-----
+From: Jon McHugh [mailto:mchugh at h-m-g.com]
+Sent: Thursday, May 15, 2003 3:53 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+
+
+Varkie,
+
+The percentage higher energy consumption at different leaving water
+temperatures is more useful than, " was higher, but not significantly higher
+(relative to potential savings in the pump operating, heat transfer
+equipment and piping costs)".  How much higher was the energy consumption in
+percentage?
+
+When you are talking about "heat transfer equipment" above are you talking
+about coils or something else?  If you are talking about coils - the next
+sentence says you haven't investigated this.
+
+How much did the coil loads change (%) from reducing the leaving water
+temperature?
+How much did chiller efficiency change (%) from reducing the leaving water
+temperature?
+How much did pumping energy change (%) from reducing leaving water
+temperature?
+Was piping diameter resized?
+
+Thanks,
+
+Jon McHugh
+
+-----Original Message-----
+From: Varkie Thomas [mailto:Varkie.Thomas at som.com]
+Sent: Thursday, May 15, 2003 12:58 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+
+
+This is in response to comments and questions that I received.
+
+This was a preliminary attempt using DOE2.1E to find out large tonnage
+chiller energy usage at decreasing LWTs and a fixed EWT to reduce the
+CHW-flow.  I may not have used the DOE2.1E correctly because results showed
+the chiller LWT was always the default value of 44F.  The test building was
+a single zone per floor, 70% single glass, with multiple floors to produce
+over 6000 tons.  The DOE2 program was run with SOM office building template
+defaults.  The TRACE program was run twice, with all TRACE defaults for an
+office building, VAV system and water-cooled centrifugal chillers, first
+with CHW temp range of 38 to 56 and next with 42 to 56.  In the first case
+the program gave warning messages for LWT < 40 and CHW-DT > 15.
+
+The energy usage of a chiller operating from 38 to 56 was higher, but not
+significantly higher (relative to potential savings in the pump operating,
+heat transfer equipment and piping costs) than 42 to 56.  This might be
+because of limitations in the energy program algorithms, and actual physical
+tests with chillers might produce different results. Cooling coil sizes in
+terms of fins, rows, etc are going to be affected.  I did not check this out
+using cooling coil selection programs.  I did not check or compare the
+results of the air-side system equipment performance.
+
+What would be the results from other energy programs such EnergyPlus, HAP
+and eQUEST?  I would be particularly interested in the results from HAP.  We
+do not have this program in this office.  I would also be interested in
+comments from Trane regarding the results from TRACE. Was the program used
+incorrectly?
+
+Varkie
+-------------------------------------------
+
+-----Original Message-----
+From: Varkie Thomas
+Sent: Thursday, May 15, 2003 8:48 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+
+
+To those who responded to this inquiry:
+
+We tested the two conditions with TRACE-700.  There is little difference in
+the energy consumed by the chillers for CHW temp range of 38F to 56F and 44F
+to 56F particularly in the large tonnage range.  This is also indicated in
+chiller performance data catalogs.  There is a big difference in pumping and
+piping costs.
+
+Varkie Thomas
+---------------------------------------
+
+We are trying to compare the performance of a 2000 ton chiller operating at
+(1) 42 F LWT and (2) 38 F LWT.  The chiller EWT is 56 in both cases.  The
+tower temp range is 85 F to 100 F.  We want to know how the chiller COP
+varies under these conditions.
+
+The hourly output for the design day from DOE2.1E shows chiller LWT of 44 F
+(DOE2 default) no matter what the input.  Here is the input and output for
+the option with 38 F Chiller LWT.  Can the Chiller LWT be changed from the
+default value of 44 F ?  How do I check that the CHW EWT & LWT temps are
+being maintained? Is the input below correct to model the conditions
+described?
+
+----------------------------------------------------------------
+
+PLANT-PARAMETERS
+
+CHILL-WTR-T = 37                     $ Def = 44. LWT at bottom of Thrott
+Range $
+CHILL-WTR-THROTT = 2.0         $ Def = 2.5. Thrott Range = 37 to 39.  LWT =
+38 $
+
+TWR-SETPT-T = 85
+TWR-DESIGN-RANGE = 15.0        $ Def = 10. Tower temp range :85 to 100 $
+
+CCIRC-DESIGN-T-DROP = 18       $ Def = 10. Chiller EWT = 56 $
+
+----------------------------------------------------------------
+
+
+MMDDHH    OPEN-CEN       OPEN-CEN    OPEN-CEN   OPEN-CEN   OPEN-CEN
+OPEN-CEN
+T-CHLR         T-CHLR      T-CHLR     T-CHLR     T-CHLR     T-CHLR
+LOAD           ELECTRIC    OPER PT    FRAC HR    ENTERING   LEAVING
+USE         LD RATIO   OPERATED   COND TEM   COLD TEM
+BTU/HR         KW          FRAC.OR    FRAC.OR    F          F
+MULT.      MULT.
+----( 1)       ----( 3)    ----(10)   ----(11)   ----(12)   ----(13)
+7 1 1             0.         0.000      0.000      0.000        0.0     0.0
+7 1 2             0.         0.000      0.000      0.000        0.0     0.0
+7 1 3             0.         0.000      0.000      0.000        0.0     0.0
+7 1 4             0.         0.000      0.000      0.000        0.0     0.0
+7 1 5             0.         0.000      0.000      0.000        0.0     0.0
+7 1 6       8887730.       528.301      0.328      1.000       84.6     44.0
+7 1 7      20704076.      1019.228      0.760      1.000       83.7     44.0
+7 1 8      25529894.      1301.530      0.940      1.000       84.3     44.0
+7 1 9      25563408.      1312.150      0.944      1.000       84.7     44.0
+7 110      22676038.      1142.870      0.838      1.000       84.9     44.0
+7 111      23148816.      1167.610      0.855      1.000       84.7     44.0
+7 112      22012680.      1103.797      0.813      1.000       84.7     44.0
+7 113      22536236.      1132.213      0.832      1.000       84.7     44.0
+7 114      22738694.      1144.069      0.840      1.000       84.7     44.0
+7 115      22827700.      1149.287      0.843      1.000       84.7     44.0
+7 116      22768860.      1146.011      0.841      1.000       84.7     44.0
+7 117      21899154.      1097.228      0.809      1.000       84.7     44.0
+7 118      20232738.      1007.025      0.747      1.000       84.7     44.0
+7 119             0.         0.000      0.000      0.000        0.0     0.0
+7 120             0.         0.000      0.000      0.000        0.0     0.0
+7 121             0.         0.000      0.000      0.000        0.0     0.0
+7 122             0.         0.000      0.000      0.000        0.0     0.0
+7 123             0.         0.000      0.000      0.000        0.0     0.0
+7 124             0.         0.000      0.000      0.000        0.0     0.0
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Varkie.Thomas at som.com  Thu May 15 15:05:55 2003
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Thu, 15 May 2003 18:05:55 -0400
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+Message-ID: <MDAEMON-F200305151706.AA0638625pd80000311297@gard.com>
+
+Jon
+
+This is for a "pre-conceptual?" phase of a project and the only interest here at the moment is whether there is difference in chiller energy consumption.  As the project progresses we will be looking at other issues.  I cannot give numbers from this rough "pre-analysis?" of the project because this is a confidential internal matter.  You could check out chiller and building component energy use with the various energy programs available.  Each chiller size has to be at least 1000 tons and the building could be anything.  I only brought up this issue on BLDG-SIM because I think there might be a bug in the DOE2.1E program.
+
+Varkie
+
+-----Original Message-----
+From: Jon McHugh [mailto:mchugh at h-m-g.com]
+Sent: Thursday, May 15, 2003 3:53 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+
+
+Varkie,
+
+The percentage higher energy consumption at different leaving water temperatures is more useful than, " was higher, but not significantly higher (relative to potential savings in the pump operating, heat transfer equipment and piping costs)".  How much higher was the energy consumption in percentage?
+
+When you are talking about "heat transfer equipment" above are you talking about coils or something else?  If you are talking about coils - the next sentence says you haven't investigated this.
+
+How much did the coil loads change (%) from reducing the leaving water temperature?
+How much did chiller efficiency change (%) from reducing the leaving water temperature?
+How much did pumping energy change (%) from reducing leaving water temperature?
+Was piping diameter resized?
+
+Thanks,
+
+Jon McHugh
+
+-----Original Message-----
+From: Varkie Thomas [mailto:Varkie.Thomas at som.com]
+Sent: Thursday, May 15, 2003 12:58 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+
+
+This is in response to comments and questions that I received.
+
+This was a preliminary attempt using DOE2.1E to find out large tonnage chiller energy usage at decreasing LWTs and a fixed EWT to reduce the CHW-flow.  I may not have used the DOE2.1E correctly because results showed the chiller LWT was always the default value of 44F.  The test building was a single zone per floor, 70% single glass, with multiple floors to produce over 6000 tons.  The DOE2 program was run with SOM office building template defaults.  The TRACE program was run twice, with all TRACE defaults for an office building, VAV system and water-cooled centrifugal chillers, first with CHW temp range of 38 to 56 and next with 42 to 56.  In the first case the program gave warning messages for LWT < 40 and CHW-DT > 15.  
+
+The energy usage of a chiller operating from 38 to 56 was higher, but not significantly higher (relative to potential savings in the pump operating, heat transfer equipment and piping costs) than 42 to 56.  This might be because of limitations in the energy program algorithms, and actual physical tests with chillers might produce different results. 	Cooling coil sizes in terms of fins, rows, etc are going to be affected.  I did not check this out using cooling coil selection programs.  I did not check or compare the results of the air-side system equipment performance.
+
+What would be the results from other energy programs such EnergyPlus, HAP and eQUEST?  I would be particularly interested in the results from HAP.  We do not have this program in this office.  I would also be interested in comments from Trane regarding the results from TRACE. Was the program used incorrectly?
+
+Varkie
+-------------------------------------------
+
+-----Original Message-----
+From: Varkie Thomas 
+Sent: Thursday, May 15, 2003 8:48 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+
+
+To those who responded to this inquiry:
+
+We tested the two conditions with TRACE-700.  There is little difference in the energy consumed by the chillers for CHW temp range of 38F to 56F and 44F to 56F particularly in the large tonnage range.  This is also indicated in chiller performance data catalogs.  There is a big difference in pumping and piping costs.
+
+Varkie Thomas
+---------------------------------------
+
+We are trying to compare the performance of a 2000 ton chiller operating at (1) 42 F LWT and (2) 38 F LWT.  The chiller EWT is 56 in both cases.  The tower temp range is 85 F to 100 F.  We want to know how the chiller COP varies under these conditions.  
+
+The hourly output for the design day from DOE2.1E shows chiller LWT of 44 F (DOE2 default) no matter what the input.  Here is the input and output for the option with 38 F Chiller LWT.  Can the Chiller LWT be changed from the default value of 44 F ?  How do I check that the CHW EWT & LWT temps are being maintained? Is the input below correct to model the conditions described?
+
+----------------------------------------------------------------
+
+PLANT-PARAMETERS
+
+CHILL-WTR-T = 37                     $ Def = 44. LWT at bottom of Thrott Range $
+CHILL-WTR-THROTT = 2.0         $ Def = 2.5. Thrott Range = 37 to 39.  LWT = 38 $
+
+TWR-SETPT-T = 85                      
+TWR-DESIGN-RANGE = 15.0        $ Def = 10. Tower temp range :85 to 100 $ 
+
+CCIRC-DESIGN-T-DROP = 18       $ Def = 10. Chiller EWT = 56 $
+
+----------------------------------------------------------------
+
+
+MMDDHH    OPEN-CEN       OPEN-CEN    OPEN-CEN   OPEN-CEN   OPEN-CEN   OPEN-CEN
+	T-CHLR         T-CHLR      T-CHLR     T-CHLR     T-CHLR     T-CHLR  
+	LOAD           ELECTRIC    OPER PT    FRAC HR    ENTERING   LEAVING 
+	USE         LD RATIO   OPERATED   COND TEM   COLD TEM
+	BTU/HR         KW          FRAC.OR    FRAC.OR    F          F  	 
+	MULT.      MULT.                    	 
+	----( 1)       ----( 3)    ----(10)   ----(11)   ----(12)   ----(13)
+	7 1 1             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 2             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 3             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 4             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 5             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 6       8887730.       528.301      0.328      1.000       84.6     	44.0
+	7 1 7      20704076.      1019.228      0.760      1.000       83.7     	44.0
+	7 1 8      25529894.      1301.530      0.940      1.000       84.3     	44.0
+	7 1 9      25563408.      1312.150      0.944      1.000       84.7     	44.0
+	7 110      22676038.      1142.870      0.838      1.000       84.9     	44.0
+	7 111      23148816.      1167.610      0.855      1.000       84.7     	44.0
+	7 112      22012680.      1103.797      0.813      1.000       84.7     	44.0
+	7 113      22536236.      1132.213      0.832      1.000       84.7     	44.0
+	7 114      22738694.      1144.069      0.840      1.000       84.7     	44.0
+	7 115      22827700.      1149.287      0.843      1.000       84.7     	44.0
+	7 116      22768860.      1146.011      0.841      1.000       84.7     	44.0
+	7 117      21899154.      1097.228      0.809      1.000       84.7     	44.0
+	7 118      20232738.      1007.025      0.747      1.000       84.7     	44.0
+	7 119             0.         0.000      0.000      0.000        0.0     	0.0
+	7 120             0.         0.000      0.000      0.000        0.0     	0.0
+	7 121             0.         0.000      0.000      0.000        0.0     	0.0
+	7 122             0.         0.000      0.000      0.000        0.0     	0.0
+	7 123             0.         0.000      0.000      0.000        0.0     	0.0
+	7 124             0.         0.000      0.000      0.000        0.0     	0.0
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mchugh at h-m-g.com  Thu May 15 13:52:39 2003
+From: mchugh at h-m-g.com (Jon McHugh)
+Date: Thu, 15 May 2003 13:52:39 -0700
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+Message-ID: <MDAEMON-F200305151548.AA4841171pd80000311213@gard.com>
+
+Varkie,
+
+The percentage higher energy consumption at different leaving water temperatures is more useful than, " was higher, but not significantly higher (relative to potential savings in the pump operating, heat transfer equipment and piping costs)".  How much higher was the energy consumption in percentage?
+
+When you are talking about "heat transfer equipment" above are you talking about coils or something else?  If you are talking about coils - the next sentence says you haven't investigated this.
+
+How much did the coil loads change (%) from reducing the leaving water temperature?
+How much did chiller efficiency change (%) from reducing the leaving water temperature?
+How much did pumping energy change (%) from reducing leaving water temperature?
+Was piping diameter resized?
+
+Thanks,
+
+Jon McHugh
+
+-----Original Message-----
+From: Varkie Thomas [mailto:Varkie.Thomas at som.com]
+Sent: Thursday, May 15, 2003 12:58 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+
+
+This is in response to comments and questions that I received.
+
+This was a preliminary attempt using DOE2.1E to find out large tonnage chiller energy usage at decreasing LWTs and a fixed EWT to reduce the CHW-flow.  I may not have used the DOE2.1E correctly because results showed the chiller LWT was always the default value of 44F.  The test building was a single zone per floor, 70% single glass, with multiple floors to produce over 6000 tons.  The DOE2 program was run with SOM office building template defaults.  The TRACE program was run twice, with all TRACE defaults for an office building, VAV system and water-cooled centrifugal chillers, first with CHW temp range of 38 to 56 and next with 42 to 56.  In the first case the program gave warning messages for LWT < 40 and CHW-DT > 15.  
+
+The energy usage of a chiller operating from 38 to 56 was higher, but not significantly higher (relative to potential savings in the pump operating, heat transfer equipment and piping costs) than 42 to 56.  This might be because of limitations in the energy program algorithms, and actual physical tests with chillers might produce different results. 	Cooling coil sizes in terms of fins, rows, etc are going to be affected.  I did not check this out using cooling coil selection programs.  I did not check or compare the results of the air-side system equipment performance.
+
+What would be the results from other energy programs such EnergyPlus, HAP and eQUEST?  I would be particularly interested in the results from HAP.  We do not have this program in this office.  I would also be interested in comments from Trane regarding the results from TRACE. Was the program used incorrectly?
+
+Varkie
+-------------------------------------------
+
+-----Original Message-----
+From: Varkie Thomas 
+Sent: Thursday, May 15, 2003 8:48 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+
+
+To those who responded to this inquiry:
+
+We tested the two conditions with TRACE-700.  There is little difference in the energy consumed by the chillers for CHW temp range of 38F to 56F and 44F to 56F particularly in the large tonnage range.  This is also indicated in chiller performance data catalogs.  There is a big difference in pumping and piping costs.
+
+Varkie Thomas
+---------------------------------------
+
+We are trying to compare the performance of a 2000 ton chiller operating at (1) 42 F LWT and (2) 38 F LWT.  The chiller EWT is 56 in both cases.  The tower temp range is 85 F to 100 F.  We want to know how the chiller COP varies under these conditions.  
+
+The hourly output for the design day from DOE2.1E shows chiller LWT of 44 F (DOE2 default) no matter what the input.  Here is the input and output for the option with 38 F Chiller LWT.  Can the Chiller LWT be changed from the default value of 44 F ?  How do I check that the CHW EWT & LWT temps are being maintained? Is the input below correct to model the conditions described?
+
+----------------------------------------------------------------
+
+PLANT-PARAMETERS
+
+CHILL-WTR-T = 37                     $ Def = 44. LWT at bottom of Thrott Range $
+CHILL-WTR-THROTT = 2.0         $ Def = 2.5. Thrott Range = 37 to 39.  LWT = 38 $
+
+TWR-SETPT-T = 85                      
+TWR-DESIGN-RANGE = 15.0        $ Def = 10. Tower temp range :85 to 100 $ 
+
+CCIRC-DESIGN-T-DROP = 18       $ Def = 10. Chiller EWT = 56 $
+
+----------------------------------------------------------------
+
+
+MMDDHH    OPEN-CEN       OPEN-CEN    OPEN-CEN   OPEN-CEN   OPEN-CEN   OPEN-CEN
+	T-CHLR         T-CHLR      T-CHLR     T-CHLR     T-CHLR     T-CHLR  
+	LOAD           ELECTRIC    OPER PT    FRAC HR    ENTERING   LEAVING 
+	USE         LD RATIO   OPERATED   COND TEM   COLD TEM
+	BTU/HR         KW          FRAC.OR    FRAC.OR    F          F  	 
+	MULT.      MULT.                    	 
+	----( 1)       ----( 3)    ----(10)   ----(11)   ----(12)   ----(13)
+	7 1 1             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 2             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 3             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 4             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 5             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 6       8887730.       528.301      0.328      1.000       84.6     	44.0
+	7 1 7      20704076.      1019.228      0.760      1.000       83.7     	44.0
+	7 1 8      25529894.      1301.530      0.940      1.000       84.3     	44.0
+	7 1 9      25563408.      1312.150      0.944      1.000       84.7     	44.0
+	7 110      22676038.      1142.870      0.838      1.000       84.9     	44.0
+	7 111      23148816.      1167.610      0.855      1.000       84.7     	44.0
+	7 112      22012680.      1103.797      0.813      1.000       84.7     	44.0
+	7 113      22536236.      1132.213      0.832      1.000       84.7     	44.0
+	7 114      22738694.      1144.069      0.840      1.000       84.7     	44.0
+	7 115      22827700.      1149.287      0.843      1.000       84.7     	44.0
+	7 116      22768860.      1146.011      0.841      1.000       84.7     	44.0
+	7 117      21899154.      1097.228      0.809      1.000       84.7     	44.0
+	7 118      20232738.      1007.025      0.747      1.000       84.7     	44.0
+	7 119             0.         0.000      0.000      0.000        0.0     	0.0
+	7 120             0.         0.000      0.000      0.000        0.0     	0.0
+	7 121             0.         0.000      0.000      0.000        0.0     	0.0
+	7 122             0.         0.000      0.000      0.000        0.0     	0.0
+	7 123             0.         0.000      0.000      0.000        0.0     	0.0
+	7 124             0.         0.000      0.000      0.000        0.0     	0.0
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Varkie.Thomas at som.com  Thu May 15 12:57:56 2003
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Thu, 15 May 2003 15:57:56 -0400
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+Message-ID: <MDAEMON-F200305151500.AA0017312pd80000311158@gard.com>
+
+This is in response to comments and questions that I received.
+
+This was a preliminary attempt using DOE2.1E to find out large tonnage chiller energy usage at decreasing LWTs and a fixed EWT to reduce the CHW-flow.  I may not have used the DOE2.1E correctly because results showed the chiller LWT was always the default value of 44F.  The test building was a single zone per floor, 70% single glass, with multiple floors to produce over 6000 tons.  The DOE2 program was run with SOM office building template defaults.  The TRACE program was run twice, with all TRACE defaults for an office building, VAV system and water-cooled centrifugal chillers, first with CHW temp range of 38 to 56 and next with 42 to 56.  In the first case the program gave warning messages for LWT < 40 and CHW-DT > 15.  
+
+The energy usage of a chiller operating from 38 to 56 was higher, but not significantly higher (relative to potential savings in the pump operating, heat transfer equipment and piping costs) than 42 to 56.  This might be because of limitations in the energy program algorithms, and actual physical tests with chillers might produce different results. 	Cooling coil sizes in terms of fins, rows, etc are going to be affected.  I did not check this out using cooling coil selection programs.  I did not check or compare the results of the air-side system equipment performance.
+
+What would be the results from other energy programs such EnergyPlus, HAP and eQUEST?  I would be particularly interested in the results from HAP.  We do not have this program in this office.  I would also be interested in comments from Trane regarding the results from TRACE. Was the program used incorrectly?
+
+Varkie
+-------------------------------------------
+
+-----Original Message-----
+From: Varkie Thomas 
+Sent: Thursday, May 15, 2003 8:48 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+
+
+To those who responded to this inquiry:
+
+We tested the two conditions with TRACE-700.  There is little difference in the energy consumed by the chillers for CHW temp range of 38F to 56F and 44F to 56F particularly in the large tonnage range.  This is also indicated in chiller performance data catalogs.  There is a big difference in pumping and piping costs.
+
+Varkie Thomas
+---------------------------------------
+
+We are trying to compare the performance of a 2000 ton chiller operating at (1) 42 F LWT and (2) 38 F LWT.  The chiller EWT is 56 in both cases.  The tower temp range is 85 F to 100 F.  We want to know how the chiller COP varies under these conditions.  
+
+The hourly output for the design day from DOE2.1E shows chiller LWT of 44 F (DOE2 default) no matter what the input.  Here is the input and output for the option with 38 F Chiller LWT.  Can the Chiller LWT be changed from the default value of 44 F ?  How do I check that the CHW EWT & LWT temps are being maintained? Is the input below correct to model the conditions described?
+
+----------------------------------------------------------------
+
+PLANT-PARAMETERS
+
+CHILL-WTR-T = 37                     $ Def = 44. LWT at bottom of Thrott Range $
+CHILL-WTR-THROTT = 2.0         $ Def = 2.5. Thrott Range = 37 to 39.  LWT = 38 $
+
+TWR-SETPT-T = 85                      
+TWR-DESIGN-RANGE = 15.0        $ Def = 10. Tower temp range :85 to 100 $ 
+
+CCIRC-DESIGN-T-DROP = 18       $ Def = 10. Chiller EWT = 56 $
+
+----------------------------------------------------------------
+
+
+MMDDHH    OPEN-CEN       OPEN-CEN    OPEN-CEN   OPEN-CEN   OPEN-CEN   OPEN-CEN
+	T-CHLR         T-CHLR      T-CHLR     T-CHLR     T-CHLR     T-CHLR  
+	LOAD           ELECTRIC    OPER PT    FRAC HR    ENTERING   LEAVING 
+	USE         LD RATIO   OPERATED   COND TEM   COLD TEM
+	BTU/HR         KW          FRAC.OR    FRAC.OR    F          F  	 
+	MULT.      MULT.                    	 
+	----( 1)       ----( 3)    ----(10)   ----(11)   ----(12)   ----(13)
+	7 1 1             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 2             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 3             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 4             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 5             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 6       8887730.       528.301      0.328      1.000       84.6     	44.0
+	7 1 7      20704076.      1019.228      0.760      1.000       83.7     	44.0
+	7 1 8      25529894.      1301.530      0.940      1.000       84.3     	44.0
+	7 1 9      25563408.      1312.150      0.944      1.000       84.7     	44.0
+	7 110      22676038.      1142.870      0.838      1.000       84.9     	44.0
+	7 111      23148816.      1167.610      0.855      1.000       84.7     	44.0
+	7 112      22012680.      1103.797      0.813      1.000       84.7     	44.0
+	7 113      22536236.      1132.213      0.832      1.000       84.7     	44.0
+	7 114      22738694.      1144.069      0.840      1.000       84.7     	44.0
+	7 115      22827700.      1149.287      0.843      1.000       84.7     	44.0
+	7 116      22768860.      1146.011      0.841      1.000       84.7     	44.0
+	7 117      21899154.      1097.228      0.809      1.000       84.7     	44.0
+	7 118      20232738.      1007.025      0.747      1.000       84.7     	44.0
+	7 119             0.         0.000      0.000      0.000        0.0     	0.0
+	7 120             0.         0.000      0.000      0.000        0.0     	0.0
+	7 121             0.         0.000      0.000      0.000        0.0     	0.0
+	7 122             0.         0.000      0.000      0.000        0.0     	0.0
+	7 123             0.         0.000      0.000      0.000        0.0     	0.0
+	7 124             0.         0.000      0.000      0.000        0.0     	0.0
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From greensim at lara.on.ca  Thu May 15 09:20:18 2003
+From: greensim at lara.on.ca (Brian Fountain)
+Date: Thu, 15 May 2003 12:20:18 -0400
+Subject: [BLDG-SIM] Integrated Design Charrette - Toronto - June 3rd, 2003
+Message-ID: <MDAEMON-F200305151116.AA1615671pd80000310998@gard.com>
+
+Sustainable Buildings Canada is hosting an open integrated design Charrette
+looking at a multi-unit residential high-rise building being designed for
+mid-town Toronto.
+
+INTEGRATED DESIGN CHARRETTE
+?
+When: Tuesday June 3rd, 2003 ? 8:30am to 5:00pm
+?
+Where: Toronto City Hall, Toronto, Ontario
+?
+What: Join one of the green teams of architects, engineers and other design
+professionals at this sustainable
+design Charrette. Apply your imagination and technical know-how, and use the
+integrated design
+process on a real multi-residential project located at Eglinton and Yonge in
+Toronto.
+?
+For details and registration information or contact:
+Mike Singleton
+Sustainable Buildings Canada
+mike-singleton at rogers.com
+Tel: (416) 751-2346
+
+
+?
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Varkie.Thomas at som.com  Thu May 15 06:48:25 2003
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Thu, 15 May 2003 09:48:25 -0400
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+Message-ID: <MDAEMON-F200305150849.AA492862pd80000310856@gard.com>
+
+To those who responded to this inquiry:
+
+We tested the two conditions with TRACE-700.  There is little difference in the energy consumed by the chillers for CHW temp range of 38F to 56F and 44F to 56F particularly in the large tonnage range.  This is also indicated in chiller performance data catalogs.  There is a big difference in pumping and piping costs.
+
+Varkie Thomas
+
+
+-----Original Message-----
+From: Fred Porter [mailto:fporter at archenergy.com]
+Sent: Wednesday, May 14, 2003 11:08 AM
+To: BLDG-SIM at gard.com
+Cc: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+
+
+Common problem. You are using a recent version of DOE2 based on an 
+implementation by Jeff Hirsch, but using documentation and keywords from 
+older versions. All CHW & HW characteristics are now declared in Systems 
+Plant Assignment, not Plant Plant Parameters, CW stuff is still in PLANT.
+
+Correct documentation is available from DOE2.com. The v110 bdl 
+supplement or something like that.
+
+However, for plant analysis at this level of detail, I would highly 
+recommend DOE2.2, instead of DOE2.1.
+
+Varkie Thomas wrote:
+
+>  DOE2.1E shows chiller LWT of 44 F (DOE2 default) no matter what the input.  Here is the input and output for the option with 38 F Chiller LWT.  
+>
+
+>
+>
+>----------------------------------------------------------------
+>
+>PLANT-PARAMETERS
+>
+>CHILL-WTR-T = 37                     $ Def = 44. LWT at bottom of Thrott Range $
+>CHILL-WTR-THROTT = 2.0         $ Def = 2.5. Thrott Range = 37 to 39.  LWT = 38 $
+>
+>TWR-SETPT-T = 85                      
+>TWR-DESIGN-RANGE = 15.0        $ Def = 10. Tower temp range :85 to 100 $ 
+>
+>CCIRC-DESIGN-T-DROP = 18       $ Def = 10. Chiller EWT = 56 $
+>
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From fporter at archenergy.com  Wed May 14 09:08:09 2003
+From: fporter at archenergy.com (Fred Porter)
+Date: Wed, 14 May 2003 10:08:09 -0600
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+References: <MDAEMON-F200305141043.AA4347406pd80000452801@gard.com>
+Message-ID: <MDAEMON-F200305141106.AA0644187pd80000310239@gard.com>
+
+Common problem. You are using a recent version of DOE2 based on an 
+implementation by Jeff Hirsch, but using documentation and keywords from 
+older versions. All CHW & HW characteristics are now declared in Systems 
+Plant Assignment, not Plant Plant Parameters, CW stuff is still in PLANT.
+
+Correct documentation is available from DOE2.com. The v110 bdl 
+supplement or something like that.
+
+However, for plant analysis at this level of detail, I would highly 
+recommend DOE2.2, instead of DOE2.1.
+
+Varkie Thomas wrote:
+
+>  DOE2.1E shows chiller LWT of 44 F (DOE2 default) no matter what the input.  Here is the input and output for the option with 38 F Chiller LWT.  
+>
+
+>
+>
+>----------------------------------------------------------------
+>
+>PLANT-PARAMETERS
+>
+>CHILL-WTR-T = 37                     $ Def = 44. LWT at bottom of Thrott Range $
+>CHILL-WTR-THROTT = 2.0         $ Def = 2.5. Thrott Range = 37 to 39.  LWT = 38 $
+>
+>TWR-SETPT-T = 85                      
+>TWR-DESIGN-RANGE = 15.0        $ Def = 10. Tower temp range :85 to 100 $ 
+>
+>CCIRC-DESIGN-T-DROP = 18       $ Def = 10. Chiller EWT = 56 $
+>
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Varkie.Thomas at som.com  Wed May 14 08:42:56 2003
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Wed, 14 May 2003 11:42:56 -0400
+Subject: [BLDG-SIM] DOE2.1E Chiller performance
+Message-ID: <MDAEMON-F200305141043.AA4350734pd80000310219@gard.com>
+
+We are trying to compare the performance of a 2000 ton chiller operating at (1) 42 F LWT and (2) 38 F LWT.  The chiller EWT is 56 in both cases.  The tower temp range is 85 F to 100 F.  We want to know how the chiller COP varies under these conditions.  
+
+The hourly output for the design day from DOE2.1E shows chiller LWT of 44 F (DOE2 default) no matter what the input.  Here is the input and output for the option with 38 F Chiller LWT.  Can the Chiller LWT be changed from the default value of 44 F ?  How do I check that the CHW EWT & LWT temps are being maintained? Is the input below correct to model the conditions described?
+
+----------------------------------------------------------------
+
+PLANT-PARAMETERS
+
+CHILL-WTR-T = 37                     $ Def = 44. LWT at bottom of Thrott Range $
+CHILL-WTR-THROTT = 2.0         $ Def = 2.5. Thrott Range = 37 to 39.  LWT = 38 $
+
+TWR-SETPT-T = 85                      
+TWR-DESIGN-RANGE = 15.0        $ Def = 10. Tower temp range :85 to 100 $ 
+
+CCIRC-DESIGN-T-DROP = 18       $ Def = 10. Chiller EWT = 56 $
+
+----------------------------------------------------------------
+
+
+MMDDHH    OPEN-CEN       OPEN-CEN    OPEN-CEN   OPEN-CEN   OPEN-CEN   OPEN-CEN
+	T-CHLR         T-CHLR      T-CHLR     T-CHLR     T-CHLR     T-CHLR  
+	LOAD           ELECTRIC    OPER PT    FRAC HR    ENTERING   LEAVING 
+	USE         LD RATIO   OPERATED   COND TEM   COLD TEM
+	BTU/HR         KW          FRAC.OR    FRAC.OR    F          F  	 
+	MULT.      MULT.                    	 
+	----( 1)       ----( 3)    ----(10)   ----(11)   ----(12)   ----(13)
+	7 1 1             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 2             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 3             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 4             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 5             0.         0.000      0.000      0.000        0.0     	0.0
+	7 1 6       8887730.       528.301      0.328      1.000       84.6     	44.0
+	7 1 7      20704076.      1019.228      0.760      1.000       83.7     	44.0
+	7 1 8      25529894.      1301.530      0.940      1.000       84.3     	44.0
+	7 1 9      25563408.      1312.150      0.944      1.000       84.7     	44.0
+	7 110      22676038.      1142.870      0.838      1.000       84.9     	44.0
+	7 111      23148816.      1167.610      0.855      1.000       84.7     	44.0
+	7 112      22012680.      1103.797      0.813      1.000       84.7     	44.0
+	7 113      22536236.      1132.213      0.832      1.000       84.7     	44.0
+	7 114      22738694.      1144.069      0.840      1.000       84.7     	44.0
+	7 115      22827700.      1149.287      0.843      1.000       84.7     	44.0
+	7 116      22768860.      1146.011      0.841      1.000       84.7     	44.0
+	7 117      21899154.      1097.228      0.809      1.000       84.7     	44.0
+	7 118      20232738.      1007.025      0.747      1.000       84.7     	44.0
+	7 119             0.         0.000      0.000      0.000        0.0     	0.0
+	7 120             0.         0.000      0.000      0.000        0.0     	0.0
+	7 121             0.         0.000      0.000      0.000        0.0     	0.0
+	7 122             0.         0.000      0.000      0.000        0.0     	0.0
+	7 123             0.         0.000      0.000      0.000        0.0     	0.0
+	7 124             0.         0.000      0.000      0.000        0.0     	0.0
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mjwitte at gard.com  Mon May 12 10:43:14 2003
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Mon, 12 May 2003 12:43:14 -0500
+Subject: [BLDG-SIM] EnergyPlus Advanced Workshop
+Message-ID: <MDAEMON-F200305121237.AA3726531pd80000308640@gard.com>
+
+(Please excuse cross postings.  Thank you.)
+
+*** Upcoming EnergyPlus Training Workshop *** 
+
+EnergyPlus Advanced Workshop  
+June 3-4, 2003
+Register by May 16 for discounted fee
+
+(NOTE: This class will definitely be offered.)
+
+This course will build on concepts introduced in the "EnergyPlus
+Introductory Workshop for Beginning Modelers" and  "EnergyPlus
+Introductory Workshop for Experienced Modelers", and will introduce
+some of the more advanced simulation concepts including: 
+
+ground heat transfer, daylighting, COMIS airflow, outside air 
+treatment (separate outside air handler, desiccant dehumifier, 
+evaporative cooler, and heat recovery), primary/secondary pumping, 
+water-side economizer (free cooling with heat exchanger and direct 
+tower to coil), set point controls, and availability managers.  
+
+Time will be set aside to allow students to model building envelopes 
+and systems using the latest version of EnergyPlus on their own 
+laptop computers.   
+
+The workshop will be held at the Wingate Inn in Prospect Heights,
+Illinois, USA (a northwest suburb of Chicago). 
+
+For more information, please visit the EnergyPlus Training website at 
+
+  http://www.gard.com/training.htm  
+
+Please direct questions to EnergyPlus-Training at gard.com.   
+
+EnergyPlus is the U.S. Department of Energy's new generation building
+energy simulation program. It includes many innovative simulation
+capabilities including time steps of less than one hour and modular
+systems simulation modules that are integrated with a heat balance-
+based zone simulation.  To learn more about EnergyPlus, please visit
+
+http://www.energyplus.gov
+
+========================================================
+EnergyPlus Training         EnergyPlus-Training at gard.com
+Michael J. Witte
+GARD Analytics, Inc.                        www.gard.com
+1028 Busse Highway                    Phone 847-698-5685
+Park Ridge, Illinois 60068-1802         FAX 847-698-5600
+USA          Energy, Environmental and Economic Research
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mjesus at fe.up.pt  Mon May 12 04:03:38 2003
+From: mjesus at fe.up.pt (Miguel Jesus)
+Date: Mon, 12 May 2003 12:03:38 +0100
+Subject: [BLDG-SIM] energyplus ... solar collectors ...
+Message-ID: <MDAEMON-F200305120559.AA5941875pd80000308381@gard.com>
+
+Dear colleagues,
+
+I could?t find in the EnergyPlus documentation the answer to my question
+...so i would like to put it again  ... Any one knows if it?s possible
+in EnergyPlus to simulate solar collectors? Does anyone knows something
+about it ? I think it's not possible, but i would like to be sure about
+it ...
+
+Thanks for your help,
+
+Miguel Jeus
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From lvanbelle at tei-engineering.com  Fri May  9 09:10:21 2003
+From: lvanbelle at tei-engineering.com (L. Calvin van Belle)
+Date: Fri, 9 May 2003 09:10:21 -0700
+Subject: [BLDG-SIM] EnergyPlus ... sun collectors ... sunspaces ...
+In-Reply-To: <MDAEMON-F200305091010.AA1034546pd80000449970@gard.com>
+Message-ID: <MDAEMON-F200305091101.AA0126453pd80000306723@gard.com>
+
+Miguel,
+
+There is a trombe wall example in the example files with included with
+EnergyPlus.  I haven't run it, but it seems like that might be something to
+pick apart and use to your purposes.
+
+The path should be:
+  EnergyPlus\ExampleFiles\Misc\PassiveTrombeWall.idf
+There is also an active trombe wall stored under:
+    EnergyPlus\ExampleFiles\Misc\ActiveTrombeWall.idf
+
+I hope this helps.
+
+Louis
+___________________________________________
+L. Calvin van Belle     Phone: 206-241-2012
+Mechanical Engineer     Fax:   206-241-3101
+       lvanbelle at tei-engineering.com
+                  T. E. I.
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Miguel
+Jesus
+Sent: Friday, May 09, 2003 8:14 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] EnergyPlus ... sun collectors ... sunspaces ...
+
+
+Dear colleagues,
+
+Fisrt of all thanks for those that responded me about trombe walls
+aspects.
+Now i have another question ... Any one knows if it?s possible in
+EnergyPlus to simulate sun collectors and sunspaces. I presume that it
+should be possible to construct a normal space that would be, in real, a
+sunspace, but i'm not sure ... Does anyone knows something about it ?
+Thanks for your help,
+
+Miguel Jesus
+University of Porto
+
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mjesus at fe.up.pt  Fri May  9 08:14:26 2003
+From: mjesus at fe.up.pt (Miguel Jesus)
+Date: Fri, 09 May 2003 16:14:26 +0100
+Subject: [BLDG-SIM] EnergyPlus ... sun collectors ... sunspaces ...
+Message-ID: <MDAEMON-F200305091010.AA1030781pd80000306672@gard.com>
+
+Dear colleagues,
+
+Fisrt of all thanks for those that responded me about trombe walls
+aspects.
+Now i have another question ... Any one knows if it?s possible in
+EnergyPlus to simulate sun collectors and sunspaces. I presume that it
+should be possible to construct a normal space that would be, in real, a
+sunspace, but i'm not sure ... Does anyone knows something about it ?
+Thanks for your help,
+
+Miguel Jesus
+University of Porto
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jon at esru.strath.ac.uk  Fri May  9 01:37:49 2003
+From: jon at esru.strath.ac.uk (Jon Hand)
+Date: Fri, 09 May 2003 09:37:49 +0100
+Subject: [BLDG-SIM] trombe walls
+References: <MDAEMON-F200305081007.AA0759781pd80000448003@gard.com>
+Message-ID: <MDAEMON-F200305090330.AA3031515pd80000306464@gard.com>
+
+
+A recent question about ventilated facades...
+
+Esp-r has been used to represent various ventilated facades
+and buffer spaces (in research studies and in the 
+context of consulting projects). An experienced user
+can adapt the resolution of the model form, composition, 
+control actions and flow regimes as required. 
+
+Such studies might require a bit of care, but are
+well suppored by the tight coupling of the 
+building and network flow and/or CFD domains.
+
+For more information about ESP-r see the web page
+<http://www.esru.strath.ac.uk>
+
+-Jon Hand, Senior Research Fellow, University of Strathclyde, Glasgow
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kummert at engr.wisc.edu  Thu May  8 13:16:14 2003
+From: kummert at engr.wisc.edu (=?iso-8859-1?Q?Micha=EBl_Kummert?=)
+Date: Thu, 8 May 2003 15:16:14 -0500
+Subject: [BLDG-SIM] trombe walls
+In-Reply-To: <MDAEMON-F200305081008.AA0801281pd80000448039@gard.com>
+Message-ID: <MDAEMON-F200305081511.AA1124296pd80000305990@gard.com>
+
+Dear Miguel Jesus,
+
+The standard TRNSYS library includes a Trombe Wall model (Type 36). A quick
+web search will give you many references on modeling Trombe Walls in TRNSYS.
+
+It is also easy to create or modify a TRNSYS component, in case Type 36
+would not be suited to your partcular case. 
+
+Regards,
+
+Micha?l Kummert
+
+_________________________________________________________
+
+Micha?l Kummert
+
+Solar Energy Laboratory - University of Wisconsin-Madison
+1303 Engr Res Bldg, 1500 Engineering Drive
+Madison, WI 53706
+
+Tel: +1 (608) 263-1589
+Fax: +1 (608) 262-8464
+E-mail: kummert at engr.wisc.edu
+
+SEL Web Site: http://sel.me.wisc.edu 
+TRNSYS Web Site: http://sel.me.wisc.edu/trnsys
+
+
+> -----Original Message-----
+> From: postman at gard.com [mailto:postman at gard.com] On Behalf Of 
+> Miguel Jesus
+> Sent: Thursday, May 08, 2003 10:12
+> To: BLDG-SIM at gard.com
+> Subject: [BLDG-SIM] trombe walls
+> 
+> 
+> Dear colleagues:
+> 
+> I'm working in building energy aspects, and i would like to 
+> know if it is possible to simulate (with good accuracy), 
+> trombe walls and buffer spaces. I usually work with DOE 
+> (Visual), but the question is extensive to other softwares, 
+> such as trnsys or esp ... I don't know if someone of
+> 
+> you has already done some work or study about this aspect. 
+> Thanks for your help,
+> 
+> Miguel Jesus
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mjesus at fe.up.pt  Thu May  8 08:11:33 2003
+From: mjesus at fe.up.pt (Miguel Jesus)
+Date: Thu, 08 May 2003 16:11:33 +0100
+Subject: [BLDG-SIM] trombe walls
+Message-ID: <MDAEMON-F200305081007.AA0759140pd80000305738@gard.com>
+
+Dear colleagues:
+
+I'm working in building energy aspects, and i would like to know if it
+is possible to simulate (with good accuracy), trombe walls and buffer
+spaces. I usually work with DOE (Visual), but the question is extensive
+to other softwares, such as trnsys or esp ... I don't know if someone of
+
+you has already done some work or study about this aspect.
+Thanks for your help,
+
+Miguel Jesus
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mwilsonbc at yahoo.com  Wed May  7 14:06:11 2003
+From: mwilsonbc at yahoo.com (Michael Wilson)
+Date: Wed, 7 May 2003 14:06:11 -0700 (PDT)
+Subject: [BLDG-SIM] Outside air ratio
+Message-ID: <MDAEMON-F200305071602.AA022115pd80000305127@gard.com>
+
+Hi, I'm running a single zone building using system
+SZRH. But I can't seem to specify an outside air ratio
+below 10%. When I do, the report SV-A lists the
+correct OA at the zone level, but 10% at the system
+level. This is backed up in hourly reports, and by the
+fact my results don't change. It doesn't seem to
+matter whether there is an economizer or not, or
+whether I specify the OA at the zone or at the system.
+Does anybody know if this is a bug in Doe2, or what
+the answer might be? I'm using Doe2.1e, v.133.
+
+Thanks
+
+=====
+Michael Wilson
+455 Elphinstone Ave.
+Gibsons, BC, V0N 1V1
+604-886-9864 phone
+604-676-2604 fax
+
+__________________________________
+Do you Yahoo!?
+The New Yahoo! Search - Faster. Easier. Bingo.
+http://search.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jon at esru.strath.ac.uk  Wed May  7 00:54:05 2003
+From: jon at esru.strath.ac.uk (Jon Hand)
+Date: Wed, 07 May 2003 08:54:05 +0100
+Subject: [BLDG-SIM] Announcing the first ESP-r developers conference and workshop
+Message-ID: <MDAEMON-F200305070246.AA4658468pd80000304544@gard.com>
+
+Announcing the first ESP-r developers conference and workshop
+
+August 18-21 2003 University of Strathclyde, Glasgow Scotland 
+
+Since switching to the GPL distribution and development approach for
+ESP-r there have been a growing number of individuals and groups who
+have downloaded the distribution and who are making use of it in their
+work, businesses and classrooms. With this expanding user community
+comes an increasing demand to evolve the system.
+
+We want current and potential developers from all over the world to come
+together for a conference and workshop to expand their skills and focus 
+on the evolution of ESP-r. This meeting follows on from the IBPSA 
+conference in Eindhoven and we hope that many of the delegates will 
+be able to attend. 
+
+An initial schedule of events is listed below and updates to the 
+venue and speakers and workshop sessions will be posted to the
+ESRU web site <http://www.esru.strath.ac.uk>.
+
+Monday 18 August: Conference on Current and Future Developments of ESP-r
+------------------------------------------------------------------------
+The aim of this day is to have presentations from researchers
+who are actively developing ESP-r, and to have a session on 
+future directions and requirements.
+
+Preliminary presentations scheduled are: 
+* Brief development history of ESP-r - Joe Clarke (ESRU)
+* Overview of current development efforts and impact of GPL - Jon Hand
+(ESRU) 
+* Building other tools from ESP-r - Phylroy Lopez (NRCan)
+* Acoustics and life-cycle assessments as new domains - Stephane
+Citherlet (EIVD)
+* ESP-r & Radiance co-operative working - Iain MacDonald (SESG)
+* Systems/electrical simulation (code/components/structures) - Nick
+Kelly (ESRU)
+* Overview of current mechanisms for generating and testing
+  code/models/databases/documentation for inclusion in the
+  archive and discussion on how this might evolve for a
+  larger development community 
+* Brainstorming on what ESP-r might become
+* Brainstorming on community support for ESP-r
+* Conference summary
+
+Tuesday 19 August: Basic course on ESP-r development
+----------------------------------------------------
+The aim of this day is to give participants an overview of 
+the ESP-r structure, procedures and tools for code development,
+validation and integration of developments into the ESP-r distribution.
+
+Topics include:
+* ESP-r data model
+* Structure of the code distribution including libraries
+* Code development guide
+* Compiling and creating a development workspace
+* Exercises on compiling and modifying source code
+* Exercises on code checking and development tools
+
+Wednesday 20 August: Advanced topics for developers
+---------------------------------------------------
+The aim of this day is to look at theory and implementation
+of key parts of the ESP-r system.
+
+Topics include:
+* The solvers (building/flow/CFD)
+* Inter-domain communication
+* Thermophysical sub-systems
+* Data exchange with other software agents
+* Working with other software agents
+* Solar process - an exploration of code and data structures
+* Adding functionality to ESP-r and extending the data model
+* Workshop summary
+
+Thursday 21 August: Individual projects
+--------------------------------------
+The aim of this day for those wishing to stay is to discuss
+in detail current and future developments of participants.
+
+It will start with a session planning ongoing and future
+developments, after which there will be detailed discussions
+on specific developments of interest to participants
+
+------------------------------------------------------------
+Each day will run from 9:00 to 17:00. There will be a 
+dinner on Tuesday evening.
+
+Some sessions will require access to a computer capable of running
+ESP-r as well as compiling source code. We encourage you to
+bring along a laptop with a current ESP-r distribution and 
+development tools already installed and power adaptors suitable for 
+plugging into standard UK sockets. Note: ESP-r can be compiled
+and run on a Windows only machine; however, that platform is
+considered a BETA and Linux/Unix is the preferred setup for
+the workshop sessions.
+
+To register your interest in the conference please tick the 
+boxes below and email back to Jon Hand (jon at esru.strath.ac.uk).
+Remember to check the ESRU web pages for the latest news.
+
+The conference and workshops fee (including Tuesday dinner) is 150
+Pounds.
+Workshops only fee is 100 Pounds and conference-only fee is 75 Pounds.
+
+Details of accommodation will be listed on the ESRU web page.
+
+-------------------------------------------------------------
+
+Name:____________________
+Organisation:____________
+Email:___________________
+
+[ ] I would like to attend the basic workshop
+[ ] I would like to attend the advanced workshop
+[ ] I would like to attend the conference
+
+[ ] I would like to contribute to a conference session
+    and my contribution is ______________________________
+
+[ ] I would like to help with to workshop session(s)
+    ___________________________________________
+
+[ ] I am interested in a joint project (involving an extended visit)
+    (description) _____________________________
+
+[ ] I will be bringing a laptop computer.
+
+Regards, ESRU
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mroberts20 at kc.rr.com  Tue May  6 14:00:11 2003
+From: mroberts20 at kc.rr.com (Mike Roberts)
+Date: Tue, 6 May 2003 16:00:11 -0500
+Subject: [BLDG-SIM] When is building energy simulation cost justified
+In-Reply-To: <MDAEMON-F200305061234.AA3456437pd80000445056@gard.com>
+Message-ID: <MDAEMON-F200305061556.AA5616515pd50000304195@gard.com>
+
+Jason,
+
+I definitely believe that it makes sense to do energy simulation on most
+commercial and industrial buildings, and sometimes, residential.  On the
+other hand, I do not have a lot of faith in codes to accomplish this.  I
+have believed for a long time that economics will justify the simulations.
+You just have to show the client the economics.  My recent experience on a
+few projects where energy codes were involved indicates that there is more
+interest in checking off the code compliance than in saving energy.  I was
+called in after most decisions were made, just to demonstrate code
+compliance.
+
+That said, I believe there are more important things than size.  A small,
+air conditioned office building will use more energy than a large, heated
+only warehouse.  Expected annual energy costs for the building would be one
+avenue.  In earlier days (1970s and 1980s), energy budgets were a popular
+method that I still like better than the proscriptive approach of 90.1 and
+IECC.  Many of the proscriptive requirements are just plain wrong for many
+buildings.
+
+In the long run, I still believe that energy code money should be spent on
+education rather than rules.  When we teach an owner that he can get a 30%
+ROI on his energy conservation investment, he will be much more interested
+than when he is required to meet specific requirements, many of which are
+wrong for his building.
+
+Mike
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Jason
+Glazer
+Sent: Tuesday, May 06, 2003 12:39 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] When is building energy simulation cost justified
+
+
+As an advocate of the use of building energy simulation
+modeling, I have often thought that requiring the use of
+these tools for buildings that comply with energy codes,
+like IECC and ASHRAE 90.1, would make sense for certain
+building types and sizes.  Building simulation often seems
+to result in significant energy cost savings compared to
+the cost of the modeling itself.
+
+In the experience of those on the BLDG-SIM mailing list,
+under what conditions is the cost of performing the
+modeling cost justified given the results?  Is it possible
+to have a simple building size threshold, say 100,000
+square feet (about 10,000 square meters), that almost
+always applied to when building energy simulation modeling
+is cost justified?
+
+Ultimately, I would like to submit change proposals to the
+major energy code organizations that include such a
+requirement but I need substantiation. Any suggestions or
+insights are welcome.
+
+Jason
+
+=========================================================
+Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Habaza11 at cs.com  Tue May  6 11:56:18 2003
+From: Habaza11 at cs.com (Habaza11 at cs.com)
+Date: Tue, 06 May 2003 14:56:18 -0400
+Subject: [BLDG-SIM] When is building energy simulation cost justified
+Message-ID: <MDAEMON-F200305061352.AA5242171pd50000304079@gard.com>
+
+
+Not all simulation software or code compliance tools require extensive installation or expertise. In fact some of these tools help designers in selecting building products ( which they have to do anyway)  while  they make code calculations. We are developing such software to comply with the IECC code, you may try it at;
+http://filebox.vt.edu/users/habaza/abacode/index.html
+Ultimately, this tool will be similar to any building database such as sweet catalogue web site, but at the same time provides code compliance. 
+
+"Jason Glazer" <jglazer at gard.com> wrote:
+
+>As an advocate of the use of building energy simulation 
+>modeling, I have often thought that requiring the use of 
+>these tools for buildings that comply with energy codes, 
+>like IECC and ASHRAE 90.1, would make sense for certain 
+>building types and sizes. ?Building simulation often seems 
+>to result in significant energy cost savings compared to 
+>the cost of the modeling itself. ?
+>
+>In the experience of those on the BLDG-SIM mailing list, 
+>under what conditions is the cost of performing the 
+>modeling cost justified given the results? ?Is it possible 
+>to have a simple building size threshold, say 100,000 
+>square feet (about 10,000 square meters), that almost 
+>always applied to when building energy simulation modeling 
+>is cost justified?
+>
+>Ultimately, I would like to submit change proposals to the 
+>major energy code organizations that include such a 
+>requirement but I need substantiation. Any suggestions or 
+>insights are welcome.
+>
+>Jason
+>
+>=========================================================
+>Jason Glazer, P.E. ?jglazer AT gard DOT com ?847 698 5686
+>GARD Analytics - http://www.gard.com/
+>1028 Busse Highway, Park Ridge, IL 60068
+>Building Energy Simulation and Analysis
+>Admin of BLDG-SIM list for building simulation users
+>
+>======================================================
+>You received this e-mail because you are subscribed 
+>to the BLDG-SIM at GARD.COM mailing list. ?To unsubscribe 
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Tue May  6 10:38:45 2003
+From: jglazer at gard.com (Jason Glazer)
+Date: Tue, 06 May 2003 12:38:45 -0500
+Subject: [BLDG-SIM] When is building energy simulation cost justified
+Message-ID: <MDAEMON-F200305061234.AA3451671pd80000303995@gard.com>
+
+As an advocate of the use of building energy simulation 
+modeling, I have often thought that requiring the use of 
+these tools for buildings that comply with energy codes, 
+like IECC and ASHRAE 90.1, would make sense for certain 
+building types and sizes.  Building simulation often seems 
+to result in significant energy cost savings compared to 
+the cost of the modeling itself.  
+
+In the experience of those on the BLDG-SIM mailing list, 
+under what conditions is the cost of performing the 
+modeling cost justified given the results?  Is it possible 
+to have a simple building size threshold, say 100,000 
+square feet (about 10,000 square meters), that almost 
+always applied to when building energy simulation modeling 
+is cost justified?
+
+Ultimately, I would like to submit change proposals to the 
+major energy code organizations that include such a 
+requirement but I need substantiation. Any suggestions or 
+insights are welcome.
+
+Jason
+
+=========================================================
+Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From stvgates at pacbell.net  Mon May  5 11:17:13 2003
+From: stvgates at pacbell.net (Steve Gates)
+Date: Mon, 5 May 2003 11:17:13 -0700
+Subject: [BLDG-SIM] Clarification: Hourly electrical utility report
+References: <MDAEMON-F200305021320.AA2039656pd80000443129@gard.com>
+Message-ID: <MDAEMON-F200305051313.AA1354265pd80000303198@gard.com>
+
+In DOE-2.2, you can easily access hourly electrical data via the hourly-report for the ELEC-METER(s).
+
+In the more recent 2.2 releases, you can directly simulate PV systems, including sellback.  However, there may be a problem if you use the Sandia/King formulation, as apparently the number of coefficients have increased since the algorithm was inplemented.  
+
+Does anyone have a concise document summarizing the current usage of coefficients in the Sandia/King photovoltaic algorithm?
+  ----- Original Message ----- 
+  From: Patrick Dolan 
+  To: BLDG-SIM at gard.com 
+  Sent: Friday, May 02, 2003 11:23 AM
+  Subject: [BLDG-SIM] Clarification: Hourly electrical utility report
+
+
+  I have a number of questions regarding what I was looking for in my earlier email.  I thought I should clarify why I am asking for advice:  I actually need hourly reports to verify the metered building electrical energy versus the amount of electrical energy generated by building mounted photovoltaics.  I need to determine what percentage of the yield from the PV system is in excess of the total building load at any point during the year.  In my building, if the yield is greater than the load, then corresponding amount of electricity in kWh will be "net-metered" or reverse metered to the grid.  Since we will be developing an hour-by -hour model of the PV yield, I need a whole building energy end use-report to match.  The ultimate goal will be to predict the amount of energy sold back to the utility.  I know that I have total operating hours and demand kW in other reports.  In summary, that's why I need an hour-by-hour report.
+
+  Thanks again,
+
+  Patrick J Dolan
+  Prisco Serena Sturm Architects
+  3351 Commercial Ave.
+  Northbrook, IL  60062
+  847-564-0370, Ext 24
+  847-205-5089, Fax
+  pdolan at pssarchitects.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030505/b12fd7ec/attachment.htm>
+
+From cj at cr-jay.ca  Sat May  3 07:12:41 2003
+From: cj at cr-jay.ca (Chris Jones)
+Date: Sat, 03 May 2003 10:12:41 -0400
+Subject: [BLDG-SIM] Clarification: Hourly electrical utility report
+In-Reply-To: <MDAEMON-F200305021320.AA2018968pd80000442807@gard.com>
+Message-ID: <MDAEMON-F200305030855.AA5552421pd80000302059@gard.com>
+
+It seems to me that if you don't assign any loads to electrical meters 
+other than Electric Meter #1, the default, then you can get your total 
+demand and kWh from VARIABLE-TYPE = END-USE, 23.
+
+Note that the hourly report 22 is both demand and kWh.  Sum the values for 
+a day or month or year to get total kWh.
+
+>I have a number of questions regarding what I was looking for in my 
+>earlier email.  I thought I should clarify why I am asking for advice:  I 
+>actually need hourly reports to verify the metered building electrical 
+>energy versus the amount of electrical energy generated by building 
+>mounted photovoltaics.  I need to determine what percentage of the yield 
+>from the PV system is in excess of the total building load at any point 
+>during the year.  In my building, if the yield is greater than the load, 
+>then corresponding amount of electricity in kWh will be "net-metered" or 
+>reverse metered to the grid.  Since we will be developing an hour-by -hour 
+>model of the PV yield, I need a whole building energy end use-report to 
+>match.  The ultimate goal will be to predict the amount of energy sold 
+>back to the utility.  I know that I have total operating hours and demand 
+>kW in other reports.  In summary, that's why I need an hour-by-hour report.
+>
+>Thanks again,
+>
+>Patrick J Dolan
+>Prisco Serena Sturm Architects
+>3351 Commercial Ave.
+>Northbrook, IL  60062
+>847-564-0370, Ext 24
+>847-205-5089, Fax
+><mailto:pdolan at pssarchitects.com>pdolan at pssarchitects.com
+>
+>
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+Chris Jones, P. Eng.
+14 Oneida Avenue
+Toronto, ON M5J 2E3
+Tel. 416 203-7465
+Fax. 416 203-8249
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030503/29a053fd/attachment.htm>
+
+From pdolan at pssarchitects.com  Fri May  2 11:23:43 2003
+From: pdolan at pssarchitects.com (Patrick Dolan)
+Date: Fri, 02 May 2003 13:23:43 -0500
+Subject: [BLDG-SIM] Clarification: Hourly electrical utility report
+Message-ID: <MDAEMON-F200305021320.AA2026453pd80000301510@gard.com>
+
+I have a number of questions regarding what I was looking for in my earlier email.  I thought I should clarify why I am asking for advice:  I actually need hourly reports to verify the metered building electrical energy versus the amount of electrical energy generated by building mounted photovoltaics.  I need to determine what percentage of the yield from the PV system is in excess of the total building load at any point during the year.  In my building, if the yield is greater than the load, then corresponding amount of electricity in kWh will be "net-metered" or reverse metered to the grid.  Since we will be developing an hour-by -hour model of the PV yield, I need a whole building energy end use-report to match.  The ultimate goal will be to predict the amount of energy sold back to the utility.  I know that I have total operating hours and demand kW in other reports.  In summary, that's why I need an hour-by-hour report.
+
+Thanks again,
+
+Patrick J Dolan
+Prisco Serena Sturm Architects
+3351 Commercial Ave.
+Northbrook, IL  60062
+847-564-0370, Ext 24
+847-205-5089, Fax
+pdolan at pssarchitects.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030502/c1cf59c7/attachment.htm>
+
+From pdolan at pssarchitects.com  Fri May  2 08:22:31 2003
+From: pdolan at pssarchitects.com (Patrick Dolan)
+Date: Fri, 02 May 2003 10:22:31 -0500
+Subject: [BLDG-SIM] Hourly electrical utility report
+Message-ID: <MDAEMON-F200305021018.AA1846328pd80000301341@gard.com>
+
+I am using Doe2.1e-131 and I am having trouble extracting hourly data for total metered energy in kWh and metered demand in kW.  In the past, I have used VARIABLE-TYPE = Plant and VARIABLE-LIST = 10 to obtain demand, but I am looking for both site metered and demand.  Any suggestions?
+
+Thanks,
+Patrick J Dolan
+Prisco Serena Sturm Architects
+3351 Commercial Ave.
+Northbrook, IL  60062
+847-564-0370, Ext 24
+847-205-5089, Fax
+pdolan at pssarchitects.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030502/0e0f69d5/attachment.htm>
+

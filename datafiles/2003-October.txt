@@ -1,0 +1,3049 @@
+From Drury.Crawley at EE.DOE.GOV  Fri Oct 31 11:34:20 2003
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Fri, 31 Oct 2003 14:34:20 -0500
+Subject: [bldg-sim] Where are Canadian TMY2 files?
+Message-ID: <MDAEMON-F200310311331.AA3122234pd80000459028@gard.com>
+
+
+The Canadian equivalent to TMY2 are called CWEC
+(Canadian Weather for Energy Calculations) and are
+in WYEC2 format.  Hourly files for 55 locations are
+available.  They are available from
+National Climate Data and Information Archive
+at Environment Canada (roughly www.ec.gc.ca).
+
+
+
+
+                                                                                                           
+                      "Randy Wilkinson"                                                                    
+                      <randy at hvacware.n        To:       bldg-sim at gard.com                                 
+                      et>                      cc:                                                         
+                      Sent by:                 Subject:  [bldg-sim] Where are Canadian TMY2 files?         
+                      postman at gard.com                                                                     
+                                                                                                           
+                                                                                                           
+                      10/31/2003 04:10                                                                     
+                      AM                                                                                   
+                      Please respond to                                                                    
+                      randy                                                                                
+                                                                                                           
+                                                                                                           
+
+
+
+
+Does anyone know of a source of free TMY2 weather files for Canadian
+locations?
+
+Randall C. Wilkinson, P.E., C.E.M.
+www.hvacware.net
+
+
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From randy at hvacware.net  Fri Oct 31 01:10:40 2003
+From: randy at hvacware.net (Randy Wilkinson)
+Date: Fri, 31 Oct 2003 01:10:40 -0800
+Subject: [bldg-sim] Where are Canadian TMY2 files?
+Message-ID: <MDAEMON-F200310311101.AA013893pd80000458877@gard.com>
+
+Does anyone know of a source of free TMY2 weather files for Canadian 
+locations?
+
+Randall C. Wilkinson, P.E., C.E.M.
+www.hvacware.net
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at EE.DOE.GOV  Thu Oct 30 08:35:09 2003
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Thu, 30 Oct 2003 11:35:09 -0500
+Subject: [bldg-sim] Meteonorm V5.0 -- how good is it?
+Message-ID: <MDAEMON-F200310301029.AA2923296pd80000457522@gard.com>
+
+
+Meteonorm 5.0 is fairly user friendly and does write hourly
+data in TMY2 format (among a lot of other formats).
+
+However, most hourly data is statistically derived extrapolations
+from daily or even monthly data--and the period of record can
+be as short as 5 years in some cases.  In cases of large changes
+in elevation among stations, we've  and it can do some strange
+things with elevation changes among stations.
+
+Our experience has shown that it is usable BUT.. only if you have
+no recorded data and if before using, you carefully compare it
+to published normals for the location such as:
+
+World locations (1961-1990 period of record):
+http://nndc.noaa.gov/?http://ols.nndc.noaa.gov/plolstore/plsql/olstore.prodspecific?prodnum=C00058-CDR-A0001
+
+US locations (1971-2000 period of record):
+http://nndc.noaa.gov/?http://ols.nndc.noaa.gov/plolstore/plsql/olstore.prodspecific?prodnum=C00115-CDR-S0002
+
+Canadian locations (1971-2000 period of record):
+http://www.climate.weatheroffice.ec.gc.ca/climate_normals/index_e.html
+
+
+
+                                                                                                           
+                      "Smita Chandra"                                                                      
+                      <smita at swinter.co        To:                                                         
+                      m>                       cc:                                                         
+                      Sent by:                 Subject:  [bldg-sim] Meteonorm V5.0 -- how good is it?      
+                      postman at gard.com                                                                     
+                                                                                                           
+                                                                                                           
+                      10/30/2003 10:39                                                                     
+                      AM                                                                                   
+                      Please respond to                                                                    
+                      smita                                                                                
+                                                                                                           
+                                                                                                           
+
+
+
+
+Hi,
+
+I hoping to draw on your experience. Meteonorm version 5.0 seems to provide
+weather data for any location in the world as per their website. Their
+website, however, does not give much more information, or sample data, or
+GUI views.
+
+Do any of the list members have experience with it? Does it provide hourly
+data in TMY2 format (or data that can be converted into TMY2 format)? Is
+the
+data current and reliable? And how user friendly (and bug-free) is it?
+Please advise.
+
+Thanks.
+
+Smita Chandra
+Building Energy Analyst
+LEED Accredited Professional
+. Tel: (203) 857-0200 Extension 295
+. Fax: (203) 852-0751
+. E-mail: smita at swinter.com <mailto:smita at swinter.com>
+
+Steven Winter Associates, Inc.
+Building Systems Consultants
+50 Washington St, Norwalk CT 06854
+www.swinter.com
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From smita at swinter.com  Thu Oct 30 07:39:53 2003
+From: smita at swinter.com (Smita Chandra)
+Date: Thu, 30 Oct 2003 10:39:53 -0500
+Subject: [bldg-sim] Meteonorm V5.0 -- how good is it?
+In-Reply-To: <MDAEMON-F200310281344.AA4428500pd80000605767@gard.com>
+Message-ID: <MDAEMON-F200310300933.AA3338421pd80000457427@gard.com>
+
+Hi,
+
+I hoping to draw on your experience. Meteonorm version 5.0 seems to provide
+weather data for any location in the world as per their website. Their
+website, however, does not give much more information, or sample data, or
+GUI views.
+
+Do any of the list members have experience with it? Does it provide hourly
+data in TMY2 format (or data that can be converted into TMY2 format)? Is the
+data current and reliable? And how user friendly (and bug-free) is it?
+Please advise.
+
+Thanks.
+
+Smita Chandra
+Building Energy Analyst
+LEED Accredited Professional
+. Tel: (203) 857-0200 Extension 295
+. Fax: (203) 852-0751
+. E-mail: smita at swinter.com <mailto:smita at swinter.com>
+
+Steven Winter Associates, Inc.
+Building Systems Consultants
+50 Washington St, Norwalk CT 06854
+www.swinter.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From thong at eley.com  Tue Oct 28 11:50:05 2003
+From: thong at eley.com (Tianzhen Hong)
+Date: Tue, 28 Oct 2003 11:50:05 -0800
+Subject: [bldg-sim] VisualDOE Training Seminar in San Francisco on November 19 to 21, 2003
+Message-ID: <MDAEMON-F200310281344.AA4411796pd80000455013@gard.com>
+
+
+
+
+Dear BLDG-SIM professional
+
+Eley Associates' VisualDOE training seminar in San Francisco is coming
+up. If you are interested in it, now it is the time to sign up for a
+seat.
+
+The VisualDOE 3.1 professional training seminars provide hands-on DOE-2
+simulation experience, cover the full range of VisualDOE 3.1 features,
+and explore LEED energy analysis techniques.
+
+The training brochure is available as a PDF file at
+http://www.eley.com/gdt/visualdoe/downloads/visualDOE_training.pdf
+
+Date and Location
+November 19 to 21, 2003
+142 Minna Street, San Francisco, CA 94105
+
+The third day (11/21) is optional and covers the use of VisualDOE 3.1 to
+perform LEED energy analysis. 
+
+To Register for the training seminar online, please go to
+http://www.eley.com/gdt/visualdoe/vd_trainReg.htm
+
+Discounts
+We offer a 15% discount on the VisualDOE purchase price if participants
+purchase the software together with the training. A 15% discount applies
+to groups of more than three attendees from one company.
+
+Student Testimonial
+For how these training classes improved the user's experience in
+building energy analysis with VisualDOE, read testimonial online at
+http://www.eley.com/gdt/visualdoe/testimony.pdf
+
+About VisualDOE
+VisualDOE 3.1 is an updated green building design tool based on DOE-2
+engine that allows users to evaluate energy and demand impacts of design
+alternatives. The program covers all major building systems, including
+building envelope, lighting, daylighting, water heating, HVAC and
+central plant.
+
+The first release of VisualDOE in 1994 dramatically reduced the time
+required to perform accurate energy simulations, and version 3.1 takes
+this ease-of-use and power to a new level. The program is targeted for
+use by architects, engineers, MEP firms, energy consultants, utilities,
+national laboratories, universities, energy service companies, HVAC
+equipment manufacturers, and building product manufacturers.
+
+VisualDOE has more than one thousand licensed users in more than 35
+countries. More details at www.visualdoe.com. Free demo try at
+http://www.eley.com/gdt/visualdoe/vd_demo.htm. For a brochure on
+VisualDOE see  http://www.eley.com/gdt/visualdoe/visualdoe_brochure.pdf.
+
+Agenda
+Available on request
+
+Contact Us
+For questions of training seminars and VisualDOE software product,
+please contact us
+
+VisualDOE Team 
+Eley Associates
+142 Minna Street
+San Francisco, CA 94105
+(415) 957-1977 voice, (415) 957-1381 fax
+training at eley.com
+www.eley.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From hamnmegs at ozemail.com.au  Wed Oct 22 03:20:39 2003
+From: hamnmegs at ozemail.com.au (Graham & Megan)
+Date: Wed, 22 Oct 2003 20:20:39 +1000
+Subject: [BLDG-SIM] natural ventilation analysis tools
+References: <MDAEMON-F200310211759.AA5908734pd80000601644@gard.com>
+Message-ID: <MDAEMON-F200310220513.AA1349203pd80000447595@gard.com>
+
+natural ventilation analysis toolsTo add to Jon Hand's comments.  
+
+I have used Apache (IES) successfully for the assessment / design of natural ventilation systems.  While I am not an expert with TAS, it appears to offer very similar functionality to IES based on my limited experience with it.  Both offer multi-zone bulk airflow modelling combined with the dynamic thermal simulation.  CFD is typically used to gain a greater insight into local air temperatures and airflow at one point in time where bulk airflow provides a zone average otherwise.  Increasingly some consultants are using CFD for transient simulations.  The Swiss Reinsurance building in London (The Ghurkin) I believe was designed using CFD exclusively by Hilson-Moran.  While some CFD packages are now claiming to account for the transient radiant loads, I am doubtful whether this would provide as useful of a tool as bulk airflow modelling - this will change ...
+
+In terms of useful and correct results, there has been BESTesting and some validation of these tools from real buildings.  In my experience you need to be very careful to declare results in absolute terms.  There are so many variables beyond our control and the biggest one, the weather, drives when natural ventilation systems are useful.  A sensitivity study of key variables to understand the risks and thus where better information and additional design is needed to be confident, is essential.
+
+From bojic at knez.uis.kg.ac.yu  Wed Oct 22 03:08:54 2003
+From: bojic at knez.uis.kg.ac.yu (MB)
+Date: Wed, 22 Oct 2003 12:08:54 +0200
+Subject: [BLDG-SIM] natural ventilation analysis tools
+References: <MDAEMON-F200310211759.AA5912125pd80000601704@gard.com> <MDAEMON-F200310220248.AA4807109pd80000602804@gard.com>
+Message-ID: <MDAEMON-F200310220506.AA0658921pd80000447581@gard.com>
+
+ Maybe COMIS would help.
+----- Original Message ----- 
+From: "Jon Hand" <jon at esru.strath.ac.uk>
+To: <BLDG-SIM at gard.com>
+Sent: Wednesday, October 22, 2003 9:57 AM
+Subject: [BLDG-SIM] natural ventilation analysis tools
+
+
+> 
+> Those interested in natural ventilation and mixed mode ventilation
+> might wish to check <http://www.esru.strath.ac.uk> for details
+> about ESP-r. It has long offered integrated thermal and CFD analysis,
+> integrated thermal and mass flow (bulk) analysis as well as
+> (more recently) the possibility to integrate thermal CFD and mass flow
+> assessments. It is open source so you can check out
+> the underlying numerical processes and add in your
+> own home-cooked wall functions or mass flow components.
+> 
+> Natural and nixed mode ventilation has been of long-standing
+> interest in Europe and ESP-r is regularly used for such
+> assessments. We know of quite a few practitioners who
+> also use TAS. 
+> 
+> Most often engineering questions of natural 
+> ventilation problems can be addressed via integrated mass
+> flow and thermal assessments (there is minimal overhead
+> in solving thousands of timesteps). There is still an
+> art in configuring a flow network and there are gaps
+> in the available components (e.g. single sided ventilation
+> is a challenge) but practitioners are using simulation to
+> address this routinely. 
+> 
+> When questions of mean age of air and local discomfort arise, CFD
+> may be appropriate (for somewhat fewer timesteps). There
+> is also much of an art to CFD use so some preparation is 
+> required prior to real-time deployment.  
+> 
+> CIBSE has issued a Mixed mode ventilation applications
+> manual (CIBSE AM13:2000) which covers various
+> methods of evaluation, procedures for professional practice
+> and information sources. It discusses in detail how one
+> might deal with uncertainty in flow rates as well as 
+> fall-back systems for extreme conditions. A definite must-read!
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jon at esru.strath.ac.uk  Wed Oct 22 00:57:03 2003
+From: jon at esru.strath.ac.uk (Jon Hand)
+Date: Wed, 22 Oct 2003 08:57:03 +0100
+Subject: [BLDG-SIM] natural ventilation analysis tools
+References: <MDAEMON-F200310211759.AA5912125pd80000601704@gard.com>
+Message-ID: <MDAEMON-F200310220248.AA4816765pd80000447449@gard.com>
+
+
+Those interested in natural ventilation and mixed mode ventilation
+might wish to check <http://www.esru.strath.ac.uk> for details
+about ESP-r. It has long offered integrated thermal and CFD analysis,
+integrated thermal and mass flow (bulk) analysis as well as
+(more recently) the possibility to integrate thermal CFD and mass flow
+assessments. It is open source so you can check out
+the underlying numerical processes and add in your
+own home-cooked wall functions or mass flow components.
+
+Natural and nixed mode ventilation has been of long-standing
+interest in Europe and ESP-r is regularly used for such
+assessments. We know of quite a few practitioners who
+also use TAS. 
+
+Most often engineering questions of natural 
+ventilation problems can be addressed via integrated mass
+flow and thermal assessments (there is minimal overhead
+in solving thousands of timesteps). There is still an
+art in configuring a flow network and there are gaps
+in the available components (e.g. single sided ventilation
+is a challenge) but practitioners are using simulation to
+address this routinely. 
+
+When questions of mean age of air and local discomfort arise, CFD
+may be appropriate (for somewhat fewer timesteps). There
+is also much of an art to CFD use so some preparation is 
+required prior to real-time deployment.  
+
+CIBSE has issued a Mixed mode ventilation applications
+manual (CIBSE AM13:2000) which covers various
+methods of evaluation, procedures for professional practice
+and information sources. It discusses in detail how one
+might deal with uncertainty in flow rates as well as 
+fall-back systems for extreme conditions. A definite must-read!
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From GPueltz at MuellerBBM.de  Tue Oct 21 23:45:56 2003
+From: GPueltz at MuellerBBM.de (Pueltz, Gunter)
+Date: Wed, 22 Oct 2003 08:45:56 +0200
+Subject: [BLDG-SIM] natural ventilation analysis tools
+Message-ID: <MDAEMON-F200310220139.AA3928218pd80000447387@gard.com>
+
+Brian,
+ 
+as far as I know does TAS use transfer-functions for the energy transport
+through components like walls and glazings; thus the internal surface
+temperatures of glazings arenot modelled in a correct way. As these internal
+surface temperatures are dominating the vertical near surface air flow (the
+development of boundary layers), a more reliable simulation tool should be
+used. I am using ESP-r from ESRU, Joe Clark, which is based on
+1-D-heatconduction modelled via finite differences algorithm; thus the
+absorption of solar radiation within the single panes can be calculated as
+well as the resulting heat fluxes to external and internal surfaces. This
+yield more correct internal surface temperatures.
+ 
+But you have asked for detailled CFD-studies about natural ventilation: This
+is currently a challenging task !
+ 
+The basic problem is that the well known high resolving CFD simulation tools
+like CFX-5 or Fluent are not able to simulate a longer period of time (due
+to the high resolution this would require a huge amount of computer power),
+i.e. currently simulation time is maximal a complete day; on the other hand
+the storage of heat in building's mass (floors, walls, ceilings, etc.) shows
+a strong effect onto the temperatures, but to get a stable solution it will
+take a longer period of time (simulation time of at least 14 days ore more,
+depending on the amount of storage mass). This is the reason, why you have
+to use a zonal based simulation tool - like ESP-r - for the starting period
+of the simulation (i.e. the first 2..3 weeks) and then you have to couple it
+with a CFD simulation tool. This coupling can be done either via internal
+surface temperatures (as boundary conditions for the CFD simulation) or -
+even more better - with wall heat fluxes (which provides a temperature
+distribution on the internal surfaces).
+Currently ESP-r has the facility to couple the zonal based simulation with
+an internal CFD-capability; but there are restrictions due to the number of
+windows (only two openings are allowed); also the analyses of the
+CFD-results shows some problems. 
+These were the reasons why we coupled ESP-r with the well known
+CFD-simulation tool CFX-5; we used the output from ESP-r (wall heat fluxes
+and surface absorptions, air flow rates towards outside (ambient air)
+calculated via an air-flow-network model) as input values for the CFD-model
+and we got some nice results. If you are interested in I could send you some
+examples.
+ 
+Hope these informations help you. If you have further questions, don?t
+hesitate to contact me.
+ 
+-Gunter
+--------------------------------------------
+Dr.-Ing. Gunter P?ltz
+M?ller-BBM GmbH
+Robert-Koch-Str. 11
+82152 Planegg bei M?nchen
+Telefon +49 (89) 85602-336
+Telefax +49 (89) 85602-111
+http://www.mbbm.de <http://www.mbbm.de/> 
+email:plz at mbbm.de 
+
+ 
+
+ 
+ -----Original Message-----
+From: Brian Thornton [mailto:bthornton at glumac.com]
+Sent: Wednesday, October 22, 2003 1:06 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] natural ventilation analysis tools
+
+
+
+Does anyone have experience with CFD, and non-CFD analysis tools for design
+and energy analysis of natural ventilation? 
+
+Tas is one I have heard a lot about lately. 
+
+Can anyone describe their experience in learning, using, providing usable
+and correct results, and extrapolating results to annual energy
+usage/savings?
+
+Any other software that provides at least some 2-D or 3-D CFD, and hourly
+thermal calculations for natural ventilation? 
+
+Thanks, 
+
+Brian  
+
+Brian Thornton, P.E. 
+Lead Engineer, Energy Services 
+GLUMAC 
+I N T E R N A T I O N A L 
+320 SW Washington, Suite 200 
+Portland, Oregon 97204 
+
+503.227.5280  Phone 
+503.274.7674  Fax 
+
+www.Glumac.com 
+
+The information in this Internet e-mail is confidential and may be legally
+privileged.  It is intended solely for the addressee.  Access to this email
+by anyone else is unauthorized.  If you are not the intended recipient, any
+disclosure, copying, distribution or any action taken in response to this
+email is prohibited and may be unlawful.  Because e-mail can be altered
+electronically, the integrity of this communication cannot be guaranteed.
+
+
+
+=====================================================You received this
+e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031022/03b9f41b/attachment.htm>
+
+From bthornton at glumac.com  Tue Oct 21 16:06:04 2003
+From: bthornton at glumac.com (Brian Thornton)
+Date: Tue, 21 Oct 2003 16:06:04 -0700
+Subject: [BLDG-SIM] natural ventilation analysis tools
+Message-ID: <MDAEMON-F200310211759.AA5911203pd80000447057@gard.com>
+
+Does anyone have experience with CFD, and non-CFD analysis tools for design
+and energy analysis of natural ventilation?
+
+Tas is one I have heard a lot about lately.
+
+Can anyone describe their experience in learning, using, providing usable
+and correct results, and extrapolating results to annual energy
+usage/savings?
+
+Any other software that provides at least some 2-D or 3-D CFD, and hourly
+thermal calculations for natural ventilation?
+
+Thanks,
+
+Brian  
+
+Brian Thornton, P.E.
+Lead Engineer, Energy Services
+GLUMAC
+I N T E R N A T I O N A L
+320 SW Washington, Suite 200
+Portland, Oregon 97204
+
+503.227.5280  Phone 
+503.274.7674  Fax
+
+www.Glumac.com
+
+The information in this Internet e-mail is confidential and may be legally
+privileged.  It is intended solely for the addressee.  Access to this email
+by anyone else is unauthorized.  If you are not the intended recipient, any
+disclosure, copying, distribution or any action taken in response to this
+email is prohibited and may be unlawful.  Because e-mail can be altered
+electronically, the integrity of this communication cannot be guaranteed.
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031021/740efcd1/attachment.htm>
+
+From larry at taz.tamu.edu  Tue Oct 21 08:42:43 2003
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Tue, 21 Oct 2003 10:42:43 -0500
+Subject: [BLDG-SIM] IBPSA News, Vol. 13, No. 2 AVAILABLE on Website.
+Message-ID: <MDAEMON-F200310211036.AA3632750pd80000446549@gard.com>
+
+IBPSA News, Vol. 13, No. 2 is now available on the IBPSA web site.  It's
+at: http://www.ibpsa.org/IBPSANews-13-21.pdf and it's a whopping 68
+pages.  For those who didn't get to attend the BS-2003 conference in
+Eindhoven, this issue of the News gives a brief recap of the conference
+and also has some great hotlinks to the photo album
+<http://www.bs2003.tue.nl/photo-album/photo-album.htm>  of conference
+activities.  Get it all for free.
+ 
+If you missed getting your news item into this issue, send me your
+information for inclusion in the April 2004 issue - those items will be
+due on or before 21 March 2004.  Best wishes! 
+ 
+Larry Degelman, Newsletter chair (larry at taz.tamu.edu)
+ 
+ <http://www.ibpsa.org/>
+<http://www.bs2003.tue.nl/photo-album/photo-album.htm> 
+ 
+ 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031021/faeb1c43/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 8684 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031021/faeb1c43/attachment.jpeg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 11644 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031021/faeb1c43/attachment-0001.jpeg>
+
+From Varkie.Thomas at som.com  Mon Oct 20 12:52:17 2003
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Mon, 20 Oct 2003 15:52:17 -0400
+Subject: [BLDG-SIM] Piping Systems
+Message-ID: <MDAEMON-F200310201449.AA4907281pd80000445513@gard.com>
+
+Jeff
+
+We received the introductory manuals from the Solar Energy Lab at
+UW-Madison and we are interested in TRNSYS.  I am copying this reply to
+BLDG-SIM also in answer to your question about cooling device.  We are
+considering shell and tube heat exchangers (using chilled water from the
+refrigeration plant) located downstream of the secondary storage tanks
+and sized to meet design demand.  We will be contacting you soon
+regarding the use of TRNSYS.
+
+Varkie
+
+-----Original Message-----
+From: Jeff Thornton [mailto:thornton at tess-inc.com] 
+Sent: Friday, October 17, 2003 4:02 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Piping Systems
+
+At 02:29 PM 10/17/2003 -0400, you wrote:
+
+>We have a situation where we have to model a CW piping system to
+>determine the additional cooling, heating and energy requirements.
+
+><Large section of text removed>
+
+>We have already done a preliminary analysis but would like to check the
+
+>results
+>with an established program designed for this purpose.  Can TRNSYS
+model
+>this?
+
+Yes, TRNSYS has the capability to model the piping/tank system you are 
+studying.  However, you did not mention the devices that will be used to
+
+cool the water supply (air or water-cooled chillers, water-water heat 
+pumps, etc..).  Assuming that the cooling system is relatively standard 
+then the answer is still YES (there are models for most standard HVAC 
+equipment components in TRNSYS) .  If the cooling system is something on
+
+the unusual side then I would still stick with TRNSYS as it has the 
+capability to quickly and easily add content (new component models) to
+the 
+package.  There are also large libraries of user-written component
+models 
+available (both free and for a small fee) that greatly expand the 
+capabilities of the program beyond that available through the standard
+package.
+
+Feel free to send me an e-mail if you have further, or more-detailed, 
+questions on TRNSYS.
+
+Jeff
+
+
+************************************************************************
+*********
+Thermal Energy System Specialists (TESS)
+Jeff Thornton                                   2916 Marketplace Drive
+Principal                                       Suite 104
+Phone:  (608) 274-2577                  Madison WI 53719
+Fax:  (608) 278-1475                            USA
+E-mail:   thornton at tess-inc.com
+Web Page:       www.tess-inc.com
+
+"Providing software solutions for today's energy engineering projects"
+************************************************************************
+*********
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mwilsonbc at yahoo.com  Fri Oct 17 14:58:25 2003
+From: mwilsonbc at yahoo.com (Michael Wilson)
+Date: Fri, 17 Oct 2003 14:58:25 -0700 (PDT)
+Subject: [BLDG-SIM] Major disagreement on Chiller Performance Curves in DOE-2.1E and DOE-2.2
+In-Reply-To: <3F8FFD58.4200.F45B9D@localhost>
+Message-ID: <MDAEMON-F200310171652.AA5238890pd80000442364@gard.com>
+
+Apparently this didn't get through before, so I'm
+resending it with the spreadsheet zipped, and the
+original message below:
+
+
+I believe that you need to request the various input
+and capacity data holding two of the three parameters
+(CHWT, CDWT, %load) constant, and varying the third.
+Which is a lot of points for the manufacturer, but
+they can do it. For recips this info is often
+available in the catalog. However, once you've got the
+data, its fairly difficult to turn it into DOE2
+curves, as the curves need to be interpolated between
+each other. ie. you'll get a capacity vs CDWT curve
+for CHWT of 42,44,46,48, etc, but they're not exactly
+the same. The easy way out is just to use the 44? one,
+but its not as accurate. You don't have to do this
+with PLR though.
+
+I've attached a spreadsheet that does some
+interpolation and calculation of curve co-efficients
+if anyone wants to try it. It might need to be
+adjusted for the data available though.
+
+
+
+
+
+
+--- Jason Glazer <jglazer at gard.com> wrote:
+> Michael,
+> 
+> Your message did not go out to the BLDG-SIM mailing
+> list
+> because it was a little too large. I think the
+> BLDG-SIM
+> members would like to look at your spreadsheet. If
+> you
+> want, you can resend the message but compress the
+> attachment using WinZIP or PKZip or another program.
+> 
+> Thanks
+> 
+> Jason
+> 
+> On 16 Oct 2003 at 13:50, Michael Wilson wrote:
+> 
+> > I believe that you need to request the various
+> input
+> > and capacity data holding two of the three
+> parameters
+> > (CHWT, CDWT, %load) constant, and varying the
+> third.
+> > Which is a lot of points for the manufacturer, but
+> > they can do it. For recips this info is often
+> > available in the catalog. However, once you've got
+> the
+> > data, its fairly difficult to turn it into DOE2
+> > curves, as the curves need to be interpolated
+> between
+> > each other. ie. you'll get a capacity vs CDWT
+> curve
+> > for CHWT of 42,44,46,48, etc, but they're not
+> exactly
+> > the same. The easy way out is just to use the 44?
+> one,
+> > but its not as accurate. You don't have to do this
+> > with PLR though.
+> >
+> > I've attached a spreadsheet that does some
+> > interpolation and calculation of curve
+> co-efficients
+> > if anyone wants to try it. It might need to be
+> > adjusted for the data available though.
+> >
+> >
+> > --- Mike Tillou <miket at etcgrp.com> wrote:
+> > > John, I think the answer to your question has
+> two
+> > > parts:
+> > >
+> > > 1. DOE uses two curves for modifying the full
+> load
+> > > EIR (1/COP) of a constant
+> > > speed chiller.  The first adjusts for part load
+> and
+> > > the second for
+> > > temperature.
+> > >
+> > > I use a curve with fixed CHWT and CWT at various
+> > > part load conditions (at
+> > > design conditions not ARI rated conditions) for
+> the
+> > > EIR f(PLR) curve (the
+> > > one you're asking about) and create a second
+> curve
+> > > based on various
+> > > combinations of CHWT, CWT at full load for the
+> EIR
+> > > f(LCHWT, ECWT) curve.
+> > > The assumption, I think, is that the PLR curve
+> > > reamins relatively uniform as
+> > > the water temperatures change so once you have
+> the
+> > > shape of the PLR curve
+> > > you can account for temperature differences with
+> a
+> > > second curve.
+> > >
+> > >
+> > > 2. The above methodology works fine for constant
+> > > speed chillers but needs to
+> > > be modified for variable speed chillers.  Rather
+> > > than using EIR F(PLR) you
+> > > need to use EIR f(PLR,dT).  This curve now
+> accounts
+> > > for the change in the
+> > > difference of the water temperature across the
+> > > chiller.  See Volume 6 of the
+> > > DOE 2.2 v41 reference manual available at
+> > > www.DOE2.com, there is a section
+> > > on chiller performance that explains this much
+> > > better than I could do.  DOE
+> > > 2.2 v41 incorporates this change and has default
+> > > curves for both.
+> > >
+> > > It sounds like you both may be correct depending
+> on
+> > > the type of chiller you
+> > > want to model.
+> > >
+> > > Mike Tillou, PE
+> > > etc Group, Inc
+> > > 413-664-9070
+> > >
+> > >
+> > > -----Original Message-----
+> > > From: postman at gard.com [mailto:postman at gard.com]
+> On
+> > > Behalf Of Aulbach, John
+> > > Sent: Wednesday, October 15, 2003 2:23 PM
+> > > To: BLDG-SIM at GARD.COM
+> > > Subject: [BLDG-SIM] Major disagreement on
+> Chiller
+> > > Performance Curves in
+> > > DOE-2.1E and DOE-2.2
+> > >
+> > >
+> > >
+> > > I am having a "friendly" disagreement with a
+> > > colleague on what chiller
+> > > curves to ask for from a manufacturer to input
+> into
+> > > DOE-2 (could be either
+> > > 2.1E or 2.2). We both agree that the infamous
+> ARI
+> > > point for a 100% load
+> > > should be input. But the curves are where we
+> > > disagree.
+> > >
+> > > Is the Default DOE-2 curve for % Power versus %
+> Tons
+> > > the ARI curve with the
+> > > allowable reduction in condenser water
+> temperature,
+> > > or is it based on the
+> > > FIXED 85?F entering condenser water and FIXED
+> 44?F
+> > > leaving chilled water ALL
+> > > the way down the curve?
+> > >
+> > > Therefore, when I am given a chiller with a
+> variable
+> > > speed drive installed,
+> > > what parameters should I ask for in such a
+> > > Power/Tons to be FIXED ???
+> > >
+> > >
+> > >
+> > >
+> > >
+> > > John R. Aulbach, PE, CEM
+> > > Project Engineer
+> > > Sempra Energy Solutions
+> > > 555 West Fifth Street
+> > > Mail Location 27F3
+> > > Los Angeles, CA 90013
+> > > Tel: (213) 244-8551 Cell (213) 219-4875
+> > >
+> > >
+> > > "Sempra Energy Solutions is not the same company
+> as
+> > > SDG&E/ SoCalGas, the
+> > > Utilities.  Sempra Energy Solutions is not
+> regulated
+> > > by the California
+> > > Public Utilities Commission, and you do not have
+> to
+> > > buy Sempra Energy
+> > > Solutions products or services to continue to
+> > > receive quality regulated
+> > > service from the Utilities."
+> > >
+> > >
+> > >
+> > > ==================
+> > >
+> > > You received this e-mail because you are
+> subscribed
+> > >
+> > > to the BLDG-SIM at GARD.COM mailing list.  To
+> > > unsubscribe
+> > >
+> > > from this mailing list send a blank message to
+> > >
+> > > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> > >
+> > >
+> > >
+> > >
+> >
+>
+=====================================================You
+> >
+> > received this e-mail because you are subscribed >
+> to the
+> > BLDG-SIM at GARD.COM mailing list.  To > unsubscribe
+> > from
+> > this mailing list send a blank message to >
+> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> >
+> >
+> > =====
+> > Michael Wilson
+> > 455 Elphinstone Ave.
+> > Gibsons, BC, V0N 1V1
+> > 604-886-9864 phone
+> > 604-676-2604 fax
+> >
+> > __________________________________
+> > Do you Yahoo!?
+> > The New Yahoo! Shopping - with improved product
+> search
+> > http://shopping.yahoo.com
+> 
+> 
+>
+=========================================================
+> Jason Glazer, P.E.  jglazer AT gard DOT com  847 698
+> 5686
+> GARD Analytics - http://www.gard.com/
+> 1028 Busse Highway, Park Ridge, IL 60068
+> Building Energy Simulation and Analysis
+> Admin of BLDG-SIM list for building simulation users
+> 
+
+
+=====
+Michael Wilson
+455 Elphinstone Ave.
+Gibsons, BC, V0N 1V1
+604-886-9864 phone
+604-676-2604 fax
+
+__________________________________
+Do you Yahoo!?
+The New Yahoo! Shopping - with improved product search
+http://shopping.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: McQuay.WHR120D.zip
+Type: application/x-zip-compressed
+Size: 40671 bytes
+Desc: McQuay.WHR120D.zip
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031017/875304fc/attachment.bin>
+
+From thornton at tess-inc.com  Fri Oct 17 14:01:40 2003
+From: thornton at tess-inc.com (Jeff Thornton)
+Date: Fri, 17 Oct 2003 16:01:40 -0500
+Subject: [BLDG-SIM] Piping Systems
+In-Reply-To: <MDAEMON-F200310171326.AA2603781pd80000596320@gard.com>
+Message-ID: <MDAEMON-F200310171552.AA5222859pd80000442304@gard.com>
+
+At 02:29 PM 10/17/2003 -0400, you wrote:
+
+>We have a situation where we have to model a CW piping system to
+>determine the additional cooling, heating and energy requirements.
+
+><Large section of text removed>
+
+>We have already done a preliminary analysis but would like to check the 
+>results
+>with an established program designed for this purpose.  Can TRNSYS model
+>this?
+
+Yes, TRNSYS has the capability to model the piping/tank system you are 
+studying.  However, you did not mention the devices that will be used to 
+cool the water supply (air or water-cooled chillers, water-water heat 
+pumps, etc..).  Assuming that the cooling system is relatively standard 
+then the answer is still YES (there are models for most standard HVAC 
+equipment components in TRNSYS) .  If the cooling system is something on 
+the unusual side then I would still stick with TRNSYS as it has the 
+capability to quickly and easily add content (new component models) to the 
+package.  There are also large libraries of user-written component models 
+available (both free and for a small fee) that greatly expand the 
+capabilities of the program beyond that available through the standard package.
+
+Feel free to send me an e-mail if you have further, or more-detailed, 
+questions on TRNSYS.
+
+Jeff
+
+
+*********************************************************************************
+Thermal Energy System Specialists (TESS)
+Jeff Thornton                                   2916 Marketplace Drive
+Principal                                       Suite 104
+Phone:  (608) 274-2577                  Madison WI 53719
+Fax:  (608) 278-1475                            USA
+E-mail:   thornton at tess-inc.com
+Web Page:       www.tess-inc.com
+
+"Providing software solutions for today's energy engineering projects"
+*********************************************************************************
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bthornton at glumac.com  Fri Oct 17 12:18:45 2003
+From: bthornton at glumac.com (Brian Thornton)
+Date: Fri, 17 Oct 2003 12:18:45 -0700
+Subject: [BLDG-SIM] central plant energy trade-off tool-Thanks and Summ
+	ary
+Message-ID: <MDAEMON-F200310171411.AA115493pd80000442145@gard.com>
+
+Thank you to all who replied on my request for ideas on conceptual modeling
+of central plant for large campus in early phases.  Sorry for not  listing
+source on all of these items in summary. Most went to whole distribution in
+their orginal form with credit to commenter. Sorry if I missed anyone.
+
+To summarize:
+
+eQuest--Use DD Wizard, and create each building as a shell with area, shape
+and occupancy inputs only for shell, rest as defaults. Plant can be defined
+to serve each building. This is probably what I will use. 
+
+eQuest--use SD Wizard for multiple buildings and import them together.
+
+Trane System Analyzer, and Trace
+
+DOE2.1e input simple building inputs in text mode.
+
+VisualPlant Doe21e with building load profiles instead of separate load
+inputs for each building.  Promising but I would have to buy new software.
+
+And a technical paper
+Beasley, R., Haberl, J., Turner, D. and Claridge, D. 2002. "Development of a
+Methodology for Baselining The Energy Use of Large Multi-building Central
+Plants", ASHRAE Transactions-Research,  Volume 108, Part 1, pp. 251 - 259,
+(January).
+
+Thanks
+
+Brian Thornton
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031017/0c480798/attachment.htm>
+
+From Bob.Ramirez at itron.com  Fri Oct 17 12:17:21 2003
+From: Bob.Ramirez at itron.com (Ramirez, Bob)
+Date: Fri, 17 Oct 2003 12:17:21 -0700
+Subject: [BLDG-SIM] Looking for Info or Models of HUD-Code (mobile/manufactured homes)
+Message-ID: <MDAEMON-F200310171410.AA1036562pd80000442141@gard.com>
+
+Good afternoon all
+ 
+I am currently working on developing prototype building simulation models for "HUD-Code" mobile/manufactured homes, specifically for use in assessing the impact of energy-efficiency measures for units located in California.  As such, I am looking for any and all related information that would be useful in developing those prototypes and energy-efficiency measures.
+ 
+I already have several excellent reference sources and examples, but in order to leave no stone unturned in my search for previous and concurrent work, I am throwing this out to the group.  Thanks in advance for your assistance!
+ 
+Sincerely,
+ 
+Bob Ramirez
+ 
+ 
+
+Bob Ram?rez, P.E. 
+Senior Engineer 
+Bob.Ramirez at Itron.com 
+
+ 
+
+Itron
+http://www.RER.com/Consulting 
+11236 El Camino Real  San Diego, CA 92130    USA
+
+VOICE:858.481.0081X427  FAX:858.481.7550 
+
+ 
+
+ 
+
+ 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031017/d7716b45/attachment.htm>
+
+From Varkie.Thomas at som.com  Fri Oct 17 11:29:24 2003
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Fri, 17 Oct 2003 14:29:24 -0400
+Subject: [BLDG-SIM] Piping Systems
+Message-ID: <MDAEMON-F200310171325.AA2551750pd80000442065@gard.com>
+
+We have a situation where we have to model a CW piping system to
+determine the additional cooling, heating and energy requirements.  In
+Dubai the city water supply comes from a desalination plant and has to
+be cooled to acceptable temperatures before it reaches the cold water
+faucets.  The city water supply temperature varies through the year. The
+water enters a concrete tank and is pumped to secondary tanks at
+different levels and then supplied to the faucets.  This is a high-rise
+building with retail, restaurant, hotel, office and apartment floors. We
+would like to know the design cooling load, a year-round temperature
+profile of the water at various points in the piping and tank system and
+the annual cooling energy required.  We have the Dubai weather data from
+NCDC which we have converted for use with DOE2.1E.  We also have the
+water demand and usage profiles for the different levels.  We have
+already done a preliminary analysis but would like to check the results
+with an established program designed for this purpose.  Can TRNSYS model
+this?
+
+Regarding the recent discussion on a suitable energy program to model
+several university campus buildings that are being developed in phases,
+we have a similar project here and I had no problem using the DOE2.1E
+BDL.  I think there are several advantages in using a text input format
+for very large projects instead of filling out forms or trying to draw
+all the buildings as input.  Trying to import architectural drawings as
+input for such projects is not practical.
+
+Varkie Thomas
+Skidmore, Owings & Merrill, Chicago
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From miket at etcgrp.com  Thu Oct 16 15:47:51 2003
+From: miket at etcgrp.com (Mike Tillou)
+Date: Thu, 16 Oct 2003 18:47:51 -0400
+Subject: [BLDG-SIM] Major disagreement on Chiller Performance Curves in DOE-2.1E and DOE-2.2
+In-Reply-To: <BC503DD06F99424E9DC941ED1D0F8329E15A50@MAIL-06VS.atlarge.net>
+Message-ID: <MDAEMON-F200310161740.AA4056843pd80000441156@gard.com>
+
+DOE 2.2 has a built in feature that allows you to enter raw data points and
+create various types of performance curves.  I cannot comment on how it
+works though, we have our own proprietary spreadsheet that we use to solve
+for the coefficients.
+
+My experience is the more points you use the less reliable the curve becomes
+especially in the extreme areas of the curve (using a bi-quadratic).  I find
+that I get better results creating a curve that is "tailored" to how a
+chiller is going to operate using fewer points.  For example if I know the
+chiller is going to be supplying 42-44F water I don't bother creating a
+curve using 40-41F or 46-48F data.  
+
+Although I have never done it I'm sure you could create a user expression to
+dynamically change the chiller curves (ie. one set for 40-44 CHWT and one
+for 44 - 48 CHWT) while the program is running (ie. based on a change in
+CHWT or CWT).
+
+I would be curious to hear if anyone has ever tried that.  
+
+MMT
+
+
+-----Original Message-----
+From: Michael Wilson [mailto:mwilsonbc at yahoo.com] 
+Sent: Thursday, October 16, 2003 4:50 PM
+To: miket at etcgrp.com; BLDG-SIM at GARD.COM
+Subject: Re: [BLDG-SIM] Major disagreement on Chiller Performance Curves in
+DOE-2.1E and DOE-2.2
+
+
+I believe that you need to request the various input
+and capacity data holding two of the three parameters
+(CHWT, CDWT, %load) constant, and varying the third.
+Which is a lot of points for the manufacturer, but
+they can do it. For recips this info is often
+available in the catalog. However, once you've got the
+data, its fairly difficult to turn it into DOE2
+curves, as the curves need to be interpolated between
+each other. ie. you'll get a capacity vs CDWT curve
+for CHWT of 42,44,46,48, etc, but they're not exactly
+the same. The easy way out is just to use the 44? one,
+but its not as accurate. You don't have to do this
+with PLR though.
+
+I've attached a spreadsheet that does some
+interpolation and calculation of curve co-efficients
+if anyone wants to try it. It might need to be
+adjusted for the data available though.
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Scott.Criswell at doe2.com  Thu Oct 16 11:35:47 2003
+From: Scott.Criswell at doe2.com (Scott Criswell)
+Date: Thu, 16 Oct 2003 11:35:47 -0700
+Subject: [BLDG-SIM] eQuest and multiple perimeter zones
+In-Reply-To: <MDAEMON-F200310161216.AA1606703pd80000593616@gard.com>
+References: <MDAEMON-F200310161216.AA1606703pd80000593616@gard.com>
+Message-ID: <MDAEMON-F200310161329.AA2910109pd80000440904@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031016/a51c149b/attachment.htm>
+
+From dcallan at syska.com  Thu Oct 16 10:21:53 2003
+From: dcallan at syska.com (Callan, David)
+Date: Thu, 16 Oct 2003 13:21:53 -0400
+Subject: [BLDG-SIM] eQuest and multiple perimeter zones
+Message-ID: <MDAEMON-F200310161216.AA1628765pd80000440802@gard.com>
+
+Dear All:
+ 
+Has anyone been able to build an eQuest model with the "Multiple
+Perimeter/Core" zoning option?  It indicates the ability to set the average
+perimeter zone size.  I'm not sure if the feature is working.
+
+David P. Callan, MS, PE, CEM
+Senior Associate
+LEEDTM Accredited Professional
+Syska Hennessy Group, Inc.
+
+  <http://www.syska.com/images/LOGOS/SyskaLogo_transp.gif> 	
+11350 Random Hills Road,
+Suite 750
+Fairfax, VA 22030
+Tel: 703.383.9383
+Email: dcallan at syska.com <mailto:dcallan at syska.com>  
+http://www.syska.com <http://www.syska.com/>  
+
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031016/56d247c9/attachment.htm>
+
+From boukara at marseille.archi.fr  Thu Oct 16 07:00:21 2003
+From: boukara at marseille.archi.fr (Aziz)
+Date: Thu, 16 Oct 2003 16:00:21 +0200
+Subject: [BLDG-SIM] cad/modeling interface
+References: <MDAEMON-F200310160828.AA2857187pd80000592493@gard.com>
+Message-ID: <MDAEMON-F200310160853.AA5332156pd80000440600@gard.com>
+
+Hi,
+Try SIMCAD with TRNSYS 15, you can Import DXF (Archicad and Autocad format)
+file via SIMACD to your Thermal Simulation program.
+
+
+
+Aziz
+
+----- Original Message ----- 
+From: "Jim Dolan" <jdolan at olace.com>
+To: <BLDG-SIM at gard.com>
+Sent: Thursday, October 16, 2003 3:36 PM
+Subject: [BLDG-SIM] cad/modeling interface
+
+
+> Visual DOE is very effective at importing CAD dwgs via polygons.  Curves
+> would have to be approximated.
+>
+> Jim
+>
+> James F. Dolan, P.E. LEED AP
+> O'Dea Lynch Abbattista Consulting Engineers
+> 914.747.2800
+>
+>
+> -----Original Message-----
+> From: Ferguson, Alex [mailto:AFerguso at NRCan.gc.ca]
+> Sent: Thursday, October 16, 2003 8:02 AM
+> To: BLDG-SIM at GARD.COM
+> Subject: [BLDG-SIM] cad/modeling interface
+>
+>
+>
+> You may want to look at ECOTECT, a building performance/visualization
+> software that is capable of exporting input files in EnergyPlus and ESP-r
+> formats. More information is available on Square One's website:
+>
+> http://www.squ1.com/index.php?NoFlash
+>
+>
+> ---------------------------
+> Alex Ferguson
+> Research Assistant
+> Buildings Group, CETC
+> Natural Resources Canada
+> P:+1 613 995 3294
+> F:+1 613 996 9909
+> Alex.Ferguson at nrcan.gc.ca
+> ---------------------------
+>
+>
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jdolan at olace.com  Thu Oct 16 06:36:07 2003
+From: jdolan at olace.com (Jim Dolan)
+Date: Thu, 16 Oct 2003 09:36:07 -0400
+Subject: [BLDG-SIM] cad/modeling interface
+Message-ID: <MDAEMON-F200310160829.AA2907484pd80000440556@gard.com>
+
+Visual DOE is very effective at importing CAD dwgs via polygons.  Curves
+would have to be approximated.  
+
+Jim 
+
+James F. Dolan, P.E. LEED AP
+O'Dea Lynch Abbattista Consulting Engineers
+914.747.2800
+
+
+-----Original Message-----
+From: Ferguson, Alex [mailto:AFerguso at NRCan.gc.ca]
+Sent: Thursday, October 16, 2003 8:02 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] cad/modeling interface
+
+
+
+You may want to look at ECOTECT, a building performance/visualization
+software that is capable of exporting input files in EnergyPlus and ESP-r
+formats. More information is available on Square One's website:
+
+http://www.squ1.com/index.php?NoFlash
+
+
+---------------------------
+Alex Ferguson
+Research Assistant
+Buildings Group, CETC
+Natural Resources Canada
+P:+1 613 995 3294
+F:+1 613 996 9909
+Alex.Ferguson at nrcan.gc.ca
+---------------------------
+
+ 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From AFerguso at NRCan.gc.ca  Thu Oct 16 05:02:11 2003
+From: AFerguso at NRCan.gc.ca (Ferguson, Alex)
+Date: Thu, 16 Oct 2003 08:02:11 -0400
+Subject: [BLDG-SIM] cad/modeling interface
+Message-ID: <MDAEMON-F200310160655.AA5530296pd80000440442@gard.com>
+
+
+You may want to look at ECOTECT, a building performance/visualization
+software that is capable of exporting input files in EnergyPlus and ESP-r
+formats. More information is available on Square One's website:
+
+http://www.squ1.com/index.php?NoFlash
+
+
+---------------------------
+Alex Ferguson
+Research Assistant
+Buildings Group, CETC
+Natural Resources Canada
+P:+1 613 995 3294
+F:+1 613 996 9909
+Alex.Ferguson at nrcan.gc.ca
+---------------------------
+
+ 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From vlado at gundog.lbl.gov  Wed Oct 15 23:04:33 2003
+From: vlado at gundog.lbl.gov (Vladimir Bazjanac)
+Date: Wed, 15 Oct 2003 23:04:33 -0700
+Subject: [BLDG-SIM] cad/modeling interface
+References: <MDAEMON-F200310151458.AA5848421pd80000584544@gard.com>
+Message-ID: <MDAEMON-F200310160057.AA5748671pd80000440157@gard.com>
+
+Alec,
+
+If you are using EnergyPlus, you can create a 3D building model in
+ArchiCAD and save it in IFC2x format.  Then you can import the IFC file
+into EnergyPlus via the BS Pro server and client (both bundled with
+EnergyPlus) and automatically create IDF for building geometry.  Once
+you have the building model in  ArchiCAD, the whole process takes only a
+few minutes, depending on the size and complexity of the building.
+
+If the building model was created in ADT 2004, you can get an IFC2x
+interface for ADT 2004 (it is not bundled with EnergyPlus) and create an
+IFC file that way.  Building models created with ADT 3.3 may or may not
+result in valid IFC2x files.
+
+If the source of building geometry is in 2D *.dwg or *.dxf files, you
+can create 3D building models from them by using Graphisoft's Plan2Model
+software; the resulting 3D building model will be an ArchiCAD model.
+That is a lot easier and faster than generating a 3D model by hand.
+
+If you have a building that has *only* rectangular walls and can be
+properly extruded vertically from floor plans into 2.5D, you can use
+Visio 2002 Professional to create a quasi-3D building model from 2D
+floor plans and save it in IFC 2.0 format.  That file can then be read
+by BS Pro server and client, etc.
+
+If the building model was created with SketchUp, you can get the
+interface with which you can import the model into ArchiCAD, save it as
+an IFC file, run BS Pro server and client, and generate the geometry in
+IDF format.
+
+Using *any* of these scripts will save you a lot of time and grief in
+generating building geometry input for EnergyPlus runs.  ArchiCAD 7 will
+save you even more time: It has a tool that allows you to group
+architectural spaces into thermal zones by simply dragging and dropping
+space names into zones you create in the object tree - there is no need
+to redraw anything.  That feature is not working properly in the latest
+version of ArchiCAD (8.3) yet, but is expected to work shortly.
+
+A 3D building model, based on the IFC data model, provides you also with
+opportunities to exchange data other than building geometry data with
+many other apps.  This includes the exchange of HVAC definitions
+(equipment, components, systems), definitions of ducts and pipes,
+electrical definitions (equipment, components and systems), detailed
+cost data for estimates on the fly, structural definitions, data on
+building use (facilities management) and operation, and more.
+
+-- Vladimir
+
+Dr. Vladimir Bazjanac
+Lawrence Berkeley National Laboratory
+
+Alec Stevens wrote:
+
+> General question for the list: What is the latest progress and
+> developments on the subject of integrating architectural CAD drawings
+> of building shell into hourly energy modeling programs like DOE2 or
+> EPlus? Are there software interfaces out there that have gotten this
+> down to a usable product, or are we still a few years out?What are the
+> obstacles to implementing this?  Any success stories that people care
+> to share?  Any specific products that people have
+> used? Thanks!Sincerely, Alec Stevens, PE, LEED AP
+> DMI
+> 450 Lexington St, Newton, MA 02466
+> p: 617-527-1525 x105  f: 617-527-6606
+> e: astevens at dmiinc.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Jeff.Hirsch at DOE2.com  Wed Oct 15 18:18:00 2003
+From: Jeff.Hirsch at DOE2.com (Jeff Hirsch)
+Date: Wed, 15 Oct 2003 18:18:00 -0700
+Subject: [BLDG-SIM] cad/modeling interface
+References: <MDAEMON-F200310151641.AA4100921pd80000585914@gard.com>
+Message-ID: <MDAEMON-F200310152011.AA114946pd80000439802@gard.com>
+
+Currently posted most up-to-date eQUEST is version 3.37  ... many new features
+in all areas, including wizards, with added material in the tutorial (version 3.25)
+to explain simple use.  Program, documentation, weather files and training materials
+are all freeware found at http://doe2.com/equest/ and this new version will soon be at 
+http://www.energydesignresources.com/
+
+For AutoCAD import and trace around (or just manually created floor plans,
+spaces, or surfaces) the maximum number of vertices in 120.  This version
+also allows up to 4000 spaces and 8000 each for exterior walls, windows and
+2000 air-side HVAC systems.  A 1440 space run (with 792 exterior walls and 372
+windows, 672 ground coupled surfaces, 4080 interior walls, 648 building shades, 720 air-side
+AHU's) runs through BDL in 90 seconds and completes a year simulation, including
+detail output reports, in just under 51 minutes on a Dell PWS450 (2.66GHz IX
+processor and 1GB RAM) running Windows XP-Pro.  This model (a 14 building campus)
+was created with the new muti-shell, muti-HVAC Design Development wizard in 
+less than an hour; of course the use of custom footprints and adjustments to space and
+HVAC details (needed to represent a final design) will add substantial information collection
+and eQUEST input time.
+
+In the interface there are many new wizard capabilities (in both model creation wizards and the EEM wizard)
+to allow you to get much closer to the final model before making your transition into the detail
+interface mode.  Many new graphics reports were added, including muti-run comparison graphics and input
+summary reporting on the HVAC side (includes specified and calculated HVAC sizing parameters.)
+
+In addition to interface additions, some of the Version 41 and 42 DOE-2.2 changes include
+(see the six volume manual set posted in the download area):
+
+Space modeling enhancement:
+Ice-Skating Rinks (including hourly calculated radiative, convective, resurfacing, skater, and sub-floor heating loads)
+
+Electric Generation Enhancement:
+Photovoltaic Systems (including arrays, inverters and mounting/shading hourly modeling)
+
+Chiller additions including: 
+Air-Source Chiller/Heat-Pumps
+Water-Source Chiller/Heat Pumps
+Loop-to-Loop Chiller/Heat Pumps
+Screw Chillers
+Variable-Speed Centrifugals
+Air-Cooled, Evaporatively-Cooled , and Remote condensers
+Condenser models allowing both off-rated and variable flow
+Independent specification of chiller rated vs. design conditions
+(includes new CURVE-FIT TYPE of BI-QUADRATIC-RATIO&dT)
+
+Air-side HVAC enhancements:
+Staged-Volume, Packaged Single-Zone AHU model
+Enhanced Economizer Controls
+Air-to-Air Energy-Recovery Ventilators
+AHU now has SIZING-METHOD specified as FLOW/CAPACITY (cfm/ton) or CAPACITY/FLOW (tons/cfm) to allow coupling between flow and capacity sizing
+Return Duct Infiltration
+
+We invite you to download, examine and use this freeware package and hope it
+helps you deliver superior services to your customers in a more cost effective manner.
+
+---
+Jeff Hirsch
+James J. Hirsch & Associates
+Building Performance Analysis Software & Consulting
+12185 Presilla Road
+Camarillo, CA 93012-9243 USA
+phone: (805) 553-9000
+fax: (805) 532-2401
+email: Jeff.Hirsch at DOE2.com
+web: http://DOE2.com
+
+
+  ----- Original Message ----- 
+  From: Lukes, Jason 
+  To: BLDG-SIM at GARD.COM 
+  Sent: Wednesday, October 15, 2003 2:45 PM
+  Subject: [BLDG-SIM] cad/modeling interface
+
+
+  I used eQuest v2.55 to model a fairly complex floorplan (32 vertices) with success.  As John Aulbach indicated, this is accomplished by referencing a scaled AutoCAD drawing and then effectively tracing over it with polygons.  The interface is not difficult.  You can also create unique floorplans independently and then merge them into one model.  The challenge is getting the HVAC zones to recognize which walls are exterior versus interior partitions.  In the end, you will likely need to input each vertex manually to get this to work.  Later versions of the software (I believe they are up to v3.24) may have enhancements to this, such as referencing elevations to input window configurations.  
+
+  Jason K. Lukes
+  R.G. Vanderweil Engineers
+  731 Alexander Road, Suite 300
+  Princeton, NJ 08540
+  (609) 987-1144 X5727 Phone
+  (609) 987-9292 Fax
+  JLukes at RGVP.Vanderweil.com 
+  What does not destroy me, makes me stronger. -Friedrich Nietzsche 
+
+
+   -----Original Message-----
+  From: Aulbach, John [mailto:JAulbach at semprasolutions.com]
+  Sent: Wednesday, October 15, 2003 5:07 PM
+  To: BLDG-SIM at GARD.COM
+  Subject: [BLDG-SIM] cad/modeling interface
+
+
+    You can import an AutoCAD file into eQuest, and trace around the envelope to build your model. I have never done it personally, but it is in the latest eQuest Training manual.
+      -----Original Message-----
+      From: Alec Stevens [mailto:astevens at dmiinc.com]
+      Sent: Wednesday, October 15, 2003 1:04 PM
+      To: BLDG-SIM at GARD.COM
+      Subject: [BLDG-SIM] cad/modeling interface
+
+
+      General question for the list:    
+
+      What is the latest progress and developments on the subject of integrating architectural CAD drawings of building shell into hourly energy modeling programs like DOE2 or EPlus?
+
+      Are there software interfaces out there that have gotten this down to a usable product, or are we still a few years out?
+      What are the obstacles to implementing this?  Any success stories that people care to share?  Any specific products that people have used?
+
+      Thanks!
+      Sincerely,
+
+      Alec Stevens, PE, LEED AP
+      DMI
+      450 Lexington St, Newton, MA 02466
+      p: 617-527-1525 x105  f: 617-527-6606
+      e: astevens at dmiinc.com
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031015/25e12411/attachment.htm>
+
+From Drury.Crawley at EE.DOE.GOV  Wed Oct 15 17:57:22 2003
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Wed, 15 Oct 2003 20:57:22 -0400
+Subject: [BLDG-SIM] cad/modeling interface
+Message-ID: <MDAEMON-F200310151951.AA5108796pd80000439755@gard.com>
+
+
+EnergyPlus has a utility that automatically acquires the
+geometry of spaces, walls, windows, doors, floors, and
+roofs from an IFC data file (International Alliance for
+Interoperability standardized format for sharing information
+among building software) and generates an EnergyPlus
+input data file (IDF) containing this building geometry.
+IFC-compliant files can be created by:
+
+Autodesk Architectural Desktop
+Bentley Microstation
+Graphisoft ArchiCAD
+Nemetschek ALLPLAN
+Timberline Cost Estimating Software
+among others...
+
+Complete list of IFC-compliant programs available on
+the IAI implementers web site:
+http://www.bauwesen.fh-muenchen.de/iai/ImplementationOverview.htm
+
+More info about the IFC implementation within EnergyPlus
+from:  http://www.eere.energy.gov/buildings/energyplus/ifc.html
+
+
+
+                                                                                                            
+                      "Alec Stevens"                                                                        
+                      <astevens at dmiinc.        To:       BLDG-SIM at GARD.COM                                  
+                      com>                     cc:                                                          
+                      Sent by:                 Subject:  [BLDG-SIM] cad/modeling interface                  
+                      postman at gard.com                                                                      
+                                                                                                            
+                                                                                                            
+                      10/15/2003 04:03                                                                      
+                      PM                                                                                    
+                      Please respond to                                                                     
+                      astevens                                                                              
+                                                                                                            
+                                                                                                            
+
+
+
+
+General question for the list:
+
+What is the latest progress and developments on the subject of integrating
+architectural CAD drawings of building shell into hourly energy modeling
+programs like DOE2 or EPlus?
+
+Are there software interfaces out there that have gotten this down to a
+usable product, or are we still a few years out?
+What are the obstacles to implementing this?  Any success stories that
+people care to share?  Any specific products that people have used?
+
+Thanks!
+Sincerely,
+
+Alec Stevens, PE, LEED AP
+DMI
+450 Lexington St, Newton, MA 02466
+p: 617-527-1525 x105  f: 617-527-6606
+e: astevens at dmiinc.com
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From tconlon at geopraxis.com  Wed Oct 15 17:51:19 2003
+From: tconlon at geopraxis.com (Tom Conlon)
+Date: Wed, 15 Oct 2003 17:51:19 -0700
+Subject: [BLDG-SIM] cad/modeling interface
+In-Reply-To: <MDAEMON-F200310151458.AA5844828pd80000584514@gard.com>
+Message-ID: <MDAEMON-F200310151944.AA4441718pd80000439745@gard.com>
+
+Alec, et al.,
+Actually there's been lots of progress in this area. GeoPraxis and three
+major 3D-CAD software vendors recently announced that they are actively
+working to develop Green Building XML (gbXML) connectors to the following
+tools:
+
+ - Autodesk? Architectural Desktop
+ - Autodesk? Revit?
+ - Graphisoft?s ArchiCAD?
+ - Bentley Architecture?
+
+The free Green Building Studio web service, scheduled for launch early next
+year, will read the gbXML files produced by these programs and AUTOMATE all
+the steps required to produce a complete energy simulation analysis. (See
+other posting to this thread describing manually assisted CAD file
+translation practices using currently available tools).
+
+For more background, including several quotes from CAD industry executives,
+check out a recent press release:
+www.geopraxis.com/content/pressrelease.asp?id=14
+
+-Tom
+
+Thomas P. Conlon
+VP, Business Development
+GeoPraxis, Inc.
+205 Keller St. Suite #202
+Petaluma, CA 94952-2886
+707-766-7010
+707-766-7014 (Fax)
+http://www.geopraxis.com/
+tconlon at geopraxis.com
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Alec Stevens
+Sent: Wednesday, October 15, 2003 1:04 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] cad/modeling interface
+
+
+General question for the list:
+
+What is the latest progress and developments on the subject of integrating
+architectural CAD drawings of building shell into hourly energy modeling
+programs like DOE2 or EPlus?
+
+Are there software interfaces out there that have gotten this down to a
+usable product, or are we still a few years out?
+What are the obstacles to implementing this?  Any success stories that
+people care to share?  Any specific products that people have used?
+
+Thanks!
+Sincerely,
+
+Alec Stevens, PE, LEED AP
+DMI
+450 Lexington St, Newton, MA 02466
+p: 617-527-1525 x105  f: 617-527-6606
+e: astevens at dmiinc.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From JAulbach at semprasolutions.com  Wed Oct 15 15:52:45 2003
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Wed, 15 Oct 2003 15:52:45 -0700
+Subject: [BLDG-SIM] cad/modeling interface
+Message-ID: <MDAEMON-F200310151747.AA4726468pd80000439512@gard.com>
+
+Try Version 3-37, fresh out October 14.
+
+-----Original Message-----
+From: Lukes, Jason [mailto:JLukes at RGVP.Vanderweil.com]
+Sent: Wednesday, October 15, 2003 2:45 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] cad/modeling interface
+
+
+I used eQuest v2.55 to model a fairly complex floorplan (32 vertices) with
+success.  As John Aulbach indicated, this is accomplished by referencing a
+scaled AutoCAD drawing and then effectively tracing over it with polygons.
+The interface is not difficult.  You can also create unique floorplans
+independently and then merge them into one model.  The challenge is getting
+the HVAC zones to recognize which walls are exterior versus interior
+partitions.  In the end, you will likely need to input each vertex manually
+to get this to work.  Later versions of the software (I believe they are up
+to v3.24) may have enhancements to this, such as referencing elevations to
+input window configurations.  
+ 
+Jason K. Lukes
+R.G. Vanderweil Engineers
+731 Alexander Road, Suite 300
+Princeton, NJ 08540
+(609) 987-1144 X5727 Phone
+(609) 987-9292 Fax
+JLukes at RGVP.Vanderweil.com 
+What does not destroy me, makes me stronger. -Friedrich Nietzsche 
+
+
+ -----Original Message-----
+From: Aulbach, John [mailto:JAulbach at semprasolutions.com]
+Sent: Wednesday, October 15, 2003 5:07 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] cad/modeling interface
+
+
+
+You can import an AutoCAD file into eQuest, and trace around the envelope to
+build your model. I have never done it personally, but it is in the latest
+eQuest Training manual.
+
+-----Original Message-----
+From: Alec Stevens [mailto:astevens at dmiinc.com]
+Sent: Wednesday, October 15, 2003 1:04 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] cad/modeling interface
+
+
+General question for the list:    
+ 
+What is the latest progress and developments on the subject of integrating
+architectural CAD drawings of building shell into hourly energy modeling
+programs like DOE2 or EPlus?
+ 
+Are there software interfaces out there that have gotten this down to a
+usable product, or are we still a few years out?
+What are the obstacles to implementing this?  Any success stories that
+people care to share?  Any specific products that people have used?
+ 
+Thanks!
+Sincerely,
+ 
+Alec Stevens, PE, LEED AP
+DMI
+450 Lexington St, Newton, MA 02466
+p: 617-527-1525 x105  f: 617-527-6606
+e: astevens at dmiinc.com <mailto:astevens at dmiinc.com> 
+
+======================================================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031015/38a32122/attachment.htm>
+
+From mroberts20 at kc.rr.com  Wed Oct 15 15:39:16 2003
+From: mroberts20 at kc.rr.com (Mike Roberts)
+Date: Wed, 15 Oct 2003 17:39:16 -0500
+Subject: [BLDG-SIM] cad/modeling interface
+In-Reply-To: <MDAEMON-F200310151458.AA5838484pd80000584405@gard.com>
+Message-ID: <MDAEMON-F200310151732.AA3255296pd80000439481@gard.com>
+
+eQUEST is the best that I am aware of.  You can import an AutoCAD drawing
+and trace it using the mouse.  It is far from perfect and only works in 2-D
+(floorplans), but I have used it successfully on some fairly complicated
+buildings.  It's a whole lot better than doing it manually.
+
+eQUEST expanded allowable vertices to 120 in version 3-35, but there was a
+problem with the DOE-2.2 calculation engine and lots of vertices.  There is
+a version 3-37 on the download site dated yesterday.  Hopefully, the
+vertices problem is fixed.
+
+Mike
+  -----Original Message-----
+  From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Alec Stevens
+  Sent: Wednesday, October 15, 2003 3:04 PM
+  To: BLDG-SIM at gard.com
+  Subject: [BLDG-SIM] cad/modeling interface
+
+
+  General question for the list:
+
+  What is the latest progress and developments on the subject of integrating
+architectural CAD drawings of building shell into hourly energy modeling
+programs like DOE2 or EPlus?
+
+  Are there software interfaces out there that have gotten this down to a
+usable product, or are we still a few years out?
+  What are the obstacles to implementing this?  Any success stories that
+people care to share?  Any specific products that people have used?
+
+  Thanks!
+  Sincerely,
+
+  Alec Stevens, PE, LEED AP
+  DMI
+  450 Lexington St, Newton, MA 02466
+  p: 617-527-1525 x105  f: 617-527-6606
+  e: astevens at dmiinc.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031015/da12c651/attachment.htm>
+
+From abushakr at msoe.edu  Wed Oct 15 15:37:28 2003
+From: abushakr at msoe.edu (Abushakra, Bass)
+Date: Wed, 15 Oct 2003 17:37:28 -0500
+Subject: [BLDG-SIM] cad/modeling interface
+Message-ID: <MDAEMON-F200310151745.AA4559953pd80000439508@gard.com>
+
+You can try "Visual-DOE" available at www.eley.com <http://www.eley.com/> .
+I haven't done it before, but I'll be doing it soon.
+
+ 
+
+Bass Abushakra, Ph.D.
+
+Assistant Professor, Building Environmental Systems
+
+Architectural Engineering and Building Construction Department
+
+Milwaukee School of Engineering
+
+1025 N. Broadway, CC60-B
+
+Milwaukee, WI 53202
+
+Phone: 414-277-4551
+
+Fax:     414-277-7415
+
+http://people.msoe.edu/~abushakr/index.htm
+
+ 
+
+ 
+
+ 
+
+ 
+
+-----Original Message-----
+From: Alec Stevens [mailto:astevens at dmiinc.com] 
+Sent: Wednesday, October 15, 2003 3:04 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] cad/modeling interface
+
+ 
+
+General question for the list:    
+
+ 
+
+What is the latest progress and developments on the subject of integrating
+architectural CAD drawings of building shell into hourly energy modeling
+programs like DOE2 or EPlus?
+
+ 
+
+Are there software interfaces out there that have gotten this down to a
+usable product, or are we still a few years out?
+
+What are the obstacles to implementing this?  Any success stories that
+people care to share?  Any specific products that people have used?
+
+ 
+
+Thanks!
+
+Sincerely,
+
+ 
+
+Alec Stevens, PE, LEED AP
+DMI
+450 Lexington St, Newton, MA 02466
+p: 617-527-1525 x105  f: 617-527-6606
+e: astevens at dmiinc.com <mailto:astevens at dmiinc.com> 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031015/5c3881a1/attachment.htm>
+
+From stvgates at pacbell.net  Wed Oct 15 15:31:15 2003
+From: stvgates at pacbell.net (Steve Gates)
+Date: Wed, 15 Oct 2003 15:31:15 -0700
+Subject: [BLDG-SIM] Major disagreement on Chiller Performance Curves in DOE-2.1E and DOE-2.2
+References: <MDAEMON-F200310151317.AA1755375pd80000583215@gard.com>
+Message-ID: <MDAEMON-F200310151729.AA2908281pd80000439471@gard.com>
+
+Major disagreement on Chiller Performance Curves in DOE-2.1E and DOE-2.2Unfortunately, the ARI data for performance at partial loads is not useful in an hourly simulation program, precisely because it makes an assumption about reduced condenser temperature at reduced load.  The assumptions in the ARI curve might be reasonable for a single chiller in a given building and climate, and where you allow the condenser temperature to drop with load and wetbulb.  However, many plants have more than one chiller, the cooling tower(s) may be controlled to a fixed condenser temperature, and/or you might be running the chiller in Florida vs. New Mexico, which have very different load/wetbulb relationships.
+
+It would be useful if ARI recognized these issues, and developed a standard method for reporting chiller performance for use in hourly simulation programs (the same problem also applies to packaged rooftop equipment).  
+
+Note that "standard" ratings assume the evaporator is operating at 44F leaving temperature and 2.4 gpm/ton, and the condenser is operating at 85F entering and 3.0 gpm/ton.  However a centrifugal chiller is custom built to the engineer's specifications.  A chiller in a low-wetbulb climate may be configured to run with 75F entering condenser water, and will surge if operated at 44F/85F.  In other words, many centrifigal chillers cannot operate at the "standard" conditions!
+
+The default curves in recent versions of 2.2 are based on a manufacturer's proprietary data.  They are an improvement over the 2.1e curves, but do not necessarily represent all chillers and all manufacturers.
+
+DOE-2 uses three curves to model chiller performance.  The use of these curves is documented in the Topics manual.  More recent versions of 2.2 modify performance for off-rated condenser flow.  In addition, the PLR curve includes a second term (PLR,dT) to model the condenser relief necessary to achieve savings with a variable-speed drive.
+
+  ----- Original Message ----- 
+  From: Aulbach, John 
+  To: BLDG-SIM at GARD.COM 
+  Sent: Wednesday, October 15, 2003 11:23 AM
+  Subject: [BLDG-SIM] Major disagreement on Chiller Performance Curves in DOE-2.1E and DOE-2.2
+
+
+  I am having a "friendly" disagreement with a colleague on what chiller curves to ask for from a manufacturer to input into DOE-2 (could be either 2.1E or 2.2). We both agree that the infamous ARI point for a 100% load should be input. But the curves are where we disagree.
+
+  Is the Default DOE-2 curve for % Power versus % Tons the ARI curve with the allowable reduction in condenser water temperature, or is it based on the FIXED 85?F entering condenser water and FIXED 44?F leaving chilled water ALL the way down the curve?
+
+  Therefore, when I am given a chiller with a variable speed drive installed, what parameters should I ask for in such a Power/Tons to be FIXED ???
+
+
+
+
+
+
+  John R. Aulbach, PE, CEM 
+  Project Engineer 
+  Sempra Energy Solutions 
+  555 West Fifth Street 
+  Mail Location 27F3 
+  Los Angeles, CA 90013 
+  Tel: (213) 244-8551 Cell (213) 219-4875 
+    
+
+  "Sempra Energy Solutions is not the same company as SDG&E/ SoCalGas, the Utilities.  Sempra Energy Solutions is not regulated by the California Public Utilities Commission, and you do not have to buy Sempra Energy Solutions products or services to continue to receive quality regulated service from the Utilities."  
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031015/90321a5e/attachment.htm>
+
+From JLukes at RGVP.Vanderweil.com  Wed Oct 15 14:45:18 2003
+From: JLukes at RGVP.Vanderweil.com (Lukes, Jason)
+Date: Wed, 15 Oct 2003 17:45:18 -0400
+Subject: [BLDG-SIM] cad/modeling interface
+Message-ID: <MDAEMON-F200310151641.AA4136781pd80000439385@gard.com>
+
+I used eQuest v2.55 to model a fairly complex floorplan (32 vertices) with
+success.  As John Aulbach indicated, this is accomplished by referencing a
+scaled AutoCAD drawing and then effectively tracing over it with polygons.
+The interface is not difficult.  You can also create unique floorplans
+independently and then merge them into one model.  The challenge is getting
+the HVAC zones to recognize which walls are exterior versus interior
+partitions.  In the end, you will likely need to input each vertex manually
+to get this to work.  Later versions of the software (I believe they are up
+to v3.24) may have enhancements to this, such as referencing elevations to
+input window configurations.  
+ 
+Jason K. Lukes
+R.G. Vanderweil Engineers
+731 Alexander Road, Suite 300
+Princeton, NJ 08540
+(609) 987-1144 X5727 Phone
+(609) 987-9292 Fax
+JLukes at RGVP.Vanderweil.com 
+What does not destroy me, makes me stronger. -Friedrich Nietzsche 
+
+
+ -----Original Message-----
+From: Aulbach, John [mailto:JAulbach at semprasolutions.com]
+Sent: Wednesday, October 15, 2003 5:07 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] cad/modeling interface
+
+
+
+You can import an AutoCAD file into eQuest, and trace around the envelope to
+build your model. I have never done it personally, but it is in the latest
+eQuest Training manual.
+
+-----Original Message-----
+From: Alec Stevens [mailto:astevens at dmiinc.com]
+Sent: Wednesday, October 15, 2003 1:04 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] cad/modeling interface
+
+
+General question for the list:    
+ 
+What is the latest progress and developments on the subject of integrating
+architectural CAD drawings of building shell into hourly energy modeling
+programs like DOE2 or EPlus?
+ 
+Are there software interfaces out there that have gotten this down to a
+usable product, or are we still a few years out?
+What are the obstacles to implementing this?  Any success stories that
+people care to share?  Any specific products that people have used?
+ 
+Thanks!
+Sincerely,
+ 
+Alec Stevens, PE, LEED AP
+DMI
+450 Lexington St, Newton, MA 02466
+p: 617-527-1525 x105  f: 617-527-6606
+e: astevens at dmiinc.com <mailto:astevens at dmiinc.com> 
+
+
+
+======================================================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031015/68b83135/attachment.htm>
+
+From miket at etcgrp.com  Wed Oct 15 14:40:49 2003
+From: miket at etcgrp.com (Mike Tillou)
+Date: Wed, 15 Oct 2003 17:40:49 -0400
+Subject: [BLDG-SIM] Major disagreement on Chiller Performance Curves in DOE-2.1E and DOE-2.2
+In-Reply-To: <BC503DD06F99424E9DC941ED1D0F8329E15A30@MAIL-06VS.atlarge.net>
+Message-ID: <MDAEMON-F200310151634.AA3418562pd80000439363@gard.com>
+
+John, I think the answer to your question has two parts:
+ 
+1. DOE uses two curves for modifying the full load EIR (1/COP) of a constant
+speed chiller.  The first adjusts for part load and the second for
+temperature. 
+ 
+I use a curve with fixed CHWT and CWT at various part load conditions (at
+design conditions not ARI rated conditions) for the EIR f(PLR) curve (the
+one you're asking about) and create a second curve based on various
+combinations of CHWT, CWT at full load for the EIR f(LCHWT, ECWT) curve.
+The assumption, I think, is that the PLR curve reamins relatively uniform as
+the water temperatures change so once you have the shape of the PLR curve
+you can account for temperature differences with a second curve.
+ 
+ 
+2. The above methodology works fine for constant speed chillers but needs to
+be modified for variable speed chillers.  Rather than using EIR F(PLR) you
+need to use EIR f(PLR,dT).  This curve now accounts for the change in the
+difference of the water temperature across the chiller.  See Volume 6 of the
+DOE 2.2 v41 reference manual available at www.DOE2.com, there is a section
+on chiller performance that explains this much better than I could do.  DOE
+2.2 v41 incorporates this change and has default curves for both.
+ 
+It sounds like you both may be correct depending on the type of chiller you
+want to model.
+ 
+Mike Tillou, PE
+etc Group, Inc
+413-664-9070
+ 
+ 
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Aulbach, John
+Sent: Wednesday, October 15, 2003 2:23 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Major disagreement on Chiller Performance Curves in
+DOE-2.1E and DOE-2.2
+
+
+
+I am having a "friendly" disagreement with a colleague on what chiller
+curves to ask for from a manufacturer to input into DOE-2 (could be either
+2.1E or 2.2). We both agree that the infamous ARI point for a 100% load
+should be input. But the curves are where we disagree.
+
+Is the Default DOE-2 curve for % Power versus % Tons the ARI curve with the
+allowable reduction in condenser water temperature, or is it based on the
+FIXED 85?F entering condenser water and FIXED 44?F leaving chilled water ALL
+the way down the curve?
+
+Therefore, when I am given a chiller with a variable speed drive installed,
+what parameters should I ask for in such a Power/Tons to be FIXED ???
+
+
+
+
+
+John R. Aulbach, PE, CEM 
+Project Engineer 
+Sempra Energy Solutions 
+555 West Fifth Street 
+Mail Location 27F3 
+Los Angeles, CA 90013 
+Tel: (213) 244-8551 Cell (213) 219-4875 
+  
+
+"Sempra Energy Solutions is not the same company as SDG&E/ SoCalGas, the
+Utilities.  Sempra Energy Solutions is not regulated by the California
+Public Utilities Commission, and you do not have to buy Sempra Energy
+Solutions products or services to continue to receive quality regulated
+service from the Utilities."  
+
+
+
+==================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031015/417f3e2e/attachment.htm>
+
+From JAulbach at semprasolutions.com  Wed Oct 15 14:06:41 2003
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Wed, 15 Oct 2003 14:06:41 -0700
+Subject: [BLDG-SIM] cad/modeling interface
+Message-ID: <MDAEMON-F200310151600.AA0049875pd80000439305@gard.com>
+
+You can import an AutoCAD file into eQuest, and trace around the envelope to
+build your model. I have never done it personally, but it is in the latest
+eQuest Training manual.
+
+-----Original Message-----
+From: Alec Stevens [mailto:astevens at dmiinc.com]
+Sent: Wednesday, October 15, 2003 1:04 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] cad/modeling interface
+
+
+General question for the list:    
+ 
+What is the latest progress and developments on the subject of integrating
+architectural CAD drawings of building shell into hourly energy modeling
+programs like DOE2 or EPlus?
+ 
+Are there software interfaces out there that have gotten this down to a
+usable product, or are we still a few years out?
+What are the obstacles to implementing this?  Any success stories that
+people care to share?  Any specific products that people have used?
+ 
+Thanks!
+Sincerely,
+ 
+Alec Stevens, PE, LEED AP
+DMI
+450 Lexington St, Newton, MA 02466
+p: 617-527-1525 x105  f: 617-527-6606
+e: astevens at dmiinc.com <mailto:astevens at dmiinc.com> 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031015/ba6d12d8/attachment.htm>
+
+From astevens at dmiinc.com  Wed Oct 15 13:03:52 2003
+From: astevens at dmiinc.com (Alec Stevens)
+Date: Wed, 15 Oct 2003 16:03:52 -0400
+Subject: [BLDG-SIM] cad/modeling interface
+Message-ID: <MDAEMON-F200310151458.AA5829578pd80000439229@gard.com>
+
+General question for the list:    
+
+What is the latest progress and developments on the subject of integrating architectural CAD drawings of building shell into hourly energy modeling programs like DOE2 or EPlus?
+
+Are there software interfaces out there that have gotten this down to a usable product, or are we still a few years out?
+What are the obstacles to implementing this?  Any success stories that people care to share?  Any specific products that people have used?
+
+Thanks!
+Sincerely,
+
+Alec Stevens, PE, LEED AP
+DMI
+450 Lexington St, Newton, MA 02466
+p: 617-527-1525 x105  f: 617-527-6606
+e: astevens at dmiinc.com
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031015/a90478b0/attachment.htm>
+
+From mroberts20 at kc.rr.com  Wed Oct 15 12:38:43 2003
+From: mroberts20 at kc.rr.com (Mike Roberts)
+Date: Wed, 15 Oct 2003 14:38:43 -0500
+Subject: [BLDG-SIM] Major disagreement on Chiller Performance Curves in DOE-2.1E and	DOE-2.2
+In-Reply-To: <MDAEMON-F200310151317.AA1745234pd80000583116@gard.com>
+Message-ID: <MDAEMON-F200310151432.AA3228765pd80000439191@gard.com>
+
+Major disagreement on Chiller Performance Curves in DOE-2.1E and DOE-2.2The
+easy way to settle that is to create a spreadsheet that uses the
+coefficients.  You can get them from the .bdl file if you enter DIAGNOSTIC
+COMMENTS .. right before your chiller instructions.  Interestingly enough,
+that's what I was doing this morning.  I have attached my spreadsheet.
+Please excuse that it is not ready for distribution.  Just something I was
+playing with.
+
+The coefficients are for DOE-2.2 and do include upgrades since the mid '70s
+that DOE-2.1E uses.  The VFD coefficients are new.
+
+As you can see, kW/ton does change with temperatures.
+
+If you want FIXED condenser water temperature and chilled water temperature
+(the default), do not turn on the resets.  Condenser water (and maybe
+chilled water) will still drift with what the equipment can do.
+
+Mike
+  -----Original Message-----
+  From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Aulbach, John
+  Sent: Wednesday, October 15, 2003 1:23 PM
+  To: BLDG-SIM at gard.com
+  Subject: [BLDG-SIM] Major disagreement on Chiller Performance Curves in
+DOE-2.1E and DOE-2.2
+
+
+  I am having a "friendly" disagreement with a colleague on what chiller
+curves to ask for from a manufacturer to input into DOE-2 (could be either
+2.1E or 2.2). We both agree that the infamous ARI point for a 100% load
+should be input. But the curves are where we disagree.
+
+  Is the Default DOE-2 curve for % Power versus % Tons the ARI curve with
+the allowable reduction in condenser water temperature, or is it based on
+the FIXED 85?F entering condenser water and FIXED 44?F leaving chilled water
+ALL the way down the curve?
+
+  Therefore, when I am given a chiller with a variable speed drive
+installed, what parameters should I ask for in such a Power/Tons to be FIXED
+???
+
+
+
+
+
+
+  John R. Aulbach, PE, CEM
+  Project Engineer
+  Sempra Energy Solutions
+  555 West Fifth Street
+  Mail Location 27F3
+  Los Angeles, CA 90013
+  Tel: (213) 244-8551 Cell (213) 219-4875
+
+
+  "Sempra Energy Solutions is not the same company as SDG&E/ SoCalGas, the
+Utilities.  Sempra Energy Solutions is not regulated by the California
+Public Utilities Commission, and you do not have to buy Sempra Energy
+Solutions products or services to continue to receive quality regulated
+service from the Utilities."
+
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031015/fd982f12/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: DOE Chiller Coefficients.xls
+Type: application/vnd.ms-excel
+Size: 20992 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031015/fd982f12/attachment.xls>
+
+From JAulbach at semprasolutions.com  Wed Oct 15 11:23:26 2003
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Wed, 15 Oct 2003 11:23:26 -0700
+Subject: [BLDG-SIM] Major disagreement on Chiller Performance Curves in DOE-2.1E and 
+	DOE-2.2
+Message-ID: <MDAEMON-F200310151317.AA173531pd80000439103@gard.com>
+
+I am having a "friendly" disagreement with a colleague on what chiller
+curves to ask for from a manufacturer to input into DOE-2 (could be either
+2.1E or 2.2). We both agree that the infamous ARI point for a 100% load
+should be input. But the curves are where we disagree.
+
+Is the Default DOE-2 curve for % Power versus % Tons the ARI curve with the
+allowable reduction in condenser water temperature, or is it based on the
+FIXED 85?F entering condenser water and FIXED 44?F leaving chilled water ALL
+the way down the curve?
+
+Therefore, when I am given a chiller with a variable speed drive installed,
+what parameters should I ask for in such a Power/Tons to be FIXED ???
+
+
+
+
+
+John R. Aulbach, PE, CEM
+Project Engineer
+Sempra Energy Solutions
+555 West Fifth Street
+Mail Location 27F3
+Los Angeles, CA 90013
+Tel: (213) 244-8551 Cell (213) 219-4875
+ 
+
+"Sempra Energy Solutions is not the same company as SDG&E/ SoCalGas, the
+Utilities.  Sempra Energy Solutions is not regulated by the California
+Public Utilities Commission, and you do not have to buy Sempra Energy
+Solutions products or services to continue to receive quality regulated
+service from the Utilities."  
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031015/38563ac1/attachment.htm>
+
+From l.brotas at unl.ac.uk  Wed Oct 15 07:31:01 2003
+From: l.brotas at unl.ac.uk (l.brotas at unl.ac.uk)
+Date: Wed, 15 Oct 2003 15:31:01 +0100
+Subject: [BLDG-SIM] LEARNIX 2003-10-14 released
+Message-ID: <MDAEMON-F200310150930.AA3034484pd80000438829@gard.com>
+
+LEARN, the Low Energy Architecture Research Unit of the London
+Metropolitan University, proudly present LEARNIX version 2003-10-14.
+LEARNIX is a KNOPPIX based LINUX distributions that runs off
+the CD-ROM and doesn't require installing. 
+It includes the building simulation programs RADIANCE and Esp-r.
+User data can be saved onto existing Windoze partitions (not NTFS) 
+or to USB storage devices.
+
+KNOPPIX 3.3 + RADIANCE 3.5 + ESP-r 10.5 = LEARNIX 2003-10-14
+
+download the iso image at:
+http://luminance.londonmet.ac.uk/learnix
+
+Enjoy
+Luisa Brotas and Axel Jacobs
+
+			
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jhaberl at esl.tamu.edu  Tue Oct 14 06:29:32 2003
+From: jhaberl at esl.tamu.edu (Jeff Haberl)
+Date: Tue, 14 Oct 2003 08:29:32 -0500
+Subject: [BLDG-SIM] Looking for central plant energy trade-off tool fo
+	r conceptual de	sign
+Message-ID: <MDAEMON-F200310140822.AA2253500pd80000437523@gard.com>
+
+The following paper may be of some assistance.
+ 
+Jeff
+ 
+Beasley, R., Haberl, J., Turner, D. and Claridge, D. 2002. "Development of a
+Methodology for Baselining The Energy Use of Large Multi-building Central
+Plants", ASHRAE Transactions-Research,  Volume 108, Part 1, pp. 251 - 259,
+(January).
+ 
+
+
+8=!   8=)  :=)   8=)   ;=)   8=)   8=(   8=)   8=()   8=)   8=|   8=)   :=')
+8=)   8=)   8=? 
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu 
+Professor...............................................Office Ph:
+979-845-6507 
+Department of Architecture...........................Lab Ph: 979-845-6065 
+Energy Systems Laboratory...........................FAX: 979-862-2457 
+Texas A&M University..................................77843-3581 
+College Station, Texas, USA...........................URL: www-esl.tamu.edu 
+
+8=/   8=)  :=)   8=)  ;=)   8=)   8=()   8=)   :=)   8=)   8=!   8=)   8=?
+8=)   8=)   8=0   
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Mike Roberts
+Sent: Monday, October 13, 2003 10:23 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Looking for central plant energy trade-off tool for
+conceptual de sign
+
+
+eQUEST would allow you to quickly build buildings using the Schematic Design
+Wizard.  The Schematic Design Wizard has good defaults for many building
+types.  Depending on the accuracy you want initially, you could build one
+large building very quickly or you could build several models of future
+buildings and import them all into a single model for the central plant
+analysis.  This second option would also allow you to update the model as
+further information became available.
+ 
+If you have the first phase ready to model, you could do that with a
+multiplier, or add Schematic Design models of future buildings.
+ 
+Mike
+ 
+ 
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Brian Thornton
+Sent: Monday, October 13, 2003 9:09 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Looking for central plant energy trade-off tool for
+conceptual de sign
+
+
+
+Hello, 
+
+Can anyone recommend software that allows fairly rapid analysis of energy
+trade-offs between central plant equipment and configurations, when the
+buildings to be served and loads are still speculative?  This is for a
+campus that will be built in phases over many years, and most buildings are
+only loosely defined. DOE-2 will be more difficult and detailed than
+warranted. 
+
+Thank you for your input. 
+
+Brian Thornton, P.E. 
+Lead Engineer, Energy Services 
+GLUMAC 
+I N T E R N A T I O N A L 
+320 SW Washington, Suite 200 
+Portland, Oregon 97204 
+
+503.227.5280  Phone 
+503.274.7674  Fax 
+
+==================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+==================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031014/bd61a61a/attachment.htm>
+
+From sylvesterkat at hotmail.com  Mon Oct 13 20:59:40 2003
+From: sylvesterkat at hotmail.com (Sylvester Kat)
+Date: Mon, 13 Oct 2003 22:59:40 -0500
+Subject: [BLDG-SIM] Looking for central plant energy trade-off tool for conceptual
+ de sign
+Message-ID: <MDAEMON-F200310132252.AA5247578pd80000437128@gard.com>
+
+Brian,
+
+Another software I used was Trane System Analyzer.  I found it is very 
+effective for a quick energy calc when you don't have a lot of detail 
+information on the buildings.  I was able to match the energy bills pretty 
+close to the existing buildings.
+
+Kitty Knauz, PE
+Deerfield, IL
+
+
+
+>From: "Mike Roberts" <mroberts20 at kc.rr.com>
+>Reply-To: <Mike at roberts-engineering.com>
+>To: <bldg-sim at gard.com>
+>Subject: [bldg-sim] Looking for central plant energy trade-off tool for 
+>conceptual de	sign
+>Date: Mon, 13 Oct 2003 10:23:15 -0500
+>
+>Looking for central plant energy trade-off tool for conceptual designeQUEST
+>would allow you to quickly build buildings using the Schematic Design
+>Wizard.  The Schematic Design Wizard has good defaults for many building
+>types.  Depending on the accuracy you want initially, you could build one
+>large building very quickly or you could build several models of future
+>buildings and import them all into a single model for the central plant
+>analysis.  This second option would also allow you to update the model as
+>further information became available.
+>
+>If you have the first phase ready to model, you could do that with a
+>multiplier, or add Schematic Design models of future buildings.
+>
+>Mike
+>
+>
+>   -----Original Message-----
+>   From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Brian
+>Thornton
+>   Sent: Monday, October 13, 2003 9:09 AM
+>   To: bldg-sim at gard.com
+>   Subject: [bldg-sim] Looking for central plant energy trade-off tool for
+>conceptual de sign
+>
+>
+>   Hello,
+>
+>   Can anyone recommend software that allows fairly rapid analysis of 
+>energy
+>trade-offs between central plant equipment and configurations, when the
+>buildings to be served and loads are still speculative?  This is for a
+>campus that will be built in phases over many years, and most buildings are
+>only loosely defined. DOE-2 will be more difficult and detailed than
+>warranted.
+>
+>   Thank you for your input.
+>
+>   Brian Thornton, P.E.
+>   Lead Engineer, Energy Services
+>   GLUMAC
+>   I N T E R N A T I O N A L
+>   320 SW Washington, Suite 200
+>   Portland, Oregon 97204
+>
+>   503.227.5280  Phone
+>   503.274.7674  Fax
+>
+>
+>==================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+_________________________________________________________________
+Enjoy MSN 8 patented spam control and more with MSN 8 Dial-up Internet 
+Service.  Try it FREE for one month!   http://join.msn.com/?page=dept/dialup
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mroberts20 at kc.rr.com  Mon Oct 13 08:23:15 2003
+From: mroberts20 at kc.rr.com (Mike Roberts)
+Date: Mon, 13 Oct 2003 10:23:15 -0500
+Subject: [bldg-sim] Looking for central plant energy trade-off tool for conceptual de	sign
+In-Reply-To: <MDAEMON-F200310130902.AA0215828pd80000578588@gard.com>
+Message-ID: <MDAEMON-F200310131016.AA164362pd80000436517@gard.com>
+
+Looking for central plant energy trade-off tool for conceptual designeQUEST
+would allow you to quickly build buildings using the Schematic Design
+Wizard.  The Schematic Design Wizard has good defaults for many building
+types.  Depending on the accuracy you want initially, you could build one
+large building very quickly or you could build several models of future
+buildings and import them all into a single model for the central plant
+analysis.  This second option would also allow you to update the model as
+further information became available.
+
+If you have the first phase ready to model, you could do that with a
+multiplier, or add Schematic Design models of future buildings.
+
+Mike
+
+
+  -----Original Message-----
+  From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Brian
+Thornton
+  Sent: Monday, October 13, 2003 9:09 AM
+  To: bldg-sim at gard.com
+  Subject: [bldg-sim] Looking for central plant energy trade-off tool for
+conceptual de sign
+
+
+  Hello,
+
+  Can anyone recommend software that allows fairly rapid analysis of energy
+trade-offs between central plant equipment and configurations, when the
+buildings to be served and loads are still speculative?  This is for a
+campus that will be built in phases over many years, and most buildings are
+only loosely defined. DOE-2 will be more difficult and detailed than
+warranted.
+
+  Thank you for your input.
+
+  Brian Thornton, P.E.
+  Lead Engineer, Energy Services
+  GLUMAC
+  I N T E R N A T I O N A L
+  320 SW Washington, Suite 200
+  Portland, Oregon 97204
+
+  503.227.5280  Phone
+  503.274.7674  Fax
+
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031013/a57e413a/attachment.htm>
+
+From bthornton at glumac.com  Mon Oct 13 07:08:43 2003
+From: bthornton at glumac.com (Brian Thornton)
+Date: Mon, 13 Oct 2003 07:08:43 -0700
+Subject: [bldg-sim] Looking for central plant energy trade-off tool for conceptual de
+	sign
+Message-ID: <MDAEMON-F200310130902.AA0206921pd80000436415@gard.com>
+
+Hello,
+
+Can anyone recommend software that allows fairly rapid analysis of energy
+trade-offs between central plant equipment and configurations, when the
+buildings to be served and loads are still speculative?  This is for a
+campus that will be built in phases over many years, and most buildings are
+only loosely defined. DOE-2 will be more difficult and detailed than
+warranted. 
+
+Thank you for your input.
+
+Brian Thornton, P.E.
+Lead Engineer, Energy Services
+GLUMAC
+I N T E R N A T I O N A L
+320 SW Washington, Suite 200
+Portland, Oregon 97204
+
+503.227.5280  Phone 
+503.274.7674  Fax
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031013/bcdbc80a/attachment.htm>
+
+From Oberdorf at transsolar.com  Wed Oct  1 06:33:13 2003
+From: Oberdorf at transsolar.com (Christian Oberdorf)
+Date: Wed, 1 Oct 2003 15:33:13 +0200
+Subject: [bldg-sim] Unit conversion
+Message-ID: <MDAEMON-F200310010826.AA2637984pd80000424624@gard.com>
+
+In Europe kWh/m2a is a commonly used unit for specific (per m2) energy (consumption) per year.
+
+---------------------------------------------------------------------
+Christian Oberdorf
+TRANSSOLAR Energietechnik GmbH
+B?ro M?nchen
+Goethestr. 28
+80336 M?nchen
+Germany
+Fon: +49 (0)89 / 59 06 88 - 43
+Fax: +49 (0)89 / 59 06 88 - 59
+
+Mailto:Oberdorf at transsolar.com 
+http://www.transsolar.com 
+---------------------------------------------------------------------
+
+
+-----Urspr?ngliche Nachricht-----
+Von: Yury Lui [mailto:ylui at Sebesta.com] 
+Gesendet: Dienstag, 30. September 2003 22:09
+An: bldg-sim at gard.com
+Betreff: [bldg-sim] Unit conversion
+
+
+Can someone explain what is the different between energy unit "kWh/m2" and "kWh/m2a"? What is the letter "a" stand for? If these two units are different, what is the conversion factor? Thanks.
+
+Yury Lui,  P.E.
+Mechanical Engineer
+Sebesta Blomberg & Associates, Inc.
+Providing Technical & Business Solutions
+Tel: 847-692-4780
+Fax: 847-692-4784
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From demba.ndiaye at polymtl.ca  Wed Oct  1 06:16:04 2003
+From: demba.ndiaye at polymtl.ca (Demba NDIAYE)
+Date: Wed, 1 Oct 2003 09:16:04 -0400
+Subject: [bldg-sim] RE :  Unit conversion
+In-Reply-To: <MDAEMON-F200309301501.AA0122828pd80000573570@gard.com>
+Message-ID: <MDAEMON-F200310010809.AA0923343pd80000424601@gard.com>
+
+In SI units, I am not knowledgeable of the existence of 
+such unit, unless the "a" stands for "annual" or something
+like that.
+
+_______________________________
+Demba NDIAYE
+Montreal - CANADA
+
+
+-----Message d'origine-----
+De : Yury Lui [mailto:ylui at Sebesta.com] 
+Envoy? : 30 septembre, 2003 16:09
+? : bldg-sim at gard.com
+Objet : [bldg-sim] Unit conversion
+
+
+Can someone explain what is the different between energy unit "kWh/m2"
+and "kWh/m2a"? What is the letter "a" stand for? If these two units are
+different, what is the conversion factor? Thanks.
+
+Yury Lui,  P.E.
+Mechanical Engineer
+Sebesta Blomberg & Associates, Inc.
+Providing Technical & Business Solutions
+Tel: 847-692-4780
+Fax: 847-692-4784
+
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

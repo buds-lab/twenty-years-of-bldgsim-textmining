@@ -1,0 +1,2260 @@
+From REBrown at lbl.gov  Wed Mar 31 10:09:11 1999
+From: REBrown at lbl.gov (Rich Brown)
+Date: Wed, 31 Mar 1999 10:09:11 -0800
+Subject: [BLDG-SIM] Parametric elimination techniques for ultra low energy buildings
+References: <MDAEMON-F199903301610.AA104157MD25325@gard.com>
+Message-ID: <MDAEMON-F199903311200.AA005432MD35225@gard.com>
+
+FYI-
+the correct URL for that article mentioned in yesterday's post is:
+http://www.ebuild.com/Greenbuilding/FurnaceFree.html
+-- 
+-------------------------------------------------------------
+Rich Brown                            * REBrown at lbl.gov
+Energy Analysis Department            * Phone: (510) 486-5896
+Lawrence Berkeley National Laboratory * Fax:   (510) 486-4247
+-------------------------------------------------------------
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jose.hernandez-de-pedro at strath.ac.uk  Wed Mar 31 07:17:15 1999
+From: jose.hernandez-de-pedro at strath.ac.uk (mr jose hernandez de pedro)
+Date: Wed, 31 Mar 1999 16:17:15 +0100
+Subject: [BLDG-SIM] HVAC efficiency
+Message-ID: <MDAEMON-F199903310816.AA164167MD35163@gard.com>
+
+Hello everybody!
+
+My name is Jose Hernandez, an 'almost' Mechanical Engineer, specialized in
+Heat and Fluids. I am currently developing a project about how to predict
+the efficiency of an HVAC system. That means predicting, not measuring, the
+efficiency of the system before the real efficiency is obtained through
+heat requirements and fuel consumption.
+Has anyone had to do something similar in your work or research?
+Do you know any instituion that have developped any method to predict the
+seasonal efficiency of the whole system or of the boiler, delivery,
+emission and control sub-systems taking into account parameters such as
+use, occupancy and climate?
+Any information will be greated, but I prefer attachment, articles (easy to
+find) and information in Internet.
+Thanks a lot.
+
+Jose Hernandez
+University of Strathclyde
+Glasgow
+Scotland
+U.K.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From oikos at netspace.net.au  Tue Mar 30 22:51:23 1999
+From: oikos at netspace.net.au (oikos at netspace.net.au)
+Date: Tue, 30 Mar 1999 22:51:23 -0800
+Subject: [BLDG-SIM] Parametric elimination techniques for ultra low energy buildings
+Message-ID: <MDAEMON-F199903301610.AA103710MD35038@gard.com>
+
+Dear List members
+
+Thanks for the info regarding French Climatic files.
+ubject: Elimination Parametrics
+
+
+Dear Mr Franta
+
+I read* recently about ultra low energy building simulations that have
+used a parametric elimination technique developewd by Greg Franta in the
+US.  Would it be possible to obtain some information on this technique?
+
+ * Correspondence regarding the Vermont CoHousing project between Dana
+Meadows,Marc Rosenbaum and Amory Lovins posted on the ebuild site by way
+of the green buiding discussion list.
+http://www.ebuild.com/Archives/Other_copy/FurnacFree.html
+
+-- 
+John DAGLISH
+eco-tecture, baubiologie & permaculture
+email:	mailto:oikos at netspace.net.au
+www: 	http://www.netspace.net.au/~oikos
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From dannall at mindspring.com  Thu Mar 18 12:43:57 1999
+From: dannall at mindspring.com (Daniel H. Nall)
+Date: Thu, 18 Mar 1999 15:43:57 -0500
+Subject: [BLDG-SIM] "Chimney Effect" modeling, have any ideas
+Message-ID: <MDAEMON-F199903181437.AA375204MD33001@gard.com>
+
+Stratification effects are quite easily modeled using Computational Fluid
+Dynamics.  Unforunately, it is not feasible to model these effects over a
+long time period such as a year.  The best approach is to create snapshot
+models of various different conditions and usage situations.  The CFD
+program will then show the amount of stratification or buoyantly induced
+air flow through the space.  These numbers can then be put into DOE2 using
+a schedule or a macro or some other function.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From hvac at together.net  Thu Mar 18 12:01:22 1999
+From: hvac at together.net (Tom Anderson)
+Date: Thu, 18 Mar 1999 15:01:22 -0500
+Subject: [BLDG-SIM] "Chimney Effect" modeling, have any ideas
+References: <MDAEMON-F199903180747.AA471357MD23128@gard.com>
+Message-ID: <MDAEMON-F199903181358.AA580920MD32990@gard.com>
+
+
+I know one of the ASHRAE handbooks has some calculations for calculating stack
+effect for buildings... not sure which handbook, or possibly the ASHRAE
+Heating/Cooling load calc book.
+
+Here in Vermont our tallest building is something like 12 stories high.
+However, a few years ago I helped a client with a 250,000 sq. foot hospital
+wing, 8 stories high.
+
+The basic problem was excessive infiltration at the main entrance lobby,
+especially in severe Winter conditions.  There were several elements at play,
+but these were the most significant:
+
+Six elevator shafts, running from lobby elevation to rooftop,  with a machine
+room above the shafts.  Each shaft had an opening in top of shaft with a grate
+between shaft and machine room.  The grated opening is required by code for
+smoke evacuation.  The machine room had a propellor exhaust fan blowing out,
+with fresh air louvers on opposite wall.
+
+So much heat gain from elevator motors kept that exhaust fan running almost all
+the time, even in Winter.  The fan was sucking large volumes of air out of the
+shafts, and was assisted by the thermal Winter stack effect (chimney effect),
+even though the make-up air louvers were sized porperly and functioning normal.
+
+To solve the shaft opening problem, I installed UL smoke dampers in the grated
+opening.  Damper were pneumatic, Normally Open (N.O.).  The dampers stayed
+closed all the time, except when fire alarm activated, when the pneumatic EP
+would relieve air pressure, opening the dampers.
+
+The State of Vermont accepted the scheme..... it conformed to the code intent.
+
+Look closely at the top of an open elevatror cab and you will see a 3 to 4 inch
+gap between open door and shaft wall.
+
+Also,  entrance vestibules should have enough distance between the two sets of
+doors so one door set is always closed..  Very hard to accomplish in high
+traffic areas.  This is how I learned why those big New York style high rise
+buildings use revolving doors....  prevents infiltration.
+
+Infiltration from stack effect is usually difficult to solve as well as
+difficult to calculate.  A lot of variables, and many are hard to pin down.
+
+Not sure if this addresses your atrium problem...... hope this helps.
+
+Tom Anderson
+South Burlington, Vermont, USA
+
+
+"Spurlock, R. Bruce" wrote:
+
+> > We have been working with Marriott on modeling the HVAC and ventilation at
+> > the Marriott Marquis downtown.
+> > We had a presentation  to Marriott, which went very well.... but we told
+> > them we did not have a good way to model the atrium (this is the one with
+> > a 50 floor atrium downtown.)  They said have several similar hotels (in
+> > particular one in New York City almost exactly like the Atlanta hotel.)
+> >
+> > It seemed to me that this is somewhat similar to cooling towers and
+> > smokestack chimney effect problems.... is there some software or expertise
+> > out there that would help us on this?
+> > This is not a crisis, but it would be nice to know if there was a good way
+> > to estimate these effects.
+> >
+> > In general, they try to plug any holes at the top to minimize the effect,
+> > but it still occurs.
+> >
+> > Bruce Spurlock
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From oikos at netspace.net.au  Thu Mar 18 10:31:08 1999
+From: oikos at netspace.net.au (oikos at netspace.net.au)
+Date: Thu, 18 Mar 1999 10:31:08 -0800
+Subject: [BLDG-SIM] Climate data
+Message-ID: <MDAEMON-F199903180747.AA473003MD32874@gard.com>
+
+Dear List members
+
+I have just moved to France from Australia and am in need of some French
+climate files (hourly TMY or TRYs) for my building thermal simulation
+program. 
+
+Thanks for your help
+Regards
+-- 
+John DAGLISH
+eco-tecture, baubiologie & permaculture
+email:	mailto:oikos at netspace.net.au
+www: 	http://www.netspace.net.au/~oikos
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From martinez at dmu.ac.uk  Thu Mar 18 09:07:53 1999
+From: martinez at dmu.ac.uk (David Martinez)
+Date: Thu, 18 Mar 1999 17:07:53 GMT
+Subject: [BLDG-SIM] Climate data
+Message-ID: <MDAEMON-F199903181209.AA093607MD32976@gard.com>
+
+> John DAGLISH wrote:
+ 
+> I have just moved to France from Australia and am in need of some French
+> climate files (hourly TMY or TRYs) for my building thermal simulation
+> program. 
+> 
+	Dear John,
+
+	-You can get TMY for Perpignan and La Rochelle
+	 from the European PASCOOL project.
+
+	-Another good source is METEONORM:
+	 http://www.meteotest.ch/angmet/index_e.html
+
+	-check the oficial meteorological bureau in France	
+	 http://www.meteo.fr
+
+	I am working on climate analysis as part of my
+	PhD thesis, I am interested on anything related
+	with this subject, if you think that something
+	could be ineteresting, please, let me know.
+
+***************************************************
+* David Martinez                                  *
+* Research Student                                *
+* Institute of Energy and Sustainable Development *
+* De Montfort University                          *
+*    The Gateway                                  *
+*     Leicester         E-mail martinez at dmu.ac.uk *
+*      LE1 9HB              Tel +44 116 257 6124  * 
+*                           Fax +44 116 257 7449  *
+* #ICQ 28076196        http://www.iesd.dmu.ac.uk/ *
+***************************************************
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From martinez at dmu.ac.uk  Thu Mar 18 09:07:53 1999
+From: martinez at dmu.ac.uk (David Martinez)
+Date: Thu, 18 Mar 1999 17:07:53 GMT
+Subject: [BLDG-SIM] Climate data
+Message-ID: <MDAEMON-F199903181110.AA104520MD32947@gard.com>
+
+> John DAGLISH wrote:
+ 
+> I have just moved to France from Australia and am in need of some French
+> climate files (hourly TMY or TRYs) for my building thermal simulation
+> program. 
+> 
+	Dear John,
+
+	-You can get TMY for Perpignan and La Rochelle
+	 from the European PASCOOL project.
+
+	-Another good source is METEONORM:
+	 http://www.meteotest.ch/angmet/index_e.html
+
+	-check the oficial meteorological bureau in France	
+	 http://www.meteo.fr
+
+	I am working on climate analysis as part of my
+	PhD thesis, I am interested on anything related
+	with this subject, if you think that something
+	could be ineteresting, please, let me know.
+
+***************************************************
+* David Martinez                                  *
+* Research Student                                *
+* Institute of Energy and Sustainable Development *
+* De Montfort University                          *
+*    The Gateway                                  *
+*     Leicester         E-mail martinez at dmu.ac.uk *
+*      LE1 9HB              Tel +44 116 257 6124  * 
+*                           Fax +44 116 257 7449  *
+* #ICQ 28076196        http://www.iesd.dmu.ac.uk/ *
+***************************************************
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From martinez at dmu.ac.uk  Thu Mar 18 09:07:53 1999
+From: martinez at dmu.ac.uk (David Martinez)
+Date: Thu, 18 Mar 1999 17:07:53 GMT
+Subject: [BLDG-SIM] Climate data
+Message-ID: <MDAEMON-F199903181139.AA391884MD32956@gard.com>
+
+> John DAGLISH wrote:
+ 
+> I have just moved to France from Australia and am in need of some French
+> climate files (hourly TMY or TRYs) for my building thermal simulation
+> program. 
+> 
+	Dear John,
+
+	-You can get TMY for Perpignan and La Rochelle
+	 from the European PASCOOL project.
+
+	-Another good source is METEONORM:
+	 http://www.meteotest.ch/angmet/index_e.html
+
+	-check the oficial meteorological bureau in France	
+	 http://www.meteo.fr
+
+	I am working on climate analysis as part of my
+	PhD thesis, I am interested on anything related
+	with this subject, if you think that something
+	could be ineteresting, please, let me know.
+
+***************************************************
+* David Martinez                                  *
+* Research Student                                *
+* Institute of Energy and Sustainable Development *
+* De Montfort University                          *
+*    The Gateway                                  *
+*     Leicester         E-mail martinez at dmu.ac.uk *
+*      LE1 9HB              Tel +44 116 257 6124  * 
+*                           Fax +44 116 257 7449  *
+* #ICQ 28076196        http://www.iesd.dmu.ac.uk/ *
+***************************************************
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at ee.doe.gov  Thu Mar 18 08:29:40 1999
+From: Drury.Crawley at ee.doe.gov (Drury.Crawley at ee.doe.gov)
+Date: Thu, 18 Mar 1999 11:29:40 -0500
+Subject: [BLDG-SIM] Climate data
+Message-ID: <MDAEMON-F199903181026.AA262057MD32928@gard.com>
+
+
+
+One other potential contact is the
+University of Strathclyde in Glasgow.
+They have a number of climate files
+for their ESP-r simulation software.
+
+Suggest contacting Jan Hensen
+(jan at esru.strath.ac.uk).
+
+Dru
+---------------------- Forwarded by Drury Crawley/EE/DOE on 03/18/99 11:28
+AM ---------------------------
+
+
+"Jason Glazer" <jglazer at gard.com> on 03/18/99 11:06:00 AM
+
+Please respond to JGlazer at gard.com
+
+To:
+cc:    (bcc: Drury Crawley/EE/DOE)
+Subject:  [BLDG-SIM] Climate data
+
+
+
+
+The Building Energy Simulation User News, a quarterly
+publication and formerly called the DOE-2 User News, has an
+entire page of weather data sources (and lots of other good
+information).  See the following web site to download the
+PDF file of the latest issue:
+
+http://eetd.lbl.gov/btp/simulations/pub/unews/index.html
+
+One mentioned for european weather data is:
+
+Andre Dewint
+Alpha Pi, s.a.
+rue de Livourne 103/12
+B-1050 Bruxelles, Belgium
+32-2-649-8359
+fax 32-2-649-9437
+
+Hope this helps.
+
+Jason
+
+On 18 Mar 99, at 10:31, oikos at netspace.net.au wrote:
+
+> Dear List members
+>
+> I have just moved to France from Australia and am in need of some French
+> climate files (hourly TMY or TRYs) for my building thermal simulation
+> program.
+>
+> Thanks for your help
+> Regards
+> --
+> John DAGLISH
+> eco-tecture, baubiologie & permaculture
+> email:  mailto:oikos at netspace.net.au
+> www:    http://www.netspace.net.au/~oikos
+>
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Thu Mar 18 08:06:00 1999
+From: jglazer at gard.com (Jason Glazer)
+Date: Thu, 18 Mar 1999 10:06:00 -0600
+Subject: [BLDG-SIM] Climate data
+In-Reply-To: <MDAEMON-F199903180747.AA473003MD32874@gard.com>
+Message-ID: <MDAEMON-F199903181000.AA002628MD32914@gard.com>
+
+The Building Energy Simulation User News, a quarterly 
+publication and formerly called the DOE-2 User News, has an 
+entire page of weather data sources (and lots of other good 
+information).  See the following web site to download the 
+PDF file of the latest issue:
+
+http://eetd.lbl.gov/btp/simulations/pub/unews/index.html
+
+One mentioned for european weather data is:
+
+Andre Dewint
+Alpha Pi, s.a.
+rue de Livourne 103/12
+B-1050 Bruxelles, Belgium
+32-2-649-8359
+fax 32-2-649-9437
+
+Hope this helps.
+
+Jason
+
+On 18 Mar 99, at 10:31, oikos at netspace.net.au wrote:
+
+> Dear List members
+> 
+> I have just moved to France from Australia and am in need of some French
+> climate files (hourly TMY or TRYs) for my building thermal simulation
+> program. 
+> 
+> Thanks for your help
+> Regards
+> -- 
+> John DAGLISH
+> eco-tecture, baubiologie & permaculture
+> email:	mailto:oikos at netspace.net.au
+> www: 	http://www.netspace.net.au/~oikos
+> 
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From RBSPURLO at southernco.com  Thu Mar 18 05:08:18 1999
+From: RBSPURLO at southernco.com (Spurlock, R. Bruce)
+Date: Thu, 18 Mar 1999 07:08:18 -0600
+Subject: [BLDG-SIM] "Chimney Effect" modeling, have any ideas
+Message-ID: <MDAEMON-F199903180747.AA471432MD32868@gard.com>
+
+> We have been working with Marriott on modeling the HVAC and ventilation at
+> the Marriott Marquis downtown.  
+> We had a presentation  to Marriott, which went very well.... but we told
+> them we did not have a good way to model the atrium (this is the one with
+> a 50 floor atrium downtown.)  They said have several similar hotels (in
+> particular one in New York City almost exactly like the Atlanta hotel.)
+> 
+> It seemed to me that this is somewhat similar to cooling towers and
+> smokestack chimney effect problems.... is there some software or expertise
+> out there that would help us on this?  
+> This is not a crisis, but it would be nice to know if there was a good way
+> to estimate these effects.
+> 
+> In general, they try to plug any holes at the top to minimize the effect,
+> but it still occurs.
+> 
+> Bruce Spurlock
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at ee.doe.gov  Wed Mar 17 14:55:44 1999
+From: Drury.Crawley at ee.doe.gov (Drury.Crawley at ee.doe.gov)
+Date: Wed, 17 Mar 1999 17:55:44 -0500
+Subject: [BLDG-SIM] 'New' Tools Directory
+Message-ID: <MDAEMON-F199903171728.AA284596MD32744@gard.com>
+
+
+
+Colleagues,
+
+You may already know about the web-based
+directory of software tools for energy efficiency,
+renewable energy, and sustainability in buildings.
+
+If you don't know about the directory or haven't
+visited recently, you may be surprised.  The
+directory has been completely redesigned and
+now contains info on almost 150 tools. (Info on 15
+tools has been added in the last two months.)
+
+URL:   www.eren.doe.gov/buildings/tools_directory/
+
+The site also includes links to other simulation-related
+sites such as IBPSA and ASHRAE TC 4.7 and information
+about software development activities at DOE.
+
+If you develop software or know of software that
+you think should be listed in the directory, please
+contact me.  The information we need to add a tool
+to the directory is also shown on the web:
+
+www.eren.doe.gov/buildings/tools_directory/your_software_here.htm
+
+Dru Crawley
+Program Manager, Building Energy Tools
+US Dept of Energy
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jyquinette at tecsol.fr  Fri Mar 12 04:00:37 1999
+From: jyquinette at tecsol.fr (Jy.Quinette)
+Date: Fri, 12 Mar 1999 13:00:37 +0100
+Subject: [BLDG-SIM] Solar cooling
+Message-ID: <MDAEMON-F199903120545.AA452900MD31640@gard.com>
+
+Hello all,
+
+I'm just  joining this list, and I find it very active and efficient.
+
+So, as europeans seem rather rare, I take a few minutes to
+present my company and to send a question.
+
+Tecsol is an engineering office (consultant) and has 3 main activities:
+- traditionnal HVAC engineering, mainly  for public projects (hospitals,
+swimming pools, residential buildings or hotels). It includes of course
+energy management, optimizing,...
+- use of renewable energies (mainly solar and wind): rural electrification,
+solar DHW production (large systems), pv connected to the grid. In this
+domain, we include studies of projects and realizations, but also
+market studies or specific software development.
+- internet sites development and hosting, concerning energy, public
+services, and cars(!). 
+
+We work at the european level, in France, Spain or Germany and also
+in Morocco, Tunisia and Latin America (Cuba, Brazil) through many
+different contracts with the European Commission or the french government.
+Unfortunately, we don't have opportunities to collaborate with U.S.
+companies:
+generally, europeans and U.S.' people are competitors, and there is no
+public money to encourage this collaboration. But this is another
+discussion...
+
+So, my request now: we use TRNSYS 14.2 to simulate a solar cooling system.
+This system exists and we have a telemonitoring equipment on it: solar
+vacuum
+tubes (130 m2) and Yazaki absorption machine (50 kW). The basic type 56 of
+TRNSYS is not enough to test some particular improvements.
+Does anybody work on this subject ? With which tools ? 
+Do you know any recent realization of this type which we could visit, or at
+least
+contact ?
+
+Thank you very much for your help.
+ 
+J.Yves Quinette
+TECSOL
+BP434 
+F-66004 PERPIGNAN cx
+tel: +33 (0)468 68 16 40
+fax: +33 (0)468 68 16 41
+web: www.tecsol.fr
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From akmisra at teri.res.in  Fri Mar 12 01:15:19 1999
+From: akmisra at teri.res.in (Anil Kumar Misra)
+Date: Fri, 12 Mar 1999 14:15:19 +0500
+Subject: [BLDG-SIM] - external shading
+Message-ID: <MDAEMON-F199903120240.AA400754MD31614@gard.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990312/a261c44d/attachment.asc>
+
+From BKoran at aol.com  Thu Mar 11 22:54:55 1999
+From: BKoran at aol.com (BKoran at aol.com)
+Date: Fri, 12 Mar 1999 01:54:55 EST
+Subject: [BLDG-SIM] Hospital End-Use Disaggregation
+Message-ID: <MDAEMON-F199903120051.AA515059MD31591@gard.com>
+
+Thanks to all who responded to my request for some rules-of-thumb.  I got more
+than I needed!  This looks like it will prove to be a great list.
+
+Bill
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kelsey at kw-energy.com  Thu Mar 11 08:17:01 1999
+From: kelsey at kw-energy.com (Jim Kelsey)
+Date: Thu, 11 Mar 1999 08:17:01 -0800
+Subject: [BLDG-SIM] Hospital End-Use Disaggregation
+Message-ID: <MDAEMON-F199903111010.AA102489MD31397@gard.com>
+
+Bill,
+
+I happened to have your info handy. PG&E has done a study every two
+years to find
+average annual end-use intensities on a square footage basis. The most
+recent copy
+is the 1997 Commercial Building Survey Report. I can send you a PDF copy
+if you
+would like it (~900kB).
+
+Here is their breakdown for Hospitals (annual kWh per square foot):
+
+Cooling 4.99
+Heating 44.73
+Vent 10.49
+Refrig 0.89
+DHW 1.07
+Cooking 1.30
+Lighting (interior) 7.14
+Other 2.71
+
+Hope this helps.
+
+- Jim
+
+--
+Jim Kelsey
+KW Energy Engineering
+(510) 834-6420
+http://www.kw-energy.com
+
+
+BKoran at aol.com wrote:
+
+> I'm looking for some rules-of thumb for energy use by end-use for
+hospitals.
+> I'm particularly interested in the electricity use for lighting at the
+present
+> time.  Percentages of the total electricity use would be fine.
+>
+> I'm seeking this information just to use for reasonableness checks.  I
+have a
+> copy of a completed lighting audit that has numbers I don't think are
+> reasonable.  The hospital whose use I'm investigating is located in
+San
+> Francisco.
+>
+> I would be interested in a good source for this type of information as
+well as
+> the information itself.
+>
+> Thanks, Bill
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Thu Mar 11 06:59:21 1999
+From: jglazer at gard.com (Jason Glazer)
+Date: Thu, 11 Mar 1999 08:59:21 -0600
+Subject: [BLDG-SIM] Hospital End-Use Disaggregation
+In-Reply-To: <MDAEMON-F199903101742.AA423435MD31195@gard.com>
+Message-ID: <MDAEMON-F199903110853.AA535634MD31366@gard.com>
+
+Bill,
+
+Lighting can be all over for existing buildings since so 
+many improvements have been made in the last ten years.  
+One point of reference is the latest draft of ASHRAE 
+Standard 90.1 that allows 1.6 W/sqft overall for the entire 
+hospital building and specific spaces being 1.0 W/sqft in 
+the nursery, 1.2 in the patient rooms, 2.8 in the emergency 
+room and 7.6 in the operating room.  Altogether they have 
+over twenty different spaces identified for a hospital.  
+These are supposed to represent efficient lighting options 
+that are cost effective - I believe it is appropriate to 
+consider them less than the state of the art.  
+
+Jason
+
+On 10 Mar 99, at 18:43, BKoran at aol.com wrote:
+
+> I'm looking for some rules-of thumb for energy use by end-use for hospitals.
+> I'm particularly interested in the electricity use for lighting at the present
+> time.  Percentages of the total electricity use would be fine.
+> 
+> I'm seeking this information just to use for reasonableness checks.  I have a
+> copy of a completed lighting audit that has numbers I don't think are
+> reasonable.  The hospital whose use I'm investigating is located in San
+> Francisco.  
+> 
+> I would be interested in a good source for this type of information as well as
+> the information itself.
+> 
+> Thanks, Bill
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Thu Mar 11 06:41:05 1999
+From: jglazer at gard.com (Jason Glazer)
+Date: Thu, 11 Mar 1999 08:41:05 -0600
+Subject: [BLDG-SIM] exterior shading
+In-Reply-To: <MDAEMON-F199903110417.AA175342MD31308@gard.com>
+Message-ID: <MDAEMON-F199903110835.AA354140MD31351@gard.com>
+
+DOE-2 can calculate shading from an energy impact 
+perspective but better a better program would probably be a 
+daylighting visualization program.
+
+See 
+
+http://www.eren.doe.gov/buildings/tools_directory/
+
+Go to "other applications"  than "solar?climate analysis"
+
+On 11 Mar 99, at 11:20, Jan Romer wrote:
+
+> ========================================================================
+> 
+> E-Mail : romer at ecn.nl - ECN
+> ECN - Energy Research Foundation      Department: ECN - Duurzame
+> Energy, Zon en Wind
+> Telephone:    (+31) 224 564332        Fax:       (+31) 224 563214
+> P.O. box 1    1755 ZG  Petten         Country:   The Netherlands
+> ========================================================================
+> 
+> Hello all subscribers,
+> 
+> We are looking for software which can show (calculate) the outside
+> shading properties of buildings.
+> 
+> Example: in a town sometimes buildings are located close together
+> whereby the shading of one building reduces the daylight properties of
+> rooms in another building
+> 
+> Does someone know the existance of such software?
+> Please inform me
+> 
+> Thanks
+> Jan Romer
+> 
+> 
+> 
+> 
+> Netherlands Energy Research Foundation
+> email: romer at ecn.nl
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at ee.doe.gov  Thu Mar 11 05:51:04 1999
+From: Drury.Crawley at ee.doe.gov (Drury.Crawley at ee.doe.gov)
+Date: Thu, 11 Mar 1999 08:51:04 -0500
+Subject: [BLDG-SIM] Hospital End-Use Disaggregation
+Message-ID: <MDAEMON-F199903110746.AA464587MD31331@gard.com>
+
+
+
+Suggest you check out the Energy Information
+Administration's web site--particularly the CBECS
+(Commercial Building Energy Consumption Survey).
+Their web site URL:  http://www.eia.doe.gov/emeu/consumption/
+
+Their data is available online and as databases.
+Reports also available online in PDF.
+
+Dru Crawley
+DOE
+
+
+
+
+
+BKoran at aol.com on 03/10/99 06:43:11 PM
+
+Please respond to BKoran at aol.com
+
+To:   BLDG-SIM at gard.com
+cc:    (bcc: Drury Crawley/EE/DOE)
+Subject:  [BLDG-SIM] Hospital End-Use Disaggregation
+
+
+
+
+I'm looking for some rules-of thumb for energy use by end-use for
+hospitals.
+I'm particularly interested in the electricity use for lighting at the
+present
+time.  Percentages of the total electricity use would be fine.
+
+I'm seeking this information just to use for reasonableness checks.  I have
+a
+copy of a completed lighting audit that has numbers I don't think are
+reasonable.  The hospital whose use I'm investigating is located in San
+Francisco.
+
+I would be interested in a good source for this type of information as well
+as
+the information itself.
+
+Thanks, Bill
+
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From vlado at gundog.lbl.gov  Thu Mar 11 11:35:41 1999
+From: vlado at gundog.lbl.gov (Vladimir Bazjanac)
+Date: Thu, 11 Mar 99 11:35:41 PST
+Subject: [BLDG-SIM] Hospital End-Use Disaggregation
+Message-ID: <MDAEMON-F199903111332.AA321643MD31456@gard.com>
+
+
+
+
+Bill,
+
+Equipment audits do not say anything about unnecessary lighting; changing lamps
+and fixtures is relatively trivial, given the will and an adequate budget.  
+
+What is reasonable?  8-10 W/sq.ft. in an operating room *is* reasonable during
+surgery; it is *not* reasonable when nobody is there.  3-4 W/sq.ft. in emergency
+rooms is reasonable; 1 W/sq.ft. "on" in an unused space is not.  Wasteful use of
+electrical lighting is a "wicked" problem.  Its prevention starts with zoning of lighting, sensors, electrical lighting controls, education and incentives. You
+may want to add these to your assessment.
+
+-- Vladimir
+
+
+
+>Bill,
+>
+>Lighting can be all over for existing buildings since so 
+>many improvements have been made in the last ten years.  
+>One point of reference is the latest draft of ASHRAE 
+>Standard 90.1 that allows 1.6 W/sqft overall for the entire 
+>hospital building and specific spaces being 1.0 W/sqft in 
+>the nursery, 1.2 in the patient rooms, 2.8 in the emergency 
+>room and 7.6 in the operating room.  Altogether they have 
+>over twenty different spaces identified for a hospital.  
+>These are supposed to represent efficient lighting options 
+>that are cost effective - I believe it is appropriate to 
+>consider them less than the state of the art.  
+>
+>Jason
+
+
+
+>>I'm looking for some rules-of thumb for energy use by end-use for hospitals.
+>>I'm particularly interested in the electricity use for lighting at the present
+>>time.  Percentages of the total electricity use would be fine.
+>>
+>>I'm seeking this information just to use for reasonableness checks.  I have a
+>>copy of a completed lighting audit that has numbers I don't think are
+>>reasonable.  The hospital whose use I'm investigating is located in San
+>>Francisco.  
+>> 
+>> I would be interested in a good source for this type of information as well as
+>>the information itself.
+>>
+>>Thanks, Bill
+
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+_/                                                                          _/
+_/ Vladimir Bazjanac, Ph.D.                     (510) 486-4092   office     _/
+_/ Building Technologies Department             (510) 486-4089   fax        _/
+_/ Lawrence Berkeley National Laboratory        (510) 548-4440   studio     _/
+_/ University of California                     e-mail:                     _/
+_/ MS 90-3111                                   vlado at gundog.lbl.gov        _/
+_/ Berkeley, CA 94720                           vlado at socrates.berkeley.edu _/
+_/                                                                          _/
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From vlado at gundog.lbl.gov  Thu Mar 11 11:27:46 1999
+From: vlado at gundog.lbl.gov (Vladimir Bazjanac)
+Date: Thu, 11 Mar 99 11:27:46 PST
+Subject: [BLDG-SIM] Exterior shading
+Message-ID: <MDAEMON-F199903111324.AA242128MD31448@gard.com>
+
+
+
+Jan,
+
+Try LBNL's Radiance for precise quantitative analysis.  Try Kinetix' 3D Studio
+Viz for visualization of building exterior.  The corresponding URLs are:
+
+        http://radsite.lbl.gov/radiance/HOME.html
+        http://www.ktx.com/3dsvizr2
+
+-- Vladimir
+
+
+
+>DOE-2 can calculate shading from an energy impact 
+>perspective but better a better program would probably be a 
+>daylighting visualization program.
+>
+>See 
+
+>> Hello all subscribers,
+>> 
+>> We are looking for software which can show (calculate) the outside
+>> shading properties of buildings.
+>> 
+>> Example: in a town sometimes buildings are located close together
+>> whereby the shading of one building reduces the daylight properties of
+>> rooms in another building
+>> 
+>> Does someone know the existance of such software?
+>> Please inform me
+>> 
+>> Thanks
+>> Jan Romer
+
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+_/                                                                          _/
+_/ Vladimir Bazjanac, Ph.D.                     (510) 486-4092   office     _/
+_/ Building Technologies Department             (510) 486-4089   fax        _/
+_/ Lawrence Berkeley National Laboratory        (510) 548-4440   studio     _/
+_/ University of California                     e-mail:                     _/
+_/ MS 90-3111                                   vlado at gundog.lbl.gov        _/
+_/ Berkeley, CA 94720                           vlado at socrates.berkeley.edu _/
+_/                                                                          _/
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From romer at ecn.nl  Thu Mar 11 02:20:53 1999
+From: romer at ecn.nl (Jan Romer)
+Date: Thu, 11 Mar 1999 11:20:53 +0100
+Subject: [BLDG-SIM]
+Message-ID: <MDAEMON-F199903110417.AA175342MD31308@gard.com>
+
+========================================================================
+
+E-Mail : romer at ecn.nl - ECN
+ECN - Energy Research Foundation      Department: ECN - Duurzame
+Energy, Zon en Wind
+Telephone:    (+31) 224 564332        Fax:       (+31) 224 563214
+P.O. box 1    1755 ZG  Petten         Country:   The Netherlands
+========================================================================
+
+Hello all subscribers,
+
+We are looking for software which can show (calculate) the outside
+shading properties of buildings.
+
+Example: in a town sometimes buildings are located close together
+whereby the shading of one building reduces the daylight properties of
+rooms in another building
+
+Does someone know the existance of such software?
+Please inform me
+
+Thanks
+Jan Romer
+
+
+
+
+Netherlands Energy Research Foundation
+email: romer at ecn.nl
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From rprochot at mag-net.com  Wed Mar 10 23:26:22 1999
+From: rprochot at mag-net.com (Ronald Prochot)
+Date: Wed, 10 Mar 1999 23:26:22 -0800 (PST)
+Subject: [BLDG-SIM] Introduction
+Message-ID: <MDAEMON-F199903110123.AA230584MD31278@gard.com>
+
+Hi,
+
+I am a graduate student working toward a Master of Architecture Degree. I
+look forward to following your discussions. This message is an introduction
+and a test to see if I can log on.
+
+
+Ronald A. Prochot
+
+
+Phone/Fax: 	(250) 563-3582
+
+Mailing Address:	1867 Gorse St.
+       		Prince George, BC
+        		CANADA
+        		V2L 1G7
+
+E-Mail <umprocho at cc.umanitoba.ca>
+        OR <rprochot at mag-net.com>
+
+*****"The greater danger for most of us is not that our aim is too high and
+we miss it, but that it is too low and we reach it."  --Michelangelo *****
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From BKoran at aol.com  Wed Mar 10 15:43:11 1999
+From: BKoran at aol.com (BKoran at aol.com)
+Date: Wed, 10 Mar 1999 18:43:11 EST
+Subject: [BLDG-SIM] Hospital End-Use Disaggregation
+Message-ID: <MDAEMON-F199903101742.AA423435MD31195@gard.com>
+
+I'm looking for some rules-of thumb for energy use by end-use for hospitals.
+I'm particularly interested in the electricity use for lighting at the present
+time.  Percentages of the total electricity use would be fine.
+
+I'm seeking this information just to use for reasonableness checks.  I have a
+copy of a completed lighting audit that has numbers I don't think are
+reasonable.  The hospital whose use I'm investigating is located in San
+Francisco.  
+
+I would be interested in a good source for this type of information as well as
+the information itself.
+
+Thanks, Bill
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From thong at supersym.com.sg  Tue Mar  9 17:46:58 1999
+From: thong at supersym.com.sg (Tianzhen HONG)
+Date: Wed, 10 Mar 1999 09:46:58 +0800
+Subject: [BLDG-SIM] Papers on Building Simulation
+Message-ID: <MDAEMON-F199903091945.AA453331MD30921@gard.com>
+
+Hello all,
+
+Happy and excited to join this forum.
+
+My name is Tianzhen Hong, currently working in Supersymmetry Services
+(www.supersym.com.sg), a company working in cleanroom design and building
+energy efficiency area.
+
+I have interests in building simulation since college days in 1988. Through
+participating in dozens of projects, I have published 7 papers in Building
+and Environment, and Energy and Buildings. All are available as PDF files @
+http://members.xoom.com/Euler/resume.html#PUBLICATION
+
+One of the papers (bsfaq.pdf) "Building Simulaion: An overview of
+development and information sources" tries to provide some FAQs for this
+area. Of course the paper was written two years ago and much information
+needs update.
+
+Nice to share something with everybody.
+
+Cheers
+
+Tianzhen
+
+----------------------------------------------------------------------------
+----------------------------------------Tianzhen HONG (Dr)
+Tel: +65 7777 755
+Senior R&D Engineer                          DID: +65 770 0423
+Supersymmetry Services Pte Ltd         Fax: +65 779 7608
+73 Ayer Rajah Crescent #07-06/09    Email: thong at supersym.com.sg
+Singapore 139952                              Web:
+http://www.supersym.com.sg
+
+Life Email: thong at bigfoot.com, hongtz at usa.net
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From hvac at together.net  Tue Mar  9 14:51:53 1999
+From: hvac at together.net (Tom Anderson)
+Date: Tue, 09 Mar 1999 17:51:53 -0500
+Subject: [BLDG-SIM] Software End User Intro
+References: <MDAEMON-F199903091041.AA411548MD19667@gard.com>
+Message-ID: <MDAEMON-F199903091649.AA491337MD30880@gard.com>
+
+A brief introduction of myself to others on this new list.
+
+As an HVAC designer, with about 20 years experience in the consulting
+engineering field, my primary scope of work is HVAC system design and
+energy analysis of commercial and institutional facilities, with a
+health care facilities and labs my area of strength. Also specify
+automated controls for HVAC DDC systems employing hi-performance
+sequences of operation, as preached by Thos. Hartman and others.
+
+I operate a home office in the Burlington, Vermont area.  Not far from
+the edge of the earth.  Guess you could call me a front line HVAC
+designer.
+
+The Carrier Hourly Analysis Program (HAP) program is the software system
+I use for heavy duty simulation, having used the Carrier software since
+1985.  My selection of Carrier software is based on knowledge and
+experience with the software, not based on an analysis of other
+competitive systems out in the market.  A desire to avoid a steep
+leaning curve is my primary basis of selection, as well as positive
+experiences and results in the past.  My knowledge of HAP is fairly
+strong.
+
+My new Windows version of HAP recently arrived, though it remains
+uninstalled to date.
+
+However, I increasingly find the HAP clunky for small analysis and find
+myself  utilizing simple spreadsheets a lot more these days.
+
+I look forward to the discussions in this list.
+
+Tom Anderson
+South Burlington, Vermont, US
+
+
+Jason Glazer wrote:
+
+> Simulators,
+>
+> The list has grown quickly to about 150 people.  I'd like
+> to change the introductory text to indicate that we have
+> advanced users of some different simulation programs on the
+> list.  So far, it sounds like we have advanced users of:
+>
+> DOE-2
+> Transys
+> Blast
+>
+> Any advanced users of other building simulation programs?
+>
+> Also, we haven't had any "frequently" asked questions so
+> far, is it premature to start the outline of a FAQ?  What
+> are some appropriate topics?  I think it should be aimed at
+> newcomers as well as advanced users.
+>
+> Jason
+>
+> =========================================================
+> Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+> GARD Analytics - http://www.gard.com/
+> Building Energy Simulation and Analysis
+> List Administrator & 90.1 Consultant
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Tue Mar  9 08:46:38 1999
+From: jglazer at gard.com (Jason Glazer)
+Date: Tue, 9 Mar 1999 10:46:38 -0600
+Subject: [BLDG-SIM] Experts and FAQ
+Message-ID: <MDAEMON-F199903091041.AA411589MD30766@gard.com>
+
+Simulators,
+
+The list has grown quickly to about 150 people.  I'd like 
+to change the introductory text to indicate that we have 
+advanced users of some different simulation programs on the 
+list.  So far, it sounds like we have advanced users of:
+
+DOE-2
+Transys
+Blast
+
+Any advanced users of other building simulation programs?
+
+Also, we haven't had any "frequently" asked questions so 
+far, is it premature to start the outline of a FAQ?  What 
+are some appropriate topics?  I think it should be aimed at 
+newcomers as well as advanced users.
+
+Jason
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From tconlon at geopraxis.com  Fri Mar  5 18:28:58 1999
+From: tconlon at geopraxis.com (Tom Conlon)
+Date: Fri, 5 Mar 1999 18:28:58 -0800
+Subject: [BLDG-SIM] Building Simulation Market Study
+Message-ID: <MDAEMON-F199903052021.AA215675MD30134@gard.com>
+
+Esteemed Colleagues,
+I am compiling information for a market study of the building energy
+simulation industry for the California Energy Commission. I am seeking
+pre-existing information on:
+
+-market size estimates and projections
+-lists and contact info for private, public, and academic sector market
+players
+-descriptions of current products and estimates of market share
+-R&D organizations and current activities
+-surveys of existing building simulation users
+-surveys of other A/E/C professionals who could be using simulation
+
+I am familiar with DOE's online Tools Directory and LBNL's site. But a few
+moments of your expertise in any or all of these areas would be greatly
+appreciated.
+
+Thanks!!
+
+-Tom
+
+----------------
+Thomas P. Conlon
+Energy Markets Consultant
+GeoPraxis, Inc.
+461 7th St. West, Suite 1
+Sonoma, CA 95476
+707-996-9408
+707-939-8702 (Fax)
+tconlon at geopraxis.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Todd.Taylor at pnl.gov  Thu Mar  4 14:54:19 1999
+From: Todd.Taylor at pnl.gov (Z. Todd Taylor)
+Date: Thu, 04 Mar 1999 14:54:19 -0800
+Subject: [BLDG-SIM] Open-source simulation tools (was: TC 4.7 website)
+Message-ID: <MDAEMON-F199903041651.AA511835MD29719@gard.com>
+
+Robert Sonderegger <Robert.Sonderegger at SRC-Systems.com> wrote:
+
+[ snip ]
+
+> > COM is not and
+> > probably never will be cross-platform.  CORBA has a much better
+> > chance.
+> 	[RCS]  Maybe.  But it's a Microsoft world out there...
+
+Mostly, perhaps.  But there are a lot of Macs, too, and Linux is
+coming on strong.  And many of us still work on other Unix
+workstations out of pure preference.  In the area of residential
+design and drafting, for example, Macs are very popular, maybe
+even dominant (informal guess based on my wife's experience in
+the field---she's one of very few Windows users among local
+residential architect/designers).
+
+The point is that it makes little strategic sense to limit
+yourself to one OS when you don't have to.  The exercise of
+writing cross-platform code also insulates you from whatever
+gratuitous changes Microsoft will make in its next OS releases.
+Given the technologies available today, I can think of very few
+reasons (other than emotional loyalty) to limit software to a
+single platform/OS.
+
+All that said, I don't think COM/CORBA is the most serious
+question.  If the guts are divorced from the GUI(s) and if the
+underlying calculation engine sports a simple, generic,
+language-oriented interface, it should be straightforward to
+layer on any number of network interface wrappers (COM, CORBA,
+simple sockets, etc.).
+
+Back to work...
+
+--Todd
+-- 
+Z. Todd Taylor
+Pacific Northwest National Laboratory
+Todd.Taylor at pnl.gov
+Why is it mouse and mice but not house and hice?
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From rdavis at oarsman.com  Thu Mar  4 14:44:13 1999
+From: rdavis at oarsman.com (Randy Davis)
+Date: Thu, 4 Mar 1999 16:44:13 -0600
+Subject: [BLDG-SIM] DOE-2 Tip on ##elseif
+In-Reply-To: <MDAEMON-F199903041604.AA041117MD18970@gard.com>
+Message-ID: <MDAEMON-F199903041637.AA370004MD29708@gard.com>
+
+Good Tip!
+
+Randy Davis
+
+
+-----Original Message-----
+From:	Postman at gard.com [mailto:Postman at gard.com] On Behalf Of Jason Glazer
+Sent:	Thursday, March 04, 1999 4:09 PM
+To:	BLDG-SIM at gard.com
+Subject:	[BLDG-SIM] DOE-2 Tip on ##elseif
+
+BLDG-SIMmers,
+
+Here is a tip when using DOE-2 macro language and the 
+##elseif command.  Some versions of DOE-2 will include more 
+than one elseif block of code in a if-elseif-elseif-else-
+endif structure if the conditions on each elseif are true. 
+This is different than most programming languages that will 
+only include the block of code in the first elseif that is 
+true.  This is a small tip but it would have saved me a few 
+hours of effort a year ago.  
+
+Does anyone have any other undocumented tips for building 
+simulation programs?
+
+Jason
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+--
+IMail Server for Windows NT. Evaluation version.
+Copyright (c) 1995-98 Ipswitch, Inc. http://www.ipswitch.com/
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Thu Mar  4 14:09:24 1999
+From: jglazer at gard.com (Jason Glazer)
+Date: Thu, 4 Mar 1999 16:09:24 -0600
+Subject: [BLDG-SIM] DOE-2 Tip on ##elseif
+Message-ID: <MDAEMON-F199903041604.AA040940MD29682@gard.com>
+
+BLDG-SIMmers,
+
+Here is a tip when using DOE-2 macro language and the 
+##elseif command.  Some versions of DOE-2 will include more 
+than one elseif block of code in a if-elseif-elseif-else-
+endif structure if the conditions on each elseif are true. 
+This is different than most programming languages that will 
+only include the block of code in the first elseif that is 
+true.  This is a small tip but it would have saved me a few 
+hours of effort a year ago.  
+
+Does anyone have any other undocumented tips for building 
+simulation programs?
+
+Jason
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Robert.Sonderegger at SRC-Systems.com  Thu Mar  4 13:52:00 1999
+From: Robert.Sonderegger at SRC-Systems.com (Robert Sonderegger)
+Date: Thu, 4 Mar 1999 13:52:00 -0800
+Subject: [BLDG-SIM] TC 4.7 website
+Message-ID: <MDAEMON-F199903041551.AA510926MD29673@gard.com>
+
+> If by "Linux-style" you mean "open source software," then yes,
+> by all means.
+	[RCS]  That's what I meant.
+
+> COM is not and
+> probably never will be cross-platform.  CORBA has a much better
+> chance.
+	[RCS]  Maybe.  But it's a Microsoft world out there...
+
+> What is not needed is yet another monolithic, do everything, be
+> everything simulation "tool."
+	[RCS]  Precisely.
+
+> This suggests another thing that is not needed---a GUI.
+	[RCS]  I couldn't agree more.
+
+> I could go on and on on this very interesting topic...
+	[RCS]  Please do.
+
+>  
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Thu Mar  4 13:19:20 1999
+From: jglazer at gard.com (Jason Glazer)
+Date: Thu, 4 Mar 1999 15:19:20 -0600
+Subject: [BLDG-SIM] List Changes (was Re: Who's out there?)
+In-Reply-To: <MDAEMON-F199903041259.AA590514MD29549@gard.com>
+References: <MDAEMON-F199903041210.AA105239MD29506@gard.com>
+Message-ID: <MDAEMON-F199903041514.AA140476MD29651@gard.com>
+
+Almost all of the people who provided an opinion wanted the 
+name of the mailing list in the subject line.  Most also 
+said that allowing the subscribers to get a listing of the 
+subscribers was a good idea.  I have changed the 
+configuration of the mailing list on both.  To get a 
+listing of who is on the mailing list send a message to 
+mail-server at gard.com with the message LIST BLDG-SIM.  This 
+is an experiment, if people think this is really resulting 
+in them getting spammed I will change it back. 
+
+Jason
+
+On 4 Mar 99, at 13:04, Jason Glazer wrote:
+
+> About 90 people are on the mailing list currently.  As the 
+> list owner, to reduce spam, I decided to not allow people 
+> to see the e-mail addresses of the subscribers.  I can 
+> easily change this if all the subscribers would prefer 
+> that.  So here is the question, do the subscribers want 
+> their e-mail address available to others?
+> 
+> While we are on the topic of list administration, I can 
+> automatically add the mailing list name [BLDG-SIM] in every 
+> subject line.  It may help people identify where the e-mail 
+> is coming from.  Who wants the name [BLDG-SIM] to appear in 
+> the subject line?
+> 
+> Jason
+> 
+> On 4 Mar 99, at 10:13, Robert Sonderegger wrote:
+> 
+> > REVIEW 
+> > 
+> <snip>
+> =========================================================
+> Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+> GARD Analytics - http://www.gard.com/
+> Building Energy Simulation and Analysis
+> List Administrator & 90.1 Consultant
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Todd.Taylor at pnl.gov  Thu Mar  4 12:46:26 1999
+From: Todd.Taylor at pnl.gov (Z. Todd Taylor)
+Date: Thu, 04 Mar 1999 12:46:26 -0800
+Subject: TC 4.7 website
+Message-ID: <MDAEMON-F199903041443.AA432509MD29629@gard.com>
+
+Robert Sonderegger <Robert.Sonderegger at SRC-Systems.com> wrote:
+
+[ snip ]
+
+> > This would not be meant as competition to EnergyPlus or other large codes.
+> > Many of the "pieces" of Energy Plus et al. would fit well in this effort.
+> > The idea would be to make the many available toolkits (e.g. TC 4.7's
+> > Energy I, II, III) truly useful, by casting them into a modern S/W context
+> > (e.g. as COM components).
+> > 
+> >  Any interest out there for a Linux-style building simulation effort?
+
+If by "Linux-style" you mean "open source software," then yes,
+by all means.
+
+If by "Linux-style" you mean "runs under Linux," then yes, but
+not just Linux---generally cross-platform.  (COM is not and
+probably never will be cross-platform.  CORBA has a much better
+chance.)
+
+What is not needed is yet another monolithic, do everything, be
+everything simulation "tool."  (EnergyPlus is working that
+front??)  We need reusable parts and a simple framework for
+connecting them.  Envision a calculation engine running on a
+big-iron server with various clients (web-based, CAD-based,
+spreadsheet-based, simple Perl script-based, etc.) accessing it
+over the net.  Some would use full hourly simulation
+capabilities.  Others would just want U-value calculations or
+solar angle calcs.
+
+This suggests another thing that is not needed---a GUI.  If the
+underlying simulation parts were free of legal encumbrances, any
+entrepreneur could build a nice GUI front-end for any
+purpose---code compliance, home energy ratings, CAD, job
+costing, building diagnostics, commissioning, sales, you name
+it.  Early focus on a GUI tends to restrict the possible uses of
+the software and tends to lock it into a single platform/OS.
+Build the calculation engine in an open process so all can
+inspect and improve it and let the market build the various
+GUIs.
+
+I could go on and on on this very interesting topic...
+
+--Todd
+-- 
+Z. Todd Taylor
+Pacific Northwest National Laboratory
+Todd.Taylor at pnl.gov
+Why isn't it "heels over head"?
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kemerson at psco.com  Thu Mar  4 12:12:37 1999
+From: kemerson at psco.com (Emerson, Keith)
+Date: Thu, 4 Mar 1999 13:12:37 -0700
+Subject: Who's out there?
+Message-ID: <MDAEMON-F199903041409.AA092292MD29611@gard.com>
+
+Would request that BLDG-SIM at gard.com not be put in the "From" part of
+the e-mail.  Turns out there are many people who don't bother to put
+their name, etc. in the body of the message, and the "From" portion is
+the only way to identify who was the originator.  
+
+Keith Emerson
+
+> -----Original Message-----
+> From:	Robert Sonderegger [SMTP:Robert.Sonderegger at SRC-Systems.com]
+> Sent:	Thursday, March 04, 1999 12:26 PM
+> To:	BLDG-SIM at gard.com
+> Subject:	RE: Who's out there?
+> 
+> My vote:
+> 
+> Allow to see email addresses to list members only;
+> Include "Reply to BLDG-SIM at gard.com" in subject line, even better in
+> "From"
+> if possible.
+> 
+> Robert Sonderegger
+> 
+> ______________________________________________________________________
+> ___
+> Robert C. Sonderegger                          SRC Systems Inc.
+> Executive Vice President, R&D               2855 Telegraph Avenue,
+> Suite 410
+> SRC Systems Inc.                                   Berkeley, CA
+> 94705-1152
+> USA
+> Voice (510) 848-8400 Ext. 101               Website:
+> http://www.src-systems.com
+> Fax (510) 848-0788                                Products: Metrix,
+> MarketManager, Metrix Profiler
+> 
+> ---> RCS at src-systems.com <--- NOTE NEW EMAIL ADDRESS***
+> 
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Robert.Sonderegger at SRC-Systems.com  Thu Mar  4 11:36:06 1999
+From: Robert.Sonderegger at SRC-Systems.com (Robert Sonderegger)
+Date: Thu, 4 Mar 1999 11:36:06 -0800
+Subject: TC 4.7 website
+Message-ID: <MDAEMON-F199903041335.AA354493MD29584@gard.com>
+
+
+
+> Hello everyone:
+> 
+> Jim Kelsey asked for the TC 4.7 website:  here it is:
+> http://www.ashrae.org/TECHCOMM/tc47.htm
+> 
+> I've been working with simulation programs et similia since 1974 (remember
+> NBSLD.  Among my past "credits" are:
+> 
+> DOE-2 "design day routine" (ca 1977...);
+> CIRA (a residential energy calc and econ optimization prog developed at
+> LBNL, 1981);
+> TrakLoad (bin-based, commercial buildings energy calcs and energy audit
+> tool, 1984);
+> Loadshaper (same as TrakLoad, but "typical-day" hourly-based, 1986);
+> MarketManager (Windows-based energy analysis and cost calcs, 1988-1993);
+> Metrix (utility bill analysis for energy savings evaluation, 1995).
+> 
+> I'm currently chair of ASHRAE's TC 4.7 (Energy Calculations).
+> 
+> Because of rapidly advancing senility, lately I have become more
+> interested in the actual process of generating, and maintaining useful,
+> well-documented, open, free, energy calculation tools.   The growing Linux
+> community comes to mind. 
+> 
+> This would not be meant as competition to EnergyPlus or other large codes.
+> Many of the "pieces" of Energy Plus et al. would fit well in this effort.
+> The idea would be to make the many available toolkits (e.g. TC 4.7's
+> Energy I, II, III) truly useful, by casting them into a modern S/W context
+> (e.g. as COM components).
+> 
+>  Any interest out there for a Linux-style building simulation effort?
+> 
+> Robert
+> _________________________________________________________________________
+> Robert C. Sonderegger                          SRC Systems Inc.
+> Executive Vice President, R&D               2855 Telegraph Avenue, Suite
+> 410
+> SRC Systems Inc.                                   Berkeley, CA
+> 94705-1152  USA
+> Voice (510) 848-8400 Ext. 101               Website:
+> http://www.src-systems.com
+> Fax (510) 848-0788                                Products: Metrix,
+> MarketManager, Metrix Profiler
+> 
+> ---> RCS at src-systems.com <--- NOTE NEW EMAIL ADDRESS***
+> 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Robert.Sonderegger at SRC-Systems.com  Thu Mar  4 11:25:56 1999
+From: Robert.Sonderegger at SRC-Systems.com (Robert Sonderegger)
+Date: Thu, 4 Mar 1999 11:25:56 -0800
+Subject: Who's out there?
+Message-ID: <MDAEMON-F199903041326.AA262250MD29575@gard.com>
+
+My vote:
+
+Allow to see email addresses to list members only;
+Include "Reply to BLDG-SIM at gard.com" in subject line, even better in "From"
+if possible.
+
+Robert Sonderegger
+
+_________________________________________________________________________
+Robert C. Sonderegger                          SRC Systems Inc.
+Executive Vice President, R&D               2855 Telegraph Avenue, Suite 410
+SRC Systems Inc.                                   Berkeley, CA  94705-1152
+USA
+Voice (510) 848-8400 Ext. 101               Website:
+http://www.src-systems.com
+Fax (510) 848-0788                                Products: Metrix,
+MarketManager, Metrix Profiler
+
+---> RCS at src-systems.com <--- NOTE NEW EMAIL ADDRESS***
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Todd.Taylor at pnl.gov  Thu Mar  4 11:24:11 1999
+From: Todd.Taylor at pnl.gov (Z. Todd Taylor)
+Date: Thu, 04 Mar 1999 11:24:11 -0800
+Subject: Who's out there?
+Message-ID: <MDAEMON-F199903041321.AA215420MD29570@gard.com>
+
+> About 90 people are on the mailing list currently.  As the 
+> list owner, to reduce spam, I decided to not allow people 
+> to see the e-mail addresses of the subscribers.  I can 
+> easily change this if all the subscribers would prefer 
+> that.  So here is the question, do the subscribers want 
+> their e-mail address available to others?
+
+I certainly wouldn't put them on every email header.  I
+wouldn't be opposed to a list member being able to query
+the system for a list of subscribers, though.  But others
+might object, especially those whose 'net feeds cost them
+by the byte or minute.
+
+> While we are on the topic of list administration, I can 
+> automatically add the mailing list name [BLDG-SIM] in every 
+> subject line.  It may help people identify where the e-mail 
+> is coming from.  Who wants the name [BLDG-SIM] to appear in 
+> the subject line?
+
+Yes, absolutely.  It facilitates automatic sorting of email.
+
+--Todd
+-- 
+Z. Todd Taylor
+Pacific Northwest National Laboratory
+Todd.Taylor at pnl.gov
+Why is a peanut neither a pea nor a nut?
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Thu Mar  4 11:04:21 1999
+From: jglazer at gard.com (Jason Glazer)
+Date: Thu, 4 Mar 1999 13:04:21 -0600
+Subject: Who's out there?
+In-Reply-To: <MDAEMON-F199903041210.AA105239MD29506@gard.com>
+Message-ID: <MDAEMON-F199903041259.AA590514MD29549@gard.com>
+
+About 90 people are on the mailing list currently.  As the 
+list owner, to reduce spam, I decided to not allow people 
+to see the e-mail addresses of the subscribers.  I can 
+easily change this if all the subscribers would prefer 
+that.  So here is the question, do the subscribers want 
+their e-mail address available to others?
+
+While we are on the topic of list administration, I can 
+automatically add the mailing list name [BLDG-SIM] in every 
+subject line.  It may help people identify where the e-mail 
+is coming from.  Who wants the name [BLDG-SIM] to appear in 
+the subject line?
+
+Jason
+
+On 4 Mar 99, at 10:13, Robert Sonderegger wrote:
+
+> REVIEW 
+> 
+<snip>
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kelsey at kw-energy.com  Thu Mar  4 09:39:38 1999
+From: kelsey at kw-energy.com (Jim Kelsey)
+Date: Thu, 04 Mar 1999 09:39:38 -0800
+Subject: Building Simulation Experience
+References: <MDAEMON-F199903040925.AA250510MD17483@gard.com>
+Message-ID: <MDAEMON-F199903041133.AA331312MD29483@gard.com>
+
+Hello simulation world!
+
+My name is Jim Kelsey and I am one of the co-founders of KW Energy
+Engineering. My partner Kevin Warren and I are both graduates of the
+University of Wisconsin Solar Energy Lab. So we've both been up to our ears in
+TRNSYS. While I was there I used the TRNSYS building simulation model to
+assess the effects of ASHRAE Std 90.1 on commercial buildings. To do it I had
+to develop more accurate slab heat loss models and a model to simulate a
+water-loop heat pump system.
+
+More recently my simulation experience is with VisualDOE (2.1E) and PowerDOE
+(2.2). We just got our copy of PowerDOE & I have spent some time with it but
+have not yet tried anything very complex. I can say that it has some pretty
+nice features: I like the way that it displays the building in 3D, has a
+somewhat customizable front end, and it seems to to live up to the claim that
+it has a superset of DOE 2 features. But the BIG FEATURE that I was excited
+about - the ability to automate parametric analysis - is not yet implemented.
+Also I can confirm reports from the field that it crashes very frequently. In
+its defense, so far it has not corrupted any files so you only lose what has
+been done since the last save. But it is a big headache that needs to be
+solved. So is Jeff Hirsch on this list? Any defense Jeff?
+
+Other simulation experience:
+* Energy-10:  I've used this on a project to look at envelope and equipment
+selection for a new retreat center in New York State.
+* Bin modeling: Scores of bin models for energy audits. I also developed an
+automated TC 4.7 method bin model for a utility client to analyze energy
+efficiency measures.
+* Refrigeration: I developed some spreadsheet models for assessing energy
+savings from floating head pressure at a winery, grocery stores, and a cold
+storage facility.
+
+Enough shameless self promotion! I'm looking forward to hearing from other
+folks on the list.
+
+- Jim
+
+--
+Jim Kelsey
+KW Energy Engineering
+(510) 834-6420
+http://www.kw-energy.com
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From rdavis at oarsman.com  Thu Mar  4 07:57:42 1999
+From: rdavis at oarsman.com (Randy Davis)
+Date: Thu, 4 Mar 1999 09:57:42 -0600
+Subject: Welcome and Experience
+In-Reply-To: <MDAEMON-F199903040821.AA213112MD17287@gard.com>
+Message-ID: <MDAEMON-F199903040950.AA503600MD29404@gard.com>
+
+Hello name is Randy Davis.  I am the Vice President of Oarsman Corporation.
+
+We are the developers of a number of energy software products such as BEACON
+and EnergyBill.com.
+
+
+Regards,
+
+
+Randy Davis
+Vice President
+Oarsman Corporation
+www.oarsman.com  www.EnergyBill.com
+
+
+
+
+--
+IMail Server for Windows NT. Evaluation version.
+Copyright (c) 1995-98 Ipswitch, Inc. http://www.ipswitch.com/
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From RBSPURLO at southernco.com  Thu Mar  4 07:28:21 1999
+From: RBSPURLO at southernco.com (Spurlock, R. Bruce)
+Date: Thu, 4 Mar 1999 09:28:21 -0600
+Subject: Building Simulation Experience
+Message-ID: <MDAEMON-F199903040925.AA250476MD29393@gard.com>
+
+Hi Everyone
+
+This is Bruce Spurlock with Southern Company Services, Inc. in Atlanta.
+I have been using Simulation Tools since 1975 using the old "University of
+Florida"
+program and our in house Bin method program.  I switched to AXCESS
+Energy Analysis Tool in 1978 and have been involved with  its upgrade from
+version 6.0  through 10.2d which is the current EPRI version.
+I have used Doe2.1,  Trnsys, and Doe2.2 (PowerDoe) also.
+We are developing an all windows program to do small buildings similar to
+AXCESS which will be quick and easy using all the windows functions, but
+it can also call Doe2.2  if needed to do a detail simulation.
+Bruce Spurlock
+Customer Technology Services
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bseaton at ASHRAE.org  Thu Mar  4 07:09:20 1999
+From: bseaton at ASHRAE.org (Seaton, Bill)
+Date: Thu, 4 Mar 1999 10:09:20 -0500
+Subject: FW: Research Projects Ready To Bid.
+Message-ID: <MDAEMON-F199903040908.AA084729MD29386@gard.com>
+
+
+
+To: Bldg-Sim-GARD subscribers:
+ 
+Several times each year, ASHRAE posts a list of research projects which are
+ready to bid.  Some of these requests for proposal (RFPs) may be of interest
+to "bldg-sim" subscribers. I am adding this address to the list of
+addressees who receive notifcation when new RFPs are available. If you
+receive more than one notification, please excuse the inconvenience.  
+ 
+Below is a copy of the notification which went out about two weeks ago.
+
+ 
+We now have posted on the ASHRAE Home Page  (www.ashrae.org) , five
+requests-for proposal (RFP) which are ready for bid.  There will be numerous
+others added to this list shortly after April 1, following the Spring
+meeting of the Research Activities Subcommittee.  The deadline for receipt
+of responses to all of these RFPs will be May 14, 1999.
+ 
+Please share this announcement with your colleagues who may have an interest
+in these or similar projects.
+ 
+If you have no interest in receiving future reminders such as this, please
+inform me by return e-mail.
+ 
+
+William W. Seaton             bseaton at ashrae.org 
+Manager of Research 
+
+ASHRAE, Inc.                     Ph.  404-636-8400 
+1791 Tullie Circle                 Fax  404-321-5478 
+Atlanta, GA 30329 
+
+ 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bradley at sel.me.wisc.edu  Thu Mar  4 06:43:59 1999
+From: bradley at sel.me.wisc.edu (David Bradley)
+Date: Thu, 04 Mar 1999 08:43:59 -0600
+Subject: more experiences
+Message-ID: <MDAEMON-F199903040842.AA422073MD29371@gard.com>
+
+Hello everybody,
+	I work at the Solar Energy Laboratory at the University of Wisconsin and
+am in charge of developing TRNSYS.  We've been spending a fair amount of
+time recently on making it easier to connect TRNSYS to other simulation
+programs. Really to merge the strengths of the various tools that are
+available.
+Cheers,
+	David
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+David BRADLEY
+TRNSYS Engineer			Phone: (608) 263-1589
+Solar Energy Laboratory	bradley at sel.me.wisc.edu
+1500 Engineering Drive		Fax: (608) 262-8464
+Madison, WI  53706
+
+The SEL Web Site can be seen at: http://sel.me.wisc.edu
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Thu Mar  4 06:26:46 1999
+From: jglazer at gard.com (Jason Glazer)
+Date: Thu, 4 Mar 1999 08:26:46 -0600
+Subject: Welcome and Experience
+Message-ID: <MDAEMON-F199903040821.AA213021MD29351@gard.com>
+
+Welcome Everyone!
+
+About 60 people have subscribed so far to the BLDG-SIM 
+mailing list since my announcement yesterday.  To get 
+things started I thought I would tell people about my 
+background in simulation tools.  
+
+Shelter - A proprietary tool that I helped write in 1988 
+for evaluating the mechanical systems for passively cooled 
+telecommunications enclosures and small buildings.  Number 
+of current users is probably zero - I'm not even sure where 
+floppy with the source code is anymore.
+
+DOE-2.1 - The tool of my dreams and nightmares.  I have 
+been using it since 2.1c and contributed to the development 
+of some of the gas cooling models and the revised economics 
+portion.  Especially good in systems, plant, econ and 
+macros.  
+
+DOE-2.2 - Have used some but it may end up being my future 
+bread and butter tool.  Do we have any frequent users of 
+this on the list yet?
+
+ASEAM - Haven't used in years but did use it in a big 
+project (programming a prototype ASEAM to DOE-2 translator).
+
+Enough about me, whats everyone elses experience?
+
+Jason
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

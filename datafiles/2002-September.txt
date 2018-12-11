@@ -1,0 +1,1551 @@
+From kitty.knauz at exeloncorp.com  Mon Sep 30 11:51:35 2002
+From: kitty.knauz at exeloncorp.com (kitty.knauz at exeloncorp.com)
+Date: Mon, 30 Sep 2002 13:51:35 -0500
+Subject: [Bldg-sim] Light Shelves
+Message-ID: <MDAEMON-F200209301426.AA2631453pd80000198724@gard.com>
+
+Wade,
+ 
+Pharmacia Corp at Skokie, IL had built a new lab using light shelves.  The
+company who did the computer modeling is The Weidt Group, Minnetonka,
+Minnesota.  Pharmacia is very proud of this new state of art technology
+building.  You can contact Steven Schultz at (847) 982-7564 for more
+information.
+ 
+Kitty Knauz, P.E. 
+Customer Project Engineer 
+ComEd 
+1500 Franklin Blvd. 
+Libertyville, IL 60048 
+Office: 847-816-5254 
+Pager: 1-877-772-8708 
+Fax: 847-816-5348 
+kitty.knauz at exeloncorp.com 
+
+-----Original Message-----
+From: Wade McLaughlin [mailto:wmclaughlin at dmiinc.com]
+Sent: Monday, September 30, 2002 10:51 AM
+To: Bldg-sim at gard.com
+Subject: [Bldg-sim] Light Shelves
+
+
+I see from the thread that this question may have gone unanswered in the
+past.  I'll give it a try anyway.
+ 
+I know that PowerDOE is not explicitly capable of modeling light shelves for
+daylight dimming measures.  However, has anyone had any success manipulating
+a model to get reasonable approximations?  I have results from a physical
+model that I can use to calibrate my methods, but I'm not sure where to
+start.
+ 
+Many thanks in advance for your help.
+ 
+Wade McLaughlin
+DMI
+450 Lexington St.
+Newton, MA  02466
+p 617-527-1525 x103
+f  617-527-6606
+
+
+=====================================================You received this
+e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+************************************************************************
+This e-mail and any of its attachments may contain Exelon Corporation
+proprietary information, which is privileged, confidential, or subject 
+to copyright belonging to the Exelon Corporation family of Companies. 
+This e-mail is intended solely for the use of the individual or entity 
+to which it is addressed.  If you are not the intended recipient of this 
+e-mail, you are hereby notified that any dissemination, distribution, 
+copying, or action taken in relation to the contents of and attachments 
+to this e-mail is strictly prohibited and may be unlawful.  If you have 
+received this e-mail in error, please notify the sender immediately and 
+permanently delete the original and any copy of this e-mail and any 
+printout. Thank You.
+************************************************************************
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020930/9d53fd3e/attachment.htm>
+
+From demba.ndiaye at polymtl.ca  Mon Sep 30 11:38:21 2002
+From: demba.ndiaye at polymtl.ca (Demba NDIAYE)
+Date: Mon, 30 Sep 2002 14:38:21 -0400
+Subject: [Bldg-sim] chiller cost
+References: <MDAEMON-F200209301302.AA0226187pd80000263581@gard.com>
+Message-ID: <MDAEMON-F200209301327.AA2727406pd80000198687@gard.com>
+
+I am looking for the cost of a scroll chiller.
+Does anyone has some indication, either on a 
+per ton basis, or comparatively to other chiller's type?
+
+_________________________________
+Demba NDIAYE
+Associ? de recherche
+?cole Polytechnique de Montr?al
+T?l : (514) 340-4711 # 5896
+       (514) 733-4395
+Montr?al (Qu?bec)
+  ----- Original Message ----- 
+  From: Jon McHugh 
+  To: Bldg-sim at gard.com 
+  Sent: Monday, September 30, 2002 2:12 PM
+  Subject: [Bldg-sim] Light Shelves
+
+
+  Wade,
+   
+  Look at the method using daylight factors.  Your physical model has to create results for several sun angles and an overcast sky - please refer to the DOE-2 manual for more details.
+   
+  Jon McHugh, PE, LC 
+  Heschong Mahone Group 
+  11626 Fair Oaks Blvd #302 
+  Fair Oaks, CA 95628 (Sacramento) 
+  (916)962-7001 
+  (916)962-0101 FAX 
+  e-mail: mchugh at h-m-g.com 
+  URL: www.h-m-g.com 
+
+   
+   
+    -----Original Message-----
+    From: Wade McLaughlin [mailto:wmclaughlin at dmiinc.com]
+    Sent: Monday, September 30, 2002 8:51 AM
+    To: Bldg-sim at gard.com
+    Subject: [Bldg-sim] Light Shelves
+
+
+    I see from the thread that this question may have gone unanswered in the past.  I'll give it a try anyway.
+
+    I know that PowerDOE is not explicitly capable of modeling light shelves for daylight dimming measures.  However, has anyone had any success manipulating a model to get reasonable approximations?  I have results from a physical model that I can use to calibrate my methods, but I'm not sure where to start.
+
+    Many thanks in advance for your help.
+
+    Wade McLaughlin
+    DMI
+    450 Lexington St.
+    Newton, MA  02466
+    p 617-527-1525 x103
+    f  617-527-6606
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020930/a5aa3f88/attachment.htm>
+
+From mchugh at h-m-g.com  Mon Sep 30 11:12:54 2002
+From: mchugh at h-m-g.com (Jon McHugh)
+Date: Mon, 30 Sep 2002 11:12:54 -0700
+Subject: [Bldg-sim] Light Shelves
+Message-ID: <MDAEMON-F200209301302.AA0231250pd80000198652@gard.com>
+
+Wade,
+ 
+Look at the method using daylight factors.  Your physical model has to create results for several sun angles and an overcast sky - please refer to the DOE-2 manual for more details.
+ 
+Jon McHugh, PE, LC 
+Heschong Mahone Group 
+11626 Fair Oaks Blvd #302 
+Fair Oaks, CA 95628 (Sacramento) 
+(916)962-7001 
+(916)962-0101 FAX 
+e-mail: mchugh at h-m-g.com 
+URL: www.h-m-g.com 
+
+ 
+ 
+
+-----Original Message-----
+From: Wade McLaughlin [mailto:wmclaughlin at dmiinc.com]
+Sent: Monday, September 30, 2002 8:51 AM
+To: Bldg-sim at gard.com
+Subject: [Bldg-sim] Light Shelves
+
+
+I see from the thread that this question may have gone unanswered in the past.  I'll give it a try anyway.
+ 
+I know that PowerDOE is not explicitly capable of modeling light shelves for daylight dimming measures.  However, has anyone had any success manipulating a model to get reasonable approximations?  I have results from a physical model that I can use to calibrate my methods, but I'm not sure where to start.
+ 
+Many thanks in advance for your help.
+ 
+Wade McLaughlin
+DMI
+450 Lexington St.
+Newton, MA  02466
+p 617-527-1525 x103
+f  617-527-6606
+
+
+==================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020930/28bc0838/attachment.htm>
+
+From wmclaughlin at dmiinc.com  Mon Sep 30 08:51:07 2002
+From: wmclaughlin at dmiinc.com (Wade McLaughlin)
+Date: Mon, 30 Sep 2002 11:51:07 -0400
+Subject: [Bldg-sim] Light Shelves
+Message-ID: <MDAEMON-F200209301246.AA4616328pd80000198622@gard.com>
+
+I see from the thread that this question may have gone unanswered in the past.  I'll give it a try anyway.
+
+I know that PowerDOE is not explicitly capable of modeling light shelves for daylight dimming measures.  However, has anyone had any success manipulating a model to get reasonable approximations?  I have results from a physical model that I can use to calibrate my methods, but I'm not sure where to start.
+
+Many thanks in advance for your help.
+
+Wade McLaughlin
+DMI
+450 Lexington St.
+Newton, MA  02466
+p 617-527-1525 x103
+f  617-527-6606
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020930/20a14096/attachment.htm>
+
+From jglazer at gard.com  Fri Sep 27 08:47:34 2002
+From: jglazer at gard.com (Jason Glazer)
+Date: Fri, 27 Sep 2002 10:47:34 -0500
+Subject: [Bldg-sim] (Fwd) 2002 Buildings Energy Databook (formerly BTS Core Databo
+Message-ID: <MDAEMON-F200209271037.AA3715750pd80000197703@gard.com>
+
+Here is a good source of building energy data on both a 
+macro and micro level.  Most from other sources but some 
+information I haven't seen anywhere else.  
+
+Jason
+
+------- Forwarded message follows -------
+Subject:        	2002 Buildings Energy Databook (formerly 
+BTS Core Databook)
+Date sent:      	Fri, 27 Sep 2002 07:52:43 -0400
+From:           	"Jordan Kelso" <jkelso at drintl.com>
+To:             	"Jordan Kelso" <jkelso at drintl.com>
+Send reply to:  	jkelso at drintl.com
+
+The 2002 Buildings Energy Databook now is available on-line
+at: 
+
+http://buildingsdatabook.eren.doe.gov
+
+In the 2002 version, we have updated and/or enhanced the
+existing tables, and added a few new ones.  The Energy
+Consumption chapter has been updated with EIA's Annual
+Energy Outlook 2002.  New statistics on construction R&D
+expenditures (Table 4.5.4) are included in the Economic
+chapter.  The Lighting section (Section 5.9) contains
+information from U.S. Lighting Market Characterization
+completed by Navigant Consulting on behalf of the U.S.
+Department of Energy.  The Buildings Profiles chapter has
+also been updated and now includes a new section,
+Educational Facilities (Section 7.5).
+
+The Buildings Energy Databook and Web site was developed 
+for
+use within the Department of Energy's Office of Energy
+Efficiency and Renewable Energy.  The Databook contains
+current buildings-related data and is intended to serve as 
+a
+resource in providing consistent and citable data, in an
+easy to use format.
+
+The Web site provides access to all the tables available in
+the hard copy PLUS downloadable versions of tables in both
+Excel and PDF formats.  The entire 2002 Buildings Energy
+Databook is available electronically for those who register
+at the Web site.  Registration enables us to let you know
+when new data is available.
+
+The Web site provides the most up to date buildings energy
+information and is updated on a regular basis.  For
+instance, this year's hard copy will not contain data for
+the recently released 1999 Commercial Buildings Energy
+Consumption Survey (Energy Information Administration,
+2002).  While hard copies of the Databook are available on 
+a
+limited, first requested basis, the Web site is your best
+bet for up-to-date information.  To receive a hardcopy, 
+send
+an email request to Jordan Kelso <mailto: 
+jkelso at drintl.com>
+of D&R International. 
+
+We strive to have pertinent and reliable energy data
+available from the site and are asking for your assistance. 
+
+Please forward any resources that you believe should be
+incorporated in future updates directly to either Sean
+McDonald <mailto: sean at pnl.gov> of Pacific Northwest
+National Laboratory or Jordan Kelso <mailto:
+jkelso at drintl.com>.  Thank you.
+
+
+
+Jerry Dion
+Michael J. McCabe
+
+U.S. Department of Energy
+
+------- End of forwarded message -------
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kathy at srge.lbl.gov  Thu Sep 26 10:31:46 2002
+From: kathy at srge.lbl.gov (Kathy Ellington)
+Date: Thu, 26 Sep 2002 10:31:46 -0700 (PDT)
+Subject: [Bldg-sim] (No Subject)
+Message-ID: <MDAEMON-F200209261221.AA2129265pd80000197310@gard.com>
+
+
+Apologies for cross-postings
+
+
+                        VisualSPARK 1.0.2 RELEASED!
+
+Version 1.0.2 of the VisualSPARK environment for simulation of advanced
+building energy systems has just been released. 
+
+For more information or to download the program free of charge please go
+to http://SimulationResearch.lbl.gov > VisualSPARK
+
+                            New Features Include:
+
+SPARSE LINEAR SOLUTION METHOD
+This method reduces calculation time by orders of magnitude on large
+simulation problems with a sparse Jacobian matrix.
+
+AUTOMATIC JACOBIAN REFRESH
+An option has been added to automatically recalculate the Jacobian when
+needed to ensure robust and fast convergence.
+
+NEW SCALING METHOD
+A fully-affine invariant scaling method has been added that makes the
+SPARK equation solver less sensitive to cases where the variables have
+very different orders of magnitude.
+
+STATISTICS LOG FILE
+A log file is produced with information that can be used to "tune" the
+solver for optimum performance. Statistics include:
+ o  calculation times of linear and nonlinear solver
+ o  average sparsity of Jacobian
+ o  number of times Jacobian was recalculated
+
+PROBLEM DRIVER API
+A problem driver Application Programming Interface (API) has been added
+that allows advanced users to:
+ o  perform sensitivity analysis
+ o  manage and solve multiple problems
+ o  retrieve solution values and specify new inputs for a new simulation
+      of the same problem
+ o  customize the sequence of operations to re-solve the same problem
+
+---------------------------------------------------------------------
+SPARK was developed by the Simulation Research Group of Lawrence
+Berkeley National Laboratory and by Ayres Sowell Associates, with
+support from the Assistant Secretary for Energy Efficiency and Renewable
+Energy, Office of Building Technology Programs of the U.S. Department of
+Energy, program manager Dru Crawley.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From phaves at lbl.gov  Fri Sep 20 13:56:48 2002
+From: phaves at lbl.gov (Philip Haves)
+Date: Fri, 20 Sep 2002 13:56:48 -0700
+Subject: [Bldg-sim] IBPSA regional affiliates
+Message-ID: <MDAEMON-F200209201547.AA474657pd80000195110@gard.com>
+
+The International Building Performance Simulation Association (IBPSA) is
+
+a two-tier organization, with affiliates in a number of countries (see
+ http://www.ibpsa.org/regional.htm  ).  We would like to hear from
+groups
+of individuals interested in starting an IBPSA affiliate organization in
+
+a country or region without an existing affiliate, or from existing
+organizations with related missions interested in affiliating with
+IBPSA.
+
+IBPSA's mission is to advance and promote the science of building
+performance simulation in order to improve the design, construction,
+operation, and maintenance of new and existing buildings worldwide.
+Regional affiliates engage in a variety of activities to promote
+simulation, typically organizing events where practitioners, developers
+and researchers can meet and exchange information and ideas and also
+addressing national issues such as the use of simulation in building
+codes and standards.  IBPSA also runs the biennial Building Simulation
+international conference series (the next one is in Eindhoven,
+Netherlands in August 2003 - see   http://www.bs2003.tue.nl/  ).  The
+local affiliate plays a significant role in organizing the conference
+and also shares the proceeds.
+
+Regionalization guidelines, which explain the process of becoming an
+IBPSA affiliate can be downloaded from http://www.ibpsa.org/regional.htm
+.
+Start-up funds, in the form of a loan from IBPSA, can be made available
+in cases of need.
+
+If you are interested in starting or becoming and IBPSA affiliate
+organization and want more information or would like to discuss the
+matter, please contact me or any other member of the Board of Directors
+or any of the existing regional affiliates.
+
+Philip Haves
+IBPSA Regional Liaison Officer
+
+Lawrence Berkeley National Laboratory
+1 Cyclotron Road Bldg 90R3111
+Berkeley, CA 94720-8134
+Tel: (+1) 510 486 6512
+Fax: (+1) 510 486 4089
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jahe at fago.bwk.tue.nl  Thu Sep 19 08:52:34 2002
+From: jahe at fago.bwk.tue.nl (Jan Hensen)
+Date: Thu, 19 Sep 2002 17:52:34 +0200
+Subject: [Bldg-sim] reviewers for Building Simulation 2003
+Message-ID: <MDAEMON-F200209191042.AA424860pd80000194508@gard.com>
+
+
+It is obvious that thorough reviews are essential in maintaining
+the high quality standards of the IBPSA conferences.
+Information of the next conference is at www.bs2003.tue.nl
+
+If you feel that you have the knowledge, time and energy to
+help with this important task, the organizers of IBPSA's 8th
+Int. Conf. Building Simulation 2003 in Eindhoven, would like
+you to consider becoming a member of the scientific committee
+as a reviewer.
+
+The scientific executive committee has the end responsibility
+for the review procedure - including assignment of reviewers
+and the final decision regarding acceptance of abstracts and
+papers.
+
+We anticipate that the average load per reviewer will be
+roughly 5 abstracts / 3 papers.
+
+If you are interested, please make sure that we have your
+correct coordinates by pre-registering at www.bs2003.tue.nl
+
+Then send an email to mailto:fried.augenbroe at arch.gatech.edu
+with "Reviewer Building Simulation 2003" in the Subject
+heading and in the body of the message an indication of your
+area(s) of expertise in terms of the conference themes:
+
+1 - Building physics including heat, air and moisture flow,
+    heating and cooling loads, electric and day lighting,
+    acoustics, smoke transport, etc. 
+
+2 - Heating, ventilation and air-conditoning systems. 
+
+3 - Energy supply systems such as, renewable energy systems,
+    thermal storage systems, district heating and cooling,
+    combined heating and power systems. 
+
+4 - Human factors including health, productivity, thermal
+    comfort, visual comfort, acoustical comfort, indoor air
+    quality. 
+
+5 - Building services such as lighting systems, sound/vibration
+    control systems, fire/smoke and emergency control systems,
+    cold/hot water supply systems, sewerage systems. 
+
+6 - Advances and recent developments in modelling and simulation
+    technology including CAD interaction, product modelling,
+    software interoperability, user interface issues, validation
+    and calibration
+    techniques.
+
+
+Thank you,
+
+Jan Hensen
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From larry at archone.tamu.edu  Thu Sep 19 07:28:08 2002
+From: larry at archone.tamu.edu (Larry Degelman)
+Date: Thu, 19 Sep 2002 09:28:08 -0500
+Subject: [Bldg-sim] IBPSA News, Vol. 12, No3
+Message-ID: <MDAEMON-F200209190920.AA201510pd80000194436@gard.com>
+
+ 
+We plan to publish a third issue of the IBPSA News this year, probably
+by early November.  Please send me any news you have that relates to
+simulation conferences (past or future), publications, short courses,
+seminars, awards, college courses, new software, simulation models, etc.
+Include as many figures and photographs that you can (in color).  
+ 
+This next issue will announce the results of the by-laws voting and
+actions from the Board meeting in Eindhoven on 7-8 October 2002.  We'll
+also reiterate the information about the upcoming conference, BS-2003 in
+Eindhoven.  
+ 
+Anyway, send everything you can think of.
+ 
+L.O. Degelman, IBPSA Newsletter Chairperson
+larry at taz.tamu.edu
+=====================================
+ 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020919/904a28ea/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 2743 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020919/904a28ea/attachment.jpeg>
+
+From jahe at fago.bwk.tue.nl  Thu Sep 19 03:17:14 2002
+From: jahe at fago.bwk.tue.nl (Jan Hensen)
+Date: Thu, 19 Sep 2002 12:17:14 +0200
+Subject: [Bldg-sim] abstracts Building Simulation 2003 due
+Message-ID: <MDAEMON-F200209190507.AA072834pd80000194343@gard.com>
+
+
+Apologies for cross-postings.
+
+Just in case it slipped your mind, this is
+to remind you that abstracts for IBPSA's
+8th Int Conf Building Simulation, 11 - 14 August
+2003 in Eindhoven, Netherlands, are due.
+
+For information / submission : www.bs2003.tue.nl
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bthornton at glumac.com  Wed Sep 18 15:01:16 2002
+From: bthornton at glumac.com (Brian Thornton)
+Date: Wed, 18 Sep 2002 15:01:16 -0700
+Subject: [Bldg-sim] Looking for Energy Use Index Information for Southeast Asia
+Message-ID: <MDAEMON-F200209181651.AA512062pd80000194139@gard.com>
+
+Does anyone have a source for energy use index information for Southeast
+Asia?  I am particularly interested in hotels and apartments, and Thailand
+if anyone has anything that specific.
+
+Thanks
+
+Brian Thornton, P.E.
+Lead Engineer
+Energy Services
+
+mailto:bthornton at glumac.com
+
+Glumac International
+www.glumac.com
+Voice: 503-227-5280	Fax: 503-274-7674
+320 SW Washington, Suite 200
+Portland, Oregon 97204
+
+Disclaimer:
+The information in this Internet e-mail is confidential and may be legally
+privileged.  It is intended solely for the addressee.  Access to this email
+by anyone else is unauthorized.  If you are not the intended recipient, any
+disclosure, copying, distribution or any action taken in response to this
+email is prohibited and may be unlawful.
+
+Because e-mail can be altered electronically, the integrity of this
+communication cannot be guaranteed.
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020918/de784f04/attachment.htm>
+
+From JAulbach at semprasolutions.com  Wed Sep 18 14:59:12 2002
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Wed, 18 Sep 2002 14:59:12 -0700
+Subject: [Bldg-sim] Displacement Ventilation Systems in Airports
+Message-ID: <MDAEMON-F200209181708.AA083287pd80000194154@gard.com>
+
+Thank you, Sir !!
+-----Original Message-----
+From: Tianzhen Hong [mailto:thong at eley.com]
+Sent: Wednesday, September 18, 2002 2:01 PM
+To: JAulbach at semprasolutions.com
+Cc: BLDG-SIM at GARD.COm
+Subject: RE: [Bldg-sim] Displacement Ventilation Systems in Airports
+
+
+ 
+ 
+A good source to start is couple papers published by Prof. Yan Chen in
+ASHRAE Transactions. 
+Prof. Chen is also developing the design guideline for displacement
+ventilation system for ASHRAE.
+ 
+According to Halton company, Dallas airport being constructed now is using
+DV too.
+ 
+Tianzhen
+ 
+ 
+ -----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Aulbach, John
+Sent: Tuesday, September 17, 2002 2:47 PM
+To: Bldg-sim at gard.com
+Subject: [Bldg-sim] Displacement Ventilation Systems in Airports
+
+
+Gee, maybe you high brow people can explain to us regular folks what
+"displacement cooling" is ???
+-----Original Message-----
+From: John Andrews [mailto:jandrews at rumseyengineers.com]
+Sent: Tuesday, September 17, 2002 2:51 PM
+To: Bldg-sim at gard.com
+Subject: [Bldg-sim] Displacement Ventilation Systems in Airports
+
+
+Tianzhen,
+ 
+
+From thong at eley.com  Wed Sep 18 14:01:10 2002
+From: thong at eley.com (Tianzhen Hong)
+Date: Wed, 18 Sep 2002 14:01:10 -0700
+Subject: [Bldg-sim] Displacement Ventilation Systems in Airports
+In-Reply-To: <MDAEMON-F200209171656.AA561571pd80000255614@gard.com>
+Message-ID: <MDAEMON-F200209181706.AA063950pd80000194148@gard.com>
+
+ 
+ 
+A good source to start is couple papers published by Prof. Yan Chen in
+ASHRAE Transactions. 
+Prof. Chen is also developing the design guideline for displacement
+ventilation system for ASHRAE.
+ 
+According to Halton company, Dallas airport being constructed now is
+using DV too.
+ 
+Tianzhen
+ 
+ 
+ -----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Aulbach,
+John
+Sent: Tuesday, September 17, 2002 2:47 PM
+To: Bldg-sim at gard.com
+Subject: [Bldg-sim] Displacement Ventilation Systems in Airports
+
+
+Gee, maybe you high brow people can explain to us regular folks what
+"displacement cooling" is ???
+-----Original Message-----
+From: John Andrews [mailto:jandrews at rumseyengineers.com]
+Sent: Tuesday, September 17, 2002 2:51 PM
+To: Bldg-sim at gard.com
+Subject: [Bldg-sim] Displacement Ventilation Systems in Airports
+
+
+Tianzhen,
+ 
+
+From jglazer at gard.com  Wed Sep 18 06:50:57 2002
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 18 Sep 2002 08:50:57 -0500
+Subject: [Bldg-sim] New Report: Review & Comparison of Web- and Disk-based Tools for Residential Energy Analysis
+Message-ID: <MDAEMON-F200209180840.AA405598pd80000193848@gard.com>
+
+An interesting report was recently posted by LBL titled:
+
+  Review & Comparison of Web- and Disk-based Tools
+  for Residential Energy Analysis
+
+It can be downloaded at:
+
+  http://eetd.lbl.gov/emills/PUBS/SoftwareReview.html
+
+Here is the abstract:
+
+There exist hundreds of web- and disk-based building energy 
+software tools. These tools exhibit considerable range in 
+approach and creativity, with some being highly specialized 
+and others able to consider the building as a whole. 
+However, users are faced with a dizzying array of choices 
+and, often, conflicting results. The fragmentation of 
+development and deployment efforts has hampered tool 
+quality and market penetration. The purpose of this review 
+is to provide information for defining the desired 
+characteristics of residential energy tools, and to 
+encourage future tool development that improves on current 
+practice. We evaluated 50 web-based residential 
+calculators, and 15 disk-based calculators. The comparison 
+shows that some tools require a relatively small number of 
+well-considered inputs while others ask a myriad of 
+questions and still miss key issues. The value of detail 
+has a lot to do with the type of question(s) being asked by 
+the user (e.g., the availability of dozens of miscellaneous 
+appliances is immaterial for a user attempting to evaluate 
+the potential for space-heating savings by installing a new 
+furnace). More detail does not, according to our 
+evaluation, automatically translate into a ?better? or 
+?more accurate? tool. Efforts to quantify and compare the 
+"accuracy" of these tools are difficult at best, and prior 
+tool-comparison studies have not undertaken this in a 
+meaningful way. The ability to evaluate accuracy is 
+inherently limited by the availability of measured data. 
+Furthermore, certain tool outputs can only be measured 
+against ?actual? values that are themselves calculated 
+(e.g., HVAC sizing), while others are rarely if ever 
+available (e.g., measured energy use or savings for 
+specific measures). Similarly challenging is to understand 
+the sources of inaccuracies. Many factors conspire to 
+confound performance comparisons among tools. Differences 
+in inputs can range from weather city, to types of HVAC 
+systems, to appliance characteristics, to occupant-driven 
+effects such as thermostat management. Differences in 
+results would thus no doubt emerge from an extensive 
+comparative exercise, but the sources or implications of 
+these differences for the purposes of accuracy evaluation 
+or tool development would remain largely unidentifiable. 
+For the tools that we tested, the predicted energy bills 
+for a single test building ranged widely (by nearly a 
+factor of three), and far more so at the end-use level. 
+Most tools over-predicted energy bills and all over-
+predicted consumption. The deviations (over-predictions) we 
+observed from actual bills corresponded to up to $1400 per 
+year (approx. 250% of the actual bills). Energy savings 
+estimates automatically generated by the web-based tools 
+varied from $46/year (5% of predicted use) to $625/year 
+(52% of predicted use). The estimates reflect widely 
+different packages of measures proposed by the tools, and 
+thus a diversity of ?messages? sent to users about the 
+opportunities for saving energy. Based on spot checks, we 
+also discovered a remarkable number of results that suggest 
+errors in programming or algorithm accuracy. There are 
+numerous potential avenues for improvement of residential 
+energy tools. Various important building science issues and 
+energy efficiency features cannot be sufficiently well 
+evaluated using existing tools. Synthesizing the 
+information gathered, we developed best-practice guidelines 
+that may be useful to developers of residential-energy 
+tools.
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jandrews at rumseyengineers.com  Tue Sep 17 14:50:48 2002
+From: jandrews at rumseyengineers.com (John Andrews)
+Date: Tue, 17 Sep 2002 14:50:48 -0700
+Subject: [Bldg-sim] Displacement Ventilation Systems in Airports
+Message-ID: <MDAEMON-F200209171640.AA405839pd80000193551@gard.com>
+
+Tianzhen,
+ 
+
+From JAulbach at semprasolutions.com  Tue Sep 17 14:46:37 2002
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Tue, 17 Sep 2002 14:46:37 -0700
+Subject: [Bldg-sim] Displacement Ventilation Systems in Airports
+Message-ID: <MDAEMON-F200209171655.AA555623pd80000193570@gard.com>
+
+Gee, maybe you high brow people can explain to us regular folks what
+"displacement cooling" is ???
+-----Original Message-----
+From: John Andrews [mailto:jandrews at rumseyengineers.com]
+Sent: Tuesday, September 17, 2002 2:51 PM
+To: Bldg-sim at gard.com
+Subject: [Bldg-sim] Displacement Ventilation Systems in Airports
+
+
+Tianzhen,
+ 
+
+From rgl.lsbris at lincolne.com.au  Tue Sep 17 14:18:35 2002
+From: rgl.lsbris at lincolne.com.au (Robert Lord)
+Date: Wed, 18 Sep 2002 07:18:35 +1000
+Subject: [Bldg-sim] Displacement Ventilation Systems in Airports
+Message-ID: <MDAEMON-F200209171610.AA100576pd80000193513@gard.com>
+
+For completeness, the old Ansett Airport Terminal in Sydney Australia has displacement air conditioning also.
+ 
+-----Original Message-----
+From: Tianzhen Hong [mailto:thong at eley.com]
+Sent: Wednesday, September 18, 2002 4:05 AM
+To: Bldg-sim at gard.com
+Subject: [Bldg-sim] Displacement Ventilation Systems in Airports
+ 
+ 
+Thanks a lot for those help.
+ 
+Following is a sum list,
+ 
+Heathrow Terminal 1
+JFK NY Smoking Lounge
+Bangkok Airport
+Vancouver, BC new intl. airport
+Frankfort intl. airport
+Xiamen Gaoqi intl airport, China
+ 
+I have not got the time to confirm or get details. I will share what I find later.
+ 
+Tianzhen
+ 
+ 
+ 
+ 
+ 
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020918/7241f339/attachment.htm>
+
+From thong at eley.com  Tue Sep 17 11:04:47 2002
+From: thong at eley.com (Tianzhen Hong)
+Date: Tue, 17 Sep 2002 11:04:47 -0700
+Subject: [Bldg-sim] Displacement Ventilation Systems in Airports
+Message-ID: <MDAEMON-F200209171256.AA562003pd80000193400@gard.com>
+
+ 
+Thanks a lot for those help.
+ 
+Following is a sum list,
+ 
+Heathrow Terminal 1
+JFK NY Smoking Lounge
+Bangkok Airport
+Vancouver, BC new intl. airport
+Frankfort intl. airport
+Xiamen Gaoqi intl airport, China
+ 
+I have not got the time to confirm or get details. I will share what I
+find later.
+ 
+Tianzhen
+ 
+ 
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020917/5d923ade/attachment.htm>
+
+From fporter at archenergy.com  Tue Sep 17 06:44:33 2002
+From: fporter at archenergy.com (Fred Porter)
+Date: Tue, 17 Sep 2002 07:44:33 -0600
+Subject: [Bldg-sim] Displacement Ventilation for Airports
+References: <MDAEMON-F200209161612.AA124629pd80000252481@gard.com>
+Message-ID: <MDAEMON-F200209170834.AA343498pd80000193284@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020917/6fedcff3/attachment.htm>
+
+From thong at eley.com  Mon Sep 16 13:36:41 2002
+From: thong at eley.com (Tianzhen Hong)
+Date: Mon, 16 Sep 2002 13:36:41 -0700
+Subject: [Bldg-sim] Displacement Ventilation for Airports
+Message-ID: <MDAEMON-F200209161612.AA125142pd80000193020@gard.com>
+
+ 
+Hi everyone,
+ 
+Has any one seen or heard of displacement ventilation used in airports?
+We know one terminal at Heathrow uses displacement ventilation systems.
+ 
+Thanks
+ 
+Tianzhen
+ 
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020916/21a45aa6/attachment.htm>
+
+From jfk at geopraxis.com  Fri Sep  6 12:00:51 2002
+From: jfk at geopraxis.com (John Kennedy)
+Date: Fri, 6 Sep 2002 12:00:51 -0700
+Subject: [Bldg-sim] 3D Modeling / Energy Analysis Compatibility
+In-Reply-To: <MDAEMON-F200209011346.AA464245pd80000247542@gard.com>
+Message-ID: <MDAEMON-F200209061451.AA510992pd80000189595@gard.com>
+
+Warren,
+
+GeoPraxis recently completed our California Energy Commission (CEC) funded
+R&D project to develop a Conceptual Design Energy Analysis Tool (CDEAT)
+that links energy analysis capabilities to architectural 3D-CAD
+applications. Our brochure on the project can be found at
+http://www.greenbuildingstudio.com/cdeat_trifold.pdf, and the final report
+for it can be found at http://www.energy.ca.gov/pier/buildings/reports.html
+
+The tool is currently at the beta stage of development, but the CEC, the
+leading CAD vendors, and nearly all of the architectural CAD users we have
+spoken with are very excited about the technology. This tool is enabled
+through our Green Building Studio web site as a web service and uses gbXML
+(www.gbxml.org) and SOAP to allow any gbXML-compliant 3D-CAD application to
+request energy simulation results.
+
+An exciting feature is that the resulting files produced can be read into
+DOE-2.2/eQuest as well as Trane's TRACE 700 application for more detailed
+analyses.   We have also tested the application with an early beta version
+of the Department of Energy's new EnergyPlus simulation engine.   Over the
+next year we plan on conducting a public beta test with several market
+leading 3D-CAD applications. Keep an eye on www.greenbuildingstudio.com for
+the beta test announcement if you want to participate.
+
+Sincerely,
+John F. Kennedy
+CTO
+  -----Original Message-----
+  From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Warren A.
+Campbell
+  Sent: Sunday, September 01, 2002 11:54 AM
+  To: Bldg-sim at gard.com
+  Subject: [Bldg-sim] 3D Modeling / Energy Analysis Compatibility
+
+
+  Is anyone familiar with the progress the industry is making towards
+integrating energy analysis software with some of the leading 3D CAD
+programs (ArchiCAD, Revit)?
+
+  Warren Campbell
+  Millennium 3 Design Group
+  (704) 333-1965.Ext 22
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020906/89c45ff8/attachment.htm>
+
+From mjwitte at gard.com  Wed Sep  4 07:36:11 2002
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Wed, 4 Sep 2002 09:36:11 -0500
+Subject: [Bldg-sim] Parametric run in Energy Plus
+In-Reply-To: <MDAEMON-F200209040813.AA135310pd80000188540@gard.com>
+References: <MDAEMON-F200209030457.AA573535pd80000188025@gard.com>
+Message-ID: <MDAEMON-F200209040926.AA264582pd80000188573@gard.com>
+
+Another approach is to use EzPlus-Parm from the Deringer Group
+
+http://www.deringergroup.com/Software/EPlusTools.htm
+
+
+On 4 Sep 2002, at 8:23, Jason Glazer wrote:
+
+> One way to do parameteric runs in EneryPlus is with DOS 
+> batch files and using EPMacro with IMF files.  
+> 
+> The batch files can create the alternative cases using 
+> lines like this:
+> 
+>   echo ##set1 wallHeight 2 > param.inc
+>   echo ##set1 wallWidth  10 >> param.inc
+>   call runeplus  main IL_Chicago_TMY2
+>   ren main.csv main-2-10.csv
+> 
+>   echo ##set1 wallHeight 3 > param.inc
+>   echo ##set1 wallWidth  11 >> param.inc
+>   call runeplus  main IL_Chicago_TMY2
+>   ren main.csv main-3-11.csv
+> 
+>   echo ##set1 wallHeight 4 > param.inc
+>   echo ##set1 wallWidth  12 >> param.inc
+>   call runeplus  main IL_Chicago_TMY2
+>   ren main.csv main-4-12.csv
+> 
+> The main.imf file would have a line near the top that would 
+> say:
+> 
+>   ##include param.inc
+> 
+> The IMF file would then use the variables "wallHeight" and 
+> "wallWidth". 
+> 
+> See the EP documentation for information about macros.  See 
+> an old DOS book about batch files.
+> 
+> Jason
+> 
+> On 3 Sep 2002 at 11:09, Monjur M Mourshed wrote:
+> 
+> > Hello!
+> > 
+> > Looking for help about parametric run in Energy Plus. I want IDF file to be
+> > updated automatically (Changing values of a certain variable in every pass)
+> > and run Simulation. The output file will be updated after every simulation.
+> > 
+> > Thanks in advance. Regards
+> > 
+> > Monjur
+> > 
+> > ===================================================================
+> > Monjur Masum Mourshed
+> > Unit Researcher & PhD student
+> > IRUSE: Informatics Research Unit for Sustainable Engineering.
+> > University College Cork. Ireland.
+> > Voice: +353-21-4902913
+> > Fax: 	 +353-21-4276648
+> > Email: m.mourshed at mars.ucc.ie
+> >        monjur at ecaad.com
+> > Web: 	 http://www.ecaad.com/monjur
+> > 	 http://www.ucc.ie/iruse/monjur
+> > ===================================================================
+> > 
+> > 
+> > ======================================================
+> > You received this e-mail because you are subscribed 
+> > to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> > from this mailing list send a blank message to 
+> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> > 
+> 
+> 
+> =========================================================
+> Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+> GARD Analytics - http://www.gard.com/
+> 1028 Busse Highway, Park Ridge, IL 60068
+> Building Energy Simulation and Analysis
+> Admin of BLDG-SIM list for building simulation users
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+
+
+========================================================
+EnergyPlus Testing and Support      
+EnergyPlus-Support at gard.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Wed Sep  4 06:23:58 2002
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 04 Sep 2002 08:23:58 -0500
+Subject: [Bldg-sim] Parametric run in Energy Plus
+In-Reply-To: <MDAEMON-F200209030457.AA573535pd80000188025@gard.com>
+Message-ID: <MDAEMON-F200209040814.AA141407pd80000188541@gard.com>
+
+One way to do parameteric runs in EneryPlus is with DOS 
+batch files and using EPMacro with IMF files.  
+
+The batch files can create the alternative cases using 
+lines like this:
+
+  echo ##set1 wallHeight 2 > param.inc
+  echo ##set1 wallWidth  10 >> param.inc
+  call runeplus  main IL_Chicago_TMY2
+  ren main.csv main-2-10.csv
+
+  echo ##set1 wallHeight 3 > param.inc
+  echo ##set1 wallWidth  11 >> param.inc
+  call runeplus  main IL_Chicago_TMY2
+  ren main.csv main-3-11.csv
+
+  echo ##set1 wallHeight 4 > param.inc
+  echo ##set1 wallWidth  12 >> param.inc
+  call runeplus  main IL_Chicago_TMY2
+  ren main.csv main-4-12.csv
+
+The main.imf file would have a line near the top that would 
+say:
+
+  ##include param.inc
+
+The IMF file would then use the variables "wallHeight" and 
+"wallWidth". 
+
+See the EP documentation for information about macros.  See 
+an old DOS book about batch files.
+
+Jason
+
+On 3 Sep 2002 at 11:09, Monjur M Mourshed wrote:
+
+> Hello!
+> 
+> Looking for help about parametric run in Energy Plus. I want IDF file to be
+> updated automatically (Changing values of a certain variable in every pass)
+> and run Simulation. The output file will be updated after every simulation.
+> 
+> Thanks in advance. Regards
+> 
+> Monjur
+> 
+> ===================================================================
+> Monjur Masum Mourshed
+> Unit Researcher & PhD student
+> IRUSE: Informatics Research Unit for Sustainable Engineering.
+> University College Cork. Ireland.
+> Voice: +353-21-4902913
+> Fax: 	 +353-21-4276648
+> Email: m.mourshed at mars.ucc.ie
+>        monjur at ecaad.com
+> Web: 	 http://www.ecaad.com/monjur
+> 	 http://www.ucc.ie/iruse/monjur
+> ===================================================================
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From per.sahlin at equa.se  Tue Sep  3 11:05:59 2002
+From: per.sahlin at equa.se (Per Sahlin)
+Date: Tue, 3 Sep 2002 20:05:59 +0200
+Subject: [Bldg-sim] 3D Modeling / Energy Analysis Compatibility
+In-Reply-To: <MDAEMON-F200209011346.AA465335pd80000247643@gard.com>
+Message-ID: <MDAEMON-F200209031257.AA571909pd80000188170@gard.com>
+
+Warren,
+
+
+
+Our approach to 3D IFC import is based on the observation that most 3D CAD
+models have been - and in the future will be - formulated for other primary
+purposes than thermal performance simulation. They are rarely appropriate as
+is but an engineer needs to be able to control the mapping between model
+spaces and thermal zones. Quite often a more or less manual selection will
+be the most practical, e.g. the model may contain all the rooms of a
+building and for the thermal model, you want to study perhaps a single floor
+or a group of exceptional rooms.
+
+
+
+Our thermal tool, IDA Indoor Climate and Energy 3.0, has it own 3D
+geometrical modeler into which one may import an IFC 1.5.1 or 2.0 model as a
+(3D) "background model". The user then instantiates the individual IFC
+spaces or groups of spaces that he or she wishes to study. This has proven
+to be a powerful time-saver and has been commercially available for about a
+year.
+
+
+
+Other information such as constructions may also be imported from the IFC
+model, should they be present there. However, this is rarely the case in
+today?s practice, where it seems that most 3D models are still defined for a
+single purpose, such as making a visualization, rather than being a
+generally applicable description of the building. We have seen some pretty
+?interesting? 3D models from unaware CAD modelers.
+
+
+
+There is a demo session showing a simple case of IFC import on
+www.equa.se/ice
+
+
+
+Best regards,
+
+
+
+Per Sahlin
+
+
+
+
+
+------------------------------------------
+Per Sahlin,    EQUA Simulation AB
+per.sahlin at equa.se
++46-8-27 27 67
++46 70 422 03 02 (mobile)
++46-8-27 40 32 (fax)
+P.O. Box 1376
+172 27 Sundbyberg, Sweden
+http://www.equa.se
+-----------------------------------------
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Warren A.
+Campbell
+Sent: Sunday, September 01, 2002 8:54 PM
+To: Bldg-sim at gard.com
+Subject: [Bldg-sim] 3D Modeling / Energy Analysis Compatibility
+
+
+  Is anyone familiar with the progress the industry is making towards
+integrating energy analysis software with some of the leading 3D CAD
+programs (ArchiCAD, Revit)?
+
+  Warren Campbell
+  Millennium 3 Design Group
+  (704) 333-1965.Ext 22
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020903/0d29e878/attachment.htm>
+
+From v_bazjanac at lbl.gov  Tue Sep  3 09:54:14 2002
+From: v_bazjanac at lbl.gov (Vladimir Bazjanac)
+Date: Tue, 03 Sep 2002 09:54:14 -0700
+Subject: [Bldg-sim] 3D Modeling / Energy Analysis Compatibility
+References: <MDAEMON-F200209011347.AA470020pd80000247722@gard.com>
+Message-ID: <MDAEMON-F200209031147.AA472131pd80000188137@gard.com>
+
+You can already import building geometry from ArchiCAD into
+EnergyPlus.   At the moment you cannot do it from Revit; if Revit indeed
+replaces ADT technology and becomes IFC compatible, it will be possible
+to do it from Revit (or whatever it will be called) too.  Also at the
+moment, you can import some geometry (not always and not all) from ADT
+3.3.  You should be able to do it properly when Autodesk releases ADT 4.
+
+To import building geometry from ArchiCAD, do the following:
+1. Install IFC import in EnergyPlus (BS Pro COM Server and IFCtoIDF are
+bundled).  Be sure that you are installing the *latest* version.
+2. Verify that your installation of ArchiCAD includes the appropriate
+IFC utility (IFC_200.apx or IFC_2x.apx in ~Add-Ons/Import-Export); if
+missing, contact Graphisoft for the latest version.
+3. Save your building file in ArchiCAD as IFC_200 or IFC_2X file type.
+4. Run the saved IFC file through IFCtoIDF utility (that will generate
+building geometry in IDF format).
+5. Run the generated IDF file through EnergyPlus to verify building
+geometry input - display the resulting DXF file to visually check the
+imported geometry.
+6. Manually change the default construction types in the generated IDF
+file to what you want in the simulation.
+7. Build the rest of the IDF file or splice the geometry into an
+existing IDF file.
+
+This describes the basic process.  You can do intermittent checks with
+other tools (such as Solibri Model Checker) along the way, but that
+should come later after you feel at home with this process.
+
+Most likely, this will not work out for you the first time around. 
+Since the existing documentation is way short of what it should be (but
+eventually will be), you will probably run into problems you will not be
+able to solve on your own.  Rather than getting frustrated, please
+contact Rob Hitchcock or myself at LBNL (Rob's address is
+rjhitchcock at lbl.gov) and we will help you solve them.
+
+-- Vladimir Bazjanac, LBNL
+
+> "Warren A. Campbell" wrote:
+> 
+> Is anyone familiar with the progress the industry is making towards
+> integrating energy analysis software with some of the leading 3D CAD
+> programs (ArchiCAD, Revit)?
+> 
+> Warren Campbell
+> Millennium 3 Design Group
+> (704) 333-1965.Ext 22
+> 
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From monjur at ecaad.com  Tue Sep  3 03:09:20 2002
+From: monjur at ecaad.com (Monjur M Mourshed)
+Date: Tue, 3 Sep 2002 11:09:20 +0100
+Subject: [Bldg-sim] Parametric run in Energy Plus
+Message-ID: <MDAEMON-F200209030457.AA573535pd80000188025@gard.com>
+
+Hello!
+
+Looking for help about parametric run in Energy Plus. I want IDF file to be
+updated automatically (Changing values of a certain variable in every pass)
+and run Simulation. The output file will be updated after every simulation.
+
+Thanks in advance. Regards
+
+Monjur
+
+===================================================================
+Monjur Masum Mourshed
+Unit Researcher & PhD student
+IRUSE: Informatics Research Unit for Sustainable Engineering.
+University College Cork. Ireland.
+Voice: +353-21-4902913
+Fax: 	 +353-21-4276648
+Email: m.mourshed at mars.ucc.ie
+       monjur at ecaad.com
+Web: 	 http://www.ecaad.com/monjur
+	 http://www.ucc.ie/iruse/monjur
+===================================================================
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From werner at cstb.fr  Mon Sep  2 07:49:55 2002
+From: werner at cstb.fr (Werner Keilholz)
+Date: Mon, 02 Sep 2002 16:49:55 +0200
+Subject: [Bldg-sim] 3D Modeling / Energy Analysis Compatibility
+References: <MDAEMON-F200209011347.AA470070pd80000247728@gard.com>
+Message-ID: <MDAEMON-F200209020934.AA344410pd80000187823@gard.com>
+
+Hi Warren,
+
+Our tool SimCad is able to read DXF-files. It also has a prototype
+connection
+to IFC files.
+
+The latest version of SimCAD (to be released before the end of the year)
+can be used to quickly develop the reference building simulations for a
+LEED certification process.  SimCAD generates a TRNSYS simulation deck,
+which can be run from SimCAD using the quick calculation option.  A
+special TRNSYS library of wall, roof and window elements has been
+developed to conform to the thermal performance requirements of ASHRAE
+90.1.
+
+For more information, see
+http://software.cstb.fr/soft/present.asp?langue=us&m=lpr&context=SimCad
+
+Werner
+
+"Warren A. Campbell" wrote:
+
+> Is anyone familiar with the progress the industry is making towards
+> integrating energy analysis software with some of the leading 3D CAD
+> programs (ArchiCAD, Revit)? Warren CampbellMillennium 3 Design
+> Group(704) 333-1965.Ext 22
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+--
+  /    \____ Werner Keilholz, Software Development Group Leader
+  \____/     CSTB Sophia Antipolis, SAIL
+  /    \____ s-mail: BP 209, 06904 SOPHIA ANTIPOLIS,  F R A N C E
+  \____/     phone: +33 (0)4 93 95 67 00 -- fax: +33 (0)4 93 95 67 33
+  /    \____ Mailto:werner at cstb.fr
+  \____/     http://evl.cstb.fr/english/team/WK/werner.htm
+
+For technical questions about our software, please
+mailto:software at cstb.fr
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020902/b62d4701/attachment.htm>
+
+From WCampbell at m3dg.com  Sun Sep  1 11:53:48 2002
+From: WCampbell at m3dg.com (Warren A. Campbell)
+Date: Sun, 1 Sep 2002 14:53:48 -0400
+Subject: [Bldg-sim] 3D Modeling / Energy Analysis Compatibility
+Message-ID: <MDAEMON-F200209011346.AA464251pd80000187669@gard.com>
+
+Is anyone familiar with the progress the industry is making towards integrating energy analysis software with some of the leading 3D CAD programs (ArchiCAD, Revit)?
+
+Warren Campbell
+Millennium 3 Design Group
+(704) 333-1965.Ext 22
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020901/3541e651/attachment.htm>
+

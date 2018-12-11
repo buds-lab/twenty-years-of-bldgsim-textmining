@@ -1,0 +1,504 @@
+From jglazer at gard.com  Thu May 30 07:13:33 2002
+From: jglazer at gard.com (Jason Glazer)
+Date: Thu, 30 May 2002 09:13:33 -0500
+Subject: [Bldg-sim] Simulation Used in Over 60%  High Performance Building Database
+Message-ID: <MDAEMON-F200205300905.AA052917pd80000155108@gard.com>
+
+DOE has put together a bunch of case studies in their High 
+Performance Buildings Database located at:  
+
+http://www.eren.doe.gov/buildings/highperformance/case_studi
+es/
+
+What I found most interesting is that 16 of the 26 items in 
+the database (as of today) mentioned energy simulation, 
+energy modeling or a specific energy simulation program.  
+The one mentioned most often was DOE-2.
+
+Jason=======================================================
+==
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From hyphen at dial.pipex.com  Tue May 28 16:26:07 2002
+From: hyphen at dial.pipex.com (Mark and/or Jan Bigland-Pritchard)
+Date: Wed, 29 May 2002 00:26:07 +0100
+Subject: [Bldg-sim] Quick URL to Tools Directory
+References: <MDAEMON-F200205210757.AA573576pd80000191140@gard.com>
+Message-ID: <MDAEMON-F200205281818.AA180821pd80000154486@gard.com>
+
+Thanks for that, Jason - I hadn't looked at that site for a while and
+there are quite a few new packages since then.
+
+I can't help feeling that we need an equally comprehensive site for
+weather data, detailing (amongst other things) the various formats
+used....
+
+Mark
+ 
+
+Jason Glazer wrote:
+> 
+> If you want to find a software tool concerning energy use
+> in buildings, the U.S. Department of Energy has been
+> keeping a list for many years.  Now we can get directly to
+> that directory without remembering a long URL, just go to
+> the following address and you get to the directory.
+> 
+> http://www.energytoolsdirectory.gov
+> 
+> An even shorter address to remember has a link to the
+> directory right on the front page is:
+> 
+> http://www.energytools.gov
+> 
+> Remember the .gov on the last one because the .com goes to
+> a different site.
+> 
+> This directory is the best list I know of although it does
+> not include everything.
+> 
+> Jason
+> =========================================================
+> Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+> GARD Analytics - http://www.gard.com/
+> 1028 Busse Highway, Park Ridge, IL 60068
+> Building Energy Simulation and Analysis
+> List Administrator for 90.1, GPC18 and BLDG-SIM
+> 
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From smodi at umich.edu  Tue May 28 12:40:49 2002
+From: smodi at umich.edu (Shefali Rajendra Modi)
+Date: Tue, 28 May 2002 15:40:49 -0400 (EDT)
+Subject: [Bldg-sim] Weather data conversion tools?
+In-Reply-To: <MDAEMON-F200205281103.AA031612pd80000194882@gard.com>
+Message-ID: <MDAEMON-F200205281432.AA325250md50000154370@gard.com>
+
+I am studying was unable to generate a report which included the specific
+heat load inside a space. I have not specified any mechanical system and
+am simply studying the heat load through different types of glass
+surfaces. How do I decide the different output paramters in EP
+terminology.
+
+Secondly the file failed to simulate when i used the detroit weather file
+but worked when I used the chicago weather file even though I have
+manually entered detroit weather data. Is there an explanation?
+
+thank you
+Shefali
+
+--------------------------------------------------------
+Shefali Modi
+M.Sc. Architecture, Environmental Technology
+Art and Architecture Building 2094
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Tue May 28 09:11:01 2002
+From: jglazer at gard.com (Jason Glazer)
+Date: Tue, 28 May 2002 11:11:01 -0500
+Subject: [Bldg-sim] Weather data conversion tools?
+In-Reply-To: <MDAEMON-F200205281053.AA530098pd80000154227@gard.com>
+Message-ID: <MDAEMON-F200205281103.AA030279pd80000154244@gard.com>
+
+Ian,
+
+The EnergyPlus format is not a binary but simply a text 
+file and it is comma delimitted so it should go into a 
+spreadsheet easily.  The fields in the file are described 
+in the OtherInformation.PDF file that can be downloaded 
+from the www.energyplus.gov site (click on the "weather and 
+other utilities" link on the left under "other 
+information").
+
+Jason
+
+On 28 May 2002 at 9:05, I.G. Theaker wrote:
+
+> Hey, Bldg-Sim folks,
+> 
+> I'm doing a TAS simulation on a building in Halifax, Nova
+> Scotia Canada; and EDSL, unfortunately, doesn't have a
+> weather data file for that location. Instead, they've
+> provided me with a utility where I can create my input file
+> from data in an Excel spreadsheet.
+> 
+> I *do* have a weather data file in EnergyPlus format
+> (apparently in or derived from a CWECs / WYEC2 format); but
+> I have no tool to open this binary and export it to Excel.
+> 
+> Does anyone have any advice or experience with Square 1's
+> WeatherTool, or any other software that opens EnergyPlus,
+> CWECS and/or WYEC2 file formats; and can export to Excel?
+> 
+> 
+> Warm regards,
+> Ian Theaker, P.Eng.
+> - - -- --- ----- -------- -------------
+> --------------------- -------------- --------------------
+> Integral Design / Engineering           Helping create
+> beautiful, Ste. 303 - 2050 Scotia Street          
+> comfortable, ecologically- Vancouver, BC V5T 4T1 Canada    
+> responsive buildings. - - -- --- ----- --------
+> ------------- --------------------- --------------
+> --------------------
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+> this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From igt at integral-design-engineering.ca  Tue May 28 09:05:26 2002
+From: igt at integral-design-engineering.ca (I.G. Theaker)
+Date: Tue, 28 May 2002 09:05:26 -0700
+Subject: [Bldg-sim] Weather data conversion tools?
+Message-ID: <MDAEMON-F200205281053.AA530098pd80000154227@gard.com>
+
+Hey, Bldg-Sim folks,
+
+I'm doing a TAS simulation on a building in Halifax, Nova Scotia Canada; and
+EDSL, unfortunately, doesn't have a weather data file for that location.
+Instead, they've provided me with a utility where I can create my input file
+from data in an Excel spreadsheet.
+
+I *do* have a weather data file in EnergyPlus format (apparently in or
+derived from a CWECs / WYEC2 format); but I have no tool to open this binary
+and export it to Excel.
+
+Does anyone have any advice or experience with Square 1's WeatherTool, or
+any other software that opens EnergyPlus, CWECS and/or WYEC2 file formats;
+and can export to Excel?
+
+
+Warm regards,
+Ian Theaker, P.Eng.
+- - -- --- ----- -------- ------------- --------------------- --------------
+--------------------
+Integral Design / Engineering           Helping create beautiful,
+Ste. 303 - 2050 Scotia Street           comfortable, ecologically-
+Vancouver, BC V5T 4T1 Canada     responsive buildings.
+- - -- --- ----- -------- ------------- --------------------- --------------
+--------------------
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From r-strand at uiuc.edu  Tue May 28 08:28:02 2002
+From: r-strand at uiuc.edu (Rick Strand)
+Date: Tue, 28 May 2002 10:28:02 -0500
+Subject: [Bldg-sim] Preliminary IBPSA-USA Honolulu Meeting Announcement
+Message-ID: <MDAEMON-F200205281022.AA222481md50000154195@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020528/dbc05d14/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 2b661d.jpg
+Type: image/jpeg
+Size: 28460 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020528/dbc05d14/attachment.jpg>
+
+From jzhang at selectenergysi.com  Fri May 24 13:21:08 2002
+From: jzhang at selectenergysi.com (Jinsong Zhang)
+Date: Fri, 24 May 2002 16:21:08 -0400
+Subject: [Bldg-sim] PVAV system in Power DOE
+Message-ID: <MDAEMON-F200205241511.AA114298pd80000153031@gard.com>
+
+Hi, anybody used PVAV system in Power DOE before? I got very funny result  when I changed the system from PSZ to PVAV. Any clue what 's the reason?
+
+
+
+
+****************************************************************
+Jinsong (Song) Zhang, Project Engineer
+Select Energy Services, Inc., (Formerly HEC) 
+24 Prime Parkway, Natick, MA 01760
+Tel: 508-653-0456 x 1284  Fax: 508-653-0266
+Toll Free: 800-325-4432 x 1284
+E-mail: jzhang at selectenergysi.com
+****************************************************************
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From astevens at dmiinc.com  Wed May 22 07:09:00 2002
+From: astevens at dmiinc.com (Alec Stevens)
+Date: Wed, 22 May 2002 10:09:00 -0400
+Subject: [Bldg-sim] powerdoe / HX
+Message-ID: <MDAEMON-F200205220856.AA565050pd80000152034@gard.com>
+
+Hi,
+I am trying to create a heat exchanger in PowerDoe as that seems to be the way to model a dry cooler, or a fluid cooler that operates dry during cold weather.  However, every time I create a HX, either using the library or my own specs, it crashes the model as soon as it gets into the simulation of the HVAC equipment.  It spits out an error something like J < 0 in line 94....... 
+Any suggestions on how to model a dry cooler?
+The other thing I tried was modeling it as a fluid cooler but changing the capacity curve to derate the overall capacity- this doesn't seem to produce the result I want.
+Thanks for any suggestions, this thing is driving me nuts!!
+
+Sincerely,
+
+Alec Stevens
+DMI
+450 Lexington St.
+Newton, MA 02466
+p: 617-527-1525x105      f: 617-527-6606
+e: astevens at dmiinc.com
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020522/6e740ac2/attachment.htm>
+
+From jglazer at gard.com  Wed May 22 06:20:04 2002
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 22 May 2002 08:20:04 -0500
+Subject: [Bldg-sim] CBECS 99 Available
+Message-ID: <MDAEMON-F200205220812.AA120953pd80000152015@gard.com>
+
+The 1999 Commercial Building Energy Consumption Survey 
+(CBECS) Commercial Building Characteristics were released 
+yesterday.  In case you aren't aware of this resource, it 
+is the largest most comprehensive national survey of 
+commercial buildings in the U.S. that I know of at over 
+5000 buildings. It provides good information if you are 
+trying to find out what the average size of a particular 
+type of building or the fraction of floorspace nationally 
+that uses chillers, etc.  DOE does the survey every three 
+or four years so it has history.  Even better, the detailed 
+building by building survey data is available if you want 
+to do your own number crunching.  I have used it to create 
+prototypical building descriptions in DOE-2 to perform a 
+national assessment of the energy impact of ASHRAE 90.1-
+1999.  
+
+http://www.eia.doe.gov/emeu/cbecs/char99/intro.html
+
+The characteristics tables are followed a several months 
+later by energy consumption statistics on the same set of 
+buildings.
+
+If anyone can think of other resources people use when 
+putting together building simulation inputs, go ahead and 
+share them with the group.
+
+Jason
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Tue May 21 06:05:32 2002
+From: jglazer at gard.com (Jason Glazer)
+Date: Tue, 21 May 2002 08:05:32 -0500
+Subject: [Bldg-sim] Quick URL to Tools Directory
+Message-ID: <MDAEMON-F200205210757.AA573782pd80000151566@gard.com>
+
+If you want to find a software tool concerning energy use 
+in buildings, the U.S. Department of Energy has been 
+keeping a list for many years.  Now we can get directly to 
+that directory without remembering a long URL, just go to 
+the following address and you get to the directory.
+
+http://www.energytoolsdirectory.gov
+
+An even shorter address to remember has a link to the 
+directory right on the front page is:
+
+http://www.energytools.gov
+
+Remember the .gov on the last one because the .com goes to 
+a different site.
+
+This directory is the best list I know of although it does 
+not include everything.  
+
+Jason
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From astevens at dmiinc.com  Thu May 16 14:25:00 2002
+From: astevens at dmiinc.com (Alec Stevens)
+Date: Thu, 16 May 2002 17:25:00 -0400
+Subject: [Bldg-sim] doe output reports
+Message-ID: <MDAEMON-F200205161612.AA125306pd80000150220@gard.com>
+
+Hi,
+I'm trying to debug the operation of a fluid cooler in PowerDoe by creating an hourly report.
+So I create a report block for "Heat Rejection" and select my fluid cooler.
+I'm looking for the actual capacity of the fluid cooler at the prevailing hourly conditions.
+So my first guess was "Maximim thermal load on tower given current conditions"
+But when I plotted the results vs. OA wetbulb temperature, the graph doesn't make sense.
+Any suggestions as to what the correct hourly result series is?
+
+Thanks
+
+Sincerely,
+
+Alec Stevens
+DMI
+450 Lexington St.
+Newton, MA 02466
+p: 617-527-1525x105      f: 617-527-6606
+e: astevens at dmiinc.com
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020516/4b7fff85/attachment.htm>
+
+From Bart.callens3 at pandora.be  Fri May 10 09:59:00 2002
+From: Bart.callens3 at pandora.be (Bart Callens)
+Date: Fri, 10 May 2002 18:59:00 +0200
+Subject: [Bldg-sim] DOE2.1E problem
+Message-ID: <MDAEMON-F200205101148.AA483396pd80000148064@gard.com>
+
+hi,
+
+I'm using DOE2.1E for making a comparison of a dynamic simulation and a static calculation by the VDI-2078. I have a question concerning the DOE2.1E-program.
+
+Has anyone already remarked the difference between the values of an hourly simulation and a total value (for the entire building) for the conduction through window and frame? Has anyone an explanation for that phenomena. In the manual, they say that there is no algorithm for an hourly simulation of the conduction through window and frame. Is that the reason, or is there another one?
+
+Yours sincerely,
+
+Bart Callens
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020510/2cf395be/attachment.htm>
+
+From Mika.Vuolle at sisailmatieto.com  Tue May  7 03:15:53 2002
+From: Mika.Vuolle at sisailmatieto.com (Mika Vuolle)
+Date: Tue, 07 May 2002 13:15:53 +0300
+Subject: [Bldg-sim] NMF-course in Helsinki
+Message-ID: <MDAEMON-F200205070520.AA200095pd80000146772@gard.com>
+
+
+Dear Colleagues,
+
+FiSIAQ and EQUA will arrange a two-day course on NMF modelling for IDA
+Indoor Climate and Energy 3.0 in Helsinki, Finland on June 3 and 4. See
+agenda on:
+
+www.sisailmatieto.com/NMF-course.pdf
+
+The course is intended both as an introduction to IDA/NMF/ICE
+(www.equa.se/ice) for experienced building simulationists in general and
+for IDA ICE users wanting to write their own component models.
+
+Please contact Mika Vuolle (Mika.Vuolle at sisailmatieto.com) or Per Sahlin
+(per.sahlin at equa.se) for more information and practical arrangements.
+
+Best regards,
+
+Mika Vuolle
+
+
+-- 
+   Mika Vuolle Tech. Lic. FISIAQ - SIY Sis?ilmatieto OY
+   e-mail: Mika.Vuolle at sisailmatieto.com	http://www.sisailmayhdistys.fi
+   tel: int+358-9-4355 5614	mob: int+358-40-7690 010
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

@@ -1,0 +1,141 @@
+From bob at rer.com  Thu Sep 16 16:36:41 1999
+From: bob at rer.com (Bob Ramirez)
+Date: Thu, 16 Sep 1999 16:36:41 -0700
+Subject: [BLDG-SIM] Looking for a good MICROPAS compatible, residential on-site surve
+	y form
+Message-ID: <MDAEMON-F199909161848.AA481809MD76140@gard.com>
+
+Hello all,
+
+We have an existing residential on-site survey form in-house, but I thought
+I'd just check to what else else is available out there.  I'd be especially
+interested in anything that takes into account the latest Title 24 revisions
+and corresponding changes to MICROPAS.
+
+Thanks in advance for any information provided.
+
+
+Bob Ram?rez (bobram at rer.com or bob at rer.com)
+Senior Engineer
+
+Regional Economic Research, Inc.             http://www.rer.com
+11236 El Camino Real, San Diego, CA 92130
+Phone: 619.481.0081 ext. 427
+FAX: 619.481.7550
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From KHaddad at NRCan.gc.ca  Thu Sep  9 11:12:39 1999
+From: KHaddad at NRCan.gc.ca (Haddad, Kamel)
+Date: Thu, 9 Sep 1999 14:12:39 -0400
+Subject: [BLDG-SIM] Solar radiation on exterior surfaces in DOE-2
+Message-ID: <MDAEMON-F199909091306.AA060145MD74176@gard.com>
+
+Hello:
+
+I am trying to find a way to get an hourly listing of the total solar
+radiation reaching the outside surface of exterior walls and windows that is
+then used in the energy balance of the space in DOE-2.1E. Is there somebody
+on the list that can help? Thanks
+
+Kamel Haddad
+CANMET Energy Technology Centre
+Ottawa, Ontario Canada
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From fcw at pegasus.lbl.gov  Thu Sep  9 12:30:16 1999
+From: fcw at pegasus.lbl.gov (Fred Winkelmann)
+Date: Thu, 9 Sep 99 12:30:16 PDT
+Subject: [BLDG-SIM] Incident solar in DOE-2.1E
+Message-ID: <MDAEMON-F199909091423.AA233373MD74222@gard.com>
+
+Kamel,
+
+DOE-2.1E Loads hourly report variable #1 for EXTERIOR-WALL
+gives the total solar radiation on the wall (direct plus
+diffuse) after shading. For WINDOW, variable #11 gives
+direct solar on the window and #12 gives diffuse on the
+window.
+
+Fred Winkelmann
+
+
+----- Begin Included Message -----
+
+
+From KHaddad at NRCan.gc.ca  Thu Sep  9 11:12:39 1999
+From: KHaddad at NRCan.gc.ca (Haddad, Kamel)
+Date: Thu, 9 Sep 1999 14:12:39 -0400 
+Subject: [BLDG-SIM] Solar radiation on exterior surfaces in DOE-2
+Message-ID: <MDAEMON-F199909091305.AA055925MD62410@gard.com>
+
+Hello:
+
+I am trying to find a way to get an hourly listing of the total solar
+radiation reaching the outside surface of exterior walls and windows that is
+then used in the energy balance of the space in DOE-2.1E. Is there somebody
+on the list that can help? Thanks
+
+Kamel Haddad
+CANMET Energy Technology Centre
+Ottawa, Ontario Canada
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+----- End Included Message -----
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From A.H.Monawar at newcastle.ac.uk  Mon Sep  6 13:37:50 1999
+From: A.H.Monawar at newcastle.ac.uk (MONAWAR)
+Date: Mon, 6 Sep 1999 13:37:50 GMT0BST
+Subject: [BLDG-SIM] Help
+Message-ID: <MDAEMON-F199909060748.AA483028MD73056@gard.com>
+
+Hello there
+
+Any body know a DOE technique or which  DOE reports  can  assess the 
+dynamic effect of heat transmission through opaque walls with 
+different insulation configuration, e.g. outside, centre and inside.  
+
+Thank you in advance  for your kind assistant.
+
+A.H. Monawar
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

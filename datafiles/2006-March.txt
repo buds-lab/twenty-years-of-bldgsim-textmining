@@ -1,0 +1,3796 @@
+From janemiller200 at yahoo.com  Thu Mar 30 08:08:48 2006
+From: janemiller200 at yahoo.com (Jane Miller)
+Date: Thu, 30 Mar 2006 08:08:48 -0800 (PST)
+Subject: [BLDG-SIM] hourly reports
+Message-ID: <MDAEMON-F200603301014.AA1433984pd80001036320@gard.com>
+
+Hi, 
+       
+      I am trying to to get hourly heating load reports, similar to the  LS reports found in doe2.1e.  I have tried the hourly user defined  reports, however these only report sensible heating loads, and i am  interested in the total heating load. Any suggestions would be  appreciated.
+  
+       
+      thanks in advance
+      jm
+  
+		
+---------------------------------
+Talk is cheap. Use Yahoo! Messenger to make PC-to-Phone calls.  Great rates starting at 1&cent;/min.
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060330/c41f96e5/attachment.htm>
+
+From bkoran at qwest.net  Wed Mar 29 11:41:39 2006
+From: bkoran at qwest.net (Bill)
+Date: Wed, 29 Mar 2006 11:41:39 -0800
+Subject: [BLDG-SIM] Weather Normalization?
+Message-ID: <MDAEMON-F200603291347.AA4734671pd80001035491@gard.com>
+
+What commercial packages have IMT embedded in them?
+
+--Bill Koran, P.E.
+
+-----Original Message-----
+From: BLDG-SIM at GARD.COM [mailto:BLDG-SIM at GARD.COM] On Behalf Of Jeff Haberl
+Sent: Wednesday, March 29, 2006 6:06 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Weather Normalization?
+
+Several things
+
+First, ASHRAE Inverse Model Toolkit was created to do just that. There are
+two ASHRAE Tech papers that describe it and its use (1050RP). Copies of the
+IMT can be obtained from ASHRAE by contacting Mike Vaughn. 
+
+Second, there are a wealth of reports and papers on-line at the ESL's
+website that describe the modeling used in the Texas LoanSTAR program.
+Third, there are several commercial packages that have IMT embedded in them.
+
+
+Jeff
+BB 8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  :=')  8=)  8=)  8=? BB
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office Ph:
+979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+BB 8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=) 8=?  8=)  8=)  8= BB
+ 
+
+-----Original Message-----
+From: BLDG-SIM at gard.com
+To: BLDG-SIM at gard.com
+Sent: Mon Mar 20 11:15:35 2006
+Subject: [BLDG-SIM] Weather Normalization?
+
+I'm trying to find a way to normalize a collection of energy consumptions of
+similar buildings in different climates to help compare energy performances.
+Has anyone done this before? And if so, can this be accomplished in excel,
+or some other software application? Thank you in advance for any help.
+
+Mike 
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060329/a49e1fad/attachment.htm>
+
+From jeffhaberl at tees.tamus.edu  Wed Mar 29 06:06:09 2006
+From: jeffhaberl at tees.tamus.edu (Jeff Haberl)
+Date: Wed, 29 Mar 2006 08:06:09 -0600
+Subject: [BLDG-SIM] Weather Normalization?
+Message-ID: <MDAEMON-F200603290811.AA1158953pd80001035127@gard.com>
+
+Several things
+
+First, ASHRAE Inverse Model Toolkit was created to do just that. There are two ASHRAE Tech papers that describe it and its use (1050RP). Copies of the IMT can be obtained from ASHRAE by contacting Mike Vaughn. 
+
+Second, there are a wealth of reports and papers on-line at the ESL's website that describe the modeling used in the Texas LoanSTAR program. Third, there are several commercial packages that have IMT embedded in them. 
+
+Jeff
+BB 8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  :=')  8=)  8=)  8=? BB
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+BB 8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=) 8=?  8=)  8=)  8= BB
+ 
+
+-----Original Message-----
+From: BLDG-SIM at gard.com
+To: BLDG-SIM at gard.com
+Sent: Mon Mar 20 11:15:35 2006
+Subject: [BLDG-SIM] Weather Normalization?
+
+I'm trying to find a way to normalize a collection of energy consumptions of similar buildings in different climates to help compare energy performances. Has anyone done this before? And if so, can this be accomplished in excel, or some other software application? Thank you in advance for any help.
+
+Mike 
+
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From harry.boyer at univ-reunion.fr  Tue Mar 28 05:53:47 2006
+From: harry.boyer at univ-reunion.fr (Harry BOYER)
+Date: Tue, 28 Mar 2006 15:53:47 +0200
+Subject: [BLDG-SIM] Extended deadline for "Energy and Systems Simulation in Buildings
+ for Hot Climates", IASTED MSO, Botswana
+Message-ID: <MDAEMON-F200603280457.AA5750953pd80001033891@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060328/92ba85d1/attachment.htm>
+
+From jianguang_yi at ecadi.com  Sun Mar 26 19:42:21 2006
+From: jianguang_yi at ecadi.com (=?gb2312?B?RkXXqM/uvLzK9dbQ0MQt0sK9obni?=)
+Date: Mon, 27 Mar 2006 11:42:21 +0800
+Subject: [BLDG-SIM] Daylighting ERROR
+Message-ID: <MDAEMON-F200603262145.AA455315pd80001032638@gard.com>
+
+Dear all
+        When I set daylighting in eQUEST, building simulation will exit the calculation after load calculation.And the following appears in reports.
+
+ ***ERROR***********************************************************************
+            Unknown format #   41 used in report #  3
+(Iuniq= 1301Kommnd= 4Iformt=   41Nval=    1)
+
+ 
+Can someone give me some suggestions?
+Thank u first.
+ 
+ 
+ 
+ 
+                                                    Robbie
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060327/d62567ee/attachment.htm>
+
+From Jeff.Hirsch at DOE2.com  Fri Mar 24 08:21:42 2006
+From: Jeff.Hirsch at DOE2.com (Jeff Hirsch)
+Date: Fri, 24 Mar 2006 08:21:42 -0800
+Subject: [BLDG-SIM] help: eQuest result review
+References: <MDAEMON-F200603231827.AA2728390pd80001573695@gard.com>
+Message-ID: <MDAEMON-F200603241027.AA2729656pd80001030467@gard.com>
+
+Here are easy ways to get hourly or non-hourly data from the .sim file
+into an excel spreadsheet quickly without any "programming"
+
+If you want to put eQUEST simulation hourly results into excel
+(not non-hourly results output, but output of report-blocks
+and hourly-report commands) then (from the detailed data edit
+mode) go to the "Project & Site" module Component Tree,
+in the Simulation Output folder and Non-Hourly Reports
+subfolder, right click on the Loads Report or Systems Reports
+item and open its properties sheet and sheet tab (the one(s)
+for which you have created report-blocks and hourly-reports)
+and change the "Hourly Data Save Format" to "Formatted"
+
+This will cause a fixed field width formatted text file with 
+no headers or pagination to be created in the project subdirectory
+with a name for the project run with "_HourlyDataN_M" appended
+to the end and an extension of ".DAT"  Example:
+    Project 1 - Baseline Design_HourlyData2_01.DAT
+The N is either 1 (loads reports) or 2 (HVAC - systems - reports)
+and the M is the parametric run number.  You can then use the
+excel import wizard (selecting open for "all files") to directly
+import this text file as row/column data.
+
+If you want to put eQUEST simulation non-hourly results into excel
+you can open the .sim file in the D2SimViewer (you can do this from
+outside eQUEST by simply starting the D2SimViewer and open the
+output file of interest)  You can then navigate to a report you want to
+move into excel, highlight the lines of the report you want to copy,
+select edit/copy (or ctrl-c) then select the cell in an excel spreadsheet
+where you want the data and do a edit/paste-special and passte as
+text, then (after the text is first pasted into excel and the format selection
+icon appears at the bottom of the pasted text) select the option to
+"use text import wizard" and allow the wizard to match rows/columns in
+the text to be corresponding rows/columns in the spreadsheet.
+---
+Jeff Hirsch
+James J. Hirsch & Associates
+Building Performance Analysis Software & Consulting
+12185 Presilla Road
+Camarillo, CA 93012-9243 USA
+phone: (805) 553-9000
+fax: (805) 532-2401
+email: Jeff.Hirsch at DOE2.com
+web: http://DOE2.com
+
+
+----- Original Message ----- 
+From: "Danni Wang" <liuwang94710 at yahoo.com>
+To: <BLDG-SIM at GARD.COM>
+Sent: Thursday, March 23, 2006 4:21 PM
+Subject: [BLDG-SIM] help: eQuest result review
+
+
+> Group,
+> 
+> I like to do further analysis with the hourly weather
+> and energy usage results. So I try to export some
+> pages in the DOE2 Simulation Result into Excel. The
+> DOE2 Simulation Result file is too big to open as an
+> Excel file and some results in the end are lost. Do
+> you have ways to get by this problem?
+> 
+> Thanks,
+> 
+> --Danni Wang 
+> 
+> __________________________________________________
+> Do You Yahoo!?
+> Tired of spam?  Yahoo! Mail has the best spam protection around 
+> http://mail.yahoo.com 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cj at cr-jay.ca  Fri Mar 24 07:54:34 2006
+From: cj at cr-jay.ca (Chris Jones)
+Date: Fri, 24 Mar 2006 10:54:34 -0500
+Subject: [BLDG-SIM] eSim 2006 Pre-Conference Workshops
+In-Reply-To: <MDAEMON-F200603240626.AA2610484pd80001575008@gard.com>
+References: <MDAEMON-F200603231827.AA2733562pd80001573936@gard.com>
+ <MDAEMON-F200603240626.AA2610484pd80001575008@gard.com>
+Message-ID: <MDAEMON-F200603240957.AA5734359pd80001030388@gard.com>
+
+The esim 2006 has two important pre-conference workshops.  One on equest 
+and one on Retscreen Combined heat and power systems:
+
+http://www.esim.ca/2006/pre-conference_workshops.asp
+
+
+
+
+Chris Jones, P.Eng.
+14 Oneida Avenue
+Toronto, ON M5J2E3
+Tel. 416 203-7465
+Fax. 416 946-1005 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cj at cr-jay.ca  Fri Mar 24 04:20:27 2006
+From: cj at cr-jay.ca (Chris Jones)
+Date: Fri, 24 Mar 2006 07:20:27 -0500
+Subject: [BLDG-SIM] help: eQuest result review
+In-Reply-To: <MDAEMON-F200603231827.AA2733562pd80001573936@gard.com>
+References: <MDAEMON-F200603231827.AA2733562pd80001573936@gard.com>
+Message-ID: <MDAEMON-F200603240626.AA2611890pd80001030136@gard.com>
+
+In order to efficiently retreive and analyse the results in the SIM file 
+you need to develop some text extracting tools - I use C++ and Perl.
+If you want to understand the layout of the SIM file better, get a powerful 
+text editor that can read the entire SIM file quickly.  I use UltraEdit 
+http://www.ultraedit.com.
+For the weather file information you can quickly generate the hourly 
+weather data using the weather tools that come with Equest.
+
+At 19:21 23/03/2006, Danni Wang wrote:
+>Group,
+>
+>I like to do further analysis with the hourly weather
+>and energy usage results. So I try to export some
+>pages in the DOE2 Simulation Result into Excel. The
+>DOE2 Simulation Result file is too big to open as an
+>Excel file and some results in the end are lost. Do
+>you have ways to get by this problem?
+>
+>Thanks,
+>
+>--Danni Wang
+>
+>__________________________________________________
+>Do You Yahoo!?
+>Tired of spam?  Yahoo! Mail has the best spam protection around
+>http://mail.yahoo.com
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+Chris Jones
+14 Oneida Avenue
+Toronto, ON M52E3
+Tel 416-203-7465
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From liuwang94710 at yahoo.com  Thu Mar 23 16:21:52 2006
+From: liuwang94710 at yahoo.com (Danni Wang)
+Date: Thu, 23 Mar 2006 16:21:52 -0800 (PST)
+Subject: [BLDG-SIM] help: eQuest result review
+Message-ID: <MDAEMON-F200603231827.AA274178pd80001029660@gard.com>
+
+Group,
+
+I like to do further analysis with the hourly weather
+and energy usage results. So I try to export some
+pages in the DOE2 Simulation Result into Excel. The
+DOE2 Simulation Result file is too big to open as an
+Excel file and some results in the end are lost. Do
+you have ways to get by this problem?
+
+Thanks,
+
+--Danni Wang 
+
+__________________________________________________
+Do You Yahoo!?
+Tired of spam?  Yahoo! Mail has the best spam protection around 
+http://mail.yahoo.com 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From drobison at teleport.com  Thu Mar 23 08:13:13 2006
+From: drobison at teleport.com (Dave Robison)
+Date: Thu, 23 Mar 2006 08:13:13 -0800
+Subject: [BLDG-SIM] Weather Normalization?
+Message-ID: <MDAEMON-F200603231000.AA0043390pd80001029142@gard.com>
+
+EZSim is a low cost spreadsheet simulation model that produces a 
+performance graph independent of climate. 
+<http://www.ezsim.com>www.ezsim.<http://www.ezsim.com>com
+Degree days are not appropriate since balance temperature is rarely 65 deg.
+EUI doesn't tell you much about specific enduses witin the facility.
+Energy Star provides an EUI ranking that is questionable for some 
+building types.
+
+
+====================
+David Robison
+Stellar Processes
+1033 SW Yamhill Suite 405
+Portland, OR 97205
+(503) 827-8336
+www.ezsim.com  
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060323/9a36b354/attachment.htm>
+
+From jeffhaberl at tees.tamus.edu  Wed Mar 22 13:15:15 2006
+From: jeffhaberl at tees.tamus.edu (Jeff Haberl)
+Date: Wed, 22 Mar 2006 15:15:15 -0600
+Subject: [BLDG-SIM] Weather Normalization?
+Message-ID: <MDAEMON-F200603221521.AA2126750pd80001028346@gard.com>
+
+Good question! This is a difficult problem at the whole-building level.
+
+ 
+
+Dr. Kris Subbarao at NREL did some parameter estimation work on this in the 1980s (i.e., BEVA, PSTAR), as did Dr. Robert Sonderegger in the early 1980s at Princeton. 
+
+ 
+
+There may also be some useful work by Spitler et al. at Oklahoma State University on measurement of convection coefficients in calibrated chambers.
+
+ 
+
+There was also a useful paper by Agami Reddy in 1988 in the Thermal Envelopes conference that compared different parameter estimation methods. Finally, I believe that Larry Palmiter (Ecotope) has also done some work in this area.
+
+ 
+
+Jeff
+
+ 
+
+8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  8=()  8=)  8=|  8=)  :=')  8=)  8=)  8=?
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=)  :=)  8=)  8=!  8=)  8=?  8=)  8=)  8=0 
+
+________________________________
+
+From: Martin Ordenes Mizgier [mailto:martin at labeee.ufsc.br] 
+Sent: Wednesday, March 22, 2006 11:39 AM
+To: Jeff Haberl
+Subject: Re: [BLDG-SIM] Weather Normalization?
+
+ 
+
+Dear M. Haberl:
+
+ 
+
+RP-827 is about in-situ measurement for blowers, pumps and chillers. Is there any RP or report for in-situ parameter estimation (like U-value or thermal inertia) to analyze building envelope thermal performance?
+
+ 
+
+Thank you in advance.
+
+ 
+
+Martin Ordenes Mizgier.
+Laborat?rio de Efici?ncia Energ?tica em Edifica??es (www.labeee.ufsc.br)
+Universidade Federal de Santa Catarina.
+Florian?polis - Brasil.
+
+ 
+
+ 
+
+	----- Original Message ----- 
+
+	From: Jeff Haberl <mailto:jeffhaberl at tees.tamus.edu>  
+
+	To: BLDG-SIM at GARD.COM 
+
+	Sent: Wednesday, March 22, 2006 10:49 AM
+
+	Subject: [BLDG-SIM] Weather Normalization?
+
+	 
+
+	Mike:
+	 
+	I'd be careful with using simple HDD/CDD analysis as this can lead to errors that are larger than what you're trying to measure. Energy use in commercial buildings is usually not well described by HDD/CDD, especially if one is looking at comparing different building types. EPA's Portfolio Manager provides an general index for comparison. However, if you are trying to discover why a building is more/less consumptive that another, you'll need a stronger tool.
+	 
+	ASHRAE has outlined many of these procedures in Guideline 14-2002. Also, ASHRAE has developed the Inverse Model Toolkit (IMT), that will perform linear, change-point linear, variable-based degree day and combined multiple linear regression. The IMT can be had for $30 from ASHRAE, and includes the FORTRAN source code to encourage folks to embed this into their own tools. Several ASHRAE Transactions paper are available on this as well. 
+	 
+	Demand modeling is not as simple. However, ASHRAE has provided some help in this area as well with their RP-1093 Diversity Factor Toolkit. Additional toolkits from ASHRAE include RP-1004 for thermal storage, RP-827 for in-situ measurements, RP-1092 for AHU performance measurement, and RP-1051 for calibrated simulations. All have ASHRAE Transactions papers describing the projects, and reports available from ASHRAE. ASHRAE has also recently released a Scoping Study, available on their website, that outlines a new effort to develop procedures for measuring the performance of a building, including energy, IEQ and water.
+	 
+	The IPMVP also provides good advice on this matter, which are based in part on Guideline 14-2002. You can download their reports from their website www.bmvp.org. <http://www.bmvp.org> 
+	 
+	I think you'll find these very valuable.
+	 
+	Jeff
+	 
+	8=! 8=) :=) 8=) ;=) 8=) 8=( 8=) :=') 8=) 8=) 8=?
+	Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+	Professor......................................................Office Ph: 979-845-6507
+	Department of Architecture.......................Lab Ph: 979-845-6065 
+	Energy Systems Laboratory.......................FAX: 979-862-2457 
+	Texas A&M University..............................77843-3581
+	College Station, Texas, USA.......................URL: www-esl.tamu.edu
+	8=/ 8=) :=) 8=) ;=) 8=) 8=() 8=) 8=? 8=) 8=) 8=) 
+	
+	________________________________
+	
+	From: BLDG-SIM at gard.com on behalf of Misuriello, Harry
+	Sent: Mon 3/20/2006 12:59 PM
+	To: BLDG-SIM at gard.com
+	Subject: [BLDG-SIM] Weather Normalization?
+	
+	
+	
+	You might also look into some of the EPA Energy Star tools.
+	
+	See: http://www.energystar.gov/index.cfm?c=tools_resources.bus_energy_management_tools_resources
+	
+	 
+	
+	Also see the EPA portfolio manager at: http://www.energystar.gov/index.cfm?c=evaluate_performance.bus_portfoliomanager
+	
+	 
+	
+	You can use Portfolio Manager on existing buildings.  Enter the energy bills and some other data and your buildings will be compared to a national database of similar buildings in similar climates and you will receive a "score."  Your score is what percentile an individual building is in when compared to its peers.  A score of 75 or higher can get you an Energy Star building rating.
+	
+	 
+	
+	For new buildings or building designs, look at Target Finder at: http://www.energystar.gov/index.cfm?c=new_bldg_design.bus_target_finder
+	
+	 
+	
+	It's a similar service that can "normalize" building energy performance through a scoring method.
+	
+	 
+	
+	Harry
+	
+	-----------------------
+	
+	Harry Misuriello
+	
+	Director of Buildings and Utility Programs
+	
+	Alliance to Save Energy
+	
+	1200 18th Street, NW, Suite 900
+	
+	Washington, DC 20036
+	
+	Tel: 202 530 2214
+	
+	Fax: 202 331 9588
+	
+	 
+	
+	________________________________
+	
+	From: BLDG-SIM at GARD.COM [mailto:BLDG-SIM at GARD.COM] On Behalf Of Mike Tillou
+	Sent: Monday, March 20, 2006 1:36 PM
+	To: BLDG-SIM at GARD.COM
+	Subject: [BLDG-SIM] Weather Normalization?
+	
+	 
+	
+	The simplist way to compare a collection of energy consumption from different climates is to normalize using Heating or Cooling Degree Days.  This can be done in excel and you can get HDD/CDD data from any number of sources online.
+	
+	 
+	
+	Mike
+	
+	 
+	
+	 
+	
+	Michael Tillou, PE
+	etc Group, Inc.
+	PO Box 7, Williamstown, MA 01267
+	ph. (413) 458-9870 fx. (413) 458-9875
+	
+	-----Original Message-----
+	From: BLDG-SIM at gard.com [mailto:BLDG-SIM at gard.com] On Behalf Of Dillon, Mike
+	Sent: Monday, March 20, 2006 12:16 PM
+	To: BLDG-SIM at gard.com
+	Subject: [BLDG-SIM] Weather Normalization?
+	
+	I'm trying to find a way to normalize a collection of energy consumptions of similar buildings in different climates to help compare energy performances. Has anyone done this before? And if so, can this be accomplished in excel, or some other software application? Thank you in advance for any help.
+	
+	Mike 
+	
+	
+	==================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+	
+	 
+	 
+	==================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+	==================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+	
+	==================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+	
+	
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060322/e9624c25/attachment.htm>
+
+From jeffhaberl at tees.tamus.edu  Wed Mar 22 06:49:01 2006
+From: jeffhaberl at tees.tamus.edu (Jeff Haberl)
+Date: Wed, 22 Mar 2006 08:49:01 -0600
+Subject: [BLDG-SIM] Weather Normalization?
+References: <MDAEMON-F200603201305.AA0524843pd80001566756@gard.com>
+Message-ID: <MDAEMON-F200603220854.AA5454546pd80001027883@gard.com>
+
+Mike:
+ 
+I'd be careful with using simple HDD/CDD analysis as this can lead to errors that are larger than what you're trying to measure. Energy use in commercial buildings is usually not well described by HDD/CDD, especially if one is looking at comparing different building types. EPA's Portfolio Manager provides an general index for comparison. However, if you are trying to discover why a building is more/less consumptive that another, you'll need a stronger tool.
+ 
+ASHRAE has outlined many of these procedures in Guideline 14-2002. Also, ASHRAE has developed the Inverse Model Toolkit (IMT), that will perform linear, change-point linear, variable-based degree day and combined multiple linear regression. The IMT can be had for $30 from ASHRAE, and includes the FORTRAN source code to encourage folks to embed this into their own tools. Several ASHRAE Transactions paper are available on this as well. 
+ 
+Demand modeling is not as simple. However, ASHRAE has provided some help in this area as well with their RP-1093 Diversity Factor Toolkit. Additional toolkits from ASHRAE include RP-1004 for thermal storage, RP-827 for in-situ measurements, RP-1092 for AHU performance measurement, and RP-1051 for calibrated simulations. All have ASHRAE Transactions papers describing the projects, and reports available from ASHRAE. ASHRAE has also recently released a Scoping Study, available on their website, that outlines a new effort to develop procedures for measuring the performance of a building, including energy, IEQ and water.
+ 
+The IPMVP also provides good advice on this matter, which are based in part on Guideline 14-2002. You can download their reports from their website www.bmvp.org. <http://www.bmvp.org> 
+ 
+I think you'll find these very valuable.
+ 
+Jeff
+ 
+8=! 8=) :=) 8=) ;=) 8=) 8=( 8=) :=') 8=) 8=) 8=?
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+Professor......................................................Office Ph: 979-845-6507
+Department of Architecture.......................Lab Ph: 979-845-6065 
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+Texas A&M University..............................77843-3581
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+8=/ 8=) :=) 8=) ;=) 8=) 8=() 8=) 8=? 8=) 8=) 8=) 
+
+________________________________
+
+From: BLDG-SIM at gard.com on behalf of Misuriello, Harry
+Sent: Mon 3/20/2006 12:59 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Weather Normalization?
+
+
+
+You might also look into some of the EPA Energy Star tools.
+
+See: http://www.energystar.gov/index.cfm?c=tools_resources.bus_energy_management_tools_resources
+
+ 
+
+Also see the EPA portfolio manager at: http://www.energystar.gov/index.cfm?c=evaluate_performance.bus_portfoliomanager
+
+ 
+
+You can use Portfolio Manager on existing buildings.  Enter the energy bills and some other data and your buildings will be compared to a national database of similar buildings in similar climates and you will receive a "score."  Your score is what percentile an individual building is in when compared to its peers.  A score of 75 or higher can get you an Energy Star building rating.
+
+ 
+
+For new buildings or building designs, look at Target Finder at: http://www.energystar.gov/index.cfm?c=new_bldg_design.bus_target_finder
+
+ 
+
+It's a similar service that can "normalize" building energy performance through a scoring method.
+
+ 
+
+Harry
+
+-----------------------
+
+Harry Misuriello
+
+Director of Buildings and Utility Programs
+
+Alliance to Save Energy
+
+1200 18th Street, NW, Suite 900
+
+Washington, DC 20036
+
+Tel: 202 530 2214
+
+Fax: 202 331 9588
+
+ 
+
+________________________________
+
+From: BLDG-SIM at GARD.COM [mailto:BLDG-SIM at GARD.COM] On Behalf Of Mike Tillou
+Sent: Monday, March 20, 2006 1:36 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Weather Normalization?
+
+ 
+
+The simplist way to compare a collection of energy consumption from different climates is to normalize using Heating or Cooling Degree Days.  This can be done in excel and you can get HDD/CDD data from any number of sources online.
+
+ 
+
+Mike
+
+ 
+
+ 
+
+Michael Tillou, PE
+etc Group, Inc.
+PO Box 7, Williamstown, MA 01267
+ph. (413) 458-9870 fx. (413) 458-9875
+
+	-----Original Message-----
+	From: BLDG-SIM at gard.com [mailto:BLDG-SIM at gard.com] On Behalf Of Dillon, Mike
+	Sent: Monday, March 20, 2006 12:16 PM
+	To: BLDG-SIM at gard.com
+	Subject: [BLDG-SIM] Weather Normalization?
+
+	I'm trying to find a way to normalize a collection of energy consumptions of similar buildings in different climates to help compare energy performances. Has anyone done this before? And if so, can this be accomplished in excel, or some other software application? Thank you in advance for any help.
+
+	Mike 
+
+	 
+	==================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+ 
+ 
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From geraldpde at yahoo.com  Tue Mar 21 06:55:52 2006
+From: geraldpde at yahoo.com (Gerald Pde)
+Date: Tue, 21 Mar 2006 06:55:52 -0800 (PST)
+Subject: [BLDG-SIM] Weather Normalization?
+In-Reply-To: <MDAEMON-F200603201230.AA301162pd80001565664@gard.com>
+Message-ID: <MDAEMON-F200603210901.AA0130343pd80001026765@gard.com>
+
+The other way to do it is to use bin data (with
+somthing like binmaker pro) for the various climates
+in questions and analyze heating, cooling and
+dehumidification over a targeted temperature and
+enthalpy setpoint, seperately. This will take into
+account for the effects of dehumidification as well as
+suppose to only temperature using HDD and CDD.
+
+
+
+--- Mike Tillou <miket at etcgrp.com> wrote:
+
+> The simplist way to compare a collection of energy
+> consumption from
+> different climates is to normalize using Heating or
+> Cooling Degree Days.
+> This can be done in excel and you can get HDD/CDD
+> data from any number
+> of sources online.
+>  
+> Mike
+>  
+>  
+> Michael Tillou, PE
+> etc Group, Inc.
+> PO Box 7, Williamstown, MA 01267
+> ph. (413) 458-9870 fx. (413) 458-9875
+> 
+> 
+> 	-----Original Message-----
+> 	From: BLDG-SIM at gard.com [mailto:BLDG-SIM at gard.com]
+> On Behalf Of
+> Dillon, Mike
+> 	Sent: Monday, March 20, 2006 12:16 PM
+> 	To: BLDG-SIM at gard.com
+> 	Subject: [BLDG-SIM] Weather Normalization?
+> 	
+> 	
+> 
+> 	I'm trying to find a way to normalize a collection
+> of energy
+> consumptions of similar buildings in different
+> climates to help compare
+> energy performances. Has anyone done this before?
+> And if so, can this be
+> accomplished in excel, or some other software
+> application? Thank you in
+> advance for any help.
+> 
+> 	Mike 
+> 
+> 	
+> 	==================
+> 	You received this e-mail because you are subscribed
+> 
+> 	to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> 	from this mailing list send a blank message to 
+> 	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+> 
+>
+=====================================================You
+> received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+__________________________________________________
+Do You Yahoo!?
+Tired of spam?  Yahoo! Mail has the best spam protection around 
+http://mail.yahoo.com 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ldegelman at cox.net  Mon Mar 20 11:40:43 2006
+From: ldegelman at cox.net (Larry Degelman)
+Date: Mon, 20 Mar 2006 13:40:43 -0600
+Subject: [BLDG-SIM] Weather Normalization?
+In-Reply-To: <MDAEMON-F200603201122.AA2244875pd80001562859@gard.com>
+Message-ID: <MDAEMON-F200603201346.AA4634312pd80001025949@gard.com>
+
+Mike,
+
+ 
+
+My response does not suggest a software package, but I will suggest that the
+most meaningful climatic classifications would be to follow the climate
+zones in ASHRAE Standard 90.1.  There are 8 zones, but when the sub-classes
+of "moist (A)", "dry (B)", and "maritime (C)" zones are included, there are
+17 zones, and they represent the entire world - no just the U.S.  This would
+not seem to be an impractical number to deal with and it also matches the
+IECC climate zones.  Possibly you could pick a city that is approximately
+centrally located in each zone.  It turns out that zone 1B (very hot-dry)
+does not exist in the U.S., but you could use Riyadh or some other hot-arid
+city in a foreign country.  I believe all the other zones are represented by
+U.S. cities.
+
+ 
+
+Larry D
+
+===================================== 
+
+Larry O. Degelman, P.E.                  ldegelman at cox.net 
+
+Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+
+Texas A&M University
+
+=====================================
+
+ 
+
+-----Original Message-----
+From: BLDG-SIM at GARD.COM [mailto:BLDG-SIM at GARD.COM] On Behalf Of Dillon, Mike
+Sent: Monday, March 20, 2006 11:16 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Weather Normalization?
+
+ 
+
+I'm trying to find a way to normalize a collection of energy consumptions of
+similar buildings in different climates to help compare energy performances.
+Has anyone done this before? And if so, can this be accomplished in excel,
+or some other software application? Thank you in advance for any help.
+
+Mike 
+
+ 
+ 
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060320/5e1bd307/attachment.htm>
+
+From Misuriello at ase.org  Mon Mar 20 10:59:45 2006
+From: Misuriello at ase.org (Misuriello, Harry)
+Date: Mon, 20 Mar 2006 13:59:45 -0500
+Subject: [BLDG-SIM] Weather Normalization?
+Message-ID: <MDAEMON-F200603201305.AA0524890pd80001025844@gard.com>
+
+You might also look into some of the EPA Energy Star tools.
+
+See:
+http://www.energystar.gov/index.cfm?c=tools_resources.bus_energy_managem
+ent_tools_resources
+
+ 
+
+Also see the EPA portfolio manager at:
+http://www.energystar.gov/index.cfm?c=evaluate_performance.bus_portfolio
+manager
+
+ 
+
+You can use Portfolio Manager on existing buildings.  Enter the energy
+bills and some other data and your buildings will be compared to a
+national database of similar buildings in similar climates and you will
+receive a "score."  Your score is what percentile an individual building
+is in when compared to its peers.  A score of 75 or higher can get you
+an Energy Star building rating.
+
+ 
+
+For new buildings or building designs, look at Target Finder at:
+http://www.energystar.gov/index.cfm?c=new_bldg_design.bus_target_finder
+
+ 
+
+It's a similar service that can "normalize" building energy performance
+through a scoring method.
+
+ 
+
+Harry
+
+-----------------------
+
+Harry Misuriello
+
+Director of Buildings and Utility Programs
+
+Alliance to Save Energy
+
+1200 18th Street, NW, Suite 900
+
+Washington, DC 20036
+
+Tel: 202 530 2214
+
+Fax: 202 331 9588
+
+ 
+
+________________________________
+
+From: BLDG-SIM at GARD.COM [mailto:BLDG-SIM at GARD.COM] On Behalf Of Mike
+Tillou
+Sent: Monday, March 20, 2006 1:36 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Weather Normalization?
+
+ 
+
+The simplist way to compare a collection of energy consumption from
+different climates is to normalize using Heating or Cooling Degree Days.
+This can be done in excel and you can get HDD/CDD data from any number
+of sources online.
+
+ 
+
+Mike
+
+ 
+
+ 
+
+Michael Tillou, PE
+etc Group, Inc.
+PO Box 7, Williamstown, MA 01267
+ph. (413) 458-9870 fx. (413) 458-9875
+
+	-----Original Message-----
+	From: BLDG-SIM at gard.com [mailto:BLDG-SIM at gard.com] On Behalf Of
+Dillon, Mike
+	Sent: Monday, March 20, 2006 12:16 PM
+	To: BLDG-SIM at gard.com
+	Subject: [BLDG-SIM] Weather Normalization?
+
+	I'm trying to find a way to normalize a collection of energy
+consumptions of similar buildings in different climates to help compare
+energy performances. Has anyone done this before? And if so, can this be
+accomplished in excel, or some other software application? Thank you in
+advance for any help.
+
+	Mike 
+
+	 
+	==================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+ 
+ 
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060320/2bc775b1/attachment.htm>
+
+From miket at etcgrp.com  Mon Mar 20 10:36:00 2006
+From: miket at etcgrp.com (Mike Tillou)
+Date: Mon, 20 Mar 2006 11:36:00 -0700
+Subject: [BLDG-SIM] Weather Normalization?
+Message-ID: <MDAEMON-F200603201230.AA3011609pd80001025695@gard.com>
+
+The simplist way to compare a collection of energy consumption from
+different climates is to normalize using Heating or Cooling Degree Days.
+This can be done in excel and you can get HDD/CDD data from any number
+of sources online.
+ 
+Mike
+ 
+ 
+Michael Tillou, PE
+etc Group, Inc.
+PO Box 7, Williamstown, MA 01267
+ph. (413) 458-9870 fx. (413) 458-9875
+
+
+	-----Original Message-----
+	From: BLDG-SIM at gard.com [mailto:BLDG-SIM at gard.com] On Behalf Of
+Dillon, Mike
+	Sent: Monday, March 20, 2006 12:16 PM
+	To: BLDG-SIM at gard.com
+	Subject: [BLDG-SIM] Weather Normalization?
+	
+	
+
+	I'm trying to find a way to normalize a collection of energy
+consumptions of similar buildings in different climates to help compare
+energy performances. Has anyone done this before? And if so, can this be
+accomplished in excel, or some other software application? Thank you in
+advance for any help.
+
+	Mike 
+
+	
+	==================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060320/eaabe96b/attachment.htm>
+
+From abushakr at msoe.edu  Mon Mar 20 10:02:23 2006
+From: abushakr at msoe.edu (Abushakra, Bass)
+Date: Mon, 20 Mar 2006 12:02:23 -0600
+Subject: [BLDG-SIM] Weather Normalization?
+Message-ID: <MDAEMON-F200603201208.AA0813484pd80001025607@gard.com>
+
+If the energy consumption is weather-dependent, you could categorize the
+collected data in terms of CDD and HDD ranges for different locations
+(ASHRAE Standard 90.1), although this won't be quite accurate, since it
+neglects the effect of humidity.
+
+ 
+
+Bass Abushakra, Ph.D.
+
+Assistant Professor, Building Environmental Systems
+
+Architectural Engineering and Building Construction Department
+
+Milwaukee School of Engineering
+
+1025 N. Broadway, CC41
+
+Milwaukee, WI 53202
+
+Phone: 414-277-4551
+
+Fax:     414-277-7415
+
+http://people.msoe.edu/~abushakr/index.htm
+
+________________________________
+
+From: BLDG-SIM at GARD.COM [mailto:BLDG-SIM at GARD.COM] On Behalf Of Dillon,
+Mike
+Sent: Monday, March 20, 2006 11:16 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Weather Normalization?
+
+ 
+
+I'm trying to find a way to normalize a collection of energy
+consumptions of similar buildings in different climates to help compare
+energy performances. Has anyone done this before? And if so, can this be
+accomplished in excel, or some other software application? Thank you in
+advance for any help.
+
+Mike 
+
+ 
+ 
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060320/d7228d1f/attachment.htm>
+
+From randy at hvacware.net  Mon Mar 20 09:51:56 2006
+From: randy at hvacware.net (Randy Wilkinson)
+Date: Mon, 20 Mar 2006 09:51:56 -0800
+Subject: [BLDG-SIM] Weather Normalization?
+In-Reply-To: <MDAEMON-F200603201122.AA2250578pd80001563024@gard.com>
+References: <MDAEMON-F200603201122.AA2250578pd80001563024@gard.com>
+Message-ID: <MDAEMON-F200603201157.AA5736843pd80001025603@gard.com>
+
+Mike and all,
+
+Software called "Metrix" marketed by Abraxas Energy Consulting can do 
+what you describe.  It costs about $3,000 per license, and has a steep 
+learning curve.  You probably also have to subscribe to their weather 
+data services.  Last time I used it I found it frustrating because it 
+was still a 16-bit Windows program and couldn't handle long filenames, 
+etc.  They have a 30 day free trial version.
+
+Randy
+
+--
+Randall Wilkinson, P.E., C.E.M., LEED A.P.
+L&S Engineering
+Spokane, WA
+
+Dillon, Mike wrote:
+
+> I'm trying to find a way to normalize a collection of energy 
+> consumptions of similar buildings in different climates to help 
+> compare energy performances. Has anyone done this before? And if so, 
+> can this be accomplished in excel, or some other software application? 
+> Thank you in advance for any help.
+>
+> Mike
+>
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060320/eb5f4242/attachment.htm>
+
+From mdillon at AvistaAdvantage.com  Mon Mar 20 09:15:35 2006
+From: mdillon at AvistaAdvantage.com (Dillon, Mike)
+Date: Mon, 20 Mar 2006 09:15:35 -0800
+Subject: [BLDG-SIM] Weather Normalization?
+Message-ID: <MDAEMON-F200603201122.AA2241140pd80001025511@gard.com>
+
+I'm trying to find a way to normalize a collection of energy consumptions of similar buildings in different climates to help compare energy performances. Has anyone done this before? And if so, can this be accomplished in excel, or some other software application? Thank you in advance for any help.
+
+Mike
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060320/c9fac329/attachment.htm>
+
+From Jeff.Hirsch at DOE2.com  Thu Mar 16 14:43:48 2006
+From: Jeff.Hirsch at DOE2.com (Jeff Hirsch)
+Date: Thu, 16 Mar 2006 14:43:48 -0800
+Subject: [BLDG-SIM] [EnergyPlus_Support] Global horizontal solar radiation
+References: <OFBD768590.3E2EF8B0-ON85257131.005112F0-85257131.0051615C@ee.doe.gov>
+Message-ID: <MDAEMON-F200603161649.AA492500pd80001022245@gard.com>
+
+First, the ASHRAE license states:
+
+"ADDITIONAL LICENSE CONDITIONS: This Product is also intended for use in
+software or other programmed information. You may embed some or all of the
+program and data contained within in another work for personal use without
+written permission of ASHRAE. "
+
+meaning, I my opinion (for what that might be worth, which may be nothing if you like)
+any persoanl use of the data is explicitly allowed without further permission.
+
+Second, only an "original work of authorship" can be protected by US and international
+copyright law; weather data, by its very nature, is not an "original work of authorship",
+so the underlying data cannot be a subject of copyright ... a work incorporating the
+weather data can be a copyrighted work, but the weather data portion (which was
+not an orginal work of authorship) cannot be protected by such a copyright.  Thus
+the FORMAT of a data base is protected by copyright, but the data is not protected
+by copyright.
+
+On the other hand, I guess God could file a copyright on weather data by claiming
+authorship ... perhaps our President could ask about this possibility during one of
+his future conversations ... then, perhaps, DOE could hold the copyright for the
+weather creator.
+
+---
+Jeff Hirsch
+James J. Hirsch & Associates
+Building Performance Analysis Software & Consulting
+12185 Presilla Road
+Camarillo, CA 93012-9243 USA
+phone: (805) 553-9000
+fax: (805) 532-2401
+email: Jeff.Hirsch at DOE2.com
+web: http://DOE2.com
+
+
+----- Original Message ----- 
+From: <Drury.Crawley at ee.doe.gov>
+To: <EnergyPlus_Support at yahoogroups.com>
+Sent: Tuesday, March 14, 2006 6:48 AM
+Subject: Re: [EnergyPlus_Support] Global horizontal solar radiation
+
+
+>
+> Andrea,
+>
+> Multiple 9s in a field in most weather formats means missing.
+> Yes, you're correct that EnergyPlus only uses direct and diffuse
+> radiation.  That particular data source may not have had
+> global radiation (hence the 9s).
+>
+> I would remind you that some of the data are copyright and our
+> license allows them to be used with EnergyPlus, not necessarily
+> other programs.
+>
+> Dru
+>
+>
+>
+>
+>                       "ing.dallolio at libero.it
+>                       " <ing.dallolio              To: "EnergyPlus_Support"
+>                       Sent by:                        <EnergyPlus_Support at yahoogroups.com>
+>                       EnergyPlus_Support at yaho      cc:
+>                       ogroups.com                  Subject:  [EnergyPlus_Support] Global
+horizontal solar
+>                                                       radiation
+>
+>                       03/14/2006 04:18 AM
+>                       Please respond to
+>                       EnergyPlus_Support
+>
+>
+>
+>
+>
+> Hello,
+> I understand this is more an eQuest (DOE2 engine) question, but just in
+> case you know.
+> I'm using an EnergyPlus weather file to generate an Equest weather file
+> (using eQ_WthProc ). Since The epw I'm using do not have Global horizontal
+> solar radiation, I guess E+ uses only direct normal and diffuse horizontal
+> ?, the epw file have 9999 value for all Global horizontal solar values. The
+> .bin file I get have 9999 as Global horizontal, does eQuest ( DOE2 engine)
+> uses that values in its calculation ?
+> Thanks a lot for reading this.
+> Andrea.
+>
+>
+>
+>
+> The primary EnergyPlus web site is found at:
+> http://www.energyplus.gov
+>
+> The group web site is:
+> http://groups.yahoo.com/group/EnergyPlus_Support/
+>
+> Attachments are not allowed -- please post any files to the appropriate
+> folder in the Files area of the Support Web Site.
+>
+> EnergyPlus Documentation is searchable.  Open EPlusMainMenu.idf and press
+> the "search" button.
+>
+>
+>
+>
+>                                                             SPONSORED LINKS
+>
+>  Medical software     Cad software program   Backup software
+>  program                                     program
+>
+>  Wedding program      Anti virus software
+>  software             program
+>
+>
+>
+>                             YAHOO! GROUPS LINKS
+>
+>        Visit your group "EnergyPlus_Support" on the web.
+>
+>        To unsubscribe from this group, send an email to:
+>        EnergyPlus_Support-unsubscribe at yahoogroups.com
+>
+>        Your use of Yahoo! Groups is subject to the Yahoo! Terms of Service.
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> The primary EnergyPlus web site is found at:
+> http://www.energyplus.gov
+>
+> The group web site is:
+> http://groups.yahoo.com/group/EnergyPlus_Support/
+>
+> Attachments are not allowed -- please post any files to the appropriate folder in the Files area
+of the Support Web Site.
+>
+> EnergyPlus Documentation is searchable.  Open EPlusMainMenu.idf and press the "search" button.
+>
+> Yahoo! Groups Links
+>
+> <*> To visit your group on the web, go to:
+>     http://groups.yahoo.com/group/EnergyPlus_Support/
+>
+> <*> To unsubscribe from this group, send an email to:
+>     EnergyPlus_Support-unsubscribe at yahoogroups.com
+>
+> <*> Your use of Yahoo! Groups is subject to:
+>     http://docs.yahoo.com/info/terms/
+>
+>
+>
+>
+>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bojic at knez.uis.kg.ac.yu  Thu Mar 16 14:01:28 2006
+From: bojic at knez.uis.kg.ac.yu (MB)
+Date: Thu, 16 Mar 2006 23:01:28 +0100
+Subject: [BLDG-SIM] LOW ENERGY BUILDINGS- EXTENDED DEADLINE - CALL FOR IASTED-PEA 200
+Message-ID: <MDAEMON-F200603161607.AA0732187pd80001022146@gard.com>
+
+
+
+*Excuse for cross posting* 
+
+ 
+
+Dear all,
+
+ 
+
+I am pleased to announce the extended deadline for the special session titled "LOW ENERGY BUILDINGS". The session will be organized at the IASTED International Conference on POWER, ENERGY, AND APPLICATIONS (PEA 2006) in September 11-13, 2006 in Gaborone, Botswana: http://www.iasted.com/conferences/2006/Botswana/pea-specsess3.htm. We invite researchers, faculty, students, and members of industry and government agencies to participate in this important session. We would highly appreciate if this participation is active by submitting research papers and case studies. After this session, we would organize a round table with topic "ENERGY POLICIES FOR  LOW-ENERGY BUILDINGS".  Papers are due April 15, 2006 and should be send to prof. Milorad Bojic by Email on: bojic at kg.ac.yu.
+
+Please, kindly forward this message to your friends, colleagues and any other interested contacts and please do not hesitate to contact me for any inquiries you might have.
+
+ 
+
+I would take the opportunity to recall another special session titled "Energy and Systems Simulation in Buildings for Hot Climates" of a simultaneous conference (IASTED MSO 2006)  http://www.iasted.org/conferences/2006/botswana/mso-specsess2.htm  organized by Prof. Harry Boyer.
+
+ 
+
+ 
+
+Best regards
+
+Milorad Bojic
+===============================
+Prof. Milorad Bojic,
+B.Eng.,M.Sci, Dr.Tech. Sci., MASHRAE
+University of Kragujevac
+Sestre Janjic 6
+34000 Kragujevac
+Serbia and Montenegro
+Tel.Fax.+381-34-330196
+Email: bojic at kg.ac.yu
+
+ 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060316/c5792e60/attachment.htm>
+
+From cloris.chen at gmail.com  Wed Mar 15 23:20:37 2006
+From: cloris.chen at gmail.com (nicole chen)
+Date: Thu, 16 Mar 2006 15:20:37 +0800
+Subject: [BLDG-SIM] ASHRAE 90.1 Budget
+Message-ID: <MDAEMON-F200603160126.AA2611109pd80001021342@gard.com>
+
+Dear All
+
+Have you ever simulate ASHRAE 90.1 Budge building? The HVAC system type for
+the budget building design shall be determined form Figure 11.4.3 in ASHRAE
+90.1. I am now simulating a two-pipe fan coil system with air source heat
+pump chiller. Can you give me some suggestion :
+
+1)  Whether the condenser cooling source should be Air or Water
+
+2) Whether the heating system classification should be Electric Res, heat
+pump or Fossil Fuel
+
+--
+Yours
+Nicole Chen
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060316/fef5d741/attachment.htm>
+
+From Kendra.Tupper at sf.fk.com  Tue Mar 14 17:24:06 2006
+From: Kendra.Tupper at sf.fk.com (Tupper, Kendra)
+Date: Tue, 14 Mar 2006 17:24:06 -0800
+Subject: [BLDG-SIM] Adding TES in eQuest interface
+Message-ID: <MDAEMON-F200603141930.AA3000984pd80001019900@gard.com>
+
+I have modeled thermal ice storage in eQuest before, but I've never
+figured out how to add it in the eQuest interface.  I've always added
+the BDL code in the input file, then opened the input file with eQuest
+to create a project file.  I feel like there must be an easier way to
+add thermal storage - any solutions?
+
+Thank you!
+
+Kendra
+
+Kendra Tupper		
+ FLACK + KURTZ	
+405 Howard Street		415.398.3833 Main
+Suite 500			415.402.5840 Direct
+San Francisco, CA 94105		415.433.5311 Fax
+http://www.flackandkurtz.com	kendra.tupper at sf.fk.com
+ 
+
+This e-mail may contain confidential and/or privileged information. 
+If you are not the intended recipient (or have received this e-mail in
+error)
+please notify the sender immediately and destroy this e-mail. 
+Any unauthorized copying, disclosure or distribution of the material 
+in this e-mail is strictly forbidden.
+
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060314/dd913e52/attachment.htm>
+
+From ldegelman at cox.net  Mon Mar 13 11:58:43 2006
+From: ldegelman at cox.net (Larry Degelman)
+Date: Mon, 13 Mar 2006 13:58:43 -0600
+Subject: [BLDG-SIM] ** REMINDER ** Only 8 days left for IBPSA News articles.
+Message-ID: <MDAEMON-F200603131404.AA0431421pd80001018481@gard.com>
+
+This is a reminder that IBPSA News items are due by next Tuesday, 21 March.
+Please send in any news that relates to building simulation, especially if
+you've already indicated to me that you were planning to send in an article
+or an announcement.
+
+ 
+
+Thanks you.
+
+ 
+
+Larry D.   IBPSA News Chairperson
+
+===================================== 
+
+Larry O. Degelman, P.E.                  larry at taz.tamu.edu 
+
+Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+
+Texas A&M University
+
+College Station, TX 77845
+
+=====================================
+
+ 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060313/ef3a710f/attachment.htm>
+
+From thong at archenergy.com  Mon Mar 13 09:02:52 2006
+From: thong at archenergy.com (Tianzhen Hong)
+Date: Mon, 13 Mar 2006 09:02:52 -0800
+Subject: [BLDG-SIM] Announcement - VisualDOE and LEED-NC 2.1/2.2 Energy Savings Calculations Training Seminars in 2006
+Message-ID: <MDAEMON-F200603131116.AA1604343pd80001018228@gard.com>
+
+
+
+Architectural Energy Corporation is pleased to announce three VisualDOE
+training seminars in 2006.
+
+The first is on May 18 and 19 in San Francisco. The second is on November 13
+and 14 in Boulder. The third will be held in July or August in New York
+City, details will be available soon.
+
+Each seminar includes two days (total 16 hours) focused on DOE-2, the
+VisualDOE interface, VisualDOE 4 new features, general energy simulation
+skills, and LEED-NC 2.1 and 2.2 energy savings calculations for green
+buildings. Attendees are welcome to bring their projects for discussions in
+class.
+
+No prior energy modeling experience is required, but a good understanding of
+building systems is very helpful.
+
+VisualDOE 4 is available at a discount to training attendees.  However a
+free one-month license for VisualDOE 4 is included with the training.
+
+For questions, please contact us via email vdoetraining at archenergy.com or
+phone (415) 957-1977 ext 111.
+
+To register or get more training information, please go to VisualDOE
+training page at  http://www.archenergy.com/products/visualdoe/training/
+
+Please excuse cross-postings.
+
+
+VisualDOE Training Team
+Architectural Energy Corporation
+142 Minna Street, Second Floor
+San Francisco, CA 94105
+Voice: (415) 957-1977
+Fax: (415) 957-1381
+Email: vdoetraining at archenergy.com
+Web: www.visualdoe.com
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ajain at setty.com  Fri Mar 10 13:04:38 2006
+From: ajain at setty.com (Alpana Jain)
+Date: Fri, 10 Mar 2006 16:04:38 -0500
+Subject: [BLDG-SIM] blast proof galzing
+Message-ID: <MDAEMON-F200603101510.AA1015140pd80001015629@gard.com>
+
+Thanks all for the suggestions....! I did get in touch with a few glass
+manufacturers and got some kind of numbers to work with!
+
+ 
+
+Thanks
+
+Alpana
+
+ 
+
+ 
+
+ 
+
+________________________________
+
+From: JRR [mailto:energy.wwind at cox.net] 
+Sent: Friday, March 10, 2006 4:00 PM
+To: Alpana Jain; BLDG SIM
+Subject: Re: Spam Alert: [BLDG-SIM] blast proof galzing
+
+ 
+
+Try a company called  Chicago Bulletproof   (they're in Chicago)
+
+
+John R Ross III  P.E.
+Westwind  Corporation
+Vienna,  VA   22182-1958
+
+Alpana Jain wrote:
+
+
+
+ 
+
+Hi 
+
+ 
+
+I am looking for thermal properties of blast proof glazing ( glass
+U-value)
+
+Can anyone help me on this? Or direct me to some relavant resource?
+
+ 
+
+Thank you
+
+Alpana
+
+ 
+
+________________________________
+
+Alpana Jain Kapoor, LEED AP
+
+Setty & Associates, Ltd
+
+10340 Democracy Lane, Suite #304
+
+Fairfax, VA - 22030
+
+703.691.2115 ext.19 (work)
+
+703.691.8084 (fax)
+
+Mail: ajain at setty.com <mailto:ajain at setty.com> 
+
+Web: www.setty.com <http://www.setty.com/> 
+
+"I get up, I walk, I fall down; meanwhile I keep dancing"
+
+________________________________
+
+ 
+
+ 
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+  
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060310/514e80f0/attachment.htm>
+
+From energy.wwind at cox.net  Fri Mar 10 13:00:23 2006
+From: energy.wwind at cox.net (JRR)
+Date: Fri, 10 Mar 2006 16:00:23 -0500
+Subject: [BLDG-SIM] Spam Alert:  blast proof galzing
+In-Reply-To: <MDAEMON-F200603011013.AA1346437pd80001510094@gard.com>
+References: <MDAEMON-F200603011013.AA1346437pd80001510094@gard.com>
+Message-ID: <MDAEMON-F200603101506.AA0605890pd80001015612@gard.com>
+
+Try a company called  Chicago Bulletproof   (they're in Chicago)
+
+
+John R Ross III  P.E.
+Westwind  Corporation
+Vienna,  VA   22182-1958
+
+Alpana Jain wrote:
+
+>  
+>
+> Hi
+>
+>  
+>
+> I am looking for thermal properties of blast proof glazing ( glass 
+> U-value)
+>
+> Can anyone help me on this? Or direct me to some relavant resource?
+>
+>  
+>
+> Thank you
+>
+> Alpana
+>
+>  
+>
+> ------------------------------------------------------------------------
+>
+> Alpana Jain Kapoor, LEED AP
+>
+> Setty & Associates, Ltd
+>
+> 10340 Democracy Lane, Suite #304
+>
+> Fairfax, VA - 22030
+>
+> 703.691.2115 ext.19 (work)
+>
+> 703.691.8084 (fax)
+>
+> Mail: ajain at setty.com <mailto:ajain at setty.com>
+>
+> Web: www.setty.com <http://www.setty.com/>
+>
+> "I get up, I walk, I fall down; meanwhile I keep dancing"
+>
+> ------------------------------------------------------------------------
+>
+>  
+>
+>======================================================
+>You received this e-mail because you are subscribed 
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>  
+>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060310/599137ae/attachment.htm>
+
+From bob.irving at btinternet.com  Fri Mar 10 01:30:21 2006
+From: bob.irving at btinternet.com (Bob Irving)
+Date: Fri, 10 Mar 2006 09:30:21 +0000
+Subject: [BLDG-SIM] OPEN SOURCE PROGRAMS and BEST INTERFACES for ENERGYPLUS
+In-Reply-To: <MDAEMON-F200603080853.AA5317656pd80001534781@gard.com>
+References: <MDAEMON-F200603071243.AA4321781pd80001533623@gard.com> <MDAEMON-F200603080853.AA5317656pd80001534781@gard.com>
+Message-ID: <MDAEMON-F200603100335.AA3549234pd80001015016@gard.com>
+
+Also very good value for money is IES Virtual Environment which is  
+only ?50 for  a year's student license.
+Bit of a pig to learn, mind!
+	Bob
+
+On 8 Mar 2006, at 14:50, Chris Jones wrote:
+
+> esp-r is open source.  See http://www.esru.strath.ac.uk/Programs/ 
+> ESP-r.htm.
+>
+> At 13:40 07/03/2006, Charlie Weber wrote:
+>> Hello all...
+>> I am working on a technology grant for the Ecosa Institute, a  
+>> budding ecological design school in Prescott, AZ, attracting  
+>> student from all design disciplines.  Our practice-based  
+>> educational model engages students in real projects with real  
+>> clients.  The projects range from single-family homes to large  
+>> institutional buildings.  Keeping up with the latest technology is  
+>> a challenging task for our non-profit and I am exploring the most  
+>> effective ways to do so.  I am looking into applying for a  
+>> technology grant to fund products that will support the use of  
+>> open source programs for graphic design, architectural drafting,  
+>> site/building systems/energy modeling, etc.  If anyone knows the  
+>> availability of such programs, favorites, suggestions, please let  
+>> me know.  I am currently exploring EnergyPlus and its interface  
+>> possibilities.  Thank you.
+>>
+>> Charlie Weber
+>> Design Associate
+>>
+>> Ecosa Institute
+>> www.ecosainstitute.org
+>> 212 B S. Marina St. - Prescott, AZ 86303
+>>
+>> 928-541-1002    tel
+>> 928-776-8086    fax
+>> 502-500-6296    cell
+>>
+>>
+>>
+>> You received this e-mail because you are subscribed
+>> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>> from this mailing list send a blank message to
+>> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+> Chris Jones, P.Eng.
+> 14 Oneida Avenue
+> Toronto, ON M5J2E3
+> Tel. 416 203-7465
+> Fax. 416 946-1005
+>
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060310/f9a68daf/attachment.htm>
+
+From jeffhaberl at tees.tamus.edu  Thu Mar  9 19:35:55 2006
+From: jeffhaberl at tees.tamus.edu (Jeff Haberl)
+Date: Thu, 9 Mar 2006 21:35:55 -0600
+Subject: [BLDG-SIM] modeling different fuel types
+Message-ID: <MDAEMON-F200603092141.AA4125203pd80001014798@gard.com>
+
+Two PLANT assignments should do it. 
+
+Jeff
+BB 8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  :=')  8=)  8=)  8=? BB
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+BB 8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=) 8=?  8=)  8=)  8= BB
+ 
+
+-----Original Message-----
+From: BLDG-SIM at gard.com
+To: BLDG-SIM at gard.com
+Sent: Wed Mar 08 09:10:43 2006
+Subject: [BLDG-SIM] modeling different fuel types
+
+Hi, 
+ 
+I am trying to model a building which uses an oil fired steam boiler for heating the building and a packaged DX/gas rooftop unit for certain areas in the building.  In DOE2.1e i can only model either natural gas or fuel oil as energy resources for the heating.  is there a way to model all three fuel sources or is DOE2.1e limited to having only 2 types of energy resources?
+ 
+thanks in advance
+jm
+
+________________________________
+
+Brings words and photos together (easily) with
+PhotoMail <http://us.rd.yahoo.com/mail_us/taglines/PMall/*http://photomail.mail.yahoo.com> - it's free and works with Yahoo! Mail.
+
+From bradley at tess-inc.com  Thu Mar  9 07:11:06 2006
+From: bradley at tess-inc.com (David Bradley)
+Date: Thu, 09 Mar 2006 09:11:06 -0600
+Subject: [BLDG-SIM] OPEN SOURCE PROGRAMS and BEST INTERFACES for
+  ENERGYPLUS
+In-Reply-To: <MDAEMON-F200603090846.AA4657859pd80001542375@gard.com>
+References: <MDAEMON-F200603071243.AA4314500pd80001533574@gard.com>
+ <MDAEMON-F200603081010.AA1045156pd80001537139@gard.com>
+ <MDAEMON-F200603090846.AA4657859pd80001542375@gard.com>
+Message-ID: <MDAEMON-F200603090927.AA2744656pd80001014084@gard.com>
+
+Chris,
+   Yes, my apologies for that - I thought by "open source," you meant 
+software whose source code was included in the license (open for the user) 
+- not that the software itself was free.
+Mea culpa
+   David
+
+
+At 08:44 3/9/2006, Chris Jones wrote:
+>I don't see any mention of open source on those sites.  It looks like it 
+>costs $2,100 USD for the base version?
+>
+>At 11:05 08/03/2006, David Bradley wrote:
+>>Charlie,
+>>   TRNSYS is also open source. There are a couple of websites available 
+>> for information:
+>>
+>>http://www.trnsys.com
+>>http://sel.me.wisc.edu/trnsys
+>>
+>>Kind regards,
+>>  David
+>>
+>>At 12:40 3/7/2006, Charlie Weber wrote:
+>>>Hello all...
+>>>I am working on a technology grant for the Ecosa Institute, a budding 
+>>>ecological design school in Prescott, AZ, attracting student from all 
+>>>design disciplines.  Our practice-based educational model engages 
+>>>students in real projects with real clients.  The projects range from 
+>>>single-family homes to large institutional buildings.  Keeping up with 
+>>>the latest technology is a challenging task for our non-profit and I am 
+>>>exploring the most effective ways to do so.  I am looking into applying 
+>>>for a technology grant to fund products that will support the use of 
+>>>open source programs for graphic design, architectural drafting, 
+>>>site/building systems/energy modeling, etc.  If anyone knows the 
+>>>availability of such programs, favorites, suggestions, please let me 
+>>>know.  I am currently exploring EnergyPlus and its interface 
+>>>possibilities.  Thank you.
+>>>
+>>>Charlie Weber
+>>>Design Associate
+>>>
+>>>Ecosa Institute
+>>>www.ecosainstitute.org
+>>>212 B S. Marina St. - Prescott, AZ 86303
+>>>
+>>>928-541-1002    tel
+>>>928-776-8086    fax
+>>>502-500-6296    cell
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>You received this e-mail because you are subscribed
+>>>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>>>from this mailing list send a blank message to
+>>>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>>****************************************************************************************
+>>Thermal Energy System Specialists (TESS), LLC
+>>David BRADLEY                           2916 Marketplace Drive - Suite 104
+>>Partner                                        Madison, WI 53719
+>>Phone: (608) 274-2577 USA
+>>Fax: (608) 278-1475
+>>E-mail: bradley at tess-inc.com
+>>Web Pages:  http://www.tess-inc.com    and      http://www.trnsys.com
+>>
+>>"Providing software solutions for today's energy engineering projects"
+>>****************************************************************************************
+>>
+>>
+>>
+>>
+>>======================================================
+>>You received this e-mail because you are subscribed
+>>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>>from this mailing list send a blank message to
+>>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>Chris Jones, P.Eng.
+>14 Oneida Avenue
+>Toronto, ON M5J2E3
+>Tel. 416 203-7465
+>Fax. 416 946-1005
+>
+>
+>
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+****************************************************************************************
+Thermal Energy System Specialists (TESS), LLC
+David BRADLEY                           2916 Marketplace Drive - Suite 104
+Partner                                        Madison, WI 53719
+Phone: (608) 274-2577 USA
+Fax: (608) 278-1475
+E-mail: bradley at tess-inc.com
+Web Pages:  http://www.tess-inc.com     and      http://www.trnsys.com
+
+"Providing software solutions for today's energy engineering projects"
+****************************************************************************************
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060309/4cfd24cc/attachment.htm>
+
+From andy at designbuilder.co.uk  Thu Mar  9 06:49:42 2006
+From: andy at designbuilder.co.uk (Andy Tindale)
+Date: Thu, 9 Mar 2006 14:49:42 -0000
+Subject: [BLDG-SIM] OPEN SOURCE PROGRAMS and BEST INTERFACES for ENERGYPLUS
+Message-ID: <MDAEMON-F200603090855.AA5517578pd80001013981@gard.com>
+
+Charlie,
+
+You may find the DesignBuilder interface to EnergyPlus useful for your
+educational/practice work because it makes the process of energy modelling
+and visualisation relatively quick to learn and apply on real projects, but
+provides the accuracy of the EnergyPlus simulation engine.  DesignBuilder is
+not open source, but prices are reasonable with educational discounts
+available.  You can use DesignBuilder to run any version of EnergyPlus,
+including tailored versions which may be engineered by more technically able
+students.
+
+You can find out more about DesignBuilder from:
+http://www.designbuilder.co.uk
+
+Andy Tindale
+DesignBuilder Software
+
+  -----Original Message-----
+  From: BLDG-SIM at GARD.COM [mailto:BLDG-SIM at GARD.COM]On Behalf Of Charlie
+Weber
+  Sent: 07 March 2006 18:41
+  To: BLDG-SIM at GARD.COM
+  Subject: [BLDG-SIM] OPEN SOURCE PROGRAMS and BEST INTERFACES for
+ENERGYPLUS
+
+
+  Hello all...
+  I am working on a technology grant for the Ecosa Institute, a budding
+ecological design school in Prescott, AZ, attracting student from all design
+disciplines.  Our practice-based educational model engages students in real
+projects with real clients.  The projects range from single-family homes to
+large institutional buildings.  Keeping up with the latest technology is a
+challenging task for our non-profit and I am exploring the most effective
+ways to do so.  I am looking into applying for a technology grant to fund
+products that will support the use of open source programs for graphic
+design, architectural drafting, site/building systems/energy modeling, etc.
+If anyone knows the availability of such programs, favorites, suggestions,
+please let me know.  I am currently exploring EnergyPlus and its interface
+possibilities.  Thank you.
+
+  Charlie Weber
+  Design Associate
+
+  Ecosa Institute
+  www.ecosainstitute.org
+  212 B S. Marina St. - Prescott, AZ 86303
+
+  928-541-1002    tel
+  928-776-8086    fax
+  502-500-6296    cell
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060309/47a50574/attachment.htm>
+
+From cj at cr-jay.ca  Thu Mar  9 06:44:26 2006
+From: cj at cr-jay.ca (Chris Jones)
+Date: Thu, 09 Mar 2006 09:44:26 -0500
+Subject: [BLDG-SIM] OPEN SOURCE PROGRAMS and BEST INTERFACES for
+  ENERGYPLUS
+In-Reply-To: <MDAEMON-F200603081010.AA1045156pd80001537139@gard.com>
+References: <MDAEMON-F200603071243.AA4314500pd80001533574@gard.com>
+ <MDAEMON-F200603081010.AA1045156pd80001537139@gard.com>
+Message-ID: <MDAEMON-F200603090846.AA4659484pd80001013949@gard.com>
+
+I don't see any mention of open source on those sites.  It looks like it 
+costs $2,100 USD for the base version?
+
+At 11:05 08/03/2006, David Bradley wrote:
+>Charlie,
+>   TRNSYS is also open source. There are a couple of websites available 
+> for information:
+>
+>http://www.trnsys.com
+>http://sel.me.wisc.edu/trnsys
+>
+>Kind regards,
+>  David
+>
+>At 12:40 3/7/2006, Charlie Weber wrote:
+>>Hello all...
+>>I am working on a technology grant for the Ecosa Institute, a budding 
+>>ecological design school in Prescott, AZ, attracting student from all 
+>>design disciplines.  Our practice-based educational model engages 
+>>students in real projects with real clients.  The projects range from 
+>>single-family homes to large institutional buildings.  Keeping up with 
+>>the latest technology is a challenging task for our non-profit and I am 
+>>exploring the most effective ways to do so.  I am looking into applying 
+>>for a technology grant to fund products that will support the use of open 
+>>source programs for graphic design, architectural drafting, site/building 
+>>systems/energy modeling, etc.  If anyone knows the availability of such 
+>>programs, favorites, suggestions, please let me know.  I am currently 
+>>exploring EnergyPlus and its interface possibilities.  Thank you.
+>>
+>>Charlie Weber
+>>Design Associate
+>>
+>>Ecosa Institute
+>>www.ecosainstitute.org
+>>212 B S. Marina St. - Prescott, AZ 86303
+>>
+>>928-541-1002    tel
+>>928-776-8086    fax
+>>502-500-6296    cell
+>>
+>>
+>>
+>>
+>>
+>>You received this e-mail because you are subscribed
+>>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>>from this mailing list send a blank message to
+>>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>****************************************************************************************
+>Thermal Energy System Specialists (TESS), LLC
+>David BRADLEY                           2916 Marketplace Drive - Suite 104
+>Partner                                        Madison, WI 53719
+>Phone: (608) 274-2577 USA
+>Fax: (608) 278-1475
+>E-mail: bradley at tess-inc.com
+>Web Pages:  http://www.tess-inc.com     and      http://www.trnsys.com
+>
+>"Providing software solutions for today's energy engineering projects"
+>****************************************************************************************
+>
+>
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+Chris Jones, P.Eng.
+14 Oneida Avenue
+Toronto, ON M5J2E3
+Tel. 416 203-7465
+Fax. 416 946-1005 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060309/e2dfa6cf/attachment.htm>
+
+From jcampbell at geo-marine.com  Thu Mar  9 05:45:42 2006
+From: jcampbell at geo-marine.com (James Campbell)
+Date: Thu, 9 Mar 2006 08:45:42 -0500
+Subject: [BLDG-SIM] DOE2.1E - Area and Volume Limit
+Message-ID: <MDAEMON-F200603090751.AA5105406pd80001013858@gard.com>
+
+I'm modeling some very large buildings and receiving the following cautions:
+
+Area
+-CAUTION--- VALUE GREATER THAN MAXIMUM OF    0.1000E+06
+
+Volume
+-CAUTION--- VALUE GREATER THAN MAXIMUM OF    0.1000E+07
+
+The models appear to be simulating correctly but I need to be sure that
+these cautions are not affecting my results. Has anyone verified that these
+cautions do not affect simulation results?
+
+Thanks,
+
+J. Campbell
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cloris.chen at gmail.com  Wed Mar  8 23:39:55 2006
+From: cloris.chen at gmail.com (nicole chen)
+Date: Thu, 9 Mar 2006 15:39:55 +0800
+Subject: [BLDG-SIM] caution message
+Message-ID: <MDAEMON-F200603090145.AA4525562pd80001013576@gard.com>
+
+Dear all
+
+would you please tell me  what the following caution message mean
+-------"systen:   could not successfully allocate all energy to the 5-minute
+bins during heating because of an equipment overload. The peak load used in
+Economics will not include the fraction due to the overload, but the Plant
+reports will."
+
+--
+Yours
+Nicole Chen
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060309/779daae6/attachment.htm>
+
+From e.morrissey at mars.ucc.ie  Wed Mar  8 11:21:49 2006
+From: e.morrissey at mars.ucc.ie (Elmer Morrissey)
+Date: Wed, 8 Mar 2006 19:21:49 -0000
+Subject: [BLDG-SIM] Uniform Time Increment Models vs Event Driven Simulation Models
+In-Reply-To: <MDAEMON-F200602281251.AA5124437pd80001506981@gard.com>
+Message-ID: <MDAEMON-F200603081327.AA2759265pd80001012970@gard.com>
+
+Hello all,
+
+This is more of a general question I am asking for the benefit of a paper I
+am researching. 
+
+I am searching for any documentation or discussions on the benefits of using
+event driven simulation over uniform time increment modellers. Can anyone
+point me in the right direction and give some specific popular examples of
+uniform time increment simulations modellers?
+
+Kind regards
+
+-Elmer
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bradley at tess-inc.com  Wed Mar  8 08:05:17 2006
+From: bradley at tess-inc.com (David Bradley)
+Date: Wed, 08 Mar 2006 10:05:17 -0600
+Subject: [BLDG-SIM] OPEN SOURCE PROGRAMS and BEST INTERFACES for
+  ENERGYPLUS
+In-Reply-To: <MDAEMON-F200603071243.AA4314500pd80001533574@gard.com>
+References: <MDAEMON-F200603071243.AA4314500pd80001533574@gard.com>
+Message-ID: <MDAEMON-F200603081010.AA1046453pd80001012715@gard.com>
+
+Charlie,
+   TRNSYS is also open source. There are a couple of websites available for 
+information:
+
+http://www.trnsys.com
+http://sel.me.wisc.edu/trnsys
+
+Kind regards,
+  David
+
+At 12:40 3/7/2006, Charlie Weber wrote:
+>Hello all...
+>I am working on a technology grant for the Ecosa Institute, a budding 
+>ecological design school in Prescott, AZ, attracting student from all 
+>design disciplines.  Our practice-based educational model engages students 
+>in real projects with real clients.  The projects range from single-family 
+>homes to large institutional buildings.  Keeping up with the latest 
+>technology is a challenging task for our non-profit and I am exploring the 
+>most effective ways to do so.  I am looking into applying for a technology 
+>grant to fund products that will support the use of open source programs 
+>for graphic design, architectural drafting, site/building systems/energy 
+>modeling, etc.  If anyone knows the availability of such programs, 
+>favorites, suggestions, please let me know.  I am currently exploring 
+>EnergyPlus and its interface possibilities.  Thank you.
+>
+>Charlie Weber
+>Design Associate
+>
+>Ecosa Institute
+>www.ecosainstitute.org
+>212 B S. Marina St. - Prescott, AZ 86303
+>
+>928-541-1002    tel
+>928-776-8086    fax
+>502-500-6296    cell
+>
+>
+>
+>
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+****************************************************************************************
+Thermal Energy System Specialists (TESS), LLC
+David BRADLEY                           2916 Marketplace Drive - Suite 104
+Partner                                        Madison, WI 53719
+Phone: (608) 274-2577 USA
+Fax: (608) 278-1475
+E-mail: bradley at tess-inc.com
+Web Pages:  http://www.tess-inc.com     and      http://www.trnsys.com
+
+"Providing software solutions for today's energy engineering projects"
+****************************************************************************************
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060308/db7e2ab7/attachment.htm>
+
+From janemiller200 at yahoo.com  Wed Mar  8 07:10:43 2006
+From: janemiller200 at yahoo.com (Jane Miller)
+Date: Wed, 8 Mar 2006 07:10:43 -0800 (PST)
+Subject: [BLDG-SIM] modeling different fuel types
+Message-ID: <MDAEMON-F200603080916.AA1609453pd80001012540@gard.com>
+
+Hi, 
+   
+  I am trying to model a building which uses an oil fired steam boiler for heating the building and a packaged DX/gas rooftop unit for certain areas in the building.  In DOE2.1e i can only model either natural gas or fuel oil as energy resources for the heating.  is there a way to model all three fuel sources or is DOE2.1e limited to having only 2 types of energy resources?
+   
+  thanks in advance
+  jm
+
+		
+---------------------------------
+Brings words and photos together (easily) with
+ PhotoMail  - it's free and works with Yahoo! Mail.
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060308/51c2a206/attachment.htm>
+
+From cj at cr-jay.ca  Wed Mar  8 06:50:41 2006
+From: cj at cr-jay.ca (Chris Jones)
+Date: Wed, 08 Mar 2006 09:50:41 -0500
+Subject: [BLDG-SIM] OPEN SOURCE PROGRAMS and BEST INTERFACES for
+  ENERGYPLUS
+In-Reply-To: <MDAEMON-F200603071243.AA4321781pd80001533623@gard.com>
+References: <MDAEMON-F200603071243.AA4321781pd80001533623@gard.com>
+Message-ID: <MDAEMON-F200603080853.AA5338984pd80001012486@gard.com>
+
+esp-r is open source.  See http://www.esru.strath.ac.uk/Programs/ESP-r.htm.
+
+At 13:40 07/03/2006, Charlie Weber wrote:
+>Hello all...
+>I am working on a technology grant for the Ecosa Institute, a budding 
+>ecological design school in Prescott, AZ, attracting student from all 
+>design disciplines.  Our practice-based educational model engages students 
+>in real projects with real clients.  The projects range from single-family 
+>homes to large institutional buildings.  Keeping up with the latest 
+>technology is a challenging task for our non-profit and I am exploring the 
+>most effective ways to do so.  I am looking into applying for a technology 
+>grant to fund products that will support the use of open source programs 
+>for graphic design, architectural drafting, site/building systems/energy 
+>modeling, etc.  If anyone knows the availability of such programs, 
+>favorites, suggestions, please let me know.  I am currently exploring 
+>EnergyPlus and its interface possibilities.  Thank you.
+>
+>Charlie Weber
+>Design Associate
+>
+>Ecosa Institute
+>www.ecosainstitute.org
+>212 B S. Marina St. - Prescott, AZ 86303
+>
+>928-541-1002    tel
+>928-776-8086    fax
+>502-500-6296    cell
+>
+>
+>
+>
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+Chris Jones, P.Eng.
+14 Oneida Avenue
+Toronto, ON M5J2E3
+Tel. 416 203-7465
+Fax. 416 946-1005 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060308/acc05e43/attachment.htm>
+
+From weber at ecosainstitute.org  Tue Mar  7 10:40:38 2006
+From: weber at ecosainstitute.org (Charlie Weber)
+Date: Tue, 7 Mar 2006 11:40:38 -0700
+Subject: [BLDG-SIM] OPEN SOURCE PROGRAMS and BEST INTERFACES for ENERGYPLUS
+Message-ID: <MDAEMON-F200603071243.AA4338281pd80001011648@gard.com>
+
+Hello all...
+I am working on a technology grant for the Ecosa Institute, a budding ecological design school in Prescott, AZ, attracting student from all design disciplines.  Our practice-based educational model engages students in real projects with real clients.  The projects range from single-family homes to large institutional buildings.  Keeping up with the latest technology is a challenging task for our non-profit and I am exploring the most effective ways to do so.  I am looking into applying for a technology grant to fund products that will support the use of open source programs for graphic design, architectural drafting, site/building systems/energy modeling, etc.  If anyone knows the availability of such programs, favorites, suggestions, please let me know.  I am currently exploring EnergyPlus and its interface possibilities.  Thank you.
+  
+Charlie Weber
+Design Associate
+
+Ecosa Institute
+www.ecosainstitute.org
+212 B S. Marina St. - Prescott, AZ 86303
+
+928-541-1002    tel
+928-776-8086    fax
+502-500-6296    cell
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060307/16d4009b/attachment.htm>
+
+From john_m_porterfield at yahoo.com  Mon Mar  6 21:01:07 2006
+From: john_m_porterfield at yahoo.com (John Porterfield)
+Date: Mon, 6 Mar 2006 21:01:07 -0800 (PST)
+Subject: [BLDG-SIM] Net Zero and Nearly Net Zero
+In-Reply-To: <MDAEMON-F200603040928.AA2821281pd80001523269@gard.com>
+Message-ID: <MDAEMON-F200603062306.AA0656406pd80001010939@gard.com>
+
+Brian,
+Wind is a less costly technology to expand grid generation capacity in many locations.  I'm curious how much renewable energy is created, and how much carbon/nuclear generation capacity avoided, by placing renewables on houses (i.e., scaling down to capacity of a residence).  Consider the amount of renewable energy created, and conventional capacity avoided, if one invested the, say, $20,000 or so (for a rooftop-scale system), in a company that develops renewable energy to compete head-to-head with conventional generating capacity addition.   
+An interesting comparison of generating capacity addition, by technology, accounting for the health and environmental cost of power production:  www.tellus.org  search for publication "Coal . . . "
+Opportunities to displace conventional generating capacity addition with renewable energy, based on renewable energy applied at the most promising locations and where a capacity addition choice is present, perhaps merit our attention (and enthusiasm!) more than the 'net zero' house.   
+John Porterfield
+john at energydetectives.com
+
+
+Brian Thornton <thorntonenergy at comcast.net> wrote:          st1\:*{behavior:url(#default#ieooui) }                     Thanks for all the many great replies to my query on Net Zero, and use of bio-mass CHP in addition to PV and wind in this context.
+   
+  To me, Net Zero is a very powerful term, and there are some important strict definitions and also a lot of support for interpreting the term on a project by project basis.  Net zero takes us out of achieving some percent of energy reduction in to the realm of true sustainability.  Net Zero has been applied primarily to homes, but would be a potent tool for commercial and institutional buildings as well. At the strictest level Net Zero energy refers to a building that generates annually on-site from on-site available renewable sources enough energy to equal the annual building energy usage.  This goal is a subset of the goal that buildings meet all of their energy needs from renewable sources in some way.  To me the Net Zero concept provides several benefits. 
+   
+    
+   Benchmark for measuring      achievement of a very aggressive energy design   
+   A target that can shape any      design and orient design towards a truly sustainable energy endpoint  
+   A ???sexy??? marketing      tool/concept to really help promote a step up from LEED and other energy %      reduction targets (which are great, but not enough) 
+   
+  Several people provided the link to a good summary article from BuildingGreen.com, in the October 2005 edition, that covers four NREL definitions related to Net Zero  http://www.buildinggreen.com/articles/  (Need to subscribe on line to download article) The first of these is the strictest version noted above. 
+   
+  Zero-net annual site-energy
+  Zero-net annual source energy
+  Zero-net annual energy cost
+  Zero-net annual emissions
+   
+  Another resource is a NAHB study on a net zero home model, which also provides these definitions, and other useful references, and is available for free.  http://www.toolbase.org/tertiaryT.asp?TrackID=&CategoryID=1979&DocumentID=4777
+   
+  Another way to consider this is in terms of what type of renewables are in the project.  Perhaps there is a hierarchy:
+   
+  0)  Conservation/Efficiency
+  1)  True off-grid on-site generation from solar and wind only
+  2)  Net zero, utility connected, meeting annual average energy usage from solar and wind only
+  3)  Add other renewables with off-site fuel supply to 2), such as bio-mass, wood and wood pellets, bio-diesel, ideally with combined heat and power
+  4)  Purchased renewables
+   
+  Achieving 1 and 2 for commercial buildings above a story or two in an urban setting is going to be very difficult, because the area available for PV compared to square footage of the building is so small.  (one person suggested the vertical axis wind turbines may be worth a closer look) Yet these commercial buildings are critical to push towards a sustainable energy design building stock.  
+   
+  There may be value in preserving ???Net Zero Energy???to refer strictly to 1) and 2), with on-site solar and wind only.  The concept is so powerful and useful in marketing and pushing the ideas with the people who will pay for it and design to it, that I think we need to find a way to use the terms more broadly.  As some pointed out, this is already being done with Zero Energy Homes, that may actually be 60% from renewables not 100%.  I plan to use the term ???Nearly Net Zero???, or perhaps ???Net Zero with PV and Off-site Wood???, and define if this is Nearly Net Zero for a. Energy, b. Source Energy, c. Energy Cost, and/or d. Emissions.  It may be reasonable or possible to assign a number description to this to help make comparisons.  For example, the project I am working on is getting to Nearly Net Zero Energy using conservation, PV, and a wood pellet CHP unit.
+   
+  Conservation (below ASHRAE 90.1 or other baseline):                70%
+  PV (or wind) on-site (true net zero generation):                            15%
+  Other renewables generated on-site (possible off-site fuel):         15%
+  Purchased Renewables:                                                             0%       (not needed to offset usage for my project, but also will be buying green power) 
+  -----------------------------------------
+  Nearly Net Zero: 70/15/15/0
+   
+  Here are some possible ways to carry the ideas forward. Many commentators on this string, and the Building Green article promote using the concept of Net Zero to push us into another level of energy achievement.  I would appreciate any additional comments on this.  
+   
+  Brian Thornton, PE
+   
+  Thornton Energy Consulting
+  p. 503-231-6600 f. 503-231-3555
+  thorntonenergy at comcast.net
+   
+  
+  
+ =====================================================You received this e-mail because you are subscribed to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this mailing list send a blank message to BLDG-SIM-UNSUBSCRIBE at GARD.COM 
+
+
+		
+---------------------------------
+Yahoo! Mail
+Bring photos to life! New PhotoMail  makes sharing a breeze. 
+			
+---------------------------------
+ Yahoo! Mail
+ Use Photomail to share photos without annoying attachments.
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060306/5f935007/attachment.htm>
+
+From ldegelman at cox.net  Mon Mar  6 20:19:50 2006
+From: ldegelman at cox.net (Larry Degelman)
+Date: Mon, 6 Mar 2006 22:19:50 -0600
+Subject: [BLDG-SIM] TWO weeks left for IBPSA News items
+Message-ID: <MDAEMON-F200603062225.AA2529328pd80001010924@gard.com>
+
+Time is drawing near. Please remind your affiliate members to get news items
+to me before 21 March.  I've received some interesting conference
+announcements from Australasia, Canada, and Germany.  Looks like 2006 is
+rich with simulation conferences! 
+
+ 
+
+Thanks for your participation.
+
+ 
+
+Larry Degelman, IBPSA News Chair
+
+ 
+
+===================================== 
+
+Larry O. Degelman, P.E.                  ldegelman at cox.net 
+
+Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+
+Texas A&M University
+
+=====================================
+
+ 
+
+ 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060306/07e82424/attachment.htm>
+
+From WetterM at utrc.utc.com  Mon Mar  6 09:48:54 2006
+From: WetterM at utrc.utc.com (Wetter, Michael           UTRC)
+Date: Mon, 6 Mar 2006 12:48:54 -0500 
+Subject: [BLDG-SIM] Call for presentations for ASHRAE Meeting 2007 --  Use of 'equati
+	on solver' for modeling and simulation
+Message-ID: <MDAEMON-F200603061154.AA542900pd80001010323@gard.com>
+
+Call for Presentations
+
+for Seminar at
+
+ASHRAE Meeting Dallas, Texas, January 27-31, 2007
+
+ 
+
+
+Seminar title
+
+Use of 'equation solver' for modeling and simulation
+
+ 
+
+
+Co-chairs
+
+Prof. Jean Lebrun, University of Liege
+ <mailto:J.Lebrun at ulg.ac.be> J.Lebrun at ulg.ac.be
+
+
+ 
+
+Michael Wetter, United Technologies Research Center
+ <mailto:WetterM at utrc.utc.com> WetterM at utrc.utc.com 
+
+ 
+
+We are looking for three to four speakers for a 90 minute seminar to be held
+at the ASHRAE meeting in Dallas. Please, see below for the seminar abstract
+and deadlines. For questions, please feel free to contact Prof. Jean Lebrun
+and Michael Wetter.
+
+
+Abstract
+
+
+ 
+
+This seminar shall show how simulation packages that are built using
+equation-based solvers can benefit the building energy community. Such
+software packages typically separate the formulation of a model's underlying
+physics from its numerical solution algorithms. This allows input-output
+free modeling, which facilitates model reuse and the selection of the
+numerical solution algorithm that is best suited for the problem at hand.
+Equation-based simulation packages are frequently used in various industrial
+sectors. In building energy simulation, however, they have not yet enjoyed
+wide-spread use. Based on a technology assessment and case-studies, this
+seminar shall stimulate discussions to understand their applicability,
+advantages and limitations for the building energy community.
+
+ 
+
+
+Deadlines
+
+
+May 1, 2006: Submission of 100-200 word abstract to WetterM at utrc.utc.com
+
+June 1, 2006: Notification of acceptance.
+
+July 1, 2006: Submission of presentation slides.
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060306/42d2694a/attachment.htm>
+
+From sarathyn at energynpower.com  Mon Mar  6 09:04:10 2006
+From: sarathyn at energynpower.com (Sarathy Narasimhan)
+Date: Mon, 6 Mar 2006 09:04:10 -0800
+Subject: [BLDG-SIM] CW Reset
+Message-ID: <MDAEMON-F200603061112.AA1217765pd80001010219@gard.com>
+
+I am trying to model condenser water LOAD-RESET (WB-RESET) with a WATER
+ECONOMIZER CHILLER and a CENTRIFUGAL CHILLER. For some reason, the
+centrifugal chiller is never running at all though I don't have any
+LOAD-MANAGEMENT for this run. My EQUIPMENT-CTRL sequencing is set to
+operate the water economizer chiller, followed by the centrifugal
+chiller. It works fine though with a FIXED control setpoint on the
+condenser water loop. Any suggestions will be greatly appreciated.
+
+ 
+
+Thank you,
+
+Sarathy Narasimhan
+
+ 
+
+ 
+
+
+This email is covered by the Electronic Communications Privacy Act, 18 U.S.C.  $$2510-2521 and is legally priviliged.  This information is confidential information and is intended only for the use of the individual or entity named above.  If the reader of the message is not the intended recipient, you are hereby notified that any dissemination, distribution or copying of this communication is strictly prohibited.
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060306/5ccb1979/attachment.htm>
+
+From cloris.chen at gmail.com  Mon Mar  6 03:53:43 2006
+From: cloris.chen at gmail.com (nicole chen)
+Date: Mon, 6 Mar 2006 19:53:43 +0800
+Subject: [BLDG-SIM] air cooled heat pump performance curves
+Message-ID: <MDAEMON-F200603060559.AA5903250pd80001009932@gard.com>
+
+Dear all
+
+I try to simulate a air cool heat pump system for two-pipe FC in Equest.
+when I changed the chiller type to "heat pump", the default performance
+curve for heat pump will be set in Equest. Most of the name of the curves
+are begin with "chlrHPAirheat",only that for EIRf(PLR) is
+"RecipAir-EIR-fPLR-4Comp/Ckt". I doubt this EIRf(PLR) curve maybe is
+suitable for air cooling reciprocating chiller. Can it be used for air
+cooled heat pump? Has any of you simulation the same system and used
+performance curves other than default ones? If there is any, would you
+please send me some air-cooled heat pump ( screw) curves?
+
+--
+Yours
+Nicole Chen
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060306/de3dab26/attachment.htm>
+
+From pedromanuelrc at yahoo.es  Sun Mar  5 22:38:05 2006
+From: pedromanuelrc at yahoo.es (Pedro Rodrigo)
+Date: Mon, 6 Mar 2006 07:38:05 +0100 (CET)
+Subject: [BLDG-SIM] Thermal capacitance of HVAC water-to-air equipment
+Message-ID: <MDAEMON-F200603060043.AA4329406pd80001009648@gard.com>
+
+Hi all:
+I need to know typical values of thermal capacitance
+for different kind of water-to-air zone equipment (i.
+e. radiators, fancoils, convectors) in orther to
+estimate the time delays between control actions and
+changes in zone temperature for designing predictive
+control strategies.
+I can?t find it in manufacturer datasheets. Do you
+know some indicative values?
+Thanks in advance,
+Regards,
+
+Pedro Manuel Rodrigo Cruz
+University of Jaen, Spain
+
+
+		
+______________________________________________ 
+LLama Gratis a cualquier PC del Mundo. 
+Llamadas a fijos y m?viles desde 1 c?ntimo por minuto. 
+http://es.voice.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From shaunmartin at shaw.ca  Sat Mar  4 09:36:37 2006
+From: shaunmartin at shaw.ca (Shaun Martin)
+Date: Sat, 04 Mar 2006 09:36:37 -0800
+Subject: [BLDG-SIM] Net Zero and Nearly Net Zero
+In-Reply-To: <MDAEMON-F200603040928.AA2833828pd80001523549@gard.com>
+Message-ID: <MDAEMON-F200603041139.AA3916203pd80001008603@gard.com>
+
+Brian,
+
+Another survey you might find useful is the CADDET No.14 "Advanced Houses of
+the World", May 1995.  It's a good review of what worked and what didn't in
+25 buildings.
+
+Shaun
+
+Shaun Martin
+Principal
+Shaun Martin Consulting
+2840 West 11th Avenue
+Vancouver, BC V6K 2M1
+tel 604-789-1095
+email shaunmartin at shaw.ca
+
+
+
+-----Original Message-----
+From: BLDG-SIM at GARD.COM [mailto:BLDG-SIM at GARD.COM]On Behalf Of Brian
+Thornton
+Sent: March 4, 2006 7:23 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Net Zero and Nearly Net Zero
+
+
+Thanks for all the many great replies to my query on Net Zero, and use of
+bio-mass CHP in addition to PV and wind in this context.
+
+To me, Net Zero is a very powerful term, and there are some important strict
+definitions and also a lot of support for interpreting the term on a project
+by project basis.  Net zero takes us out of achieving some percent of energy
+reduction in to the realm of true sustainability.  Net Zero has been applied
+primarily to homes, but would be a potent tool for commercial and
+institutional buildings as well. At the strictest level Net Zero energy
+refers to a building that generates annually on-site from on-site available
+renewable sources enough energy to equal the annual building energy usage.
+This goal is a subset of the goal that buildings meet all of their energy
+needs from renewable sources in some way.  To me the Net Zero concept
+provides several benefits.
+
+Benchmark for measuring achievement of a very aggressive energy design
+A target that can shape any design and orient design towards a truly
+sustainable energy endpoint
+A "sexy" marketing tool/concept to really help promote a step up from LEED
+and other energy % reduction targets (which are great, but not enough)
+
+Several people provided the link to a good summary article from
+BuildingGreen.com, in the October 2005 edition, that covers four NREL
+definitions related to Net Zero  http://www.buildinggreen.com/articles/
+(Need to subscribe on line to download article) The first of these is the
+strictest version noted above.
+
+Zero-net annual site-energy
+Zero-net annual source energy
+Zero-net annual energy cost
+Zero-net annual emissions
+
+Another resource is a NAHB study on a net zero home model, which also
+provides these definitions, and other useful references, and is available
+for free.
+http://www.toolbase.org/tertiaryT.asp?TrackID=&CategoryID=1979&DocumentID=47
+77
+
+Another way to consider this is in terms of what type of renewables are in
+the project.  Perhaps there is a hierarchy:
+
+0)  Conservation/Efficiency
+1)  True off-grid on-site generation from solar and wind only
+2)  Net zero, utility connected, meeting annual average energy usage from
+solar and wind only
+3)  Add other renewables with off-site fuel supply to 2), such as bio-mass,
+wood and wood pellets, bio-diesel, ideally with combined heat and power
+4)  Purchased renewables
+
+Achieving 1 and 2 for commercial buildings above a story or two in an urban
+setting is going to be very difficult, because the area available for PV
+compared to square footage of the building is so small.  (one person
+suggested the vertical axis wind turbines may be worth a closer look) Yet
+these commercial buildings are critical to push towards a sustainable energy
+design building stock.
+
+There may be value in preserving "Net Zero Energy"to refer strictly to 1)
+and 2), with on-site solar and wind only.  The concept is so powerful and
+useful in marketing and pushing the ideas with the people who will pay for
+it and design to it, that I think we need to find a way to use the terms
+more broadly.  As some pointed out, this is already being done with Zero
+Energy Homes, that may actually be 60% from renewables not 100%.  I plan to
+use the term "Nearly Net Zero", or perhaps "Net Zero with PV and Off-site
+Wood", and define if this is Nearly Net Zero for a. Energy, b. Source
+Energy, c. Energy Cost, and/or d. Emissions.  It may be reasonable or
+possible to assign a number description to this to help make comparisons.
+For example, the project I am working on is getting to Nearly Net Zero
+Energy using conservation, PV, and a wood pellet CHP unit.
+
+Conservation (below ASHRAE 90.1 or other baseline):                70%
+PV (or wind) on-site (true net zero generation):
+15%
+Other renewables generated on-site (possible off-site fuel):         15%
+Purchased Renewables:
+0%       (not needed to offset usage for my project, but also will be buying
+green power)
+-----------------------------------------
+Nearly Net Zero: 70/15/15/0
+
+Here are some possible ways to carry the ideas forward. Many commentators on
+this string, and the Building Green article promote using the concept of Net
+Zero to push us into another level of energy achievement.  I would
+appreciate any additional comments on this.
+
+Brian Thornton, PE
+
+Thornton Energy Consulting
+p. 503-231-6600 f. 503-231-3555
+thorntonenergy at comcast.net
+
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From thorntonenergy at comcast.net  Sat Mar  4 07:22:50 2006
+From: thorntonenergy at comcast.net (Brian Thornton)
+Date: Sat, 4 Mar 2006 07:22:50 -0800
+Subject: [BLDG-SIM] Net Zero and Nearly Net Zero
+Message-ID: <MDAEMON-F200603040928.AA282193pd80001008467@gard.com>
+
+Thanks for all the many great replies to my query on Net Zero, and use of
+bio-mass CHP in addition to PV and wind in this context.
+
+ 
+
+To me, Net Zero is a very powerful term, and there are some important strict
+definitions and also a lot of support for interpreting the term on a project
+by project basis.  Net zero takes us out of achieving some percent of energy
+reduction in to the realm of true sustainability.  Net Zero has been applied
+primarily to homes, but would be a potent tool for commercial and
+institutional buildings as well. At the strictest level Net Zero energy
+refers to a building that generates annually on-site from on-site available
+renewable sources enough energy to equal the annual building energy usage.
+This goal is a subset of the goal that buildings meet all of their energy
+needs from renewable sources in some way.  To me the Net Zero concept
+provides several benefits. 
+
+ 
+
+*	Benchmark for measuring achievement of a very aggressive energy
+design 
+*	A target that can shape any design and orient design towards a truly
+sustainable energy endpoint
+*	A "sexy" marketing tool/concept to really help promote a step up
+from LEED and other energy % reduction targets (which are great, but not
+enough)
+
+ 
+
+Several people provided the link to a good summary article from
+BuildingGreen.com, in the October 2005 edition, that covers four NREL
+definitions related to Net Zero  http://www.buildinggreen.com/articles/
+(Need to subscribe on line to download article) The first of these is the
+strictest version noted above. 
+
+ 
+
+Zero-net annual site-energy
+
+Zero-net annual source energy
+
+Zero-net annual energy cost
+
+Zero-net annual emissions
+
+ 
+
+Another resource is a NAHB study on a net zero home model, which also
+provides these definitions, and other useful references, and is available
+for free.  http://www.toolbase.org/tertiaryT.asp?TrackID=
+<http://www.toolbase.org/tertiaryT.asp?TrackID=&CategoryID=1979&DocumentID=4
+777> &CategoryID=1979&DocumentID=4777
+
+ 
+
+Another way to consider this is in terms of what type of renewables are in
+the project.  Perhaps there is a hierarchy:
+
+ 
+
+0)  Conservation/Efficiency
+
+1)  True off-grid on-site generation from solar and wind only
+
+2)  Net zero, utility connected, meeting annual average energy usage from
+solar and wind only
+
+3)  Add other renewables with off-site fuel supply to 2), such as bio-mass,
+wood and wood pellets, bio-diesel, ideally with combined heat and power
+
+4)  Purchased renewables
+
+ 
+
+Achieving 1 and 2 for commercial buildings above a story or two in an urban
+setting is going to be very difficult, because the area available for PV
+compared to square footage of the building is so small.  (one person
+suggested the vertical axis wind turbines may be worth a closer look) Yet
+these commercial buildings are critical to push towards a sustainable energy
+design building stock.  
+
+ 
+
+There may be value in preserving "Net Zero Energy"to refer strictly to 1)
+and 2), with on-site solar and wind only.  The concept is so powerful and
+useful in marketing and pushing the ideas with the people who will pay for
+it and design to it, that I think we need to find a way to use the terms
+more broadly.  As some pointed out, this is already being done with Zero
+Energy Homes, that may actually be 60% from renewables not 100%.  I plan to
+use the term "Nearly Net Zero", or perhaps "Net Zero with PV and Off-site
+Wood", and define if this is Nearly Net Zero for a. Energy, b. Source
+Energy, c. Energy Cost, and/or d. Emissions.  It may be reasonable or
+possible to assign a number description to this to help make comparisons.
+For example, the project I am working on is getting to Nearly Net Zero
+Energy using conservation, PV, and a wood pellet CHP unit.
+
+ 
+
+Conservation (below ASHRAE 90.1 or other baseline):                70%
+
+PV (or wind) on-site (true net zero generation):
+15%
+
+Other renewables generated on-site (possible off-site fuel):         15%
+
+Purchased Renewables:
+0%       (not needed to offset usage for my project, but also will be buying
+green power) 
+
+-----------------------------------------
+
+Nearly Net Zero: 70/15/15/0
+
+ 
+
+Here are some possible ways to carry the ideas forward. Many commentators on
+this string, and the Building Green article promote using the concept of Net
+Zero to push us into another level of energy achievement.  I would
+appreciate any additional comments on this.  
+
+ 
+
+Brian Thornton, PE
+
+ 
+
+Thornton Energy Consulting
+
+p. 503-231-6600 f. 503-231-3555
+
+thorntonenergy at comcast.net
+
+ 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060304/d0c6711f/attachment.htm>
+
+From answers at healthyheating.com  Fri Mar  3 07:28:49 2006
+From: answers at healthyheating.com (answers at healthyheating.com)
+Date: Fri, 3 Mar 2006 08:28:49 -0700
+Subject: [BLDG-SIM] About thermostatic valves in zone equipment
+In-Reply-To: <MDAEMON-F200603030241.AA4107375pd80001519654@gard.com>
+Message-ID: <MDAEMON-F200603030934.AA3422484pd80001007534@gard.com>
+
+Pedro,
+
+If your coils are based on a 20 deg F delta T with 180 deg F fluid
+supply temperatures ( variable flow constant temp) you will need valves
+with inverse characteristics to the fan/coil (i.e. Logrithmic (eq%) or
+modified splits)... constant flow variable temp systems tend to behave
+more linear...i.e. 50 flow delivers 50% output.
+Ref.: Total Hydronic Balancing, Prof. Robert Petijean.
+
+Best Regards,
+
+Robert Bean, R.E.T.
+Registered Engineering Technologist
+Professional Services
+Corporate Development and Building Technologies
+
+Home of the Carlson ? Holohan Industry Award of Excellence
+?
+Tel.: 403.255.0121
+Cell: 403.560.5769
+Email: info at healthyheating.com
+http://www.healthyheating.com/ 
+?
+?
+-----Original Message-----
+From: BLDG-SIM at gard.com [mailto:BLDG-SIM at gard.com] On Behalf Of Pedro
+Rodrigo
+Sent: Friday, March 03, 2006 1:36 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] About thermostatic valves in zone equipment
+
+Hi all:
+We?re modelling a building with a number of
+water-to-air fancoils in each thermal zone.
+We have yet built the coils without problems.
+However we are not sure about the valves that control
+water flow rate. We think that processes such us
+histeresis, uncertainties in actuator position or
+relation between position and water flow should be
+taken into account.
+We have lacks of references and documentation about
+this.
+Do you know something interesting to read about the
+matter?
+Thanks in advance,
+Regards,
+
+Pedro Manuel Rodrigo Cruz
+University of Jaen, Spain
+
+
+		
+______________________________________________ 
+LLama Gratis a cualquier PC del Mundo. 
+Llamadas a fijos y m?viles desde 1 c?ntimo por minuto. 
+http://es.voice.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jeremy at esru.strath.ac.uk  Fri Mar  3 01:53:07 2006
+From: jeremy at esru.strath.ac.uk (Jeremy Cockroft)
+Date: Fri, 3 Mar 2006 09:53:07 -0000
+Subject: [BLDG-SIM] About thermostatic valves in zone equipment
+Message-ID: <MDAEMON-F200603030400.AA0032546pd80001007224@gard.com>
+
+In a previous life, I was involved in the modeling of thermostatic radiator valves.  By this I mean self actuating valves using either a fluid phase change or wax capsule to operate the valve.  If this is what you mean, then it depends if you want to be able to model control instabilities due to the long time constants involved.  If this is not a concern, then I suggest you model as a proportional controller with very wide proportional band - say 5K or so.
+
+We were a commercial company, so nothing was published on this topic, but if you want more detail, I might be able to help you.
+
+Jeremy Cockroft, ESRU, University of Strathclyde.
+
+-----Original Message-----
+From: BLDG-SIM at GARD.COM [mailto:BLDG-SIM at GARD.COM] On Behalf Of Pedro Rodrigo
+Sent: 03 March 2006 08:36
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] About thermostatic valves in zone equipment
+
+Hi all:
+We?re modelling a building with a number of
+water-to-air fancoils in each thermal zone.
+We have yet built the coils without problems.
+However we are not sure about the valves that control
+water flow rate. We think that processes such us
+histeresis, uncertainties in actuator position or
+relation between position and water flow should be
+taken into account.
+We have lacks of references and documentation about
+this.
+Do you know something interesting to read about the
+matter?
+Thanks in advance,
+Regards,
+
+Pedro Manuel Rodrigo Cruz
+University of Jaen, Spain
+
+
+		
+______________________________________________ 
+LLama Gratis a cualquier PC del Mundo. 
+Llamadas a fijos y m?viles desde 1 c?ntimo por minuto. 
+http://es.voice.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From pedromanuelrc at yahoo.es  Fri Mar  3 00:35:49 2006
+From: pedromanuelrc at yahoo.es (Pedro Rodrigo)
+Date: Fri, 3 Mar 2006 09:35:49 +0100 (CET)
+Subject: [BLDG-SIM] About thermostatic valves in zone equipment
+Message-ID: <MDAEMON-F200603030241.AA4109984pd80001007143@gard.com>
+
+Hi all:
+We?re modelling a building with a number of
+water-to-air fancoils in each thermal zone.
+We have yet built the coils without problems.
+However we are not sure about the valves that control
+water flow rate. We think that processes such us
+histeresis, uncertainties in actuator position or
+relation between position and water flow should be
+taken into account.
+We have lacks of references and documentation about
+this.
+Do you know something interesting to read about the
+matter?
+Thanks in advance,
+Regards,
+
+Pedro Manuel Rodrigo Cruz
+University of Jaen, Spain
+
+
+		
+______________________________________________ 
+LLama Gratis a cualquier PC del Mundo. 
+Llamadas a fijos y m?viles desde 1 c?ntimo por minuto. 
+http://es.voice.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From pande at h-m-g.com  Thu Mar  2 23:03:42 2006
+From: pande at h-m-g.com (Abhijeet Pande)
+Date: Thu, 2 Mar 2006 23:03:42 -0800
+Subject: [BLDG-SIM] how to use doe2 weather utilities
+Message-ID: <MDAEMON-F200603030110.AA1044187pd80001007044@gard.com>
+
+Nicole,
+The command for converting bin file to text file is MKAFT. This is a
+batch file that uses the BIN2TXT.exe executable to convert a .bin file
+in the weather directory to a text file.
+Below is an excerpt from the DOE2 weather utilities readme file - 
+ 
+MKAFT.BAT  Batch file to create a text file from a binary file using
+BIN2TXT
+              useage:  MKAFT filename
+              filename is DOE-2 binary (filename.bin) in WEATHER (no
+extension)
+              filename.ft is placed in WEATHER directory
+
+Assuming your bin file name is example.bin, type " MKAFT example" to
+create example.ft file in the weather directory.
+You may also need to edit the MKAFT.Bat file to set the path to your DOE
+weather directory, weather.bin and weather.fmt files.
+ 
+Hope this helps,
+Abhijeet Pande
+Project Manager
+Heschong Mahone Group
+11626 Fair Oaks Blvd. #302
+Fair Oaks, CA 95628 (Sacramento area) 
+ph (916) 962-7001 x35
+fax (916) 962-0101
+pande at h-m-g.com
+web site: www.h-m-g.com 
+
+
+________________________________
+
+From: BLDG-SIM at GARD.COM [mailto:BLDG-SIM at GARD.COM] On Behalf Of nicole
+chen
+Sent: Thursday, March 02, 2006 9:54 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] how to use doe2 weather utilities
+
+
+Dear all
+ 
+I am now trying to  convert bin weather file to txt file. I tried the
+bin2txt.exe downloaded form doe2 website. But I can not open the
+program.  the following error message is always displayed:"*ERR* IO-09
+system file error--end of file". I am wondering how to use this weather
+utility. And by the way the operating system is window2000. would you
+please tell me how to convert bin file to txt file.Thank you very much
+in advance.
+
+ 
+
+-- 
+Yours
+Nicole Chen 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060302/94d09a65/attachment.htm>
+
+From cloris.chen at gmail.com  Thu Mar  2 21:53:42 2006
+From: cloris.chen at gmail.com (nicole chen)
+Date: Fri, 3 Mar 2006 13:53:42 +0800
+Subject: [BLDG-SIM] how to use doe2 weather utilities
+Message-ID: <MDAEMON-F200603022358.AA5858265pd80001006933@gard.com>
+
+Dear all
+
+I am now trying to  convert bin weather file to txt file. I tried the
+bin2txt.exe downloaded form doe2 website. But I can not open the program.
+the following error message is always displayed:"*ERR* IO-09 system file
+error--end of file". I am wondering how to use this weather utility. And by
+the way the operating system is window2000. would you please tell me how to
+convert bin file to txt file.Thank you very much in advance.
+
+
+--
+Yours
+Nicole Chen
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060303/8a5b6915/attachment.htm>
+
+From Bob.Ramirez at itron.com  Thu Mar  2 14:01:35 2006
+From: Bob.Ramirez at itron.com (Ramirez, Bob)
+Date: Thu, 2 Mar 2006 14:01:35 -0800
+Subject: [BLDG-SIM] Job Openings: Itron Consulting & Analysis, San Diego
+Message-ID: <MDAEMON-F200603021606.AA0658921pd80001006572@gard.com>
+
+Engineer/Senior Engineer
+Itron's Consulting and Analysis division is seeking both junior and
+senior level engineers to provide engineering support to our diverse
+staff of analysts and economists in our San Diego office.  The
+successful candidate will provide engineering and other analytical
+support for projects, assist in preparing reports and proposals, prepare
+and present papers at conferences, and will manage tasks and projects.
+Occasional client contact may be required.  The ideal candidate will
+also be self-driven, detail-oriented, learn quickly, and be able to work
+independently or as part of a team.  Experience and/or a strong interest
+in learning about building energy use assessment, computer modeling
+(e.g., eQuest/DOE2.2), familiarity with building equipment and systems,
+and utility energy incentive programs is desired.
+ 
+A Bachelor Degree in Mechanical Engineeering, Environmental Engineering,
+or Physics is preferred.  Advanced degree, E.I.T. or P.E. license,
+and/or experience in the energy industry are beneficial.  Potential
+candidates must be proficient with Microsoft Office software, including
+Excel and Access, and possess excellent communication, research, and
+analytical skills.
+ 
+Compensation depends on experience and qualifications.  Itron offers an
+exceptional benefits package.  Resumes should be submitted by mail to
+Angela Nenn at Itron, Inc., 11236 El Camino Real, San Diego, CA 92130,
+or by email to angela.nenn at itron.com.  Please specify job code
+ENG-BLDGSIM.
+ 
+For more information about C&A Services, follow the link: Itron C&A
+Services
+<http://www.itron.com/pages/products_category.asp?id=itr_000796.xml> 
+ 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060302/bface14f/attachment.htm>
+
+From pbailey at greenbuildingstudio.com  Thu Mar  2 10:16:23 2006
+From: pbailey at greenbuildingstudio.com (Pat Bailey)
+Date: Thu, 2 Mar 2006 10:16:23 -0800
+Subject: [BLDG-SIM] Glazing costs
+Message-ID: <MDAEMON-F200603021222.AA2205375pd80001006240@gard.com>
+
+Mate,
+
+Another resource is the California DEER database that lists costs for
+various energy efficient building components.  Some of the entries are a
+bit confusing, but the database does have information on the incremental
+cost of high performance glass per square foot.
+
+http://eega.cpuc.ca.gov/deer/
+
+Pat Bailey
+
+_____________________________________
+Pat Bailey, PE
+Green Building Studio, Inc.
+444 Tenth Street, Suite 300
+Santa Rosa, CA 95401
+ 
+707-569-7373 x101 - voice
+707-569-7313 - fax
+
+
+-----Original Message-----
+From: BLDG-SIM at GARD.COM [mailto:BLDG-SIM at GARD.COM] On Behalf Of
+gte179e at mail.gatech.edu
+Sent: Wednesday, March 01, 2006 12:08 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Glazing costs
+
+Dear all,
+
+    I am trying to find out about construction, material and cleaning
+costs of different curtain wall systems. The cost information will be
+used in my study on techno-economic optimization of smart double-skin
+facade systems. I would appreciate if anyone can help me obtain the
+information. It is impossible for me to get the information from glazer
+or cost estimating companies because they require a construction
+contract. I only need to know average costs of different products
+(single/double clear glazing, single/double low-e glazing).
+I do not need to know brands of the products. If anyone can help me,
+please contact me at mate.thitisawat at arch.gatech.edu or (404)451-0153.
+
+Best regards,
+Mate Thitisawat
+
+==================
+You received this e-mail because you are subscribed to the
+BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this mailing list
+send a blank message to BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From YLui at eypmcf.com  Thu Mar  2 08:38:53 2006
+From: YLui at eypmcf.com (Yury Lui)
+Date: Thu, 2 Mar 2006 11:38:53 -0500
+Subject: [BLDG-SIM] eQuest End User Reporting Problems
+Message-ID: <MDAEMON-F200603021044.AA4422140pd80001006071@gard.com>
+
+Dear all,
+
+I really hope someone would have a solution. After stimulate a baseline
+design, I have problems with the "Enduse" reporting format. All the end
+user reports has a legend box without any graphic/table/result. The
+"monthly Electric Peak Day Load Profiles" report does have a reasonable
+energy use profile that break down into different building system. FYI,
+there is no BDL error. I have an electricity and fuel meter setup. 
+
+So, in short, I need to know why the energy consumption does not break
+down into individual building systems. 
+
+Thanks in advance!
+
+Yury
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From harry.boyer at univ-reunion.fr  Wed Mar  1 19:59:52 2006
+From: harry.boyer at univ-reunion.fr (Harry BOYER)
+Date: Thu, 02 Mar 2006 04:59:52 +0100
+Subject: [BLDG-SIM] Special  session " Energy and Systems Simulation in Buildings for
+ Hot Climates" in Gaborone, Botswana
+Message-ID: <MDAEMON-F200603012003.AA0314750pd80001005367@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060302/1f6ec9d5/attachment.htm>
+
+From norm_weaver at interwvr.com  Wed Mar  1 13:19:27 2006
+From: norm_weaver at interwvr.com (Norm Weaver)
+Date: Wed, 1 Mar 2006 14:19:27 -0700
+Subject: [BLDG-SIM] Glazing costs
+In-Reply-To: <MDAEMON-F200603011414.AA141162pd80001511782@gard.com>
+Message-ID: <MDAEMON-F200603011525.AA2545375pd80001005105@gard.com>
+
+Mate,
+
+I'd suggest checking RS Means costing guides including the "Green Building
+Project Planning and Cost Estimating" guide.
+
+
+R.S. Means
+Construction Plaza
+63 Smiths Lane
+Kingston, MA 02364-0800
+(781) 422-5000
+
+
+Good Luck,
+
+Norm Weaver, P.E.
+InterWeaver Consulting
+P.O. Box 775444
+Steamboat Springs, CO 80477
+email: norm_weaver at interwvr.com
+phone: 970-870-1710
+
+
+-----Original Message-----
+From: BLDG-SIM at gard.com [mailto:BLDG-SIM at gard.com]On Behalf Of
+gte179e at mail.gatech.edu
+Sent: Wednesday, March 01, 2006 1:08 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Glazing costs
+
+
+Dear all,
+
+    I am trying to find out about construction, material and cleaning costs
+of
+different curtain wall systems. The cost information will be used in my
+study
+on techno-economic optimization of smart double-skin facade systems. I would
+appreciate if anyone can help me obtain the information. It is impossible
+for
+me to get the information from glazer or cost estimating companies because
+they require a construction contract. I only need to know average costs of
+different products (single/double clear glazing, single/double low-e
+glazing).
+I do not need to know brands of the products. If anyone can help me, please
+contact me at mate.thitisawat at arch.gatech.edu or (404)451-0153.
+
+Best regards,
+Mate Thitisawat
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From gte179e at mail.gatech.edu  Wed Mar  1 12:08:17 2006
+From: gte179e at mail.gatech.edu (gte179e at mail.gatech.edu)
+Date: Wed,  1 Mar 2006 15:08:17 -0500
+Subject: [BLDG-SIM] Glazing costs
+In-Reply-To: <MDAEMON-F200603011013.AA1348218pd80001510157@gard.com>
+References: <MDAEMON-F200603011013.AA1348218pd80001510157@gard.com>
+Message-ID: <MDAEMON-F200603011414.AA1402140pd80001004984@gard.com>
+
+Dear all,
+
+    I am trying to find out about construction, material and cleaning costs of
+different curtain wall systems. The cost information will be used in my study
+on techno-economic optimization of smart double-skin facade systems. I would
+appreciate if anyone can help me obtain the information. It is impossible for
+me to get the information from glazer or cost estimating companies because
+they require a construction contract. I only need to know average costs of
+different products (single/double clear glazing, single/double low-e glazing).
+I do not need to know brands of the products. If anyone can help me, please
+contact me at mate.thitisawat at arch.gatech.edu or (404)451-0153.
+
+Best regards,
+Mate Thitisawat
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ajain at setty.com  Wed Mar  1 08:08:30 2006
+From: ajain at setty.com (Alpana Jain)
+Date: Wed, 1 Mar 2006 11:08:30 -0500
+Subject: [BLDG-SIM] blast proof galzing
+Message-ID: <MDAEMON-F200603011013.AA1349984pd80001004584@gard.com>
+
+ 
+
+Hi 
+
+ 
+
+I am looking for thermal properties of blast proof glazing ( glass
+U-value)
+
+Can anyone help me on this? Or direct me to some relavant resource?
+
+ 
+
+Thank you
+
+Alpana
+
+ 
+
+________________________________
+
+Alpana Jain Kapoor, LEED AP
+
+Setty & Associates, Ltd
+
+10340 Democracy Lane, Suite #304
+
+Fairfax, VA - 22030
+
+703.691.2115 ext.19 (work)
+
+703.691.8084 (fax)
+
+Mail: ajain at setty.com <mailto:ajain at setty.com> 
+
+Web: www.setty.com <http://www.setty.com/> 
+
+"I get up, I walk, I fall down; meanwhile I keep dancing"
+
+________________________________
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060301/03ca03f1/attachment.htm>
+
+From cj at cr-jay.ca  Wed Mar  1 07:51:24 2006
+From: cj at cr-jay.ca (Chris Jones)
+Date: Wed, 01 Mar 2006 10:51:24 -0500
+Subject: [BLDG-SIM] Of behalf of Esim 2006 Software Showdown
+In-Reply-To: <MDAEMON-F200602281645.AA4511250pd80001507960@gard.com>
+References: <MDAEMON-F200602281645.AA4511250pd80001507960@gard.com>
+Message-ID: <MDAEMON-F200603010953.AA5355937pd80001004513@gard.com>
+
+Dear Colleagues:
+
+You are invited to demonstrate your software during a "software showdown" 
+to be held at the upcoming eSim 2006 conference in Toronto 
+(http://www.esim.ca).
+
+If you are interested in this opportunity, please contact the Conference 
+Chair, Dr. Ted Kesik at <mailto:ted.kesik at utoronto.ca>ted.kesik at utoronto.ca 
+for further information.  Software demonstrators will be provided with 
+appropriate time and facilities needed to showcase their 
+applications.  While there are no expense allowances available to software 
+demonstrators, those that are selected will receive a complimentary pass to 
+the conference and banquet.
+
+Please reply by no later than March 17, 2006.
+
+
+Dr. Ted Kesik, P.Eng.
+Faculty of Architecture, Landscape and Design
+University of Toronto
+230 College Street
+Toronto ON Canada M5T 1R2
+416 978-0849  Fax 416 971-2094
+<mailto:ted.kesik at utoronto.ca>ted.kesik at utoronto.ca
+www.ald.utoronto.ca
+
+
+
+
+
+Chris Jones, P.Eng.
+14 Oneida Avenue
+Toronto, ON M5J2E3
+Tel. 416 203-7465
+Fax. 416 946-1005 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20060301/e629a7ac/attachment.htm>
+

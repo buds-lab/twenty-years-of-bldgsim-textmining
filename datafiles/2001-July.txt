@@ -1,0 +1,1245 @@
+From Dominique.Michaud at dessausoprin.com  Tue Jul 31 08:30:56 2001
+From: Dominique.Michaud at dessausoprin.com (Dominique Michaud)
+Date: Tue, 31 Jul 2001 11:30:56 -0400
+Subject: [BLDG-SIM] DOE2.1E Heat recovery question
+Message-ID: <MDAEMON-F200107311029.AA291478pd80000066010@gard.com>
+
+
+From daylight at softcom.net  Mon Jul 23 21:17:39 2001
+From: daylight at softcom.net (Jon McHugh)
+Date: Mon, 23 Jul 2001 21:17:39 -0700
+Subject: [BLDG-SIM] Weather files for Energy Simulation (WYEC2)
+Message-ID: <MDAEMON-F200107232306.AA061062pd80000064377@gard.com>
+
+Robert,
+
+It isn't exctly in WYEC2 format but NREL has for free download  TMY2 hourly "typical metereological year" climate files for 239 cities in the US and its territories.  Go to http://rredc.nrel.gov/solar/old_data/nsrdb/tmy2/ for more information.
+
+Jon McHugh
+
+----------
+From: 	Calla, Robert[SMTP:RCalla at NRCan.gc.ca]
+Sent: 	Monday, July 23, 2001 12:20 PM
+To: 	BLDG-SIM at gard.com
+Subject: 	[BLDG-SIM] Weather files for Energy Simulation (WYEC2)
+
+Hello,
+
+I am looking for weather files for energy simulation in WYEC2 format for the
+following US cities:
+
+Los Angeles
+Denver 
+Honalulu
+Chicago
+New York City
+Charlotte 
+Philadelphia
+Houston
+Hartford
+
+ASHRAE has WYEC2 weather data for some of these cities only. Does anyone
+know of another source I may turn to for this information?
+
+Thank you in advance.
+
+______________________
+Robert Calla, Project Leader
+Buildings Group, NRCan/CETC
+580 Booth Street, 13th Floor
+Ottawa, ON   K1A 0E4
+e-mail: rcalla at nrcan.gc.ca
+Tel: (613) 947-6601
+www.buildingsgroup.net
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From RCalla at NRCan.gc.ca  Mon Jul 23 12:20:08 2001
+From: RCalla at NRCan.gc.ca (Calla, Robert)
+Date: Mon, 23 Jul 2001 15:20:08 -0400
+Subject: [BLDG-SIM] Weather files for Energy Simulation (WYEC2)
+Message-ID: <MDAEMON-F200107231417.AA172345pd80000064261@gard.com>
+
+Hello,
+
+I am looking for weather files for energy simulation in WYEC2 format for the
+following US cities:
+
+Los Angeles
+Denver 
+Honalulu
+Chicago
+New York City
+Charlotte 
+Philadelphia
+Houston
+Hartford
+
+ASHRAE has WYEC2 weather data for some of these cities only. Does anyone
+know of another source I may turn to for this information?
+
+Thank you in advance.
+
+______________________
+Robert Calla, Project Leader
+Buildings Group, NRCan/CETC
+580 Booth Street, 13th Floor
+Ottawa, ON   K1A 0E4
+e-mail: rcalla at nrcan.gc.ca
+Tel: (613) 947-6601
+www.buildingsgroup.net
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Dominique.Michaud at dessausoprin.com  Fri Jul 20 12:03:18 2001
+From: Dominique.Michaud at dessausoprin.com (Dominique Michaud)
+Date: Fri, 20 Jul 2001 15:03:18 -0400
+Subject: [BLDG-SIM]
+Message-ID: <MDAEMON-F200107201401.AA011650pd80000063862@gard.com>
+
+I am trying to simulate a heat-recovery system in DOE2.1. 
+
+If I choose a SZRH system with 65% heat-recovery, I get the expected mixed
+air temperature values:
+-9?F outside air
+72?F return air
+64?F mixed air
+
+If I then replace the SZRH with a RHFS, the heat-recovery then doesn't seem
+to work:
+-9?F outside air
+72?F return air
+51?F mixed air
+
+Can anyone help explain this anomaly?
+
+
+Dominique Michaud
+Building Energy Technician
+Dessau-Soprin Inc.
+375 blvd Rolland-Therrien, Suite 400
+Longueuil, Quebec, J4H 4A6
+Tel.: (514) 281-1033 ext 2568
+Fax: (514) 442-9996
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Jaime.Birman at arup.com  Fri Jul 20 11:16:33 2001
+From: Jaime.Birman at arup.com (Jaime Birman)
+Date: Fri, 20 Jul 2001 19:16:33 +0100
+Subject: [BLDG-SIM] Tel Aviv, Israel Weather Data
+Message-ID: <MDAEMON-F200107201318.AA182667pd80000063836@gard.com>
+
+Hello, I I have been looking for TMY weather data for Raanana, a
+Mediterranean coastal City near Tel Aviv, Israel for quite some time without
+much luck.  The only lead I do have is to use the Meteonorm software which
+gives output in various format.  Could you provide me with any other Leads?
+Any thought on the Meteonorm Software?
+
+I thank you in advance for your help.
+
+______________________________
+Jaime Birman
+Mechanical Engineer
+
+ARUP 
+155 Avenue of the Americas, New York, NY 10013
+tel: 212 896 3219
+fax: 212 229 1057
+jaime.birman at arup.com
+http://www.arup.com
+
+ <<Jaime Birman (E-mail).vcf>> 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010720/ec6ec0a6/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Jaime Birman (E-mail).vcf
+Type: application/octet-stream
+Size: 445 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010720/ec6ec0a6/attachment.obj>
+
+From don.koenig at sbt.siemens.com  Mon Jul 16 13:11:45 2001
+From: don.koenig at sbt.siemens.com (Koenig Don)
+Date: Mon, 16 Jul 2001 15:11:45 -0500
+Subject: [BLDG-SIM] the pic of today :)
+Message-ID: <MDAEMON-F200107161509.AA093746pd80000062828@gard.com>
+
+I agree with both of you that the approval of new members might be doable,
+but that the full moderation is not the best route.  Most of these lists
+don't get spammed on a regular basis.  And if you fully moderate it you have
+the possibility of censorship.
+
+DonK
+
+
+Donald E. Koenig, CEM
+Energy Engineer / Safety Coordinator
+Siemens Building Technologies
+215 Southport Drive
+Suite 900
+Morrisville, NC 27560
+
+(919) 469-5095 x190 (ph)
+(919) 469-9846 (fax)
+don.koenig at sbt.siemens.com
+
+ -----Original Message-----
+From: 	Douglas Mahone [mailto:dmahone at h-m-g.com] 
+Sent:	Tuesday, July 10, 2001 4:43 PM
+To:	BLDG-SIM at gard.com
+Subject:	[BLDG-SIM] the pic of today :)
+
+I haven't found the list to be burdened with unnecessary messages, so I
+don't think this one incident requires a fully moderated forum.  
+
+I second Abhijeet's suggestion as a prudent and minimal response.  If Jason
+feels that even this would be a burden (he is, after all, offering the
+listserve as a free, personal service to us all), then I would be okay with
+leaving everything as it is until such time as the number of these spam
+abuses gets out of hand.  We're not there yet.
+
+Doug.
+
+
+-----Original Message-----
+From: Gowri, Krishnan [mailto:krishnan.gowri at pnl.gov]
+Sent: Tuesday, July 10, 2001 12:52 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] the pic of today :)
+
+
+ 
+Abhijeet's suggestion of qualifying the members added to the mailing list
+can
+avoid the scenario we just experienced.  In addition, I feel that every new
+discussion thread should be approved and then open to the list for
+responses. I
+am not sure of the administrative burden this would mean, but definitely
+worthwhile to avoid irresponsible use of the mailing list.
+
+Krishnan Gowri, PNNL
+
+-----Original Message-----
+From: Abhijeet Pande [mailto:pande at h-m-g.com]
+Sent: Tuesday, July 10, 2001 12:19 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] the pic of today :)
+
+
+Rather than manually scanning each mail.. it might be easier just to approve
+new members through a moderator. That way pranksters would find it more
+difficult to get through. (also I think, having a screen to enter the list
+itself will act as a damper on the casual prankster like the one today)
+Any thoughts?
+
+Abhijeet Pande
+Project Manager
+Heschong Mahone Group
+11626 Fair Oaks Blvd. #302
+Fair Oaks, CA  95628  (Sacramento area)
+
+(916) 962-7001
+fax (916) 962-0101
+pande at h-m-g.com
+web site: www.h-m-g.com 
+
+-----Original Message-----
+From: Jason Glazer [mailto:jglazer at gard.com]
+Sent: Tuesday, July 10, 2001 11:33 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] the pic of today :)
+
+
+Not a virus but simply (rude) junk mail.  The person who 
+sent it subscribed to the mailing list, sent the 
+advertisement, and unsubscribed all in the span of a few 
+minutes.  I can't think of any way to avoid this problem 
+other than act as a moderator for the list.  That would be 
+a manual approval of all e-mails sent to the list prior to 
+them being posted.  I would rather not do that unless it 
+becomes more of a problem.  Opinions?
+
+Jason
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From larry at taz.tamu.edu  Wed Jul 11 18:22:55 2001
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Wed, 11 Jul 2001 20:22:55 -0500
+Subject: [BLDG-SIM] Reminder about IBPSA News due date.
+Message-ID: <MDAEMON-F200107112021.AA211034pd80000062146@gard.com>
+
+Please remember to send me your newsy items for inclusion in the August IBPSA News by this weekend.  I can accept articles, announcements, advertisements, etc. up through 16 July.
+
+IBPSA's building performance simulation newsletter is published on the IBPSA home page, www.ibpsa.org, and is read worldwide.
+
+Thanks.
+
+Larry Degelman, IBPSA Newsletter Chairman.
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010711/a7314e57/attachment.htm>
+
+From fporter at archenergy.com  Wed Jul 11 10:45:45 2001
+From: fporter at archenergy.com (Fred Porter)
+Date: Wed, 11 Jul 2001 11:45:45 -0600
+Subject: [BLDG-SIM] the pic of today :)
+References: <MDAEMON-F200107101245.AA455100pd80000061646@gard.com> <MDAEMON-F200107111159.AA592521pd80000091620@gard.com>
+Message-ID: <MDAEMON-F200107111243.AA430907pd80000062050@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010711/5c8278da/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: C:\TEMP\nsmailG4.jpeg
+Type: image/jpeg
+Size: 14113 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010711/5c8278da/attachment.jpeg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: C:\TEMP\nsmailU6.jpeg
+Type: image/jpeg
+Size: 22078 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010711/5c8278da/attachment-0001.jpeg>
+
+From jglazer at gard.com  Wed Jul 11 10:01:59 2001
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 11 Jul 2001 12:01:59 -0500
+Subject: [BLDG-SIM] the pic of today :)
+In-Reply-To: <MDAEMON-F200107101330.AA303935pd80000061677@gard.com>
+References: <MDAEMON-F200107101245.AA455100pd80000061646@gard.com>
+Message-ID: <MDAEMON-F200107111159.AA592901pd80000062027@gard.com>
+
+List members, 
+
+I received many suggestions on how to deal with junk mail 
+sent to the list.  Overall, most people thought that given 
+the small problem that it has been to date, I shouldn't 
+take the step to moderate the list.  People had many good 
+suggestions for other approaches but most I could not 
+implement with my current mailing list software.  
+
+One thing that I have decided to do is require 
+authentication when subscribing.  Basically, when 
+subscribing people will now get an e-mail asking them to 
+reply to the e-mail to subscribe.  It is one way of making 
+sure the e-mail address is authentic.  Perhaps this will 
+discourage people who send junk e-mails since some of those 
+people use faked e-mail addresses.  For the rest of us it 
+is one small step that shouldn't be too inconvenient. 
+
+Another thing that a few people brought up is virus 
+protection.  We have software that checks every e-mail 
+message going in or out of GARD, including to the mailing 
+lists, for viruses.  In addition, this program is set up to 
+not allow any attachments that are executables (exe, bat, 
+vbs, etc..).   The virus prevention library is updated 
+automatically several times each everyday.  That said, 
+their are no guarantees but we are trying to do a good job.
+
+Now, doesn't anyone have a question about some arcane DOE-2 
+keyword?
+
+Jason
+
+On 10 Jul 2001, at 13:33, I wrote:
+
+> Not a virus but simply (rude) junk mail.  The person who
+> sent it subscribed to the mailing list, sent the
+> advertisement, and unsubscribed all in the span of a few
+> minutes.  I can't think of any way to avoid this problem
+> other than act as a moderator for the list.  That would be a
+> manual approval of all e-mails sent to the list prior to
+> them being posted.  I would rather not do that unless it
+> becomes more of a problem.  Opinions?
+> 
+> Jason
+
+<SNIP>
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From randy at mail.hvacware.net  Tue Jul 10 17:28:20 2001
+From: randy at mail.hvacware.net (Randy Wilkinson)
+Date: Tue, 10 Jul 2001 16:28:20 -0800
+Subject: [BLDG-SIM] new - freeware bin data generator
+In-Reply-To: <MDAEMON-F200107101411.AA114435md50000089947@gard.com>
+Message-ID: <MDAEMON-F200107101825.AA252181pd80000061848@gard.com>
+
+
+Would anyone like to try out my new FREEWARE program to generate bin 
+temperature data from TMY2 data?  I'm looking for feedback on ways to 
+make it more useful.  Download the self extracting zip file by entering this 
+URL:  
+
+   http://www.hvacware.net/tmy2bin.exe 
+
+There is no link from my site to this program.  You must type the above 
+URL to start the download. 
+
+This program converts TMY2 weather files to bin weather data for quick 
+energy calulations.  It considers the dry bulb temperature only. And 
+currently, only US imperial units. Your can choose to create 2 degree, 4 
+degree, 5 degree, or 10 degree temperature bins.  
+
+TMY2 weather data files are available for free on the Internet.  See the 
+README.TXT file for details. 
+
+This program is written in Visual Basic 6.  If you would like the VB6 source 
+code, or you have suggestions, email me at:   
+
+   randy at hvacware.net 
+
+
+Here is a sample output .csv file from TMY2BIN: 
+
+"SPOKANE, WA" 
+"Bin Low, ?F","Bin High, ?F", Hours 
+-20 ,-15 , 0 
+-15 ,-10 , 8 
+-10 ,-5 , 7 
+-5 , 0 , 12  
+0 , 5 , 19  
+5 , 10 , 6  
+10 , 15 , 34  
+15 , 20 , 133  
+20 , 25 , 472  
+25 , 30 , 544  
+30 , 35 , 981  
+35 , 40 , 1280  
+40 , 45 , 922  
+45 , 50 , 854  
+50 , 55 , 653  
+55 , 60 , 707  
+60 , 65 , 679  
+65 , 70 , 461 
+70 , 75 , 330  
+75 , 80 , 262  
+80 , 85 , 221  
+85 , 90 , 93  
+90 , 95 , 55  
+95 , 100 , 25  
+100 , 105 , 2  
+105 , 110 , 0  
+110 , 115 , 0  
+115 , 120 , 0 
+
+
+
+-----------------------------------
+Randall C. Wilkinson, P.E.
+http://www.hvacware.net
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From dmahone at h-m-g.com  Tue Jul 10 13:42:50 2001
+From: dmahone at h-m-g.com (Douglas Mahone)
+Date: Tue, 10 Jul 2001 13:42:50 -0700
+Subject: [BLDG-SIM] the pic of today :)
+Message-ID: <MDAEMON-F200107101535.AA350123pd80000061788@gard.com>
+
+I haven't found the list to be burdened with unnecessary messages, so I
+don't think this one incident requires a fully moderated forum.  
+
+I second Abhijeet's suggestion as a prudent and minimal response.  If Jason
+feels that even this would be a burden (he is, after all, offering the
+listserve as a free, personal service to us all), then I would be okay with
+leaving everything as it is until such time as the number of these spam
+abuses gets out of hand.  We're not there yet.
+
+Doug.
+
+
+-----Original Message-----
+From: Gowri, Krishnan [mailto:krishnan.gowri at pnl.gov]
+Sent: Tuesday, July 10, 2001 12:52 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] the pic of today :)
+
+
+ 
+Abhijeet's suggestion of qualifying the members added to the mailing list
+can
+avoid the scenario we just experienced.  In addition, I feel that every new
+discussion thread should be approved and then open to the list for
+responses. I
+am not sure of the administrative burden this would mean, but definitely
+worthwhile to avoid irresponsible use of the mailing list.
+
+Krishnan Gowri, PNNL
+
+-----Original Message-----
+From: Abhijeet Pande [mailto:pande at h-m-g.com]
+Sent: Tuesday, July 10, 2001 12:19 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] the pic of today :)
+
+
+Rather than manually scanning each mail.. it might be easier just to approve
+new members through a moderator. That way pranksters would find it more
+difficult to get through. (also I think, having a screen to enter the list
+itself will act as a damper on the casual prankster like the one today)
+Any thoughts?
+
+Abhijeet Pande
+Project Manager
+Heschong Mahone Group
+11626 Fair Oaks Blvd. #302
+Fair Oaks, CA  95628  (Sacramento area)
+
+(916) 962-7001
+fax (916) 962-0101
+pande at h-m-g.com
+web site: www.h-m-g.com 
+
+-----Original Message-----
+From: Jason Glazer [mailto:jglazer at gard.com]
+Sent: Tuesday, July 10, 2001 11:33 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] the pic of today :)
+
+
+Not a virus but simply (rude) junk mail.  The person who 
+sent it subscribed to the mailing list, sent the 
+advertisement, and unsubscribed all in the span of a few 
+minutes.  I can't think of any way to avoid this problem 
+other than act as a moderator for the list.  That would be 
+a manual approval of all e-mails sent to the list prior to 
+them being posted.  I would rather not do that unless it 
+becomes more of a problem.  Opinions?
+
+Jason
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From krishnan.gowri at pnl.gov  Tue Jul 10 12:51:32 2001
+From: krishnan.gowri at pnl.gov (Gowri, Krishnan)
+Date: Tue, 10 Jul 2001 12:51:32 -0700
+Subject: [BLDG-SIM] the pic of today :)
+Message-ID: <MDAEMON-F200107101449.AA491237pd80000061748@gard.com>
+
+ 
+Abhijeet's suggestion of qualifying the members added to the mailing list can
+avoid the scenario we just experienced.  In addition, I feel that every new
+discussion thread should be approved and then open to the list for responses. I
+am not sure of the administrative burden this would mean, but definitely
+worthwhile to avoid irresponsible use of the mailing list.
+
+Krishnan Gowri, PNNL
+
+-----Original Message-----
+From: Abhijeet Pande [mailto:pande at h-m-g.com]
+Sent: Tuesday, July 10, 2001 12:19 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] the pic of today :)
+
+
+Rather than manually scanning each mail.. it might be easier just to approve
+new members through a moderator. That way pranksters would find it more
+difficult to get through. (also I think, having a screen to enter the list
+itself will act as a damper on the casual prankster like the one today)
+Any thoughts?
+
+Abhijeet Pande
+Project Manager
+Heschong Mahone Group
+11626 Fair Oaks Blvd. #302
+Fair Oaks, CA  95628  (Sacramento area)
+
+(916) 962-7001
+fax (916) 962-0101
+pande at h-m-g.com
+web site: www.h-m-g.com 
+
+-----Original Message-----
+From: Jason Glazer [mailto:jglazer at gard.com]
+Sent: Tuesday, July 10, 2001 11:33 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] the pic of today :)
+
+
+Not a virus but simply (rude) junk mail.  The person who 
+sent it subscribed to the mailing list, sent the 
+advertisement, and unsubscribed all in the span of a few 
+minutes.  I can't think of any way to avoid this problem 
+other than act as a moderator for the list.  That would be 
+a manual approval of all e-mails sent to the list prior to 
+them being posted.  I would rather not do that unless it 
+becomes more of a problem.  Opinions?
+
+Jason
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From demba.ndiaye at polymtl.ca  Tue Jul 10 12:20:46 2001
+From: demba.ndiaye at polymtl.ca (Demba NDIAYE)
+Date: Tue, 10 Jul 2001 15:20:46 -0400
+Subject: [BLDG-SIM] the pic of today :)
+References: <MDAEMON-F200107101330.AA303400pd80000089456@gard.com>
+Message-ID: <MDAEMON-F200107101419.AA190325pd80000061718@gard.com>
+
+I agree with you, Jason. A manual approval is not yet preferable.
+Junk e-mails are a problem, but let's hope that these intrusions
+will be scarce.
+
+Demba.
+
+Jason Glazer wrote:
+
+> Not a virus but simply (rude) junk mail.  The person who
+> sent it subscribed to the mailing list, sent the
+> advertisement, and unsubscribed all in the span of a few
+> minutes.  I can't think of any way to avoid this problem
+> other than act as a moderator for the list.  That would be
+> a manual approval of all e-mails sent to the list prior to
+> them being posted.  I would rather not do that unless it
+> becomes more of a problem.  Opinions?
+>
+> Jason
+>
+> On 10 Jul 2001, at 14:51, Nathan Mendes wrote:
+>
+> > Dear colleagues,
+> > I guess this was a virus. Be careful!
+> > Nathan.
+> >
+> > Eleanor Smith wrote:
+> >
+> > > the finest girls and models over the net
+> > > http://www.layed.net/
+> > > FOR FREE!!!
+> > > give them a look.. what can lose?
+> > > i dont have much to say.. its not needed.. you will like
+> > > them, beliveme
+> > >
+> > > att. Eleanor
+> > > http://www.layed.net/
+> > >
+> > > ====================================================== You
+> > > received this e-mail because you are subscribed to the
+> > > BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this
+> > > mailing list send a blank message to
+> > > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> >
+> >
+> >
+> > ======================================================
+> > You received this e-mail because you are subscribed
+> > to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+> > this mailing list send a blank message to
+> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> >
+>
+> =========================================================
+> Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+> GARD Analytics - http://www.gard.com/
+> 1028 Busse Highway, Park Ridge, IL 60068
+> Building Energy Simulation and Analysis
+> List Administrator for 90.1, GPC18 and BLDG-SIM
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: demba.ndiaye.vcf
+Type: text/x-vcard
+Size: 632 bytes
+Desc: Card for Demba NDIAYE
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010710/bad776b7/attachment.vcf>
+
+From pande at h-m-g.com  Tue Jul 10 12:18:55 2001
+From: pande at h-m-g.com (Abhijeet Pande)
+Date: Tue, 10 Jul 2001 12:18:55 -0700
+Subject: [BLDG-SIM] the pic of today :)
+Message-ID: <MDAEMON-F200107101411.AA110721md50000061712@gard.com>
+
+Rather than manually scanning each mail.. it might be easier just to approve
+new members through a moderator. That way pranksters would find it more
+difficult to get through. (also I think, having a screen to enter the list
+itself will act as a damper on the casual prankster like the one today)
+Any thoughts?
+
+Abhijeet Pande
+Project Manager
+Heschong Mahone Group
+11626 Fair Oaks Blvd. #302
+Fair Oaks, CA  95628  (Sacramento area)
+
+(916) 962-7001
+fax (916) 962-0101
+pande at h-m-g.com
+web site: www.h-m-g.com 
+
+-----Original Message-----
+From: Jason Glazer [mailto:jglazer at gard.com]
+Sent: Tuesday, July 10, 2001 11:33 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] the pic of today :)
+
+
+Not a virus but simply (rude) junk mail.  The person who 
+sent it subscribed to the mailing list, sent the 
+advertisement, and unsubscribed all in the span of a few 
+minutes.  I can't think of any way to avoid this problem 
+other than act as a moderator for the list.  That would be 
+a manual approval of all e-mails sent to the list prior to 
+them being posted.  I would rather not do that unless it 
+becomes more of a problem.  Opinions?
+
+Jason
+
+On 10 Jul 2001, at 14:51, Nathan Mendes wrote:
+
+> Dear colleagues,
+> I guess this was a virus. Be careful!
+> Nathan.
+> 
+> Eleanor Smith wrote:
+> 
+> > the finest girls and models over the net
+> > http://www.layed.net/
+> > FOR FREE!!!
+> > give them a look.. what can lose?
+> > i dont have much to say.. its not needed.. you will like
+> > them, beliveme
+> >
+> > att. Eleanor
+> > http://www.layed.net/
+> >
+> > ====================================================== You
+> > received this e-mail because you are subscribed to the
+> > BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this
+> > mailing list send a blank message to
+> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+> this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Tue Jul 10 11:33:09 2001
+From: jglazer at gard.com (Jason Glazer)
+Date: Tue, 10 Jul 2001 13:33:09 -0500
+Subject: [BLDG-SIM] the pic of today :)
+In-Reply-To: <MDAEMON-F200107101245.AA455100pd80000061646@gard.com>
+Message-ID: <MDAEMON-F200107101330.AA303935pd80000061677@gard.com>
+
+Not a virus but simply (rude) junk mail.  The person who 
+sent it subscribed to the mailing list, sent the 
+advertisement, and unsubscribed all in the span of a few 
+minutes.  I can't think of any way to avoid this problem 
+other than act as a moderator for the list.  That would be 
+a manual approval of all e-mails sent to the list prior to 
+them being posted.  I would rather not do that unless it 
+becomes more of a problem.  Opinions?
+
+Jason
+
+On 10 Jul 2001, at 14:51, Nathan Mendes wrote:
+
+> Dear colleagues,
+> I guess this was a virus. Be careful!
+> Nathan.
+> 
+> Eleanor Smith wrote:
+> 
+> > the finest girls and models over the net
+> > http://www.layed.net/
+> > FOR FREE!!!
+> > give them a look.. what can lose?
+> > i dont have much to say.. its not needed.. you will like
+> > them, beliveme
+> >
+> > att. Eleanor
+> > http://www.layed.net/
+> >
+> > ====================================================== You
+> > received this e-mail because you are subscribed to the
+> > BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this
+> > mailing list send a blank message to
+> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+> this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From larry at taz.tamu.edu  Mon Jul  9 06:08:10 2001
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Mon, 9 Jul 2001 08:08:10 -0500
+Subject: [BLDG-SIM] Fw:  DOE-2 Down Under
+Message-ID: <MDAEMON-F200107090802.AA023645pd80000061210@gard.com>
+
+----- Original Message -----
+From: "Veronica Soebarto" <veronica at arch.adelaide.edu.au>
+To: "Larry Degelman" <larry at taz.tamu.edu>
+Sent: Monday, July 09, 2001 2:39 AM
+Subject: Re: Fw: [BLDG-SIM] DOE-2 Down Under
+
+
+>
+> >
+> > > Hello Group
+> > >
+> > > In preparation for potential work in Australia, we are looking into
+> > > available information/reference sources that might be utilized for
+doing
+> > > commercial building simulations.  Would anyone know:
+> > >
+> > > 1) If there is an Australian equivalent of the U.S. Commercial
+Buildings
+> > > Energy Consumption Survey (CBECS)?\
+>
+> As far as we know there is no Australian equivalent to CBECS (yet). I
+> think currently such survey is being conducted by ...?. The closest that
+> we know of is the Australian Building Energy Council (ABEC) of the
+> Australian Greenhouse Office, which has done some analysis of energy
+> consumption (including embodied energy and CO2 emission) of residential
+> and commercial buildings. Our contact at ABEC/AGO is:
+> Stephen Berry
+> Stephen.Berry at ea.gov.au
+> or visit: www.abec.com.au, or http://www.greenhouse.gov.au/
+>
+> > >
+> > > 2) If there is an Australian equivalent of the National Climactic Data
+> > > Center (NCDC) from which to get average and/or actual year weather
+data
+> > that
+> > > is of sufficient quality to be used for DOE-2?  I already know about
+the
+> > > Australian weather data on the DOE2.com website.
+>
+> The national climatic data centre is the Bureau of Meteorology
+> (www.bom.gov.au), but there is a company that produces/compiles hourly
+> weather data for cities in Australia. The company name is:
+> ACADS - BSG
+> * Building Service Software *
+> 18 High Street, Glen Iris Vic. 3146 AUSTRALIA
+> Tel: +61 (3) 9885 6586   Fax: +61 (3) 9885 5974
+> Send enquiries to Murray Mason at acadsbsg at ozemail.com.au
+> Home page- http://www.ozemail.com.au/~acadsbsg/
+>
+> Hope this will help.
+>
+> Veronica
+>
+> --
+>
+> Dr Veronica Soebarto
+> Senior Lecturer
+> School of Architecture, Landscape Architecture and Urban Design
+> Adelaide University SA 5005 Australia
+>
+> veronica at arch.adelaide.edu.au http://www.arch.adelaide.edu.au/
+> Tel: +61 8 8303 5695     Fax: +61 8 8303 4377
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From thong at eley.com  Fri Jul  6 14:08:56 2001
+From: thong at eley.com (Tianzhen Hong)
+Date: Fri, 6 Jul 2001 14:08:56 -0700
+Subject: [BLDG-SIM] DOE-2 Down Under.  FW: Australasian Version of Bin Maker
+Message-ID: <MDAEMON-F200107061605.AA055632pd80000060945@gard.com>
+
+
+	Forwarded message:
+
+> there is an Australasian (Aus, NZ, PNG) version of BinMaker developed by
+> the Gas Research Institute & InterEnergy Software
+> (www.interenergysoftware.com). This version contains TRY2 format data for
+> 25 sites in SI units.  It costs $AUS50 (about $US25).
+> 
+> 
+Tianzhen Hong
+Eley Associates
+142 Minna Street
+San Francisco, CA 94105
+Tel: (415) 957 1977, Fax: (415) 957 1381
+Web: www.eley.com
+Email: thong at eley.com
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: winmail.dat
+Type: application/ms-tnef
+Size: 2164 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010706/f5471669/attachment.bin>
+
+From bob at rer.com  Fri Jul  6 12:41:37 2001
+From: bob at rer.com (Bob Ramirez)
+Date: Fri, 6 Jul 2001 12:41:37 -0700
+Subject: [BLDG-SIM] DOE-2 Down Under
+Message-ID: <MDAEMON-F200107061442.AA423850pd80000060885@gard.com>
+
+Hello Group
+
+In preparation for potential work in Australia, we are looking into
+available information/reference sources that might be utilized for doing
+commercial building simulations.  Would anyone know:
+ 
+1) If there is an Australian equivalent of the U.S. Commercial Buildings
+Energy Consumption Survey (CBECS)?
+
+2) If there is an Australian equivalent of the National Climactic Data
+Center (NCDC) from which to get average and/or actual year weather data that
+is of sufficient quality to be used for DOE-2?  I already know about the
+Australian weather data on the DOE2.com website.
+
+Any leads on this information would be greatly appreciated.  Thanks!
+
+Bob Ramirez 
+
+
+Bob Ramirez, P.E.
+Senior Engineer
+
+Regional Economic Research, Inc.    http://www.rer.com
+San Diego, CA 92130
+Phone: (858)481-0081
+   FAX: (858)481-7550
+ email: bobram at rer.com or bob at rer.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at ee.doe.gov  Tue Jul  3 11:22:09 2001
+From: Drury.Crawley at ee.doe.gov (Drury.Crawley at ee.doe.gov)
+Date: Tue, 3 Jul 2001 14:22:09 -0400
+Subject: [BLDG-SIM] Weather file conversion
+Message-ID: <MDAEMON-F200107031320.AA201820md80000060324@gard.com>
+
+
+
+IWEC are not the same as TMY2--they were
+based on the TMY2 format but contain more
+information (and are Y2K compliant unlike TMY2).
+Thus, the weather packers will have to be
+modified to deal with the new format.
+
+IWEC has not be released by ASHRAE yet.
+It is expected to be available later this month
+or in August.
+
+Dru Crawley
+
+
+
+
+
+
+
+
+"Dominique Michaud" <Dominique.Michaud at dessausoprin.com> on 07/03/2001 01:56:46
+PM
+
+Please respond to Dominique.Michaud at dessausoprin.com
+                                                                                
+                                                                                
+                                                                                
+
+
+                                                              
+                                                              
+                                                              
+ To:      BLDG-SIM at gard.com                                   
+                                                              
+ cc:      (bcc: Drury Crawley/EE/DOE)                         
+                                                              
+                                                              
+                                                              
+ Subject: [BLDG-SIM] Weather file conversion                  
+                                                              
+
+
+
+
+I am trying to pack some IWEC format (which use TMY2 formatting) weather
+files for use with DOE2.1E (Acrosoft and J.J. Hirsch versions) and nothing
+seems to be working. I am trying to pack the files using the TMY2 packing
+method but nothing seems to give.
+
+Can anyone tell me what I might be doing wrong or what I should keep in mind
+when trying to pack these files?
+
+Thank you.
+
+
+Dominique Michaud
+Building Energy Technician
+Dessau-Soprin Inc.
+375 blvd Rolland-Therrien, Suite 400
+Longueuil, Quebec, J4H 4A6
+Tel.: (514) 281-1033 ext 2568
+Fax: (514) 442-9996
+
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Dominique.Michaud at dessausoprin.com  Tue Jul  3 10:56:46 2001
+From: Dominique.Michaud at dessausoprin.com (Dominique Michaud)
+Date: Tue, 3 Jul 2001 13:56:46 -0400
+Subject: [BLDG-SIM] Weather file conversion
+Message-ID: <MDAEMON-F200107031256.AA562615md80000060298@gard.com>
+
+I am trying to pack some IWEC format (which use TMY2 formatting) weather
+files for use with DOE2.1E (Acrosoft and J.J. Hirsch versions) and nothing
+seems to be working. I am trying to pack the files using the TMY2 packing
+method but nothing seems to give.
+
+Can anyone tell me what I might be doing wrong or what I should keep in mind
+when trying to pack these files?
+
+Thank you.
+
+
+Dominique Michaud
+Building Energy Technician
+Dessau-Soprin Inc.
+375 blvd Rolland-Therrien, Suite 400
+Longueuil, Quebec, J4H 4A6
+Tel.: (514) 281-1033 ext 2568
+Fax: (514) 442-9996
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bseaton at ASHRAE.org  Tue Jul  3 06:23:54 2001
+From: bseaton at ASHRAE.org (Seaton, Bill)
+Date: Tue, 3 Jul 2001 09:23:54 -0400
+Subject: [BLDG-SIM] RFQ
+Message-ID: <MDAEMON-F200107030823.AA232565md80000060177@gard.com>
+
+This may be of interest.
+ 
+ 
+-----Original Message-----
+From: Doreen.R.Western at cis.state.mi.us
+[mailto:Doreen.R.Western at cis.state.mi.us] 
+Sent: Tuesday, July 03, 2001 9:20 AM
+To: ralvey at freeway.net; ebouwer at juno.com; ebrowning at toast.net;
+bbuell at worldnet.att.net; yreme at aol.com; bgunow at aol.com; billost at mvcc.com;
+stevepato at aol.com; robert_ploger at msn.com; nstodd at aol.com;
+hrball at traverse.com; jrcarr at compuserve.com; carrassociates at prodigy.net;
+gcarson858 at aol.com; jknw84a at prodigy.com; wewingman at aol.com;
+rhornbach at aol.com; bjohnson at gtii.com; 73531.246 at compuserve.com;
+jjkolb at aol.com; rgmcgonegal at dmci.net; ebmoretti at juno.com; jm191 at juno.com;
+daveone at advnet.net; nmreeds at aol.com; simons811 at aol.com; ehastahl at aol.com;
+ralphjs at gte.net; $bhurt at alliancenrg.com; bsnyder at ids-troy.com;
+kozubh at dteenergy.com; John.d.Crawford at jci.com; Howdry at ismi.net;
+LMEREDITH at BUSINESSSTRATEGY.com; RLUKE2 at VISTEON.com; m.krenn at jenbacher.com;
+Balogt at dteenergy.com; michael.dobrovic at gm.com; LTOTH at MCNENERGY.com;
+john.d.slawinski at gm.com; bseaton at ashrae.org
+Subject: RFQ
+
+
+Attached please find an rfq and explanatory letter.
+ 
+Doreen R. Western
+ <mailto:doreen.r.western at cis.state.mi.us> doreen.r.western at cis.state.mi.us
+Energy Office
+6545 Mercantile Way
+Lansing, MI
+Phone:  517/241-6238
+Fax:     517/241-6229
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: engconrfqe-mail.doc
+Type: application/msword
+Size: 28160 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010703/54b41831/attachment.doc>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: engrfqltre-mail.doc
+Type: application/msword
+Size: 4220 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010703/54b41831/attachment-0001.doc>
+

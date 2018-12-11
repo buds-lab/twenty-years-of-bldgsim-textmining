@@ -1,0 +1,4292 @@
+From Jude.Chakraborty at WSPGroup.com  Tue Jun  3 10:27:47 2014
+From: Jude.Chakraborty at WSPGroup.com (Chakraborty, Judhajit)
+Date: Tue, 3 Jun 2014 17:27:47 +0000
+Subject: [Bldg-sim] IBPSA-SF June Event - Introduction to Annex 66 and
+ Occupant Behavior Simulation
+Message-ID: <A74E88F4004970429432C6B5A251B2249BB10AB1@USNYC2EXC01.us.wspgroup.com>
+
+Introduction to Annex 66 and Occupant Behavior Simulation
+
+When: Tuesday, June 10, 2014 at 6:00pm
+Location: Integral Group, 427 13th Street, Oakland, CA, 94612
+
+
+SCHEDULE:
+6 pm to 6:30 pm, Networking
+6:30 pm to 7:45 pm, Presentation
+7:45 pm to 8 pm, Questions
+
+WEBINAR REGISTRATION DETAILS:
+Please register for Introduction to Annex 66 and Occupant Behavior Simulation on Jun 10, 2014 6:00 PM PDT at:
+
+https://attendee.gotowebinar.com/register/7786260120681413122
+
+IBPSA-SF Chapter welcomes you all to the June event.
+
+Tianzhen Hong, Scientist at Lawrence Berkeley National Laboratory (LBNL), Berkeley, California will be presenting about Annex 66 , a global project which aims to set up a standard occupant behavior definition platform, establish a quantitative simulation methodology to model occupant behavior in buildings, and understand the influence of occupant behavior on building energy use and the indoor environment.
+
+Tianzheng Hong is a Co-operative Agent and a subtask leader of the Annex 66 project.
+
+About the speaker:
+
+Tianzhen Hong is a Scientist with the Simulation Research Group. Before joining LBNL, he worked for Architectural Energy Corporation in San Francisco, Supersymmetry in Singapore, National University of Singapore, and Tsinghua University in Beijing. Dr. Hong has more than 20 years of industry and academic experience in building energy efficiency, building energy standards, building performance simulation, and HVACR research. He taught building simulation workshops in the US, mainland China, Hong Kong, and Taiwan. He received B.Eng, M.Eng, and Ph.D. in thermal engineering from Tsinghua University. He is a key member of the EnergyPlus development team, the founding developer of DeST (a building energy simulation program widely used in China), the chief developer and product manager of VisualDOE. He contributed to update California building energy efficiency standards, ASHRAE 90.1, and energy conservation building code of India. He is currently leading the Monitoring and Simulation research area of US/China Clean Energy Research Center - Building Energy Efficiency.
+
+*** Please RSVP Neil Bulger - nbulger at integralgroup.com if you are attending in person***.
+
+Thanks,
+Jude.
+Judhajit Chakraborty, LEED AP BD+C
+Built Ecology
+
+WSP 405 Howard Street, Suite 500, San Francisco, CA 94105
+Direct:  +1-415-402-5815
+Main:   +1-415-398-3833
+
+www.wspgroup.com/usa<http://www.wspgroup.com/usa>
+
+
+We are WSP, one of the world's leading engineering, design, and environmental consultancies.
+Working to improve lives through transformation of the built environment and restoration of the natural environment.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140603/1dcd136d/attachment.htm>
+
+From aalmeida at isec.pt  Wed Jun  4 02:44:09 2014
+From: aalmeida at isec.pt (=?utf-8?Q?Ant=C3=B3nio_Manuel_Almeida?=)
+Date: Wed, 4 Jun 2014 10:44:09 +0100
+Subject: [Bldg-sim] question regarding lighting efficiency/gains
+	unitsofmeasurement
+In-Reply-To: <ECDF361A89E5FA479BE7E64C658B52051FC3A17D@SANDBINC4.sbi.smithboucher.com>
+References: <011d01cf7a5e$926c2870$b7447950$@naturalintelligence.us>
+	<02DF3C8135FB45379F43AA33EF5C1A60@INESCPC>
+	<ECDF361A89E5FA479BE7E64C658B52051FC3A17D@SANDBINC4.sbi.smithboucher.com>
+Message-ID: <E95176054F334B54AA082B5D5A2BEF31@INESCPC>
+
+Hi again.
+
+The acceptable illumination levels for non-residential buildings are prescribed in
+"EN12464-1 Light and lighting - Lighting of work places - Part 1: Indoor work places".
+To avoid excessive lighting, in Portuguese legislation the average illuminance level
+shall not be exceeded by more than 30% from the standard prescribed illuminance.
+
+Regards.
+Ant?nio Manuel Almeida
+INESC Coimbra
+
+
+
+  ----- Original Message ----- 
+  From: Nick Caton 
+  To: Ant?nio Manuel Almeida ; Christian Stalberg ; bldg-sim at lists.onebuilding.org 
+  Sent: Thursday, May 29, 2014 5:53 PM
+  Subject: RE: [Bldg-sim] question regarding lighting efficiency/gains unitsofmeasurement
+
+
+  Ah, this bridges the gap of understanding much better ? thanks for the example Ant?nio!  
+
+   
+
+  To date, I have not yet encountered a ?W/ft^2 per 10fc? requirement.  Our lighting power densities are typically prescribed more simply per space type or per building/project type to establish a ceiling for maximum installed lighting (for example: Offices are 0.9 W/ft^2, Parking Garages are 0.25W/ft^2).  The actual figures prescribed of course vary quite a bit depending on where you are and what energy standards/codes are being enforced (if any).
+
+   
+
+  In the USA, I have not LPD requirements tied additionally to targeted illumination levels (at least in such a direct fashion).  Does that mean in Europe, energy codes essentially prescribe acceptable illumination levels appropriate per space type or application, or is it still left up to the lighting designer/engineer to assert what?s appropriate?  
+
+   
+
+  ~Nick
+
+   
+
+   
+
+
+
+   
+
+  NICK CATON, P.E.
+
+  SENIOR ENGINEER
+
+   
+
+  Smith & Boucher Engineers
+
+  25501 west valley parkway, suite 200
+
+  olathe, ks 66061
+
+  direct 913.344.0036
+
+  fax 913.345.0617
+
+  www.smithboucher.com 
+
+   
+
+  From: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Ant?nio Manuel Almeida
+  Sent: Thursday, May 29, 2014 5:10 AM
+  To: Christian Stalberg; bldg-sim at lists.onebuilding.org
+  Subject: Re: [Bldg-sim] question regarding lighting efficiency/gains units ofmeasurement
+
+   
+
+  Hi, everyone.
+
+   
+
+  I think that we are talking about W/m^2 per 100 lux. This is the measure for maximum lighting power density (LPD) in some
+
+  European countries regulations like from Portugal or Spain.
+
+  An example: if the maintained average illuminance in a room is 300 lux and the maximum LPD per 100 lux is 2,5 W/m^2
+
+  then the maximum LPD for that room is 7,5 W/m^2. 
+
+  If you want a similar measure with US standard it will be something like W/ft^2 per 10 fc or other illuminance quantity.
+
+   
+
+  Best Regards.
+
+  Ant?nio Manuel Almeida
+
+  aalmeida at isec.pt
+
+  INESC Coimbra
+
+  Portugal
+
+   
+
+    ----- Original Message ----- 
+
+    From: Christian Stalberg 
+
+    To: bldg-sim at lists.onebuilding..org 
+
+    Sent: Wednesday, May 28, 2014 11:21 AM
+
+    Subject: [Bldg-sim] question regarding lighting efficiency/gains units ofmeasurement
+
+     
+
+    In Europe one sees W/m2-100 lux as a measure of lighting related gains or lighting efficiency. What is the equivalent here in the states? I suspect it is a messy conversion.
+
+     
+
+    Thank you in advance.
+
+     
+
+    Regards,
+
+    _
+
+    Christian Stalberg
+
+    Natural Intelligence, LLC
+
+    http://naturalintelligence.us
+
+    Tel. 415.531.4610
+
+     
+
+
+----------------------------------------------------------------------------
+
+    _______________________________________________
+    Bldg-sim mailing list
+    http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+    To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+
+   
+
+
+------------------------------------------------------------------------------
+
+
+       Este email est? livre de v?rus e malware porque a prote??o avast! Antivirus est? ativa. 
+       
+
+   
+
+
+---
+Este email est? livre de v?rus e malware porque a prote??o avast! Antivirus est? ativa.
+http://www.avast.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140604/7edb3931/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 1459 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140604/7edb3931/attachment.jpeg>
+
+From jglazer at gard.com  Wed Jun  4 13:03:00 2014
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 04 Jun 2014 15:03:00 -0500
+Subject: [Bldg-sim] REMINDER - onebuilding.org mailing lists
+Message-ID: <538F7B74.4060106@gard.com>
+
+Posting Guidelines
+------------------
+
+Please read the guidelines, especially if you want to post 
+information about a product or an available job or if you 
+want to post the same message to multiple lists.
+
+http://onebuilding.org/guidelines.html
+
+Share Your Answers
+------------------
+If you are answering a question posted by someone else, 
+please consider posting it to the list instead of privately 
+answering. It is likely that others would be interested in 
+the same question plus it makes both the question and the 
+answer available in the archives.
+
+Cross Posting
+-------------
+
+If your question is specifically about eQUEST, HAP, or 
+TRACE, IES-VE, please post your question to the 
+eQUEST-users, HAP-users, TRACE-users or Virtual-Sim mailing 
+lists first. If you haven't gotten an answer within a day or 
+so, feel free to  post the question to the BLDG-SIM mailing 
+list.
+
+Other Mailing Lists
+-------------------
+
+To subscribe to the BLDG-SIM, eQUEST-users, HAP-users, 
+TRACE-users or Virtual-Sim mailing lists, send a blank email to:
+
+   bldg-sim-subscribe at onebuilding.org
+   equest-users-subscribe at onebuilding.org
+   hap-users-subscribe at onebuilding.org
+   trace-users-subscribe at onebuilding.org
+   virtual-sim-subscribe at onebuilding.org
+
+In addition we have a mailing list for building performance
+rating systems:
+
+   bldg-rate-subscribe at onebuilding.org
+
+You can also subscribe to these lists from the
+onebuilding.org web site.  In addition,links to mailing
+lists for some ASHRAE committees and USA chapter of IBPSA
+are available at the site.
+
+Unsubscribing
+-------------
+
+To unsubscribe, send a blank email to the appropriate email
+address shown below:
+
+   bldg-sim-unsubscribe at onebuilding.org
+   bldg-rate-unsubscribe at onebuilding.org
+   equest-users-unsubscribe at onebuilding.org
+   hap-users-unsubscribe at onebuilding.org
+   trace-users-unsubscribe at onebuilding.org
+   virtual-sim-unsubscribe at onebuilding.org
+   901ecb-unsubscribe at onebuilding.org
+   901env-unsubscribe at onebuilding.org
+   901fc-unsubscribe at onebuilding.org
+   901ltg-unsubscribe at onebuilding.org
+   901mech-unsubscribe at onebuilding.org
+   spc140-l-unsubscribe at onebuilding.org
+   tc47-l-unsubscribe at onebuilding.org
+   tc28-l-unsubscribe at onebuilding.org
+   ibpsausa-unsubscribe at onebuilding.org
+
+You can also unsubscribe on the onebuilding.org web site.
+
+Help, I Can't Post
+------------------
+
+90% of the time if you cannot post it is because you are
+sending from a different email address than the one you
+originally subscribed from. Please see "Changing Options"
+below to fix this. You can even change your email address
+for all of the mailing lists at once.
+
+Changing Options
+----------------
+
+Go to the main web page
+
+   http://onebuilding.org/
+
+Click on the link on the left for the mailing list you want
+to change your options on. At the bottom of the page for the
+specific mailing list, in the field near the button
+"unsubscribe or edit options" enter your email address and
+press that button. The next page will ask for a password, if
+you don't remember yours click on the remind button and one
+will be emailed to you. From  this page you can change to
+digest mode or your email address or other options.
+
+Archives
+--------
+
+Each of the building energy simulation mailing lists have
+archives of the messages posted. There is a good chance you
+can find the answer you are looking for by searching the
+archives. Go to
+
+   http://onebuilding.org/
+
+In each paragraph about the mailing list is a link to the
+archives. You can search that list from that page. In
+addition, you can use Google to search the entire site
+across all mailing lists by going to:
+
+   http://onebuilding.org/search.html
+
+Digest Mode
+-----------
+
+If you would rather receive a single email each day with all
+of the messages within it, you can use Digest Mode. See the
+"Changing Options" section above to turn on Digest Mode.
+
+Links to Related Sites
+----------------------
+
+If you are interested in other simulation program mailing
+lists or other sites related to building energy simulation,
+see the list of links at:
+
+http://onebuilding.org/links.html
+
+If you have suggestions for additional links, please send me
+an email.
+
+Subject Lines
+-------------
+
+For BLDG-SIM, if the question is about a specific simulation
+program, please include the name of the simulation program
+in the subject line. Also please post a question about a
+specific simulation program to the appropriate mailing list
+first to see if you can get an answer and post to BLDG-SIM
+the next day if you have not. If you are replying to a
+message in a digest, please see the section below.
+
+Replying to a Digest
+--------------------
+
+If you receive a digest, when replying to a message in the
+digest, please copy the original subject line and don't
+include the entire digest when replying. Just include the
+original message.
+
+I Still Need Help
+-----------------
+
+Please email me with your question, I'll try to help:
+
+   jglazer at gard.com
+
+Suggestions
+-----------
+
+If you have suggestions on how to improve the mailing lists,
+add a mailing list, improve the onebuilding.org web site, or
+additions to this email message please send me an email.
+
+   jglazer at gard.com
+
+
+-- 
+Jason Glazer, P.E., GARD Analytics, 90.1 ECB chair
+Admin for onebuilding.org building performance mailing lists
+
+
+
+
+
+
+From kevinv at uidaho.edu  Wed Jun  4 14:12:53 2014
+From: kevinv at uidaho.edu (Van Den Wymelenberg, Kevin (kevinv@uidaho.edu))
+Date: Wed, 4 Jun 2014 21:12:53 +0000
+Subject: [Bldg-sim] New Research Assistant Professor - University of Idaho
+ Integrated Design Lab - Boise
+Message-ID: <CFB4E7E1.5A8D0%kevinv@uidaho.edu>
+
+Bldg Sim,
+
+I am pleased to announce an opening for a new Research Assistant Professor position at the University of Idaho - Integrated Design Lab in Boise (UI-IDL).  Please pass along to interested applicants.  Pardon cross-posting.
+
+For more information please follow this link: https://uidaho.peopleadmin.com/postings/4343
+The open position is for a non-tenure track Research Assistant Professor of Architecture at the UI-IDL.  The chosen applicant will support the building simulation and professional technical assistance outreach activities and will also contribute to UI-IDL teaching obligations to graduate students in architectural/engineering courses in Boise, possibly including comprehensive architectural and urban design studios, and energy modeling and daylighting seminar courses.  The applicant will be expected to:
+
+  *   Secure and conduct research, technical assistance, and project based education in cooperation with IDL faculty and staff .
+  *   Offer simulation and other technical trainings to architects and engineers through a national educational program.
+  *   Develop existing research areas and seek out funding for new avenues of research.
+  *   Contribute to UI-IDL teaching obligations to graduate students in architectural/engineering (e.g.  comprehensive architectural design studio, and energy modeling and daylighting seminars.
+
+The UI-IDL comprises several faculty, research staff, and graduate students of architecture and mechanical engineering working on energy efficiency, high performance buildings, and human factors research and outreach.  Boise is a growing community in the Intermountain West with excellent access to most western cities.  Form more information about the UI-IDL, see www.uidaho.edu/idl.
+
+Thank you,
+
+Kevin Van Den Wymelenberg, PhD
+Director, UI Integrated Design Lab - Boise
+Associate Professor of Architecture, University of Idaho
+kevinv at uidaho.edu    desk:208.401.0641     cell:208.724.9456
+306 S. 6th St. Boise ID 83702     www.uidaho.edu/idl
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140604/acb31c05/attachment.htm>
+
+From Celia.King-Scott at dnvgl.com  Wed Jun  4 15:22:50 2014
+From: Celia.King-Scott at dnvgl.com (King-Scott, Celia)
+Date: Wed, 4 Jun 2014 22:22:50 +0000
+Subject: [Bldg-sim] eQUEST Simulation Error
+Message-ID: <AA9E112AF7300146B3176C33EEC391ED9B90577A@cha-srv-msg-008.kema.intra>
+
+Hi
+Has anyone seen the following two errors when simulating a model?
+I have no idea what it means so any suggestions on how to troubleshoot would be welcomed.
+
+Thank you for your time!
+Celia
+
+[cid:image001.jpg at 01CF8008.D7EED140]
+
+[cid:image002.jpg at 01CF8008.D7EED140]
+
+Best regards
+for KEMA Services Inc., USA
+
+Celia King-Scott PE, BEMP, LEED(r) AP BD+C
+Senior Engineer, Sustainable Buildings & Communities
+
+E-mail celia.king-scott at dnvgl.com<mailto:celia.king-scott at dnvgl.com>
+Mobile +16193097441 begin_of_the_skype_highlighting  |  Direct +16196880960 begin_of_the_skype_highlighting x 75120
+www.dnvgl.com<http://www.dnvgl.com/>  |  LinkedIn<http://www.linkedin.com/company/dnvgl>
+
+
+DNV KEMA is now DNV GL
+[DNV GL]<http://www.dnvgl.com/>
+DNV and GL have merged to form DNV GL
+We are now the world's largest ship and offshore classification society, the leading technical advisor to the global oil and gas industry, and a leading expert for the energy value chain including renewables and energy efficiency. We've also taken a position as one of the top three certification bodies in the world. Read more here: www.dnvgl.com/merger<http://www.dnvgl.com/merger>.
+
+This message may contain confidential or private information. If you are not the addressee, please return the message to its sender and delete it from your files. Please consider the environment before printing this email.
+sender and delete it from your files. Please consider the environment before printing this email.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140604/64b5884f/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.jpg
+Type: image/jpeg
+Size: 6399 bytes
+Desc: image001.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140604/64b5884f/attachment.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image002.jpg
+Type: image/jpeg
+Size: 72084 bytes
+Desc: image002.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140604/64b5884f/attachment-0001.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image003.gif
+Type: image/gif
+Size: 2815 bytes
+Desc: image003.gif
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140604/64b5884f/attachment.gif>
+
+From AndrewC at InterfaceEng.Com  Thu Jun  5 09:57:59 2014
+From: AndrewC at InterfaceEng.Com (Andrew Craig)
+Date: Thu, 5 Jun 2014 16:57:59 +0000
+Subject: [Bldg-sim] eQUEST Simulation Error
+In-Reply-To: <AA9E112AF7300146B3176C33EEC391ED9B90577A@cha-srv-msg-008.kema.intra>
+References: <AA9E112AF7300146B3176C33EEC391ED9B90577A@cha-srv-msg-008.kema.intra>
+Message-ID: <9383B8598994424481C3B2C71BA22B242680A354@MAIL10M1.corp.ieice.com>
+
+I've received the same error message on a couple of recent models.  You can try copying the inp file into a "dummy" model set up through the wizard for a temporary fix but I haven't been able to ultimately figure out what's going on.
+
+Andrew Craig PE, LEED AP
+Associate/Senior Mechanical Engineer
+
+INTERFACE ENGINEERING
+100 SW Main Street, Suite 1600, Portland, OR 97204
+email andrewc at interfaceeng.com<mailto:andrewc at interfaceeng.com>
+portland 503.382.2696
+
+www.interfaceeng.com<http://www.interfaceeng.com/>
+
+Portland / San Francisco / Seattle / Washington, DC / Honolulu
+
+Interface Portland is on the move!<http://interfaceengineering.com/wp-content/uploads/2014/04/042314-Interface-PDX-Move.pdf>
+
+
+From: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of King-Scott, Celia
+Sent: Wednesday, June 04, 2014 3:23 PM
+To: bldg-sim at lists.onebuilding.org; equest-users at lists.onebuilding.org
+Subject: [Bldg-sim] eQUEST Simulation Error
+
+Hi
+Has anyone seen the following two errors when simulating a model?
+I have no idea what it means so any suggestions on how to troubleshoot would be welcomed.
+
+Thank you for your time!
+Celia
+
+[cid:image001.jpg at 01CF80A4.6BBF8860]
+
+[cid:image002.jpg at 01CF80A4.6BBF8860]
+
+Best regards
+for KEMA Services Inc., USA
+
+Celia King-Scott PE, BEMP, LEED(r) AP BD+C
+Senior Engineer, Sustainable Buildings & Communities
+
+E-mail celia.king-scott at dnvgl.com<mailto:celia.king-scott at dnvgl.com>
+Mobile +16193097441 begin_of_the_skype_highlighting  |  Direct +16196880960 begin_of_the_skype_highlighting x 75120
+www.dnvgl.com<http://www.dnvgl.com/>  |  LinkedIn<http://www.linkedin.com/company/dnvgl>
+
+
+DNV KEMA is now DNV GL
+[DNV GL]<http://www.dnvgl.com/>
+DNV and GL have merged to form DNV GL
+We are now the world's largest ship and offshore classification society, the leading technical advisor to the global oil and gas industry, and a leading expert for the energy value chain including renewables and energy efficiency. We've also taken a position as one of the top three certification bodies in the world. Read more here: www.dnvgl.com/merger<http://www.dnvgl.com/merger>.
+
+This message may contain confidential or private information. If you are not the addressee, please return the message to its sender and delete it from your files. Please consider the environment before printing this email.
+sender and delete it from your files. Please consider the environment before printing this email.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140605/d62eec09/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.jpg
+Type: image/jpeg
+Size: 6399 bytes
+Desc: image001.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140605/d62eec09/attachment.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image002.jpg
+Type: image/jpeg
+Size: 72084 bytes
+Desc: image002.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140605/d62eec09/attachment-0001.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image003.gif
+Type: image/gif
+Size: 2815 bytes
+Desc: image003.gif
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140605/d62eec09/attachment.gif>
+
+From morgan at ecotope.com  Thu Jun  5 10:01:44 2014
+From: morgan at ecotope.com (Morgan Heater)
+Date: Thu, 5 Jun 2014 10:01:44 -0700 (PDT)
+Subject: [Bldg-sim] eQUEST Simulation Error
+In-Reply-To: <9383B8598994424481C3B2C71BA22B242680A354@MAIL10M1.corp.ieice.com>
+References: <AA9E112AF7300146B3176C33EEC391ED9B90577A@cha-srv-msg-008.kema.intra>
+	<9383B8598994424481C3B2C71BA22B242680A354@MAIL10M1.corp.ieice.com>
+Message-ID: <b9fef3eb.000016fc.00000006@ECO-MORGAN-DT2>
+
+I've had to use the old restart the computer trick to make it go away.  
+
+ 
+
+Morgan Heater
+
+PE, BEMP, LEED AP
+
+Ecotope, Inc
+
+4056 9th Ave NE
+
+Seattle, WA 98105
+
+morgan at ecotope.com
+
+office: 206-322-3753 ext 209
+
+direct: 206-596-4709 
+
+From: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf
+Of Andrew Craig
+Sent: Thursday, June 05, 2014 9:58 AM
+To: King-Scott, Celia; bldg-sim at lists.onebuilding.org;
+equest-users at lists.onebuilding.org
+Subject: Re: [Bldg-sim] eQUEST Simulation Error
+
+ 
+
+I've received the same error message on a couple of recent models.  You
+can try copying the inp file into a "dummy" model set up through the
+wizard for a temporary fix but I haven't been able to ultimately figure
+out what's going on.
+
+ 
+
+Andrew Craig PE, LEED AP
+Associate/Senior Mechanical Engineer
+
+INTERFACE ENGINEERING
+100 SW Main Street, Suite 1600, Portland, OR 97204
+email  <mailto:andrewc at interfaceeng.com> andrewc at interfaceeng.com
+portland 503.382.2696
+
+ <http://www.interfaceeng.com/> www.interfaceeng.com
+
+Portland / San Francisco / Seattle / Washington, DC / Honolulu
+
+Interface Portland is on the
+<http://interfaceengineering.com/wp-content/uploads/2014/04/042314-Interfa
+ce-PDX-Move.pdf> move!
+
+ 
+
+From: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf
+Of King-Scott, Celia
+Sent: Wednesday, June 04, 2014 3:23 PM
+To: bldg-sim at lists.onebuilding.org; equest-users at lists.onebuilding.org
+Subject: [Bldg-sim] eQUEST Simulation Error
+
+ 
+
+Hi
+
+Has anyone seen the following two errors when simulating a model? 
+
+I have no idea what it means so any suggestions on how to troubleshoot
+would be welcomed. 
+
+ 
+
+Thank you for your time!
+
+Celia
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+Best regards
+
+for KEMA Services Inc., USA
+
+
+Celia King-Scott PE, BEMP, LEEDR AP BD+C 
+
+Senior Engineer, Sustainable Buildings & Communities
+
+
+E-mail celia.king-scott at dnvgl.com 
+Mobile +16193097441 begin_of_the_skype_highlighting  |  Direct
++16196880960 begin_of_the_skype_highlighting x 75120
+
+ <http://www.dnvgl.com/> www.dnvgl.com  |
+<http://www.linkedin.com/company/dnvgl> LinkedIn  
+
+ 
+
+ 
+
+DNV KEMA is now DNV GL
+
+ <http://www.dnvgl.com/> DNV GL
+
+DNV and GL have merged to form DNV GL
+We are now the world's largest ship and offshore classification society,
+the leading technical advisor to the global oil and gas industry, and a
+leading expert for the energy value chain including renewables and energy
+efficiency. We've also taken a position as one of the top three
+certification bodies in the world. Read more here:
+<http://www.dnvgl.com/merger> www.dnvgl.com/merger.
+
+ 
+
+This message may contain confidential or private information. If you are
+not the addressee, please return the message to its sender and delete it
+from your files. Please consider the environment before printing this
+email.
+
+sender and delete it from your files. Please consider the environment
+before printing this email.
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140605/007811b1/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 6399 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140605/007811b1/attachment.jpeg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 72084 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140605/007811b1/attachment-0001.jpeg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/gif
+Size: 2815 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140605/007811b1/attachment.gif>
+
+From karol.bandurski at put.poznan.pl  Fri Jun  6 04:29:21 2014
+From: karol.bandurski at put.poznan.pl (Karol BANDURSKI)
+Date: Fri, 6 Jun 2014 13:29:21 +0200
+Subject: [Bldg-sim] shady place simulation
+Message-ID: <007b01cf817a$9142a190$b3c7e4b0$@put.poznan.pl>
+
+Dear BPS Users and Developers,
+
+I would like to model the zone that envelope is 'fully of holes', it
+consists of only shading elements. Like space inside upper branches of a
+tree or in the forest. 
+
+So, there is no thermal insulation and air and heat can flow into and across
+zone by natural ventilation, but sun radiation is limited.
+
+I wonder if TRNSYS simulation (or other multizonal software, e.g. ESP-r,
+EnergyPlus) can be appropriate to model such objects (inside thermal
+comfort) or it is necessary to use CFD simulation.
+
+I think to prepare zone (maybe a few airnodes) with very low thermal
+resistance (or thermal properties of construction material, e.g. steel) and
+with a lot of cracks in the walls, then to model shading elements using
+shading zones.
+
+Do you have some idea or some experience with such objects?
+Any comments, hints and tips are appreciated!
+
+Kind regards,
+Karol
+------------------------------------------------
+Karol Bandurski MSc.
+Institute of Environmental Engineering
+Poznan University of Technology
+www.put.poznan.pl/~karol.bandurski
+www.ee.put.poznan.pl
+
+
+
+
+
+From Cory.Duggin at tlc-eng.com  Fri Jun  6 06:12:51 2014
+From: Cory.Duggin at tlc-eng.com (Duggin, Cory)
+Date: Fri, 6 Jun 2014 09:12:51 -0400
+Subject: [Bldg-sim] shady place simulation
+In-Reply-To: <007b01cf817a$9142a190$b3c7e4b0$@put.poznan.pl>
+References: <007b01cf817a$9142a190$b3c7e4b0$@put.poznan.pl>
+Message-ID: <55E6EE3014A4E04EA2E61645AB5807F7062AFB54E9DE@TLCEC1.tlc-eng.com>
+
+I think you could model this in IESVE using the macroflow application.  You would have to draw all the openings as windows rather than holes, and then set the windows to be open all the time.  This would allow for shading and air to pass through the space.  You could then export those flows for any point in time as boundary conditions to microflow to perform CFD and calculate the thermal comfort metrics.
+
+ 
+Cory Duggin, EI
+Energy Engineer I
+TLC Engineering for Architecture
+direct dial 615-346-1939
+ 
+
+-----Original Message-----
+From: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Karol BANDURSKI
+Sent: Friday, June 06, 2014 6:29 AM
+To: bldg-sim at lists.onebuilding.org
+Subject: [Bldg-sim] shady place simulation
+
+Dear BPS Users and Developers,
+
+I would like to model the zone that envelope is 'fully of holes', it consists of only shading elements. Like space inside upper branches of a tree or in the forest. 
+
+So, there is no thermal insulation and air and heat can flow into and across zone by natural ventilation, but sun radiation is limited.
+
+I wonder if TRNSYS simulation (or other multizonal software, e.g. ESP-r,
+EnergyPlus) can be appropriate to model such objects (inside thermal
+comfort) or it is necessary to use CFD simulation.
+
+I think to prepare zone (maybe a few airnodes) with very low thermal resistance (or thermal properties of construction material, e.g. steel) and with a lot of cracks in the walls, then to model shading elements using shading zones.
+
+Do you have some idea or some experience with such objects?
+Any comments, hints and tips are appreciated!
+
+Kind regards,
+Karol
+------------------------------------------------
+Karol Bandurski MSc.
+Institute of Environmental Engineering
+Poznan University of Technology
+www.put.poznan.pl/~karol.bandurski
+www.ee.put.poznan.pl
+
+
+
+
+_______________________________________________
+Bldg-sim mailing list
+http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+
+From slv3sat at gmail.com  Fri Jun  6 08:08:21 2014
+From: slv3sat at gmail.com (R B)
+Date: Fri, 6 Jun 2014 10:08:21 -0500
+Subject: [Bldg-sim] Indoor pool evaporation rate
+Message-ID: <CA+f4ixAiUfbL_o8o7QexQT+wnzwPWvXmpVAEOqiL8v-1QgexSw@mail.gmail.com>
+
+Hi All,
+I am working on calibrating a recreation center model and was wondering if
+folks had a favorite formula to calculate the evaporation rate from an
+indoor pool. I am getting quite a bit of range in the lbs/hr evaporated
+based on different studies/calculators.
+Thanks in advance and have a good weekend.
+-Rohini
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140606/b4cbd16d/attachment.htm>
+
+From jhaberl at tamu.edu  Fri Jun  6 08:22:35 2014
+From: jhaberl at tamu.edu (Jeff Haberl)
+Date: Fri, 6 Jun 2014 15:22:35 +0000
+Subject: [Bldg-sim] Indoor pool evaporation rate
+In-Reply-To: <CA+f4ixAiUfbL_o8o7QexQT+wnzwPWvXmpVAEOqiL8v-1QgexSw@mail.gmail.com>
+References: <CA+f4ixAiUfbL_o8o7QexQT+wnzwPWvXmpVAEOqiL8v-1QgexSw@mail.gmail.com>
+Message-ID: <9F589FD23AD8AB41A8ED33EE68F2CFC7CEDB87E1@TEESMAIL-DB.tees.tamus.edu>
+
+Hello Rohini,
+
+
+
+One rather dated study that had measured daily amounts over an 18 month period is the study of the Rec Center at the University of Colorado:
+
+
+Haberl, J., Claridge, D. 1987. ?An Expert System for Building Energy Consumption Analysis: Prototype Results,? ASHRAE Transactions-Research, Vol. 93, Pt. 1, pp. 979 - 998 ESL-PA-87-07-01 (July).
+
+In this study we found that the day-to-day evaporation rates were small compared to the amount of water that got splashed out of the pool (i.e., usage).
+
+There also was a relationship between the evaporation rate and the exterior conditions, which caused condensation on the interior of the large window exposure surrounding the pool.
+
+The study also found that there was a large leak in the pool underneath the surge tank, caused by the corrosion of the cast iron drain pipe that was 30+ times more than the evaporation rate. This was confirmed by sampling for chlorine in wet, swampy area directly downhill from the Recreation Center, which was wet because of the 25,000 gallons per day pool leak. Pool filling procedures were also modified to cut the heating energy use by 1/2 in the spring when the pools were drained, cleaned and refilled.
+
+Jeff
+
+8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  8=()  8=)  8=|  8=)  :=')  8=) 8=?
+Jeff S. Haberl, Ph.D.,P.E.inactive,FASHRAE,FIBPSA,......jhaberl at tamu.edu<mailto:........jhaberl at tamu.edu>
+Professor........................................................................Office Ph: 979-845-6507
+Department of Architecture............................................Lab Ph:979-845-6065
+Energy Systems Laboratory...........................................FAX: 979-862-2457
+Texas A&M University...................................................77843-3581
+College Station, Texas, USA, 77843..............................URL:www.esl.tamu.edu
+8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=)  :=)  8=)  8=!  8=)  8=? 8=) 8=0
+________________________________
+From: Bldg-sim [bldg-sim-bounces at lists.onebuilding.org] on behalf of R B [slv3sat at gmail.com]
+Sent: Friday, June 06, 2014 10:08 AM
+To: bldg-sim at lists.onebuilding.org
+Subject: [Bldg-sim] Indoor pool evaporation rate
+
+Hi All,
+I am working on calibrating a recreation center model and was wondering if folks had a favorite formula to calculate the evaporation rate from an indoor pool. I am getting quite a bit of range in the lbs/hr evaporated based on different studies/calculators.
+Thanks in advance and have a good weekend.
+-Rohini
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140606/924acb71/attachment.htm>
+
+From smartin at shaunmartinconsulting.com  Fri Jun  6 09:24:13 2014
+From: smartin at shaunmartinconsulting.com (Shaun Martin)
+Date: Fri, 6 Jun 2014 09:24:13 -0700
+Subject: [Bldg-sim] Indoor pool evaporation rate
+In-Reply-To: <9F589FD23AD8AB41A8ED33EE68F2CFC7CEDB87E1@TEESMAIL-DB.tees.tamus.edu>
+References: <CA+f4ixAiUfbL_o8o7QexQT+wnzwPWvXmpVAEOqiL8v-1QgexSw@mail.gmail.com>
+	<9F589FD23AD8AB41A8ED33EE68F2CFC7CEDB87E1@TEESMAIL-DB.tees.tamus.edu>
+Message-ID: <000c01cf81a3$c46d6630$4d483290$@shaunmartinconsulting.com>
+
+Hi Rohini,
+
+ 
+
+Here are some quick and dirty formulas:
+
+ 
+
+
+Unoccupied Pool Evaporation
+
+ 
+
+ 
+
+ 
+
+
+E0 = ( ( Ap * (95 + 0.425v) ) / ifg ) * (Pw - Pa)      
+
+Source: ASHRAE 1989 HVAC Chap 20 Eq 1
+
+
+ 
+
+					
+
+Occupied Pool Evaporation
+
+	Source: Shah, HPAC, Mar 04
+
+
+If (A/N) is greater than 500, then:
+
+	E = E0 * (160 * N / A + 1)
+
+	
+
+If (A/N) is between 50 and 500, then:
+
+	E = E0 * (62.9 * N / A + 1.2)
+
+
+If (A/N) is less than 50, then:
+
+	E = E0 * 2.5
+
+	
+
+ 
+
+					
+
+A = Surface area of pool, ft2
+
+				
+
+N = Number of pool occupants
+
+			
+
+E0 = Rate of evaporation from unoccupied pool, lb/hr
+
+		
+
+E = Rate of evaporation at actual occupancy, lb/hr
+
+		
+
+ifg = Latent heat of vaporization of water, Btu/lb
+
+			
+
+p = Partial pressure of water in air, in. Hg. 
+
+			
+
+?p = (pw ? pr), in. Hg.
+
+				
+
+v = Velocity of air parallel to water surface, feet per minute
+
+		
+
+Pa = Saturation pressure at room temperature and humidity
+
+		
+
+Pw = Saturation pressure at water-surface temperature
+
+ 
+
+ 
+
+ 
+
+ 
+
+I agree with Jeff about usage and leaks.  Some other sources of use that are significant:
+
+1. Showers, of course, will be the largest user, up to 60% of all heated water
+
+2. backwash, 4%
+
+3. pool refill ? in the pools I was working at, whirlpool and teach pool (young kids) refills were quite frequent, as often as 1-2x per week, the main pool typically once per year, 11-12% 
+
+4. cleaning, 3%
+
+Evaporation roughly 20%.
+
+This was for pools built in the 70?s-90?s.
+
+ 
+
+Shaun
+
+ 
+
+Shaun Martin LEED AP
+
+Principal
+
+Shaun Martin Consulting
+
+2060 Pine Street
+
+Vancouver, BC V6J 4P8
+
+P: 604-789-1095
+
+E: smartin at shaunmartinconsulting.com
+
+ 
+
+ 
+
+ 
+
+ 
+
+From: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Jeff Haberl
+Sent: Friday, June 06, 2014 8:23 AM
+To: R B; bldg-sim at lists.onebuilding.org
+Subject: Re: [Bldg-sim] Indoor pool evaporation rate
+
+ 
+
+Hello Rohini,
+
+ 
+
+One rather dated study that had measured daily amounts over an 18 month period is the study of the Rec Center at the University of Colorado:
+
+ 
+
+Haberl, J., Claridge, D. 1987. ?An Expert System for Building Energy Consumption Analysis: Prototype Results,? ASHRAE Transactions-Research, Vol. 93, Pt. 1, pp. 979 - 998 ESL-PA-87-07-01 (July). 
+
+ 
+
+In this study we found that the day-to-day evaporation rates were small compared to the amount of water that got splashed out of the pool (i.e., usage). 
+
+ 
+
+There also was a relationship between the evaporation rate and the exterior conditions, which caused condensation on the interior of the large window exposure surrounding the pool. 
+
+ 
+
+The study also found that there was a large leak in the pool underneath the surge tank, caused by the corrosion of the cast iron drain pipe that was 30+ times more than the evaporation rate. This was confirmed by sampling for chlorine in wet, swampy area directly downhill from the Recreation Center, which was wet because of the 25,000 gallons per day pool leak. Pool filling procedures were also modified to cut the heating energy use by 1/2 in the spring when the pools were drained, cleaned and refilled.
+
+ 
+
+Jeff 
+
+ 
+
+8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  8=()  8=)  8=|  8=)  :=')  8=) 8=?
+Jeff S. Haberl, Ph.D.,P.E.inactive,FASHRAE,FIBPSA,......jhaberl at tamu.edu <mailto:........jhaberl at tamu.edu> 
+Professor........................................................................Office Ph: 979-845-6507
+Department of Architecture............................................Lab Ph:979-845-6065
+Energy Systems Laboratory...........................................FAX: 979-862-2457
+Texas A&M University...................................................77843-3581
+College Station, Texas, USA, 77843..............................URL:www.esl.tamu.edu
+8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=)  :=)  8=)  8=!  8=)  8=? 8=) 8=0
+
+  _____  
+
+From: Bldg-sim [bldg-sim-bounces at lists.onebuilding.org] on behalf of R B [slv3sat at gmail.com]
+Sent: Friday, June 06, 2014 10:08 AM
+To: bldg-sim at lists.onebuilding.org
+Subject: [Bldg-sim] Indoor pool evaporation rate
+
+Hi All,
+
+I am working on calibrating a recreation center model and was wondering if folks had a favorite formula to calculate the evaporation rate from an indoor pool. I am getting quite a bit of range in the lbs/hr evaporated based on different studies/calculators.
+
+Thanks in advance and have a good weekend.
+
+-Rohini
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140606/306e4684/attachment.htm>
+
+From geib.martin1 at gmail.com  Mon Jun  9 11:57:03 2014
+From: geib.martin1 at gmail.com (Martin GEIB)
+Date: Mon, 9 Jun 2014 14:57:03 -0400
+Subject: [Bldg-sim] DesignPH and Passive House Primer workshops, June 16.
+Message-ID: <CAJTJOSxbR3FUwtD=WSM035UhwkhsfaZmqGkeFdDkBJ64EewX-Q@mail.gmail.com>
+
+Dear Colleagues,
+
+Please have a look at these two great workshops that will take place in *NYC,
+June 16*:
+
+*designPH:* The New Sketchup Plug-in for PHPP
+
+With instruction by Andrew Peel of Peel Passive House Consulting
+<http://peelpassivehouse.ca/> and the Canadian Passive House Institute
+<http://www.passivehouse.ca/>.
+
+This one day intensive session participants will learn how to use designPH
+for the design and certification of Passive House Buildings.  Participants
+will be guided step-by-step through the building design process, from
+building model creation to exporting to PHPP with a focus on iterative
+design to achieve the Passive House criteria.
+
+6.5 AIA CES credits are offered. Find out more and register here
+<http://www.passivehouse.ca/designph-ny/>.
+
+
+*Passive House Primer: *
+
+With instruction by Tomas O?Leary of the Passive House Academy
+<http://www.passivehouseacademy.com/index.php/our-services/training/us-training-events/primer-course-us>
+.
+
+This course is a basic yet extensive one day introduction to Passive
+House.  Learning objectives go from specifics like defining the Passive
+House Standard and explaining Space Heating and Cooling Demand to reviewing
+a range of case study projects including domestic and large scale
+commercial buildings.  Participants will get an overview of key
+construction elements like airtightness, thermal bridge free connections,
+windows and heat recovery ventilation as well as the PHPP software and key
+issues of Passive House design optimization.
+
+ 6.5 AIA CES credits are offered. Find out more and register *here
+<http://www.passivehouseacademy.com/index.php/our-services/training/us-training-events/primer-course-us>.*
+
+*Th**ese courses are being offered in collaboration with:*
+
+*NY14 Passive House Conference & Expo on June 17.*
+*Find more info and register here
+<http://www.rightevents.net/NY14PH_Conference_Expo/>.*
+
+
+Martin Geib.
+
+*NYPH intern*
+
+Register for the New York Passive House newsletter here
+<http://nypassivehouse.org/>.
+Become a New York Passive House member here
+<http://nypassivehouse.org/become-a-member/>.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140609/cd649fe2/attachment.htm>
+
+From jdunn at uidaho.edu  Mon Jun  9 15:59:16 2014
+From: jdunn at uidaho.edu (Dunn, Jacob (jdunn@uidaho.edu))
+Date: Mon, 9 Jun 2014 22:59:16 +0000
+Subject: [Bldg-sim] UIIDL Free Webinar on Lighting Retrofit Analysis
+Message-ID: <1402354683732.62995@uidaho.edu>
+
+BLDG-SIMMERS
+
+
+We've got another BSUG remote webinar available from the University of Idaho Integrated Design Lab on Wednesday, June 11th.  We will be featuring a Boise-Idaho based start up and an app they developed for doing retrofit lighting simulation and analysis.  Very excited to feature a local company for this month's presentation!  Please see below for more details and direct any questions to kleichliter at uidaho.edu.  Thanks!
+
+
+Title:  Retrolux - A New Boise-Based Company and Simulation Tool for Lighting Retrofits
+
+
+Target Audience: Engineers and Architects (CEUs AVAILABLE!) -
+
+Date and Time: June 11th, 2014 - 12.00 to 13.00 MT?
+
+Remote Webinar Available: Register here for the remote webinar - https://attendee.gotowebinar.com/register/2956792734633392129
+
+
+Description:
+
+BSUG on June 11th will feature a new software program developed by a local startup company, Retrolux, aimed at streamlining electrical lighting retrofit analysis via a custom app.  The presentation will focus on the role of technology and simulations, commercial lighting as the low-hanging fruit of efficiency measures, the current state of the lighting industry and simulation, and simulations and sustainability.  The new tool hopes to reduce product takeoff and installation costs by over 30%, streamline utility rebate programs, integrate with existing business systems, and provide a centralized project information database that can be updated with future improvements. There will be a short demonstration of the tool at the end of the presentation.
+
+
+More on Retrolux as a company:
+
+Retrolux is a startup enterprise software as a service (SaaS) software company that seeks to provide energy auditors, electrical contractors, distributors, and utilities with the most comprehensive and integrated product supply chain logistics and energy efficiency software. The initial focus will be lighting products but the long term vision includes the entire electrical product lines and eventually mechanical products as well.  Simply, Retrolux is a mobile-based data collection and product management software that will centralize all business functions required to specify and install building lighting solutions.
+
+
+
+Cheers,
+
+
+
+Jacob Dunn - LEED AP
+University of Idaho Integrated Design Lab
+Architectural Simulation Specialist
+p. 208.401.0652
+c. 208.230.6077
+e. jdunn at uidaho.edu
+w. http://www.idlboise.com
+
+"Building services today are essentially mechanical compensation for the fact that buildings are bad for what they are designed for--human life." - Bjarke Ingels
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140609/340922b7/attachment.htm>
+
+From sanketpuranik at gmail.com  Mon Jun  9 23:45:56 2014
+From: sanketpuranik at gmail.com (Sanket Puranik)
+Date: Tue, 10 Jun 2014 12:15:56 +0530
+Subject: [Bldg-sim] Chilled beam Vs conventional VAV systems
+Message-ID: <CAPgg=ytokySxY-edu5O9S5Gp7zu6Bf-yfuKTwJvYFwA20=t1Sg@mail.gmail.com>
+
+Hi all,
+
+I have modeled chilled beams and conventional VAV systems for an office
+building. I am getting 28% lower annual energy consumption with chilled
+beams.
+
+Has anyone done similar comparison? I would like to confirm if such energy
+savings are achievable with chilled beams??
+
+Thanks and Regards,
+Sanket
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140610/0da50601/attachment.htm>
+
+From jim at buildingperformanceteam.com  Tue Jun 10 03:18:29 2014
+From: jim at buildingperformanceteam.com (Jim Dirkes)
+Date: Tue, 10 Jun 2014 05:18:29 -0500
+Subject: [Bldg-sim] Chilled beam Vs conventional VAV systems
+In-Reply-To: <CAPgg=ytokySxY-edu5O9S5Gp7zu6Bf-yfuKTwJvYFwA20=t1Sg@mail.gmail.com>
+References: <CAPgg=ytokySxY-edu5O9S5Gp7zu6Bf-yfuKTwJvYFwA20=t1Sg@mail.gmail.com>
+Message-ID: <FC1586506FC3D647A8CEAB83BA211A6938A74B22E4@CH2MBX01.ch2.comcast.net>
+
+The ASHRAE Journal has at least two detailed articles in the past ~6 months comparing these.  The first was by Steve Taylor and included many considerations for controls and design differences.  The second was a case study of a large building somewhere in Asia (I think).
+Sorry I can?t give specific references ? I?m about to depart for the day.
+
+James V Dirkes II, PE, BEMP, LEED AP
+www.buildingperformanceteam.com<http://www.buildingperformanceteam.com/>
+Energy Analysis, Commissioning & Training Services
+1631 Acacia Drive, Grand Rapids, MI 49504 USA
+616 450 8653
+
+From: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Sanket Puranik
+Sent: Tuesday, June 10, 2014 2:46 AM
+To: bldg-sim at lists.onebuilding.org
+Subject: [Bldg-sim] Chilled beam Vs conventional VAV systems
+
+Hi all,
+
+I have modeled chilled beams and conventional VAV systems for an office building. I am getting 28% lower annual energy consumption with chilled beams.
+
+Has anyone done similar comparison? I would like to confirm if such energy savings are achievable with chilled beams??
+
+Thanks and Regards,
+Sanket
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140610/02931b4a/attachment.htm>
+
+From jim at buildingperformanceteam.com  Tue Jun 10 03:29:22 2014
+From: jim at buildingperformanceteam.com (Jim Dirkes)
+Date: Tue, 10 Jun 2014 05:29:22 -0500
+Subject: [Bldg-sim] Chilled beam Vs conventional VAV systems
+In-Reply-To: <FC1586506FC3D647A8CEAB83BA211A6938A74B22E4@CH2MBX01.ch2.comcast.net>
+References: <CAPgg=ytokySxY-edu5O9S5Gp7zu6Bf-yfuKTwJvYFwA20=t1Sg@mail.gmail.com>
+	<FC1586506FC3D647A8CEAB83BA211A6938A74B22E4@CH2MBX01.ch2.comcast.net>
+Message-ID: <FC1586506FC3D647A8CEAB83BA211A6938A74B22E5@CH2MBX01.ch2.comcast.net>
+
+Actually, the case study building was built by InfoSys in India and used one system for half of the large building and another for the other half.
+
+James V Dirkes II, PE, BEMP, LEED AP
+www.buildingperformanceteam.com<http://www.buildingperformanceteam.com/>
+Energy Analysis, Commissioning & Training Services
+1631 Acacia Drive, Grand Rapids, MI 49504 USA
+616 450 8653
+
+From: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Jim Dirkes
+Sent: Tuesday, June 10, 2014 6:18 AM
+To: Sanket Puranik; bldg-sim at lists.onebuilding.org
+Subject: Re: [Bldg-sim] Chilled beam Vs conventional VAV systems
+
+The ASHRAE Journal has at least two detailed articles in the past ~6 months comparing these.  The first was by Steve Taylor and included many considerations for controls and design differences.  The second was a case study of a large building somewhere in Asia (I think).
+Sorry I can?t give specific references ? I?m about to depart for the day.
+
+James V Dirkes II, PE, BEMP, LEED AP
+www.buildingperformanceteam.com<http://www.buildingperformanceteam.com/>
+Energy Analysis, Commissioning & Training Services
+1631 Acacia Drive, Grand Rapids, MI 49504 USA
+616 450 8653
+
+From: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Sanket Puranik
+Sent: Tuesday, June 10, 2014 2:46 AM
+To: bldg-sim at lists.onebuilding.org<mailto:bldg-sim at lists.onebuilding.org>
+Subject: [Bldg-sim] Chilled beam Vs conventional VAV systems
+
+Hi all,
+
+I have modeled chilled beams and conventional VAV systems for an office building. I am getting 28% lower annual energy consumption with chilled beams.
+
+Has anyone done similar comparison? I would like to confirm if such energy savings are achievable with chilled beams??
+
+Thanks and Regards,
+Sanket
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140610/81c92eb3/attachment.htm>
+
+From f.dubisch at ifes-koeln.de  Tue Jun 10 03:37:03 2014
+From: f.dubisch at ifes-koeln.de (Dubisch, Florian)
+Date: Tue, 10 Jun 2014 12:37:03 +0200
+Subject: [Bldg-sim] Chilled beam Vs conventional VAV systems
+In-Reply-To: <FC1586506FC3D647A8CEAB83BA211A6938A74B22E5@CH2MBX01.ch2.comcast.net>
+References: <CAPgg=ytokySxY-edu5O9S5Gp7zu6Bf-yfuKTwJvYFwA20=t1Sg@mail.gmail.com><FC1586506FC3D647A8CEAB83BA211A6938A74B22E4@CH2MBX01.ch2.comcast.net>
+	<FC1586506FC3D647A8CEAB83BA211A6938A74B22E5@CH2MBX01.ch2.comcast.net>
+Message-ID: <FB83C20E30D9344C9E6A2A2789BFABED9426F1@ifes01.ifes-frechen.de>
+
+You might want to check the following paper from TRANE about that topic:
+
+ 
+
+http://www.trane.com/content/dam/Trane/Commercial/global/products-systems/education-training/engineers-newsletters/airside-design/adm_apn034en_1209.pdf
+
+ 
+
+ 
+
+Kind regards
+
+ 
+
+p.p. Florian Dubisch
+
+ 
+
+ifes GmbH
+
+in the etrium
+Am Wassermann 36
+50829 Cologne
+
+ 
+
+Germany
+
+ 
+
+Fon:   +49 221 801099-0
+
+Fax:   +49 221 801099-69
+
+ 
+
+Mail: g.hoffmann at ifes-koeln.de <mailto:g.hoffmann at ifes-frechen.de> 
+
+web: www.ifes-koeln.de <http://www.ifes-frechen.de/> 
+
+ 
+
+ifes is member of the DGNB = German Sustainable Building Council e.V.
+
+ 
+
+Location of the company: Cologne, Germany
+
+Commercial Register of the Cologne Local Court: HRB 42664
+
+Managing Director: Marcus Staude
+
+ppa. Gerhard Hoffmann
+
+ 
+
+ 
+
+Von: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] Im Auftrag von Jim Dirkes
+Gesendet: Dienstag, 10. Juni 2014 12:29
+An: Jim Dirkes; Sanket Puranik; bldg-sim at lists.onebuilding.org
+Betreff: Re: [Bldg-sim] Chilled beam Vs conventional VAV systems
+
+ 
+
+Actually, the case study building was built by InfoSys in India and used one system for half of the large building and another for the other half.
+
+ 
+
+James V Dirkes II, PE, BEMP, LEED AP
+www.buildingperformanceteam.com <http://www.buildingperformanceteam.com/>  
+Energy Analysis, Commissioning & Training Services
+1631 Acacia Drive, Grand Rapids, MI 49504 USA
+616 450 8653
+
+ 
+
+From: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Jim Dirkes
+Sent: Tuesday, June 10, 2014 6:18 AM
+To: Sanket Puranik; bldg-sim at lists.onebuilding.org
+Subject: Re: [Bldg-sim] Chilled beam Vs conventional VAV systems
+
+ 
+
+The ASHRAE Journal has at least two detailed articles in the past ~6 months comparing these.  The first was by Steve Taylor and included many considerations for controls and design differences.  The second was a case study of a large building somewhere in Asia (I think).
+
+Sorry I can?t give specific references ? I?m about to depart for the day.
+
+ 
+
+James V Dirkes II, PE, BEMP, LEED AP
+www.buildingperformanceteam.com <http://www.buildingperformanceteam.com/>  
+Energy Analysis, Commissioning & Training Services
+1631 Acacia Drive, Grand Rapids, MI 49504 USA
+616 450 8653
+
+ 
+
+From: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Sanket Puranik
+Sent: Tuesday, June 10, 2014 2:46 AM
+To: bldg-sim at lists.onebuilding.org
+Subject: [Bldg-sim] Chilled beam Vs conventional VAV systems
+
+ 
+
+Hi all,
+
+ 
+
+I have modeled chilled beams and conventional VAV systems for an office building. I am getting 28% lower annual energy consumption with chilled beams.
+
+ 
+
+Has anyone done similar comparison? I would like to confirm if such energy savings are achievable with chilled beams??
+
+ 
+
+Thanks and Regards,
+
+Sanket
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140610/a7bff27e/attachment.htm>
+
+From DEldridge at grummanbutkus.com  Tue Jun 10 05:01:02 2014
+From: DEldridge at grummanbutkus.com (David Eldridge)
+Date: Tue, 10 Jun 2014 12:01:02 +0000
+Subject: [Bldg-sim] Chilled beam Vs conventional VAV systems
+In-Reply-To: <CAPgg=ytokySxY-edu5O9S5Gp7zu6Bf-yfuKTwJvYFwA20=t1Sg@mail.gmail.com>
+References: <CAPgg=ytokySxY-edu5O9S5Gp7zu6Bf-yfuKTwJvYFwA20=t1Sg@mail.gmail.com>
+Message-ID: <D1816D1A-5D87-4CCA-9D32-9AEBC4C1048A@grummanbutkus.com>
+
+28% reduction sounds like a big difference if you are referring to total energy use of the building.
+
+Can you go back to your two cases and show each end-use to verify where the savings is occurring?
+
+DSE Mobile
+
+On Jun 10, 2014, at 1:46 AM, "Sanket Puranik" <sanketpuranik at gmail.com<mailto:sanketpuranik at gmail.com>> wrote:
+
+Hi all,
+
+I have modeled chilled beams and conventional VAV systems for an office building. I am getting 28% lower annual energy consumption with chilled beams.
+
+Has anyone done similar comparison? I would like to confirm if such energy savings are achievable with chilled beams??
+
+Thanks and Regards,
+Sanket
+_______________________________________________
+Bldg-sim mailing list
+http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG<mailto:BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140610/39b60e5c/attachment.htm>
+
+From dannall at mindspring.com  Tue Jun 10 05:51:25 2014
+From: dannall at mindspring.com (Dan Nall)
+Date: Tue, 10 Jun 2014 08:51:25 -0400 (GMT-04:00)
+Subject: [Bldg-sim] Chilled beam Vs conventional VAV systems
+Message-ID: <13329269.1402404686317.JavaMail.root@mswamui-valley.atl.sa.earthlink.net>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140610/a6d94d7d/attachment.htm>
+
+From Iain.Macdonald at nrc-cnrc.gc.ca  Tue Jun 10 06:05:56 2014
+From: Iain.Macdonald at nrc-cnrc.gc.ca (Macdonald, Iain)
+Date: Tue, 10 Jun 2014 06:05:56 -0700
+Subject: [Bldg-sim] IBPSA Ottawa - First Meet and Greet
+Message-ID: <ED9C8D2810063B4A8E0C687A20190142A2FB427BDC@NRCCENMB2.nrc.ca>
+
+Apologies for cross posting...
+
+Who:     Building Energy Modelling Professionals, Students, Designers and Researchers.
+What:   First Meeting of the Ottawa IBPSA Chapter
+When: June 17th 2014  @ 6pm
+Where: http://farmteamcookhouse.ca/  683 Bank Street, Ottawa, ON K1S 3T8 (Glebe Ave @ Bank St)
+Map     : https://goo.gl/maps/ztvjh
+Details:
+This is the first meeting of the soon to be formed Ottawa Chapter of the International Building Performance Simulation Association (IBPSA-Ottawa).  This meeting is a simple meet and greet. The goal is to get to know the professionals in the Ottawa area,  and come up with some ideas on what we would like this chapter to accomplish.  There will be some activities to determine the common interests and needs of the modelling community in the Ottawa area, and showcase what is being done in some of the other chapters across Canada and the U.S.
+
+Please pass this invite to anyone that you think would like to attend.
+
+Looking forward to seeing you,
+
+
+*************************************************************************************
+Iain A Macdonald, Ph.D.
+
+Research Officer, Construction
+National Research Council of Canada
+Building M-24, 1200 Montreal Road, Ottawa, Ontario K1A 0R6
+
+Agent de recherche, Construction
+Conseil national de recherches Canada
+?difice M-24, 1200, chemin Montr?al, Ottawa, Ontario K1A 0R6
+
+Tel: 613-993-9676
+Fax: 613-954-3733
+
+http://www.nrc-cnrc.gc.ca
+
+Construction Innovation:
+  current issue - http://www.nrc-cnrc.gc.ca/ci-ic
+  subscribe - http://www.nrc-cnrc.gc.ca/ci-ic/subscribe
+
+l'innovation en construction :
+  num?o actuel - http://www.nrc-cnrc.gc.ca/ci-ic/fr
+  s'abonner - http://www.nrc-cnrc.gc.ca/ci-ic/fr/subscribe
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140610/1eb6777b/attachment.htm>
+
+From tito_ at MIT.EDU  Tue Jun 10 08:42:07 2014
+From: tito_ at MIT.EDU (Christoph Reinhart)
+Date: Tue, 10 Jun 2014 15:42:07 +0000
+Subject: [Bldg-sim] Daylighting Training at Harvard: July 9-11 2014
+Message-ID: <1B23446CBF250648A2FC775DE3FE7E806944AC2F@OC11expo28.exchange.mit.edu>
+
+Dear all:
+
+If any of you are considering to participate in this year's  Executive Education Program on Daylighting, it would be helpful if you signed up by Friday. Feel free to contact me should you have any specific questions.
+
+Best,
+
+Christoph
+
+From: Christoph Reinhart
+Sent: Thursday, May 22, 2014 4:35 PM
+To: bldg-sim at lists.onebuilding.org
+Subject: Daylighting Training at Harvard: July 9-11 2014
+
+Dear colleagues:
+
+As in previous years, we will be offering a three day Executive Education Program on Daylighting Buildings<http://execed.gsd.harvard.edu/programs/daylighting-buildings-2> at Harvard from July 9-11, 2014.
+
+Course participants will be exposed to a range of design analysis techniques ranging from rules-of-thumb to computer simulations and high dynamic range photography for glare analysis. The main simulation program used will be DIVA<http://diva4rhino.com/>, a Rhino plug-in for Radiance/Daysim and EnergyPlus. The first two days will consist of formal instructions, in-class discussions, hands-on software tutorials, and exercises. Participants will also be given the opportunity to calibrate their personal digital cameras to take physically based high dynamic range photographs of their favorite spaces. During the last day, participants will be given the opportunity to apply the newly acquired analysis techniques to ongoing projects of their own.
+
+I am looking forward to seeing some of you in Cambridge. Best,
+
+Christoph
+Christoph Reinhart
+Associate Professor
+Department of Architecture
+Massachusetts Institute of Technology
+77 Massachusetts Ave, Rm 5-418, Cambridge, MA 02139, USA
+t: 617 253 7714, f: 617 253 6152, creinhart at mit.edu<mailto:creinhart at mit.edu>
+Sustainable Design Lab<http://mit.edu/SustainableDesignLab/> | Daylighting Handbook I<http://www.amazon.com/gp/product/069220363X> | DIVA<http://www.diva4rhino.com/> | Daysim<http://daysim.ning.com/> | mapdwell<http://www.mapdwell.com/> | umi<http://www.urbanmodeling.net/>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140610/48c1a9b6/attachment.htm>
+
+From fbetz at aeieng.com  Tue Jun 10 14:27:38 2014
+From: fbetz at aeieng.com (Fred Betz)
+Date: Tue, 10 Jun 2014 21:27:38 +0000
+Subject: [Bldg-sim] Chilled beam Vs conventional VAV systems
+In-Reply-To: <CAPgg=ytokySxY-edu5O9S5Gp7zu6Bf-yfuKTwJvYFwA20=t1Sg@mail.gmail.com>
+References: <CAPgg=ytokySxY-edu5O9S5Gp7zu6Bf-yfuKTwJvYFwA20=t1Sg@mail.gmail.com>
+Message-ID: <88a7af252deb4aef9bfd404dd88dcb06@MSN-EX2.aeieng.lan>
+
+Sanket,
+
+Your energy savings is based on a lot of factors.
+
+?         You might see significant reheat reduction if you?re moving less total air.
+
+?         You?ll see a fan power savings by moving less air, but be cautious on pressure drop due to reduced AHU size and duct size, which can eat into the fan power savings. A VAV system sized for 450 fpm in the AHU operating most hours between 250-350 fpm may use less energy than a CAV system serving chilled beams where the velocity is 450 fpm all the time even if half as much air is being distributed.
+
+?         There shouldn?t be much cooling savings. A little associated with reduced fan heat due to reduced air flow.
+
+?         If you have a separate chiller that is providing warmer chilled water to the beams you should see some saving there too versus a central chiller that is generating 44F and then blending the water to 58F for the beams.
+
+Here?s a link to the 2012 SimBuild conference paper ?Issues Arising from the Use of Chilled Beams in Energy Models?.
+http://www.ibpsa.us/simbuild2012/technical_sessions.shtml
+
+
+Good luck,
+
+
+Fred
+
+
+Fred Betz  PhD., LEED AP ?BD&C
+Senior Sustainable
+Systems Analyst
+
+
+
+AEI | AFFILIATED ENGINEERS, INC.
+5802 Research Park Blvd. | Madison, WI  53719
+
+P: 608.236.1175 | F: 608.238.2614
+fbetz at aeieng.com<mailto:fbetz at aeieng.com>  |  www.aeieng.com<http://www.aeieng.com/>
+
+
+
+From: Sanket Puranik [mailto:sanketpuranik at gmail.com]
+Sent: Tuesday, June 10, 2014 1:46 AM
+To: bldg-sim at lists.onebuilding.org
+Subject: [Bldg-sim] Chilled beam Vs conventional VAV systems
+
+Hi all,
+
+I have modeled chilled beams and conventional VAV systems for an office building. I am getting 28% lower annual energy consumption with chilled beams.
+
+Has anyone done similar comparison? I would like to confirm if such energy savings are achievable with chilled beams??
+
+Thanks and Regards,
+Sanket
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140610/bf78e793/attachment.htm>
+
+From chris.malcolm.yates at gmail.com  Wed Jun 11 01:29:01 2014
+From: chris.malcolm.yates at gmail.com (Chris Yates)
+Date: Wed, 11 Jun 2014 09:29:01 +0100
+Subject: [Bldg-sim] Chilled beam Vs conventional VAV systems
+In-Reply-To: <D1816D1A-5D87-4CCA-9D32-9AEBC4C1048A@grummanbutkus.com>
+References: <CAPgg=ytokySxY-edu5O9S5Gp7zu6Bf-yfuKTwJvYFwA20=t1Sg@mail.gmail.com>
+	<D1816D1A-5D87-4CCA-9D32-9AEBC4C1048A@grummanbutkus.com>
+Message-ID: <CAOQXAFAt_TYRY9w2cmyxq_cm01tyeEy9uuBPc1t5SRx9G-z5zg@mail.gmail.com>
+
+A low energy radiant slab system is one of the strategies in Nrel's 'Strategies
+for 50% energy savings in large offices'
+<http://www.nrel.gov/docs/fy10osti/49213.pdf>. Worth a skim through!
+
+Radiant systems such as chilled beams affect Operative temperature more
+directly than VAV. The standard unmet hours test is therefore a little
+unfair to these kinds of system. Perhaps it is worth the hassle
+demonstrating that a comparable level of comfort is achieved during
+occupied hours.
+
+Apart from the conditioning of outdoor air latent heat removal is limited
+because chilled water temperatures are higher. DOAS tends to deliver air at
+a higher temperature as well - typically 15 - 16degC. This is also a
+limiting factor in terms of the kind of load that CBs can deal with.
+
+Designers are loath to specify CBs. Reasons include loss of flexibility for
+subsequent fit outs, limited loads and limited contractor experience.
+
+Hope this helps
+
+Chris
+
+On 10 Jun 2014 13:01, "David Eldridge" <DEldridge at grummanbutkus.com> wrote:
+
+>  28% reduction sounds like a big difference if you are referring to total
+> energy use of the building.
+>
+>  Can you go back to your two cases and show each end-use to verify where
+> the savings is occurring?
+>
+> DSE Mobile
+>
+> On Jun 10, 2014, at 1:46 AM, "Sanket Puranik" <sanketpuranik at gmail.com>
+> wrote:
+>
+>   Hi all,
+>
+>  I have modeled chilled beams and conventional VAV systems for an office
+> building. I am getting 28% lower annual energy consumption with chilled
+> beams.
+>
+>  Has anyone done similar comparison? I would like to confirm if such
+> energy savings are achievable with chilled beams??
+>
+>  Thanks and Regards,
+> Sanket
+>
+>  _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140611/9b81f058/attachment.htm>
+
+From fpasserini.tn at gmail.com  Thu Jun 12 03:46:21 2014
+From: fpasserini.tn at gmail.com (Francesco Passerini)
+Date: Thu, 12 Jun 2014 12:46:21 +0200
+Subject: [Bldg-sim] Refurbishments: software for financial analysis
+Message-ID: <CALgQ-nJeP_W3eFg+yNQm6Zyez2vkz1zoD-vRVpV_e6bYZFdUgQ@mail.gmail.com>
+
+I am interested in software that can be useful for the evaluation of
+building refurbishments, both from the technical point of view and from the
+financial point of view. Such a software could be used by ESCOs to evaluate
+what solutions are the best ones to maximize its profits. The software
+should consider financial parameters both among the input data and among
+the output data. Any suggestion, please?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140612/c192e35e/attachment.htm>
+
+From jim at buildingperformanceteam.com  Thu Jun 12 04:01:58 2014
+From: jim at buildingperformanceteam.com (Jim Dirkes)
+Date: Thu, 12 Jun 2014 06:01:58 -0500
+Subject: [Bldg-sim] Refurbishments: software for financial analysis
+In-Reply-To: <CALgQ-nJeP_W3eFg+yNQm6Zyez2vkz1zoD-vRVpV_e6bYZFdUgQ@mail.gmail.com>
+References: <CALgQ-nJeP_W3eFg+yNQm6Zyez2vkz1zoD-vRVpV_e6bYZFdUgQ@mail.gmail.com>
+Message-ID: <FC1586506FC3D647A8CEAB83BA211A6938A7D3F345@CH2MBX01.ch2.comcast.net>
+
+Francesco,
+We have completed a number of projects with www.retroficiency.com<http://www.retroficiency.com>. Their SaaS platform is fast, intuitive, flexible, uses actual weather data for the billing period and their client support is excellent.  They are a relatively new company (~3 years) and constantly improving.  Although USA-based, I think they are worth investigating.
+
+James V Dirkes II, PE, BEMP, LEED AP
+www.buildingperformanceteam.com<http://www.buildingperformanceteam.com/>
+Energy Analysis, Commissioning & Training Services
+1631 Acacia Drive, Grand Rapids, MI 49504 USA
+616 450 8653
+
+From: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Francesco Passerini
+Sent: Thursday, June 12, 2014 6:46 AM
+To: bldg-sim at lists.onebuilding.org
+Subject: [Bldg-sim] Refurbishments: software for financial analysis
+
+I am interested in software that can be useful for the evaluation of building refurbishments, both from the technical point of view and from the financial point of view. Such a software could be used by ESCOs to evaluate what solutions are the best ones to maximize its profits. The software should consider financial parameters both among the input data and among the output data. Any suggestion, please?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140612/30d29e1e/attachment.htm>
+
+From l.f.r.peeters at gmail.com  Thu Jun 12 07:30:12 2014
+From: l.f.r.peeters at gmail.com (leen peeters)
+Date: Thu, 12 Jun 2014 16:30:12 +0200
+Subject: [Bldg-sim] thermal energy ground storage
+Message-ID: <CAB_-mWNYEiKLhh7zGZc4wvuz0h8E=w5iu6TnUnimBMjnUo7oeA@mail.gmail.com>
+
+Dear all,
+
+we have to simulate the energy and economy of a thermal energy ground
+storage, size 1.125 GWh.
+Any input is well appreciated
+
+Leen
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140612/bf5d51af/attachment.htm>
+
+From jra_sac at yahoo.com  Thu Jun 12 09:06:41 2014
+From: jra_sac at yahoo.com (John Aulbach)
+Date: Thu, 12 Jun 2014 09:06:41 -0700 (PDT)
+Subject: [Bldg-sim] Refurbishments: software for financial analysis
+In-Reply-To: <FC1586506FC3D647A8CEAB83BA211A6938A7D3F345@CH2MBX01.ch2.comcast.net>
+References: <CALgQ-nJeP_W3eFg+yNQm6Zyez2vkz1zoD-vRVpV_e6bYZFdUgQ@mail.gmail.com>
+	<FC1586506FC3D647A8CEAB83BA211A6938A7D3F345@CH2MBX01.ch2.comcast.net>
+Message-ID: <1402589201.58902.YahooMailNeo@web124503.mail.ne1.yahoo.com>
+
+eQuest can do both energy analysis and Life Cycle Costing within its parameters.
+
+John R. Aulbach, PE
+
+
+On Thursday, June 12, 2014 4:02 AM, Jim Dirkes <jim at buildingperformanceteam.com> wrote:
+ 
+
+
+Francesco,
+We have completed a number of projects with www.retroficiency.com. Their SaaS platform is fast, intuitive, flexible, uses actual weather data for the billing period and their client support is excellent.? They are a relatively new company (~3 years) and constantly improving.? Although USA-based, I think they are worth investigating.
+?
+James V Dirkes II, PE, BEMP, LEED AP
+www.buildingperformanceteam.com
+Energy Analysis, Commissioning & Training Services
+1631 Acacia Drive, Grand Rapids, MI 49504USA
+616 450 8653
+?
+From:Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Francesco Passerini
+Sent: Thursday, June 12, 2014 6:46 AM
+To: bldg-sim at lists.onebuilding.org
+Subject: [Bldg-sim] Refurbishments: software for financial analysis
+?
+I am interested in software that can be useful for the evaluation of building refurbishments, both from the technical point of view and from the financial point of view. Such a software could be used by ESCOs to evaluate what solutions are the best ones to maximize its profits. The software should consider financial parameters both among the input data and among the output data. Any suggestion, please?
+
+_______________________________________________
+Bldg-sim mailing list
+http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+To unsubscribe from this mailing list send? a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140612/98aaa400/attachment.htm>
+
+From soham.babu at setty.com  Thu Jun 12 10:45:12 2014
+From: soham.babu at setty.com (Soham Babu)
+Date: Thu, 12 Jun 2014 17:45:12 +0000
+Subject: [Bldg-sim] IGCC for exitting building alteration
+In-Reply-To: <CAB_-mWNYEiKLhh7zGZc4wvuz0h8E=w5iu6TnUnimBMjnUo7oeA@mail.gmail.com>
+References: <CAB_-mWNYEiKLhh7zGZc4wvuz0h8E=w5iu6TnUnimBMjnUo7oeA@mail.gmail.com>
+Message-ID: <DBD829B9CE96A743AAE37CCDDD9B14A12B96AB9D@FFX-Mail-01.hq.setty.com>
+
+Dear All,
+
+I am modeling a building which follow the International Green contraction code public version1.0 (IGCC)  since it is an existing renovation it holds Existing Buildings Chapter 10, section1003 Alterations to existing buildings to energy compliance and shall evaluate accordance section 602.4. Were 602.4.1,602.42 or 602.4.3 as comparing this  602.4.2 Measurement-based compliance with approved agency software from ASHRAE 140. The energy use after the building alteration does not exceed the energy use of the building prior to alteration as measured in consistent units of energy.
+
+
+?         Since there no modeling procedure in section 602.4.2, we need to model Base case wall, roof, floor, glazing, HVAC system, Lighting & DHW existing(before renovation) &  Proposed case wall, roof, floor, glazing, HVAC system, Lighting & DHW New(after renovation).
+
+?         Comparing energy use of the building prior to alteration to energy use of the building after alteration, result should not exceed energy use of the building prior to alteration.
+
+?         So there is  no standard reference to Baseline & Proposed (like ASHRAE 90.1) ?
+
+Please let me know if there is any standard procedure to do model or my understanding above is right.  Your help will be greatly appreciated .
+
+
+Regards,
+Soham Babu
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140612/c61488ac/attachment.htm>
+
+From usrobotics011 at yahoo.com  Thu Jun 12 12:15:03 2014
+From: usrobotics011 at yahoo.com (Sasa Pantic)
+Date: Thu, 12 Jun 2014 12:15:03 -0700 (PDT)
+Subject: [Bldg-sim] Refurbishments: software for financial analysis
+In-Reply-To: <CALgQ-nJeP_W3eFg+yNQm6Zyez2vkz1zoD-vRVpV_e6bYZFdUgQ@mail.gmail.com>
+Message-ID: <1402600503.54995.YahooMailBasic@web141705.mail.bf1.yahoo.com>
+
+Hi Francesco,
+
+Canadian RETScreen spreadsheet based tool will do the job perfectly. You can also use it for other purposes as it has several modules. Free of charge, very easy to use, excellent tool and guys from NRCAN did an excellent job. You have various case studies included  to help you better understand the the tool.Please note that this is not a design tool but rather a decision making tool (direct you what technology to pursue). 
+
+It uses heating degree method for energy consumption. There is a detailed methodology in pdf downloadable from the web site.
+You can choose location of choice, building fabric( U value) above/below ground, set point temperatures ,zone dimensions, ACH etc. You can select up to 5 zones (if not mistaken)
+Enter fuel rate, operation schedule, investment, inflation,  etc.
+Compares proposed design vs base design
+Outputs are cash flow diagram, investment payback time, energy consumption, GHG analysis
+Note. Tool is very sensitive to  heating/cooling changeover temperature value so make a reasonable assumption (it affects length of heating/cooling season).
+
+I was involved in energy efficiency project where existing public buildings  were refurbished ( old windows replaced by  PVC windows dbl glazed  low-e coated, insulation added e.g. added 5 cm of rockwool insulation, ACH reduced etc.). The idea was to understand energy reductions and investment payback time.  Now, big issue was what software should be used for this application as there were many buildings and very tight deadlines. We compared 2 tools. The same building divided into same number of zones , with same parameters  was simulated in TAS and RETscreen. 
+Results revealed that difference between the two tools was up to cca. plus/minus 10% (TAS is more accurate but more time consuming to prepare a model than RETSCreen). The choice was to go with RETScreen. 
+
+Hope this help.
+The other similar tool is Retscreen`s US counterpart HOMER (but I think it deals only with renewable energy sources+ no free of charge).
+Cheers,Sasa Pantic
+
+--------------------------------------------
+On Thu, 6/12/14, Francesco Passerini <fpasserini.tn at gmail.com> wrote:
+
+ Subject: [Bldg-sim] Refurbishments: software for financial analysis
+ To: bldg-sim at lists.onebuilding.org
+ Date: Thursday, June 12, 2014, 12:46 PM
+ 
+ I am
+ interested in
+ software that can be useful for the evaluation of building
+ refurbishments, both
+ from the technical point of view and from the financial
+ point of view. Such a
+ software could be used by ESCOs to evaluate what solutions
+ are the best ones to
+ maximize its profits. The software should consider financial
+ parameters both
+ among the input data and among the output data. Any
+ suggestion, please?
+ 
+ -----Inline Attachment Follows-----
+ 
+ _______________________________________________
+ Bldg-sim mailing list
+ http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+ To unsubscribe from this mailing list send? a blank
+ message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+ 
+
+From maria at pointenergyinnovations.com  Thu Jun 12 13:27:16 2014
+From: maria at pointenergyinnovations.com (Maria Berta)
+Date: Thu, 12 Jun 2014 13:27:16 -0700
+Subject: [Bldg-sim] Help Wanted: Energy Modeler position @ HOK SF
+Message-ID: <CADj2C3JXngVRRuZ-ArxyN-5r5pgtWDn1hOxzUJqXEwE2k0WPHQ@mail.gmail.com>
+
+Hello All!
+
+This is a great opportunity at a great firm...take a look please and let me
+know if you'd be interested.
+
+
+
+[image: HOK.jpeg]
+
+Energy Modeler
+
+Analyze energy efficient building systems.
+
+Be a part of the next generation of design! We are an international,
+highly-respected and well-established A/E firm...in fact, we are the
+largest A/E firm in the US! ENR CA named us the ?Design Firm of the Year?.
+Our San Francisco office is expanding its capability and is poised to
+become the national leader in sustainability. California has the aggressive
+energy code in the nation. We work with some of the most progressive high
+tech clients in the area. There isn?t a more exciting time or place to work
+in energy efficient design. Imagine working in an office where A and E is
+combined into the ideal integrated design platform working on the most
+sustainable projects in the nation. We are looking for a
+sustainably-minded, super talented engineer to join our team. www.hok.com
+
+
+RESPONSIBILITIES:
+
+   -
+
+   Provide energy simulations in eQuest, EnergyPro, IES-VE and Energy Plus
+   to aid in energy efficient design and efficiency measures
+   -
+
+   Read and understand project documentation of energy-related systems,
+   sustainable design, LEED, including energy modeling inputs and outputs,
+   LEED templates, calculations, specifications, and architectural,
+   mechanical, electrical, and plumbing drawings
+   -
+
+   Apply various LEED rating systems including templates and documentation
+   requirements, to the review of documentation and preparation of
+   documentation
+   -
+
+   Assess building designs and prepare recommendations to improve energy
+   performance and enhance environmental sustainability
+   -
+
+   Developing building energy models to inform design decision-making and
+   document building performance
+   -
+
+   Coordinating with architectural, mechanical, and electrical designers to
+   achieve energy-efficiency goals
+   -
+
+   Research leading-edge green technologies and practices.
+
+REQUIRED SKILLS:
+
+   -
+
+   Understanding of HVAC, lighting, and building envelope systems for
+   commercial and institutional buildings
+
+
+   -
+
+   Strong knowledge of DOE-2 based programs: eQUEST, EnergyPro and TRANE
+   TRACE
+
+
+
+REQUIRED EXPERIENCE:
+
+   -
+
+   BS degree in Mechanical Engineering, Building Sciences
+   -
+
+   2+ years of experience with HVAC systems and controls
+
+
+
+
+*Maria Briggs Berta,* LEED Green Assoc.
+Director of Operations
+
+
+
+
+*Mobile*: 510/599-3663
+maria at pointenergyinnovations.com
+*http://pointenergyinnovations.com <http://pointenergyinnovations.com>*
+
+
+
+Connect with us via:
+
+<https://www.facebook.com/pointenergyinnovations?ref=br_rs>
+<https://www.linkedin.com/company/3723432?trk=tyah&trkInfo=tarId%3A1402431205934%2Ctas%3Apoint%20energy%2Cidx%3A1-1-1>
+   <https://twitter.com/pointenergyinv8>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140612/90c54cfe/attachment.htm>
+
+From christian.struck at hslu.ch  Fri Jun 13 06:01:22 2014
+From: christian.struck at hslu.ch (Struck Christian HSLU T&A)
+Date: Fri, 13 Jun 2014 13:01:22 +0000
+Subject: [Bldg-sim] IBPSA-CH Seminar + General Assembly
+Message-ID: <745DE32A3C3FDA44B4C6EA821985E8232CA0B1@MX30.campus.intern>
+
+Dear colleaques
+
+Please take note of the below IBPSA-CH event taking place the 24th of June.
+
+Kind regards,
+
+Christian
+
+
+
+
+IBPSA-CH Seminar + General Assembly
+
+When:              24 June; 17:00-19:00
+Where:             ETH Z?rich, Maschinenlaboratorium, Room Nr.: ML E 13
+Highlight:            Keynote by Christoph Gm?r (AWEL) on "Energienachweise mit dynamischen Simulationen? Eine Betrachtung aus Sicht Vollzugstauglichkeit"
+
+Register for free: by email to christian.struck at hslu.ch/<mailto:christian.struck at hslu.ch/> For more details check:  http://www.ibpsa.ch/general-assembly-2014/
+
+Hochschule Luzern
+Technik & Architektur
+
+Technikumstrasse 21, CH-6048 Horw
+T +41 41 349 33 11, F +41 41 349 39 34
+www.hslu.ch<http://www.hslu.ch/>
+
+Zentrum f?r Integrale Geb?udetechnik (ZIG)
+Dr.-Ing. Christian Struck
+wissenschaftlicher Mitarbeiter Senior
+T direkt + 41 41 349 35 85
+christian.struck at hslu.ch<mailto:urs-peter.menti at hslu.ch>
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140613/265fe0b5/attachment.htm>
+
+From maria at pointenergyinnovations.com  Fri Jun 13 06:49:19 2014
+From: maria at pointenergyinnovations.com (maria at pointenergyinnovations.com)
+Date: Fri, 13 Jun 2014 06:49:19 -0700
+Subject: [Bldg-sim] Peter Rumsey Announces...Point Energy Innovations!
+Message-ID: <539b015fabb91_6665b27e9c150324a8@prd-nresque02.sf.verticalresponse.com.mail>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ( https://cts.vrmailer1.com/click?sk=a_ZMB2JgDjBJa2LNQAPwF5In5SJWv2AWAPQBp0Tya8k4=/aHR0cDovL3BvaW50ZW5lcmd5aW5ub3ZhdGlvbnMuY29tLw==/m5PQBv0lT0iPePv3vLiJ4Q== )                                                                                                                                                                                                                        ?????????????????????????????????????????????????????????????? June 2014                                                                                                                                                                                                                                                                                                                                                                              Check out our exciting new?website:www.pointenergyinnovations.com ( https://cts.vrmailer1.com/click?sk=a_ZMB2JgDjBJa2LNQAPwF5In5SJWv2AWAPQBp0Tya8k4=/aHR0cDovL3BvaW50ZW5lcmd5aW5ub3ZhdGlvbnMuY29t/j33qJzbpTriP5wyCfPyexQ== )? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ??In the SF Bay Area??Save the date for our launch party:Evening of June 26, 2014??                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Point Energy Innovations        5201 Harbord Dr.    Oakland, CA 94618            Update your Email Preferences ( https://vr2.verticalresponse.com/contacts/3298536504730/edit?email_id=3298534889113&amp;sk=a_ZMB2JgDjBJa2LNQAPwF5In5SJWv2AWAPQBp0Tya8k4%3D%2FaHR0cHM6Ly92cjIudmVydGljYWxyZXNwb25zZS5jb20vY29udGFjdHMvMzI5ODUzNjUwNDczMC9lZGl0P2VtYWlsX2lkPTMyOTg1MzQ4ODkxMTM%3D%2F6DY_CbMu_Bod4SKQjVCVHg%3D%3D ) or Unsubscribe ( https://cts.vrmailer1.com/unsub?sk=a_ZMB2JgDjBJa2LNQAPwF5In5SJWv2AWAPQBp0Tya8k4=/aHR0cHM6Ly92cjIudmVydGljYWxyZXNwb25zZS5jb20vY29udGFjdHMvMzI5ODUzNjUwNDczMC91bnN1YnNjcmliZT9lbWFpbF9pZD0zMjk4NTM0ODg5MTEz/JnwnzWMwfkTUX0PkWvWs9A==&amp;merge_field_type=%7BUNSUBSCRIBE_LINK%7D )                       ( http://www.verticalresponse.com/?utm_campaign=email-footer&utm_medium=referral&utm_source=footer&sn=CamID3298534889113&utm_content=CamID3298534889113 )                                                                                                                                                                                                                                                                                                                                                                                                                                              
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140613/cc6deba7/attachment.htm>
+
+From peter.ellis at bigladdersoftware.com  Fri Jun 13 09:22:32 2014
+From: peter.ellis at bigladdersoftware.com (Peter Ellis)
+Date: Fri, 13 Jun 2014 10:22:32 -0600
+Subject: [Bldg-sim] HELP WANTED - EnergyPlus Modeler
+Message-ID: <CAN1ZnDvR+H0Gw_cqZqcN_m-Ws=3jObO=MTDvwg0hooCUpvtc1A@mail.gmail.com>
+
+Help Wanted ? EnergyPlus Modeler
+
+
+Big Ladder Software seeks to hire an *EnergyPlus* modeler to help us
+advance the building energy modeling (BEM) industry by scaling up the
+services, resources, and software that we offer.
+
+*About Big Ladder Software*
+
+Big Ladder is a Denver-based company dedicated to providing services and
+software *for energy modelers and energy modeling firms*. The company name
+reflects our mission to "help our clients reach new heights". Founded in
+2009, we are a team of engineers and computer programmers who are
+passionate about developing innovative open-source software tools for
+building energy modeling. We exclusively use the *EnergyPlus* simulation
+engine to perform whole-building energy analyses. We also offer training
+workshops, commercial support, and custom software development services for
+*EnergyPlus*.
+
+*Job Description*
+
+This job is for a full-time position at our Denver location. If hired,
+responsibilities would include:
+
+- Performing building energy analyses using *EnergyPlus*
+- Providing commercial support for our clients using *EnergyPlus* and our
+software tools
+- Teaching or assisting in training workshops on *EnergyPlus* and our
+software tools
+- Influencing the direction of new software tools for energy modeling
+- Conducting research on energy modeling topics and software tools
+- Authoring conference papers, white papers, and blog posts on energy
+modeling topics.
+
+*Job Requirements*
+
+To be considered for the job, you should be able to demonstrate the
+following minimum requirements:
+
+- Some experience in working with *EnergyPlus* at the text level
+- Deep expertise in using one of the main energy modeling engines (
+*EnergyPlus*, *eQUEST*/*DOE-2*, *TRNSYS*, *IES-VE*, *ESP-r*, *TRACE*)
+- Deep knowledge and understanding of building science and HVAC systems
+- Excellent people skills
+- Excellent writing skills
+- Excellent presentation skills
+- Ability to work independently.
+
+Finally, this might be the right job for you, if you agree with most of the
+following statements:
+
+- You find yourself pushing the limits of your energy modeling tools on a
+daily basis, and it frustrates you to no end
+- You have worked at a mechanical or architectural engineering firm and
+have performed or been heavily exposed to design work
+- You considered becoming a teacher or a professor at some point in your
+life
+- You have been looking for an excuse to truly master *EnergyPlus*
+- You think there MUST be better ways to do software for building energy
+modeling.
+
+For instructions on how to submit your application, visit
+http://bigladdersoftware.com/modeler-apx.html
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140613/3d0e5779/attachment.htm>
+
+From dtan at psdconsulting.com  Fri Jun 13 09:46:43 2014
+From: dtan at psdconsulting.com (=?utf-8?Q?Performance=20Systems=20Development?=)
+Date: Fri, 13 Jun 2014 16:46:43 +0000
+Subject: [Bldg-sim] =?utf-8?q?TRAININGS=3A_50=25_Off_NY_Commercial_=26_Mul?=
+	=?utf-8?q?tifamily_Trainings?=
+Message-ID: <167b723b5b3cb99cd7d4e31f2e52eb66fc6.20140613164635@mail185.atl121.mcsv.net>
+
+View all NYSERDA Discounted Trainings (http://psdconsulting.com/training/ny-state-trainings/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+
+View this email in your browser (http://us4.campaign-archive1.com/?u=167b723b5b3cb99cd7d4e31f2&id=cccfd839d7&e=e52eb66fc6)
+
+
+** Commercial & Multifamily
+------------------------------------------------------------
+
+
+** Trainings with PSD
+------------------------------------------------------------
+
+
+** News Update
+------------------------------------------------------------
+* OpenStudio training (http://psdconsulting.com/calendar/action:agenda/tag_ids:144/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]) now approved to offer 14 PDHs.
+
+
+** http://psdconsulting.com/calendar/tag_ids:156/New?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID] FREE Webinars
+------------------------------------------------------------
+To give people a better idea of what's offered in our various trainings, we're offering FREE 30-minute, lunchtime webinar introductions to each class. Use links below to sign-up; webinars will be recorded and be available on our website if you are unable to join the live webinar.
+* June 19 - Small Building Retuning (https://www2.gotomeeting.com/register/387517138?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+* June 20 - Fundamentals of M&V (https://www2.gotomeeting.com/register/705381402?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+
+http://psdconsulting.com/calendar/tag_ids:156/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]
+
+
+** See below for our 50% Off NYSERDA-sponsored Trainings
+------------------------------------------------------------
+
+
+** http://psdconsulting.com/training/ny-state-trainings/Trainings?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]
+------------------------------------------------------------
+* Small Building Retuning (http://psdconsulting.com/calendar/action:agenda/tag_ids:149/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+* Large Building Retuning (http://psdconsulting.com/calendar/action:agenda/tag_ids:150/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+* Fundamentals of M&V (http://psdconsulting.com/calendar/action:agenda/tag_ids:151/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+* Open Studio (http://psdconsulting.com/calendar/action:agenda/tag_ids:144/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+* TREAT Multifamily (http://psdconsulting.com/calendar/action:agenda/tag_ids:130/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+
+http://psdconsulting.com/training/ny-state-trainings/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]
+
+
+** Fundamentals of Measurements and Verification
+------------------------------------------------------------
+
+
+** Signup Today! This Training is Next Week
+------------------------------------------------------------
+June
+17
+
+Other Training Dates:
+* July 14-16, 2014 New York, NY (http://psdconsulting.com/ai1ec_event/fundamentalsmv/?instance_id=1454&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+* Nov 12-14, 2014 New York, NY (http://psdconsulting.com/ai1ec_event/fundamentalsmv-2/?instance_id=1455&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+
+
+** Details
+------------------------------------------------------------
+
+Days:  3 days
+Date & Location: June 17-19th, 2014
+Albany, NY
+Cost: $1450/$525 with NYSERDA Discount
+Accreditation: 2 AIA CEUs, 20  NYS PDHs
+
+http://psdconsulting.com/ai1ec_event/fundamentalsomv/?instance_id=1474&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]
+
+
+**
+Description
+------------------------------------------------------------
+Presented by PSD and the Association of Energy Engineers (AEE) this comprehensive training course is designed to provide the necessary training for those seeking to achieve the status of Certified Measurement and Verification Professional (CMVP). More details about the CMVP  designation can be found at www.aeecenter.org (http://www.aeecenter.org/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]) ... Read More (http://psdconsulting.com/ai1ec_event/fundamentalsomv/?instance_id=1474&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+
+
+
+** Who should attend
+------------------------------------------------------------
+* Students who want to take the CMVP exam
+* Professional Engineers ; Registered Architects
+* Certified Energy Managers (CEM)
+* Participants in commercial energy efficiency programs
+
+
+** Small Building Retuning
+------------------------------------------------------------
+July
+15
+Other Training Dates:
+* Oct 14-15, 2014 New Windsor, NY (http://psdconsulting.com/ai1ec_event/smallbuildingretuning-3/?instance_id=1370&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+
+
+** Details
+------------------------------------------------------------
+Days:  2 days
+Date & Location:
+July 15-16, 2014
+Buffalo, NY
+Cost:
+$700/$350 with NYSERDA Discount
+Accreditation: NYS PDHs, # TBD
+
+http://psdconsulting.com/ai1ec_event/smallbuildingretuning-2/?instance_id=1368&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]
+
+
+**
+Description
+------------------------------------------------------------
+This course is based on curriculum developed by the Pacific Northwest National Laboratory and covers practical techniques and strategies to maintain building systems, make them more efficient, and target areas for improvement... Read More (http://psdconsulting.com/ai1ec_event/smallbuildingretuning-4/?instance_id=1373&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+
+
+**
+Who should attend
+------------------------------------------------------------
+* O&M staff of property managers/owners
+* Contractors ? e.g. retro-commissioning agents or controls vendors - hired to maintain and/or improve the performance of the building systems
+* Energy engineers and auditors
+
+
+** Final registration day
+------------------------------------------------------------
+* All registrations must be finalized by 5pm on July 7th, 2014. Last minute registrants should contact Lauren at lmcfeeley at psdconsulting.com (mailto:lmcfeeley at psdconsulting.com) if this date has passed.
+
+
+** TREAT Multifamily
+------------------------------------------------------------
+Aug
+12
+Other Training Dates:
+* October 21-23rd, 2014 Queens, NY (http://psdconsulting.com/ai1ec_event/advanced-treat-multifamily-modeling-2-2-3-2/?instance_id=1415&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+
+
+** Details
+------------------------------------------------------------
+
+TREAT MF Training: 3 days
+Optional Mentoring Add-On: 1 day
+Date & Location:
+August 12-14th, 2014
+Syracuse, NY
+3-Day Course Cost:
+$750/$375 with NYSERDA Discount
+Optional Mentoring Cost:
+$350/$175 with NYSERDA Discount
+Accreditation: 10.5 BPI CEUs
+
+http://psdconsulting.com/ai1ec_event/advanced-treat-multifamily-modeling-2-2/?instance_id=1414&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]
+
+
+**
+Description
+------------------------------------------------------------
+This comprehensive course will teach attendees how to leverage TREAT to model and evaluate typical improvement workscopes used by weatherization programs, construct energy models of multifamily buildings from ?scratch?, and apply templates to streamline the evaluation of standardized improvements... Read More (http://psdconsulting.com/ai1ec_event/advanced-treat-multifamily-modeling-2-2/?instance_id=1414&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+
+
+**
+Who should attend
+------------------------------------------------------------
+* Participants in single and multifamily energy efficiency programs
+* O&M staff of property managers/owners
+* Energy engineers and auditors
+* Building performance contractors
+* Weatherization agencies and community organizations
+
+
+** Final registration day
+------------------------------------------------------------
+* All registrations must be finalized by 5pm on August 4th, 2014. Last minute registrants should contact Lauren at lmcfeeley at psdconsulting.com (mailto:lmcfeeley at psdconsulting.com) if this date has passed.
+
+
+** Large Building Retuning
+------------------------------------------------------------
+Aug
+20
+Other Training Dates:
+* Nov 5-7, 2014 New York, NY (http://psdconsulting.com/ai1ec_event/largebuildingretuning-3/?instance_id=1371&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+
+
+** Details
+------------------------------------------------------------
+
+Days:  3 days
+Date & Location:
+August 20-22, 2014
+Schenectady, NY
+Cost:
+$1050/$525 with NYSERDA Discount
+Accreditation: NYS PDHs, # TBD
+
+http://psdconsulting.com/ai1ec_event/largebuildingretuning-2/?instance_id=1369&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]
+
+
+**
+Description
+------------------------------------------------------------
+Large Building Retuning introduces participants to graphical diagnostic aids and software platforms that can be used to monitor and test the performance of economizers and chillers... Read More (http://psdconsulting.com/ai1ec_event/largebuildingretuning-2/?instance_id=1369&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+
+
+**
+Who should attend
+------------------------------------------------------------
+* O&M staff of property managers/owners
+* Contractors ? e.g. retro-commissioning agents or controls vendors - hired to maintain and/or improve the performance of the building systems
+* Energy engineers and auditors
+
+
+** Final registration day
+------------------------------------------------------------
+* All registrations must be finalized by 5pm on August 12th, 2014. Last minute registrants should contact Lauren at lmcfeeley at psdconsulting.com (mailto:lmcfeeley at psdconsulting.com) if this date has passed.
+
+
+** OpenStudio Training
+------------------------------------------------------------
+Sept
+15
+Other Training Dates:
+* October 8-9th, 2014 Binghamton, NY (http://psdconsulting.com/ai1ec_event/openstudio-2-day-training-4-2-2/?instance_id=1407&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+
+
+** Details
+------------------------------------------------------------
+
+Days:  2 days
+Date & Location:
+September 15-16th, 2014
+New York, NY
+Cost:
+$800/$400 with NYSERDA Discount
+Accreditation: 14 NYS PDHs
+
+http://psdconsulting.com/ai1ec_event/openstudio-2-day-training-4-2/?instance_id=1408&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]
+
+
+**
+Description
+------------------------------------------------------------
+This course will teach students how to leverage the free NREL OpenStudio modeling ecosystem to quickly and efficiently generate flexible models for energy analysis... Read More (http://psdconsulting.com/ai1ec_event/openstudio-2-day-training-4-2/?instance_id=1408&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+
+
+**
+Who should attend
+------------------------------------------------------------
+Experienced energy modelers, building professionals, software developers, and utility administrators who are well versed in Energy Plus and Sketch Up.
+
+
+
+** Final registration day
+------------------------------------------------------------
+* All registrations must be finalized by 5pm on September 7th, 2014. Last minute registrants should contact Lauren at lmcfeeley at psdconsulting.com (mailto:lmcfeeley at psdconsulting.com) if this date has passed.
+
+
+** All Upcoming Trainings
+------------------------------------------------------------
+= Online Class  http://psdconsulting.com/training/ny-state-trainings/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID] = NYSERDA Discount = Multiple Day Training
+Course Title                   Location                                 Discount Price                         Start Date                                                           Course Info
+Residential Training Courses
+
+RESNET Combustion Appliance and Workflow Testing  Online           $284.50 http://psdconsulting.com/training/ny-state-trainings/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]  8/5/2014    Learn More (http://psdconsulting.com/ai1ec_event/resnet-combustion-safety-and-workscope-training-for-raters-2/?instance_id=&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+HERS Rater Training RESNET Certification          Schenectady, NY  $1109.50 http://psdconsulting.com/training/ny-state-trainings/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID] 9/2/14      Learn More (http://psdconsulting.com/ai1ec_event/hers-energy-rater-training-resnet-certification-3/?instance_id=&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+ENERGY STAR 3.0                                   Online           $197.50 http://psdconsulting.com/training/ny-state-trainings/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]  10/14/2014  Learn More (http://psdconsulting.com/ai1ec_event/energy-star-3-0-training-2/?instance_id=&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+RESNET Combustion Appliance and Workflow Testing  Online           $284.50 http://psdconsulting.com/training/ny-state-trainings/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]  11/4/2014   Learn More (http://psdconsulting.com/ai1ec_event/resnet-combustion-safety-and-workscope-training-for-raters/?instance_id=&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+Multifamily and Commercial Training Courses
+
+Fundamentals of M&V                               Albany, NY       $375 http://psdconsulting.com/training/ny-state-trainings/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]     6/17/2014   Learn More (http://psdconsulting.com/ai1ec_event/fundamentalsomv/?instance_id=1474&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+Fundamentals of M&V                              NYC              $525 http://psdconsulting.com/training/ny-state-trainings/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]     7/14/2014   Learn More (http://psdconsulting.com/ai1ec_event/fundamentalsmv/?instance_id=&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+Small Building Re-Tuning                          Tonawanda, NY    $350 http://psdconsulting.com/training/ny-state-trainings/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]     7/15/2014   Learn More (http://psdconsulting.com/ai1ec_event/smallbuildingretuning-2/?instance_id=&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+TREAT Multifamily                                 Syracuse, NY     $375 http://psdconsulting.com/training/ny-state-trainings/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]     8/12//2014  Learn More (http://psdconsulting.com/ai1ec_event/advanced-treat-multifamily-modeling-2-2/?instance_id=&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+Large Building Re-Tuning                          Schenectady, NY  $525 http://psdconsulting.com/training/ny-state-trainings/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]     8/20/2014   Learn More (http://psdconsulting.com/ai1ec_event/largebuildingretuning-2/?instance_id=&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+OpenStudio                                        NYC              $400 http://psdconsulting.com/training/ny-state-trainings/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]     9/15/2014   Learn More (http://psdconsulting.com/ai1ec_event/openstudio-2-day-training-4-2/?instance_id=&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+OpenStudio                                        Binghamton, NY   $400 http://psdconsulting.com/training/ny-state-trainings/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]     10/8/2014   Learn More (http://psdconsulting.com/ai1ec_event/openstudio-2-day-training-4-2-2/?instance_id=&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+Small Building Re-Tuning                          New Windsor, NY  $350 http://psdconsulting.com/training/ny-state-trainings/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]     10/14/2014  Learn More (http://psdconsulting.com/ai1ec_event/smallbuildingretuning-3/?instance_id=&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+TREAT Multifamily                                 Howard Beach, NY $375 http://psdconsulting.com/training/ny-state-trainings/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]     10/21/2014  Learn More (http://psdconsulting.com/ai1ec_event/advanced-treat-multifamily-modeling-2-2-3-2/?instance_id=&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+Large Building Re-Tuning                          NYC              $550 http://psdconsulting.com/training/ny-state-trainings/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]     11/5/2014   Learn More (http://psdconsulting.com/ai1ec_event/largebuildingretuning-3/?instance_id=&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+Fundamentals of M&V                              NYC              $525 http://psdconsulting.com/training/ny-state-trainings/?utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID]     11/12/2014  Learn More (http://psdconsulting.com/ai1ec_event/fundamentalsmv-2/?instance_id=&utm_source=Commercial+%26+Multifamily+ListServs&utm_campaign=cccfd839d7-NYSERDA_listserve_Commercial_Multifamily_6_13_14&utm_medium=email&utm_term=0_e39e69fc16-cccfd839d7-30777521&mc_cid=cccfd839d7&mc_eid=[UNIQID])
+
+
+** Important Notes
+------------------------------------------------------------
+* Final Registration Dates - Participants must sign up by 5pm, at least eight days before a training. Last minute registrants should contact Lauren at lmcfeeley at psdconsulting.com (mailto:lmcfeeley at psdconsulting.com) if this date has passed.
+
+* PSD reserves the right to cancel a class if minimum enrollment numbers are not met. If a class is cancelled, trainees may elect to enroll in the same course at a different date, or to receive a full refund of fees paid. PSD will provide no less than 5 business days notice if a class is cancelled.
+
+* A trainee may change or cancel their registration without restriction, and receive a full refund, up to 6 business days before a class. Cancellation or change requests received after this date may receive only a partial refund, depending on circumstances.
+
+============================================================
+Performance Systems Development - We Speak Building
+Copyright ? 2014 Performance Systems Development, All rights reserved.
+ You are receiving this email because you're on the bldg-sim and equest-users onebuilding.org listserv.
+
+Our mailing address is:
+Performance Systems Development
+124 Brindley Street
+Ithaca, NY 14850
+USA
+** unsubscribe from this list (http://psdconsulting.us4.list-manage.com/unsubscribe?u=167b723b5b3cb99cd7d4e31f2&id=e39e69fc16&e=e52eb66fc6&c=cccfd839d7)
+** update subscription preferences (http://psdconsulting.us4.list-manage.com/profile?u=167b723b5b3cb99cd7d4e31f2&id=e39e69fc16&e=e52eb66fc6)
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140613/ca749bd2/attachment.htm>
+
+From Jude.Chakraborty at WSPGroup.com  Fri Jun 13 10:33:44 2014
+From: Jude.Chakraborty at WSPGroup.com (Chakraborty, Judhajit)
+Date: Fri, 13 Jun 2014 17:33:44 +0000
+Subject: [Bldg-sim] [Ibpsausa] IBPSA-SF June Event Slides- Introduction
+ to Annex 66 and Occupant Behavior Simulation
+Message-ID: <A74E88F4004970429432C6B5A251B2249C1784CF@USSFO1EXC01.us.wspgroup.com>
+
+Hello,
+
+Please find the attached slides which Tianzhen Hong presented on June 10 regarding Annex 66 and Occupant Behavior Simulation.
+
+Thanks,
+Jude.
+Judhajit Chakraborty, LEED AP BD+C
+Built Ecology
+
+WSP 405 Howard Street, Suite 500, San Francisco, CA 94105
+Direct:  +1-415-402-5815
+Main:   +1-415-398-3833
+
+www.wspgroup.com/usa<http://www.wspgroup.com/usa>
+
+
+We are WSP, one of the world's leading engineering, design, and environmental consultancies.
+Working to improve lives through transformation of the built environment and restoration of the natural environment.
+From: Ibpsausa [mailto:ibpsausa-bounces at lists.onebuilding.org] On Behalf Of Chakraborty, Judhajit
+Sent: Tuesday, June 03, 2014 10:28 AM
+To: ibpsausa at lists.onebuilding.org; bldg-sim at lists.onebuilding.org
+Cc: ibpsausa-bounces at lists.onebuilding.org
+Subject: [Ibpsausa] IBPSA-SF June Event - Introduction to Annex 66 and Occupant Behavior Simulation
+
+Introduction to Annex 66 and Occupant Behavior Simulation
+
+When: Tuesday, June 10, 2014 at 6:00pm
+Location: Integral Group, 427 13th Street, Oakland, CA, 94612
+
+SCHEDULE:
+6 pm to 6:30 pm, Networking
+6:30 pm to 7:45 pm, Presentation
+7:45 pm to 8 pm, Questions
+
+WEBINAR REGISTRATION DETAILS:
+Please register for Introduction to Annex 66 and Occupant Behavior Simulation on Jun 10, 2014 6:00 PM PDT at:
+
+https://attendee.gotowebinar.com/register/7786260120681413122
+
+IBPSA-SF Chapter welcomes you all to the June event.
+
+Tianzhen Hong, Scientist at Lawrence Berkeley National Laboratory (LBNL), Berkeley, California will be presenting about Annex 66 , a global project which aims to set up a standard occupant behavior definition platform, establish a quantitative simulation methodology to model occupant behavior in buildings, and understand the influence of occupant behavior on building energy use and the indoor environment.
+
+Tianzheng Hong is a Co-operative Agent and a subtask leader of the Annex 66 project.
+
+About the speaker:
+
+Tianzhen Hong is a Scientist with the Simulation Research Group. Before joining LBNL, he worked for Architectural Energy Corporation in San Francisco, Supersymmetry in Singapore, National University of Singapore, and Tsinghua University in Beijing. Dr. Hong has more than 20 years of industry and academic experience in building energy efficiency, building energy standards, building performance simulation, and HVACR research. He taught building simulation workshops in the US, mainland China, Hong Kong, and Taiwan. He received B.Eng, M.Eng, and Ph.D. in thermal engineering from Tsinghua University. He is a key member of the EnergyPlus development team, the founding developer of DeST (a building energy simulation program widely used in China), the chief developer and product manager of VisualDOE. He contributed to update California building energy efficiency standards, ASHRAE 90.1, and energy conservation building code of India. He is currently leading the Monitoring and Simulation research area of US/China Clean Energy Research Center - Building Energy Efficiency.
+
+*** Please RSVP Neil Bulger - nbulger at integralgroup.com<mailto:nbulger at integralgroup.com> if you are attending in person***.
+
+Thanks,
+Jude.
+Judhajit Chakraborty, LEED AP BD+C
+Built Ecology
+
+WSP 405 Howard Street, Suite 500, San Francisco, CA 94105
+Direct:  +1-415-402-5815
+Main:   +1-415-398-3833
+
+www.wspgroup.com/usa<http://www.wspgroup.com/usa>
+
+
+We are WSP, one of the world's leading engineering, design, and environmental consultancies.
+Working to improve lives through transformation of the built environment and restoration of the natural environment.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140613/34b3aac3/attachment-0001.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: IEA EBC Annex 66 and Behavior Modeling.pdf
+Type: application/pdf
+Size: 5171033 bytes
+Desc: IEA EBC Annex 66 and Behavior Modeling.pdf
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140613/34b3aac3/attachment-0001.pdf>
+
+From th.psomas at gmail.com  Sat Jun 14 04:46:30 2014
+From: th.psomas at gmail.com (=?UTF-8?B?zqbOkc6dzpfOoyDOqM6pzpzOkc6j?=)
+Date: Sat, 14 Jun 2014 14:46:30 +0300
+Subject: [Bldg-sim] Energy Software (testing-documentation)
+Message-ID: <CAOu9ryXhJpPBzLr7xhv-s_WYNCPDfORJYQq4+fDQBL4h6mz86A@mail.gmail.com>
+
+Hi all,
+Which building energy performance simulation software is the most accurate
+(testing-validation) under the most updated standards, tools and methods
+(ASHRAE-2011, BESTEST, CEN, Annex and others)? Energy plus?
+Regards
+
+-- 
+*Fanis Psomas*
+Civil Engineer M.Sc., DIC
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140614/4d01cddb/attachment.htm>
+
+From sanketpuranik at gmail.com  Sun Jun 15 22:03:02 2014
+From: sanketpuranik at gmail.com (Sanket Puranik)
+Date: Mon, 16 Jun 2014 10:33:02 +0530
+Subject: [Bldg-sim] VRF with humidity control DOAS
+Message-ID: <CAPgg=ystqLoH6C-3UfhuCN-oSvu_5Ugf4SbzWyvRQ=m5SYtn=w@mail.gmail.com>
+
+Hi,
+
+I have modeled VRF system but I am getting high humidity for several hours
+in an year so I have implemented DOAS system  with humidity control. I took
+reference of "DOASDXCOIL_wADPBFMethod.idf" for adding DOAS to control
+humidity.
+
+The humidity problem has not been solved and I am getting same RH values as
+before adding DOAS. What can be the problem with the system?
+
+I am getting following warnings:
+1) "CalcDoe2DXCoil: Coil:Cooling:DX:TwoStageWithHumidityControlMode="OA
+COOLING COIL" - Air volume flow rate per watt of rated total cooling
+capacity is out of range"
+2) "CalcDoe2DXCoil: Coil:Cooling:DX:TwoStageWithHumidityControlMode="OA
+COOLING COIL" - Full load outlet temperature indicates a possibility of
+frost/freeze error continues."
+
+One more interesting thing I have observed is that VRF system is using
+double the electricity for cooling for the same building as compared to VAV
+system!! VRF system is supposed to be more energy efficient than VAV
+system??
+
+Also I have modeled chilled beam system where I am again facing problems of
+high humidity. I am planning to use  same type of DOAS as in the example
+file mentioned above. Is it a good way or should I refer to other example
+file which would be more appropriate?
+
+Kind Regards,
+Sanket
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140616/a4ee11cf/attachment.htm>
+
+From jcrossett at phasechange.com  Sun Jun 15 22:15:20 2014
+From: jcrossett at phasechange.com (Jeremiah Crossett)
+Date: Sun, 15 Jun 2014 22:15:20 -0700
+Subject: [Bldg-sim] VRF with humidity control DOAS
+In-Reply-To: <CAPgg=ystqLoH6C-3UfhuCN-oSvu_5Ugf4SbzWyvRQ=m5SYtn=w@mail.gmail.com>
+References: <CAPgg=ystqLoH6C-3UfhuCN-oSvu_5Ugf4SbzWyvRQ=m5SYtn=w@mail.gmail.com>
+Message-ID: <CAPsP_xRtpvHF931N9HA9a5YXCCC42M1bB7CQAF0zv8jm3ZFsvg@mail.gmail.com>
+
+I think this may be a better question for the Energy Plus list.
+
+
+
+ * ??Jeremiah D. Crossett ** | Senior Analyst  **| **LEED Green Associate *
+*??120 E. Pritchard St.  | Asheboro, NC 27203  ?? |
+Mobile 503-688-8951www.phasechange.com <http://www.phasechange.com/>  *
+
+
+
+
+
+
+On Sun, Jun 15, 2014 at 10:03 PM, Sanket Puranik <sanketpuranik at gmail.com>
+wrote:
+
+> Hi,
+>
+> I have modeled VRF system but I am getting high humidity for several hours
+> in an year so I have implemented DOAS system  with humidity control. I took
+> reference of "DOASDXCOIL_wADPBFMethod.idf" for adding DOAS to control
+> humidity.
+>
+> The humidity problem has not been solved and I am getting same RH values
+> as before adding DOAS. What can be the problem with the system?
+>
+> I am getting following warnings:
+> 1) "CalcDoe2DXCoil: Coil:Cooling:DX:TwoStageWithHumidityControlMode="OA
+> COOLING COIL" - Air volume flow rate per watt of rated total cooling
+> capacity is out of range"
+> 2) "CalcDoe2DXCoil: Coil:Cooling:DX:TwoStageWithHumidityControlMode="OA
+> COOLING COIL" - Full load outlet temperature indicates a possibility of
+> frost/freeze error continues."
+>
+> One more interesting thing I have observed is that VRF system is using
+> double the electricity for cooling for the same building as compared to VAV
+> system!! VRF system is supposed to be more energy efficient than VAV
+> system??
+>
+> Also I have modeled chilled beam system where I am again facing problems
+> of high humidity. I am planning to use  same type of DOAS as in the example
+> file mentioned above. Is it a good way or should I refer to other example
+> file which would be more appropriate?
+>
+> Kind Regards,
+> Sanket
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140615/c8b00b28/attachment.htm>
+
+From david at 360-analytics.com  Sun Jun 15 23:03:41 2014
+From: david at 360-analytics.com (David Reddy)
+Date: Sun, 15 Jun 2014 23:03:41 -0700
+Subject: [Bldg-sim] HELP WANTED: Senior Building Analyst
+Message-ID: <539E88BD.404@360-Analytics.com>
+
+360 Analytics is looking for an experienced building energy modeler to 
+join our team as a key player in growing a small consulting firm. Based 
+in Seattle, 360 Analytics analyzes and predicts how buildings use energy 
+and other resources, with the ultimate goal of helping our clients 
+achieve cost-effective energy conservation objectives while reducing 
+their environmental impact. We specialize in using whole building energy 
+simulation software, however our approach relies heavily upon research 
+and engineering fundamentals to develop realistic analysis inputs and 
+verify results.
+
+Our diverse experience and service offering provides a unique 
+environment for the self-motivated, talented analyst to make their mark 
+in a small but growing company. Our work includes early phase analysis 
+of design alternatives, evaluations of existing buildings, measurement 
+and verification, and code compliance/LEED modeling. 360 Analytics is 
+also a key contributor to CBECC-Com (California Building Energy Code 
+Compliance - Commercial), an open source software project designed to be 
+used by code agencies, rating authorities, and utility programs in the 
+development and implementation of energy codes, standards, and other 
+efficiency programs. The successful candidate will also bring the ideas, 
+expertise, and motivation to continue expanding the quality and scope of 
+our services.
+
+This position could be a great fit if you answer yes to the following 
+questions:
+
+?Are you passionate about using analysis to optimize design and make 
+buildings more efficient?
+
+?Do you enjoy developing new approaches for making the energy modeling 
+process better or more efficient?
+
+?Have you been energy modeling for years, and feel there is not enough 
+emphasis on evaluating modeling predictions or the actual performance of 
+buildings?
+
+?Do you want to help define the direction and reap the rewards of 
+growing a small company?
+
+The Senior Building Analyst position is full time, and located in our 
+Seattle, Washington office. Responsibilities include:
+
+?Serve as a primary point of contact with clients to provide technical 
+guidance for meeting their project goals.
+
+?Leverage whole building energy simulation and other analysis techniques 
+to model and analyze energy use in new and existing buildings.
+
+?Perform evaluations of existing building performance, including utility 
+bill analysis, benchmarking, on-site building audits and field measurements.
+
+?Follow guidelines to generate energy models or other calculations for 
+code compliance and green building rating systems, such as LEED.
+
+?Assist in testing and development of a new, open-source energy modeling 
+software, CBECC-Com.
+
+?Able to work independently, as well as manage and mentor other analysts 
+to cooperatively complete projects on-time and on-budget.
+
+?Create and implement measurement and verification (M&V) or other study 
+plans to evaluate building performance.
+
+?Produce complete and accurate reports/presentations suitable for both 
+lay and technical audiences.
+
+?Develop and/or enhance tools and processes to improve the quality and 
+efficiency of the energy analysis workflow.
+
+?Be proactive in addressing questions or concerns raised by both clients 
+and managers/co-workers.
+
+?Participate in proposal development, presentations and other business 
+development activities.
+
+To be considered, candidates should be able to demonstrate meeting the 
+following qualifications:
+
+?BS in Mechanical Engineering or equivalent education/knowledge of 
+fundamental thermodynamic principles.
+
+?'Expert'**level**experience using energy simulation software, 
+specifically, eQuest/DOE-2.2 or OpenStudio/EnergyPlus.
+
+?In-depth knowledge using the DOE-2 BDL expression language or similar 
+approaches for improving the efficiency of the modeling process.
+
+?Detailed knowledge of energy and other building codes, specifically 
+Washington State/Seattle Energy Code, California Title 24, and ASHRAE 
+Standard 90.1.
+
+?Highly proficient with MS Excel and other software used to organize, 
+analyze and report data.
+
+?Demonstrated ability to complete projects on-time and within budget.
+
+?Excellent written, verbal communication, and presentation skills.
+
+?Motivated to advance both personal and company knowledge in the field 
+of building performance analysis.
+
+?Licensed PE in Washington or California.
+
+Additional desired skills/experience:
+
+?Architectural, HVAC, lighting or plumbing design experience.
+
+?Proficiency with Google SketchUp or Revit software.
+
+?Building energy auditing or commissioning experience.
+
+?Knowledge of one or more computer programming languages -- preferably 
+Ruby, Python or VBA.
+
+?Experience with other tools used to evaluate and optimize building 
+systems, such as Radiance, Relux, WINDOW/THERM, Natural Resources Canada 
+(NRC) software tools, National Renewable Energy Lab (NREL) software tools.
+
+?LEED AP or familiarity with LEED and other green building standards.
+
+We offer competitive pay, training, paid medical, life, and long-term 
+disability insurance, profit sharing, and the opportunity to take a 
+leadership role in a growing, dynamic company. Relocation assistance is 
+available for the right candidate.
+
+For more information on our firm or this position, visit our website at 
+www.360-analytics.com <http://www.360-analytics.com>, or send us an 
+email at info at 360-analytics.com <mailto:info at 360-analytics.com>. To be 
+formally considered for this position, please send a cover letter and 
+resume to jobs at 360-analytics.com <mailto:jobs at 360-analytics.com>
+
+-- 
+
+David Reddy
+
+*360 Analytics*
+Building Energy Analysis Consultants
+mail:     9750 3rd Ave NE, Suite 405, Seattle, WA 98115
+office:  206.557.4732 x 201
+cell:      206.406.9856
+web:    www.360-Analytics.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140615/af650555/attachment.htm>
+
+From msmith at northrop.com.au  Sun Jun 15 23:18:06 2014
+From: msmith at northrop.com.au (Michael Smith)
+Date: Mon, 16 Jun 2014 16:18:06 +1000
+Subject: [Bldg-sim] VRF with humidity control DOAS
+In-Reply-To: <CAPgg=ystqLoH6C-3UfhuCN-oSvu_5Ugf4SbzWyvRQ=m5SYtn=w@mail.gmail.com>
+References: <CAPgg=ystqLoH6C-3UfhuCN-oSvu_5Ugf4SbzWyvRQ=m5SYtn=w@mail.gmail.com>
+Message-ID: <6c08bb1797fbfcebb2a5aaa032cd7d63@mail.gmail.com>
+
+Hi Sanket,
+
+
+
+Are you modelling directly in Energy Plus or are you using a front end?
+
+
+
+Cheers,
+Mike
+
+
+
+[image: Description: Description: Description: Description:
+http://www.northrop.com.au/logo_email.gif]
+
+*Michael Smith*
+Building Simulation Engineer
+*Northrop Consulting Engineers Pty Ltd*
+T: 02 6285 1822
+M: 0450 140 132
+
+www.northrop.com.au
+
+
+
+*Northrop Sustainability, providing Sustainability Advice across the Built
+Environment ? Buildings, Infrastructure, Precincts and Policy*
+
+*[image: Description: Northrop_Syd_Sustainability1_EFooter]*
+
+
+
+*From:* Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] *On Behalf
+Of *Sanket Puranik
+*Sent:* Monday, 16 June 2014 3:03 PM
+*To:* bldg-sim at lists.onebuilding.org
+*Subject:* [Bldg-sim] VRF with humidity control DOAS
+
+
+
+Hi,
+
+I have modeled VRF system but I am getting high humidity for several hours
+in an year so I have implemented DOAS system  with humidity control. I took
+reference of "DOASDXCOIL_wADPBFMethod.idf" for adding DOAS to control
+humidity.
+
+The humidity problem has not been solved and I am getting same RH values as
+before adding DOAS. What can be the problem with the system?
+
+I am getting following warnings:
+1) "CalcDoe2DXCoil: Coil:Cooling:DX:TwoStageWithHumidityControlMode="OA
+COOLING COIL" - Air volume flow rate per watt of rated total cooling
+capacity is out of range"
+2) "CalcDoe2DXCoil: Coil:Cooling:DX:TwoStageWithHumidityControlMode="OA
+COOLING COIL" - Full load outlet temperature indicates a possibility of
+frost/freeze error continues."
+
+
+
+One more interesting thing I have observed is that VRF system is using
+double the electricity for cooling for the same building as compared to VAV
+system!! VRF system is supposed to be more energy efficient than VAV
+system??
+
+
+
+Also I have modeled chilled beam system where I am again facing problems of
+high humidity. I am planning to use  same type of DOAS as in the example
+file mentioned above. Is it a good way or should I refer to other example
+file which would be more appropriate?
+
+Kind Regards,
+
+Sanket
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140616/b986df12/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 8604 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140616/b986df12/attachment.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image002.jpg
+Type: image/jpeg
+Size: 23368 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140616/b986df12/attachment.jpg>
+
+From miller.clayton at gmail.com  Mon Jun 16 03:25:40 2014
+From: miller.clayton at gmail.com (Clayton Miller)
+Date: Mon, 16 Jun 2014 12:25:40 +0200
+Subject: [Bldg-sim] 2 PhD Candidate or PostDoc positions available for
+ research in Building Systems Integrated Photovoltaics (BSIPV) and DC
+ Networks
+Message-ID: <CAG7SY4uF5iQxU=wi+F6KSXM-G4ehX2_uOcWzPahKOxOMUtBT3g@mail.gmail.com>
+
+Anyone searching for a PhD/Postdoc position in Building Systems Integrated
+Photovoltaics (BSIPV) and DC Networks should check out the following job
+posting at ETH Zurich:
+
+http://www.suat.arch.ethz.ch/images/20140602_SCCER_job_description_DC_PV_Networks_AS_ZN.pdf
+
+For questions, please contact Dr. Zoltan Nagy (nagyz at ethz.ch).
+
+//
+
+Clayton Miller
+
+ITA Doctorate Fellow
+miller.clayton at arch.ethz.ch
+Phone +41 78 971 72 50
+<http://s.wisestamp.com/links?url=tel%3A%252B41%252078%2520971%252072%252050&sn=>
+
+Architecture & Sustainable Building Technologies
+Prof. Dr. Arno Schl?ter
+ETH Zurich / Building HPZ / Floor G
+Schafmattstrasse 32 / CH-8093 Zurich
+www.suat.arch.ethz.ch
+<http://s.wisestamp.com/links?url=http%3A%2F%2Fwww.suat.arch.ethz.ch%2F&sn=>
+
+/ ITA
+Institute of Technology in Architecture
+Faculty of Architecture / ETH Zurich
+www.ita.arch.ethz.ch
+<http://s.wisestamp.com/links?url=http%3A%2F%2Fwww.ita.arch.ethz.ch%2F&sn=>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140616/2244ddb2/attachment.htm>
+
+From S.C.Taylor at lboro.ac.uk  Mon Jun 16 08:28:54 2014
+From: S.C.Taylor at lboro.ac.uk (Simon Taylor (Civil & Building Eng))
+Date: Mon, 16 Jun 2014 15:28:54 +0000
+Subject: [Bldg-sim] Studentships in energy demand research
+Message-ID: <B1EAB6DDAC7BA14FA19B12A9C1408DDA39B28BAD@ITSMBX-3.lunet.lboro.ac.uk>
+
+Dear members,
+
+Studentships in energy demand research at Loughborough University & UCL ? closing date Friday 20 June
+
+The London-Loughborough ('LoLo') Centre for Doctoral Training seeks applicants for a funded 4-year MRes + PhD in energy demand research. Up to 16 places. Closing date 20 June 2014. Details at www.tinyurl.com/LoLoApply<http://www.tinyurl.com/LoLoApply>
+
+Apologies for any cross-posting
+
+
+Dr Simon Taylor
+Academic Manager, London-Loughborough Centre for Doctoral Training in Energy Demand
+School of Civil and Building Engineering, Loughborough University, LE11 3TU, UK
+Phone: +44 (0)1509 228788
+Email: s.c.taylor at lboro.ac.uk<mailto:s.c.taylor at lboro.ac.uk>
+Web: http://www.lboro.ac.uk/departments/cv/staff/profile/340.html
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140616/f9f8e79e/attachment.htm>
+
+From pallavi.mantha at gmail.com  Tue Jun 17 11:10:42 2014
+From: pallavi.mantha at gmail.com (Pallavi Mantha)
+Date: Tue, 17 Jun 2014 14:10:42 -0400
+Subject: [Bldg-sim] IBPSA NYC Presents | CASE/RPI: Student Projects
+Message-ID: <CACfNcegfk_cnU4WS3bkUKQ6PLUnRubXzMzgSkjjhAfctgjr9ZQ@mail.gmail.com>
+
+Please excuse the cross-postings.
+
+
+
+?
+
+
+
+*IBPSA-USA New York Regional Chapter presents:*
+
+
+
+*Interdisciplinary Research Studio @ CASE/RPI
+<http://www.case.rpi.edu/index.php>: Student Projects*
+
+
+
+*Location:* *SOM, 14 Wall St, New York, NY 10005*
+
+*  Conference Room 25A*
+
+
+
+*Date & Time:* Monday, June 23, 2014 - 6:00-7:30 PM.
+
+
+
+*6:00-6:30 PM: Networking*
+
+
+
+*6:30-7:15 PM   Interdisciplinary Research Studio @ CASE/RPI: Student
+Projects*
+
+
+
+Varun Kohli, Merge Studio, NY | Xiaofei Shen, Francesco Bedeschi, Kyle
+Schillaci, CASE-RPI
+
+
+
+*7:15-7:30 PM: Q & A*
+
+
+
+Register here <https://attendee.gotowebinar.com/register/660408824153545729>
+
+
+
+*Studio Proposition:*
+
+
+
+Architecture is often seen as a balanced solution to a host of problems
+imposed by aesthetic aspirations, use and program, location and site,
+immediate external environment, occupant comfort and regulatory constraints
+among other considerations. Although most of these are addressed in design,
+the external and internal environmental solutions are often not included,
+and rarely fully integrated
+
+
+This studio, as part of *Built Ecologies* program at CASE
+<http://www.case.rpi.edu/> proposes to bring to the forefront a resolution
+for environmental sensitivity, both external and internal, whilst addressing
+the pressing issues of energy and climate at a global and local scale. The
+studio employed ecological thought and design process to study, analyze and
+design systems at varying scales that are fully integrated, function in a
+harmonized fashion and resolve to a balanced architectural solution.
+
+
+Three students, Xiaofei Shen, Francesco Bedeschi and Kyle Schillaci will
+present their final projects highlighting the environmental analysis and
+design process integration using various tools and resultant outcomes.
+Varun Kohli, Adjunct Professor at CASE, will introduce the studio.
+
+
+
+*Speaker Bios:*
+
+
+
+*Varun Kohli RA, LEED AP BD+C*
+
+Varun is the founding partner at Merge Studio based in New York. He
+currently heads design projects globally incorporating a multitude of
+typologies including commercial, retail, multi-residential, master-planning
+and hospitality based projects spread out in the US, India, Australia and
+the Caribbean. He has over 18 years of experience with New York based
+architectural firms including Beyer Blinder Belle and Skidmore, Owings and
+Merrill (SOM). Varun holds a graduate degree in Sustainable Environmental
+Design from the Architectural Association, School of Architecture in London
+and a Bachelor of Architecture from the City College of New York. He
+currently teaches the ?Environmental Parametrics? design studio at the
+Center for Architecture, Science and Ecology (CASE) in New York City. In
+the past, he has served as a guest lecturer and presented papers at
+international conferences including Passive and Low Energy Architecture
+Conference (PLEA), Passive and Low Energy Cooling Conference (PALENC),
+Indian Green Building Congress and others.
+
+
+*Xiaofei Shen*
+
+In 2014, Xiaofei Shen finished his graduate studies at CASE, where he
+researched on Adaptive Ecological Building Interface System. He received a
+Bachelor of Architecture degree from Tongji University in Shanghai in 2012.
+At CASE, he engaged in parametric modeling and critical design methodology
+focusing on high density and ecological environment, producing truly
+integrated graphic representations of both analysis and design. His
+professional experiences include Schmidt Hammer Lassen Architects in
+Copenhagen and Atelier L+/Tongji Design Institute in Shanghai. He has also
+interned with RTKL, SOM, Atelier Deshaus and sciSKEW Collaborative.
+
+
+*Francesco Bedeschi LEED AP, AIA Int. Assoc.*
+
+Based in Rome, Francesco is a founding partner of the firm Bedeschi &
+Bompiani Architetti Associati. He holds Bachelors in Architecture from
+University of Rome ?Sapienza? with a focus on preservation of historic
+buildings and he recently earned an M.Arch. II at CASE. He teaches
+integrated architectural design and restoration at the University of
+Arkansas, Rome Center and is the site coordinator of the study abroad
+program of RPI in Italy. He is a member of the Board of Directors of the
+Green Building Council Italia. In 2010, he founded the Lazio chapter,
+elected President, and has been the first coordinator of the Technical
+Committee for the development of the Historical Building Protocol at GBC
+Italia. Francesco is also the Director of European Projects with SINERGI
+Integrated Building Sciences, a US-based company providing sustainability
+services with a specific focus in LEED and Commissioning of systems and
+building envelopes. He currently manages projects in Italy, Switzerland and
+Qatar.
+
+
+*Kyle Schillaci*
+
+Kyle recently finished his Masters of Environmental Parametrics at CASE and
+holds a technology consultant position for a research group at Penn State
+university focusing on ?collective action concepts and strategies for
+institutional design and policy implications with the end goal of resilient
+community and ecological design? [polyspace.info]. Kyle has collaborated
+with scientists ranging from etymology to Malaria vaccine logistics in
+Niger, Africa, using Grasshopper and parametric processes to link disparate
+data into cohesive visualizations of system abstraction; that provide
+higher level of guidance to on ground initiatives.
+
+-- 
+
+Pallavi Mantha
+Chair | IBPSA NY
+Arup
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140617/450d3b38/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Case.jpg
+Type: image/jpeg
+Size: 120973 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140617/450d3b38/attachment.jpg>
+
+From aykutpekdemir at gmail.com  Tue Jun 17 14:10:30 2014
+From: aykutpekdemir at gmail.com (Emir Aykut Pekdemir)
+Date: Tue, 17 Jun 2014 16:10:30 -0500
+Subject: [Bldg-sim] IBPSA-Chicago Seminar on OpenStudio
+Message-ID: <CA+wRh5v57M=nA7JW_xMwtd_prb3dvEEGMxzYXs0BaTtCia2VzQ@mail.gmail.com>
+
+IBPSA-Chicago is proud to host its first technical seminar. Join us for a
+productive evening of OpenStudio presentation by industy leaders followed
+by networking with fellow building performance simulationists. RSVP for
+limited space.
+
+
+
+http://www.eventbrite.com/e/ibpsa-chicago-presents-an-introduction-to-openstudio-the-openstudio-sdk-tickets-11990579145?aff=esli
+
+
+
+Title: ?*An Introduction to OpenStudio and the OpenStudio SDK*?
+
+Speakers: *David Goldwasser*, NREL and *Alan Jackson*, CASE
+
+
+
+Wednesday, June 25, 2014 from 6:30 PM to 9:00 PM (CDT)
+300 W Adams St Chicago, IL
+
+
+
+Abstract:
+
+OpenStudio is a building energy modeling application and a software
+development kit being developed by the National Renewable Energy Lab.
+OpenStudio provides the ability to compute building energy use and
+daylighting from a common model.   Through the use of the Parametric
+Analysis Tool (PAT) and connections to the Building Component Library
+(BCL), OpenStudio provides the ability to systematically generate and
+modify building models, with standardized components and measures, through
+a GUI interface, scripting languages, or both.  David Goldwasser (NREL)
+will give an overview of the OpenStudio ecosystem and how it is being used
+by various organizations. He will demonstrate a typical modeling workflow
+using OpenStudio?s applications. The demonstration will highlight some of
+the new features in the soon to be release 1.4.0 version of  OpenStudio.
+Alan Jackson (CASE) will discuss how the OpenStudio SDK and API can be used
+to create new tools or  to create extensions to existing design tools. Alan
+and David will lead a discussion about what is required to support a real
+world iterative design process. What?s possible today and what can be
+improved in OpenStudio and in third party tools to improve the process?
+
+
+
+
+
+*Emir Pekdemir*
+
+Energy Analyst
+
+Building Physics | MEP
+
+Buro Happold Inc.
+
+
+
+Chicago
+
+Tel: +1 312 300 4015  x 105
+
+Direct: +1 312 300 4026
+
+
+
+www.burohappold.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140617/1acb3977/attachment.htm>
+
+From lpl at us.es  Wed Jun 18 03:39:58 2014
+From: lpl at us.es (=?iso-8859-1?Q?Luis_Per=E9z-Lombard?=)
+Date: Wed, 18 Jun 2014 12:39:58 +0200
+Subject: [Bldg-sim] Energy-10 manuals
+References: <mailman.1.1248980463.13694.bldg-sim-onebuilding.org@lists.onebuilding.org>
+	<00b901ca11eb$2baaefd0$8300cf70$@com>
+	<83996EE70003D04B830E1C4A5E6688CEB3D51B@PATHMAIL2.pathfinderengineers.com>
+Message-ID: <17417BD9BEEB48C7B5A1826036567F55@tmtpc14>
+
+Dear colleagues:
+
+I wonder if any of you could know where can I find Technical or Engineer's 
+manuals of Energy-10 simulation engine.
+
+I am interested in particular in the model that it uses to calculate heat 
+transfer through underground floors.
+
+Any help is welcome.
+
+Sincerely,
+
+LPL
+
+-------------------------------------------------------------
+Luis P?rez-Lombard
+Dr. Ingeniero Industrial
+Profesor Contratado Doctor
+Departamento de Ingenier?a Energ?tica
+Escuela Superior de Ingenieros
+Universidad de Sevilla
+Camino de los Descubrimientos s/n
+41092 SEVILLA
+Tfno.:      95.448.72.56
+Fax:         95.446.31.53
+e-mail:    lpl at us.es
+-------------------------------------------------------------
+----- Original Message ----- 
+From: "Bishop, Bill" <bbishop at PathfinderEngineers.com>
+To: "Neetu Singh" <neetu at greenengineer.com>; 
+<bldg-sim at lists.onebuilding.org>
+Sent: Friday, July 31, 2009 4:47 PM
+Subject: Re: [Bldg-sim] eQuest : How to Save Results to xls
+
+
+> Neetu,
+>
+> When you open the .sim file with D2SimViewer, click "Hourly Results" in
+> the upper right. An Excel file is generated and opened. If you want
+> additional information to show up, create a new Hourly Report Block from
+> the Component Tree in the Project & Site module in DD Edit mode.
+>
+> Regards,
+> Bill
+>
+> William Bishop, EIT, LEED(r) AP | Pathfinder Engineers LLP
+> Mechanical Engineer
+>
+> 134 South Fitzhugh Street
+> Rochester, NY 14608
+> T: (585) 325-6004 Ext. 114
+> F: (585) 325-6005
+> bbishop at pathfinderengineers.com
+>
+> www.pathfinderengineers.com
+> P Please strive to live sustainably.
+> -----Original Message-----
+> From: bldg-sim-bounces at lists.onebuilding.org
+> [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Neetu Singh
+> Sent: Friday, July 31, 2009 10:28 AM
+> To: bldg-sim at lists.onebuilding.org
+> Subject: [Bldg-sim] eQuest : How to Save Results to xls
+>
+> Hi All,
+>
+> I was wondering if anyone can give me some guidance upon saving results
+> in
+> xls from .sim output file.
+> My problem: Is it possible to output meter data to xls format from
+> eQuest.
+> Also can parts of the .sim file be generated in xls format?
+> If I were to take the current xls report that eQuest generates, it does
+> not
+> have meter data say a chilled water meter or so, I wanted to know where
+> is
+> all this being set up.
+>
+> I appreciate any help that I can get on this.
+>
+> Thanks
+> Neetu
+>
+>
+> Neetu Singh, LEED AP
+> The Green Engineer, LLP
+> Sustainable Design Consulting
+> 50 Beharrell Street
+> Concord, MA 01742
+> t: 978.369.8978
+> neetu at greenengineer.com
+> www.greenengineer.com
+>
+>
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+
+
+--------------------------------------------------------------------------------
+
+
+
+No virus found in this incoming message.
+Checked by AVG - www.avg.com
+Version: 8.5.375 / Virus Database: 270.13.42/2278 - Release Date: 08/02/09 
+17:56:00
+
+
+From BTysoe at mcw.com  Thu Jun 19 10:42:05 2014
+From: BTysoe at mcw.com (Brian Tysoe)
+Date: Thu, 19 Jun 2014 13:42:05 -0400
+Subject: [Bldg-sim] Job Posting: Building Simulation Specialist at MCW
+Message-ID: <89B4FB2D5DE7614EB31CD320ED524958DE0AB54679@TOR-SVR-EX5.mcw.com>
+
+MCW Consultants Ltd. is seeking candidates for the position of Building Simulation Specialist to join our Toronto office. Further details are provided in the attached job posting.
+
+Interested applicants are invited to please send a resume and cover letter to careers at mcw.com<mailto:careers at mcw.com>, including the position title in the subject line.
+
+
+Brian Tysoe M.A.Sc., P.Eng., LEED AP
+Associate, National Manager of Energy Modelling Services
+
+MCW Consultants Ltd. <http://www.mcw.com>
+Queen's Quay Terminal
+207 Queen's Quay West, Suite 615
+Toronto, ON, Canada M5J 1A7
+Phone: (416) 598-2920 ext:519
+Fax: (416) 598-5394
+
+[cid:image001.jpg at 01CF8B19.7D408F60]
+
+
+This e-mail may be privileged and confidential. Any unauthorized use is strictly prohibited. If you received this e-mail in error, please contact the sender directly.
+
+P Please consider the environment before printing this e-mail
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140619/66e9ac9e/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.jpg
+Type: image/jpeg
+Size: 12406 bytes
+Desc: image001.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140619/66e9ac9e/attachment.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Building Simulation Specialist Job Posting.pdf
+Type: application/pdf
+Size: 475540 bytes
+Desc: Building Simulation Specialist Job Posting.pdf
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140619/66e9ac9e/attachment.pdf>
+
+From pallavi.mantha at gmail.com  Thu Jun 19 13:24:33 2014
+From: pallavi.mantha at gmail.com (Pallavi Mantha)
+Date: Thu, 19 Jun 2014 16:24:33 -0400
+Subject: [Bldg-sim] Reminder: IBPSA NYC Presents | CASE/RPI: Student Projects
+Message-ID: <CACfNceguAeJ-tv4BhKX=nvd5oPnpVDjSz_JtGC4DvtjNsAWJvA@mail.gmail.com>
+
+Reminder!
+
+
+Please excuse the cross-postings.
+
+
+
+?
+
+
+
+*IBPSA-USA New York Regional Chapter presents:*
+
+
+
+*Interdisciplinary Research Studio @ CASE/RPI
+<http://www.case.rpi.edu/index.php>: Student Projects*
+
+
+
+*Location:* *SOM, 14 Wall St, New York, NY 10005*
+
+*  Conference Room 25A*
+
+
+
+*Date & Time:* Monday, June 23, 2014 - 6:00-7:30 PM.
+
+
+
+*6:00-6:30 PM: Networking*
+
+
+
+*6:30-7:15 PM   Interdisciplinary Research Studio @ CASE/RPI: Student
+Projects*
+
+
+
+Varun Kohli, Merge Studio, NY | Xiaofei Shen, Francesco Bedeschi, Kyle
+Schillaci, CASE-RPI
+
+
+
+*7:15-7:30 PM: Q & A*
+
+
+
+Register here <https://attendee.gotowebinar.com/register/660408824153545729>
+
+
+
+*Studio Proposition:*
+
+
+
+Architecture is often seen as a balanced solution to a host of problems
+imposed by aesthetic aspirations, use and program, location and site,
+immediate external environment, occupant comfort and regulatory constraints
+among other considerations. Although most of these are addressed in design,
+the external and internal environmental solutions are often not included,
+and rarely fully integrated
+
+
+ This studio, as part of *Built Ecologies* program at CASE
+<http://www.case.rpi.edu/> proposes to bring to the forefront a resolution
+for environmental sensitivity, both external and internal, whilst addressing
+the pressing issues of energy and climate at a global and local scale. The
+studio employed ecological thought and design process to study, analyze and
+design systems at varying scales that are fully integrated, function in a
+harmonized fashion and resolve to a balanced architectural solution.
+
+
+Three students, Xiaofei Shen, Francesco Bedeschi and Kyle Schillaci will
+present their final projects highlighting the environmental analysis and
+design process integration using various tools and resultant outcomes.
+Varun Kohli, Adjunct Professor at CASE, will introduce the studio.
+
+
+
+*Speaker Bios:*
+
+
+
+*Varun Kohli RA, LEED AP BD+C*
+
+Varun is the founding partner at Merge Studio based in New York. He
+currently heads design projects globally incorporating a multitude of
+typologies including commercial, retail, multi-residential, master-planning
+and hospitality based projects spread out in the US, India, Australia and
+the Caribbean. He has over 18 years of experience with New York based
+architectural firms including Beyer Blinder Belle and Skidmore, Owings and
+Merrill (SOM). Varun holds a graduate degree in Sustainable Environmental
+Design from the Architectural Association, School of Architecture in London
+and a Bachelor of Architecture from the City College of New York. He
+currently teaches the ?Environmental Parametrics? design studio at the
+Center for Architecture, Science and Ecology (CASE) in New York City. In
+the past, he has served as a guest lecturer and presented papers at
+international conferences including Passive and Low Energy Architecture
+Conference (PLEA), Passive and Low Energy Cooling Conference (PALENC),
+Indian Green Building Congress and others.
+
+
+*Xiaofei Shen*
+
+In 2014, Xiaofei Shen finished his graduate studies at CASE, where he
+researched on Adaptive Ecological Building Interface System. He received a
+Bachelor of Architecture degree from Tongji University in Shanghai in 2012.
+At CASE, he engaged in parametric modeling and critical design methodology
+focusing on high density and ecological environment, producing truly
+integrated graphic representations of both analysis and design. His
+professional experiences include Schmidt Hammer Lassen Architects in
+Copenhagen and Atelier L+/Tongji Design Institute in Shanghai. He has also
+interned with RTKL, SOM, Atelier Deshaus and sciSKEW Collaborative.
+
+
+*Francesco Bedeschi LEED AP, AIA Int. Assoc.*
+
+Based in Rome, Francesco is a founding partner of the firm Bedeschi &
+Bompiani Architetti Associati. He holds Bachelors in Architecture from
+University of Rome ?Sapienza? with a focus on preservation of historic
+buildings and he recently earned an M.Arch. II at CASE. He teaches
+integrated architectural design and restoration at the University of
+Arkansas, Rome Center and is the site coordinator of the study abroad
+program of RPI in Italy. He is a member of the Board of Directors of the
+Green Building Council Italia. In 2010, he founded the Lazio chapter,
+elected President, and has been the first coordinator of the Technical
+Committee for the development of the Historical Building Protocol at GBC
+Italia. Francesco is also the Director of European Projects with SINERGI
+Integrated Building Sciences, a US-based company providing sustainability
+services with a specific focus in LEED and Commissioning of systems and
+building envelopes. He currently manages projects in Italy, Switzerland and
+Qatar.
+
+
+*Kyle Schillaci*
+
+Kyle recently finished his Masters of Environmental Parametrics at CASE and
+holds a technology consultant position for a research group at Penn State
+university focusing on ?collective action concepts and strategies for
+institutional design and policy implications with the end goal of resilient
+community and ecological design? [polyspace.info]. Kyle has collaborated
+with scientists ranging from etymology to Malaria vaccine logistics in
+Niger, Africa, using Grasshopper and parametric processes to link disparate
+data into cohesive visualizations of system abstraction; that provide
+higher level of guidance to on ground initiatives.
+
+-- 
+
+Pallavi Mantha
+Chair | IBPSA NY
+Arup
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140619/5491d9c9/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Case.jpg
+Type: image/jpeg
+Size: 120973 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140619/5491d9c9/attachment.jpg>
+
+From pallavi.mantha at gmail.com  Thu Jun 19 14:40:09 2014
+From: pallavi.mantha at gmail.com (Pallavi Mantha)
+Date: Thu, 19 Jun 2014 17:40:09 -0400
+Subject: [Bldg-sim] Reminder: IBPSA NYC Presents | CASE/RPI: Student Projects
+Message-ID: <CACfNcegQaEjwTW2V3YSbMXeG01m3nQCfKveuPwAz+jzo0Beakg@mail.gmail.com>
+
+Reminder!
+
+
+Please excuse the cross-postings.
+
+
+
+?
+
+
+
+*IBPSA-USA New York Regional Chapter presents:*
+
+
+
+*Interdisciplinary Research Studio @ CASE/RPI
+<http://www.case.rpi.edu/index.php>: Student Projects*
+
+
+
+*Location:* *SOM, 14 Wall St, New York, NY 10005*
+
+*  Conference Room 25A*
+
+
+
+*Date & Time:* Monday, June 23, 2014 - 6:00-7:30 PM.
+
+
+
+*6:00-6:30 PM: Networking*
+
+
+
+*6:30-7:15 PM   Interdisciplinary Research Studio @ CASE/RPI: Student
+Projects*
+
+
+
+Varun Kohli, Merge Studio, NY | Xiaofei Shen, Francesco Bedeschi, Kyle
+Schillaci, CASE-RPI
+
+
+
+*7:15-7:30 PM: Q & A*
+
+
+
+Register here <https://attendee.gotowebinar.com/register/660408824153545729>
+
+
+
+*Studio Proposition:*
+
+
+
+Architecture is often seen as a balanced solution to a host of problems
+imposed by aesthetic aspirations, use and program, location and site,
+immediate external environment, occupant comfort and regulatory constraints
+among other considerations. Although most of these are addressed in design,
+the external and internal environmental solutions are often not included,
+and rarely fully integrated
+
+
+ This studio, as part of *Built Ecologies* program at CASE
+<http://www.case.rpi.edu/> proposes to bring to the forefront a resolution
+for environmental sensitivity, both external and internal, whilst addressing
+the pressing issues of energy and climate at a global and local scale. The
+studio employed ecological thought and design process to study, analyze and
+design systems at varying scales that are fully integrated, function in a
+harmonized fashion and resolve to a balanced architectural solution.
+
+
+Three students, Xiaofei Shen, Francesco Bedeschi and Kyle Schillaci will
+present their final projects highlighting the environmental analysis and
+design process integration using various tools and resultant outcomes.
+Varun Kohli, Adjunct Professor at CASE, will introduce the studio.
+
+
+
+*Speaker Bios:*
+
+
+
+*Varun Kohli RA, LEED AP BD+C*
+
+Varun is the founding partner at Merge Studio based in New York. He
+currently heads design projects globally incorporating a multitude of
+typologies including commercial, retail, multi-residential, master-planning
+and hospitality based projects spread out in the US, India, Australia and
+the Caribbean. He has over 18 years of experience with New York based
+architectural firms including Beyer Blinder Belle and Skidmore, Owings and
+Merrill (SOM). Varun holds a graduate degree in Sustainable Environmental
+Design from the Architectural Association, School of Architecture in London
+and a Bachelor of Architecture from the City College of New York. He
+currently teaches the ?Environmental Parametrics? design studio at the
+Center for Architecture, Science and Ecology (CASE) in New York City. In
+the past, he has served as a guest lecturer and presented papers at
+international conferences including Passive and Low Energy Architecture
+Conference (PLEA), Passive and Low Energy Cooling Conference (PALENC),
+Indian Green Building Congress and others.
+
+
+*Xiaofei Shen*
+
+In 2014, Xiaofei Shen finished his graduate studies at CASE, where he
+researched on Adaptive Ecological Building Interface System. He received a
+Bachelor of Architecture degree from Tongji University in Shanghai in 2012.
+At CASE, he engaged in parametric modeling and critical design methodology
+focusing on high density and ecological environment, producing truly
+integrated graphic representations of both analysis and design. His
+professional experiences include Schmidt Hammer Lassen Architects in
+Copenhagen and Atelier L+/Tongji Design Institute in Shanghai. He has also
+interned with RTKL, SOM, Atelier Deshaus and sciSKEW Collaborative.
+
+
+*Francesco Bedeschi LEED AP, AIA Int. Assoc.*
+
+Based in Rome, Francesco is a founding partner of the firm Bedeschi &
+Bompiani Architetti Associati. He holds Bachelors in Architecture from
+University of Rome ?Sapienza? with a focus on preservation of historic
+buildings and he recently earned an M.Arch. II at CASE. He teaches
+integrated architectural design and restoration at the University of
+Arkansas, Rome Center and is the site coordinator of the study abroad
+program of RPI in Italy. He is a member of the Board of Directors of the
+Green Building Council Italia. In 2010, he founded the Lazio chapter,
+elected President, and has been the first coordinator of the Technical
+Committee for the development of the Historical Building Protocol at GBC
+Italia. Francesco is also the Director of European Projects with SINERGI
+Integrated Building Sciences, a US-based company providing sustainability
+services with a specific focus in LEED and Commissioning of systems and
+building envelopes. He currently manages projects in Italy, Switzerland and
+Qatar.
+
+
+*Kyle Schillaci*
+
+Kyle recently finished his Masters of Environmental Parametrics at CASE and
+holds a technology consultant position for a research group at Penn State
+university focusing on ?collective action concepts and strategies for
+institutional design and policy implications with the end goal of resilient
+community and ecological design? [polyspace.info]. Kyle has collaborated
+with scientists ranging from etymology to Malaria vaccine logistics in
+Niger, Africa, using Grasshopper and parametric processes to link disparate
+data into cohesive visualizations of system abstraction; that provide
+higher level of guidance to on ground initiatives.
+
+-- 
+
+Pallavi Mantha
+Chair | IBPSA NY
+Arup
+
+
+
+
+
+
+-- 
+
+Pallavi Mantha
+Arup
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140619/46843e93/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Case.jpg
+Type: image/jpeg
+Size: 120973 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140619/46843e93/attachment.jpg>
+
+From energy.wwind at cox.net  Mon Jun 23 10:50:25 2014
+From: energy.wwind at cox.net (John R Ross III PE)
+Date: Mon, 23 Jun 2014 13:50:25 -0400
+Subject: [Bldg-sim] Energy-10 manuals
+In-Reply-To: <Fmg71o00A1DbDSS01mg8Tl>
+References: <mailman.1.1248980463.13694.bldg-sim-onebuilding.org@lists.onebuilding.org>	<00b901ca11eb$2baaefd0$8300cf70$@com>	<83996EE70003D04B830E1C4A5E6688CEB3D51B@PATHMAIL2.pathfinderengineers.com>
+	<Fmg71o00A1DbDSS01mg8Tl>
+Message-ID: <53A868E1.6000309@cox.net>
+
+Hi;  Energy 10 software package was deveolped by the Sustainable 
+Buildings Industry Council  SBIC;
+they had  a small office in NW Washington DC  USA. Versions increased in 
+rev number from  1.4 to 1.5 to 1.6
+then jump to  v 1.8.  V 1.8 had solar thermal modeling added, and 
+although I used energy 10 quite a bit I never
+got  Energy 10 solar thermal to work.  I particularly liked the day of 
+the year spectrum feature.
+
+The heat transfer through floors was the subject of an extensive 
+exchange on the old YAHOO solar energy group
+E-mail list about  6 to 8 years ago.  I think you can find the basement 
+floor  f  factor there.
+
+SBIC and its website SBIC.org were  absorbed by   Winter Associates 
+years go.  I may have the E-10 v 1.8 CD.
+
+bye
+
+JRR
+
+
+
+On 6/18/2014 6:39 AM, Luis Per?z-Lombard wrote:
+> Dear colleagues:
+>
+> I wonder if any of you could know where can I find Technical or 
+> Engineer's manuals of Energy-10 simulation engine.
+>
+> I am interested in particular in the model that it uses to calculate 
+> heat transfer through underground floors.
+>
+> Any help is welcome.
+>
+> Sincerely,
+>
+> LPL
+>
+> -------------------------------------------------------------
+> Luis P?rez-Lombard
+> Dr. Ingeniero Industrial
+> Profesor Contratado Doctor
+> Departamento de Ingenier?a Energ?tica
+> Escuela Superior de Ingenieros
+> Universidad de Sevilla
+> Camino de los Descubrimientos s/n
+> 41092 SEVILLA
+> Tfno.:      95.448.72.56
+> Fax:         95.446.31.53
+> e-mail:    lpl at us.es
+> -------------------------------------------------------------
+> ----- Original Message ----- From: "Bishop, Bill" 
+> <bbishop at PathfinderEngineers.com>
+> To: "Neetu Singh" <neetu at greenengineer.com>; 
+> <bldg-sim at lists.onebuilding.org>
+> Sent: Friday, July 31, 2009 4:47 PM
+> Subject: Re: [Bldg-sim] eQuest : How to Save Results to xls
+>
+>
+>> Neetu,
+>>
+>> When you open the .sim file with D2SimViewer, click "Hourly Results" in
+>> the upper right. An Excel file is generated and opened. If you want
+>> additional information to show up, create a new Hourly Report Block from
+>> the Component Tree in the Project & Site module in DD Edit mode.
+>>
+>> Regards,
+>> Bill
+>>
+>> William Bishop, EIT, LEED(r) AP | Pathfinder Engineers LLP
+>> Mechanical Engineer
+>>
+>> 134 South Fitzhugh Street
+>> Rochester, NY 14608
+>> T: (585) 325-6004 Ext. 114
+>> F: (585) 325-6005
+>> bbishop at pathfinderengineers.com
+>>
+>> www.pathfinderengineers.com
+>> P Please strive to live sustainably.
+>> -----Original Message-----
+>> From: bldg-sim-bounces at lists.onebuilding.org
+>> [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Neetu Singh
+>> Sent: Friday, July 31, 2009 10:28 AM
+>> To: bldg-sim at lists.onebuilding.org
+>> Subject: [Bldg-sim] eQuest : How to Save Results to xls
+>>
+>> Hi All,
+>>
+>> I was wondering if anyone can give me some guidance upon saving results
+>> in
+>> xls from .sim output file.
+>> My problem: Is it possible to output meter data to xls format from
+>> eQuest.
+>> Also can parts of the .sim file be generated in xls format?
+>> If I were to take the current xls report that eQuest generates, it does
+>> not
+>> have meter data say a chilled water meter or so, I wanted to know where
+>> is
+>> all this being set up.
+>>
+>> I appreciate any help that I can get on this.
+>>
+>> Thanks
+>> Neetu
+>>
+>>
+>> Neetu Singh, LEED AP
+>> The Green Engineer, LLP
+>> Sustainable Design Consulting
+>> 50 Beharrell Street
+>> Concord, MA 01742
+>> t: 978.369.8978
+>> neetu at greenengineer.com
+>> www.greenengineer.com
+>>
+>>
+>>
+>> _______________________________________________
+>> Bldg-sim mailing list
+>> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+>> To unsubscribe from this mailing list send  a blank message to
+>> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>> _______________________________________________
+>> Bldg-sim mailing list
+>> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+>> To unsubscribe from this mailing list send  a blank message to 
+>> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+> -------------------------------------------------------------------------------- 
+>
+>
+>
+>
+> No virus found in this incoming message.
+> Checked by AVG - www.avg.com
+> Version: 8.5.375 / Virus Database: 270.13.42/2278 - Release Date: 
+> 08/02/09 17:56:00
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+
+-- 
+
+John R Ross III PE
+
+Westwind Corporation
+Vienna, VA 22182-1958
+contact.wwind at cox.net
+703-255-4712 Office
+571-830-4596 Cell
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140623/14597253/attachment.htm>
+
+From mailforaj at gmail.com  Tue Jun 24 13:22:34 2014
+From: mailforaj at gmail.com (AJ)
+Date: Tue, 24 Jun 2014 15:22:34 -0500
+Subject: [Bldg-sim] MIT's Climate CoLab is Crowdsourcing Solutions to
+	Climate Change
+Message-ID: <CAEXphRqANXwKjvZJ=w9_nSNf0wxwG1V98DczQtxGA94fe4mZ3g@mail.gmail.com>
+
+Greetings folks,
+
+MIT?s Climate CoLab (based at MIT's Center for Collective Intelligence) is
+developing ideas to solve climate change through crowdsourcing ideas on its
+web platform (see it here <http://climatecolab.org/>).
+
+If you submit one of the winning ideas, you will be able to present it
+before government officials, business executives, NGO leaders and
+scientists who can help move proposals toward implementation, as well as
+share it at an MIT conference, where a $10,000 Grand Prize will be awarded.
+
+Even if you don?t have new ideas yourself, you can help improve other
+people?s ideas, support the ones you find most promising, or participate in
+the social network prize (link here
+<http://climatecolab.org/socialnetworkprize/-/link/3477ae3e-e24d-49c8-8e29-d1d07fec2771>
+).
+
+Current contests address energy supply, carbon pricing, building
+efficiency, adaptation, geoengineering, shifting public attitudes and
+behaviors, and over a dozen other topics. Those who are interested in
+building energy data solutions and in the ancillary benefits of building
+energy efficiency are especially invited to contribute to this contest
+<http://climatecolab.org/web/guest/plans/-/plans/contestId/1300203>.
+
+*Entries are due** July 20, 2014**.*
+
+Other questions? Contact us at colab_buildings_contest_2014 at googlegroups.com
+
+Thanks,
+
+AJ
+
+*Building Efficiency Contest Fellow*
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140624/3f8f93fe/attachment.htm>
+
+From dbs176 at gmail.com  Wed Jun 25 10:42:35 2014
+From: dbs176 at gmail.com (David Smith)
+Date: Wed, 25 Jun 2014 13:42:35 -0400
+Subject: [Bldg-sim] CXL - ComCheck XML Schema
+Message-ID: <CAGUszWFKns1M2MAL6wdZA5zy-Ug+ddyZqROS7un5Y57yee+BBw@mail.gmail.com>
+
+Hi all,
+
+Does anybody know where the ComCheck XML schema is? According to the saved
+.cxl files, it should be located here:
+http://energycode.pnl.gov/ns/ComCheckBuildingSchema
+
+There are two file formats to save ComCheck files in - a binary and an XML
+file. The XML file is plain text and can be generated by anybody who knows
+the format of the file.
+
+I'd like to create some scripts that output ComCheck compatible files, and
+if the schema is available, I wouldn't have to reverse engineer it.
+
+Thanks,
+
+DS
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140625/e5fb20b6/attachment.htm>
+
+From mbstutman at engr.psu.edu  Wed Jun 25 10:46:55 2014
+From: mbstutman at engr.psu.edu (Mark Stutman)
+Date: Wed, 25 Jun 2014 17:46:55 +0000
+Subject: [Bldg-sim] HELP WANTED - CBEI DATA ANALYST / BUILDING ENERGY MODELER
+Message-ID: <70A788B2F4CB7247BE72AA7FCB60BD889CC1EBDF@ENGR2K10NODE1.engr.psu.edu>
+
+The mission of the Penn State Consortium for Building Energy Innovation (CBEI) at the Philadelphia Navy Yard is to transform the energy efficiency market for existing small- and medium-sized commercial buildings (SMSCBs). The CBEI seeks to be recognized as the leader in creating vibrant ecosystems to identify and apply integrative technologies and innovative practices in existing buildings. To support this mission, the CBEI seeks an experienced Data Analyst / Building Energy Modeler for the current portfolio of projects.
+The candidate will participate in analysis of energy use in target buildings and will participate in selection and evaluation of Energy Efficiency Measures (EEMs) in SMSCBs. Experience designing and installing energy retrofit projects in buildings is a plus. Candidates should have experience conducting energy audits of SMSCBs, reviewing building drawings (CAD, Revit, PDF format), understanding the building systems, and screening through the building automation system (BAS) to understand roughly how the building systems are controlled/operated. Candidates will participate in the design and specification of Measurement and Verification (M&V) systems for retrofit projects, and will calculate the observed energy savings based on the available data using IPMVP and/or ASHRAE Guideline 14 compliant methods.
+Successful candidates must be experienced creating Energy Plus (E+) building energy models, using Open Studio, DesignBuilder and/or other E+ related tools. The successful candidate should have demonstrated experience calibrating E+ energy models using available utility bills, sub-metering and/or end-use loads, short-term monitoring data, field observations, etc., and will use the calibrated models to evaluate energy conservation measures (EEMs) in buildings.
+The candidate should be proficient with analysis of time-series of building energy/operational data (including development of energy use load shapes) using Excel, Minitab, Matlab, R and similar available tools; should be able to benchmark a building energy use with EnergyStar Portfolio Manager or similar tools, and will analyze and validate benchmarking, utility bills, sub-metering, M&V and other building energy data sets in support of CBEI research and projects. The candidate will conceive and co-author case-studies, articles and scholarly publications to communicate CBEI work to the market, along with colleagues.
+Candidate should possess a BS degree in an Engineering field (MS preferred), and have at least three years' experience creating E+ models. Relevant credentials such as E.I.T. or P.E., BEMP, BEAP, LEED AP, and CEM are strongly desired. The primary work site will be at the CBEI offices at the Navy Yard in Philadelphia. Applications will be accepted until the position is filled.
+Job Listing:  51928
+Apply at:  http://psu.jobs/Search/Opportunities.html
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140625/c90bff26/attachment.htm>
+
+From jeisenhart at cromwell.com  Wed Jun 25 14:02:36 2014
+From: jeisenhart at cromwell.com (jeisenhart at cromwell.com)
+Date: Wed, 25 Jun 2014 16:02:36 -0500
+Subject: [Bldg-sim] AUTO: Jesse E Eisenhart is out of the office (returning
+	07/07/2014)
+Message-ID: <OFB8342638.80EE0CEF-ON86257D02.00739856-86257D02.00739856@cromwell.com>
+
+
+I am out of the office until 07/07/2014.
+
+I am out of office until July 7.  I plan to check email intermittantly
+until then.
+
+If you are in need of immediate assistance contact Todd Kuhn at
+501-372-2900 or tkuhn at cromwell.com
+
+
+Note: This is an automated response to your message  "[SpamSentinel]
+Bldg-sim Digest, Vol 79, Issue 17" sent on 6/25/2014 3:00:50 PM.
+
+This is the only notification you will receive while this person is away.
+
+
+From lists at spacesustainers.org  Thu Jun 26 06:58:34 2014
+From: lists at spacesustainers.org (Max D)
+Date: Thu, 26 Jun 2014 15:58:34 +0200 (CEST)
+Subject: [Bldg-sim] Mr.Comfy 0.21 released | Custom Spatial Thermal Metrics
+ & Independent Daylight Visualization
+Message-ID: <1355640477.307771.1403791114978.open-xchange@app01.ox.hosteurope.de>
+
+Hi friends,
+
+I've recently released a new version of the Mr.Comfy E+ output spatial
+visualization / analysis tool for Rhino5/GH3D and invite you to give it a spin;
+a new feature that may be useful to the community here is the possibility to
+create your own thermal report variable(s) from user input expressions:
+http://mrcomfy.org/?p=866 (blog post); http://mrcomfy.org/?page_id=789
+(documentation).
+
+Besides custom expressions, the Daysim visualization component is now more
+easily usable - independent of E+ data presence - and thermal display works a
+lot faster than in previous versions.
+
+Any input, comments & case studies are welcome; if you have visualizations
+created with the tool and would like to share them on the site, I'd love to put
+them out there. The latest case study of my own can be found in the blog:
+http://mrcomfy.org/?p=857 .
+
+Enjoy & all the best,
+
+Max
+
+From miller.clayton at gmail.com  Mon Jun 30 02:25:37 2014
+From: miller.clayton at gmail.com (Clayton Miller)
+Date: Mon, 30 Jun 2014 11:25:37 +0200
+Subject: [Bldg-sim] Building Simulation Q&A Site -- StackExchange Proposal
+	Update!
+Message-ID: <CAG7SY4th=E-VbDxCcR7BbnJOsOcJjv1b0pJ6t5XqeGMFL4uKrQ@mail.gmail.com>
+
+It has been a while since we have plugged the StackExchange.com proposal
+that was created for Building Simulation Question and Answer support (check
+out http://bit.ly/WhatIsSEForEnergyModeling and
+http://bit.ly/futureofbldg-sim)
+
+For those of you new to the list, please visit our proposal site and
+consider committing to this project. We would like your support to help
+create this potentially valuable resource in the simulation community!!
+
+For those of you already involved -- we really need more people to build a
+bit of reputation on other StackExchange sites to help move our proposal
+forward! For more info on reputation and how build it -- check out:
+http://stackoverflow.com/help/whats-reputation
+
+Kind Regards,
+
+
+//
+
+Clayton Miller
+
+ITA Doctorate Fellow
+miller.clayton at arch.ethz.ch
+Phone +41 78 971 72 50
+<http://s.wisestamp.com/links?url=tel%3A%252B41%252078%2520971%252072%252050&sn=>
+
+Architecture & Sustainable Building Technologies
+Prof. Dr. Arno Schl?ter
+ETH Zurich / Building HPZ / Floor G
+Schafmattstrasse 32 / CH-8093 Zurich
+www.suat.arch.ethz.ch
+<http://s.wisestamp.com/links?url=http%3A%2F%2Fwww.suat.arch.ethz.ch%2F&sn=>
+
+/ ITA
+Institute of Technology in Architecture
+Faculty of Architecture / ETH Zurich
+www.ita.arch.ethz.ch
+<http://s.wisestamp.com/links?url=http%3A%2F%2Fwww.ita.arch.ethz.ch%2F&sn=>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140630/4d334b62/attachment.htm>
+
+From miller.clayton at gmail.com  Mon Jun 30 02:28:23 2014
+From: miller.clayton at gmail.com (Clayton Miller)
+Date: Mon, 30 Jun 2014 11:28:23 +0200
+Subject: [Bldg-sim] Building Simulation Q&A Site -- StackExchange
+	Proposal Update!
+In-Reply-To: <CAG7SY4th=E-VbDxCcR7BbnJOsOcJjv1b0pJ6t5XqeGMFL4uKrQ@mail.gmail.com>
+References: <CAG7SY4th=E-VbDxCcR7BbnJOsOcJjv1b0pJ6t5XqeGMFL4uKrQ@mail.gmail.com>
+Message-ID: <CAG7SY4uSLo-TS9pga2nS7G+Ttd7MwU=LF1rxjn3pCr+59DFAqg@mail.gmail.com>
+
+A direct link to the proposal site:
+http://area51.stackexchange.com/proposals/45232/building-performance-simulation-analysis
+
+Thanks!
+Clayton
+
+On Mon, Jun 30, 2014 at 11:25 AM, Clayton Miller <miller.clayton at gmail.com>
+wrote:
+
+> It has been a while since we have plugged the StackExchange.com proposal
+> that was created for Building Simulation Question and Answer support (check
+> out http://bit.ly/WhatIsSEForEnergyModeling and
+> http://bit.ly/futureofbldg-sim)
+>
+> For those of you new to the list, please visit our proposal site and
+> consider committing to this project. We would like your support to help
+> create this potentially valuable resource in the simulation community!!
+>
+> For those of you already involved -- we really need more people to build a
+> bit of reputation on other StackExchange sites to help move our proposal
+> forward! For more info on reputation and how build it -- check out:
+> http://stackoverflow.com/help/whats-reputation
+>
+> Kind Regards,
+>
+>
+>  //
+>
+>  Clayton Miller
+>
+>  ITA Doctorate Fellow
+>  miller.clayton at arch.ethz.ch
+>  Phone +41 78 971 72 50
+> <http://s.wisestamp.com/links?url=tel%3A%252B41%252078%2520971%252072%252050&sn=>
+>
+>  Architecture & Sustainable Building Technologies
+>  Prof. Dr. Arno Schl?ter
+>  ETH Zurich / Building HPZ / Floor G
+>  Schafmattstrasse 32 / CH-8093 Zurich
+>  www.suat.arch.ethz.ch
+> <http://s.wisestamp.com/links?url=http%3A%2F%2Fwww.suat.arch.ethz.ch%2F&sn=>
+>
+>  / ITA
+>  Institute of Technology in Architecture
+>  Faculty of Architecture / ETH Zurich
+>  www.ita.arch.ethz.ch
+> <http://s.wisestamp.com/links?url=http%3A%2F%2Fwww.ita.arch.ethz.ch%2F&sn=>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140630/90b38d8c/attachment.htm>
+
+From julien.marrec at gmail.com  Mon Jun 30 03:20:49 2014
+From: julien.marrec at gmail.com (Julien Marrec)
+Date: Mon, 30 Jun 2014 12:20:49 +0200
+Subject: [Bldg-sim] Building Simulation Q&A Site -- StackExchange
+	Proposal Update!
+In-Reply-To: <CAG7SY4uSLo-TS9pga2nS7G+Ttd7MwU=LF1rxjn3pCr+59DFAqg@mail.gmail.com>
+References: <CAG7SY4th=E-VbDxCcR7BbnJOsOcJjv1b0pJ6t5XqeGMFL4uKrQ@mail.gmail.com>
+	<CAG7SY4uSLo-TS9pga2nS7G+Ttd7MwU=LF1rxjn3pCr+59DFAqg@mail.gmail.com>
+Message-ID: <CAEqKKtz1ijpnG2YXK40KFrF=kP0MfkE9=X9wcJ6xFro2aKjnng@mail.gmail.com>
+
+Hi,
+
+Thanks Clayton!
+
+I just wanted to add that building enough reputation on another Stack
+Exchange site only takes a couple of hours.
+
+There are 124 Stack Exchange sites, ranging from science to art to home
+improvement, gardening, etc. You can see the full list here: http://
+stackexchange.com/sites. I am sure one will fit you.
+
+Building your reputation to 200 is really easy. Each vote on a question you
+post or an answer you provide bumps you up 10 points. You usually get 3 or
+4 votes each time, ans some questions are really basic.
+I initially joined Stackoverflow, the programming site. In about 2-3 hours
+of time, spread over a week, I had reached the 200 reputation threshold.
+And along the way I had helped people that needed it. It's a win-win
+situation!
+
+This kind of Q&A platform will be extremely useful for our community, so
+please consider helping!
+
+Best,
+Julien
+--
+Julien Marrec, EBCP, BPI MFBA
+Energy+Sustainability Engineer
+T: +33 6 95 14 42 13
+
+LinkedIn (en) : www.linkedin.com/in/julienmarrec
+
+
+2014-06-30 11:28 GMT+02:00 Clayton Miller <miller.clayton at gmail.com>:
+
+> A direct link to the proposal site:
+> http://area51.stackexchange.com/proposals/45232/building-performance-simulation-analysis
+>
+> Thanks!
+> Clayton
+>
+> On Mon, Jun 30, 2014 at 11:25 AM, Clayton Miller <miller.clayton at gmail.com
+> > wrote:
+>
+>> It has been a while since we have plugged the StackExchange.com proposal
+>> that was created for Building Simulation Question and Answer support (check
+>> out http://bit.ly/WhatIsSEForEnergyModeling and
+>> http://bit.ly/futureofbldg-sim)
+>>
+>> For those of you new to the list, please visit our proposal site and
+>> consider committing to this project. We would like your support to help
+>> create this potentially valuable resource in the simulation community!!
+>>
+>> For those of you already involved -- we really need more people to build
+>> a bit of reputation on other StackExchange sites to help move our proposal
+>> forward! For more info on reputation and how build it -- check out:
+>> http://stackoverflow.com/help/whats-reputation
+>>
+>> Kind Regards,
+>>
+>>
+>>  //
+>>
+>>  Clayton Miller
+>>
+>>  ITA Doctorate Fellow
+>>  miller.clayton at arch.ethz.ch
+>>  Phone +41 78 971 72 50
+>> <http://s.wisestamp.com/links?url=tel%3A%252B41%252078%2520971%252072%252050&sn=>
+>>
+>>  Architecture & Sustainable Building Technologies
+>>  Prof. Dr. Arno Schl?ter
+>>  ETH Zurich / Building HPZ / Floor G
+>>  Schafmattstrasse 32 / CH-8093 Zurich
+>>  www.suat.arch.ethz.ch
+>> <http://s.wisestamp.com/links?url=http%3A%2F%2Fwww.suat.arch.ethz.ch%2F&sn=>
+>>
+>>  / ITA
+>>  Institute of Technology in Architecture
+>>  Faculty of Architecture / ETH Zurich
+>>  www.ita.arch.ethz.ch
+>> <http://s.wisestamp.com/links?url=http%3A%2F%2Fwww.ita.arch.ethz.ch%2F&sn=>
+>>
+>
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20140630/a0dcf25c/attachment.htm>
+

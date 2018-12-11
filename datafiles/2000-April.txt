@@ -1,0 +1,1453 @@
+From krishnan.gowri at pnl.gov  Sun Apr 30 07:58:30 2000
+From: krishnan.gowri at pnl.gov (Gowri, Krishnan)
+Date: Sun, 30 Apr 2000 07:58:30 -0700
+Subject: [BLDG-SIM] EnerXML - A Schema for Energy Simulation Data Exch	ange
+Message-ID: <MDAEMON-F200004301013.AA132082MD31638@gard.com>
+
+My thanks to all those who contributed to this discussion thread.  
+I have so far about 12 people volunteering to participate in the schema
+development.  
+
+This is a voluntary effort to represent energy simulation data in one dialect
+(EnerXML).
+With tools such as BizTalk server 2000 mappers, we should benefit without
+translators to interface with other simulation programs and CAD applications
+using the EnerXML schema.
+
+I will have a DTD skeleton ready next week to start work on the schema.  
+Instead of overloading this mail server, I will send this only to those who have
+volunteered. 
+If you are interested in reviewing the tag definitions, please let me know.  
+
+When the draft schemas are finalized, I will post it and announce to this list
+for review and comments - possibly within the next three months.
+Once the schemas are agreed upon, then we can start developing interface tools,
+and start working with EnerXML data files.
+
+- krishnan
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From charles at eley.com  Fri Apr 28 11:32:58 2000
+From: charles at eley.com (Charles Eley)
+Date: Fri, 28 Apr 2000 11:32:58 -0700
+Subject: [BLDG-SIM] EnXML - A Schema for Energy Simulation Data Exchange
+References: <MDAEMON-F200004270108.AA081357MD19631@gard.com>
+ <MDAEMON-F200004271129.AA290418MD19766@gard.com>
+Message-ID: <MDAEMON-F200004281322.AA222125MD31364@gard.com>
+
+I agree that we should try to work with what IFC has done. The problem is
+that the work of the organization is not really open for public review.
+Unless IFC
+is willing to release its "proprietary" information into a public forum like
+the
+BLDG-SIM list, I think we should begin to develop our own XML schema.
+
+Charles Eley
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From RJHitchcock at lbl.gov  Thu Apr 27 09:39:49 2000
+From: RJHitchcock at lbl.gov (Rob Hitchcock)
+Date: Thu, 27 Apr 2000 12:39:49 -0400
+Subject: [BLDG-SIM] EnXML - A Schema for Energy Simulation Data Exchange
+References: <MDAEMON-F200004270108.AA081357MD19631@gard.com>
+Message-ID: <MDAEMON-F200004271129.AA291114MD31019@gard.com>
+
+Actually, I am hopeful that aecXML will build on the "tree" that is already in
+the IFC model.  It is the leaves of the IFC model that need further
+development.  I think that aecXML schema can help this development if done in
+parallel.  Also, I am not yet convinced that XML-based data exchange is
+appropriate for all details of a building project.  I see equipment and other
+component manufacturers gaining the most from XML-based data exchange -
+information-rich catalogs and e-commerce transactions.  Of course, this assumes
+that manufacturers (e.g., chillers) will become willing to share their
+performance data.
+
+Rob Hitchcock
+====================
+Robert Sonderegger wrote:
+
+> I find this discussion fascinating and encouraging.  My only 2 cents are
+> that this effort should start at the top of the "tree," with the building,
+> sites, plant, system, lighting, equipment, etc., not at the bottom with
+> envelope materials and assemblies.
+>
+> All may be eventually be expressed in EnXML (lose the "er"), but it is the
+> former that will first catch the imagination of those who need to "buy in"
+> to make this effort fly.  In the eyes of the moneyed decisionmakers, it's
+> chillers and lighting fixtures that consume operating $, not envelope
+> materials.
+>
+> Robert Sonderegger
+>
+> -----Original Message-----
+> From: Gowri, Krishnan [mailto:krishnan.gowri at pnl.gov]
+> Sent: Wednesday, April 26, 2000 3:09 PM
+> To: BLDG-SIM at gard.com
+> Subject: [BLDG-SIM] EnerXML - A Schema for Energy Simulation Data Exch
+> ange
+>
+> I expect the EnerXML initiative to build consensus on the tag terminology to
+> standardize schema definitions.  It will be consistent with the IAI/IFC
+> model
+> and build off of any published domain extensions or XML schemas available.
+> I
+> have made an IAI/aecXML working group proposal to the Design/Spec group to
+> include energy simulation data.  My focus currently is the representation of
+> thermal properties data for envelope materials and assemblies.  If you are
+> already using schemas or have suggestions for parts of  schemas, please let
+> me
+> know and I will incorporate them and make it available through aecXML
+> submissions and BizTalk/OASIS servers.
+>
+> - krishnan
+>
+>         -----Original Message-----
+>         From:   Rob Hitchcock [SMTP:RJHitchcock at lbl.gov]
+>         Sent:   Wednesday, April 26, 2000 1:23 PM
+>         To:     BLDG-SIM at gard.com
+>         Subject:        [BLDG-SIM] EnerXML - A Schema for Energy Simulation
+> Data
+> Exchange
+>
+>         I agree that library/catalog performance specs for building
+>         components like equipment and materials makes a lot of sense.
+>         This would support e-commerce applications, and the ability to
+>         search the web for component data that could be directly imported
+>         into energy simulation models.
+>
+>         I feel that this work should be coordinated with the aecXML effort
+>         underway within the International Alliance for Interoperability
+>         (IAI).  See http://www.aecxml.org/index2.htm for more
+>         information.  We are on the verge of achieving some level of
+>         software interoperability with the IFC data model being developed
+>         by the IAI.  It would be a shame to develop an XML schema that did
+>         not build on this work.
+>
+>         Rob Hitchcock
+>         Lawrence Berkeley National Lab
+>         ======================
+>         Jason Glazer wrote:
+>
+>         > Along with weather, three other areas related to building
+>         > simulation that make sense to have an XML format for are:
+>         >
+>         > a) Equipment performance specifications - nominal and part
+>         > load and temperature correction curves,
+>         >
+>         > b) Utility rate models - block charges, time of use rates,
+>         > and applicablity, and
+>         >
+>         > c) Materials/constructions descriptions for opaque and
+>         > transparent building surfaces.
+>         >
+>         > These could be integrated into an overall "enerXML" but
+>         > since they could also benefit other types of software they
+>         > may be best being independent schemas.
+>         >
+>         > Jason
+>         >
+>         > On 26 Apr 2000, at 14:32, Larry Degelman wrote:
+>         >
+>         > > Has any XML format been established yet for weather data
+>         > > used for energy simulation software?  We've got several
+>         > > weather data formats out there, and it would be convenient
+>         > > if these formats were made neutral by embedding the
+>         > > self-describing variables and data formats right in the
+>         > > file.  This seems like it would be the easiest to accomplish
+>         > > and the most readily used database.
+>         > >
+>         > > If not much has been done on this, I would be glad to work
+>         > > on it this summer.  What rules and guidelines are available
+>         > > for developing XML schemas?
+>         > >
+>         > > Larry D
+>         > >
+>         > > ************************************************************
+>         > > **************** * Larry O. Degelman, P.E., Professor
+>         > > e-mail: larry at taz.tamu.edu Department of Architecture
+>         > >           Phone: +1-979-845-1891 Texas A&M University
+>         > >                  Fax:    +1-979-862-1571 College Station, TX
+>         > > 77843-3137 Download ENER-WIN at:
+>         > > http://taz.tamu.edu/~energy/enerwin.html
+>         > > ************************************************************
+>         > > **************** **
+>         > >
+>         > >
+>         > > ----- Original Message -----
+>         > > From: "Gowri, Krishnan" <krishnan.gowri at pnl.gov>
+>         > > To: <BLDG-SIM at gard.com>
+>         > > Sent: Wednesday, April 26, 2000 1:28 PM
+>         > > Subject: [BLDG-SIM] EnerXML - A Schema for Energy Simulation
+>         > > Data Exchange
+>         > >
+>         > >
+>         > > >
+>         > > > I would like to propose the development of an XML schema
+>         > > > for marking up
+>         > > Energy
+>         > > > simulation data files that can be easily transferred
+>         > > > between simulation
+>         > > software
+>         > > > and other applications.  For those unfamiliar with XML,
+>         > > > data files in XML
+>         > > are
+>         > > > simply ASCII files containing tags that make the data
+>         > > > self-describing, if
+>         > > the
+>         > > > schema definitions are standardized and understandable.
+>         > > >
+>         > > > If you are an energy software developer and interested in
+>         > > > supporting or participating in the schema development
+>         > > > effort, please let me know. At present, this is a
+>         > > > voluntary effort aimed at interoperable and neutral
+>         > > data
+>         > > > representation for building energy software data.
+>         > > >
+>         > > > Krishnan Gowri, Ph.D., PE
+>         > > > Pacific Northwest National Lab.
+>         > > >
+>         >
+>         > =========================================================
+>         > Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+>         > GARD Analytics - http://www.gard.com/
+>         > Building Energy Simulation and Analysis
+>         > List Administrator & 90.1 Consultant
+>         >
+>         > ======================================================
+>         > You received this e-mail because you are subscribed
+>         > to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>         > from this mailing list send a blank message to
+>         > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>         ======================================================
+>         You received this e-mail because you are subscribed
+>         to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>         from this mailing list send a blank message to
+>         BLDG-SIM-UNSUBSCRIBE at GARD.COM << File: RJHitchcock.vcf >>
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: RJHitchcock.vcf
+Type: text/x-vcard
+Size: 670 bytes
+Desc: Card for Rob Hitchcock
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20000427/8f7b5d5a/attachment.vcf>
+
+From Robert.Sonderegger at SRC-Systems.com  Wed Apr 26 22:59:46 2000
+From: Robert.Sonderegger at SRC-Systems.com (Robert Sonderegger)
+Date: Wed, 26 Apr 2000 22:59:46 -0700
+Subject: [BLDG-SIM] EnXML - A Schema for Energy Simulation Data Exchange
+Message-ID: <MDAEMON-F200004270108.AA080531MD30874@gard.com>
+
+I find this discussion fascinating and encouraging.  My only 2 cents are
+that this effort should start at the top of the "tree," with the building,
+sites, plant, system, lighting, equipment, etc., not at the bottom with
+envelope materials and assemblies.  
+
+All may be eventually be expressed in EnXML (lose the "er"), but it is the
+former that will first catch the imagination of those who need to "buy in"
+to make this effort fly.  In the eyes of the moneyed decisionmakers, it's
+chillers and lighting fixtures that consume operating $, not envelope
+materials.
+
+Robert Sonderegger
+
+
+-----Original Message-----
+From: Gowri, Krishnan [mailto:krishnan.gowri at pnl.gov]
+Sent: Wednesday, April 26, 2000 3:09 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] EnerXML - A Schema for Energy Simulation Data Exch
+ange
+
+
+I expect the EnerXML initiative to build consensus on the tag terminology to
+standardize schema definitions.  It will be consistent with the IAI/IFC
+model
+and build off of any published domain extensions or XML schemas available.
+I
+have made an IAI/aecXML working group proposal to the Design/Spec group to
+include energy simulation data.  My focus currently is the representation of
+thermal properties data for envelope materials and assemblies.  If you are
+already using schemas or have suggestions for parts of  schemas, please let
+me
+know and I will incorporate them and make it available through aecXML
+submissions and BizTalk/OASIS servers.
+
+- krishnan
+
+	-----Original Message-----
+	From:	Rob Hitchcock [SMTP:RJHitchcock at lbl.gov]
+	Sent:	Wednesday, April 26, 2000 1:23 PM
+	To:	BLDG-SIM at gard.com
+	Subject:	[BLDG-SIM] EnerXML - A Schema for Energy Simulation
+Data
+Exchange
+
+	I agree that library/catalog performance specs for building
+	components like equipment and materials makes a lot of sense.
+	This would support e-commerce applications, and the ability to
+	search the web for component data that could be directly imported
+	into energy simulation models.
+
+	I feel that this work should be coordinated with the aecXML effort
+	underway within the International Alliance for Interoperability
+	(IAI).  See http://www.aecxml.org/index2.htm for more
+	information.  We are on the verge of achieving some level of
+	software interoperability with the IFC data model being developed
+	by the IAI.  It would be a shame to develop an XML schema that did
+	not build on this work.
+
+	Rob Hitchcock
+	Lawrence Berkeley National Lab
+	======================
+	Jason Glazer wrote:
+
+	> Along with weather, three other areas related to building
+	> simulation that make sense to have an XML format for are:
+	>
+	> a) Equipment performance specifications - nominal and part
+	> load and temperature correction curves,
+	>
+	> b) Utility rate models - block charges, time of use rates,
+	> and applicablity, and
+	>
+	> c) Materials/constructions descriptions for opaque and
+	> transparent building surfaces.
+	>
+	> These could be integrated into an overall "enerXML" but
+	> since they could also benefit other types of software they
+	> may be best being independent schemas.
+	>
+	> Jason
+	>
+	> On 26 Apr 2000, at 14:32, Larry Degelman wrote:
+	>
+	> > Has any XML format been established yet for weather data
+	> > used for energy simulation software?  We've got several
+	> > weather data formats out there, and it would be convenient
+	> > if these formats were made neutral by embedding the
+	> > self-describing variables and data formats right in the
+	> > file.  This seems like it would be the easiest to accomplish
+	> > and the most readily used database.
+	> >
+	> > If not much has been done on this, I would be glad to work
+	> > on it this summer.  What rules and guidelines are available
+	> > for developing XML schemas?
+	> >
+	> > Larry D
+	> >
+	> > ************************************************************
+	> > **************** * Larry O. Degelman, P.E., Professor
+	> > e-mail: larry at taz.tamu.edu Department of Architecture
+	> >           Phone: +1-979-845-1891 Texas A&M University
+	> >                  Fax:    +1-979-862-1571 College Station, TX
+	> > 77843-3137 Download ENER-WIN at:
+	> > http://taz.tamu.edu/~energy/enerwin.html
+	> > ************************************************************
+	> > **************** **
+	> >
+	> >
+	> > ----- Original Message -----
+	> > From: "Gowri, Krishnan" <krishnan.gowri at pnl.gov>
+	> > To: <BLDG-SIM at gard.com>
+	> > Sent: Wednesday, April 26, 2000 1:28 PM
+	> > Subject: [BLDG-SIM] EnerXML - A Schema for Energy Simulation
+	> > Data Exchange
+	> >
+	> >
+	> > >
+	> > > I would like to propose the development of an XML schema
+	> > > for marking up
+	> > Energy
+	> > > simulation data files that can be easily transferred
+	> > > between simulation
+	> > software
+	> > > and other applications.  For those unfamiliar with XML,
+	> > > data files in XML
+	> > are
+	> > > simply ASCII files containing tags that make the data
+	> > > self-describing, if
+	> > the
+	> > > schema definitions are standardized and understandable.
+	> > >
+	> > > If you are an energy software developer and interested in
+	> > > supporting or participating in the schema development
+	> > > effort, please let me know. At present, this is a
+	> > > voluntary effort aimed at interoperable and neutral
+	> > data
+	> > > representation for building energy software data.
+	> > >
+	> > > Krishnan Gowri, Ph.D., PE
+	> > > Pacific Northwest National Lab.
+	> > >
+	>
+	> =========================================================
+	> Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+	> GARD Analytics - http://www.gard.com/
+	> Building Energy Simulation and Analysis
+	> List Administrator & 90.1 Consultant
+	>
+	> ======================================================
+	> You received this e-mail because you are subscribed
+	> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+	> from this mailing list send a blank message to
+	> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+	======================================================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM << File: RJHitchcock.vcf >> 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From krishnan.gowri at pnl.gov  Wed Apr 26 15:08:55 2000
+From: krishnan.gowri at pnl.gov (Gowri, Krishnan)
+Date: Wed, 26 Apr 2000 15:08:55 -0700
+Subject: [BLDG-SIM] EnerXML - A Schema for Energy Simulation Data Exch	ange
+Message-ID: <MDAEMON-F200004261710.AA101717MD30799@gard.com>
+
+I expect the EnerXML initiative to build consensus on the tag terminology to
+standardize schema definitions.  It will be consistent with the IAI/IFC model
+and build off of any published domain extensions or XML schemas available.  I
+have made an IAI/aecXML working group proposal to the Design/Spec group to
+include energy simulation data.  My focus currently is the representation of
+thermal properties data for envelope materials and assemblies.  If you are
+already using schemas or have suggestions for parts of  schemas, please let me
+know and I will incorporate them and make it available through aecXML
+submissions and BizTalk/OASIS servers.
+
+- krishnan
+
+	-----Original Message-----
+	From:	Rob Hitchcock [SMTP:RJHitchcock at lbl.gov]
+	Sent:	Wednesday, April 26, 2000 1:23 PM
+	To:	BLDG-SIM at gard.com
+	Subject:	[BLDG-SIM] EnerXML - A Schema for Energy Simulation Data
+Exchange
+
+	I agree that library/catalog performance specs for building
+	components like equipment and materials makes a lot of sense.
+	This would support e-commerce applications, and the ability to
+	search the web for component data that could be directly imported
+	into energy simulation models.
+
+	I feel that this work should be coordinated with the aecXML effort
+	underway within the International Alliance for Interoperability
+	(IAI).  See http://www.aecxml.org/index2.htm for more
+	information.  We are on the verge of achieving some level of
+	software interoperability with the IFC data model being developed
+	by the IAI.  It would be a shame to develop an XML schema that did
+	not build on this work.
+
+	Rob Hitchcock
+	Lawrence Berkeley National Lab
+	======================
+	Jason Glazer wrote:
+
+	> Along with weather, three other areas related to building
+	> simulation that make sense to have an XML format for are:
+	>
+	> a) Equipment performance specifications - nominal and part
+	> load and temperature correction curves,
+	>
+	> b) Utility rate models - block charges, time of use rates,
+	> and applicablity, and
+	>
+	> c) Materials/constructions descriptions for opaque and
+	> transparent building surfaces.
+	>
+	> These could be integrated into an overall "enerXML" but
+	> since they could also benefit other types of software they
+	> may be best being independent schemas.
+	>
+	> Jason
+	>
+	> On 26 Apr 2000, at 14:32, Larry Degelman wrote:
+	>
+	> > Has any XML format been established yet for weather data
+	> > used for energy simulation software?  We've got several
+	> > weather data formats out there, and it would be convenient
+	> > if these formats were made neutral by embedding the
+	> > self-describing variables and data formats right in the
+	> > file.  This seems like it would be the easiest to accomplish
+	> > and the most readily used database.
+	> >
+	> > If not much has been done on this, I would be glad to work
+	> > on it this summer.  What rules and guidelines are available
+	> > for developing XML schemas?
+	> >
+	> > Larry D
+	> >
+	> > ************************************************************
+	> > **************** * Larry O. Degelman, P.E., Professor
+	> > e-mail: larry at taz.tamu.edu Department of Architecture
+	> >           Phone: +1-979-845-1891 Texas A&M University
+	> >                  Fax:    +1-979-862-1571 College Station, TX
+	> > 77843-3137 Download ENER-WIN at:
+	> > http://taz.tamu.edu/~energy/enerwin.html
+	> > ************************************************************
+	> > **************** **
+	> >
+	> >
+	> > ----- Original Message -----
+	> > From: "Gowri, Krishnan" <krishnan.gowri at pnl.gov>
+	> > To: <BLDG-SIM at gard.com>
+	> > Sent: Wednesday, April 26, 2000 1:28 PM
+	> > Subject: [BLDG-SIM] EnerXML - A Schema for Energy Simulation
+	> > Data Exchange
+	> >
+	> >
+	> > >
+	> > > I would like to propose the development of an XML schema
+	> > > for marking up
+	> > Energy
+	> > > simulation data files that can be easily transferred
+	> > > between simulation
+	> > software
+	> > > and other applications.  For those unfamiliar with XML,
+	> > > data files in XML
+	> > are
+	> > > simply ASCII files containing tags that make the data
+	> > > self-describing, if
+	> > the
+	> > > schema definitions are standardized and understandable.
+	> > >
+	> > > If you are an energy software developer and interested in
+	> > > supporting or participating in the schema development
+	> > > effort, please let me know. At present, this is a
+	> > > voluntary effort aimed at interoperable and neutral
+	> > data
+	> > > representation for building energy software data.
+	> > >
+	> > > Krishnan Gowri, Ph.D., PE
+	> > > Pacific Northwest National Lab.
+	> > >
+	>
+	> =========================================================
+	> Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+	> GARD Analytics - http://www.gard.com/
+	> Building Energy Simulation and Analysis
+	> List Administrator & 90.1 Consultant
+	>
+	> ======================================================
+	> You received this e-mail because you are subscribed
+	> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+	> from this mailing list send a blank message to
+	> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+	======================================================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM << File: RJHitchcock.vcf >> 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From RJHitchcock at lbl.gov  Wed Apr 26 13:23:27 2000
+From: RJHitchcock at lbl.gov (Rob Hitchcock)
+Date: Wed, 26 Apr 2000 16:23:27 -0400
+Subject: [BLDG-SIM] EnerXML - A Schema for Energy Simulation Data Exchange
+References: <MDAEMON-F200004261432.AA320139MD18394@gard.com>
+Message-ID: <MDAEMON-F200004261515.AA154195MD30753@gard.com>
+
+I agree that library/catalog performance specs for building
+components like equipment and materials makes a lot of sense.
+This would support e-commerce applications, and the ability to
+search the web for component data that could be directly imported
+into energy simulation models.
+
+I feel that this work should be coordinated with the aecXML effort
+underway within the International Alliance for Interoperability
+(IAI).  See http://www.aecxml.org/index2.htm for more
+information.  We are on the verge of achieving some level of
+software interoperability with the IFC data model being developed
+by the IAI.  It would be a shame to develop an XML schema that did
+not build on this work.
+
+Rob Hitchcock
+Lawrence Berkeley National Lab
+======================
+Jason Glazer wrote:
+
+> Along with weather, three other areas related to building
+> simulation that make sense to have an XML format for are:
+>
+> a) Equipment performance specifications - nominal and part
+> load and temperature correction curves,
+>
+> b) Utility rate models - block charges, time of use rates,
+> and applicablity, and
+>
+> c) Materials/constructions descriptions for opaque and
+> transparent building surfaces.
+>
+> These could be integrated into an overall "enerXML" but
+> since they could also benefit other types of software they
+> may be best being independent schemas.
+>
+> Jason
+>
+> On 26 Apr 2000, at 14:32, Larry Degelman wrote:
+>
+> > Has any XML format been established yet for weather data
+> > used for energy simulation software?  We've got several
+> > weather data formats out there, and it would be convenient
+> > if these formats were made neutral by embedding the
+> > self-describing variables and data formats right in the
+> > file.  This seems like it would be the easiest to accomplish
+> > and the most readily used database.
+> >
+> > If not much has been done on this, I would be glad to work
+> > on it this summer.  What rules and guidelines are available
+> > for developing XML schemas?
+> >
+> > Larry D
+> >
+> > ************************************************************
+> > **************** * Larry O. Degelman, P.E., Professor
+> > e-mail: larry at taz.tamu.edu Department of Architecture
+> >           Phone: +1-979-845-1891 Texas A&M University
+> >                  Fax:    +1-979-862-1571 College Station, TX
+> > 77843-3137 Download ENER-WIN at:
+> > http://taz.tamu.edu/~energy/enerwin.html
+> > ************************************************************
+> > **************** **
+> >
+> >
+> > ----- Original Message -----
+> > From: "Gowri, Krishnan" <krishnan.gowri at pnl.gov>
+> > To: <BLDG-SIM at gard.com>
+> > Sent: Wednesday, April 26, 2000 1:28 PM
+> > Subject: [BLDG-SIM] EnerXML - A Schema for Energy Simulation
+> > Data Exchange
+> >
+> >
+> > >
+> > > I would like to propose the development of an XML schema
+> > > for marking up
+> > Energy
+> > > simulation data files that can be easily transferred
+> > > between simulation
+> > software
+> > > and other applications.  For those unfamiliar with XML,
+> > > data files in XML
+> > are
+> > > simply ASCII files containing tags that make the data
+> > > self-describing, if
+> > the
+> > > schema definitions are standardized and understandable.
+> > >
+> > > If you are an energy software developer and interested in
+> > > supporting or participating in the schema development
+> > > effort, please let me know. At present, this is a
+> > > voluntary effort aimed at interoperable and neutral
+> > data
+> > > representation for building energy software data.
+> > >
+> > > Krishnan Gowri, Ph.D., PE
+> > > Pacific Northwest National Lab.
+> > >
+>
+> =========================================================
+> Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+> GARD Analytics - http://www.gard.com/
+> Building Energy Simulation and Analysis
+> List Administrator & 90.1 Consultant
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: RJHitchcock.vcf
+Type: text/x-vcard
+Size: 670 bytes
+Desc: Card for Rob Hitchcock
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20000426/f29feb6d/attachment.vcf>
+
+From jfk at geopraxis.com  Wed Apr 26 12:56:16 2000
+From: jfk at geopraxis.com (John Kennedy)
+Date: Wed, 26 Apr 2000 12:56:16 -0700
+Subject: [BLDG-SIM] EnerXML - A Schema for Energy Simulation Data Exchange
+In-Reply-To: <MDAEMON-F200004261317.AA174973MD17670@gard.com>
+Message-ID: <MDAEMON-F200004261445.AA455951MD30707@gard.com>
+
+Krishnan,
+
+GeoPraxis has been working on an XML schema that is based on the aecXML
+(http://www.aecxml.org/) schema for our California Energy Commission (CEC)
+project. We are 80% complete with its development and are currently testing
+it with DOE-2.2. We will be publishing this schema in the later part of May.
+
+Through our CEC project (http://www.geopraxis.com/cec.htm) we are developing
+a software module that will work with any 3D-CAD application that supports
+the XML schema we develop. This software module will conduct DOE-2.2
+simulations of the 3D-CAD building model a user has entered. The first
+3D-CAD application to support our schema will be DesignWorkshop developed by
+Artifice, Inc (http://www.artifice.com/).
+
+We would welcome the opportunity to work with you Krishnan and look forward
+to hearing from you.
+
+Sincerely,
+John F. Kennedy
+Principal, Mechanical Engineer, PE
+
+GeoPraxis, Inc.
+www.geopraxis.com
+707.996.9408
+
+-----Original Message-----
+From: Postman at gard.com [mailto:Postman at gard.com]On Behalf Of Gowri,
+Krishnan
+Sent: Wednesday, April 26, 2000 11:28 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] EnerXML - A Schema for Energy Simulation Data
+Exchange
+
+
+
+I would like to propose the development of an XML schema for marking up
+Energy
+simulation data files that can be easily transferred between simulation
+software
+and other applications.  For those unfamiliar with XML, data files in XML
+are
+simply ASCII files containing tags that make the data self-describing, if
+the
+schema definitions are standardized and understandable.
+
+If you are an energy software developer and interested in supporting or
+participating in the schema development effort, please let me know.
+At present, this is a voluntary effort aimed at interoperable and neutral
+data
+representation for building energy software data.
+
+Krishnan Gowri, Ph.D., PE
+Pacific Northwest National Lab.
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Wed Apr 26 12:43:41 2000
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 26 Apr 2000 14:43:41 -0500
+Subject: [BLDG-SIM] EnerXML - A Schema for Energy Simulation Data Exchange
+In-Reply-To: <MDAEMON-F200004261421.AA210942MD30675@gard.com>
+Message-ID: <MDAEMON-F200004261431.AA315326MD30695@gard.com>
+
+Along with weather, three other areas related to building 
+simulation that make sense to have an XML format for are:
+
+a) Equipment performance specifications - nominal and part 
+load and temperature correction curves, 
+
+b) Utility rate models - block charges, time of use rates, 
+and applicablity, and
+
+c) Materials/constructions descriptions for opaque and 
+transparent building surfaces.
+
+These could be integrated into an overall "enerXML" but 
+since they could also benefit other types of software they 
+may be best being independent schemas.
+
+Jason
+
+On 26 Apr 2000, at 14:32, Larry Degelman wrote:
+
+> Has any XML format been established yet for weather data
+> used for energy simulation software?  We've got several
+> weather data formats out there, and it would be convenient
+> if these formats were made neutral by embedding the
+> self-describing variables and data formats right in the
+> file.  This seems like it would be the easiest to accomplish
+> and the most readily used database.
+> 
+> If not much has been done on this, I would be glad to work
+> on it this summer.  What rules and guidelines are available
+> for developing XML schemas?
+> 
+> Larry D
+> 
+> ************************************************************
+> **************** * Larry O. Degelman, P.E., Professor    
+> e-mail: larry at taz.tamu.edu Department of Architecture       
+>           Phone: +1-979-845-1891 Texas A&M University       
+>                  Fax:    +1-979-862-1571 College Station, TX
+> 77843-3137 Download ENER-WIN at:
+> http://taz.tamu.edu/~energy/enerwin.html
+> ************************************************************
+> **************** **
+> 
+> 
+> ----- Original Message -----
+> From: "Gowri, Krishnan" <krishnan.gowri at pnl.gov>
+> To: <BLDG-SIM at gard.com>
+> Sent: Wednesday, April 26, 2000 1:28 PM
+> Subject: [BLDG-SIM] EnerXML - A Schema for Energy Simulation
+> Data Exchange
+> 
+> 
+> >
+> > I would like to propose the development of an XML schema
+> > for marking up
+> Energy
+> > simulation data files that can be easily transferred
+> > between simulation
+> software
+> > and other applications.  For those unfamiliar with XML,
+> > data files in XML
+> are
+> > simply ASCII files containing tags that make the data
+> > self-describing, if
+> the
+> > schema definitions are standardized and understandable.
+> >
+> > If you are an energy software developer and interested in
+> > supporting or participating in the schema development
+> > effort, please let me know. At present, this is a
+> > voluntary effort aimed at interoperable and neutral
+> data
+> > representation for building energy software data.
+> >
+> > Krishnan Gowri, Ph.D., PE
+> > Pacific Northwest National Lab.
+> >
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From larry at archone.tamu.edu  Wed Apr 26 12:32:22 2000
+From: larry at archone.tamu.edu (Larry Degelman)
+Date: Wed, 26 Apr 2000 14:32:22 -0500
+Subject: [BLDG-SIM] EnerXML - A Schema for Energy Simulation Data Exchange
+References: <MDAEMON-F200004261317.AA175264MD17705@gard.com>
+Message-ID: <MDAEMON-F200004261421.AA210942MD30675@gard.com>
+
+Has any XML format been established yet for weather data used for energy
+simulation software?  We've got several weather data formats out there, and
+it would be convenient if these formats were made neutral by embedding the
+self-describing variables and data formats right in the file.  This seems
+like it would be the easiest to accomplish and the most readily used
+database.
+
+If not much has been done on this, I would be glad to work on it this
+summer.  What rules and guidelines are available for developing XML schemas?
+
+Larry D
+
+****************************************************************************
+*
+Larry O. Degelman, P.E., Professor     e-mail: larry at taz.tamu.edu
+Department of Architecture                  Phone: +1-979-845-1891
+Texas A&M University                         Fax:    +1-979-862-1571
+College Station, TX 77843-3137
+Download ENER-WIN at: http://taz.tamu.edu/~energy/enerwin.html
+****************************************************************************
+**
+
+
+----- Original Message -----
+From: "Gowri, Krishnan" <krishnan.gowri at pnl.gov>
+To: <BLDG-SIM at gard.com>
+Sent: Wednesday, April 26, 2000 1:28 PM
+Subject: [BLDG-SIM] EnerXML - A Schema for Energy Simulation Data Exchange
+
+
+>
+> I would like to propose the development of an XML schema for marking up
+Energy
+> simulation data files that can be easily transferred between simulation
+software
+> and other applications.  For those unfamiliar with XML, data files in XML
+are
+> simply ASCII files containing tags that make the data self-describing, if
+the
+> schema definitions are standardized and understandable.
+>
+> If you are an energy software developer and interested in supporting or
+> participating in the schema development effort, please let me know.
+> At present, this is a voluntary effort aimed at interoperable and neutral
+data
+> representation for building energy software data.
+>
+> Krishnan Gowri, Ph.D., PE
+> Pacific Northwest National Lab.
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From krishnan.gowri at pnl.gov  Wed Apr 26 11:28:25 2000
+From: krishnan.gowri at pnl.gov (Gowri, Krishnan)
+Date: Wed, 26 Apr 2000 11:28:25 -0700
+Subject: [BLDG-SIM] EnerXML - A Schema for Energy Simulation Data Exchange
+Message-ID: <MDAEMON-F200004261317.AA174978MD30637@gard.com>
+
+
+I would like to propose the development of an XML schema for marking up Energy
+simulation data files that can be easily transferred between simulation software
+and other applications.  For those unfamiliar with XML, data files in XML are
+simply ASCII files containing tags that make the data self-describing, if the
+schema definitions are standardized and understandable.
+
+If you are an energy software developer and interested in supporting or
+participating in the schema development effort, please let me know.  
+At present, this is a voluntary effort aimed at interoperable and neutral data
+representation for building energy software data.
+
+Krishnan Gowri, Ph.D., PE
+Pacific Northwest National Lab.
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From astevens at dmiinc.com  Mon Apr 24 07:14:40 2000
+From: astevens at dmiinc.com (Alec Stevens)
+Date: Mon, 24 Apr 2000 10:14:40 -0400
+Subject: [BLDG-SIM] answer -  refrigeration / PowerDOE
+Message-ID: <MDAEMON-F200004240904.AA042623MD29972@gard.com>
+
+Here is the response, posted by request.
+
+Thanks to Jeff Hirsch for the answer.
+
+----- Original Message -----
+From: Jeff Hirsch <Jeff.Hirsch at DOE2.com>
+To: <astevens at dmiinc.com>
+Sent: Friday, April 21, 2000 3:16 PM
+Subject: Re: [BLDG-SIM] refrigeration / PowerDOE
+
+
+> see below ...
+>
+> ---
+> Jeff Hirsch
+> James J. Hirsch & Associates
+> Building Performance Analysis Software & Consulting
+> 12185 Presilla Road
+> Camarillo, CA 93012-9243 USA
+> phone: (805) 553-9000
+> fax: (805) 532-2401
+> email: Jeff.Hirsch at DOE2.com
+> web: http://DOE2.com
+>
+>
+> ----- Original Message -----
+> From: "Alec Stevens" <astevens at dmiinc.com>
+> To: <BLDG-SIM at gard.com>
+> Sent: Friday, April 21, 2000 11:26 AM
+> Subject: [BLDG-SIM] refrigeration / PowerDOE
+>
+>
+> > Hello,
+> > I have a specific question regarding the Compressor kW= f(condensing
+temp)
+> > curve fit for modeling refrigeration in PowerDOE.  This curve fit
+returns a
+> > factor from about .5 to 1.25 in the provided default curve
+> > "Refg-kW-fECT-T1."
+> >
+> > I am making my own curve based on published data for the compressors
+that
+> > are in place at the store I am modeling.
+> >
+> > 1) Does the factor returned by this curve fit only apply to compressor
+input
+> > kW?  If so, how is the effect of compressor capacity as a function of
+> > condensing temperature taken into account?   I think that it would make
+more
+> > sense if this factor was applied to EER.  Is that the case?
+>
+> The hourly compressor input power is calculated using
+>  design capacity * design btu/wat * f(Tcond) * f(PLR)
+> so the effect of part load and condensing temp is explicity
+> taken into account through the two CURVE-FIT commands.
+> The EER is modified but throught these two "normalized"
+> curve-fit commands to make the formulation more general
+> and flexible.
+>
+> > 2) In the default curve, the factor is 1.00 at about 100 F condensing
+> > temperature.  Should you always normalize your curve to 100 F, or should
+you
+> > set it equal to 1.00 at some other temperature based on the store
+> > conditions, or at the same temperature that you calculated your EER?
+>
+> You can normalize the cures to anything, but all must be normalized to the
+> same values and those are the values for which the design capacity and
+> BTU/watt values are also specified.  This is just like the HVAC input
+> values in DOE-2/PowerDOE/eQUEST.
+>
+> > Thanks for your help.
+> >
+> > Sincerely,
+> >
+> > Alec Stevens
+> > DMI
+> > 617-527-1525x105
+> >
+> >
+> > ======================================================
+> > You received this e-mail because you are subscribed
+> > to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> > from this mailing list send a blank message to
+> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> >
+>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From astevens at dmiinc.com  Fri Apr 21 11:26:35 2000
+From: astevens at dmiinc.com (Alec Stevens)
+Date: Fri, 21 Apr 2000 14:26:35 -0400
+Subject: [BLDG-SIM] refrigeration / PowerDOE
+Message-ID: <MDAEMON-F200004211328.AA283485MD29660@gard.com>
+
+Hello,
+I have a specific question regarding the Compressor kW= f(condensing temp)
+curve fit for modeling refrigeration in PowerDOE.  This curve fit returns a
+factor from about .5 to 1.25 in the provided default curve
+"Refg-kW-fECT-T1."
+
+I am making my own curve based on published data for the compressors that
+are in place at the store I am modeling.
+
+1) Does the factor returned by this curve fit only apply to compressor input
+kW?  If so, how is the effect of compressor capacity as a function of
+condensing temperature taken into account?   I think that it would make more
+sense if this factor was applied to EER.  Is that the case?
+
+2) In the default curve, the factor is 1.00 at about 100 F condensing
+temperature.  Should you always normalize your curve to 100 F, or should you
+set it equal to 1.00 at some other temperature based on the store
+conditions, or at the same temperature that you calculated your EER?
+
+Thanks for your help.
+
+Sincerely,
+
+Alec Stevens
+DMI
+617-527-1525x105
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From deblombard at swinter.com  Thu Apr 20 10:49:20 2000
+From: deblombard at swinter.com (Debra A. Lombard)
+Date: Thu, 20 Apr 2000 13:49:20 -0400
+Subject: [BLDG-SIM] IT'S STILL NOT TOO LATE - Online Survey for A/E/C Professionals
+Message-ID: <MDAEMON-F200004201241.AA411090MD29371@gard.com>
+
+Hello!
+
+I would like to personally thank all of you who participated in our
+Professional Information Needs Survey.  You have given us some great
+input which has brought to light some interesting and important
+information about how A/E/C professionals access needed information.  We
+will soon begin to compile the results for a final report. Again, the
+goal of this survey is to analyze the changing roles of A/E/C
+professionals and their access to technical information using current
+technologies.
+
+SWA will be holding a "drawing" from all survey respondents for a free
+copy of The Passive Solar Design and Construction Handbook by Steven
+Winter Associates, John Wiley & Sons, 1998.
+
+If anyone else is interested in participating in our short survey , it
+is not too late!  Please do so at your convenience by accessing the
+survey at: www.swinter.com/survey .
+
+Should you wish to do this survey over the phone or by fax, please
+contact me directly. Thank you all for your assistance with this survey.
+
+Sincerely,
+Debra Lombard, Engineer
+Steven Winter Associates
+50 Washington St.
+Norwalk, CT 06854
+Tel: 203-857-0200 x 275
+Fax: 203-852-0741
+www.swinter.com
+deblombard at swinter.com
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20000420/018776d6/attachment.htm>
+
+From bseaton at ASHRAE.org  Fri Apr 14 08:13:05 2000
+From: bseaton at ASHRAE.org (Seaton, Bill)
+Date: Fri, 14 Apr 2000 11:13:05 -0400
+Subject: [BLDG-SIM] CORRECTION
+Message-ID: <MDAEMON-F200004141001.AA014515MD27730@gard.com>
+
+
+I just noticed that one RFP was inadvertently omitted from the ASHRAE web
+site when the others were posted.  Project 1187-TRP "Water Migration into
+Below Ambient Pipe Insulation Systems; Causes and Effects" is now available
+to anyone with an interest in this subject.
+
+Bill Seaton
+
+William W. Seaton              bseaton at ashrae.org
+Manager of Research            Ph.  404-636-8400
+ASHRAE, Inc.
+1791 Tullie Circle             Fax  404-321-5478
+Atlanta, GA 30329
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bseaton at ASHRAE.org  Mon Apr 10 08:06:51 2000
+From: bseaton at ASHRAE.org (Seaton, Bill)
+Date: Mon, 10 Apr 2000 11:06:51 -0400
+Subject: [BLDG-SIM] ADDITIONAL TEN PROJECTS ADDED
+Message-ID: <MDAEMON-F200004100955.AA553378MD26408@gard.com>
+
+
+To:  Potential Bidders
+
+ASHRAE is pleased to announce that a total of 17 new requests-for-proposal
+have been posted on their Home Page (www.ashrae.org).  These RFPs may be
+read and downloaded by clicking on "Research" and then "Research Projects
+Ready to Bid".
+
+Please forward this information to any other interested parties.  Others may
+be added to this announcement list by contacting me at the address below.
+
+
+Bill Seaton
+
+
+William W. Seaton              bseaton at ashrae.org
+Manager of Research            Ph.  404-636-8400
+ASHRAE, Inc.
+1791 Tullie Circle              Fax  404-321-5478
+Atlanta, GA 30329
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Mon Apr 10 07:10:03 2000
+From: jglazer at gard.com (Jason Glazer)
+Date: Mon, 10 Apr 2000 09:10:03 -0500
+Subject: [BLDG-SIM] Input Sought on Draft Standard 140P
+Message-ID: <MDAEMON-F200004100858.AA584093MD26375@gard.com>
+
+Recently, a draft of Standard 140P was made available for 
+public review.  The title, purpose and scope of 140P is:
+
+Title:
+
+BSR/ASHRAE Standard 140P, Standard Method of Test for the 
+Evaluation of Building Energy Analysis Computer Programs.  
+
+Purpose:
+
+This standard specifies test procedures for evaluating the 
+technical capabilities and ranges of applicability of 
+computer programs that calculate the thermal performance of 
+buildings and their HVAC systems.  
+
+Scope:
+
+These standard test procedures apply to building energy 
+computer programs that calculate the thermal performance of 
+a building and its mechanical systems. While these standard 
+test procedures cannot test all algorithms within a 
+building energy computer program, they can be used to 
+indicate major flaws or limitations in capabilities.  
+
+The public review period is from April 8 to June 6.  See 
+ASHRAE's web site for a draft copy and the procedure to 
+submit comments to ASHRAE:
+
+http://www.ashrae.org/STANDARDS/pubrev140p.htm
+
+Lets provide a good constructive review of a standard that 
+is needed by the building energy simulation industry.
+
+Jason
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From deblombard at swinter.com  Fri Apr  7 10:15:19 2000
+From: deblombard at swinter.com (Debra A. Lombard)
+Date: Fri, 07 Apr 2000 13:15:19 -0400
+Subject: [BLDG-SIM] Online Survey for A/E/C Professionals
+Message-ID: <MDAEMON-F200004071207.AA073401MD25968@gard.com>
+
+Hello!
+
+Steven Winter Associates is performing a Market Research Study for a
+large publishing company. The publisher puts out an enormous number of
+publications for the A/E/C industry. We need input from the following
+categories: Architects, Engineers, Interior Designers, Contractors,
+Project Managers, Construction Managers, Facility Managers,
+and Landscape Architects.
+
+The goal of the study is to analyze the changing roles of A/E/C
+professionals and their access to technical information using current
+technologies. Please take a look at the survey online at:
+www.swinter.com/survey/survey.html . SWA will be holding a "drawing"
+from all survey respondents for a free copy of The Passive Solar Design
+and Construction Handbook by Steven Winter Associates, John Wiley &
+Sons, 1998.
+
+Should you wish to do this survey over the phone or by fax, please
+contact me directly. Thank you all for your assistance with this survey.
+
+Sincerely,
+Debra Lombard, Engineer
+Steven Winter Associates
+50 Washington St.
+Norwalk, CT 06854
+Tel: 203-857-0200 x 275
+Fax: 203-852-0741
+www.swinter.com
+deblombard at swinter.com
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20000407/d290621f/attachment.htm>
+
+From fporter at archenergy.com  Thu Apr  6 09:51:15 2000
+From: fporter at archenergy.com (Fred Porter)
+Date: Thu, 06 Apr 2000 10:51:15 -0600
+Subject: [BLDG-SIM] supply air temp. reset in PowerDOE
+References: <MDAEMON-F200004061045.AA455170MD13057@gard.com>
+Message-ID: <MDAEMON-F200004061145.AA451137MD25593@gard.com>
+
+I think the "easy" way is to spec a constant 48F SAT, and use the
+COOLING-SCHEDULE in the system or syscontrol to refer to a schedule
+with a value of 65F, thus turning off the coil in the modeled AHU,
+below that temp. But check the SAT with the hourly report before you
+take my word for it.
+
+Alec Stevens wrote:
+
+> I am trying to model the following sequence of supply air
+> temperature vs. outside air drybulb temp. in PowerDOE. 1) Drybulb
+> above 65F -> Supply temp fixed at 48 F with mechanical cooling2)
+> Drybulb between 48 and 65 F -> 100% OA, no cooling, so supply temp
+> varies between 48-65 (not including fan delta T, etc)3) Drybulb
+> below 48 F -> Supply temp fixed at 48 F with economizer cooling
+> only, OA dampers modulate to provide correct supply temp. The 65F
+> setpoint may be lowered if room temps get too high. I have been able
+> to specify reset control of the supply temperature, but I think that
+> this strategy will require at least two reset schedules, or a
+> combination of reset and correct specs in the OA economizer
+> section. Any ideas? Thanks.
+> Sincerely, Alec Stevens
+> DMI
+> 617-527-1525x105
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+--
+Fred W. Porter
+Senior Engineer
+Architectural Energy Corp.
+2540 Frontier Ave. Suite 201
+Boulder CO 80301
+email: fporter at archenergy.com
+phone: 303-444-4149
+fax: 303-444-4304
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From astevens at dmiinc.com  Wed Apr  5 13:34:50 2000
+From: astevens at dmiinc.com (Alec Stevens)
+Date: Wed, 5 Apr 2000 16:34:50 -0400
+Subject: [BLDG-SIM] supply air temp. reset in PowerDOE
+Message-ID: <MDAEMON-F200004061045.AA455557MD25565@gard.com>
+
+I am trying to model the following sequence of supply air temperature vs. outside air drybulb temp. in PowerDOE.
+
+1) Drybulb above 65F -> Supply temp fixed at 48 F with mechanical cooling
+2) Drybulb between 48 and 65 F -> 100% OA, no cooling, so supply temp varies between 48-65 (not including fan delta T, etc)
+3) Drybulb below 48 F -> Supply temp fixed at 48 F with economizer cooling only, OA dampers modulate to provide correct supply temp.
+
+The 65F setpoint may be lowered if room temps get too high.
+
+I have been able to specify reset control of the supply temperature, but I think that this strategy will require at least two reset schedules, or a combination of reset and correct specs in the OA economizer section.
+
+Any ideas?
+
+Thanks.
+
+Sincerely,
+
+Alec Stevens
+DMI
+617-527-1525x105
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20000405/50d8b149/attachment.htm>
+

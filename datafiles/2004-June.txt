@@ -1,0 +1,2569 @@
+From sowell at fullerton.edu  Wed Jun 30 09:29:14 2004
+From: sowell at fullerton.edu (Edward F. Sowell)
+Date: Wed, 30 Jun 2004 09:29:14 -0700
+Subject: [BLDG-SIM] daylight in fully-glazed buildings
+In-Reply-To: <MDAEMON-F200406290338.AA3859281pd80000235945@gard.com>
+Message-ID: <MDAEMON-F200406301130.AA3059734pd80000242686@gard.com>
+
+Raquel,
+
+I recall having studied the issue in a graduate class in the late
+60s early 70s. This was not a thorough study, just a classroom exercise.
+As I recall, our reference was an article in a British lighting book
+or journal, and the name Petherbridge comes to mind. This was well before
+the "simulation era."
+The problem has also been studied more recently. I vaguely recall an
+ASHRAE research project (perhaps TC4.7) that addressed it.
+
+So, I advise a little literature research work.  I just did a Google
+ on "Pertherbridge lighting" (w/the quotes) and got a bunch of hits....
+
+Good luck
+
+Ed Sowell
+
+
+
+
+>
+> Hello
+> I'm interested in simulating the effects of inter-reflection of
+> fully-glazed
+> buildings and analyse the consequences of the reflectivity of neighbouring
+> glazed buildings in the daylight levels inside other buildings.
+> Does anyone
+> came across this problem before, have knowledge on this phenomenon or is
+> aware of any literature on this matter? I would be glad to hear
+> if anyone as
+> an insight on the physics of this. Ideally, I would like to find a set of
+> real measurements that I could use as a reference case for my simulation
+> study.
+> Thank you
+> Raquel
+>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Christoph.Reinhart at nrc-cnrc.gc.ca  Tue Jun 29 05:02:55 2004
+From: Christoph.Reinhart at nrc-cnrc.gc.ca (Reinhart, Christoph)
+Date: Tue, 29 Jun 2004 08:02:55 -0400
+Subject: [BLDG-SIM] daylight in fully-glazed buildings
+Message-ID: <MDAEMON-F200406290704.AA0456359pd80000240571@gard.com>
+
+Hi Raquel,
+
+The following paper might be a good starting point. 
+
+Issac Guedi Capeluto, "The influence of the urban environment on the
+availability of daylighting in office buildings in Israel", Building and
+Environment 38 (2003) 745 -752.
+
+For your simulations you need to use Radiance as you want to investigate
+specular reflectances from neighboring buildings. 
+
+Instead of using the "standard" Radiance i.e. considering only one sky
+condition at a time, you might further consider to use a "dynamic"
+Radiance-based method such as Daysim or Adeline. 
+
+Christoph
+
+Christoph Reinhart, Ph.D.                        tel: (613) 993-9703 
+Research Officer                                 fax: (613) 954-3733 
+Institute for Research in Construction           e-mail:
+christoph.reinhart at nrc-cnrc.gc.ca 
+National Research Council Canada                 1200 Montreal Road M-24,
+Ottawa 
+Ontario K1A 0R6 Canada 
+Daylighting Analysis Software: 
+The Lightswitch Wizard (initial design)   www.buildwiz.com 
+DAYSIM (expert software)                  www.daysim.com 
+
+IEA Task 31                               http://www.iea-shc.org/task31/ 
+ 
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Raquel
+Viula
+Sent: Tuesday, June 29, 2004 4:34 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] daylight in fully-glazed buildings
+
+
+Hello
+I'm interested in simulating the effects of inter-reflection of fully-glazed
+buildings and analyse the consequences of the reflectivity of neighbouring
+glazed buildings in the daylight levels inside other buildings. Does anyone
+came across this problem before, have knowledge on this phenomenon or is
+aware of any literature on this matter? I would be glad to hear if anyone as
+an insight on the physics of this. Ideally, I would like to find a set of
+real measurements that I could use as a reference case for my simulation
+study. 
+Thank you
+Raquel
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From rviula at FosterandPartners.com  Tue Jun 29 01:34:06 2004
+From: rviula at FosterandPartners.com (Raquel Viula)
+Date: Tue, 29 Jun 2004 09:34:06 +0100
+Subject: [BLDG-SIM] daylight in fully-glazed buildings
+Message-ID: <MDAEMON-F200406290338.AA3854890pd80000240315@gard.com>
+
+Hello
+I'm interested in simulating the effects of inter-reflection of fully-glazed
+buildings and analyse the consequences of the reflectivity of neighbouring
+glazed buildings in the daylight levels inside other buildings. Does anyone
+came across this problem before, have knowledge on this phenomenon or is
+aware of any literature on this matter? I would be glad to hear if anyone as
+an insight on the physics of this. Ideally, I would like to find a set of
+real measurements that I could use as a reference case for my simulation
+study. 
+Thank you
+Raquel
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From energysimulation2003 at yahoo.it  Mon Jun 28 06:21:41 2004
+From: energysimulation2003 at yahoo.it (Francesca Altavilla Barbara Vicari)
+Date: Mon, 28 Jun 2004 15:21:41 +0200
+Subject: [BLDG-SIM] standard energy consumption in Los Angeles
+References: <MDAEMON-F200406241614.AA1419156pd80000228537@gard.com>
+Message-ID: <MDAEMON-F200406280823.AA2318968pd80000238899@gard.com>
+
+Dear All,
+ we' re doing a research about simulation tools, now we've finished our simulation analysis but we would like to compare our results with a typical energy consumption data(kWh/m2 or kWh/m3) by end use. We are working on two types of case study : an office (3 floors, 1200m2, 90 people) and an detached house(2 floors, pitched roof,  220m2, 5 people) . Both of the examples have as installation a DX cooling with Gas furnace and they are located in Los Angeles.
+Can you please tell us if you have any stardard that can be useful for us to compare with our results?
+Thank you in advance for your disposability, we hope to hear from you soon.
+
+With kind regards,
+Francesca Altavilla and Barbara Vicari.
+
+francesca_altavilla at yahoo.com.au
+barbaravic78 at yahoo.com
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040628/d9cf9a51/attachment.htm>
+
+From Perry.Steiner at facilities.gatech.edu  Fri Jun 25 06:21:17 2004
+From: Perry.Steiner at facilities.gatech.edu (Steiner Perry)
+Date: Fri, 25 Jun 2004 09:21:17 -0400
+Subject: [BLDG-SIM] Certified Energy Engineer or Professional
+Message-ID: <MDAEMON-F200406250822.AA2253421pd80000234234@gard.com>
+
+The Institute for Sustainable Power, Inc. (ISP) does not certify energy engineers.  However, it does provide what may be important for those energy professionals who do not have an appropriate engineering degree.  ISP provides accreditation for energy conservation training programmes and certification of trainers.
+
+<http://www.ispq.org/index.html>  & <http://www.ispq.org/AccreditManual.PDF>
+
+Headquarters 
+P.O. Box 260145
+Highlands Ranch, CO 80163-0145 
+USA Tel: 303-683-4748 
+Fax: 303-470-8239 
+E-mail: markfitz at ispq.org <mailto:markfitz at ispq.org>
+ 
+ISPQ-Europe
+The Manor House, Chineham Court, Lutyens Close
+Chineham, Hampshire RG24 8AG, UK
+Tel: +44 (0)1256 392707
+Fax: +44(0)1256 392701
+E-mail: ispq-europe at dial.pipex.com <mailto:ispq-europe at dial.pipex.com>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~''
+Sincerely,
+
+Perry Steiner
+Utilities Analyst
+Georgia Institute of Technology
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Ahmed Fraij
+Sent: Monday, June 14, 2004 5:14 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Certified Energy Engineer or Professional
+Dear All,
+Do you know which organizations and/or associations can give certification for energy engineers or professionals? for instance: certified energy engineer or energy accredited professional particularly for engineers who work in energy management & conservation fields.
+Awaiting your reply
+Thanks & Best Regards
+Ahmad Fraij
+
+Do you Yahoo!?
+Friends. Fun. Try the all-new Yahoo! Messenger <http://messenger.yahoo.com/>
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mcase at etcgrp.com  Thu Jun 24 17:59:32 2004
+From: mcase at etcgrp.com (Mark Case)
+Date: Thu, 24 Jun 2004 18:59:32 -0600
+Subject: [BLDG-SIM] job opening
+Message-ID: <MDAEMON-F200406241958.AA5801968pd80000233400@gard.com>
+
+Job Opening:
+
+We need another Energy Engineer to help provide technical energy audits
+and analysis of commercial and industrial facilities. Engineering degree
+required. Experience with design and/or analysis of energy systems
+required.  Computer simulation, field monitoring, technical reporting
+experiences a plus.  We are looking for someone with 1-5 years
+experience who is a motivated self-starter interested in learning and
+pursuing what interests them.  We are not interested in employees just
+looking for a job. While strong technical skills are a must, we are most
+interested in someone who shares our values and commitment to superior
+service and to making the world a better place.   
+
+ 
+
+Our Company:
+
+etc Group, Inc. is dedicated to improving energy efficiency in
+commercial and industrial businesses and to reducing the impact of
+energy use on the environment through engineering, analysis, education,
+and advocacy. 
+
+ 
+
+Our Core Values:
+
+*	Providing superior client service, engineering and analysis.
+*	Our people are our most important asset.
+*	Providing an environment that is a friendly place to work,
+recognizes the balance between work and life and provides ample
+opportunity for personal growth and achievement.
+*	Maintaining our leadership in our industry.
+
+ We provide state-of-the-art technical analysis in support of energy
+efficient design and operation of buildings and industrial facilities. 
+
+*       Industrial systems analysis - compressed air, process heat,
+process thermodynamics, lighting, motors and motor driven systems.
+
+*       Building performance modeling and HVAC systems analysis for
+energy efficiency.
+
+*       Monitoring and performance measurement of mechanical/electrical
+systems.
+
+*       Energy systems commissioning and optimization.
+
+*       Measurement and verification of savings.
+
+*       We currently manage the Utah Industries of the Future Program
+and the Intermountain Combined Heat and Power Regional Assistance
+Center, US Dept. of Energy Initiatives. 
+
+ 
+
+Our office atmosphere is very relaxed (dogs occasionally outnumber
+people) and powder days are usually mandatory ski days.  We are a small
+but growing company with five engineers, an office manager and a student
+intern.  We have been in business in Utah for over fifteen years and
+have an excellent reputation with our clients.
+
+ 
+
+If this sounds like a place you might like to work please send or email
+a resume.  Please, no calls. 
+
+ 
+
+ 
+
+Mark E. Case, President
+
+etc Group, Inc.
+
+3481 South 2300 East
+
+Salt Lake City, UT 84109
+
+801-278-1927, 801-278-1942(F)
+
+ mcase at etcgrp.com <mailto:mcase at etcgrp.com>  
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040624/4858af32/attachment.htm>
+
+From larry at taz.tamu.edu  Thu Jun 24 14:12:30 2004
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Thu, 24 Jun 2004 16:12:30 -0500
+Subject: [BLDG-SIM] Congratulations to the IBPSA Board of Directors.  Voting has ended.
+Message-ID: <MDAEMON-F200406241614.AA1423328pd80000233051@gard.com>
+
+Congratulations to the new members of IBPSA's Board of Directors.  The
+voting is complete.
+ 
+There were 68 voters in this election, and each nominee received from 66
+to 68 YES votes and zero NO votes.
+ 
+Here are the names of the new Board of Directors for 2004-2006:
+ 
+Position                            Name
+-------------                           ----------------
+ 
+1. President: Jeff Spitler (Oklahoma State U, USA)
+ 
+2. Vice President: Jan Hensen (TU/Eindhoven, the Netherlands)
+ 
+3. Secretary: Karel Kabele (CVUT, Czech Republic)
+ 
+4. Treasurer: Chip (Charles) Barnaby (Wrightsoft, USA)
+ 
+5. Member-at-large: Godfried Augenbroe (Georgia Tech, USA)
+ 
+6. Member-at-large: Drury Crawley (U.S. Dept. of Energy, USA)
+ 
+7. Member-at-large: Ian Beausoleil-Morrison (Natural Resources-Can,
+Canada)
+ 
+8. Member-at-large: Jonathan Wright (Loughborough University, UK)
+ 
+===================================== 
+Larry O. Degelman, P.E.                  larry at taz.tamu.edu 
+IBPSA Newsletter Chair
+=====================================
+ 
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040624/8896373b/attachment.htm>
+
+From kemerson2002 at yahoo.com  Wed Jun 23 14:48:54 2004
+From: kemerson2002 at yahoo.com (K Emerson)
+Date: Wed, 23 Jun 2004 14:48:54 -0700 (PDT)
+Subject: [BLDG-SIM] Certified Energy Engineer or Professional
+In-Reply-To: <MDAEMON-F200406140415.AA1541281pd80000194127@gard.com>
+Message-ID: <MDAEMON-F200406231650.AA502915pd80000231225@gard.com>
+
+Just got back from vacation and saw your note.  As I
+think an earlier note mentioned, to my knowledge there
+is no certification program for simulation experts. 
+It's an interesting thought though.  
+
+For energy conservation work, the first choice is
+professional engineering registration at the State
+level.  
+
+Another choice is the Certified Energy Manager (CEM)
+registration from the Association of Energy Engineers.
+ It involves a less rigorous test than for a PE and
+some years of work in the energy conservation field.
+Maintenance involves continuing education.  Contact
+the AEE in Atlanta for further information.  The CEM
+rating has had some success in being adopted at the
+State and Federal level as a way to show credibility
+in energy efficiency contracting work.  It is not an
+alternative to professional engineer registration as
+far as the preparation of engineering documents, etc. 
+
+
+Depending on what you're working on, US Green Building
+Council's LEED certification can also be worthwhile.  
+
+Good Luck!  
+
+
+
+--- Ahmed Fraij <fraij at yahoo.com> wrote:
+> Dear All,
+>  
+>    Do you know which organizations and/or
+> associations can give certification for energy
+> engineers or professionals? for instance: certified
+> energy engineer or energy accredited professional
+> particularly for engineers who work in energy
+> management & conservation fields.
+>  
+> Awaiting your reply
+>  
+> Thanks & Best Regards
+>  
+> Ahmad Fraij
+> 
+> 
+> 		
+> ---------------------------------
+> Do you Yahoo!?
+> Friends.  Fun. Try the all-new Yahoo! Messenger
+> 
+>
+======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From astevens at dmiinc.com  Wed Jun 23 13:57:48 2004
+From: astevens at dmiinc.com (Alec Stevens)
+Date: Wed, 23 Jun 2004 16:57:48 -0400
+Subject: [BLDG-SIM] electric defrost in industrial cold storage
+Message-ID: <MDAEMON-F200406231559.AA5920828pd80000231115@gard.com>
+
+Hello,
+Does anyone have any "real world" information regarding frequency and duration of electric defrost cycles for low temperature evaporators in an industrial refrigeration application?  
+
+References to studies, metered data, or publications would be most appreciated.
+Thanks for your assistance.
+
+Sincerely,
+
+Alec Stevens, PE, LEED AP
+DMI
+450 Lexington St, Newton, MA 02466
+p: 617-527-1525 x105  f: 617-527-6606
+e: astevens at dmiinc.com
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040623/ed275290/attachment.htm>
+
+From thong at archenergy.com  Wed Jun 23 09:23:18 2004
+From: thong at archenergy.com (Tianzhen Hong)
+Date: Wed, 23 Jun 2004 09:23:18 -0700
+Subject: [BLDG-SIM] (no subject)
+In-Reply-To: <MDAEMON-F200406230632.AA3239625pd80000221969@gard.com>
+Message-ID: <MDAEMON-F200406231133.AA3305984pd80000230716@gard.com>
+
+
+Miguel
+
+Why did you use two blocks for two zones? A block can contain multiple
+zones as long as they have the same space height and are adjacent to
+each other.
+
+By default, all perimeter walls of a block are exterior walls. With
+VisualDOE 4.0, you can delete an exterior wall and change an exterior
+wall to an interior wall.
+
+Tianzhen
+
+> -----Original Message-----
+> From: postman at gard.com [mailto:postman at gard.com] On Behalf Of 
+> Miguel Jesus
+> Sent: Wednesday, June 23, 2004 4:31 AM
+> To: BLDG-SIM at gard.com
+> Subject: [BLDG-SIM] (no subject)
+> 
+> 
+> Hi
+> I'm working in Visual DOE 3.1 and i would like to put some 
+> questions,  
+> to see if someone could give me some help. There are basic 
+> questions ... Working in a block (block concept) it is 
+> possible to distinguishe 
+> different kind of partitions, i.e., if i have to different 
+> walls between 
+> two zones it is possible to model just like this?
+> On the other side, if i model these two zones as two 
+> different blocks, 
+> despite the zones being together (they share a common wall), i think 
+> visual doe will treat the share wall as two different fa?ades 
+> ... to the 
+> exterior ...
+> In short, i have two thermal zones, sharing a common wall 
+> (composed by 
+> two different walls). How can i model this?
+> How can i resolve this difficulty?
+> 
+> Thanks for the help
+> 
+> Miguel
+> 
+> 
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From babetsk at jbb.com  Wed Jun 23 07:19:29 2004
+From: babetsk at jbb.com (Konstantine Babets)
+Date: Wed, 23 Jun 2004 10:19:29 -0400
+Subject: [BLDG-SIM] Economizer control (OA-CONTROL = FIXED VS. ENTHALPY)
+References: <MDAEMON-F200406230824.AA2458312pd80000222472@gard.com>
+Message-ID: <MDAEMON-F200406230924.AA241746pd80000230464@gard.com>
+
+MessageHello,
+
+I am trying to compare the pros and cons of using either a waterside economizer or an airside economizer using DOE2.1E. A trivial exercise, however I was surprised to see the DOE reports water side economizer to be slightly more efficient. Which does not really make sense to me. Anyone can share her/his experience in dealing with economizers in DOE2.1E
+
+ 
+
+Thank you,
+
+Konstantin Babets
+
+Jaros Baum and Bolles
+(212) 530 9455
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040623/dc732ac0/attachment.htm>
+
+From miket at etcgrp.com  Wed Jun 23 06:24:43 2004
+From: miket at etcgrp.com (Mike Tillou)
+Date: Wed, 23 Jun 2004 07:24:43 -0600
+Subject: [BLDG-SIM] Ice rinks
+Message-ID: <MDAEMON-F200406230824.AA2459546pd80000230319@gard.com>
+
+Vikram,
+ 
+I suggest you try and use DOE 2.2 v40 or higher.  Ver. 40 has included
+~34 new keywords for modeling of ice rinks.  The keywords allow you to
+specify ice conditions, resurfacing energy, air movement across ice from
+skaters & HVAC, stratification of air immeadietly above ice surface,
+ceiling conditions, a brine circulation loop and a sub-floor heating
+loop.  
+ 
+You can review the documentation on the doe2.com website.  Look for the
+"DOE22Vol2 - Dictionary" reference manual.  
+ 
+Good luck.
+ 
+Mike
+ 
+ 
+Michael Tillou, PE
+etc Group, Inc.
+PO Box 749, North Adams, MA 01247
+ph. (413) 458-9870  fx. (801) 278-1927
+www.etcgrp.com
+  
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Vikram
+Sami
+Sent: Tuesday, June 22, 2004 5:19 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Ice rinks
+
+
+Hi,
+THis question is kind of a follow up to a conversation thread from last
+year. I am trying to model a hockey rink, and am still a little fuzzy
+about how exactly to go about doing this.  Has anyone done this before? 
+ 
+ 
+Thanks
+ 
+Vikram Sami
+
+  _____  
+
+Ensar Group Inc.
+2305 Broadway
+Boulder, CO 80304
+Tel: (303) 449-5226
+Fax: (303) 449-5276
+ 
+
+ 
+
+
+==================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040623/5bb5dd9d/attachment.htm>
+
+From mjesus at fe.up.pt  Wed Jun 23 04:30:59 2004
+From: mjesus at fe.up.pt (Miguel Jesus)
+Date: Wed, 23 Jun 2004 12:30:59 +0100
+Subject: [BLDG-SIM] (no subject)
+Message-ID: <MDAEMON-F200406230632.AA3236812pd80000230126@gard.com>
+
+Hi
+I'm working in Visual DOE 3.1 and i would like to put some questions,  
+to see if someone could give me some help. There are basic questions ...
+Working in a block (block concept) it is possible to distinguishe 
+different kind of partitions, i.e., if i have to different walls between 
+two zones it is possible to model just like this?
+On the other side, if i model these two zones as two different blocks, 
+despite the zones being together (they share a common wall), i think 
+visual doe will treat the share wall as two different fa?ades ... to the 
+exterior ...
+In short, i have two thermal zones, sharing a common wall (composed by 
+two different walls). How can i model this?
+How can i resolve this difficulty?
+
+Thanks for the help
+
+Miguel
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From monafanny at yahoo.com  Wed Jun 23 01:42:50 2004
+From: monafanny at yahoo.com (Mona Fanni)
+Date: Wed, 23 Jun 2004 01:42:50 -0700 (PDT)
+Subject: [BLDG-SIM] Ice rinks
+In-Reply-To: <MDAEMON-F200406221622.AA2225328pd80000219049@gard.com>
+Message-ID: <MDAEMON-F200406230344.AA4427890pd80000229930@gard.com>
+
+We dealt with sports hall in a reseach tilted"
+Architectural desigh a nd thermal performance of
+school sports halls",published in applied energy
+journal- Elsevier publication- Vo. 76, No.1-3, PP
+289-303.; available on line from direct Science. We 
+dealt with circulated and exhausted fans given
+specified velocity; at standing levels , to achieve
+the thermal comfort refered to the heat stress index,
+the research also contains some integrated factors of
+energy conservation for sports halls.
+
+Dr. Mona Ahmed Fanny
+Building Physics, Building Research Center,P.O.Box
+1770,Dokki, Cairo, Egypt. 
+Fax: 202 3351564
+Tel: 202 3356722-3356853
+
+--- Vikram Sami <Vikram at ensargroup.com> wrote:
+> Hi,
+> THis question is kind of a follow up to a
+> conversation thread from last
+> year. I am trying to model a hockey rink, and am
+> still a little fuzzy
+> about how exactly to go about doing this.  Has
+> anyone done this before? 
+>  
+>  
+> Thanks
+>  
+> Vikram Sami
+>   _____  
+> 
+> Ensar Group Inc.
+> 2305 Broadway
+> Boulder, CO 80304
+> Tel: (303) 449-5226
+> Fax: (303) 449-5276
+>  
+>  
+> 
+> 
+>
+=====================================================You
+> received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+	
+		
+__________________________________
+Do you Yahoo!?
+New and Improved Yahoo! Mail - 100MB free storage!
+http://promotions.yahoo.com/new_mail 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jhaberl at esl.tamu.edu  Tue Jun 22 15:12:14 2004
+From: jhaberl at esl.tamu.edu (Jeff Haberl)
+Date: Tue, 22 Jun 2004 17:12:14 -0500
+Subject: [BLDG-SIM] Ice rinks
+Message-ID: <MDAEMON-F200406221714.AA1426281pd80000229200@gard.com>
+
+We faked this back in 1985 with DOE-2 at the CU Rec Center...had to get
+around the minimum zone temperature for DOE-2 by increasing the UA for the
+rink...worked pretty good...paper in the ASHRAE Transactions and MS thesis
+on this.
+
+ 
+
+Jeff Haberl
+
+ 
+
+  _____  
+
+From: Vikram Sami [mailto:Vikram at ensargroup.com] 
+Sent: Tuesday, June 22, 2004 4:19 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Ice rinks
+
+ 
+
+Hi,
+
+THis question is kind of a follow up to a conversation thread from last
+year. I am trying to model a hockey rink, and am still a little fuzzy about
+how exactly to go about doing this.  Has anyone done this before? 
+
+ 
+
+ 
+
+Thanks
+
+ 
+
+Vikram Sami
+
+  _____  
+
+Ensar Group Inc.
+
+2305 Broadway
+
+Boulder, CO 80304
+
+Tel: (303) 449-5226
+
+Fax: (303) 449-5276
+
+ 
+
+ 
+
+ 
+ 
+=====================================================You received this
+e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040622/451de412/attachment.htm>
+
+From Vikram at ensargroup.com  Tue Jun 22 14:18:47 2004
+From: Vikram at ensargroup.com (Vikram Sami)
+Date: Tue, 22 Jun 2004 15:18:47 -0600
+Subject: [BLDG-SIM] Ice rinks
+Message-ID: <MDAEMON-F200406221622.AA2224593pd80000229092@gard.com>
+
+Hi,
+THis question is kind of a follow up to a conversation thread from last
+year. I am trying to model a hockey rink, and am still a little fuzzy
+about how exactly to go about doing this.  Has anyone done this before? 
+ 
+ 
+Thanks
+ 
+Vikram Sami
+  _____  
+
+Ensar Group Inc.
+2305 Broadway
+Boulder, CO 80304
+Tel: (303) 449-5226
+Fax: (303) 449-5276
+ 
+ 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040622/466f2abf/attachment.htm>
+
+From hamnmegs at ozemail.com.au  Tue Jun 22 05:30:04 2004
+From: hamnmegs at ozemail.com.au (Graham & Megan)
+Date: Tue, 22 Jun 2004 22:30:04 +1000
+Subject: [BLDG-SIM] DOE-2 help ( I KNOW I have seen this before)..
+References: <MDAEMON-F200406181209.AA0908359pd80000209736@gard.com>
+Message-ID: <MDAEMON-F200406220731.AA3142937pd80000228369@gard.com>
+
+John,
+I have tried working around this in a number of ways and on a number of projects over the years.  While every project is unique, the best approximation in my opinion is to use the OA-FROM-SYSTEM command which passes return air (properties only not mass flow) from one system to another.  You assign the make up air system to a dummy zone with no loads and then need to control your supply temperature off a reset schedule.  Two problems / limitations are:
+1) if your desired make up air temperature cannot be simplified to an outdoor air reset schedule then inaccuracies arise.  in this case run a couple of tests to bound the uncertainty.
+2) if your tempering unit has bypass dampers to dehumidify while keeping dry bulb temperature elevated then this cannot be accurately represented in this case
+
+If you are working in 2.1E and are familiar / adventurous with INPUT-FUNCTIONS then in theory you have ways to get around the problems above, but ...
+
+I understand that Jeff Hirsch and gang may be working on adding in a better representation of minimum outdoor air / fresh air / make-up air systems.
+Regards,
+Graham
+  ----- Original Message ----- 
+  From: Aulbach, John 
+  To: BLDG-SIM at gard.com 
+  Sent: Saturday, June 19, 2004 3:07 AM
+  Subject: [BLDG-SIM] DOE-2 help ( I KNOW I have seen this before)..
+
+
+  I did such a DOE-2 run years ago, but now have forgotten how to do it.
+
+  A building has outside air supplied by a tempering Makeup air (MAU) unit (could be anything-CHW or Package) to a plenum. All other building system draw from and return air to this plenum. The MAU has an economizer on it (or not).
+
+  Does anyone have an example DOE-2 SYSTEMS input for this situation?
+
+  Thanks in advance.
+
+
+  John R. Aulbach, PE, CEM
+  Project Engineer
+  Sempra Energy Solutions
+  555 West Fifth Street
+  Mail Location 27F3
+  Los Angeles, CA 90013
+  Tel: (213) 244-8551 Cell (213) 219-4875
+
+  "Sempra Energy Solutions is not the same company as SDG&E/ SoCalGas, the Utilities.  Sempra Energy Solutions is not regulated by the California Public Utilities Commission, and you do not have to buy Sempra Energy Solutions products or services to continue to receive quality regulated service from the Utilities."  
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040622/c6d0fbe0/attachment.htm>
+
+From Peter_Ellis at nrel.gov  Mon Jun 21 14:18:37 2004
+From: Peter_Ellis at nrel.gov (Ellis, Peter)
+Date: Mon, 21 Jun 2004 15:18:37 -0600
+Subject: [BLDG-SIM] IBPSA-USA Meeting Reminder
+Message-ID: <MDAEMON-F200406211620.AA2016656pd80000227289@gard.com>
+
+Please excuse the cross-postings...
+
+Final Reminder--Please make your reservation by Wednesday, June 23, 2004, 5 PM (MST) if you have not done so already by sending an email to Peter Ellis < peter_ellis <mailto:peter_ellis at nrel.gov> @nrel.gov>.  Thanks!
+
+ 
+IBPSA
+International Building Performance Simulation Association
+USA Affiliate
+
+IBPSA-USA invites you to join us in Nashville for our Summer 2004 meeting!
+
+
+Meeting Highlights: 
+                    Prospective collaboration with USGBC on educational module
+                    Improving the IBPSA-USA web site content
+                    Social Hour and Dinner
+                    Guest Speaker:  Charles Eley, Principal, Architectural Energy Corporation
+
+
+
+IBPSA-USA MEETING ANNOUNCEMENT
+Dinner RSVP requested (see below)
+4 PM, Saturday, June 26, 2004
+Nashville, Tennessee
+
+
+Location:     Santa Fe Cattle Company
+                    2520 Music Valley Drive, (located about 1 mile North of Opryland on Hwy 155)
+                    Nashville, TN
+
+4:00 PM - 6:00 PM    Meeting
+                    The main topic for the meeting will be the prospective collaboration with the 
+                    US Green Building Council to develop an educational module on simulation for 
+                    sustainable design.
+                    We will also brainstorm for ideas to revamp and improve the IBPSA-USA web 
+                    site content.
+
+6:00 PM - 7:00 PM    Social hour with cash bar
+
+7:00 PM    Dinner
+                    Order from the menu (~$15)
+
+8:00 PM (approx)    After-dinner talk
+                    Charles Eley, FAIA
+                    Principal, Architectural Energy Corporation
+                    Title: "Public and Private Sector Roles in Simulation Tool Development"
+
+Reservations:      Space is limited so reservations are requested!  To make a reservation contact Peter Ellis < peter_ellis at nrel.gov> via email by June 23, 2004, 5 PM (MST).  Confirmation of reservations will be sent via email (if you do not receive a confirmation within two business days, please resend your reservation request).
+
+For the latest information on the IBPSA-USA meeting in Nashville, please visit our web site: http://www.ibpsa.org/ibpsa_usa
+
+We look forward to seeing you there!
+
+Philip Haves                            Peter Ellis
+President, IBPSA-USA            Secretary, IBPSA-USA 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040621/bc6b007c/attachment.htm>
+
+From Vikram at ensargroup.com  Fri Jun 18 14:26:40 2004
+From: Vikram at ensargroup.com (Vikram Sami)
+Date: Fri, 18 Jun 2004 15:26:40 -0600
+Subject: [BLDG-SIM] DOE-2 help ( I KNOW I have seen this before)..
+Message-ID: <MDAEMON-F200406181628.AA2816656pd80000223160@gard.com>
+
+There is a roundabout way - You can use Weathermaker(by Energy 10) to
+convert TMY2 to text files (comma delimited).You have to first convert
+it into an energy 10 file & then to a text file. There might be an
+easier way. The coma delimited format is great for XL though.
+ 
+Vikram Sami
+  _____  
+
+Ensar Group Inc.
+2305 Broadway
+Boulder, CO 80304
+Tel: (303) 449-5226
+Fax: (303) 449-5276
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Aulbach,
+John
+Sent: Friday, June 18, 2004 11:08 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] DOE-2 help ( I KNOW I have seen this before)..
+
+
+I did such a DOE-2 run years ago, but now have forgotten how to do it.
+ 
+A building has outside air supplied by a tempering Makeup air (MAU) unit
+(could be anything-CHW or Package) to a plenum. All other building
+system draw from and return air to this plenum. The MAU has an
+economizer on it (or not).
+ 
+Does anyone have an example DOE-2 SYSTEMS input for this situation?
+ 
+Thanks in advance.
+ 
+ 
+John R. Aulbach, PE, CEM
+Project Engineer
+Sempra Energy Solutions
+555 West Fifth Street
+Mail Location 27F3
+Los Angeles, CA 90013
+Tel: (213) 244-8551 Cell (213) 219-4875
+ 
+
+"Sempra Energy Solutions is not the same company as SDG&E/ SoCalGas, the
+Utilities.  Sempra Energy Solutions is not regulated by the California
+Public Utilities Commission, and you do not have to buy Sempra Energy
+Solutions products or services to continue to receive quality regulated
+service from the Utilities."  
+
+ 
+
+
+======================================================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040618/ee7cb66d/attachment.htm>
+
+From DSE at grummanbutkus.com  Fri Jun 18 13:43:22 2004
+From: DSE at grummanbutkus.com (David S Eldridge)
+Date: Fri, 18 Jun 2004 15:43:22 -0500
+Subject: [BLDG-SIM] TMY2 Data Conversion to Bin Data
+Message-ID: <MDAEMON-F200406181544.AA4430250pd80000223051@gard.com>
+
+Pivot tables in excel work great for analyzing temperature bins by
+different hours and months, and the text versions of the weather files
+(EPW, or NREL TMYs) are easy to work with in excel.
+ 
+David
+ 
+
+	-----Original Message-----
+	From: Aulbach, John [mailto:JAulbach at semprasolutions.com] 
+	Sent: Monday, June 14, 2004 5:40 PM
+	To: BLDG-SIM at gard.com
+	Subject: [BLDG-SIM] TMY2 Data Conversion to Bin Data
+	
+	
+	There HAS to be a way to get a text file of the 8,760 hours of
+data from a TMY2.bin file used in eQuest and DOE-2.1E. I know there is a
+weather utility in both programs, but I am not sure of how to set up the
+command line or how to execute it.
+	 
+	Someone smart out there KNOWS how to do it.
+	 
+	
+	John R. Aulbach, PE, CEM
+	Project Engineer
+	Sempra Energy Solutions
+	555 West Fifth Street
+	Mail Location 27F3
+	Los Angeles, CA 90013
+	Tel: (213) 244-8551 Cell (213) 219-4875
+	 
+
+	"Sempra Energy Solutions is not the same company as SDG&E/
+SoCalGas, the Utilities.  Sempra Energy Solutions is not regulated by
+the California Public Utilities Commission, and you do not have to buy
+Sempra Energy Solutions products or services to continue to receive
+quality regulated service from the Utilities."  
+
+	
+	======================================================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040618/d480e3eb/attachment.htm>
+
+From wbahnfleth at psu.edu  Fri Jun 18 13:21:31 2004
+From: wbahnfleth at psu.edu (William Bahnfleth)
+Date: Fri, 18 Jun 2004 16:21:31 -0400
+Subject: [BLDG-SIM] TMY2 Data Conversion to Bin Data
+In-Reply-To: <MDAEMON-F200406181442.AA423546pd80000210888@gard.com>
+References: <MDAEMON-F200406181442.AA423546pd80000210888@gard.com>
+Message-ID: <MDAEMON-F200406181524.AA2426609pd80000223008@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040618/ef95d53f/attachment.htm>
+
+From mcase at etcgrp.com  Fri Jun 18 12:44:05 2004
+From: mcase at etcgrp.com (Mark Case)
+Date: Fri, 18 Jun 2004 13:44:05 -0600
+Subject: [BLDG-SIM] TMY2 Data Conversion to Bin Data
+Message-ID: <MDAEMON-F200406181442.AA4233218pd80000222938@gard.com>
+
+A quick and dirty way is to define an hourly report with the weather
+data (global variables) you seek. 
+
+	-----Original Message-----
+	From: postman at gard.com [mailto:postman at gard.com] On Behalf Of
+Aulbach, John
+	Sent: Monday, June 14, 2004 4:40 PM
+	To: BLDG-SIM at gard.com
+	Subject: [BLDG-SIM] TMY2 Data Conversion to Bin Data
+	
+	
+	There HAS to be a way to get a text file of the 8,760 hours of
+data from a TMY2.bin file used in eQuest and DOE-2.1E. I know there is a
+weather utility in both programs, but I am not sure of how to set up the
+command line or how to execute it.
+	 
+	Someone smart out there KNOWS how to do it.
+	 
+	
+	John R. Aulbach, PE, CEM
+	Project Engineer
+	Sempra Energy Solutions
+	555 West Fifth Street
+	Mail Location 27F3
+	Los Angeles, CA 90013
+	Tel: (213) 244-8551 Cell (213) 219-4875
+	 
+
+	"Sempra Energy Solutions is not the same company as SDG&E/
+SoCalGas, the Utilities.  Sempra Energy Solutions is not regulated by
+the California Public Utilities Commission, and you do not have to buy
+Sempra Energy Solutions products or services to continue to receive
+quality regulated service from the Utilities."  
+
+	
+	======================================================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040618/4202147f/attachment.htm>
+
+From JAulbach at semprasolutions.com  Fri Jun 18 10:07:36 2004
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Fri, 18 Jun 2004 10:07:36 -0700
+Subject: [BLDG-SIM] DOE-2 help ( I KNOW I have seen this before)..
+Message-ID: <MDAEMON-F200406181209.AA0908640pd80000222751@gard.com>
+
+I did such a DOE-2 run years ago, but now have forgotten how to do it.
+ 
+A building has outside air supplied by a tempering Makeup air (MAU) unit
+(could be anything-CHW or Package) to a plenum. All other building system
+draw from and return air to this plenum. The MAU has an economizer on it (or
+not).
+ 
+Does anyone have an example DOE-2 SYSTEMS input for this situation?
+ 
+Thanks in advance.
+ 
+ 
+John R. Aulbach, PE, CEM
+Project Engineer
+Sempra Energy Solutions
+555 West Fifth Street
+Mail Location 27F3
+Los Angeles, CA 90013
+Tel: (213) 244-8551 Cell (213) 219-4875
+ 
+
+"Sempra Energy Solutions is not the same company as SDG&E/ SoCalGas, the
+Utilities.  Sempra Energy Solutions is not regulated by the California
+Public Utilities Commission, and you do not have to buy Sempra Energy
+Solutions products or services to continue to receive quality regulated
+service from the Utilities."  
+
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040618/887902d2/attachment.htm>
+
+From Aziz.Laouadi at nrc-cnrc.gc.ca  Thu Jun 17 08:33:09 2004
+From: Aziz.Laouadi at nrc-cnrc.gc.ca (Laouadi, Aziz)
+Date: Thu, 17 Jun 2004 11:33:09 -0400
+Subject: [BLDG-SIM] SKYLIGHT PERFORMANCE SOFTWARE RELEASED
+Message-ID: <MDAEMON-F200406171034.AA3443140pd80000220858@gard.com>
+
+Dear All,
+
+SKYLIGHT PERFORMANCE SOFTWARE RELEASED
+
+The Institute for Research in Construction (IRC) is pleased to announce the
+release of the final version of SkyVision after feedback from experts and
+stakeholders and an extensive validation testing on the beta versions
+released last year.  SkyVision calculates the optical characteristics of
+conventional and tubular skylights and predicts their indoor daylight
+availability and energy saving potential.  The software can be downloaded
+free of charge from: http://irc.nrc-cnrc.gc.ca/ie/light/skyvision/. The
+validation report is also available on the web, under the Publications
+section. The report includes work carried out both at IRC and under the
+California PIER program.  The final release includes additional features
+compared to earlier beta-versions:  (1) Monitor skylights and vault
+skylights with rounded edges are added to the modeled shapes. (2) More
+Canadian and US weather data are added to the database. Users can also
+import any international weather file in the Canadian (CWEC) or EnergyPlus
+format (.EPW). A weather format converter is provided and a web link to the
+DOE international weather data, which covers more than 550 locations, is
+established within the software.  (3) Users can place skylights on the roof
+using automatic distribution, or based on given spacing criteria.  (4) Added
+step lighting control algorithms. (5) Fixes of reported bugs. (6) Some
+enhancement of the graphical user interface.
+
+Comments or suggestions are very useful and appreciated
+
+Dr. Abdelaziz (Aziz) Laouadi
+Research Officer
+Indoor Environment Research Program
+Institute for Research in Construction
+National Research Council of Canada
+1200 Montreal Road, Building M-24
+Ottawa, Ontario, Canada, K1A 0R6
+Tel.:  (613) 990 6868;	Fax:  (613) 954 3733
+Email: Aziz.Laouadi at nrc-cnrc.gc.ca 
+Web: http://irc.nrc-cnrc.gc.ca/ie/light/skyvision/
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ats138 at psu.edu  Wed Jun 16 16:38:55 2004
+From: ats138 at psu.edu (Adam Szczepanski)
+Date: Wed, 16 Jun 2004 19:38:55 -0400
+Subject: [BLDG-SIM] on the market
+Message-ID: <MDAEMON-F200406161840.AA4029328pd80000219693@gard.com>
+
+Hello,
+
+I'm posting my resume.  I am seeking work in the Green Building 
+industry.  If anyone has any opportunities for someone with my experience, 
+please contact off list.
+
+Thank you for your time and consideration.
+
+Sincerely,
+
+Adam
+
+
+Adam Szczepanski, 
+E.I.T. 
+186 North Harrisburg Street
+ats138 at psu.edu  (717) 
+939-4733 
+Oberlin, PA 17113
+
+Objective:  To actively participate and contribute to integrated, 
+ecologically intelligent design, while further developing the skills 
+necessary for the task of sustainability.
+
+Education to Date:
+
+M.S., Environmental Pollution Control, GPA 
+3.89
+Pennsylvania State University, 2002 ? present
+Quentin Berg Graduate Assistantship Recipient, 2002 - 
+present
+Thesis: The Greening of the Science and Technology Building: Step One: A 
+Retrofit for Energy Reduction
+
+B.S., Civil Engineering, GPA 3.20
+Pennsylvania State University, 2001
+
+Research as Quentin Berg Assistant:
+
+    * Initiated the project: ?The Greening of the ?Science and Technology 
+Building.??  The project is dedicated to turning the building into a living 
+laboratory for ?sustainable? and ?green? research, pertaining to all facets 
+of the building.  The project is supported by the Provost of the College as 
+well as the Physical Plant at campus.
+    * Developed research methodology to investigate, model and ultimately 
+reduce the energy footprint of the Science and Technology Building.
+    * This research dealt with the active and passive systems of the 
+building.  (Embedded energy was not included in the research)  The results 
+are currently pending.
+    * The following research methodology was used for this research:
+        *         A walk-through audit to identify and characterize the 
+building (problems, deficiencies, issues).
+        *         Real-time monitoring equipment installed, data collected 
+and recorded using both Siemens and Square D systems.
+        *         Developed a software building model using the eQuest 
+simulation tool (Energy Design Resources).
+        *         Verified the eQuest model with real-time data collected 
+by the monitoring equipment.
+        *         Developed a host of passive and active ?sustainable? 
+solutions/strategies for energy reduction.
+        *         Presented solutions to the Physical Plant for 
+implementation consideration.
+
+Relevant Courses/Activities/Other:
+
+Courses:
+    * Applied Ecology
+    * Risk Assessment
+    * Globalization: Results and Ramifications
+    * Integrated Systems Design with LEED Certification
+    * Sustainable Engineering
+    * Green Design
+    * Invited to present research poster to the 4th Annual Goddard Forum on 
+Sustainable Communities, Spring 2004
+    * Invited as an honored guest to present graduate research at Penn 
+State York?s 2004 Science and Technology Seminar Series
+    * Presented graduate research to the Penn State Harrisburg 
+Environmental Pollution Control Program?s 2003 Colloquium
+    * Lectured in Dr. Richard Ciocci?s ?Design for Society? class on Green 
+Building Design, Fall 2003
+    * Researched and designed a simple constructed wetland for grey-water 
+treatment, Fall 2003 ? Spring 2004
+    * USGBC Member: Completed LEED Beginner, Intermediate, and Advanced 
+workshops.  2003 Green Build Conference attendee.  Plan to certify Summer 
+2004.
+    * Northeast Sustainable Energy Association Member: 2004 NESEA Building 
+Energy Conference Attendee
+    * Earth Day 2003 Committee Member: Developed and taught a course to 7th 
+and 8th graders about the basics of ecology.   This year?s plans include 
+teaching 2nd  graders environmental basics.
+    * Ecoseeds Associate, www.ecoseeds.org
+    * Participating as a search committee member for the Berg Chair in 
+Sustainable Engineering, 2002 ? present.
+    * Competent in Excel, PowerPoint, AutoCAD, Softdesk, HydroCAD, Arcview 
+and eQuest (DOE-2)
+Employment to date:
+
+The Group, L.L.C. Bellefonte, PA                             Environmental 
+Engineer           02/02 ? 08/02
+Schoor DePalma Inc. Manalapan, NJ                        Regulatory 
+Intern                     05/01 ? 08/01
+Schoor DePalma Inc. Manalapan, NJ                        Traffic 
+Intern                            05/00 ? 08/00  
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040616/ff5fdc61/attachment.htm>
+
+From larry at taz.tamu.edu  Wed Jun 16 15:19:46 2004
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Wed, 16 Jun 2004 17:19:46 -0500
+Subject: [BLDG-SIM] IBPSA Board Election (PLEASE respond to this e-mail.)
+Message-ID: <MDAEMON-F200406161721.AA2128484pd80000219569@gard.com>
+
+As prescribed in the IBPSA By-laws, the current Board of Directors (BoD)
+has nominated a new slate of eight (8) Board members to fill the officer
+positions for the 2004-2006 cycle.  The slate of nominees was
+distributed to the worldwide membership for additional nominations on 15
+March 2004.  No additional nominations had been received by the deadline
+date of 15 May 2004, so as of today, the slate is open for voting.
+ 
+This is the final call for votes.  Voting will be open for 7 days,
+terminating on 24 June 2004.  
+ 
+You may vote for the entire slate of nominees or vote for each
+individual.
+ 
+The slate of IBPSA BoD nominees follows.  All of these have been
+nominated and seconded by Board members, and all have accepted to stand
+for election or re-election.  To vote for the entire slate of nominees,
+simply place a YES in the blank space.  Alternatively, to vote for
+individual members, place a YES beside each nominee's name.  If you
+wish, you may place a NO vote or leave it blank.  A NO vote or blank
+will be considered as a NO vote.
+ 
+A.  Entire slate of nominees shown below: (place a YES here or leave
+blank and vote for individuals below).  ___________
+ 
+B.  By individual:  (See list below)*
+ 
+Position                            Name
+-------------                           ----------------
+ 
+1. President: Jeff Spitler (Oklahoma State U, USA) ___________
+ 
+2. Vice President: Jan Hensen (TU/Eindhoven, the Netherlands)
+___________
+ 
+3. Secretary: Karel Kabele (CVUT, Czech Republic) ___________
+ 
+4. Treasurer: Chip (Charles) Barnaby (Wrightsoft, USA) ___________
+ 
+5. Member-at-large: Godfried Augenbroe (Georgia Tech, USA) ___________
+ 
+6. Member-at-large: Drury Crawley (U.S. Dept. of Energy, USA)
+___________
+ 
+7. Member-at-large: Ian Beausoleil-Morrison (Natural Resources-Can,
+Canada) ___________
+ 
+8. Member-at-large: Jonathan Wright (Loughborough University, UK)
+___________
+ 
+ 
+*         NOTE:  Please recall that the BoD is made up of the elected
+members (the names shown above) plus a representative from each of the
+IBPSA Regional Affiliates.  The Affiliate members of the board are
+elected within their respective Affiliate groups.
+*         Also, if you receive duplicates of this notice, please vote
+only once.
+ 
+Thank you for your attention to the IBPSA Board elections.
+ 
+===================================== 
+L.O. Degelman, Newsletter Chair,          larry at taz.tamu.edu 
+Prof. Emeritus of Architecture    
+Texas A&M University
+College Station, TX 77845
+=====================================
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040616/c821c29a/attachment.htm>
+
+From JAulbach at semprasolutions.com  Tue Jun 15 10:16:53 2004
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Tue, 15 Jun 2004 10:16:53 -0700
+Subject: [BLDG-SIM] Many thanks on the overwhelming response re Weather Conversion ..
+Message-ID: <MDAEMON-F200406151218.AA1856609pd80000217199@gard.com>
+
+I now need some time to sort through the many kind responses all have sent.
+I do have my DOE-2 answer. So thanks to all.
+ 
+I am currently between a rock and a hard place with my current management
+than a bin spreadsheet gives just as good as information as a simulation, in
+much less time. I would appreciate any responses, so I could show these
+people how other parts of the world think.
+ 
+ 
+John R. Aulbach, PE, CEM
+Project Engineer
+Sempra Energy Solutions
+555 West Fifth Street
+Mail Location 27F3
+Los Angeles, CA 90013
+Tel: (213) 244-8551 Cell (213) 219-4875
+ 
+
+"Sempra Energy Solutions is not the same company as SDG&E/ SoCalGas, the
+Utilities.  Sempra Energy Solutions is not regulated by the California
+Public Utilities Commission, and you do not have to buy Sempra Energy
+Solutions products or services to continue to receive quality regulated
+service from the Utilities."  
+
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040615/ba2a3ef3/attachment.htm>
+
+From randy at hvacware.net  Tue Jun 15 09:56:23 2004
+From: randy at hvacware.net (Randy Wilkinson)
+Date: Tue, 15 Jun 2004 09:56:23 -0700
+Subject: [BLDG-SIM] TMY2 Data Conversion to Bin Data
+In-Reply-To: <MDAEMON-F200406141742.AA4238156pd80000199736@gard.com>
+References: <MDAEMON-F200406141742.AA4238156pd80000199736@gard.com>
+Message-ID: <MDAEMON-F200406151157.AA573878pd80000217156@gard.com>
+
+Yes...I have a program that converts TMY2 weather data to bin weather 
+data.  I ask only $25 to license it. 
+
+However, it does not use the binary versions of the TMY2 files that DOE2 
+uses.  It requires the ASCII version of the TMY2 files.  These file are 
+avainable for 239 US cities, FREE , thanks to the US government.
+
+One of the big problems with bin weather data that has been previously 
+published, is that it is usually not itemized for occupied hours vs 
+unoccupied hours.  Or, if anything, it is itemized for three 8 hour 
+periods each day.  My program allows you to specify the occupied hours 
+and then creates 2 sets of bin weather data for the year...Occupied and 
+Unoccupied.
+
+My program also has a mode to extract the 8760 hours of temperature 
+data, if that's what you really want.  I suspect that since this program 
+does a good job of separating occupied bins from unoccupied bins, you 
+won't need the 8760 weather data.
+
+For more details, visit:    http://www.hvacware.net/tmy2bin.html
+
+Randy
+---
+Randall C. Wilkinson, P.E., C.E.M.
+hvacware.net
+Spokane, WA
+
+Aulbach, John wrote:
+
+> There HAS to be a way to get a text file of the 8,760 hours of data 
+> from a TMY2.bin file used in eQuest and DOE-2.1E. I know there is a 
+> weather utility in both programs, but I am not sure of how to set up 
+> the command line or how to execute it.
+>  
+> Someone smart out there KNOWS how to do it.
+>  
+> *John R. Aulbach, PE, CEM*
+> *Project Engineer*
+> *Sempra Energy Solutions*
+> *555 West Fifth Street*
+> *Mail Location 27F3*
+> *Los Angeles, CA 90013*
+> *Tel: (213) 244-8551 Cell (213) 219-4875*
+> **
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040615/884d04a1/attachment.htm>
+
+From mchugh at h-m-g.com  Mon Jun 14 16:09:54 2004
+From: mchugh at h-m-g.com (Jon McHugh)
+Date: Mon, 14 Jun 2004 16:09:54 -0700
+Subject: [BLDG-SIM] Boiler Efficiency
+Message-ID: <MDAEMON-F200406141817.AA1718265pd80000215894@gard.com>
+
+Andrew and others interested in this topic:
+ 
+Dyer D.F. and G. Maples. 1988. Boiler Efficiency Improvement. Boiler
+Efficiency Institute, Auburn, Alabama.
+ 
+The boiler efficiency institute also publishes a great book on end-use
+steam efficiency improvement.
+ 
+Jon McHugh, PE, LC
+
+________________________________
+
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Andrew D.
+Holden, P.E.
+Sent: Monday, June 14, 2004 12:10 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Boiler Efficiency
+
+
+Hi building sim list -
+ 
+In the never ending quest for the right answer, what is the list
+consensus on the best manner in which to measure overall (seasonal)
+efficiency of an old low-pressure steam boiler in place?
+ 
+Clearly a pure combustion test bears little relation to the actual fuel
+consumed as it does not account for stack loss, purge loss, skin losses
+etc.
+ 
+Anyone read or tried anything that can give some good methodology for
+obtaining reasonable numbers.
+ 
+Thanks in advance,
+ 
+-Andrew
+ 
+ 
+Andrew Holden, MS, PE, CEM
+LEED Accredited Professional
+Helios Resources, Ltd.
+1883 Old Kimberton Road
+Phoenixville, PA 19460
+Tel: 610-917-9111
+Fax: 610-917-1066
+Cell: 610-212-3466
+http://www.heliosltd.com
+
+ 
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040614/57aa9e16/attachment.htm>
+
+From JAulbach at semprasolutions.com  Mon Jun 14 15:40:00 2004
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Mon, 14 Jun 2004 15:40:00 -0700
+Subject: [BLDG-SIM] TMY2 Data Conversion to Bin Data
+Message-ID: <MDAEMON-F200406141742.AA4236578pd80000215844@gard.com>
+
+There HAS to be a way to get a text file of the 8,760 hours of data from a
+TMY2.bin file used in eQuest and DOE-2.1E. I know there is a weather utility
+in both programs, but I am not sure of how to set up the command line or how
+to execute it.
+ 
+Someone smart out there KNOWS how to do it.
+ 
+John R. Aulbach, PE, CEM
+Project Engineer
+Sempra Energy Solutions
+555 West Fifth Street
+Mail Location 27F3
+Los Angeles, CA 90013
+Tel: (213) 244-8551 Cell (213) 219-4875
+ 
+
+"Sempra Energy Solutions is not the same company as SDG&E/ SoCalGas, the
+Utilities.  Sempra Energy Solutions is not regulated by the California
+Public Utilities Commission, and you do not have to buy Sempra Energy
+Solutions products or services to continue to receive quality regulated
+service from the Utilities."  
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040614/a877b71b/attachment.htm>
+
+From andrew at heliosltd.com  Mon Jun 14 12:09:52 2004
+From: andrew at heliosltd.com (Andrew D. Holden, P.E.)
+Date: Mon, 14 Jun 2004 15:09:52 -0400
+Subject: [BLDG-SIM] Boiler Efficiency
+Message-ID: <MDAEMON-F200406141411.AA112862pd80000215509@gard.com>
+
+Hi building sim list -
+
+In the never ending quest for the right answer, what is the list consensus on the best manner in which to measure overall (seasonal) efficiency of an old low-pressure steam boiler in place?
+
+Clearly a pure combustion test bears little relation to the actual fuel consumed as it does not account for stack loss, purge loss, skin losses etc.
+
+Anyone read or tried anything that can give some good methodology for obtaining reasonable numbers.
+
+Thanks in advance,
+
+-Andrew
+ 
+
+Andrew Holden, MS, PE, CEM
+LEED Accredited Professional
+Helios Resources, Ltd.
+1883 Old Kimberton Road
+Phoenixville, PA 19460
+Tel: 610-917-9111
+Fax: 610-917-1066
+Cell: 610-212-3466
+http://www.heliosltd.com
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040614/9269f660/attachment.htm>
+
+From mchugh at h-m-g.com  Mon Jun 14 09:38:50 2004
+From: mchugh at h-m-g.com (Jon McHugh)
+Date: Mon, 14 Jun 2004 09:38:50 -0700
+Subject: [BLDG-SIM] Certified Energy Engineer or Professional
+Message-ID: <MDAEMON-F200406141137.AA3709593pd80000215282@gard.com>
+
+To the building sim community:
+ 
+I am in agreement with Chris that the PE license is a more rigorous
+certification than the CEM.  I let my CEM lapse after getting a PE in
+Mechanical Engineering.  However, there are many people in this field
+who are in the energy efficiency field who are not engineers and thus
+will never obtain a PE.  
+ 
+Frankly there are many positions in the energy efficiency field that
+don't require a PE license.  As an example, a good lighting designer is
+often more qualified than a PE to suggest an appropriate lighting
+upgrade that improves visibility and energy efficiency.
+ 
+The CEM test helps AEE sell the CEM course which gives people a good
+rudimentary "lay of the land" of the big issues associated with energy
+efficiency.  For some people this course will be too basic but for many
+others, it is a good introduction to the field.
+ 
+This course is worthwhile but does not replace an engineering degree and
+work experience or a lighting design education and work experience.  
+ 
+The bottom line is that when hiring an energy professional one has to
+look at their relevant experience and if they are going to be doing a
+lot of work or recommending a large expenditure, it would be worthwhile
+to talk to their previous clients.
+ 
+Jon McHugh, PE, LC
+
+________________________________
+
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Chris
+Halpin
+Sent: Monday, June 14, 2004 8:14 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Certified Energy Engineer or Professional
+
+
+I agree with Tom. I am a PE, a Certified Energy Procurement Professional
+through the AEE, and a LEED accredited professional by the US Green
+Building Council. I have never pursued the CEM because I felt its value
+was not very high. As Tom said, there are CEMs out there with very
+little knowledge of real world energy efficiency practices.  In my
+opinion the PE registration has much greater value, as it requires
+rigorous testing and minimum experience criteria to achieve
+registration. Although there PEs out there who are not particularly
+talented engineers, the credibility of a PE is greater than that of a
+CEM in the energy business.
+ 
+I hope this is helpful. If you are new to the business, I encourage you
+to pursue the CEM anyway, as it can not hurt to have it. 
+ 
+Chris 
+ 
+Christopher F. Halpin, P.E., LEED, C.E.P.
+President
+Celtic Energy, Inc.
+202 Lancaster Road
+Glastonbury, CT 06033-5100
+(860) 633-4914
+(860) 633-3056 fax
+(860) 328-0535 mobile 
+chris at celticenergy.com
+www.celticenergy.com
+ 
+ 
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Ahmed
+Fraij
+Sent: Monday, June 14, 2004 5:14 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Certified Energy Engineer or Professional
+ 
+Dear All,
+ 
+   Do you know which organizations and/or associations can give
+certification for energy engineers or professionals? for instance:
+certified energy engineer or energy accredited professional particularly
+for engineers who work in energy management & conservation fields.
+ 
+Awaiting your reply
+ 
+Thanks & Best Regards
+ 
+Ahmad Fraij
+________________________________
+
+Do you Yahoo!?
+Friends. Fun. Try the all-new Yahoo! Messenger
+<http://messenger.yahoo.com/> 
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040614/44f15cc0/attachment.htm>
+
+From chris at celticenergy.com  Mon Jun 14 08:14:20 2004
+From: chris at celticenergy.com (Chris Halpin)
+Date: Mon, 14 Jun 2004 11:14:20 -0400
+Subject: [BLDG-SIM] Certified Energy Engineer or Professional
+In-Reply-To: <MDAEMON-F200406140415.AA1539953pd80000193905@gard.com>
+Message-ID: <MDAEMON-F200406141042.AA4224437pd80000215178@gard.com>
+
+I agree with Tom. I am a PE, a Certified Energy Procurement Professional
+through the AEE, and a LEED accredited professional by the US Green
+Building Council. I have never pursued the CEM because I felt its value
+was not very high. As Tom said, there are CEMs out there with very
+little knowledge of real world energy efficiency practices.  In my
+opinion the PE registration has much greater value, as it requires
+rigorous testing and minimum experience criteria to achieve
+registration. Although there PEs out there who are not particularly
+talented engineers, the credibility of a PE is greater than that of a
+CEM in the energy business.
+ 
+I hope this is helpful. If you are new to the business, I encourage you
+to pursue the CEM anyway, as it can not hurt to have it. 
+ 
+Chris 
+ 
+Christopher F. Halpin, P.E., LEED, C.E.P.
+President
+Celtic Energy, Inc.
+202 Lancaster Road
+Glastonbury, CT 06033-5100
+(860) 633-4914
+(860) 633-3056 fax
+(860) 328-0535 mobile 
+chris at celticenergy.com
+www.celticenergy.com
+ 
+ 
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Ahmed
+Fraij
+Sent: Monday, June 14, 2004 5:14 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Certified Energy Engineer or Professional
+ 
+Dear All,
+ 
+   Do you know which organizations and/or associations can give
+certification for energy engineers or professionals? for instance:
+certified energy engineer or energy accredited professional particularly
+for engineers who work in energy management & conservation fields.
+ 
+Awaiting your reply
+ 
+Thanks & Best Regards
+ 
+Ahmad Fraij
+  _____  
+
+Do you Yahoo!?
+Friends. Fun. Try the all-new Yahoo! <http://messenger.yahoo.com/>
+Messenger
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040614/7b4fd39e/attachment.htm>
+
+From chris at celticenergy.com  Mon Jun 14 08:14:20 2004
+From: chris at celticenergy.com (Chris Halpin)
+Date: Mon, 14 Jun 2004 11:14:20 -0400
+Subject: [BLDG-SIM] Certified Energy Engineer or Professional
+In-Reply-To: <MDAEMON-F200406140415.AA1539953pd80000193905@gard.com>
+Message-ID: <MDAEMON-F200406141406.AA0646796pd80000215500@gard.com>
+
+I agree with Tom. I am a PE, a Certified Energy Procurement Professional
+through the AEE, and a LEED accredited professional by the US Green
+Building Council. I have never pursued the CEM because I felt its value
+was not very high. As Tom said, there are CEMs out there with very
+little knowledge of real world energy efficiency practices.  In my
+opinion the PE registration has much greater value, as it requires
+rigorous testing and minimum experience criteria to achieve
+registration. Although there PEs out there who are not particularly
+talented engineers, the credibility of a PE is greater than that of a
+CEM in the energy business.
+ 
+I hope this is helpful. If you are new to the business, I encourage you
+to pursue the CEM anyway, as it can not hurt to have it. 
+ 
+Chris 
+ 
+Christopher F. Halpin, P.E., LEED, C.E.P.
+President
+Celtic Energy, Inc.
+202 Lancaster Road
+Glastonbury, CT 06033-5100
+(860) 633-4914
+(860) 633-3056 fax
+(860) 328-0535 mobile 
+chris at celticenergy.com
+www.celticenergy.com
+ 
+ 
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Ahmed
+Fraij
+Sent: Monday, June 14, 2004 5:14 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Certified Energy Engineer or Professional
+ 
+Dear All,
+ 
+   Do you know which organizations and/or associations can give
+certification for energy engineers or professionals? for instance:
+certified energy engineer or energy accredited professional particularly
+for engineers who work in energy management & conservation fields.
+ 
+Awaiting your reply
+ 
+Thanks & Best Regards
+ 
+Ahmad Fraij
+  _____  
+
+Do you Yahoo!?
+Friends. Fun. Try the all-new Yahoo! <http://messenger.yahoo.com/>
+Messenger
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040614/9ae7a276/attachment.htm>
+
+From michael.brandemuehl at colorado.edu  Mon Jun 14 07:46:56 2004
+From: michael.brandemuehl at colorado.edu (Michael Brandemuehl)
+Date: Mon, 14 Jun 2004 08:46:56 -0600
+Subject: [BLDG-SIM] SimBuild 2004 Registration Now Open
+Message-ID: <MDAEMON-F200406140948.AA4826671pd80000215087@gard.com>
+
+ Please excuse the cross-postings 
+
+Registration for  <http://www.ibpsa.us/SimBuild2004> SimBuild 2004 is now
+open. 
+
+IBPSA
+International Building Performance Simulation Association
+USA Affiliate
+
+SimBuild 2004 
+Building Sustainability and Performance Through Simulation
+First National Conference of IBPSA-USA
+August 4-6, 2004
+Boulder, Colorado, USA
+ <http://www.ibpsa.us/SimBuild2004> http://www.ibpsa.us/SimBuild2004 
+
+
+
+SimBuild 2004 is the first in a series of biennial conferences organized by
+IBPSA-USA to improve the design and operation of buildings through advances
+in the modeling and simulation of building performance.  One feature of this
+conference is a full day of program devoted to practical application of
+simulation for sustainable building design, including USGBC LEED
+certification.
+
+The SimBuild 2004 conference seeks to bring together the full building
+performance community: researchers and practitioners, software developers
+and users, professionals and students, public and private sectors, designers
+and operators, engineers and architects. Participants are also expected to
+span the diverse disciplines of building performance, including energy
+systems, acoustics, lighting and daylighting, air movement, indoor
+envionmental quality, controls and operations, and performance under extreme
+event conditions.
+
+The program has been designed to include: 
+
+*	Research presentations and poster sessions (peer reviewed) 
+
+*	Technical presentations (not peer reviewed) 
+
+*	Software demonstrations    
+
+*	Simulation workshops 
+
+*	Discussion forums 
+
+*	Info and job fairs 
+
+There will be opportunities for researchers to present and discuss new
+methods, vendors to demonstrate their products and deliver workshops, and
+architecture and engineering firms to examine new tools and meet future
+employees.
+
+For more information on the conference, please visit the conference web site
+at:
+ <http://www.ibpsa.us/SimBuild2004> http://www.ibpsa.us/SimBuild2004
+
+We look forward to your participation and hope to see you in Boulder  later
+this summer!
+
+The Organizing Committee of SimBuild 2004 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040614/8a79ec0d/attachment.htm>
+
+From hvac at cx-assoc.com  Mon Jun 14 03:45:45 2004
+From: hvac at cx-assoc.com (Tom Anderson)
+Date: Mon, 14 Jun 2004 06:45:45 -0400
+Subject: [BLDG-SIM] Certified Energy Engineer or Professional
+References: <MDAEMON-F200406140415.AA1540859pd80000194047@gard.com>
+Message-ID: <MDAEMON-F200406140546.AA4652562pd80000214810@gard.com>
+
+The AEE, Assoc. of Energy Engineers offers the CEM certification....
+Certified Energy Manager.
+
+This certification is of debatable value, in my opinion.  In my work, I
+have worked with many who have acquired this certification.  Many
+individuals I found barely had competence in efficiency and knew little
+of common HVAC systems and applications.
+
+I suppose it is like any certification or professional registration...
+there are those who are highly skilled and quite capable, and others
+marginally so.
+
+
+     Thomas E. Anderson
+     President
+     Cx Associates, Ltd.
+     Building Commissioning Specialists
+     http://www.cx-assoc.com
+     933 Road 101
+     Jeffersonville, Vermont 05464 USA
+     hvac at cx-assoc.com
+                     Tel: 802-644-5616 Fax: 802-644-6797
+
+Ahmed Fraij wrote:
+
+>  Dear All,    Do you know which organizations and/or associations can
+> give certification for energy engineers or professionals? for
+> instance: certified energy engineer or energy accredited professional
+> particularly for engineers who work in energy management &
+> conservation fields. Awaiting your reply Thanks & Best Regards Ahmad
+> Fraij
+> -----------------------------------------------------------------------
+> Do you Yahoo!?
+> Friends. Fun. Try the all-new Yahoo! Messenger
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040614/178cdc5e/attachment.htm>
+
+From fraij at yahoo.com  Mon Jun 14 02:14:17 2004
+From: fraij at yahoo.com (Ahmed Fraij)
+Date: Mon, 14 Jun 2004 02:14:17 -0700 (PDT)
+Subject: [BLDG-SIM] Certified Energy Engineer or Professional
+Message-ID: <MDAEMON-F200406140415.AA154131pd80000214735@gard.com>
+
+Dear All,
+ 
+   Do you know which organizations and/or associations can give certification for energy engineers or professionals? for instance: certified energy engineer or energy accredited professional particularly for engineers who work in energy management & conservation fields.
+ 
+Awaiting your reply
+ 
+Thanks & Best Regards
+ 
+Ahmad Fraij
+
+
+		
+---------------------------------
+Do you Yahoo!?
+Friends.  Fun. Try the all-new Yahoo! Messenger
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040614/aa8f9a40/attachment.htm>
+
+From Peter_Ellis at nrel.gov  Thu Jun 10 16:52:32 2004
+From: Peter_Ellis at nrel.gov (Ellis, Peter)
+Date: Thu, 10 Jun 2004 17:52:32 -0600
+Subject: [BLDG-SIM] IBPSA-USA Meeting Announcement
+Message-ID: <MDAEMON-F200406101853.AA5357984pd80000209395@gard.com>
+
+Please excuse the cross-postings...
+
+
+
+IBPSA
+International Building Performance Simulation Association
+USA Affiliate
+
+IBPSA-USA invites you to join us in Nashville for our Summer 2004 meeting!
+
+
+Meeting Highlights: 
+                    Prospective collaboration with USGBC on educational module
+                    Improving the IBPSA-USA web site content
+                    Social Hour and Dinner
+                    Guest Speaker:  Charles Eley, Principal, Architectural Energy Corporation
+
+
+
+IBPSA-USA MEETING ANNOUNCEMENT
+Dinner RSVP requested (see below)
+4 PM, Saturday, June 26, 2004
+Nashville, Tennessee
+
+
+Location:     Santa Fe Cattle Company
+                    2520 Music Valley Drive, (located about 1 mile North of Opryland on Hwy 155)
+                    Nashville, TN
+
+4:00 PM - 6:00 PM    Meeting
+                    The main topic for the meeting will be the prospective collaboration with the 
+                    US Green Building Council to develop an educational module on simulation for 
+                    sustainable design.
+                    We will also brainstorm for ideas to revamp and improve the IBPSA-USA web 
+                    site content.
+
+6:00 PM - 7:00 PM    Social hour with cash bar
+
+7:00 PM    Dinner
+                    Order from the menu (~$15)
+
+8:00 PM (approx)    After-dinner talk
+                    Charles Eley, FAIA
+                    Principal, Architectural Energy Corporation
+                    Title: "Public and Private Sector Roles in Simulation Tool Development"
+
+Reservations:      Space is limited so reservations are requested!  To make a reservation contact Peter Ellis <peter_ellis at nrel.gov> via email by June 23, 2004, 5 PM (MST).  Confirmation of reservations will be sent via email (if you do not receive a confirmation within two business days, please resend your reservation request).
+
+For the latest information on the IBPSA-USA meeting in Nashville, please visit our web site: http://www.ibpsa.org/ibpsa_usa
+
+We look forward to seeing you there!
+
+Philip Haves                            Peter Ellis
+President, IBPSA-USA            Secretary, IBPSA-USA 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040610/09272d0f/attachment.htm>
+
+From jfk at geopraxis.com  Tue Jun  8 20:29:12 2004
+From: jfk at geopraxis.com (John F. Kennedy)
+Date: Tue, 8 Jun 2004 20:29:12 -0700
+Subject: [BLDG-SIM] AEC Building Design Practice Survey 2004, win an Apple iPod mini!
+Message-ID: <MDAEMON-F200406082230.AA3038765pd80000205697@gard.com>
+
+GeoPraxis and Pacific Gas & Electric, in conjunction with McGraw-Hill
+Construction, Autodesk, and Bentley Systems, are conducting a detailed study
+of CAD usage in Architectural, Engineering and Construction building design
+practice. Complete the web survey and qualify to win one of ten AppleR iPod
+minis. 
+ 
+The study updates results of market research conducted by GeoPraxis in 1999
+and 2000, and has been expanded to address the movement to BIM and 3D-CAD
+tools, interoperability between systems, as well as Green Building design
+and LEED qualification. Results will be published in late Summer 2004. A
+drawing of all qualified completed survey respondents will select ten AppleR
+iPod minis prize winners. Winners will be announced on June 18, 2004 on the
+Green Building Studio website at
+<blocked::http://www.greenbuildingstudio.com/> www.GreenBuildingStudio.com. 
+ 
+To participate in the survey click on the link below, and follow the simple
+instructions for the 10 minute web survey.  
+ 
+Take the survey at the following URL.
+<http://vista-survey.com/survey/v1/survey.dsb?ID=1097094743>
+http://vista-survey.com/survey/v1/survey.dsb?ID=1097094743
+ 
+Thanks,
+John F. Kennedy
+President & CTO
+
+GeoPraxis, Inc.
+www.geopraxis.com <http://www.geopraxis.com/> 
+www.greenbuildingstudio.com <http://www.greenbuildingstudio.com/> 
+707.766.7010 v
+707.766.7014 f
+707.235.1335 c 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040608/4733c6cb/attachment.htm>
+
+From annazhou at geopraxis.com  Tue Jun  8 10:23:10 2004
+From: annazhou at geopraxis.com (Zhou, Anna)
+Date: Tue, 8 Jun 2004 10:23:10 -0700
+Subject: [BLDG-SIM] Evaporative precooling increases system peak cooling load?
+In-Reply-To: <87ABE502954C774A85A48D1D492E308F722B8B@spokane-mx1.itron.com>
+Message-ID: <MDAEMON-F200406081231.AA3113609pd80000204799@gard.com>
+
+Did you meet the same problem before?
+
+-----Original Message-----
+From: Ramirez, Bob [mailto:Bob.Ramirez at itron.com]
+Sent: Tuesday, June 08, 2004 9:15 AM
+To: annazhou at geopraxis.com
+Subject: RE: [BLDG-SIM] Evaporative precooling increases system peak
+cooling load?
+
+
+Hi Anna
+
+I can't give you any insight, but I would be very interested in any
+responses you get since we are also using eQUEST.
+
+Thanks!
+
+Bob
+
+Bob Ram?rez, P.E. > Senior Engineer
+Itron, Inc. > 11236 El Camino Real > San Diego, CA  92130-2650
+858.481.0081 X 427 tel > 858.481.7550 fax
+Bob.Ramirez at Itron.com
+www.itron.com
+
+
+
+-----Original Message-----
+From: Zhou, Anna [mailto:annazhou at geopraxis.com]
+Sent: Tuesday, June 08, 2004 9:16 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Evaporative precooling increases system peak cooling
+load?
+
+
+Hello everyone,
+
+While using eQuest (DOE2.2), I have noticed that each time evaporative
+precooling is used (indirect, or indirect/direct), the system peak cooling
+load increases (from ss-d report).
+
+Can anyboby give me some insight why this is happenning?
+
+Thanks a lot!
+
+Anna
+
+
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+This message was scanned for viruses!!
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From annazhou at geopraxis.com  Tue Jun  8 10:22:12 2004
+From: annazhou at geopraxis.com (Zhou, Anna)
+Date: Tue, 8 Jun 2004 10:22:12 -0700
+Subject: [BLDG-SIM] Evaporative precooling increases system peak cooling load?
+In-Reply-To: <1E3161EA38691A4F833DC86577D310DC03746D@core.core>
+Message-ID: <MDAEMON-F200406081230.AA303200pd80000204795@gard.com>
+
+Vikram,
+
+I tried to use indirect evaporative cooling only, the peak cooling load
+decreases from the (indirect/direct case) but still larger than the base
+case (without evap.precooling.)
+Also, if change the fraction of the air that's evaporative precooling to be
+a smaller value, same as above.
+So, the latent load does play a role in the increasing of the peak load but
+should not be the only reason.
+
+Hourly report shows :
+
+1. if total system flow rate is autosized, the total system flow is lower in
+the evap. precooling case than the normal case. And during the peak day, for
+the test building, the evap. precooling allways uses 100% OA, while the
+normal case uses the minimum OA.
+2. if the total system flow is manually defined. The total peak system flow
+is same for both cases. But the evap. precooling still uses 100% OA on the
+peak day.
+
+So, I suspect, another reason might be the more amount of OA, or less amount
+of total system air?
+
+Anna
+
+-----Original Message-----
+From: Vikram Sami [mailto:Vikram at ensargroup.com]
+Sent: Tuesday, June 08, 2004 9:05 AM
+To: annazhou at geopraxis.com
+Subject: RE: [BLDG-SIM] Evaporative precooling increases system peak
+cooling load?
+
+
+Anna,
+I'm not sure, but it could be that since you are using evap cooling, the
+latent loads might be adding to the overall peak cooling loads. What is
+the dry bulb high limit that you have set? Does the overall building
+energy reduce?
+
+Vikram Sami
+
+Ensar Group Inc.
+2305 Broadway
+Boulder, CO 80304
+Tel: (303) 449-5226
+Fax: (303) 449-5276
+
+
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Zhou, Anna
+Sent: Tuesday, June 08, 2004 10:16 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Evaporative precooling increases system peak cooling
+load?
+
+
+Hello everyone,
+
+While using eQuest (DOE2.2), I have noticed that each time evaporative
+precooling is used (indirect, or indirect/direct), the system peak
+cooling load increases (from ss-d report).
+
+Can anyboby give me some insight why this is happenning?
+
+Thanks a lot!
+
+Anna
+
+
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From annazhou at geopraxis.com  Tue Jun  8 09:15:57 2004
+From: annazhou at geopraxis.com (Zhou, Anna)
+Date: Tue, 8 Jun 2004 09:15:57 -0700
+Subject: [BLDG-SIM] Evaporative precooling increases system peak cooling load?
+Message-ID: <MDAEMON-F200406081117.AA172200pd80000204656@gard.com>
+
+Hello everyone,
+
+While using eQuest (DOE2.2), I have noticed that each time evaporative
+precooling is used (indirect, or indirect/direct), the system peak cooling
+load increases (from ss-d report).
+
+Can anyboby give me some insight why this is happenning?
+
+Thanks a lot!
+
+Anna
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jmaxwell at aspensys.com  Tue Jun  1 09:21:34 2004
+From: jmaxwell at aspensys.com (Jon Maxwell)
+Date: Tue, 1 Jun 2004 11:21:34 -0500
+Subject: [BLDG-SIM] Fan and Pump Load Data Search
+Message-ID: <MDAEMON-F200406011123.AA2321562pd80000190869@gard.com>
+
+Is anyone aware of or in possession of fan and pump load distribution curves
+for variable flow applications as a product of building simulation modeling,
+metering, or other?  If so, I would welcome the information or direction to
+it.  Obviously much of this would be location and building
+configuration-specific.  Anecdotal data for specific sites/locations,
+typical representative values, and statistical aggregations of a larger
+sample all would be welcome.  Thank you in advance.
+
+Jon Maxwell, PE
+Aspen Systems
+710 Park Place
+College Station, TX 77840
+(979) 764-6779
+www.aspensys.com
+
+Example of desired data:
+                   Percentage of
+%Flow       Hours Per Year
+-------       ----------------
+Off                    30%
+1-9%                  0%
+10-19%              0%
+20-29%              0%
+30-39%             20%
+40-49%             15%
+50-59%             11%
+60-69%             10%
+70-79%               7%
+80-89%               4%
+90-99%               2%
+100%                  1%
+--------            --------------------
+TOTAL            100%=8,760 hr/yr
+
+Examples of applications of interest:
+    - VAV supply, return, and exhaust fans
+    - VAV dual duct supply, return, and exhaust fans
+    - VSD chilled, hot water pumps with 2-way control valves
+    - Single speed, two speed, and VSD cooling tower fans
+    - Cooling tower pumps
+    - VSD DHW pumps
+    - Boiler FD fans
+    - Kiln drying fans
+    - Refrigeration evaporator fans
+
+Opinions on the worth of such data?  Of use for case studies, but beyond
+that, do you think it always need to be metered or modeled for a specific
+site to be useful?
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

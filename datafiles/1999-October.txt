@@ -1,0 +1,499 @@
+From jhernand at dmu.ac.uk  Sun Oct 31 09:11:02 1999
+From: jhernand at dmu.ac.uk (Jose Hernandez)
+Date: Sun, 31 Oct 1999 17:11:02 -0000
+Subject: [BLDG-SIM] Underfloor heating (electric/hot water)
+Message-ID: <MDAEMON-F199910311113.AA132485MD86320@gard.com>
+
+
+
+I am interested in simulation of heating systems and particularly in
+underfloor heating
+systems.
+Do you think that hydronic is better than electric undefloor heating?
+ I suppose that the problem with the latter can be the lack of an
+appropriate control
+or do you consider that the problem is the heat source itself?
+My interests will be focused on the heat storage (at off-peak hours) and
+heat release and distribution in heavy weight construction making use of
+underfloor (electric if possible) heat. Would you give any chance to ceiling
+heating considering the low height of rooms in dwellings? And do you know
+any system (hot water/electric) to be placed withing walls?
+Please, if you know where I can find more info (books, brochures, companies,
+web sites,...) about this or other related issues, let me know.
+
+***********
+Jose Hernandez de Pedro
+jhernand at dmu.ac.uk
+
+Tel.  +44 (0)116 255 1551 ext. 8711
+Fax: +44 (0) 116 257 7981
+
+Research Student
+Institute of Energy & Sustainable Development,
+De Montfort University,
+Netherleys Building, Scraptoft Campus,
+Scraptoft, Leicester. LE7 9SU.
+UK.
+*****************
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bob at rer.com  Fri Oct 29 09:06:59 1999
+From: bob at rer.com (Bob Ramirez)
+Date: Fri, 29 Oct 1999 09:06:59 -0700
+Subject: [BLDG-SIM] Modeling an Enclosed Shopping Mall
+Message-ID: <MDAEMON-F199910291114.AA141000MD85900@gard.com>
+
+Hi all
+
+I haven't seen any action from this list for awhile, but I think I have a
+good one.
+
+Does anyone have experience simulating an enclosed shopping mall in DOE-2?
+If so, I'd be interested in knowing what kind of an approach you used.  Both
+a package unit based and central-system type HVAC systems would be
+considered.  I'm especially interested in how (or if) you handled the tenant
+space/common area interactions, and any other special concerns to be aware
+of for these unique building types.
+
+Any thoughts would be appreciated.  Thanks!
+
+
+Bob Ramirez
+
+
+Bob Ram?rez (bobram at rer.com or bob at rer.com)
+Senior Engineer
+
+Regional Economic Research, Inc.             http://www.rer.com
+11236 El Camino Real, San Diego, CA 92130
+Phone: 619.481.0081 ext. 427
+FAX: 619.481.7550
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bseaton at ASHRAE.org  Thu Oct 28 13:29:52 1999
+From: bseaton at ASHRAE.org (Seaton, Bill)
+Date: Thu, 28 Oct 1999 16:29:52 -0400
+Subject: [BLDG-SIM] NEW ASHRAE PROJECTS READY TO BID
+Message-ID: <MDAEMON-F199910281527.AA270632MD85671@gard.com>
+
+To: Interested Bidders
+
+Today, eleven new requests for proposal were added to the ASHRAE Home Page
+(www.ashrae.org).  This brings to 16 the number of RFPs currently listed.
+Please forward this reminder to any of your colleagues who may have an
+interest in submitting proposals.
+
+One additional RFP on the preparation of a User's Manual for Standard 15
+will be added in the next several days.  Please check the web site later if
+you have an interest in this subject.
+
+(Those who have expressed interest in receiving these notifications are
+receiving this e-mail as a "Blind Copy" in order to reduce the length of the
+address header)
+
+Bill Seaton
+
+
+William W. Seaton              bseaton at ashrae.org
+Manager of Research           Ph.  404-636-8400
+1791 Tullie Circle                 Fax  404-321-5478
+Atlanta, GA 30329
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kelsey at kw-energy.com  Thu Oct  7 09:10:52 1999
+From: kelsey at kw-energy.com (Jim Kelsey)
+Date: Thu, 07 Oct 1999 09:10:52 -0700
+Subject: [BLDG-SIM] How to estimate direct beam and diffuse radiation from total horizontal?
+References: <MDAEMON-F199910070618.AA181815MD65880@gard.com>
+Message-ID: <MDAEMON-F199910071058.AA580337MD81200@gard.com>
+
+
+From bradley at sel.me.wisc.edu  Thu Oct  7 07:57:41 1999
+From: bradley at sel.me.wisc.edu (David Bradley)
+Date: Thu, 07 Oct 1999 09:57:41 -0500
+Subject: [BLDG-SIM] How to estimate direct beam and diffuse radiation from
+  total horizontal?
+Message-ID: <MDAEMON-F199910070951.AA512160MD81175@gard.com>
+
+There are a number of models ranging in complexity for calculating beam
+from total. The book Solar Engineering of Thermal Processes (Duffie and
+Beckman 1991) lays out all the various models in quite a bit of detail.
+-David
+
+>From: "Jason Glazer" <jglazer at gard.com>
+>Organization: GARD Analytics
+>To: <BLDG-SIM at gard.com>
+>Date: Thu, 7 Oct 1999 09:11:58 -0500
+>Subject: [BLDG-SIM] How to estimate direct beam and diffuse radiation from
+total horizontal?
+>Priority: normal
+>X-mailer: Pegasus Mail for Win32 (v3.11)
+>X-MDaemon-Deliver-To: bradley at sel.me.wisc.edu
+>X-Return-Path: JGlazer at gard.com
+>Sender: Postman at gard.com
+>X-MDMailing-List: BLDG-SIM at gard.com
+>X-MDSend-Notifications-To: Postman at gard.com
+>Reply-To: JGlazer at gard.com
+>
+>ASHRAE's "Annotated Guide to Load Calculation Models and 
+>Algorithms" has a subsection devoted to solar radiation.  
+>It doesn't include the algorithms but it does have a large 
+>number of references to papers containing algorithms.
+>
+>Jason
+>
+>On 6 Oct 99, at 21:21, Vikas Shrestha wrote:
+>
+>> Hello!
+>> 
+>> I have hourly data on total horizontal radiation for Kathmandu, Nepal. I
+>> need to derive direct beam radiation and diffused radiation. I also do
+>> have hourly data on total sunshine hours and cloud cover.
+>> 
+>> Does anybody have the algorithm handy to calculate direct beam and
+>> diffused components? I would really appreciate your help.
+>> 
+>> Vikas Shrestha
+>> Graduate student
+>> Department of Architecture and Urban Design
+>> UCLA
+>> 
+>> 
+>> ======================================================
+>> You received this e-mail because you are subscribed 
+>> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+>> from this mailing list send a blank message to 
+>> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>> 
+>
+>
+>=========================================================
+>Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+>GARD Analytics - http://www.gard.com/
+>Building Energy Simulation and Analysis
+>List Administrator & 90.1 Consultant
+>
+>======================================================
+>You received this e-mail because you are subscribed 
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+David BRADLEY
+TRNSYS Engineer			Phone: (608) 263-1589
+Solar Energy Laboratory	bradley at sel.me.wisc.edu
+1500 Engineering Drive		Fax: (608) 262-8464
+Madison, WI  53706
+
+The SEL Web Site can be seen at: http://sel.me.wisc.edu
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Thu Oct  7 07:11:58 1999
+From: jglazer at gard.com (Jason Glazer)
+Date: Thu, 7 Oct 1999 09:11:58 -0500
+Subject: [BLDG-SIM] How to estimate direct beam and diffuse radiation from total horizontal?
+In-Reply-To: <MDAEMON-F199910070618.AA181670MD81063@gard.com>
+Message-ID: <MDAEMON-F199910070901.AA010865MD81147@gard.com>
+
+ASHRAE's "Annotated Guide to Load Calculation Models and 
+Algorithms" has a subsection devoted to solar radiation.  
+It doesn't include the algorithms but it does have a large 
+number of references to papers containing algorithms.
+
+Jason
+
+On 6 Oct 99, at 21:21, Vikas Shrestha wrote:
+
+> Hello!
+> 
+> I have hourly data on total horizontal radiation for Kathmandu, Nepal. I
+> need to derive direct beam radiation and diffused radiation. I also do
+> have hourly data on total sunshine hours and cloud cover.
+> 
+> Does anybody have the algorithm handy to calculate direct beam and
+> diffused components? I would really appreciate your help.
+> 
+> Vikas Shrestha
+> Graduate student
+> Department of Architecture and Urban Design
+> UCLA
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From vshresth at ucla.edu  Wed Oct  6 21:21:58 1999
+From: vshresth at ucla.edu (Vikas Shrestha)
+Date: Wed, 06 Oct 1999 21:21:58 -0700
+Subject: [BLDG-SIM] How to estimate direct beam and diffuse radiation from total horizontal?
+Message-ID: <MDAEMON-F199910070618.AA181670MD81063@gard.com>
+
+Hello!
+
+I have hourly data on total horizontal radiation for Kathmandu, Nepal. I
+need to derive direct beam radiation and diffused radiation. I also do
+have hourly data on total sunshine hours and cloud cover.
+
+Does anybody have the algorithm handy to calculate direct beam and
+diffused components? I would really appreciate your help.
+
+Vikas Shrestha
+Graduate student
+Department of Architecture and Urban Design
+UCLA
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bseaton at ASHRAE.org  Wed Oct  6 05:52:19 1999
+From: bseaton at ASHRAE.org (Seaton, Bill)
+Date: Wed, 6 Oct 1999 08:52:19 -0400
+Subject: [BLDG-SIM] RESEARCH PROJECTS READY TO BID
+Message-ID: <MDAEMON-F199910060749.AA493210MD80800@gard.com>
+
+Recently four new requests-for-proposal (RFPs) were placed on the ASHRAE
+Home Page  (www.ashrae.org).  You may view, print and download any of these
+by clicking on "Research" and then "Research Projects Ready To Bid".  You
+may also obtain the necessary forms and additional information needed to
+submit a bid from the same site.
+
+We expect additional projects will be posted in November, but please be
+advised that, due to funding limitations, there will be fewer than usual
+RFPs posted this year.
+
+Please share this announcement with any of your colleagues who may have an
+interest in these projects, or who may wish to be added to this announcement
+list.
+
+Thank you,
+
+Bill Seaton
+
+
+William W. Seaton              bseaton at ashrae.org 
+ASHRAE, Inc.
+Manager of Research            Ph.  404-636-8400
+1791 Tullie Circle             Fax  404-321-5478
+Atlanta, GA 30329
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kathy at srge.lbl.gov  Tue Oct  5 11:44:51 1999
+From: kathy at srge.lbl.gov (Kathy Ellington)
+Date: Tue, 5 Oct 99 11:44:51 PDT
+Subject: [BLDG-SIM] (No Subject)
+Message-ID: <MDAEMON-F199910051337.AA375303MD80590@gard.com>
+
+
+This survey has been sent to the following mailing lists:
+  bldg-sim at gard.com
+  tc47-l at gard.com
+  ibpsausa at gard.com
+  ibpsa at mailbase.ac.uk
+=========================================================
+
+October 5, 1999
+
+
+                DOE-2, BLAST and ENERGY-10 User Survey 
+
+The U.S. Department of Energy is supporting development of EnergyPlus,
+a new-generation building energy simulation program that combines the best
+features of DOE-2 and BLAST and adds other calculation capabilities.
+EnergyPlus is being developed by the University of Illinois, Lawrence
+Berkeley National Laboratory, the U.S. Army Construction Engineering
+Research Laboratory, Oklahoma State University and others.  EnergyPlus
+version 1.0 will be available in January 2001.
+
+If you are a user of DOE-2, BLAST or ENERGY-10 we'd like your advice on
+what features not already in these programs you would like to see in
+future versions of EnergyPlus. (EnergyPlus will be of interest to
+ENERGY-10 users since it is planned to replace ENERGY-10's calculation
+engine with EnergyPlus).
+
+We'd also like to know how you're currently using DOE-2, BLAST or ENERGY-10.
+The information you provide will help in our planning and program-design
+efforts to assure that the EnergyPlus engine meets your simulation needs.
+
+So please take a few minutes to fill out the following questionnaire.  We
+would appreciate your response even if you participated in a similar (DOE-2)
+survey done in 1995.  Please mail, fax or e-mail your completed
+questionnaire by December 15, 1999 to:
+
+Kathy Ellington
+Simulation Research Group
+MS 90-3147
+Lawrence Berkeley National Laboratory
+Berkeley CA 94720
+
+Fax: 510-486-4089
+E-mail: kathy at srge.lbl.gov
+
+For your convenience, a PDF version of this questionnaire is available
+on the Web at http://gundog.lbl.gov under "EnergyPlus > User Survey"
+
+QUESTIONNAIRE
+
+Name (optional)
+--------------------------------------------------------------------------
+Organization
+--------------------------------------------------------------------------
+Address
+--------------------------------------------------------------------------
+Email
+--------------------------------------------------------------------------
+
+Type of organization (A/E, energy consultancy, university, government, etc.)
+
+Size of organization (number of employees)
+
+Your profession (architect, HVAC engineer, energy consultant, researcher, etc.)
+
+Program that you are using (DOE-2, BLAST or ENERGY-10)
+
+  (If you are using more than one of these Programs please fill out
+   a separate questionnaire for each.)
+
+Version of Program
+
+Purpose for using Program
+  Required by client             yes  no
+  Required by energy standard    yes  no
+  Speed up design                yes  no
+  Provide confidence in design   yes  no
+  Size HVAC equipment            yes  no
+  Choose among HVAC equipment alternatives  yes  no
+  Evaluate building envelope alternatives   yes  no
+  Reduce energy use and/or cost  yes  no
+  Evaluate complex strategies    yes  no
+  Increase company's competitiveness        yes  no
+  Other
+
+Why you chose the Program (accuracy?  ease of use?  well known?)
+
+Years using Program
+
+Earliest stage of design process that you use the Program (Schematic design, Design development, After design is finished)
+
+
+Principal things you like about the Program
+
+
+Principal things you dislike about the Program or frustrations in using the program
+
+
+Type of buildings analyzed (office, retail, school, residential, etc.)
+
+
+Number of buildings and total floor area analyzed with program in LAST TWO YEARS
+New buildings:                  Number ________  Floor area ______________
+Existing buildings (retrofits)  Number ________  Floor area ______________
+
+Number of buildings and total floor area analyzed with program TO DATE
+New buildings                   Number ________  Floor area ______________
+Existing buildings (retrofits)  Number ________  Floor area ______________
+
+Estimated range of predicted percent energy savings from using Program
+(e.g., 10-20%)
+
+
+Names of some buildings on which you used the Program
+
+
+Calculation features not in the Program that you'd like to see in EnergyPlus
+
+
+Recommendations for improving usability of the Program
+
+
+Other building energy and design tools you use
+
+
+Other comments and suggestions
+
+
+I want to become an EnergyPlus beta tester         YES        NO
+
+
+I want to become an EnergyPlus program developer   YES        NO
+
+
+I want to receive the free quarterly newsletter,   YES        NO
+"Building Energy Simulation User News"
+(requires full name and mailing address).
+
+Note:
+We will post the results of the survey to the Simulation Resarch Group
+website (http://gundog.lbl.gov) during the first quarter of 1999.
+Results will also appear in the Spring issue of our newsletter.
+
+PLEASE DO NOT RESPOND TO THIS SURVEY DIRECTLY; instead, print it
+off and fax us the results or save it to a file, complete it and email
+it to KLEllington at lbl.gov.  Thank you.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

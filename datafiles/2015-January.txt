@@ -1,0 +1,1875 @@
+From jra_sac at yahoo.com  Fri Jan  2 10:27:46 2015
+From: jra_sac at yahoo.com (John Aulbach)
+Date: Fri, 2 Jan 2015 18:27:46 +0000 (UTC)
+Subject: [Bldg-sim] Sea water condenser cooling for chiller
+Message-ID: <216844279.2226907.1420223266717.JavaMail.yahoo@jws100147.mail.ne1.yahoo.com>
+
+It appears eQuest cannot use anything but air to cool chillers. I believe water source heat pumps can. Does anyone have a suggestion as to how to model this?
+Thanks.
+John R. Aulbach, PE
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150102/323ffec5/attachment.htm>
+
+From vikram.sami at zgf.com  Mon Jan  5 17:57:57 2015
+From: vikram.sami at zgf.com (Sami, Vikram)
+Date: Tue, 6 Jan 2015 01:57:57 +0000
+Subject: [Bldg-sim] Sea water condenser cooling for chiller
+In-Reply-To: <216844279.2226907.1420223266717.JavaMail.yahoo@jws100147.mail.ne1.yahoo.com>
+References: <216844279.2226907.1420223266717.JavaMail.yahoo@jws100147.mail.ne1.yahoo.com>
+Message-ID: <35963b3f1f0646b08fb1e4bc7e26a4c8@sea-email-1.zgf.local>
+
+eQUEST can model a water cooled chiller attached to a condenser water loop. You can attach the condenser loop to a ground loop heat exchanger.
+
+Haven?t tried this myself, but there is an option for a lake/well loop where you can attach a temperature schedule to the loop. I would try experimenting with this.
+
+Vikram Sami
+BEMP, LEED BD+C
+Associate Partner
+
+
+
+ZGF ARCHITECTS LLP
+T 206.521.3509 E vikram.sami at zgf.com
+925 Fourth Avenue, Suite 2400
+Seattle, WA 98104
+
+
+From: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of John Aulbach
+Sent: Friday, January 02, 2015 10:28 AM
+To: bldg-sim at onebuilding.org
+Subject: [Bldg-sim] Sea water condenser cooling for chiller
+
+It appears eQuest cannot use anything but air to cool chillers. I believe water source heat pumps can. Does anyone have a suggestion as to how to model this?
+
+Thanks.
+
+John R. Aulbach, PE
+ZGF Email Disclaimer<https://www.zgf.com/ZGF_Email_Disclaimer.html>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150106/aedd8f28/attachment.htm>
+
+From d.bradley at tess-inc.com  Mon Jan  5 20:35:13 2015
+From: d.bradley at tess-inc.com (David BRADLEY)
+Date: Mon, 05 Jan 2015 22:35:13 -0600
+Subject: [Bldg-sim] February 2015 TRNSYS Training Announcement
+Message-ID: <54AB6601.1050709@tess-inc.com>
+
+Dear Colleagues,
+   Thermal Energy System Specialists is pleased to announce that they 
+will be hosting a three day TRNSYS Training Course in Madison, WI on 
+February 16-18 with an optional 4th day (February 19) spent on a 
+coupling between TRNSYS and the NIST multizone building air flow model 
+CONTAM. The course will cover an introduction to the TRNSYS software 
+package, advanced topics and systems in TRNSYS, and building energy 
+modeling in TRNSYS. Please visit the website for an outline, 
+registration form and more information:
+
+http://tess-inc.com/trnsys/schedule-2015-winter
+
+For more information about the energy and building simulation software 
+package, TRNSYS, please visit either http://www.trnsys.com or 
+http://sel.me.wisc.edu/trnsys.
+
+For additional information about CONTAM please visit: 
+http://www.bfrl.nist.gov/IAQanalysis/CONTAM/index.htm
+
+If you have any questions or concerns, please do not hesitate to contact 
+me.
+
+Best regards,
+   David Bradley
+
+-- 
+***************************
+David BRADLEY
+Principal
+Thermal Energy Systems Specialists, LLC
+22 North Carroll Street - suite 370
+Madison, WI  53703 USA
+
+P:+1.608.274.2577
+F:+1.608.278.1475
+d.bradley at tess-inc.com
+
+http://www.tess-inc.com
+http://www.trnsys.com
+
+
+From sayala81 at gmail.com  Tue Jan  6 10:03:53 2015
+From: sayala81 at gmail.com (Steven Ayala)
+Date: Tue, 6 Jan 2015 10:03:53 -0800
+Subject: [Bldg-sim] Call for Nominations Closing Soon: IBPSA-USA Board of
+	Directors
+Message-ID: <CAHnj2X7CsN+iZEjGX2T4Cw_hccCtf-e8L4qLvyBJdN2JvkXmxw@mail.gmail.com>
+
+Greetings:
+
+Just a friendly reminder that the nomination period for new IBPSA-USA Board
+of Directors members is closing January 9th!
+
+The election of board members will take place *January 24, 2015* at
+the IBPSA-USA
+meeting in Chicago
+<http://us3.campaign-archive1.com/?u=545ecdecc811a6e412a8810dd&id=a89ba38902&e=[UNIQID]>.
+All IBPSA-USA members are eligible to vote either in person or by proxy.
+Board members serve two-year terms; the next board will serve from February
+2015 through January 2017. All twelve board seats are open for election, as
+the full board is re-elected each cycle.
+
+All persons interested in serving on the board (or wishing to nominate
+someone) must send a brief statement (4-5 sentences) to the Acting
+Secretary (robert.guglielmetti at nrel.gov) listing why you are interested in
+serving as a board member, as well as a resume.
+
+*The nomination period closes January 9th, 2015, midnight EST*
+
+_________________________________________________________
+
+*Price Change for IBPSA-USA Membership*
+
+We also wanted to let everyone know about our recent membership price
+change. The fee for all membership levels with IBPSA-USA is now half of the
+previous cost.
+
+*Member Level:* $45, from $90
+*Student Level:* $10, from $20
+
+All members who've already paid their membership fees for 2014 (up to Dec.
+11th) at the original price has had their 2015 membership waived. This will
+ensure everyone gets to benefit from our recent price change.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150106/a3ae5484/attachment.htm>
+
+From ghampsmire at usgbc.org  Tue Jan  6 14:46:34 2015
+From: ghampsmire at usgbc.org (Gail Hampsmire)
+Date: Tue, 6 Jan 2015 22:46:34 +0000
+Subject: [Bldg-sim] HELP WANTED: GBCI (USGBC) - Energy Team LEED
+	Certification Reviewer
+Message-ID: <BLUPR08MB32559BEFA8EAE9BDB70B680DD590@BLUPR08MB325.namprd08.prod.outlook.com>
+
+This position may be performed in Washington, DC or remotely within the United States.
+
+
+
+USGBC is seeking a green building specialist with expertise in energy modeling to provide technical expertise for LEED certification and the advancement of the LEED Rating Systems as an Energy Team LEED Certification Reviewer. Compensation includes an excellent benefits package, including 100% employer-paid premiums on healthcare and employer-matching 401(k) program.
+
+
+
+Please submit resume and letter of interest, with salary requirements and title of position applying for, via email to jobs at usgbc.org<mailto:jobs at usgbc.org> copied to ghampsmire at usgbc.org<mailto:ghampsmire at usgbc.org> or fax to 202-478-5046<tel:202-478-5046>, attn: Human Resources. Please indicate where you saw the posting for this opportunity. No phone calls please.
+
+JOB DESCRIPTION
+LEED Certification Reviewers serve as primary technical subject matter experts for the evaluation of projects pursuing LEED Certification. These individuals draw on cross-cutting knowledge of, and direct experience with, the suite of LEED Rating Systems to serve as resources and problem-solvers for technical issues pertaining to LEED.
+Specific responsibilities include
+Primary responsibilities
+
+?         Review project documentation for prerequisites and credits for compliance with LEED requirements
+
+?         Provide expert review of EA Credit 1: Optimize Energy Performance, and related credits
+
+?         Educate the LEED marketplace through comments and technical advice to project teams
+
+?         Perform quality control (QC) review of work performed by other GBCI LEED Certification Reviewers and external review teams
+
+?         Provide technical support as needed to the LEED Customer Service team
+
+?         Contribute to the continued development and increased technical knowledge of fellow LEED Certification Reviewers through collaborative teamwork
+Secondary responsibilities
+
+?         Assist in developing, reviewing, and refining LEED programs, policies and plans, as well as specific LEED credit language and reference materials
+
+?         Assist in conceiving and developing improvements to LEED and the certification review process based on personal knowledge and vision, or user feedback
+
+?         Liaise with USGBC Technical Development team, LEED Technical Advisory Groups,
+
+?         USGBC Resource Development team, USGBC Education team, GBCI Credentialing team, and other internal and external groups as needed
+
+?         Maintain currency of expertise by staying abreast of new and developing industry issues and trends
+
+?         (For senior candidates) Assist with mentoring other team members and provide other limited team management duties as needed.
+
+?         Other duties as assigned
+
+
+Education and training requirements/preferences
+
+?         Bachelor?s degree (Master?s degree preferred) in mechanical or energy engineering or equivalent
+
+?         Professional engineer license preferred
+
+?         CEM certification preferred
+
+?         LEED AP required upon hire; with specialty preferred (BD+C, ID+C)
+
+?         LEED Certification Reviewer certificate preferred (required after hire)
+
+Experience requirements
+
+?         Minimum 2, 5, 7, 10 years direct professional experience (depending on level) in mechanical system design, energy modeling, commissioning and energy auditing
+
+?         Direct experience with at least 10 energy models for commercial projects by consulting on, creating or reviewing compliance with ASHRAE Std. 90.1, California?s Title-24 or equivalent local code
+
+?         Experience with a variety of high-performance building projects, including LEED projects
+
+?         Direct experience using energy modeling programs for commercial buildings (eQuest, EnergyPro, Trace, HAP, Visual DOE, IES, EnergyPlus, etc.) and understanding of their input and output summary documentation
+
+?         Ability to read, understand and interpret building floor plans, sections, site plans, construction specifications, mechanical schedules, commissioning reports and operational policies
+
+?         Detailed technical understanding of and experience with common environmental building codes and standards (e.g., ASHRAE 90.1, ASHRAE 62.1, ASHRAE 55, California Title 24, IPMVP Vol. III, IESNA RP-33, ASHRAE 189, IECC)
+
+Additional qualifications
+
+?         Passion and commitment to USGBC mission
+
+?         Excellent judgment, analytical thinking, and problem-solving skills
+
+?         Detail-oriented and able to prioritize
+
+?         Experience serving in technical consultative role
+
+?         Excellent written and verbal communication skills, including technical writing
+
+?         Excellent ability to clearly explain advanced technical issues in manner that is easily understood
+
+?         Strong interpersonal and customer service skills
+
+?         Strong sense of personal responsibility and accountability for delivering high quality work
+
+?         Ability to work well both independently and on teams
+
+?         Willingness to self-initiate
+
+?         Strong computer skills, including proficiency in MS Office suite and LEED Online
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150106/edcee77c/attachment-0001.htm>
+
+From KKyte at watts-ae.com  Wed Jan  7 08:44:17 2015
+From: KKyte at watts-ae.com (Kevin Kyte)
+Date: Wed, 7 Jan 2015 11:44:17 -0500
+Subject: [Bldg-sim] LEED Review Comment:  Spaces served by Unit Heaters
+Message-ID: <01D1D17822CC9A42A183AFD8AF282D390139DE6B6E09@wattsexch.wattsae.local>
+
+Sorry for the cross-postings.
+
+3. It is unclear how the spaces served by unit heaters have been modeled in the Baseline model. Provide a clarification narrative on the modeling methodology with regards to system sizing, fan power, and capacities.
+
+
+
+It is unclear why this comment is stated for a project pursuing version 2.2.  A space served by a unit heater must be modeled with cooling identical to its system modeled in baseline per ASHRAE 90.1-2004 Table G3.1.10.d.  A unit heater is not acceptable criteria for exception to G3.1.1.  Therefore if a building baseline HVAC system type is regarding as VAV then spaces served by unit heaters must also have a VAV baseline HVAC system type.
+
+
+
+It is understood that ASHRAE 90.1-2010 contains an exception to Table G3.1.10.d and that G3.1.1 contains exception e.  However, this should not apply to V2.2.
+
+
+
+Am I missing something again or is this a plug-in comment from later versions?
+
+
+
+Thank you.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150107/def22c7d/attachment.htm>
+
+From KKyte at watts-ae.com  Thu Jan  8 12:52:14 2015
+From: KKyte at watts-ae.com (Kevin Kyte)
+Date: Thu, 8 Jan 2015 15:52:14 -0500
+Subject: [Bldg-sim] LEED Review Comment: Spaces served by Unit Heaters
+In-Reply-To: <4e1f5aa7cf844de65421b0122fe6e8b8@mail.gmail.com>
+References: <01D1D17822CC9A42A183AFD8AF282D390139DE6B6E09@wattsexch.wattsae.local>
+	<4e1f5aa7cf844de65421b0122fe6e8b8@mail.gmail.com>
+Message-ID: <01D1D17822CC9A42A183AFD8AF282D390139DE6B6F20@wattsexch.wattsae.local>
+
+Hi Nick, I see what you mean.  Essentially, the first paragraph of my post is the Review Comment.  Everything after is my rant.  I do not believe that a heating only space would automatically qualify for exception to G3.1.1 in ASHRAE 90.1-2004.  The post was only to verify that there was no other criteria for selecting baseline system types for heating only spaces in ASHRAE 90.1-2004 other than the baseline system type tables.
+
+Yes, my response was to clarify compliance with 2004 and I did leave out reference to 2010.
+
+Thanks,
+Kevin
+
+From: Nicholas Caton [mailto:ncaton at catonenergy.com]
+Sent: Thursday, January 08, 2015 2:43 PM
+To: Kevin Kyte; bldg-sim at lists.onebuilding.org
+Cc: bldg-rate at lists.onebuilding.org
+Subject: RE: [Bldg-sim] LEED Review Comment: Spaces served by Unit Heaters
+
+Kevin,
+
+The formatting below leaves me confused as to where the comment ends and your response begins (and ends again?)?
+
+If your models are in compliance with 90.1-2004, I think the core request here is to clarify that?s the case.  Describe fully how the spaces in question are handled in the Proposed and Baseline case, and cite the specific passages and exceptions (if any) applied.  Evoking later editions of 90.1 (specifically baseline systems 9 and/or 10) may unnecessarily confuse the issue.
+
+Along the way, you should probably clarify whether you are or are not attempting to make the case for an exception under G3.1.1 (the text preceding table G3.1), as that also seems to be up in the air.  If you are, be sure to substantiate how the exception applies in your clarification.
+
+If after all this, the particulars of your project leave you unsure of how to apply 90.1-2004 for LEED v2.2 on this front, you may want to contact GBCI directly with the details using their ?contact us? form (wherein you may request a phone call if it?s necessary to convey the full situation):   www.gbci.org/ContactUs<http://www.gbci.org/ContactUs>
+
+Hope that helps!
+
+~Nick
+
+NICK CATON, P.E.
+Owner
+
+Caton Energy Consulting
+  1150 N. 192nd St., #4-202
+  Shoreline, WA 98133
+  office:  785.410.3317
+www.catonenergy.com
+
+From: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org<mailto:bldg-sim-bounces at lists.onebuilding.org>] On Behalf Of Kevin Kyte
+Sent: Wednesday, January 07, 2015 8:44 AM
+To: bldg-sim at lists.onebuilding.org<mailto:bldg-sim at lists.onebuilding.org>
+Cc: 'bldg-rate at lists.onebuilding.org<mailto:bldg-rate at lists.onebuilding.org>'
+Subject: [Bldg-sim] LEED Review Comment: Spaces served by Unit Heaters
+
+Sorry for the cross-postings.
+
+3. It is unclear how the spaces served by unit heaters have been modeled in the Baseline model. Provide a clarification narrative on the modeling methodology with regards to system sizing, fan power, and capacities.
+
+
+
+It is unclear why this comment is stated for a project pursuing version 2.2.  A space served by a unit heater must be modeled with cooling identical to its system modeled in baseline per ASHRAE 90.1-2004 Table G3.1.10.d.  A unit heater is not acceptable criteria for exception to G3.1.1.  Therefore if a building baseline HVAC system type is regarding as VAV then spaces served by unit heaters must also have a VAV baseline HVAC system type.
+
+
+
+It is understood that ASHRAE 90.1-2010 contains an exception to Table G3.1.10.d and that G3.1.1 contains exception e.  However, this should not apply to V2.2.
+
+
+
+Am I missing something again or is this a plug-in comment from later versions?
+
+
+
+Thank you.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150108/65150089/attachment.htm>
+
+From ncaton at catonenergy.com  Thu Jan  8 11:42:54 2015
+From: ncaton at catonenergy.com (Nicholas Caton)
+Date: Thu, 8 Jan 2015 11:42:54 -0800
+Subject: [Bldg-sim] LEED Review Comment: Spaces served by Unit Heaters
+In-Reply-To: <01D1D17822CC9A42A183AFD8AF282D390139DE6B6E09@wattsexch.wattsae.local>
+References: <01D1D17822CC9A42A183AFD8AF282D390139DE6B6E09@wattsexch.wattsae.local>
+Message-ID: <4e1f5aa7cf844de65421b0122fe6e8b8@mail.gmail.com>
+
+Kevin,
+
+
+
+The formatting below leaves me confused as to where the comment ends and
+your response begins (and ends again?)?
+
+
+
+If your models are in compliance with 90.1-2004, I think the core request
+here is to clarify that?s the case.  Describe fully how the spaces in
+question are handled in the Proposed and Baseline case, and cite the
+specific passages and exceptions (if any) applied.  Evoking later editions
+of 90.1 (specifically baseline systems 9 and/or 10) may unnecessarily
+confuse the issue.
+
+
+
+Along the way, you should probably clarify whether you are or are not
+attempting to make the case for an exception under G3.1.1 (the text
+preceding table G3.1), as that also seems to be up in the air.  If you are,
+be sure to substantiate how the exception applies in your clarification.
+
+
+
+If after all this, the particulars of your project leave you unsure of how
+to apply 90.1-2004 for LEED v2.2 on this front, you may want to contact
+GBCI directly with the details using their ?contact us? form (wherein you
+may request a phone call if it?s necessary to convey the full situation):
+www.gbci.org/ContactUs
+
+
+
+Hope that helps!
+
+
+
+~Nick
+
+
+
+*NICK CATON, P.E.*
+*Owner*
+
+
+
+*Caton Energy Consulting*
+  1150 N. 192nd St., #4-202
+
+  Shoreline, WA 98133
+  office:  785.410.3317
+
+www.catonenergy.com
+
+
+
+*From:* Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] *On Behalf
+Of *Kevin Kyte
+*Sent:* Wednesday, January 07, 2015 8:44 AM
+*To:* bldg-sim at lists.onebuilding.org
+*Cc:* 'bldg-rate at lists.onebuilding.org'
+*Subject:* [Bldg-sim] LEED Review Comment: Spaces served by Unit Heaters
+
+
+
+Sorry for the cross-postings.
+
+3. It is unclear how the spaces served by unit heaters have been modeled in
+the Baseline model. Provide a clarification narrative on the modeling
+methodology with regards to system sizing, fan power, and capacities.
+
+
+
+It is unclear why this comment is stated for a project pursuing version
+2.2.  A space served by a unit heater must be modeled with cooling
+identical to its system modeled in baseline per ASHRAE 90.1-2004 Table
+G3.1.10.d.  A unit heater is not acceptable criteria for exception to
+G3.1.1.  Therefore if a building baseline HVAC system type is regarding as
+VAV then spaces served by unit heaters must also have a VAV baseline HVAC
+system type.
+
+
+
+It is understood that ASHRAE 90.1-2010 contains an exception to Table
+G3.1.10.d and that G3.1.1 contains exception e.  However, this should not
+apply to V2.2.
+
+
+
+Am I missing something again or is this a plug-in comment from later
+versions?
+
+
+
+Thank you.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150108/1e0be535/attachment.htm>
+
+From ncaton at catonenergy.com  Fri Jan  9 14:31:52 2015
+From: ncaton at catonenergy.com (Nicholas Caton)
+Date: Fri, 9 Jan 2015 14:31:52 -0800
+Subject: [Bldg-sim] LEED Review Comment: Spaces served by Unit Heaters
+In-Reply-To: <01D1D17822CC9A42A183AFD8AF282D390139DE6B6F20@wattsexch.wattsae.local>
+References: <01D1D17822CC9A42A183AFD8AF282D390139DE6B6E09@wattsexch.wattsae.local>
+	<4e1f5aa7cf844de65421b0122fe6e8b8@mail.gmail.com>
+	<01D1D17822CC9A42A183AFD8AF282D390139DE6B6F20@wattsexch.wattsae.local>
+Message-ID: <198a08e0018135b127f7cd8c47c9a5f8@mail.gmail.com>
+
+Hi Kevin,
+
+
+
+I agree a heating-only space is not grounds alone to require/justify an
+exception under G3.1.1.
+
+
+
+Provided no criteria are in place to trigger an exception under G3.1.1.,
+language determining your baseline system type(s) and how to approach
+heating-only spaces should be largely* confined between Tables G3.1,
+G3.1.1A (incl. footnotes) and G3.1.1B.
+
+
+
+* The other spot which may be of interest on this front would be the
+glossary entries defining a conditioned/semi-heated space (and thereby what
+DOESN?T classify as a conditioned space for the purpose of whether to apply
+baseline cooling to the proposed case).
+
+
+
+~Nick
+
+
+
+*NICK CATON, P.E.*
+*Owner*
+
+
+
+*Caton Energy Consulting*
+  1150 N. 192nd St., #4-202
+
+  Shoreline, WA 98133
+  office:  785.410.3317
+
+www.catonenergy.com
+
+
+
+*From:* Kevin Kyte [mailto:KKyte at watts-ae.com]
+*Sent:* Thursday, January 08, 2015 12:52 PM
+*To:* Nicholas Caton
+*Cc:* bldg-sim at lists.onebuilding.org
+*Subject:* RE: [Bldg-sim] LEED Review Comment: Spaces served by Unit Heaters
+
+
+
+Hi Nick, I see what you mean.  Essentially, the first paragraph of my post
+is the Review Comment.  Everything after is my rant.  I do not believe that
+a heating only space would automatically qualify for exception to G3.1.1 in
+ASHRAE 90.1-2004.  The post was only to verify that there was no other
+criteria for selecting baseline system types for heating only spaces in
+ASHRAE 90.1-2004 other than the baseline system type tables.
+
+
+
+Yes, my response was to clarify compliance with 2004 and I did leave out
+reference to 2010.
+
+
+
+Thanks,
+
+Kevin
+
+
+
+*From:* Nicholas Caton [mailto:ncaton at catonenergy.com
+<ncaton at catonenergy.com>]
+*Sent:* Thursday, January 08, 2015 2:43 PM
+*To:* Kevin Kyte; bldg-sim at lists.onebuilding.org
+*Cc:* bldg-rate at lists.onebuilding.org
+*Subject:* RE: [Bldg-sim] LEED Review Comment: Spaces served by Unit Heaters
+
+
+
+Kevin,
+
+
+
+The formatting below leaves me confused as to where the comment ends and
+your response begins (and ends again?)?
+
+
+
+If your models are in compliance with 90.1-2004, I think the core request
+here is to clarify that?s the case.  Describe fully how the spaces in
+question are handled in the Proposed and Baseline case, and cite the
+specific passages and exceptions (if any) applied.  Evoking later editions
+of 90.1 (specifically baseline systems 9 and/or 10) may unnecessarily
+confuse the issue.
+
+
+
+Along the way, you should probably clarify whether you are or are not
+attempting to make the case for an exception under G3.1.1 (the text
+preceding table G3.1), as that also seems to be up in the air.  If you are,
+be sure to substantiate how the exception applies in your clarification.
+
+
+
+If after all this, the particulars of your project leave you unsure of how
+to apply 90.1-2004 for LEED v2.2 on this front, you may want to contact
+GBCI directly with the details using their ?contact us? form (wherein you
+may request a phone call if it?s necessary to convey the full situation):
+www.gbci.org/ContactUs
+
+
+
+Hope that helps!
+
+
+
+~Nick
+
+
+
+*NICK CATON, P.E.*
+*Owner*
+
+
+
+*Caton Energy Consulting*
+  1150 N. 192nd St., #4-202
+
+  Shoreline, WA 98133
+  office:  785.410.3317
+
+www.catonenergy.com
+
+
+
+*From:* Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] *On Behalf
+Of *Kevin Kyte
+*Sent:* Wednesday, January 07, 2015 8:44 AM
+*To:* bldg-sim at lists.onebuilding.org
+*Cc:* 'bldg-rate at lists.onebuilding.org'
+*Subject:* [Bldg-sim] LEED Review Comment: Spaces served by Unit Heaters
+
+
+
+Sorry for the cross-postings.
+
+3. It is unclear how the spaces served by unit heaters have been modeled in
+the Baseline model. Provide a clarification narrative on the modeling
+methodology with regards to system sizing, fan power, and capacities.
+
+
+
+It is unclear why this comment is stated for a project pursuing version
+2.2.  A space served by a unit heater must be modeled with cooling
+identical to its system modeled in baseline per ASHRAE 90.1-2004 Table
+G3.1.10.d.  A unit heater is not acceptable criteria for exception to
+G3.1.1.  Therefore if a building baseline HVAC system type is regarding as
+VAV then spaces served by unit heaters must also have a VAV baseline HVAC
+system type.
+
+
+
+It is understood that ASHRAE 90.1-2010 contains an exception to Table
+G3.1.10.d and that G3.1.1 contains exception e.  However, this should not
+apply to V2.2.
+
+
+
+Am I missing something again or is this a plug-in comment from later
+versions?
+
+
+
+Thank you.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150109/8fb4712a/attachment.htm>
+
+From dtan at psdconsulting.com  Tue Jan 13 07:39:47 2015
+From: dtan at psdconsulting.com (David Tan)
+Date: Tue, 13 Jan 2015 15:39:47 +0000
+Subject: [Bldg-sim] TRAINING: Free Introduction to OpenStudio Webinar
+Message-ID: <D0DAA66B.648A4%dtan@psdconsulting.com>
+
+View All OpenStudio Training and Support Services<http://psdconsulting.us4.list-manage.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=d83972b1e1&e=b872033875>
+View this email in your browser<http://us4.campaign-archive1.com/?u=167b723b5b3cb99cd7d4e31f2&id=a3c0f5618e&e=b872033875>
+
+
+
+
+[2-Day OpenStudio Trainings]<http://psdconsulting.us4.list-manage.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=1dfb2bc87f&e=b872033875>
+
+Learn about next generation modeling tools! Join us this Thursday for a FREE introduction to our OpenStudio training
+
+
+________________________________
+Starts: Thurday, Jan 15, 2015 12:30 PM - 1:00 PM EST<http://psdconsulting.us4.list-manage1.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=f1e5849124&e=b872033875>
+________________________________
+
+NREL?s OpenStudio platform for EnergyPlus is changing the way building professionals approach energy modeling. Join us for a free 30-minute free overview of our Open Studio Training, and how it can benefit you and your business. Our instructor, Chris Balbach, will lead the webinar and will answer any questions you may have about the training.
+
+
+
+[Register Now]<http://psdconsulting.us4.list-manage1.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=2ad99b771c&e=b872033875>
+
+[About the trainer]
+
+[https://gallery.mailchimp.com/167b723b5b3cb99cd7d4e31f2/images/divider_shadow.jpg]
+
+Learn OpenStudio from the convenience of your home or office
+
+We offer OpenStudio trainings online . Click the link below to view all our OpenStudio trainings.
+
+[View All]<http://psdconsulting.us4.list-manage1.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=42e00cbbe1&e=b872033875>
+
+
+
+[https://gallery.mailchimp.com/167b723b5b3cb99cd7d4e31f2/images/divider_shadow.jpg]
+
+Interested In Our OpenStudio Support Services
+
+Component and Measure Development<http://psdconsulting.us4.list-manage2.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=bbedd895cc&e=b872033875>
+________________________________
+OpenStudio API Assistance<http://psdconsulting.us4.list-manage2.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=d8e78b92f9&e=b872033875>
+________________________________
+Strategic OpenStudio Consulting<http://psdconsulting.us4.list-manage1.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=55edb1b446&e=b872033875>
+________________________________
+Implementation and Integration Services<http://psdconsulting.us4.list-manage1.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=8fe954e18e&e=b872033875>
+
+[https://gallery.mailchimp.com/167b723b5b3cb99cd7d4e31f2/images/divider_shadow.jpg]
+
+
+
+
+[http://gallery.mailchimp.com/167b723b5b3cb99cd7d4e31f2/images/354d2f32-58d8-48b4-a251-9c0cec19c7d1.jpg]<http://psdconsulting.us4.list-manage1.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=f5381ea3d8&e=b872033875>
+Filter Trainings by:
+
+  *   NYSERDA Discounted Trainings<http://psdconsulting.us4.list-manage.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=08d9a06295&e=b872033875>
+  *   All TREAT Trainings<http://psdconsulting.us4.list-manage.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=d929cd3204&e=b872033875>
+  *   TREAT Single Family<http://psdconsulting.us4.list-manage1.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=e82248a52d&e=b872033875>
+  *   TREAT Multifamily<http://psdconsulting.us4.list-manage1.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=6abe59e754&e=b872033875>
+  *   TREAT Multifamily 16-hour<http://psdconsulting.us4.list-manage1.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=c93a995897&e=b872033875>
+  *   TREAT Multifamily 2-hour Master Workshops<http://psdconsulting.us4.list-manage.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=7ed9d3df5b&e=b872033875>
+  *   Fundamentals of M&V<http://psdconsulting.us4.list-manage.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=01a42b4a2c&e=b872033875>
+  *   OpenStudio Training<http://psdconsulting.us4.list-manage1.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=23c41ebd1d&e=b872033875>
+  *   ENERGY STAR 3.0<http://psdconsulting.us4.list-manage1.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=bd11e4fcb7&e=b872033875>
+  *   Large Building Re-tuning<http://psdconsulting.us4.list-manage1.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=27e82d1e0d&e=b872033875>
+  *   Small Building Re-tuning<http://psdconsulting.us4.list-manage1.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=5851f20435&e=b872033875>
+  *   Raters & Providers Trainings<http://psdconsulting.us4.list-manage.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=4b80985f6c&e=b872033875>
+  *   RESNET Combustion Safety<http://psdconsulting.us4.list-manage.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=47d173a0d6&e=b872033875>
+  *   RESNET CAZ Field Training<http://psdconsulting.us4.list-manage1.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=ab532d0bb6&e=b872033875>
+  *   Free Webinars<http://psdconsulting.us4.list-manage2.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=862ea92de5&e=b872033875>
+
+
+
+
+
+
+[Performance Systems Development - We Speak Building]
+
+[http://cdn-images.mailchimp.com/icons/social-block-v2/color-linkedin-48.png]<http://psdconsulting.us4.list-manage1.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=73e0515433&e=b872033875>     Share<http://psdconsulting.us4.list-manage.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=4f3334ce0f&e=b872033875>
+
+
+[http://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png]<http://psdconsulting.us4.list-manage1.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=787c045c6d&e=b872033875>      Tweet<http://psdconsulting.us4.list-manage.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=c3ab64cf36&e=b872033875>
+
+
+[http://cdn-images.mailchimp.com/icons/social-block-v2/color-googleplus-48.png]<http://psdconsulting.us4.list-manage.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=757b12e280&e=b872033875>    +1<http://psdconsulting.us4.list-manage1.com/track/click?u=167b723b5b3cb99cd7d4e31f2&id=317fa96bfb&e=b872033875>
+
+
+[http://cdn-images.mailchimp.com/icons/social-block-v2/color-forwardtofriend-48.png]<http://us4.forward-to-friend2.com/forward?u=167b723b5b3cb99cd7d4e31f2&id=a3c0f5618e&e=b872033875>  Forward<http://us4.forward-to-friend2.com/forward?u=167b723b5b3cb99cd7d4e31f2&id=a3c0f5618e&e=b872033875>
+
+
+
+
+
+
+Copyright ? 2015 Performance Systems Development, All rights reserved.
+You are receiving this email because you have expressed interest in Performance Systems Development news and updates.
+
+Our mailing address is:
+Performance Systems Development
+124 Brindley Street
+Ithaca, NY 14850
+
+Add us to your address book<http://psdconsulting.us4.list-manage.com/vcard?u=167b723b5b3cb99cd7d4e31f2&id=563702798c>
+
+
+
+
+
+
+
+
+
+IMPORTANT NOTICE: This email message is intended to be received only by persons entitled to receive the confidential information it may contain. Email messages to clients of Performance Systems Development may contain information that is confidential and legally privileged. Please do not read, copy, forward, or store this message unless you are an intended recipient of it. If you have received this message in error, please forward it to the sender and delete it completely from your computer system.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150113/7ed2ef34/attachment.htm>
+
+From pieter.dewilde at plymouth.ac.uk  Thu Jan 15 08:51:31 2015
+From: pieter.dewilde at plymouth.ac.uk (Pieter De Wilde)
+Date: Thu, 15 Jan 2015 16:51:31 +0000
+Subject: [Bldg-sim] Reminder: Call for Nominations for Fellows of IBPSA
+ (deadline: 31 January 2015)
+Message-ID: <92B4D0F578AB284AAD350E3D3C74795C4961E8E2@TIS104.uopnet.plymouth.ac.uk>
+
+This is a reminder that the Board of Directors of IBPSA is seeking nominations for the 2015 Class of Fellows. The IBPSA membership grade of Fellow recognizes individuals who are:
+
+"A member who has attained distinction in the field of building performance simulation, or in the allied arts or sciences, or in teaching of major courses in said arts and sciences, or who by way of research, simulation code development, original work, or application of building simulation on projects of a significant scope, has made substantial contribution to said arts and sciences, and has been active in the field for at least ten (10) years".
+
+The IBPSA Board of Directors elects new Fellows on a two-year cycle, culminating with recognition at the biennial Building Simulation conference, which will take place in Hyderabad, India next year.
+Nominations may be made by IBPSA members other than the nominee. The application package will include details of the nominee's qualifications, a CV, supporting letters, and other relevant materials. The details of the nominee's qualifications shall include summaries of accomplishments in one or more of the following categories: industrial leadership, research, simulation code development, application of building simulation on projects of significant scope, educational leadership, and significant technical contributions to the allied arts and sciences. The application form and instructions are available on the web at:
+
+  *   http://www.ibpsa.org/downloads/fellow_nomination_application.pdf
+  *   http://www.ibpsa.org/downloads/fellow_application_instructions.pdf
+
+Nominations must be submitted via email to the Chair of the Awards and Fellows Committee, Pieter de Wilde, at pieter.dewilde at plymouth.ac.uk<mailto:pieter.dewilde at plymouth.ac.uk>. The deadline for nominations is 31 January 2015. Please contact Pieter de Wilde to discuss a possible nomination if required.
+
+
+Note that IBPSA also has calls open for the nominations for the three main IPBSA Awards (deadline 14 March 2015)  as well as Student Travel Awards (deadline 15 April 2015). Details on these other categories can be found at www.ibpsa.org<http://www.ibpsa.org> through the 'awards' page.
+
+
+Pieter de Wilde
+Chair of the IBPSA Awards and Fellows Committee
+
+
+
+
+
+
+
+
+
+
+
+
+
+________________________________
+[http://www.plymouth.ac.uk/images/email_footer.gif]<http://www.plymouth.ac.uk/worldclass>
+
+This email and any files with it are confidential and intended solely for the use of the recipient to whom it is addressed. If you are not the intended recipient then copying, distribution or other use of the information contained is strictly prohibited and you should not rely on it. If you have received this email in error please let the sender know immediately and delete it from your system(s). Internet emails are not necessarily secure. While we take every care, Plymouth University accepts no responsibility for viruses and it is your responsibility to scan emails and their attachments. Plymouth University does not accept responsibility for any changes made after it was sent. Nothing in this email or its attachments constitutes an order for goods or services unless accompanied by an official order form.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150115/6fa2df98/attachment.htm>
+
+From arpanbakshi at gmail.com  Wed Jan 14 19:30:57 2015
+From: arpanbakshi at gmail.com (Arpan Bakshi)
+Date: Wed, 14 Jan 2015 22:30:57 -0500
+Subject: [Bldg-sim] Integrated Shoebox Energy Modeling using COMFEN: An
+ Early Design Tool for Commercial Facades and Fenestration Systems
+Message-ID: <CAJQsNREU7bm25w8vP50Q-=7X2secZZBOceOF_m+1L4=eKSYK1g@mail.gmail.com>
+
+Performance Workshop 1 Registration Now Open
+<https://www.linkedin.com/e/v2?e=67hlo-i4xkg76q-4x&t=gde&midToken=AQFqDYMHgVoOGA&ek=group_announcement_message&anetID=8196349&itemID=-1&itemType=member>
+
+[image: announcerFullName]
+
+Arpan Bakshi
+<https://www.linkedin.com/e/v2?e=67hlo-i4xkg76q-4x&t=gde&midToken=AQFqDYMHgVoOGA&ek=group_announcement_message&anetID=8196349&itemID=-1&itemType=member>Sustainable
+Engineering Studio NY Team Leader at Skidmore Owings & Merrill LLP (SOM)
+
+
+
+WORKSHOP
+Integrated Shoebox Energy Modeling using COMFEN: An Early Design Tool for
+Commercial Facades and Fenestration Systems
+
+REGISTRATION
+Registration is first-come, first-served. Web training capacity is limited.
+https://attendee.gototraining.com/r/2264524825581964545
+<https://www.linkedin.com/e/v2?e=67hlo-i4xkg76q-4x&t=plh&midToken=AQFqDYMHgVoOGA&ek=group_announcement_message&urlhash=-slN&url=https%3A%2F%2Fattendee%2Egototraining%2Ecom%2Fr%2F2264524825581964545>
+
+
+DATE AND TIME
+Fri, Jan 30, 2015 12:30 PM - 2:30 PM EST
+
+DESCRIPTION
+Dr. Charlie ?ur?ija, a scientist at Lawrence Berkeley National Laboratory
+(LBNL), will teach this workshop about the tool COMFEN, which he develops
+at LBNL. COMFEN is an early-design energy modeling tool designed to make
+informed decisions about building fundamentals by considering the design of
+the building envelope, orientation and massing on building performance.
+COMFEN focuses on the concept of a ?space? or ?room? and uses the
+EnergyPlus and RADIANCE engines and a simple, graphic user interface to
+allow the user to explore the effects of changing key early-design input
+variables for the fa?ade, internal loads, lighting controls and HVAC system
+on energy consumption, peak energy demand, and thermal and visual comfort.
+COMFEN provides the ability to import glazing systems that have been
+developed in LBNL WINDOW, utilizing the International Glazing DataBase
+(IGDB) for glass choices. Comparative results are rapidly presented in a
+variety of graphic and tabular formats to help users move toward optimal
+fa?ade and fenestration design choices.
+
+
+ABOUT THE INSTRUCTOR
+
+Dr. Charlie ?ur?ija is a scientist at Lawrence Berkeley National Laboratory
+in the Energy and Environmental Technologies Division, leading the research
+in thermal and optical performance of windows and other fenestration
+systems. Charlie earned his Ph.D. at the University of Massachusetts in the
+field of thermal performance of windows in 1992 and prior to that earned
+his Bachelors degree in 1982 at the University of Belgrade, Serbia. He
+started his career as a mechanical design engineer in Belgrade before
+coming to United States in 1987 to pursue graduate studies at the
+University of Massachusetts. After obtaining his Ph.D. from Umass, Charlie
+started working as a Post Doc within the same research group and later
+continued as a Senior Research Fellow. He joined LBNL in October of 2010.
+He has been working in the area of energy performance of buildings and
+building facades for over 30 years. He has authored over 50 publications.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150114/5e6da9d6/attachment.htm>
+
+From yjhuang at whiteboxtechnologies.com  Wed Jan 14 18:04:45 2015
+From: yjhuang at whiteboxtechnologies.com (Joe Huang)
+Date: Wed, 14 Jan 2015 18:04:45 -0800
+Subject: [Bldg-sim] WEATHER DATA:  the TMY3 weather files for 1,
+ 020 US locations have been revised
+Message-ID: <54B7203D.8060208@whiteboxtechnologies.com>
+
+Revision of TMY3 Weather Files
+
+White Box Technologies (WBT), in collaboration with the National Renewable Energy 
+Laboratory (NREL), has revised the TMY3 weather files to correct inconsistencies in units 
+for illuminances, improve the reporting of Liquid Precipitation, replace all missing 
+records with interpolated or filled values (chiefly for visibility, ceiling height, 
+aerosol optical depth, and albedo), and add a new variable for Present Weather.
+
+Since their release in 2005, the TMY3 weather files covering 1,020 locations in the US and 
+dependencies has become the standard set of weather files for use in computer simulations 
+of solar energy conversion systems and buildings. For more information about the TMY3 data 
+set, please go to http://rredc.nrel.gov/solar/old_data/nsrdb/1991-2005/tmy3.
+
+The intent of this revision is not to redo the fundamental analysis, but to correct some 
+known errors and make modest improvements in the reporting of subsidiary climate 
+variables. The only changes affecting building energy simulations are those for 
+Illuminance (used in daylighting programs such as Radiance), and Liquid Precipitation 
+(used in EnergyPlus to model green roofs, and other programs that model moisture migration 
+in building envelope). Filling in missing data for Visibility, Ceiling Height, etc., 
+should have no effect on any known simulation program, but makes the TMY3 files more 
+usable for further analysis.
+
+Explanation of changes in content:
+
+1) Illuminance. The TMY3s contain values for Global Horizontal, Direct Normal, Diffuse 
+Horizontal, and Zenith Illuminance that are calculated based on the sun position and solar 
+radiation. Although the documentation states that the units are 100 lux for the first 
+three illuminances, and 10 candela/m2 for the Zenith Illuminance, all the TMY3 files used 
+these units only for the period Jan. 2-31, and for the rest of the year used units of lux 
+and candela/m2, respectively. NREL put out a notice in August 2008 (see the link listed 
+earlier) informing users of this discrepancy and promising a corrected version that didn't 
+make it out until now! In this revision, we've decided to keep the units in the original 
+TMY3 documentation, i.e., 100 lux or 10 candela/m2, which is the same as what was in the 
+TMY2, and avoids the superfluous five-digit precision.
+
+2) Liquid Precipitation. The TMY3s are the first set of TMY files to contain Liquid 
+Precipitation (rainfall). In the original TMY3 files, rainfall was taken directly from 
+weather station reports with two numbers, one for the amount and the other for the 
+duration in hours of the rainfall. The difficulties moving this reporting to hourly 
+weather files are: (1) the rainfall needs to be apportioned to hourly values, and (2) 
+there can be multiple or overlapping records that were ignored. Furthermore, by changing 
+the precipitation units from 0.1mm to 1mm, the TMY3s contained significant round-off 
+errors. In this revision, WBT went back to the raw weather reports from the National 
+Climatic Data Center (NCDC) and applied a procedure developed for ASHRAE RP-1477 that 
+checks for multiple records as well as disaggregate the rainfall to hourly values. To 
+winnow out spurious reports, filters were added to limit the maximum amount of rainfall 
+per hour, and to omit it if the dewpoint temperature dropped below freezing. Overall, the 
+revised rainfall correlated much better to historical averages, although there probably 
+remains significant undercounting in a number of locations. For example, 23 locations out 
+of the 1,020 (2.3%) reported no rainfall throughout the year (see 
+www.whiteboxtechnologies/download_TMY3_liqprec_rpt.htm for a more thorough discussion).
+
+3) Filling in missing values. One of the main reasons to use processed weather files like 
+TMY3s is the absence of missing records, as often found in raw weather data. Thus, it was 
+surprising that the original TMY3s contained a lot of missing data, albeit almost all for 
+secondary variables like Liquid Precipitation, Visibility, Ceiling Height, calculated 
+variables like Aerosol Optical Depth and Albedo, and on one file (Mountain View CA) Wind 
+Direction. Although none of these instances will likely cause problems for simulations, in 
+the spirit of completeness all of them have been filled using either linear interpolation 
+for continuous values (Visibility, Ceiling Height, etc.) or a step function for discrete 
+values (Wind Direction).
+
+4) Present Weather. This variable is a qualitative description of weather conditions, 
+e.g., clear, rain, snow, etc., generally recorded using a numerical code. Although the 
+TMY3s do not contain this variable, the previous TMY2s did using a 10-digit numerical 
+code. Although Present Weather is not used directly in any calculations, it's a useful 
+variable to corroborate other variables for precipitation, cloud cover, etc. For example, 
+in revising the Liquid Precipitation described earlier, Present Weather was used to decide 
+whether or not reported heavy rainfall was bogus. In this revision, an extra field has 
+been added to the end of each line with the international METAR 2-digit code for Present 
+Weather (please see Appendix C of the ASHRAE RP-1477 final report for coding).
+
+Explanation of changes in format
+
+The canonical form of the TMY3 files are in the *.CSV format. Since the illuminance data 
+revert back to the units in the TMY3 documentation, there are only two minor changes in 
+the TMY3.CSV format: (1) unit for Liquid precipitation depth (Variable 65) is changed from 
+1mm to 0.1mm, (2) a 2-digit number for Present Weather has been added at the end of each 
+line as Variable 69. For those familiar with ASHRAE's IWEC2 files, with these changes the 
+data line format of the two types of files are now exactly the same, although the header 
+line formats remain slightly different.
+Conversion of the revised TMY3.CSV files to TMY2 or EPW should not be a problem, as long 
+as the change in units for Liquid Precipitation has been noted, and the illuminance units 
+are those in the original TMY3 documentation. Conversion of the revised TMY3.CSV files to 
+BINM is unnecessary since the BINM files do not include any of the changed variables.
+
+The updated TMY3 files are available on the NREL TMY3 web site at 
+http://rredc.nrel.gov/solar/old_data/nsrdb/1991-2005/tmy3. The revised files are labeled 
+as *TYA.CSV to distinguish them from the previous *TY.CSV files, which will remain on the 
+Web site for another month before being taken down.
+
+The updated TMY3 files in EPW and BINM formats are available on the WBT Weather web site 
+at http://weather.whiteboxtechnologies.com/wd-TMY3 or by selecting File Type "TMY3" at 
+http://weather.whiteboxtechnologies.com/search. The zip file names are unchanged, but the 
+underlying EPW and DDY files are labelled as *TYA.epw, etc., to distinguish them from the 
+previous versions.
+
+Supplemental data of interest to EnergyPlus users
+
+In addition to the weather file, EnergyPlus also needs a *.DDY file that's typically taken 
+from a data base of design conditions in the ASHRAE Handbook of Fundamentals (HOF). With 
+the proliferating availability of weather files, there are times when a location is not 
+listed in the HOF and the attached DDY file is blank, as is the case for 57 of the 1,020 
+TMY3 locations. Since WBT has weather files for thousands of stations going back to 2001, 
+this allowed us to calculate the design conditions for all 1,020 TMY3 files following the 
+ASHRAE design day procedures. To avoid confusion with the DDY files based on the HOF, 
+these new design files are given the *.DDY2 extension. For the 57 locations, this will 
+provide DDY files needed for EnergyPlus sizing calculations. For the remaining 955 
+stations, the DDY2 files provide an alternate set of design conditions based on more 
+recent data.
+
+If you find anything unusual in the TMY3A or TMY3, please let us know!
+
+Such a large data set makes it impossible to visually inspect all 90 million elements 
+(8.935 million x 10 elements per hour). In most instances, anomalies or quirks become 
+apparent only upon use. If anyone finds anything that seems puzzling or unreasonable, 
+please bring it to our attention. We?re not promising we?ll fix everything, but it?s very 
+useful for identifying glitches which we can then avoid by adding software filters and 
+barriers.
+
+Joe Huang Manajit Sengupta
+White Box Technologies National Renewable Energy Laboratory
+Moraga, CA Golden, CO
+
+Jan 14, 2015
+
+Joe Huang
+White Box Technologies, Inc.
+346 Rheem Blvd., Suite 205A
+Moraga CA 94556
+yjhuang at whiteboxtechnologies.com
+http://weather.whiteboxtechnologies.com for simulation-ready weather data
+(o) (925)388-0265
+(c) (510)928-2683
+"building energy simulations at your fingertips"
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 15_0115_announcement.pdf
+Type: application/octetstream
+Size: 16222 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150114/ed134507/attachment.bin>
+
+From pieter.dewilde at plymouth.ac.uk  Thu Jan 15 08:48:24 2015
+From: pieter.dewilde at plymouth.ac.uk (Pieter De Wilde)
+Date: Thu, 15 Jan 2015 16:48:24 +0000
+Subject: [Bldg-sim] IBPSA World Call for Applications of Student Travel
+ Awards - Supporting students to attend BS2015
+Message-ID: <92B4D0F578AB284AAD350E3D3C74795C4961E8D2@TIS104.uopnet.plymouth.ac.uk>
+
+Travel to IBPSA Conferences can be an expensive business - especially for students. In order to assist as many students as possible to participate in BS 2015 in Hyderabad, India, IBPSA World will grant a number of travel awards of up to 1000 USD to students presenting papers. The number of places is limited to a maximum of 5 grants and as a result is highly competitive.
+
+The selection committee bases its decisions upon the following selection criteria:
+
+*           need for financial assistance, evidenced in a letter of recommendation from the student's supervisor/ advisor of studies (must be on university letterhead);
+
+*           overall quality of the paper;
+
+*           relevance of contribution to the field of and/or furthering the effective application of building simulation.
+
+
+To be eligible, the student must be:
+
+*           enrolled in a graduate programme related to building simulation at the time of the conference; AND
+
+*           the thesis project must be directly related to building simulation.
+
+Applications MUST be supported by a letter of recommendation from the student's supervisor/ advisor / director of studies.
+Applications for the award must be made by 15 April, 2015 (same date as the deadline for full paper submission) via e-mail to pieter.dewilde at plymouth.ac.uk. The subject heading of the e-mail should be "Student Travel Award" followed by the name of the student.
+
+The e-mail application must include the following:
+       The student's name;
+       The name of the programme, department, faculty, and university;
+       The title of the PhD or Master's research;
+       The name of the student's supervisor(s)/ advisor(s);
+       The faculty recommendation letter on university letterhead in PDF format.
+
+The selection committee will base its decision upon a review of the letters of support and the final manuscripts. Therefore, to be eligible the student MUST submit the paper by the full paper deadline of 15 April, 2015.
+
+IBPSA would like as many nominations as possible, so please contact the chair of the Awards and Fellows Committee, Pieter de Wilde, via pieter.dewilde at plymouth.ac.uk to discuss a possible nomination if required.
+
+Payment will be made either to the academic department before the conference or directly to the student at the conference.
+
+
+
+Pieter de Wilde
+Chair of the IBPSA Awards and Fellows Committee
+
+
+
+Prof. Dr. Ir. P.J.C.J de Wilde, MASHRAE ACIBSE FHEA VDI
+Professor in Building Performance Analysis
+Plymouth University
+Roland Levinsky Building Room 301A
+Drake Circus
+Plymouth
+PL4 8AA
+United Kingdom
+Email: pieter.dewilde at plymouth.ac.uk<mailto:pieter.dewilde at plymouth.ac.uk>
+
+[Building Performance Analysis]
+
+
+
+
+
+
+
+________________________________
+[http://www.plymouth.ac.uk/images/email_footer.gif]<http://www.plymouth.ac.uk/worldclass>
+
+This email and any files with it are confidential and intended solely for the use of the recipient to whom it is addressed. If you are not the intended recipient then copying, distribution or other use of the information contained is strictly prohibited and you should not rely on it. If you have received this email in error please let the sender know immediately and delete it from your system(s). Internet emails are not necessarily secure. While we take every care, Plymouth University accepts no responsibility for viruses and it is your responsibility to scan emails and their attachments. Plymouth University does not accept responsibility for any changes made after it was sent. Nothing in this email or its attachments constitutes an order for goods or services unless accompanied by an official order form.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150115/7fb86b32/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.gif
+Type: image/gif
+Size: 9133 bytes
+Desc: image001.gif
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150115/7fb86b32/attachment.gif>
+
+From hsamuelson at gsd.harvard.edu  Fri Jan 16 14:13:45 2015
+From: hsamuelson at gsd.harvard.edu (Samuelson, Holly Wasilowski)
+Date: Fri, 16 Jan 2015 22:13:45 +0000
+Subject: [Bldg-sim] Internal Mass Issues with Solar Distribution Model
+Message-ID: <1421446424830.66973@gsd.harvard.edu>
+
+
+Dear Bldg Sim,
+I am trying to understand how the internal thermal mass (aka "InternalMass") is being handled in my EnergyPlus models. On page 222 of the EnergyPlus Input-Output Reference it states, "simplifying calculations using internal mass must be used with caution when the "FullInteriorAndExterior" Solar Distribution model is chosen. 
+
+Could anyone kindly help me understand what that means?  Does that mean that my internal thermal mass does not "see" the solar radiation potentially hitting it (which might realistically be the case for certain interior elements if they are always in shade)?  However, would you assume that this internal mass is still exposed to the indoor air, and thus could still be absorbing or emitting heat in that way?
+
+Many thanks for any guidance.
+Best,
+Holly
+
+Holly W. Samuelson, DDes, LEED, AIA 
+Assistant Professor Harvard Graduate School of Design       
+
+From jhaberl at tamu.edu  Sat Jan 17 09:21:19 2015
+From: jhaberl at tamu.edu (Jeff Haberl)
+Date: Sat, 17 Jan 2015 17:21:19 +0000
+Subject: [Bldg-sim] Internal Mass Issues with Solar Distribution Model
+In-Reply-To: <1421446424830.66973@gsd.harvard.edu>
+References: <1421446424830.66973@gsd.harvard.edu>
+Message-ID: <9F589FD23AD8AB41A8ED33EE68F2CFC7EE9F2485@TEESMAIL-DB.tees.tamus.edu>
+
+Hello Holly:
+
+FYI...the classic reference on the use of "empirical parameters" is the paper by Janet Manke and Doug Hittle in 1996 about their efforts to calibrate the BLAST program to a building at the Gunnison Airport in Gunnison, Colorado.  In it they show that, when you are calibrating to measured data, the "best fit" values of some of the parameters may have physically unrealistic values...such as the surface area and amount of internal mass in a building...strange stuff...
+
+Jeff
+
+Manke J, Hittle D, Hancock C. Calibrating building energy analysis models
+using short term test data. In: Proceedings of the 1996 ASME international
+solar engineering conference. San Antonio, TX; 1996. p. 369?78.
+
+8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  8=()  8=)  8=|  8=)  :=')  8=) 8=?
+Jeff S. Haberl, Ph.D.,P.E.inactive,FASHRAE,FIBPSA,......jhaberl at tamu.edu
+Professor........................................................................Office Ph: 979-845-6507
+Department of Architecture............................................Lab Ph:979-845-6065
+Energy Systems Laboratory...........................................FAX: 979-862-2457
+Texas A&M University...................................................77843-3581
+College Station, Texas, USA, 77843.............................http://esl.tamu.edu
+8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=)  :=)  8=)  8=!  8=)  8=? 8=) 8=0
+
+________________________________________
+From: Bldg-sim [bldg-sim-bounces at lists.onebuilding.org] on behalf of Samuelson, Holly Wasilowski [hsamuelson at gsd.harvard.edu]
+Sent: Friday, January 16, 2015 4:13 PM
+To: bldg-sim at lists.onebuilding.org
+Subject: [Bldg-sim] Internal Mass Issues with Solar Distribution Model
+
+Dear Bldg Sim,
+I am trying to understand how the internal thermal mass (aka "InternalMass") is being handled in my EnergyPlus models. On page 222 of the EnergyPlus Input-Output Reference it states, "simplifying calculations using internal mass must be used with caution when the "FullInteriorAndExterior" Solar Distribution model is chosen.
+
+Could anyone kindly help me understand what that means?  Does that mean that my internal thermal mass does not "see" the solar radiation potentially hitting it (which might realistically be the case for certain interior elements if they are always in shade)?  However, would you assume that this internal mass is still exposed to the indoor air, and thus could still be absorbing or emitting heat in that way?
+
+Many thanks for any guidance.
+Best,
+Holly
+
+Holly W. Samuelson, DDes, LEED, AIA
+Assistant Professor Harvard Graduate School of Design
+_______________________________________________
+Bldg-sim mailing list
+http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+
+From yjhuang at whiteboxtechnologies.com  Sat Jan 17 19:13:48 2015
+From: yjhuang at whiteboxtechnologies.com (Joe Huang)
+Date: Sat, 17 Jan 2015 19:13:48 -0800
+Subject: [Bldg-sim] Internal Mass Issues with Solar Distribution Model
+In-Reply-To: <9F589FD23AD8AB41A8ED33EE68F2CFC7EE9F2485@TEESMAIL-DB.tees.tamus.edu>
+References: <1421446424830.66973@gsd.harvard.edu>
+	<9F589FD23AD8AB41A8ED33EE68F2CFC7EE9F2485@TEESMAIL-DB.tees.tamus.edu>
+Message-ID: <54BB24EC.1060408@whiteboxtechnologies.com>
+
+Jeff,
+
+I wouldn't call it "strange stuff", but more "welcome to the real 
+world".  It's always good to remember that
+computer models are just that - theoretical representations that may not 
+match the real world reality in all
+its complexity, i.e., having all the inputs correctly defined doesn't 
+necessarily give you the "right" results, especially on something as 
+complex as the thermal coupling between the air and the building's 
+thermal mass.
+
+For what it's worth, my experience with another not-to-be-named 
+simulation program has been that the
+models tended to be much "lighter" than observed reality, i.e., one has 
+to boost up the internal mass considerably beyond what's there to get 
+the floating temperature profiles to match measured temperatures.
+I'm not saying it would be the same for EnergyPlus, just that one 
+shouldn't assume because one's got the
+inputs correct (right surface area, thermal mass, etc.) that the model 
+would then be right.
+
+I'm also reminded of a paper by Joe Eto at LBNL back in the 1980's where 
+he correlated measured building
+energy use against variable-base degree-days and got good results, the 
+only defect being that the imputed
+building k-values didn't make much sense :-)
+
+Joe
+
+
+On 1/17/2015 9:21 AM, Jeff Haberl wrote:
+> Hello Holly:
+>
+> FYI...the classic reference on the use of "empirical parameters" is the paper by Janet Manke and Doug Hittle in 1996 about their efforts to calibrate the BLAST program to a building at the Gunnison Airport in Gunnison, Colorado.  In it they show that, when you are calibrating to measured data, the "best fit" values of some of the parameters may have physically unrealistic values...such as the surface area and amount of internal mass in a building...strange stuff...
+>
+> Jeff
+>
+> Manke J, Hittle D, Hancock C. Calibrating building energy analysis models
+> using short term test data. In: Proceedings of the 1996 ASME international
+> solar engineering conference. San Antonio, TX; 1996. p. 369?78.
+>
+> 8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  8=()  8=)  8=|  8=)  :=')  8=) 8=?
+> Jeff S. Haberl, Ph.D.,P.E.inactive,FASHRAE,FIBPSA,......jhaberl at tamu.edu
+> Professor........................................................................Office Ph: 979-845-6507
+> Department of Architecture............................................Lab Ph:979-845-6065
+> Energy Systems Laboratory...........................................FAX: 979-862-2457
+> Texas A&M University...................................................77843-3581
+> College Station, Texas, USA, 77843.............................http://esl.tamu.edu
+> 8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=)  :=)  8=)  8=!  8=)  8=? 8=) 8=0
+>
+> ________________________________________
+> From: Bldg-sim [bldg-sim-bounces at lists.onebuilding.org] on behalf of Samuelson, Holly Wasilowski [hsamuelson at gsd.harvard.edu]
+> Sent: Friday, January 16, 2015 4:13 PM
+> To: bldg-sim at lists.onebuilding.org
+> Subject: [Bldg-sim] Internal Mass Issues with Solar Distribution Model
+>
+> Dear Bldg Sim,
+> I am trying to understand how the internal thermal mass (aka "InternalMass") is being handled in my EnergyPlus models. On page 222 of the EnergyPlus Input-Output Reference it states, "simplifying calculations using internal mass must be used with caution when the "FullInteriorAndExterior" Solar Distribution model is chosen.
+>
+> Could anyone kindly help me understand what that means?  Does that mean that my internal thermal mass does not "see" the solar radiation potentially hitting it (which might realistically be the case for certain interior elements if they are always in shade)?  However, would you assume that this internal mass is still exposed to the indoor air, and thus could still be absorbing or emitting heat in that way?
+>
+> Many thanks for any guidance.
+> Best,
+> Holly
+>
+> Holly W. Samuelson, DDes, LEED, AIA
+> Assistant Professor Harvard Graduate School of Design
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+
+
+From kleichliter at uidaho.edu  Thu Jan 22 11:23:18 2015
+From: kleichliter at uidaho.edu (Leichliter, Katrina (kleichliter@uidaho.edu))
+Date: Thu, 22 Jan 2015 19:23:18 +0000
+Subject: [Bldg-sim] Jan 28 Building Simulation Users' Group
+Message-ID: <BN3PR0401MB120241844C92204D18B24992D8490@BN3PR0401MB1202.namprd04.prod.outlook.com>
+
+Performance-Based Wall Design using THERM
+[cid:image001.jpg at 01D0363D.9315F8A0]
+Target Audience:
+
+Engineers, Architects, & Simulationists -
+CEU/PDHs AVAILABLE for in-person attendees!
+
+
+Date and Time:
+
+Jan 28, 2015 - 12:00 to 1:00 p.m. MT
+
+
+Location:
+
+UI - IDL Classroom - 306 S 6th St. Boise, ID
+
+
+Registration:
+
+Remote Webinar<https://attendee.gotowebinar.com/register/2170652920862541826> or Live Presentation<http://goo.gl/forms/4LsCjN0RXE>*
+*FREE LUNCH provided to in-person attendees registered 24 hours in advance
+
+
+Description:
+Gunnar Gladics will be sharing the process of using THERM for performance-based wall design. Specifically, he will discuss how the program can be used to determine thermal bridging within a wall, how it might affect energy use and comfort, and strategies to minimize it. He will also discuss the program's capabilities assisting with moisture mitigation and code compliance.
+>From the THERM website:  "THERM is a state-of-the-art, Microsoft Windows(tm)-based computer program developed at Lawrence Berkeley National Laboratory (LBNL) for use by building component manufacturers, engineers, educators, students, architects, and others interested in heat transfer. Using THERM, you can model two-dimensional heat-transfer effects in building components such as windows, walls, foundations, roofs, and doors; appliances; and other products where thermal bridges are of concern. THERM's heat-transfer analysis allows you to evaluate a product's energy efficiency and local temperature patterns, which may relate directly to problems with condensation, moisture damage, and structural integrity."     http://windows.lbl.gov/software/therm/therm.html
+
+Learning Objectives:
+
+1.       Understand the effects that thermal bridging have on energy performance and peak loads
+
+2.       The connection of wall construction and moisture mitigation issues
+
+3.       Using simulation software to meet and beat code wall performance values
+
+4.       How linear thermal bridging might affect energy and comfort
+
+
+Bio:        Gunnar Gladics, Hummel Architects, Boise, Idaho
+Gunnar has recently joined the Hummel team to bring additional experience in building performance and sustainable design. He has a strong background in building science, working at the University of Idaho's Integrated Design Lab as an architectural research scientist for five years prior to joining Hummel. Gunnar has consulted on energy and sustainability issues on hundreds of projects in the Northwest and across the country.
+
+Prior to his research experience he worked in both the architecture and construction field, focusing on commercial, hospitality, and recreation facilities.
+
+
+Katie Leichliter
+Research Scientist
+University of Idaho
+Integrated Design Lab - Boise
+www.uidaho.edu/idl
+Ph:  208.401.0649
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150122/b0c68d38/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.jpg
+Type: image/jpeg
+Size: 27353 bytes
+Desc: image001.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150122/b0c68d38/attachment.jpg>
+
+From cjones at halsall.com  Fri Jan 23 05:14:27 2015
+From: cjones at halsall.com (Jones, Christopher)
+Date: Fri, 23 Jan 2015 13:14:27 +0000
+Subject: [Bldg-sim] Jan 28 Building Simulation Users' Group
+In-Reply-To: <BN3PR0401MB120241844C92204D18B24992D8490@BN3PR0401MB1202.namprd04.prod.outlook.com>
+References: <BN3PR0401MB120241844C92204D18B24992D8490@BN3PR0401MB1202.namprd04.prod.outlook.com>
+Message-ID: <25F861E695EA99478F9790869A57C7D41BD8EA1E@catormsx02>
+
+For those interested in building envelope thermal bridging I suggest this link which provides a very thorough guide on the subject:
+https://www.bchydro.com/powersmart/business/programs/new-construction.html#thermal
+
+
+Christopher Jones, P.Eng.
+Tel: 416.644.4226 * Toll Free: 1.888.425.7255 x 527
+
+From: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Leichliter, Katrina (kleichliter at uidaho.edu)
+Sent: Thursday, January 22, 2015 2:23 PM
+To: 'bldg-sim at lists.onebuilding.org'; Mailman - sbse at uidaho.edu
+Subject: [Bldg-sim] Jan 28 Building Simulation Users' Group
+
+Performance-Based Wall Design using THERM
+[cid:image001.jpg at 01D036E4.9AF03020]
+Target Audience:
+
+Engineers, Architects, & Simulationists -
+CEU/PDHs AVAILABLE for in-person attendees!
+
+
+Date and Time:
+
+Jan 28, 2015 - 12:00 to 1:00 p.m. MT
+
+
+Location:
+
+UI - IDL Classroom - 306 S 6th St. Boise, ID
+
+
+Registration:
+
+Remote Webinar<https://attendee.gotowebinar.com/register/2170652920862541826> or Live Presentation<http://goo.gl/forms/4LsCjN0RXE>*
+*FREE LUNCH provided to in-person attendees registered 24 hours in advance
+
+
+Description:
+Gunnar Gladics will be sharing the process of using THERM for performance-based wall design. Specifically, he will discuss how the program can be used to determine thermal bridging within a wall, how it might affect energy use and comfort, and strategies to minimize it. He will also discuss the program's capabilities assisting with moisture mitigation and code compliance.
+>From the THERM website:  "THERM is a state-of-the-art, Microsoft Windows(tm)-based computer program developed at Lawrence Berkeley National Laboratory (LBNL) for use by building component manufacturers, engineers, educators, students, architects, and others interested in heat transfer. Using THERM, you can model two-dimensional heat-transfer effects in building components such as windows, walls, foundations, roofs, and doors; appliances; and other products where thermal bridges are of concern. THERM's heat-transfer analysis allows you to evaluate a product's energy efficiency and local temperature patterns, which may relate directly to problems with condensation, moisture damage, and structural integrity."     http://windows.lbl.gov/software/therm/therm.html
+
+Learning Objectives:
+
+1.       Understand the effects that thermal bridging have on energy performance and peak loads
+
+2.       The connection of wall construction and moisture mitigation issues
+
+3.       Using simulation software to meet and beat code wall performance values
+
+4.       How linear thermal bridging might affect energy and comfort
+
+
+Bio:        Gunnar Gladics, Hummel Architects, Boise, Idaho
+Gunnar has recently joined the Hummel team to bring additional experience in building performance and sustainable design. He has a strong background in building science, working at the University of Idaho's Integrated Design Lab as an architectural research scientist for five years prior to joining Hummel. Gunnar has consulted on energy and sustainability issues on hundreds of projects in the Northwest and across the country.
+
+Prior to his research experience he worked in both the architecture and construction field, focusing on commercial, hospitality, and recreation facilities.
+
+
+Katie Leichliter
+Research Scientist
+University of Idaho
+Integrated Design Lab - Boise
+www.uidaho.edu/idl
+Ph:  208.401.0649
+
+
+______________________________________________________________________
+NOTICE: This communication and any attachments ("this message") may contain confidential information for the sole use of the intended recipient(s). Any unauthorized use, disclosure, viewing, copying, alteration, dissemination or distribution of, or reliance on this message is strictly prohibited. If you have received this message in error, or you are not an authorized recipient, please notify the sender immediately by replying to this message, delete this message and all copies from your e-mail system and destroy any printed copies.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150123/e3724ab4/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.jpg
+Type: image/jpeg
+Size: 27353 bytes
+Desc: image001.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150123/e3724ab4/attachment.jpg>
+
+From David.Cocking at designbuilder.co.uk  Sun Jan 25 07:33:25 2015
+From: David.Cocking at designbuilder.co.uk (David Cocking)
+Date: Sun, 25 Jan 2015 15:33:25 +0000
+Subject: [Bldg-sim] TRAINING: DesignBuilder EnergyPlus Simulation Training
+References: <A0E02212526D2847B8F1F78E9A5B17C901C1DEBA7ED7@DBSERVER01.designbuilder.local>
+	<A0E02212526D2847B8F1F78E9A5B17C901C1DEBA7EDC@DBSERVER01.designbuilder.local>
+Message-ID: <A0E02212526D2847B8F1F78E9A5B17C901C1E6AB7541@DBSERVER01.designbuilder.local>
+
+DesignBuilder are running a simulation training course in collaboration with University College London (UCL) this April. This face to face course in London is an excellent opportunity to find out how to get the most out of DesignBuilder EnergyPlus and learn best practice modelling techniques. It is suitable for new and experienced users alike, and is structured to give you plenty of worked examples so you can 'learn by doing'. The last 2 days will be of particular interest for those wanting to get up to speed with CFD and EnergyPlus HVAC system simulations. Our new VRF capability will be included in the Detailed HVAC day.
+The course is completely modular and you can choose to attend any of the 5 days according to your particular training requirements:
+
+Day 1: 13th April - Modeller. To show you how to confidently and quickly set up building geometry, import floor plans and gbXML models, zone the building and define and select constructions and glazing. We'll also explain how our data inheritance feature can dramatically reduce the amount of data input required to help speed up modelling and reduce the risk of input errors.
+
+Day 2: 14th April - Basic Simulation*. Learn how to quickly model external influences such as non-standard ground conditions, adjacent buildings and shading objects; use templates for improved modelling efficiency; run heating and cooling designs and simulations and review results; easily add solar shading; and input model data such as lighting and HVAC efficiently.
+
+Day 3: 15th April - Daylighting, Natural Ventilation & Renewables*. Modelling low environmental impact design solutions including daylighting using our integrated Radiance tool, natural ventilation, mixed mode, PV and wind turbines.
+
+Day 4: 16th April - Introduction to Detailed HVAC*. Introducing EnergyPlus HVAC modelling in DesignBuilder and getting started with Detailed HVAC including HVAC templates to quickly load pre-configured HVAC systems, VRF modelling, HVAC plant loops and our Results Viewer.
+
+Day 5: 17th April - CFD*. Learn the key concepts of internal and external CFD from the basic building blocks through to using simulation data to define boundary conditions more accurately.
+*Note that Days 2-5 all require previous experience with the modeller or attendance on Day 1.
+The cost of the course is ?250 GBP per day, with significant discounts available for academia. Discounts are also available for multiple bookings.
+You can find out more about the UCL simulation training course (and indeed our extensive worldwide training schedule) by contact the office or via the training page on our website:
+http://www.designbuilder.co.uk/content/view/78/115/
+
+We hope to see you there!
+
+Dave
+
+David Cocking
+Director
+DesignBuilder Software Limited
++44 (0) 1453 755500
+www.designbuilder.co.uk<http://www.designbuilder.co.uk>
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150125/5bec9621/attachment.htm>
+
+From ncaton at catonenergy.com  Mon Jan 26 23:58:19 2015
+From: ncaton at catonenergy.com (Nicholas Caton)
+Date: Mon, 26 Jan 2015 23:58:19 -0800
+Subject: [Bldg-sim] Simple LEED type question-actually for a utility
+	program
+In-Reply-To: <000001d03632$0f722d30$2e568790$@com>
+References: <1785397612.2954733.1421899250188.JavaMail.yahoo@jws100143.mail.ne1.yahoo.com>
+	<000001d03632$0f722d30$2e568790$@com>
+Message-ID: <b7e7a6b02edb0c19ab45e5aaf4f37f21@mail.gmail.com>
+
+Agreed.
+
+
+
+Read any other way, the baseline allowances would arbitrarily ?penalize?
+the performance rating of any building NOT lighting up all their
+driveways/facades like a Vegas strip? not in keeping with the general
+thrust of an energy standard.
+
+
+
+~Nick
+
+
+
+*NICK CATON, P.E.*
+*Owner*
+
+
+
+*Caton Energy Consulting*
+  1150 N. 192nd St., #4-202
+
+  Shoreline, WA 98133
+  office:  785.410.3317
+
+www.catonenergy.com
+
+
+
+*From:* Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] *On Behalf
+Of *Cam Fitzgerald
+*Sent:* Thursday, January 22, 2015 2:56 AM
+*To:* 'John Aulbach'; bldg-sim at onebuilding.org
+*Subject:* Re: [Bldg-sim] Simple LEED type question-actually for a utility
+program
+
+
+
+John,
+
+
+
+The allowance is determined using only the applications that are actually
+illuminated in the design. If the design does not include any non-tradable
+lighting applications, then none is modeled in either case. For any
+application in the design, it is not the area or length that could
+potentially be illuminated, but the actual illuminated area or length that
+is used to determine the baseline allowance.
+
+
+
+Hope that helps,
+
+
+
+
+
+Cam Fitzgerald
+
+
+
+Energy Opportunities/a 7group company
+
+
+
+
+
+*From:* Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org
+<bldg-sim-bounces at lists.onebuilding.org>] *On Behalf Of *John Aulbach
+*Sent:* Wednesday, January 21, 2015 11:01 PM
+*To:* bldg-sim at onebuilding.org
+*Subject:* [Bldg-sim] Simple LEED type question-actually for a utility
+program
+
+
+
+If there is NO outdoor lighting on the building (except entrances), such as
+building facade lighting, does the ASHRAE 90.1 version of facade lighting
+have to be input to BOTH Base and proposed buildings? Or can it be left out
+all together?
+
+
+
+Thanks in advance.
+
+
+
+John R. Aulbach, PE
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150126/f7bfac46/attachment.htm>
+
+From j.hensen at tue.nl  Fri Jan 30 04:42:10 2015
+From: j.hensen at tue.nl (Hensen, J.L.M.)
+Date: Fri, 30 Jan 2015 12:42:10 +0000
+Subject: [Bldg-sim] PhD vacancy - Modeling and simulation of district
+ heating with seasonal storage
+Message-ID: <E9F3E08142611F4A89071344B1A2545624F4D516@XSERVER20B.campus.tue.nl>
+
+This is to make you aware of this just opened vacancy. The project will focus on energy-efficient and cost-effective utilization of renewable energy as well as industrial waste-heat for district heating through the use of large-scale, seasonal thermal storage solutions. The objective of the PhD project is to use and expand building energy simulation methods and software for robust optimization under uncertainty in view of design and operational support. A-state-of-the-art district heating system fed by industrial waste-heat and solar thermal energy and coupled to a large underground storage, situated in Chifeng city in Inner Mongolia, will be the project pilot demonstration. The project will be carried out in collaboration with Tsinghua University and Dutch and Chinese industry partners.
+
+More information about the vacancy and application process is at http://jobs.tue.nl/nl/vacature/phd-modeling-and-simulation-of-district-heating-with-seasonal-storage-210354.html
+
+I would appreciate it very much if you could forward this message to potential candidates.
+
+Thanks in advance,
+
+Jan Hensen
+.........................................
+prof. dr. ir. Jan L.M. Hensen | Chair of Building Performance | Scientific Director Post-MSc Smart Energy Buildings & Cities | Theme Leader Energy in the Built Environment | Eindhoven University of Technology - Netherlands | www.bwk.tue.nl/bps/hensen<http://www.bwk.tue.nl/bps/hensen>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150130/a9263b55/attachment.htm>
+
+From pieter.dewilde at plymouth.ac.uk  Fri Jan 30 13:09:56 2015
+From: pieter.dewilde at plymouth.ac.uk (Pieter De Wilde)
+Date: Fri, 30 Jan 2015 21:09:56 +0000
+Subject: [Bldg-sim] FW: Reminder: Call for Nominations for Fellows of IBPSA
+ (deadline: 31 January 2015)
+Message-ID: <92B4D0F578AB284AAD350E3D3C74795C4963A7E6@TIS104.uopnet.plymouth.ac.uk>
+
+Dear All:
+
+This is a final reminder about the call for Nominations for Fellows IBPSA, which closes on 31 January.
+If there is anyone who is preparing a nomination but has problems meeting the deadline, please get in touch by email.
+
+Best regards,
+
+Pieter de Wilde
+
+
+
+From: Pieter De Wilde
+Sent: 15 January 2015 16:50
+To: bldg-sim at lists.onebuilding.org
+Subject: Reminder: Call for Nominations for Fellows of IBPSA (deadline: 31 January 2015)
+
+This is a reminder that the Board of Directors of IBPSA is seeking nominations for the 2015 Class of Fellows. The IBPSA membership grade of Fellow recognizes individuals who are:
+
+"A member who has attained distinction in the field of building performance simulation, or in the allied arts or sciences, or in teaching of major courses in said arts and sciences, or who by way of research, simulation code development, original work, or application of building simulation on projects of a significant scope, has made substantial contribution to said arts and sciences, and has been active in the field for at least ten (10) years".
+
+The IBPSA Board of Directors elects new Fellows on a two-year cycle, culminating with recognition at the biennial Building Simulation conference, which will take place in Hyderabad, India next year.
+Nominations may be made by IBPSA members other than the nominee. The application package will include details of the nominee's qualifications, a CV, supporting letters, and other relevant materials. The details of the nominee's qualifications shall include summaries of accomplishments in one or more of the following categories: industrial leadership, research, simulation code development, application of building simulation on projects of significant scope, educational leadership, and significant technical contributions to the allied arts and sciences. The application form and instructions are available on the web at:
+
+  *   http://www.ibpsa.org/downloads/fellow_nomination_application.pdf
+  *   http://www.ibpsa.org/downloads/fellow_application_instructions.pdf
+
+Nominations must be submitted via email to the Chair of the Awards and Fellows Committee, Pieter de Wilde, at pieter.dewilde at plymouth.ac.uk<mailto:pieter.dewilde at plymouth.ac.uk>. The deadline for nominations is 31 January 2015. Please contact Pieter de Wilde to discuss a possible nomination if required.
+
+
+Note that IBPSA also has calls open for the nominations for the three main IPBSA Awards (deadline 14 March 2015)  as well as Student Travel Awards (deadline 15 April 2015). Details on these other categories can be found at www.ibpsa.org<http://www.ibpsa.org> through the 'awards' page.
+
+
+Pieter de Wilde
+Chair of the IBPSA Awards and Fellows Committee
+
+
+
+
+
+Prof. Dr. Ir. P.J.C.J de Wilde, MASHRAE ACIBSE FHEA VDI
+Professor in Building Performance Analysis
+Plymouth University
+Roland Levinsky Building Room 301A
+Drake Circus
+Plymouth
+PL4 8AA
+United Kingdom
+Email: pieter.dewilde at plymouth.ac.uk<mailto:pieter.dewilde at plymouth.ac.uk>
+
+[Building Performance Analysis]
+
+
+
+
+
+
+
+
+
+
+________________________________
+[http://www.plymouth.ac.uk/images/email_footer.gif]<http://www.plymouth.ac.uk/worldclass>
+
+This email and any files with it are confidential and intended solely for the use of the recipient to whom it is addressed. If you are not the intended recipient then copying, distribution or other use of the information contained is strictly prohibited and you should not rely on it. If you have received this email in error please let the sender know immediately and delete it from your system(s). Internet emails are not necessarily secure. While we take every care, Plymouth University accepts no responsibility for viruses and it is your responsibility to scan emails and their attachments. Plymouth University does not accept responsibility for any changes made after it was sent. Nothing in this email or its attachments constitutes an order for goods or services unless accompanied by an official order form.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150130/fdb954b9/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.gif
+Type: image/gif
+Size: 9133 bytes
+Desc: image001.gif
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150130/fdb954b9/attachment.gif>
+
+From pallavi.mantha at gmail.com  Fri Jan 30 13:59:02 2015
+From: pallavi.mantha at gmail.com (Pallavi Mantha)
+Date: Fri, 30 Jan 2015 16:59:02 -0500
+Subject: [Bldg-sim] Elect Your Board: 2015 IBPSA-USA New York Regional
+	Chapter Board Elections
+Message-ID: <CACfNcejuxBBB9=jdAdrwuegvNQbLDfFRu39R3uN3C1QBtSxHag@mail.gmail.com>
+
+*Call for Nominations*
+
+*IBPSA-USA New York Chapter Board of Directors*
+
+
+ The IBPSA-USA New York Chapter Board is comprised of three (3) elected
+officers and the past President/Chairperson. One of the three elected
+officers will serve as Chairperson. Officers are eligible for the
+Chairperson role following one term of service.The election of board
+members will take place *February 28, 2015. *Board members serve one-year
+terms; the next board will serve from March 2015 through March 2016. All
+three board seats are open for election. All persons interested in serving
+on the board must live or work in the Greater New York City area.
+
+
+
+To nominate yourself or a colleague, submit a brief statement (4-5
+sentences) listing why you are interested in serving as a board member, as
+well as a resume to the current Chair (pallavi.mantha at gmail.com).
+
+*Nomination period closes February 13th, 2015, midnight EST*
+
+
+
+
+
+Pallavi Mantha
+
+Arup
+
+Member, Board of Directors IBPSA USA
+
+Chair, IBPSA USA NY Chapter
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150130/890a756c/attachment.htm>
+
+From tsnouidui at lbl.gov  Fri Jan 30 20:37:39 2015
+From: tsnouidui at lbl.gov (Thierry Nouidui)
+Date: Fri, 30 Jan 2015 20:37:39 -0800
+Subject: [Bldg-sim] The Building Controls Virtual Test Bed 1.5 has been
+	released.
+Message-ID: <CAFh9pRb6Tz2VKrc6yKYOYaO9QBsEhxZrrs0boEnZOEvEPRwRzQ@mail.gmail.com>
+
+We are pleased to announce the release of the Building Controls Virtual
+Test Bed 1.5.
+
+
+
+The following changes have been made compared to version 1.4:
+
+
+
+* Added support for FMUs for co-simulation and model exchange for FMI
+version 2.0.
+
+* The example files have been updated for EnergyPlus 8.2.
+
+
+
+The Building Controls Virtual Test Bed (BCVTB) is a freely available
+open-source software environment that allows users to couple different
+simulation programs for co-simulation,
+
+and to couple simulation programs with actual hardware. For example,
+the BCVTB allows to simulate a building in EnergyPlus and the HVAC and
+control system in Modelica,
+
+while exchanging data between the software as they simulate. The BCVTB is
+based on the Ptolemy II software environment.
+
+The BCVTB allows users to expand the capabilities of individual programs by
+linking them to other programs.
+
+Due to the different programs that may be involved in distributed
+simulation, familiarity with configuring programs is essential.
+
+
+
+Programs that are linked to the BCVTB are
+
+
+
+* the EnergyPlus whole building energy simulation program,
+
+* the Modelica modeling and simulation environment Dymola,
+
+* Functional Mock-up Units (FMU) for co-simulation and model-exchange for
+Functional Mock-up Interface (FMI) version 1.0 and 2.0,
+
+* the MATLAB and Simulink tools for scientific computing,
+
+* the Radiance ray-tracing software for lighting analysis,
+
+* the ESP-r integrated building energy modeling program,
+
+* the TRNSYS system simulation program,
+
+* the BACnet stack, which allows exchanging data with BACnet compliant
+Building Automation System (BAS),
+
+* the analog/digital interface USB-1208LS from Measurement Computing
+Corporation that can be connected to a USB port.
+
+
+
+In addition to using programs that are coupled to Ptolemy II, Ptolemy II's
+graphical modeling environment can also be used to define models for
+control systems, for physical devices,
+
+for communication systems or for post-processing and real-time
+visualization.
+
+
+
+For free download and more information, please visit
+
+http://simulationresearch.lbl.gov/bcvtb
+
+-- 
+--------------------------------------
+Thierry Stephane Nouidui, PhD
+
+Simulation Research Group
+Lawrence Berkeley National Laboratory
+1 Cyclotron Road, MS 90R3147
+Berkeley, CA 94720
+(510) 495-2337 voice
+email: TSNouidui at lbl.gov
+http://simulationresearch.lbl.gov
+----------------------------------------
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150130/cf112df2/attachment.htm>
+
+From yjhuang at whiteboxtechnologies.com  Fri Jan 30 21:10:00 2015
+From: yjhuang at whiteboxtechnologies.com (Joe Huang)
+Date: Fri, 30 Jan 2015 21:10:00 -0800
+Subject: [Bldg-sim] Revised TMY3 Weather Files now available on the Web
+Message-ID: <54CC63A8.7070508@whiteboxtechnologies.com>
+
+White Box Technologies (WBT), in collaboration with the National Renewable Energy 
+Laboratory (NREL), has revised the TMY3 weather files to correct inconsistencies in units 
+for illuminances, improve the reporting of Liquid Precipitation, replace all missing 
+records with interpolated or filled values (chiefly for visibility, ceiling height, 
+aerosol optical depth, and albedo), and add a new variable for Present Weather.
+
+Since their release in 2005, the TMY3 weather files covering 1,020 locations in the US and 
+dependencies has become the standard set of weather files for use in computer simulations 
+of solar energy conversion systems and buildings. The intent of this revision is not to 
+redo the fundamental analysis, but correct some known errors and make modest improvements 
+in the reporting of subsidiary climate variables.
+
+The only impact from these corrections and changes are for daylighting simulations that 
+use the illuminance values, and for building simulations that use the liquid precipitation 
+to model green roofs or moisture transport through the building envelope. The added 
+Present Weather variable is not directly used in any simulation program, but allows the 
+DOE-2 BINM files to have correct IRAIN and ISNOW flags, although these two variables are 
+not being used in DOE-2.  Filling in missing data for Visibility, Ceiling Height, etc., 
+should have no impact on the use of the TMY3s, but improves their overall record-keeping.
+
+The revised TMY3 files in their native CSV format have been provided back to NREL and are 
+available here: http://rredc.nrel.gov/solar/old_data/nsrdb/1991-2005/tmy3
+
+The revised TMY3 files in EPW and BINM formats are available for free download on the 
+White Box Technologies web site at http://weather.whiteboxtechnologies.com/wd-TMY3 or by 
+selecting File Type as "TMY3" at http:/weather.whiteboxtechnologies.com/search to search 
+using GoogleEarth. The zip file names are unchanged, but the underlying EPW and DDY files 
+will have the *TYA designation to distinguish them from the previous TMY3 versions.
+
+For a more detailed description and full documentation of the revision,  please see the 
+attached memorandum.
+
+Joe
+-- 
+Joe Huang
+White Box Technologies, Inc.
+346 Rheem Blvd., Suite 205A
+Moraga CA 94556
+yjhuang at whiteboxtechnologies.com
+http://weather.whiteboxtechnologies.com for simulation-ready weather data
+(o) (925)388-0265
+(c) (510)928-2683
+"building energy simulations at your fingertips"
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150130/6e27a03a/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 15_0130_TMY3-Revision.PDF
+Type: application/octetstream
+Size: 198459 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150130/6e27a03a/attachment.bin>
+

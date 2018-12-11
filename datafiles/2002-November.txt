@@ -1,0 +1,1254 @@
+From HermesPropylaios at aol.com  Fri Nov 29 08:59:01 2002
+From: HermesPropylaios at aol.com (HermesPropylaios at aol.com)
+Date: Fri, 29 Nov 2002 11:59:01 -0500
+Subject: [bldg-sim] PowerDOE
+Message-ID: <MDAEMON-F200211291100.AA0053734pd80000223445@gard.com>
+
+Group-
+  I'm having difficulty with a project in PowerDOE.  Previously it work fine with some variable volume systems.  I recently changed them to Powered Induction Units to simulate some variables better.  
+  Now though, the spreadsheets will not show up and the files become corrupted when I try to see them.  Has anyone seen this before and figured out why it happens?  If anyone could provide any help, I would appreciate it.
+Thank you,
+John P.
+(518)438-2348, ext. 24
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ibeausol at NRCan.gc.ca  Thu Nov 28 13:30:29 2002
+From: ibeausol at NRCan.gc.ca (Beausoleil-Morrison, Ian)
+Date: Thu, 28 Nov 2002 16:30:29 -0500
+Subject: [bldg-sim] new IEA Annex on modelling fuel cell cogeneration systems
+Message-ID: <MDAEMON-F200211281532.AA3239906pd80000223242@gard.com>
+
+(Apologies for cross posting)
+
+I am hoping to form a new Annex of the International Energy Agency's Energy
+Conservation in Buildings and Community Systems programme (IEA-ECBCS).  This
+Annex would focus on developing and validating models for simulating
+residential fuel cell cogeneration systems.  The tentative list of tasks is
+as follows:
+
+1) Model development (SOFC, PEM, thermal cooling, hot and cold storage, fuel
+processors, power conditioning systems, etc).
+2) Characterization of electrical usage patterns.
+3) Implementation of models into existing whole-building simulation
+programs.
+4) Validation of component models and their incorporation into
+whole-building simulation programs.
+
+The preliminary proposal for this Annex has been approved by IEA-ECBCS and a
+number of member countries have expressed an interest in participating.  The
+next step will be a workshop of potential Annex participants.  This workshop
+will refine the scope of work, identify the roles of participating
+countries, and produce a final project proposal.
+
+Please contact me at your earliest convenience if you are interested in
+participating in the workshop and/or the eventual IEA Annex work.  The
+enclosed file provides some background and the workshop details.
+
+- Ian
+
+Ian Beausoleil-Morrison, Ph.D.
+Leader / Building Simulation Team
+CANMET Energy Technology Centre
+Natural Resources Canada
+580 Booth Street, 13th Floor
+Ottawa, K1A 0E4
+
+(613) 943-2262  phone
+(613) 996-9909  fax
+ibeausol at nrcan.gc.ca
+
+ <<FC-cogen modelling workshop invitation.pdf>> 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: FC-cogen modelling workshop invitation.pdf
+Type: application/octet-stream
+Size: 234256 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021128/6d21a276/attachment.obj>
+
+From vlado at gundog.lbl.gov  Wed Nov 27 17:14:29 2002
+From: vlado at gundog.lbl.gov (Vladimir Bazjanac)
+Date: Wed, 27 Nov 2002 17:14:29 -0800
+Subject: [bldg-sim] Call for participation in the HVAC implementers' round table
+Message-ID: <MDAEMON-F200211271913.AA1306281pd80000222973@gard.com>
+
+I apologize for multiple postings of this message.  Essentially the same
+message was sent to a number of different exploders.
+
+As you may know, IFC HVAC definitions have been extended to support
+exchange among design and simulation applications.  The integration of
+the HVAC extension schemata with the IFC core model is in progress right
+now; the new version of the IFC data model (IFC2x2) that will include
+these extensions will be released in May 2003.  Software implementation
+of the new IFC2x2 model (based on the beta release) can start in three
+months from now.  LBNL plans to follow that schedule and develop a
+comprehensive IFC2x2 interface to EnergyPlus that will implement the new
+IFC HVAC definitions.
+
+The extended IFC HVAC model includes more than most HVAC and/or related
+applications need to implement individually.  HVAC and related
+developers need to agree which definitions need to implemented by *all*
+implementations, and which need not be implemented.  In addition, they
+need to agree how to commonly implement definitions that need to be
+implemented.  In other words, there is a need to formulate implementers'
+agreements for HVAC applications, similar to what IAI CAD developers did
+for CAD implementations a few years ago.
+
+HVAC implementers' agreements should provide the basis for HVAC data
+exchange among more than just HVAC applications.  Critical application
+developers from other related industry disciplines that also use HVAC
+data (such as cost estimating, CAD, construction management, project
+management and facilities management) should also participate in the
+forging of HVAC implementers' agreements.
+
+LBNL is organizing an HVAC developers' "round table" at LBNL offices in
+Washington, DC on Friday, December 13.  HVAC related software developers
+are also invited to this round table.  If West Coast developers cannot
+travel to Washington, DC they can join a telecast of that meeting at
+LBNL offices in Berkeley.  Alternatively, a limited number of phone
+links to the meeting will be available free of charge for those who
+cannot attend at either LBNL location.  The meeting will start promptly
+at 11:00 EST and end at 14:00 EST.  Follow-up meetings, teleconferences,
+and/or video conferences will be subsequently scheduled as needed.
+Please let me know if, and at which site, you can attend this meeting.
+
+You can download the new IFC HVAC extensions schemata for IFC2x2 from
+the BS-8 project web site.  The URL is
+http://iaiweb.lbl.gov/bs8/documents/BS-8_Model/; from there download
+file BS8HtmlDocumentation_15Jun02.zip, unzip it and save extracted files
+on your system, open with your browser any *.html file you just saved,
+and then navigate as needed.  I will send more information and files to
+those who notify me that they plan to attend the meeting prior to the
+meeting.
+
+-- Vlado Bazjanac, LBNL
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at ee.doe.gov  Fri Nov 22 13:56:43 2002
+From: Drury.Crawley at ee.doe.gov (Drury.Crawley at ee.doe.gov)
+Date: Fri, 22 Nov 2002 16:56:43 -0500
+Subject: [bldg-sim] EnergyPlus Consultants
+Message-ID: <MDAEMON-F200211221559.AA5920203pd80000221036@gard.com>
+
+Are you an EnergyPlus Consultant?
+
+If you offer consulting services using EnergyPlus,
+and would like to be listed in the Building Energy
+Simulation User News, and on the DOE EnergyPlus
+website and LBNL Simulation Research website,
+please send email to Kathy Ellington (klellington at lbl.gov).
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From wmclaughlin at dmiinc.com  Wed Nov 20 07:48:48 2002
+From: wmclaughlin at dmiinc.com (Wade McLaughlin)
+Date: Wed, 20 Nov 2002 10:48:48 -0500
+Subject: [bldg-sim] Domestic Hot Water in PowerDOE
+Message-ID: <MDAEMON-F200211200949.AA4940984pd80000219816@gard.com>
+
+In specifying a domestic hot water system in PowerDOE, I have been unable to find an input location for the primary flow of the loop (scheduled or otherwise).  I found an input for a constant process flow, which allows the model to run without getting the "zero loop flow" error, but I would like to schedule the DHW use to approximate a typical profile.  Does anyone have any insight on where to look?
+
+Thanks,
+Wade
+
+Wade McLaughlin
+DMI
+450 Lexington St.
+Newton, MA  02466
+p 617-527-1525 x103
+f  617-527-6606
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021120/669f8b72/attachment.htm>
+
+From markzoeteman at core.com  Sat Nov 16 18:25:20 2002
+From: markzoeteman at core.com (Mark Zoeteman)
+Date: Sat, 16 Nov 2002 21:25:20 -0500
+Subject: [bldg-sim] eQUEST
+Message-ID: <MDAEMON-F200211162024.AA2404468pd80000218359@gard.com>
+
+To experienced eQUEST users:
+ 
+I am getting the following errors:
+1. No ShellWiz components exist.
+2. Error creating BDL input file from wizard inputs.
+3. 3 errors found in projects BDL input file.
+ 
+The above errors will not allow me to enter the detailed interface.  I
+have defined the building footprint and HVAC zones in wizard.  If you
+have any ideas, please email me at the following address.  Thank you.
+ 
+Mark Zoeteman
+markzoeteman at core.com
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021116/f90ea43e/attachment.htm>
+
+From kummert at engr.wisc.edu  Fri Nov 15 06:55:03 2002
+From: kummert at engr.wisc.edu (=?iso-8859-1?Q?Micha=EBl_Kummert?=)
+Date: Fri, 15 Nov 2002 08:55:03 -0600
+Subject: [bldg-sim] "Integer Overflow" error under the TRNSYS environment
+In-Reply-To: <001001c28c5a$d62c7be0$12ab849e@00901490r>
+Message-ID: <MDAEMON-F200211150853.AA5339640pd80000217725@gard.com>
+
+Dear YU Fu Wing,
+
+"Integer overflow" is a Fortran runtime error that may have many different
+causes (although it is a quite uncommon error if you are using the standard
+TRNSYS Types). You should contact your distributor and send them your
+project files.
+
+Regards,
+
+Micha?l Kummert
+
+_________________________________________________________
+
+Micha?l Kummert
+
+Solar Energy Laboratory - University of Wisconsin-Madison
+1303 Engr Res Bldg, 1500 Engineering Drive
+Madison, WI 53706
+
+Tel: +1 (608) 263-1589
+Fax: +1 (608) 262-8464
+E-mail: kummert at engr.wisc.edu
+
+SEL Web Site: http://sel.me.wisc.edu 
+TRNSYS Web Site: http://sel.me.wisc.edu/trnsys
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From 00901490r at polyu.edu.hk  Thu Nov 14 19:55:27 2002
+From: 00901490r at polyu.edu.hk (YU Fu wing)
+Date: Fri, 15 Nov 2002 11:55:27 +0800
+Subject: [bldg-sim] "Integer Overflow" error under the TRNSYS environment
+Message-ID: <MDAEMON-F200211142154.AA5428750pd80000217538@gard.com>
+
+Dear all,
+
+I followed the example "building" on the IISibat 3 to carry out a cooling load calculation of an office building. For simplification, I included only the components: a TRNSYS tmy data reader, a radiation processor, a sky temperature processor, psychometrics, TYPE 56, and a plotter. I have linked up all the components and all the components are incorporated into the necessary external files. When I run the simulation, the error "Integer Overflow" obtained within the TRNSYS environment and the simulation was stopped. I would like to know what problems exist and how to trace the problems.
+
+Best regards
+
+
+
+YU Fu Wing
+
+Research Student
+
+Department of Building Service Engineering
+
+The Hong Kong Polytechnic University
+
+Hong Kong
+
+
+
+e-mail:00901490r at polyu.edu.hk
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021115/6286ac04/attachment.htm>
+
+From werner at cstb.fr  Wed Nov 13 09:51:35 2002
+From: werner at cstb.fr (Werner Keilholz)
+Date: Wed, 13 Nov 2002 18:51:35 +0100
+Subject: [bldg-sim] Inquiry on a cooling load calculation using TRNSYS Type 56
+References: <001001c28b03$f90a26b0$12ab849e@00901490r>
+Message-ID: <MDAEMON-F200211131148.AA4812359pd80000216712@gard.com>
+
+Hi Fu Wing,
+
+TRNSYS has a standard building example, which shows how
+to connect things together. Just open the file
+\Trnsys15\IISiBat3\Data\Samples\Building\Building.tpf
+in IISiBat.
+
+This should answer most of your questions.
+
+This example is also described in the manual.
+
+To connect your IISiBat project to the building made with PREBID,
+use the 'External Files' tab in IISiBat (use the 'Browse' button next
+to the BLD or TRN file name).
+
+Werner
+
+YU Fu wing wrote:
+
+> Dear all I am working out the cooling load calculation for a typical
+> office building using TRNSYS (version 15). I have prepared a waether
+> data file in the TRNSYS TMY format and the building model by using
+> PREBID. Now I face difficulty proceeding the calculation by using
+> IISibat 3 with TYPE 56 as I found that the building model requires the
+> following inputs:
+> 1. FIKTIVE SKY TEMPERATURE; 2. INCIDENT RADIATION FOR ORIENTATIONS
+> NORTH, SOUTH, EAST, WEST AND HORIZONTAL; 3. INCIDENT BEAM RADIATION
+> FOR ORIENTATIONS NORTH, SOUTH, EAST, WEST AND HORIZONTAL; 4. ANGLE OF
+> INCIDENCE FOR ORIENTATIONS , SOUTH, EAST, AND WEST
+>
+> I have no idea about how to obtain these parameters based on my
+> weather file. At the same time, I would like to know a proper
+> procedure to carry out my calculation (i.e. whether my calculation can
+> be finished within IlSiBat 3 entirely).
+>
+> Best regards
+>
+> YU Fu Wing
+>
+> Research Student
+>
+> Department of Building Service Engineering
+>
+> The Hong Kong Polytechnic University
+>
+> Hong Kong
+>
+> e-mail:00901490r at polyu.edu.hk
+
+--
+  /    \____ Werner Keilholz, Software Development Group Leader
+  \____/     CSTB Sophia Antipolis, SAIL
+  /    \____ s-mail: BP 209, 06904 SOPHIA ANTIPOLIS,  F R A N C E
+  \____/     phone: +33 (0)4 93 95 67 00 -- fax: +33 (0)4 93 95 67 33
+  /    \____ Mailto:werner at cstb.fr
+  \____/     http://evl.cstb.fr/english/team/WK/werner.htm
+
+For technical questions about our software, please
+mailto:software at cstb.fr
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021113/d6524a9a/attachment.htm>
+
+From 00901490r at polyu.edu.hk  Wed Nov 13 03:01:08 2002
+From: 00901490r at polyu.edu.hk (YU Fu wing)
+Date: Wed, 13 Nov 2002 19:01:08 +0800
+Subject: [bldg-sim] Inquiry on a cooling load calculation using TRNSYS Type 56
+Message-ID: <MDAEMON-F200211130500.AA0008546pd80000216555@gard.com>
+
+Dear all
+
+I am working out the cooling load calculation for a typical office building using TRNSYS (version 15). I have prepared a waether data file in the TRNSYS TMY format and the building model by using PREBID. Now I face difficulty proceeding the calculation by using IISibat 3 with TYPE 56 as I found that the building model requires the following inputs:
+
+1. FIKTIVE SKY TEMPERATURE; 2. INCIDENT RADIATION FOR ORIENTATIONS NORTH, SOUTH, EAST, WEST AND HORIZONTAL; 3. INCIDENT BEAM RADIATION FOR ORIENTATIONS NORTH, SOUTH, EAST, WEST AND HORIZONTAL; 4. ANGLE OF INCIDENCE FOR ORIENTATIONS , SOUTH, EAST, AND WEST
+
+
+
+I have no idea about how to obtain these parameters based on my weather file. At the same time, I would like to know a proper procedure to carry out my calculation (i.e. whether my calculation can be finished within IlSiBat 3 entirely).
+
+
+
+Best regards
+
+
+
+YU Fu Wing
+
+Research Student
+
+Department of Building Service Engineering
+
+The Hong Kong Polytechnic University
+
+Hong Kong
+
+
+
+e-mail:00901490r at polyu.edu.hk
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021113/97f97bc0/attachment.htm>
+
+From ibeausol at NRCan.gc.ca  Tue Nov 12 07:21:34 2002
+From: ibeausol at NRCan.gc.ca (Beausoleil-Morrison, Ian)
+Date: Tue, 12 Nov 2002 10:21:34 -0500
+Subject: [bldg-sim] Looking for speakers for an ASHRAE seminar
+Message-ID: <MDAEMON-F200211120920.AA2022234pd80000216131@gard.com>
+
+I am organizing a seminar for an upcoming ASHRAE meeting (either June 2003
+or January 2004) with the working title "Successful applications of energy
+simulation in building design".  Speakers are required to discuss the
+following topics:
+
+*	Applying simulation during the preliminary and detailed design
+phases to improve energy efficiency and to reduce capital and operating
+costs.  This should not be for ultra high performing green buildings, but
+rather for more conventional construction.
+*	Experiences in using simulation for qualifying for utility or
+government incentive programmes.
+
+If you fit the bill and are interested, please contact me before the end of
+November.
+
+Regards,
+- Ian
+
+Ian Beausoleil-Morrison, Ph.D.
+Leader / Building Simulation Team
+CANMET Energy Technology Centre
+Natural Resources Canada
+580 Booth Street, 13th Floor
+Ottawa, K1A 0E4
+
+(613) 943-2262  phone
+(613) 996-9909  fax
+ibeausol at nrcan.gc.ca
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From zdmhvac at yahoo.com  Tue Nov  5 18:12:45 2002
+From: zdmhvac at yahoo.com (Daming Zhu)
+Date: Tue, 5 Nov 2002 18:12:45 -0800 (PST)
+Subject: [bldg-sim] Resume of a HVAC&R system modeler
+Message-ID: <MDAEMON-F200211052011.AA1145937pd80000213394@gard.com>
+
+
+Hello,
+
+I am a reader of this building simulation mail list. I am currently actively looking for a new postion as a HVAC&R system modeler. Here is my resume for those who may interested. Thank you all for your time! 
+
+If anyone has good suggestions for my job hunting, please feel free to let me know. Your advise is highly appreciated.
+
+Have a nice day,
+
+Daming
+
+
+
+---------------------------------
+Do you Yahoo!?
+HotJobs - Search new jobs daily now
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021105/f5bd4586/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Resume.doc
+Type: application/msword
+Size: 11776 bytes
+Desc: Resume.doc
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021105/f5bd4586/attachment.doc>
+
+From wmclaughlin at dmiinc.com  Tue Nov  5 12:31:04 2002
+From: wmclaughlin at dmiinc.com (Wade McLaughlin)
+Date: Tue, 5 Nov 2002 15:31:04 -0500
+Subject: [bldg-sim] Speaking of bin weather files...
+Message-ID: <MDAEMON-F200211051431.AA3124937pd80000213270@gard.com>
+
+Does anyone have a resource for DOE-2 bin weather files (specifically for Boston) based on more recent data?  The file for Boston on the doe2 site seems a bit cool - especially with respect to the past few years.  To illustrate, analysis of the DOE-2 bostonma.bin file shows that the degree-hours over 75 F, divided by the degree-hours over 55 F, equals just 7%.  However, the same calculation using temperature-bin data for Boston (hours between 95-100 F, hours between 90-95 F, etc.) returns a value of approximately 25%.
+
+Thanks.
+
+Wade McLaughlin
+DMI
+450 Lexington St.
+Newton, MA  02466
+p 617-527-1525 x103
+f  617-527-6606
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021105/bf3e39cd/attachment.htm>
+
+From Bing.Liu at pnl.gov  Tue Nov  5 10:56:29 2002
+From: Bing.Liu at pnl.gov (Liu, Bing)
+Date: Tue, 05 Nov 2002 10:56:29 -0800
+Subject: [bldg-sim] Quebec city weather file in TMY2 format
+Message-ID: <MDAEMON-F200211051255.AA5551328pd80000213196@gard.com>
+
+ <http://doe2.com/Download/Weather/cTMY2/> Go to
+http://doe2.com/Download/Weather/cTMY2/ and you will find bin file named
+quebec.bin.
+ 
+Bing Liu, P.E. 
+Research Engineer 
+Energy Science & Technology Directorate 
+Pacific Northwest National Laboratory 
+Voice: (509) 375-3710 
+Fax:    (509) 375-3614 
+Email:  Bing.Liu at pnl.gov 
+
+-----Original Message-----
+From: Hugues Boivin [mailto:huguesboivin at sympatico.ca]
+Sent: Tuesday, November 05, 2002 10:42 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Quebec city weather file in TMY2 format
+
+
+Hi,
+Does anyone have the Quebec city (Canada) weather file in TMY2 format ?
+ 
+Thanks
+ 
+ 
+Hugues Boivin, Eng.
+Graduated Student, Architecture School
+Laval University, Quebec city
+Quebec, Canada
+ 
+
+
+=====================================================You received this
+e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021105/459a17c7/attachment.htm>
+
+From jglazer at gard.com  Tue Nov  5 10:47:17 2002
+From: jglazer at gard.com (Jason Glazer)
+Date: Tue, 05 Nov 2002 12:47:17 -0600
+Subject: [bldg-sim] Quebec city weather file in TMY2 format
+In-Reply-To: <MDAEMON-F200211051240.AA4056718pd80000213174@gard.com>
+Message-ID: <MDAEMON-F200211051246.AA4611390pd80000213179@gard.com>
+
+See:
+
+  http://doe2.com/Download/Weather/CTMY2/
+
+For more weather file related links see: 
+
+  http://www.gard.com/weather 
+
+Jason
+
+
+
+On 5 Nov 2002 at 13:41, Hugues Boivin wrote:
+
+> Hi,
+> Does anyone have the Quebec city (Canada) weather file in
+> TMY2 format ?
+> 
+> Thanks
+> 
+> 
+> Hugues Boivin, Eng.
+> Graduated Student, Architecture School
+> Laval University, Quebec city
+> Quebec, Canada
+> 
+> 
+> 
+> 
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+> this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From huguesboivin at sympatico.ca  Tue Nov  5 10:41:45 2002
+From: huguesboivin at sympatico.ca (Hugues Boivin)
+Date: Tue, 5 Nov 2002 13:41:45 -0500
+Subject: [bldg-sim] Quebec city weather file in TMY2 format
+Message-ID: <MDAEMON-F200211051240.AA4056718pd80000213174@gard.com>
+
+Hi,
+Does anyone have the Quebec city (Canada) weather file in TMY2 format ?
+
+Thanks
+
+
+Hugues Boivin, Eng.
+Graduated Student, Architecture School
+Laval University, Quebec city
+Quebec, Canada
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021105/234f5010/attachment.htm>
+
+From huguesboivin at sympatico.ca  Mon Nov  4 14:43:01 2002
+From: huguesboivin at sympatico.ca (Hugues Boivin)
+Date: Mon, 4 Nov 2002 17:43:01 -0500
+Subject: [bldg-sim] Converting between different weather file formats
+Message-ID: <MDAEMON-F200211041642.AA4223234pd80000212746@gard.com>
+
+Hi,
+Does anyone know where (and if) I could find software/programs to convert WYEC2/CWEC files to TMY2 format?
+
+Thanks
+Hugues Boivin
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021104/15fcbe77/attachment.htm>
+
+From rgl.lsbris at lincolne.com.au  Mon Nov  4 13:49:45 2002
+From: rgl.lsbris at lincolne.com.au (Robert Lord)
+Date: Tue, 5 Nov 2002 07:49:45 +1000
+Subject: [bldg-sim] VAV control of underfloor air
+Message-ID: <MDAEMON-F200211041551.AA512646pd80000212714@gard.com>
+
+Apologies for confusion - the IRR quoted is simply for the decision to utilise a VFD instead of not using a VFD. The economics of raised floor air conditioning is an entirely different subject. 
+ 
+Cheers 
+ 
+Rob Lord
+
+-----Original Message-----
+From: Kirchhoff, Eric [mailto:EKirchhoff at semprasolutions.com]
+Sent: Tuesday, 5 November 2002 1:48 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] VAV control of underfloor air
+
+
+
+Although I have always been interested in designing such a system I have yet to do so.  However, that doesn't seem to stop me from adding in some anecdotal information from friends who have designed such systems.  First off (not from friends, this is my own observation), a VFD for an air handler tends to be nearly the same cost as a starter, except for the additional control point-that being the differential pressure sensor.  Additionally, to keep costs down, I would let the VFD control the situation, not the EMCS.  Just have the VFD update the EMCS, and allow the EMCS to reset the differential pressure sensor.  Go ahead and monitor all the points you want, and at least do start / stop, status, and DP sensor reset.  Like Robert says, the VFD is a cost wise investment, even if you end up later on setting it up to be a constant speed system, the cost risk is low.
+
+Now I would like some additional information.  The IRR of 30% to 50%; is that just for the mechanical investment or everything?  Since this type of system uses a raised floor system, all the utilities end up running under the floor.  Code will dictate the use of plenum rated cable (even when run inside conduit), the floor system itself tends to be proprietary-or at best limited in number of suppliers--hence supply and demand comes into play driving the cost of the floor up and that is beyond the fact that it is already more expensive since it needs to be structurally capable of carrying the loads (including areas for very large filing systems), there are a limited number of suppliers of underfloor vav systems (and the quality varies), as a positive there is a greatly reduced amount of sheet metal used for ductwork, there usually is not a realistic coordination between cubical / office layout and diffuser placement (in large jobs, the eventual leasee is unknown hence their layout needs are unknown) causing problems by a maintenance staff that is unfamiliar with the system (despite training), and another maintenance problem are users who do not understand nor properly utilize the system hence they will block the diffusers (more often then the overhead type).  Plumbing may also be run in the floor space as well as other utilities causing a need for additional wall furrings then may be in a more traditional layout. Was there any account of these items in the IRR, or was it a theoretical value based only on the mechanical components?
+
+I do not mean to discourage anyone from using this system, I actually am very interested and excited to implement this type of system, and believe (instinctually) that it is an energy efficient alternative to the traditional diffusion method of airside systems.  The points listed above are things you should be aware of, and are questions to ask so as to minimize their impact.
+
+As Rob says Good Luck, and have some fun! 
+
+Eric Kirchhoff, PE 
+
+-----Original Message----- 
+From: Robert Lord [ mailto:rgl.lsbris at lincolne.com.au] 
+Sent: Sunday, November 03, 2002 2:55 PM 
+To: bldg-sim at gard.com 
+Subject: [bldg-sim] VAV control of underfloor air 
+
+A typical design is to zone the floor compartment according to aspect and allow the individuals to adjust the swirls. 
+There are only a handful of large VAVs and the fan speed is varied according to duct static pressure (not plenum pressure).
+
+In most instances, I have found that the internal rate of return is between 30% & 50% and hence is a good investment. I am sure VSD pricing and energy pricing varies but a point to note is that the RH control is improved.
+
+Good luck! 
+
+Rob Lord 
+
+
+-----Original Message----- 
+From: Molinini, Louis [ mailto:lmolinini at syska.com] 
+Sent: Saturday, 2 November 2002 8:37 AM 
+To: bldg-sim at gard.com 
+Subject: [bldg-sim] VAV control of underfloor air 
+
+
+Do any of you out there have any experience designing an underfloor air 
+system with VAV control.  The particular system I am looking at is a plenum 
+based system with manually adjustable swirl diffusers (Titus/Krantz).  I am 
+curious if it ends up operating like a constant volume system or is it worth 
+the expense of installing the freq drive and the Static pressure sensor or 
+differential pressure sensor.  Any help is greatly appreciated. 
+Thanks, 
+Louis 
+
+====================================================== 
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM 
+
+=====================================================You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021105/cdb8c8ab/attachment.htm>
+
+From EKirchhoff at semprasolutions.com  Mon Nov  4 08:32:05 2002
+From: EKirchhoff at semprasolutions.com (Kirchhoff, Eric)
+Date: Mon, 4 Nov 2002 08:32:05 -0800 
+Subject: [bldg-sim] VAV control of underfloor air
+Message-ID: <MDAEMON-F200211041032.AA3237765pd80000212537@gard.com>
+
+Regarding the VFD control, what I suggested is not new.  You let the VFD be
+the application specific controller (ASC, by some manufacturers
+terminology).  ABB, Graham, and others do this regularly.  The EMCS is
+hooked up to the VFD "controller," The VFD works to maintain its programmed
+set point, which is decided by the EMCS.  The VFD will continuously
+communicate with the DP sensor, while routinely communicate with the EMCS
+main system.  This arrangement is beneficial to the overall EMCS system in
+that it minimizes traffic on the cable, and frees up the main system from
+having to send speed control signals to the VFD on a continuous basis as
+well as continuously monitor the DP sensor.  It is very similar to an ASC on
+a VAV box.  The main system does not monitor, continuously the temperature
+in each zone and then command the damper and valve to adjust accordingly;
+the ASC monitors the zone temperature continuously, adjusts accordingly, and
+then reports to the main EMCS system to inform it as to the current
+situation as well as receive new instructions.
+ 
+I did not mean to imply that the VFD was a controller unto itself, rather an
+integral part of an EMCS system, however I am making the VFD work more for
+its money.  If you look more into this, and ask VFD manufactures, you will
+find this is becoming more the standard practice.  Interestingly though,
+mechanical designers do not show this arrangement, or are not aware that
+what they show is not what they are receiving.  What they are actually
+getting is a VFD that functions the way they asked, but is cheaper to
+install and works better.
+ 
+Eric Kirchhoff, PE
+Project Engineer
+ 
+ 
+-----Original Message-----
+From: Tom Anderson [mailto:hvac at cx-assoc.com]
+Sent: Monday, November 04, 2002 8:16 AM
+To: EKirchhoff at semprasolutions.com
+Cc: bldg-sim at gard.com
+Subject: Re: [bldg-sim] VAV control of underfloor air
+ 
+RE: "Additionally, to keep costs down, I would let the VFD control the
+situation, not the EMCS.  Just have the VFD update the EMCS, and allow the
+EMCS to reset the differential pressure sensor." 
+I do not agree with this concept.  Using stand alone VFD control loses the
+integrated features of a building DDC system. 
+-How does one adjust and tune the VFD static pressure control? 
+-How does one deal with PID windup problems? 
+-When the system is commissioned, establishing the correct static pressure
+control setpoint will be VERY difficult without DDC access to VAV box damper
+positions. 
+The cost to control a VFD from the building DDC system will actually be less
+when the VFD is connected to the DDC system using modBUD or LON network...
+you only run one data cable from DDC controller to the VFD, and you pick up
+all 60 or so VFD data points, some of which are quite useful for diagnostics
+and monitoring energy use. 
+  
+Thomas E. Anderson
+President
+Cx Associates, Ltd.
+Building Commissioning Specialists
+http://www.cx-assoc.com <http://www.cx-assoc.com> 
+933 Road 101
+Jeffersonville, Vermont 05464 USA
+hvac at cx-assoc.com
+Tel: 802-644-5616 Fax: 802-644-6797
+"Kirchhoff, Eric" wrote: 
+  
+Although I have always been interested in designing such a system I have yet
+to do so.  However, that doesn't seem to stop me from adding in some
+anecdotal information from friends who have designed such systems.  First
+off (not from friends, this is my own observation), a VFD for an air handler
+tends to be nearly the same cost as a starter, except for the additional
+control point-that being the differential pressure sensor.  Additionally, to
+keep costs down, I would let the VFD control the situation, not the EMCS.
+Just have the VFD update the EMCS, and allow the EMCS to reset the
+differential pressure sensor.  Go ahead and monitor all the points you want,
+and at least do start / stop, status, and DP sensor reset.  Like Robert
+says, the VFD is a cost wise investment, even if you end up later on setting
+it up to be a constant speed system, the cost risk is low. 
+Now I would like some additional information.  The IRR of 30% to 50%; is
+that just for the mechanical investment or everything?  Since this type of
+system uses a raised floor system, all the utilities end up running under
+the floor.  Code will dictate the use of plenum rated cable (even when run
+inside conduit), the floor system itself tends to be proprietary-or at best
+limited in number of suppliers--hence supply and demand comes into play
+driving the cost of the floor up and that is beyond the fact that it is
+already more expensive since it needs to be structurally capable of carrying
+the loads (including areas for very large filing systems), there are a
+limited number of suppliers of underfloor vav systems (and the quality
+varies), as a positive there is a greatly reduced amount of sheet metal used
+for ductwork, there usually is not a realistic coordination between cubical
+/ office layout and diffuser placement (in large jobs, the eventual leasee
+is unknown hence their layout needs are unknown) causing problems by a
+maintenance staff that is unfamiliar with the system (despite training), and
+another maintenance problem are users who do not understand nor properly
+utilize the system hence they will block the diffusers (more often then the
+overhead type).  Plumbing may also be run in the floor space as well as
+other utilities causing a need for additional wall furrings then may be in a
+more traditional layout. Was there any account of these items in the IRR, or
+was it a theoretical value based only on the mechanical components? 
+I do not mean to discourage anyone from using this system, I actually am
+very interested and excited to implement this type of system, and believe
+(instinctually) that it is an energy efficient alternative to the
+traditional diffusion method of airside systems.  The points listed above
+are things you should be aware of, and are questions to ask so as to
+minimize their impact. 
+As Rob says Good Luck, and have some fun! 
+Eric Kirchhoff, PE 
+-----Original Message----- 
+From: Robert Lord [ mailto:rgl.lsbris at lincolne.com.au
+<mailto:rgl.lsbris at lincolne.com.au> ] 
+Sent: Sunday, November 03, 2002 2:55 PM 
+To: bldg-sim at gard.com 
+Subject: [bldg-sim] VAV control of underfloor air 
+A typical design is to zone the floor compartment according to aspect and
+allow the individuals to adjust the swirls. 
+There are only a handful of large VAVs and the fan speed is varied according
+to duct static pressure (not plenum pressure). 
+In most instances, I have found that the internal rate of return is between
+30% & 50% and hence is a good investment. I am sure VSD pricing and energy
+pricing varies but a point to note is that the RH control is improved. 
+Good luck! 
+Rob Lord 
+-----Original Message----- 
+From: Molinini, Louis [ mailto:lmolinini at syska.com
+<mailto:lmolinini at syska.com> ] 
+Sent: Saturday, 2 November 2002 8:37 AM 
+To: bldg-sim at gard.com 
+Subject: [bldg-sim] VAV control of underfloor air 
+Do any of you out there have any experience designing an underfloor air 
+system with VAV control.  The particular system I am looking at is a plenum 
+based system with manually adjustable swirl diffusers (Titus/Krantz).  I am 
+curious if it ends up operating like a constant volume system or is it worth
+
+the expense of installing the freq drive and the Static pressure sensor or 
+differential pressure sensor.  Any help is greatly appreciated. 
+Thanks, 
+Louis 
+====================================================== 
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM 
+=====================================================You received this
+e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021104/68fe983d/attachment.htm>
+
+From hvac at cx-assoc.com  Mon Nov  4 08:15:51 2002
+From: hvac at cx-assoc.com (Tom Anderson)
+Date: Mon, 04 Nov 2002 11:15:51 -0500
+Subject: [bldg-sim] VAV control of underfloor air
+References: <MDAEMON-F200211040947.AA4742140pd80000285933@gard.com>
+Message-ID: <MDAEMON-F200211041015.AA1513281pd80000212514@gard.com>
+
+RE: "Additionally, to keep costs down, I would let the VFD control the
+situation, not the EMCS.  Just have the VFD update the EMCS, and allow
+the EMCS to reset the differential pressure sensor."
+
+I do not agree with this concept.  Using stand alone VFD control loses
+the integrated features of a building DDC system.
+-How does one adjust and tune the VFD static pressure control?
+-How does one deal with PID windup problems?
+-When the system is commissioned, establishing the correct static
+pressure control setpoint will be VERY difficult without DDC access to
+VAV box damper positions.
+
+The cost to control a VFD from the building DDC system will actually be
+less when the VFD is connected to the DDC system using modBUD or LON
+network... you only run one data cable from DDC controller to the VFD,
+and you pick up all 60 or so VFD data points, some of which are quite
+useful for diagnostics and monitoring energy use.
+
+
+     Thomas E. Anderson
+     President
+     Cx Associates, Ltd.
+     Building Commissioning Specialists
+     http://www.cx-assoc.com
+     933 Road 101
+     Jeffersonville, Vermont 05464 USA
+     hvac at cx-assoc.com
+     Tel: 802-644-5616 Fax: 802-644-6797
+
+"Kirchhoff, Eric" wrote:
+
+>
+>
+> Although I have always been interested in designing such a system I
+> have yet to do so.  However, that doesn't seem to stop me from adding
+> in some anecdotal information from friends who have designed such
+> systems.  First off (not from friends, this is my own observation), a
+> VFD for an air handler tends to be nearly the same cost as a starter,
+> except for the additional control point-that being the differential
+> pressure sensor.  Additionally, to keep costs down, I would let the
+> VFD control the situation, not the EMCS.  Just have the VFD update the
+> EMCS, and allow the EMCS to reset the differential pressure sensor.
+> Go ahead and monitor all the points you want, and at least do start /
+> stop, status, and DP sensor reset.  Like Robert says, the VFD is a
+> cost wise investment, even if you end up later on setting it up to be
+> a constant speed system, the cost risk is low.
+>
+> Now I would like some additional information.  The IRR of 30% to 50%;
+> is that just for the mechanical investment or everything?  Since this
+> type of system uses a raised floor system, all the utilities end up
+> running under the floor.  Code will dictate the use of plenum rated
+> cable (even when run inside conduit), the floor system itself tends to
+> be proprietary-or at best limited in number of suppliers--hence supply
+> and demand comes into play driving the cost of the floor up and that
+> is beyond the fact that it is already more expensive since it needs to
+> be structurally capable of carrying the loads (including areas for
+> very large filing systems), there are a limited number of suppliers of
+> underfloor vav systems (and the quality varies), as a positive there
+> is a greatly reduced amount of sheet metal used for ductwork, there
+> usually is not a realistic coordination between cubical / office
+> layout and diffuser placement (in large jobs, the eventual leasee is
+> unknown hence their layout needs are unknown) causing problems by a
+> maintenance staff that is unfamiliar with the system (despite
+> training), and another maintenance problem are users who do not
+> understand nor properly utilize the system hence they will block the
+> diffusers (more often then the overhead type).  Plumbing may also be
+> run in the floor space as well as other utilities causing a need for
+> additional wall furrings then may be in a more traditional layout. Was
+> there any account of these items in the IRR, or was it a theoretical
+> value based only on the mechanical components?
+>
+> I do not mean to discourage anyone from using this system, I actually
+> am very interested and excited to implement this type of system, and
+> believe (instinctually) that it is an energy efficient alternative to
+> the traditional diffusion method of airside systems.  The points
+> listed above are things you should be aware of, and are questions to
+> ask so as to minimize their impact.
+>
+> As Rob says Good Luck, and have some fun!
+>
+> Eric Kirchhoff, PE
+>
+> -----Original Message-----
+> From: Robert Lord [mailto:rgl.lsbris at lincolne.com.au]
+> Sent: Sunday, November 03, 2002 2:55 PM
+> To: bldg-sim at gard.com
+> Subject: [bldg-sim] VAV control of underfloor air
+>
+> A typical design is to zone the floor compartment according to aspect
+> and allow the individuals to adjust the swirls.
+> There are only a handful of large VAVs and the fan speed is varied
+> according to duct static pressure (not plenum pressure).
+>
+> In most instances, I have found that the internal rate of return is
+> between 30% & 50% and hence is a good investment. I am sure VSD
+> pricing and energy pricing varies but a point to note is that the RH
+> control is improved.
+>
+> Good luck!
+>
+> Rob Lord
+>
+> -----Original Message-----
+> From: Molinini, Louis [mailto:lmolinini at syska.com]
+> Sent: Saturday, 2 November 2002 8:37 AM
+> To: bldg-sim at gard.com
+> Subject: [bldg-sim] VAV control of underfloor air
+>
+> Do any of you out there have any experience designing an underfloor
+> air
+> system with VAV control.  The particular system I am looking at is a
+> plenum
+> based system with manually adjustable swirl diffusers (Titus/Krantz).
+> I am
+> curious if it ends up operating like a constant volume system or is it
+> worth
+> the expense of installing the freq drive and the Static pressure
+> sensor or
+> differential pressure sensor.  Any help is greatly appreciated.
+> Thanks,
+> Louis
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+> =====================================================You received this
+> e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021104/e44ed14a/attachment.htm>
+
+From EKirchhoff at semprasolutions.com  Mon Nov  4 07:47:32 2002
+From: EKirchhoff at semprasolutions.com (Kirchhoff, Eric)
+Date: Mon, 4 Nov 2002 07:47:32 -0800 
+Subject: [bldg-sim] VAV control of underfloor air
+Message-ID: <MDAEMON-F200211040947.AA4747250pd80000212493@gard.com>
+
+Although I have always been interested in designing such a system I have yet
+to do so.  However, that doesn't seem to stop me from adding in some
+anecdotal information from friends who have designed such systems.  First
+off (not from friends, this is my own observation), a VFD for an air handler
+tends to be nearly the same cost as a starter, except for the additional
+control point-that being the differential pressure sensor.  Additionally, to
+keep costs down, I would let the VFD control the situation, not the EMCS.
+Just have the VFD update the EMCS, and allow the EMCS to reset the
+differential pressure sensor.  Go ahead and monitor all the points you want,
+and at least do start / stop, status, and DP sensor reset.  Like Robert
+says, the VFD is a cost wise investment, even if you end up later on setting
+it up to be a constant speed system, the cost risk is low.
+
+Now I would like some additional information.  The IRR of 30% to 50%; is
+that just for the mechanical investment or everything?  Since this type of
+system uses a raised floor system, all the utilities end up running under
+the floor.  Code will dictate the use of plenum rated cable (even when run
+inside conduit), the floor system itself tends to be proprietary-or at best
+limited in number of suppliers--hence supply and demand comes into play
+driving the cost of the floor up and that is beyond the fact that it is
+already more expensive since it needs to be structurally capable of carrying
+the loads (including areas for very large filing systems), there are a
+limited number of suppliers of underfloor vav systems (and the quality
+varies), as a positive there is a greatly reduced amount of sheet metal used
+for ductwork, there usually is not a realistic coordination between cubical
+/ office layout and diffuser placement (in large jobs, the eventual leasee
+is unknown hence their layout needs are unknown) causing problems by a
+maintenance staff that is unfamiliar with the system (despite training), and
+another maintenance problem are users who do not understand nor properly
+utilize the system hence they will block the diffusers (more often then the
+overhead type).  Plumbing may also be run in the floor space as well as
+other utilities causing a need for additional wall furrings then may be in a
+more traditional layout. Was there any account of these items in the IRR, or
+was it a theoretical value based only on the mechanical components?
+
+I do not mean to discourage anyone from using this system, I actually am
+very interested and excited to implement this type of system, and believe
+(instinctually) that it is an energy efficient alternative to the
+traditional diffusion method of airside systems.  The points listed above
+are things you should be aware of, and are questions to ask so as to
+minimize their impact.
+
+As Rob says Good Luck, and have some fun!
+
+Eric Kirchhoff, PE
+
+-----Original Message-----
+From: Robert Lord [mailto:rgl.lsbris at lincolne.com.au]
+Sent: Sunday, November 03, 2002 2:55 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] VAV control of underfloor air
+
+A typical design is to zone the floor compartment according to aspect and
+allow the individuals to adjust the swirls.
+There are only a handful of large VAVs and the fan speed is varied according
+to duct static pressure (not plenum pressure).
+
+In most instances, I have found that the internal rate of return is between
+30% & 50% and hence is a good investment. I am sure VSD pricing and energy
+pricing varies but a point to note is that the RH control is improved.
+
+Good luck!
+
+Rob Lord
+
+
+-----Original Message-----
+From: Molinini, Louis [mailto:lmolinini at syska.com]
+Sent: Saturday, 2 November 2002 8:37 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] VAV control of underfloor air
+
+
+Do any of you out there have any experience designing an underfloor air
+system with VAV control.  The particular system I am looking at is a plenum
+based system with manually adjustable swirl diffusers (Titus/Krantz).  I am
+curious if it ends up operating like a constant volume system or is it worth
+the expense of installing the freq drive and the Static pressure sensor or
+differential pressure sensor.  Any help is greatly appreciated.
+Thanks,
+Louis
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+=====================================================You received this
+e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021104/0e4d920d/attachment.htm>
+
+From rgl.lsbris at lincolne.com.au  Sun Nov  3 14:54:58 2002
+From: rgl.lsbris at lincolne.com.au (Robert Lord)
+Date: Mon, 4 Nov 2002 08:54:58 +1000
+Subject: [bldg-sim] VAV control of underfloor air
+Message-ID: <MDAEMON-F200211031656.AA5633296pd80000212269@gard.com>
+
+A typical design is to zone the floor compartment according to aspect and allow the individuals to adjust the swirls.
+There are only a handful of large VAVs and the fan speed is varied according to duct static pressure (not plenum pressure).
+
+In most instances, I have found that the internal rate of return is between 30% & 50% and hence is a good investment. I am sure VSD pricing and energy pricing varies but a point to note is that the RH control is improved.
+
+Good luck!
+
+Rob Lord
+
+
+-----Original Message-----
+From: Molinini, Louis [mailto:lmolinini at syska.com]
+Sent: Saturday, 2 November 2002 8:37 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] VAV control of underfloor air
+
+
+Do any of you out there have any experience designing an underfloor air
+system with VAV control.  The particular system I am looking at is a plenum
+based system with manually adjustable swirl diffusers (Titus/Krantz).  I am
+curious if it ends up operating like a constant volume system or is it worth
+the expense of installing the freq drive and the Static pressure sensor or
+differential pressure sensor.  Any help is greatly appreciated.
+Thanks,
+Louis
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From lmolinini at syska.com  Fri Nov  1 14:37:06 2002
+From: lmolinini at syska.com (Molinini, Louis)
+Date: Fri, 1 Nov 2002 17:37:06 -0500 
+Subject: [bldg-sim] VAV control of underfloor air
+Message-ID: <MDAEMON-F200211011637.AA3700156pd80000211834@gard.com>
+
+Do any of you out there have any experience designing an underfloor air
+system with VAV control.  The particular system I am looking at is a plenum
+based system with manually adjustable swirl diffusers (Titus/Krantz).  I am
+curious if it ends up operating like a constant volume system or is it worth
+the expense of installing the freq drive and the Static pressure sensor or
+differential pressure sensor.  Any help is greatly appreciated.
+Thanks,
+Louis
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

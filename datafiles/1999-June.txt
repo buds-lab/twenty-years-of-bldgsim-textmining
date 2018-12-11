@@ -1,0 +1,2185 @@
+From oikos at netspace.net.au  Wed Jun 30 09:49:14 1999
+From: oikos at netspace.net.au (oikos at netspace.net.au)
+Date: Wed, 30 Jun 1999 09:49:14 -0700
+Subject: [BLDG-SIM] DOE2 complex walls
+Message-ID: <MDAEMON-F199906300309.AA090792MD55924@gard.com>
+
+Dear List
+
+In France we have a hollow brick blocks that are used for wall
+construction.
+The brick block can be up to 37,5 cm or wider and have 19 voids ie 20
+walls of brick each 9-10mm wide.The cross walls are offset to reduce
+thermal bridging so at no point even on the ends are there continuos
+cross walls. 
+This has been tested by the CSTB and wall value including plaster inside
+and outside of  u (k) value 0,46W/m2.K established. I want to take into
+account the thermal mass effect with the DOE2 program so do not want to
+specify just by its k value but instead by its properties/layers. With
+such a thermally complex form to simply specify it as 39 layers would
+not be correct.
+
+Your comments on how to model this type of wall will be most
+appreciated.
+-- 
+John DAGLISH
+eco-tecture, baubiologie & permaculture
+email:	mailto:oikosfr at aol.com
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From JJHirsch at ez2.net  Sat Jun 26 11:17:32 1999
+From: JJHirsch at ez2.net (James J. Hirsch)
+Date: Sat, 26 Jun 1999 11:17:32 -0700
+Subject: [BLDG-SIM] GLHP systems in DOE-2
+Message-ID: <MDAEMON-F199906261413.AA130601MD55163@gard.com>
+
+To follow-up on a previous discussion of the modeling of buildings
+that incorporate ground loop heat pump systems, I have attached a
+figure from overall results of recent work at Oak Ridge National Laboratory
+using DOE-2.  I received these results today; they were sent to me by their
+author, Howard McLain.  More detail is available in Howard's complete
+ASHRAE paper on this topic and I expect there will be further ORNL
+publications on his work.  Questions on the work should be sent to
+Howard at the address in the attachment; I can answer question on DOE-2
+specifics.
+
+--
+Jeff Hirsch
+James J. Hirsch & Associates
+Building Performance Analysis Software & Consulting
+12185 Presilla Road
+Camarillo, CA 93012-9243 USA
+phone: (805) 532-1045
+fax: (805) 532-2401
+email: Jeff.Hirsch at DOE2.com OR JJHirsch at ez2.net
+web: http://DOE2.com
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Maxey Elementary School GLHP.pdf
+Type: application/pdf
+Size: 50368 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990626/888c756c/attachment.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: JJHirsch.vcf
+Type: text/x-vcard
+Size: 504 bytes
+Desc: Card for James J. Hirsch
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990626/888c756c/attachment.vcf>
+
+From BKoran at aol.com  Thu Jun 24 10:28:46 1999
+From: BKoran at aol.com (BKoran at aol.com)
+Date: Thu, 24 Jun 1999 13:28:46 EDT
+Subject: [BLDG-SIM] Thanks RE: Statistical Estimate of Number of Units ON (peak demand)
+Message-ID: <MDAEMON-F199906241226.AA260660MD54691@gard.com>
+
+I just wanted to thank all of those that participated in the discussion of 
+this subject.  There was certainly a diverse and talented group of responders.
+
+If I reached any conclusion, it's that there is, in certain situations at 
+least, a statistical component to estimating peak demand that is not easily 
+considered with typical engineering methods.  I do not know the relative 
+magnitude of this statistical component; in most cases it is undoubtedly 
+minor.  However, in cases where several zones see peak demand at the same 
+time, and these zones are served by cycling rather than unloading equipment, 
+it may be important.
+
+Thanks again for the responses.
+
+Bill
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From fcw at pegasus.lbl.gov  Thu Jun 24 12:35:00 1999
+From: fcw at pegasus.lbl.gov (Fred Winkelmann)
+Date: Thu, 24 Jun 99 12:35:00 PDT
+Subject: [BLDG-SIM] environmental temperatures in DOE-2
+Message-ID: <MDAEMON-F199906241448.AA484815MD54717@gard.com>
+
+Version 088 and later of DOE-2.1E calculates inside surface temperatures,
+zone mean radiant temperature and zone operative temperature (average of
+zone air temp and zone mean radiant temp). This was added in 1995
+by Markus Koschenz of EMPA (Switzerland).
+
+See "Calculation of Surface Temperatatures in DOE-2 (Summer 1999)" in the
+update to the DOE-2.1E documentation, which can be found at 
+http://gundog.lbl.gov > 2.1EUpdate
+
+--Fred Winkelmann, LBNL
+
+
+----- Begin Included Message -----
+
+To: <BLDG-SIM at gard.com>
+From: PC Thomas <pc.thomas at unsw.edu.au>
+Subject: [BLDG-SIM] environmental temperatures in DOE-2
+
+Hello to all Simulation Specialists !
+
+Does anyone know how I could use DOE-2 to generate envirnomental
+temperatures for a zone.  I know there was some work done to estimate
+surface temperatures, could that be used in conjuction with zone air
+temperatures to calculate environmental temperatures?
+
+Thank you, in advance, to all who resond (and take the time to read this
+message)!
+
+PC
+****************************************************************************
+*  P.C. Thomas                                                             *
+*  Project Scientist &                                                     *
+*  PhD Research Scholar                                                    *
+*  Faculty of The Built Environment                                        *
+*  The University of New South Wales                                       *
+*  SYDNEY NSW 2052 AUSTRALIA                                               *
+*                                                                          *
+*                                                  Mobile +61 417 405 478  *
+*                                                     Tel +61 2 9385 6373  *
+*                                                     Fax +61 2 9662 0205  *
+*                                          e-mail : pc.thomas at unsw.edu.au  *
+*                                http://www.fbe.unsw.edu.au/units/SOLARCH  *
+****************************************************************************
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+----- End Included Message -----
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From pc.thomas at unsw.edu.au  Wed Jun 23 19:17:43 1999
+From: pc.thomas at unsw.edu.au (PC Thomas)
+Date: Thu, 24 Jun 1999 12:17:43 +1000
+Subject: [BLDG-SIM] environmental temperatures in DOE-2
+In-Reply-To: <MDAEMON-F199906210207.AA075303MD47441@gard.com>
+Message-ID: <MDAEMON-F199906232308.AA080646MD54567@gard.com>
+
+Hello to all Simulation Specialists !
+
+Does anyone know how I could use DOE-2 to generate envirnomental
+temperatures for a zone.  I know there was some work done to estimate
+surface temperatures, could that be used in conjuction with zone air
+temperatures to calculate environmental temperatures?
+
+Thank you, in advance, to all who resond (and take the time to read this
+message)!
+
+PC
+****************************************************************************
+*  P.C. Thomas                                                             *
+*  Project Scientist &                                                     *
+*  PhD Research Scholar                                                    *
+*  Faculty of The Built Environment                                        *
+*  The University of New South Wales                                       *
+*  SYDNEY NSW 2052 AUSTRALIA                                               *
+*                                                                          *
+*                                                  Mobile +61 417 405 478  *
+*                                                     Tel +61 2 9385 6373  *
+*                                                     Fax +61 2 9662 0205  *
+*                                          e-mail : pc.thomas at unsw.edu.au  *
+*                                http://www.fbe.unsw.edu.au/units/SOLARCH  *
+****************************************************************************
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bseaton at ASHRAE.org  Wed Jun 16 12:20:26 1999
+From: bseaton at ASHRAE.org (Seaton, Bill)
+Date: Wed, 16 Jun 1999 15:20:26 -0400
+Subject: [BLDG-SIM] ARTI project announcement
+Message-ID: <MDAEMON-F199906161418.AA185289MD53119@gard.com>
+
+To:   Those Who Have Expressed Interest In Being Informed When ASHRAE
+Research Projects Are 	Ready To Bid.
+
+From:  Bill Seaton, ASHRAE Manager of Research
+
+As a courtesy to the Air Conditioning and Refrigeration Institute (ARI), I
+am forwarding this Press Release to you.  Any questions or comments should
+be directed to Glenn Hourahan.
+
+Bill Seaton
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: June99 Press Release.rtf
+Type: application/rtf
+Size: 9638 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990616/4fedda05/attachment.rtf>
+
+From cordier at cict.fr  Tue Jun 15 05:34:51 1999
+From: cordier at cict.fr (Alain CORDIER)
+Date: Tue, 15 Jun 1999 14:34:51 +0200
+Subject: [BLDG-SIM] DOE? TRNSYS?
+Message-ID: <MDAEMON-F199906150727.AA274746MD52659@gard.com>
+
+I'm looking for the opinion of people familiar with both  DOE2 and
+TRNSYS. The question is :
+Which software is the best for :
+- easy modelling of usual houses, dwellings, office buildings
+- accurate modelling of usual houses, dwellings, office buildings
+- easiness to add new owner's component, never modelized before
+- availability of model libraries
+- modelling  Infra Red exchanges inside rooms
+- modelling thermal comfort (PMV, SET, Gagge model, etc)
+
+- short learning time
+- maintainance and hot line in French
+- existence of French speaking learning sessions
+- distributor in French-speaking area
+
+Thank-you for your help : I have to choose and I only know one out of
+these softwares
+--
+Alain CORDIER
+LESETH - Universite Paul Sabatier
+118 route de Narbonne
+31062 TOULOUSE - FRANCE
+cordier at cict.fr
+Tel  (33) (0)5 61 55 83 07
+Fax (33) (0)5 61 55 60 21
+
+AFTER THE 15th OF JULY 1999
+NEW ADDRESS :
+cordial at club-internet.fr
+Tel/fax  (33) (0)5 61 73 34 20
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990615/08f4dadf/attachment.htm>
+
+From JJHirsch at ez2.net  Wed Jun  9 11:51:02 1999
+From: JJHirsch at ez2.net (James J. Hirsch)
+Date: Wed, 09 Jun 1999 11:51:02 -0700
+Subject: [BLDG-SIM] DOE 2.2 experiences?
+References: <MDAEMON-F199906031207.AA073382MD40434@gard.com>
+Message-ID: <MDAEMON-F199906091346.AA464540MD51327@gard.com>
+
+The following paragraphs should help clarify the
+issues raised in your message, including:
+- Documentation status,
+- Ground loop heat pump modeling, and
+- The ?legal dispute? between J.J. Hirsch &
+  Associates (JJH) & LBNL
+
+1. DOE-2/PowerDOE documentation and program status
+
+DOE-2.2 documentation is available, more
+comprehensive than for any prior versions of DOE-2,
+and complete except for a final review for errors
+and changes. The PowerDOE online help file was
+completed in early 1997 and includes help on all
+DOE-2.2 commands and keywords with the exception of
+a small number of mistaken omissions. A draft
+version of the DOE-2.2 manuals was produced jointly
+by LBNL and JJH and first made available in June
+1998 as part of the then current pre-release of DOE-
+2.2; LBNL has done a great job in reorganizing and
+formatting the scattered DOE-2 documents into a new
+set of three manuals. We expect to complete the
+final review for errors and changes within the next
+three months and make final versions of the
+documentation for PowerDOE and DOE-2.2 available at
+that time. Draft versions are available now.
+
+Likewise, PowerDOE version 1 and DOE-2.2 pre-
+releases are available to anyone and in widespread
+use.  Free trial copies, updates, and documentation
+can be downloaded upon execution of a no-cost pre-
+release testing license. PowerDOE is designated as
+pre-release until the final documentation review is
+complete. DOE-2.2 is also pre-release for this
+reason, and because implementation, beyond internal
+test versions, is not complete on some batch
+execution features, the metric input/output,
+functions, and parametric input commands. This work
+is also planned for completion within the next three
+months.
+
+Of course, ongoing debugging is an integral part of
+supporting PowerDOE and DOE-2.2. Nevertheless, any
+existing user would be far better off upgrading to
+DOE-2.2 or PowerDOE. DOE-2.2 has better
+documentation, fewer bugs, better input and
+modeling, better documentation, and runs faster.
+PowerDOE has full interactive building description,
+simulation execution, and results fetching. Also
+available is a developer?s kit which includes: a set
+of DOE-2.2 32-bit DLLs, a sample driver program, and
+interface documentation to assist in developing
+interactive applications based on DOE-2.2
+simulations.
+
+2. Ground loop heat pump modeling in DOE-2.1E, DOE-
+2.2, and PowerDOE
+
+We first released a version of DOE-2.1E with ground
+loop heat pump modeling capabilities in 1995; this
+was known as DOE-2.1E version 110.  DOE-2.2 contains
+the same basic ground heat-exchanger model with
+enhancements to allow the definition of multiple
+well/trench ?fields.?  When we first released 2.1E
+with this feature, we placed a warning into the
+manual that we considered this feature in the test
+phase; this is no longer the case as extensive
+testing and comparisons with measured results has
+been completed and show the model to be reliable and
+accurate within acceptable bounds.
+
+Davis Energy Group, or their funding agency Pacific
+Gas and Electric, could be consulted for more
+details on the extensive DOE-2 vs. measurements
+comparisons for GLHP systems recently completed. The
+most significant issue identified in the testing was
+that the model tends to over-predict the daily swing
+of the field return temperature during the peak
+heating and/or cooling days by as much as 10 percent
+(typically, about 5 degrees F.)  Thus the DOE-2
+results would tend to cause over sizing of the
+field.  The energy predictions, non peak
+performance, and longer term (monthly) load
+predictions are very good and not significantly
+effected by this issue.
+
+Howard McLain, at ORNL, is finishing a smaller,
+single building study.  He also identified that the
+model does well for overall predictions and also for
+the details of temperature tracking during the non-
+peak days but also saw larger deviations in field
+return temperature predictions for the worst case
+peak days.  There are several items about this study
+that raise more questions than it provides answers.
+Both these studies suggest, however, that we need to
+improve the near field (short term) dynamics of the
+model before it can be used for sizing if better
+than 10% accuracy is required; such accuracy is
+normally not an issue but the expense of ground loop
+heat exchangers is relatively high so as to make 10%
+oversizing undesirable.
+
+Note however, that DOE-2 does not perform default
+sizing calculations for well/trench fields; you must
+use other means to calculate the number and depth of
+bores, etc., and provide this information to the
+program. We have been seeking funding to add sizing
+calculations but cannot say when they may be
+available; so far, it has not been a priority for
+funding. One item that is important and different in
+2.2 from 2.1E: the specification of circulation loop
+min/max alarm temperatures (the temperature range
+outside of which attached equipment is not allowed
+to operate so as to prevent equipment damage.)  In
+2.2, for GLHP systems it is important to specify
+these in such a way so as to allow ?extended range?
+units attached to the loop to operate; for example,
+use values of 20 and 130 and they will have no
+influence.  This has been the most common problem
+that users of DOE-2.2 have encountered; we will need
+to implement documentation or default value changes
+to help remove this common input error.
+
+The DEG/PG&E work also resulted in our adding
+several new features to the DOE-2 GLHP model:
+subhour loop operation, cooling towers in parallel
+with GLHX field, packaged air-handlers allowed as
+GLHP systems rather than just HP unitary systems,
+among others.
+
+Included in the DOE-2.2 manuals and the PowerDOE
+help is a complete description of the ground loop
+heat exchanger model as well as documentation on
+WLHP circulation loop and water source heat pump
+description options. This information is based upon,
+and an expansion of, the DOE-2.1E documentation on
+the subject which is divided between the 2.1E
+reference manual, the 2.1E Supplement, and the JJH
+2.1E-110 enhancements document.  Both PowerDOE help
+and the DOE-2.2 manuals unify all the scattered DOE-
+2.1E manuals into a single set; a vast improvement.
+In the PowerDOE help you simply search for the
+"ground loop" phrase, or on a GLHX (or related)
+screen just right mouse click on the item and select
+item or topic help.  In the DOE-2.2 Command and
+Keyword Dictionary you just look in the table of
+contents for ground loop heat exchanger, circulation
+loop, and system; in the Topics manual just look in
+the TOC under system TYPE HP.  If something is
+missing from these sections please let us know the
+specifics so we can fix the problem.
+
+In summary, there does not exist a fast, easy-to-
+use, and inexpensive GLHX model that can do better
+than DOE-2 at this time; the DOE-2 model input is
+comparatively simple, an annual simulation on a mid-
+speed Pentium II is a few seconds, and the program
+costs a couple hundred dollars (compared to other
+more detailed models that require significantly more
+expertise to use, have runtimes from ten minutes to
+an hour for a well, and cost thousands to license.)
+The more detailed research grade models are very
+important tools and should continue to be supported
+and developed; their development has lead to
+important contributions to the literature that has
+been key in the development of the commercially
+viable programs such as those based on DOE-2 as well
+as those offered by various equipment manufacturers.
+Having a range of tools requiring differing levels
+of expertise as well as offering varying levels of
+detail of analysis is a good situation that will
+lead to wider adoption of building energy and
+performance modeling within the design community.
+
+A few added comments about user support and the
+frustration you expressed.  Software like DOE-2 is
+complex due to the large number of options and
+capabilities.  We realize that it is often difficult
+to fully understand even the best and most robust
+documentation. We usually hear from people using
+DOE-2 based products when they are having problems;
+if they obtained their license from JJH we deal with
+them as quickly as possible and if a program bug is
+suspected we give the issue priority independent of
+their license source. It is impossible to help
+people if we are not informed of a problem. DEG was
+in constant contact and we dealt with their issues
+on an ongoing basis. Many other users contact us
+daily with questions and issues; most would say they
+get excellent support and issues get resolved more
+quickly than with other similar software products.
+Of course, we cannot help if we do not know the
+issue, the issue is presented as a vague flame, or
+competing product advocates make vague statements to
+bolster their favored product. We want to help, and
+are willing, to a point, to move past your
+frustration produced flame but you must provide
+specific and detailed explanations of the problems
+before we can address them.  The best thing to do is
+zip up you input files (.inp and .pdp, and weather
+if not ours) and email with a description of the
+problem including the exact version of DOE-2 you are
+using.  We are, of course, limited by available
+resources, but our goal is to provide the best
+possible products and to learn from users
+experiences and problems to continually improve DOE-
+2 and its derivatives.
+
+3. The ?Legal Dispute? Between LBNL and JJH
+
+Unfortunately, the information you received from
+LBNL was not entirely accurate. As noted above,
+documentation is currently available and has been
+for some time.
+
+Regarding the ?legal dispute,? the real problem is
+changed focus at  DOE, and thus LBNL, from DOE-2
+development to EnergyPlus development. All
+contractual, licensing, and distributions rights to
+DOE-2.2 are clearly specified in a contract between
+LBNL and JJH and further clarified in a supplemental
+written agreement signed by DOE, LBNL, and JJH in
+June 1997. These documents provide DOE, LBNL, and
+JJH all rights needed to ensure that current and
+future versions of DOE-2 will be available, on a
+non-preferential basis, to anyone and at a lower
+cost than was previously possible.  JJH has and will
+continue to strictly follow the letter and intent of
+these agreements.
+
+The problem is that these agreements provide the
+framework for continuing development, support, and
+use of DOE-2.2 (and future versions). Instead,
+current DOE program manager is focused on justifying
+and increasing annual investment in EnergyPlus. A
+constantly improving, expanding, vital, open,
+inexpensive and more available DOE-2 (at little or
+no expense to the Government) hinders efforts of
+this DOE program manager to convince Congress to
+continue funding the DOE-2 ?replacement? project?at
+an ever increasing cost.  For this reason, work LBNL
+committed to undertake on DOE-2.2 was not completed.
+Further, the DOE program manager would prefer to
+hinder JJH?s ongoing privately funded efforts to
+develop and deliver new DOE-2 versions?even though
+JJH has given DOE and LBNL perpetual royalty free
+rights to directly distribute new versions to the
+public. Accordingly, a delay in the initial DOE-2.2
+release ensued. And, because JJH and its partners
+are committed to supporting, improving, and
+developing new versions of DOE-2, we are at
+loggerheads.
+
+The technology transfer effort for DOE-2 has
+otherwise been a model of success, with the private
+sector taking the lead to develop and distribute
+products like VisualDOE, EZ-DOE, DOE-Plus, PowerDOE,
+eQuest, and others. The results of all Government-
+sponsored and JJH privately-sponsored DOE-2
+development will continue to be available to
+developers at minimal cost.  Fortunately, as a
+result of this successful transfer, most of the
+expertise and all necessary rights for continuing
+development of DOE-2 are now equally in the private
+sector. Although LBNL?s contributions to DOE-2 have
+continued to be excellent, creative, and ground
+breaking, their percentage contribution to DOE-2 has
+been declining since JJH began its significant
+private sector effort in 1988. JJH produced over 60%
+of the new code for the initial 2.1E and over 75% of
+the new code for DOE-2.2. JJH and its partners and
+licensees can and will continue developing new DOE-2
+based products, though we regret the loss of what
+was a long and productive collaboration with LBNL.
+
+The change in focus at DOE is very disappointing, as
+is the DOE program managers attitude that only DOE
+can facilitate the development of quality building
+simulation software. This attitude is unproductive
+and not supported in fact. Although I believe that
+the EnergyPlus team is talented and that their
+efforts will indeed make some useful and valuable
+contributions to building simulation, I also believe
+the project would contribute significantly more and
+lead to greater advancements in the field if its
+HVAC simulation development effort were based upon
+the knowledge, expertise, and experience of the
+TRNSYS, HVACSIM+, SPARK, DOE-2, and other HVAC
+simulation development efforts undertaken during the
+past twenty years.
+
+Perhaps posting this response will help clear up the
+misinformation. The focus should be on what helps
+people make buildings more efficient, and instead we
+are mired in DOE and national lab politics.
+
+"John P. Karasaki, P.E." wrote:
+
+> I've noticed a few people mentioning that they are using DOE 2.2.  We have
+> used it and PowerDOE on a couple of projects.  Our experience is that either
+> can be a bear to use if one is trying to do anything creative since there is
+> no documentation for the more advanced features (the reason one would use
+> DOE 2.2 vs. 2.1E v.127 in the first place).
+>
+> We have been particularly frustrated with the ground source heat pump
+> algorithms.  After a week of getting inconsistent and unexplainable results,
+> a call down to LBNL revealed that the ground loop algorithms are
+> "unreliable" and "should not be used."  Instead, they recommended scheduling
+> water temperatures, which we eventually did.  The results still seem
+> optimistic, but at least the simulation is working somewhat predictably.
+>
+> I heard that the documentation is done but is held up due to a legal dispute
+> between Jeff Hirsch and LBNL.  Unfortunate.
+>
+> Anyone else have similar experiences with DOE 2.2/PowerDOE?  Any pointers as
+> to how to properly define water loops, or where we can get the documentation
+> to do so?
+>
+> Thanks in advance.
+>
+> BTW, as a 10 year user of DOE2, our frustration with using the undocumented
+> DOE 2.2 is akin to what was experienced when I first was learning DOE2.1C!
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+--
+Jeff Hirsch
+James J. Hirsch & Associates
+Building Performance Analysis Software & Consulting
+12185 Presilla Road
+Camarillo, CA 93012-9243 USA
+phone: (805) 532-1045
+fax: (805) 532-2401
+email: Jeff.Hirsch at DOE2.com OR JJHirsch at ez2.net
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: JJHirsch.vcf
+Type: text/x-vcard
+Size: 504 bytes
+Desc: Card for James J. Hirsch
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990609/a7511bed/attachment.vcf>
+
+From hvac at together.net  Wed Jun  9 07:12:40 1999
+From: hvac at together.net (Tom Anderson)
+Date: Wed, 09 Jun 1999 10:12:40 -0400
+Subject: [BLDG-SIM] cooking energy
+References: <MDAEMON-F199906081907.AA075846MD43820@gard.com>
+Message-ID: <MDAEMON-F199906090908.AA081809MD51241@gard.com>
+
+Mark:
+
+I am not sure this reference has the specific data you are looking for,
+but try ASHRAE Cooling and Heating Load Calculation Manual, Second
+Ed.     All types of institutional appliances are listed and the heat
+output is broken down by appliance size, capacity, hooded or not, etc.
+Possibly one could work backwards from the BtuH output ratings to
+determine energy source input.
+
+Hope this helps.
+
+Tom Anderson
+
+
+Mark Case wrote:
+
+>  not technically building simulation but I'll ask anywayDoes anyone
+> know of good reference numbers for institutional kitchen energy
+> consumption?something like gas or electric per meal for prep, cooking,
+> cleanup?gallons of hot water per meal?Mark E. Case, P.E.President, etc
+> Group, Inc.3481 South 2300 EastSalt Lake City, Utah 84109801-278-1927,
+> 801-278-1942 (F)
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990609/1ba9575e/attachment.htm>
+
+From jglazer at gard.com  Wed Jun  9 06:03:00 1999
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 9 Jun 1999 08:03:00 -0500
+Subject: [BLDG-SIM] Reasonableness Checks (was: cooking energy)
+In-Reply-To: <MDAEMON-F199906081907.AA075959MD51050@gard.com>
+Message-ID: <MDAEMON-F199906090755.AA551767MD51195@gard.com>
+
+Personally, I would consider the question below a building 
+simulation issue.  Judgment on end-use intensities is one 
+of the most common reasonableness checks that building 
+simulation users have.  Another reasonableness check is 
+sensitivity analysis - temporarily altering major input 
+assumptions and making sure the building responds in a way 
+that makes sense by checking annual and peak electricity 
+and gas usage.  These checks are both based on engineering 
+judgment like most reasonableness checks.  
+
+What other reasonableness checks are the list members using 
+when doing building simulations?   What other quality 
+assurance techniques are the list members using?
+
+Jason
+
+On 8 Jun 99, at 17:19, Mark Case wrote:
+
+> not technically building simulation but I'll ask anyway
+> 
+> Does anyone know of good reference numbers for institutional kitchen
+> energy consumption? something like gas or electric per meal for prep,
+> cooking, cleanup? gallons of hot water per meal?
+> 
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mcase at etcgrp.com  Tue Jun  8 16:19:10 1999
+From: mcase at etcgrp.com (Mark Case)
+Date: Tue, 8 Jun 1999 17:19:10 -0600
+Subject: [BLDG-SIM] cooking energy
+Message-ID: <MDAEMON-F199906081907.AA075959MD51050@gard.com>
+
+not technically building simulation but I'll ask anyway
+
+Does anyone know of good reference numbers for institutional kitchen energy
+consumption?
+something like gas or electric per meal for prep, cooking, cleanup?
+gallons of hot water per meal?
+
+Mark E. Case, P.E.
+President, etc Group, Inc.
+3481 South 2300 East
+Salt Lake City, Utah 84109
+801-278-1927, 801-278-1942 (F)
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990608/a7c880d7/attachment.htm>
+
+From mjwitte at gard.com  Tue Jun  8 06:34:04 1999
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Tue, 8 Jun 1999 08:34:04 -0500
+Subject: [BLDG-SIM] IBPSA-USA Software Expo June 19 in Seattle
+Message-ID: <MDAEMON-F199906080829.AA293915MD50826@gard.com>
+
+IBPSA-USA Building Simulation Software Exposition to be held in 
+Seattle, Saturday, June 19, just prior to the ASHRAE Annual Meeting
+
+(Apologies to those of you who may receive this more than once . . .)
+
+The USA chapter of the International Building Performance 
+Simulation Association (IBPSA-USA) will be holding a software 
+exposition on Saturday June 19 from 4:00 to 7:00 PM at the Lighting 
+Design Laboratory, 400 E. Pine Street, in Seattle, Washington, USA. 
+IBPSA is an international organization dedicated to promoting the use 
+of simulation in all aspects of bulding design and operation. Some of 
+the latest building simulation software will be demonstrated at the 
+exposition. In most cases the authors or developers of the software 
+will be present. Refreshments will be available. 
+
+Software developers who wish to demonstrate their software should
+notify Curt Pedersen, President IBPSA-USA, at cpederse at uiuc.edu.
+Exhibitors are expected to use their own hardware; tables and
+electricity will be provided.  
+
+An IBPSA-USA dinner meeting will be follow the exposition at 
+7:30-9:00 p.m. (location TBA).
+
+For a map, see http://www.mae.okstate.edu/ibpsa/ibpsamap.pdf
+
+For IBPSA-USA membership information, please contact mjwitte at gard.com
+
+See you in Seattle,
+
+Mike Witte
+Secretary
+IBPSA-USA
+mjwitte at gard.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From thornton at tess-inc.com  Mon Jun  7 11:40:00 1999
+From: thornton at tess-inc.com (Jeff Thornton)
+Date: Mon, 07 Jun 1999 13:40:00 -0500
+Subject: [BLDG-SIM] DOE 2.2 experiences?
+In-Reply-To: <MDAEMON-F199906031207.AA073985MD40532@gard.com>
+Message-ID: <MDAEMON-F199906071335.AA352682MD50533@gard.com>
+
+At 10:04 AM 6/3/99 -0700, you wrote:
+
+>We have been particularly frustrated with the ground source heat pump
+>algorithms.  After a week of getting inconsistent and unexplainable results,
+>a call down to LBNL revealed that the ground loop algorithms are
+>"unreliable" and "should not be used."  Instead, they recommended scheduling
+>water temperatures, which we eventually did.  The results still seem
+>optimistic, but at least the simulation is working somewhat predictably.
+
+You are not the only one that has had problems with the ground source
+models in DOE-2.  Oak Ridge National Labs and our company (TESS) has just
+finished a "simulation calibration to data" exercise of TRNSYS and DOE-2 on
+a school in Lincoln Nebraska.  Howard McClain of ORNL has just published a
+paper on his findings with the DOE-2 gshp model and they are not real good
+(ASHRAE paper).  The results from TRNSYS using the DST ground heat
+exchanger model from the University of Lund Sweden were excellent.  Richard
+Gordon of AEMT in Corvallis Oregon has also struggled with the GHP routines
+in DOE-2.
+
+For the past several years we have modeled gshp systems in TRNSYS for a
+variety of projects including:
+
+1) Apartment level simulations at Fort Polk LA - the largest GHP project in
+the world.
+2) Feeder level calibrations/simulations (200 apartments) for Fort Polk
+that predict the annual energy usage within 1% of that measured at the site.
+3) Residential GHP calibrations for northern climates
+4) Simulations used as the government estimates of GHP savings for a
+large-scale retrofit at Oceana Naval Air Station
+5) Simulations used as the government estimates of GHP savings for a
+large-scale retrofit at Little Creek Naval Amphibious Base
+6) Calibration to data at 4 schools in Lincoln Nebraska.
+7) Calibration to data at Daniel Boone High School (TN) - in progress
+
+Several of these projects used the DOE-2 building loads from a separate
+firm and we were tasked with doing the system simulations.  I have several
+reports and papers (some to be published at future ASHRAE meetings) if
+anyone is interested in our findings.  The results in terms of energy
+consumption, 15-minute peak demand, and max/min entering water temperatures
+to the heat pumps are very close to those measured - even with the loss of
+accuracy encountered by using "energy-rate" loads from DOE-2 (and ignoring
+the system/building interactions that TRNSYS could handle).
+
+As a result of the calibration exercise at a school in Lincoln Nebraska, we
+have measured data of 54 separate ground source heat pumps for a period of
+three years at the school.  If anyone is intersted in comparing their
+statistical predictions with reality at this school, e-mail me and I can
+give you the details of the building/system.  The simulation of this
+building and its heat pumps is performed at 15-minute timesteps in TRNSYS
+such that the demand can be estimated more accurately and the thermal
+"fighting" between adjacent heat pumps in this "open architecture" school
+can be studied.  We have since made a software "movie" of the fighting
+between the adjacent zones over the period of a typical year and the
+results are fascinating.  I can send the program to anyone who wishes to
+see it.  With the simulation in place, lots of "what if" scenarios can be
+studied including some recent work on the demand effects of night
+setback/setup.
+
+Thanks.
+
+BIO:
+
+Jeff Thornton
+Founding Partner - Thermal Energy System Specialists
+Experience: 10 Years of simulation and modeling of building and systems
+with emphasis on renewable and emerging technologies.  Former TRNSYS
+coordinator at the University of Wisconsin.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*****************************************************************
+Jeff Thornton		    Thermal Energy System Specialists
+Partner			    5610 Medical Circle - Suite 31
+			    	    Madison WI 53719
+
+Phone: (608) 274-2577	    E-mail: thornton at tess-inc.com
+Fax:   (608) 278-1475	    Web Page: http://www.tess-inc.com
+
+"Providing Software Solutions for Today's Energy Engineering Projects"
+*****************************************************************
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From munwiver at erols.com  Mon Jun  7 08:01:43 1999
+From: munwiver at erols.com (Ron P.)
+Date: Mon, 7 Jun 1999 11:01:43 -0400
+Subject: [BLDG-SIM] COMIS with IISiBat User Manual
+Message-ID: <MDAEMON-F199906070954.AA543756MD50476@gard.com>
+
+In our quest for understanding the COMIS model, we have been acquiring and studying the available documentation.  For the help that subscribers, particularly Andreas Weber, have already provided, we offer our profound thanks.  Werner Keilholz, who wrote the tutorial packaged with COMIS with IISiBat, is unavailable until June 17.  Consequently, we ask subscribers about the subject document, cited in the tutorial, and its availability.  Perhaps it is included in the download package, but we cannot find it there or on any of the Web sites.  Any guidance is appreciated.
+
+Ron Pennsyle
+OptiMetrics, Inc.
+1 Newport Dr., Suite H
+Forest Hill, MD 21050
+Tel. (410) 838-1429
+pennsyle at omi.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990607/2a941d03/attachment.htm>
+
+From steve-gates at softcom.net  Fri Jun  4 10:14:49 1999
+From: steve-gates at softcom.net (Steven D. Gates)
+Date: Fri, 04 Jun 1999 10:14:49 -0700
+Subject: [BLDG-SIM] Statistical Estimate of Number of Units ON (peak
+References: <MDAEMON-F199906030859.AA594635MD39519@gard.com>
+Message-ID: <MDAEMON-F199906041207.AA070800MD50039@gard.com>
+
+While all versions of DOE-2 use an hourly calculational timestep, DOE-2.2
+contains a refinement that allows the program to better approximate the subhour
+demands associated with packaged rooftop equipment.   As in previous versions,
+the program calculates DX unit's energy consumption using an hourly timestep.
+Then, the program looks at the zonal temperature profile that occurred during
+the hour, and allocates the energy consumption into 5-minute bins according to
+the variation of zone temperature within the cooling setpoint throttling range.
+
+For example, consider a zone's behavior during the first hour of operation
+(morning startup).  If the temperature at the beginning of the hour is above
+the top of the zone's temperature setpoint throttling range, and the
+temperature at the end of the hour is within the throttling range, then clearly
+the unit must have been running continuously at the beginning of the hour, and
+is cycling on/off at the end of the hour.  The program therefore allocates more
+of the hourly energy into the 5-minute bins at the beginning of the hour, and
+less to the bins at the end of the hour.
+
+This allocation assumes the temperature change within the hour is linear, which
+is a reasonable assumption for most equipment (it becomes less accurate for
+equipment that is significantly oversized).
+
+The electric utility rate calculations can take into account either fixed or
+sliding demand windows, of variable length, with the smallest possible window
+being 5 minutes, and the longest being 60 minutes.
+
+The above applies to packaged rooftop equipment serving either single or
+multiple zones, and for both heating and cooling.  This logic has not been
+extended to central plant equipment (boilers, chillers).
+
+I am one of the original authors of the DOE-2 program, and have been affiliated
+with J. Hirsch & Associates since 1992.  I also have 10 years of experience in
+designing HVAC systems, and in the configuration and programming of DDC
+controls.  Jeff and I are responsible for the majority of the new mechanical
+system simulation capabilities implemented in DOE-2.2, including the above.
+
+
+Michael J. Witte wrote:
+
+> On  2 Jun 99 at 18:51, BKoran at aol.com wrote:
+>
+> > If I have a large number of units, the number of units likely to be
+> > operating simultaneously will approach the product of the total number of
+> > units times the fraction of time each unit is on.
+> >
+> > I suppose I need to use a threshold probability to constrain the problem.
+> > So, with a probability greater than 70%, what is the maximum number of
+> > units operating simultaneously?  Even better, what is the maximum average
+> > number of units operating simultaneously over a 15-minute period?
+> >
+> > How do DOE-2, Trace, HAP, BLAST, etc. calculate a 15-minute peak demand?
+> >
+>
+> DOE-2.1E and BLAST do not do anything special to calculate subhourly
+> demand windows.  The electric consumption for the hour is averaged
+> over the hour.  As you said, this is a good approximation for larger
+> facilities with more than a few units, but it could underestimate
+> demand charges for facilities with a few units or in applications
+> where return from setback would cause all units to kick on at the
+> same time and run for say 30 minutes to cool down the facility.
+> Does anyone out there know whether Trace or HAP or DOE-2.2 have any
+> subhourly demand tracking capabilities?
+>
+> Mike Witte
+>
+> ========================================================
+> Michael J. Witte                        mjwitte at gard.com
+> GARD Analytics, Inc.                        www.gard.com
+> 1028 Busse Highway                    Phone 847-698-5685
+> Park Ridge, Illinois 60068-1802         FAX 847-698-5600
+> USA          Energy, Environmental and Economic Research
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From fporter at archenergy.com  Fri Jun  4 09:34:58 1999
+From: fporter at archenergy.com (Fred Porter)
+Date: Fri, 04 Jun 1999 10:34:58 -0600
+Subject: [BLDG-SIM] Statistical Estimate of Number of Units ON (peak demand)
+References: <MDAEMON-F199906021750.AA500267MD38875@gard.com>
+Message-ID: <MDAEMON-F199906041131.AA313075MD50026@gard.com>
+
+The more cycling units you have, the LESS probable it is that they will all be on
+constantly during a 15 minute demand window, when compared to a single unit. A
+single cycling unit is more likely to cause an un-predicted peak above its hourly
+average demand.
+
+During a DSM evaluation project we tried to calibrate many basic DOE-2.1
+simulations with monthly utility demand and consumption data. Some of the best
+"behaved" buildings were big box retail stores with 20+ packaged units (and some
+other characteristics that make them easy to simulate).
+
+DOE-2.2 does have some capapabilities to account for sub-hourly HVAC demands,
+even though it is an hourly simulation. I have not used these yet, however.
+
+BKoran at aol.com wrote:
+
+> This is a statistics problem.  I'm extremely competent with thermodynamics
+> and most energy analysis, but I've only recently tried to estimate peak
+> demand by month.  I can estimate the kW of an individual unit, but what is
+> the expected peak kW during the month for a given number of similar units?
+>
+> I'm very curious, how do hourly analysis program do this?  It's easy to see
+> that they might not handle peak demand very well.
+>
+> As I'm certain you're all aware, large businesses are
+> generally charged each month according to the highest electrical demand
+> recorded over a 15-minute period.
+>
+> Consider a site with number of packaged units for cooling.  The problem is to
+> find out the maximum number of units that would be on at
+> simultaneously (for at least 15 minutes), so that the peak electrical demand
+> and associated demand charges can be estimated.
+>
+> N_units =number of units
+> A_pct   =fraction of time each unit is on
+>          during each time period considered
+> N_pers  =number of time periods to be considered
+> A_Prob  =minimum acceptable probability of occurrence
+>
+> For example, if I have 3 units, and each unit operates only 5 minutes each
+> hour, the probability that all units are operating at once is low if I only
+> look at 1 hour.
+>
+> However, if I consider 100 hours, the probability that all units are
+> operating at once is much higher.
+>
+> If I have a large number of units, the number of units likely to be
+> operating simultaneously will approach the product of the total number of
+> units times the fraction of time each unit is on.
+>
+> I suppose I need to use a threshold probability to constrain the problem.
+> So, with a probability greater than 70%, what is the maximum number of
+> units operating simultaneously?  Even better, what is the maximum average
+> number of units operating simultaneously over a 15-minute period?
+>
+> How do DOE-2, Trace, HAP, BLAST, etc. calculate a 15-minute peak demand?
+>
+> Bill Koran
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+--
+Fred W. Porter
+Senior Engineer
+Architectural Energy Corp.
+2540 Frontier Ave. Suite 201
+Boulder CO 80301
+email: fporter at archenergy.com
+phone: 303-444-4149
+fax: 303-444-4304
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From BKoran at aol.com  Thu Jun  3 16:51:28 1999
+From: BKoran at aol.com (BKoran at aol.com)
+Date: Thu, 3 Jun 1999 19:51:28 EDT
+Subject: [BLDG-SIM] Stat Est. response to James F. Pegues
+Message-ID: <MDAEMON-F199906031852.AA522509MD49801@gard.com>
+
+Thanks for the wonderful post; I used it to bring some stat-oriented friends 
+up-to-speed on what I was talking about.
+
+In a message dated 6/3/99 11:14:08 AM Pacific Daylight Time, 
+James.F.Pegues at carrier.utc.com writes:
+
+> If you use your statistical approach with hourly simulation data as raw 
+>  material, there may be several factors beyond the ON/OFF status of the 
+> packaged 
+>  DX units that are worth considering.  Over your 100 hour sample period the 
+>  variations in the following may affect probabilities:
+>       
+>  a. Varying outdoor air temperature which affects the capacity of the DX 
+>     equipment and influences the cycling rate of the equipment.  This in 
+turn 
+> 
+>     affects the probability of units being on.
+>       
+>  b. Varying outdoor air temperature also affects the efficiency of the unit 
+> and 
+>     thus influences kW use.
+>       
+>  c. Varying building loads which affect the cycling rate of the equipment.
+
+I am already including, to the best of my ability, your items a, b, and c, 
+which brought me to the need for some statistical analysis.
+
+Thanks again for your feedback.
+
+Bill
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From BKoran at aol.com  Thu Jun  3 16:47:24 1999
+From: BKoran at aol.com (BKoran at aol.com)
+Date: Thu, 3 Jun 1999 19:47:24 EDT
+Subject: [BLDG-SIM] Stat Est response to John P. Karasaki
+Message-ID: <MDAEMON-F199906031928.AA284696MD49811@gard.com>
+
+In a message dated 6/3/99 8:40:35 AM Pacific Daylight Time, 
+jpkarasa at cbg-engrs.com writes:
+
+> I don't think you can estimate AC equipment demand with the statistics
+>  variables you mention.  The number of AC units on at any time is a function
+>  of the internal and external building loads, the thermal inertia of the
+>  building and contents, and the equipment operating schedule set by the
+>  building operator.
+>  
+And, I believe, statistical variability in things such as the duty cycle of 
+the equipment, which is dependent upon equipment variability, T-stat 
+deadband, etc.
+
+>  We had a project in which we had the good fortune of over 2 years of 
+chiller
+>  data and coincident weather data.  The goal was to come up with a series (a
+>  minimal amount!) of equations by which we could predict a building's 
+cooling
+>  load based on outdoor air parameters.
+>  
+>  We were not able to do it as there were too many inconsistencies and too
+>  many variables.  e.g. so what if it is 100 F out if that occurs on a Sunday
+>  when the building isn't occupied; or worse, a Monday that also just happens
+>  to be a holiday.
+
+I had a retrofit project in which I also had "2 years of chiller data and 
+coincident weather data"  This was a large hospital, and I WAS able to come 
+up with a series of equations to model the cooling load based on outdoor air 
+parameters.  My spreadsheet model was evaluated by the P.E. for the local 
+utility, and we obtained a $180,000 rebate based solely on my model.  
+
+So now we have 2 anecdotes.  Neither of us is right or wrong in the 
+reasonabless of simulating a facility based mostly on OSAT.  I happened to 
+have a particularly consistent building.   I'm guessing you didn't.  Also, 
+the building I was looking was relatively unaffected by day-of-the-week, 
+holidays, etc.
+>  
+>  It seems the more one tries to simplify a complex process, the more the
+>  accuracy of the results are compromised.
+
+I couldn't agree more.  But my concern is that our *best* sim programs 
+already include big simplifications in this regard.
+
+Thanks for responding to my post...this is most educational, and making me 
+think!
+
+Bill
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From BKoran at aol.com  Thu Jun  3 16:21:38 1999
+From: BKoran at aol.com (BKoran at aol.com)
+Date: Thu, 3 Jun 1999 19:21:38 EDT
+Subject: [BLDG-SIM] Stat Est. response to Larry Degelman
+Message-ID: <MDAEMON-F199906031929.AA291389MD49824@gard.com>
+
+In a message dated 6/3/99 12:27:27 AM Pacific Daylight Time, 
+Larry at taz.tamu.edu writes:
+
+>  If you look at this purely as a statistics problem, it's interesting to 
+note 
+> that the larger the number of units operating with independent 
+probabilities of 
+> being on at any one time, the lower will be the probability of all of them 
+being 
+> on at any one time.
+
+Yes, that is partly why I brought this issue up.
+
+>  What I'm skeptical of is applying statistics to
+>  building cooling loads.   I don't agree that this is a statistics problem. 
+ 
+> It has a bit of probability in it, but the air conditioner's operation is a 
+> reaction to a fairly predictable pattern of thermal loads.
+
+Absolutely, for an individual A/C unit.  But I am concerned with the case for 
+which the impact of the load and ambient T on equipment cycling, efficiency, 
+and capacity have already been accounted.
+
+> To back this up 
+> (admittedly not by a scientific method), just look at the electric codes 
+again and you 
+> will see that even though diversity is allowed in plug loads, you are 
+required to 
+> sum 100% of all air conditioner loads when sizing the service panel.  
+
+That makes sense, because there is (nearly) always the possibility that all 
+units could be on at once.  (Conversely the probability that the all of the 
+units will NEVER be on at the same time is < 1.)
+
+However, for estimating peak demand by month, (on average, over a several 
+year period) one might look at, for Pr =0.5, how many units would be on 
+simultaneously for at least 15 minutes, or perhaps more units on for less 
+than 15 minutes if that results in a greater 15-minute integrated demand.
+
+So, I think I agree with you, except I think it is at least partly a 
+statistics problem.  The biggest uncertainty I have is whether zonal load 
+diversity has such a big impact on the peak kW (few of the units ever see 
+peak demand at the same time, most months) that this type of statistical 
+diversity becomes insignificant.  The zone load diversity impact is certainly 
+dependent upon lots of factors, but my guess is that it does not always 
+dominate the statistical diversity.  For example, many schools have little 
+diversity between zones, especially if there are not east- or west-oriented 
+windows.
+
+Thanks for your response!  This is an interesting subject for me.
+
+Bill
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jpkarasa at cbg-engrs.com  Thu Jun  3 10:04:42 1999
+From: jpkarasa at cbg-engrs.com (John P. Karasaki, P.E.)
+Date: Thu, 3 Jun 1999 10:04:42 -0700
+Subject: [BLDG-SIM] DOE 2.2 experiences?
+Message-ID: <MDAEMON-F199906031207.AA073359MD49630@gard.com>
+
+I've noticed a few people mentioning that they are using DOE 2.2.  We have
+used it and PowerDOE on a couple of projects.  Our experience is that either
+can be a bear to use if one is trying to do anything creative since there is
+no documentation for the more advanced features (the reason one would use
+DOE 2.2 vs. 2.1E v.127 in the first place).
+
+We have been particularly frustrated with the ground source heat pump
+algorithms.  After a week of getting inconsistent and unexplainable results,
+a call down to LBNL revealed that the ground loop algorithms are
+"unreliable" and "should not be used."  Instead, they recommended scheduling
+water temperatures, which we eventually did.  The results still seem
+optimistic, but at least the simulation is working somewhat predictably.
+
+I heard that the documentation is done but is held up due to a legal dispute
+between Jeff Hirsch and LBNL.  Unfortunate.
+
+Anyone else have similar experiences with DOE 2.2/PowerDOE?  Any pointers as
+to how to properly define water loops, or where we can get the documentation
+to do so?
+
+Thanks in advance.
+
+BTW, as a 10 year user of DOE2, our frustration with using the undocumented
+DOE 2.2 is akin to what was experienced when I first was learning DOE2.1C!
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From James.F.Pegues at carrier.utc.com  Thu Jun  3 09:44:55 1999
+From: James.F.Pegues at carrier.utc.com (James F Pegues)
+Date: Thu, 3 Jun 1999 12:44:55 -0400
+Subject: [BLDG-SIM] Statistical Estimate of Number of Units ON
+Message-ID: <MDAEMON-F199906031217.AA172410MD49648@gard.com>
+
+Mr. Koran,
+     
+At the end of your posting about demand calculations you asked how other 
+simulation software including Carrier's HAP program handle this issue.  An 
+explanation for HAP follows:
+     
+In HAP heat flow and equipment performance are calculated for a series of 8760 
+1-hour time steps.  Variations in heat flow or equipment performance over 
+intervals shorter than 60 minutes cannot be determined because of the lack of 
+sufficient data - weather data, schedules, loads, etc... for shorter periods of 
+time aren't available.  Therefore, hourly simulation results represent the 
+integrated performance over a 1-hour period.  Another way of viewing the results
+is as representing the average state of operation over the 1-hour period.  With 
+this data the best estimate of demand that can be made is to assume steady 
+consumption (e.g., 40 kWh consumed by a compressor during a 1-hour period 
+equates to a steady 40 kW power level for the compressor for that hour). Similar
+kW data is derived for all components in a building - fans, lights, office eqpt,
+compressors, pumps, etc.. - to assemble the total building kW profile.  These 
+profiles are then evaluated to identify the peak kW during each billing period. 
+This can be interpreted as either assuming that the demand window is 60 minutes,
+or that it is 15 minutes, but performance is steady for all 15 minute windows 
+during each 1-hour time-step.
+     
+In real life, of course, thermal and equipment behavior changes in significant 
+ways over periods of time shorter than one hour.  You've pointed out one example
+- cycling of the DX unit and the effect it can have on demand determination.
+     
+Probably the only way to account for all the factors that affect demands set in 
+a sliding 15-minute window is to use a short-time step simulation which looks at
+time intervals much less than one hour.  I think one version of BLAST provides 
+short time step simulations, but I don't know if it carries the analysis through
+to determine peak demand.
+     
+If you use your statistical approach with hourly simulation data as raw 
+material, there may be several factors beyond the ON/OFF status of the packaged 
+DX units that are worth considering.  Over your 100 hour sample period the 
+variations in the following may affect probabilities:
+     
+a. Varying outdoor air temperature which affects the capacity of the DX 
+   equipment and influences the cycling rate of the equipment.  This in turn 
+   affects the probability of units being on.
+     
+b. Varying outdoor air temperature also affects the efficiency of the unit and 
+   thus influences kW use.
+     
+c. Varying building loads which affect the cycling rate of the equipment.
+     
+Hope this information is helpful.
+     
+Best Regards,
+            Jim Pegues
+            Carrier Corporation 
+     
+     
+     
+     
+     
+______________________________ Reply Separator _________________________________
+Subject: [BLDG-SIM] Statistical Estimate of Number of Units ON (peak 
+Author:  BKoran at aol.com at Internet
+Date:    6/2/99 6:51 PM
+     
+     
+This is a statistics problem.  I'm extremely competent with thermodynamics 
+and most energy analysis, but I've only recently tried to estimate peak 
+demand by month.  I can estimate the kW of an individual unit, but what is 
+the expected peak kW during the month for a given number of similar units?
+     
+I'm very curious, how do hourly analysis program do this?  It's easy to see 
+that they might not handle peak demand very well.
+     
+As I'm certain you're all aware, large businesses are
+generally charged each month according to the highest electrical demand 
+recorded over a 15-minute period.
+     
+Consider a site with number of packaged units for cooling.  The problem is to 
+find out the maximum number of units that would be on at
+simultaneously (for at least 15 minutes), so that the peak electrical demand 
+and associated demand charges can be estimated.
+     
+N_units =number of units
+A_pct   =fraction of time each unit is on
+         during each time period considered
+N_pers  =number of time periods to be considered 
+A_Prob  =minimum acceptable probability of occurrence
+     
+For example, if I have 3 units, and each unit operates only 5 minutes each 
+hour, the probability that all units are operating at once is low if I only 
+look at 1 hour.  
+     
+However, if I consider 100 hours, the probability that all units are 
+operating at once is much higher.
+     
+If I have a large number of units, the number of units likely to be 
+operating simultaneously will approach the product of the total number of 
+units times the fraction of time each unit is on.
+     
+I suppose I need to use a threshold probability to constrain the problem. 
+So, with a probability greater than 70%, what is the maximum number of 
+units operating simultaneously?  Even better, what is the maximum average 
+number of units operating simultaneously over a 15-minute period?
+     
+How do DOE-2, Trace, HAP, BLAST, etc. calculate a 15-minute peak demand?
+     
+Bill Koran
+     
+     
+====================================================== 
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+     
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bob at rer.com  Thu Jun  3 09:10:34 1999
+From: bob at rer.com (Bob Ramirez)
+Date: Thu, 3 Jun 1999 09:10:34 -0700
+Subject: [BLDG-SIM] A suggestion:  When responding to questions, how about including
+	some company, type of work info, etc.?
+Message-ID: <MDAEMON-F199906031114.AA142053MD49618@gard.com>
+
+I think it would be really useful for people asking and responding to
+questions to provide at the end of their messages their company name, the
+type of work they do, and their personal title.  For instance, I thought the
+most recently posted question RE: Statistical Estimate of Number of Units ON
+(peak kW) and answers to that question were very interesting, but it would
+be even more interesting to me to know the environment (company name, what
+type of work they do, persons title if relevant) in which the work mentioned
+in the responses was done.  Just a suggestion.
+
+Bob Ramirez
+Senior Engineer 
+Company: Regional Economic Research, Inc.
+Location: San Diego, CA
+Type of work: Energy Consultants (see www.rer.com for detailed description)
+BldgSimSoftware: DOE-2.1, DOE-2.2, Coolaid, Comtech
+
+
+
+Bob Ram?rez (bobram at rer.com or bob at rer.com)
+
+Regional Economic Research, Inc.             http://www.rer.com
+11236 El Camino Real #A, San Diego, CA 92130
+Phone: 619.481.0081 ext. 427
+FAX: 619.481.7550
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jpkarasa at cbg-engrs.com  Thu Jun  3 08:38:57 1999
+From: jpkarasa at cbg-engrs.com (John P. Karasaki, P.E.)
+Date: Thu, 3 Jun 1999 08:38:57 -0700
+Subject: [BLDG-SIM] Statistical Estimate of Number of Units ON (peak d
+	emand)
+Message-ID: <MDAEMON-F199906031035.AA354475MD49603@gard.com>
+
+The energy simulation programs you mention don't calculate any variables in
+15 minute intervals.  1 hour time slices are the standard.  DOE2 doesn't use
+statistics*.  It takes a sledge hammer approach and sums up the coincident
+loads from all the calculations it does.
+
+I don't think you can estimate AC equipment demand with the statistics
+variables you mention.  The number of AC units on at any time is a function
+of the internal and external building loads, the thermal inertia of the
+building and contents, and the equipment operating schedule set by the
+building operator.
+
+We had a project in which we had the good fortune of over 2 years of chiller
+data and coincident weather data.  The goal was to come up with a series (a
+minimal amount!) of equations by which we could predict a building's cooling
+load based on outdoor air parameters.
+
+We were not able to do it as there were too many inconsistencies and too
+many variables.  e.g. so what if it is 100 F out if that occurs on a Sunday
+when the building isn't occupied; or worse, a Monday that also just happens
+to be a holiday.
+
+It seems the more one tries to simplify a complex process, the more the
+accuracy of the results are compromised.
+
+I hope you fair better!  Good luck!
+
+
+
+*Maybe only in window blind scheduling?
+
+-----Original Message-----
+From: BKoran at aol.com [mailto:BKoran at aol.com]
+Sent: Wednesday, June 02, 1999 3:51 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Statistical Estimate of Number of Units ON (peak
+demand)
+
+
+This is a statistics problem.  I'm extremely competent with thermodynamics 
+and most energy analysis, but I've only recently tried to estimate peak 
+demand by month.  I can estimate the kW of an individual unit, but what is 
+the expected peak kW during the month for a given number of similar units?
+
+I'm very curious, how do hourly analysis program do this?  It's easy to see 
+that they might not handle peak demand very well.
+
+As I'm certain you're all aware, large businesses are
+generally charged each month according to the highest electrical demand
+recorded over a 15-minute period.
+
+Consider a site with number of packaged units for cooling.  The problem is
+to 
+find out the maximum number of units that would be on at
+simultaneously (for at least 15 minutes), so that the peak electrical demand
+
+and associated demand charges can be estimated.
+
+N_units	=number of units
+A_pct	=fraction of time each unit is on
+	 during each time period considered
+N_pers	=number of time periods to be considered
+A_Prob	=minimum acceptable probability of occurrence
+
+For example, if I have 3 units, and each unit operates only 5 minutes each
+hour, the probability that all units are operating at once is low if I only
+look at 1 hour.  
+
+However, if I consider 100 hours, the probability that all units are
+operating at once is much higher.
+
+If I have a large number of units, the number of units likely to be
+operating simultaneously will approach the product of the total number of
+units times the fraction of time each unit is on.
+
+I suppose I need to use a threshold probability to constrain the problem. 
+So, with a probability greater than 70%, what is the maximum number of
+units operating simultaneously?  Even better, what is the maximum average
+number of units operating simultaneously over a 15-minute period?
+
+How do DOE-2, Trace, HAP, BLAST, etc. calculate a 15-minute peak demand?
+
+Bill Koran
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Gren_Yuill/CET/UNO/UNEBR at unomail.unomaha.edu  Thu Jun  3 07:53:34 1999
+From: Gren_Yuill/CET/UNO/UNEBR at unomail.unomaha.edu (Gren_Yuill/CET/UNO/UNEBR at unomail.unomaha.edu)
+Date: Thu, 3 Jun 1999 09:53:34 -0500
+Subject: [BLDG-SIM] Statistical Estimate of Number of Units ON (peak
+Message-ID: <MDAEMON-F199906031008.AA080284MD49572@gard.com>
+
+The biggest problem in predicting peaks is in the input data.  We use repeating
+schedules of occupancy and equipment use, without statistical fluctuations.  We
+use  weather data that may be statistically valid, but certainly won't coincide
+with the occupancy schedules the way the real weather next year will coincide
+with the real occupancy.
+
+For these reasons, I have found that the deviations of predicted from measured
+peak power are considerably greater than for annual or monthly energy
+consumption.  I don't know a solution to the problem.
+
+
+
+
+
+
+
+
+
+"Michael J. Witte" <mjwitte at gard.com> on 06/03/99 09:04:13 AM
+
+Please respond to MJWitte at gard.com
+                                                                                
+                                                                                
+                                                                                
+
+
+                                                              
+                                                              
+                                                              
+ To:      BLDG-SIM at gard.com                                   
+                                                              
+ cc:      (bcc: Gren Yuill/CET/UNO/UNEBR)                     
+                                                              
+                                                              
+                                                              
+ Subject: [BLDG-SIM] Statistical Estimate of Number of Units  
+          ON (peak                                            
+                                                              
+
+
+
+
+
+
+
+
+On  2 Jun 99 at 18:51, BKoran at aol.com wrote:
+
+> If I have a large number of units, the number of units likely to be
+> operating simultaneously will approach the product of the total number of
+> units times the fraction of time each unit is on.
+>
+> I suppose I need to use a threshold probability to constrain the problem.
+> So, with a probability greater than 70%, what is the maximum number of
+> units operating simultaneously?  Even better, what is the maximum average
+> number of units operating simultaneously over a 15-minute period?
+>
+> How do DOE-2, Trace, HAP, BLAST, etc. calculate a 15-minute peak demand?
+>
+
+DOE-2.1E and BLAST do not do anything special to calculate subhourly
+demand windows.  The electric consumption for the hour is averaged
+over the hour.  As you said, this is a good approximation for larger
+facilities with more than a few units, but it could underestimate
+demand charges for facilities with a few units or in applications
+where return from setback would cause all units to kick on at the
+same time and run for say 30 minutes to cool down the facility.
+Does anyone out there know whether Trace or HAP or DOE-2.2 have any
+subhourly demand tracking capabilities?
+
+Mike Witte
+
+
+========================================================
+Michael J. Witte                        mjwitte at gard.com
+GARD Analytics, Inc.                        www.gard.com
+1028 Busse Highway                    Phone 847-698-5685
+Park Ridge, Illinois 60068-1802         FAX 847-698-5600
+USA          Energy, Environmental and Economic Research
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mjwitte at gard.com  Thu Jun  3 07:04:13 1999
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Thu, 3 Jun 1999 09:04:13 -0500
+Subject: [BLDG-SIM] Statistical Estimate of Number of Units ON (peak
+In-Reply-To: <MDAEMON-F199906021750.AA500751MD49348@gard.com>
+Message-ID: <MDAEMON-F199906030859.AA593360MD49536@gard.com>
+
+On  2 Jun 99 at 18:51, BKoran at aol.com wrote:
+
+> If I have a large number of units, the number of units likely to be
+> operating simultaneously will approach the product of the total number of
+> units times the fraction of time each unit is on.
+> 
+> I suppose I need to use a threshold probability to constrain the problem. 
+> So, with a probability greater than 70%, what is the maximum number of
+> units operating simultaneously?  Even better, what is the maximum average
+> number of units operating simultaneously over a 15-minute period?
+> 
+> How do DOE-2, Trace, HAP, BLAST, etc. calculate a 15-minute peak demand?
+>
+
+DOE-2.1E and BLAST do not do anything special to calculate subhourly
+demand windows.  The electric consumption for the hour is averaged
+over the hour.  As you said, this is a good approximation for larger
+facilities with more than a few units, but it could underestimate
+demand charges for facilities with a few units or in applications
+where return from setback would cause all units to kick on at the
+same time and run for say 30 minutes to cool down the facility. 
+Does anyone out there know whether Trace or HAP or DOE-2.2 have any 
+subhourly demand tracking capabilities?  
+
+Mike Witte
+
+
+========================================================
+Michael J. Witte                        mjwitte at gard.com
+GARD Analytics, Inc.                        www.gard.com
+1028 Busse Highway                    Phone 847-698-5685
+Park Ridge, Illinois 60068-1802         FAX 847-698-5600
+USA          Energy, Environmental and Economic Research
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From BKoran at aol.com  Thu Jun  3 10:12:19 1999
+From: BKoran at aol.com (BKoran at aol.com)
+Date: Thu, 3 Jun 1999 13:12:19 EDT
+Subject: [BLDG-SIM] A suggestion and Peak kW: my title, etc.
+Message-ID: <MDAEMON-F199906031209.AA091789MD49644@gard.com>
+
+I posted the question regarding a statistical estimate of peak kW.  I'll 
+reply to some of the responses, but first, in response to the suggestion for 
+info about posters:
+
+Name:  Bill Koran (William E. Koran, PE if you want formalities)
+Company: Honeywell Inc.
+Title:  Performance Contracting Engineer
+Work:  Mix of pre-retrofit energy analysis, post-retrofit M&V, and 
+commissioning existing systems.
+Time with Honeywell:  5 years
+Prior Company: Portland Energy Conservation Inc.
+Time with PECI: 5 years
+Work:  Research-level DOE-2 modeling for BPA demonstration project, plus a 
+little commissioning.  (I presented several papers on DOE-2 calibration and 1 
+on building commissioning during my time with PECI-- at ASHRAE, BTECC, ACEEE, 
+and NCBC.)
+Prior Company:  Allied Signal Aerospace Company (AiResearch Mfg. Co.)
+Time with AiResearch:  12 years
+Work: Sizing and estimating the energy use of aircraft and spacecraft 
+environmental control (HVAC) systems.
+
+Regarding the post about peak kW estimates:  I am already estimating the kW 
+of an individual unit based upon weather, schedules, etc.  The challenge is, 
+for cycling or unloading equipment, to estimate a monthly aggregated peak kW 
+for a number of units.  I believe this is a statistical problem, but 
+regardless, my curiosity is how other people and software estimate this kW.  
+It clearly can be a significant component of energy cost, and I'm still 
+unclear as to whether it is well estimated, even for an average cost over a 
+several year time period.
+
+I am enjoying the responses, though.
+
+Bill
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Todd.Taylor at pnl.gov  Wed Jun  2 12:02:29 1999
+From: Todd.Taylor at pnl.gov (Z. Todd Taylor)
+Date: Wed, 02 Jun 1999 12:02:29 -0700 (PDT)
+Subject: [BLDG-SIM] Sytax Coloring File for DOE-2
+Message-ID: <MDAEMON-F199906021359.AA593643MD49253@gard.com>
+
+Jason Glazer <jglazer at gard.com> wrote:
+
+> I use a text editor to edit most of my DOE-2 input files (I 
+> know, its primitive but it works). ...
+
+Primitive?  On the contrary!  Text is best edited with a text
+editor.  People who use word processors to edit text cause
+themselves (and often others) considerable grief.
+
+Thanks for sharing this information.  I use a different text
+editor, but simply having the list of keywords is useful.
+
+--Todd
+-- 
+Z. Todd Taylor
+Pacific Northwest National Laboratory
+Todd.Taylor at pnl.gov
+Why is an 'old woman' older than an 'older woman'?
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From BKoran at aol.com  Wed Jun  2 15:51:14 1999
+From: BKoran at aol.com (BKoran at aol.com)
+Date: Wed, 2 Jun 1999 18:51:14 EDT
+Subject: [BLDG-SIM] Statistical Estimate of Number of Units ON (peak demand)
+Message-ID: <MDAEMON-F199906021750.AA500451MD49347@gard.com>
+
+This is a statistics problem.  I'm extremely competent with thermodynamics 
+and most energy analysis, but I've only recently tried to estimate peak 
+demand by month.  I can estimate the kW of an individual unit, but what is 
+the expected peak kW during the month for a given number of similar units?
+
+I'm very curious, how do hourly analysis program do this?  It's easy to see 
+that they might not handle peak demand very well.
+
+As I'm certain you're all aware, large businesses are
+generally charged each month according to the highest electrical demand
+recorded over a 15-minute period.
+
+Consider a site with number of packaged units for cooling.  The problem is to 
+find out the maximum number of units that would be on at
+simultaneously (for at least 15 minutes), so that the peak electrical demand 
+and associated demand charges can be estimated.
+
+N_units	=number of units
+A_pct	=fraction of time each unit is on
+	 during each time period considered
+N_pers	=number of time periods to be considered
+A_Prob	=minimum acceptable probability of occurrence
+
+For example, if I have 3 units, and each unit operates only 5 minutes each
+hour, the probability that all units are operating at once is low if I only
+look at 1 hour.  
+
+However, if I consider 100 hours, the probability that all units are
+operating at once is much higher.
+
+If I have a large number of units, the number of units likely to be
+operating simultaneously will approach the product of the total number of
+units times the fraction of time each unit is on.
+
+I suppose I need to use a threshold probability to constrain the problem. 
+So, with a probability greater than 70%, what is the maximum number of
+units operating simultaneously?  Even better, what is the maximum average
+number of units operating simultaneously over a 15-minute period?
+
+How do DOE-2, Trace, HAP, BLAST, etc. calculate a 15-minute peak demand?
+
+Bill Koran
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Wed Jun  2 10:37:16 1999
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 2 Jun 1999 12:37:16 -0500
+Subject: [BLDG-SIM] Sytax Coloring File for DOE-2
+Message-ID: <MDAEMON-F199906021229.AA294626MD49189@gard.com>
+
+BLD-SIMers,
+
+I use a text editor to edit most of my DOE-2 input files (I 
+know, its primitive but it works). One of the features that 
+my text editor has is syntax coloring.  Over the last few 
+years I have made a list of DOE-2 keywords so that the 
+editor would show them as a different color.  The editor 
+also has a way to show comment lines and numbers using 
+different colors. The editor I used is called UltraEdit and 
+below is the list and syntax needed.  
+
+UltraEdit is shareware and runs on Windows 95 and NT.
+
+   http://www.ultraedit.com
+
+For UltraEdit, just add the text below to the WORDFILE.TXT 
+file.  This may be useful to other text editors that do 
+syntax coloring but the syntax will need to be modified.  
+The list is far from complete, I add to it whenever I come 
+across a keyword that isn't colored.  Anyone is welcome to 
+use this but you should let me know so if it changes I can 
+send you an update.  Also if you do use it and find missing 
+keywords please send me an updated version.  
+
+Jason
+(remember to ignore my signature and the list signature on 
+the bottom of the message)
+
+============================================
+Add the following to UltraEdits WORDFILE.TXT
+============================================
+
+/L5"DOE-2" Line Comment = $ File Extensions = INP //Nocase
+/Delimiters = ~!@$%^&*()_+=|\{}[]:;"'<> ,?
+/C1
+##ELSE ##ELSEIF ##ENDIF ##IF ##INCLUDE ##SET1 ##SHOW 
+##showdetail 
+##write ##ifndef ##ifdef ##def ##enddef
+EQ EQS
+OR
+then
+/C2
+..
+ABORT AIR-CHANGE AIR-CHANGES/HR AIR-COOLED ALL 
+ALL-SUMMARY ALL-VERIFICATION ALT ALTITUDE AREA 
+AREA/PERSON AZ AZIMUTH ABS A ATM-MOISTURE ATM-TURBIDITY 
+A/P ASSIGNED-CFM
+BASEBOARD-CTRL BASEBOARD-RATING BASEBOARD-SOURCE 
+BI-LINEAR BI-QUADRATIC BOILER-EIR BOILER-HIR 
+BOILER-HIR-FPLR BOILER-LOSS BOILER-MAX-RATIO 
+BOILER-MIN-RATIO BOILER-MISC-SYM BOILER-SET-POINT 
+BOILER-THROTTLE BOILER-TYPE BUILDING-LOCATION 
+BUILDING-RESOURCE
+CONDUCTIVITY CIRC-HEAD CIRC-IMPELLER-EF CIRC-LOSS-COEF 
+COOLING-CAPACITY CHW-SUPPLY-T CIRC-MIN-PLR CIRC-MOTOR-EFF 
+CIRC-PUMP-CURVE CIRC-PUMP-FPLR CIRC-PUMP-TYPE CLEARNESS 
+CLOUD-AMOUNT CLOUD-TYPE COIL-BF COIL-BF-FFLOW 
+COIL-BF-FPLR COIL-BF-FT COIL-CIRC-TYPE COIL-CIRCUITS 
+COMMENTS COMMON COMPUTE COND-FLOW-TYPE COND-WTR-FLOW  
+CONDENSER-TYPE CONDITIONED CONDUCTIVITY CONS 
+CONSTANT-VOLUME CONSTRUCTION CONTINUOUS COOL-CAP-FRPM 
+COOL-CAP-FT COOL-CFM-FPLR COOL-CLOSS-FPLR COOL-CLOSS-MIN 
+COOL-CTRL-RANGE COOL-EIR-FPLR COOL-EIR-FRPM COOL-EIR-FT 
+COOL-FT-MIN COOL-FUEL-METER COOL-RPM-LIMITS COOL-SH-FT 
+COOL-SIZING-RAT COOL-TEMP-SCH COOL-WASTE-HEAT 
+COOL-WH-FRPM COOL-WH-FT COOLING-EIR CRANKCASE-HEAT 
+COOLING-SCHEDULE CRANKCASE-MAX-T CUBIC CURVE-FIT 
+CYCLE-ON-ANY COOL-CAP-FT COOL-SH-FT COIL-BF-FT 
+CHW-CAP-FEWBEWT CAUTIONS COOL-CONTROL COOL-SIZING-RATIO 
+COND C-T-SCH COOL-SET-T COOL-RESET-SCH COEF COOL-SH-CAP
+DAYLIGHT-SAVINGS D-S D-SCH DATA DAY-SCHEDULE DEC 
+DEFROST-CAP-FT DAYLIGHTING D-H-T D-C-T DEFROST-CTRL 
+DEFROST-FRAC-FT DEFROST-PWR-FT DEFROST-T DEFROST-TYPE 
+DEMAND-WINDOW DENSITY DESC-CTRL-MODE DESC-DEW-SET 
+DESC-GAS-FTW DESC-KW-FTW DESC-T-FTW DESC-W-FTW DESICCANT 
+DESIGN-COOL-T DESIGN-DAY DESIGN-HEAT-T DEWPT-HI DEWPT-LO 
+DHOUR-HI DHOUR-LO DHW-BASE-T DHW-EIR DHW-EIR-FPLR 
+DHW-EIR-FT DHW-FLOW DHW-FUEL-METER DHW-GAL/MIN 
+DHW-HEAT-RATE-FT DHW-LOCATION DHW-LOSS DHW-LOSS-COEF 
+DHW-MISC-SYM DHW-SCH DHW-SUPPLY-T DHW-TEMPER-T DHW-TYPE 
+DIAGNOSTIC DIRECT-EFF DIRECT-EFF-FFLOW DIVIDE 
+DRAW-THROUGH DROM-SYSTEMS DRYBULB-HI DRYBULB-LIMIT 
+DRYBULB-LO DSCH DUCT DESICCANT-AIR DHW-HEAT-RATE DHW-SIZE 
+DENS DAY-RESET-SCH
+E-W ECONO-LIMIT-T ECONO-LOCKOUT ECONOMICS 
+ECONOMICS-REPORT ELECTRICITY END ENGLISH EQUIP-SCHEDULE 
+EQUIPMENT-W/SQFT ERRORS EVAP-CL+M-SUP EVAP-CL+REC-RA 
+EVAP-CL-KW/FLOW EVAP-CL-LIMIT-T EVAP-CL-TYPE EVAP-PCC-EFF 
+EVAP-PCC-ELEC EXHAUST-EFF EXT-ELEC-KWEXT-FUEL-BTU/HR 
+EXT-LIGHT-KW EXTERIOR-WALL E-SCH ELECTRIC EXHAUST-CFM 
+EXHAUST-KW EQUIPMENT
+FAN-CONTROL FAN-PLACEMENT FAN-SCHEDULE FIXED-FLOW 
+FIXED-TEMP FLOOR-WEIGHT LUID-VOLUME FOR FRAC-VENT-AREA 
+FRI FROM-LOADS FUEL-BOILER FURNACE FURNACE-AUX 
+FURNACE-AUX-KW FURNACE-HIR FURNACE-HIR-FPLR FRAME-WIDTH 
+FORMATTED F-W F-M FAN-EIR-FPLR F-SCH
+G-T GAS GAS-HEAT-PUMP GAS-HYDRONIC GE GLASS-TYPE 
+GND-REFLECTANCE GROUND-T GT G-C GAS-SCHEDULE GAS-THERMS
+HEAT-CAP-FRPM HEAT-CAP-FT HEAT-CFM-FPLR HEAT-CLOSS-FPLR 
+HEAT-CLOSS-MIN HEAT-EIR-FPLR HEAT-EIR-FRPM HEAT-EIR-FT 
+HEAT-EXCH-DELP HEAT-EXCH-EFF HEAT-RPM-LIMITS 
+HEAT-SIZING-RAT HEAT-SOURCE HEAT-TEMP-SCH HEAT-WASTE-HEAT 
+HEAT-WH-FRPM HEAT-WH-FT HEATING-EIR HEIGHT HOL 
+HOR-VENT-FRAC HOUR-HI HOUR-LO HOURLY HEATING-SCHEDULE 
+HOURLY-DATA-SAVE HOURS-CHARGING HOURS-STORED 
+HP-LOOP-COOLING HP-LOOP-HEATING HP-SUPP-SOURCE 
+HUMIDIFIER-TYPE H HEAT-SIZING-RATIO HOURLY-REPORT H 
+H-T-SCH HEAT-SET-T HEATING-CAPACITY
+INSIDE-FILM-RES I-F-R I-W I-W-TYPE IN-AIRFLOW INDIR-EFF 
+INDIR-EFF-FFLOW INDOOR-FAN-MODE INF-CFM/SQFT INF-METHOD 
+INF-SCHEDULE INPUT INPUT-UNITS INT-ELEC-KW 
+INT-FUEL-BTU/HR INTERMITTENT INTERIOR-WALL INT-ELEC-SCH 
+I-M I-SCH
+JAN JUL JUN
+LAT LAYERS LE LIGHT-TO-RETURN LIGHT-TO-SPACE 
+LIGHTING-SCHEDULE LIGHTING-TYPE LIGHTING-W/SQFT LIKE 
+LINE-1 LINE-2 LINE-3 LINE-4 LINE-5 LINEAR LIST LON LOADS 
+LOADS-REPORT LT LA LIGHT-SET-POINT1 LIGHT-SET-POINT2 
+LIGHT-CTRL-TYPE1 LIGHT-CTRL-TYPE2 LIGHT-CTRL-STEPS 
+LIGHT-REF-POINT1 LIGHT-REF-POINT2
+M1 M2 M3 M4 M5 MAT MATERIAL MAX-FAN-RATIO MAX-FLUID-T 
+MAX-HP-SUPP-T MAX-HUMIDITY MAX-OA-FRACTION MAX-SOLAR-SCH 
+MAX-SUPPLY-T MAX-VENT-RATE METERS MIN-AIR-SCH MIN-CELLS 
+MIN-FAN-RATIO MIN-FLOW-RATIO MIN-FLUID-T MIN-HGB-RATIO 
+MIN-HP-T MIN-HUMIDITY MIN-SUPPLY-T MIN-TWR-WTR-T 
+MIN-UNLOAD-RATIO MON MOTOR-PLACEMENT MSTR-ELEC-METER 
+MSTR-FUEL-METER MULTIPLIER MAX-SUPPLY-T MIN-CFM-RATIO 
+MIN-S-T MIN-OUTSIDE-AIR
+NATURAL-GAS NEQ NEXT-TO NIGHT-CYCLE-CTRL NIGHT-VENT-CTRL 
+NIGHT-VENT-DT NIGHT-VENT-RATIO NO NO-DESICCANT NO-SAVE 
+NON-COINCIDENT NOT-AVAILABLE NUMBER-OF-PEOPLE NUMBER
+O-A-CFM OA-CFM/PER OA-CONTROL OA-FLOW/PER ON ON-DEMAND 
+ONE-SPEED-FAN OPEN-TWR OPTION OUTDOOR OUTDOOR-RESET 
+OUTPUT-MAX OUTPUT-MIN OUTPUT-UNITS OUTSIDE-FAN-CFLT 
+OUTSIDE-FAN-ELEC OUTSIDE-FAN-HFLT OUTSIDE-FAN-MODE 
+OUTSIDE-FAN-T OA-CHANGES OUTSIDE-LO OUTSIDE-HI 
+OUTSIDE-AIR-CFM OUTSIDE-FAN-KW 
+PANEL-LOSS-RATIO PANES PARALLEL PARAMETER 
+PEOPLE-HEAT-GAIN PEOPLE-SCHEDULE PLANT PLANT-MISC-SYM 
+PLANT-REPORT PLANT-REPORTS PREHEAT-SOURCE PREHEAT-T 
+PROCESS-CHW-BTU/ PROCESS-HW-BTU/H PROPORTIONAL PSZ 
+PEOPLE-HG-SENS P-A P-SCH P-H-S P-H-L PLANT-EQUIPMENT
+QUADRATIC
+RESISTANCE RATED-CCAP-FFLOW RATED-CEIR-FFLOW 
+RATED-HCAP-FFLOW RATED-SH-FFLOW REFG-AUX-HEAT 
+REFG-COMP-GROUP REFG-COND-TYPE REFG-DEF-CTRL REFG-DEF-EFF 
+REFG-DEF-MECH REFG-FAN-T REFG-HTREC-GROUP REFG-HTREC-T 
+REFG-HTREC-UNITS REFG-KW-FPLR REFG-KW-FTCOND 
+REFG-MIN-COND-T REFG-SIZING-RAT REFG-ZONE-DES-RH 
+REFG-ZONE-DES-T REFG-ZONE-SHR REG-HEAT-SOURCE 
+REPORT-BLOCK REPORT-FREQUENCY REPORT-SCHEDULE RES 
+RESIST-CAP-RATIO RESOURCE RETURN-AIR-PATH REVERSE-CYCLE 
+ROOF RUN-PERIOD REHEAT-DELTA-T REC-FLUOR-RV 
+RESET-SCHEDULE RESET RETURN-KW RETURN-DELTA-T
+SAVE-FILES SCH SCHEDULE SEP SEPARATE SERIES SET-DEFAULT 
+SHADING-COEF SHADING-SCHEDULE SHW-HP-CAP-FT SHW-HP-EIR 
+SHW-HP-EIR-FPLR SHW-HP-EIR-FT SHW-HP-SOURCE SIZING-OPTION 
+SIZING-RATIO SOURCE-BTU/HR SOURCE-LATENT SOURCE-SCHEDULE 
+SOURCE-SENSIBLE SOURCE-TYPE SPACE SPACE-CONDITIONS 
+SPACE-HEAT SPECIFIC-HEAT SS-VENT-CST SS-VENT-KW 
+SS-VENT-LIMIT-T SS-VENT-TEMP SS-VENT-WND STANDARD SUMMARY 
+SUN SUPPLY-DELTA-T S-C SUPPLY-KW SUPPLY-KW/FLOW SUS-FLUOR 
+SV-A SVAV SYSTEM SYSTEM-NAMES SYSTEM-REPORTS SYSTEM-TYPE 
+SYSTEMS SYSTEM-CONTROL SYSTEM-AIR SYSTEM-FANS 
+SYSTEM-EQUIPMENT S SAT SYSTEMS-REPORT S-H STEPPED 
+SUPPLY-HI SUPPLY-LO S-TYPE SIZE STOP
+T-Z TANK-BASE-T TANK-FREEZ-T TANK-LOSS-COEF TANK-MISC-S 
+TANK-SIZE TANK-STORE-RATE TANK-SUPPLY-RATE TH T 
+TANK-T-RANGE TEMPERATURE TERMINAL-TYPE THERMOSTAT-TYPE 
+THERMOSTATIC THICKNESS THROTTLING-RANGE THRU THU TILT 
+TITLE TWR-APP-FRFACT TWR-CAP-CTRL TWR-CAP-FCFM 
+TWR-CELL-CTRL TWR-CELL-MAX-LPM TWR-CELL-MIN-LPM T-R 
+TWR-DESIGN-APPRO TWR-DESIGN-WETBU TWR-FAN-FPLR 
+TWR-FAN-LOW-ELEC TWR-FAN-LOW-FLOW TWR-FAN-OFF-FLOW 
+TWR-GPM-FRA TWR-GPM-FWB TWR-IMPELLER-EFF TWR-LOSS-COEF 
+TWR-MIN-FAN-SPEE TWR-MISC-SYM TWR-MOTOR-EFF TWR-PUMP-HEAD 
+TWR-RESET-RATIO TWR-RFACT-FRT TWR-SETPT-CTRL TWR-SETPT-T 
+TWR-THROTTLE TWR-TYPE TWR-WTR-FLOW TYPE TEMP TIMES
+U-EFFECTIVE U-W UNDERGROUND-WALL UNDERGROUND-FLOOR 
+UNIT-AUX-KW UNIT-PUMP-ELEC UTILITY-RATE U-VALUE U
+V VARIABLE-LIST VARIABLE-T VARIABLE-TYPE VENT-METHOD 
+VERIFICATION VOLUME VAVS
+W WASTE-HEAT-USE WATER WD WE WEEK-SCHEDULE WEH WI WIDTH 
+WIN-SHADE-TYPE WIND-DIR WIND-SPEED WINDOW WS-ECONO 
+WS-ECONO-EIR WS-ECONO-FLOW WS-ECONO-MIN-DT 
+WS-ECONO-MISC-SY WS-ECONO-TWR-SIZ WS-ECONO-XEFF WARNINGS
+X
+Y YES
+Z-TYPE ZONE-AIR ZONE-CONTROL ZONE-FAN-KW/FLOW 
+ZONE-HEAT-SOURCE ZONE-NAMES ZONE-REPORTS ZONE-TYPE 
+ZONE-TYPE ZONE-AIR ZONE-CONTROL ZONE-FRACTION1 
+ZONE-FRACTION2 ZONE Z Z-C Z-N
+
+
+
+
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mcase at etcgrp.com  Wed Jun  2 09:20:25 1999
+From: mcase at etcgrp.com (Mark Case)
+Date: Wed, 2 Jun 1999 10:20:25 -0600
+Subject: [BLDG-SIM] call for papers
+Message-ID: <MDAEMON-F199906021232.AA322004MD49205@gard.com>
+
+Sorry for the confusion but we're looking for a seminar presentation at the
+Dallas meeting. There isn't enough time to put together a symposium for
+Dallas. If there is enough interest we will do a symposium at the summer
+2000 meeting in Minneapolis.
+    -----Original Message-----
+    From: Mark Case [mailto:mcase at etcgrp.com]
+    Sent: Tuesday, June 01, 1999 1:58 PM
+    To: BLDG-SIM (E-mail); Adam Hinge (E-mail); aesp-net aesp (E-mail); Arun
+Jhaveri (E-mail); Adam Hinge (E-mail); Brad Gustafson (E-mail); Bruce Hunn
+(E-mail); Curt Hepting (E-mail); Dave Robison (E-mail); Dave Rylaarsdam
+(E-mail); David Lewis (E-mail); Denis Clodic (E-mail); Donald Larsson
+(E-mail); Filza Hassan (E-mail); Freda Pagani (E-mail); Hal Levin (E-mail);
+Ismena Deacon (E-mail); Jim Crawford (E-mail); Jim Wolf (E-mail); Jiri
+Skopek (E-mail); Margie Gardner (E-mail); Mark Hydeman (E-mail); Nils-Einar
+Wahlgren (E-mail); Paul Zeigler (E-mail); Robert Cox (E-mail); Sheila Hayter
+(E-mail); Stephan Selkowitz (E-mail); Steve Connor (E-mail); TC1. 10 List
+Server (E-mail); Tom Colvin (E-mail); Tom Reinarts (E-mail); William Coad
+(E-mail)
+    Subject: call for papers
+
+
+    HELP - I haven't received much response to this earlier mailing so I've
+extended the deadline - I need proposed abstracts by June 17th or hand
+delivered at the Seattle ASHRAE meeting before Sunday Afternoon (June 20).
+
+
+    Natural Ventilation in Large Buildings:ASHRAE Technical Committee
+TC1.10 - Energy Resources and TG2.BIE - Buildings' Impact on the Environment
+are looking for Symposium  (Oops - I meant SEMINAR) presentations on
+"Natural Ventilation in Large Buildings: Applications, Barriers and Case
+Studies" for the Annual meeting in Dallas, February 2000. We are interested
+in a wide range of issues from design tools, case studies, barriers to
+application, code concerns, IAQ, etc. Proposed Abstracts are due by June
+1st. Selections will be made by June 31st and final Abstracts are due July
+31st. If you are interested in presenting, please contact me. Please pass
+this along and post where appropriate. Mark E. Case, P.E.President, etc
+Group, Inc.3481 South 2300 EastSalt Lake City, Utah 84109801-278-1927,
+801-278-1942 (F)mcase at etcgrp.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990602/da182306/attachment.htm>
+
+From bob at rer.com  Wed Jun  2 08:04:11 1999
+From: bob at rer.com (Bob Ramirez)
+Date: Wed, 2 Jun 1999 08:04:11 -0700
+Subject: [BLDG-SIM] Anyone seen a good comparison of the certified Calif. Title 24 Re
+	s software?
+Message-ID: <MDAEMON-F199906021008.AA080090MD49148@gard.com>
+
+Hi All
+
+There are various programs approved by the CEC (California Energy Commision)
+for performing Title 24 Residential calculations/certifications.  I was just
+wondering if anyone knows of a side-by-side comparison of the features of
+these programs, or better yet, if there is anyone out there who has actually
+worked with all or most of these programs and could contrast/compare them.
+
+Thanks!
+
+Bob
+
+
+Bob Ram?rez (bobram at rer.com or bob at rer.com)
+
+Regional Economic Research, Inc.             http://www.rer.com
+11236 El Camino Real #A, San Diego, CA 92130
+Phone: 619.481.0081 ext. 427
+FAX: 619.481.7550
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mcase at etcgrp.com  Tue Jun  1 12:57:39 1999
+From: mcase at etcgrp.com (Mark Case)
+Date: Tue, 1 Jun 1999 13:57:39 -0600
+Subject: [BLDG-SIM] call for papers
+Message-ID: <MDAEMON-F199906011526.AA264395MD48888@gard.com>
+
+HELP - I haven't received much response to this earlier mailing so I've
+extended the deadline - I need proposed abstracts by June 17th or hand
+delivered at the Seattle ASHRAE meeting before Sunday Afternoon (June 20).
+
+
+Natural Ventilation in Large Buildings:ASHRAE Technical Committee TC1.10 -
+Energy Resources and TG2.BIE - Buildings' Impact on the Environment are
+looking for Symposium presentations on "Natural Ventilation in Large
+Buildings: Applications, Barriers and Case Studies" for the Annual meeting
+in Dallas, February 2000. We are interested in a wide range of issues from
+design tools, case studies, barriers to application, code concerns, IAQ,
+etc. Proposed Abstracts are due by June 1st. Selections will be made by June
+31st and final Abstracts are due July 31st. If you are interested in
+presenting, please contact me. Please pass this along and post where
+appropriate. Mark E. Case, P.E.President, etc Group, Inc.3481 South 2300
+EastSalt Lake City, Utah 84109801-278-1927, 801-278-1942 (F)mcase at etcgrp.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990601/bdb21075/attachment.htm>
+

@@ -1,0 +1,1584 @@
+From brian.fountain at energyadvantage.com  Tue Jun 26 06:08:58 2001
+From: brian.fountain at energyadvantage.com (Brian Fountain)
+Date: Tue, 26 Jun 2001 09:08:58 -0400
+Subject: [BLDG-SIM] Modeling interior surface absorptance
+Message-ID: <MDAEMON-F200106260808.AA085682md80000058520@gard.com>
+
+It appears in DOE2.1e that only the exterior surface absorptance can be
+specified.  Is there a way to model changes in the absorptance of the
+interior surfaces to re-radiate more heat back into the room?
+
+Many thanks.
+
+
+Brian Fountain,
+Energy Engineer
+Energy Advantage Inc.
+
+Phone:	(905) 337-2205 ext. 250
+Fax:	(905) 337-2209
+e-mail:	brian.fountain at energyadvantage.com
+
+690 Dorval Dr., Suite 400
+Oakville, ON, L7K 3W7
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From demba.ndiaye at polymtl.ca  Mon Jun 25 15:19:34 2001
+From: demba.ndiaye at polymtl.ca (Demba NDIAYE)
+Date: Mon, 25 Jun 2001 18:19:34 -0400
+Subject: [BLDG-SIM] micro-doe2
+Message-ID: <MDAEMON-F200106251717.AA171732md80000058351@gard.com>
+
+I am using Micro-DOE2 from Acrosoft International.
+The SIM program requires user to press a key after finishing.
+Does one of you know of a means to end this program 
+without having to press e key (a switch option like /w for example) ?
+
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010625/0706b880/attachment.htm>
+
+From werner at cstb.fr  Mon Jun 25 10:45:41 2001
+From: werner at cstb.fr (Werner Keilholz)
+Date: Mon, 25 Jun 2001 19:45:41 +0200
+Subject: [BLDG-SIM] SimCad presentation - Milwaukee, August 1st
+Message-ID: <MDAEMON-F200106251244.AA441482md80000058256@gard.com>
+
+Dear all,
+
+A presentation of the SimCad CAD software for building simulation
+will be held at the department of architecture at the University of
+Wisconsin-Milwaukee, in collaboration with CSTB, France,
+
+on Wednesday, August 1st 2001.
+
+The SimCad tool as well as the TRNSYS package will be presented
+in the morning. In the afternoon, participants who wish to do so
+have the opportunity to try out the tools in an exercise session.
+
+The goal of this meeting is to present the concept of SimCad to
+interested architects, consultants and researchers, but also to discuss
+how this type of tool could evolve to better fit the needs of
+practitioners.
+
+This meeting is free of charge. (Lunch is not included.)
+
+
+If you are interested, please contact Mike Utzinger
+mailto:utzinger at sarup.uwm.edu
+
+Details about SimCad and TRNSYS can be found here
+http://evl.cstb.fr/soft/present.asp?langue=us&m=lpr&context=SimCad
+
+Sorry for cross-postings.
+
+--
+  /    \____ Werner Keilholz, Project Manager
+  \____/     CSTB Sophia Antipolis, EVL Division
+  /    \____ s-mail: BP 209, 06904 SOPHIA ANTIPOLIS,  F R A N C E
+  \____/     phone: +33 (0)4 93 95 67 00 -- fax: +33 (0)4 93 95 67 33
+  /    \____ Mailto:werner at cstb.fr
+  \____/     http://evl.cstb.fr/english/team/WK/werner.htm
+
+             * Les journ?es TRNSYS francophones cette ann?e ? Lyon *
+             http://evl.cstb.fr/main/events.asp?langue=fr&m=pr
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010625/44664b5f/attachment.htm>
+
+From jahe at fago.bwk.tue.nl  Fri Jun 22 01:19:28 2001
+From: jahe at fago.bwk.tue.nl (Jan Hensen)
+Date: Fri, 22 Jun 2001 10:19:28 +0200
+Subject: [BLDG-SIM] PhD studentships in building performance simulation
+Message-ID: <MDAEMON-F200106220317.AA175932md80000057679@gard.com>
+
+
+Apologies for cross-postings.
+
+The Knowledge Center Building & Systems TNO-TU/e will be offering
+three PhD studentships starting in the autumn of 2001 for four years
+at Technische Universiteit Eindhoven in The Netherlands.
+
+The research will be in the general area of building performance
+simulation. The research projects will focus on:
+- simulation based design of innovative integrated building control,
+- simulation based design of innovative integrated building systems,
+- building performance simulation for post-design applications, or
+- building performance simulation for early design phase applications
+
+These studentships include salary and there is no tuition fee. There
+is no need to be fluent in Dutch.
+
+
+Technische Universiteit Eindhoven (TU/e) (www.tue.nl) and Netherlands
+Organization for Applied Scientific Research (TNO) (www.tno.nl) have
+recently joined forces in research of building physics, building
+services and human health.
+A multi-disciplinary and international approach is the cornerstone of
+this endeavor that will embrace PhD students, some postdocs and visiting
+professors from different nations. 
+
+The center will generate scientific, technological and (design) process
+knowledge to contribute internationally to human well-being and welfare
+in a sustainable built environment. The overall theme of research is Building
+Design Support. It incorporates in-depth scientific and engineering knowledge
+into new and innovative ICT-tools and knowledge to support the design of
+modern buildings. The research incorporates 7 sub-themes: building acoustics,
+heat and moisture, lighting, public health engineering, renewable energy
+systems, strategic design support tools and building performance simulation.
+
+General information for doctoral degree students at TU/e is available
+at http://www.tue.nl/aiooe/
+
+Please do not hesistate to contact me for further information.
+
+Applications, including a curriculum vitae and two named references, should
+be emailed to the address below not later than 15 August 2001.
+
+-- 
+doc.dr.ir. Jan Hensen        Knowledge Center Building & Systems TNO-TU/e
++31 40 247 2988                         Technische Universiteit Eindhoven
++31 40 243 8595 (fax)                                            HG 10.80
+jahe at fago.bwk.tue.nl                                         P.O. Box 513
+http://www.bwk.tue.nl/fago/hensen/         5600 MB EINDHOVEN, Netherlands
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From erik.wurster at ensi.no  Thu Jun 21 14:28:26 2001
+From: erik.wurster at ensi.no (Erik Wurster)
+Date: Thu, 21 Jun 2001 14:28:26 -0700
+Subject: [BLDG-SIM] Invitation to register in Energy-links.com
+Message-ID: <MDAEMON-F200106210733.AA332490md80000057314@gard.com>
+
+To all dealing with energy in buildings:
+
+Energy-links.com is a portal and database comprised of authorities, 
+organisations and companies offering products, services or information 
+related to energy, energy efficiency, renewables and the environmental 
+sector. The search engine directs users to links to authorities, 
+organisations and companies relevant for projects and activities in the 
+Barents Region and Russian Federation.
+
+It might be of interest for you to register in the database free of charge 
+if you have a company fitting the description above.  Enclosed you will 
+find a document describing the division of the database into categories, 
+sub-categories and sectors to help you find where you might fit into the 
+database.  Users are able to register in multiple portions of the database.
+
+Best regards,
+
+Erik Wurster
+Project Manager
+Energy-links.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From fporter at archenergy.com  Mon Jun 18 10:07:45 2001
+From: fporter at archenergy.com (Fred Porter)
+Date: Mon, 18 Jun 2001 11:07:45 -0600
+Subject: [BLDG-SIM] Defining a chiller size and E-I-R in DOE-2.1E
+References: <MDAEMON-F200106151602.AA023114md80000080771@gard.com> <MDAEMON-F200106180827.AA274734md80000081258@gard.com>
+Message-ID: <MDAEMON-F200106181248.AA480348md80000056344@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010618/62aef07d/attachment.htm>
+
+From astevens at dmiinc.com  Mon Jun 18 06:18:35 2001
+From: astevens at dmiinc.com (Alec Stevens)
+Date: Mon, 18 Jun 2001 09:18:35 -0400
+Subject: [BLDG-SIM] Defining a chiller size and E-I-R in DOE-2.1E
+References: <MDAEMON-F200106151602.AA023114md80000080771@gard.com>
+Message-ID: <MDAEMON-F200106180827.AA275668md80000056253@gard.com>
+
+Defining a chiller size and E-I-R in DOE-2.1EJohn,
+As far as I know, the nominal capacity and EIR numbers are as you say - 100% load, 44/85.  
+
+The default curves for modifying the capacity and EIR as functions of CHW and CW temperature will return a value of 1.00 at 44 and 85.  What DOE does is use the hourly values for CHW and CW temp and then multiplies the nominal EIR and capacity by the results of the other formulae.  For example, if you are modeling CW reset, and your CW temp goes down in the spring or fall, then the vaule of the EIR f(CHW, CW) formula will return less than 1 in these conditions, and the value of capacity f (CHW, CW) will be greater than 1.  
+
+If you are modeling a system where CHW temp is always 44 and CW temp is always 85, then you don't need to mess around with the formulae that are based on CHW and CW temp.  However, I would use actual mfgr data for the chiller performance as a function of PLR, especially if you are modeling a rotary screw chiller or a chiller with a VFD.  
+
+If you are modeling CHW and CW temps other than 44/85, I would also get mfgr data on the chiller performance at other points and use the data to create new coefficients for the curves.  I recently did a job where we were modeling a rotary chiller as the base case and a VFD-driven centrifugal with CW reset and 48 F CHW along with free cooling in the winter as the proposed case.  So I created and debugged all kinds of curves and coefficients for that job.  
+
+If you would like any more info on creating new curves, I can give you some tips on that - let me know.
+
+I would also be interested in hearing what others in the group have to say on this topic - if you can forward me any other responses you have gotten, I would appreciate it.
+
+Sincerely,
+
+Alec Stevens
+DMI
+p: 617-527-1525x105
+f: 617-527-6606
+e: astevens at dmiinc.com
+
+
+
+
+ ----- Original Message ----- 
+  From: Aulbach, John 
+  To: BLDG-SIM at gard.com 
+  Sent: Friday, June 15, 2001 5:02 PM
+  Subject: [BLDG-SIM] Defining a chiller size and E-I-R in DOE-2.1E
+
+
+  I don't currently have a DOE-2 Engineering Document, so this question is posed to the DOE "gods and gurus": 
+
+  There are three curves that modify the (capacity)/(part load ratio)/(electric input ratio) in DOE-2 (or PowerDOE or eQuest) of a chiller (let's use a hermetic centrifugal chiller for this example).  Within PLANT, there is a place to insert a "nominal capacity" and an "electric input ratio".
+
+  The question is, whatever I put into these input slots represent what? ARI conditions? 100% design? 
+
+  And then the three curves modify these vs. load, entering condenser water, and exiting chilled water. So the 100% point is what (full load, 44 DegF CHW leaving, and 85 DegF Condens.water entering?
+
+  John R. Aulbach, PE, CEM 
+  Project Engineer 
+  Sempra Energy Solutions 
+  555 West Fifth Street 
+  Mail Location 27F3 
+  Los Angeles, CA 90071 
+  Tel :(213) 244-8551 Beeper (888) 520-1051 
+
+  "Sempra Energy Solutions is not the same company as SDG&E/ SoCalGas, the Utilities.  Sempra Energy Solutions is not regulated by the California Public Utilities Commission, and you do not have to buy Sempra Energy Solutions products or services to continue to receive quality regulated service from the Utilities."  
+
+
+
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010618/2a375f9d/attachment.htm>
+
+From JAulbach at semprasolutions.com  Fri Jun 15 14:02:55 2001
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Fri, 15 Jun 2001 14:02:55 -0700
+Subject: [BLDG-SIM] Defining a chiller size and E-I-R in DOE-2.1E
+Message-ID: <MDAEMON-F200106151602.AA023573md80000055893@gard.com>
+
+I don't currently have a DOE-2 Engineering Document, so this question is
+posed to the DOE "gods and gurus":
+
+There are three curves that modify the (capacity)/(part load
+ratio)/(electric input ratio) in DOE-2 (or PowerDOE or eQuest) of a chiller
+(let's use a hermetic centrifugal chiller for this example).  Within PLANT,
+there is a place to insert a "nominal capacity" and an "electric input
+ratio".
+
+The question is, whatever I put into these input slots represent what? ARI
+conditions? 100% design?
+
+And then the three curves modify these vs. load, entering condenser water,
+and exiting chilled water. So the 100% point is what (full load, 44 DegF CHW
+leaving, and 85 DegF Condens.water entering?
+
+John R. Aulbach, PE, CEM
+Project Engineer
+Sempra Energy Solutions
+555 West Fifth Street
+Mail Location 27F3
+Los Angeles, CA 90071
+Tel :(213) 244-8551 Beeper (888) 520-1051
+
+"Sempra Energy Solutions is not the same company as SDG&E/ SoCalGas, the
+Utilities.  Sempra Energy Solutions is not regulated by the California
+Public Utilities Commission, and you do not have to buy Sempra Energy
+Solutions products or services to continue to receive quality regulated
+service from the Utilities."  
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010615/7fab7908/attachment.htm>
+
+From r-strand at uiuc.edu  Wed Jun 13 14:26:11 2001
+From: r-strand at uiuc.edu (Rick Strand)
+Date: Wed, 13 Jun 2001 16:26:11 -0500
+Subject: [BLDG-SIM] (Final) IBPSA-USA Cincinnati Meeting Annoucement
+Message-ID: <MDAEMON-F200106131648.AA485400md80000055165@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010613/600d3de7/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: IBPSAlogo.jpg
+Type: image/jpeg
+Size: 14655 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010613/600d3de7/attachment.jpg>
+
+From jglazer at gard.com  Wed Jun 13 05:57:43 2001
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 13 Jun 2001 07:57:43 -0500
+Subject: [BLDG-SIM] User Friendly (was: Building Simulation in the U.S.)
+Message-ID: <MDAEMON-F200106130752.AA523385pd80000054983@gard.com>
+
+Lets not forget that the team of design engineers and 
+architects working on the design of a building knows as 
+much as anyone could know about how the building is 
+supposed to work.  Through drawing and specifications, they 
+have a created a model of how the components work and 
+interact that can be turned into a working building in 
+order to serve the needs of the occupants.  The complex and 
+rich expression of how a building is supposed to be 
+simulated is already present just in the wrong language.  
+Allowing easy expression of this type of complexity in a 
+building simulation program therefore is "simply" a user 
+interface issue.  It is solvable.  My suggested general 
+rule to follow: 
+
+  The closer to the design team's way of expressing the  
+  design the better.  
+
+That said, the current state of the art in building energy 
+simulation programs are not very close to the way engineers 
+do express designs.  
+
+For example, a schematic design with all flows between 
+equipment and a sequence of operations for the sensors and 
+controls is what is often used in practice.  Why isn't the 
+building energy simulation software input more like that?  
+In part, because in the past, the input requirements are 
+driven by the algorithmic approach of the software.  This 
+needs to be reversed to achieve "friendly" software - the 
+algorithms need to be driven by the input requirements.  
+
+Thermal blocks (a.k.a zoning) are another big issue, the 
+level of abstraction needed to understand what a good 
+thermal block plan would be for a simulation program 
+requires an understanding of the simulation algorithm.  Why 
+should a design engineer care?  Assuming that all surfaces 
+are imported from a CAD program (a big assumption) and each 
+zone is associated with a type of occupancy, why can't the 
+simulation program find out the best way to break up the 
+building into thermal blocks.  Someone could come up with 
+an algorithm to do this.  
+
+Another issue is libraries of materials and equipment.  It 
+is in the best interest of the manufacturers of products to 
+supply enough information for building energy simulation 
+programs but they don't. What are the barriers here? 
+
+a) Different types of information needed by each software 
+program.  
+
+b) Possible incorrect interpretation of data by the user or 
+the software.  
+
+c) Not a large enough market to bother with supporting 
+those customers.  
+
+d) Not enough specifying engineers asking for the data. 
+
+The last point brings us back to why are simulation 
+programs not used more.  One way to start solving these 
+programs is to look at all the standards used to specify 
+the different products and make sure the simulation 
+programs accept the standard performance metrics as direct 
+inputs.  DOE-2 cannot accept AFUE or EER.  Also product 
+specifications should be examined for common methods of 
+expressing performance and control of equipment and 
+components.
+
+What is left of the problem?  The unique domain of 
+knowledge about the building simulation program itself.  
+This is new knowledge that the engineer doesn't need 
+normally to fulfill his responsibilities and thus it needs 
+to be minimized.  Can it be?  I think so, the typical space 
+loads and schedules for operation for occupation are easy 
+lookup's in a library.  Engineers do that all the time when 
+the specify building components.  Select a weather file - 
+again easy.  The problem is all of these other inputs: 
+
+ground reflectance, 
+fraction of heat to space, 
+weighting factor, 
+infiltration coefficient, 
+maximum glare, 
+inside visible reflectance, 
+convergence tolerances, etc..  
+
+Any of these types of inputs require a engineer to learn 
+new stuff.  I think most can be avoided completely, 
+specified as part of a building component, or expressed 
+differently in terms the engineer can appreciate.  
+
+In summary, I assert that the almost all of the needed 
+details of the building energy simulation are known by the 
+design team of a building but they don't use building 
+energy simulation programs partially due to the information 
+being expressed differently.  The complexity that remains 
+that is unique to building simulation can be minimized.
+
+Jason
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From JAulbach at semprasolutions.com  Mon Jun 11 10:45:47 2001
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Mon, 11 Jun 2001 10:45:47 -0700
+Subject: [BLDG-SIM] "User friendly" is in the eye of the beholder (user)
+Message-ID: <MDAEMON-F200106111248.AA485937md80000054502@gard.com>
+
+I have worked with hourly building simulation since 1977 and DOE-2 in
+particular since 1984. I consider myself a decent simulation user, but must
+continuously consult with my HVAC colleagues in insure that what the
+simulation is doing is:
+
+a) Something that can happen in reality
+b) Happens in the expected sequence of operations
+c) Is simulated conservatively enough to predict results that can be
+verified.
+
+My biggest complaint with the current DOE-2 is that I must consult FOUR
+manuals (DOE-2.1A Reference, DOE-2.1E BDL Summary and Supplement, the JJ
+Hirsch Version 110 and higher Supplement, and the Current Errata Tables),
+each in the proper sequence, to insure the model takes all the proper
+parameters into account.
+
+"User Friendly" for Building Simulation to ME should be a complex
+documentation  (Read: BOOK, not on-line menus) of
+
+1) The sequencing and interrelationship between program modules
+2) The HVAC systems that can be simulated, with their related parameters
+3) Documentation of error messages and what they can mean
+4) Updates to this documentation, not Supplements !!
+
+User friendly should mean that a person who has sufficient understanding of
+HVAC systems can find answers to his simulation question. One who does NOT
+foster this understand will naturally be lost.
+
+If I don't use DOE-2 for a few months (other tasks become prevalent), I
+sometime feel I must relearn part of the program, because the "A" manual
+explanation was then changed in the "C" version, and once again in the "E"
+version 110 and higher. A single, complex, but annotated documentation of a
+building simulation program will give the appropriate users all the "User
+Friendliness" they need.
+
+John R. Aulbach, PE, CEM
+Project Engineer
+Sempra Energy Solutions
+555 West Fifth Street
+Mail Location 27F3
+Los Angeles, CA 90071
+Tel :(213) 244-8551 Beeper (888) 520-1051
+
+"Sempra Energy Solutions is not the same company as SDG&E/ SoCalGas, the
+Utilities.  Sempra Energy Solutions is not regulated by the California
+Public Utilities Commission, and you do not have to buy Sempra Energy
+Solutions products or services to continue to receive quality regulated
+service from the Utilities."  
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010611/cc2a7109/attachment.htm>
+
+From mwilsonbc at yahoo.com  Mon Jun 11 10:06:57 2001
+From: mwilsonbc at yahoo.com (Michael Wilson)
+Date: Mon, 11 Jun 2001 10:06:57 -0700 (PDT)
+Subject: [BLDG-SIM] Building Simulation in the U.S.
+In-Reply-To: <MDAEMON-F200106110859.AA595064md80000078066@gard.com>
+Message-ID: <MDAEMON-F200106111208.AA083759md80000054477@gard.com>
+
+I agree strongly with what Daniel says. Whenever I
+hear people speaking of the need for more
+user-friendly software, it makes me shudder. Not
+because I'm opposed to user-friendliness in software,
+but because it usually is mistaken for meaning
+over-simplification. Choices of control strategies and
+options are often left out in order to make the
+software more manageable. And the implication is that
+since the software is user-friendly, anyone can use
+it, without knowing what is really going on in the
+background. Which leads to engineers with little or no
+simulation experience thinking they can whip off
+building models for clients and declare themselves
+energy experts. There needs to be far more knowledge
+of design and operation by simulators and software
+developers, and detailed knowledge of the simulation
+tool by mechanical and electrical engineers if they
+wish to do simulation. 
+
+ 
+
+
+=====
+Michael Wilson, P.Eng.
+1502 - 2045 Nelson St.
+Vancouver, BC, Canada, V6G 1N8
+(604)899-4597  (604)899-4591 fax
+
+Please send courier packages to:
+  101 - 1184 Denman St. (Box 116), Vancouver, BC, V6G 2M9
+
+__________________________________________________
+Do You Yahoo!?
+Get personalized email addresses from Yahoo! Mail - only $35 
+a year!  http://personal.mail.yahoo.com/
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From dmahone at h-m-g.com  Mon Jun 11 09:49:51 2001
+From: dmahone at h-m-g.com (Douglas Mahone)
+Date: Mon, 11 Jun 2001 09:49:51 -0700
+Subject: [BLDG-SIM] Building Simulation in the U.S.
+Message-ID: <MDAEMON-F200106111149.AA490951md80000054454@gard.com>
+
+The fundamental problem with building simulation, which a "friendly" user
+interface can only partially address, is that one needs to understand the
+energy systems in a building in order to model them correctly.  Failing
+that, it's "garbage in, garbage out".  The first constraint on simulation is
+that most people don't have a sufficient level of understanding to use it
+correctly.  The second constraint is that, even with sufficient
+understanding, it requires a lot of detailed information about the building
+in order to build an adequate model.  Few real world projects have the
+resources to devote to gathering and inputting this detail, and then to
+doing the subsequent analysis.  Decisions about energy systems have always
+been made with much less information, so many people question the need for
+simulation to get more information.
+
+As energy becomes more of an issue, both through energy codes and because of
+rising energy costs, there will be more project resources devoted to energy
+analysis.  As computer tools become more sophisticated, the learning curve
+to use them will also become shallower.  Perhaps these two trends will
+converge, resulting in greater use of simulation tools. 
+
+But we're not there yet.
+
+Doug.
+
+
+Douglas Mahone, Partner
+Heschong Mahone Group
+11626 Fair Oaks Blvd.  #302
+Fair Oaks, CA  95628
+
+(916) 962-7001
+fax (916) 962-0101
+dmahone at h-m-g.com
+web site: www.h-m-g.com 
+
+-----Original Message-----
+From: Jason Glazer [mailto:jglazer at gard.com]
+Sent: Friday, June 08, 2001 8:22 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Building Simulation in the U.S.
+
+
+I don't disagree that a greater emphasis on producing 
+"friendly" building energy simulation software could 
+increase its usage as would greater training but are those 
+really the biggest problems?  If they are, are they 
+solvable?  What does "friendly" mean here?  If they are not 
+the biggest problems, what else is preventing every 
+building (or at least every large building) in the U.S. 
+from being designed with the aid of energy simulation 
+software?
+
+I know I'm changing the topic but these are questions that 
+I ponder and I'd like to know other people's impressions.
+
+Jason
+
+On 8 Jun 2001, at 8:25, Mark E. Case wrote:
+
+> We use simulation heavily for existing buildings' analysis
+> and in support of new building design. We are currently
+> working on both low energy design and LEED compliance
+> analysis for new buildings, working directly for the owner
+> as an adjunct to the design team. I am often concerned that
+> the US DOE efforts on new simulation tools looses sight of a
+> significant portion of the audience - practicing consultants
+> and designers. While we want rigorous accurate tools they
+> must also be user friendly. Not simple, because buildings
+> are not simple, but friendly. Simulation would be used more
+> frequently if it were. I think there should be as much
+> emphasis placed on interface and speed as there is on
+> mathematical modeling. There also needs to be significantly
+> more training and outreach.
+> 
+> -----Original Message-----
+> From: postman at gard.com [mailto:postman at gard.com]On Behalf Of
+> Chip Barnaby Sent: Friday, June 08, 2001 7:45 AM To:
+> BLDG-SIM at gard.com Subject: [BLDG-SIM] Building Simulation in
+> the U.S.
+> 
+> 
+> Greetings --
+> 
+> I am giving a talk next week at the eSim 2001 conference in
+> Ottawa titled "Building Simulation in the U. S."  The idea
+> is to give a 30 minute overview of simulation activity in
+> the U.S.
+> 
+> I've web searched and talked to many people, trying to make
+> sure I don't miss anything that deserves mention.
+> 
+> If you are involved in simulation-related work in the U.S.
+> that you think should be covered (and I haven't already
+> contacted you), please send me some brief info.  In
+> particular, I'd like to get more info from people using
+> simulation in design practice (or hear why you don't use
+> simulation).
+> 
+> I emphasize BRIEF -- the topic is large and the talk is
+> short.  I will finish preparing my presentation on Mon., so
+> send a few words and/or URLs today.  Thanks for any help!
+> 
+> ---------------------------------------------------------
+> Chip Barnaby                   cbarnaby at wrightsoft.com Vice
+> President of Research Wrightsoft Corp.              
+> 781-862-8719 x118 voice 394 Lowell St, Suite 12       
+> 781-861-2058 fax Lexington, MA 02420           
+> www.wrightsoft.com
+> ---------------------------------------------------------
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From dannall at mindspring.com  Mon Jun 11 06:58:06 2001
+From: dannall at mindspring.com (Daniel H. Nall)
+Date: Mon, 11 Jun 2001 09:58:06 -0400
+Subject: [BLDG-SIM] Building Simulation in the U.S.
+Message-ID: <MDAEMON-F200106110859.AA593442md80000054380@gard.com>
+
+A couple of thoughts for this discussion.  These thoughts are intended to
+be arbitary, argumentative and discussion provoking.
+1.  The primary failing I find with most simulation programs is that they
+don't allow you to put systems together and to control the systems in
+exactly the way they are designed to go together and be controlled.  This
+failure may be because the program developer was not familiar with design
+practice either in general, or in other regions of the country or the
+world, or because design practice changes.  In general, this failure is due
+to the fact that the programs are insufficiently flexible to allow systems
+to be configured in a variety of ways. 
+2.  There is often confusion about sensitivity and accuracy.  We need to
+recognize that we are involved in analysis that has an overall accuracy
+that may be plus or minus 10% or so.  The most important characteristic of
+our programs, however, is sensitivity.  We need to be confident that, while
+the analysis may not give us credits or debits to within hundredths of a
+percent, it will give us the right credits or debits of the approximate
+magnitude, for all the things we want to test. Furthermore, we need to be
+confident that the interactions among the various components are evaluated
+at approximately the right magnitude.
+3.  The interface issue, while important, shouldn't be overstressed.  Until
+we incorporate significant amounts of artificial intelligence into the user
+interface, an uninformed user will still produce an uninformed analysis.
+Building simulation is no different from any other GIGO situation (garbage
+in, garbage out).  Some people have spent entire careers at building
+simulation.  No current user interface technology can enable a novice user
+to extract the value from a simulation program than can be extracted by an
+expert.
+4.  All of the current building simulation programs (with the exception of
+thermal network ESP-R derivatives) assume a well-mixed air situation in
+each thermal zone.  As long as that assumption holds, there is little
+benefit to evaluating the differential radiation transfer among the
+surfaces of a zone.  In very few buildings, do the external walls see one
+another. If no external walls see one another, and if the zone is assumed
+to be well mixed, assuming a combined radiation/convection heat transfer
+coefficient of the interior surface of the wall has little penalty in terms
+of accuracy, because the interior partitions seen by this external wall
+will be very near to the temperature of the well-mixed room air.  If
+vertical air nodes are assumed within the zone, to accommodate
+stratification, then the individual interior and exterior partitions must
+also be vertically divided so that the surface temperature variation over
+the vertical expanse of the partitions may be evaluated.  Quickly the
+computation overhead for this capability approaches CFD magnitude.
+5.  Finally, the very best simulation experts do design, either for new
+buildings or retrofit.  Not only does the design process inform the
+simulation process, but learning from the simulation process makes superior
+designers. 
+
+Daniel H. Nall AIA, P.E.
+Senior Vice President
+Director of Advanced Technology
+Flack + Kurtz Inc.
+475 5th Ave New York, NY 10017
+(212) 951-2691 fax (212) 689-7489
+Email:       daniel.nall at ny.fk.com
+Http://www.flackandkurtz.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From larry at taz.tamu.edu  Sun Jun 10 07:46:35 2001
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Sun, 10 Jun 2001 09:46:35 -0500
+Subject: [BLDG-SIM] News items for IBPSA News.
+Message-ID: <MDAEMON-F200106100954.AA542512md80000054225@gard.com>
+
+Please send me any news items or announcements you wish to be placed in the August 2001 issue IBPSA News.  Conferences, workshops, seminars, new software, student works, new publications, new models, breakthroughs!!, etc.
+
+Space is also available for advertisements at a modest price ($150 for a half-page).  Publication of the IBPSA News is on the World Wide Web in PDF format.
+
+These are due to me by 13 July.
+
+Thanks,
+
+Larry Degelman
+IBPSA Newsletter Chair
+
+=================================================
+Larry O. Degelman, P.E.                                larry at taz.tamu.edu
+Professor Emeritus of Architecture           Ph./Fax: 1-979-696-2506
+Texas A&M University
+2206 Quail Run
+College Station, TX 77845
+Download ENER-WIN at: http://taz.tamu.edu/~energy/enerwin.html
+=================================================
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010610/c8105373/attachment.htm>
+
+From godfried.augenbroe at arch.gatech.edu  Sat Jun  9 06:11:42 2001
+From: godfried.augenbroe at arch.gatech.edu (Godfried Augenbroe)
+Date: Sat, 09 Jun 2001 09:11:42 -0400
+Subject: [BLDG-SIM] Building Simulation in the U.S.
+In-Reply-To: <MDAEMON-F200106080848.AA482326md80000075118@gard.com>
+Message-ID: <MDAEMON-F200106091654.AA544798md80000054132@gard.com>
+
+Chip,
+At Georgia Tech we are doing quite a bit on Building Simulation. I 
+presented a keynote paper at the IBPC 2000 Conference in Eindhoven last 
+September, with an overview of trends and challenges for building 
+simulation. It refers to some of our own work.
+I can send a pdf version to interested readers (Netiquette prohibits me to 
+add an attachment to a message to the list).
+
+One key effort in collaboration with UMichigan (Malkawi) and 
+Carnegie-Mellon University (Mahdavi) is the Design Analysis Interface (DAI) 
+project, funded by DOE. The project is starts this summer.
+
+A short summary of the DAI project:
+The basic premise of the research is that building simulation needs to be 
+viewed in its process context. E.g. the steps for the fulfillment of a 
+design request must be defined in an analysis (simulation) scenario. In the 
+DAI approach these scenarios are captured explicitly, and are unique to 
+each project. Every step in the scenario may call a generic analysis 
+function, which can be delegated to a particular simulation software at 
+execution time. This provides a clean separation between function and 
+software implementation.
+At the same time each step in a scenario needs input data, that is derived 
+from available design information. This derivation is done through a 
+mixture of computable mappings (based on the IAI-IFC or other structured 
+information) and user-driven constructive mappings of  other information 
+(mainly concerned with expert modeling of simulation inputs).
+One fundamental aspect of the research is to develop effective 
+communication with the tool user community, in particular the EnergyPlus 
+community.
+They will help to identify, advise and later assess the capabilities of 
+what is produced.  We need to identify their most common use scenarios and 
+understand clearly the processes typically followed to diagnose, pose then 
+test solutions. Given these processes, we will develop interfaces, new 
+tools or other technology that facilitates the identified scenarios.
+We will be hosting workshops with simulation practitioners this fall. 
+Invitations will be announced using this mailing list.
+
+Regards,
+
+Fried Augenbroe
+Doctoral Program
+Georgia Tech, College of Architecture
+
+
+At 09:44 AM 6/8/01 -0400, you wrote:
+>Greetings --
+>
+>I am giving a talk next week at the eSim 2001 conference in Ottawa titled 
+>"Building Simulation in the U. S."  The idea is to give a 30 minute 
+>overview of simulation activity in the U.S.
+>
+>I've web searched and talked to many people, trying to make sure I don't 
+>miss anything that deserves mention.
+>
+>If you are involved in simulation-related work in the U.S. that you think 
+>should be covered (and I haven't already contacted you), please send me 
+>some brief info.  In particular, I'd like to get more info from people 
+>using simulation in design practice (or hear why you don't use simulation).
+>
+>I emphasize BRIEF -- the topic is large and the talk is short.  I will 
+>finish preparing my presentation on Mon., so send a few words and/or URLs 
+>today.  Thanks for any help!
+>
+>---------------------------------------------------------
+>Chip Barnaby                   cbarnaby at wrightsoft.com
+>Vice President of Research
+>Wrightsoft Corp.               781-862-8719 x118 voice
+>394 Lowell St, Suite 12        781-861-2058 fax
+>Lexington, MA 02420            www.wrightsoft.com
+>---------------------------------------------------------
+>
+>
+>======================================================
+>You received this e-mail because you are subscribed to the 
+>BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this mailing list 
+>send a blank message to BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From miket at etcgrp.com  Fri Jun  8 13:00:51 2001
+From: miket at etcgrp.com (Mike Tillou)
+Date: Fri, 8 Jun 2001 14:00:51 -0600
+Subject: [BLDG-SIM] Building Simulation in the U.S.
+In-Reply-To: <MDAEMON-F200106081332.AA323167md80000076293@gard.com>
+Message-ID: <MDAEMON-F200106081508.AA080820md80000053917@gard.com>
+
+I am fairly new to building simulation but my past experiences lead me to
+believe that every end user is going to have different requirements and
+expectations.  Rather than focusing on developing a tool with broad market
+appeal, focus on creating a platform from which a number of different
+end-user GUI's can be easily developed.   Data for a building should be
+transportable between different end-use GUI's.  For example, a designer uses
+one GUI to create building loads, the building owner then uses a different
+GUI, with data from designer, to track energy use.
+
+Energy Plus seems to be taking this approach and DOE2 has certainly been
+used as an engine for less-technical GUI's (i.e. FEDS and CompareIT).  Maybe
+the solution is figuring out where these programs are deficient in this
+regard and using that as a starting place for a better building simulation
+tool.
+
+A tool that can be used as an engine, with easily adaptable GUI's and
+transportable data would have appeal to a much broader market than just
+consultants and researchers.
+
+Just a thought.
+
+-Michael Tillou, etc Group
+
+PS: Consultants and researchers would no longer be needed if the program
+were THAT easy to use.
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Gowri,
+Krishnan
+Sent: Friday, June 08, 2001 11:59 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Building Simulation in the U.S.
+
+
+Building simulation software development needs to come to grips with
+balancing
+the needs of users and improving accuracy.  You may have the most accurate
+algorithm for calculation that requires modeling data which the user needs
+to
+look up the definition in a handbook - game over!!
+
+Only when the software is developed from end-user perspective we can make an
+impact on the proliferation and use of the simulation tools.  Otherwise only
+the
+consultants and researchers will continue to influence the development and
+will
+remain the users of such tools.
+
+So the discussion may need to start in defining who are the end users of
+these
+tools and what are the reasonable expectations of these users.
+
+- krishnan Gowri, PNNL
+
+-----Original Message-----
+From: Jason Glazer [mailto:jglazer at gard.com]
+Sent: Friday, June 08, 2001 8:22 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Building Simulation in the U.S.
+
+
+I don't disagree that a greater emphasis on producing
+"friendly" building energy simulation software could
+increase its usage as would greater training but are those
+really the biggest problems?  If they are, are they
+solvable?  What does "friendly" mean here?  If they are not
+the biggest problems, what else is preventing every
+building (or at least every large building) in the U.S.
+from being designed with the aid of energy simulation
+software?
+
+I know I'm changing the topic but these are questions that
+I ponder and I'd like to know other people's impressions.
+
+Jason
+
+On 8 Jun 2001, at 8:25, Mark E. Case wrote:
+
+> We use simulation heavily for existing buildings' analysis
+> and in support of new building design. We are currently
+> working on both low energy design and LEED compliance
+> analysis for new buildings, working directly for the owner
+> as an adjunct to the design team. I am often concerned that
+> the US DOE efforts on new simulation tools looses sight of a
+> significant portion of the audience - practicing consultants
+> and designers. While we want rigorous accurate tools they
+> must also be user friendly. Not simple, because buildings
+> are not simple, but friendly. Simulation would be used more
+> frequently if it were. I think there should be as much
+> emphasis placed on interface and speed as there is on
+> mathematical modeling. There also needs to be significantly
+> more training and outreach.
+>
+> -----Original Message-----
+> From: postman at gard.com [mailto:postman at gard.com]On Behalf Of
+> Chip Barnaby Sent: Friday, June 08, 2001 7:45 AM To:
+> BLDG-SIM at gard.com Subject: [BLDG-SIM] Building Simulation in
+> the U.S.
+>
+>
+> Greetings --
+>
+> I am giving a talk next week at the eSim 2001 conference in
+> Ottawa titled "Building Simulation in the U. S."  The idea
+> is to give a 30 minute overview of simulation activity in
+> the U.S.
+>
+> I've web searched and talked to many people, trying to make
+> sure I don't miss anything that deserves mention.
+>
+> If you are involved in simulation-related work in the U.S.
+> that you think should be covered (and I haven't already
+> contacted you), please send me some brief info.  In
+> particular, I'd like to get more info from people using
+> simulation in design practice (or hear why you don't use
+> simulation).
+>
+> I emphasize BRIEF -- the topic is large and the talk is
+> short.  I will finish preparing my presentation on Mon., so
+> send a few words and/or URLs today.  Thanks for any help!
+>
+> ---------------------------------------------------------
+> Chip Barnaby                   cbarnaby at wrightsoft.com Vice
+> President of Research Wrightsoft Corp.
+> 781-862-8719 x118 voice 394 Lowell St, Suite 12
+> 781-861-2058 fax Lexington, MA 02420
+> www.wrightsoft.com
+> ---------------------------------------------------------
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From krishnan.gowri at pnl.gov  Fri Jun  8 10:59:02 2001
+From: krishnan.gowri at pnl.gov (Gowri, Krishnan)
+Date: Fri, 08 Jun 2001 10:59:02 -0700
+Subject: [BLDG-SIM] Building Simulation in the U.S.
+Message-ID: <MDAEMON-F200106081332.AA323300md80000053866@gard.com>
+
+Building simulation software development needs to come to grips with balancing
+the needs of users and improving accuracy.  You may have the most accurate
+algorithm for calculation that requires modeling data which the user needs to
+look up the definition in a handbook - game over!!
+
+Only when the software is developed from end-user perspective we can make an
+impact on the proliferation and use of the simulation tools.  Otherwise only the
+consultants and researchers will continue to influence the development and will
+remain the users of such tools.
+
+So the discussion may need to start in defining who are the end users of these
+tools and what are the reasonable expectations of these users.  
+
+- krishnan Gowri, PNNL
+
+-----Original Message-----
+From: Jason Glazer [mailto:jglazer at gard.com]
+Sent: Friday, June 08, 2001 8:22 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Building Simulation in the U.S.
+
+
+I don't disagree that a greater emphasis on producing 
+"friendly" building energy simulation software could 
+increase its usage as would greater training but are those 
+really the biggest problems?  If they are, are they 
+solvable?  What does "friendly" mean here?  If they are not 
+the biggest problems, what else is preventing every 
+building (or at least every large building) in the U.S. 
+from being designed with the aid of energy simulation 
+software?
+
+I know I'm changing the topic but these are questions that 
+I ponder and I'd like to know other people's impressions.
+
+Jason
+
+On 8 Jun 2001, at 8:25, Mark E. Case wrote:
+
+> We use simulation heavily for existing buildings' analysis
+> and in support of new building design. We are currently
+> working on both low energy design and LEED compliance
+> analysis for new buildings, working directly for the owner
+> as an adjunct to the design team. I am often concerned that
+> the US DOE efforts on new simulation tools looses sight of a
+> significant portion of the audience - practicing consultants
+> and designers. While we want rigorous accurate tools they
+> must also be user friendly. Not simple, because buildings
+> are not simple, but friendly. Simulation would be used more
+> frequently if it were. I think there should be as much
+> emphasis placed on interface and speed as there is on
+> mathematical modeling. There also needs to be significantly
+> more training and outreach.
+> 
+> -----Original Message-----
+> From: postman at gard.com [mailto:postman at gard.com]On Behalf Of
+> Chip Barnaby Sent: Friday, June 08, 2001 7:45 AM To:
+> BLDG-SIM at gard.com Subject: [BLDG-SIM] Building Simulation in
+> the U.S.
+> 
+> 
+> Greetings --
+> 
+> I am giving a talk next week at the eSim 2001 conference in
+> Ottawa titled "Building Simulation in the U. S."  The idea
+> is to give a 30 minute overview of simulation activity in
+> the U.S.
+> 
+> I've web searched and talked to many people, trying to make
+> sure I don't miss anything that deserves mention.
+> 
+> If you are involved in simulation-related work in the U.S.
+> that you think should be covered (and I haven't already
+> contacted you), please send me some brief info.  In
+> particular, I'd like to get more info from people using
+> simulation in design practice (or hear why you don't use
+> simulation).
+> 
+> I emphasize BRIEF -- the topic is large and the talk is
+> short.  I will finish preparing my presentation on Mon., so
+> send a few words and/or URLs today.  Thanks for any help!
+> 
+> ---------------------------------------------------------
+> Chip Barnaby                   cbarnaby at wrightsoft.com Vice
+> President of Research Wrightsoft Corp.              
+> 781-862-8719 x118 voice 394 Lowell St, Suite 12       
+> 781-861-2058 fax Lexington, MA 02420           
+> www.wrightsoft.com
+> ---------------------------------------------------------
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Fri Jun  8 08:22:22 2001
+From: jglazer at gard.com (Jason Glazer)
+Date: Fri, 8 Jun 2001 10:22:22 -0500
+Subject: [BLDG-SIM] Building Simulation in the U.S.
+In-Reply-To: <MDAEMON-F200106080928.AA283796md80000053752@gard.com>
+References: <MDAEMON-F200106080848.AA483129md80000075229@gard.com>
+Message-ID: <MDAEMON-F200106081017.AA173289pd80000053781@gard.com>
+
+I don't disagree that a greater emphasis on producing 
+"friendly" building energy simulation software could 
+increase its usage as would greater training but are those 
+really the biggest problems?  If they are, are they 
+solvable?  What does "friendly" mean here?  If they are not 
+the biggest problems, what else is preventing every 
+building (or at least every large building) in the U.S. 
+from being designed with the aid of energy simulation 
+software?
+
+I know I'm changing the topic but these are questions that 
+I ponder and I'd like to know other people's impressions.
+
+Jason
+
+On 8 Jun 2001, at 8:25, Mark E. Case wrote:
+
+> We use simulation heavily for existing buildings' analysis
+> and in support of new building design. We are currently
+> working on both low energy design and LEED compliance
+> analysis for new buildings, working directly for the owner
+> as an adjunct to the design team. I am often concerned that
+> the US DOE efforts on new simulation tools looses sight of a
+> significant portion of the audience - practicing consultants
+> and designers. While we want rigorous accurate tools they
+> must also be user friendly. Not simple, because buildings
+> are not simple, but friendly. Simulation would be used more
+> frequently if it were. I think there should be as much
+> emphasis placed on interface and speed as there is on
+> mathematical modeling. There also needs to be significantly
+> more training and outreach.
+> 
+> -----Original Message-----
+> From: postman at gard.com [mailto:postman at gard.com]On Behalf Of
+> Chip Barnaby Sent: Friday, June 08, 2001 7:45 AM To:
+> BLDG-SIM at gard.com Subject: [BLDG-SIM] Building Simulation in
+> the U.S.
+> 
+> 
+> Greetings --
+> 
+> I am giving a talk next week at the eSim 2001 conference in
+> Ottawa titled "Building Simulation in the U. S."  The idea
+> is to give a 30 minute overview of simulation activity in
+> the U.S.
+> 
+> I've web searched and talked to many people, trying to make
+> sure I don't miss anything that deserves mention.
+> 
+> If you are involved in simulation-related work in the U.S.
+> that you think should be covered (and I haven't already
+> contacted you), please send me some brief info.  In
+> particular, I'd like to get more info from people using
+> simulation in design practice (or hear why you don't use
+> simulation).
+> 
+> I emphasize BRIEF -- the topic is large and the talk is
+> short.  I will finish preparing my presentation on Mon., so
+> send a few words and/or URLs today.  Thanks for any help!
+> 
+> ---------------------------------------------------------
+> Chip Barnaby                   cbarnaby at wrightsoft.com Vice
+> President of Research Wrightsoft Corp.              
+> 781-862-8719 x118 voice 394 Lowell St, Suite 12       
+> 781-861-2058 fax Lexington, MA 02420           
+> www.wrightsoft.com
+> ---------------------------------------------------------
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mcase at etcgrp.com  Fri Jun  8 07:25:56 2001
+From: mcase at etcgrp.com (Mark E. Case)
+Date: Fri, 8 Jun 2001 08:25:56 -0600
+Subject: [BLDG-SIM] Building Simulation in the U.S.
+In-Reply-To: <MDAEMON-F200106080848.AA483129md80000075229@gard.com>
+Message-ID: <MDAEMON-F200106080928.AA283796md80000053752@gard.com>
+
+We use simulation heavily for existing buildings' analysis and in support of
+new building design. We are currently working on both low energy design and
+LEED compliance analysis for new buildings, working directly for the owner
+as an adjunct to the design team.
+I am often concerned that the US DOE efforts on new simulation tools looses
+sight of a significant portion of the audience - practicing consultants and
+designers. While we want rigorous accurate tools they must also be user
+friendly. Not simple, because buildings are not simple, but friendly.
+Simulation would be used more frequently if it were.
+I think there should be as much emphasis placed on interface and speed as
+there is on mathematical modeling. There also needs to be significantly more
+training and outreach.
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Chip
+Barnaby
+Sent: Friday, June 08, 2001 7:45 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Building Simulation in the U.S.
+
+
+Greetings --
+
+I am giving a talk next week at the eSim 2001 conference in Ottawa titled
+"Building Simulation in the U. S."  The idea is to give a 30 minute
+overview of simulation activity in the U.S.
+
+I've web searched and talked to many people, trying to make sure I don't
+miss anything that deserves mention.
+
+If you are involved in simulation-related work in the U.S. that you think
+should be covered (and I haven't already contacted you), please send me
+some brief info.  In particular, I'd like to get more info from people
+using simulation in design practice (or hear why you don't use simulation).
+
+I emphasize BRIEF -- the topic is large and the talk is short.  I will
+finish preparing my presentation on Mon., so send a few words and/or URLs
+today.  Thanks for any help!
+
+---------------------------------------------------------
+Chip Barnaby                   cbarnaby at wrightsoft.com
+Vice President of Research
+Wrightsoft Corp.               781-862-8719 x118 voice
+394 Lowell St, Suite 12        781-861-2058 fax
+Lexington, MA 02420            www.wrightsoft.com
+---------------------------------------------------------
+
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cbarnaby at wrightsoft.com  Fri Jun  8 06:44:32 2001
+From: cbarnaby at wrightsoft.com (Chip Barnaby)
+Date: Fri, 08 Jun 2001 09:44:32 -0400
+Subject: [BLDG-SIM] Building Simulation in the U.S.
+Message-ID: <MDAEMON-F200106080848.AA483248md80000053726@gard.com>
+
+Greetings --
+
+I am giving a talk next week at the eSim 2001 conference in Ottawa titled 
+"Building Simulation in the U. S."  The idea is to give a 30 minute 
+overview of simulation activity in the U.S.
+
+I've web searched and talked to many people, trying to make sure I don't 
+miss anything that deserves mention.
+
+If you are involved in simulation-related work in the U.S. that you think 
+should be covered (and I haven't already contacted you), please send me 
+some brief info.  In particular, I'd like to get more info from people 
+using simulation in design practice (or hear why you don't use simulation).
+
+I emphasize BRIEF -- the topic is large and the talk is short.  I will 
+finish preparing my presentation on Mon., so send a few words and/or URLs 
+today.  Thanks for any help!
+
+---------------------------------------------------------
+Chip Barnaby                   cbarnaby at wrightsoft.com
+Vice President of Research
+Wrightsoft Corp.               781-862-8719 x118 voice
+394 Lowell St, Suite 12        781-861-2058 fax
+Lexington, MA 02420            www.wrightsoft.com
+---------------------------------------------------------
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From sheffer at paonline.com  Fri Jun  8 06:08:32 2001
+From: sheffer at paonline.com (Marcus Sheffer)
+Date: Fri, 08 Jun 2001 09:08:32 -0400
+Subject: [BLDG-SIM] Performance Metrics
+Message-ID: <MDAEMON-F200106080808.AA082740md80000053701@gard.com>
+
+Going by the Energy Cost Budget Method of compliance in 90.1 there are 
+relatively few parameters which can be changed.  However, the rules are 
+somewhat different for a LEED comparison.  90.1 does not allow a comparison 
+between radically different HVAC systems for example, a LEED comparison 
+does.  Check out the pertinent sections in the LEED Reference Guide for a 
+complete discussion of what is and is not allowed in a LEED comparison, it 
+is different than a strict 90.1 comparison.  This would account for the 
+difference in the 35% going by 90.1 and the higher values in LEED.  We just 
+submitted a project that exceeded 90.1 by 55% using the LEED allowed 
+methods of comparison.
+
+At 06:45 PM 6/5/2001 -0600, you wrote:
+>We have been involved locally with trying to use ASHRAE 90.1, both 1989 
+>and 1999 as a metric in new building design - i.e., `xx% better than code 
+>minimum' for both LEED compliance and for a State buildings program. I 
+>know there are a number of similar programs and initiatives throughout the 
+>country. I am also slated to give a presentation on "Issues Around Using 
+>ASHRAE 90.1-1999 as a Metric" at the ASHRAE Annual meeting in June 
+>(Seminar 28).
+>I'm looking for two things - first what experiences have people had with 
+>`exceeding' the code by x%? I've heard rumors that a reputable simulation 
+>firm said 35% can't be done if you strictly interpret the code. LEED 
+>provides credit for 40% and 50% improvements. We've been using a 
+>completely arbitrary target of 35%, which with a little  c o d 
+>e  stretching seems to be obtainable. What is realistic based on your 
+>experience?
+>Second, I would like to get some feedback on the whole `using 90.1 as a 
+>metric` issue that I might include in my presentation to round it out a 
+>little.
+>Any feedback would be appreciated and of course I would credit anything I 
+>used in the Seminar.
+>
+>Mark E. Case, P.E.
+>etc Group, Inc.
+
+
+====================================================
+Marcus B. Sheffer                         energy & environmental consulting
+Energy Opportunities                      717-292-2636
+1200 E Camping Area Road           Fax: 717-292-0585
+Wellsville, PA USA 17365-9783      sheffer at sevengroup.com
+a Seven Group member company   www.sevengroup.com
+====================================================
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010608/6ed855a2/attachment.htm>
+
+From vsmith at archenergy.com  Wed Jun  6 15:33:15 2001
+From: vsmith at archenergy.com (Vern Smith)
+Date: Wed, 06 Jun 2001 16:33:15 -0600
+Subject: [BLDG-SIM] ASHRAE TC 4.7 Research Survey
+Message-ID: <MDAEMON-F200106061748.AA480240md80000053301@gard.com>
+
+Again, please pardon our cross-posts.  This is a friendly reminder to
+please respond to the  TC 4.7 Research Survey and pass this e-mail along
+to anyone you know who uses the ASHRAE handbooks or other ASHRAE
+products.
+
+ASHRAE Technical Committee (TC) 4.7, Energy Calculations, is evaluating
+the results of its research to guide future activities. As part of our
+evaluation, we would like to know how the results of our past research
+projects have contributed to the HVAC and building communities.
+Eighteen research projects have been sponsored (or co-sponsored) by TC
+4.7 since 1990. Twelve of the projects are complete and publications
+ranging from technical papers to software toolkits have been published
+by ASHRAE.
+
+Results of the survey will be presented at the next TC 4.7 meeting
+during the ASHRAE Annual Meeting in Cincinnati. The evaluation report
+will  be forwarded to ASHRAE Society-level committees for their
+consideration in future research policy and funding decisions.
+
+Your input is very important. Please take a few minutes to respond to
+the survey. Links to abstracts of papers from the research projects are
+provided for your reference.
+
+This survey is not sponsored by ASHRAE headquarters. If you have any
+questions or need further information, please contact Vern Smith at
+303-444-4149 or by email vsmith at archenergy.com.
+
+http://www.archenergy.com/ashrae/tc4-7survey.htm
+
+
+
+
+--
+Vernon A. Smith, P.E.
+Architectural Energy Corporation
+303-444-4149
+vsmith at archenergy.com
+http://www.archenergy.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mcase at etcgrp.com  Tue Jun  5 17:45:49 2001
+From: mcase at etcgrp.com (Mark E. Case)
+Date: Tue, 5 Jun 2001 18:45:49 -0600
+Subject: [BLDG-SIM] Performance Metrics
+Message-ID: <MDAEMON-F200106051948.AA483785md80000052629@gard.com>
+
+We have been involved locally with trying to use ASHRAE 90.1, both 1989 and
+1999 as a metric in new building design - i.e., `xx% better than code
+minimum' for both LEED compliance and for a State buildings program. I know
+there are a number of similar programs and initiatives throughout the
+country. I am also slated to give a presentation on "Issues Around Using
+ASHRAE 90.1-1999 as a Metric" at the ASHRAE Annual meeting in June (Seminar
+28).
+I'm looking for two things - first what experiences have people had with
+`exceeding' the code by x%? I've heard rumors that a reputable simulation
+firm said 35% can't be done if you strictly interpret the code. LEED
+provides credit for 40% and 50% improvements. We've been using a completely
+arbitrary target of 35%, which with a little  c o d e  stretching seems to
+be obtainable. What is realistic based on your experience?
+Second, I would like to get some feedback on the whole `using 90.1 as a
+metric` issue that I might include in my presentation to round it out a
+little.
+Any feedback would be appreciated and of course I would credit anything I
+used in the Seminar.
+Mark E. Case, P.E.
+etc Group, Inc.
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010605/649f0d5f/attachment.htm>
+
+From r-strand at uiuc.edu  Tue Jun  5 11:59:47 2001
+From: r-strand at uiuc.edu (Rick Strand)
+Date: Tue, 05 Jun 2001 13:59:47 -0500
+Subject: [BLDG-SIM] IBPSA-USA Cincinnati Meeting Annoucement (Updated)
+Message-ID: <MDAEMON-F200106051549.AA490576md80000052508@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010605/8bf6d7eb/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: d4b5d9.jpg
+Type: image/jpeg
+Size: 28460 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010605/8bf6d7eb/attachment.jpg>
+

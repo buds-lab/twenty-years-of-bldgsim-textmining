@@ -1,0 +1,3722 @@
+From FCWinkelmann at lbl.gov  Mon Jun 30 15:34:15 2003
+From: FCWinkelmann at lbl.gov (Frederick Winkelmann)
+Date: Mon, 30 Jun 2003 15:34:15 -0700
+Subject: [BLDG-SIM] VisualSPARK 2.0 RELEASED
+Message-ID: <MDAEMON-F200306301737.AA371400pd80000342789@gard.com>
+
+VisualSPARK 2.0 RELEASED!
+
+Version 2.0 of the VisualSPARK environment for simulation
+of advanced building energy systems has just been released.
+For more information on VisualSPARK, a complete list of new features,
+or to download the program free of charge, please go to
+http://SimulationResearch.lbl.gov > VisualSPARK.
+
+A few of the new features are:
+
+SPARSE LINEAR SOLUTION METHOD
+This method reduces calculation time by orders of magnitude on
+large simulation problems that have a sparse Jacobian matrix.
+
+MULTI-VALUED INVERSE FUNCTIONS
+In SPARK 1 all inverse functions were single-valued, i.e., the
+inverse returned only one value. SPARK 2 allows inverse functions to
+return two or more values simultaneously.
+
+XML PROBLEM DESCRIPTION
+The problem topology is now described by an XML file. This allows
+having a compiler- and linker-free SPARK as long as all atomic
+classes are compiled and built as dynamic libraries.
+
+IMPROVED SOLUTION METHODS
+o Integrated newest release of UMFPACK for the sparse linear solver.
+o Added perturbed Newton solution method.
+o Added keys in the Preference file for safety factors used in
+convergence
+  test(for Prediction/Iteration stage and Break/Normal unknown
+variables).
+o Added a key in the Preference file to specifiy the minimum number
+  of iterations when solving the strong components.
+o Added variable scale for all problem variables.
+
+NEW RUNTIME CONTROL PARAMETERS
+o Added the following keys in the .run file:
+- InitialConsistentCalculation to indicate whether or not to calculate
+  consistent values at the initial time by solving for the
+time-derivatives
+  of the dynamic variables using the specified boundary conditions.
+- InitialTimeStep to specify the value of the initial time step.
+- VariableTimeStep to indicate whether or not to vary the time step
+during
+  the simulation.
+- MinTimeStep to specifiy the smallest allowed time step.
+- MaxTimeStep to specifiy the largest allowed time step.
+
+NEW DRIVER API
+o Now supports both static and dynamic build operations in the driver
+  function.
+o The runtime problem loader now supports explicit linking from dynamic
+  libraries.
+
+READ URL MECHANISM
+This is a generalized way of specifying where and how input values
+are obtained at runtime. With this mechanism SPARK can now read;
+o EnergyPlus, DOE-2 and TMY weather files
+o DOE-2 schedules
+o Algebraic expressions
+o ASCII formatted files
+
+VARIABLE TIME STEPPING
+Added an Euler integration method with variable time step to reduce
+calculation time and to control local truncation error.
+
+INTERFACE IMPROVEMENTS
+
+o Tree-view of problem showing objects associated with the problem.
+o Right-clicking on a project name now pops up a menu with choice
+  to edit the problem file or show the tree structure of the problem.
+o Right-clicking on a class name pops up a menu from which you may
+choose
+  to edit the class file or show the tree structure of the class.
+o Checkbox to allow variable time step and inputs for mininum and
+maximum
+  time step.
+o Wallclock entries to choose date and time for run (e.g. for reading
+  weather file data.
+o Comparative plots of related problems: you can show same variables
+from
+  multiple runs of problems on same graph.
+o New tab showing Structure and Defaults:
+  - Structure: shows problem structure as a tree; you can browse
+inverses,
+    parameters, input variables and unknowns.
+  - Defaults: shows default values for solution methods, max iterations,
+etc.
+o Component tab shows component structures as trees, where you can
+browse
+  unknowns and objects, including their inverses, targets and callbacks.
+
+-------------------
+
+SPARK was developed by the Simulation Research Group of Lawrence
+Berkeley National Laboratory and by Ayres Sowell Associates, with
+support from the Assistant Secretary for Energy Efficiency and
+Renewable Energy, Office of Building Technology Programs of the U.S.
+Department of Energy, program manager Dru Crawley.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From sjudson at noresco.com  Mon Jun 30 13:26:58 2003
+From: sjudson at noresco.com (sjudson at noresco.com)
+Date: Mon, 30 Jun 2003 16:26:58 -0400
+Subject: [BLDG-SIM] Software to create TMY files
+Message-ID: <MDAEMON-F200306301522.AA2205921pd80000342654@gard.com>
+
+Is anyone aware of software that will compile historical weather data into a
+TMY formatted weather file?
+
+-----Original Message-----
+From: Edward F. Sowell [mailto:sowell at fullerton.edu]
+Sent: Thursday, June 26, 2003 10:39 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Validation of simulation predictions
+
+
+Peter,
+ 
+One study that comes to mind quickly is a comparison of results from the
+"solar test cells" at Poway, CA
+with DOE-2, perhaps in the early 80s. Fred Winkelmann at LBNL can perhaps
+provide specifics. These
+tests were under controlled circumstances rather than actual building. But,
+IMHO, comparisons
+with field data from occupied buildings will have so many uncontrolled and
+confounding factors as to
+be meaningless.
+ 
+Ed Sowell
+ 
+
+ Can anyone point me to papers that discuss the validation of whole building
+energy models (DOE2 or others) with measured building data? I am looking for
+papers discussing the accuracy that can be achieved for both simulations
+based on comprehensive energy audits of existing buildings and simulations
+based on design documents that are then compared to measured performance of
+the building after occupation.
+
+
+
+=====================================================You received this
+e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030630/f6184911/attachment.htm>
+
+From jimwill at indy.net  Fri Jun 27 19:47:00 2003
+From: jimwill at indy.net (James K. Willson)
+Date: Fri, 27 Jun 2003 21:47:00 -0500
+Subject: [BLDG-SIM] Agenda - TC 4.7 Applications - Kansas City
+Message-ID: <MDAEMON-F200306272142.AA421900pd80000340958@gard.com>
+
+TC 4.7 Applications Attendees:
+
+I recognize time is short, but if possible, please look over attachments before Tuesday's meeting.
+
+Regards,
+Jim
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030627/71c56de1/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: TC 4.7 Applications Agenda.ZIP
+Type: application/x-zip-compressed
+Size: 30756 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030627/71c56de1/attachment.bin>
+
+From YJHuang at lbl.gov  Fri Jun 27 13:29:44 2003
+From: YJHuang at lbl.gov (Joe Huang)
+Date: Fri, 27 Jun 2003 13:29:44 -0700
+Subject: [BLDG-SIM] Validation of simulation predictions
+References: <MDAEMON-F200306262133.AA3346375pd80000498591@gard.com>
+Message-ID: <MDAEMON-F200306271523.AA2333171pd80000340726@gard.com>
+
+Validation of simulation predictionsEd is referring to a study that Fred Winkelmann, Rene Meldem, and I did for the California Institute of Energy Efficiency back in 1993. The attached abstract is from the Simulation Research Group Web site. The full report is available only on paper.
+
+Joe Huang
+
+
+LBL-37979     COMPARISON OF DOE-2 WITH MEASUREMENTS IN THE PALA TEST HOUSES 
+Abstract: 
+The predictions of the DOE-2 program for building energy analysis have been compared with measurements in the Pala test houses near San Diego, California. This work is part of the California Institute for Energy Efficiency's "Alternatives to Compressor Cooling in California Transition Zones" project in which DOE-2 is being used for parametric analysis of cooling strategies that reduce peak electrical power in hot and dry climates. To establish the validity of DOE-2 for this kind of analysis the program was compared with room air temperature measurements in a "low-mass" however with conventional insulated stud wall construction and a "high-mass" house with insulated concrete walls. To test different aspects of the DOE-2 calculation, four different unconditioned thermal configurations of these houses were considered: unshaded windows, shaded windows, white exterior surfaces, and forced night ventilation. In all cases, DOE-2 agreed well with the air temperature measurements, with a mean deviation between simulation and measurement ranging from 0.2 to 1.0K depending on configuration and type of house. Using a development version of DOE-2, comparisons with inside surface temperature measurements were also made. These comparisons showed good agreement. 
+
+  ----- Original Message ----- 
+  From: Edward F. Sowell 
+  To: BLDG-SIM at gard.com 
+  Sent: Thursday, June 26, 2003 7:38 PM
+  Subject: [BLDG-SIM] Validation of simulation predictions
+
+
+  Peter,
+
+  One study that comes to mind quickly is a comparison of results from the "solar test cells" at Poway, CA
+  with DOE-2, perhaps in the early 80s. Fred Winkelmann at LBNL can perhaps provide specifics. These
+  tests were under controlled circumstances rather than actual building. But, IMHO, comparisons
+  with field data from occupied buildings will have so many uncontrolled and confounding factors as to
+  be meaningless.
+
+  Ed Sowell
+
+     Can anyone point me to papers that discuss the validation of whole building energy models (DOE2 or others) with measured building data? I am looking for papers discussing the accuracy that can be achieved for both simulations based on comprehensive energy audits of existing buildings and simulations based on design documents that are then compared to measured performance of the building after occupation.
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030627/fb240efd/attachment.htm>
+
+From bkoran at qwest.net  Thu Jun 26 23:58:03 2003
+From: bkoran at qwest.net (Bill Koran)
+Date: Thu, 26 Jun 2003 23:58:03 -0700
+Subject: [BLDG-SIM] Validation of simulation predictions
+Message-ID: <MDAEMON-F200306270152.AA522715pd80000340175@gard.com>
+
+Validation of simulation predictionsI participated in the calibration of
+simulations of commercial buildings as part of the BPA Energy Edge research
+project in the early 90's.  The buildings included high-rise office, small
+office, fast food, and supermarket.  The models were calibrated to hourly
+end-use data and, to a lesser extent HVAC subsystem data.  For example over
+200 channels were monitored for the large office building.  Not all of the
+channels were used for model calibration, however.
+
+Amongst the published papers that came out of the research were the
+following:
+
+Kaplan Engineering and Portland Energy
+Conservation, Inc , (1991). "Energy Edge Modelers Guidelines
+
+Report."
+
+
+
+Kaplan Engineering and Portland Energy
+
+Conservation, Inc , ?Energy Edge Simulation
+
+Tuning Methodologies?, prepared for Bonneville
+
+Power Administration Commercial Technology Section
+
+under cooperative agreement #DE-FC79-85BP26683
+
+
+
+Koran, W. E., M. B. Kaplan, et al. (1993). ?Two
+
+DOE-2.1C model calibration methods.? ASHRAE
+
+Special Publications: Thermal Performance of the
+
+Exterior Envelope of Buidings.: 3-10.
+
+
+
+Kaplan Engineering and Portland Energy Conservation,
+
+Inc. (PECI). 1993. Model Tuning Final Report, Modeler?s
+
+Retrospective, Energy Edge Prepared for the Bonneville
+
+Power Administration. Portland, Oregon, December.
+
+
+
+Over the Energy Edge: Results from a Seven Year New
+
+Commercial Buildings Research and Demonstration Project
+
+(final report from LBNL)
+
+
+
+There were also the calibration ("tuning") reports for the individual
+buildings.  An example is
+
+Kaplan Engineering and Portland Energy Conservation, Inc.  (1993).
+
+?Energy Edge: SeaFirst Tower at Bellevue Place Simulation Tuning?,
+
+prepared for Bonneville Power Administration Commercial Technology Section
+
+under cooperative agreement #DE-FC79-85BP26683
+
+
+
+In that calibration exercise, the energy use categories calibrated were
+total building, total HVAC, total interior lighting, receptacle plugs,
+elevators, and parking garage.  Within HVAC, energy for heating, cooling,
+AHUs, condenser pumps and cooling tower fans, and chilled water pumps were
+individually calibrated.
+
+
+
+--Bill Koran, Honeywell Atrium
+
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Peter Alspach
+Sent: Thursday, June 26, 2003 4:50 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Validation of simulation predictions
+
+
+Can anyone point me to papers that discuss the validation of whole building
+energy models (DOE2 or others) with measured building data? I am looking for
+papers discussing the accuracy that can be achieved for both simulations
+based on comprehensive energy audits of existing buildings and simulations
+based on design documents that are then compared to measured performance of
+the building after occupation.
+
+Thanks,
+__________________________________________________
+Peter Alspach
+Mechanical Engineer
+
+ARUP
+901 Market Street, Suite 260, San Francisco, CA 94103
+T 415-957-9445
+D 415-946-0284
+F 415-957-9096
+peter.alspach at arup.com
+www.arup.com
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030626/8c6399b8/attachment.htm>
+
+From sowell at fullerton.edu  Thu Jun 26 19:38:39 2003
+From: sowell at fullerton.edu (Edward F. Sowell)
+Date: Thu, 26 Jun 2003 19:38:39 -0700
+Subject: [BLDG-SIM] Validation of simulation predictions
+In-Reply-To: <MDAEMON-F200306261844.AA4449171pd80000497807@gard.com>
+Message-ID: <MDAEMON-F200306262134.AA3400156pd80000340001@gard.com>
+
+Validation of simulation predictionsPeter,
+
+One study that comes to mind quickly is a comparison of results from the
+"solar test cells" at Poway, CA
+with DOE-2, perhaps in the early 80s. Fred Winkelmann at LBNL can perhaps
+provide specifics. These
+tests were under controlled circumstances rather than actual building. But,
+IMHO, comparisons
+with field data from occupied buildings will have so many uncontrolled and
+confounding factors as to
+be meaningless.
+
+Ed Sowell
+
+   Can anyone point me to papers that discuss the validation of whole
+building energy models (DOE2 or others) with measured building data? I am
+looking for papers discussing the accuracy that can be achieved for both
+simulations based on comprehensive energy audits of existing buildings and
+simulations based on design documents that are then compared to measured
+performance of the building after occupation.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030626/73f4a754/attachment.htm>
+
+From Drury.Crawley at EE.DOE.GOV  Thu Jun 26 18:53:02 2003
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Thu, 26 Jun 2003 21:53:02 -0400
+Subject: [BLDG-SIM] Validation of simulation predictions
+Message-ID: <MDAEMON-F200306262110.AA1042937pd80000339987@gard.com>
+
+
+The IEA Solar Heating and Cooling and
+Buildings and Community Systems Programmes
+have conducted multiple projects on building
+energy simulation program validation, called
+BESTest... most recent task is Task 22:
+
+http://www.iea-shc.org/task22/
+
+And there's ASHRAE Standard 140-2001,
+which is a Standard Method of Test for BESP
+and incorporates many of the earlier BESTest
+work.
+
+
+
+                                                                                                         
+                      "Peter Alspach"                                                                    
+                      <peter.alspach at ar        To:       BLDG-SIM at GARD.COM                               
+                      up.com>                  cc:                                                       
+                      Sent by:                 Subject:  [BLDG-SIM] Validation of simulation predictions 
+                      postman at gard.com                                                                   
+                                                                                                         
+                                                                                                         
+                      06/26/2003 07:49                                                                   
+                      PM                                                                                 
+                      Please respond to                                                                  
+                      peter.alspach                                                                      
+                                                                                                         
+                                                                                                         
+
+
+
+
+Can anyone point me to papers that discuss the validation of whole building
+energy models (DOE2 or others) with measured building data? I am looking
+for papers discussing the accuracy that can be achieved for both
+simulations based on comprehensive energy audits of existing buildings and
+simulations based on design documents that are then compared to measured
+performance of the building after occupation.
+
+
+Thanks,
+__________________________________________________
+Peter Alspach
+Mechanical Engineer
+
+
+ARUP
+901 Market Street, Suite 260, San Francisco, CA 94103
+T 415-957-9445
+D 415-946-0284
+F 415-957-9096
+peter.alspach at arup.com
+www.arup.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From peter.alspach at arup.com  Thu Jun 26 16:49:34 2003
+From: peter.alspach at arup.com (Peter Alspach)
+Date: Fri, 27 Jun 2003 00:49:34 +0100
+Subject: [BLDG-SIM] Validation of simulation predictions
+Message-ID: <MDAEMON-F200306261844.AA4439343pd80000339895@gard.com>
+
+Can anyone point me to papers that discuss the validation of whole building
+energy models (DOE2 or others) with measured building data? I am looking for
+papers discussing the accuracy that can be achieved for both simulations
+based on comprehensive energy audits of existing buildings and simulations
+based on design documents that are then compared to measured performance of
+the building after occupation.
+
+Thanks,
+__________________________________________________
+Peter Alspach
+Mechanical Engineer
+
+ARUP
+901 Market Street, Suite 260, San Francisco, CA 94103
+T 415-957-9445
+D 415-946-0284
+F 415-957-9096
+peter.alspach at arup.com
+www.arup.com
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030627/34402056/attachment.htm>
+
+From gnoe at vwc.edu  Thu Jun 26 02:28:04 2003
+From: gnoe at vwc.edu (Garry Noe)
+Date: Thu, 26 Jun 2003 05:28:04 -0400
+Subject: [BLDG-SIM] CNE Manual
+Message-ID: <MDAEMON-F200306260415.AA1523687pd80000339261@gard.com>
+
+Hello,
+
+I'm trying to track down a copy of the manual for CNE, Energy-10's
+simulation engine.  I'd like to run CNE from the command line, and am
+especially interested in a list of flags and parameters.  Doug Schroeder at
+SBIC didn't have a copy, and I haven't been able to locate the Berkeley
+Solar Group on the Web.  I have the Energy-10 documentation, and am using
+version 1.6.
+
+Any help would be much appreciated.
+
+Garry
+
+Garry Noe
+Physics Dept.
+Virginia Wesleyan College
+Norfolk, VA 23502
+(757) 455-3284
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Habaza11 at cs.com  Wed Jun 25 10:24:14 2003
+From: Habaza11 at cs.com (Habaza11 at cs.com)
+Date: Wed, 25 Jun 2003 13:24:14 -0400
+Subject: [BLDG-SIM] Thermal mass walls
+Message-ID: <MDAEMON-F200306251219.AA1959984pd80000338656@gard.com>
+
+DOE also funded research on thermal mass which showed that thermal mass may have significant effect, minimal effect or adverse effect on cooling/heating  load. In theory, thermal mass in walls is like the balance wheel, which I don?t think will help in reducing the cooling load in the refrigerator  case. combining thermal mass with other factors such as infiltration, mechanical system sizing/operation, etc. may be!.
+Hussein Abaza, Ph.D.
+Assistant Professor
+ECU.
+
+Rick Strand <rkstrand at uiuc.edu> wrote:
+
+>While this is a slight divergence from the original issue that Mark Case 
+>brought up, I wanted to address one item in Christian Struck's 
+>email. ?Christian mentions a system of activating a thermal mass using a 
+>passive nighttime conditioning scheme. ?This could have wide applicability, 
+>and it is partially the subject of a research paper on a "passive" radiant 
+>ceiling slab system modeled in EnergyPlus that will be presented at the 
+>upcoming ASHRAE meeting. ?So, models for this idea already exist in 
+>EnergyPlus and probably in other programs as well. ?If you have an interest 
+>in what EnergyPlus can do in this area, please let me know or come to the 
+>presentation in Kansas City.
+>
+>Rick Strand
+>
+>At 03:58 PM 6/25/2003 +0100, Christian Struck wrote:
+>>Nothing to rectify at all, but a small addendum.
+>>A large thermal mass causes the heat transfer to slow down due to its
+>>thermal resistivity. Nevertheless, if you have constant conditions of either
+>>side of the wall you will still have a steady heat transfer. The temperature
+>>difference between inside and outside (wind not taken into account) governs
+>>the exchange. By comparing a wall with no thermal mass to a wall with large
+>>thermal mass in equilibrium you will find the same rate of heat transferred.
+>>Thermal mass is only beneficial to the internal climate under varying
+>>internal and external conditions due to the storage capacity (time lag) of
+>>the building fabric.
+>>
+>>Interestingly that the point, the industry started thinking about,
+>>activating the thermal mass of buildings further by embedding water powered
+>>pipework into the neutral axis of ceiling slabs or walls. That allows coolth
+>>to be stored at night by running i.e. a water to air heat exchanger to be
+>>available for passive conditioning during the summer day. Same principle
+>>applies for heating.
+>>
+>>The principle is dead simple, but its benefits difficult to assess. Here we
+>>go again, its our game, building simulation in order to assess the systems
+>>energetic benefits.
+>>
+>>Check the link to Tarmac for Thermocast. (http://www.tarmacprecast.co.uk/)
+>>
+>>Christian
+>>
+>>
+>>
+>> > -----Original Message-----
+>> > From: Callan, David [SMTP:dcallan at syska.com]
+>> > Sent: 25 June 2003 15:16
+>> > To: ? BLDG-SIM at GARD.COM
+>> > Subject: ? ? ?[BLDG-SIM] Thermal mass walls
+>> >
+>> > I agree. ?I assuming that the refrigerator is inside a larger facility
+>> > shaded from the sun. ?My understanding of thermal mass leads me to believe
+>> > that it will have little effect on this refrigeration process. ? Thermal
+>> > mass plays a part when the loads change with time. ?The thermal mass
+>> > stores
+>> > the heat to be radiated later. ?This is obviously advantageous for
+>> > building
+>> > design in hot climates because the instantaneous solar load effect can be
+>> > delayed to a time when the conduction load due to temperatures decreases.
+>> > Hence reducing the peak sensible load slightly. ?In the refrigeration
+>> > process, the loads are more or less constant and direct solar would not be
+>> > an issue.
+>> >
+>> > If anyone can elaborate on, or correct my explanation, I would appreciate
+>> > it.
+>> >
+>> > David P. Callan, MS, PE, CEM
+>> > Syska Hennessy Group, Inc.
+>> >
+>> > -----Original Message-----
+>> > From: Habaza11 at cs.com [mailto:Habaza11 at cs.com]
+>> > Sent: Wednesday, June 25, 2003 9:41 AM
+>> > To: BLDG-SIM at GARD.COM
+>> > Subject: [BLDG-SIM] Thermal mass walls
+>> >
+>> > Yes, I am with eQuest results and your guts!. DOE also funded research on
+>> > thermal mass which showed that thermal mass may have significant effect,
+>> > minimal effect or adverse effect on cooling/heating ?load. In theory,
+>> > thermal mass in walls is like the balance wheel, which I don't think will
+>> > help in reducing the cooling load in your case. Other factors such as
+>> > infiltration, mechanical system sizing/operation, etc. may be!.
+>> > Hussein Abaza, Ph.D.
+>> > Assistant Professor
+>> > ECU.
+>> >
+>> >
+>> > ======================================================
+>> > You received this e-mail because you are subscribed
+>> > to the BLDG-SIM at GARD.COM mailing list. ?To unsubscribe
+>> > from this mailing list send a blank message to
+>> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>> >
+>> > ======================================================
+>> > You received this e-mail because you are subscribed
+>> > to the BLDG-SIM at GARD.COM mailing list. ?To unsubscribe
+>> > from this mailing list send a blank message to
+>> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>>
+>>======================================================
+>>You received this e-mail because you are subscribed
+>>to the BLDG-SIM at GARD.COM mailing list. ?To unsubscribe
+>>from this mailing list send a blank message to
+>>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+>======================================================
+>You received this e-mail because you are subscribed 
+>to the BLDG-SIM at GARD.COM mailing list. ?To unsubscribe 
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From rkstrand at uiuc.edu  Wed Jun 25 08:53:46 2003
+From: rkstrand at uiuc.edu (Rick Strand)
+Date: Wed, 25 Jun 2003 10:53:46 -0500
+Subject: [BLDG-SIM] Thermal mass walls
+In-Reply-To: <MDAEMON-F200306250959.AA5903359pd80000494274@gard.com>
+Message-ID: <MDAEMON-F200306251049.AA4924500pd80000338520@gard.com>
+
+While this is a slight divergence from the original issue that Mark Case 
+brought up, I wanted to address one item in Christian Struck's 
+email.  Christian mentions a system of activating a thermal mass using a 
+passive nighttime conditioning scheme.  This could have wide applicability, 
+and it is partially the subject of a research paper on a "passive" radiant 
+ceiling slab system modeled in EnergyPlus that will be presented at the 
+upcoming ASHRAE meeting.  So, models for this idea already exist in 
+EnergyPlus and probably in other programs as well.  If you have an interest 
+in what EnergyPlus can do in this area, please let me know or come to the 
+presentation in Kansas City.
+
+Rick Strand
+
+At 03:58 PM 6/25/2003 +0100, Christian Struck wrote:
+>Nothing to rectify at all, but a small addendum.
+>A large thermal mass causes the heat transfer to slow down due to its
+>thermal resistivity. Nevertheless, if you have constant conditions of either
+>side of the wall you will still have a steady heat transfer. The temperature
+>difference between inside and outside (wind not taken into account) governs
+>the exchange. By comparing a wall with no thermal mass to a wall with large
+>thermal mass in equilibrium you will find the same rate of heat transferred.
+>Thermal mass is only beneficial to the internal climate under varying
+>internal and external conditions due to the storage capacity (time lag) of
+>the building fabric.
+>
+>Interestingly that the point, the industry started thinking about,
+>activating the thermal mass of buildings further by embedding water powered
+>pipework into the neutral axis of ceiling slabs or walls. That allows coolth
+>to be stored at night by running i.e. a water to air heat exchanger to be
+>available for passive conditioning during the summer day. Same principle
+>applies for heating.
+>
+>The principle is dead simple, but its benefits difficult to assess. Here we
+>go again, its our game, building simulation in order to assess the systems
+>energetic benefits.
+>
+>Check the link to Tarmac for Thermocast. (http://www.tarmacprecast.co.uk/)
+>
+>Christian
+>
+>
+>
+> > -----Original Message-----
+> > From: Callan, David [SMTP:dcallan at syska.com]
+> > Sent: 25 June 2003 15:16
+> > To:   BLDG-SIM at GARD.COM
+> > Subject:      [BLDG-SIM] Thermal mass walls
+> >
+> > I agree.  I assuming that the refrigerator is inside a larger facility
+> > shaded from the sun.  My understanding of thermal mass leads me to believe
+> > that it will have little effect on this refrigeration process.   Thermal
+> > mass plays a part when the loads change with time.  The thermal mass
+> > stores
+> > the heat to be radiated later.  This is obviously advantageous for
+> > building
+> > design in hot climates because the instantaneous solar load effect can be
+> > delayed to a time when the conduction load due to temperatures decreases.
+> > Hence reducing the peak sensible load slightly.  In the refrigeration
+> > process, the loads are more or less constant and direct solar would not be
+> > an issue.
+> >
+> > If anyone can elaborate on, or correct my explanation, I would appreciate
+> > it.
+> >
+> > David P. Callan, MS, PE, CEM
+> > Syska Hennessy Group, Inc.
+> >
+> > -----Original Message-----
+> > From: Habaza11 at cs.com [mailto:Habaza11 at cs.com]
+> > Sent: Wednesday, June 25, 2003 9:41 AM
+> > To: BLDG-SIM at GARD.COM
+> > Subject: [BLDG-SIM] Thermal mass walls
+> >
+> > Yes, I am with eQuest results and your guts!. DOE also funded research on
+> > thermal mass which showed that thermal mass may have significant effect,
+> > minimal effect or adverse effect on cooling/heating  load. In theory,
+> > thermal mass in walls is like the balance wheel, which I don't think will
+> > help in reducing the cooling load in your case. Other factors such as
+> > infiltration, mechanical system sizing/operation, etc. may be!.
+> > Hussein Abaza, Ph.D.
+> > Assistant Professor
+> > ECU.
+> >
+> >
+> > ======================================================
+> > You received this e-mail because you are subscribed
+> > to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> > from this mailing list send a blank message to
+> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> >
+> > ======================================================
+> > You received this e-mail because you are subscribed
+> > to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> > from this mailing list send a blank message to
+> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bthornton at glumac.com  Wed Jun 25 08:39:58 2003
+From: bthornton at glumac.com (Brian Thornton)
+Date: Wed, 25 Jun 2003 08:39:58 -0700
+Subject: [BLDG-SIM] Thermal mass walls
+Message-ID: <MDAEMON-F200306251035.AA3523296pd80000338505@gard.com>
+
+On a related note: I have run a number of simulations in DOE-2 and talked
+with others about using mass in a structure, with and without the night
+flush algorithms capability. With custom weighting factors or not, it seems
+very difficult to show any net benefit from mass in the structure. 
+
+Have others found that they can show significant energy benefit in DOE-2
+from the use of mass i.e. from delay of cooling loads into unoccupied hours?
+
+
+Any success with the night flush routines?
+
+
+ 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030625/7d54f843/attachment.htm>
+
+From Christian.Struck at BuroHappold.com  Wed Jun 25 07:58:01 2003
+From: Christian.Struck at BuroHappold.com (Christian Struck)
+Date: Wed, 25 Jun 2003 15:58:01 +0100
+Subject: [BLDG-SIM] Thermal mass walls
+Message-ID: <MDAEMON-F200306250958.AA5853500pd80000338459@gard.com>
+
+Nothing to rectify at all, but a small addendum.
+A large thermal mass causes the heat transfer to slow down due to its
+thermal resistivity. Nevertheless, if you have constant conditions of either
+side of the wall you will still have a steady heat transfer. The temperature
+difference between inside and outside (wind not taken into account) governs
+the exchange. By comparing a wall with no thermal mass to a wall with large
+thermal mass in equilibrium you will find the same rate of heat transferred.
+Thermal mass is only beneficial to the internal climate under varying
+internal and external conditions due to the storage capacity (time lag) of
+the building fabric.
+
+Interestingly that the point, the industry started thinking about,
+activating the thermal mass of buildings further by embedding water powered
+pipework into the neutral axis of ceiling slabs or walls. That allows coolth
+to be stored at night by running i.e. a water to air heat exchanger to be
+available for passive conditioning during the summer day. Same principle
+applies for heating. 
+
+The principle is dead simple, but its benefits difficult to assess. Here we
+go again, its our game, building simulation in order to assess the systems
+energetic benefits.
+
+Check the link to Tarmac for Thermocast. (http://www.tarmacprecast.co.uk/)
+
+Christian
+
+
+
+> -----Original Message-----
+> From:	Callan, David [SMTP:dcallan at syska.com]
+> Sent:	25 June 2003 15:16
+> To:	BLDG-SIM at GARD.COM
+> Subject:	[BLDG-SIM] Thermal mass walls
+> 
+> I agree.  I assuming that the refrigerator is inside a larger facility
+> shaded from the sun.  My understanding of thermal mass leads me to believe
+> that it will have little effect on this refrigeration process.   Thermal
+> mass plays a part when the loads change with time.  The thermal mass
+> stores
+> the heat to be radiated later.  This is obviously advantageous for
+> building
+> design in hot climates because the instantaneous solar load effect can be
+> delayed to a time when the conduction load due to temperatures decreases.
+> Hence reducing the peak sensible load slightly.  In the refrigeration
+> process, the loads are more or less constant and direct solar would not be
+> an issue.  
+> 
+> If anyone can elaborate on, or correct my explanation, I would appreciate
+> it.  
+> 
+> David P. Callan, MS, PE, CEM
+> Syska Hennessy Group, Inc.
+> 
+> -----Original Message-----
+> From: Habaza11 at cs.com [mailto:Habaza11 at cs.com] 
+> Sent: Wednesday, June 25, 2003 9:41 AM
+> To: BLDG-SIM at GARD.COM
+> Subject: [BLDG-SIM] Thermal mass walls
+> 
+> Yes, I am with eQuest results and your guts!. DOE also funded research on
+> thermal mass which showed that thermal mass may have significant effect,
+> minimal effect or adverse effect on cooling/heating  load. In theory,
+> thermal mass in walls is like the balance wheel, which I don't think will
+> help in reducing the cooling load in your case. Other factors such as
+> infiltration, mechanical system sizing/operation, etc. may be!.
+> Hussein Abaza, Ph.D.
+> Assistant Professor
+> ECU.
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From dcallan at syska.com  Wed Jun 25 07:16:22 2003
+From: dcallan at syska.com (Callan, David)
+Date: Wed, 25 Jun 2003 10:16:22 -0400
+Subject: [BLDG-SIM] Thermal mass walls
+Message-ID: <MDAEMON-F200306250913.AA1303109pd80000338401@gard.com>
+
+I agree.  I assuming that the refrigerator is inside a larger facility
+shaded from the sun.  My understanding of thermal mass leads me to believe
+that it will have little effect on this refrigeration process.   Thermal
+mass plays a part when the loads change with time.  The thermal mass stores
+the heat to be radiated later.  This is obviously advantageous for building
+design in hot climates because the instantaneous solar load effect can be
+delayed to a time when the conduction load due to temperatures decreases.
+Hence reducing the peak sensible load slightly.  In the refrigeration
+process, the loads are more or less constant and direct solar would not be
+an issue.  
+
+If anyone can elaborate on, or correct my explanation, I would appreciate
+it.  
+
+David P. Callan, MS, PE, CEM
+Syska Hennessy Group, Inc.
+
+-----Original Message-----
+From: Habaza11 at cs.com [mailto:Habaza11 at cs.com] 
+Sent: Wednesday, June 25, 2003 9:41 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Thermal mass walls
+
+Yes, I am with eQuest results and your guts!. DOE also funded research on
+thermal mass which showed that thermal mass may have significant effect,
+minimal effect or adverse effect on cooling/heating  load. In theory,
+thermal mass in walls is like the balance wheel, which I don't think will
+help in reducing the cooling load in your case. Other factors such as
+infiltration, mechanical system sizing/operation, etc. may be!.
+Hussein Abaza, Ph.D.
+Assistant Professor
+ECU.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Habaza11 at cs.com  Wed Jun 25 06:41:28 2003
+From: Habaza11 at cs.com (Habaza11 at cs.com)
+Date: Wed, 25 Jun 2003 09:41:28 -0400
+Subject: [BLDG-SIM] Thermal mass walls
+Message-ID: <MDAEMON-F200306250836.AA3647968pd80000338346@gard.com>
+
+Yes, I am with eQuest results and your guts!. DOE also funded research on thermal mass which showed that thermal mass may have significant effect, minimal effect or adverse effect on cooling/heating  load. In theory, thermal mass in walls is like the balance wheel, which I don?t think will help in reducing the cooling load in your case. Other factors such as infiltration, mechanical system sizing/operation, etc. may be!.
+Hussein Abaza, Ph.D.
+Assistant Professor
+ECU.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kemerson2002 at yahoo.com  Wed Jun 25 05:13:07 2003
+From: kemerson2002 at yahoo.com (K Emerson)
+Date: Wed, 25 Jun 2003 05:13:07 -0700 (PDT)
+Subject: [BLDG-SIM] Thermal mass walls
+In-Reply-To: <MDAEMON-F200306241719.AA1900687pd80000491728@gard.com>
+Message-ID: <MDAEMON-F200306250708.AA0820562pd80000338256@gard.com>
+
+I hate to suggest bringing reality into this, but a
+little research into examples provided by the
+manufacturer might be in order.  With the owner's
+permission, the local utility companies where the
+various types of construction have been in operation
+should be able to release energy data.  
+
+Keith Emerson
+
+PS Beware of bridging paths in the metal construction.
+ 
+
+--- Jeff Haberl <jhaberl at esl.tamu.edu> wrote:
+> Couple of questions:
+>  
+> 1. What is the freezer floor? Is it insulated? 
+>  
+> 2. What are the exterior conditions? Is this freezer
+> in an unconditioned
+> warehouse?
+>  
+> 3. Are you using custom weighting factors or
+> pre-calculated weighting
+> factors?
+>  
+> Jeff
+> 
+> 
+> 8=!   8=)  :=)   8=)   ;=)   8=)   8=(   8=)   8=() 
+>  8=)   8=|   8=)   :=')
+> 8=)   8=)   8=? 
+> 
+> Jeff S. Haberl, Ph.D.,
+> P.E.............................jhaberl at esl.tamu.edu
+> 
+> Associate
+> Professor....................................Office
+> Ph:
+> 979-845-6507 
+> Department of
+> Architecture...........................Lab Ph:
+> 979-845-6065 
+> Energy Systems
+> Laboratory...........................FAX:
+> 979-862-2457 
+> Texas A&M
+>
+University..................................77843-3581
+> 
+> College Station, Texas,
+> USA...........................URL: www-esl.tamu.edu 
+> 
+> 8=/   8=)  :=)   8=)  ;=)   8=)   8=()   8=)   :=)  
+> 8=)   8=!   8=)   8=?
+> 8=)   8=)   8=0   
+> 
+> -----Original Message-----
+> From: postman at gard.com [mailto:postman at gard.com]On
+> Behalf Of Mark E. Case
+> Sent: Tuesday, June 24, 2003 3:45 PM
+> To: BLDG-SIM at gard.com
+> Subject: [BLDG-SIM] Thermal mass walls
+> 
+> 
+> 
+> Ok - here's a question, maybe stimulate a little
+> controversy but as many of
+> you know -  that's the way I like it. 
+> -10 F freezer, 100,000+ square feet. Reasonably
+> steady product loading 24
+> hours a day (say 90 tons +/- 25 tons in a given
+> hour).
+> 
+> Two envelope systems: 5" metal skin panel with
+> expanded polyurethane vs.
+> thermal mass panel of 8" HW concrete interior, 6"
+> extruded polystyrene,
+> 2-1/2  HW concrete exterior.
+> 
+> Polyu conductivity .0142 btu/h-ft-F (LTTR basis).
+> Metal skin wall U without
+> external skin resistance (DOE2) = ..033. Polystyrene
+> .0167, thermal mass
+> wall U = .030.  
+> 
+> Question - which one is better? That's a loaded
+> question but from a strictly
+> thermal performance measure -  kWh per year to cool
+> - is there more
+> difference than the .030 vs. .033 U-value would
+> imply?.
+> 
+> We are using eQuest (Doe2.2) and it show the thermal
+> mass as `slightly'
+> better. The manufacturer, based largely on
+> testimonial evidence, insists it
+> is MUCH better. 
+> 
+> One issue that they raise is infiltration through
+> the metal skin panels and
+> the impact on in-situ R value. They site ORNL test
+> results that apparently
+> show this but I've not seen them. I know ORNL did
+> some testing on apparent R
+> of mass walls but it didn't seem conclusive to me
+> that it would apply in
+> this situation.
+> 
+> Anyone out there that can cite well documented
+> research about the
+> differences? Anyone have comments about DOE2's
+> strengths and weaknesses in
+> capturing the effects of the large wall thermal
+> mass?
+> 
+> 
+> Mark E. Case, President 
+> etc Group, Inc. 
+> 
+> 
+> 
+> ==================
+> 
+> You received this e-mail because you are subscribed 
+> 
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> 
+> from this mailing list send a blank message to 
+> 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+> 
+>
+======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+__________________________________
+Do you Yahoo!?
+SBC Yahoo! DSL - Now only $29.95 per month!
+http://sbc.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jhaberl at esl.tamu.edu  Tue Jun 24 15:23:34 2003
+From: jhaberl at esl.tamu.edu (Jeff Haberl)
+Date: Tue, 24 Jun 2003 17:23:34 -0500
+Subject: [BLDG-SIM] Thermal mass walls
+Message-ID: <MDAEMON-F200306241718.AA1858218pd80000337792@gard.com>
+
+Couple of questions:
+ 
+1. What is the freezer floor? Is it insulated? 
+ 
+2. What are the exterior conditions? Is this freezer in an unconditioned
+warehouse?
+ 
+3. Are you using custom weighting factors or pre-calculated weighting
+factors?
+ 
+Jeff
+
+
+8=!   8=)  :=)   8=)   ;=)   8=)   8=(   8=)   8=()   8=)   8=|   8=)   :=')
+8=)   8=)   8=? 
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu 
+Associate Professor....................................Office Ph:
+979-845-6507 
+Department of Architecture...........................Lab Ph: 979-845-6065 
+Energy Systems Laboratory...........................FAX: 979-862-2457 
+Texas A&M University..................................77843-3581 
+College Station, Texas, USA...........................URL: www-esl.tamu.edu 
+
+8=/   8=)  :=)   8=)  ;=)   8=)   8=()   8=)   :=)   8=)   8=!   8=)   8=?
+8=)   8=)   8=0   
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Mark E. Case
+Sent: Tuesday, June 24, 2003 3:45 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Thermal mass walls
+
+
+
+Ok - here's a question, maybe stimulate a little controversy but as many of
+you know -  that's the way I like it. 
+-10 F freezer, 100,000+ square feet. Reasonably steady product loading 24
+hours a day (say 90 tons +/- 25 tons in a given hour).
+
+Two envelope systems: 5" metal skin panel with expanded polyurethane vs.
+thermal mass panel of 8" HW concrete interior, 6" extruded polystyrene,
+2-1/2  HW concrete exterior.
+
+Polyu conductivity .0142 btu/h-ft-F (LTTR basis). Metal skin wall U without
+external skin resistance (DOE2) = ..033. Polystyrene .0167, thermal mass
+wall U = .030.  
+
+Question - which one is better? That's a loaded question but from a strictly
+thermal performance measure -  kWh per year to cool - is there more
+difference than the .030 vs. .033 U-value would imply?.
+
+We are using eQuest (Doe2.2) and it show the thermal mass as `slightly'
+better. The manufacturer, based largely on testimonial evidence, insists it
+is MUCH better. 
+
+One issue that they raise is infiltration through the metal skin panels and
+the impact on in-situ R value. They site ORNL test results that apparently
+show this but I've not seen them. I know ORNL did some testing on apparent R
+of mass walls but it didn't seem conclusive to me that it would apply in
+this situation.
+
+Anyone out there that can cite well documented research about the
+differences? Anyone have comments about DOE2's strengths and weaknesses in
+capturing the effects of the large wall thermal mass?
+
+
+Mark E. Case, President 
+etc Group, Inc. 
+
+
+
+==================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030624/6f1a56b7/attachment.htm>
+
+From mcase at etcgrp.com  Tue Jun 24 13:44:38 2003
+From: mcase at etcgrp.com (Mark E. Case)
+Date: Tue, 24 Jun 2003 14:44:38 -0600
+Subject: [BLDG-SIM] Thermal mass walls
+Message-ID: <MDAEMON-F200306241539.AA3904250pd80000337690@gard.com>
+
+Ok - here's a question, maybe stimulate a little controversy but as many
+of you know -  that's the way I like it. 
+-10 F freezer, 100,000+ square feet. Reasonably steady product loading
+24 hours a day (say 90 tons +/- 25 tons in a given hour).
+Two envelope systems: 5" metal skin panel with expanded polyurethane vs.
+thermal mass panel of 8" HW concrete interior, 6" extruded polystyrene,
+2-1/2  HW concrete exterior.
+Polyu conductivity .0142 btu/h-ft-F (LTTR basis). Metal skin wall U
+without external skin resistance (DOE2) = ..033. Polystyrene .0167,
+thermal mass wall U = .030.  
+Question - which one is better? That's a loaded question but from a
+strictly thermal performance measure -  kWh per year to cool - is there
+more difference than the .030 vs. .033 U-value would imply?.
+
+We are using eQuest (Doe2.2) and it show the thermal mass as `slightly'
+better. The manufacturer, based largely on testimonial evidence, insists
+it is MUCH better. 
+One issue that they raise is infiltration through the metal skin panels
+and the impact on in-situ R value. They site ORNL test results that
+apparently show this but I've not seen them. I know ORNL did some
+testing on apparent R of mass walls but it didn't seem conclusive to me
+that it would apply in this situation.
+
+Anyone out there that can cite well documented research about the
+differences? Anyone have comments about DOE2's strengths and weaknesses
+in capturing the effects of the large wall thermal mass?
+
+
+Mark E. Case, President
+etc Group, Inc.
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030624/62323b88/attachment.htm>
+
+From rkstrand at uiuc.edu  Tue Jun 24 12:54:50 2003
+From: rkstrand at uiuc.edu (Rick Strand)
+Date: Tue, 24 Jun 2003 14:54:50 -0500
+Subject: [BLDG-SIM] Last Reminder: IBPSA-USA Kansas City Meeting (Final
+  Announcement)
+Message-ID: <MDAEMON-F200306241452.AA5238500pd80000337636@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030624/cc84b6cb/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 65ace47.jpg
+Type: image/jpeg
+Size: 28112 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030624/cc84b6cb/attachment.jpg>
+
+From Varkie.Thomas at som.com  Tue Jun 24 10:16:09 2003
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Tue, 24 Jun 2003 13:16:09 -0400
+Subject: [BLDG-SIM] Invitation to Participate - Getting the Design Team
+	toUse Energy Simulation from the Beginning
+Message-ID: <MDAEMON-F200306241218.AA1810546pd80000337476@gard.com>
+
+The statement below from the several responses I received to my views on energy analysis software shows what A-E design firms have to deal with:
+
+"I think the performance path in many building energy codes is not clearly defined at present. This sometimes makes compliance procedure hard to follow. Even when the performance path is defined, there are always arguments about the modelling assumptions, such as parameters for the reference building and performance of speculative building systems."
+
+
+We now have to show energy code compliance using energy programs when submitting construction documents. Until recently we had the option of not having to perform energy analysis during the design process.
+
+Several architects prefer to maximize the glass well above 50% (the building now falls in the non-prescriptive category) not just for aesthetic reasons, but also to reduce first costs, exterior maintenance costs and to provide a better indoor environment which in turn translates into higher productivity of the occupants.
+
+In my personal opinion energy software developers should provide examples and documentation of how we would show non-prescriptive compliance using their programs. The code authorities should also explain with examples how we are expected to show non-prescriptive compliance using energy programs and they must indicate which programs are authorized. 
+
+Based on ASHRAE Standard 90.1 most codes categorize buildings into low-rise residential buildings and commercial buildings which includes high-rise residential. Convention centers, performing arts centers, airport terminals, indoor stadiums all fall under commercial. We were once asked to show Std 90.1 compliance for one of these types of buildings using ComCheck-Plus. We need examples of how to show non-prescriptive code compliance for large hospitals and university campuses that include laboratories.
+
+We need energy programs that will show and document code compliance at the construction documents level. In my opinion the DOE2.1E (or DOE2.2 which I have not used) is very suitable for showing code compliance. We first analyze the building model using all prescriptive parameters and then analyze it again with other conditions to produce the same annual energy performance. The Building Description Language (BDL) input of the two cases is included in the report and submitted to the client to show that the modeling was done correctly.
+
+I hope that these views and comments will be of help at the ASHRAE TC 4.7 meeting next week.
+
+Varkie Thomas
+
+Skidmore, Owings & Merrill
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030624/387a3ec9/attachment.htm>
+
+From DougM at TWGI.com  Mon Jun 23 20:51:31 2003
+From: DougM at TWGI.com (Doug Maddox)
+Date: Mon, 23 Jun 2003 22:51:31 -0500
+Subject: [BLDG-SIM] Condensing furnace or boiler curves
+Message-ID: <MDAEMON-F200306232246.AA465193pd80000337032@gard.com>
+
+Hi,
+ 
+I am looking for part load performance curves for condensing furnaces and condensing boilers. Does anyone know where I can find them?
+ 
+Thanks,
+Doug Maddox
+The Weidt Group
+dougm at twgi.com
+802-223-4199
+
+From MWetter at lbl.gov  Mon Jun 23 16:29:36 2003
+From: MWetter at lbl.gov (Michael Wetter)
+Date: Mon, 23 Jun 2003 16:29:36 -0700
+Subject: [BLDG-SIM] GenOpt 2.0.0 beta released
+Message-ID: <MDAEMON-F200306231814.AA1459468pd80000336834@gard.com>
+
+Dear Building Simulation Colleagues,
+
+We are pleased to announce the beta release of GenOpt 2.0.0.
+
+GenOpt is an optimization program for the minimization of a cost 
+function, such as annual energy use, that is evaluated by an external 
+simulation program, such as EnergyPlus, TRNSYS, SPARK, DOE-2, or any 
+simulation program with text-based input and output.
+
+For free download and more information, please visit
+http://SimulationResearch.lbl.gov/GO/beta
+
+Thank you for your interest in GenOpt.
+
+Sincerely,
+
+Michael Wetter
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Varkie.Thomas at som.com  Fri Jun 20 07:37:10 2003
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Fri, 20 Jun 2003 10:37:10 -0400
+Subject: [BLDG-SIM] Invitation to Participate - Getting the Design Team
+	toUse Energy Simulation from the Beginning
+Message-ID: <MDAEMON-F200306200949.AA4932500pd80000334733@gard.com>
+
+The following message was sent to James K. Wilson of ASHRAE TC 4.7.  The file is too big to be distributed to the BLDG-SIM group.  The use of energy software at A-E firms has become very important because of energy codes
+ 
+Varkie Thomas
+ 
+ 
+To: James K. Wilson
+ 
+Attached is an Excel file that I created that describes the scope of a multi-use building project.  The file is too big for distribution to BLDG-SIM.  You may distribute this at the TC4.7 meeting if you wish.  In practice we do not get architectural drawings that are neatly and conveniently laid out as shown in the attachment.  It illustrates the following
+ 
+1.  Alternative schemes that we consider during the schematic phase of a project.  It emphasizes systems, plant and economics.  Envelope compliance during the schematic phase consists of entering the required U-values, shading coefficients, and percent glass.  Construction documents submission for code compliance will require defining envelope components with layers of materials.
+ 
+2.  Establishing design criteria for projects.  ASHRAE and other standards do not specifically cover all types of spaces.
+ 
+3. Establishing operating schedules for a project.  Although this cancels out when comparing alternatives for a given project, it does not cancel out when comparing similar types of buildings in general by different users.
+ 
+4. The importance and impact of utility rate schedules in making architectural and engineering decisions.
+ 
+The hospital design criteria and schedules was a preliminary effort.  It has since been refined for the given project with the help of the client and hospital consultants.  This is how it is usually done and the information is not always readily available
+ 
+In my personal opinion the priorities for future energy software development are:
+ 
+1.  Documenting code compliance.  Until recently, energy analysis of buildings was optional and A-E firms performed this study during the schematic phase.  Today it is becoming mandatory to show code compliance when submitting construction documents.
+ 
+2.  Creating libraries for (a) design criteria, (b) operating schedules and (c) first and maintenance cost data
+ 
+3. Making the programs easy to use.  This includes good documentation with realistic case studies.  I will be teaching a graduate course at the the Illinois Institute of Technology as an Adjunct Professor.  I hope to create several case studies based on SOM projects for the course.  Although this will be generic, modified and simplified versions to illustrate points, it will still require SOM and client permissions.  I will still be a full time employee of SOM.
+ 
+Varkie Thomas, Ph.D., P.E, CEM
+Skidmore, Owings & Merrill
+
+-----Original Message-----
+From: James K. Willson [mailto:jimwill at indy.net]
+Sent: Saturday, May 31, 2003 11:55 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Invitation to Participate - Getting the Design Team toUse Energy Simulation from the Beginning
+
+
+To ALL Interested Parties:
+ 
+In February, a very interesting exchange of ideas occurred on BLDG-SIM at gard.com regarding the limited use of building energy simulation in the early design stages,  thoughts on why its limited,  and what might be done to increase the use of simulations in the early stage of design.  For those who did not see this exchange or would like to refresh their recollection of this, a compilation of these e-mails is found in the attached Word file.  
+ 
+As the Chair of the Applications Subcommittee of ASHRAE TC 4.7- Energy Calculations, I would like to invite anyone and everyone interested in this subject to attend our next TC 4.7 Applications Subcommittee Meeting which will be held on July 1, 2003 from 3:30 to 5:00 p.m.. in Kansas City, Missouri, as part of the ASHRAE Summer Meeting.  (See the meeting program for the meeting location).
+ 
+ 
+The subject to Getting the Design Team to Use Energy Simulation from the start of Design Process will be our main topic of discussion.  The purpose of this will be to continue this exchange of ideas and from there to create actionable items which will then be implemented.  
+ 
+In some ways we've already started approaching this item.  At the Winter ASHRAE Meeting in Chicago, January 2003,  we presented a Seminar entitled "Getting Started with Building Simulation"  which was chaired by Chip Barnaby.  The four talks were an excellent presentation of "what is energy simulation", "why would I want to do it" and "what's available for doing it".  The third presentation - Allan Daly's presentation of "Using Building Simulation to Life-Cycle Cost Optimize HVAC System Design at UC Merced"  is a case study of project which actually did use simulation in the very early design stages.  Copies of the PowerPoints from each of these four presentations are available to download at the ASHRAE web site ( www.ashrae.org ).  From the homepage, click on "ASHRAE Activities", then Technical Committees, then TC 4.7, then Programs.  Scroll down about a third of the page to previously presented programs.  The seminar was one of the best attended TC 4.7 presentations in recent history (standing room only) which shows that a lot of interest is there, we just need to do a good job of tapping into it.  
+ 
+We welcome the opportunity to broaden the discussion and to broaden the participation.  ASHRAE, with its 55,000 world wide members,  Winter and Summer meetings with 2,500 to 3,500 technical program registrants, and over 160 local chapters,  can provide an effective venue for reaching the building design community.  Our successful "Getting Started with Building Simulation" seminar in Chicago and the ASHRAE Profession Development Session on Building Simulation which is now under development is only a start.  There is much, much more which could and should be done - and we welcome your ideas and involvement.
+ 
+Some of our previous work identified the need for a good basic treatise on what building simulation is, what programs are available, who to contact, etc.  As we research that subject, we were pleased to learn that some excellent sources already existed and/or were nearing completion.  Let me appraise you of them so those who are interested can get a good overview of what is currently available in the building simulation (not just HVAC) arena.  The Air-Conditioning and Refrigeration Technology Institute (the research arm of ARI) has available on its web site an report appropriately titled "State-of-the-Art Review, Whole-Building and Bulling Envelope Simulation and Design Tools"  It available at www.arti-21cr.org   There is also a companion report which focuses specifically on HVAC Component and System Simulation.   For specific cost and who to contact information on over 250 energy estimating programs, including most of the simulations DOE maintains a very comprehensive website at  <http://www.energytoolsdirectory.gov> www.energytoolsdirectory.gov 
+ 
+To help us plan a most productive session, I would appreciate your ideas on what you see as:
+ 
+    1.    The most important or critical items that we need to discuss and try to reach consensus in our meeting at Kansas City.
+ 
+    2.    The most important actions or programs our committee should be implementing in the short term (6 to 18 months)
+ 
+    3.    The most important actions or programs our committee should get ASHRAE to implement in the longer term (1 to 5 years)  This could well include research projects.
+ 
+ 
+For those who will be unable to join us in Kansas City, I invite you to share your ideas via the BLDG-SIM at gard.com list server.  I would ask that you post those ideas by June 20th as my travel schedule will make it difficult for me to print out material to distribute at the Kansas City meeting after that date.
+ 
+ 
+   
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030620/c9716064/attachment.htm>
+
+From Varkie.Thomas at som.com  Thu Jun 19 12:10:06 2003
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Thu, 19 Jun 2003 15:10:06 -0400
+Subject: [BLDG-SIM] Invitation to Participate - Getting the Design Team
+	toUse Energy Simulation from the Beginning
+Message-ID: <MDAEMON-F200306191415.AA151646pd80000334041@gard.com>
+
+The following are some of my personal views about the use of building energy analysis programs on large and complex building projects. It focuses on the approximate nature of energy analysis relative to the total building design process at A-E design firms such as SOM. Building types at SOM include multi-use office building complexes that include retail, high-rise hotels and residential buildings, airport terminals, convention centers, performing arts centers, large shopping malls, multiple buildings on a university campus or city district, hospitals, etc. The views below are also approximate and not all of them may be valid or accurate and some may be questionable but I hope it will contribute to the discussions at the ASHRAE TC 4.7 meeting this month in Kansas City.  I will not be attending the meeting.
+
+Varkie Thomas
+
+Skidmore, Owings & Merrill
+
+-----Original Message-----
+From: James K. Willson [mailto:jimwill at indy.net]
+Sent: Saturday, May 31, 2003 11:55 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Invitation to Participate - Getting the Design Team toUse Energy Simulation from the Beginning
+
+
+To ALL Interested Parties:
+ 
+In February, a very interesting exchange of ideas occurred on BLDG-SIM at gard.com regarding the limited use of building energy simulation in the early design stages,  thoughts on why its limited,  and what might be done to increase the use of simulations in the early stage of design.  For those who did not see this exchange or would like to refresh their recollection of this, a compilation of these e-mails is found in the attached Word file.  
+ 
+As the Chair of the Applications Subcommittee of ASHRAE TC 4.7- Energy Calculations, I would like to invite anyone and everyone interested in this subject to attend our next TC 4.7 Applications Subcommittee Meeting which will be held on July 1, 2003 from 3:30 to 5:00 p.m.. in Kansas City, Missouri, as part of the ASHRAE Summer Meeting.  (See the meeting program for the meeting location).
+ 
+ 
+The subject to Getting the Design Team to Use Energy Simulation from the start of Design Process will be our main topic of discussion.  The purpose of this will be to continue this exchange of ideas and from there to create actionable items which will then be implemented.  
+ 
+In some ways we've already started approaching this item.  At the Winter ASHRAE Meeting in Chicago, January 2003,  we presented a Seminar entitled "Getting Started with Building Simulation"  which was chaired by Chip Barnaby.  The four talks were an excellent presentation of "what is energy simulation", "why would I want to do it" and "what's available for doing it".  The third presentation - Allan Daly's presentation of "Using Building Simulation to Life-Cycle Cost Optimize HVAC System Design at UC Merced"  is a case study of project which actually did use simulation in the very early design stages.  Copies of the PowerPoints from each of these four presentations are available to download at the ASHRAE web site ( www.ashrae.org ).  From the homepage, click on "ASHRAE Activities", then Technical Committees, then TC 4.7, then Programs.  Scroll down about a third of the page to previously presented programs.  The seminar was one of the best attended TC 4.7 presentations in recent history (standing room only) which shows that a lot of interest is there, we just need to do a good job of tapping into it.  
+ 
+We welcome the opportunity to broaden the discussion and to broaden the participation.  ASHRAE, with its 55,000 world wide members,  Winter and Summer meetings with 2,500 to 3,500 technical program registrants, and over 160 local chapters,  can provide an effective venue for reaching the building design community.  Our successful "Getting Started with Building Simulation" seminar in Chicago and the ASHRAE Profession Development Session on Building Simulation which is now under development is only a start.  There is much, much more which could and should be done - and we welcome your ideas and involvement.
+ 
+Some of our previous work identified the need for a good basic treatise on what building simulation is, what programs are available, who to contact, etc.  As we research that subject, we were pleased to learn that some excellent sources already existed and/or were nearing completion.  Let me appraise you of them so those who are interested can get a good overview of what is currently available in the building simulation (not just HVAC) arena.  The Air-Conditioning and Refrigeration Technology Institute (the research arm of ARI) has available on its web site an report appropriately titled "State-of-the-Art Review, Whole-Building and Bulling Envelope Simulation and Design Tools"  It available at www.arti-21cr.org   There is also a companion report which focuses specifically on HVAC Component and System Simulation.   For specific cost and who to contact information on over 250 energy estimating programs, including most of the simulations DOE maintains a very comprehensive website at  <http://www.energytoolsdirectory.gov> www.energytoolsdirectory.gov 
+ 
+To help us plan a most productive session, I would appreciate your ideas on what you see as:
+ 
+    1.    The most important or critical items that we need to discuss and try to reach consensus in our meeting at Kansas City.
+ 
+    2.    The most important actions or programs our committee should be implementing in the short term (6 to 18 months)
+ 
+    3.    The most important actions or programs our committee should get ASHRAE to implement in the longer term (1 to 5 years)  This could well include research projects.
+ 
+ 
+For those who will be unable to join us in Kansas City, I invite you to share your ideas via the BLDG-SIM at gard.com list server.  I would ask that you post those ideas by June 20th as my travel schedule will make it difficult for me to print out material to distribute at the Kansas City meeting after that date.
+ 
+ 
+   
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030619/21c6747f/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Energy-Programs.doc
+Type: application/msword
+Size: 46080 bytes
+Desc: Energy-Programs.doc
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030619/21c6747f/attachment.doc>
+
+From rkstrand at uiuc.edu  Thu Jun 19 12:07:04 2003
+From: rkstrand at uiuc.edu (Rick Strand)
+Date: Thu, 19 Jun 2003 14:07:04 -0500
+Subject: [BLDG-SIM] Reminder: IBPSA-USA Kansas City Meeting (Second Announcement)
+Message-ID: <MDAEMON-F200306191404.AA0438906pd80000334012@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030619/acf611bd/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 10797743.jpg
+Type: image/jpeg
+Size: 28112 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030619/acf611bd/attachment.jpg>
+
+From hamnmegs at ozemail.com.au  Thu Jun 19 09:03:24 2003
+From: hamnmegs at ozemail.com.au (Graham & Megan)
+Date: Fri, 20 Jun 2003 02:03:24 +1000
+Subject: [BLDG-SIM] EQuest - Induction Unit Heating Contro
+Message-ID: <MDAEMON-F200306191058.AA5853828pd80000333862@gard.com>
+
+This module has never worked ideally in any version of DOE-2.  It is quite common in Australia to have 2-pipe cooling only induction units (active or passive chilled beams) in the zone with ventilation, dehumidification, and heating provided from the primary air system.
+
+In 2.1E you could manually zero out the zone heating capacities and use an outdoor-reset schedule to control SAT for heating and rely on the zone units for space cooling.
+
+I have fiddled around with the IU system all day in EQuest v3.24 and I am no closer to a solution.  It will not allow HEAT-CONTROL = RESET and COOL-CONTROL=RESET does not produce the desired effect.  Furthermore it is allowing zone heating when both my MAX-HEAT-RATE and HEATING-CAPACITY are set to a very small value (-1BTU/hr) ...
+
+Has anyone else had similar difficulties or successes with this system?  I could use 4-pipe fan coils and set up a dummy system passing outdoor air using OA-FROM-SYSTEM, but getting the dehumidifcation load is tricky.
+
+Regards,
+Graham
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030620/36856799/attachment.htm>
+
+From werner at cstb.fr  Thu Jun 19 05:33:37 2003
+From: werner at cstb.fr (Werner Keilholz)
+Date: Thu, 19 Jun 2003 14:33:37 +0200
+Subject: [BLDG-SIM] IISiBat  14.2, proforma file transfer
+References: <MDAEMON-F200306190549.AA4926687pd80000484013@gard.com>
+Message-ID: <MDAEMON-F200306190727.AA2715609pd80000333665@gard.com>
+
+Dear Ajmi,
+
+You're lucky, I just found an old TRNSYS 14.2 manual (under 1cm
+of dust) in my office.
+
+Memories of my youth ... ;-)
+
+There's an export tool in the library manager of IISiBat 2 (an icon with
+an arrow pointing to a diskette, 'Export library tool', select a library icon
+
+first). This allows you to create .ia files (IISiBat Archive). On the other
+machine you can then load the PROFORMAs back into the
+environment with the icon that has the arrow pointing the other way.
+Page 24 of the IISiBat 2 manual.
+
+But what I'd realy recommend is to install TRNSYS 15.3 and use
+File / Import IISiBat 2 Model to directly import the PROFORMA's
+obj file.
+
+Especially if your new PC runs Windows 2000, XP or ME : IISiBat 2
+was only supported until NT (in the year 2000).
+
+Werner
+
+"F.ajmi" wrote:
+
+> Dear Trnsys users,
+> a model was created in IIsibat 14.2.  using proforma file which contains
+> all data inputs, outputs, parameters,..etc. which is located  in the heat
+> exchangers libraries. The  way I'm using to tansfer this model (proforma
+> file) to a new PC is to rewrite again a new proforma file,
+> Is there a simpler  way to transfer this proforma file of a model to a
+> different PC instead of rewriting it again,
+> Thanks
+> Ajmi
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+--
+  /    \____ Werner Keilholz, Software Development Group Leader
+  \____/     CSTB Sophia Antipolis, SAIL
+  /    \____ s-mail: BP 209, 06904 SOPHIA ANTIPOLIS,  F R A N C E
+  \____/     phone: +33 (0)4 93 95 67 00 -- fax: +33 (0)4 93 95 67 33
+  /    \____ Mailto:werner at cstb.fr
+  \____/     http://evl.cstb.fr/english/team/WK/werner.htm
+
+  "If we knew what it was we were doing, it would not be called
+   research, would it?"- Albert Einstein
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From F.Al-ajmi at lboro.ac.uk  Thu Jun 19 03:53:42 2003
+From: F.Al-ajmi at lboro.ac.uk (F.ajmi)
+Date: Thu, 19 Jun 2003 11:53:42 +0100
+Subject: [BLDG-SIM] IISiBat  14.2, proforma file transfer
+Message-ID: <MDAEMON-F200306190549.AA4914187pd80000333604@gard.com>
+
+Dear Trnsys users,
+a model was created in IIsibat 14.2.  using proforma file which contains 
+all data inputs, outputs, parameters,..etc. which is located  in the heat 
+exchangers libraries. The  way I'm using to tansfer this model (proforma 
+file) to a new PC is to rewrite again a new proforma file,
+Is there a simpler  way to transfer this proforma file of a model to a 
+different PC instead of rewriting it again,
+Thanks
+Ajmi  
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From krishnan.gowri at pnl.gov  Wed Jun 18 14:41:10 2003
+From: krishnan.gowri at pnl.gov (Gowri, Krishnan)
+Date: Wed, 18 Jun 2003 14:41:10 -0700
+Subject: [BLDG-SIM] Web-based Code Compliance Tool
+Message-ID: <MDAEMON-F200306181636.AA3638703pd80000333208@gard.com>
+
+PNNL has released a web-based residential energy code compliance tool
+REScheck-Web which you can access using the link below:
+
+http://bldgcode.pnl.gov/REScheckWeb/
+
+This tool does not require any installation and performs just like the
+REScheck desktop version (formerly known as MECcheck).  If you have any
+comments, suggestions or questions regarding this tool, please let us
+know.
+
+Thanks,
+
+- krishnan
+-------------------------------------------------------------
+Krishnan Gowri, Ph.D.
+Senior Research Engineer
+Pacific Northwest  National Laboratories, MS K5-16
+Richland, WA 99352
+
+Tel: (509) 372-4476 / Fax: (509) 375-3614
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030618/bf67ce64/attachment.htm>
+
+From MMottill at NRCan.gc.ca  Wed Jun 18 12:00:59 2003
+From: MMottill at NRCan.gc.ca (Mottillo, Maria)
+Date: Wed, 18 Jun 2003 15:00:59 -0400
+Subject: [BLDG-SIM] hot water reset
+Message-ID: <MDAEMON-F200306181356.AA5630187pd80000333028@gard.com>
+
+Hello.
+
+I would like to model temperature reset on on a hot water loop based on
+outdoor temperature, using DOE-2.1E, v133. The documentation states that
+this is done by setting the PLANT-ASSIGNMENT command HW-SUPPLY-RESET =
+LOAD-RESET however this does not seem to make any difference in the energy
+consumption results. Any information on whether other keywords need to be
+specified would be appreciated, as would any information on the assumptions
+in the model (i.e. for what outdoor temperatures is the loop temperature
+reset?).
+
+Thanks,
+Maria
+
+Maria Mottillo
+
+Project Leader, Building Energy Simulation Team
+CANMET Energy Technology Centre - Ottawa
+Natural Resources Canada, Government of Canada
+580 Booth St., Ottawa, Ontario K1A 0E4
+
+Chef de projet, Groupe de simulation ?nerg?tique des b?timents
+Centre de technologie de l'?nergie de CANMET - Ottawa
+Ressources naturelles Canada, Gouvernement du Canada
+580 Booth St. (Ottawa) Ontario K1A 0E4
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mwilsonbc at yahoo.com  Fri Jun 13 18:34:34 2003
+From: mwilsonbc at yahoo.com (Michael Wilson)
+Date: Fri, 13 Jun 2003 18:34:34 -0700 (PDT)
+Subject: [BLDG-SIM] Bulilding Simulation Software for Pools
+In-Reply-To: <MDAEMON-F200306130754.AA5441671pd80000475806@gard.com>
+Message-ID: <MDAEMON-F200306132029.AA2959343pd80000330190@gard.com>
+
+If you want to do this in Doe2, I've modelled it using
+functions. The EnergySmart Pools software has an
+appendix that lists the assumptions and calculations
+they used. I used these to write the functions in
+Doe2. It was a bit of work, but once it's done you
+have a lot of flexibility, and I think better
+accuracy, particularly if you're using outside air for
+your dehumidification.
+
+
+--- David Stewart <davecstewart at ns.sympatico.ca>
+wrote:
+> Dear Group:
+> 
+> I am looking at a 50.000 indoor pool and my question
+> is this:
+> Would Visual DOE be the preferred tool to simulate
+> the building.  It will have a dehumidifcation heat
+> pump for the pool and a combination of distributed
+> heat pumps and radiant floor water to water heat
+> pumps fed by an open loop system. 
+> 
+> Thanks
+> 
+> Dave Stewart
+> > BEGIN:VCARD
+> VERSION:2.1
+> N:Stewart MS P. Eng.;David;C
+> FN:David C Stewart MS P. Eng.
+> ORG:David C Stewart & Associates Inc.
+> TITLE:President
+> TEL;WORK;VOICE:902 462 8111
+> TEL;WORK;FAX:902 435 6646
+> ADR;WORK:;;16 Shawinigan Road;Dartmouth;NS;B2W
+> 3A3;Canada
+> LABEL;WORK;ENCODING=QUOTED-PRINTABLE:16 Shawinigan
+> Road=0D=0ADartmouth, NS B2W 3A3=0D=0ACanada
+> ADR;HOME:;;16 Shawinigan Road;Dartmouth;NS;B2W
+> 3A3;Canada
+> LABEL;HOME;ENCODING=QUOTED-PRINTABLE:16 Shawinigan
+> Road=0D=0ADartmouth, NS B2W 3A3=0D=0ACanada
+> X-WAB-GENDER:2
+> EMAIL;PREF;INTERNET:davecstewart at ns.sympatico.ca
+> REV:20030613T125824Z
+> END:VCARD
+> 
+> 
+>
+=====================================================You
+> received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+=====
+Michael Wilson
+455 Elphinstone Ave.
+Gibsons, BC, V0N 1V1
+604-886-9864 phone
+604-676-2604 fax
+
+__________________________________
+Do you Yahoo!?
+Yahoo! Calendar - Free online calendar with sync to Outlook(TM).
+http://calendar.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From pbailey at geopraxis.com  Fri Jun 13 14:57:07 2003
+From: pbailey at geopraxis.com (Pat Bailey)
+Date: Fri, 13 Jun 2003 14:57:07 -0700
+Subject: [BLDG-SIM] Energy Engineer/Analyst Job Opening
+Message-ID: <MDAEMON-F200306131654.AA5414625pd80000330072@gard.com>
+
+All,
+
+We're looking to fill a position in the next month.  Please feel free to
+share this with anyone who fits the bill.
+
+Thanks,
+
+Pat
+
+
+Pat Bailey, P.E.
+Principal
+GeoPraxis, Inc
+205 Keller Street
+Petaluma, CA 94952
+
+www.geopraxis.com
+707.766.7010 (v)
+707.766.7014 (f)
+---------------------------------------------------------------------
+Immediate Job Opening - Energy Engineer/Analyst
+
+GeoPraxis, a fast moving software development and consulting firm that
+specializes in energy and resource efficiency solutions, is looking for a
+full-time energy engineer/analyst. GeoPraxis is currently improving the
+design of new and existing buildings, developing the next generation of
+powerful and easy to use Internet-based building energy and resource
+analysis tools; and bringing information on resource and energy efficiency
+to the masses.
+
+
+Responsibilities:
+Work with Senior Engineers to carry out simulation and database analyses,
+write project summaries and assist programmers in developing software
+applications that minimize energy and resource use in buildings and a
+variety of industries. Periodically, you may conduct energy and industrial
+field audits and work as a member of a team improving the energy and
+resource efficiency of new and existing commercial and residential projects.
+You will analyze building and industrial energy and resource use.
+
+Minimum Requirements:
+Engineering or energy related building science degree (BSME preferred), one
+or more years of experience with DOE-2, Equest, EnergyPro or a similar
+energy simulation application, experience in energy codes, energy audits or
+mechanical design.  Experience using spreadsheet and database tools,
+excellent written and verbal communication skills.
+
+Desired Skills:
+Experience or training with California's Title 24 energy code and HVAC
+design are a plus. Experience developing detailed DOE-2, EnergyPlus or other
+simulation analyses are an added bonus.
+
+Position Location: Petaluma, CA 45 minutes north of San Francisco, twenty
+minutes from the coast, and twenty minutes from the wine country.
+
+Email your resume along with your salary requirements, in html or MS Word
+attachment with "Engineer" in the subject line to pbailey at geopraxis.com.
+
+GeoPraxis is an equal opportunity employer with excellent benefits, a
+collegial work environment and a growing reputation for implementing cutting
+edge ideas.  For more information on our firm, visit our website at
+www.geopraxis.com.
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030613/27cf5e6e/attachment.htm>
+
+From kummert at engr.wisc.edu  Fri Jun 13 09:44:12 2003
+From: kummert at engr.wisc.edu (=?ISO-8859-1?Q?Micha=EBl_Kummert?=)
+Date: Fri, 13 Jun 2003 11:44:12 -0500
+Subject: [BLDG-SIM] Bulilding Simulation Software for Pools
+In-Reply-To: <MDAEMON-F200306130754.AA5437921pd80000475745@gard.com>
+References: <MDAEMON-F200306130754.AA5437921pd80000475745@gard.com>
+Message-ID: <MDAEMON-F200306131139.AA3916578pd80000329817@gard.com>
+
+An indoor pool model is available for TRNSYS 15. You can have a look at 
+the pdf manual to decide if the level of detail  is suitable for you:
+
+http://sel.me.wisc.edu/trnsys/components/type144-manual.pdf
+
+Obviously,  making a TRNSYS simulation with a building, a swimming pool 
+and the HVAC plant implies a significant development effort but you will 
+have the flexibility that goes with it.
+Available TRNSYS components are listed on our website:
+
+http://sel.me.wisc.edu/trnsys/   (go to "Component models" and "TRNLIB").
+
+
+If you have trouble to locate the swimming pool model among the hundreds 
+of components, it is in "Component Models", then "non-standard 
+components for sale", under  "Transsolar".
+
+Regards,
+
+Micha?l Kummert
+
+
+>  
+> I am looking at a 50.000 indoor pool and my question is this:
+> Would Visual DOE be the preferred tool to simulate the building.  It 
+> will have a dehumidifcation heat pump for the pool and a combination 
+> of distributed heat pumps and radiant floor water to water heat pumps 
+> fed by an open loop system.
+>  
+> Thanks
+>  
+> Dave Stewart
+>  
+
+
+-- 
+_________________________________________________
+
+Micha?l Kummert  -  TRNSYS Coordinator
+
+Solar Energy Laboratory - University of Wisconsin-Madison
+1303 Engr Res Bldg, 1500 Engineering Drive
+Madison, WI 53706
+
+Tel: +1 (608) 263-1589
+Fax: +1 (608) 262-8464
+E-mail: kummert at engr.wisc.edu
+
+SEL Web Site: http://sel.me.wisc.edu
+TRNSYS Web Site: http://sel.me.wisc.edu/trnsys
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From asl1 at psu.edu  Fri Jun 13 08:52:59 2003
+From: asl1 at psu.edu (Andrew S. LAU)
+Date: Fri, 13 Jun 2003 11:52:59 -0400
+Subject: [BLDG-SIM] pool modeling
+Message-ID: <MDAEMON-F200306131048.AA4831125pd80000329765@gard.com>
+
+I might as well weigh in on this too.  My experience has been that there is 
+no readily available model that handles the problem of natatorium 
+simulation well.  It's possible that one could use TRNSYS to do this but 
+I'm pretty sure that a major investment of development time would be 
+needed.  I am responsible for developing a custom spreadsheet based tool 
+(along with Marcus Sheffer) that can handle most of the pool HVAC equipment 
+on the market.  It is based on the Modified Bin Method and contains 
+somewhat simplified models of the building and HVAC systems, but does 
+account for their interaction and the large latent loads.
+
+Please contact me if you're interested.
+
+Andrew S. Lau, P.E.
+7Group, www.sevengroup.com
+1007 Bayberry Drive
+State College, PA  16801
+814-238-4273,   FAX 814-863-7229
+andylau at psu.edu
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From werner at cstb.fr  Fri Jun 13 07:33:06 2003
+From: werner at cstb.fr (Werner Keilholz)
+Date: Fri, 13 Jun 2003 16:33:06 +0200
+Subject: [BLDG-SIM] Bulilding Simulation Software for Pools
+References: <MDAEMON-F200306130754.AA5448843pd80000475937@gard.com>
+Message-ID: <MDAEMON-F200306130926.AA2657765pd80000329656@gard.com>
+
+"Prefered tool" depends on who you ask, of course... ;-)
+
+I know that there's a sample TRNSED application for swimming pools
+made with TRNSYS 14.2 :
+
+Swimming Pool Air Conditioning Simulation This demonstration models the
+use of heat rejected by an air conditioner as a
+     source for heating a swimming pool.
+
+I reckon if TRNSYS 14 was able to do it 5 years ago, TRNSYS 15
+should not have forgotten...
+
+Werner
+
+David Stewart wrote:
+
+> Dear Group: I am looking at a 50.000 indoor pool and my question is
+> this:Would Visual DOE be the preferred tool to simulate the building.
+> It will have a dehumidifcation heat pump for the pool and a
+> combination of distributed heat pumps and radiant floor water to water
+> heat pumps fed by an open loop system. Thanks Dave Stewart
+
+--
+  /    \____ Werner Keilholz, Software Development Group Leader
+  \____/     CSTB Sophia Antipolis, SAIL
+  /    \____ s-mail: BP 209, 06904 SOPHIA ANTIPOLIS,  F R A N C E
+  \____/     phone: +33 (0)4 93 95 67 00 -- fax: +33 (0)4 93 95 67 33
+  /    \____ Mailto:werner at cstb.fr
+  \____/     http://evl.cstb.fr/english/team/WK/werner.htm
+
+  "If we knew what it was we were doing, it would not be called
+   research, would it?"- Albert Einstein
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030613/21d077d3/attachment.htm>
+
+From markzoeteman at core.com  Fri Jun 13 07:14:46 2003
+From: markzoeteman at core.com (Mark Zoeteman)
+Date: Fri, 13 Jun 2003 10:14:46 -0400
+Subject: [BLDG-SIM] Bulilding Simulation Software for Pools
+In-Reply-To: <MDAEMON-F200306130836.AA3634703pd80000476364@gard.com>
+Message-ID: <MDAEMON-F200306130911.AA1124109pd80000329624@gard.com>
+
+In reference to the RSPEC software, we received the following
+information from our state energy office:
+1.	Program is designed to run on Windows 95 and doesn't operate on
+Windows 98 and above.
+2.	US DOE also has been unsure of its accuracy and currently
+doesn't support the program.
+ 
+Mark Zoeteman, P.E.
+Sustainable Engineering
+(616) 765-3500 
+ <mailto:markzoeteman at core.com> markzoeteman at core.com
+ 
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Marcus
+Sheffer
+Sent: Friday, June 13, 2003 9:41 AM
+To: BLDG-SIM at gard.com
+Cc: davecstewart at ns.sympatico.ca; asl1 at psu.edu
+Subject: [BLDG-SIM] Bulilding Simulation Software for Pools
+ 
+To my knowledge none of the typical energy simulation software can
+adequately simulate natatorium energy use.
+
+We have done energy simulation work for numerous natatoriums using
+custom software we have crated for this purpose.  Typically we have used
+it to analyze various HVAC options.  There is US DOE-funded software
+available free to analyze the use of pool covers and solar water heating
+- http://www.eere.energy.gov/rspec/software.
+<http://www.eere.energy.gov/rspec/software.html> html
+<http://www.eere.energy.gov/rspec/software.html> 
+
+To simulate the whole building we combine the results from our software
+with PowerDOE results for the remainder of the facility.
+
+At 09:58 AM 06/13/2003 -0300, you wrote:
+
+
+Dear Group:
+ 
+I am looking at a 50.000 indoor pool and my question is this:
+Would Visual DOE be the preferred tool to simulate the building.  It
+will have a dehumidifcation heat pump for the pool and a combination of
+distributed heat pumps and radiant floor water to water heat pumps fed
+by an open loop system. 
+ 
+Thanks
+ 
+Dave Stewart
+  
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030613/54c4adb9/attachment.htm>
+
+From jmaxwell at aspensys.com  Fri Jun 13 07:13:43 2003
+From: jmaxwell at aspensys.com (Jon Maxwell)
+Date: Fri, 13 Jun 2003 09:13:43 -0500
+Subject: [BLDG-SIM] Bulilding Simulation Software for Pools
+References: <MDAEMON-F200306130836.AA3630281pd80000476298@gard.com>
+Message-ID: <MDAEMON-F200306130913.AA1345921pd80000329632@gard.com>
+
+A practical tip for use of the Energy Smart Pools software:  It was created long ago, for Windows 3.1, and was not funded for updates on new operating systems. I think it is FoxPro-based.  I found that it works okay on Win 95 or Win 98 computers, but not Win NT or Win 2000, so if you are having trouble running the program, try loading it on your most obsolete computer.
+
+Also, a building simulation tool called MarketManager includes a module for pool heating.  You may want to experiment with their free demo.  http://www.abraxasenergy.com/marketmanager.php.
+
+Jon Maxwell
+Aspen Systems
+
+  ----- Original Message ----- 
+  From: Marcus Sheffer 
+  To: BLDG-SIM at gard.com 
+  Cc: davecstewart at ns.sympatico.ca ; asl1 at psu.edu 
+  Sent: Friday, June 13, 2003 8:40 AM
+  Subject: [BLDG-SIM] Bulilding Simulation Software for Pools
+
+
+  To my knowledge none of the typical energy simulation software can adequately simulate natatorium energy use.
+
+  We have done energy simulation work for numerous natatoriums using custom software we have crated for this purpose.  Typically we have used it to analyze various HVAC options.  There is US DOE-funded software available free to analyze the use of pool covers and solar water heating - http://www.eere.energy.gov/rspec/software.html
+
+  To simulate the whole building we combine the results from our software with PowerDOE results for the remainder of the facility.
+
+  At 09:58 AM 06/13/2003 -0300, you wrote:
+
+    Dear Group:
+     
+    I am looking at a 50.000 indoor pool and my question is this:
+    Would Visual DOE be the preferred tool to simulate the building.  It will have a dehumidifcation heat pump for the pool and a combination of distributed heat pumps and radiant floor water to water heat pumps fed by an open loop system. 
+     
+    Thanks
+     
+    Dave Stewart
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030613/3a899459/attachment.htm>
+
+From jhaberl at esl.tamu.edu  Fri Jun 13 06:44:07 2003
+From: jhaberl at esl.tamu.edu (Jeff Haberl)
+Date: Fri, 13 Jun 2003 08:44:07 -0500
+Subject: [BLDG-SIM] Bulilding Simulation Software for Pools
+Message-ID: <MDAEMON-F200306130839.AA3941265pd80000329567@gard.com>
+
+Hello:
+ 
+There's a 1985 ASHRAE paper on using DOE-2 to do pool modeling...or at least
+attempts to do so, entitled: Haberl, J., Claridge, D. 1985. "Retrofit Energy
+Studies of a Recreation Center",  ASHRAE Transactions-Research, Volume 91,
+Part 2, pp.  1421 - 1433, (June). In this paper we forced DOE-2 to do the
+cooling
+and dehumidification, which I is probably not the best tool for doing this
+since DOE-2 does not directly control humidity. You should also get the
+definitive work by Francis DeWinter, Atlas Corp., written about the same
+time on pool heat loss/gain equations and then use something like TRNSYS to
+do your own modeling. I'm sure there may already be some good modeling for
+doing the pool modeling, and a literature search of the obvious places would
+reveal what others have done.  However, combined pool modeling, with
+radiative, mass exchange, convection, and system interactions would be a
+complex exercise that needs an industrial-strength simulation. Hence the
+need for a general purpose solver like TRNSYS or EES, perhaps coupled with a
+CFD model that has a radiative network and all the necessary environmental
+models (i.e., solar, wind, sky loss, ground coupling, etc.).
+ 
+Jeff
+
+
+8=!   8=)  :=)   8=)   ;=)   8=)   8=(   8=)   8=()   8=)   8=|   8=)   :=')
+8=)   8=)   8=? 
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu 
+Associate Professor....................................Office Ph:
+979-845-6507 
+Department of Architecture...........................Lab Ph: 979-845-6065 
+Energy Systems Laboratory...........................FAX: 979-862-2457 
+Texas A&M University..................................77843-3581 
+College Station, Texas, USA...........................URL: www-esl.tamu.edu 
+
+8=/   8=)  :=)   8=)  ;=)   8=)   8=()   8=)   :=)   8=)   8=!   8=)   8=?
+8=)   8=)   8=0   
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of David Stewart
+Sent: Friday, June 13, 2003 7:58 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Bulilding Simulation Software for Pools
+
+
+Dear Group:
+ 
+I am looking at a 50.000 indoor pool and my question is this:
+Would Visual DOE be the preferred tool to simulate the building.  It will
+have a dehumidifcation heat pump for the pool and a combination of
+distributed heat pumps and radiant floor water to water heat pumps fed by an
+open loop system. 
+ 
+Thanks
+ 
+Dave Stewart
+ 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030613/fdd70e85/attachment.htm>
+
+From sheffer at paonline.com  Fri Jun 13 06:40:50 2003
+From: sheffer at paonline.com (Marcus Sheffer)
+Date: Fri, 13 Jun 2003 09:40:50 -0400
+Subject: [BLDG-SIM] Bulilding Simulation Software for Pools
+In-Reply-To: <MDAEMON-F200306130754.AA5445203pd80000475871@gard.com>
+Message-ID: <MDAEMON-F200306130836.AA3629781pd80000329561@gard.com>
+
+To my knowledge none of the typical energy simulation software can 
+adequately simulate natatorium energy use.
+
+We have done energy simulation work for numerous natatoriums using custom 
+software we have crated for this purpose.  Typically we have used it to 
+analyze various HVAC options.  There is US DOE-funded software available 
+free to analyze the use of pool covers and solar water heating - 
+http://www.eere.energy.gov/rspec/software.html
+
+To simulate the whole building we combine the results from our software 
+with PowerDOE results for the remainder of the facility.
+
+At 09:58 AM 06/13/2003 -0300, you wrote:
+>Dear Group:
+>
+>I am looking at a 50.000 indoor pool and my question is this:
+>Would Visual DOE be the preferred tool to simulate the building.  It will 
+>have a dehumidifcation heat pump for the pool and a combination of 
+>distributed heat pumps and radiant floor water to water heat pumps fed by 
+>an open loop system.
+>
+>Thanks
+>
+>Dave Stewart
+>
+
+Marcus B. Sheffer                          energy & environmental consulting
+Energy Opportunities                     717-292-2636
+1200 E Camping Area Road            Fax: 717-292-0585
+Wellsville, PA USA 17365-9783        sheffer at sevengroup.com
+a Seven Group member company    www.sevengroup.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030613/85fc9349/attachment.htm>
+
+From davecstewart at ns.sympatico.ca  Fri Jun 13 05:58:24 2003
+From: davecstewart at ns.sympatico.ca (David Stewart)
+Date: Fri, 13 Jun 2003 09:58:24 -0300
+Subject: [BLDG-SIM] Bulilding Simulation Software for Pools
+Message-ID: <MDAEMON-F200306130754.AA5435312pd80000329517@gard.com>
+
+Dear Group:
+
+I am looking at a 50.000 indoor pool and my question is this:
+Would Visual DOE be the preferred tool to simulate the building.  It will have a dehumidifcation heat pump for the pool and a combination of distributed heat pumps and radiant floor water to water heat pumps fed by an open loop system. 
+
+Thanks
+
+Dave Stewart
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030613/8d0f3ab7/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: David C Stewart MS P. Eng..vcf
+Type: text/x-vcard
+Size: 830 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030613/8d0f3ab7/attachment.vcf>
+
+From monafanny at yahoo.com  Fri Jun 13 03:02:44 2003
+From: monafanny at yahoo.com (Mona Fanni)
+Date: Fri, 13 Jun 2003 03:02:44 -0700 (PDT)
+Subject: [BLDG-SIM] Invitation to Participate - Getting the Design Tea m to Use Energy Simulation from the Beginning
+In-Reply-To: <MDAEMON-F200306101742.AA425962pd80000474183@gard.com>
+Message-ID: <MDAEMON-F200306130458.AA5813953pd80000329422@gard.com>
+
+Dear Prof.Eolsen
+Dear BLDG-SIM GRoup
+Greetings
+I agree with your openions; Prof. DR. Eoslen by
+hundred per cent,and put them as my openion and my
+reply  for the "BLDG-SIM" gard qeuestions with my some
+illustrations . So,it is the time to put the things in
+their right places . The demostration is very
+essential to narrow the gab between the researches and
+the practise as announced before last Chicago meeting
+;Or, it is the actual process of R&D in the field of
+Building and Energy or Building and Environments .
+So,the demonstration beside the research project for
+integration and for measurring or understanding on the
+design and structure elements' activations with the
+physical parameters as an analytical and experimental
+servey .So, I with Prof. DR. Ahmed shouman ;ENERGy
+SYSTEMS in NEW MExico in USA ,have a complete
+integration design and we could do the demonstration
+as a project in both USA and in Egypt, as Cairo lies
+on 30 Lat and also Las CRuce in USA and this practise
+in these two loctions will showed the differences and
+requirements of applications and the handling view due
+to that at these different cities,and enhances the
+openion giving by some -as Mr. J. Deringer- for the
+requirements in developing countries - through the
+discussion about a project given by USA Assoisated
+engineering for TC2.8 - as I remembered- So, If we
+could funded to carry this demonstration as an
+application and surveying project of researches to
+stand on the exact needs of all works and their
+related connections in the developing building field.
+if there are a proplem in getting  land to build these
+deonstrations , there are land could introduce for
+that in Cairo -egypt and other could introduce in Las
+cruce in USA  by PRof. DR. Ahmed Shouman ; that is to
+enable the valuable works lines in their correct ways.
+Thanks alot for all
+Dr.Mona Ahmed Mohaned Fanny
+Building and Environments
+Cairo-Egypt
+FAx; 202 3351564 Tel{ 202 3356853-3356722 
+       
+--- "Olsen, Erik" <eolsen at owpp.com> wrote:
+> I am unable to make the Kansas City meeting, so I am
+> emailing my response as
+> requested.  
+> 
+>     1.    The most important or critical items that
+> we need to discuss and
+> try to reach consensus in our meeting at Kansas
+> City.
+> 
+> I have two points to discuss:
+> 
+> a) I hope that the we can avoid using the term
+> "Building Simulation" as a
+> substitute for "Energy Simulation." I believe it is
+> important embrace the
+> larger class of building simulation tools (CFD,
+> network airflow models,
+> daylighting analysis, etc.), as mentioned at the
+> beginning at some of the
+> presentations from the January ASHRAE meeting.
+> Although I understand the
+> committee is termed "Energy Calculations," if the
+> final goal is to see these
+> tools used in practice, they cannot be approached in
+> isolation. Although
+> energy simulation is perhaps the most commonly used
+> tool, and is clearly
+> very powerful, if we view the project form a
+> designer's perspective, the
+> question is "What tools can I use to improve my
+> design?" (and be sure it
+> will perform as intended). Sometimes energy
+> simulation provides the answer,
+> sometimes another type of simulation may provide the
+> answer.
+> 
+> b) My impression is that there is currently much
+> focus on the technical
+> barriers to integration in the design process,
+> especially improving
+> interoperability and interfaces.  Although these are
+> important and worthy
+> efforts, perhaps a large problem is process barrier.
+>  I sense that most of
+> the architectural design community won't integrate
+> these tools into the
+> early design process until they understand what they
+> can really do, and
+> especially that it makes designs that wouldn't have
+> been possible without
+> out them possible.  If you're just talking about
+> optimizing a few
+> architectural details, or the building orientation,
+> or the mechanical
+> systems, you may have a hard time finding an
+> architect that is interested,
+> especially in the early design stages (even if these
+> are all great things to
+> do).  However, if you can explore a design concept
+> that you couldn't before,
+> because you can demonstrate that it actually works,
+> then the story may be
+> different. If we can demonstrate the power of
+> building simulation tools to
+> allow truly innovative designs, then perhaps demand
+> will increase. If the
+> demand exists, perhaps the technical problems
+> mentioned above can be solved
+> more quickly.
+> 
+>     3.    The most important actions or programs our
+> committee should get
+> ASHRAE to implement in the longer term (1 to 5
+> years)  This could well
+> include research projects.
+> 
+> OK, so what do you do about it? Well I have one
+> concept that I will throw
+> out, which may not fall into the normal ASHRAE
+> funding pot, but I want to at
+> least share the idea. This is what you might call a
+> 'Modeler in Residence'
+> program (thanks to Mike Witte for coining the term).
+> In order to demonstrate
+> what can be done, you provide funding for someone to
+> work in-house at an
+> architecture or architecture/engineering firm. The
+> Modeler in Residence
+> would identify opportunities within existing
+> projects to apply building
+> simulation tools, essentially working as an
+> externally funded member of the
+> design team. Hopefully most of the work performed
+> makes an actual impact on
+> the design, but even if not, the goal is to
+> demonstrate this process and the
+> its product to the design team (and the client).
+> 
+> These are my thought on this issue - I don't claim
+> to know all the issues
+> involved, or have all the answers, but I hope that
+> this provides valuable
+> input for further discussion.
+> 
+> Erik Olsen
+> OWP/P Engineers
+> HVAC / Energy Consulting
+> 111 West Washington Street, Suite 2100
+> Chicago, Illinois 60602-2714
+> 312.960.8313 Direct
+> 312.827.8313 Fax
+> eolsen at owpp.com
+>  
+> 
+> 
+>    
+> 
+>
+======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+
+__________________________________
+Do you Yahoo!?
+Yahoo! Calendar - Free online calendar with sync to Outlook(TM).
+http://calendar.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From eolsen at owpp.com  Tue Jun 10 15:47:05 2003
+From: eolsen at owpp.com (Olsen, Erik)
+Date: Tue, 10 Jun 2003 17:47:05 -0500
+Subject: [BLDG-SIM] Invitation to Participate - Getting the Design Tea
+	m to Use Energy Simulation from the Beginning
+Message-ID: <MDAEMON-F200306101742.AA425415pd80000327275@gard.com>
+
+I am unable to make the Kansas City meeting, so I am emailing my response as
+requested.  
+
+    1.    The most important or critical items that we need to discuss and
+try to reach consensus in our meeting at Kansas City.
+
+I have two points to discuss:
+
+a) I hope that the we can avoid using the term "Building Simulation" as a
+substitute for "Energy Simulation." I believe it is important embrace the
+larger class of building simulation tools (CFD, network airflow models,
+daylighting analysis, etc.), as mentioned at the beginning at some of the
+presentations from the January ASHRAE meeting. Although I understand the
+committee is termed "Energy Calculations," if the final goal is to see these
+tools used in practice, they cannot be approached in isolation. Although
+energy simulation is perhaps the most commonly used tool, and is clearly
+very powerful, if we view the project form a designer's perspective, the
+question is "What tools can I use to improve my design?" (and be sure it
+will perform as intended). Sometimes energy simulation provides the answer,
+sometimes another type of simulation may provide the answer.
+
+b) My impression is that there is currently much focus on the technical
+barriers to integration in the design process, especially improving
+interoperability and interfaces.  Although these are important and worthy
+efforts, perhaps a large problem is process barrier.  I sense that most of
+the architectural design community won't integrate these tools into the
+early design process until they understand what they can really do, and
+especially that it makes designs that wouldn't have been possible without
+out them possible.  If you're just talking about optimizing a few
+architectural details, or the building orientation, or the mechanical
+systems, you may have a hard time finding an architect that is interested,
+especially in the early design stages (even if these are all great things to
+do).  However, if you can explore a design concept that you couldn't before,
+because you can demonstrate that it actually works, then the story may be
+different. If we can demonstrate the power of building simulation tools to
+allow truly innovative designs, then perhaps demand will increase. If the
+demand exists, perhaps the technical problems mentioned above can be solved
+more quickly.
+
+    3.    The most important actions or programs our committee should get
+ASHRAE to implement in the longer term (1 to 5 years)  This could well
+include research projects.
+
+OK, so what do you do about it? Well I have one concept that I will throw
+out, which may not fall into the normal ASHRAE funding pot, but I want to at
+least share the idea. This is what you might call a 'Modeler in Residence'
+program (thanks to Mike Witte for coining the term). In order to demonstrate
+what can be done, you provide funding for someone to work in-house at an
+architecture or architecture/engineering firm. The Modeler in Residence
+would identify opportunities within existing projects to apply building
+simulation tools, essentially working as an externally funded member of the
+design team. Hopefully most of the work performed makes an actual impact on
+the design, but even if not, the goal is to demonstrate this process and the
+its product to the design team (and the client).
+
+These are my thought on this issue - I don't claim to know all the issues
+involved, or have all the answers, but I hope that this provides valuable
+input for further discussion.
+
+Erik Olsen
+OWP/P Engineers
+HVAC / Energy Consulting
+111 West Washington Street, Suite 2100
+Chicago, Illinois 60602-2714
+312.960.8313 Direct
+312.827.8313 Fax
+eolsen at owpp.com
+ 
+
+
+   
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From wmclaughlin at dmiinc.com  Tue Jun  3 13:32:37 2003
+From: wmclaughlin at dmiinc.com (Wade McLaughlin)
+Date: Tue, 3 Jun 2003 16:32:37 -0400
+Subject: [BLDG-SIM] Another ASHRAE Energy Cost Budget Question
+Message-ID: <MDAEMON-F200306031529.AA2957109pd80000323251@gard.com>
+
+Thanks to all who responded to my last question.  I have another question related to the ASHRAE Energy Cost Budget method.
+
+In the notes following Table 11.4.3A in the Energy Cost Budget section of ASHRAE 90.1 (11-A in the User's Manual), note 6 states that "hot water supply temperature shall be modeled at 180 [degrees] F design supply temperature and 130 [degrees] F return temperature."  That's a hot water system DT of 50F!  When a DT of 20-30F is pretty standard, 50F seems awfully aggressive (and difficult to design).  Does anyone have any insight into what I'm missing here?
+
+Wade McLaughlin
+DMI
+450 Lexington St.
+Newton, MA  02466
+p 617-527-1525 x103
+f  617-527-6606
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030603/8ff75a9a/attachment.htm>
+
+From Christoph.Reinhart at nrc-cnrc.gc.ca  Tue Jun  3 10:59:19 2003
+From: Christoph.Reinhart at nrc-cnrc.gc.ca (Reinhart, Christoph)
+Date: Tue, 3 Jun 2003 13:59:19 -0400 
+Subject: [BLDG-SIM] Lightswitch Wizard: Daylighting Analysis Software for the Initial
+	 Design
+Message-ID: <MDAEMON-F200306031255.AA5512937pd80000323160@gard.com>
+
+ My apologies for any cross postings.<?xml:namespace prefix = o ns =
+"urn:schemas-microsoft-com:office:office" /> 
+
+ Dear colleagues,
+
+The National Research Council Canada and Natural Resources Canada have
+released an online RADIANCE-based daylighting analysis tool called the
+Lightswitch Wizard www.buildwiz.com <http://www.buildwiz.com> . 
+
+The tool has been developed to support daylighting-related design decisions
+in commercial buildings during an early design stage. It offers a
+comparative, reliable, and fast analysis of the amount of daylight available
+in peripheral private offices as well as the lighting energy performance of
+automated lighting controls (occupancy sensors, photocells) compared to
+standard on/off switches. Blinds are either manually or automatically
+controlled. 
+
+Simulation results are based on pre-calculated RADIANCE simulations which
+are coupled with an empirical model that mimics manual lighting and blind
+control in single offices. Further information is provided in the online
+technical background, and glossary sections.
+
+A simulation should take between 20 seconds and 3 minutes to run, assuming
+moderate traffic on the server and a fast internet connection. 
+
+Your comments/suggestions are appreciated. Greetings from Ottawa,
+
+Christoph 
+
+Christoph "Tito" Reinhart, Ph.D.              tel: (613) 993-9703 
+Research Officer                                      fax: (613) 954-3733 
+Institute for Research in Construction      e-mail:
+christoph.reinhart at nrc-cnrc.gc.ca 
+National Research Council Canada        1200 Montreal Road M-24, Ottawa 
+Ontario K1A 0R6 Canada 
+
+Daylighting Analysis Software: 
+The Lightswitch Wizard (initial design)   www.buildwiz.com
+<http://www.buildwiz.com/lightswitch/index.cfm>  
+DAYSIM (expert software)
+http://irc.nrc-cnrc.gc.ca/ie/light/daysim.html
+<http://irc.nrc-cnrc.gc.ca/ie/light/daysim.html>  
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030603/8f22ed38/attachment.htm>
+
+From kemerson2002 at yahoo.com  Mon Jun  2 16:03:27 2003
+From: kemerson2002 at yahoo.com (K Emerson)
+Date: Mon, 2 Jun 2003 16:03:27 -0700 (PDT)
+Subject: [BLDG-SIM] LEED / ASHRAE 90.1 Modeling Question
+In-Reply-To: <MDAEMON-F200306021141.AA4104656pd80000468911@gard.com>
+Message-ID: <MDAEMON-F200306021759.AA5909484pd80000322622@gard.com>
+
+A little off the direct question of this thread, but
+just a comment on what might be a difference in
+philosophy between minimum code compliance and LEED
+certification.  Question: would we want to permit a
+building owner to install single pane instead of
+double pane windows because he claims to have put
+demand ventilation controls in the building?  
+
+While not an issue for someone seeing by how much they
+can exceed the minimum, it is a question for the code
+end of the work.  
+
+Keith Emerson
+United Power
+303-637-1200
+
+--- Jason Glazer <jglazer at gard.com> wrote:
+> The Standard 90.1 committee has recognized the
+> difference 
+> between a pass/fail compliance and a savings
+> calculation 
+> and is in the process of developing informative
+> Appendix G 
+> "Performance Rating Method" just to cope with these
+> very 
+> issues. Appendix G is just about to finish up its
+> second 
+> public review and will be hopefully published within
+> a 
+> year.  One excerpt from the draft says:
+> 
+> "G3.11 Schedules. Schedules capable of modeling
+> hourly 
+> variations in occupancy, lighting power,
+> miscellaneous 
+> equipment power, thermostat set points, and HVAC
+> system 
+> operation shall be used. The schedules shall be
+> typical of 
+> the proposed building type as determined by the
+> designer 
+> and approved by the rating authority. Schedules
+> shall be 
+> identical for the proposed design and baseline
+> building
+> design.
+> 
+> "Exception to G3.11: Schedules may be allowed to
+> differ 
+> between proposed design and baseline building design
+> with 
+> approval of the rating authority when necessary to
+> model 
+> nonstandard efficiency measures. Measures that may
+> warrant 
+> use of different schedules include, but are not
+> limited to, 
+> lighting controls, natural ventilation, demand
+> control 
+> ventilation, and measures that reduce service water
+> heating
+> loads."
+> 
+> I know this does not help today but it will in the
+> future.
+> 
+> Jason
+> 
+> On 2 Jun 2003 at 10:35, Fred Porter wrote:
+> 
+> > Interesting thread. We should keep in mind the
+> difference
+> > between pass/fail "compliance" using the
+> performance ECB
+> > method in 90.1 (where only ASHRAE instructions
+> apply), and
+> > LEED energy savings calculations which use the
+> EMP, CIRs,
+> > and perhaps DCV as part of our little world of
+> alphabet
+> > soup. 
+> > 
+> > Marcus Sheffer wrote:
+> >             We will be submitting some shortly and
+> this is
+> >             how we have interpreted the CIRs.
+> Schedule
+> >             changes are acceptable is my
+> understanding. The
+> >             adopting authority in this case is the
+> USGBC and
+> >             they have stated that schedule changes
+> are
+> >             allowable for DCV. To be 100% sure,
+> develop your
+> >             methodology for calculating savings
+> and submit
+> >             it as a CIR.
+> > 
+> >             At 11:47 AM 06/02/2003 -0400, you
+> wrote:
+> >             Thanks for your reply.
+> > 
+> >             I re-read a CIR from 6/7/2001 (perhaps
+> the one
+> >             to which you are referring?) to be
+> sure that I
+> >             hadn't missed anything. In the Project
+> Manager's
+> >             Ruling, it says:"Under the ECM
+> [Exceptional
+> >             Calculation Method], schedule
+> variations may be
+> >             used as a basis of engineering
+> calculations for
+> >             discrete measures that are precluded
+> by the
+> >             reference standard or the LEEDTM EMP."
+> > 
+> >             However, the description of the ECM in
+> section
+> >             11.5 of the 90.1 manual states that
+> the
+> >             applicant must provide documentation
+> supporting
+> >             the accuracy of the exceptional method
+> and that
+> >             "This documentation must also show
+> that the
+> >             methods and its results: 1. Do not
+> change the
+> >             simulation program input parameters
+> that are
+> >             constrained by the ECM method or any
+> other rules
+> >             of the adopting authority. For
+> example, the
+> >             exceptional method may not violate the
+> rule
+> >             against using different operating
+> schedules for
+> >             proposed and budget runs."
+> > 
+> >             So it is still unclear to me whether
+> or not
+> >             schedule changes are acceptable. Have
+> you
+> >             successfully proposed schedule changes
+> such as
+> >             these through the ECM process? -----
+> Original
+> >             Message ----- From: Marcus Sheffer To:
+> >             wmclaughlin at dmiinc.com Cc:
+> BLDG-SIM at GARD.COM
+> >             Sent: Monday, June 02, 2003 11:04 AM
+> Subject:
+> >             Re: [BLDG-SIM] LEED / ASHRAE 90.1
+> Modeling
+> >             Question
+> > 
+> >             I'd suggest you review the CIRs more
+> closely.
+> >             DCV has been approved as an energy
+> saving
+> >             measure and you can modify schedules
+> to simulate
+> >             savings.You must follow the
+> Exceptional
+> >             Calculation Method (section 11.5) of
+> the Energy
+> >             Cost Budget Method of 90.1.
+> > 
+> >             At 10:14 AM 06/02/2003 -0400, you
+> wrote: 
+> >             Hi All,  
+> > 
+> >             We are currently working on our first
+> LEED
+> >             certification project. We use PowerDOE
+> as a
+> >             modeling tool, but these questions
+> should apply
+> >             to all modeling platforms. 
+> > 
+> >             The LEED process requires modeling
+> practices to
+> >             follow those outlined in the ASHRAE
+> 90.1
+> >             Standard User's Manual.The standard
+> does not
+> >             allow for the augmentation of
+> schedules to model
+> >             efficiency measures. This is a problem
+> for us in
+> >             that we often use schedules to
+> simulate measures
+> >             such as lighting occupancy sensors and
+> demand
+> >             controlled ventilation. 
+> > 
+> >             Typically: 
+> >             -For lighting occupancy sensors, we
+> adjust our
+> >             known office schedules using a profile
+> taken
+> >             from the JIES (I'm afraid I don't have
+> the
+> >             specific source in front of me). -For
+> demand
+> >             controlled ventilation, we develop an
+> hourly
+> >             outside air Fraction of Design
+> schedule for each
+> >             AHU using known occupancy schedules
+> and an
+> >             assumption of 20 CFM per occupant. 
+> > 
+> >             To us, both of these methods seem to
+> be 
+=== message truncated ===
+
+
+__________________________________
+Do you Yahoo!?
+Yahoo! Calendar - Free online calendar with sync to Outlook(TM).
+http://calendar.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From rkstrand at uiuc.edu  Mon Jun  2 12:53:54 2003
+From: rkstrand at uiuc.edu (Rick Strand)
+Date: Mon, 02 Jun 2003 14:53:54 -0500
+Subject: [BLDG-SIM] IBPSA-USA Kansas City Meeting (Preliminary Announcement)
+Message-ID: <MDAEMON-F200306021451.AA5127250pd80000322486@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030602/37e965c0/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 15c18e7.jpg
+Type: image/jpeg
+Size: 28460 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030602/37e965c0/attachment.jpg>
+
+From jglazer at gard.com  Mon Jun  2 09:45:05 2003
+From: jglazer at gard.com (Jason Glazer)
+Date: Mon, 02 Jun 2003 11:45:05 -0500
+Subject: [BLDG-SIM] LEED / ASHRAE 90.1 Modeling Question
+In-Reply-To: <MDAEMON-F200306021131.AA3158296pd80000322295@gard.com>
+Message-ID: <MDAEMON-F200306021141.AA4101671pd80000322313@gard.com>
+
+The Standard 90.1 committee has recognized the difference 
+between a pass/fail compliance and a savings calculation 
+and is in the process of developing informative Appendix G 
+"Performance Rating Method" just to cope with these very 
+issues. Appendix G is just about to finish up its second 
+public review and will be hopefully published within a 
+year.  One excerpt from the draft says:
+
+"G3.11 Schedules. Schedules capable of modeling hourly 
+variations in occupancy, lighting power, miscellaneous 
+equipment power, thermostat set points, and HVAC system 
+operation shall be used. The schedules shall be typical of 
+the proposed building type as determined by the designer 
+and approved by the rating authority. Schedules shall be 
+identical for the proposed design and baseline building
+design.
+
+"Exception to G3.11: Schedules may be allowed to differ 
+between proposed design and baseline building design with 
+approval of the rating authority when necessary to model 
+nonstandard efficiency measures. Measures that may warrant 
+use of different schedules include, but are not limited to, 
+lighting controls, natural ventilation, demand control 
+ventilation, and measures that reduce service water heating
+loads."
+
+I know this does not help today but it will in the future.
+
+Jason
+
+On 2 Jun 2003 at 10:35, Fred Porter wrote:
+
+> Interesting thread. We should keep in mind the difference
+> between pass/fail "compliance" using the performance ECB
+> method in 90.1 (where only ASHRAE instructions apply), and
+> LEED energy savings calculations which use the EMP, CIRs,
+> and perhaps DCV as part of our little world of alphabet
+> soup. 
+> 
+> Marcus Sheffer wrote:
+>             We will be submitting some shortly and this is
+>             how we have interpreted the CIRs. Schedule
+>             changes are acceptable is my understanding. The
+>             adopting authority in this case is the USGBC and
+>             they have stated that schedule changes are
+>             allowable for DCV. To be 100% sure, develop your
+>             methodology for calculating savings and submit
+>             it as a CIR.
+> 
+>             At 11:47 AM 06/02/2003 -0400, you wrote:
+>             Thanks for your reply.
+> 
+>             I re-read a CIR from 6/7/2001 (perhaps the one
+>             to which you are referring?) to be sure that I
+>             hadn't missed anything. In the Project Manager's
+>             Ruling, it says:"Under the ECM [Exceptional
+>             Calculation Method], schedule variations may be
+>             used as a basis of engineering calculations for
+>             discrete measures that are precluded by the
+>             reference standard or the LEEDTM EMP."
+> 
+>             However, the description of the ECM in section
+>             11.5 of the 90.1 manual states that the
+>             applicant must provide documentation supporting
+>             the accuracy of the exceptional method and that
+>             "This documentation must also show that the
+>             methods and its results: 1. Do not change the
+>             simulation program input parameters that are
+>             constrained by the ECM method or any other rules
+>             of the adopting authority. For example, the
+>             exceptional method may not violate the rule
+>             against using different operating schedules for
+>             proposed and budget runs."
+> 
+>             So it is still unclear to me whether or not
+>             schedule changes are acceptable. Have you
+>             successfully proposed schedule changes such as
+>             these through the ECM process? ----- Original
+>             Message ----- From: Marcus Sheffer To:
+>             wmclaughlin at dmiinc.com Cc: BLDG-SIM at GARD.COM
+>             Sent: Monday, June 02, 2003 11:04 AM Subject:
+>             Re: [BLDG-SIM] LEED / ASHRAE 90.1 Modeling
+>             Question
+> 
+>             I'd suggest you review the CIRs more closely.
+>             DCV has been approved as an energy saving
+>             measure and you can modify schedules to simulate
+>             savings.You must follow the Exceptional
+>             Calculation Method (section 11.5) of the Energy
+>             Cost Budget Method of 90.1.
+> 
+>             At 10:14 AM 06/02/2003 -0400, you wrote: 
+>             Hi All,  
+> 
+>             We are currently working on our first LEED
+>             certification project. We use PowerDOE as a
+>             modeling tool, but these questions should apply
+>             to all modeling platforms. 
+> 
+>             The LEED process requires modeling practices to
+>             follow those outlined in the ASHRAE 90.1
+>             Standard User's Manual.The standard does not
+>             allow for the augmentation of schedules to model
+>             efficiency measures. This is a problem for us in
+>             that we often use schedules to simulate measures
+>             such as lighting occupancy sensors and demand
+>             controlled ventilation. 
+> 
+>             Typically: 
+>             -For lighting occupancy sensors, we adjust our
+>             known office schedules using a profile taken
+>             from the JIES (I'm afraid I don't have the
+>             specific source in front of me). -For demand
+>             controlled ventilation, we develop an hourly
+>             outside air Fraction of Design schedule for each
+>             AHU using known occupancy schedules and an
+>             assumption of 20 CFM per occupant. 
+> 
+>             To us, both of these methods seem to be accepted
+>             modeling practice for determining measure
+>             performance. However, as stated pretty
+>             explicitly in the archived credit interpretation
+>             requests (CIRs) on the LEED site, LEED won't
+>             allow for the adjustment of schedules to
+>             simulate these measures. Does anyone have a
+>             method (or insight into developing a method) for
+>             either of these calculations in a manner that
+>             would be acceptable for the LEED process? 
+> 
+>             Many thanks in advance for your responses. 
+> 
+>             Wade 
+> 
+>             Wade McLaughlin 
+>             DMI 
+>             450 Lexington St. 
+>             Newton, MA 02466 
+>             p 617-527-1525 x103 
+>             f 617-527-6606
+> 
+> 
+> 
+> 
+> 
+> 
+>             You received this e-mail because you are
+>             subscribed 
+> 
+> 
+>             to the BLDG-SIM at GARD.COM mailing list. To
+>             unsubscribe 
+> 
+> 
+>             from this mailing list send a blank message to 
+> 
+> 
+>             BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+>             Marcus B. Sheffer energy & 
+>             environmental consulting 
+>             Energy Opportunities 717-292-2636 
+>             1200 E Camping Area Road Fax: 717-292-0585
+>             Wellsville, PA USA 17365-9783
+>             sheffer at sevengroup.com 
+> 
+>             a Seven Group member company www.sevengroup.com
+>             Marcus B. Sheffer energy & environmental
+>             consulting Energy Opportunities 717-292-2636
+>             1200 E Camping Area Road Fax: 717-292-0585
+>             Wellsville, PA USA 17365-9783
+>             sheffer at sevengroup.com a Seven Group member
+>             company www.sevengroup.com
+> 
+> -- 
+> Fred W. Porter
+> Senior Engineer
+> Architectural Energy Corp.
+> 2540 Frontier Ave. Suite 201
+> Boulder CO 80301
+> email: fporter at archenergy.com
+> fax: 303-444-4304
+> 
+> office: 303-444-4149 x225
+> mobile: 303-748-4536
+> 
+> 
+> 
+> 
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+> this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+
+=========================================================
+Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From fporter at archenergy.com  Mon Jun  2 09:35:57 2003
+From: fporter at archenergy.com (Fred Porter)
+Date: Mon, 02 Jun 2003 10:35:57 -0600
+Subject: [BLDG-SIM] LEED / ASHRAE 90.1 Modeling Question
+References: <5.0.1.4.2.20030602110021.01271670@pop.paonline.com> <MDAEMON-F200306021101.AA0106625pd80000466481@gard.com>
+Message-ID: <MDAEMON-F200306021131.AA3158296pd80000322295@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030602/058cf812/attachment.htm>
+
+From fporter at archenergy.com  Mon Jun  2 09:26:40 2003
+From: fporter at archenergy.com (Fred Porter)
+Date: Mon, 02 Jun 2003 10:26:40 -0600
+Subject: [BLDG-SIM] LEED / ASHRAE 90.1 Modeling Question
+References: <MDAEMON-F200306020911.AA114000pd80000464655@gard.com>
+Message-ID: <MDAEMON-F200306021122.AA2228578pd80000322266@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030602/4184e7c1/attachment.htm>
+
+From peter.alspach at arup.com  Mon Jun  2 09:25:31 2003
+From: peter.alspach at arup.com (Peter Alspach)
+Date: Mon, 2 Jun 2003 17:25:31 +0100 
+Subject: [BLDG-SIM] LEED / ASHRAE 90.1 Modeling Question
+Message-ID: <MDAEMON-F200306021122.AA2255234pd80000322269@gard.com>
+
+Wade,
+ 
+We are in the process of submitting a CIR that will explicitly state the
+method we are using and the fundamentals behind it that meet the intent of
+the Exceptional Calculation Method as stated in ASHRAE 90.1. We also feel
+there is conflicting information on this and are hoping to clarify the
+issue.
+ 
+__________________________________________________ 
+Peter Alspach 
+Mechanical Engineer 
+
+ARUP 
+901 Market Street, Suite 260, San Francisco, CA 94103 
+T 415-957-9445 
+D 415-946-0284 
+F 415-957-9096 
+peter.alspach at arup.com 
+www.arup.com 
+
+
+-----Original Message-----
+From: Wade McLaughlin [mailto:wmclaughlin at dmiinc.com]
+Sent: Monday, June 02, 2003 8:48 AM
+To: BLDG-SIM at GARD.COM
+Cc: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] LEED / ASHRAE 90.1 Modeling Question
+
+
+Thanks for your reply.
+ 
+I re-read a CIR from 6/7/2001 (perhaps the one to which you are referring?)
+to be sure that I hadn't missed anything.  In the Project Manager's Ruling,
+it says:"Under the ECM [Exceptional Calculation Method], schedule variations
+may be used as a basis of engineering calculations for discrete measures
+that are precluded by the reference standard or the LEEDTM EMP."
+ 
+However, the description of the ECM  in section 11.5 of the 90.1 manual
+states that the applicant must provide documentation supporting the accuracy
+of the exceptional method and that "This documentation must also show that
+the methods and its results:
+1. Do not change the simulation program input parameters that are
+constrained by the ECM method or any other rules of the adopting authority.
+For example, the exceptional method may not violate the rule against using
+different operating schedules for proposed and budget runs."
+ 
+So it is still unclear to me whether or not schedule changes are acceptable.
+Have you successfully proposed schedule changes such as these through the
+ECM process?
+
+----- Original Message ----- 
+From: Marcus  <mailto:sheffer at paonline.com> Sheffer 
+To: wmclaughlin at dmiinc.com <mailto:wmclaughlin at dmiinc.com>  
+Cc: BLDG-SIM at GARD.COM <mailto:BLDG-SIM at GARD.COM>  
+Sent: Monday, June 02, 2003 11:04 AM
+Subject: Re: [BLDG-SIM] LEED / ASHRAE 90.1 Modeling Question
+
+
+I'd suggest you review the CIRs more closely.  DCV has been approved as an
+energy saving measure and you can modify schedules to simulate savings.  You
+must follow the Exceptional Calculation Method (section 11.5) of the Energy
+Cost Budget Method of 90.1.
+
+At 10:14 AM 06/02/2003 -0400, you wrote:
+
+
+Hi All,
+ 
+We are currently working on our first LEED certification project.  We use
+PowerDOE as a modeling tool, but these questions should apply to all
+modeling platforms.
+ 
+The LEED process requires modeling practices to follow those outlined in the
+ASHRAE 90.1 Standard User's Manual.  The standard does not allow for the
+augmentation of schedules to model efficiency measures.  This is a problem
+for us in that we often use schedules to simulate measures such as lighting
+occupancy sensors and demand controlled ventilation.
+ 
+Typically:
+-For lighting occupancy sensors, we adjust our known office schedules using
+a profile taken from the JIES (I'm afraid I don't have the specific source
+in front of me).
+-For demand controlled ventilation, we develop an hourly outside air
+Fraction of Design schedule for each AHU using known occupancy schedules and
+an assumption of 20 CFM per occupant.
+ 
+To us, both of these methods seem to be accepted modeling practice for
+determining measure performance.  However, as stated pretty explicitly in
+the archived credit interpretation requests (CIRs) on the LEED site, LEED
+won't allow for the adjustment of schedules to simulate these measures.
+Does anyone have a method (or insight into developing a method) for either
+of these calculations in a manner that would be acceptable for the LEED
+process?
+ 
+Many thanks in advance for your responses.
+ 
+Wade
+ 
+Wade McLaughlin
+DMI
+450 Lexington St.
+Newton, MA  02466
+p 617-527-1525 x103
+f  617-527-6606
+
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+Marcus B. Sheffer                          energy & environmental consulting
+Energy Opportunities                     717-292-2636
+1200 E Camping Area Road            Fax: 717-292-0585     
+Wellsville, PA USA 17365-9783        sheffer at sevengroup.com
+a Seven Group member company     <http://www.sevengroup.com/>
+www.sevengroup.com
+
+
+=====================================================You received this
+e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030602/2cac82c6/attachment.htm>
+
+From sheffer at paonline.com  Mon Jun  2 09:04:13 2003
+From: sheffer at paonline.com (Marcus Sheffer)
+Date: Mon, 02 Jun 2003 12:04:13 -0400
+Subject: [BLDG-SIM] LEED / ASHRAE 90.1 Modeling Question
+In-Reply-To: <004c01c3291e$5372dc60$1101a8c0@covad.bet>
+References: <5.0.1.4.2.20030602110021.01271670@pop.paonline.com>
+Message-ID: <MDAEMON-F200306021101.AA0110984pd80000322223@gard.com>
+
+We will be submitting some shortly and this is how we have interpreted the 
+CIRs.  Schedule changes are acceptable is my understanding.  The adopting 
+authority in this case is the USGBC and they have stated that schedule 
+changes are allowable for DCV.  To be 100% sure, develop your methodology 
+for calculating savings and submit it as a CIR.
+
+At 11:47 AM 06/02/2003 -0400, you wrote:
+>Thanks for your reply.
+>
+>I re-read a CIR from 6/7/2001 (perhaps the one to which you are 
+>referring?) to be sure that I hadn't missed anything.  In the Project 
+>Manager's Ruling, it says:"Under the ECM [Exceptional Calculation Method], 
+>schedule variations may be used as a basis of engineering calculations for 
+>discrete measures that are precluded by the reference standard or the 
+>LEEDTM EMP."
+>
+>However, the description of the ECM  in section 11.5 of the 90.1 manual 
+>states that the applicant must provide documentation supporting the 
+>accuracy of the exceptional method and that "This documentation must also 
+>show that the methods and its results:
+>1. Do not change the simulation program input parameters that are 
+>constrained by the ECM method or any other rules of the adopting 
+>authority.  For example, the exceptional method may not violate the rule 
+>against using different operating schedules for proposed and budget runs."
+>
+>So it is still unclear to me whether or not schedule changes are 
+>acceptable.  Have you successfully proposed schedule changes such as these 
+>through the ECM process?
+>----- Original Message -----
+>From: <mailto:sheffer at paonline.com>Marcus Sheffer
+>To: <mailto:wmclaughlin at dmiinc.com>wmclaughlin at dmiinc.com
+>Cc: <mailto:BLDG-SIM at GARD.COM>BLDG-SIM at GARD.COM
+>Sent: Monday, June 02, 2003 11:04 AM
+>Subject: Re: [BLDG-SIM] LEED / ASHRAE 90.1 Modeling Question
+>
+>I'd suggest you review the CIRs more closely.  DCV has been approved as an 
+>energy saving measure and you can modify schedules to simulate 
+>savings.  You must follow the Exceptional Calculation Method (section 
+>11.5) of the Energy Cost Budget Method of 90.1.
+>
+>At 10:14 AM 06/02/2003 -0400, you wrote:
+>>Hi All,
+>>
+>>We are currently working on our first LEED certification project.  We use 
+>>PowerDOE as a modeling tool, but these questions should apply to all 
+>>modeling platforms.
+>>
+>>The LEED process requires modeling practices to follow those outlined in 
+>>the ASHRAE 90.1 Standard User's Manual.  The standard does not allow for 
+>>the augmentation of schedules to model efficiency measures.  This is a 
+>>problem for us in that we often use schedules to simulate measures such 
+>>as lighting occupancy sensors and demand controlled ventilation.
+>>
+>>Typically:
+>>-For lighting occupancy sensors, we adjust our known office schedules 
+>>using a profile taken from the JIES (I'm afraid I don't have the specific 
+>>source in front of me).
+>>-For demand controlled ventilation, we develop an hourly outside air 
+>>Fraction of Design schedule for each AHU using known occupancy schedules 
+>>and an assumption of 20 CFM per occupant.
+>>
+>>To us, both of these methods seem to be accepted modeling practice for 
+>>determining measure performance.  However, as stated pretty explicitly in 
+>>the archived credit interpretation requests (CIRs) on the LEED site, LEED 
+>>won't allow for the adjustment of schedules to simulate these 
+>>measures.  Does anyone have a method (or insight into developing a 
+>>method) for either of these calculations in a manner that would be 
+>>acceptable for the LEED process?
+>>
+>>Many thanks in advance for your responses.
+>>
+>>Wade
+>>
+>>Wade McLaughlin
+>>DMI
+>>450 Lexington St.
+>>Newton, MA  02466
+>>p 617-527-1525 x103
+>>f  617-527-6606
+>>
+>>
+>>
+>>
+>>
+>>
+>>You received this e-mail because you are subscribed
+>>
+>>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>>
+>>from this mailing list send a blank message to
+>>
+>>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>Marcus B. Sheffer                          energy & environmental consulting
+>Energy Opportunities                     717-292-2636
+>1200 E Camping Area Road            Fax: 717-292-0585
+>Wellsville, PA USA 17365-9783        sheffer at sevengroup.com
+>a Seven Group member company    www.sevengroup.com
+
+Marcus B. Sheffer                          energy & environmental consulting
+Energy Opportunities                     717-292-2636
+1200 E Camping Area Road            Fax: 717-292-0585
+Wellsville, PA USA 17365-9783        sheffer at sevengroup.com
+a Seven Group member company    www.sevengroup.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030602/886d1296/attachment.htm>
+
+From wmclaughlin at dmiinc.com  Mon Jun  2 08:47:51 2003
+From: wmclaughlin at dmiinc.com (Wade McLaughlin)
+Date: Mon, 2 Jun 2003 11:47:51 -0400
+Subject: [BLDG-SIM] LEED / ASHRAE 90.1 Modeling Question
+References: <5.0.1.4.2.20030602110021.01271670@pop.paonline.com>
+Message-ID: <MDAEMON-F200306021045.AA452146pd80000322207@gard.com>
+
+Thanks for your reply.
+
+I re-read a CIR from 6/7/2001 (perhaps the one to which you are referring?) to be sure that I hadn't missed anything.  In the Project Manager's Ruling, it says:"Under the ECM [Exceptional Calculation Method], schedule variations may be used as a basis of engineering calculations for discrete measures that are precluded by the reference standard or the LEEDTM EMP."
+
+However, the description of the ECM  in section 11.5 of the 90.1 manual states that the applicant must provide documentation supporting the accuracy of the exceptional method and that "This documentation must also show that the methods and its results:
+1. Do not change the simulation program input parameters that are constrained by the ECM method or any other rules of the adopting authority.  For example, the exceptional method may not violate the rule against using different operating schedules for proposed and budget runs."
+
+So it is still unclear to me whether or not schedule changes are acceptable.  Have you successfully proposed schedule changes such as these through the ECM process?
+  ----- Original Message ----- 
+  From: Marcus Sheffer 
+  To: wmclaughlin at dmiinc.com 
+  Cc: BLDG-SIM at GARD.COM 
+  Sent: Monday, June 02, 2003 11:04 AM
+  Subject: Re: [BLDG-SIM] LEED / ASHRAE 90.1 Modeling Question
+
+
+  I'd suggest you review the CIRs more closely.  DCV has been approved as an energy saving measure and you can modify schedules to simulate savings.  You must follow the Exceptional Calculation Method (section 11.5) of the Energy Cost Budget Method of 90.1.
+
+  At 10:14 AM 06/02/2003 -0400, you wrote:
+
+    Hi All,
+     
+    We are currently working on our first LEED certification project.  We use PowerDOE as a modeling tool, but these questions should apply to all modeling platforms.
+     
+    The LEED process requires modeling practices to follow those outlined in the ASHRAE 90.1 Standard User's Manual.  The standard does not allow for the augmentation of schedules to model efficiency measures.  This is a problem for us in that we often use schedules to simulate measures such as lighting occupancy sensors and demand controlled ventilation.
+     
+    Typically:
+    -For lighting occupancy sensors, we adjust our known office schedules using a profile taken from the JIES (I'm afraid I don't have the specific source in front of me).
+    -For demand controlled ventilation, we develop an hourly outside air Fraction of Design schedule for each AHU using known occupancy schedules and an assumption of 20 CFM per occupant.
+     
+    To us, both of these methods seem to be accepted modeling practice for determining measure performance.  However, as stated pretty explicitly in the archived credit interpretation requests (CIRs) on the LEED site, LEED won't allow for the adjustment of schedules to simulate these measures.  Does anyone have a method (or insight into developing a method) for either of these calculations in a manner that would be acceptable for the LEED process?
+     
+    Many thanks in advance for your responses.
+     
+    Wade
+     
+    Wade McLaughlin
+    DMI
+    450 Lexington St.
+    Newton, MA  02466
+    p 617-527-1525 x103
+    f  617-527-6606
+
+
+
+
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+Marcus B. Sheffer                          energy & environmental consulting
+  Energy Opportunities                     717-292-2636
+  1200 E Camping Area Road            Fax: 717-292-0585     
+  Wellsville, PA USA 17365-9783        sheffer at sevengroup.com
+  a Seven Group member company    www.sevengroup.com
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030602/fa61854e/attachment.htm>
+
+From sheffer at paonline.com  Mon Jun  2 08:04:05 2003
+From: sheffer at paonline.com (Marcus Sheffer)
+Date: Mon, 02 Jun 2003 11:04:05 -0400
+Subject: [BLDG-SIM] LEED / ASHRAE 90.1 Modeling Question
+In-Reply-To: <MDAEMON-F200306020911.AA1154187pd80000464890@gard.com>
+Message-ID: <MDAEMON-F200306020959.AA5952140pd80000322157@gard.com>
+
+I'd suggest you review the CIRs more closely.  DCV has been approved as an 
+energy saving measure and you can modify schedules to simulate 
+savings.  You must follow the Exceptional Calculation Method (section 11.5) 
+of the Energy Cost Budget Method of 90.1.
+
+At 10:14 AM 06/02/2003 -0400, you wrote:
+>Hi All,
+>
+>We are currently working on our first LEED certification project.  We use 
+>PowerDOE as a modeling tool, but these questions should apply to all 
+>modeling platforms.
+>
+>The LEED process requires modeling practices to follow those outlined in 
+>the ASHRAE 90.1 Standard User's Manual.  The standard does not allow for 
+>the augmentation of schedules to model efficiency measures.  This is a 
+>problem for us in that we often use schedules to simulate measures such as 
+>lighting occupancy sensors and demand controlled ventilation.
+>
+>Typically:
+>-For lighting occupancy sensors, we adjust our known office schedules 
+>using a profile taken from the JIES (I'm afraid I don't have the specific 
+>source in front of me).
+>-For demand controlled ventilation, we develop an hourly outside air 
+>Fraction of Design schedule for each AHU using known occupancy schedules 
+>and an assumption of 20 CFM per occupant.
+>
+>To us, both of these methods seem to be accepted modeling practice for 
+>determining measure performance.  However, as stated pretty explicitly in 
+>the archived credit interpretation requests (CIRs) on the LEED site, LEED 
+>won't allow for the adjustment of schedules to simulate these 
+>measures.  Does anyone have a method (or insight into developing a method) 
+>for either of these calculations in a manner that would be acceptable for 
+>the LEED process?
+>
+>Many thanks in advance for your responses.
+>
+>Wade
+>
+>Wade McLaughlin
+>DMI
+>450 Lexington St.
+>Newton, MA  02466
+>p 617-527-1525 x103
+>f  617-527-6606
+>
+>
+>
+>
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+Marcus B. Sheffer                          energy & environmental consulting
+Energy Opportunities                     717-292-2636
+1200 E Camping Area Road            Fax: 717-292-0585
+Wellsville, PA USA 17365-9783        sheffer at sevengroup.com
+a Seven Group member company    www.sevengroup.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030602/255046df/attachment.htm>
+
+From wmclaughlin at dmiinc.com  Mon Jun  2 07:14:10 2003
+From: wmclaughlin at dmiinc.com (Wade McLaughlin)
+Date: Mon, 2 Jun 2003 10:14:10 -0400
+Subject: [BLDG-SIM] LEED / ASHRAE 90.1 Modeling Question
+Message-ID: <MDAEMON-F200306020911.AA1143625pd80000322117@gard.com>
+
+Hi All,
+
+We are currently working on our first LEED certification project.  We use PowerDOE as a modeling tool, but these questions should apply to all modeling platforms.
+
+The LEED process requires modeling practices to follow those outlined in the ASHRAE 90.1 Standard User's Manual.  The standard does not allow for the augmentation of schedules to model efficiency measures.  This is a problem for us in that we often use schedules to simulate measures such as lighting occupancy sensors and demand controlled ventilation.
+
+Typically:
+-For lighting occupancy sensors, we adjust our known office schedules using a profile taken from the JIES (I'm afraid I don't have the specific source in front of me).
+-For demand controlled ventilation, we develop an hourly outside air Fraction of Design schedule for each AHU using known occupancy schedules and an assumption of 20 CFM per occupant.
+
+To us, both of these methods seem to be accepted modeling practice for determining measure performance.  However, as stated pretty explicitly in the archived credit interpretation requests (CIRs) on the LEED site, LEED won't allow for the adjustment of schedules to simulate these measures.  Does anyone have a method (or insight into developing a method) for either of these calculations in a manner that would be acceptable for the LEED process?
+
+Many thanks in advance for your responses.
+
+Wade
+
+Wade McLaughlin
+DMI
+450 Lexington St.
+Newton, MA  02466
+p 617-527-1525 x103
+f  617-527-6606
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030602/64d92b3a/attachment.htm>
+
+From jimwill at indy.net  Sun Jun  1 05:54:37 2003
+From: jimwill at indy.net (James K. Willson)
+Date: Sun, 1 Jun 2003 07:54:37 -0500
+Subject: [BLDG-SIM] Invitation to Participate - Getting the Design Team to Use Energy Simulation from the Beginning - with Signature
+Message-ID: <MDAEMON-F200306010752.AA520215pd80000321637@gard.com>
+
+I see I failed to include signature. Sorry, here it is with signature included
+
+----- Original Message ----- 
+From: James K. Willson 
+To: BLDG-SIM at gard.com ; TC47-L at gard.com 
+Sent: Saturday, May 31, 2003 11:55 PM
+Subject: Invitation to Participate - Getting the Design Team to Use Energy Simulation from the Beginning
+
+
+To ALL Interested Parties:
+
+In February, a very interesting exchange of ideas occurred on BLDG-SIM at gard.com regarding the limited use of building energy simulation in the early design stages,  thoughts on why its limited,  and what might be done to increase the use of simulations in the early stage of design.  For those who did not see this exchange or would like to refresh their recollection of this, a compilation of these e-mails is found in the attached Word file.  
+
+As the Chair of the Applications Subcommittee of ASHRAE TC 4.7- Energy Calculations, I would like to invite anyone and everyone interested in this subject to attend our next TC 4.7 Applications Subcommittee Meeting which will be held on July 1, 2003 from 3:30 to 5:00 p.m.. in Kansas City, Missouri, as part of the ASHRAE Summer Meeting.  (See the meeting program for the meeting location).
+
+
+The subject to Getting the Design Team to Use Energy Simulation from the start of Design Process will be our main topic of discussion.  The purpose of this will be to continue this exchange of ideas and from there to create actionable items which will then be implemented.  
+
+In some ways we've already started approaching this item.  At the Winter ASHRAE Meeting in Chicago, January 2003,  we presented a Seminar entitled "Getting Started with Building Simulation"  which was chaired by Chip Barnaby.  The four talks were an excellent presentation of "what is energy simulation", "why would I want to do it" and "what's available for doing it".  The third presentation - Allan Daly's presentation of "Using Building Simulation to Life-Cycle Cost Optimize HVAC System Design at UC Merced"  is a case study of project which actually did use simulation in the very early design stages.  Copies of the PowerPoints from each of these four presentations are available to download at the ASHRAE web site (www.ashrae.org ).  From the homepage, click on "ASHRAE Activities", then Technical Committees, then TC 4.7, then Programs.  Scroll down about a third of the page to previously presented programs.  The seminar was one of the best attended TC 4.7 presentations in recent history (standing room only) which shows that a lot of interest is there, we just need to do a good job of tapping into it.  
+
+We welcome the opportunity to broaden the discussion and to broaden the participation.  ASHRAE, with its 55,000 world wide members,  Winter and Summer meetings with 2,500 to 3,500 technical program registrants, and over 160 local chapters,  can provide an effective venue for reaching the building design community.  Our successful "Getting Started with Building Simulation" seminar in Chicago and the ASHRAE Profession Development Session on Building Simulation which is now under development is only a start.  There is much, much more which could and should be done - and we welcome your ideas and involvement.
+
+Some of our previous work identified the need for a good basic treatise on what building simulation is, what programs are available, who to contact, etc.  As we research that subject, we were pleased to learn that some excellent sources already existed and/or were nearing completion.  Let me appraise you of them so those who are interested can get a good overview of what is currently available in the building simulation (not just HVAC) arena.  The Air-Conditioning and Refrigeration Technology Institute (the research arm of ARI) has available on its web site an report appropriately titled "State-of-the-Art Review, Whole-Building and Bulling Envelope Simulation and Design Tools"  It available at www.arti-21cr.org   There is also a companion report which focuses specifically on HVAC Component and System Simulation.   For specific cost and who to contact information on over 250 energy estimating programs, including most of the simulations DOE maintains a very comprehensive website at www.energytoolsdirectory.gov 
+
+To help us plan a most productive session, I would appreciate your ideas on what you see as:
+
+    1.    The most important or critical items that we need to discuss and try to reach consensus in our meeting at Kansas City.
+
+    2.    The most important actions or programs our committee should be implementing in the short term (6 to 18 months)
+
+    3.    The most important actions or programs our committee should get ASHRAE to implement in the longer term (1 to 5 years)  This could well include research projects.
+
+
+For those who will be unable to join us in Kansas City, I invite you to share your ideas via the BLDG-SIM at gard.com list server.  I would ask that you post those ideas by June 20th as my travel schedule will make it difficult for me to print out material to distribute at the Kansas City meeting after that date.
+
+Regards,
+
+Jim Willson
+Chair, TC 4.7 Applications Subcommittee
+
+
+James K. Willson PE
+WILLSON Performance Engineering, LLC
+129 Maple Crest Drive
+Carmel, IN  46033
+Phone: 317-506-1156
+FAX:    317-582-0549
+
+
+   
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030601/4b774a08/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Early Use of Building Energy Simulation.doc
+Type: application/msword
+Size: 40960 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030601/4b774a08/attachment.doc>
+

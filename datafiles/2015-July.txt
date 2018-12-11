@@ -1,0 +1,4510 @@
+From santiagogvelez at gmail.com  Wed Jul  1 07:24:14 2015
+From: santiagogvelez at gmail.com (Santiago Velez)
+Date: Wed, 1 Jul 2015 11:24:14 -0300
+Subject: [Bldg-sim] 90.1 Ap. G System selection: 5 stories + Underground -
+	System 6 or 8?
+Message-ID: <CAM04Qhc-mfU8B5ekVCaN3VEcheDBBb31-m2VKrOrcDN4cDxb8w@mail.gmail.com>
+
+What is in your opinion the baseline for the following building:
+
+Floor area:12,000 sqm (130,000 sqft)
+Floors: 5 above grade, mostly conditioned. 5 underground parking, mostly
+unconditioned apart from some conditioned spaces in the first below grade
+floor.
+
+Predominant Use: Office (85% of sqft),
+Secondary use: bank in PB and below grade; Kitchen, below grade; control
+security room, below grade.
+
+I'm in between baseline 6 or 8. If conditioned spaces below grade fall
+under exceptions to G3.1.1 b. then can I consider for the baseline that the
+predominant building has 5 floors instead of 6?
+
+Thanks in advance.
+
+Santiago.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150701/c8c4d641/attachment.htm>
+
+From tangang at gmail.com  Wed Jul  1 09:58:47 2015
+From: tangang at gmail.com (Gang Tan)
+Date: Wed, 1 Jul 2015 10:58:47 -0600
+Subject: [Bldg-sim] PhD student position at University of Wyoming
+Message-ID: <CACDG4DWQy0UEWBn91pFBBObmJEeUjC-6p5e2obiEDj_TBQzAfA@mail.gmail.com>
+
+Dear All,
+A Ph.D. student position is immediately available in the Civil and
+Architectural Engineering Department at University of Wyoming. This
+position is fully funded through Wyoming State Energy GA and the research
+will focus on modeling of porous media transport phenomena, targeting with
+applications in energy production and/or produced water treatment.
+Candidate with a Bachelor and/or Master degree in Engineering or Science,
+and having good academic records (i.e., good GPA and GRE scores), are
+strongly encouraged to apply now. This position is open for starting either
+in Fall 2015 or Spring 2016.
+If interested in, please email your CV to Dr. Gang Tan: gtan at uwyo.edu
+
+Gang Tan
+Ph.D., P.E., LEED AP, ERP
+Assistant Professor
+Department of Civil and Architectural Engineering
+University of Wyoming
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150701/914dac07/attachment.htm>
+
+From javedvit at gmail.com  Thu Jul  2 14:54:51 2015
+From: javedvit at gmail.com (Javed Iqbal)
+Date: Fri, 3 Jul 2015 03:24:51 +0530
+Subject: [Bldg-sim] 90.1 Ap. G System selection: 5 stories + Underground
+ - System 6 or 8?
+In-Reply-To: <CAM04Qhc-mfU8B5ekVCaN3VEcheDBBb31-m2VKrOrcDN4cDxb8w@mail.gmail.com>
+References: <CAM04Qhc-mfU8B5ekVCaN3VEcheDBBb31-m2VKrOrcDN4cDxb8w@mail.gmail.com>
+Message-ID: <CAEF2+-nHVdNAti2KX3UuT1Lx2fk4DcgV-8MSqmEkwRMw=OkiKw@mail.gmail.com>
+
+In my opinion the *system type 8* would be applicable. As the *total
+conditioned area *is not explicitly mentioned so i presume it is more than
+150,000 sqft (above grade floor+basement floor areas).
+
+Here are couple of reason which i could think of:
+
+
+i) per G3.1.1,  HVAC systems in the baseline building design shall be based
+on usage, number of floors, conditioned floor area, and heating source as
+specified in Table G3.1.1A and shall conform with the system descriptions
+in Table G3.1.1B.
+
+ii) per Table G3.1.1A, system 8 would be applicable if either of the
+condition is met number of floors OR conditioned area OR both
+
+iii) exception G3.1.1a would be applicable once you are decided with
+the *predominant
+system type* based on number of floors or conditioned area OR both per
+section G3.1.1. I strongly feel that exceptions are applicable only when
+the modeling scenario can not be addressed by the main sections which in
+your case is G3.1.1.
+
+Hope this helps!
+
+
+
+On Wed, Jul 1, 2015 at 7:54 PM, Santiago Velez <santiagogvelez at gmail.com>
+wrote:
+
+> What is in your opinion the baseline for the following building:
+>
+> Floor area:12,000 sqm (130,000 sqft)
+> Floors: 5 above grade, mostly conditioned. 5 underground parking, mostly
+> unconditioned apart from some conditioned spaces in the first below grade
+> floor.
+>
+> Predominant Use: Office (85% of sqft),
+> Secondary use: bank in PB and below grade; Kitchen, below grade; control
+> security room, below grade.
+>
+> I'm in between baseline 6 or 8. If conditioned spaces below grade fall
+> under exceptions to G3.1.1 b. then can I consider for the baseline that the
+> predominant building has 5 floors instead of 6?
+>
+> Thanks in advance.
+>
+> Santiago.
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+
+
+-- 
+
+Javed Iqbal, LEED AP, CEA
+Sr. Energy Analyst
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150703/75fe30e1/attachment.htm>
+
+From ncaton at catonenergy.com  Thu Jul  2 15:23:35 2015
+From: ncaton at catonenergy.com (Nicholas Caton)
+Date: Thu, 2 Jul 2015 15:23:35 -0700
+Subject: [Bldg-sim] 90.1 Ap. G System selection: 5 stories + Underground
+ - System 6 or 8?
+In-Reply-To: <CAEF2+-nHVdNAti2KX3UuT1Lx2fk4DcgV-8MSqmEkwRMw=OkiKw@mail.gmail.com>
+References: <CAM04Qhc-mfU8B5ekVCaN3VEcheDBBb31-m2VKrOrcDN4cDxb8w@mail.gmail.com>
+	<CAEF2+-nHVdNAti2KX3UuT1Lx2fk4DcgV-8MSqmEkwRMw=OkiKw@mail.gmail.com>
+Message-ID: <1c2749b5f58f22a292aa3f533a3309fe@mail.gmail.com>
+
+I would also go with 8, for simplicity.  You pretty clearly have 6 levels
+with conditioned spaces.
+
+
+
+Even if you do go through the effort to declare each underground level
+conditioned space as subject to G3.1.1 exceptions, that doesn?t reduce the
+quantity of floors with conditioned spaces for the whole project.
+
+
+
+That said, this is one of those situations where I?d subjectively agree
+it?s within the realm of reasonable interpretation to pursue the direction
+you?ve described with System type 6.  I might be more motivated to make
+that case if packaged DX systems per-floor are a closer approximation to
+the actual design equipment than a chiller plant.  I suspect it may
+ultimately be more effort than it?s worth however.
+
+
+
+~Nick
+
+
+
+*NICK CATON, P.E.*
+*Owner*
+
+
+
+*Caton Energy Consulting*
+  1150 N. 192nd St., #4-202
+
+  Shoreline, WA 98133
+  office:  785.410.3317
+
+www.catonenergy.com
+
+
+
+*From:* Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] *On Behalf
+Of *Javed Iqbal
+*Sent:* Thursday, July 02, 2015 2:55 PM
+*To:* Santiago Velez
+*Cc:* bldg-sim at lists.onebuilding.org
+*Subject:* Re: [Bldg-sim] 90.1 Ap. G System selection: 5 stories +
+Underground - System 6 or 8?
+
+
+
+In my opinion the *system type 8* would be applicable. As the *total
+conditioned area *is not explicitly mentioned so i presume it is more than
+150,000 sqft (above grade floor+basement floor areas).
+
+
+
+Here are couple of reason which i could think of:
+
+
+
+
+
+i) per G3.1.1,  HVAC systems in the baseline building design shall be based
+on usage, number of floors, conditioned floor area, and heating source as
+specified in Table G3.1.1A and shall conform with the system descriptions
+in Table G3.1.1B.
+
+
+
+ii) per Table G3.1.1A, system 8 would be applicable if either of the
+condition is met number of floors OR conditioned area OR both
+
+
+
+iii) exception G3.1.1a would be applicable once you are decided with
+the *predominant
+system type* based on number of floors or conditioned area OR both per
+section G3.1.1. I strongly feel that exceptions are applicable only when
+the modeling scenario can not be addressed by the main sections which in
+your case is G3.1.1.
+
+
+
+Hope this helps!
+
+
+
+
+
+
+
+On Wed, Jul 1, 2015 at 7:54 PM, Santiago Velez <santiagogvelez at gmail.com>
+wrote:
+
+What is in your opinion the baseline for the following building:
+
+Floor area:12,000 sqm (130,000 sqft)
+Floors: 5 above grade, mostly conditioned. 5 underground parking, mostly
+unconditioned apart from some conditioned spaces in the first below grade
+floor.
+
+Predominant Use: Office (85% of sqft),
+Secondary use: bank in PB and below grade; Kitchen, below grade; control
+security room, below grade.
+
+I'm in between baseline 6 or 8. If conditioned spaces below grade fall
+under exceptions to G3.1.1 b. then can I consider for the baseline that the
+predominant building has 5 floors instead of 6?
+
+Thanks in advance.
+
+Santiago.
+
+
+_______________________________________________
+Bldg-sim mailing list
+http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+To unsubscribe from this mailing list send  a blank message to
+BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+
+
+
+
+
+-- 
+
+
+
+Javed Iqbal, LEED AP, CEA
+Sr. Energy Analyst
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150702/93103ba0/attachment.htm>
+
+From santiagogvelez at gmail.com  Thu Jul  2 20:05:50 2015
+From: santiagogvelez at gmail.com (Santiago Velez)
+Date: Fri, 3 Jul 2015 00:05:50 -0300
+Subject: [Bldg-sim] 90.1 Ap. G System selection: 5 stories + Underground
+ - System 6 or 8?
+In-Reply-To: <1c2749b5f58f22a292aa3f533a3309fe@mail.gmail.com>
+References: <CAM04Qhc-mfU8B5ekVCaN3VEcheDBBb31-m2VKrOrcDN4cDxb8w@mail.gmail.com>
+	<CAEF2+-nHVdNAti2KX3UuT1Lx2fk4DcgV-8MSqmEkwRMw=OkiKw@mail.gmail.com>
+	<1c2749b5f58f22a292aa3f533a3309fe@mail.gmail.com>
+Message-ID: <CAM04QhdWqF0FqA=ZXa4sGX+qrvrQ4XmrstQJrwJbqLKGQ0XMQA@mail.gmail.com>
+
+I agree with both of you. I guess my argument was that since these below
+grade conditioned spaces would be served by separate HVAC system anyway,
+then  they match the intention of the G.3.1.1.b. But I agree this is grey
+area.
+Good news is, this is early energy modelling to drive design, so it is
+Baseline definition that will determine proposed HVAC system. First
+proposal was an air cooled VRF system,  which in my experience against
+baseline 8, will have difficulties (or be costly) achieving the substantial
+targeted savings (34% again 90.1-2007 App. G). This would be more
+achievable against a system 6.
+
+Anyway, thanks for the insights!
+
+Santiago.
+
+On 2 July 2015 at 19:23, Nicholas Caton <ncaton at catonenergy.com> wrote:
+
+> I would also go with 8, for simplicity.  You pretty clearly have 6 levels
+> with conditioned spaces.
+>
+>
+>
+> Even if you do go through the effort to declare each underground level
+> conditioned space as subject to G3.1.1 exceptions, that doesn?t reduce the
+> quantity of floors with conditioned spaces for the whole project.
+>
+>
+>
+> That said, this is one of those situations where I?d subjectively agree
+> it?s within the realm of reasonable interpretation to pursue the direction
+> you?ve described with System type 6.  I might be more motivated to make
+> that case if packaged DX systems per-floor are a closer approximation to
+> the actual design equipment than a chiller plant.  I suspect it may
+> ultimately be more effort than it?s worth however.
+>
+>
+>
+> ~Nick
+>
+>
+>
+> *NICK CATON, P.E.*
+> *Owner*
+>
+>
+>
+> *Caton Energy Consulting*
+>   1150 N. 192nd St., #4-202
+>
+>   Shoreline, WA 98133
+>   office:  785.410.3317
+>
+> www.catonenergy.com
+>
+>
+>
+> *From:* Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] *On
+> Behalf Of *Javed Iqbal
+> *Sent:* Thursday, July 02, 2015 2:55 PM
+> *To:* Santiago Velez
+> *Cc:* bldg-sim at lists.onebuilding.org
+> *Subject:* Re: [Bldg-sim] 90.1 Ap. G System selection: 5 stories +
+> Underground - System 6 or 8?
+>
+>
+>
+> In my opinion the *system type 8* would be applicable. As the *total
+> conditioned area *is not explicitly mentioned so i presume it is more
+> than 150,000 sqft (above grade floor+basement floor areas).
+>
+>
+>
+> Here are couple of reason which i could think of:
+>
+>
+>
+>
+>
+> i) per G3.1.1,  HVAC systems in the baseline building design shall be
+> based on usage, number of floors, conditioned floor area, and heating
+> source as specified in Table G3.1.1A and shall conform with the system
+> descriptions in Table G3.1.1B.
+>
+>
+>
+> ii) per Table G3.1.1A, system 8 would be applicable if either of the
+> condition is met number of floors OR conditioned area OR both
+>
+>
+>
+> iii) exception G3.1.1a would be applicable once you are decided with the *predominant
+> system type* based on number of floors or conditioned area OR both per
+> section G3.1.1. I strongly feel that exceptions are applicable only when
+> the modeling scenario can not be addressed by the main sections which in
+> your case is G3.1.1.
+>
+>
+>
+> Hope this helps!
+>
+>
+>
+>
+>
+>
+>
+> On Wed, Jul 1, 2015 at 7:54 PM, Santiago Velez <santiagogvelez at gmail.com>
+> wrote:
+>
+> What is in your opinion the baseline for the following building:
+>
+> Floor area:12,000 sqm (130,000 sqft)
+> Floors: 5 above grade, mostly conditioned. 5 underground parking, mostly
+> unconditioned apart from some conditioned spaces in the first below grade
+> floor.
+>
+> Predominant Use: Office (85% of sqft),
+> Secondary use: bank in PB and below grade; Kitchen, below grade; control
+> security room, below grade.
+>
+> I'm in between baseline 6 or 8. If conditioned spaces below grade fall
+> under exceptions to G3.1.1 b. then can I consider for the baseline that the
+> predominant building has 5 floors instead of 6?
+>
+> Thanks in advance.
+>
+> Santiago.
+>
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+>
+>
+>
+> --
+>
+>
+>
+> Javed Iqbal, LEED AP, CEA
+> Sr. Energy Analyst
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150703/ee7c9b0a/attachment.htm>
+
+From christian at naturalintelligence.us  Mon Jul  6 06:54:10 2015
+From: christian at naturalintelligence.us (Christian Stalberg)
+Date: Mon, 6 Jul 2015 06:54:10 -0700
+Subject: [Bldg-sim] TRAINING: DesignBuilder/EnergyPlus Training
+Message-ID: <1f6401d0b7f3$3e52bcd0$baf83670$@naturalintelligence.us>
+
+
+
+
+
+	
+
+ <http://us10.campaign-archive1.com/?u=a6339f4bf11e3c3b5d88a7911&id=425cb223e6&e=29dfc232a3> View this email in your browser 
+
+
+
+
+
+  <https://gallery.mailchimp.com/a6339f4bf11e3c3b5d88a7911/images/53057144-6c9e-47e0-a3c9-05809b20c494.jpg> 
+
+
+
+
+
+
+West Coast USA training registration underway.
+
+
+Don't miss this opportunity to be trained in the easiest to use/learn, most powerful building energy performance tool available.
+
+
+DesignBuilder is an elegant, seamless integration of building energy performance tools encompassing the totality of building energy use, including whole building energy simulation, daylighting and internal/external CFD (computational fluid dynamics).
+
+Suitable for both residential and commercial applications, DesignBuilder was the first graphical user interface (GUI) to EnergyPlus, the 'gold standard' for whole building energy simulation. With more than ten years of development invested, DesignBuilder is the building energy performance tool of choice for today's architects and engineers.
+
+Developed to simplify the process of building simulation, DesignBuilder allows you to rapidly compare the function and performance of building designs and deliver early stage thru final results on time and on budget. Unlike other products that generate results that are broad and indefinite, or do not address daylighting or airflow and 3-D temperature distribution data in and around buildings, DesignBuilder provides a total solution with data results you can have complete confidence in.
+
+The training will be run using version 4 of DesignBuilder and will cover many of the new and enhanced features such as the new geometric modeler with enhanced block geometry editing, the ability to mirror blocks, add individual surfaces, and produce cut-away/section visualizations. Version 4 can produce ASHRAE 90.1 standards compliant baseline models required of various certification and credit programs including LEED, IRS, etc.
+
+The training is suitable for new and experienced users alike. It is fully modular so that people can attend just one or any number of the days.
+
+The course is organized so that architects could attend only the first 2-3 days and the last 2 days are specific to engineers. The focus on day 3 is low energy and passive design modelling and it would therefore be valuable for both architects and engineers.
+
+Locations & Dates
+
+*	San Francisco, California; September 21-25, 2015
+
+Discounts are available for students/researchers/faculty and multiple company attendees booking 4 or more days.
+
+Space is limited so we encourage early registration.
+
+ <http://designbuilderusa.us10.list-manage2.com/track/click?u=a6339f4bf11e3c3b5d88a7911&id=71728d17d5&e=29dfc232a3> Additional course information and registration.
+
+Are you designing and modeling net zero buildings? What are you waiting for? DesignBuilder is the best software on the market today for that job!
+
+
+	
+
+
+
+
+Copyright ? 2015 DesignBuilder USA, All rights reserved.
+
+
+Our mailing address is:
+
+DesignBuilder USA
+
+PO Box 4477
+
+Santa Rosa, CA 95402
+
+ 
+
+
+ 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150706/bf3bae2f/attachment.htm>
+
+From cglover at epstengroup.com  Mon Jul  6 14:21:39 2015
+From: cglover at epstengroup.com (Cheryl Glover)
+Date: Mon, 6 Jul 2015 21:21:39 +0000
+Subject: [Bldg-sim]  Help Wanted
+Message-ID: <DM2PR0401MB12642AAEC7BBBEA1849A2CD1B5930@DM2PR0401MB1264.namprd04.prod.outlook.com>
+
+At Epsten Group, we believe in creating sustainable, beautiful, and healthy spaces and communities to live, work, and play. We are seeking an individual to lead our team of Energy and HVAC experts in Atlanta, GA. Our energy modelers produce energy simulations for a vast array of project types, influencing design decisions that reduce energy demands while providing comfortable, healthy spaces. Our experts also provide third-party reviews of energy modeling documentation for applications to the LEED certification program, one of the most globally recognized sustainable design and construction certification programs. We provide in-house training that brings our newest team members from "experienced" to "expert." We seek individuals with a mechanical engineering background, experience with energy models in various energy modeling platforms, and an understanding of the LEED energy modeling protocol for multiple rating systems.
+
+Essential Functions:
+
+  *   Review project documentation for prerequisites and credits for compliance with LEED requirements
+  *   Provide expert review of EA Credit 1: Optimize Energy Performance, and related credits
+  *   Educate the LEED marketplace through comments and technical advice to project teams
+  *   Perform quality control (QC) review of work performed by other GBCI LEED Certification Reviewers and external review teams
+  *   Provide technical support as needed to the LEED Customer Service team
+  *   Contribute to the continued development and increased technical knowledge of fellow LEED Certification Reviewers through collaborative teamwork by providing direction, training and mentoring
+  *   Work with other Team Leads to ensure technically rigorous, accurate, consistent and timely completion of LEED certification reviews
+  *   Develop enhancements and improvements to LEED and the certification review process based on personal knowledge and vision, or user feedback
+Develop, review, and refine LEED programs, policies and plans, as well as specific LEED credit language and reference materials
+
+Desired Skills & Experience
+
+
+  *   Bachelor's degree (Master's degree preferred) in mechanical or energy engineering or equivalent
+  *   Professional engineer license preferred
+  *   CEM certification preferred
+  *   LEED AP required upon hire; with specialty preferred (BD+C, ID+C, O+M)
+  *   Minimum two years direct professional experience in mechanical system design, energy modeling, commissioning and/or energy auditing
+  *   Direct experience with at least 5 energy models for commercial projects by consulting on, creating or reviewing compliance with ASHRAE Std. 90.1, California's Title-24 or equivalent local code
+  *   Experience with a variety of high-performance building projects, including LEED projects
+  *   Direct experience using energy modeling programs for commercial buildings (eQuest, EnergyPro, Trace, HAP, Visual DOE, etc.) and understanding of their input and output summary documentation
+  *   Ability to read, understand and interpret building floor plans, sections, site plans, construction specifications and operational policies
+  *   Detailed technical understanding of and experience with common environmental building codes and standards (e.g., ASHRAE 90.1, ASHRAE 62, ASHRAE 55, Title 24, IPMVP Vol. III, IESNA RP-33, ASHRAE 189, IECC)
+If interested please send a resume and cover letter to apply at epstengroup.com<mailto:apply at epstengroup.com>.
+
+
+
+Best Regards,
+
+Cheryl Glover, PHR
+Human Resources Manager
+
+[Logo_with_text_horizontal-sized-for-email-sig]
+Epsten Group, Inc.
+399 Edgewood Avenue . Atlanta, Georgia 30312 USA
+t 404.577.0370 ext. 125   epstengroup.com<http://www.epstengroup.com/>
+
+
+
+[fb for email]<http://www.facebook.com/theepstengroup>  [twitter for email] <https://twitter.com/EpstenGroup>   [linkedin for email] <http://linkedin.com/company/the-epsten-group>   [utube for email] <http://www.youtube.com/epstengroup>   Please consider the environment before you print this email.
+This email message, including all attachments, is for the sole use of the intended recipient(s) and may contain confidential information.
+Any unauthorized review, use, copying, saving, alteration or distribution is strictly prohibited and may violate state or federal law.
+If you are not the intended recipient, kindly contact the sender by reply e-mail and delete this email including any attachments.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150706/9c1d325f/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 4151 bytes
+Desc: image001.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150706/9c1d325f/attachment.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image002.jpg
+Type: image/jpeg
+Size: 854 bytes
+Desc: image002.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150706/9c1d325f/attachment.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image003.jpg
+Type: image/jpeg
+Size: 870 bytes
+Desc: image003.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150706/9c1d325f/attachment-0001.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image004.jpg
+Type: image/jpeg
+Size: 877 bytes
+Desc: image004.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150706/9c1d325f/attachment-0002.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image005.jpg
+Type: image/jpeg
+Size: 887 bytes
+Desc: image005.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150706/9c1d325f/attachment-0003.jpg>
+
+From tangang at gmail.com  Tue Jul  7 09:49:53 2015
+From: tangang at gmail.com (Gang Tan)
+Date: Tue, 7 Jul 2015 10:49:53 -0600
+Subject: [Bldg-sim] Postdoc Position Available at University of Wyoming
+Message-ID: <CACDG4DXSZ9i09SJ4PWLNw1nfq7K-LTc9RMrbaTv4oPLHeVadhg@mail.gmail.com>
+
+Dear All,
+A postdoctoral research associate position is available in the Civil and
+Architectural Engineering Department at University of Wyoming. It is funded
+through a three-year DOE project contract. The research work of this
+position includes cold energy collection, delivery, and centralized storage
+for power plant application. Applicants with a Ph.D. degree in
+thermal/fluid engineering or related areas are encouraged to apply.
+Previous research experience of thermal energy storage, hands-on
+experimental skill, and/or numerical modeling is highly preferred. The
+starting date of this position is September 1, 2015. Once hired, the
+applicant must be permitted to work legally in the United States. This
+position provides competitive salary and benefit package. If interested in,
+please email your CV with two reference contacts to Dr. Gang Tan:
+gtan at uwyo.edu
+
+Thanks!
+
+Gang Tan
+Ph.D., P.E., LEED AP, ERP
+Assistant Professor
+Department of Civil and Architectural Engineering
+University of Wyoming
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150707/e1de5cd4/attachment.htm>
+
+From mike.karpman at karpmanconsulting.net  Tue Jul  7 10:27:10 2015
+From: mike.karpman at karpmanconsulting.net (Mike Karpman)
+Date: Tue, 7 Jul 2015 13:27:10 -0400
+Subject: [Bldg-sim] eQUEST Energy Modeling Training!
+Message-ID: <CAMy58unaaA6Eb9iQpH3iw1PciiQdLY6CswTxsLSLnvUDRZHWBA@mail.gmail.com>
+
+[image: Karpman Consulting] <http://www.karpmanconsulting.net/index.html>
+
+*eQUEST Energy Modeling Training*
+
+BLDG SIMers: this summer, *energy modeling training*, sponsored by *NYSERDA*,
+is coming to New York.
+
+Karpman Consulting is offering energy modeling courses at the 100-level
+(beginner), 200-level (fundamentals) and 300-level (intermediate),
+including training addressing energy modeling for new construction and
+training for existing buildings in support of energy audits, including
+model to bill calibration.
+
+The trainings are being offered at a* 60% discounted rate* to eligible
+attendees*, made possible by funding from NYSERDA.
+
+Each training qualifies for continuing education hours for architects,
+professional engineers, and LEED APs. Some sessions are also eligible for
+in-service training hours for NY State code officials.
+
+You can find more information, including detailed course descriptions, on
+our website <http://www.karpmanconsulting.net/training.php>.
+
+UPCOMING TRAINING
+
+
+
+Modeling 101: Energy Modeling for Code Compliance, High Performance
+Buildings, and Building Retrofits
+
+Aug 19th, 2015 in Albany, NY
+<http://www.karpmanconsulting.net/sessionid25.php>
+
+
+
+Modeling 201: eQUEST Energy Modeling for Existing Buildings
+
+Aug 5th-6th, 2015 in Albany, NY
+<http://www.karpmanconsulting.net/sessionid24.php>
+
+
+
+Modeling 202: eQUEST Energy Modeling for New Construction
+
+Jul 14th-15th, 2015 in NY, NY
+<http://www.karpmanconsulting.net/sessionid26.php>
+
+
+
+Modeling 301: Intermediate HVAC Modeling in eQUEST
+
+No sessions currently scheduled
+
+Modeling 302: Simulation Requirements of 90.1 2007 / 2010 / 2013
+
+No sessions currently scheduled
+
+.
+
+Training Descriptions (see website <http://www.karpmanconsulting.net/> for
+more details)
+
+
+
+Modeling 101: Energy Modeling for Code Compliance, High Performance
+Buildings, and Building Retrofits
+
+Registration Fee: $329 ($132 with NYSERDA discount*)
+
+This eight hour (1 day) training familiarizes building professionals
+including architects, engineers, building code officials, and
+administrators with the fundamental concepts of whole building energy
+simulation, the energy modeling protocols of ASHRAE Standard 90.1, and the
+various applications of energy modeling including design optimization,
+demonstrating compliance with energy code, LEED certification, incentive
+program participation, and documenting federal tax deductions for
+commercial buildings.
+
+
+
+Modeling 201: eQUEST Energy Modeling for Existing Buildings
+
+Registration Fee: $896 ($358 with NYSERDA discount*)
+
+This sixteen hour (2 day) hands-on training develops the technical skills
+necessary for analyzing energy performance of existing buildings through
+energy modeling, including model calibration to utility bills to improve
+the accuracy of projected savings from retrofits and identifying cost
+effective energy conservation opportunities. The course also covers the
+related ASHRAE standards and guidelines.
+
+
+
+Modeling 202: eQUEST Energy Modeling for New Construction
+
+Registration Fee: $801 ($320 with NYSERDA discount*)
+
+This sixteen hour (2 day) hands-on training develops the technical skills
+necessary for modeling new commercial and multifamily buildings in eQUEST
+following the ASHARE Standard 90.1 Appendix G process, as required by LEED
+and many incentive programs. Topics covered include efficient work flow and
+productivity strategies, model quality control, and converting available
+project data into model inputs.
+
+
+
+Modeling 301: Intermediate HVAC Modeling in eQUEST
+
+Registration Fee: $471 ($188 with NYSERDA discount*)
+
+This eight hour (1 day) hands-on training will build on the foundation
+established by Modeling 201 or Modeling 202 above, to enhance attendee
+modeling skills beyond the beginner level. The focus will be on the most
+common air-side HVAC systems and related energy efficiency measures. The
+training is applicable to modeling both new and existing buildings.
+Additional 300-level classes will be offered in the future on different
+topics.
+
+
+
+Modeling 302: Simulations Requirements of ASHRAE Standard 90.1 2007 / 2010
+/ 2013
+
+Registration Fee: $471 ($188 with NYSERDA discount*)
+
+This one-day training compares the energy modeling requirements of Standard
+90.1 2007, 2010, and 2013. Jurisdictions and rating authorities such as
+LEED and NYSERDA are beginning to transition to the newer versions of the
+standard. As a result, it is important for professionals involved in new
+construction and major renovation projects to be familiar with all three
+versions of the code, including key differences between versions. This
+training provides that knowledge, with a focus on high impact areas and
+practical implications for projects.
+
+
+
+*NYSERDA (the New York State Energy Research and Development Authority)
+provides a 60% discount to eligible attendees, defined as individuals
+residing in New York State whose utility company is Central Hudson Gas and
+Electric Corporation, Consolidated Edison Company of NY, Inc., New York
+State Electric and Gas Corporation, National Grid, Orange and Rockland
+Utilities, Inc.. or Rochester Gas and Electric Corporation OR attendees
+whose employer participates in SBC or EEPS energy efficiency programs. If
+you're not sure whether you qualify, email us at
+training at karpmanconsulting.net.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150707/82ef3876/attachment.htm>
+
+From christian at naturalintelligence.us  Wed Jul  8 05:23:24 2015
+From: christian at naturalintelligence.us (Christian Stalberg)
+Date: Wed, 8 Jul 2015 05:23:24 -0700
+Subject: [Bldg-sim] TRAINING: DesignBuilder/EnergyPlus Training in Dubai
+Message-ID: <269601d0b978$e50ad1d0$af207570$@naturalintelligence.us>
+
+
+
+
+
+	
+
+ <http://us10.campaign-archive1.com/?u=a6339f4bf11e3c3b5d88a7911&id=425cb223e6&e=29dfc232a3> View this email in your browser 
+
+
+
+
+
+  <https://gallery.mailchimp.com/a6339f4bf11e3c3b5d88a7911/images/53057144-6c9e-47e0-a3c9-05809b20c494.jpg> 
+
+
+
+
+
+
+Training offered in Dubai, UAE at British University in Dubai, October 19-23, 2015.
+
+
+Don't miss this opportunity to be trained in the easiest to use/learn, most powerful building energy performance tool available.
+
+
+DesignBuilder is an elegant, seamless integration of building energy performance tools encompassing the totality of building energy use, including whole building energy simulation, daylighting and internal/external CFD (computational fluid dynamics).
+
+Suitable for both residential and commercial applications, DesignBuilder was the first graphical user interface (GUI) to EnergyPlus, the 'gold standard' for whole building energy simulation. With more than ten years of development invested, DesignBuilder is the building energy performance tool of choice for today's architects and engineers.
+
+Developed to simplify the process of building simulation, DesignBuilder allows you to rapidly compare the function and performance of building designs and deliver early stage thru final results on time and on budget. Unlike other products that generate results that are broad and indefinite, or do not address daylighting or airflow and 3-D temperature distribution data in and around buildings, DesignBuilder provides a total solution with data results you can have complete confidence in.
+
+The training is suitable for new and experienced users alike. It is fully modular so that people can attend just one or any number of the days. The course is organized so that architects could attend only the first 2-3 days and the last 2 days are specific to engineers. The focus on day 3 is low energy and passive design modelling and it would therefore be valuable for both architects and engineers.
+
+Space is limited so we encourage early registration.
+
+ <http://energymodeling.net/designbuilder-energyplus-training> Additional course information and registration.
+
+Are you designing and modeling net zero buildings? What are you waiting for? DesignBuilder is the best software on the market today for that job!
+
+
+	
+
+
+
+
+Copyright ? 2015 DesignBuilder USA, All rights reserved.
+
+
+Our mailing address is:
+
+DesignBuilder USA
+
+PO Box 4477
+
+Santa Rosa, CA 95402
+
+ 
+
+
+ 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150708/7f0a7c42/attachment.htm>
+
+From btalbert at aeieng.com  Wed Jul  8 13:02:35 2015
+From: btalbert at aeieng.com (Bill Talbert)
+Date: Wed, 8 Jul 2015 20:02:35 +0000
+Subject: [Bldg-sim] Position Announcement: Affiliated Engineers, Inc. Madison,
+	WI
+Message-ID: <fdd4a76cdad64a649397d3206b09a083@MSN-EX1.aeieng.lan>
+
+Affiliated Engineers, Inc. is seeking a Sustainable Systems Analyst to join our Madison, WI office.  AEI is a leading US-based multi-disciplinary consulting engineering firm, specializing in technically complex projects nationally and internationally in the healthcare, research, energy and utilities, higher education, industrial, mission critical, and sustainability markets. Ranked #1 Science & Technology Engineering Firm by Building Design+Construction magazine, AEI has received 13 R&D magazine Lab of the Year awards.
+
+
+
+The Sustainable Systems Analyst will work within our Sustainable Practice Team to help envision and evaluate high-performance building and system design strategies.   The emphasis will be on using energy, airflow, and daylight simulation tools to help inform design, as well as document performance compared to accepted standards.   The Analyst will also work to educate clients, architects and engineers on new technologies and innovative solutions. There will be opportunities to work with design engineers and develop better understanding and knowledge of the MEP consulting field.
+
+
+
+Minimum Qualifications;
+
+  *   BSME/BSAE (or other engineering discipline with applicable experience).
+  *   2+ years of relevant experience using building simulation tools.
+  *   Strong knowledge of EnergyPlus, TRNSYS, DOE-2, IES-VE, or eQUEST.
+  *   Strong fundamental skills in building engineering thermodynamics.
+
+Preferred Qualifications;
+
+  *   Experience with airflow (CONTAM, OpenFoam, Phoenics), daylight modeling (Elum Tools, DIVA, Radiance, DAYSIM), scripting, Grasshopper tools, AutoCAD/Revit and/or SketchUp is a plus.
+
+Other Required Knowledge, Skills and Abilities;
+
+  *   Strong written and verbal communications skills.
+  *   Excellent organization and time management skills.
+  *   Ability to work under pressure and strict timelines, and to thrive in a fast-paced environment.
+  *   Ability to effectively priorities multiple tasks.
+  *   Ability to work effectively individually and within a team environment.
+
+AEI offers a competitive compensation and benefits package including health, dental, vision, 401(k) with immediate vesting, life and disability insurance, flexible spending plan, employee assistance plan and more.
+
+
+
+To be considered, please apply directly online at www.aeieng.com<http://www.aeieng.com/>.
+
+
+
+AEI is proud to be an EEO/AA Employer/Vet/Disabled.
+
+
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150708/f357c24e/attachment.htm>
+
+From MHuffman at murphymiller.com  Wed Jul  8 13:55:27 2015
+From: MHuffman at murphymiller.com (Matt Huffman)
+Date: Wed, 8 Jul 2015 20:55:27 +0000
+Subject: [Bldg-sim] Chicago Chapter of IBPSA-USA announcement: OpenStudio
+ Updates and Demo by NREL webinar on Thursday July 16, 2015
+Message-ID: <BN3PR0401MB1622516F835CFB5CDAE4AF63BF910@BN3PR0401MB1622.namprd04.prod.outlook.com>
+
+[Cross-posted to BLDG-SIM and IBPSA-USA lists]
+
+________________________________
+
+The Chicago Chapter of IBPSA-USA is pleased to offer a free webinar on Thursday July 16, 2015 to discuss and demonstrate some of the exciting updates to OpenStudio, the free interface for EnergyPlus developed by NREL.  We will be joined by presenters from NREL, including:
+*             Dr. Larry Brackney - Manager
+*             Andrew Parker - Engineer
+*             Daniel Studer - Engineer
+
+Presenter bios can be found at:
+http://www.nrel.gov/buildings/commercial_staff.html#brackney
+
+The planned agenda includes:
+*             OpenStudio Introduction
+*             Measures - What they are and why they're important
+*             OpenStudio Analysis Spreadsheet
+*             The Technology Performance Exchange
+*             The Building Component Library
+*             TPEx - BCL - OpenStudio Integration
+*             Live Demonstration:
+
+?  Drag-and-Drop HVAC (VRF)
+
+?  Parametric Analysis Tool
+
+?  The Impact of Measures
+
+This event will be web-only.  It will start promptly at 11AM CST and last for approximately 1.5 hours.
+
+To register for this free webinar, please go to:  https://attendee.gotowebinar.com/register/8559121146346750209
+
+________________________________
+
+The Chicago Chapter of IBPSA-USA has also organized an OpenStudio workshop for July 21-22, 2015.  This in-depth two day training will be provided by Performance Systems Development.  Seats are limited but still available.  For more information and to register, please go to:  www.openstudiotraining.com<http://www.openstudiotraining.com>
+
+________________________________
+
+Best regards,
+Matt Huffman, LEED AP
+Manager, Energy Services
+Office:  312-435-8218
+Cell:  312-520-5386
+[Signature Sized]
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150708/9610678d/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.jpg
+Type: image/jpeg
+Size: 17103 bytes
+Desc: image001.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150708/9610678d/attachment.jpg>
+
+From rachel.casey at iesve.com  Thu Jul  9 08:39:36 2015
+From: rachel.casey at iesve.com (Rachel Casey)
+Date: Thu, 9 Jul 2015 15:39:36 +0000
+Subject: [Bldg-sim] IES VE Building Performance Training in Honolulu Hawaii
+Message-ID: <571E332900F742448A61611D76E186874B607D84@AT-EXC-01.iesve.com>
+
+    Honolulu Training
+
+
+[http://i.emlfiles5.com/cmpimg/3/0/3/2/4/files/5392791_logo_white.png]<http://iesve-news.co.uk/WN3-3IQ19-9ZK0BJ-1OAR04-1/c.aspx>
+
+
+July 2015
+
+
+
+
+
+
+Join our 2-day IES-VE Software Training: Building Performance Modeling Training in Honolulu
+
+
+Hi,
+
+
+[http://i.emlfiles5.com/cmpimg/3/0/3/2/4/files/3761238_cmp_3_black.png]On March 30th of this year, IES<http://iesve-news.co.uk/WN3-3IQ19-9ZK0BJ-1OAR04-1/c.aspx> held a lunchtime seminar at AIA downtown Honolulu on the topic of Daylight, Airflow and Energy Analysis with Building Performance Modeling<http://iesve-news.co.uk/WN3-3IQ19-9ZK0BJ-1OAUZF-1/c.aspx>.  We have received a very positive feedback, so we are returning to Honolulu to host a hands-on educational course using IES VE Software, a design tool used for high performance building design.
+
+This course takes place on Aug 4th-5th and will cover topics such as:
+
+>> HVAC loads reduction strategies
+>> Natural ventilation
+>> Daylighting
+>> Renewable energy integration
+>> Hawaii's new Building Code:  IECC/ASHRAE 90.1 compliance
+
+A detailed agenda is described below.
+
+
+
+
+
+
+
+
+What will the course cover?
+
+
+Intermediate Building Performance & Simulation Analysis (Day 1 of 2):
+
+
+[http://i.emlfiles5.com/cmpimg/3/0/3/2/4/files/imagecache/5912397/w374_5943826_liam.jpg]
+
+
+>> Build 3D Models and import from SketchUp & Revit
+>> Climate, Bio-Climate and Weather Analysis
+>> Solar Analysis
+>> Envelope Analysis (Thermal & Condensation)
+>> Internal Gains Analysis (Plug Loads, People, Lighting, Etc.)
+>> Artificial Lighting Design
+>> Daylight Harvesting Analysis and Daylight Autonomy
+>> Daylighting for LEED (LEED IEQc8.1)
+>> Occupancy Thermal Comfort (LEED IEQc7.1)
+>> Renewable and Green Power (LEED EAc2, EAc6)
+>> Rainwater Harvesting (LEED WE 1, 2, 3)
+
+
+
+Advanced Building Performance & Simulation Analysis (Day 2 of 2):
+
+
+>> ASHRAE Heating and Cooling Loads
+>> Dynamic Thermal Simulation Analysis (Loads, Energy & Carbon)
+>> Detailed HVAC Sizing & Energy Analysis
+>> Modeling of ASHRAE 90.1 PRM HVAC Systems & Controls (LEED EAc1)
+>> Natural/Mixed-mode Ventilation Analysis
+>> ASHRAE 62.1 Increased Ventilation Analysis (LEED IEQc2)
+>> Analyze various HVAC systems & with active controls for ASHRAE Baseline and Proposed systems (e.g. VAV+RH, DOAS, UFAD, Active Chilled Beams, Radiant systems etc.)
+>> Heat exchangers, indirect-evaporative cooling, energy recovery, heat pipes, runaround loops, and desiccant wheels
+>> Advanced Occupancy CFD Comfort analysis for ASHRAE 55 (LEED IEQc7.1)
+
+
+[http://i.emlfiles5.com/cmpimg/3/0/3/2/4/files/imagecache/5912397/w500_6416965_heatingpichawaii.jpg]
+
+
+
+
+
+Note: Trainees are required to bring a laptop to our session with the VE installed two days prior to training. We will provide your complimentary training license upon registration. Please read and accept the IES Training T&Cs<http://iesve-news.co.uk/WN3-3IQ19-9ZK0BJ-1OAR05-1/c.aspx> before booking any training.
+
+
+
+
+
+
+
+
+
+
+Honolulu Details
+
+
+Date:         August 4th-5th, 2015
+
+Time:        8:30am - 4:30pm
+
+Location:   AIA Honolulu<http://iesve-news.co.uk/WN3-3IQ19-9ZK0BJ-1OB6BL-1/c.aspx>, 828 Fort Street Mall
+                  Suite 100, Honolulu, HI 96813
+
+Cost:         Single day: $350; Both Days:
+                  $300/day ($600)
+
+Breakfast will be provided prior to training.
+
+
+[http://i.emlfiles5.com/cmpimg/t/s.gif]
+
+[http://i.emlfiles5.com/cmpimg/3/0/3/2/4/files/imagecache/5912397/w320_5659615_shutterstock_29722039.jpg]
+
+
+
+Book Now<http://iesve-news.co.uk/WN3-3IQ19-9ZK0BJ-1ODEZE-1/c.aspx>
+
+[Learn More]
+
+
+
+
+
+
+
+
+
+
+
+Get in touch
+
+
+If you have any questions, please feel free to email our US Training Team<mailto:ustraining at iesve.com> or call 404.806.2018.
+
+
+
+
+
+Registered in Scotland No. SC151456
+
+Registered Office:
+834 Inman Village Parkway NE
+Suite 230
+Atlanta GA 30307
+United States
+
+
+[http://i.emlfiles5.com/cmpimg/t/s.gif]
+
+[http://i.emlfiles5.com/cmpimg/3/0/3/2/4/files/imagecache/5912397/w32_4995555_socialiconfacebook.jpg]<http://iesve-news.co.uk/WN3-3IQ19-9ZK0BJ-1OAR0A-1/c.aspx>
+
+[http://i.emlfiles5.com/cmpimg/3/0/3/2/4/files/imagecache/5912397/w32_4995557_socialicontwitter.jpg]<http://iesve-news.co.uk/WN3-3IQ19-9ZK0BJ-1OAR0B-1/c.aspx>
+
+[http://i.emlfiles5.com/cmpimg/3/0/3/2/4/files/imagecache/5912397/w32_4995558_socialiconyoutube.jpg]<http://iesve-news.co.uk/WN3-3IQ19-9ZK0BJ-1OAR0C-1/c.aspx>
+
+[http://i.emlfiles5.com/cmpimg/3/0/3/2/4/files/imagecache/5912397/w32_4995556_socialiconlinked.jpg]<http://iesve-news.co.uk/WN3-3IQ19-9ZK0BJ-1OAR0D-1/c.aspx>
+
+
+
+[http://i.emlfiles5.com/cmpimg/t/s.gif]
+
+
+(c) Copyright 2015 Integrated Environmental Solutions Limited.
+All rights reserved.
+
+
+
+
+[cid:image015.jpg at 01D0BA3B.EE15D770]<http://www.iesve.com/>
+
+Rachel Casey
+Training and Marketing Coordinator
+
+
+US:.404.806.2018
+Ext. 099
+
+
+http://www.iesve.com<http://www.iesve.com/>
+
+
+Integrated Environmental Solutions Limited. Registered in Scotland No. SC151456
+Registered Office - Helix Building, West Of Scotland Science Park, Glasgow G20 0SP
+
+Email Disclaimer<http://www.iesve.com/disclaimer.html>
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/991c5dd8/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 1582 bytes
+Desc: image001.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/991c5dd8/attachment.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image002.png
+Type: image/png
+Size: 5634 bytes
+Desc: image002.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/991c5dd8/attachment-0001.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image003.png
+Type: image/png
+Size: 5460 bytes
+Desc: image003.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/991c5dd8/attachment-0002.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image004.jpg
+Type: image/jpeg
+Size: 10054 bytes
+Desc: image004.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/991c5dd8/attachment.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image005.jpg
+Type: image/jpeg
+Size: 25715 bytes
+Desc: image005.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/991c5dd8/attachment-0001.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image006.png
+Type: image/png
+Size: 168 bytes
+Desc: image006.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/991c5dd8/attachment-0003.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image007.png
+Type: image/png
+Size: 168 bytes
+Desc: image007.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/991c5dd8/attachment-0004.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image008.jpg
+Type: image/jpeg
+Size: 10629 bytes
+Desc: image008.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/991c5dd8/attachment-0002.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image009.png
+Type: image/png
+Size: 742 bytes
+Desc: image009.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/991c5dd8/attachment-0005.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image010.jpg
+Type: image/jpeg
+Size: 804 bytes
+Desc: image010.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/991c5dd8/attachment-0003.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image011.jpg
+Type: image/jpeg
+Size: 859 bytes
+Desc: image011.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/991c5dd8/attachment-0004.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image012.jpg
+Type: image/jpeg
+Size: 897 bytes
+Desc: image012.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/991c5dd8/attachment-0005.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image013.jpg
+Type: image/jpeg
+Size: 856 bytes
+Desc: image013.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/991c5dd8/attachment-0006.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image014.png
+Type: image/png
+Size: 168 bytes
+Desc: image014.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/991c5dd8/attachment-0006.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image015.jpg
+Type: image/jpeg
+Size: 1423 bytes
+Desc: image015.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/991c5dd8/attachment-0007.jpg>
+
+From Giuseppe.DeMichele at eurac.edu  Thu Jul  9 08:41:09 2015
+From: Giuseppe.DeMichele at eurac.edu (De Michele Giuseppe)
+Date: Thu, 9 Jul 2015 15:41:09 +0000
+Subject: [Bldg-sim] Literature on validation of thermal model for CFS
+Message-ID: <5DA79296BA1C964A87A32D0090FED1ACAE0EF2@SDCEMB02.unibz.it>
+
+Dear All,
+
+I am looking for literature about the validation with experimental measurement of the detailed thermal model (BSDF-based) of complex fenestration systems within Energy Plus/ESP-r (or equivalent software).
+
+Any suggestion is welcome!
+
+Thanks,
+
+Giuseppe De Michele
+
+EURAC Research
+Institute for Renewable Energy
+Via G. Di Vittorio 16, I-39100 Bolzano
+t +39 0471 055 685
+f +39 0471 055 699
+Giuseppe.DeMichele at eurac.edu<mailto:Giuseppe.DeMichele at eurac.edu>
+www.eurac.edu<http://www.eurac.edu/>
+
+EURAC research
+Legal Seat
+Viale Druso 1, I-39100 Bolzano
+
+This transmission is intended only for the use of the addressee and may contain confidential or legally privileged information.
+If you receive this transmission by error, please notify the author immediately by mail and delete all copies of this transmission and any attachments.
+Any use or dissemination of this communication is strictly prohibited by the "Privacy-Code", D.Lgs. 196/2003 and may lead to penal prosecution and liability for damages.
+
+P Think before you print
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/7fcbe772/attachment.htm>
+
+From maria.karpman at karpmanconsulting.net  Thu Jul  9 09:11:59 2015
+From: maria.karpman at karpmanconsulting.net (Maria Karpman)
+Date: Thu, 9 Jul 2015 12:11:59 -0400
+Subject: [Bldg-sim] Release date of addenda supplement to 90.1 2013
+Message-ID: <096601d0ba61$fd49ca50$f7dd5ef0$@karpmanconsulting.net>
+
+Does anyone know the release date of the supplement to 90.1 2013, and
+whether addendum bm will be included in it? 
+
+ 
+
+I searched on-line for a version of addendum bm that was posted for public
+review, but had no luck. I know that review is closed and that the final
+version would have some differences, but was hoping that the draft would
+linger. Does anyone happen to have it and is willing to share? 
+
+ 
+
+Thanks,
+
+ 
+
+Maria
+
+ 
+
+-- 
+
+Maria Karpman LEED AP, BEMP, CEM
+
+________________
+
+Karpman Consulting
+
+ <http://www.karpmanconsulting.net/> www.karpmanconsulting.net 
+
+Phone 860.430.1909 
+
+41C New London Turnpike
+
+Glastonbury, CT 06033
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/a47da473/attachment.htm>
+
+From simgeandolsun at gmail.com  Thu Jul  9 14:25:32 2015
+From: simgeandolsun at gmail.com (Simge Andolsun)
+Date: Thu, 9 Jul 2015 16:25:32 -0500
+Subject: [Bldg-sim] Energy Modeler Positions at alliantgroup
+Message-ID: <CAHm8iRM5h6io_B3MJXM_wu5YyC2vJ4RaFF_65m2rLd3a3NfocA@mail.gmail.com>
+
+alliantgroup is looking for Energy Modelers. Please contact me if you are
+interested. My contact details are below.
+
+Energy Modeler Commercial Buildings - (929757)
+Description
+ *alliantgroup, LP *is currently experiencing explosive growth! As a
+national consulting firm focused on being the voice to the middle market,
+our mission is simple: Strengthening American businesses. How do we do
+this? We hire the brightest talent with the most diverse backgrounds who
+are passionate about making a difference.
+
+The *Energy Modeler* has high visibility within one of our fastest growing
+and most successful divisions.
+
+In this role, you will be a key player in the team?s success. You will work
+hand-in-hand with the Professional Engineers and Project Managers as part
+of our Energy division. The Energy Modeler is organized, analytical and
+possesses strong business judgment and communication skills needed to
+interact with various organizational departments.
+
+
+*Responsibilities:*
+
+   - Convert sketches or specifications of the project or product into
+   detailed CAD drawings
+   - Provide energy simulations in eQuest and other programs
+   - Detailed energy modeling using CAD software
+   - Interpret instruction in written, oral, diagram, or schedule format
+   - Proactively works with Project Managers and Professional Engineers to
+   ensure the team is meeting and exceeding expected project deadlines
+   - Actively participate in daily project discussion meetings to review
+   project content and deadlines
+   - Communicate with cross-functional internal teams to ensure timely
+   delivery of project content
+   - Expectation of confidentiality in all business matters
+
+
+
+Qualifications
+
+
+   - Minimum 1-2 years of experience in a professional, fast-paced
+   environment
+   - BA or BS degree required, Architectural degree preferred
+   - Proficiency with CAD or similar software required
+   - Intermediate to advanced proficiency in Microsoft Office Suite
+   - Excellent verbal and written communication skills
+   - Excellent problem-solving, research and analytical skills
+   - High attention to detail
+   - Above average organizational skills
+   - Effectively manage multiple tasks
+   - Ability to thrive in a fast-paced, deadline driven environment
+   - Candidate must be in Houston, TX area
+
+
+
+Never follow. Always lead. *alliantgroup.*
+
+Primary Location: Texas-Houston
+Job
+: Engineering
+
+
+Thanks,
+
+*Simge Andolsun, Ph.D., M.S.*
+ASSOCIATE DIRECTOR OF TECHNICAL ENERGY MODELING
+
+*a**lliantgroup*
+
+3009 Post Oak Blvd., Suite 2000
+Houston, TX 77056
+
+*P* 713.212.1413
+*C* 979.450.5374
+*E* *simge.andolsun at alliantgroup.com <simge.andolsun at alliantgroup.com>*
+
+*www.alliantgroup.com* <http://www.alliantgroup.com/>
+
+*Strengthening American Businesses Is Our Mission*
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150709/db93661c/attachment.htm>
+
+From arpan.bakshi at performance.network  Fri Jul 10 13:36:30 2015
+From: arpan.bakshi at performance.network (arpan.bakshi at performance.network)
+Date: Fri, 10 Jul 2015 20:36:30 +0000
+Subject: [Bldg-sim] Performance Workshop Library
+In-Reply-To: <BY2PR15MB01499BCA4780611F494974938A9F0@BY2PR15MB0149.namprd15.prod.outlook.com>
+References: <BY2PR15MB01499BCA4780611F494974938A9F0@BY2PR15MB0149.namprd15.prod.outlook.com>
+Message-ID: <BY2PR15MB014949E9DBCEA0AEEC1F2D998A9F0@BY2PR15MB0149.namprd15.prod.outlook.com>
+
+
+PERFORMANCE WORKSHOP LIBRARY
+
+https://vimeo.com/ondemand/performancenetwork
+
+
+
+The performance workshop library contains the following recorded workshops led by industry experts. New workshops are added each month as live webinars take place. Visit here<https://vimeo.com/ondemand/performancenetwork>.
+
+
+
+FACADES
+
+  *   ?Facade Performance 101
+
+
+ENERGY
+
+  *   Sefaira Systems Powered by EnergyPlus
+  *   SketchUp Energy Analysis OpenStudio 101
+  *   EPC An Early Stage Analysis workflow from Georgia Tech and Perkins Will
+  *   HoneyBee for Energy Analysis in Rhino3D
+
+
+NATURAL VENTILATION
+
+  *   ?MIT Coolvent Natural Ventilation Tool
+
+
+DAYLIGHT
+
+  *   HoneyBee Daylight Analysis in Rhino3D
+  *   LEED v4 Daylight Metrics and LightStanza: Daylight in the Cloud
+
+
+CLIMATE
+
+  *   ?LadyBug Parametric Climate Analysis in Rhino
+
+
+URBAN DESIGN
+
+  *   ?MIT SUTD Urban Network Analysis Toolbox for Rhino3D
+
+
+
+Access all recorded workshops at the Performance Workshop Library:
+
+https://vimeo.com/ondemand/performancenetwork
+
+
+
+
+Organized by Performance.Network<http://www.performance.network>
+
+...
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150710/dc438e92/attachment.htm>
+
+From arpan.bakshi at performance.network  Fri Jul 10 13:34:57 2015
+From: arpan.bakshi at performance.network (arpan.bakshi at performance.network)
+Date: Fri, 10 Jul 2015 20:34:57 +0000
+Subject: [Bldg-sim] Performance Workshop Library
+Message-ID: <BY2PR15MB01499BCA4780611F494974938A9F0@BY2PR15MB0149.namprd15.prod.outlook.com>
+
+[cid:1ca1be1a-7c06-4c40-8c2f-f83017a474c4]
+
+PERFORMANCE WORKSHOP LIBRARY
+
+https://vimeo.com/ondemand/performancenetwork
+
+
+
+The performance workshop library contains the following recorded workshops led by industry experts. New workshops are added each month as live webinars take place. Visit here<https://vimeo.com/ondemand/performancenetwork>.
+
+
+
+FACADES
+
+  *   ?Facade Performance 101
+
+
+ENERGY
+
+  *   Sefaira Systems Powered by EnergyPlus
+  *   SketchUp Energy Analysis OpenStudio 101
+  *   EPC An Early Stage Analysis workflow from Georgia Tech and Perkins Will
+  *   HoneyBee for Energy Analysis in Rhino3D
+
+
+NATURAL VENTILATION
+
+  *   ?MIT Coolvent Natural Ventilation Tool
+
+
+DAYLIGHT
+
+  *   HoneyBee Daylight Analysis in Rhino3D
+  *   LEED v4 Daylight Metrics and LightStanza: Daylight in the Cloud
+
+
+CLIMATE
+
+  *   ?LadyBug Parametric Climate Analysis in Rhino
+
+
+URBAN DESIGN
+
+  *   ?MIT SUTD Urban Network Analysis Toolbox for Rhino3D
+
+
+
+Access all recorded workshops at the Performance Workshop Library:
+
+https://vimeo.com/ondemand/performancenetwork
+
+
+
+
+Organized by Performance.Network<http://www.performance.network>
+
+...
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150710/eade61cc/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: pastedImage.png
+Type: image/png
+Size: 350079 bytes
+Desc: pastedImage.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150710/eade61cc/attachment.png>
+
+From CMSaldanha at sgh.com  Fri Jul 10 15:09:45 2015
+From: CMSaldanha at sgh.com (Cheryl M. Saldanha)
+Date: Fri, 10 Jul 2015 22:09:45 +0000
+Subject: [Bldg-sim] IBPSA-USA NY Regional Chapter | Modeling for Compliance
+ w/2014 NYC ECC - Commercial Chapter
+Message-ID: <ee286a609aae49b9b614777489d0bb8e@exchbos-mail.sgh.com>
+
+
+IBPSA-USA New York Regional Chapter presents:
+
+Energy Modeling for Compliance with the 2014 NYC Energy Code - Commercial Chapter
+
+Location: Simpson Gumpertz & Heger Inc., 550 Seventh Ave., 10th Floor, New York, NY
+
+Date & Time: Tuesday July 28, 2015 - 6:00 - 8:00 PM.
+
+6:00-6:30 PM: Networking
+
+6:30-7:30 PM: Presentation by Emily Hoffman
+
+7:30-8:00 PM: Q&A
+
+Click here to register: https://attendee.gotowebinar.com/register/6218749073348677890
+
+
+
+Presenter:
+
+
+Emily Hoffman, PE, CEM, LEED AP, CPMP
+Director Energy Code Compliance
+
+Description:
+
+For our July meeting, we will have members of the NYC Department of Buildings Technical Affairs Unit present on energy modeling for compliance with the commercial chapter of the 2014 New York City Energy Code.
+
+The presentation will cover the following:
+
+*                     What triggers the performance compliance path in the commercial chapter?
+
+*                     Is an energy model only required for enclosure compliance, should mechanical/lighting designers still submit COMcheck reports?  Or does the energy model cover all three?
+
+*                     What are the options within performance path (i.e., ASHRAE 2010 v. NYC ECC)?
+
+*                     If following ASHRAE 90.1-2010, do you have to model per Ch. 11 ECB and Normative App. G?
+
+*                     What does Appendix A of 2014 NYC ECC require?
+
+*                     What supporting documentation is required?  What should be included on drawings (EN sheets)?
+
+
+
+
+Cheryl M. Saldanha
+Chair | IBPSA-USA NY Regional Chapter
+Simpson Gumpertz & Heger
+
+LinkedIn: https://www.linkedin.com/grp/home?gid=3058162
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150710/b001842e/attachment.htm>
+
+From vickil at ncat.org  Sun Jul 12 10:14:34 2015
+From: vickil at ncat.org (Vicki Lynne)
+Date: Sun, 12 Jul 2015 11:14:34 -0600
+Subject: [Bldg-sim] Relief Fan in Baseline Fan Power
+Message-ID: <004401d0bcc6$3a25b2c0$ae711840$@ncat.org>
+
+Hello - I have a question about relief fans in a LEED baseline eQuest model.
+I'm using the baseline fan power spreadsheet to calculate kW/cfm.  If a
+system has both a supply and a return fan then the accepted method splits
+the supply fan power between the two fans.  However, if the system has a
+supply fan and a relief fan that, in theory anyway, comes on only during
+economizer cooling, I don't think that splitting up the supply fan power
+between the supply and relief fans makes sense.  The relief fan will only
+run part of the year, especially in climate zone 6b.  So it won't be a good
+representation of the fan energy and ends penalizing the proposed model
+energy savings.  Does anyone have any experience with this in regards to
+what the LEED reviewers might accept?
+
+ 
+
+Thanks!
+
+ 
+
+v.
+
+ 
+
+Vicki Lynne, PE
+
+National Center for Appropriate Technology
+
+PO Box 3838
+
+Butte, MT 59728
+
+Home office  406.492.8166
+
+vickil at ncat.org 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150712/261072db/attachment.htm>
+
+From jim at buildingperformanceteam.com  Sun Jul 12 17:46:13 2015
+From: jim at buildingperformanceteam.com (Jim Dirkes)
+Date: Sun, 12 Jul 2015 20:46:13 -0400
+Subject: [Bldg-sim] ASHRAE Energy Modeling Conference needs a "Coach" for
+	the eQuest team
+Message-ID: <CAFydjmSbOWy0wsJbzd0fGwiw5iCiEoKY6+tuayyL=73k0pcaVQ@mail.gmail.com>
+
+Dear Bldg-Sim community,
+Many of you are aware that the ASHRAE Energy Modeling Conference in the
+Fall is promoting a "Low Down Showdown
+<https://www.ashrae.org/membership--conferences/conferences/ashrae-conferences/lowdown-showdown>",
+in which modeling teams are challenged to design a Net Zero building, then
+present the results during the conference.
+The eQuest team currently lacks a "Coach", which for other teams is
+ someone designated by the software vendor.  We (the conference Steering
+Committee) are hoping to find someone who will volunteer to Coach that team
+as it uses EQuest to help design the modeling challenge building.
+If you think you might be able to do so, please contact me to discuss it.
+
+-- 
+
+James V Dirkes II, PE, BEMP, LEED AP
+CEO/President
+The Building Performance Team Inc.
+1631 Acacia Dr, GR, Mi 49504
+
+Direct: 616.450.8653
+jim at buildingperformanceteam.com
+
+Website <http://buildingperformanceteamcom>l  LinkedIn
+<https://www.linkedin.com/pub/jim-dirkes/7/444/413>
+
+ Life is not easy.  It?s never been easy. Expecting it to be easy is not a
+healthy attitude.
+Relax. Refresh. Regroup. Carry on.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150712/96b509b5/attachment.htm>
+
+From christian at naturalintelligence.us  Mon Jul 13 12:27:45 2015
+From: christian at naturalintelligence.us (Christian Stalberg)
+Date: Mon, 13 Jul 2015 12:27:45 -0700
+Subject: [Bldg-sim] TRAINING: DesignBuilder/EnergyPlus Training in Boston
+Message-ID: <025901d0bda2$012296a0$0367c3e0$@naturalintelligence.us>
+
+
+
+
+
+	
+
+ <http://us10.campaign-archive1.com/?u=a6339f4bf11e3c3b5d88a7911&id=425cb223e6&e=29dfc232a3> View this email in your browser 
+
+
+
+
+
+  <https://gallery.mailchimp.com/a6339f4bf11e3c3b5d88a7911/images/53057144-6c9e-47e0-a3c9-05809b20c494.jpg> 
+
+
+
+
+
+
+Training in Boston, MA, August 3-7, 2015
+
+
+Don't miss this opportunity to be trained in the easiest to use/learn, most powerful building energy performance tool available.
+
+
+DesignBuilder is an elegant, seamless integration of building energy performance tools encompassing the totality of building energy use, including whole building energy simulation, daylighting and internal/external CFD (computational fluid dynamics).
+
+Suitable for both residential and commercial applications, DesignBuilder was the first graphical user interface (GUI) to EnergyPlus, the 'gold standard' for whole building energy simulation. With more than ten years of development invested, DesignBuilder is the building energy performance tool of choice for today's architects and engineers.
+
+Developed to simplify the process of building simulation, DesignBuilder allows you to rapidly compare the function and performance of building designs and deliver early stage thru final results on time and on budget. Unlike other products that generate results that are broad and indefinite, or do not address daylighting or airflow and 3-D temperature distribution data in and around buildings, DesignBuilder provides a total solution with data results you can have complete confidence in.
+
+The training is suitable for new and experienced users alike. It is fully modular so that people can attend just one or any number of the days. The course is organized so that architects could attend only the first 2-3 days and the last 2 days are specific to engineers. The focus on day 3 is low energy and passive design modelling and it would therefore be valuable for both architects and engineers.
+
+Space is limited so we encourage early registration.
+
+ <http://designbuilderusa.com/training/designbuilder-simulation-training-days> Additional course information and registration.
+
+Are you designing and modeling net zero buildings? What are you waiting for? DesignBuilder is the best software on the market today for that job!
+
+
+	
+
+
+
+
+Copyright ? 2015 DesignBuilder USA, All rights reserved.
+
+
+Our mailing address is:
+
+DesignBuilder USA
+
+PO Box 4477
+
+Santa Rosa, CA 95402
+
+ 
+
+
+ 
+
+ 
+
+
+  <http://y.analytics.yahoo.com/fpc.pl?ywarid=515FB27823A7407E&a=10001310322279&js=no&resp=img> 
+
+__,_._,___
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150713/93aaa576/attachment.htm>
+
+From mwetter at lbl.gov  Mon Jul 13 16:53:34 2015
+From: mwetter at lbl.gov (Michael Wetter)
+Date: Mon, 13 Jul 2015 16:53:34 -0700
+Subject: [Bldg-sim] Modelica Buildings library 2.1.0 released
+Message-ID: <CACXXVcgsfNO4TF-mUktiwKShiR=CEmod3CMQ-4qG+_gHk_paSA@mail.gmail.com>
+
+LBNL released the Modelica Buildings library 2.1.0, which is fully
+compatible with version 2.0.0.
+
+Version 2.1.0 adds the package Buildings.Fluid.FMI that provides containers
+for exporting thermofluid flow components as FMUs. It also updates the
+temperature sensor to optionally simulate heat losses, and it contains bug
+fixes for the trace substance sensor if used without flow reversal.
+
+Improvements have been made to various models to reduce the simulation
+time, and to Buildings.Examples.Tutorial.Boiler to simplify the control
+implementation.
+
+For a detailed list of changes, see
+http://simulationresearch.lbl.gov/modelica/releases/v2.1.0/help/Buildings_UsersGuide_ReleaseNotes.html#Buildings.UsersGuide.ReleaseNotes.Version_2_1_0
+
+For more information and download, visit
+http://simulationresearch.lbl.gov/modelica/
+
+The development page is https://github.com/lbl-srg/modelica-buildings
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150713/1343d3f2/attachment.htm>
+
+From peter.ellis at bigladdersoftware.com  Wed Jul 15 08:28:51 2015
+From: peter.ellis at bigladdersoftware.com (Peter Ellis)
+Date: Wed, 15 Jul 2015 09:28:51 -0600
+Subject: [Bldg-sim] TRAINING - EnergyPlus for Practitioners, Atlanta,
+	September 28-29
+Message-ID: <CAN1ZnDvsP1PV2m3pnOqjHYgsYbZD9qfrQB-A7WtkN6PC1PzUjg@mail.gmail.com>
+
+Big Ladder Software is pleased to announce a new training workshop for
+*EnergyPlus* to be held in advance of the ASHRAE Energy Modeling Conference:
+
+
+*EnergyPlus for Practitioners*Atlanta, September 28-29, 2015
+Details and registration
+<http://energyplus-for-practitioners.eventbrite.com/>
+
+
+- Have you ever wanted to truly understand how to use *EnergyPlus* at the
+text level?
+- Have you been using *OpenStudio*, *DesignBuilder*, or another GUI and had
+the need to peek under the hood to debug a problem or implement a measure
+or workaround?
+
+*This workshop should be a prerequisite for anyone planning to work with
+EnergyPlus regardless of what user interface you choose.*
+
+Visit the Big Ladder website to learn more about our training philosophy.
+<http://bigladdersoftware.com/projects/energyplus/training.html#philosophy>
+
+In this two-day workshop we focus on the needs of the energy modeling
+practitioner in order to get you up to speed and highly productive with
+*EnergyPlus* as quickly as possible. We cover the fundamentals of
+*EnergyPlus* such as geometry and internal loads while rapidly ramping up
+to advanced topics such as HVAC systems and controls. We guide you through
+the complexities of the *EnergyPlus* syntax, input/output files,
+documentation, and essential software tools including the *OpenStudio*
+(legacy) plugin for *SketchUp*. Most importantly, we teach you how to use
+the available resources to teach yourself going forward. Demonstrations and
+hands-on exercises are used extensively throughout. By the end of the
+workshop, you should be comfortable with creating, running, and debugging
+*EnergyPlus* models.
+
+Space is limited so register now!
+<http://energyplus-for-practitioners.eventbrite.com/>
+
+http://energyplus-for-practitioners.eventbrite.com/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150715/ee24a983/attachment.htm>
+
+From asmith at mreng.ca  Thu Jul 16 05:45:19 2015
+From: asmith at mreng.ca (Aaron Smith)
+Date: Thu, 16 Jul 2015 09:45:19 -0300
+Subject: [Bldg-sim] EE Wizard for Arenas
+Message-ID: <01a101d0bfc5$462d2290$d28767b0$@mreng.ca>
+
+Hi,
+
+ 
+
+Does anyone know if EE Wizard for Arenas is still available online?  The
+link doesn't seem to work anymore.  I also read somewhere that there was a
+stand-alone (computer installed) version, I'm not sure if that is available?
+
+ 
+
+I'm aware that RETScreen has a refrigeration module for pre-feasibility
+analysis but I think EE Wizard has additional capabilities.
+
+ 
+
+Thanks,
+Aaron
+
+ 
+
+
+     Aaron Smith, P.Eng
+
+ 
+
+   LEEDR AP BD+C, M-ASHRAE, BEMP, CGD
+
+       
+
+
+     t: (902) 422-7393
+
+     f: (902) 423-4945
+
+     e:  <mailto:asmith at mreng.ca> asmith at mreng.ca
+
+     
+
+     Visit our new website at  <http://www.mreng.ca/> www.mreng.ca 
+
+ 
+
+
+The electronic message contained herein is private and confidential,
+intended only for the recipient(s) specified. If you have received this
+message in error, please delete it and notify us immediately.  Any
+accompanying files are supplied as a matter of courtesy only.  The data are
+without warranty of any kind.  Any person or business making use of the data
+is responsible for confirming its accuracy and completeness.  M&R
+Engineering Ltd. is not responsible for edited or produced versions of this
+digital information. 
+
+ 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150716/a0a4f6fc/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 1844 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150716/a0a4f6fc/attachment.jpeg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 1302 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150716/a0a4f6fc/attachment-0001.jpeg>
+
+From sayala81 at gmail.com  Mon Jul 20 07:00:14 2015
+From: sayala81 at gmail.com (Steven Ayala)
+Date: Mon, 20 Jul 2015 07:00:14 -0700
+Subject: [Bldg-sim] IBPSA-USA July 2015 Newsletter
+Message-ID: <CAHnj2X5Hm--JsWomWU0B6OfKQssCgDJO3tfJ2eW72GC7vW7STQ@mail.gmail.com>
+
+Greetings:
+
+The July 2015 issue of the IBPSA-USA Newsletter is now available:
+http://eepurl.com/btltrr
+
+Take a look to see the latest news and updates from the IBPSA-USA
+community. Be sure to also check-out our latest training and event listings.
+
+Feel free to subscribe
+<http://ibpsa.us3.list-manage.com/subscribe?u=545ecdecc811a6e412a8810dd&id=0af59bbb65>
+if
+you'd like our newsletter sent directly to your inbox.
+
+Thank you,
+
+Steven Ayala
+IBPSA-USA Project Manager
+steven at ibpsa.us
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150720/5f138553/attachment.htm>
+
+From chris.malcolm.yates at gmail.com  Mon Jul 20 09:55:30 2015
+From: chris.malcolm.yates at gmail.com (Chris Yates)
+Date: Mon, 20 Jul 2015 17:55:30 +0100
+Subject: [Bldg-sim] Real-time pv yield as a surrogate for irradiance
+Message-ID: <CAOQXAFCN6MNoJYQG0RgUTS96G9TAYau1MRvV3Qbimxc68caP4Q@mail.gmail.com>
+
+Ok, so there's no substitute for doing weather data right.
+
+However, in the absence of such data, could real-time pv yield be used as a
+surrogate?
+
+Chris
+
+Sent from my Android device. Please excuse typos, etc.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150720/d2348015/attachment.htm>
+
+From jspencer17 at gmail.com  Mon Jul 20 11:21:18 2015
+From: jspencer17 at gmail.com (Justin Spencer)
+Date: Mon, 20 Jul 2015 12:21:18 -0600
+Subject: [Bldg-sim] Real-time pv yield as a surrogate for irradiance
+In-Reply-To: <CAOQXAFCN6MNoJYQG0RgUTS96G9TAYau1MRvV3Qbimxc68caP4Q@mail.gmail.com>
+References: <CAOQXAFCN6MNoJYQG0RgUTS96G9TAYau1MRvV3Qbimxc68caP4Q@mail.gmail.com>
+Message-ID: <CAB+zL_=fgoJVJqK3H=M6XewfewtR+D-+38Smhy0eKq_wd2ywMA@mail.gmail.com>
+
+You can use anything you want as a surrogate, as long as you have some way
+of proving it works. In this case, if you could somehow get real time PV
+data for a set of sites that also had actual insolation and then looked at
+your results, I think you could derive a typical relationship that wouldn't
+lead you too far astray. The problem will come when there are passing
+clouds and the PV system is "hunting" all the time trying to catch up with
+the changing insolation. I bet you could find those and apply a bias
+correction that could then be used in multiple sites with real time PV
+data.
+
+On Mon, Jul 20, 2015 at 10:55 AM, Chris Yates <chris.malcolm.yates at gmail.com
+> wrote:
+
+> Ok, so there's no substitute for doing weather data right.
+>
+> However, in the absence of such data, could real-time pv yield be used as
+> a surrogate?
+>
+> Chris
+>
+> Sent from my Android device. Please excuse typos, etc.
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150720/f338b7de/attachment.htm>
+
+From kleichliter at uidaho.edu  Mon Jul 20 14:46:58 2015
+From: kleichliter at uidaho.edu (Leichliter, Katie (kleichliter@uidaho.edu))
+Date: Mon, 20 Jul 2015 21:46:58 +0000
+Subject: [Bldg-sim] BSUG this Wednesday!
+Message-ID: <BN3PR0401MB12020D9AF666286B629F0056D8850@BN3PR0401MB1202.namprd04.prod.outlook.com>
+
+BUILDING SIMULATION USERS' GROUP (BSUG)
+Simulation Engine Loads Comparison and Heat Pump Calculator Preview
+[cid:image001.jpg at 01D0C303.420B9D40]
+
+Target Audience:
+
+Engineers, Architects, & Simulationists -
+CEU/PDHs AVAILABLE for in-person attendees!
+
+
+Date and Time:
+
+July 22, 2015 - 12:00 to 1:00 p.m. MT
+
+
+Location:
+
+UI - IDL Classroom - 306 S 6th St. Boise, ID
+
+
+Registration:
+
+Remote Webinar<https://attendee.gotowebinar.com/register/5972107724989510914> or Live Presentation<http://goo.gl/forms/E9n96zshXl>*
+*FREE LUNCH provided to in-person attendees registered 24 hours in advance
+
+
+Description:
+A macro-free, single zone Heat Pump Energy Savings Calculator (HePESC) workbook is currently under development by the Integrated Design Lab in Boise, Idaho. As part of the calculator vetting process, an in-depth loads analysis was done comparing the heat gain results with those from EnergyPlus and eQuest. Comparisons were made for lighting, plug loads, infiltration, glazing solar heat gain, zone temperature, and overall building loads. Through these comparisons, it is obvious the simulations use differing calculation methods which result in varying final outputs. This presentation will give a brief overview of the heat pump calculator project and progress, then further discuss the loads results from the simulation studies and possible next steps.
+
+Bio:
+Katie Leichliter is a Research Scientist at the University of Idaho - Integrated Design Lab in Boise. She conducts energy efficiency field work, measurement and verification, and operational and investment grade audits. Katie also conducts simulation research for energy efficiency in existing building renewal projects, and has developed stand-alone energy analysis tools. She has given multiple presentations on building efficiency opportunities to building design and operation professionals. Katie graduated with a Bachelors and Masters of Science in Mechanical Engineering from the University of Idaho and spent three years in a private mechanical design practice specializing in BIM, building simulation, and HVAC design. Katie serves on the board of governors of the Idaho ASHRAE Chapter.
+
+
+
+Katie Leichliter, P.E.
+Research Scientist
+University of Idaho
+Integrated Design Lab - Boise
+www.uidaho.edu/idl
+Ph:  208.401.0649
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150720/ba335c05/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.jpg
+Type: image/jpeg
+Size: 39130 bytes
+Desc: image001.jpg
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150720/ba335c05/attachment.jpg>
+
+From yjhuang at whiteboxtechnologies.com  Mon Jul 20 16:07:33 2015
+From: yjhuang at whiteboxtechnologies.com (Joe Huang)
+Date: Tue, 21 Jul 2015 07:07:33 +0800
+Subject: [Bldg-sim] Real-time pv yield as a surrogate for irradiance
+In-Reply-To: <CAB+zL_=fgoJVJqK3H=M6XewfewtR+D-+38Smhy0eKq_wd2ywMA@mail.gmail.com>
+References: <CAOQXAFCN6MNoJYQG0RgUTS96G9TAYau1MRvV3Qbimxc68caP4Q@mail.gmail.com>
+	<CAB+zL_=fgoJVJqK3H=M6XewfewtR+D-+38Smhy0eKq_wd2ywMA@mail.gmail.com>
+Message-ID: <55AD7F35.50307@whiteboxtechnologies.com>
+
+This is an intriguing idea (using PV output as a surrogate for 
+irradiance), but there are a number of complications that need to be 
+investigated:
+1. PV efficiency degrades with temperature; therefore, you have to have 
+some way to adjust the output by the temperature of the PV (not the air 
+temperature)
+2. you also need to adjust for the tilt and azimuth of the PV panels to 
+derive the equivalent global horizontal radiation.
+3. you also need to split the global horizontal into direct and diffuse 
+radiation, which could be done using a number of direct/diffuse split 
+models, which is what's done for 99% of the weather files anyway because 
+I've yet to find any measured direct normal radiation outside of 
+strictly research applications.
+
+When I look at this list, all three could be done using a building 
+energy simulation program,  provided that you know the absorptivity of 
+the PV and its conversion efficiency as a function of temperature,  but 
+at this point it's getting more hairy than calculating the solar 
+radiation from standard weather station data or, beginning in Sept 2015 
+for US locations, downloading the solar radiation from NREL.
+
+I'm not being critical, and actually I am quite intrigued by this 
+technique, and would be happy to help evaluate how well it works.
+
+Joe
+
+Joe Huang 	
+White Box Technologies, Inc.
+346 Rheem Blvd., Suite 205A
+Moraga CA 94556
+yjhuang at whiteboxtechnologies.com
+http://weather.whiteboxtechnologies.com for simulation-ready weather data
+http://www.whiteboxtechnologies.com
+(o) (925)388-0265
+(c) (510)928-2683
+"building energy simulations at your fingertips"
+
+On 7/21/2015 2:21 AM, Justin Spencer wrote:
+> You can use anything you want as a surrogate, as long as you have some 
+> way of proving it works. In this case, if you could somehow get real 
+> time PV data for a set of sites that also had actual insolation and 
+> then looked at your results, I think you could derive a typical 
+> relationship that wouldn't lead you too far astray. The problem will 
+> come when there are passing clouds and the PV system is "hunting" all 
+> the time trying to catch up with the changing insolation. I bet you 
+> could find those and apply a bias correction that could then be used 
+> in multiple sites with real time PV data.
+>
+> On Mon, Jul 20, 2015 at 10:55 AM, Chris Yates 
+> <chris.malcolm.yates at gmail.com <mailto:chris.malcolm.yates at gmail.com>> 
+> wrote:
+>
+>     Ok, so there's no substitute for doing weather data right.
+>
+>     However, in the absence of such data, could real-time pv yield be
+>     used as a surrogate?
+>
+>     Chris
+>
+>     Sent from my Android device. Please excuse typos, etc.
+>
+>
+>     _______________________________________________
+>     Bldg-sim mailing list
+>     http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+>     To unsubscribe from this mailing list send  a blank message to
+>     BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>     <mailto:BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG>
+>
+>
+>
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150721/289d6ef4/attachment.htm>
+
+From yjhuang at whiteboxtechnologies.com  Mon Jul 20 16:18:27 2015
+From: yjhuang at whiteboxtechnologies.com (Joe Huang)
+Date: Tue, 21 Jul 2015 07:18:27 +0800
+Subject: [Bldg-sim] Real-time pv yield as a surrogate for irradiance
+In-Reply-To: <55AD7F35.50307@whiteboxtechnologies.com>
+References: <CAOQXAFCN6MNoJYQG0RgUTS96G9TAYau1MRvV3Qbimxc68caP4Q@mail.gmail.com>
+	<CAB+zL_=fgoJVJqK3H=M6XewfewtR+D-+38Smhy0eKq_wd2ywMA@mail.gmail.com>
+	<55AD7F35.50307@whiteboxtechnologies.com>
+Message-ID: <55AD81C3.1050003@whiteboxtechnologies.com>
+
+Another note I forgot to mention:  how easy is it to get the hourly 
+output from the PV panels?  If the need for the solar radiation data is 
+to evaluate actual building DSM, then the PV output data would have to 
+have been collected at the same time as the utility billing data.
+
+Joe
+
+Joe Huang 	
+White Box Technologies, Inc.
+346 Rheem Blvd., Suite 205A
+Moraga CA 94556
+yjhuang at whiteboxtechnologies.com
+http://weather.whiteboxtechnologies.com for simulation-ready weather data
+http://www.whiteboxtechnologies.com
+(o) (925)388-0265
+(c) (510)928-2683
+"building energy simulations at your fingertips"
+
+On 7/21/2015 7:07 AM, Joe Huang wrote:
+> This is an intriguing idea (using PV output as a surrogate for 
+> irradiance), but there are a number of complications that need to be 
+> investigated:
+> 1. PV efficiency degrades with temperature; therefore, you have to 
+> have some way to adjust the output by the temperature of the PV (not 
+> the air temperature)
+> 2. you also need to adjust for the tilt and azimuth of the PV panels 
+> to derive the equivalent global horizontal radiation.
+> 3. you also need to split the global horizontal into direct and 
+> diffuse radiation, which could be done using a number of 
+> direct/diffuse split models, which is what's done for 99% of the 
+> weather files anyway because I've yet to find any measured direct 
+> normal radiation outside of strictly research applications.
+>
+> When I look at this list, all three could be done using a building 
+> energy simulation program,  provided that you know the absorptivity of 
+> the PV and its conversion efficiency as a function of temperature,  
+> but at this point it's getting more hairy than calculating the solar 
+> radiation from standard weather station data or, beginning in Sept 
+> 2015 for US locations, downloading the solar radiation from NREL.
+>
+> I'm not being critical, and actually I am quite intrigued by this 
+> technique, and would be happy to help evaluate how well it works.
+>
+> Joe
+>
+> Joe Huang 	
+> White Box Technologies, Inc.
+> 346 Rheem Blvd., Suite 205A
+> Moraga CA 94556
+> yjhuang at whiteboxtechnologies.com
+> http://weather.whiteboxtechnologies.com  for simulation-ready weather data
+> http://www.whiteboxtechnologies.com
+> (o) (925)388-0265
+> (c) (510)928-2683
+> "building energy simulations at your fingertips"
+> On 7/21/2015 2:21 AM, Justin Spencer wrote:
+>> You can use anything you want as a surrogate, as long as you have 
+>> some way of proving it works. In this case, if you could somehow get 
+>> real time PV data for a set of sites that also had actual insolation 
+>> and then looked at your results, I think you could derive a typical 
+>> relationship that wouldn't lead you too far astray. The problem will 
+>> come when there are passing clouds and the PV system is "hunting" all 
+>> the time trying to catch up with the changing insolation. I bet you 
+>> could find those and apply a bias correction that could then be used 
+>> in multiple sites with real time PV data.
+>>
+>> On Mon, Jul 20, 2015 at 10:55 AM, Chris Yates 
+>> <chris.malcolm.yates at gmail.com 
+>> <mailto:chris.malcolm.yates at gmail.com>> wrote:
+>>
+>>     Ok, so there's no substitute for doing weather data right.
+>>
+>>     However, in the absence of such data, could real-time pv yield be
+>>     used as a surrogate?
+>>
+>>     Chris
+>>
+>>     Sent from my Android device. Please excuse typos, etc.
+>>
+>>
+>>     _______________________________________________
+>>     Bldg-sim mailing list
+>>     http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+>>     To unsubscribe from this mailing list send  a blank message to
+>>     BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>>     <mailto:BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG>
+>>
+>>
+>>
+>>
+>> _______________________________________________
+>> Bldg-sim mailing list
+>> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+>> To unsubscribe from this mailing list send  a blank message toBLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150721/068bce7a/attachment.htm>
+
+From david at 360-analytics.com  Mon Jul 20 16:49:17 2015
+From: david at 360-analytics.com (David Reddy)
+Date: Mon, 20 Jul 2015 16:49:17 -0700
+Subject: [Bldg-sim] Real-time pv yield as a surrogate for irradiance
+In-Reply-To: <55AD7F35.50307@whiteboxtechnologies.com>
+References: <CAOQXAFCN6MNoJYQG0RgUTS96G9TAYau1MRvV3Qbimxc68caP4Q@mail.gmail.com>	<CAB+zL_=fgoJVJqK3H=M6XewfewtR+D-+38Smhy0eKq_wd2ywMA@mail.gmail.com>
+	<55AD7F35.50307@whiteboxtechnologies.com>
+Message-ID: <55AD88FD.4000201@360-Analytics.com>
+
+Yes, interesting idea and glad to see it discussed here.
+
+This idea also occurred to us when evaluating PV systems on a number of 
+buildings in Hawaii.  In that project, we were fortunate enough to have 
+a solar monitoring site <http://www.nrel.gov/midc/nelha/> right down the 
+street, and he had 15min and 1hour PV  energy generation for every panel 
+(micro-invertors) on 15 different buildings, each oriented in the same 
+direction.  However, some other issues, besides the one's Joe described, 
+came to mind in trying to develop a model that linked the two:
+
+  * In addition to temperature, PV panels energy production also
+    degrades as the panels get dirty.  That seemed like the variable
+    that is toughest to compensate for.
+  * Data connection between the inverters to the cloud was pretty good,
+    but we did find gaps a number of gaps; sometimes for up to a month
+    or two.
+
+Still yes, an interesting idea, and sounds like a good research project...
+David
+
+
+On 7/20/2015 4:07 PM, Joe Huang wrote:
+> This is an intriguing idea (using PV output as a surrogate for 
+> irradiance), but there are a number of complications that need to be 
+> investigated:
+> 1. PV efficiency degrades with temperature; therefore, you have to 
+> have some way to adjust the output by the temperature of the PV (not 
+> the air temperature)
+> 2. you also need to adjust for the tilt and azimuth of the PV panels 
+> to derive the equivalent global horizontal radiation.
+> 3. you also need to split the global horizontal into direct and 
+> diffuse radiation, which could be done using a number of 
+> direct/diffuse split models, which is what's done for 99% of the 
+> weather files anyway because I've yet to find any measured direct 
+> normal radiation outside of strictly research applications.
+>
+> When I look at this list, all three could be done using a building 
+> energy simulation program,  provided that you know the absorptivity of 
+> the PV and its conversion efficiency as a function of temperature,  
+> but at this point it's getting more hairy than calculating the solar 
+> radiation from standard weather station data or, beginning in Sept 
+> 2015 for US locations, downloading the solar radiation from NREL.
+>
+> I'm not being critical, and actually I am quite intrigued by this 
+> technique, and would be happy to help evaluate how well it works.
+>
+> Joe
+>
+> Joe Huang 	
+> White Box Technologies, Inc.
+> 346 Rheem Blvd., Suite 205A
+> Moraga CA 94556
+> yjhuang at whiteboxtechnologies.com
+> http://weather.whiteboxtechnologies.com  for simulation-ready weather data
+> http://www.whiteboxtechnologies.com
+> (o) (925)388-0265
+> (c) (510)928-2683
+> "building energy simulations at your fingertips"
+> On 7/21/2015 2:21 AM, Justin Spencer wrote:
+>> You can use anything you want as a surrogate, as long as you have 
+>> some way of proving it works. In this case, if you could somehow get 
+>> real time PV data for a set of sites that also had actual insolation 
+>> and then looked at your results, I think you could derive a typical 
+>> relationship that wouldn't lead you too far astray. The problem will 
+>> come when there are passing clouds and the PV system is "hunting" all 
+>> the time trying to catch up with the changing insolation. I bet you 
+>> could find those and apply a bias correction that could then be used 
+>> in multiple sites with real time PV data.
+>>
+>> On Mon, Jul 20, 2015 at 10:55 AM, Chris Yates 
+>> <chris.malcolm.yates at gmail.com 
+>> <mailto:chris.malcolm.yates at gmail.com>> wrote:
+>>
+>>     Ok, so there's no substitute for doing weather data right.
+>>
+>>     However, in the absence of such data, could real-time pv yield be
+>>     used as a surrogate?
+>>
+>>     Chris
+>>
+>>     Sent from my Android device. Please excuse typos, etc.
+>>
+>>
+>>     _______________________________________________
+>>     Bldg-sim mailing list
+>>     http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+>>     To unsubscribe from this mailing list send  a blank message to
+>>     BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>>     <mailto:BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG>
+>>
+>>
+>>
+>>
+>> _______________________________________________
+>> Bldg-sim mailing list
+>> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+>> To unsubscribe from this mailing list send  a blank message toBLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150720/cf20a0fa/attachment.htm>
+
+From santiagogvelez at gmail.com  Tue Jul 21 06:33:05 2015
+From: santiagogvelez at gmail.com (Santiago Velez)
+Date: Tue, 21 Jul 2015 10:33:05 -0300
+Subject: [Bldg-sim] Energy efficieny: VRF + DOAS vs VRF + unconditioned
+	Ventilation system
+Message-ID: <CAM04QheTB5O==cCfVnXhZ9fnpwwgvAToUiFFWgT0CBOsiTSbzQ@mail.gmail.com>
+
+Dear Group, Can someone enlighten me about the energy efficiency benefits
+of conditioning the ventilation air in a VRF + DOAS system, versus letting
+the VRF handle all the load (internal loads + Ventilation loads).
+Thanks in advance.
+Regards,
+Santiago.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150721/79e9d425/attachment.htm>
+
+From andrew.corney at sefaira.com  Tue Jul 21 06:39:31 2015
+From: andrew.corney at sefaira.com (Andrew Corney)
+Date: Tue, 21 Jul 2015 14:39:31 +0100
+Subject: [Bldg-sim] Energy efficieny: VRF + DOAS vs VRF + unconditioned
+ Ventilation system
+In-Reply-To: <CAM04QheTB5O==cCfVnXhZ9fnpwwgvAToUiFFWgT0CBOsiTSbzQ@mail.gmail.com>
+References: <CAM04QheTB5O==cCfVnXhZ9fnpwwgvAToUiFFWgT0CBOsiTSbzQ@mail.gmail.com>
+Message-ID: <CAPOOC+MSD9DjYgMgnEdzjL4QP9+1aYp0CZdr+fZYLJxod81D=Q@mail.gmail.com>
+
+Hi Santiago,
+
+One benefit might be the ability to do the dehumidification remotely via
+the DOAS system. This could alleviate the maintenance of drip trays /
+condensate drains from your VRF fan coil units. You might also be able to
+down-spec the VRF fan coils that you are using as well (possibly reducing
+size).
+
+Another benefit would be that it might be cheaper to do a higher
+performance style of heat recovery centrally that could help reduce heating
+energy in particular.
+
+So there are 2 reasons!
+
+cheers,
+
+Andrew
+
+On Tue, Jul 21, 2015 at 2:33 PM, Santiago Velez <santiagogvelez at gmail.com>
+wrote:
+
+> Dear Group, Can someone enlighten me about the energy efficiency benefits
+> of conditioning the ventilation air in a VRF + DOAS system, versus letting
+> the VRF handle all the load (internal loads + Ventilation loads).
+> Thanks in advance.
+> Regards,
+> Santiago.
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+
+
+-- 
+Andrew Corney
+PE M.CIBSE M.ASHRAE
+Product Manager - Sefaira Systems
+
+Mobile: +44 (0)7887 059 722
+Office: +44 (0)2037 147 619
+Skype: andrew.corney.sefaira
+
+Sefaira - Sustainability. Performance. Design.
+
+*For company contact and registration information, please
+visit: http://www.sefaira.com/info/contact
+<http://www.sefaira.com/info/contact>*
+
+*Check out our latest webinar showcasing the product here
+<https://vimeo.com/130461932>. Subscribe here
+<http://www.sefaira.com/subscribe-from-email/> to our bi-weekly newsletter.*
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150721/52962a08/attachment.htm>
+
+From TDavidson at DLBASSOCIATES.com  Tue Jul 21 07:35:41 2015
+From: TDavidson at DLBASSOCIATES.com (Davidson, Tom)
+Date: Tue, 21 Jul 2015 10:35:41 -0400
+Subject: [Bldg-sim] Steam Boiler Efficiency Ranges
+Message-ID: <BA4189EBB07D1C43AACAAC83BAD7F52F4EAA5A794E@DLB-EXMBX03.dlbassociates.com>
+
+Dear Bldg-Sim list,
+
+We are trying to determine the efficiency of an old gas-fired steam boiler that we plan to replace with a high-efficiency hot water boiler. We asked a company that tunes burners to take two combustion efficiency measurements - one before tuning and one after. Unfortunately the burner was operating so poorly prior to tuning that it messed up the combustion efficiency analyzer; it gave no readings and our opportunity to obtain a pre-implementation combustion efficiency value was lost. We do know that the burner was being starved of combustion air, but we aren't sure by how much, or how low the efficiency of a gas-fired boiler can drop before its safeties shut it off.
+
+If anyone has successfully measured the efficiency of an operating boiler that is starved of combustion air, and is willing to share this efficiency, I would be quite grateful. I am looking your 'worst of the worst' efficiency measurements. The rest of our energy model Is nicely aligned with facility usage, but we would need to drop the overall efficiency of this boiler to less than 50% to align with utility data, and even this value assumes that we are generous in terms of modeling warm winter temperature setpoints, high infiltration rates, etc.
+
+For reference the steam boiler we looked at is about 45 years old, made by the Federal Boiler Co. (Model AST 6 350).
+
+Thanks,
+Tom
+
+Thomas A. Davidson, PE
+
+DLB Associates  |  265 Industrial Way West  |  Eatontown, NJ 07724
+tdavidson at dlbassociates.com  |  732-927-5108  |  f: 732-774-5000
+DLB Website<http://www.dlbassociates.com>  |  YouTube<http://www.youtube.com/user/TheDLBAssociates>  |  LinkedIn<http://www.linkedin.com/company/dlb-associates>  |  Twitter<http://twitter.com/DLBAssociates>  |  Facebook<https://www.facebook.com/DLBAssociates>
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150721/c9343d1d/attachment.htm>
+
+From santiagogvelez at gmail.com  Tue Jul 21 08:06:05 2015
+From: santiagogvelez at gmail.com (Santiago Velez)
+Date: Tue, 21 Jul 2015 12:06:05 -0300
+Subject: [Bldg-sim] Energy efficieny: VRF + DOAS vs VRF + unconditioned
+ Ventilation system
+In-Reply-To: <CAPOOC+MSD9DjYgMgnEdzjL4QP9+1aYp0CZdr+fZYLJxod81D=Q@mail.gmail.com>
+References: <CAM04QheTB5O==cCfVnXhZ9fnpwwgvAToUiFFWgT0CBOsiTSbzQ@mail.gmail.com>
+	<CAPOOC+MSD9DjYgMgnEdzjL4QP9+1aYp0CZdr+fZYLJxod81D=Q@mail.gmail.com>
+Message-ID: <CAM04QhdJoTbmYr-_PhCNKnzxZZLF2LvrOQgxxHqQQr0rU0qcxA@mail.gmail.com>
+
+Thanks Andrew, I wonder though if besides first cost or maintenance related
+issues there are any energy savings at all, and if so why is that the case.
+I Read about better performance of evaporator running with lower air
+temperature in a DOAS, but you still need energy to treat ventilation air
+in the DOAS system, so were are the savings coming from?
+
+
+
+On 21 July 2015 at 10:39, Andrew Corney <andrew.corney at sefaira.com> wrote:
+
+> Hi Santiago,
+>
+> One benefit might be the ability to do the dehumidification remotely via
+> the DOAS system. This could alleviate the maintenance of drip trays /
+> condensate drains from your VRF fan coil units. You might also be able to
+> down-spec the VRF fan coils that you are using as well (possibly reducing
+> size).
+>
+> Another benefit would be that it might be cheaper to do a higher
+> performance style of heat recovery centrally that could help reduce heating
+> energy in particular.
+>
+> So there are 2 reasons!
+>
+> cheers,
+>
+> Andrew
+>
+> On Tue, Jul 21, 2015 at 2:33 PM, Santiago Velez <santiagogvelez at gmail.com>
+> wrote:
+>
+>> Dear Group, Can someone enlighten me about the energy efficiency benefits
+>> of conditioning the ventilation air in a VRF + DOAS system, versus letting
+>> the VRF handle all the load (internal loads + Ventilation loads).
+>> Thanks in advance.
+>> Regards,
+>> Santiago.
+>>
+>> _______________________________________________
+>> Bldg-sim mailing list
+>> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+>> To unsubscribe from this mailing list send  a blank message to
+>> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>>
+>>
+>
+>
+> --
+> Andrew Corney
+> PE M.CIBSE M.ASHRAE
+> Product Manager - Sefaira Systems
+>
+> Mobile: +44 (0)7887 059 722
+> Office: +44 (0)2037 147 619
+> Skype: andrew.corney.sefaira
+>
+> Sefaira - Sustainability. Performance. Design.
+>
+> *For company contact and registration information, please
+> visit: http://www.sefaira.com/info/contact
+> <http://www.sefaira.com/info/contact>*
+>
+> *Check out our latest webinar showcasing the product here
+> <https://vimeo.com/130461932>. Subscribe here
+> <http://www.sefaira.com/subscribe-from-email/> to our bi-weekly newsletter.*
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150721/854391f5/attachment.htm>
+
+From jim at buildingperformanceteam.com  Tue Jul 21 08:21:46 2015
+From: jim at buildingperformanceteam.com (Jim Dirkes)
+Date: Tue, 21 Jul 2015 11:21:46 -0400
+Subject: [Bldg-sim] Steam Boiler Efficiency Ranges
+In-Reply-To: <BA4189EBB07D1C43AACAAC83BAD7F52F4EAA5A794E@DLB-EXMBX03.dlbassociates.com>
+References: <BA4189EBB07D1C43AACAAC83BAD7F52F4EAA5A794E@DLB-EXMBX03.dlbassociates.com>
+Message-ID: <CAFydjmT+2cPO9v+L7NbCw+fx76rMLvXbDNgOjX4YyQjJAdWuuw@mail.gmail.com>
+
+Tom,
+
+A Combustion analyzer tells only part of the story.
+
+Some boilers cycle frequently due to being oversized (a common situation)
+and (of course) when operating at part load.  The cycling brings some
+inefficiency and it can be substantial. Hot water boilers, as I understand
+it, are more impacted by these cycling losses than steam boilers.
+
+For one of our projects, a steam boiler was losing water regularly via
+condensate line leaks in a tunnel.  Our energy model, with pretty good
+measurements of equipment power and other operating parameters, would only
+match their utility meter readings when we used 52% peak boiler
+efficiency.  The leaks apparently had  big impact on efficiency.
+
+On Tue, Jul 21, 2015 at 10:35 AM, Davidson, Tom <TDavidson at dlbassociates.com
+> wrote:
+
+> Dear Bldg-Sim list,
+>
+>
+>
+> We are trying to determine the efficiency of an old gas-fired steam boiler
+> that we plan to replace with a high-efficiency hot water boiler. We asked a
+> company that tunes burners to take two combustion efficiency measurements ?
+> one before tuning and one after. Unfortunately the burner was operating so
+> poorly prior to tuning that it messed up the combustion efficiency
+> analyzer; it gave no readings and our opportunity to obtain a
+> pre-implementation combustion efficiency value was lost. We do know that
+> the burner was being starved of combustion air, but we aren?t sure by how
+> much, or how low the efficiency of a gas-fired boiler can drop before its
+> safeties shut it off.
+>
+>
+>
+> If anyone has successfully measured the efficiency of an operating boiler
+> that is starved of combustion air, and is willing to share this efficiency,
+> I would be quite grateful. I am looking your ?worst of the worst?
+> efficiency measurements. The rest of our energy model Is nicely aligned
+> with facility usage, but we would need to drop the overall efficiency of
+> this boiler to less than 50% to align with utility data, and even this
+> value assumes that we are generous in terms of modeling warm winter
+> temperature setpoints, high infiltration rates, etc.
+>
+>
+>
+> For reference the steam boiler we looked at is about 45 years old, made by
+> the Federal Boiler Co. (Model AST 6 350).
+>
+>
+>
+> Thanks,
+>
+> Tom
+>
+>
+>
+> Thomas A. Davidson, PE
+>
+> *DLB Associates*  |  265 Industrial Way West  |  Eatontown, NJ 07724
+> tdavidson at dlbassociates.com  |  732-927-5108  |  f: 732-774-5000
+> DLB Website <http://www.dlbassociates.com>  |  YouTube
+> <http://www.youtube.com/user/TheDLBAssociates>  |  LinkedIn
+> <http://www.linkedin.com/company/dlb-associates>  |  Twitter
+> <http://twitter.com/DLBAssociates>  |  Facebook
+> <https://www.facebook.com/DLBAssociates>
+>
+>
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+
+
+-- 
+
+James V Dirkes II, PE, BEMP, LEED AP
+CEO/President
+The Building Performance Team Inc.
+1631 Acacia Dr, GR, Mi 49504
+
+Direct: 616.450.8653
+jim at buildingperformanceteam.com
+
+Website <http://buildingperformanceteamcom>l  LinkedIn
+<https://www.linkedin.com/pub/jim-dirkes/7/444/413>
+
+ Life is not easy.  It?s never been easy. Expecting it to be easy is not a
+healthy attitude.
+Relax. Refresh. Regroup. Carry on.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150721/141971e4/attachment.htm>
+
+From jim at buildingperformanceteam.com  Tue Jul 21 08:25:22 2015
+From: jim at buildingperformanceteam.com (Jim Dirkes)
+Date: Tue, 21 Jul 2015 11:25:22 -0400
+Subject: [Bldg-sim] Energy efficieny: VRF + DOAS vs VRF + unconditioned
+ Ventilation system
+In-Reply-To: <CAM04QhdJoTbmYr-_PhCNKnzxZZLF2LvrOQgxxHqQQr0rU0qcxA@mail.gmail.com>
+References: <CAM04QheTB5O==cCfVnXhZ9fnpwwgvAToUiFFWgT0CBOsiTSbzQ@mail.gmail.com>
+	<CAPOOC+MSD9DjYgMgnEdzjL4QP9+1aYp0CZdr+fZYLJxod81D=Q@mail.gmail.com>
+	<CAM04QhdJoTbmYr-_PhCNKnzxZZLF2LvrOQgxxHqQQr0rU0qcxA@mail.gmail.com>
+Message-ID: <CAFydjmQYEQbxMwmmerdXTKwNoXYJh242wuEYmbRpg3CDCYkVGg@mail.gmail.com>
+
+Santiago,
+Another benefit is that the VRF fan is delivering air against a very small
+pressure drop - it has no duct to speak of and is commonly multi or
+variable speed.  It also often uses a higher efficiency ECM motor
+
+An air handler probably has 5-10 times the pressure drop with standard AC
+motor.
+
+On Tue, Jul 21, 2015 at 11:06 AM, Santiago Velez <santiagogvelez at gmail.com>
+wrote:
+
+> Thanks Andrew, I wonder though if besides first cost or maintenance
+> related issues there are any energy savings at all, and if so why is that
+> the case. I Read about better performance of evaporator running with lower
+> air temperature in a DOAS, but you still need energy to treat ventilation
+> air in the DOAS system, so were are the savings coming from?
+>
+>
+>
+> On 21 July 2015 at 10:39, Andrew Corney <andrew.corney at sefaira.com> wrote:
+>
+>> Hi Santiago,
+>>
+>> One benefit might be the ability to do the dehumidification remotely via
+>> the DOAS system. This could alleviate the maintenance of drip trays /
+>> condensate drains from your VRF fan coil units. You might also be able to
+>> down-spec the VRF fan coils that you are using as well (possibly reducing
+>> size).
+>>
+>> Another benefit would be that it might be cheaper to do a higher
+>> performance style of heat recovery centrally that could help reduce heating
+>> energy in particular.
+>>
+>> So there are 2 reasons!
+>>
+>> cheers,
+>>
+>> Andrew
+>>
+>> On Tue, Jul 21, 2015 at 2:33 PM, Santiago Velez <santiagogvelez at gmail.com
+>> > wrote:
+>>
+>>> Dear Group, Can someone enlighten me about the energy efficiency
+>>> benefits of conditioning the ventilation air in a VRF + DOAS system, versus
+>>> letting the VRF handle all the load (internal loads + Ventilation loads).
+>>> Thanks in advance.
+>>> Regards,
+>>> Santiago.
+>>>
+>>> _______________________________________________
+>>> Bldg-sim mailing list
+>>> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+>>> To unsubscribe from this mailing list send  a blank message to
+>>> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>>>
+>>>
+>>
+>>
+>> --
+>> Andrew Corney
+>> PE M.CIBSE M.ASHRAE
+>> Product Manager - Sefaira Systems
+>>
+>> Mobile: +44 (0)7887 059 722
+>> Office: +44 (0)2037 147 619
+>> Skype: andrew.corney.sefaira
+>>
+>> Sefaira - Sustainability. Performance. Design.
+>>
+>> *For company contact and registration information, please
+>> visit: http://www.sefaira.com/info/contact
+>> <http://www.sefaira.com/info/contact>*
+>>
+>> *Check out our latest webinar showcasing the product here
+>> <https://vimeo.com/130461932>. Subscribe here
+>> <http://www.sefaira.com/subscribe-from-email/> to our bi-weekly newsletter.*
+>>
+>
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+
+
+-- 
+
+James V Dirkes II, PE, BEMP, LEED AP
+CEO/President
+The Building Performance Team Inc.
+1631 Acacia Dr, GR, Mi 49504
+
+Direct: 616.450.8653
+jim at buildingperformanceteam.com
+
+Website <http://buildingperformanceteamcom>l  LinkedIn
+<https://www.linkedin.com/pub/jim-dirkes/7/444/413>
+
+ Life is not easy.  It?s never been easy. Expecting it to be easy is not a
+healthy attitude.
+Relax. Refresh. Regroup. Carry on.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150721/c0eecb1a/attachment.htm>
+
+From andrew.corney at sefaira.com  Tue Jul 21 08:32:01 2015
+From: andrew.corney at sefaira.com (Andrew Corney)
+Date: Tue, 21 Jul 2015 16:32:01 +0100
+Subject: [Bldg-sim] Energy efficieny: VRF + DOAS vs VRF + unconditioned
+ Ventilation system
+In-Reply-To: <CAM04QhdJoTbmYr-_PhCNKnzxZZLF2LvrOQgxxHqQQr0rU0qcxA@mail.gmail.com>
+References: <CAM04QheTB5O==cCfVnXhZ9fnpwwgvAToUiFFWgT0CBOsiTSbzQ@mail.gmail.com>
+	<CAPOOC+MSD9DjYgMgnEdzjL4QP9+1aYp0CZdr+fZYLJxod81D=Q@mail.gmail.com>
+	<CAM04QhdJoTbmYr-_PhCNKnzxZZLF2LvrOQgxxHqQQr0rU0qcxA@mail.gmail.com>
+Message-ID: <CAPOOC+OqWN-NTjw8U=AcB65vvUOvog4qiDEYOqcjW09BNx5nqg@mail.gmail.com>
+
+Hmm. Not sure but it seems likely that a wet coil could affect the
+efficiency performance of the VRF FCU.
+
+>From an energy perspective heat recovery centrally could be made to be very
+efficient. If you bring air in from outside and let the VRF system see it
+then you might not get those benefits and the ventilation load might be a
+lot higher. This could be offset for heating with a zone by zone MVHR
+system.
+
+That said you could potentially have latent heat recovery at a central AHU
+where it would be very hard in an MVHR ventilation unit. In more extreme
+climates this could make a substantial difference. For example this could
+help rehumidify the air in very cold places or dehumidify the air in hot
+humid climates. The heat recovery would then be a direct saving against the
+coil load (although it would increase pressure drop in the DOAS system!).
+
+On Tue, Jul 21, 2015 at 4:06 PM, Santiago Velez <santiagogvelez at gmail.com>
+wrote:
+
+> Thanks Andrew, I wonder though if besides first cost or maintenance
+> related issues there are any energy savings at all, and if so why is that
+> the case. I Read about better performance of evaporator running with lower
+> air temperature in a DOAS, but you still need energy to treat ventilation
+> air in the DOAS system, so were are the savings coming from?
+>
+>
+>
+> On 21 July 2015 at 10:39, Andrew Corney <andrew.corney at sefaira.com> wrote:
+>
+>> Hi Santiago,
+>>
+>> One benefit might be the ability to do the dehumidification remotely via
+>> the DOAS system. This could alleviate the maintenance of drip trays /
+>> condensate drains from your VRF fan coil units. You might also be able to
+>> down-spec the VRF fan coils that you are using as well (possibly reducing
+>> size).
+>>
+>> Another benefit would be that it might be cheaper to do a higher
+>> performance style of heat recovery centrally that could help reduce heating
+>> energy in particular.
+>>
+>> So there are 2 reasons!
+>>
+>> cheers,
+>>
+>> Andrew
+>>
+>> On Tue, Jul 21, 2015 at 2:33 PM, Santiago Velez <santiagogvelez at gmail.com
+>> > wrote:
+>>
+>>> Dear Group, Can someone enlighten me about the energy efficiency
+>>> benefits of conditioning the ventilation air in a VRF + DOAS system, versus
+>>> letting the VRF handle all the load (internal loads + Ventilation loads).
+>>> Thanks in advance.
+>>> Regards,
+>>> Santiago.
+>>>
+>>> _______________________________________________
+>>> Bldg-sim mailing list
+>>> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+>>> To unsubscribe from this mailing list send  a blank message to
+>>> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>>>
+>>>
+>>
+>>
+>> --
+>> Andrew Corney
+>> PE M.CIBSE M.ASHRAE
+>> Product Manager - Sefaira Systems
+>>
+>> Mobile: +44 (0)7887 059 722
+>> Office: +44 (0)2037 147 619
+>> Skype: andrew.corney.sefaira
+>>
+>> Sefaira - Sustainability. Performance. Design.
+>>
+>> *For company contact and registration information, please
+>> visit: http://www.sefaira.com/info/contact
+>> <http://www.sefaira.com/info/contact>*
+>>
+>> *Check out our latest webinar showcasing the product here
+>> <https://vimeo.com/130461932>. Subscribe here
+>> <http://www.sefaira.com/subscribe-from-email/> to our bi-weekly newsletter.*
+>>
+>
+>
+
+
+-- 
+Andrew Corney
+PE M.CIBSE M.ASHRAE
+Product Manager - Sefaira Systems
+
+Mobile: +44 (0)7887 059 722
+Office: +44 (0)2037 147 619
+Skype: andrew.corney.sefaira
+
+Sefaira - Sustainability. Performance. Design.
+
+*For company contact and registration information, please
+visit: http://www.sefaira.com/info/contact
+<http://www.sefaira.com/info/contact>*
+
+*Check out our latest webinar showcasing the product here
+<https://vimeo.com/130461932>. Subscribe here
+<http://www.sefaira.com/subscribe-from-email/> to our bi-weekly newsletter.*
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150721/9f553a90/attachment.htm>
+
+From sayala81 at gmail.com  Tue Jul 21 08:33:21 2015
+From: sayala81 at gmail.com (Steven Ayala)
+Date: Tue, 21 Jul 2015 08:33:21 -0700
+Subject: [Bldg-sim] Win Scholarships to Attend Energy Modeling Conference
+Message-ID: <CAHnj2X6XVC0O1GWy_2n5r_EGWYj_rcp5g2TEp4r73iSnDcFBCw@mail.gmail.com>
+
+         IBPSA-USA is pleased to offer up to eight scholarships    View
+this email in your browser
+<http://us3.campaign-archive2.com/?u=545ecdecc811a6e412a8810dd&id=a4d3c55dfe&e=1eea59e245>
+                             Win
+Scholarships to Attend Energy Modeling Conference
+
+IBPSA-USA is pleased to offer up to eight scholarships for students and
+young professionals to attend the ASHRAE Energy Modeling Conference in
+Atlanta on September 30 to October 2, 2015. Funding is provided by the U.S
+Department of Energy. Find conference information at *www.ashrae.org
+<http://ibpsa.us3.list-manage.com/track/click?u=545ecdecc811a6e412a8810dd&id=0a6d3356ea&e=1eea59e245>*
+.
+
+Download the promotional flyer here: *https://goo.gl/9kLmlz?
+<http://ibpsa.us3.list-manage1.com/track/click?u=545ecdecc811a6e412a8810dd&id=34d9e9d573&e=1eea59e245>*
+
+*Eligibility*
+
+   -
+
+   Recipients must be either
+    -
+
+      a student at a university in the USA during the fall term 2015, or
+       -
+
+      a practicing professional in the energy modeling field, who has
+      graduated from a USA university in 2013 or later.
+
+*What?s Covered*
+
+   -
+
+   Conference registration, $350 student, $535 professional
+    -
+
+   Three nights hotel, actual expense up to $550
+    -
+
+   Travel allowance for airfare and ground transportation (train or
+   shuttle), actual expense up to $400
+
+*How to Apply*
+
+   -
+
+   Fill in this online application form: *https://goo.gl/OShzFg
+   <http://ibpsa.us3.list-manage1.com/track/click?u=545ecdecc811a6e412a8810dd&id=20bfe990b0&e=1eea59e245>*
+
+
+   -
+
+   You will be asked to provide:
+    -
+
+      Title of your conference presentation or paper (if applicable)
+       -
+
+      A letter describing your background and motivation for attending the
+      conference (up to one page)
+       -
+
+      Contact information for a faculty sponsor or employer
+
+*How Applications Will Be Evaluated*
+
+   -
+
+   Students will receive priority
+    -
+
+   Applicants presenting at the conference will receive priority
+    -
+
+   Compelling letters will receive priority
+    -
+
+   Earlier application submissions will receive priority
+    -
+
+   Faculty sponsors or employers may be contacted to confirm eligibility
+
+*What Happens if You Receive an Award*
+
+   -
+
+   Reimbursements will be made after the conference following submission of
+   an expense claim form (available here: *https://goo.gl/D48M4v*?
+   <http://ibpsa.us3.list-manage2.com/track/click?u=545ecdecc811a6e412a8810dd&id=589ea9b8ad&e=1eea59e245>).
+   Receipts are required. Advance payment will be considered in cases of
+   hardship.
+    -
+
+   Reimbursements will be in the form of a check in US dollars.
+
+*Timing*
+
+   -
+
+   July 24, 2015 ? Applications due
+    -
+
+   August 7, 2015 ? Awards announced
+
+*Questions*
+
+   -
+
+   Contact Mike Wilson, Executive Director IBPSA-USA, *mike at ibpsa.us
+   <mike at ibpsa.us>*
+
+                  *Copyright ? 2015 IBPSA-USA, All rights reserved.*
+You are a member of IBPSA-USA or have opted in to our newsletter in the
+past.
+
+*Our mailing address is:*
+IBPSA-USA
+P.O. Box 192750
+San Francisco, CA 94119
+
+Add us to your address book
+<http://ibpsa.us3.list-manage.com/vcard?u=545ecdecc811a6e412a8810dd&id=0af59bbb65>
+
+
+unsubscribe from this list
+<http://ibpsa.us3.list-manage1.com/unsubscribe?u=545ecdecc811a6e412a8810dd&id=0af59bbb65&e=1eea59e245&c=a4d3c55dfe>
+update subscription preferences
+<http://ibpsa.us3.list-manage.com/profile?u=545ecdecc811a6e412a8810dd&id=0af59bbb65&e=1eea59e245>
+
+
+[image: Email Marketing Powered by MailChimp]
+<http://www.mailchimp.com/monkey-rewards/?utm_source=freemium_newsletter&utm_medium=email&utm_campaign=monkey_rewards&aid=545ecdecc811a6e412a8810dd&afl=1>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150721/d7313d18/attachment.htm>
+
+From dannall at mindspring.com  Tue Jul 21 09:03:18 2015
+From: dannall at mindspring.com (Dan Nall)
+Date: Tue, 21 Jul 2015 12:03:18 -0400 (GMT-04:00)
+Subject: [Bldg-sim] Energy efficieny: VRF + DOAS vs VRF + unconditioned
+ Ventilation system
+Message-ID: <1908161.1437494598588.JavaMail.root@elwamui-polski.atl.sa.earthlink.net>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150721/8f6022ec/attachment.htm>
+
+From santiagogvelez at gmail.com  Tue Jul 21 10:31:17 2015
+From: santiagogvelez at gmail.com (Santiago Velez)
+Date: Tue, 21 Jul 2015 14:31:17 -0300
+Subject: [Bldg-sim] Energy efficieny: VRF + DOAS vs VRF + unconditioned
+ Ventilation system
+In-Reply-To: <1908161.1437494598588.JavaMail.root@elwamui-polski.atl.sa.earthlink.net>
+References: <1908161.1437494598588.JavaMail.root@elwamui-polski.atl.sa.earthlink.net>
+Message-ID: <CAM04QheSvMa4bPxvqfLSFESFrPu9AYbSNkH00eA0M+79G-zuZw@mail.gmail.com>
+
+Thanks Andrew Dan and Jim for the insights. Many things I didn't know or
+never thought off. Now, to figure out how to model what you just said to
+try and inform HVAC design.
+I guess as with most things related with building performance, there are a
+quite a few variables to consider simultaneously before drawing a
+conclusion. Ill get back to the group if I get any new insights after
+modelling.
+Best regards,
+
+
+
+
+On 21 July 2015 at 13:03, Dan Nall <dannall at mindspring.com> wrote:
+
+> The major determinant for energy efficiency of this strategy is the dry
+> bulb and wet bulb temperature distribution of the local climate, which will
+> determine the availability of airside or waterside economizer.  This
+> strategy would not be appropriate for San Francisco or Seattle where
+> free-cooling is available most of the time.  I don't know of any VRF fan
+> coils that have auxiliary water coils for waterside economizer, and  the
+> DOAS will not be sized for bring in sufficient cool outdoor air to provide
+> airside economizer cooling.
+>
+>
+>
+> Doing all of the dehumidification with the DOAS, to reduce the indoor
+> de3wpoint temperature below that of the contact surface of the cooling
+> coil, resulting in a dry coil, will definitely reduce pressure drop across
+> the coil of the fan coil.  Dry coils generally have much less than half of
+> the pressure drop across the same coil when it is wet.  A significant
+> energy efficiency strategy with chilled water systems is to use a low
+> temperature cooling source (5 DegC)  for the DOAS so it can provide air
+> with a very low dew point temperature (10DegC or less) to the space, and
+> using a separate higher temperature chilled water source (13 DegC) for the
+> fan coil.  If the coils of the fan coil are dry, then the pressure drop is
+> sufficiently low that the puny fan coil motors and fans can force air
+> through a much more robust coil, perhaps 8 row, 10 fpi.  As a result, the
+> fan coil can have a very close approach of the SAT to the entering CHWT
+> (Less than 3 DegC)).  Energy efficiency is achieved through the reduction
+> in transport energy with the fan coil system, and through the increased
+> energy efficiency of the chillers making 13 DegC water. I do not know if
+> the VRF fan coils can be controlled to operate at a higher saturated
+> suction temperature, thus increasing refrigeration efficiency.
+>
+>
+>
+> The energy efficiency of this strategy is lost if an all air system could
+> be providing cold outdoor air, through much of the year, to do all of the
+> cooling with no chiller or compressor at all,  Also, obviously, with a
+> chilled water system, 13 DegC chilled water can be made for many more hours
+> a year by a waterside economizer than can 8 DegC chilled water.  Of course,
+> nighttime conditions have a lower wet bulb temperature, so the occupancy
+> profile of the space should be considered to determine the efficacy of
+> chilled water storage with the waterside economizer.  Much analysis needed,
+> using sophisticated modeling tools that fully capture the operation of the
+> equipment.  The solutions, as always, are determined by both occupancy and
+> climate (along with the preferences of the owner and operator).
+>
+>
+>
+>
+>
+>
+>
+> .-----Original Message-----
+> From: Andrew Corney
+> Sent: Jul 21, 2015 11:32 AM
+> To: Santiago Velez
+> Cc: "bldg-sim at lists.onebuilding.org"
+> Subject: Re: [Bldg-sim] Energy efficieny: VRF + DOAS vs VRF +
+> unconditioned Ventilation system
+>
+> Hmm. Not sure but it seems likely that a wet coil could affect the
+> efficiency performance of the VRF FCU.
+>
+> From an energy perspective heat recovery centrally could be made to be
+> very efficient. If you bring air in from outside and let the VRF system see
+> it then you might not get those benefits and the ventilation load might be
+> a lot higher. This could be offset for heating with a zone by zone MVHR
+> system.
+>
+> That said you could potentially have latent heat recovery at a central AHU
+> where it would be very hard in an MVHR ventilation unit. In more extreme
+> climates this could make a substantial difference. For example this could
+> help rehumidify the air in very cold places or dehumidify the air in hot
+> humid climates. The heat recovery would then be a direct saving against the
+> coil load (although it would increase pressure drop in the DOAS system!).
+>
+> On Tue, Jul 21, 2015 at 4:06 PM, Santiago Velez <santiagogvelez at gmail.com>
+> wrote:
+>
+>> Thanks Andrew, I wonder though if besides first cost or maintenance
+>> related issues there are any energy savings at all, and if so why is that
+>> the case. I Read about better performance of evaporator running with lower
+>> air temperature in a DOAS, but you still need energy to treat ventilation
+>> air in the DOAS system, so were are the savings coming from?
+>>
+>>
+>>
+>> On 21 July 2015 at 10:39, Andrew Corney <andrew.corney at sefaira.com>
+>> wrote:
+>>
+>>> Hi Santiago,
+>>>
+>>> One benefit might be the ability to do the dehumidification remotely via
+>>> the DOAS system. This could alleviate the maintenance of drip trays /
+>>> condensate drains from your VRF fan coil units. You might also be able to
+>>> down-spec the VRF fan coils that you are using as well (possibly reducing
+>>> size).
+>>>
+>>> Another benefit would be that it might be cheaper to do a higher
+>>> performance style of heat recovery centrally that could help reduce heating
+>>> energy in particular.
+>>>
+>>> So there are 2 reasons!
+>>>
+>>> cheers,
+>>>
+>>> Andrew
+>>>
+>>>  On Tue, Jul 21, 2015 at 2:33 PM, Santiago Velez <
+>>> santiagogvelez at gmail.com> wrote:
+>>>
+>>>>  Dear Group, Can someone enlighten me about the energy efficiency
+>>>> benefits of conditioning the ventilation air in a VRF + DOAS system, versus
+>>>> letting the VRF handle all the load (internal loads + Ventilation loads).
+>>>> Thanks in advance.
+>>>> Regards,
+>>>> Santiago.
+>>>>
+>>>> _______________________________________________
+>>>> Bldg-sim mailing list
+>>>> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+>>>> To unsubscribe from this mailing list send  a blank message to
+>>>> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>>>>
+>>>>
+>>>
+>>>
+>>> --
+>>>      Andrew Corney
+>>> PE M.CIBSE M.ASHRAE
+>>> Product Manager - Sefaira Systems
+>>>
+>>> Mobile: +44 (0)7887 059 722
+>>> Office: +44 (0)2037 147 619
+>>> Skype: andrew.corney.sefaira
+>>>
+>>>  Sefaira - Sustainability. Performance. Design.
+>>>
+>>>  *For company contact and registration information, please
+>>> visit: http://www.sefaira.com/info/contact
+>>> <http://www.sefaira.com/info/contact>*
+>>>
+>>> *Check out our latest webinar showcasing the product here
+>>> <https://vimeo.com/130461932>. Subscribe here
+>>> <http://www.sefaira.com/subscribe-from-email/> to our bi-weekly newsletter.*
+>>>
+>>
+>>
+>
+>
+> --
+>      Andrew Corney
+> PE M.CIBSE M.ASHRAE
+> Product Manager - Sefaira Systems
+>
+> Mobile: +44 (0)7887 059 722
+> Office: +44 (0)2037 147 619
+> Skype: andrew.corney.sefaira
+>
+>  Sefaira - Sustainability. Performance. Design.
+>
+>  *For company contact and registration information, please
+> visit: http://www.sefaira.com/info/contact
+> <http://www.sefaira.com/info/contact>*
+>
+> *Check out our latest webinar showcasing the product here
+> <https://vimeo.com/130461932>. Subscribe here
+> <http://www.sefaira.com/subscribe-from-email/> to our bi-weekly newsletter.*
+>
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150721/de677352/attachment.htm>
+
+From julien.marrec at gmail.com  Tue Jul 21 12:22:14 2015
+From: julien.marrec at gmail.com (Julien Marrec)
+Date: Tue, 21 Jul 2015 21:22:14 +0200
+Subject: [Bldg-sim] Steam Boiler Efficiency Ranges
+In-Reply-To: <CAFydjmT+2cPO9v+L7NbCw+fx76rMLvXbDNgOjX4YyQjJAdWuuw@mail.gmail.com>
+References: <BA4189EBB07D1C43AACAAC83BAD7F52F4EAA5A794E@DLB-EXMBX03.dlbassociates.com>
+	<CAFydjmT+2cPO9v+L7NbCw+fx76rMLvXbDNgOjX4YyQjJAdWuuw@mail.gmail.com>
+Message-ID: <CAEqKKtw73crmU+kkZqMJvVkRSeuTB3hfGvCot8RLsxAgiOHnXA@mail.gmail.com>
+
+Tom,
+
+That's why you should make a spot test beforehand (though it's more
+applicable to oil burners it doesn't hurt to do it) and always wear a CO
+monitor in the boiler room. If CO went so high as to damage the sensor in
+the combustion analyzer, you've got a significant risk of poisoning should
+there be any spillage of combustion air in the boiler room.
+
+
+As Jim said, the combustion efficiency is only part of the story. And I
+would add that you should do your combustion test at different operating
+point if you have a modulating burner, at least at low and high fire.
+On 'small' (=non industrial boilers), and this is probably your case here
+since your boiler is 350 HP and you're in the Northeast, you tend to have a
+single jack shaft that adjusts both combustion air and fuel valve via
+linkages and cam trims, and that's not very accurate and hard to tune (if
+the guy tried to tune it at all). What I pretty much always see if that
+people tune for proper excess air at high fire only (around 15%), and
+excess air is MUCH higher (50% to 150% sometimes) at low fire so that
+they're at least on the safe side to avoid incomplete combustion and its
+associated health and safety risks, and this degrades the efficiency quite
+a bit.
+
+As far as efficiencies are concerned, combustion efficiency is definitely
+only part of the problem (and you're measuring it at one point in time
+too), especially on steam systems. The time of the 'Dead men' to quote Dan
+Holohan is no longer, and steam systems are never working as best as they
+could due to improper knowledge of its inner working and bad 'upgrade' or
+hot fixes throughout their lifetime.
+
+Short cycling could and pretty much always is a huge problem, a lot more
+than on water systems, and even more so when there's a coil in the steam
+boiler providing hot water.
+The pressuretrols are rarely tuned properly, even on ON/OFF burners, and if
+you add a second ptrol (either Lo/Hi/Lo or modulating) things get even
+worse and mains and differentials are very often incoherent leading to
+never modulating the burners,cycling on pressure very often, etc. Layer the
+aquastat controlling boiler water temp and therefore DHW production and
+it's a mess.
+
+If you have DHW, summer efficiency is always really bad: your boiler is
+tremendously oversized for the task, even with a high differential on the
+aquastat (which is never the case, it's either fixed at 5F or the
+differential is set at 5F too...), so you get really bad short cycling  on
+top of really high standby losses. Expect a summer energy factor of around
+0.4.
+
+
+Now for heating season: typically energy factors are around .6 to .7. Could
+be lower if short cycling, etc.
+I would also check: proper weighting of the barometric damper, jacket and
+back of the boiler insulation (back of the boiler insulation on scotch
+marine boilers is on the inside of the back door and tends to fall off
+based on my experience), air leakage at burner mounting and boiler doors
+(rope gaskets usually), and I'd inquire about when they last cleaned the
+boiler and tuned the burner, and whether they add chemicals for scale,
+bleed the boiler, etc.
+
+
+The boiler is only one part of the equation. The distribution can also be
+very problematic. Among things I've experienced first hand:
+
+The classics:
+- The good old "double-hung zone valve" = people using windows as
+temperature control (walk in the streets of NYC on a cold day and count the
+number of open windows, it's horrendous), though that's more on the air
+infiltration side... (long ago EDR were sized to provide enough heating for
+apartments with open windows, as people once were scared of diseases from
+foul air, and I think it has remained this way)
+- Uninsulated piping (sometimes thousands of feet of it in large garden
+style complexes)
+- Busted air vents on one-pipe steam spitting everywhere, busted steam
+traps on two pipe
+
+The more exotic ones:
+- Cut-off condensate line going directly to the drain (I'm not even
+kidding: the boiler was taking so much city water that it was completely
+rotted and almost not working anymore)
+- Automatic water feeder + long time lag distribution + improper piping
+arrangement on the return (the height between the main and water line
+wasn't enough to push the water back to the boiler): Condensate can't get
+back, boiler line drops too low => the boiler takes in city water, at end
+of cycle condensate would start to come back, overflow the condensate tank
+and discharge 180F condensate to the drain
+
+
+
+When you say you need 50% efficiency to calibrate, if you're not modeling
+part load efficiency nor standby/short cycling losses, I'm not surprised at
+all, though I would make damn sure I don't have another hidden problem in
+my model before and investigate more (especially the above) in the field to
+see if I can justify this dramatic efficiency.
+
+I hope this helps,
+Julien
+
+
+
+--
+Julien Marrec, EBCP, BPI MFBA
+Energy&Sustainability Engineer
+T: +33 6 95 14 42 13
+
+LinkedIn (en) : www.linkedin.com/in/julienmarrec
+LinkedIn (fr) : www.linkedin.com/in/julienmarrec/fr
+<http://www.linkedin.com/in/julienmarrec>
+
+2015-07-21 17:21 GMT+02:00 Jim Dirkes <jim at buildingperformanceteam.com>:
+
+> Tom,
+>
+> A Combustion analyzer tells only part of the story.
+>
+> Some boilers cycle frequently due to being oversized (a common situation)
+> and (of course) when operating at part load.  The cycling brings some
+> inefficiency and it can be substantial. Hot water boilers, as I understand
+> it, are more impacted by these cycling losses than steam boilers.
+>
+> For one of our projects, a steam boiler was losing water regularly via
+> condensate line leaks in a tunnel.  Our energy model, with pretty good
+> measurements of equipment power and other operating parameters, would only
+> match their utility meter readings when we used 52% peak boiler
+> efficiency.  The leaks apparently had  big impact on efficiency.
+>
+> On Tue, Jul 21, 2015 at 10:35 AM, Davidson, Tom <
+> TDavidson at dlbassociates.com> wrote:
+>
+>> Dear Bldg-Sim list,
+>>
+>>
+>>
+>> We are trying to determine the efficiency of an old gas-fired steam
+>> boiler that we plan to replace with a high-efficiency hot water boiler. We
+>> asked a company that tunes burners to take two combustion efficiency
+>> measurements ? one before tuning and one after. Unfortunately the burner
+>> was operating so poorly prior to tuning that it messed up the combustion
+>> efficiency analyzer; it gave no readings and our opportunity to obtain a
+>> pre-implementation combustion efficiency value was lost. We do know that
+>> the burner was being starved of combustion air, but we aren?t sure by how
+>> much, or how low the efficiency of a gas-fired boiler can drop before its
+>> safeties shut it off.
+>>
+>>
+>>
+>> If anyone has successfully measured the efficiency of an operating boiler
+>> that is starved of combustion air, and is willing to share this efficiency,
+>> I would be quite grateful. I am looking your ?worst of the worst?
+>> efficiency measurements. The rest of our energy model Is nicely aligned
+>> with facility usage, but we would need to drop the overall efficiency of
+>> this boiler to less than 50% to align with utility data, and even this
+>> value assumes that we are generous in terms of modeling warm winter
+>> temperature setpoints, high infiltration rates, etc.
+>>
+>>
+>>
+>> For reference the steam boiler we looked at is about 45 years old, made
+>> by the Federal Boiler Co. (Model AST 6 350).
+>>
+>>
+>>
+>> Thanks,
+>>
+>> Tom
+>>
+>>
+>>
+>> Thomas A. Davidson, PE
+>>
+>> *DLB Associates*  |  265 Industrial Way West  |  Eatontown, NJ 07724
+>> tdavidson at dlbassociates.com  |  732-927-5108  |  f: 732-774-5000
+>> DLB Website <http://www.dlbassociates.com>  |  YouTube
+>> <http://www.youtube.com/user/TheDLBAssociates>  |  LinkedIn
+>> <http://www.linkedin.com/company/dlb-associates>  |  Twitter
+>> <http://twitter.com/DLBAssociates>  |  Facebook
+>> <https://www.facebook.com/DLBAssociates>
+>>
+>>
+>>
+>> _______________________________________________
+>> Bldg-sim mailing list
+>> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+>> To unsubscribe from this mailing list send  a blank message to
+>> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>>
+>>
+>
+>
+> --
+>
+> James V Dirkes II, PE, BEMP, LEED AP
+> CEO/President
+> The Building Performance Team Inc.
+> 1631 Acacia Dr, GR, Mi 49504
+>
+> Direct: 616.450.8653
+> jim at buildingperformanceteam.com
+>
+> Website <http://buildingperformanceteamcom>l  LinkedIn
+> <https://www.linkedin.com/pub/jim-dirkes/7/444/413>
+>
+>  Life is not easy.  It?s never been easy. Expecting it to be easy is not
+> a healthy attitude.
+> Relax. Refresh. Regroup. Carry on.
+>
+> _______________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send  a blank message to
+> BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150721/802243df/attachment.htm>
+
+From helen.willis at iesve.com  Wed Jul 22 01:40:40 2015
+From: helen.willis at iesve.com (Helen Willis)
+Date: Wed, 22 Jul 2015 08:40:40 +0000
+Subject: [Bldg-sim] Help Wanted: Building Simulation Sales Engineer
+Message-ID: <826392C406B3694B91FF46E69D92D3672730BBD5@GL-EXC-01.iesve.com>
+
+Integrated Environmental Solutions Limited has a new position in the US as a Sales Engineer for our building simulation software (IES-VE) to help develop the business in that region.  This role will suit someone with knowledge and experience of the sustainable building design industry who is keen to develop their career in a key client facing role. The successful candidate will be based in our Atlanta office or could work remotely from another location on the US East Coast.
+
+Full details are available via this link<http://www.iesve.com/jobs/job-detail/Sales-Engineer/4516?modal=1> to the careers page of our website.  To apply or for further information please contact us at careers at iesve.com<mailto:careers at iesve.com>
+
+Regards
+
+Helen Willis
+
+
+[cid:image001.png at 01D0C462.77F5A210]<http://www.iesve.com/>
+
+Helen Willis
+HR Manager
+
+UK:
+
+  +44 (0) 141 945 8500
+
+Fax:
+
+  +44 (0) 141 945 8501
+
+
+
+
+
+http://www.iesve.com<http://www.iesve.com/>
+
+
+Integrated Environmental Solutions Limited. Registered in Scotland No. SC151456
+Registered Office - Helix Building, West Of Scotland Science Park, Glasgow G20 0SP
+
+Email Disclaimer<http://www.iesve.com/disclaimer.html>
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150722/dfd35ae6/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 2436 bytes
+Desc: image001.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150722/dfd35ae6/attachment.png>
+
+From chipbarnaby at gmail.com  Wed Jul 22 05:55:48 2015
+From: chipbarnaby at gmail.com (Chip Barnaby)
+Date: Wed, 22 Jul 2015 08:55:48 -0400
+Subject: [Bldg-sim] Real-time pv yield as a surrogate for irradiance
+In-Reply-To: <536233.476d61696c496431346561646466363436356633363363@popretr.messagingengine.com>
+References: <CAOQXAFCN6MNoJYQG0RgUTS96G9TAYau1MRvV3Qbimxc68caP4Q@mail.gmail.com>
+	<CAB+zL_=fgoJVJqK3H=M6XewfewtR+D-+38Smhy0eKq_wd2ywMA@mail.gmail.com>
+	<55AD7F35.50307@whiteboxtechnologies.com>
+	<536233.476d61696c496431346561646466363436356633363363@popretr.messagingengine.com>
+	<55AD88FD.4000201@360-Analytics.com>
+Message-ID: <1437569748.3843744.330212545.699DDD26@webmail.messagingengine.com>
+
+In addition to dirt, there is snow cover. ?I live in NH and have a 5 kW
+PV system with a real-time display of power output. ?Even minor snow
+cover drops the output to essentially 0. Chip Barnaby
+
+--
+Chip Barnaby
+chipbarnaby at gmail.com
+ 
+ 
+ 
+On Mon, Jul 20, 2015, at 07:49 PM, David Reddy wrote:
+> Yes, interesting idea and glad to see it discussed here.? 
+>  
+> 
+    This idea also occurred to us when evaluating PV systems on a number
+    of buildings in Hawaii.? In that project, we were fortunate enough
+    to have a solar
+      monitoring site[1] right down the street, and he had 15min and
+    1hour PV? energy generation for every panel (micro-invertors) on 15
+    different buildings, each oriented in the same direction.? However,
+    some other issues, besides the one's Joe described, came to mind in
+    trying to develop a model that linked the two:
+>  * In addition to temperature, PV panels energy production also
+        degrades as the panels get dirty.? That seemed like the variable
+        that is toughest to compensate for.? 
+>  * Data connection between the inverters to the cloud was pretty
+        good, but we did find gaps a number of gaps; sometimes for up to
+        a month or two.??
+> Still yes, an interesting idea, and sounds like a good research
+      project...
+> 
+      David
+
+
+>  
+> On 7/20/2015 4:07 PM, Joe Huang wrote:
+>> This is an intriguing idea (using PV output as a surrogate for
+      irradiance), but there are a number of complications that need to
+      be investigated:
+>> 
+      1. PV efficiency degrades with temperature; therefore, you have to
+      have some way to adjust the output by the temperature of the PV
+      (not the air temperature)
+>> 
+      2. you also need to adjust for the tilt and azimuth of the PV
+      panels to derive the equivalent global horizontal radiation.
+>> 
+      3. you also need to split the global horizontal into direct and
+      diffuse radiation, which could be done using a number of
+      direct/diffuse split models, which is what's done for 99% of the
+      weather files anyway because I've yet to find any measured direct
+      normal radiation outside of strictly research applications.
+>>  
+>> 
+      When I look at this list, all three could be done using a building
+      energy simulation program,? provided that you know the
+      absorptivity of the PV and its conversion efficiency as a function
+      of temperature,? but at this point it's getting more hairy than
+      calculating the solar radiation from standard weather station data
+      or, beginning in Sept 2015 for US locations, downloading the solar
+      radiation from NREL. 
+>>  
+>> 
+      I'm not being critical, and actually I am quite intrigued by this
+      technique, and would be happy to help evaluate how well it works.
+>>  
+>> 
+      Joe
+>>  
+>> Joe Huang    
+White Box Technologies, Inc.
+346 Rheem Blvd., Suite 205A
+Moraga CA 94556
+>> yjhuang at whiteboxtechnologies.com http://weather.whiteboxtechnologies.com for simulation-ready weather data
+>> http://www.whiteboxtechnologies.com
+(o) (925)388-0265
+(c) (510)928-2683
+"building energy simulations at your fingertips"
+>> On 7/21/2015 2:21 AM, Justin Spencer
+        wrote:
+>>> You can use anything you want as a surrogate, as
+          long as you have some way of proving it works. In this case,
+          if you could somehow get real time PV data for a set of sites
+          that also had actual insolation and then looked at your
+          results, I think you could derive a typical relationship that
+          wouldn't lead you too far astray. The problem will come when
+          there are passing clouds and the PV system is "hunting" all
+          the time trying to catch up with the changing insolation. I
+          bet you could find those and apply a bias correction that
+          could then be used in multiple sites with real time PV data.?
+>>>  
+>>> On Mon, Jul 20, 2015 at 10:55 AM,
+            Chris Yates <chris.malcolm.yates at gmail.com>
+            wrote:
+>>>> Ok, so there's no substitute for doing
+                weather data right.
+
+
+>>>> However, in the absence of such data, could
+                real-time pv yield be used as a surrogate?
+
+
+>>>> Chris
+
+
+>>>> Sent from my Android device. Please excuse
+                typos, etc.
+
+
+>>>>  
+>>>> 
+              _______________________________________________
+>>>> 
+              Bldg-sim mailing list
+>>>> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+>>>> 
+              To unsubscribe from this mailing list send? a blank
+              message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>>>>  
+>>>  
+>>>  
+>>>  
+>>> _______________________________________________
+Bldg-sim mailing list
+>>> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>>  
+>>  
+>>  
+>> _______________________________________________
+Bldg-sim mailing list
+>> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+>  
+> _________________________________________________
+> Bldg-sim mailing list
+> http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+> To unsubscribe from this mailing list send? a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG
+ 
+
+
+Links:
+
+  1. http://www.nrel.gov/midc/nelha/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150722/57a2bb21/attachment.htm>
+
+From Jude.Chakraborty at WSPGroup.com  Wed Jul 22 11:52:27 2015
+From: Jude.Chakraborty at WSPGroup.com (Chakraborty, Judhajit)
+Date: Wed, 22 Jul 2015 18:52:27 +0000
+Subject: [Bldg-sim] IBPSA-USA San Francisco Chapter July 2015 Event
+Message-ID: <A74E88F4004970429432C6B5A251B2240133856E5A@USSFO1EXC01.us.wspgroup.com>
+
+IBPSA-USA San Francisco Chapter July 2015 Event
+
+
+
+When: Tuesday, July 28 2015, 6:00 PM
+
+
+
+Location: Atelier Ten, 450 Geary St # 200, San Francisco, CA 94102
+
+
+
+SCHEDULE:
+
+6 pm to 6:30 pm - Networking
+
+6:30 pm to 7:45 pm - Presentation
+
+7:45 pm to 8 pm - Questions
+
+
+
+IBPSA-USA San Francisco Chapter welcomes you all to the July 2015 event.
+
+
+
+This month, the IBPSA-US San Francisco Chapter Committee organizations (Atelier Ten, WSP, Integral Group and Willdan Energy Solutions) are going to team up and present about some projects we are working on.
+
+
+
+Please RSVP Shruti  at Shruti.Kasarekar at atelierten.com<mailto:Shruti.Kasarekar at atelierten.com> if you are planning to attend in person.
+
+
+
+WEBINAR REGISTRATION DETAILS:
+
+
+
+Registration URL: https://attendee.gotowebinar.com/register/7826097635137496321
+
+Webinar ID: 150-791-099
+
+
+
+Best regards,
+
+Jude.
+
+Judhajit Chakraborty, LEED AP BD+C
+Built Ecology
+
+WSP 405 Howard Street, Suite 500, San Francisco, CA 94105
+Direct:  +1-415-402-5815
+Main:   +1-415-398-3833
+
+www.wspgroup.com/usa<http://www.wspgroup.com/usa>
+
+
+We are WSP, one of the world's leading engineering, design, and environmental consultancies.
+Working to improve lives through transformation of the built environment and restoration of the natural environment.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150722/25200ef4/attachment.htm>
+
+From tito_ at mit.edu  Wed Jul 22 17:33:06 2015
+From: tito_ at mit.edu (Christoph Reinhart)
+Date: Thu, 23 Jul 2015 00:33:06 +0000
+Subject: [Bldg-sim] FW: Daylight Modeling: learn +++ practice +++ compete
+Message-ID: <1B23446CBF250648A2FC775DE3FE7E80D703E71D@OC11expo28.exchange.mit.edu>
+
+Dear colleagues,
+
+Some of you might be interested in two new resources for self-learning and/or teaching advanced daylight simulations using Radiance and Daysim via DIVA as well as a student competition.
+
+
+Learn:? We prepared close to three hours of video tutorials<file:///C:\Users\tito_\Dropbox\Projects\MIT_Website\SustianableDesignLab\projects\DIVATutorials\index.html> for DIVA covering advanced concepts such as annual daylight availability and glare simulations for dynamic facades as well as setting up electric lighting designs and control strategies.
+Practice: For teaching and background reading, the tutorials are further linked to several teaching exercises<http://web.mit.edu/sustainabledesignlab/projects/DaylightingHandbook/resources.htm> that we have been using in introductory and advanced classes on daylighting and environmental design. In person DIVA training<http://diva4rhino.com/page/diva-day-2015-training-course-schedule> will be offered in conjunction with DIVA Day on October 22 and 24 at the Architectural Association in London.
+Compete: Finally, please alert any of your student contacts of our 2nd DIVA Day student competition<http://diva4rhino.com/diva-day-2015/student-competition>. We want to see how you are using DIVA. The winner(s) will receive a ?1000 stipend to cover travel costs to DIVA Day, free conference registration, and will have their submission displayed during DIVA Day, on 23 October 2015! The submission deadline is September 19.
+Happy simulations,
+Christoph
+Christoph Reinhart
+Associate Professor
+Department of Architecture
+Massachusetts Institute of Technology
+77 Massachusetts Ave, Rm 5-418, Cambridge, MA 02139, USA
+t: 617 253 7714, f: 617 253 6152, creinhart at mit.edu<mailto:creinhart at mit.edu>
+Sustainable Design Lab<http://mit.edu/SustainableDesignLab/> | DIVA<http://www.diva4rhino.com/> | Daysim<http://daysim.ning.com/> | mapdwell<http://www.mapdwell.com/> | umi<http://www.urbanmodeling.net/>
+-------------------------------------------------------------------------
+Events  Modeling Urban Sustainability<https://model-sustainability.mit.edu/> | DIVA Day 2015 <http://diva4rhino.com/diva-day-2015>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150723/c81a8431/attachment.htm>
+
+From cjhadlock at gmail.com  Fri Jul 24 12:49:20 2015
+From: cjhadlock at gmail.com (Chris Hadlock)
+Date: Fri, 24 Jul 2015 15:49:20 -0400
+Subject: [Bldg-sim] eQuest not properly translating AutoCAD import
+Message-ID: <CAFewGwewC3FoqfsK8wJqq-dooX0pxophVtWm2nJ4Or3O9QgYcA@mail.gmail.com>
+
+Has anyone ever ran into an issue (using either eQuest 3.64 or 3.65) with
+importing a CAD file and eQuest having trouble translating the lines
+properly?
+
+I've attached an image which shows eQuest's version of my CAD file on the
+left and my actual CAD file on the right. If you look closely, you'll see
+several deviations between eQuest line and CAD lines...eQuest seems to be
+mis-shaping my zones (for example, the top line should be a straight line
+all the way along, but eQuest has added a different angle to the line on
+the top left zone).
+
+Anyone seen this and found a fix for this?
+
+If it matters, my CAD file is DXF 2000 format (but I've also tried other
+formats with the same results).
+
+Thanks,
+Chris
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150724/43fd3cfb/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Zoning.jpg
+Type: image/jpeg
+Size: 383445 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150724/43fd3cfb/attachment.jpg>
+
+From Cory.Duggin at tlc-eng.com  Mon Jul 27 06:26:46 2015
+From: Cory.Duggin at tlc-eng.com (Duggin, Cory)
+Date: Mon, 27 Jul 2015 09:26:46 -0400
+Subject: [Bldg-sim] Energy efficieny: VRF + DOAS vs VRF + unconditioned
+ Ventilation system
+In-Reply-To: <CAPOOC+OqWN-NTjw8U=AcB65vvUOvog4qiDEYOqcjW09BNx5nqg@mail.gmail.com>
+References: <CAM04QheTB5O==cCfVnXhZ9fnpwwgvAToUiFFWgT0CBOsiTSbzQ@mail.gmail.com>
+	<CAPOOC+MSD9DjYgMgnEdzjL4QP9+1aYp0CZdr+fZYLJxod81D=Q@mail.gmail.com>
+	<CAM04QhdJoTbmYr-_PhCNKnzxZZLF2LvrOQgxxHqQQr0rU0qcxA@mail.gmail.com>
+	<CAPOOC+OqWN-NTjw8U=AcB65vvUOvog4qiDEYOqcjW09BNx5nqg@mail.gmail.com>
+Message-ID: <55E6EE3014A4E04EA2E61645AB5807F70A1C319F62AE@TLCEC1.tlc-eng.com>
+
+It?s also worth noting that VRF FCU typically don?t have a lot of latent capacity, so they can only handle a limited amount of OA within a certain envelope.  There are VRF DOAS FCU that are designed to handle OA though.  These can be used if  you want to take advantage of heat recovery from the ventilation load.
+
+Cory Duggin, PE, LEED AP BD+C
+Associate/Energy Engineer
+TLC Engineering for Architecture
+direct:
+
+615-346-1939
+
+
+
+From: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Andrew Corney
+Sent: Tuesday, July 21, 2015 10:32 AM
+To: Santiago Velez <santiagogvelez at gmail.com>
+Cc: bldg-sim at lists.onebuilding.org
+Subject: Re: [Bldg-sim] Energy efficieny: VRF + DOAS vs VRF + unconditioned Ventilation system
+
+Hmm. Not sure but it seems likely that a wet coil could affect the efficiency performance of the VRF FCU.
+
+From an energy perspective heat recovery centrally could be made to be very efficient. If you bring air in from outside and let the VRF system see it then you might not get those benefits and the ventilation load might be a lot higher. This could be offset for heating with a zone by zone MVHR system.
+
+That said you could potentially have latent heat recovery at a central AHU where it would be very hard in an MVHR ventilation unit. In more extreme climates this could make a substantial difference. For example this could help rehumidify the air in very cold places or dehumidify the air in hot humid climates. The heat recovery would then be a direct saving against the coil load (although it would increase pressure drop in the DOAS system!).
+
+On Tue, Jul 21, 2015 at 4:06 PM, Santiago Velez <santiagogvelez at gmail.com<mailto:santiagogvelez at gmail.com>> wrote:
+Thanks Andrew, I wonder though if besides first cost or maintenance related issues there are any energy savings at all, and if so why is that the case. I Read about better performance of evaporator running with lower air temperature in a DOAS, but you still need energy to treat ventilation air in the DOAS system, so were are the savings coming from?
+
+
+
+On 21 July 2015 at 10:39, Andrew Corney <andrew.corney at sefaira.com<mailto:andrew.corney at sefaira.com>> wrote:
+Hi Santiago,
+
+One benefit might be the ability to do the dehumidification remotely via the DOAS system. This could alleviate the maintenance of drip trays / condensate drains from your VRF fan coil units. You might also be able to down-spec the VRF fan coils that you are using as well (possibly reducing size).
+
+Another benefit would be that it might be cheaper to do a higher performance style of heat recovery centrally that could help reduce heating energy in particular.
+
+So there are 2 reasons!
+
+cheers,
+
+Andrew
+
+On Tue, Jul 21, 2015 at 2:33 PM, Santiago Velez <santiagogvelez at gmail.com<mailto:santiagogvelez at gmail.com>> wrote:
+Dear Group, Can someone enlighten me about the energy efficiency benefits of conditioning the ventilation air in a VRF + DOAS system, versus letting the VRF handle all the load (internal loads + Ventilation loads).
+Thanks in advance.
+Regards,
+Santiago.
+
+_______________________________________________
+Bldg-sim mailing list
+http://lists.onebuilding.org/listinfo.cgi/bldg-sim-onebuilding.org
+To unsubscribe from this mailing list send  a blank message to BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG<mailto:BLDG-SIM-UNSUBSCRIBE at ONEBUILDING.ORG>
+
+
+
+--
+Andrew Corney
+PE M.CIBSE M.ASHRAE
+Product Manager - Sefaira Systems
+
+Mobile: +44 (0)7887 059 722<tel:%2B44%20%280%297887%20059%20722>
+Office: +44 (0)2037 147 619<tel:%2B44%20%280%292037%20147%20619>
+Skype: andrew.corney.sefaira
+
+Sefaira - Sustainability. Performance. Design.
+
+For company contact and registration information, please visit: http://www.sefaira.com/info/contact
+
+Check out our latest webinar showcasing the product here<https://vimeo.com/130461932>. Subscribe here<http://www.sefaira.com/subscribe-from-email/> to our bi-weekly newsletter.
+
+
+
+
+--
+Andrew Corney
+PE M.CIBSE M.ASHRAE
+Product Manager - Sefaira Systems
+
+Mobile: +44 (0)7887 059 722
+Office: +44 (0)2037 147 619
+Skype: andrew.corney.sefaira
+
+Sefaira - Sustainability. Performance. Design.
+
+For company contact and registration information, please visit: http://www.sefaira.com/info/contact
+
+Check out our latest webinar showcasing the product here<https://vimeo.com/130461932>. Subscribe here<http://www.sefaira.com/subscribe-from-email/> to our bi-weekly newsletter.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150727/04d1d0f2/attachment.htm>
+
+From chris.malcolm.yates at gmail.com  Tue Jul 28 01:32:35 2015
+From: chris.malcolm.yates at gmail.com (Chris Yates)
+Date: Tue, 28 Jul 2015 09:32:35 +0100
+Subject: [Bldg-sim] 'arithmetical' heat loss versus dynamic simulation
+Message-ID: <CAOQXAFAQKLGEm7H67U4MFq0mdAq60+suORPkqj7oVgXF_-3ZZw@mail.gmail.com>
+
+I am trying to form a rationale for a relatively quick and dirty assessment
+of some BMS signals and excel appears to be the best tool for this.
+However, my usage is limited to fairly crude funcitons.
+
+I have heard that calculations using the form Q = [?UA + ?NV/3].?T for
+correlate closely with more sophisticated simulation methods, when
+restricted to heat loss. In my mind this makes sense: in heat loss the flow
+of heat is uni-directional. This is in contrast to cooling where there is
+usually some form of 'capacitance' necessitating something a bit more
+'numerical'. There are other limitations, but these may be
+expedient. Does anybody have experience of, or is aware of, any of the
+following:
+
+   - Relevant papers or reports
+   - Usage of such an equation for anything other than a simple heat loss
+   at a fixed design temperature (e.g. binned or time step based calculation)
+
+Kind regards
+
+Chris
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150728/287d9adc/attachment.htm>
+
+From jglazer at gard.com  Wed Jul 29 14:10:18 2015
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 29 Jul 2015 16:10:18 -0500
+Subject: [Bldg-sim] Search working again
+Message-ID: <55B9413A.30200@gard.com>
+
+It seems like the search engine is working again:
+
+   http://onebuilding.org/search.html
+
+Hopefully, it will stay working.
+
+Jason
+
+
+
+From Christopher.r.Jones at wspgroup.com  Wed Jul 29 15:06:04 2015
+From: Christopher.r.Jones at wspgroup.com (Jones, Christopher)
+Date: Wed, 29 Jul 2015 22:06:04 +0000
+Subject: [Bldg-sim] ASHRAE 90.1 fan power limitation calculation question
+Message-ID: <25F861E695EA99478F9790869A57C7D45E0425D1@catormsx02>
+
+For the baseline fan power limitation, the pressure drop allowances are defined.  I am a bit fuzzy on the definition of "Return/Exhaust Control Devices".  A system with a return fan and OA economizer typically has dampers to control the flow of the OA, return/exhaust air streams.  Would these dampers qualify as a Return/Exhaust Control Device?
+
+
+[cid:image003.png at 01D09C46.E75BA0D0]
+Christopher Jones, P.Eng.
+Senior Engineer
+
+WSP Canada Inc.
+2300 Yonge Street, Suite 2300
+Toronto, ON M4P 1E4
+T +1 416-644-4226
+F +1 416-487-9766
+C +1 416-697-0065
+
+www.wspgroup.com<http://www.wspgroup.com/>
+
+
+
+________________________________
+
+You are receiving this communication because you are listed as a current WSP contact. Should you have any questions regarding WSP?s electronic communications policy, please consult our Anti-Spam Commitment www.wspgroup.com/casl. For any concern or if you believe you should not be receiving this message, please forward this message to us at caslcompliance at wspgroup.com<mailto:caslcompliance at wspgroup.com> so that we can promptly address your request. This message is intended only for the use of the individual or entity to which it is addressed, and may contain information which is privileged, confidential, proprietary or exempt from disclosure under applicable law. If you are not the intended recipient or the person responsible for delivering the message to the intended recipient, you are strictly prohibited from disclosing, distributing, copying or in any way using this message. If you have received this communication in error, please notify the sender, and destroy and delete any copies you may have received.
+
+WSP provides professional land surveying services through the following entities: WSP Surveys (AB) Limited Partnership and WSP Surveys (BC) Limited Partnership
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150729/38328a6d/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 6574 bytes
+Desc: image001.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150729/38328a6d/attachment.png>
+
+From maria.karpman at karpmanconsulting.net  Wed Jul 29 15:44:56 2015
+From: maria.karpman at karpmanconsulting.net (Maria Karpman)
+Date: Wed, 29 Jul 2015 18:44:56 -0400
+Subject: [Bldg-sim] ASHRAE 90.1 fan power limitation calculation question
+In-Reply-To: <25F861E695EA99478F9790869A57C7D45E0425D1@catormsx02>
+References: <25F861E695EA99478F9790869A57C7D45E0425D1@catormsx02>
+Message-ID: <01ab01d0ca50$32633020$97299060$@karpmanconsulting.net>
+
+Here is an abstract from 90.1 User?s Manual that answers your question:
+
+ 
+
+Pressure Drop Adjustment Devices
+
+This section provides a description of the
+
+types of devices that quality for additional
+
+fan power. ?
+
+ 
+
+???
+
+Return and/or exhaust airflow control devices.
+
+Some types of spaces such as laboratories,
+
+test rooms, or operating rooms require
+
+that an airflow control device be provided
+
+at both the supply air delivery point and at
+
+the exhaust. The exhaust airflow control
+
+device is typically modulated to maintain a
+
+negative or positive space pressure relative
+
+to surrounding spaces. An additional
+
+pressure drop and associated brake
+
+horsepower adjustment is permitted when
+
+this type of device is installed. The credit
+
+may be taken when some spaces served by
+
+an air handler have exhaust airflow devices
+
+and other spaces do not. However, the
+
+credit is taken only for the CFM of air that
+
+is delivered to spaces with a qualifying
+
+exhaust air flow device.
+
+ 
+
+-- 
+
+Maria Karpman LEED AP, BEMP, CEM
+
+________________
+
+Karpman Consulting
+
+ <http://www.karpmanconsulting.net/> www.karpmanconsulting.net 
+
+Phone 860.430.1909 
+
+41C New London Turnpike
+
+Glastonbury, CT 06033
+
+ 
+
+From: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Jones, Christopher
+Sent: Wednesday, July 29, 2015 6:06 PM
+To: bldg-sim at onebuilding.org
+Subject: [Bldg-sim] ASHRAE 90.1 fan power limitation calculation question
+
+ 
+
+For the baseline fan power limitation, the pressure drop allowances are defined.  I am a bit fuzzy on the definition of "Return/Exhaust Control Devices".  A system with a return fan and OA economizer typically has dampers to control the flow of the OA, return/exhaust air streams.  Would these dampers qualify as a Return/Exhaust Control Device?
+
+ 
+
+cid:image003.png at 01D09C46.E75BA0D0
+
+Christopher Jones, P.Eng. 
+Senior Engineer
+
+ 
+
+WSP Canada Inc.
+
+2300 Yonge Street, Suite 2300
+
+Toronto, ON M4P 1E4
+T +1 416-644-4226
+
+F +1 416-487-9766
+
+C +1 416-697-0065
+
+ 
+
+www.wspgroup.com <http://www.wspgroup.com/>  
+
+ 
+
+  _____  
+
+
+You are receiving this communication because you are listed as a current WSP contact. Should you have any questions regarding WSP?s electronic communications policy, please consult our Anti-Spam Commitment www.wspgroup.com/casl. For any concern or if you believe you should not be receiving this message, please forward this message to us at caslcompliance at wspgroup.com so that we can promptly address your request. This message is intended only for the use of the individual or entity to which it is addressed, and may contain information which is privileged, confidential, proprietary or exempt from disclosure under applicable law. If you are not the intended recipient or the person responsible for delivering the message to the intended recipient, you are strictly prohibited from disclosing, distributing, copying or in any way using this message. If you have received this communication in error, please notify the sender, and destroy and delete any copies you may have received. 
+
+WSP provides professional land surveying services through the following entities: WSP Surveys (AB) Limited Partnership and WSP Surveys (BC) Limited Partnership 
+
+  _____  
+
+No virus found in this message.
+Checked by AVG - www.avg.com
+Version: 2014.0.4821 / Virus Database: 4365/10324 - Release Date: 07/28/15
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150729/c79d0ac5/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/png
+Size: 6574 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150729/c79d0ac5/attachment.png>
+
+From michael.tillou at gmail.com  Wed Jul 29 15:58:18 2015
+From: michael.tillou at gmail.com (MIke Tillou)
+Date: Wed, 29 Jul 2015 18:58:18 -0400
+Subject: [Bldg-sim] ASHRAE 90.1 fan power limitation calculation question
+In-Reply-To: <25F861E695EA99478F9790869A57C7D45E0425D1@catormsx02>
+References: <25F861E695EA99478F9790869A57C7D45E0425D1@catormsx02>
+Message-ID: <009c01d0ca52$0f9ada00$2ed08e00$@gmail.com>
+
+HI Chris,
+
+ 
+
+The base  fan power allowance already includes the necessary pressure drop for return/exhaust dampers  in the air handler.  The adjustment for exhaust/return control devices refers to damper boxes or other devices used to control space pressurization like you would typically find in a laboratory or hospital.  
+
+ 
+
+Cheers,
+
+ 
+
+ 
+
+Michael Tillou, PE, LEED AP BD+C, ASHRAE BEMP
+
+Associate
+
+ 
+
+Atelier Ten
+
+Environmental Design Consultants + Lighting Designers
+
+ 
+
+45 East 20th Street, 4th Floor
+
+New York NY 10003
+
+T +1 (212) 254 4500 x208
+
+F +1 (212) 254 1259
+
+michael.tillou at atelierten.com
+
+ 
+
+www.atelierten.com
+
+ 
+
+ 
+
+ 
+
+ 
+
+From: Bldg-sim [mailto:bldg-sim-bounces at lists.onebuilding.org] On Behalf Of Jones, Christopher
+Sent: Wednesday, July 29, 2015 6:06 PM
+To: bldg-sim at onebuilding.org
+Subject: [Bldg-sim] ASHRAE 90.1 fan power limitation calculation question
+
+ 
+
+For the baseline fan power limitation, the pressure drop allowances are defined.  I am a bit fuzzy on the definition of "Return/Exhaust Control Devices".  A system with a return fan and OA economizer typically has dampers to control the flow of the OA, return/exhaust air streams.  Would these dampers qualify as a Return/Exhaust Control Device?
+
+ 
+
+
+
+Christopher Jones, P.Eng. 
+Senior Engineer
+
+ 
+
+WSP Canada Inc.
+
+2300 Yonge Street, Suite 2300
+
+Toronto, ON M4P 1E4
+T +1 416-644-4226
+
+F +1 416-487-9766
+
+C +1 416-697-0065
+
+ 
+
+www.wspgroup.com <http://www.wspgroup.com/>  
+
+ 
+
+  _____  
+
+
+You are receiving this communication because you are listed as a current WSP contact. Should you have any questions regarding WSP?s electronic communications policy, please consult our Anti-Spam Commitment www.wspgroup.com/casl. For any concern or if you believe you should not be receiving this message, please forward this message to us at caslcompliance at wspgroup.com <mailto:caslcompliance at wspgroup.com>  so that we can promptly address your request. This message is intended only for the use of the individual or entity to which it is addressed, and may contain information which is privileged, confidential, proprietary or exempt from disclosure under applicable law. If you are not the intended recipient or the person responsible for delivering the message to the intended recipient, you are strictly prohibited from disclosing, distributing, copying or in any way using this message. If you have received this communication in error, please notify the sender, and destroy and delete any copies you may have received. 
+
+WSP provides professional land surveying services through the following entities: WSP Surveys (AB) Limited Partnership and WSP Surveys (BC) Limited Partnership 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150729/7df9e26d/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/png
+Size: 6574 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150729/7df9e26d/attachment.png>
+
+From arpan.bakshi at performance.network  Wed Jul 29 16:49:54 2015
+From: arpan.bakshi at performance.network (arpan.bakshi at performance.network)
+Date: Wed, 29 Jul 2015 23:49:54 +0000
+Subject: [Bldg-sim] Last Chance to Register for this Friday's Autodesk
+ Dynamo Performance Workshop
+Message-ID: <BY2PR15MB01498EBE987DAF4190A6E7628A8C0@BY2PR15MB0149.namprd15.prod.outlook.com>
+
+[cid:8dced7af-743b-44b8-89ea-f61e1c61bd28]
+
+
+July 31 | Autodesk Dynamo: Graphical Programming for Design<http://performancenetwork.tumblr.com/post/122687519275/july-31-autodesk-dynamo-graphical-programming>
+Fri, Jul 31, 2015  |  12:30 PM - 2:00 PM EDT
+
+
+Register at https://attendee.gototraining.com/r/7971972041285182978
+
+
+Autodesk? Dynamo software is a graphical programming environment that lets designers create visual logic to explore parametric conceptual designs and automate tasks. Help solve challenges faster by designing workflows that drive the geometry and behavior of design models. Extend your designs into interoperable workflows for documentation, fabrication, coordination, simulation, and analysis.
+
+ABOUT THE INSTRUCTOR
+Brian Ringley is on the Global Design Technology Team at Woods Bagot where he leads efforts around Rhino, Grasshopper, fabrication, and analysis workflows, curates and develops custom digital toolsets, and provides intensive project assistance for globally significant projects with high degrees of complexity.
+
+He taught at City Tech (CUNY) and currently teaches at Pratt Institute's GAUD. Prior to Woods Bagot, he worked for KPF in New York and London, Dellekamp Arquitectos in Mexico City, and R&Sie(n) in Paris. He is a regular contributor to Designalyze.com, a design computation education site, and AEC-APPS.com, an award-winning AEC software database community.
+
+
+Register at https://attendee.gototraining.com/r/7971972041285182978
+
+
+...
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150729/2930dde5/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: pastedImage.png
+Type: image/png
+Size: 391584 bytes
+Desc: pastedImage.png
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150729/2930dde5/attachment.png>
+
+From miller.clayton at gmail.com  Thu Jul 30 04:42:34 2015
+From: miller.clayton at gmail.com (Clayton Miller)
+Date: Thu, 30 Jul 2015 13:42:34 +0200
+Subject: [Bldg-sim] ETH Zurich Post-Doc and PhD Positions in Urban Energy
+	Systems
+Message-ID: <CAG7SY4uf8A7OQ4cCv9ZM6f75Lu7w2-xG4UoSy7QYBkRBJ=mhEw@mail.gmail.com>
+
+Two ETH Zurich research positions are available in Singapore as part of the
+Future Cities Lab (http://www.fcl.ethz.ch/):
+
+- Post-doctoral research or research assistant position in the field of
+Design Integration of Urban Energy Systems
+- PhD position in the field of Urban Energy Systems Modeling and Analysis
+
+See attached PDF's for more information!
+
+Both positions are targeted to start in Nov. 2015.
+
+Please apply online on www.jobs.ethz.ch. For questions please contact
+Jimeno A. Fonseca (fonseca at arch.ethz.ch).
+
+-- 
+Clayton Miller
+ITA Doctorate Fellow
+
+miller.clayton at arch.ethz.ch
+Swiss +41 78 971 72 50
+Singapore +65 8165 2647
+USA +1 402 403 0090
+
+Chair of Architecture and Building Systems
+Institute of Technology in Architecture (ITA)
+ETH Zurich / Building HPZ / Floor G
+John-von-Neumann Weg 9 / CH-8093 Zurich
+http://systems.arch.ethz.ch
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150730/eb3a3167/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 2015_JobPosting UD_AS.pdf
+Type: application/pdf
+Size: 91018 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150730/eb3a3167/attachment.pdf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 2015_JobPostingPHD_AS.pdf
+Type: application/pdf
+Size: 90649 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150730/eb3a3167/attachment-0001.pdf>
+
+From j.hensen at tue.nl  Fri Jul 31 06:05:22 2015
+From: j.hensen at tue.nl (Hensen, J.L.M.)
+Date: Fri, 31 Jul 2015 13:05:22 +0000
+Subject: [Bldg-sim] PhD position: Computational performance optimization of
+	responsive
+Message-ID: <E9F3E08142611F4A89071344B1A25456289A52A3@XSERVER20A.campus.tue.nl>
+
+Dear colleagues,
+
+This is to make you aware of a new PhD position in our group: http://jobs.tue.nl/nl/vacature/phd-computational-performance-optimization-of-responsive-buildings-225603.html
+
+The research will focus on energy-efficient and cost-effective optimization of innovative responsive building elements (RBE); i.e. elements that can change their properties over time, in response to varying occupant needs, smart grid interaction and weather conditions.
+The objective of this PhD research is to develop and test a computational performance assessment framework that can be used to analyze the direct (e.g. energy, emissions, comfort) as well as indirect performance benefits of buildings with RBE. Using a series of case studies, the application potential of this framework will be demonstrated.
+Outcomes from the case studies will be used to inspire further product/concept development towards high-potential RBE solutions.
+
+Please forward this message as you see fit.
+
+Vriendelijke groet / Kind regards,
+
+Jan Hensen
+.........................................
+prof. dr. ir. Jan L.M. Hensen | Chair of Building Performance | Scientific Director Post-MSc Smart Energy Buildings & Cities | Theme Leader Energy in the Built Environment | Eindhoven University of Technology - Netherlands | janhensen.nl<http://janhensen.nl/>
+
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150731/f487b04c/attachment.htm>
+
+From j.hensen at tue.nl  Fri Jul 31 06:10:45 2015
+From: j.hensen at tue.nl (Hensen, J.L.M.)
+Date: Fri, 31 Jul 2015 13:10:45 +0000
+Subject: [Bldg-sim] PhD position: Computational performance optimization of
+ responsive buildings
+Message-ID: <E9F3E08142611F4A89071344B1A25456289A52E0@XSERVER20A.campus.tue.nl>
+
+Dear colleagues,
+
+This is to make you aware of a new PhD position in our group: http://jobs.tue.nl/nl/vacature/phd-computational-performance-optimization-of-responsive-buildings-225603.html
+
+The research will focus on energy-efficient and cost-effective optimization of innovative responsive building elements (RBE); i.e. elements that can change their properties over time, in response to varying occupant needs, smart grid interaction and weather conditions.
+The objective of this PhD research is to develop and test a computational performance assessment framework that can be used to analyze the direct (e.g. energy, emissions, comfort) as well as indirect performance benefits of buildings with RBE. Using a series of case studies, the application potential of this framework will be demonstrated.
+Outcomes from the case studies will be used to inspire further product/concept development towards high-potential RBE solutions.
+
+Please forward this message as you see fit.
+
+Vriendelijke groet / Kind regards,
+
+Jan Hensen
+.........................................
+prof. dr. ir. Jan L.M. Hensen | Chair of Building Performance | Scientific Director Post-MSc Smart Energy Buildings & Cities | Theme Leader Energy in the Built Environment | Eindhoven University of Technology - Netherlands | janhensen.nl<http://janhensen.nl/>
+
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20150731/b6cdf456/attachment.htm>
+

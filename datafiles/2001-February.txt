@@ -1,0 +1,868 @@
+From F.Al-ajmi at lboro.ac.uk  Fri Feb  2 07:31:03 2001
+From: F.Al-ajmi at lboro.ac.uk (F.Alajmi)
+Date: Fri, 02 Feb 2001 15:31:03 +0000
+Subject: [BLDG-SIM] Linking to Trnsys-IISIBat
+Message-ID: <MDAEMON-F200102020926.AA262523pd80000015598@gard.com>
+
+Hi, 
+Does anyone have recommendations or experiences,liking Pascal source code
+to Trnsys-IIsibat Project,
+Thanks
+
+Farraj Alajmi
+Department of Civil & Building Engineering
+Loughborough University
+Loughborough Leics  LE11 3TU  UK
+Tel(01509)263171 ext.4140
+ 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mjwitte at gard.com  Fri Feb  2 07:57:28 2001
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Fri, 2 Feb 2001 09:57:28 -0600
+Subject: [BLDG-SIM] Interoperability Software Demonstrations
+Message-ID: <MDAEMON-F200102020951.AA511023pd80000015630@gard.com>
+
+---- Forwarded Message ----
+
+Date sent:      	Thu, 01 Feb 2001 14:53:36 -0800
+From:           	Vladimir Bazjanac <v_bazjanac at lbl.gov>
+Organization:   	Lawrence Berkeley National Laboratory
+Send reply to:  	v_bazjanac at lbl.gov
+
+How to Make Your CAD Data Do Five Times as Much Work at No Extra Cost
+
+The Lawrence Berkeley National Laboratory, in cooperation with Southern
+California Edison (in an event in Santa Monica) and Pacific Gas and
+Electric (in an event in San Francisco), will demonstrate the exchange
+of architectural and engineering information among various software
+applications using IAI's IFC R2.0.  This is a "reality breakthrough;"
+after almost six years of developing interoperable standards, the
+Alliance is pleased to show that commercial software developers are
+delivering products incorporating IAI's IFC standards that will
+dramatically change the way professional designers, building owners and
+managers, and a host of other AEC+FM professionals will work in the
+future.  Commercial vendors such as Timberline Software Corporation,
+Microsoft Corporation, and others, will exchange CAD drawings, cost
+estimating information, engineering data for energy analysis, and more
+at both events.  The attached file provides more background and detail
+about what will be shown at the events.
+
+The event in Santa Monica will take place at the Southern California
+Edison's Customer Technology Application Center (CTAC), 1721 22nd St.,
+Santa Monica, CA 90404, phone (626) 812-7537 or (800) 336-2822, on
+Tuesday, February 20 9:00-noon.  The event in San Francisco will take
+place the next day (Wednesday, February 21) at the Pacific Gas &
+Electric's Pacific Energy Center (PEC), 851 Howard Street, San
+Francisco, California 94103, phone (415) 973-7268, also 9:00-noon. 
+Please announce these events to your staff.  Those planning to attend
+either event should register at the IAI NA web site:
+
+http://www.iai-na.org.
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List
+href="./BLIS_workshops_one-pager.17Jan2001_files/filelist.xml">
+<link rel=Edit-Time-Data
+href="./BLIS_workshops_one-pager.17Jan2001_files/editdata.mso">
+<link rel=OLE-Object-Data
+href="./BLIS_workshops_one-pager.17Jan2001_files/oledata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Workshop on Software Interoperability in the Building Industry</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Vlado Bazjanac</o:Author>
+  <o:LastAuthor>mjwitte</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>41</o:TotalTime>
+  <o:LastPrinted>2001-01-17T21:57:00Z</o:LastPrinted>
+  <o:Created>2001-02-02T15:47:00Z</o:Created>
+  <o:LastSaved>2001-02-02T15:50:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>683</o:Words>
+  <o:Characters>3897</o:Characters>
+  <o:Company>LBNL, University of California</o:Company>
+  <o:Lines>32</o:Lines>
+  <o:Paragraphs>7</o:Paragraphs>
+  <o:CharactersWithSpaces>4785</o:CharactersWithSpaces>
+  <o:Version>9.3821</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:DoNotShowRevisions/>
+  <w:DoNotPrintRevisions/>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+  <w:Compatibility>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+  </w:Compatibility>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:14.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+ins
+	{mso-style-type:export-only;
+	text-decoration:none;}
+span.msoDel
+	{mso-style-type:export-only;
+	mso-style-name:"";
+	text-decoration:line-through;
+	display:none;
+	color:red;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in .75in .75in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<p class=MsoTitle style='margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:31.5pt;margin-bottom:.0001pt;text-indent:4.5pt'>See a First Public
+Demonstration of New Interoperable Software for the Building Industry,</p>
+
+<p class=MsoTitle style='margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:31.5pt;margin-bottom:.0001pt;text-indent:4.5pt'>or</p>
+
+<p class=MsoTitle style='margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:31.5pt;margin-bottom:.0001pt;text-indent:4.5pt'>?How to Make Your
+CAD Data Do Five Times as Much Work at No Extra Cost?</p>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoBodyText style='text-indent:.25in'>It takes time and money to
+develop a set of architectural and engineering drawings that define a building,
+regardless of the size of the building or the sophistication of the CAD
+software used.<span style="mso-spacerun: yes">? </span><ins
+cite="mailto:Richard%20See" datetime="2001-01-15T13:17">In most projects, this
+information </ins><span class=msoDel><del>The information </del></span>must be <span
+class=msoDel><del>often </del></span><ins cite="mailto:Richard%20See"
+datetime="2001-01-15T13:18">manually </ins>transcribed for use in other
+professional software,<ins cite="mailto:Richard%20See"
+datetime="2001-01-15T13:18"> for work</ins> such as HVAC calculations and
+design<span class=msoDel><del> applications</del></span>, cost estimating<ins
+cite="mailto:Richard%20See" datetime="2001-01-15T13:19">,</ins> <span
+class=msoDel><del>programs or </del></span>building energy performance
+simulation, and energy code compliance checking.<span style="mso-spacerun:
+yes">? </span>This is <span class=msoDel><del>yet another</del></span><ins
+cite="mailto:Richard%20See" datetime="2001-01-15T13:20">a</ins> manual and
+tedious process that requires resources.<span style="mso-spacerun: yes">?
+</span>If errors are made in the process, error detection and correction can be
+just as resource consuming.<span style="mso-spacerun: yes">? </span>Any changes
+to the design also require corresponding changes in <ins
+cite="mailto:Richard%20See" datetime="2001-01-15T13:25">the transcri</ins>ption<ins
+cite="mailto:Richard%20See" datetime="2001-01-15T13:25"> for </ins><span
+class=msoDel><del>input to relevant professional software</del></span><ins
+cite="mailto:Richard%20See" datetime="2001-01-15T13:26">these other
+applications</ins>.<span style="mso-spacerun: yes">? </span>Anybody who has
+ever <span class=msoDel><del>had to </del></span>prepare<ins
+cite="mailto:Richard%20See" datetime="2001-01-15T13:26">d</ins> documentation
+for compliance with energy codes or generate<ins cite="mailto:Richard%20See"
+datetime="2001-01-15T13:26">d</ins> a detailed cost estimate can testify to how
+time consuming, error prone and frustrating it is to read information from
+drawings or specifications and manually reenter the same information in the
+form required by the specific software application. It has been estimated that
+each data element in a building design is independently recreated seven times
+in the course of the design process.</p>
+
+<p class=MsoBodyText style='text-indent:.25in'>There is now a better solution
+to this problem.<span style="mso-spacerun: yes">? </span>It lies in the concept
+of ?software interoperability:? the ability to share <span class=msoDel><del
+cite="mailto:Richard%20See" datetime="2001-01-15T13:27">and seamlessly exchange
+</del></span>the same information among software applications that perform
+different industry tasks.<span style="mso-spacerun: yes">? </span>In other
+words, the solution is to generate the information <i style='mso-bidi-font-style:
+normal'>once</i> and then automatically (or with minimal intervention) import
+it into any other application that may need it<ins cite="mailto:Richard%20See"
+datetime="2001-01-15T13:27">.</ins> The concept is an old one but it requires
+that all software developers agree to some framework that can be shared between
+tools.<span style="mso-spacerun: yes">? </span>That framework is called
+Industry Foundation Classes (IFC) and has been under development for over 5
+years by a non-profit organization known as the International Alliance for
+Interoperability (IAI).<span style="mso-spacerun: yes">? </span>Architects and
+engineers have heard very little about this because it has taken time for software
+developers to incorporate this new approach.<span style="mso-spacerun: yes">?
+</span>But that is about to change, and you are invited to see a preview of how
+this change will improve the practice in your office in years to come.</p>
+
+<p class=MsoBodyText style='text-indent:.25in'>A group of well known software
+developers for the building industry formed the Building Lifecycle
+Interoperable Software (BLIS) project and has developed commercial grade
+software that can seamlessly exchange IFC-based data developed in CAD
+applications for use in cost estimating, thermal analysis, mechanical design,
+construction planning and other industry processes. The BLIS group (Fig. 1)
+includes industry software leaders such as Microsoft, Graphisoft and
+Timberline.</p>
+
+<p class=MsoBodyText style='text-indent:.25in'>It is now possible to take a
+standard two-dimensional CAD drawing (floor plan), define the third dimension,
+objectify it (i.e., define its content as ?objects?) and save it in the
+interoperable format.<span style="mso-spacerun: yes">? </span>Or, one can
+define the building in three dimensions using object oriented CAD software and
+save it directly in the interoperable format.<span style="mso-spacerun: yes">?
+</span>Software that performs quantity take-off can then use the saved
+information and generate lists of quantities for use by cost estimating
+applications.<span style="mso-spacerun: yes">? </span>Or, the saved information
+can be used to automatically check prescriptive compliance with energy
+codes.<span style="mso-spacerun: yes">? </span>Or, the saved information can be
+seamlessly imported into EnergyPlus (a ?new generation? simulation tool) for
+the simulation of the building?s energy performance.<span style="mso-spacerun:
+yes">? </span>The latter can save as much as 80% of effort and resources currently
+needed to prepare the building description for such an energy performance
+simulation.</p>
+
+<p class=MsoBodyText style='text-indent:.25in;mso-list:none;mso-list-ins:"Richard See" 20010115T1335'><span
+class=msoDel><del cite="mailto:Richard%20See" datetime="2001-01-15T13:36"><![if !supportEmptyParas]>&nbsp;<![endif]></del></span><span
+class=msoDel><del cite="mailto:Richard%20See" datetime="2001-01-15T13:36"><o:p></o:p></del></span></p>
+
+<p class=MsoBodyText style='text-indent:.25in'><span class=msoDel><del
+cite="mailto:Richard%20See" datetime="2001-01-15T13:35"><![if !supportEmptyParas]>&nbsp;<![endif]></del></span><span
+class=msoDel><del cite="mailto:Richard%20See" datetime="2001-01-15T13:35"><o:p></o:p></del></span></p>
+
+<p class=MsoBodyText><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m at 4@5l at 4@11 at 9@11 at 9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:609pt;
+ height:407.25pt' o:ole="" fillcolor="window">
+ <v:imagedata src="./BLIS_workshops_one-pager.17Jan2001_files/image001.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=812 height=543
+src="./BLIS_workshops_one-pager.17Jan2001_files/image002.gif" v:shapes="_x0000_i1025"><![endif]><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Word.Picture.8" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1042612601">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+<p class=MsoBodyText><span class=msoDel><del cite="mailto:Richard%20See"
+datetime="2001-01-15T13:36"><![if !supportEmptyParas]>&nbsp;<![endif]></del></span><span
+class=msoDel><del cite="mailto:Richard%20See" datetime="2001-01-15T13:36"><o:p></o:p></del></span></p>
+
+<p class=MsoBodyText align=center style='text-align:center'>Fig. 1 ? BLIS
+Software Environment: Participating Software Development Organizations and
+Types of Software</p>
+
+<p class=MsoBodyText style='text-indent:.25in'>Some BLIS tools are already on
+the market and others are now in their last <i style='mso-bidi-font-style:normal'>beta</i>
+version and will appear on the market in the Spring 2001. BLIS partners are
+looking for opportunities for deployment of their software in real life design
+and construction projects.<span style="mso-spacerun: yes">? </span>They will
+provide free current software and software support to pilot projects willing to
+use the software and report on the experience.<span style="mso-spacerun: yes">?
+</span>This workshop will demonstrate the interoperable use of specific CAD,
+cost estimating, energy performance simulation, and code checking software from
+Microsoft<span class=msoDel><del cite="mailto:Richard%20See"
+datetime="2001-01-15T13:44">/Visio</del></span>, Graphisoft, Timberline, PNNL
+and LBNL.<span style="mso-spacerun: yes">? </span>It will also provide an
+opportunity to ask hard questions and obtain in-depth answers.</p>
+
+</div>
+
+</body>
+
+</html>
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+From mjwitte at gard.com  Fri Feb  2 08:18:03 2001
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Fri, 2 Feb 2001 10:18:03 -0600
+Subject: [BLDG-SIM] Interoperability Software Demonstrations
+In-Reply-To: <MDAEMON-F200102020950.AA505226pd80000015629@gard.com>
+Message-ID: <MDAEMON-F200102021011.AA115576pd80000015660@gard.com>
+
+On 2 Feb 2001, at 9:57, Michael J. Witte wrote:
+Sorry - some couldn't read the html attachment the way it was 
+configured, so here it is again in pdf.
+Mike
+
+---- Forwarded Message ----
+
+Date sent:      	Thu, 01 Feb 2001 14:53:36 -0800
+From:           	Vladimir Bazjanac <v_bazjanac at lbl.gov>
+Organization:   	Lawrence Berkeley National Laboratory
+Send reply to:  	v_bazjanac at lbl.gov
+
+How to Make Your CAD Data Do Five Times as Much Work at No Extra Cost
+
+The Lawrence Berkeley National Laboratory, in cooperation with Southern
+California Edison (in an event in Santa Monica) and Pacific Gas and
+Electric (in an event in San Francisco), will demonstrate the exchange
+of architectural and engineering information among various software
+applications using IAI's IFC R2.0.  This is a "reality breakthrough;"
+after almost six years of developing interoperable standards, the
+Alliance is pleased to show that commercial software developers are
+delivering products incorporating IAI's IFC standards that will
+dramatically change the way professional designers, building owners and
+managers, and a host of other AEC+FM professionals will work in the
+future.  Commercial vendors such as Timberline Software Corporation,
+Microsoft Corporation, and others, will exchange CAD drawings, cost
+estimating information, engineering data for energy analysis, and more
+at both events.  The attached file provides more background and detail
+about what will be shown at the events.
+
+The event in Santa Monica will take place at the Southern California
+Edison's Customer Technology Application Center (CTAC), 1721 22nd St.,
+Santa Monica, CA 90404, phone (626) 812-7537 or (800) 336-2822, on
+Tuesday, February 20 9:00-noon.  The event in San Francisco will take
+place the next day (Wednesday, February 21) at the Pacific Gas &
+Electric's Pacific Energy Center (PEC), 851 Howard Street, San
+Francisco, California 94103, phone (415) 973-7268, also 9:00-noon. 
+Please announce these events to your staff.  Those planning to attend
+either event should register at the IAI NA web site:
+
+http://www.iai-na.org.
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+The following section of this message contains a file attachment
+prepared for transmission using the Internet MIME message format.
+If you are using Pegasus Mail, or any another MIME-compliant system,
+you should be able to save it or view it from within your mailer.
+If you cannot, please ask your system administrator for assistance.
+
+   ---- File information -----------
+     File:  BLIS_workshops.pdf
+     Date:  2 Feb 2001, 10:06
+     Size:  61536 bytes.
+     Type:  Unknown
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: BLIS_workshops.pdf
+Type: application/octet-stream
+Size: 61536 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010202/a832fa64/attachment.obj>
+
+From werner at cstb.fr  Mon Feb  5 03:33:17 2001
+From: werner at cstb.fr (Werner Keilholz)
+Date: Mon, 05 Feb 2001 12:33:17 +0100
+Subject: [BLDG-SIM] Linking to Trnsys-IISIBat
+References: <MDAEMON-F200102020926.AA263554pd80000019442@gard.com>
+Message-ID: <MDAEMON-F200102050528.AA285162pd80000016196@gard.com>
+
+Hi,
+
+there are different ways to achieve this with TRNSYS.
+
+1. If you want to make a new TRNSYS component written in
+PASCAL (or any programming language) you need to compile your
+sourcecode into a DLL - for PASCAL, it should not be a problem to
+find a compiler that can do that. The DLL should be called EXTDLL.DLL.
+This user DLL can then be called by TRNSYS, using type 61.
+
+In IISiBat, you can use the "External DLLs" icon (type 61, under "Calling
+External routines) or make your own, modelled after type61 (just draw a
+new icon for your type and name  its INPUTS, OUTPUTS and
+PARAMETERS in the PROFORMA editor in the way you want them
+displayed in the Assembly panel).
+
+2. If you want to link a stand-alone application written in PASCAL to
+TRNSYS, you can use the type66 which is used to call EES equations
+as a model.
+
+Hope this helps,
+
+Werner
+PS: These features are only supported in TRNSYS 15 and up.
+
+"F.Alajmi" wrote:
+
+> Hi,
+> Does anyone have recommendations or experiences,liking Pascal source code
+> to Trnsys-IIsibat Project,
+> Thanks
+>
+> Farraj Alajmi
+> Department of Civil & Building Engineering
+> Loughborough University
+> Loughborough Leics  LE11 3TU  UK
+> Tel(01509)263171 ext.4140
+>
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+--
+  /    \____ Werner Keilholz, Project Manager
+  \____/     CSTB Sophia Antipolis, EVL Division
+  /    \____ s-mail: BP 209, 06904 SOPHIA ANTIPOLIS,  F R A N C E
+  \____/     phone: +33 (0)4 93 95 67 46 -- fax: +33 (0)4 93 95 67 33
+  /    \____ Mailto:werner at cstb.fr
+  \____/     http://evl.cstb.fr/english/team/WK/werner.htm
+
+             * Visit our NEW web site ! *
+             http://evl.cstb.fr/
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010205/893504b9/attachment.htm>
+
+From john.daglish at vnumail.com  Sat Feb 10 01:59:47 2001
+From: john.daglish at vnumail.com (John Daglish)
+Date: Sat, 10 Feb 2001 10:59:47 +0100
+Subject: [BLDG-SIM] Ground temperatures
+Message-ID: <MDAEMON-F200102100352.AA525948pd80000017881@gard.com>
+
+Hello
+
+Can someone help please.
+What is the average annual ground temperature in Paris, France at 1m ,
+1.5m, and 2m depth.
+Any pointers to further hourly/ monthly data sources would be appreciated.
+Thanks
+
+John DAGLISH
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bdhoward at ix.netcom.com  Sat Feb 10 04:04:00 2001
+From: bdhoward at ix.netcom.com (Bion D. Howard)
+Date: Sat, 10 Feb 2001 07:04:00 -0500
+Subject: [BLDG-SIM] Ground temperatures <reply>
+In-Reply-To: <MDAEMON-F200102100352.AA525118pd80000021428@gard.com>
+Message-ID: <MDAEMON-F200102100558.AA584492pd80000017909@gard.com>
+
+
+Explore 
+<http://www.wmo.ch/web/wcp/wcdmp/infoclim/cenreg6.html>
+
+France data source list does not include soil temp, but a Germany set does
+which could be "close enough" or could be modified.  
+
+Take a look into work by the University of Minnesota "Underground Space
+Center" in the late 80's early 90's.  Also I remember (but don't seem to
+have copy of) a paper of soil temperatures and their estimation from other
+climate parameters by Dr. Tami Kauda of NIST (then US Bureau of Standards.
+
+I bet there is more literature on this like in Journal of Applied
+Meteorology or from WMO.
+
+   ~<<<  Bion
+
+
+At 10:59 AM 2/10/2001 +0100, you wrote:
+>Hello
+>
+>Can someone help please.
+>What is the average annual ground temperature in Paris, France at 1m ,
+>1.5m, and 2m depth.
+>Any pointers to further hourly/ monthly data sources would be appreciated.
+>Thanks
+>
+>John DAGLISH
+>
+>
+>
+>
+>
+>======================================================
+>You received this e-mail because you are subscribed 
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+-
+    ||              Contact:  Bion D. Howard, President
+=(O) =     Building Environmental Science & Technology
+    ||      P.O. Box 1107   Edgewater, MD 21037  USA
+         Phone:  410.867.8000   Telefax: 301-889-0889
+                   <http://www.energybuilder.com>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bdhoward at ix.netcom.com  Sat Feb 10 04:13:17 2001
+From: bdhoward at ix.netcom.com (Bion D. Howard)
+Date: Sat, 10 Feb 2001 07:13:17 -0500
+Subject: [BLDG-SIM] Ground temperatures <Typo alert>
+In-Reply-To: <MDAEMON-F200102100558.AA583782pd80000021747@gard.com>
+References: <MDAEMON-F200102100352.AA525118pd80000021428@gard.com>
+Message-ID: <MDAEMON-F200102100610.AA100139pd80000017933@gard.com>
+
+At 07:04 AM 2/10/2001 -0500, Bion D. Howard wrote:
+>have copy of) a paper of soil temperatures and their estimation from other
+>climate parameters by Dr. Tami Kauda of NIST (then US Bureau of Standards.
+
+====
+TYPO alert -- that's Dr. Tami Kasuda  (sorry)
+
+
+-
+    ||              Contact:  Bion D. Howard, President
+=(O) =     Building Environmental Science & Technology
+    ||      P.O. Box 1107   Edgewater, MD 21037  USA
+         Phone:  410.867.8000   Telefax: 301-889-0889
+                   <http://www.energybuilder.com>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bdhoward at ix.netcom.com  Mon Feb 12 12:34:34 2001
+From: bdhoward at ix.netcom.com (Bion D. Howard)
+Date: Mon, 12 Feb 2001 15:34:34 -0500
+Subject: [BLDG-SIM] Virus Alert !!
+Message-ID: <MDAEMON-F200102121444.AA444718pd80000018324@gard.com>
+
+
+**  
+Do not open any mail with file attachment and subject 
+
+   "Here You Have..." 
+
+or similar, even (especially) if from someone you know.  
+
+McAfee AV caught it here.
+
+It appears similar to Love Bug, in that it is replicating via MicroSoft
+e-mail clients.  It sends an attachment that is a VisualBasic runtime which
+registers as a JPG file.  
+**
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From James.F.Pegues at carrier.utc.com  Mon Feb 19 10:04:35 2001
+From: James.F.Pegues at carrier.utc.com (Pegues, James F            CAR)
+Date: Mon, 19 Feb 2001 13:04:35 -0500
+Subject: [BLDG-SIM] HVAC Engineer / Software Developer Position
+Message-ID: <MDAEMON-F200102191159.AA595218pd80000020072@gard.com>
+
+HVAC Engineer - Software Developer
+
+Carrier Corporation is the world's largest manufacturer of heating, air
+conditioning and refrigeration equipment.  We have 38,000 employees'
+worldwide and annual revenues in excess of  $7 billion.  We are a division
+of United Technologies and have a worldwide network of distributors and
+dealers who sell, install and service Carrier products in more than 171
+countries. Our products are designed and engineered in 20 locations and
+manufactured in 73 facilities spread across six continents.
+
+We currently have an exciting opportunity for an Engineer with HVAC industry
+experience plus a firm background and interest in software design and
+development. 
+
+In this role, you will both manage and participate in software development
+projects aimed at enhancing HVAC design tools.  Our collection of software
+programs was created specifically for the HVAC system designer.  These
+programs are crafted to increase productivity and accuracy, improve analysis
+capabilities and job documentation, and add a level of "marketability" to a
+designer's work.  Individual programs assist the system designer with
+cooling & heating load estimates, building energy analysis, duct design,
+piping design and lifecycle cost analysis. 
+
+The ideal candidate will have a BS or an MS in an engineering discipline and
+3+ years of experience in HVAC engineering work.  Strong communication, PC,
+and project management skills necessary.  Proficiency in programming
+languages such as Visual Basic or C++, and in database design are desirable.
+
+
+At Carrier, we reward your commitment with an attractive salary and a full
+roster of benefits including our Employee Scholar Program (100% tuition
+assistance and a $10,000 stock award for completion of an advanced degree).
+www.carrier.com
+
+Contact Information:
+
+When responding to this position, please refer to: Job E029
+
+E-Mail:  carrier.humanresources at carrier.utc.com
+FAX:  315/432-6171
+Mail: Carrier Corporation, Box 4808, Syracuse,  NY 13221
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From wpb5 at psu.edu  Mon Feb 19 11:23:11 2001
+From: wpb5 at psu.edu (William Bahnfleth)
+Date: Mon, 19 Feb 2001 14:23:11 -0500
+Subject: [BLDG-SIM] Faculty Position-Indoor Air Quality Engineering
+In-Reply-To: <MDAEMON-F200102191200.AA000437pd80000024081@gard.com>
+Message-ID: <MDAEMON-F200102191318.AA181739pd80000020106@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010219/86251239/attachment.htm>
+
+From Drury.Crawley at ee.doe.gov  Thu Feb 22 14:11:05 2001
+From: Drury.Crawley at ee.doe.gov (Drury.Crawley at ee.doe.gov)
+Date: Thu, 22 Feb 2001 17:11:05 -0500
+Subject: [BLDG-SIM] EnergyPlus beta 5 now available
+Message-ID: <MDAEMON-F200102221609.AA093018pd80000021367@gard.com>
+
+
+
+Dear Building Simulation Colleague:
+
+EnergyPlus Beta 5 is now available for download.
+Check out features and other information at the
+DOE EnergyPlus web site:
+
+  http://www.eren.doe.gov/buildings/energy_tools/energyplus/
+
+
+From hannon at cenerg.ensmp.fr  Mon Feb 26 08:53:11 2001
+From: hannon at cenerg.ensmp.fr (Kathleen Hannon)
+Date: Mon, 26 Feb 2001 17:53:11 +0100
+Subject: [BLDG-SIM] sensible ratio
+Message-ID: <MDAEMON-F200102261045.AA454723pd80000022237@gard.com>
+
+Hello
+
+I am still a beginner using Power DOE.
+
+What is commenly used for the Equipment Sensible ratio in DOE/PowerDOE?
+
+I know that default value is 1, is this commonly used?  I have looked in 
+ASHRAE Fundamentals etc but  I would rather not enter a different value for 
+each specific piece of equipment.  I wonder what others use?
+
+
+Thank you in advance for this and for previous help.
+
+kathleen
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From demba.ndiaye at polymtl.ca  Tue Feb 27 15:00:50 2001
+From: demba.ndiaye at polymtl.ca (Demba NDIAYE)
+Date: Tue, 27 Feb 2001 18:00:50 -0500
+Subject: [BLDG-SIM] Load not met
+Message-ID: <MDAEMON-F200102271655.AA552570pd80000022679@gard.com>
+
+I use DOE-2.1E. The system is a PTAC one. The above temperatures are in
+degrees C.
+
+Design-cool-t = 25; Zone temperature = 25; Cool-temp-sch gives also 25
+C.
+Min-supply-t = 13.
+OA-FLOW/PER = 10 (SI units)
+Fans are scheduled to operate between 7 and 17.
+
+The SS-F report signales that all hours are undercooled.
+Hourly reports with Variable-type = U-name of zone AND Variable-list =
+(6,16,17,18) indicate the following :
+
+
+MMDDHH ZONE-8      ZONE-8     ZONE-8   ZONE-8
+
+       ZONE        LOAD NOT   HTG SET  CLG SET
+       TEMP        MET        POINT    POINT
+       C           WATT       C        C
+
+       ----( 6)    ----(16)   ----(17) ----(18)
+ 822 1     34.0            0.   -572.8    537.2
+ 822 2     33.9            0.   -572.8    537.2
+ 822 3     33.6            0.   -572.8    537.2
+ 822 4     33.7            0.   -572.8    537.2
+ 822 5     33.5            0.   -572.8    537.2
+ 822 6     33.3            0.   -572.8    537.2
+ 822 7     33.3            0.   -572.8    537.2
+ 822 8     27.3        45404.   -572.8     -3.9
+ 822 9     28.5        46529.   -572.8     -3.9
+ 82210     27.7        45912.   -572.8     -3.9
+ 82211     27.8        45905.   -572.8     -3.9
+ 82212     28.4        47505.   -572.8     -3.9
+ 82213     27.9        47529.   -572.8     -3.9
+ 82214     27.8        46522.   -572.8     -3.9
+ 82215     27.7        46117.   -572.8     -3.9
+ 82216     27.7        46066.   -572.8     -3.9
+ 82217     27.6        45730.   -572.8     -3.9
+ 82218     33.8            0.   -572.8    537.2
+ 82219     34.1            0.   -572.8    537.2
+ 82220     33.6            0.   -572.8    537.2
+ 82221     33.4            0.   -572.8    537.2
+ 82222     33.5            0.   -572.8    537.2
+ 82223     33.6            0.   -572.8    537.2
+ 82224     33.7            0.   -572.8    537.2
+
+WHAT DOES THAT MEAN ?
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: demba.ndiaye.vcf
+Type: text/x-vcard
+Size: 632 bytes
+Desc: Card for Demba NDIAYE
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010227/f1555bc6/attachment.vcf>
+

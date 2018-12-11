@@ -1,0 +1,2338 @@
+From GPueltz at MuellerBBM.de  Tue Sep 23 07:09:19 2003
+From: GPueltz at MuellerBBM.de (Pueltz, Gunter)
+Date: Tue, 23 Sep 2003 16:09:19 +0200
+Subject: [bldg-sim] meteorological data for Hongkong, Discovery Bay
+Message-ID: <MDAEMON-F200309230903.AA0311687pd80000417023@gard.com>
+
+Dear all,
+
+I am facing a new simulation project in Discovery Bay, Hongkong;
+therefore I am looking for meteorological data as input data.
+I checked the IWEC-site
+(http://www.eere.energy.gov/buildings/energyplus/cfm/weatherdata_int.cfm),
+but failed.
+
+Can anyone give me an helpfull advice ?  
+
+Thanks,
+Gunter P?ltz 
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From thong at eley.com  Mon Sep 22 11:59:08 2003
+From: thong at eley.com (Tianzhen Hong)
+Date: Mon, 22 Sep 2003 11:59:08 -0700
+Subject: [bldg-sim] VisualDOE Training Seminar in Chicago on October 22 to 24, 2003
+Message-ID: <MDAEMON-F200309221412.AA1245265pd80000416216@gard.com>
+
+
+
+Dear BLDG-SIM professional
+
+The Chicago training seminar is coming up, now it is the time to sign up
+for a seat.
+
+The VisualDOE 3.1 professional training seminars provide hands-on DOE-2
+simulation experience, cover the full range of VisualDOE 3.1 features,
+and explore LEED energy analysis techniques.
+
+The training brochure is available as a PDF file at
+http://www.eley.com/gdt/visualdoe/downloads/visualDOE_training.pdf
+
+Date and Location
+Chicago Area - October 22 to 24, 2003
+9550 W. Higgins Rd., Suite 300, Rosemont, IL 60018
+
+The third day (October 24) is optional and covers the use of VisualDOE
+3.1 to perform LEED energy analysis. 
+
+To Register for the training seminar online, please go to
+http://www.eley.com/gdt/visualdoe/vd_trainReg.htm
+
+Discounts
+We offer a 15% discount on the VisualDOE purchase price if participants
+purchase the software together with the training. A 15% discount applies
+to groups of more than three attendees from one company.
+
+Student Testimonial
+For how these training classes improved the user's experience in
+building energy analysis with VisualDOE, read testimonial online at
+http://www.eley.com/gdt/visualdoe/testimony.pdf
+
+About VisualDOE
+VisualDOE 3.1 is an updated green building design tool based on DOE-2
+engine that allows users to evaluate energy and demand impacts of design
+alternatives. The program covers all major building systems, including
+building envelope, lighting, daylighting, water heating, HVAC and
+central plant.
+
+The first release of VisualDOE in 1994 dramatically reduced the time
+required to perform accurate energy simulations, and version 3.1 takes
+this ease-of-use and power to a new level. The program is targeted for
+use by architects, engineers, MEP firms, energy consultants, utilities,
+national laboratories, universities, energy service companies, HVAC
+equipment manufacturers, and building product manufacturers.
+
+VisualDOE has more than one thousand licensed users in more than 35
+countries. More details at www.visualdoe.com. Free demo try at
+http://www.eley.com/gdt/visualdoe/vd_demo.htm. For a brochure on
+VisualDOE see  http://www.eley.com/gdt/visualdoe/visualdoe_brochure.pdf.
+
+Agenda
+Available on request
+
+Contact Us
+For questions of training seminars and VisualDOE software product,
+please contact us
+
+VisualDOE Team 
+Eley Associates
+142 Minna Street
+San Francisco, CA 94105
+(415) 957-1977 voice, (415) 957-1381 fax
+training at eley.com
+www.eley.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at EE.DOE.GOV  Thu Sep 18 17:17:06 2003
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Thu, 18 Sep 2003 20:17:06 -0400
+Subject: [bldg-sim] EnergyPlus V 1.1.1 now available
+Message-ID: <MDAEMON-F200309181913.AA1350468pd80000413393@gard.com>
+
+The newest version of EnergyPlus (1.1.1) was released on September 17, 2003
+and is now available in versions for the Windows and Linux operating
+systems. EnergyPlus can be downloaded at now cost on the EnergyPlus web
+site: www.energyplus.gov.
+
+What's New in EnergyPlus V 1.1.1
+
+A few of the new features are listed below?see
+www.energyplus.gov/features.html for a complete list of new features added
+in this and previous versions:
+
+?     Daylight illuminance maps, daylight shelves, tubular daylighting
+devices
+?     Photovoltaic power calculations integrated at time step
+?     Demand controlled ventilation
+?     Stand-alone energy recovery ventilator zone equipment (directly
+connected to a zone)
+?     Pond heat exchanger
+?     Standard, sizing, and daylight map reports can now be saved as CSV,
+TXT, or tab-separated
+?     Users can define custom reports, or use predefined reports which are
+similar to DOE-2 standard reports:
+      o     Building Loads (DOE-2 LS-D)
+      o     Space Loads (DOE-2 LS-E)
+      o     Energy Consumption (by energy source, DOE-2 PS-B)
+      o     End-Use Energy Consumption (by energy source, DOE-2 PS-E)
+      o     Peak Energy End-Use by Source (by energy source,
+      non-coincident)
+?     Many enhancements to IDFEditor including support for new units, pull
+down lists for choices, and zero values
+?     Significant improvements in ReadVars execution speed (more than 20x)
+
+
+EnergyPlus Wins R&D 100 Award
+
+R&D Magazine recently announced that EnergyPlus is one of the winners in
+the 41st annual R&D 100 Awards.  The R&D 100 Awards honor the 100 most
+technologically significant new products of the year.
+
+
+OK, But Where Are the Interfaces?
+
+A beta version of the first EnergyPlus user interface, DesignBuilder, is
+available now at  www.designbuilder.co.uk
+
+DesignBuilder provides a range of environmental performance data such as:
+annual energy consumption, maximum summertime temperatures and heating and
+cooling loads as well as detailed feedback on temperatures and heat flows
+in the building.  Featuring easy-to-use sketch screen, hierarchical
+defaults, facades, customisable templates and data detail, DesignBuilder
+can be used effectively at any stage of the design or evaluation process.
+DesignBuilder provides an interface to the latest EnergyPlus version for
+envelope, solar, ventilation and daylighting capabilities as well as
+heating and cooling load modelling.  The software comes with summer and
+winter design data for 1439 locations around the world and access to more
+than 500 hourly simulation weather files.
+
+
+Other Interface Tools
+
+Several developers have tools that produce or work with EnergyPlus IDF
+files:
+
+www.squ1.com -- Ecotect from Square One couples an intuitive 3D design
+interface with a comprehensive set of performance analysis functions
+(visualization, solar and daylighting analysis, shadows and shading,
+lighting design, thermal performance, UK building regulations, ventilation,
+and acoustic analysis) with interactive information displays.  It also can
+export an EnergyPlus IDF file.
+
+www.drawbdl.com -- DrawBDL allows users to visually review the building
+geometry in DOE-2 input and output files.  DrawBDL can export the DOE-2
+surface data in EnergyPlus IDF format?useful for those users who wish to
+convert their DOE-2 input files into EnergyPlus input files.
+
+www.deringergroup.com/Software/EPlusTools.htm -- several tools are
+available from the Deringer Group: DrawEzPlus is a 3-D geometry rendering
+tool that displays the geometry imbedded in an EnergyPlus file. Users can
+toggle between line and surface (fill) presentation modes, and can select
+to draw any mix of key building objects -- floor, walls, roof, windows, and
+attached and detached shading.  EzPlus-Parm simplifies running multiple
+parametric EnergyPlus simulations. EzPlus-Parm helps a user to organize and
+edit all needed files.  Their EcoAdvisor product also uses EnergyPlus to
+perform web-based building energy simulations.
+
+www.tse-inc.net/tseplus -- the first of a suite of tools to manage data for
+EnergyPlus is now available free of charge from Taylor Systems Engineering.
+TSe+Mat provides an interface to the materials datasets that come bundled
+with EnergyPlus and allows the user to add them to a personal database to
+maintain and modify for later use.  Future tools under development include
+TSe+MatGlz (for materials and glazings) and TSe+Con (for constructions.
+
+
+What's going on in V1.1.1?
+
+      Will there be any considerable difference between version 1.1.1 and
+1.1.0?
+
+      Yes.... and no. There are a number of new features and bug fixes.
+
+      How about IDF and IDD? Do they remain unchanged?
+
+      There will be some changes in the IDD and reflected in IDFs.
+Particularly for any new features, there will be      new objects.
+
+      Is version 1.1.1 backward compatible? Can I run v1.1.0 file in v
+1.1.1?
+
+      For the most part, the answer is yes. Some report variables have
+changed names. To be sure, you can execute      the transition program that
+will "transition" IDFs from V1.1.0 to V1.1.1. You can also view the
+ObjectStatus      spreadsheet in the root folder of the installed version.
+This file has detailed explanations of changes to the       objects.
+
+
+EnergyPlus Weather Data
+
+Last month, we republished all the weather data set on the EnergyPlus web
+site?updating the STAT report with many new statistics.
+
+      www.energyplus.gov/weatherdata.html
+
+      Example:
+
+
+www.energyplus.gov/weatherdata/international/FRA_Paris.Orly_IWEC.stat
+
+If you have weather data that you'd like to share with other EnergyPlus
+users, please contact the EnergyPlus team.
+
+
+Email Group EnergyPlus_Support at YahooGroups
+
+Have a question about EnergyPlus? Join the EnergyPlus email group on
+YahooGroups. We established this email group to foster discussion as well
+as maintain an archive of information for EnergyPlus users.  In the files
+area, you can download or upload files to share with other users.
+
+Suggestions for improvements to EnergyPlus as well as questions about
+EnergyPlus are welcome.  This group does not replace the primary support
+email address of
+EnergyPlus-Support at gard.com.
+
+      The main page for the group is:
+      groups.yahoo.com/group/EnergyPlus_Support
+
+      To subscribe, send an email message to:
+      EnergyPlus_Support-subscribe at yahoogroups.com
+
+      If you hate to receive email, you can edit your YahooGroup
+      membership to only send a daily digest of messages.
+
+
+Building Energy Simulation User News
+
+Want to keep up to date on EnergyPlus? Subscribe to the bi-monthly
+electronic newsletter for users of DOE-2, BLAST, EnergyPlus, Genopt, SPARK,
+Energy-10, and Building Design Advisor.   See
+simulationresearch.lbl.gov/un.html
+
+
+BLDG-SIM
+
+Join the free e-mail list for users of all building energy simulation
+programs. Ask other knowledgeable simulation program users your
+questions--about EnergyPlus and other simulation programs. See
+www.gard.com/ml/bldg-sim.htm for information on joining this email list.
+
+
+Thanks for using EnergyPlus!
+
+
+EnergyPlus Team
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From larry at taz.tamu.edu  Wed Sep 17 08:44:59 2003
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Wed, 17 Sep 2003 10:44:59 -0500
+Subject: [bldg-sim] NOTICE -- October IBPSA News - Final Reminder!!!
+Message-ID: <MDAEMON-F200309171038.AA385615pd80000411992@gard.com>
+
+On 21 September, I will give over to our Editor Marion Bartholomew the
+last items for the October issue of IBPSA News.  If you have any
+notices, software announcements, conferences, upcoming events or awards
+relating to building simulation, please e-mail these to me by Saturday,
+20 September.
+ 
+Wanna look at previous issues first?  Check them out at:
+http://www.ibpsa.org/newslett.htm
+ 
+This in the LAST CALL!
+ 
+Thank you.
+ 
+Larry Degelman, IBPSA Newsletter Chairperson.
+ 
+===================================== 
+Larry O. Degelman, P.E.                  larry at taz.tamu.edu 
+Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+Texas A&M University
+2206 Quail Run 
+College Station, TX 77845
+=====================================
+ 
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030917/a90da7d2/attachment.htm>
+
+From per.sahlin at equa.se  Wed Sep 17 06:39:54 2003
+From: per.sahlin at equa.se (Per Sahlin)
+Date: Wed, 17 Sep 2003 15:39:54 +0200
+Subject: [bldg-sim] IDA/NMF course, October13-14  in Lund, Sweden
+In-Reply-To: <NCBBKGLIILFDCOFINLIEEEEGDAAA.per.sahlin@equa.se>
+Message-ID: <MDAEMON-F200309170834.AA3443468pd80000411848@gard.com>
+
+Dear Colleagues,
+
+The fall two-day course on NMF modelling for IDA Indoor Climate and Energy
+will be given at LTH in Lund, Sweden, on October  13-14. For more info,
+please visit:
+
+http://www.equa.se/eng.training.html#Advanced
+
+The course is intended both as an introduction to IDA/NMF/ICE
+(www.equa.se/ice) for experienced building simulationists in general and
+for IDA ICE users wanting to write their own component models.
+
+The cost for both days is EUR 500, including daytime meals.
+
+Recent IDA ICE developments that will be discussed include:
+
+- Slab cooling as well as heating at the Standard level interface
+- Double skin facades and ventilated windows at the Standard level interface
+- Borehole storage
+- new IDA Room servers in Kassel and Luzern
+
+Please contact me if you would like to participate or have questions about
+our software.
+
+Best regards,
+
+Per Sahlin
+
+------------------------------------------
+Per Sahlin,    EQUA Simulation AB
+per.sahlin at equa.se
++46-8-27 27 67
++46 70 422 03 02 (mobile)
++46-8-27 40 32 (fax)
+P.O. Box 1376
+172 27 Sundbyberg, Sweden
+http://www.equa.se
+-----------------------------------------
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From lirainer at davisenergy.com  Tue Sep 16 16:04:52 2003
+From: lirainer at davisenergy.com (Leo Rainer)
+Date: Tue, 16 Sep 2003 16:04:52 -0700
+Subject: [bldg-sim] DOE2.1E GSHP Model
+In-Reply-To: <MDAEMON-F200309161352.AA5231562pd80000562139@gard.com>
+References: <MDAEMON-F200309161352.AA5231562pd80000562139@gard.com>
+Message-ID: <MDAEMON-F200309161811.AA1107296pd50000411271@gard.com>
+
+Mike,
+
+In 1998 we did an extensive amount of modeling and calibration of both 
+residential and commercial GSHP systems using v130 as part of a GHPC and 
+PG&E funded project. We found the DOE2 ground model to have some 
+limitations but in general to be quite good. Let me know if you need more 
+details.
+
+Regards,
+
+         Leo Rainer
+         Senior Engineer
+
+At 12:00 PM 9/16/03, Michael J. Witte wrote:
+>Does anyone have any experience with the DOE2.1E (JJH-132 version)
+>ground-source heat pump model?  There are some cautions in the
+>original documentation indicating that it still needed more testing.
+>Is it well-behaved and useful for comparing relative energy-use vs.
+>competing technologies?
+>
+>Mike Witte
+>
+>
+>
+>========================================================
+>Michael J. Witte                        mjwitte at gard.com
+>GARD Analytics, Inc.                        www.gard.com
+>1028 Busse Highway                    Phone 847-698-5685
+>Park Ridge, Illinois 60068-1802         FAX 847-698-5600
+>USA          Energy, Environmental and Economic Research
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+----------------------------------------------------------------------------
+Leo Rainer                          Email:   mailto:lirainer at davisenergy.com
+Davis Energy Group                  Phone:                  530.753.1100 x27
+123 C Street                        Fax:                        530.753.4125
+Davis, CA  95616                    Web:          http://www.davisenergy.com
+============================================================================
+Energy Analysis     *      Mechanical Design       *     Product Engineering 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mjwitte at gard.com  Tue Sep 16 12:00:02 2003
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Tue, 16 Sep 2003 14:00:02 -0500
+Subject: [bldg-sim] DOE2.1E GSHP Model
+Message-ID: <MDAEMON-F200309161352.AA5227609pd80000410999@gard.com>
+
+Does anyone have any experience with the DOE2.1E (JJH-132 version) 
+ground-source heat pump model?  There are some cautions in the 
+original documentation indicating that it still needed more testing.  
+Is it well-behaved and useful for comparing relative energy-use vs. 
+competing technologies?
+
+Mike Witte
+
+
+
+========================================================
+Michael J. Witte                        mjwitte at gard.com
+GARD Analytics, Inc.                        www.gard.com
+1028 Busse Highway                    Phone 847-698-5685
+Park Ridge, Illinois 60068-1802         FAX 847-698-5600
+USA          Energy, Environmental and Economic Research
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mbarros at consultareng.com.br  Mon Sep 15 18:53:49 2003
+From: mbarros at consultareng.com.br (Mauricio de Barros)
+Date: Mon, 15 Sep 2003 22:53:49 -0300
+Subject: [bldg-sim] Meteorological Data for Brasilia, Brasil
+References: <MDAEMON-F200309150950.AA5007734pd80000556362@gard.com>
+Message-ID: <MDAEMON-F200309152034.AA3422937pd80000410222@gard.com>
+
+You can download the TRY file for Brasilia, developed by Prof. Roberto
+Lamberts at the UFSC <www.labeee.ufsc.br>, Brazil, at:
+
+http://www.labeee.ufsc.br/apresentacao/apresentacao.php?%20&page=downloadacl
+im.html
+
+
+Mauricio de Barros
+CONSULTAR Engenharia
+mbarros at consultareng.com.br
+www.consultar.eng.br
+
+
+----- Original Message -----
+From: "Pueltz, Gunter" <GPueltz at MuellerBBM.de>
+To: <bldg-sim at gard.com>
+Cc: "Wolf, Stefan" <SWolf at MuellerBBM.de>
+Sent: Monday, September 15, 2003 11:56 AM
+Subject: [bldg-sim] Meteorological Data for Brasilia, Brasil
+
+
+Dear all,
+
+we are facing a simulation project for a building in
+the city of Brasilia in Brasil. Therefore we are looking for
+good meteorological data as a basis for our simulations.
+We know that the software METEONORM delivers meteorological
+data, which might be similar to a test reference year (try).
+In Addition we are very interested in something like a
+"design day" for Brasilia; this data should at least cover
+following meteorological data:
+1) external air temperature
+2) external air humidity
+3) global horizontal radiation / direct normal radiation
+4) diffusive horizontal radiation
+5) wind speed
+6) wind direction
+7) a.s.o.
+
+Any hints are appreciated.
+
+Regards,
+Gunter
+
+--------------------------------------------
+Dr.-Ing. Gunter P?ltz
+M?ller-BBM GmbH
+Robert-Koch-Str. 11
+82152 Planegg bei M?nchen
+Telefon +49 (89) 85602-336
+Telefax +49 (89) 85602-111
+http://www.mbbm.de
+email:plz at mbbm.de
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at EE.DOE.GOV  Mon Sep 15 15:29:53 2003
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Mon, 15 Sep 2003 18:29:53 -0400
+Subject: [bldg-sim] Meteorological Data for Brasilia, Brasil
+Message-ID: <MDAEMON-F200309151727.AA2730968pd50000410071@gard.com>
+
+
+ASHRAE has weather data for Brasilia
+in their IWEC weather data set--derived
+from 1982-1999 data.  The IWEC format
+is an extension of the TMY2.
+
+
+
+
+                                                                                                            
+                      "Pueltz, Gunter"                                                                      
+                      <GPueltz at MuellerB        To:       bldg-sim at gard.com                                  
+                      BM.de>                   cc:       "Wolf, Stefan" <SWolf at MuellerBBM.de>               
+                      Sent by:                 Subject:  [bldg-sim] Meteorological Data for Brasilia,       
+                      postman at gard.com          Brasil                                                      
+                                                                                                            
+                                                                                                            
+                      09/15/2003 10:56                                                                      
+                      AM                                                                                    
+                      Please respond to                                                                     
+                      GPueltz                                                                               
+                                                                                                            
+                                                                                                            
+
+
+
+
+Dear all,
+
+we are facing a simulation project for a building in
+the city of Brasilia in Brasil. Therefore we are looking for
+good meteorological data as a basis for our simulations.
+We know that the software METEONORM delivers meteorological
+data, which might be similar to a test reference year (try).
+In Addition we are very interested in something like a
+"design day" for Brasilia; this data should at least cover
+following meteorological data:
+1) external air temperature
+2) external air humidity
+3) global horizontal radiation / direct normal radiation
+4) diffusive horizontal radiation
+5) wind speed
+6) wind direction
+7) a.s.o.
+
+Any hints are appreciated.
+
+Regards,
+Gunter
+
+--------------------------------------------
+Dr.-Ing. Gunter P?ltz
+M?ller-BBM GmbH
+Robert-Koch-Str. 11
+82152 Planegg bei M?nchen
+Telefon +49 (89) 85602-336
+Telefax +49 (89) 85602-111
+http://www.mbbm.de
+email:plz at mbbm.de
+
+=====================================================You received this
+e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From YJHuang at lbl.gov  Mon Sep 15 11:29:10 2003
+From: YJHuang at lbl.gov (Joe Huang)
+Date: Mon, 15 Sep 2003 11:29:10 -0700
+Subject: [bldg-sim] Meteorological Data for Brasilia, Brasil
+References: <MDAEMON-F200309150949.AA4951640pd80000556051@gard.com>
+Message-ID: <MDAEMON-F200309151321.AA2129187pd80000409792@gard.com>
+
+I suggest that you contact Prof. Roberto Lamberts at the University of Santa
+Catarina in Florianopolis, Brazil (lamberts at ecv.ufsc.br), who developed
+developed hourly climate data for 14 Brazilian locations back in 1998.  As
+someone else has already mentioned, ASHRAE's IWEC is another potential
+source of data.
+
+Joe Huang
+
+----- Original Message -----
+From: "Pueltz, Gunter" <GPueltz at MuellerBBM.de>
+To: <bldg-sim at gard.com>
+Cc: "Wolf, Stefan" <SWolf at MuellerBBM.de>
+Sent: Monday, September 15, 2003 7:56 AM
+Subject: [bldg-sim] Meteorological Data for Brasilia, Brasil
+
+
+Dear all,
+
+we are facing a simulation project for a building in
+the city of Brasilia in Brasil. Therefore we are looking for
+good meteorological data as a basis for our simulations.
+We know that the software METEONORM delivers meteorological
+data, which might be similar to a test reference year (try).
+In Addition we are very interested in something like a
+"design day" for Brasilia; this data should at least cover
+following meteorological data:
+1) external air temperature
+2) external air humidity
+3) global horizontal radiation / direct normal radiation
+4) diffusive horizontal radiation
+5) wind speed
+6) wind direction
+7) a.s.o.
+
+Any hints are appreciated.
+
+Regards,
+Gunter
+
+--------------------------------------------
+Dr.-Ing. Gunter P?ltz
+M?ller-BBM GmbH
+Robert-Koch-Str. 11
+82152 Planegg bei M?nchen
+Telefon +49 (89) 85602-336
+Telefax +49 (89) 85602-111
+http://www.mbbm.de
+email:plz at mbbm.de
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From YJHuang at lbl.gov  Mon Sep 15 11:23:34 2003
+From: YJHuang at lbl.gov (Joe Huang)
+Date: Mon, 15 Sep 2003 11:23:34 -0700
+Subject: [bldg-sim] Slab on grade f-factor
+References: <MDAEMON-F200309121543.AA4347765pd80000552796@gard.com>
+Message-ID: <MDAEMON-F200309151315.AA153815pd80000409776@gard.com>
+
+Calvin,
+
+This response is a little late, but hope it might still be of use to you.
+"DOE-2 modeling tips" available on line at the LBNL Simulation Research
+Group web site (http://gundog.lbl.gov) has a section on modeling underground
+surfaces in DOE-2 (pp. 4-14), with several tables of recommended Perimeter
+Conduction Factors (Btu/hr-F-ft of perimeter) for 88 different types of
+foundations. These are based on analysis of 2-D heat transfer simulation
+results I did with Lester Shen back in 1988.  Since the thermal properties
+of concrete are similar to that of soil, the difference between 4" and 6"
+slab is insignificant. The biggest factors are: (1) the height of the slab
+above the soil, (2) the perimeter insulation thickness and depth, (3) the
+existence of carpet over the slab, and (4) the assumed properties of the
+soil.  What we modeled was a 6" edge, with and without carpet, and wet soil
+with a conductivity of 1 Btu/ft2-hr-F.
+
+Joe
+----- Original Message -----
+From: "L. Calvin van Belle" <lvanbelle at tei-engineering.com>
+To: <bldg-sim at gard.com>
+Sent: Friday, September 12, 2003 1:58 PM
+Subject: [bldg-sim] Slab on grade f-factor
+
+
+> Thank you everyone for your quick response.  I have found the ASHRAE
+tables
+> and none of them apply to my situation.  I have an uninsulated slab that
+is
+> 8" thick.  All the ASHRAE tables deal with insulated slabs or 6" slabs.
+>
+> Do the numbers for a 6" slab change significantly when going to an 8"
+slab?
+>
+> Calvin
+>
+> ___________________________________________
+> L. Calvin van Belle     Phone: 206-241-2012
+> Mechanical Engineer     Fax:   206-241-3101
+>        lvanbelle at tei-engineering.com
+>                   T. E. I.
+>
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From john.daglish at vnumail.com  Mon Sep 15 09:45:43 2003
+From: john.daglish at vnumail.com (DAGLISH)
+Date: Mon, 15 Sep 2003 18:45:43 +0200
+Subject: [bldg-sim] Fabric energy storage systems
+Message-ID: <MDAEMON-F200309151135.AA3516859pd80000409614@gard.com>
+
+Bonjour ,
+
+Some info can be found here :
+
+Fabric Energy Storage (FES)  systems
+http://www.trentconcrete.co.uk/library/energy_storage.cfm
+www.hvac.okstate.edu/pdfs/bs97/papers/P032.PDF
+www.rcc-info.org.uk/pdf/FESA4_4ppLflt_small.pdf
+www.britishprecast.org/spa/spa1.pdf
+http://www.corusconstruction.co.uk/   >Environmental > Guide to
+thermal capacity
+
+
+the Termodeck system   http://www.termodeck.com/  At present in the UK there are 34 completed
+projects and 21 under construction, ranging in size from 600 to 18,000m?.
+
+-- 
+Cordialement
+
+John Daglish, (B.Arch RMIT 1985)
+
+4, rue des Coteaux,  F-91370 Verri?res le Buisson, FRANCE
+T?l / Fax: +33.(0)1.60 11 12 10
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From lvanbelle at tei-engineering.com  Mon Sep 15 09:17:24 2003
+From: lvanbelle at tei-engineering.com (L. Calvin van Belle)
+Date: Mon, 15 Sep 2003 09:17:24 -0700
+Subject: [bldg-sim] Slab on grade f-factor
+In-Reply-To: <MDAEMON-F200309141839.AA3952750pd80000554414@gard.com>
+Message-ID: <MDAEMON-F200309151102.AA0253328pd80000409530@gard.com>
+
+I am working on an energy code compliance form.  The scope of the project is
+some office space being built into an existing warehouse.  The city is
+requiring that these offices meet the current energy code.  Which is all
+fine, however the existing slab is uninsulated.  Obviously, we can meet a
+prescriptive approach.  However, using an overall component method we just
+get hammered by the uninsulated slab.  Basically, we need to insulate
+everything else as much as possible.  So, any credit in the F-Factor for an
+8" slab vs. a 6" slab would be extremely beneficial.  Anyone else deal with
+similar requirements/situation?  Would it be possible to insulate an
+existing slab?
+
+___________________________________________
+L. Calvin van Belle     Phone: 206-241-2012
+Mechanical Engineer     Fax:   206-241-3101
+       lvanbelle at tei-engineering.com
+                  T. E. I.
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Jeff Haberl
+Sent: Sunday, September 14, 2003 4:46 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Slab on grade f-factor
+
+
+What are you planning on using these numbers for?
+
+Jeff
+
+
+8=!   8=)  :=)   8=)   ;=)   8=)   8=(   8=)   8=()   8=)   8=|   8=)   :=')
+8=)   8=)   8=?
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+Professor...............................................Office Ph:
+979-845-6507
+Department of Architecture...........................Lab Ph: 979-845-6065
+Energy Systems Laboratory...........................FAX: 979-862-2457
+Texas A&M University..................................77843-3581
+College Station, Texas, USA...........................URL: www-esl.tamu.edu
+
+8=/   8=)  :=)   8=)  ;=)   8=)   8=()   8=)   :=)   8=)   8=!   8=)   8=?
+8=)   8=)   8=0
+
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of L. Calvin
+van Belle
+Sent: Friday, September 12, 2003 3:58 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Slab on grade f-factor
+
+
+Thank you everyone for your quick response.  I have found the ASHRAE tables
+and none of them apply to my situation.  I have an uninsulated slab that is
+8" thick.  All the ASHRAE tables deal with insulated slabs or 6" slabs.
+
+Do the numbers for a 6" slab change significantly when going to an 8" slab?
+
+Calvin
+
+___________________________________________
+L. Calvin van Belle     Phone: 206-241-2012
+Mechanical Engineer     Fax:   206-241-3101
+       lvanbelle at tei-engineering.com
+                  T. E. I.
+
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Oberdorf at transsolar.com  Mon Sep 15 08:35:49 2003
+From: Oberdorf at transsolar.com (Christian Oberdorf)
+Date: Mon, 15 Sep 2003 17:35:49 +0200
+Subject: [bldg-sim] Meteorological Data for Brasilia, Brasil
+Message-ID: <MDAEMON-F200309151029.AA294500pd80000409468@gard.com>
+
+Dear Gunter, 
+
+check out  http://www.eere.energy.gov/buildings/energyplus/cfm/weatherdata_int.cfm for IWEC data. The data also specifies design days. You should, however, check reliability of the data for a remote place like Brasilia as far as possible.
+
+Regards,
+Christian Oberdorf
+
+---------------------------------------------------------------------
+Christian Oberdorf
+TRANSSOLAR Energietechnik GmbH
+B?ro M?nchen
+Goethestr. 28
+80336 M?nchen
+Germany
+Fon: +49 (0)89 / 59 06 88 - 43
+Fax: +49 (0)89 / 59 06 88 - 59
+
+Mailto:Oberdorf at transsolar.com 
+http://www.transsolar.com 
+---------------------------------------------------------------------
+
+
+-----Urspr?ngliche Nachricht-----
+Von: Pueltz, Gunter [mailto:GPueltz at MuellerBBM.de] 
+Gesendet: Montag, 15. September 2003 16:56
+An: bldg-sim at gard.com
+Cc: Wolf, Stefan
+Betreff: [bldg-sim] Meteorological Data for Brasilia, Brasil
+
+
+Dear all,
+
+we are facing a simulation project for a building in 
+the city of Brasilia in Brasil. Therefore we are looking for good meteorological data as a basis for our simulations. We know that the software METEONORM delivers meteorological data, which might be similar to a test reference year (try). In Addition we are very interested in something like a 
+"design day" for Brasilia; this data should at least cover following meteorological data:
+1) external air temperature
+2) external air humidity
+3) global horizontal radiation / direct normal radiation
+4) diffusive horizontal radiation
+5) wind speed
+6) wind direction
+7) a.s.o. 
+
+Any hints are appreciated.
+
+Regards,
+Gunter 
+
+--------------------------------------------
+Dr.-Ing. Gunter P?ltz
+M?ller-BBM GmbH
+Robert-Koch-Str. 11
+82152 Planegg bei M?nchen
+Telefon +49 (89) 85602-336
+Telefax +49 (89) 85602-111
+http://www.mbbm.de
+email:plz at mbbm.de
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030915/436e8615/attachment.htm>
+
+From dlombard at retec.com  Mon Sep 15 08:29:25 2003
+From: dlombard at retec.com (Debra Lombard)
+Date: Mon, 15 Sep 2003 11:29:25 -0400
+Subject: [bldg-sim] AirFloor
+Message-ID: <MDAEMON-F200309151023.AA231962pd80000409454@gard.com>
+
+
+
+
+
+You are right. The manufacturer's company website
+is not working.
+
+Their contact was:
+                                                                                         
+                                      Aero Systems                                       
+                                  212 S. Milwaukee Ave.                                  
+                                   Wheeling, IL 60090                                    
+                                     (847) 459-6080                                      
+                                                                                         
+
+E-mail: geraldod at msn.com
+Web: www.AIRFLOOR.com
+Contact: Gerald O?Dwyer
+
+Debra Lombard
+Lighting & Sustainable Design
+The RETEC Group
+59 Elm St., Suite 400
+New Haven, CT 06510
+Tel: 203-776-2358 x 237
+www.retec.com
+dlombard at retec.com
+
+From GPueltz at MuellerBBM.de  Mon Sep 15 07:56:23 2003
+From: GPueltz at MuellerBBM.de (Pueltz, Gunter)
+Date: Mon, 15 Sep 2003 16:56:23 +0200
+Subject: [bldg-sim] Meteorological Data for Brasilia, Brasil
+Message-ID: <MDAEMON-F200309150950.AA5003156pd80000409402@gard.com>
+
+Dear all,
+
+we are facing a simulation project for a building in 
+the city of Brasilia in Brasil. Therefore we are looking for
+good meteorological data as a basis for our simulations.
+We know that the software METEONORM delivers meteorological
+data, which might be similar to a test reference year (try).
+In Addition we are very interested in something like a 
+"design day" for Brasilia; this data should at least cover
+following meteorological data:
+1) external air temperature
+2) external air humidity
+3) global horizontal radiation / direct normal radiation
+4) diffusive horizontal radiation
+5) wind speed
+6) wind direction
+7) a.s.o. 
+
+Any hints are appreciated.
+
+Regards,
+Gunter 
+
+--------------------------------------------
+Dr.-Ing. Gunter P?ltz
+M?ller-BBM GmbH
+Robert-Koch-Str. 11
+82152 Planegg bei M?nchen
+Telefon +49 (89) 85602-336
+Telefax +49 (89) 85602-111
+http://www.mbbm.de
+email:plz at mbbm.de
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From monafanny at yahoo.com  Mon Sep 15 06:40:52 2003
+From: monafanny at yahoo.com (Mona Fanni)
+Date: Mon, 15 Sep 2003 06:40:52 -0700 (PDT)
+Subject: [bldg-sim] Solar shading, fritted glass / louvre shading comparison
+In-Reply-To: <MDAEMON-F200309130309.AA0935375pd80000553788@gard.com>
+Message-ID: <MDAEMON-F200309150835.AA3506593pd80000409291@gard.com>
+
+Dear
+  I beleive that the thermal properties such as U-
+value, solar transmittance , emmittance and
+absorptance and the shading coefficient is dfferent
+for both frit glass and the louvers , it is nessacery
+to read the industry company' technical brochaure and
+calculate the solar heat gain by the thermal
+properties values given by it with the help of ASHRRAE
+handbook of fundamentals Chapter" Fenestration".
+
+Dr. Mona Ahmed Fanny
+Researcher in the Building Physics dep.
+Building Research Center, 87 Tahreer street, P.O.Box
+1770, Dokki, Cairo, Egypt.
+Fax: 202 3351564
+Tel 202 3356853-3356722
+
+--- Christian Struck
+<Christian.Struck at BuroHappold.com> wrote:
+> Dear all,
+> 
+> I have been working on a few projects were we had to
+> deal with excessive
+> solar gains due to huge areas of facade glazing.
+> Even so we produced results comparing louvre shading
+> against fritted glass
+> indicating louvres perform significantly better than
+> frit the architects
+> came up with arguments picked up somewhere, that
+> fritted facade glazing
+> performs similar to louvres, with respect to solar
+> gains. The point is, the
+> facade glazing was requested to be modelled with a
+> percentage frit above
+> 70%.  Still we found the total solar gains to be
+> more than double as high
+> for the fritted glass compared to the louvre shading
+> option.
+> 
+> Do you guys know by any chance a few papers or
+> articles I could refer to, to
+> either prove or review my models?! Any of you
+> experienced similar problems
+> in the past?
+> 
+> Many thanks for your effort in advance!
+> 
+> Christian
+> 
+>
+======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+
+
+
+__________________________________
+Do you Yahoo!?
+Yahoo! SiteBuilder - Free, easy-to-use web site design software
+http://sitebuilder.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From dlombard at retec.com  Mon Sep 15 06:03:40 2003
+From: dlombard at retec.com (Debra Lombard)
+Date: Mon, 15 Sep 2003 09:03:40 -0400
+Subject: [bldg-sim] Digest (09/12/2003 03:01) (#2003-62)
+Message-ID: <MDAEMON-F200309150757.AA5720437pd50000409226@gard.com>
+
+
+
+
+
+I was able to see their website.
+
+Debra Lombard
+Lighting & Sustainable Design
+The RETEC Group
+59 Elm St., Suite 400
+New Haven, CT 06510
+Tel: 203-776-2358 x 237
+www.retec.com
+dlombard at retec.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jhaberl at esl.tamu.edu  Sun Sep 14 16:45:59 2003
+From: jhaberl at esl.tamu.edu (Jeff Haberl)
+Date: Sun, 14 Sep 2003 18:45:59 -0500
+Subject: [bldg-sim] Slab on grade f-factor
+Message-ID: <MDAEMON-F200309141839.AA3949875pd80000408776@gard.com>
+
+What are you planning on using these numbers for?
+
+Jeff
+
+
+8=!   8=)  :=)   8=)   ;=)   8=)   8=(   8=)   8=()   8=)   8=|   8=)   :=')
+8=)   8=)   8=?
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+Professor...............................................Office Ph:
+979-845-6507
+Department of Architecture...........................Lab Ph: 979-845-6065
+Energy Systems Laboratory...........................FAX: 979-862-2457
+Texas A&M University..................................77843-3581
+College Station, Texas, USA...........................URL: www-esl.tamu.edu
+
+8=/   8=)  :=)   8=)  ;=)   8=)   8=()   8=)   :=)   8=)   8=!   8=)   8=?
+8=)   8=)   8=0   
+
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of L. Calvin
+van Belle
+Sent: Friday, September 12, 2003 3:58 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Slab on grade f-factor
+
+
+Thank you everyone for your quick response.  I have found the ASHRAE tables
+and none of them apply to my situation.  I have an uninsulated slab that is
+8" thick.  All the ASHRAE tables deal with insulated slabs or 6" slabs.
+
+Do the numbers for a 6" slab change significantly when going to an 8" slab?
+
+Calvin
+
+___________________________________________
+L. Calvin van Belle     Phone: 206-241-2012
+Mechanical Engineer     Fax:   206-241-3101
+       lvanbelle at tei-engineering.com
+                  T. E. I.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Christian.Struck at BuroHappold.com  Sat Sep 13 01:15:47 2003
+From: Christian.Struck at BuroHappold.com (Christian Struck)
+Date: Sat, 13 Sep 2003 09:15:47 +0100
+Subject: [bldg-sim] Solar shading, fritted glass / louvre shading comparison
+Message-ID: <MDAEMON-F200309130309.AA0930390pd80000407623@gard.com>
+
+Dear all,
+
+I have been working on a few projects were we had to deal with excessive
+solar gains due to huge areas of facade glazing.
+Even so we produced results comparing louvre shading against fritted glass
+indicating louvres perform significantly better than frit the architects
+came up with arguments picked up somewhere, that fritted facade glazing
+performs similar to louvres, with respect to solar gains. The point is, the
+facade glazing was requested to be modelled with a percentage frit above
+70%.  Still we found the total solar gains to be more than double as high
+for the fritted glass compared to the louvre shading option.
+
+Do you guys know by any chance a few papers or articles I could refer to, to
+either prove or review my models?! Any of you experienced similar problems
+in the past?
+
+Many thanks for your effort in advance!
+
+Christian
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From lvanbelle at tei-engineering.com  Fri Sep 12 13:58:22 2003
+From: lvanbelle at tei-engineering.com (L. Calvin van Belle)
+Date: Fri, 12 Sep 2003 13:58:22 -0700
+Subject: [bldg-sim] Slab on grade f-factor
+Message-ID: <MDAEMON-F200309121544.AA4400859pd80000407158@gard.com>
+
+Thank you everyone for your quick response.  I have found the ASHRAE tables
+and none of them apply to my situation.  I have an uninsulated slab that is
+8" thick.  All the ASHRAE tables deal with insulated slabs or 6" slabs.
+
+Do the numbers for a 6" slab change significantly when going to an 8" slab?
+
+Calvin
+
+___________________________________________
+L. Calvin van Belle     Phone: 206-241-2012
+Mechanical Engineer     Fax:   206-241-3101
+       lvanbelle at tei-engineering.com
+                  T. E. I.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From wbahnfleth at psu.edu  Fri Sep 12 13:42:41 2003
+From: wbahnfleth at psu.edu (William Bahnfleth)
+Date: Fri, 12 Sep 2003 16:42:41 -0400
+Subject: [bldg-sim] Slab On Grade F-Factor
+In-Reply-To: <MDAEMON-F200309121505.AA054500pd80000551400@gard.com>
+Message-ID: <MDAEMON-F200309121536.AA3632546pd80000407138@gard.com>
+
+ASHRAE Handbook-2001 Fundamentals, page 28.13
+
+Bill Bahnfleth
+
+At 11:38 AM 9/12/2003 -0700, L. Calvin van Belle wrote:
+>Anyone know where I can quick look up the F-Factors for concrete slab on
+>grade?  This number gives the heat loss for a slab per lineal foot of
+>perimeter.
+>
+>Thank you,
+>
+>Calvin
+>
+>___________________________________________
+>L. Calvin van Belle     Phone: 206-241-2012
+>Mechanical Engineer     Fax:   206-241-3101
+>        lvanbelle at tei-engineering.com
+>                   T. E. I.
+>
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+_________________________________________________
+
+William P. Bahnfleth, Ph.D., P.E.
+Associate Professor
+Director, Indoor Environment Center
+
+Department of Architectural Engineering
+The Pennsylvania State University
+104 Engineering Unit A
+University Park, PA 16802 USA
+
+voice: 814.863.2076 / fax: 814.863.4789
+e-mail:  wbahnfleth at psu.edu
+www.arche.psu.edu/faculty/WBahnfleth/
+_________________________________________________
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Fri Sep 12 13:21:24 2003
+From: jglazer at gard.com (Jason Glazer)
+Date: Fri, 12 Sep 2003 15:21:24 -0500
+Subject: [bldg-sim] Slab On Grade F-Factor
+In-Reply-To: <MDAEMON-F200309121505.AA0532468pd80000407062@gard.com>
+Message-ID: <MDAEMON-F200309121515.AA1503515pd80000407082@gard.com>
+
+Two sources that I know of are ASHRAE Fundamentals 2001 
+Chapt 28 Table 16 or ASHRAE Standard 90.1-2001 Table A-16.
+
+Jason
+
+
+On 12 Sep 2003 at 11:38, L. Calvin van Belle wrote:
+
+> Anyone know where I can quick look up the F-Factors for
+> concrete slab on grade?  This number gives the heat loss for
+> a slab per lineal foot of perimeter.
+> 
+> Thank you,
+> 
+> Calvin
+> 
+> ___________________________________________
+> L. Calvin van Belle     Phone: 206-241-2012
+> Mechanical Engineer     Fax:   206-241-3101
+>        lvanbelle at tei-engineering.com
+>                   T. E. I.
+
+=========================================================
+Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From lvanbelle at tei-engineering.com  Fri Sep 12 11:38:53 2003
+From: lvanbelle at tei-engineering.com (L. Calvin van Belle)
+Date: Fri, 12 Sep 2003 11:38:53 -0700
+Subject: [bldg-sim] Slab On Grade F-Factor
+Message-ID: <MDAEMON-F200309121505.AA0532468pd80000407062@gard.com>
+
+Anyone know where I can quick look up the F-Factors for concrete slab on
+grade?  This number gives the heat loss for a slab per lineal foot of
+perimeter.
+
+Thank you,
+
+Calvin
+
+___________________________________________
+L. Calvin van Belle     Phone: 206-241-2012
+Mechanical Engineer     Fax:   206-241-3101
+       lvanbelle at tei-engineering.com
+                  T. E. I.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From markzoeteman at core.com  Fri Sep 12 10:40:28 2003
+From: markzoeteman at core.com (Mark Zoeteman)
+Date: Fri, 12 Sep 2003 13:40:28 -0400
+Subject: [bldg-sim] Digest (09/12/2003 03:01) (#2003-62)
+In-Reply-To: <MDAEMON-F200309121044.AA4416468pd80000549340@gard.com>
+Message-ID: <MDAEMON-F200309121234.AA3440156pd80000406906@gard.com>
+
+Mark,
+There is also a product "Airfloor" which creates air plenum under a
+poured concrete floor.
+The stamped sheet metal forms connect together creating a void under
+floor.
+See product at:
+http://www.sunearth.net/airfloor.html
+I am not sure if the Airfloor Systems, Inc. is still in business as
+their website is not accessible.
+ 
+Mark Zoeteman
+Sustainable Engineering
+(616) 765-3500 
+ <mailto:markzoeteman at core.com> markzoeteman at core.com
+ 
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Ian
+Theaker
+Sent: Friday, September 12, 2003 11:50 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Digest (09/12/2003 03:01) (#2003-62)
+ 
+Mark, Bldg-Simmers, 
+The UK's Building Research Establishment's "Office of the Future" is one
+Euro building that deliberately uses voids formed into precast concrete
+floor/ceiling panels to distribute & extract natural ventilation air,
+consciously activating their thermal mass.  These proprietary panels
+were invented & seem to be most widely used in Scandinavia; they create
+an undulating ceiling with ~10' period peak to peak, with 'waves' ~2.5'
+deep.  A flat floor is cast above, and air is driven by wind pressure
+between this floor slab and the lower ceiling formed by the precast
+panels.  Their curving shape lend themselves very well to
+direct/indirect lighting fixtures suspended below the high points of the
+ceiling;  for both nat vent & daylighting purposes, sections are
+oriented perpendicular to the exterior walls. The shapes tend to elicit
+that 'WOW' factor from architects....
+As I say, these are a proprietary precast system, but the manufacturer's
+name escapes me at the moment.  For more information, speak to Feilden
+Clegg Architects (London, UK?) or the BRE; David Lloyd Jones' book
+"Architecture & the Environment - Bioclimatic Building Design" has both
+lovely pictures & (hail Mary!) monitored energy performance #s (83
+kWhe/sq.m-yr *total*!)
+ 
+Hope this helps, 
+Ian G. Theaker, P.Eng.  
+Senior Energy Engineer 
+  
+503.382.2266 OFFICE 
+503.382.2654 DIRECT 
+503.382.2262 FAX 
+Consultants of Choice to the Built Environment 
+www.interfaceengineering.com 
+ 
+-----Original Message----- 
+From: postman at gard.com [mailto:postman at gard.com] 
+Sent: Friday, September 12, 2003 12:02 AM 
+To: bldg-sim at gard.com 
+Subject: [bldg-sim] Digest (09/12/2003 03:01) (#2003-62) 
+ 
+(#2003-62) - Topics this issue: 
+     1) Integrated air distribution system, <mcase at etcgrp.com> 
+---------------------------------------------------------------------- 
+ 
+Date: Thu, 11 Sep 2003 10:33:55 -0600 
+From: "Mark E. Case" <mcase at etcgrp.com> 
+Subject: Integrated air distribution system 
+This is a multi-part message in MIME format. 
+------=_NextPart_000_0026_01C37850.3AACDD30 
+Content-Type: text/plain; 
+        charset="iso-8859-1" 
+Content-Transfer-Encoding: 7bit 
+I'm looking for information on structurally integrated air distribution
+systems (for want of a better term). I seem to remember reference to a
+building that had the air distribution integrated into the floor slab at
+one of JE Braun's presentations on building mass thermal storage. The
+idea was to more effectively couple the air system with the building's
+thermal mass. I know some related work has been done with raised floor
+systems over concrete slabs but that's not really what I'm thinking of. 
+I opened my big mouth at a design concept meeting for a local green
+project, the architect thought WOW!, and now the engineer wants some
+references.  Imagine that. Any references would be appreciated. 
+ 
+Mark E. Case, President 
+etc Group, Inc. 
+3481 South 2300 East 
+Salt Lake City, UT 84109 
+801-278-1927, 801-278-1942(F) 
+  
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030912/eb7ad83a/attachment.htm>
+
+From JAulbach at semprasolutions.com  Fri Sep 12 09:59:10 2003
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Fri, 12 Sep 2003 09:59:10 -0700
+Subject: [bldg-sim] energy tariff in DOE2.1
+Message-ID: <MDAEMON-F200309121153.AA5322125pd80000406845@gard.com>
+
+Get an 8,760 hourly printout of electric demand from DOE-2.1E, import it
+into a spreadsheet, and do the daily rate calc. Or average the calc for the
+month within the ECONOMIC portion. I believe you can change the rate 15
+times per year within 2.1E..
+
+-----Original Message-----
+From: babetsk at jbb.com [mailto:babetsk at jbb.com]
+Sent: Friday, September 12, 2003 7:56 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] energy tariff in DOE2.1
+
+
+Hello,
+ 
+I need to input a new energy tariff in DOE 2.1 economics file. The problem
+is the tariff assesses demand charges on a daily basis. Then the monthly
+demand charge is the total sum of the daily charges. Any ideas on how to
+implement such a tariff?
+ 
+Thanks,
+ 
+Konstantin Babets
+ 
+
+Jaros Baum & Bolles 
+Konstantin E. Babets 
+CFD/Energy Modeling
+Tel 212.530.9455
+Fax 212.269.5894
+babetsk at jbb.com <mailto:babetsk at jbb.com> 
+
+ 
+
+
+=====================================================You received this
+e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030912/1e7cb0f8/attachment.htm>
+
+From Ian_T at ieice.com  Fri Sep 12 08:50:10 2003
+From: Ian_T at ieice.com (Ian Theaker)
+Date: Fri, 12 Sep 2003 08:50:10 -0700
+Subject: [bldg-sim] Digest (09/12/2003 03:01) (#2003-62)
+Message-ID: <MDAEMON-F200309121044.AA4410671pd80000406760@gard.com>
+
+Mark, Bldg-Simmers,
+
+The UK's Building Research Establishment's "Office of the Future" is one
+Euro building that deliberately uses voids formed into precast concrete
+floor/ceiling panels to distribute & extract natural ventilation air,
+consciously activating their thermal mass.  These proprietary panels were
+invented & seem to be most widely used in Scandinavia; they create an
+undulating ceiling with ~10' period peak to peak, with 'waves' ~2.5' deep.
+A flat floor is cast above, and air is driven by wind pressure between this
+floor slab and the lower ceiling formed by the precast panels.  Their
+curving shape lend themselves very well to direct/indirect lighting fixtures
+suspended below the high points of the ceiling;  for both nat vent &
+daylighting purposes, sections are oriented perpendicular to the exterior
+walls. The shapes tend to elicit that 'WOW' factor from architects....
+
+As I say, these are a proprietary precast system, but the manufacturer's
+name escapes me at the moment.  For more information, speak to Feilden Clegg
+Architects (London, UK?) or the BRE; David Lloyd Jones' book "Architecture &
+the Environment - Bioclimatic Building Design" has both lovely pictures &
+(hail Mary!) monitored energy performance #s (83 kWhe/sq.m-yr *total*!)
+
+
+Hope this helps,
+Ian G. Theaker, P.Eng.  
+Senior Energy Engineer
+ 
+503.382.2266 OFFICE
+503.382.2654 DIRECT
+503.382.2262 FAX
+
+Consultants of Choice to the Built Environment
+www.interfaceengineering.com 
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] 
+Sent: Friday, September 12, 2003 12:02 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Digest (09/12/2003 03:01) (#2003-62)
+
+
+(#2003-62) - Topics this issue:
+
+     1) Integrated air distribution system, <mcase at etcgrp.com>
+
+----------------------------------------------------------------------
+
+
+Date: Thu, 11 Sep 2003 10:33:55 -0600
+From: "Mark E. Case" <mcase at etcgrp.com>
+Subject: Integrated air distribution system
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0026_01C37850.3AACDD30
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+I'm looking for information on structurally integrated air distribution
+systems (for want of a better term). I seem to remember reference to a
+building that had the air distribution integrated into the floor slab at one
+of JE Braun's presentations on building mass thermal storage. The idea was
+to more effectively couple the air system with the building's thermal mass.
+I know some related work has been done with raised floor systems over
+concrete slabs but that's not really what I'm thinking of. 
+
+I opened my big mouth at a design concept meeting for a local green project,
+the architect thought WOW!, and now the engineer wants some references.
+Imagine that. Any references would be appreciated. 
+
+
+Mark E. Case, President
+etc Group, Inc.
+3481 South 2300 East
+Salt Lake City, UT 84109
+801-278-1927, 801-278-1942(F)
+ 
+---------------------------------------------------------------------- 
+CONFIDENTIALITY NOTICE This e-mail transmission, and any documents, files or
+previous e-mail messages attached to it may contain confidential information
+that is legally privileged.  If you are not the intended recipient or the
+person responsible for delivering it to the intended recipient, you are
+hereby notified that any disclosure, copying, distribution or use of any of
+the information contained in or attached to this transmission is strictly
+prohibited.  If you have received this transmission in error, please
+immediately notify us by telephone at (801) 278-1927 and destroy the
+original transmission and its attachments without reading them. Thank you. 
+
+
+------=_NextPart_000_0026_01C37850.3AACDD30
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Diso-8859-1"> <META NAME=3D"Generator" CONTENT=3D"MS Exchange
+Server version = 6.0.6396.0"> <TITLE>Integrated air distribution
+system</TITLE> </HEAD> <BODY>
+<!-- Converted from text/rtf format -->
+
+<P><FONT SIZE=3D2 FACE=3D"Arial">I'm looking for information on =
+structurally integrated air distribution systems (for want of a better =
+term). I seem to remember reference to a building that had the air =
+distribution integrated into the floor slab at one of JE Braun's =
+presentations on building mass thermal storage. The idea was to more =
+effectively couple the air system with the building's thermal mass. I = know
+some related work has been done with raised floor systems over = concrete
+slabs but that's not really what I'm thinking of. </FONT></P>
+
+<P><FONT SIZE=3D2 FACE=3D"Arial">I opened my big mouth at a design = concept
+meeting for a local green project, the architect thought WOW!, = and now the
+engineer wants some references.&nbsp; Imagine = that.</FONT></P>
+
+<P><FONT SIZE=3D2 FACE=3D"Arial">Any references would be appreciated. =
+</FONT> </P> <BR>
+
+<P><FONT SIZE=3D2 FACE=3D"Arial">Mark E. Case, President</FONT>
+
+<BR><FONT SIZE=3D2 FACE=3D"Arial">etc Group, Inc.</FONT>
+
+<BR><FONT SIZE=3D2 FACE=3D"Arial">3481 South 2300 East</FONT>
+
+<BR><FONT SIZE=3D2 FACE=3D"Arial">Salt Lake City, UT 84109</FONT>
+
+<BR><FONT SIZE=3D2 FACE=3D"Arial">801-278-1927, 801-278-1942(F)</FONT>
+
+<BR><FONT FACE=3D"Arial">=A0</FONT>
+
+<BR><FONT =
+FACE=3D"Arial">----------------------------------------------------------=
+------------ </FONT>
+
+<BR><FONT SIZE=3D1 FACE=3D"Arial">CONFIDENTIALITY NOTICE This e-mail =
+transmission, and any documents, files or previous e-mail messages =
+attached to it may contain confidential information that is legally =
+privileged.=A0 If you are not the intended recipient or the person =
+responsible for delivering it to the intended recipient, you are hereby =
+notified that any disclosure, copying, distribution or use of any of the =
+information contained in or attached to this transmission is strictly =
+prohibited.=A0 If you have received this transmission in error, please =
+immediately notify us by telephone at (801) 278-1927 and destroy the =
+original transmission and its attachments without reading them. Thank = you.
+</FONT></P>
+
+</BODY>
+</HTML>
+------=_NextPart_000_0026_01C37850.3AACDD30--
+
+------------------------------
+
+End bldg-sim at gard.com Digest [09/12/2003 03:01]
+-----------------------------------------------
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030912/0f506607/attachment.htm>
+
+From babetsk at jbb.com  Fri Sep 12 07:55:45 2003
+From: babetsk at jbb.com (babetsk at jbb.com)
+Date: Fri, 12 Sep 2003 10:55:45 -0400
+Subject: [bldg-sim] energy tariff in DOE2.1
+Message-ID: <MDAEMON-F200309120946.AA4657421pd80000406678@gard.com>
+
+Hello,
+
+I need to input a new energy tariff in DOE 2.1 economics file. The problem is the tariff assesses demand charges on a daily basis. Then the monthly demand charge is the total sum of the daily charges. Any ideas on how to implement such a tariff?
+
+Thanks,
+
+Konstantin Babets
+
+Jaros Baum & Bolles 
+Konstantin E. Babets 
+CFD/Energy Modeling
+Tel 212.530.9455
+Fax 212.269.5894
+babetsk at jbb.com
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030912/13b916a6/attachment.htm>
+
+From mcase at etcgrp.com  Thu Sep 11 09:33:55 2003
+From: mcase at etcgrp.com (Mark E. Case)
+Date: Thu, 11 Sep 2003 10:33:55 -0600
+Subject: [bldg-sim] Integrated air distribution system
+Message-ID: <MDAEMON-F200309111127.AA2753218pd80000405744@gard.com>
+
+I'm looking for information on structurally integrated air distribution
+systems (for want of a better term). I seem to remember reference to a
+building that had the air distribution integrated into the floor slab at
+one of JE Braun's presentations on building mass thermal storage. The
+idea was to more effectively couple the air system with the building's
+thermal mass. I know some related work has been done with raised floor
+systems over concrete slabs but that's not really what I'm thinking of. 
+
+I opened my big mouth at a design concept meeting for a local green
+project, the architect thought WOW!, and now the engineer wants some
+references.  Imagine that.
+Any references would be appreciated. 
+
+
+Mark E. Case, President
+etc Group, Inc.
+3481 South 2300 East
+Salt Lake City, UT 84109
+801-278-1927, 801-278-1942(F)
+ 
+---------------------------------------------------------------------- 
+CONFIDENTIALITY NOTICE This e-mail transmission, and any documents,
+files or previous e-mail messages attached to it may contain
+confidential information that is legally privileged.  If you are not the
+intended recipient or the person responsible for delivering it to the
+intended recipient, you are hereby notified that any disclosure,
+copying, distribution or use of any of the information contained in or
+attached to this transmission is strictly prohibited.  If you have
+received this transmission in error, please immediately notify us by
+telephone at (801) 278-1927 and destroy the original transmission and
+its attachments without reading them. Thank you. 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030911/246a317b/attachment.htm>
+
+From vhanby at dmu.ac.uk  Wed Sep  3 08:24:59 2003
+From: vhanby at dmu.ac.uk (Vic Hanby)
+Date: Wed, 3 Sep 2003 16:24:59 +0100 (BST)
+Subject: [bldg-sim] Corner heat loss
+Message-ID: <MDAEMON-F200309031030.AA3015765pd80000398042@gard.com>
+
+We need to calculate the steady-state 3-D temperature distribution in the corner 
+of a walls/slab in contact with the ground, to demonstrate compliance with 
+regulations. We could do this with a general-purpose modelling program such as 
+FEMLAB (if we had it), but I'd appreciate some suggestions from anyone who's 
+solved this problem with building modeling software.
+
+Vic Hanby
+
+-------------------------------------------------
+Professor V I Hanby
+Institute of Energy and Sustainable Development
+De Montfort University
+The Gateway
+Leicester LE1 9BH, UK
++44 (0)116 257 7980,  7977 (fax)
+-------------------------------------------------
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From JAulbach at semprasolutions.com  Tue Sep  2 09:05:41 2003
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Tue, 2 Sep 2003 09:05:41 -0700 
+Subject: [BLDG-SIM] PowerDOE
+Message-ID: <MDAEMON-F200309021100.AA0050390pd80000396926@gard.com>
+
+Fernando,
+ 
+I suggest you upgrade to eQuest, which is affectionately called "Son of
+PowerDOE". As I understand, because of usage of intellectual property,
+PowerDOE is no longer support by anyone, but eQuest is. www.doe2.com
+<http://www.doe2.com>  for instructions.
+
+-----Original Message-----
+From: Fernando Varela [mailto:fvarela at aula.eis.uva.es]
+Sent: Friday, April 04, 2003 1:33 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] powerdoe
+
+
+Dear members:
+ 
+My name is Fernando, from Spain and I have several problems with powerdoe. 
+ 
+One of them is that when I create report blocks and the corresponding
+report, I don?t find them after in the list of available reports, so I
+cannot see the results I?m looking for.
+ 
+Other problem is that when I try to define the control schedule for the HVAC
+system, (I use the Residential one) I don?t know where to do it, if in the
+zone thermostat, in the cooling/heating control or in both of them.
+ 
+Thank you very much.
+
+
+=====================================================You received this
+e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030902/8640ef22/attachment.htm>
+
+From jfk at geopraxis.com  Tue Sep 30 16:30:39 2003
+From: jfk at geopraxis.com (John Kennedy)
+Date: Tue, 30 Sep 2003 16:30:39 -0700
+Subject: [bldg-sim] Maximum number of zones in DOE 2.1E
+In-Reply-To: <MDAEMON-F200309301412.AA1254421pd80000572972@gard.com>
+Message-ID: <MDAEMON-F200309301824.AA2407828pd80000424009@gard.com>
+
+Andrew,
+
+Run the following in DOE-2.1e or DOE-2.2 BDL commands through doebdl.exe to
+determine your unique DOE-2 versions limits and defaults. Replace XXX with
+whatever command you want to know more details on (SPACE or ZONE in your
+case). The resulting BDL echo file will answer your question.
+
+Have fun!
+
+DOE-2.1e version
+INPUT  LOADS <or SYSTEMS or PLANT or ECONOMICS> ..
+HELP FOR XXX ..
+END ..
+COMPUTE LOADS <or SYSTEMS or PLANT or ECONOMICS> ..
+
+
+DOE-2.2 version
+INPUT  ..
+HELP FOR XXX ..
+END ..
+
+
+
+|-----Original Message-----
+|From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Andrew
+|Morrison
+|Sent: Tuesday, September 30, 2003 3:15 PM
+|To: bldg-sim at gard.com
+|Subject: [bldg-sim] Maximum number of zones in DOE 2.1E
+|
+|
+|Is anyone aware of the maximum number of zones allowed in DOE2.1 E (Ver
+|133)?
+|
+|Thanks
+|
+|Andrew Morrison
+|Caneta Energy
+|
+|======================================================
+|You received this e-mail because you are subscribed
+|to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+|from this mailing list send a blank message to
+|BLDG-SIM-UNSUBSCRIBE at GARD.COM
+|
+|
+|
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From andrewm at canetaenergy.com  Tue Sep 30 15:14:47 2003
+From: andrewm at canetaenergy.com (Andrew Morrison)
+Date: Tue, 30 Sep 2003 15:14:47 -0700
+Subject: [bldg-sim] Maximum number of zones in DOE 2.1E
+Message-ID: <MDAEMON-F200309301412.AA1254500pd80000423731@gard.com>
+
+Is anyone aware of the maximum number of zones allowed in DOE2.1 E (Ver 
+133)?
+
+Thanks
+
+Andrew Morrison
+Caneta Energy
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From JAulbach at semprasolutions.com  Tue Sep 30 13:26:19 2003
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Tue, 30 Sep 2003 13:26:19 -0700
+Subject: [bldg-sim] Maximum number of zones in DOE 2.1E
+Message-ID: <MDAEMON-F200309301520.AA2041875pd80000423834@gard.com>
+
+I believe 1000 zones is about right. It all depends on how intense the input
+is into each zone. Jeff Hirsch can elaborate more "succinctly". However, you
+might want to complete the model before your children grow up, so some
+brevity is called for.
+
+-----Original Message-----
+From: Andrew Morrison [mailto:andrewm at canetaenergy.com]
+Sent: Tuesday, September 30, 2003 3:15 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Maximum number of zones in DOE 2.1E
+
+
+Is anyone aware of the maximum number of zones allowed in DOE2.1 E (Ver 
+133)?
+
+Thanks
+
+Andrew Morrison
+Caneta Energy
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030930/210a8b6f/attachment.htm>
+
+From ylui at Sebesta.com  Tue Sep 30 13:09:02 2003
+From: ylui at Sebesta.com (Yury Lui)
+Date: Tue, 30 Sep 2003 15:09:02 -0500
+Subject: [bldg-sim] Unit conversion
+Message-ID: <MDAEMON-F200309301501.AA0129906pd80000423808@gard.com>
+
+Can someone explain what is the different between energy unit "kWh/m2" and "kWh/m2a"? What is the letter "a" stand for? If these two units are different, what is the conversion factor? Thanks.
+
+Yury Lui,  P.E.
+Mechanical Engineer
+Sebesta Blomberg & Associates, Inc.
+Providing Technical & Business Solutions
+Tel: 847-692-4780
+Fax: 847-692-4784
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bhandari at ecs.umass.edu  Wed Sep 24 18:03:41 2003
+From: bhandari at ecs.umass.edu (Mahabir Bhandari)
+Date: Wed, 24 Sep 2003 21:03:41 -0400
+Subject: [bldg-sim] Building simulation materials
+In-Reply-To: <MDAEMON-F200309241755.AA551931pd80000569806@gard.com>
+Message-ID: <MDAEMON-F200309241958.AA5828265pd80000418880@gard.com>
+
+Derrick,
+
+You can find brief description of the major building simulation software at
+the following link:
+
+http://www.eere.energy.gov/buildings/tools_directory/
+
+Also I have found the following book very useful for learning and
+understanding the theory and concepts of the building simulation.
+
+Clarke J A (2001) Energy Simulation in Building Design (2nd Edn),
+Butterworth-Heinemann.
+
+
+Mahabir
+
+Mahabir Bhandari
+University of Massachusetts
+Mechanical and Industrial Engineering
+Engineering Lab
+Amherst, MA-01003
+Tel: +1 413 577 4726
+Fax: +1 413 545 1027
+email: bhandari at ecs.umass.edu
+
+
+
+  -----Original Message-----
+  From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Derrick Giles
+  Sent: Wednesday, September 24, 2003 7:05 PM
+  To: bldg-sim at gard.com
+  Subject: [bldg-sim] Building simulation materials
+
+
+  All,
+
+  I am a new graduate student studying energy management.  What is the best
+way to learn what simulation software is available?  Are there any books or
+websites that you all can recommend that will give a good introduction
+building simulation/heat load calculations and descriptions of software that
+is commonly used?
+
+  Derrick.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030924/3232eec3/attachment.htm>
+
+From larry at taz.tamu.edu  Wed Sep 24 16:42:37 2003
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Wed, 24 Sep 2003 18:42:37 -0500
+Subject: [bldg-sim] Building simulation materials
+In-Reply-To: <MDAEMON-F200309241755.AA5532734pd80000570047@gard.com>
+Message-ID: <MDAEMON-F200309241836.AA3616500pd80000418810@gard.com>
+
+Derrick,
+ 
+In case you're not aware of the papers published by IBPSA (International
+Building Performance Simulation Association), you can peruse and
+download any number of them from 1989 to the present at
+http://www.ibpsa.org <http://www.ibpsa.org/> .  Click on Conferences and
+then select a conference year.  These are available at no cost in PDF
+format.  The last conference year showing is BS'01.  BS'03 has not been
+added yet, but will be available soon.
+ 
+Best regards,
+ 
+Larry Degelman, IBPSA Newsletter Chair.
+===================================== 
+Larry O. Degelman, P.E.                  larry at taz.tamu.edu 
+Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+Texas A&M University
+2206 Quail Run 
+College Station, TX 77845
+Ener-Win site: http://www.cox-internet.com/larryd/enerwin 
+=====================================
+ 
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Derrick
+Giles
+Sent: Wednesday, September 24, 2003 6:05 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Building simulation materials
+ 
+All,
+ 
+I am a new graduate student studying energy management.  What is the
+best way to learn what simulation software is available?  Are there any
+books or websites that you all can recommend that will give a good
+introduction building simulation/heat load calculations and descriptions
+of software that is commonly used?
+ 
+Derrick.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030924/ac6dc8d0/attachment.htm>
+
+From giles.de at mindspring.com  Wed Sep 24 16:05:27 2003
+From: giles.de at mindspring.com (Derrick Giles)
+Date: Wed, 24 Sep 2003 19:05:27 -0400
+Subject: [bldg-sim] Building simulation materials
+Message-ID: <MDAEMON-F200309241755.AA5530406pd80000418749@gard.com>
+
+All,
+
+I am a new graduate student studying energy management.  What is the best way to learn what simulation software is available?  Are there any books or websites that you all can recommend that will give a good introduction building simulation/heat load calculations and descriptions of software that is commonly used?
+
+Derrick.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030924/a8ce77c2/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Derrick Giles.vcf
+Type: text/x-vcard
+Size: 717 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030924/a8ce77c2/attachment.vcf>
+
+From Aziz.Laouadi at nrc-cnrc.gc.ca  Wed Sep 24 11:16:45 2003
+From: Aziz.Laouadi at nrc-cnrc.gc.ca (Laouadi, Aziz)
+Date: Wed, 24 Sep 2003 14:16:45 -0400
+Subject: [bldg-sim] Release of the Second Beta Version of SkyVision
+Message-ID: <MDAEMON-F200309241312.AA1223859pd80000418418@gard.com>
+
+
+The Institute for Research in Construction (IRC) of the National Research
+Council of Canada (NRC) has released the second beta version of SkyVision.
+SkyVision is WindowsTM-based, analysis software that calculates the overall
+optical characteristics and daylighting performance of conventional and
+tubular skylights, and predicts their energy-saving potential.  SkyVision
+accounts for the skylight shape and glazing type, geometry and surface
+characteristics of the indoor space, lighting and shading controls, building
+site location and prevailing climate.  The main additions to the first beta
+version (released in March 2003) include: calculation of the monthly and
+annual lighting energy savings, improvement of the Graphical User Interface,
+fixes of reported bugs, and more weather files for Canadian cities.   The
+final version will be available in summer 2004.  The software can be
+downloaded free of charge from the IRC web site:
+<http://irc.nrc-cnrc.gc.ca/ie/light/skyvision/>.
+
+Comments/suggestions are very useful and appreciated, and can be directed to
+Dr. Aziz Laouadi.
+
+
+Dr. Abdelaziz (Aziz) Laouadi
+Research Officer
+Indoor Environment Research Program
+Institute for Research in Construction
+National Research Council of Canada
+1200 Montreal Road, Building M-24
+Ottawa, Ontario, Canada, K1A 0R6
+Tel.:  (613) 990 6868;	Fax:  (613) 954 3733
+Email: Aziz.Laouadi at nrc-cnrc.gc.ca 
+Web: http://irc.nrc-cnrc.gc.ca/ie/light/
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030924/fe645ac8/attachment.htm>
+
+From allender at energy-rm.com.hk  Tue Sep 23 22:23:10 2003
+From: allender at energy-rm.com.hk (Robert Allender (Energy Resources Management))
+Date: Wed, 24 Sep 2003 13:23:10 +0800
+Subject: [bldg-sim] meteorological data for Hongkong, Discovery Bay
+In-Reply-To: <MDAEMON-F200309230902.AA0258281pd80000567335@gard.com>
+Message-ID: <MDAEMON-F200309240015.AA1546750pd80000417806@gard.com>
+
+Gunter:
+
+This information is readily available.
+
+If you don't find what you want on Sam Hui's page,
+arch.hku.hk/research/BEER/abcd.htm, let me know what format you would
+like and I'll give you some alternative sources.
+
+Robert Allender, CEM
+allender at energy-rm.com.hk
+
+Energy Resources Management			tel +852 2528 2285
+2/F, Kam Chung Commercial Building		fax +852 2834 2983
+19 Hennessy Road, Hong Kong
+
+http://www.energy-rm.com.hk
+
+        Celebrating Ten Years of Energy Management Excellence
+                                 1992 -2002
+
+
+
+
+> -----Original Message-----
+> From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Pueltz,
+> Gunter
+> Sent: 23 September, 2003 10:09 PM
+> To: bldg-sim at gard.com
+> Subject: [bldg-sim] meteorological data for Hongkong, Discovery Bay
+>
+>
+> Dear all,
+>
+> I am facing a new simulation project in Discovery Bay, Hongkong;
+> therefore I am looking for meteorological data as input data.
+> I checked the IWEC-site
+> (http://www.eere.energy.gov/buildings/energyplus/cfm/weatherda
+> ta_int.cfm),
+> but failed.
+>
+> Can anyone give me an helpfull advice ?
+>
+> Thanks,
+> Gunter P?ltz
+>
+> ==================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

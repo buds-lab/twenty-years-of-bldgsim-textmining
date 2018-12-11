@@ -1,0 +1,408 @@
+From JJHirsch at ez2.net  Fri Aug 20 12:18:19 1999
+From: JJHirsch at ez2.net (James J. Hirsch)
+Date: Fri, 20 Aug 1999 12:18:19 -0700
+Subject: [BLDG-SIM] Design Day data for CTZs
+References: <MDAEMON-F199908201253.AA533734MD60583@gard.com>
+Message-ID: <MDAEMON-F199908201417.AA170201MD68512@gard.com>
+
+Here is a link to the CEC's location design data Appendix (C in both
+the Standards and ACM manuals)
+
+http://www.energy.ca.gov/title24/nonresidential_manual/APPENDIX_C.PDF
+
+"Michael J. Witte" wrote:
+
+> Anyone know if there is a publication available which gives
+> ASHRAE-style design day data for the California Thermal Zones (CTZs)?
+>
+> Mike Witte
+>
+> ========================================================
+> Michael J. Witte                        mjwitte at gard.com
+> GARD Analytics, Inc.                        www.gard.com
+> 1028 Busse Highway                    Phone 847-698-5685
+> Park Ridge, Illinois 60068-1802         FAX 847-698-5600
+> USA          Energy, Environmental and Economic Research
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+--
+Jeff Hirsch
+James J. Hirsch & Associates
+Building Performance Analysis Software & Consulting
+12185 Presilla Road
+Camarillo, CA 93012-9243 USA
+phone: (805) 532-1045
+fax: (805) 532-2401
+email: Jeff.Hirsch at DOE2.com OR JJHirsch at ez2.net
+web: http://DOE2.com
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: JJHirsch.vcf
+Type: text/x-vcard
+Size: 504 bytes
+Desc: Card for James J. Hirsch
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990820/5ffb1148/attachment.vcf>
+
+From mjwitte at gard.com  Fri Aug 20 10:59:33 1999
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Fri, 20 Aug 1999 12:59:33 -0500
+Subject: [BLDG-SIM] Design Day data for CTZs
+Message-ID: <MDAEMON-F199908201253.AA533687MD68448@gard.com>
+
+Anyone know if there is a publication available which gives 
+ASHRAE-style design day data for the California Thermal Zones (CTZs)? 
+
+Mike Witte
+
+
+========================================================
+Michael J. Witte                        mjwitte at gard.com
+GARD Analytics, Inc.                        www.gard.com
+1028 Busse Highway                    Phone 847-698-5685
+Park Ridge, Illinois 60068-1802         FAX 847-698-5600
+USA          Energy, Environmental and Economic Research
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From vic at pear-trees.demon.co.uk  Tue Aug 17 07:54:54 1999
+From: vic at pear-trees.demon.co.uk (Victor Hanby)
+Date: Tue, 17 Aug 1999 15:54:54 +0100
+Subject: [BLDG-SIM] PhD studentships
+Message-ID: <MDAEMON-F199908171202.AA024109MD67248@gard.com>
+
+We have the following vacancies for PhD studentships - I would be most
+grateful if you could draw them to the attention of any potential candidates.
+
+Vic Hanby
+
+------------------------------------------------------------------------
+LOUGHBOROUGH UNIVERSITY
+DEPARTMENT OF CIVIL AND BUILDING ENGINEERING
+
+Research Studentships in Building HVAC Systems Simulation and Optimization
+
+The Building Services Research Group has three three-year PhD studentships 
+available from 1st October 1999.
+
+1. Automatic Generation of HVAC Systems Configuration
+
+This project is concerned with the development of techniques for the 
+automatic production of functional configurations of building HVAC 
+(heating, ventilation and air-conditioning) plant. The planned approach
+is to use genetic algorithms in conjunction with fuzzy rule-based methods 
+to generate functionally viable system configurations.
+
+2. Optimization of HVAC System Design and Performance
+
+This research involves the combination of modular system simulation with
+optimization techniques (including genetic algorithms) to produce optimum 
+system performance as defined by a range of objective functions such as 
+energy consumption, capital or life-cycle cost.
+
+The above studentships are funded from a project sponsored by the American 
+Society of Heating, Refrigeration and Air-conditioning Engineers: this 
+covers tuition fees at either Home/EEC or Overseas student rates, together 
+with a subsistence allowance of GBP 6,620 p.a.
+
+3. Fault Detection/Diagnosis in HVAC Plant
+
+This work will use an existing numerical model of a large (3MW) climatic 
+control plant for an automobile testing wind tunnel as a basis for 
+developing automatic fault detection techniques and condition-based 
+maintenance.
+
+The project involves close liaison with the Motor Industry Research 
+Association at Nuneaton, UK. Support covers tuition fees at Home/EEC student
+rate plus subsistence of GBP 6,620 p.a. 
+
+The successful candidates will join a group of five staff with an 
+established track record in simulation and optimization research, in a 
+Department rated 5 in the 1996 RAE. 
+
+Candidates for all positions should have a good first degree in a relevant 
+science or engineering discipline, together with some experience of 
+programming in a high level language. Familiarity with building HVAC systems 
+would be an advantage.
+
+Application forms and further details are available from 
+
+Mrs H M S Weaver
+Secretary to the Head of Department
+Department of Civil and Building Engineering
+Loughborough University
+Loughborough
+Leics LE11 3TU  UK
+Tel +44 (0)1509 223771
+H.M.Weaver at Lboro.ac.uk
+
+Informal enquiries should be addressed to
+
+Professor V I Hanby  +44 (0)1509 222605  V.I.Hanby at Lboro.ac.uk
+Dr J A Wright        +44 (0)1509 222621  J.A.Wright at Lboro.ac.uk
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Tue Aug 10 15:01:55 1999
+From: jglazer at gard.com (Jason Glazer)
+Date: Tue, 10 Aug 1999 17:01:55 -0500
+Subject: [BLDG-SIM] DOE-2.1E Glass U-Value
+Message-ID: <MDAEMON-F199908101652.AA523506MD65670@gard.com>
+
+I am doing some DOE-2.1E runs and get slightly different 
+values from two different loads verification reports for 
+the glass I'm using.  Here is the part of the input file:
+
+##set1 UF 0.45
+GT1    GLASS-TYPE  
+       SHADING-COEF       0.379
+       GLASS-CONDUCTANCE  #[1 / #[ #[1 / UF[]] - 0.2986 ]] 
+       PANES              1 
+       FRAME-CONDUCTANCE  0.001  .. 
+
+I'm not using the Window 4 library.  The equation removes 
+the outside film coefficient from UF in the GLASS-
+CONDUCTANCE input assuming a 7.5 mph wind speed.  In 
+addition, I have no frame area defined.  Unfortunately, the 
+LV-H and LV-D report show different results.  The LV-H 
+report shows 0.450 as the center of glass u-value and this 
+includes the film coefficient.  The LV-D report shows 0.430 
+as the average u-value for the window.  Which one is right? 
+LV-H seems to be the correct value but why aren't they 
+consistent?
+
+Any suggestions would be welcome.
+
+Jason
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From fcw at pegasus.lbl.gov  Tue Aug 10 16:47:41 1999
+From: fcw at pegasus.lbl.gov (Fred Winkelmann)
+Date: Tue, 10 Aug 99 16:47:41 PDT
+Subject: [BLDG-SIM] DOE-2.1E Glass U-value
+Message-ID: <MDAEMON-F199908101841.AA413217MD65728@gard.com>
+
+Jason:
+
+Their is a problem in the verification reports.
+LV-D uses an outside air film resistance of 0.4;
+LV-H uses 0.2986 (the same value you used).
+Note that this does not affect the hourly window
+heat transfer calculation; there the outside film
+resistance is not constant but depends on windspeed,
+surface to air temperature difference and window slope.
+
+I'll make a fix so that LV-D and LV-H use the same
+outside film resistance value.
+
+Fred Winkelmann
+
+
+----- Begin Included Message -----
+
+
+From jglazer at gard.com  Tue Aug 10 15:01:55 1999
+From: jglazer at gard.com (Jason Glazer)
+Date: Tue, 10 Aug 1999 17:01:55 -0500
+Subject: [BLDG-SIM] DOE-2.1E Glass U-Value
+Message-ID: <MDAEMON-F199908101652.AA523290MD59072@gard.com>
+
+I am doing some DOE-2.1E runs and get slightly different 
+values from two different loads verification reports for 
+the glass I'm using.  Here is the part of the input file:
+
+##set1 UF 0.45
+GT1    GLASS-TYPE  
+       SHADING-COEF       0.379
+       GLASS-CONDUCTANCE  #[1 / #[ #[1 / UF[]] - 0.2986 ]] 
+       PANES              1 
+       FRAME-CONDUCTANCE  0.001  .. 
+
+I'm not using the Window 4 library.  The equation removes 
+the outside film coefficient from UF in the GLASS-
+CONDUCTANCE input assuming a 7.5 mph wind speed.  In 
+addition, I have no frame area defined.  Unfortunately, the 
+LV-H and LV-D report show different results.  The LV-H 
+report shows 0.450 as the center of glass u-value and this 
+includes the film coefficient.  The LV-D report shows 0.430 
+as the average u-value for the window.  Which one is right? 
+LV-H seems to be the correct value but why aren't they 
+consistent?
+
+Any suggestions would be welcome.
+
+Jason
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+----- End Included Message -----
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Mmullins at hecenergy.com  Mon Aug  9 14:16:01 1999
+From: Mmullins at hecenergy.com (Mark Mullins)
+Date: Mon, 09 Aug 1999 17:16:01 -0400
+Subject: [BLDG-SIM] Fan-powered VAV systems in doe-2 & EnergyPlus
+Message-ID: <MDAEMON-F199908091611.AA113034MD65279@gard.com>
+
+Thanks to all who responded to my fan powered VAV question.  
+
+Here's a followup to EnergyPlus Users:  How well does EnergyPlus model Fan powered VAV systems?  The system should be able to model variable air volume in cooling mode, DX cooling, parallel fan-powered boxes that induce air from a plenum, and thermostatically contolled reheat in the VAV box.
+
+
+(The original question is presented below, and a response follows)
+> To PowerDOE/DOE-2 users:
+> Has anyone out there successfully modeled a DX fan-powered >VAV system in doe-2.2 or doe-2.1e?  If so, what system did you >use and how did you model the fan box part of it?
+>
+> The system I have in mind must have the following functionality:
+> -VAV
+> -DX cooling
+> -Evaporative condensing
+> -Parallel fan-powered boxes that induce air from a plenum
+> -Thermostatically contolled reheat in the VAV box
+>
+> This is one of the most common types of HVAC systems around, >so I am wondering if someone out there has had any more luck >than me in attempting to conquer the challanges of accurately >modeling its controls & functionality.
+>
+> Any thoughts?
+>
+> 
+
+Answer (thanks to Fred Porter of Architectural Energy Corp)
+You must decompose the packaged unit into a AHU/CHW/Chiller/Tower system. (No PIU in PVAVS) Set pump heads to near zero. Adjust tower approaches, or adjust virtual chiller EIR to get a reasonable representation of the kW/ton.
+
+You can't use a doe-2 "plenum" as induced-air-zone. Take your pick, either use the core zone, or the perimeter zone itself.
+
+Make sure to coordinate box fan setpoints, and box reheat setpoints as outlined in various 2.1 and 2.2 manuals.
+
+
+====================================================
+--
+Fred W. Porter
+Senior Engineer
+Architectural Energy Corp.
+2540 Frontier Ave. Suite 201
+Boulder CO 80301
+email: fporter at archenergy.com 
+phone: 303-444-4149
+fax: 303-444-4304
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jpkarasa at cbg-engrs.com  Tue Aug  3 16:04:52 1999
+From: jpkarasa at cbg-engrs.com (John P. Karasaki, P.E.)
+Date: Tue, 3 Aug 1999 16:04:52 -0700
+Subject: [BLDG-SIM] Need DOE-2 compatible 1998 weather data for Portland, Oregon (USA
+	)
+Message-ID: <MDAEMON-F199908040119.AA191651MD63882@gard.com>
+
+Dear Group:
+
+A few years ago we purchased DOE-2 compatible weather data for 1994 and
+1995.  This data was in the CD144 format and was easy to pack for use with
+DOE-2.
+
+Unfortunately, I can't remember who we purchased the data from!  I contacted
+WeatherServ who advertises in the back of the Energy User News.
+Unfortunately, they can't produce DOE-2 compatible data sets yet.
+
+Any idea where year specific, DOE-2 compatible, USA weather data can be
+purchased?
+
+Our needs are immediate.  Thanks in advance for any information.
+
+Best Regards,
+
+John P. Karasaki, P.E.
+
+Energy Services Manager
+CBG Consulting Engineers
+6650 SW Redwood Lane Suite 355
+Portland, OR 97224
+(503) 620-3232
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Mmullins at hecenergy.com  Mon Aug  2 15:03:42 1999
+From: Mmullins at hecenergy.com (Mark Mullins)
+Date: Mon, 02 Aug 1999 18:03:42 -0400
+Subject: [BLDG-SIM] Fan-powered VAV systems in DOE-2
+Message-ID: <MDAEMON-F199908030958.AA581554MD63745@gard.com>
+
+To PowerDOE/DOE-2 users:
+Has anyone out there successfully modeled a DX fan-powered VAV system in doe-2.2 or doe-2.1e?  If so, what system did you use and how did you model the fan box part of it?  
+
+The system I have in mind must have the following functionality:
+-VAV
+-DX cooling
+-Evaporative condensing
+-Parallel fan-powered boxes that induce air from a plenum
+-Thermostatically contolled reheat in the VAV box
+
+This is one of the most common types of HVAC systems around, so I am wondering if someone out there has had any more luck than me in attempting to conquer the challanges of accurately modeling its controls & functionality.  
+
+Any thoughts?
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

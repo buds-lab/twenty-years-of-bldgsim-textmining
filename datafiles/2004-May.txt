@@ -1,0 +1,3328 @@
+From thong at archenergy.com  Fri May 28 11:12:32 2004
+From: thong at archenergy.com (Tianzhen Hong)
+Date: Fri, 28 May 2004 11:12:32 -0700
+Subject: [BLDG-SIM] Reminder - June 16-18 VisualDOE 4.0 Training for Building Energy Simulations and LEED Energy Savings Calculations
+Message-ID: <MDAEMON-F200405281314.AA1416406pd80000183346@gard.com>
+
+
+
+Architectural Energy Corporation has the upcoming VisualDOE training
+seminars on June 16-18 in San Francisco. 
+
+The seminar covers DOE-2, VisualDOE interface, VisualDOE 4.0 new
+features, energy simulation skills, as well as a full-day LEED energy
+savings calculations for green building projects.
+
+For questions, please contact us via email vdoetraining at archenergy.com
+or phone (415) 957-1977 ext 111.
+
+To register or get more information of the training, please go to
+http://www.archenergy.com/products/visualdoe/training/
+
+
+VisualDOE Training Team
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bills at fo.com  Fri May 28 10:28:46 2004
+From: bills at fo.com (Bill Shadish)
+Date: Fri, 28 May 2004 13:28:46 -0400
+Subject: [BLDG-SIM] Wireless Building experiences? Part 2
+Message-ID: <MDAEMON-F200405281229.AA2954359pd80000183221@gard.com>
+
+The responses to the previous below request 
+came largely from vendor or government
+agencies.
+
+
+I am also interested in discussing direct 
+customer experiences with wireless 
+implementations -- including:
+
+   .   Heating Controls
+   .   Computers, networks.
+   .   Printers
+   .   Alarms
+
+Let me know by email if you have 
+something that you would like to share...
+
+
+            * * * * * * * * 
+
+I am writing an article on wireless building audits 
+for a major energy publication. 
+
+I would like to include a few experiences from others 
+as sidebars in this article [rather than just using our 
+own customers' experiences]. 
+
+If you recently have implemented building-based 
+wireless tools, *especially* audits/inspections/punch lists, 
+and would like to share your experience for this 
+article -- would you please contact me off-list? 
+
+
+Thank you, 
+~Bill 
+
+-----------------------------------------------------
+ Bill Shadish
+ Principal
+ Fundamental Objects, Inc.
+ http://www.foaudits.com
+
+
+ Free PDA Newsletters
+ http://www.fo.com/newsletters
+-----------------------------------------------------
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From sangeetha_divakar at yahoo.com  Wed May 26 17:56:59 2004
+From: sangeetha_divakar at yahoo.com (Sangeetha Divakar)
+Date: Wed, 26 May 2004 17:56:59 -0700 (PDT)
+Subject: [BLDG-SIM] exporting screen images from equest
+In-Reply-To: <MDAEMON-F200405261721.AA2106296pd80000182062@gard.com>
+Message-ID: <MDAEMON-F200405261958.AA5805984pd80000179519@gard.com>
+
+Thanks to y'all. It works great.
+ 
+Michael, we don't have equest in our curriculum but I am using it for modeling a small part of my studio design project.
+Sangeetha
+
+Scott Criswell <Scott.Criswell at doe2.com> wrote:
+One minor addition to Brian's first "Ctrl-C" suggestion - this is specific to the 3-D display and does not work for the 2-D display.
+And one other 3-D display option - again click in the background of the 3-D display view (so that this view receives keyboard inputs) and press "j".  This automatically generates a JPEG image and posts it into the project directory by the name "<project name> - 3d-#.jpg", where # is a unique integer, counting up from 1 to preserve previsouly stored images.  Also regarding the JPEG export - whatever portion of the construction/glass legend that overlays the 3-D diagram will also get stored to the JPEG.
+
+I also second Mike's suggestion about changing the background color to white before storing and using these images.  The option to toggle the 3-D background color from balck to white is on the "3-D View Details" tab of the Project Data tabbed dialog.
+
+- Scott
+
+
+Brian Fountain wrote:
+  
+For the building shell tab, you can point to somewhere in the background of the building (not selecting a building element), the press Ctrl-C.  This captures a .bmp of the building shell screen which you can paste into Paint, Word, Excel etc.
+
+ 
+
+For the other screens (i.e. air-side, water-side etc.), pressing Alt-PrtSc give you a bitmap image of the current active window.  You can then paste this into Paint and trim away the component tree, toolbars etc. if you just want the systems view.
+
+ 
+
+The results summary reports can also be copied and pasted.  Right-clicking on a graph in the summary report gives the option to Copy the graph which can then be pasted as a bitmap.  Right-clicking on the summary report tables allows you to copy either the entire table or the selected cells and will paste them (parsed!) into Excel etc.
+
+ 
+
+Hope this helps.
+
+ 
+
+Brian Fountain
+
+bfountain at canada.com
+
+ 
+
+GreenSim
+
+(905)639-6014 - voice  |  (905)639-0443 - fax
+
+ 
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Sangeetha Divakar
+Sent: May 26, 2004 4:31 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] exporting screen images from equest
+
+ 
+
+Can someone tell me how I could save the screen images of an equest file as jpeg's or equivalent formats. 
+
+Sangeetha Divakar
+
+Graduate student, University of Oregon
+
+
+---------------------------------
+
+
+Do you Yahoo!?
+Friends. Fun. Try the all-new Yahoo! Messenger
+
+
+======================================================You received this e-mail because you are subscribed to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this mailing list send a blank message to BLDG-SIM-UNSUBSCRIBE at GARD.COM  
+
+======================================================You received this e-mail because you are subscribed to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this mailing list send a blank message to BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+		
+---------------------------------
+Do you Yahoo!?
+Friends.  Fun. Try the all-new Yahoo! Messenger
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040526/cc8e5aa8/attachment.htm>
+
+From Scott.Criswell at doe2.com  Wed May 26 15:19:40 2004
+From: Scott.Criswell at doe2.com (Scott Criswell)
+Date: Wed, 26 May 2004 15:19:40 -0700
+Subject: [BLDG-SIM] exporting screen images from equest
+In-Reply-To: <MDAEMON-F200405261620.AA2002359pd80000180026@gard.com>
+References: <MDAEMON-F200405261620.AA2002359pd80000180026@gard.com>
+Message-ID: <MDAEMON-F200405261721.AA210562pd80000179240@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040526/8fa3cd4f/attachment.htm>
+
+From miket at etcgrp.com  Wed May 26 14:29:19 2004
+From: miket at etcgrp.com (Mike Tillou)
+Date: Wed, 26 May 2004 15:29:19 -0600
+Subject: [BLDG-SIM] exporting screen images from equest
+Message-ID: <MDAEMON-F200405261627.AA2739890pd80000179095@gard.com>
+
+Sangeetha,
+ 
+Use the Print Screen feature on your keyboard and then paste the result
+into a picture editing program.  I use Photoshop.  If you change the
+background to white first the pictures come out a lot better.
+ 
+Mike Tillou, PE
+etc Group, Inc.
+ 
+ 
+ 
+ -----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Sangeetha
+Divakar
+Sent: Wednesday, May 26, 2004 4:31 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] exporting screen images from equest
+
+
+
+Can someone tell me how I could save the screen images of an equest file
+as jpeg's or equivalent formats. 
+Sangeetha Divakar
+Graduate student, University of Oregon
+
+
+
+  _____  
+
+Do you Yahoo!?
+Friends. Fun. Try the all-new Yahoo!  <http://messenger.yahoo.com/>
+Messenger
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040526/29c9c840/attachment.htm>
+
+From greensim at lara.on.ca  Wed May 26 14:18:53 2004
+From: greensim at lara.on.ca (Brian Fountain)
+Date: Wed, 26 May 2004 17:18:53 -0400
+Subject: [BLDG-SIM] exporting screen images from equest
+In-Reply-To: <MDAEMON-F200405261532.AA3212859pd80000179634@gard.com>
+Message-ID: <MDAEMON-F200405261620.AA2004875pd80000179070@gard.com>
+
+For the building shell tab, you can point to somewhere in the background of
+the building (not selecting a building element), the press Ctrl-C.  This
+captures a .bmp of the building shell screen which you can paste into Paint,
+Word, Excel etc.
+
+ 
+
+For the other screens (i.e. air-side, water-side etc.), pressing Alt-PrtSc
+give you a bitmap image of the current active window.  You can then paste
+this into Paint and trim away the component tree, toolbars etc. if you just
+want the systems view.
+
+ 
+
+The results summary reports can also be copied and pasted.  Right-clicking
+on a graph in the summary report gives the option to Copy the graph which
+can then be pasted as a bitmap.  Right-clicking on the summary report tables
+allows you to copy either the entire table or the selected cells and will
+paste them (parsed!) into Excel etc.
+
+ 
+
+Hope this helps.
+
+ 
+
+Brian Fountain
+
+bfountain at canada.com
+
+ 
+
+GreenSim
+
+(905)639-6014 - voice  |  (905)639-0443 - fax
+
+ 
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Sangeetha
+Divakar
+Sent: May 26, 2004 4:31 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] exporting screen images from equest
+
+ 
+
+Can someone tell me how I could save the screen images of an equest file as
+jpeg's or equivalent formats. 
+Sangeetha Divakar
+Graduate student, University of Oregon
+
+  _____  
+
+Do you Yahoo!?
+Friends. Fun. Try the all-new Yahoo! <http://messenger.yahoo.com/>
+Messenger
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040526/b80a42b5/attachment.htm>
+
+From sangeetha_divakar at yahoo.com  Wed May 26 13:31:01 2004
+From: sangeetha_divakar at yahoo.com (Sangeetha Divakar)
+Date: Wed, 26 May 2004 13:31:01 -0700 (PDT)
+Subject: [BLDG-SIM] exporting screen images from equest
+In-Reply-To: <MDAEMON-F200405191405.AA0520937pd80000171508@gard.com>
+Message-ID: <MDAEMON-F200405261532.AA321462pd80000178980@gard.com>
+
+
+Can someone tell me how I could save the screen images of an equest file as jpeg's or equivalent formats. 
+
+Sangeetha Divakar
+
+Graduate student, University of Oregon
+
+
+		
+---------------------------------
+Do you Yahoo!?
+Friends.  Fun. Try the all-new Yahoo! Messenger
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040526/ec866c99/attachment.htm>
+
+From alshaali at ucla.edu  Wed May 26 12:31:21 2004
+From: alshaali at ucla.edu (Rashed K. Alshaali)
+Date: Wed, 26 May 2004 12:31:21 -0700
+Subject: [BLDG-SIM] weather data for UAE
+In-Reply-To: <MDAEMON-F200405261008.AA0818546pd80000176545@gard.com>
+References: <MDAEMON-F200405261008.AA0818546pd80000176545@gard.com>
+Message-ID: <MDAEMON-F200405261446.AA4619750pd80000178888@gard.com>
+
+Hi Raquel,
+
+There is no TMY, TMY2, TRY, DAT data for Dubai that i know of,
+
+however, there is EPW data for Abu Dhabi (United Arab Emirates...about 100 Km west of dubai) 
+that Ecotect can read in.
+
+http://www.eere.energy.gov/buildings/energyplus/cfm/weatherdata_int.cfm
+
+Rashed K. Alshaali
+
+
+Raquel Viula wrote:
+
+>Hi
+>I'm looking for hourly weather data for the United Arab Emirates (Dubai,
+>preferably). Does anyone know where can I get a file to be imported by
+>Ecotect - TMY, TMY2, TRY, DAT?
+>Thank you.
+>Raquel Viula
+>
+>======================================================
+>You received this e-mail because you are subscribed 
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>  
+>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From stvgates at pacbell.net  Wed May 26 11:42:16 2004
+From: stvgates at pacbell.net (stvgates at pacbell.net)
+Date: Wed, 26 May 2004 11:42:16 -0700
+Subject: [BLDG-SIM] Natural Ventilation / Fire Separation
+References: <MDAEMON-F200405261204.AA0405734pd80000177762@gard.com>
+Message-ID: <MDAEMON-F200405261349.AA4953906pd80000178773@gard.com>
+
+Does the air need to flow through the corridor, or simply across the
+corridor from one set of classrooms to classrooms on the other side?  If
+across, then the corridor fire enclosure can be the walls on each side and
+the corridor ceiling (in other words, the corridor walls do not go floor to
+roof; only floor to corridor ceiling).  Air can then flow over the top of
+the enclosed corridor from one side of the building to the other.
+
+If the air must flow through the corridor instead of over it, the problem is
+much more difficult; if not impossible.  This technically makes the corridor
+a duct, and may be subject to duct construction standards.  Also, the intent
+of the code is that occupants and the fire department have an escape route
+free of fire for one hour; additional restrictions may require that this
+escape route be free of smoke for one hour as well.  You don't want to
+violate the intent of the code, as public safety takes precedence over
+potential energy savings.  (You also don't want to be sued in the event
+someone dies in a fire!)  My understanding of the local requirements in my
+area is that a fire-rated corridor CANNOT be used as part of an air supply
+or air return.
+
+Code requirements can vary from one jurisdiction to the next, and
+interpretations of the same code also vary.  You should definitely meet with
+the local plan checkers, and/or the local Fire Marshall to determine the
+applicable criteria for your building; the earlier in your design the
+better.
+
+----- Original Message ----- 
+From: "Olsen, Erik" <eolsen at owpp.com>
+To: <BLDG-SIM at GARD.COM>
+Sent: Wednesday, May 26, 2004 10:03 AM
+Subject: [BLDG-SIM] Natural Ventilation / Fire Separation
+
+
+> > I'm looking for natural ventilation projects that have succesfully dealt
+> > with restrictive fire separation requirements.  Schools are of special
+> > interest, but any references would be helpful.
+> >
+> > The specific issue we are dealing with is a requirement in Chicago for
+> > 1-hour separation between classrooms and corridors; in the IBC there is
+no
+> > rating required in a sprinkled building.  This makes strategies using
+> > airflow through the corridor less feasible.  We are looking to show the
+> > city that others have succesfully and safely used this sort of strategy.
+> >
+> > Thanks and regards,
+> > Erik
+> >
+> > Erik Olsen
+> > OWP/P Engineers
+> > HVAC / Energy Consulting
+> > 111 West Washington Street, Suite 2100
+> > Chicago, Illinois 60602-2714
+> > 312.960.8313 Direct
+> > 312.827.8313 Fax
+> > eolsen at owpp.com
+> >
+> >
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From eolsen at owpp.com  Wed May 26 10:03:34 2004
+From: eolsen at owpp.com (Olsen, Erik)
+Date: Wed, 26 May 2004 12:03:34 -0500
+Subject: [BLDG-SIM] Natural Ventilation / Fire Separation
+Message-ID: <MDAEMON-F200405261204.AA0404406pd80000178529@gard.com>
+
+> I'm looking for natural ventilation projects that have succesfully dealt
+> with restrictive fire separation requirements.  Schools are of special
+> interest, but any references would be helpful.
+> 
+> The specific issue we are dealing with is a requirement in Chicago for
+> 1-hour separation between classrooms and corridors; in the IBC there is no
+> rating required in a sprinkled building.  This makes strategies using
+> airflow through the corridor less feasible.  We are looking to show the
+> city that others have succesfully and safely used this sort of strategy.
+> 
+> Thanks and regards,
+> Erik
+> 
+> Erik Olsen
+> OWP/P Engineers
+> HVAC / Energy Consulting
+> 111 West Washington Street, Suite 2100
+> Chicago, Illinois 60602-2714
+> 312.960.8313 Direct
+> 312.827.8313 Fax
+> eolsen at owpp.com
+> 
+> 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From rviula at FosterandPartners.com  Wed May 26 08:03:38 2004
+From: rviula at FosterandPartners.com (Raquel Viula)
+Date: Wed, 26 May 2004 16:03:38 +0100
+Subject: [BLDG-SIM] weather data for UAE
+Message-ID: <MDAEMON-F200405261008.AA0819890pd80000178319@gard.com>
+
+Hi
+I'm looking for hourly weather data for the United Arab Emirates (Dubai,
+preferably). Does anyone know where can I get a file to be imported by
+Ecotect - TMY, TMY2, TRY, DAT?
+Thank you.
+Raquel Viula
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jmaxwell at aspensys.com  Fri May 21 05:37:53 2004
+From: jmaxwell at aspensys.com (Jon Maxwell)
+Date: Fri, 21 May 2004 07:37:53 -0500
+Subject: [BLDG-SIM] Energy losses through outside doors
+References: <MDAEMON-F200405190409.AA0910234pd80000166663@gard.com> <MDAEMON-F200405201444.AA4433265pd80000174171@gard.com> <MDAEMON-F200405201532.AA3217953pd80000174779@gard.com>
+Message-ID: <MDAEMON-F200405210743.AA4309718pd80000167603@gard.com>
+
+If you want to dust off your microfiche reader, two older articles, neither
+of which is cited in the ASHRAE Fundamentals chapter, are:
+
+"Air Infiltration Through Revolving Doors," Schutrrum, L. F., N. Ozisik, J.
+T. Baker, C. M. Humphreys, No. 1760, ASHRAE Transactions Vol 67, 1961.
+
+"Winter Infiltration Through Swinging-Door Entrances in Multi-Story
+Buildings," T. C. Min, No. 1643, ASHAE Transactions, 1958.   (The professor
+worked at Alabama Polytechnic Institute, since renamed).
+
+The papers provide relationships to estimate losses as a function of number
+of people per hour passing through the doors and as a function of building
+height, among other things.
+
+Jon Maxwell, PE
+Aspen Systems
+710 Park Place
+College Station, TX 77840
+(979) 764-6779
+
+
+----- Original Message ----- 
+From: William Bahnfleth
+To: BLDG-SIM at gard.com
+Sent: Thursday, May 20, 2004 3:30 PM
+Subject: [BLDG-SIM] Energy losses through outside doors
+
+
+...or see the ASHRAE Handbook of Fundamentals (2001), pages 26.24-26, which
+summarizes the results of the same ASHRAE research project.
+
+One of the difficulties of dealing with doors is the large difference in
+leakage area between when they are open and closed and determining how much
+of the time they are opened.
+
+My first guess would be that a revolving door is easier to estimate because
+there is always a seal and a relatively small amount of outside air would be
+transferred by leakage or in bulk due to the rotation of the door.
+
+Bill Bahnfleth
+
+At 03:43 PM 5/20/2004, David Yuill wrote:
+
+Ahmad,
+
+A significant portion of energy loss through a door is air leakage.  I am
+aware of a study that examined this issue for automatic doors:   "Air
+Leakage Through Automatic Doors," G. K. Yuill, Rebecca Upham, and Chen Hui,
+ASHRAE Transactions, V106, Pt 2, 2000.  This might be a starting point.
+
+Regards,
+
+David Yuill
+
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Ahmed Fraij
+Sent: Wednesday, May 19, 2004 3:08 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Energy losses through outside doors
+
+Dear All,
+
+     I have a case in which an owner of a building needs to know which type
+of outside doors will be more energy efficient (i.e. which type is more
+effective to reduce the load of the Air Conditioning system).
+
+    He asked me about three door types: Automatic sliding doors, rotating
+doors and hinged doors.
+
+   So, can anyone provide me with a method to calculate the energy losses
+through each type? or is there any study that has been made for such case?
+
+Your help will be highly appreciated
+
+Thanks & Best Regards
+
+Ahmad Fraij
+
+
+
+
+
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+_________________________________________________
+
+
+William P. Bahnfleth, Ph.D., P.E.
+Associate Professor
+Director, Indoor Environment Center
+
+Department of Architectural Engineering
+The Pennsylvania State University
+104 Engineering Unit A
+University Park, PA 16802 USA
+
+
+voice: 814.863.2076 / fax: 814.863.4789
+e-mail:  wbahnfleth at psu.edu
+www.arche.psu.edu/faculty/WBahnfleth/
+_________________________________________________
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From wbahnfleth at psu.edu  Thu May 20 13:30:28 2004
+From: wbahnfleth at psu.edu (William Bahnfleth)
+Date: Thu, 20 May 2004 16:30:28 -0400
+Subject: [BLDG-SIM] Energy losses through outside doors
+In-Reply-To: <MDAEMON-F200405201444.AA4433265pd80000174171@gard.com>
+References: <MDAEMON-F200405190409.AA0910234pd80000166663@gard.com>
+ <MDAEMON-F200405201444.AA4433265pd80000174171@gard.com>
+Message-ID: <MDAEMON-F200405201532.AA3217828pd80000166222@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040520/820f8f04/attachment.htm>
+
+From dyuill at cox.net  Thu May 20 12:43:07 2004
+From: dyuill at cox.net (David Yuill)
+Date: Thu, 20 May 2004 14:43:07 -0500
+Subject: [BLDG-SIM] Energy losses through outside doors
+In-Reply-To: <MDAEMON-F200405190409.AA0910234pd80000166663@gard.com>
+Message-ID: <MDAEMON-F200405201444.AA443115pd80000166101@gard.com>
+
+Ahmad,
+ 
+A significant portion of energy loss through a door is air leakage.  I
+am aware of a study that examined this issue for automatic doors:   "Air
+Leakage Through Automatic Doors," G. K. Yuill, Rebecca Upham, and Chen
+Hui, ASHRAE Transactions, V106, Pt 2, 2000.  This might be a starting
+point.
+ 
+Regards,
+ 
+David Yuill
+ 
+ 
+ 
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Ahmed
+Fraij
+Sent: Wednesday, May 19, 2004 3:08 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Energy losses through outside doors
+ 
+Dear All,
+ 
+     I have a case in which an owner of a building needs to know which
+type of outside doors will be more energy efficient (i.e. which type is
+more effective to reduce the load of the Air Conditioning system).
+ 
+    He asked me about three door types: Automatic sliding doors,
+rotating doors and hinged doors. 
+ 
+   So, can anyone provide me with a method to calculate the energy
+losses through each type? or is there any study that has been made for
+such case?
+ 
+Your help will be highly appreciated
+ 
+Thanks & Best Regards
+ 
+Ahmad Fraij
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040520/a1d52a33/attachment.htm>
+
+From kemerson2002 at yahoo.com  Wed May 19 13:25:05 2004
+From: kemerson2002 at yahoo.com (K Emerson)
+Date: Wed, 19 May 2004 13:25:05 -0700 (PDT)
+Subject: [BLDG-SIM] Infiltration: Standard versus Proposed Design
+In-Reply-To: <MDAEMON-F200405191120.AA2026531pd80000169908@gard.com>
+Message-ID: <MDAEMON-F200405191528.AA2844812pd80000164039@gard.com>
+
+I would agree that infiltration is a guess at best and
+go further in saying that it would be relatively easy
+to stick a number in a base model that would represent
+excessive infiltration in order to get unjustified
+credit.  
+
+Typical engineering practice these days is to maintain
+a slight positive pressure during normal building
+operation.  This aids in comfort by eliminating cold
+drafts in winter climates and assisting in control of
+moisture in wet ones.  Infiltration at worst should
+thus only occur during unoccupied periods.  That said,
+high-rise buildings often have enough stack effect
+that this moderate positive pressure is overwhelmed on
+the first floor with people opening doors, etc.  
+
+It should be assumed that in new buildings, especially
+those being considered for LEED credit, people will be
+paying attention to the tightness of the shell during
+construction.  
+
+Keith Emerson
+
+
+--- Brian Thornton <bthornton at glumac.com> wrote:
+> Is it the sense of the group that infiltration can
+> be predicted well enough
+> in commercial buildings to take credit for energy
+> savings in this area?  I
+> considered this issue a few years ago, and the
+> literature seemed to indicate
+> that prediction was very poor, and that field work
+> indicated that
+> infiltration would vary substantially, in the same
+> building under similar
+> outside temperatures due to small differences such
+> as a few windows or doors
+> opended differently, and that it was in most cases
+> unclear what the
+> differences were due to.
+>  
+> Brian Thornton
+> Glumac, bthornton at glumac.com
+> 
+> -----Original Message-----
+> From: Marcus Sheffer [mailto:sheffer at paonline.com]
+> Sent: Wednesday, May 19, 2004 9:00 AM
+> To: BLDG-SIM at gard.com
+> Subject: [BLDG-SIM] Infiltration: Standard versus
+> Proposed Design
+> 
+> 
+> Right now infiltration reduction is not an eligible
+> item for energy cost
+> reduction for LEED.  Infiltration rates must be the
+> same in the proposed and
+> budget buildings.
+> 
+> My understanding is that the Energy & Atmosphere
+> Technical Advisory Group
+> (EA TAG) of the USGBC is considering this issue with
+> an eye toward
+> developing a modeling protocol.
+> 
+> I am aware of at least two projects that have
+> applied for savings in this
+> area which have been put on hold (the LEED points
+> were denied pending
+> further input from the EA TAG).  
+> 
+> 
+> As At 10:33 AM 05/19/2004, you wrote:
+> 
+> 
+> Can infiltration be considered in comparing standard
+> versus proposed design
+> models using the ECB method and for LEED credits
+> under "Optimize Energy
+> Performance"?  Typically we use the same criteria in
+> both models, but this
+> is a particular case of a proposed double-wall
+> building.  "10CFR435 Table
+> 402.2.1. - Air Leakage for Fenestration & Doors
+> Maximum Allowable
+> Infiltration Rate" provides standard model
+> information for federal
+> buildings.  For example, the infiltration rate is
+> 0.15 cfm/ft2 for fixed
+> aluminum windows.  Can this be used for LEED
+> standard design and can a lower
+> rate be used for double wall buildings?
+>  
+> The CFR table does not account for Heating & Cooling
+> Degree Days as with
+> Table-B Building Envelope Requirements of STD90.  In
+> my opinion, the peak
+> design infiltration rate should be varied from
+> maximum in winter to minimum
+> in summer (typically zero for pressurized buildings)
+> using a schedule.  The
+> maximum, of say 0.15 cfm/ft2, would apply to a cold
+> climate such as Chicago
+> and it should be scaled down for warmer climates. 
+> Since DOE2 does not allow
+> infiltration rates on the basis of cfm/ft2 of wall
+> or window area or cfm per
+> lineal foot of window perimeter, we create a typical
+> perimeter space and
+> convert the window based infiltration rate to
+> cfm/ft2 of space area or space
+> air changes. We then look at the results in "REPORT-
+> LS-C BUILDING PEAK LOAD
+> COMPONENTS" of the DOE2 output to see if the
+> infiltration load looks
+> reasonable (relative to the other loads) for the
+> location and type of
+> building and make adjustments by trial and error. 
+> Judgment and experience
+> is considered more reliable than theoretical
+> mathematical models.  The BEPS
+> and BEPU reports in DOE2 should separate out the
+> infiltration loads from the
+> heating & cooling loads.  Any comments?
+>  
+> Thanks for the comments and suggestions to using
+> different utilities in
+> standard versus proposed design.  They were very
+> helpful in making some
+> decisions here.  Most of the responses seem to go
+> directly to the person
+> asking the question.
+>  
+> Varkie Thomas
+> Skidmore, Owings & Merrill LLP
+>  
+>  
+>  
+> 
+> 
+> 
+> 
+> 
+> 
+> You received this e-mail because you are subscribed 
+> 
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> 
+> from this mailing list send a blank message to 
+> 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+> Marcus B. Sheffer                          energy &
+> environmental consulting
+> Energy Opportunities, Inc              717-292-2636
+> 1200 E Camping Area Road            Fax:
+> 717-292-0585     
+> Wellsville, PA USA 17365-9783       
+> sheffer at sevengroup.com
+> a 7group company                        
+> <http://www.sevengroup.com/>
+> www.sevengroup.com
+> 
+> 
+> 
+> 
+>
+=====================================================You
+> received this
+> e-mail because you are subscribed 
+> 
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> 
+> from this mailing list send a blank message to 
+> 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+> 
+>
+======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+	
+		
+__________________________________
+Do you Yahoo!?
+SBC Yahoo! - Internet access at a great low price.
+http://promo.yahoo.com/sbc/
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From miket at etcgrp.com  Wed May 19 12:07:01 2004
+From: miket at etcgrp.com (Mike Tillou)
+Date: Wed, 19 May 2004 13:07:01 -0600
+Subject: [BLDG-SIM] LEED points
+Message-ID: <MDAEMON-F200405191405.AA0519312pd80000163822@gard.com>
+
+Varkie,
+ 
+If you review Addendum E of ASHRAE 90.1-2001 (available as free download
+from ASHRAE website) it addresses these issues you are asking.  While
+LEED has not officially adopted this addendum as a simulation
+methodology it is my understanding that that is why it was developed.
+If you follow the approach outlined in this document I don't think USGBC
+will take issue with your simulation.  Please don't quote me on that, I
+am certainly not trying to speak for USGBC.  
+ 
+I have used the methodology several times and it provides clear guidance
+on how to create the baseline model and the proposed building model.
+Most importantly you can easily document your modeling assumptions so
+that when questioned you can reference the methodology.
+ 
+Good Luck,
+ 
+Mike 
+ 
+ 
+Michael Tillou, PE 
+LEED AP
+etc Group, Inc.
+PO Box 749, North Adams, MA 01247
+ph. (413) 458-9870  fx. (801) 278-1927
+www.etcgrp.com
+  
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Varkie
+Thomas
+Sent: Wednesday, May 19, 2004 1:04 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] LEED points
+
+
+
+The EA-TAG should also consider that the infiltration due to stack
+effect in a high-rise building is affected by having entrances with a
+vestibule and revolving doors.  
+
+ 
+
+Can occupancy based lighting and occupancy based ventilation be
+considered for LEED credits under "Optimize Energy Performance"?   How
+should these options be modeled?  In DOE2 the design ventilation value
+can be varied by using the occupancy schedule for the minimum OA
+schedule.  Occupancy based lighting would have to be "on-off" depending
+on occupancy = 0 or occupancy > 0.   This can vary with the space type
+and it is difficult to determine for buildings zoned as perimeter and
+interior only.  Can we assume say an average 5% off the lighting
+schedule for installing occupancy based lighting controls?  How would
+you model daylighting controls for LEED credits?  In DOE2 you can locate
+the light sensor close to the window and assume it represents a
+perimeter space with any depth.  Are there limits on lighting sensor
+location and perimeter space depths, areas and volumes?  The ASHRAE
+STD90 prescriptive standards are stringent in all categories of
+envelope, lighting and mechanical systems.  From the responses I have
+received so far, significant energy cost savings (such as 60%) can be
+achieved with daylighting controls (not accepted by most energy codes),
+renewable energy sources such as PV and GSHP, and thermal storage in
+situations where there is a big difference between peak and off-peak
+electric rates.  
+
+ 
+
+I think that different types of standard building models should be
+defined with case studies.  It is difficult to figure out the intent of
+STD90 and to convert STD90 legal descriptive language into a base
+prototype building model.  10CFR435 is more precise.  I think that the
+"Energy & Atmosphere" section of LEED should be explained in more detail
+and with examples.
+
+ 
+
+Varkie Thomas
+
+Skidmore, Owings & Merrill LLP
+
+ 
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040519/522a3ce8/attachment.htm>
+
+From sheffer at paonline.com  Wed May 19 12:05:25 2004
+From: sheffer at paonline.com (Marcus Sheffer)
+Date: Wed, 19 May 2004 15:05:25 -0400
+Subject: [BLDG-SIM] LEED points
+In-Reply-To: <MDAEMON-F200405191209.AA0925156pd80000170797@gard.com>
+References: <MDAEMON-F200405191209.AA0925156pd80000170797@gard.com>
+Message-ID: <MDAEMON-F200405191406.AA0645968pd80000163827@gard.com>
+
+Occupancy based controls require the modification of schedules and/or 
+ventilation rates which is not allowed by the modeling protocols.
+
+For LEED one can claim credit for these items by following Section 11.5 
+Exceptional Calculation Methods in 90.1.  You have to do separate 
+calculations and submit them for consideration by the review 
+team.  Separate modeling runs can be an acceptable methodology as long as 
+you explain the modeling procedure followed.  These are then subtracted 
+from the original energy modeling like Renewable Energy.
+
+Regarding daylighting modeling the review of LEED projects does not get to 
+this level of depth.  We will not ask you the location of the sensor in the 
+room.  We do use our experience to try and determine if the energy 
+efficiency measures you have employed produce a reasonable savings.
+
+For USGBC members you can join in some of the discussions of the EA TAG by 
+signing up for the EA listserv.  Log in, visit your account and sign up for 
+various committees.  Also check out the Credit Interpretation Requests 
+(CIRs) where you can find many answers like the one regarding occupancy 
+based controls I responded to above.
+
+The EA TAG was also seeking new members very recently but I think the 
+nominations/applications are closed.  The best way to have an effect on 
+LEED is to get involved.
+
+At 01:04 PM 05/19/2004, Varkie Thomas wrote:
+>The EA-TAG should also consider that the infiltration due to stack effect 
+>in a high-rise building is affected by having entrances with a vestibule 
+>and revolving doors.
+>
+>Can occupancy based lighting and occupancy based ventilation be considered 
+>for LEED credits under ?Optimize Energy Performance??   How should these 
+>options be modeled?  In DOE2 the design ventilation value can be varied by 
+>using the occupancy schedule for the minimum OA schedule.  Occupancy based 
+>lighting would have to be ?on-off? depending on occupancy = 0 or 
+>occupancy > 0.   This can vary with the space type and it is difficult to 
+>determine for buildings zoned as perimeter and interior only.  Can we 
+>assume say an average 5% off the lighting schedule for installing 
+>occupancy based lighting controls?  How would you model daylighting 
+>controls for LEED credits?  In DOE2 you can locate the light sensor close 
+>to the window and assume it represents a perimeter space with any 
+>depth.  Are there limits on lighting sensor location and perimeter space 
+>depths, areas and volumes?  The ASHRAE STD90 prescriptive standards are 
+>stringent in all categories of envelope, lighting and mechanical 
+>systems.  From the responses I have received so far, significant energy 
+>cost savings (such as 60%) can be achieved with daylighting controls (not 
+>accepted by most energy codes), renewable energy sources such as PV and 
+>GSHP, and thermal storage in situations where there is a big difference 
+>between peak and off-peak electric rates.
+>
+>I think that different types of standard building models should be defined 
+>with case studies.  It is difficult to figure out the intent of STD90 and 
+>to convert STD90 legal descriptive language into a base prototype building 
+>model.  10CFR435 is more precise.  I think that the ?Energy & Atmosphere? 
+>section of LEED should be explained in more detail and with examples.
+>
+>Varkie Thomas
+>Skidmore, Owings & Merrill LLP
+>
+>-----Original Message-----
+>From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Marcus Sheffer
+>Sent: Wednesday, May 19, 2004 11:00 AM
+>To: BLDG-SIM at gard.com
+>Subject: [BLDG-SIM] Infiltration: Standard versus Proposed Design
+>
+>Right now infiltration reduction is not an eligible item for energy cost 
+>reduction for LEED.  Infiltration rates must be the same in the proposed 
+>and budget buildings.
+>
+>My understanding is that the Energy & Atmosphere Technical Advisory Group 
+>(EA TAG) of the USGBC is considering this issue with an eye toward 
+>developing a modeling protocol.
+>
+>I am aware of at least two projects that have applied for savings in this 
+>area which have been put on hold (the LEED points were denied pending 
+>further input from the EA TAG).
+>
+>
+>As At 10:33 AM 05/19/2004, you wrote:
+>
+>Can infiltration be considered in comparing standard versus proposed 
+>design models using the ECB method and for LEED credits under ?Optimize 
+>Energy Performance??  Typically we use the same criteria in both models, 
+>but this is a particular case of a proposed double-wall 
+>building.  ?10CFR435 Table 402.2.1. ? Air Leakage for Fenestration & Doors 
+>Maximum Allowable Infiltration Rate? provides standard model information 
+>for federal buildings.  For example, the infiltration rate is 0.15 cfm/ft2 
+>for fixed aluminum windows.  Can this be used for LEED standard design and 
+>can a lower rate be used for double wall buildings?
+>
+>The CFR table does not account for Heating & Cooling Degree Days as with 
+>Table-B Building Envelope Requirements of STD90.  In my opinion, the peak 
+>design infiltration rate should be varied from maximum in winter to 
+>minimum in summer (typically zero for pressurized buildings) using a 
+>schedule.  The maximum, of say 0.15 cfm/ft2, would apply to a cold climate 
+>such as Chicago and it should be scaled down for warmer climates.  Since 
+>DOE2 does not allow infiltration rates on the basis of cfm/ft2 of wall or 
+>window area or cfm per lineal foot of window perimeter, we create a 
+>typical perimeter space and convert the window based infiltration rate to 
+>cfm/ft2 of space area or space air changes. We then look at the results in 
+>?REPORT- LS-C BUILDING PEAK LOAD COMPONENTS? of the DOE2 output to see if 
+>the infiltration load looks reasonable (relative to the other loads) for 
+>the location and type of building and make adjustments by trial and 
+>error.  Judgment and experience is considered more reliable than 
+>theoretical mathematical models.  The BEPS and BEPU reports in DOE2 should 
+>separate out the infiltration loads from the heating & cooling loads.  Any 
+>comments?
+>
+>Thanks for the comments and suggestions to using different utilities in 
+>standard versus proposed design.  They were very helpful in making some 
+>decisions here.  Most of the responses seem to go directly to the person 
+>asking the question.
+>
+>Varkie Thomas
+>Skidmore, Owings & Merrill LLP
+>
+>
+>
+>
+>
+>
+>
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>Marcus B. Sheffer                          energy & environmental consulting
+>Energy Opportunities, Inc              717-292-2636
+>1200 E Camping Area Road            Fax: 717-292-0585
+>Wellsville, PA USA 17365-9783        sheffer at sevengroup.com
+>a 7group company                        www.sevengroup.com
+>
+>
+>
+>==================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+>
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+Marcus B. Sheffer                          energy & environmental consulting
+Energy Opportunities, Inc              717-292-2636
+1200 E Camping Area Road            Fax: 717-292-0585
+Wellsville, PA USA 17365-9783        sheffer at sevengroup.com
+a 7group company                        www.sevengroup.com
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040519/d817592d/attachment.htm>
+
+From Varkie.Thomas at som.com  Wed May 19 10:04:22 2004
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Wed, 19 May 2004 13:04:22 -0400
+Subject: [BLDG-SIM] LEED points
+Message-ID: <MDAEMON-F200405191208.AA0840906pd80000163557@gard.com>
+
+The EA-TAG should also consider that the infiltration due to stack
+effect in a high-rise building is affected by having entrances with a
+vestibule and revolving doors.  
+
+ 
+
+Can occupancy based lighting and occupancy based ventilation be
+considered for LEED credits under "Optimize Energy Performance"?   How
+should these options be modeled?  In DOE2 the design ventilation value
+can be varied by using the occupancy schedule for the minimum OA
+schedule.  Occupancy based lighting would have to be "on-off" depending
+on occupancy = 0 or occupancy > 0.   This can vary with the space type
+and it is difficult to determine for buildings zoned as perimeter and
+interior only.  Can we assume say an average 5% off the lighting
+schedule for installing occupancy based lighting controls?  How would
+you model daylighting controls for LEED credits?  In DOE2 you can locate
+the light sensor close to the window and assume it represents a
+perimeter space with any depth.  Are there limits on lighting sensor
+location and perimeter space depths, areas and volumes?  The ASHRAE
+STD90 prescriptive standards are stringent in all categories of
+envelope, lighting and mechanical systems.  From the responses I have
+received so far, significant energy cost savings (such as 60%) can be
+achieved with daylighting controls (not accepted by most energy codes),
+renewable energy sources such as PV and GSHP, and thermal storage in
+situations where there is a big difference between peak and off-peak
+electric rates.  
+
+ 
+
+I think that different types of standard building models should be
+defined with case studies.  It is difficult to figure out the intent of
+STD90 and to convert STD90 legal descriptive language into a base
+prototype building model.  10CFR435 is more precise.  I think that the
+"Energy & Atmosphere" section of LEED should be explained in more detail
+and with examples.
+
+ 
+
+Varkie Thomas
+
+Skidmore, Owings & Merrill LLP
+
+ 
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Marcus
+Sheffer
+Sent: Wednesday, May 19, 2004 11:00 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Infiltration: Standard versus Proposed Design
+
+ 
+
+Right now infiltration reduction is not an eligible item for energy cost
+reduction for LEED.  Infiltration rates must be the same in the proposed
+and budget buildings.
+
+My understanding is that the Energy & Atmosphere Technical Advisory
+Group (EA TAG) of the USGBC is considering this issue with an eye toward
+developing a modeling protocol.
+
+I am aware of at least two projects that have applied for savings in
+this area which have been put on hold (the LEED points were denied
+pending further input from the EA TAG).  
+
+
+As At 10:33 AM 05/19/2004, you wrote:
+
+
+
+Can infiltration be considered in comparing standard versus proposed
+design models using the ECB method and for LEED credits under "Optimize
+Energy Performance"?  Typically we use the same criteria in both models,
+but this is a particular case of a proposed double-wall building.
+"10CFR435 Table 402.2.1. - Air Leakage for Fenestration & Doors Maximum
+Allowable Infiltration Rate" provides standard model information for
+federal buildings.  For example, the infiltration rate is 0.15 cfm/ft2
+for fixed aluminum windows.  Can this be used for LEED standard design
+and can a lower rate be used for double wall buildings?
+ 
+The CFR table does not account for Heating & Cooling Degree Days as with
+Table-B Building Envelope Requirements of STD90.  In my opinion, the
+peak design infiltration rate should be varied from maximum in winter to
+minimum in summer (typically zero for pressurized buildings) using a
+schedule.  The maximum, of say 0.15 cfm/ft2, would apply to a cold
+climate such as Chicago and it should be scaled down for warmer
+climates.  Since DOE2 does not allow infiltration rates on the basis of
+cfm/ft2 of wall or window area or cfm per lineal foot of window
+perimeter, we create a typical perimeter space and convert the window
+based infiltration rate to cfm/ft2 of space area or space air changes.
+We then look at the results in "REPORT- LS-C BUILDING PEAK LOAD
+COMPONENTS" of the DOE2 output to see if the infiltration load looks
+reasonable (relative to the other loads) for the location and type of
+building and make adjustments by trial and error.  Judgment and
+experience is considered more reliable than theoretical mathematical
+models.  The BEPS and BEPU reports in DOE2 should separate out the
+infiltration loads from the heating & cooling loads.  Any comments?
+ 
+Thanks for the comments and suggestions to using different utilities in
+standard versus proposed design.  They were very helpful in making some
+decisions here.  Most of the responses seem to go directly to the person
+asking the question.
+ 
+Varkie Thomas
+Skidmore, Owings & Merrill LLP
+ 
+ 
+ 
+
+ 
+ 
+ 
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+Marcus B. Sheffer                          energy & environmental
+consulting
+Energy Opportunities, Inc              717-292-2636
+1200 E Camping Area Road            Fax: 717-292-0585     
+Wellsville, PA USA 17365-9783        sheffer at sevengroup.com
+a 7group company                        www.sevengroup.com
+<http://www.sevengroup.com/> 
+
+ 
+ 
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040519/799e45d3/attachment.htm>
+
+From bthornton at glumac.com  Wed May 19 09:18:18 2004
+From: bthornton at glumac.com (Brian Thornton)
+Date: Wed, 19 May 2004 09:18:18 -0700
+Subject: [BLDG-SIM] Infiltration: Standard versus Proposed Design
+Message-ID: <MDAEMON-F200405191120.AA2026156pd80000163437@gard.com>
+
+Is it the sense of the group that infiltration can be predicted well enough
+in commercial buildings to take credit for energy savings in this area?  I
+considered this issue a few years ago, and the literature seemed to indicate
+that prediction was very poor, and that field work indicated that
+infiltration would vary substantially, in the same building under similar
+outside temperatures due to small differences such as a few windows or doors
+opended differently, and that it was in most cases unclear what the
+differences were due to.
+ 
+Brian Thornton
+Glumac, bthornton at glumac.com
+
+-----Original Message-----
+From: Marcus Sheffer [mailto:sheffer at paonline.com]
+Sent: Wednesday, May 19, 2004 9:00 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Infiltration: Standard versus Proposed Design
+
+
+Right now infiltration reduction is not an eligible item for energy cost
+reduction for LEED.  Infiltration rates must be the same in the proposed and
+budget buildings.
+
+My understanding is that the Energy & Atmosphere Technical Advisory Group
+(EA TAG) of the USGBC is considering this issue with an eye toward
+developing a modeling protocol.
+
+I am aware of at least two projects that have applied for savings in this
+area which have been put on hold (the LEED points were denied pending
+further input from the EA TAG).  
+
+
+As At 10:33 AM 05/19/2004, you wrote:
+
+
+Can infiltration be considered in comparing standard versus proposed design
+models using the ECB method and for LEED credits under "Optimize Energy
+Performance"?  Typically we use the same criteria in both models, but this
+is a particular case of a proposed double-wall building.  "10CFR435 Table
+402.2.1. - Air Leakage for Fenestration & Doors Maximum Allowable
+Infiltration Rate" provides standard model information for federal
+buildings.  For example, the infiltration rate is 0.15 cfm/ft2 for fixed
+aluminum windows.  Can this be used for LEED standard design and can a lower
+rate be used for double wall buildings?
+ 
+The CFR table does not account for Heating & Cooling Degree Days as with
+Table-B Building Envelope Requirements of STD90.  In my opinion, the peak
+design infiltration rate should be varied from maximum in winter to minimum
+in summer (typically zero for pressurized buildings) using a schedule.  The
+maximum, of say 0.15 cfm/ft2, would apply to a cold climate such as Chicago
+and it should be scaled down for warmer climates.  Since DOE2 does not allow
+infiltration rates on the basis of cfm/ft2 of wall or window area or cfm per
+lineal foot of window perimeter, we create a typical perimeter space and
+convert the window based infiltration rate to cfm/ft2 of space area or space
+air changes. We then look at the results in "REPORT- LS-C BUILDING PEAK LOAD
+COMPONENTS" of the DOE2 output to see if the infiltration load looks
+reasonable (relative to the other loads) for the location and type of
+building and make adjustments by trial and error.  Judgment and experience
+is considered more reliable than theoretical mathematical models.  The BEPS
+and BEPU reports in DOE2 should separate out the infiltration loads from the
+heating & cooling loads.  Any comments?
+ 
+Thanks for the comments and suggestions to using different utilities in
+standard versus proposed design.  They were very helpful in making some
+decisions here.  Most of the responses seem to go directly to the person
+asking the question.
+ 
+Varkie Thomas
+Skidmore, Owings & Merrill LLP
+ 
+ 
+ 
+
+
+
+
+
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+Marcus B. Sheffer                          energy & environmental consulting
+Energy Opportunities, Inc              717-292-2636
+1200 E Camping Area Road            Fax: 717-292-0585     
+Wellsville, PA USA 17365-9783        sheffer at sevengroup.com
+a 7group company                         <http://www.sevengroup.com/>
+www.sevengroup.com
+
+
+
+
+=====================================================You received this
+e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040519/30994fcd/attachment.htm>
+
+From sheffer at paonline.com  Wed May 19 08:59:57 2004
+From: sheffer at paonline.com (Marcus Sheffer)
+Date: Wed, 19 May 2004 11:59:57 -0400
+Subject: [BLDG-SIM] Infiltration: Standard versus Proposed Design
+In-Reply-To: <MDAEMON-F200405190938.AA3800281pd80000168642@gard.com>
+References: <MDAEMON-F200405190938.AA3800281pd80000168642@gard.com>
+Message-ID: <MDAEMON-F200405191101.AA0120609pd80000163377@gard.com>
+
+Right now infiltration reduction is not an eligible item for energy cost 
+reduction for LEED.  Infiltration rates must be the same in the proposed 
+and budget buildings.
+
+My understanding is that the Energy & Atmosphere Technical Advisory Group 
+(EA TAG) of the USGBC is considering this issue with an eye toward 
+developing a modeling protocol.
+
+I am aware of at least two projects that have applied for savings in this 
+area which have been put on hold (the LEED points were denied pending 
+further input from the EA TAG).
+
+
+As At 10:33 AM 05/19/2004, you wrote:
+>Can infiltration be considered in comparing standard versus proposed 
+>design models using the ECB method and for LEED credits under ?Optimize 
+>Energy Performance??  Typically we use the same criteria in both models, 
+>but this is a particular case of a proposed double-wall 
+>building.  ?10CFR435 Table 402.2.1. ? Air Leakage for Fenestration & Doors 
+>Maximum Allowable Infiltration Rate? provides standard model information 
+>for federal buildings.  For example, the infiltration rate is 0.15 cfm/ft2 
+>for fixed aluminum windows.  Can this be used for LEED standard design and 
+>can a lower rate be used for double wall buildings?
+>
+>The CFR table does not account for Heating & Cooling Degree Days as with 
+>Table-B Building Envelope Requirements of STD90.  In my opinion, the peak 
+>design infiltration rate should be varied from maximum in winter to 
+>minimum in summer (typically zero for pressurized buildings) using a 
+>schedule.  The maximum, of say 0.15 cfm/ft2, would apply to a cold climate 
+>such as Chicago and it should be scaled down for warmer climates.  Since 
+>DOE2 does not allow infiltration rates on the basis of cfm/ft2 of wall or 
+>window area or cfm per lineal foot of window perimeter, we create a 
+>typical perimeter space and convert the window based infiltration rate to 
+>cfm/ft2 of space area or space air changes. We then look at the results in 
+>?REPORT- LS-C BUILDING PEAK LOAD COMPONENTS? of the DOE2 output to see if 
+>the infiltration load looks reasonable (relative to the other loads) for 
+>the location and type of building and make adjustments by trial and 
+>error.  Judgment and experience is considered more reliable than 
+>theoretical mathematical models.  The BEPS and BEPU reports in DOE2 should 
+>separate out the infiltration loads from the heating & cooling loads.  Any 
+>comments?
+>
+>Thanks for the comments and suggestions to using different utilities in 
+>standard versus proposed design.  They were very helpful in making some 
+>decisions here.  Most of the responses seem to go directly to the person 
+>asking the question.
+>
+>Varkie Thomas
+>Skidmore, Owings & Merrill LLP
+>
+>
+>
+>
+>
+>
+>
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+Marcus B. Sheffer                          energy & environmental consulting
+Energy Opportunities, Inc              717-292-2636
+1200 E Camping Area Road            Fax: 717-292-0585
+Wellsville, PA USA 17365-9783        sheffer at sevengroup.com
+a 7group company                        www.sevengroup.com
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040519/c2d40c1a/attachment.htm>
+
+From Varkie.Thomas at som.com  Wed May 19 07:33:57 2004
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Wed, 19 May 2004 10:33:57 -0400
+Subject: [BLDG-SIM] Infiltration: Standard versus Proposed Design
+Message-ID: <MDAEMON-F200405190937.AA3758671pd80000163190@gard.com>
+
+Can infiltration be considered in comparing standard versus proposed
+design models using the ECB method and for LEED credits under "Optimize
+Energy Performance"?  Typically we use the same criteria in both models,
+but this is a particular case of a proposed double-wall building.
+"10CFR435 Table 402.2.1. - Air Leakage for Fenestration & Doors Maximum
+Allowable Infiltration Rate" provides standard model information for
+federal buildings.  For example, the infiltration rate is 0.15 cfm/ft2
+for fixed aluminum windows.  Can this be used for LEED standard design
+and can a lower rate be used for double wall buildings?
+
+ 
+
+The CFR table does not account for Heating & Cooling Degree Days as with
+Table-B Building Envelope Requirements of STD90.  In my opinion, the
+peak design infiltration rate should be varied from maximum in winter to
+minimum in summer (typically zero for pressurized buildings) using a
+schedule.  The maximum, of say 0.15 cfm/ft2, would apply to a cold
+climate such as Chicago and it should be scaled down for warmer
+climates.  Since DOE2 does not allow infiltration rates on the basis of
+cfm/ft2 of wall or window area or cfm per lineal foot of window
+perimeter, we create a typical perimeter space and convert the window
+based infiltration rate to cfm/ft2 of space area or space air changes.
+We then look at the results in "REPORT- LS-C BUILDING PEAK LOAD
+COMPONENTS" of the DOE2 output to see if the infiltration load looks
+reasonable (relative to the other loads) for the location and type of
+building and make adjustments by trial and error.  Judgment and
+experience is considered more reliable than theoretical mathematical
+models.  The BEPS and BEPU reports in DOE2 should separate out the
+infiltration loads from the heating & cooling loads.  Any comments?
+
+ 
+
+Thanks for the comments and suggestions to using different utilities in
+standard versus proposed design.  They were very helpful in making some
+decisions here.  Most of the responses seem to go directly to the person
+asking the question.
+
+ 
+
+Varkie Thomas
+
+Skidmore, Owings & Merrill LLP
+
+ 
+
+ 
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040519/ae735f6c/attachment.htm>
+
+From michel.bernier at polymtl.ca  Wed May 19 05:35:10 2004
+From: michel.bernier at polymtl.ca (Michel Bernier)
+Date: Wed, 19 May 2004 08:35:10 -0400
+Subject: [BLDG-SIM] Call for papers - Building Simulation 2005
+Message-ID: <MDAEMON-F200405190738.AA3802718pd80000163010@gard.com>
+
+Hi everyone,
+
+The 9th IBPSA - International Conference and Exhibition
+will be held at ?cole Polytechnique de Montr?al, August 15-18, 2005.
+
+Consult our website: www.ibpsa.ca/bs2005 for more details.
+
+The "call for papers" brochure can be downloaded at:
+http://www.ibpsa.ca/bs2005/documents/Call_for_papers_bs2005.pdf
+
+
+Regards,
+
+Michel Bernier
+Chair, Organizing committee
+
+Radu Zmeureanu and Stanislaw Kajl
+co-chairs, Organizing committee 
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040519/7a919e03/attachment.htm>
+
+From fraij at yahoo.com  Wed May 19 02:08:10 2004
+From: fraij at yahoo.com (Ahmed Fraij)
+Date: Wed, 19 May 2004 02:08:10 -0700 (PDT)
+Subject: [BLDG-SIM] Energy losses through outside doors
+Message-ID: <MDAEMON-F200405190409.AA0910968pd80000162741@gard.com>
+
+Dear All,
+ 
+     I have a case in which an owner of a building needs to know which type of outside doors will be more energy efficient (i.e. which type is more effective to reduce the load of the Air Conditioning system).
+ 
+    He asked me about three door types: Automatic sliding doors, rotating doors and hinged doors. 
+ 
+   So, can anyone provide me with a method to calculate the energy losses through each type? or is there any study that has been made for such case?
+ 
+Your help will be highly appreciated
+ 
+Thanks & Best Regards
+ 
+Ahmad Fraij
+
+
+
+		
+---------------------------------
+Do you Yahoo!?
+SBC Yahoo! - Internet access at a great low price.
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040519/359bac80/attachment.htm>
+
+From Christoph.Reinhart at nrc-cnrc.gc.ca  Tue May 18 14:30:44 2004
+From: Christoph.Reinhart at nrc-cnrc.gc.ca (Reinhart, Christoph)
+Date: Tue, 18 May 2004 17:30:44 -0400
+Subject: [BLDG-SIM] occupancy profiles for classrooms
+Message-ID: <MDAEMON-F200405181639.AA3904281pd80000161861@gard.com>
+
+Dear colleagues,
+ 
+I am looking for typical occupancy profiles for classrooms in North America.
+On the web I found some cumulative numbers for classrooms in elementary
+schools (~2100 h/yr), high schools (~2500h/yr), and universities (2800
+h/yr).  I don't know where these number come from and I need typical weekday
+profiles preferably in a 15 minute time step resolution or lower. An
+pointers or references would be appreciated. 
+ 
+Christoph
+Christoph Reinhart, Ph.D.                        tel: (613) 993-9703 
+Research Officer                                      fax: (613) 954-3733 
+Institute for Research in Construction      e-mail:
+christoph.reinhart at nrc-cnrc.gc.ca 
+National Research Council Canada        1200 Montreal Road M-24, Ottawa 
+Ontario K1A 0R6 Canada 
+
+Daylighting Analysis Software: 
+The Lightswitch Wizard (initial design)   www.buildwiz.com
+<http://www.buildwiz.com/lightswitch/index.cfm>  
+DAYSIM (expert software)                       www.daysim.com
+<outbind://27/www.daysim.com>   <outbind://27/www.daysim.com> 
+
+
+IEA Task 31
+http://www.iea-shc.org/task31/ <http://www.iea-shc.org/task31/>  
+
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040518/962c47b0/attachment.htm>
+
+From jglazer at gard.com  Tue May 18 10:38:37 2004
+From: jglazer at gard.com (Jason Glazer)
+Date: Tue, 18 May 2004 12:38:37 -0500
+Subject: [BLDG-SIM] Energy Cost Budget (ECB) Method & LEED
+In-Reply-To: <MDAEMON-F200405171231.AA3152343pd80000159186@gard.com>
+Message-ID: <MDAEMON-F200405181239.AA3934875pd80000161479@gard.com>
+
+Varkie,
+
+Figure 11.4.3 and Table 11.4.3.a in ASHRAE Standard 90.1 
+Section 11 together show that the heating energy source for 
+the proposed design and the energy cost budget building 
+should be the same type: electric resistance is compared 
+against electric resistance, heat pumps against heat pumps, 
+and fossil fuel is compared against fossil fuel.  This 
+approach in the Standard is intended to be "fuel neutral" 
+and not penalize any fuel selection during the building 
+design.  
+
+A proposed design using multizone commercial building using 
+a cooling system with a cooling tower maps to an energy 
+cost budget using Figure 11.4.3 as System 1, VAV with 
+parallel fan powered boxes with electric resistance.
+
+As far as the use of Section 11 in LEED, I know that they 
+have other provisions so you should review those carefully, 
+my comments are related to Standard 90.1 only.
+
+Trying to answer some of your other questions. ECB's 
+purpose is a fair treatment of designs that don't meet all 
+of the prescriptive sections of the standard but exceed 
+requirements in other sections. It is not demand oriented 
+at all but energy cost oriented.  ECB uses actual utility 
+tariffs that are approved by the adopting authority. In the 
+case of LEED, that would be USGBC.  TOU may or may not be 
+acceptable, ask USGBC. Fluctuations in rates are a reality 
+but I would suggest the rates that would be submitted are 
+in affect when the application is submitted. No LCCA 
+analysis is need since ECB is just looking at matching 
+annual energy costs for a single year. 
+
+I would be very suspicious of 60% savings over 90.1 unless 
+some very significant investment is made in energy 
+efficiency in the building.  I may be possible without 
+PV/renewables but it would be difficult.
+
+Hope this helps
+
+Jason
+
+On 17 May 2004 at 13:27, Varkie Thomas wrote:
+
+> When comparing standard design based on ASHRAE ST90 and a
+> proposed design for LEED points under "Optimize Energy
+> Performance" using the ECB method, can the fuel types in
+> both cases be made the same?  Does STD90 ECB method require
+> natural gas equipment to be used for the standard design if
+> it produces lower energy costs?  
+> 
+> For example, three years ago, gas prices were at a record
+> high and electricity was relatively cheaper.  So a building
+> was designed based on all electric equipment.  The proposed
+> design saved about 30% in energy usage per year and about
+> the same in cost over the standard design (electric or gas).
+>  
+> 
+> Gas prices have since dropped significantly. The proposed
+> design still saves about 30% in energy compared to standard
+> design.  The energy cost of the proposed all-electric design
+> is now higher if it is compared to the standard design based
+> on current natural gas rates.  Can the proposed electric
+> design be compared to the standard model that also uses
+> all-electric equipment for LEED points? 
+> 
+> On page 63, Table 11.4.3A, Budget System Descriptions of
+> ASHRAE Std90-2001, System-1 is VAV with parallel fan-powered
+> boxes and electric resistance heating (electric) and
+> System-2 is VAV standard boxes with hot water heating using
+> fossil fuel boiler (gas).  If the proposed design used
+> System-1 (electric) then can the standard be System-1
+> although System-2 will use less energy and also cost less?
+> 
+> In comparing energy costs, does LEED consider the difference
+> in source energy efficiency between gas and electric?  What
+> about long-term reliability?  Electricity can be generated
+> using a variety of fuels including nuclear, whereas natural
+> gas resources are limited and the costs will therefore
+> increase in the future with diminishing supplies.  
+> 
+> Is the purpose of the Energy "Cost" Budget method to reduce
+> the energy demand based on TOU rates?  Is the comparison
+> between standard and design for LEED points based on
+> conditions at the time of design or at the time of
+> occupancy? Does ECB consider future fluctuating gas and
+> electric rates?  Shouldn't there be a LCCA comparison of
+> energy costs of standard and proposed design using the
+> DOE/FEMP future escalation rates?
+> 
+> Is it realistically possible to save over 60% in energy
+> costs over STD90 design without using renewable energy such
+> as PV-panels and GSHP?
+> 
+> Varkie Thomas
+> Skidmore, Owings & Merrill LLP
+> Tel: 312-360-4467 (direct)
+> 
+> 
+> 
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe from
+> this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+=========================================================
+Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cab at thethomasgroup.com  Mon May 17 11:29:27 2004
+From: cab at thethomasgroup.com (Christopher Balbach)
+Date: Mon, 17 May 2004 14:29:27 -0400
+Subject: [BLDG-SIM] Energy Cost Budget (ECB) Method & LEED
+Message-ID: <MDAEMON-F200405171333.AA3310171pd80000159345@gard.com>
+
+Varkie:
+
+The foreward of the 16 page Addendum E for Std 90.1-2001
+(http://www.ashrae.org/template/AssetDetail/assetid/30208)
+addresses many of your questions. I would expect LEED 2.2 to reference
+this "Informative Appendix G" performance Rating Method when describing
+how to use simulation to determine a building's performance rating and
+thus capture a number of Energy and Atmosphere points.  
+
+In terms of LCCA, I was at a recent presentation on Std 90 by the
+former chair of the committee. My understanding from this presentation
+is that results from custom written software (NOT DOE2 or BLAST, I
+asked) are used to evaluate the cost effectiveness of proposed changes
+to 90.1. A fixed rate for fuel prices and electrical rates was used (for
+the entire nation) and the effect on energy consumption of our nations
+building stock (dominantly retail and small commercial) was estimated.
+As far as differences in "wire to wire" efficiencies between nuclear,
+gas, oil, coal, etc) are concerned, despite intense pressure from
+industry, Std. 90 does not account for energy consumption using source
+efficiency in any appreciable way. 
+
+I'll send you his presentation if you would like (it's 30+ mb, too
+large to e-mail).
+
+Thanks,
+
+Chris 
+
+
+
+
+Chris Balbach
+HVAC Designer
+LEED Accredited Professional
+Thomas Associates - Architects and Engineers
+(607)-277-7100 ext. 5286
+
+PLEASE NOTE:  This message, including any attachments, may include
+privileged, confidential and/or inside information.  Any distribution
+or use
+of this communication by anyone other than the intended recipient is
+strictly prohibited and may be unlawful.  If you are not the intended
+recipient, please notify the sender by replying to this message and
+then
+delete it from your system. 
+
+
+>>> "Varkie Thomas" <Varkie.Thomas at som.com> 05/17/04 01:27PM >>>
+When comparing standard design based on ASHRAE ST90 and a proposed
+design for LEED points under "Optimize Energy Performance" using the
+ECB
+method, can the fuel types in both cases be made the same?  Does STD90
+ECB method require natural gas equipment to be used for the standard
+design if it produces lower energy costs?  
+ 
+For example, three years ago, gas prices were at a record high and
+electricity was relatively cheaper.  So a building was designed based
+on
+all electric equipment.  The proposed design saved about 30% in energy
+usage per year and about the same in cost over the standard design
+(electric or gas).  
+ 
+Gas prices have since dropped significantly. The proposed design still
+saves about 30% in energy compared to standard design.  The energy
+cost
+of the proposed all-electric design is now higher if it is compared to
+the standard design based on current natural gas rates.  Can the
+proposed electric design be compared to the standard model that also
+uses all-electric equipment for LEED points? 
+ 
+On page 63, Table 11.4.3A, Budget System Descriptions of ASHRAE
+Std90-2001, System-1 is VAV with parallel fan-powered boxes and
+electric
+resistance heating (electric) and System-2 is VAV standard boxes with
+hot water heating using fossil fuel boiler (gas).  If the proposed
+design used System-1 (electric) then can the standard be System-1
+although System-2 will use less energy and also cost less?
+ 
+In comparing energy costs, does LEED consider the difference in source
+energy efficiency between gas and electric?  What about long-term
+reliability?  Electricity can be generated using a variety of fuels
+including nuclear, whereas natural gas resources are limited and the
+costs will therefore increase in the future with diminishing supplies. 
+
+ 
+Is the purpose of the Energy "Cost" Budget method to reduce the energy
+demand based on TOU rates?  Is the comparison between standard and
+design for LEED points based on conditions at the time of design or at
+the time of occupancy? Does ECB consider future fluctuating gas and
+electric rates?  Shouldn't there be a LCCA comparison of energy costs
+of
+standard and proposed design using the DOE/FEMP future escalation
+rates?
+ 
+Is it realistically possible to save over 60% in energy costs over
+STD90
+design without using renewable energy such as PV-panels and GSHP?
+ 
+Varkie Thomas
+Skidmore, Owings & Merrill LLP
+Tel: 312-360-4467 (direct)
+
+
+=====================================================You received this
+e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Varkie.Thomas at som.com  Mon May 17 10:27:44 2004
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Mon, 17 May 2004 13:27:44 -0400
+Subject: [BLDG-SIM] Energy Cost Budget (ECB) Method & LEED
+Message-ID: <MDAEMON-F200405171231.AA3152343pd80000159186@gard.com>
+
+When comparing standard design based on ASHRAE ST90 and a proposed
+design for LEED points under "Optimize Energy Performance" using the ECB
+method, can the fuel types in both cases be made the same?  Does STD90
+ECB method require natural gas equipment to be used for the standard
+design if it produces lower energy costs?  
+ 
+For example, three years ago, gas prices were at a record high and
+electricity was relatively cheaper.  So a building was designed based on
+all electric equipment.  The proposed design saved about 30% in energy
+usage per year and about the same in cost over the standard design
+(electric or gas).  
+ 
+Gas prices have since dropped significantly. The proposed design still
+saves about 30% in energy compared to standard design.  The energy cost
+of the proposed all-electric design is now higher if it is compared to
+the standard design based on current natural gas rates.  Can the
+proposed electric design be compared to the standard model that also
+uses all-electric equipment for LEED points? 
+ 
+On page 63, Table 11.4.3A, Budget System Descriptions of ASHRAE
+Std90-2001, System-1 is VAV with parallel fan-powered boxes and electric
+resistance heating (electric) and System-2 is VAV standard boxes with
+hot water heating using fossil fuel boiler (gas).  If the proposed
+design used System-1 (electric) then can the standard be System-1
+although System-2 will use less energy and also cost less?
+ 
+In comparing energy costs, does LEED consider the difference in source
+energy efficiency between gas and electric?  What about long-term
+reliability?  Electricity can be generated using a variety of fuels
+including nuclear, whereas natural gas resources are limited and the
+costs will therefore increase in the future with diminishing supplies.  
+ 
+Is the purpose of the Energy "Cost" Budget method to reduce the energy
+demand based on TOU rates?  Is the comparison between standard and
+design for LEED points based on conditions at the time of design or at
+the time of occupancy? Does ECB consider future fluctuating gas and
+electric rates?  Shouldn't there be a LCCA comparison of energy costs of
+standard and proposed design using the DOE/FEMP future escalation rates?
+ 
+Is it realistically possible to save over 60% in energy costs over STD90
+design without using renewable energy such as PV-panels and GSHP?
+ 
+Varkie Thomas
+Skidmore, Owings & Merrill LLP
+Tel: 312-360-4467 (direct)
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040517/2c6b0bb8/attachment.htm>
+
+From kbw at sbi.dk  Mon May 17 02:07:01 2004
+From: kbw at sbi.dk (Kim B. Wittchen)
+Date: Mon, 17 May 2004 11:07:01 +0200 (CEST)
+Subject: [BLDG-SIM] Predictive control of passive cooling systems?
+Message-ID: <MDAEMON-F200405170408.AA0805734pd80000158317@gard.com>
+
+Last week I submitted the message below, unfortunately my PC, including 
+all your kind answers was stolen during this week-end.
+
+So please, could those of you who kindly answered my request, send them
+again.
+
+Thank you in advance!
+
+I am conducting a survey on passive cooling strategies, e.g. night cooling
+of the building mass in order to reduce overheating the following day.
+
+In this context I would like to know if anyone have knowledge of
+surveys in the field of natural/night cooling where prediction of
+the weather conditions for the coming day have been used to control the
+flow of cool night air into the building?
+
+Thank you in advance!
+
+Kind regards,
+Kim B. Wittchen
+Danish Building and Urban Research
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Christoph.Reinhart at nrc-cnrc.gc.ca  Wed May 12 14:08:59 2004
+From: Christoph.Reinhart at nrc-cnrc.gc.ca (Reinhart, Christoph)
+Date: Wed, 12 May 2004 17:08:59 -0400
+Subject: [bldg-sim] Lightswitch Wizard - new version
+Message-ID: <MDAEMON-F200405121610.AA1013828pd80000149617@gard.com>
+
+Dear colleagues,
+
+The National Research Council Canada and Natural Resources Canada have
+released a new version of our online RADIANCE-based daylighting analysis
+tool Lightswitch Wizard  <http://www.buildwiz.com/> www.buildwiz.com. The
+tool was developed to support daylighting-related design decisions in
+commercial buildings during an early design stage. It offers a comparative,
+reliable, and fast analysis of the amount of daylight available in
+peripheral offices and classroom as well as the lighting energy performance
+of automated lighting controls (occupancy sensors, photocells) compared to
+standard on/off switches. Blinds are either manually or automatically
+controlled. 
+ 
+Features of the new version are:
+
+*	
+
+	added classrooms as a second building type
+*	
+
+	added 175 new sites outside of Canada and the US in the Northern
+hemisphere
+*	
+
+	added a "Getting Started" section with two example applications to
+give users ideas of how to use the tool 
+
+Your comments/suggestions are appreciated. Greetings from Ottawa,
+ 
+Christoph 
+Christoph Reinhart, Ph.D.                        tel: (613) 993-9703 
+Research Officer                                      fax: (613) 954-3733 
+Institute for Research in Construction      e-mail:
+christoph.reinhart at nrc-cnrc.gc.ca 
+National Research Council Canada        1200 Montreal Road M-24, Ottawa 
+Ontario K1A 0R6 Canada 
+
+Daylighting Analysis Software: 
+The Lightswitch Wizard (initial design)   www.buildwiz.com
+<http://www.buildwiz.com/lightswitch/index.cfm>  
+DAYSIM (expert software)                       www.daysim.com
+<outbind://98/www.daysim.com>   <outbind://98/www.daysim.com> 
+
+
+IEA Task 31
+http://www.iea-shc.org/task31/ <http://www.iea-shc.org/task31/>  
+
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040512/47696589/attachment.htm>
+
+From lirainer at davisenergy.com  Wed May 12 09:29:03 2004
+From: lirainer at davisenergy.com (Leo Rainer)
+Date: Wed, 12 May 2004 09:29:03 -0700
+Subject: [bldg-sim] Predictive control of passive cooling systems?
+In-Reply-To: <MDAEMON-F200405120625.AA2516781pd80000155685@gard.com>
+References: <MDAEMON-F200405120625.AA2516781pd80000155685@gard.com>
+Message-ID: <MDAEMON-F200405121131.AA3131156pd80000149000@gard.com>
+
+We have just completed the final report of a multi-year California Energy 
+Commission PIER funded project known as "Alternatives to Compressor 
+Cooling", the goal of which is to reduce or replace residential air 
+conditioning through the use of nighttime ventilation. The NightBreeze 
+system we developed under the project uses predictions of the next day's 
+weather to calculate a ventilation temperature goal and to set ventilation 
+fan speeds.
+
+The final report and other information on the project can be found at:
+http://www.energy.ca.gov/pier/reports/500-04-009.html
+Information on the NightBreeze can be found at:
+http://www.davisenergy.com/nb_page.htm
+
+I would be very interested in the results of your survey. Please feel free 
+to contact me if you need further information.
+
+Regards,
+
+         Leo Rainer
+         Davis Energy Group
+
+At 04:24 AM 5/12/04, Kim B. Wittchen wrote:
+>I am conducting a survey on passive cooling strategies, e.g. night
+>cooling of the building mass in order to reduce overheating the
+>following day.
+>
+>In this context I would like to know if anyone have knowledge of
+>surveys in the field of natural/night cooling where prediction of
+>the weather conditions for the coming day have been used to control
+>the flow of cool night air into the building?
+>
+>Thank you in advance!
+>
+>Kind regards,
+>Kim B. Wittchen
+>Danish Building and Urban Research
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+----------------------------------------------------------------------------
+Leo Rainer                          Email:   mailto:lirainer at davisenergy.com
+Davis Energy Group                  Phone:                  530.753.1100 x27
+123 C Street                        Fax:                        530.753.4125
+Davis, CA  95616                    Web:          http://www.davisenergy.com
+============================================================================
+Energy Analysis     *      Mechanical Design       *     Product Engineering 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From fporter at archenergy.com  Wed May 12 08:31:54 2004
+From: fporter at archenergy.com (Fred Porter)
+Date: Wed, 12 May 2004 11:31:54 -0400
+Subject: [bldg-sim] Predictive control of passive cooling systems?
+References: <MDAEMON-F200405120625.AA2515859pd80000155529@gard.com>
+Message-ID: <MDAEMON-F200405121041.AA4109968pd80000148840@gard.com>
+
+Check out
+http://www.energy.ca.gov/pier/reports/500-04-009.html
+and
+http://www.davisenergy.com/nb_page.htm
+and
+http://www.coolshadow.com/downloads/ACC.pdf
+
+
+The controller is meant for residential fan-assisted night cooling, but 
+I believe it incorporates some kind of self-predictive algorithms to 
+control the rate. For use of weather service-issued forecasts, I'm not 
+aware of anything, though it is likely some larger facilities in 
+high-cooling cost areas may do this manually.
+
+
+
+Kim B. Wittchen wrote:
+
+>I am conducting a survey on passive cooling strategies, e.g. night
+>cooling of the building mass in order to reduce overheating the
+>following day.
+>
+>In this context I would like to know if anyone have knowledge of
+>surveys in the field of natural/night cooling where prediction of
+>the weather conditions for the coming day have been used to control
+>the flow of cool night air into the building?
+>
+>Thank you in advance!
+>
+>Kind regards,
+>Kim B. Wittchen
+>Danish Building and Urban Research
+>
+>======================================================
+>You received this e-mail because you are subscribed 
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+
+-- 
+Fred W. Porter
+Senior Engineer
+Architectural Energy Corp.
+2540 Frontier Ave. Suite 201
+Boulder CO 80301
+email: fporter at archenergy.com
+fax: 303-444-4304
+
+office: 303-444-4149 x225
+mobile: 303-748-4536
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mkummert at wisc.edu  Wed May 12 07:48:02 2004
+From: mkummert at wisc.edu (=?ISO-8859-1?Q?Micha=EBl_Kummert?=)
+Date: Wed, 12 May 2004 09:48:02 -0500
+Subject: [bldg-sim] Predictive control of passive cooling systems?
+In-Reply-To: <MDAEMON-F200405120625.AA251731pd80000155730@gard.com>
+References: <MDAEMON-F200405120625.AA251731pd80000155730@gard.com>
+Message-ID: <MDAEMON-F200405120947.AA4717968pd80000148723@gard.com>
+
+on 2004-05-12 06:24, Kim B. Wittchen wrote:
+> I am conducting a survey on passive cooling strategies, e.g. night
+> cooling of the building mass in order to reduce overheating the
+> following day.
+> 
+> In this context I would like to know if anyone have knowledge of
+> surveys in the field of natural/night cooling where prediction of
+> the weather conditions for the coming day have been used to control
+> the flow of cool night air into the building?
+> 
+
+My PhD thesis (2001) addressed the topic of optimal predictive control 
+in passive solar buildings. While the main emphasis was on controlling 
+the heating plant in order to prevent afternoon overheating in 
+mid-season conditions, the developed controller is suitable to control a 
+mechanical or natural ventilation system in order to benefit from 
+"optimal" night cooling. It uses (or generates) weather forecasts for 
+the next 12 to 36 h. The thesis includes a literature review.
+
+You can download the PDF version if you are interested (1.6MB):
+http://sel.me.wisc.edu/facstaff/kummert/kummert-phd-2001.pdf
+
+Kind regards,
+
+Micha?l Kummert
+
+-- 
+_________________________________________________________
+
+Micha?l Kummert - TRNSYS Coordinator
+
+Solar Energy Laboratory - University of Wisconsin-Madison
+1303 Engr Res Bldg, 1500 Engineering Drive
+Madison, WI 53706
+
+Tel: +1 (608) 263-1589
+Fax: +1 (608) 262-8464
+E-mail: kummert at engr.wisc.edu
+
+SEL Web Site: http://sel.me.wisc.edu
+TRNSYS Web Site: http://sel.me.wisc.edu/trnsys
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cj at cr-jay.ca  Wed May 12 06:30:50 2004
+From: cj at cr-jay.ca (Chris Jones)
+Date: Wed, 12 May 2004 09:30:50 -0400
+Subject: [bldg-sim] Simulation Conference: esim 2004 Early Registration
+In-Reply-To: <MDAEMON-F200303271508.AA0809671pd80000412013@gard.com>
+References: <MDAEMON-F200303271508.AA0809671pd80000412013@gard.com>
+Message-ID: <MDAEMON-F200405120826.AA2641953pd80000148506@gard.com>
+
+The esim 2004 conference in beautiful Vancouver, BC has an early 
+registration option - until Friday May 14.  See http://www.esim.ca
+
+
+
+
+
+
+Chris Jones, P.Eng.
+14 Oneida Avenue
+Toronto, ON M5J2E3
+Tel. 416 203-7465
+Fax. 416 946-1005 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Bejlniu at polyu.edu.hk  Wed May 12 06:15:38 2004
+From: Bejlniu at polyu.edu.hk (J.L. Niu)
+Date: Wed, 12 May 2004 21:15:38 +0800
+Subject: [bldg-sim] Predictive control of passive cooling systems?
+In-Reply-To: <MDAEMON-F200405120625.AA251593pd80000155395@gard.com>
+References: <MDAEMON-F200405120625.AA251593pd80000155395@gard.com>
+Message-ID: <MDAEMON-F200405120816.AA1641593pd80000148495@gard.com>
+
+Dear Kim,
+
+This paper, among other things,  simulates evaporative night cooling in 
+combination with radiant chilled-ceiling panel, which , I believe is the 
+most effective scheme using building mass.
+
+  Niu, J.L., J. v.d. Kooi, and H. v.d. Ree, "Energy saving possibilities 
+with cooled-ceiling systems", Energy and Buildings, Vol.23. No. 2, 1995, 
+pp.147-158
+
+At 07:24 PM 04/05/12, Kim B. Wittchen wrote:
+>I am conducting a survey on passive cooling strategies, e.g. night
+>cooling of the building mass in order to reduce overheating the
+>following day.
+>
+>In this context I would like to know if anyone have knowledge of
+>surveys in the field of natural/night cooling where prediction of
+>the weather conditions for the coming day have been used to control
+>the flow of cool night air into the building?
+>
+>Thank you in advance!
+>
+>Kind regards,
+>Kim B. Wittchen
+>Danish Building and Urban Research
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Bejlniu at polyu.edu.hk  Wed May 12 06:10:44 2004
+From: Bejlniu at polyu.edu.hk (J.L. Niu)
+Date: Wed, 12 May 2004 21:10:44 +0800
+Subject: [bldg-sim] Predictive control of passive cooling systems?
+In-Reply-To: <MDAEMON-F200405120625.AA251593pd80000155395@gard.com>
+References: <MDAEMON-F200405120625.AA251593pd80000155395@gard.com>
+Message-ID: <MDAEMON-F200405120812.AA1217687pd80000148491@gard.com>
+
+Dear Kim,
+
+You may try to find the publications of Dr. van Paassen and/or Peter Lute 
+from Delft University of Technology, in the 1990's.
+
+Regards
+J.L. Niu, Hong Kong
+
+At 07:24 PM 04/05/12, Kim B. Wittchen wrote:
+>I am conducting a survey on passive cooling strategies, e.g. night
+>cooling of the building mass in order to reduce overheating the
+>following day.
+>
+>In this context I would like to know if anyone have knowledge of
+>surveys in the field of natural/night cooling where prediction of
+>the weather conditions for the coming day have been used to control
+>the flow of cool night air into the building?
+>
+>Thank you in advance!
+>
+>Kind regards,
+>Kim B. Wittchen
+>Danish Building and Urban Research
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kbw at sbi.dk  Wed May 12 04:24:22 2004
+From: kbw at sbi.dk (Kim B. Wittchen)
+Date: Wed, 12 May 2004 13:24:22 +0200 (CEST)
+Subject: [bldg-sim] Predictive control of passive cooling systems?
+Message-ID: <MDAEMON-F200405120625.AA2516312pd80000148355@gard.com>
+
+I am conducting a survey on passive cooling strategies, e.g. night
+cooling of the building mass in order to reduce overheating the
+following day.
+
+In this context I would like to know if anyone have knowledge of
+surveys in the field of natural/night cooling where prediction of
+the weather conditions for the coming day have been used to control
+the flow of cool night air into the building?
+
+Thank you in advance!
+
+Kind regards,
+Kim B. Wittchen
+Danish Building and Urban Research
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bills at fo.com  Tue May 11 09:11:21 2004
+From: bills at fo.com (Bill Shadish)
+Date: Tue, 11 May 2004 12:11:21 -0400
+Subject: [bldg-sim] Wireless building audit experiences?
+Message-ID: <MDAEMON-F200405111112.AA1214656pd80000146668@gard.com>
+
+I am writing an article on wireless building audits
+for a major energy publication.
+
+I would like to include a few experiences from others
+as sidebars in this article [rather than just using our
+own customers' experiences].
+
+If you recently have implemented building-based
+wireless tools, *especially* audits/inspections/punch lists, 
+and would like to share your experience for this 
+article -- would you please contact me off-list?
+
+
+Thank you,
+~Bill
+-----------------------------------------------------
+ Bill Shadish
+ Principal
+ Fundamental Objects, Inc.
+ Handheld / Web-based Energy Audits
+ http://www.foaudits.com
+
+ Free PDA Newsletters
+ http://www.fo.com/newsletters
+-----------------------------------------------------
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From greensim at lara.on.ca  Tue May 11 05:25:21 2004
+From: greensim at lara.on.ca (Brian Fountain)
+Date: Tue, 11 May 2004 08:25:21 -0400
+Subject: [bldg-sim] eQUEST / DOE-2.2 Training Workshop in Toronto May 17th & 18th
+Message-ID: <MDAEMON-F200405110726.AA2618578pd80000146263@gard.com>
+
+My apologies for the short notice, but there are some spaces available for a
+Sustainable Buildings Canada 2-day workshop on DOE-2.2 and eQUEST given by
+Marlin Addison in Toronto next Monday and Tuesday - May 17th and 18th.
+
+ 
+
+ 
+
+Preliminary Agenda 
+
+Day One: 8:30am - 5:00pm Schematic Design using eQUEST
+
+ Demo & Overview of eQUEST Intro to Simulation using eQUEST Schematic Design
+Wizard Energy Efficiency Measures Wizard Lunch (provided) Design Development
+Wizard Importing DWG files into eQUEST eQUEST Graphical Reports Intro to
+eQUEST/DOE-2 reports 
+
+Day Two: 8:30am - 5:00pm Detailed Design using eQUEST
+
+ DOE-2 simulation methodology basics Using the Detailed Interface:
+schedules, constructions, geometry, shading, glass options, daylighting
+Lunch (provided) Modeling Topics "requests" Expressions & Parametric
+Modeling Air-Side & Water-Side Simulation Detailed (DOE-2) Output Reports
+Quality Control Procedures
+
+ 
+
+Workshop Location 
+
+The workshop is hosted by Sustainable Buildings Canada and will be held at
+the Radisson Hotel Toronto East, 55 Hallcrown Place, Toronto ON. 
+
+ 
+
+eQUESTR Software eQUESTR is freeware, provided courtesy of the California's
+Energy Design Resources. All attendees will receive a copy of eQUEST on CD,
+along with a training workbook. Download eQUEST free from www.doe2.com.
+
+ 
+
+Computers 
+
+Bring your own computer.  (This is a hands-on workshop)  No computers are
+being provided. Download and install eQUEST beforehand (see above) or come
+30 min. early to load. minimum specs: Win 98+, 256 MB RAM recommended: Win
+NT+, 512 MB RAM 
+
+ 
+
+Registration Fee 
+
+The registration fee is $550 per attendee which covers both days, including
+materials, meals coffee etc. Enrollment is limited to 20. Prompt
+registration is suggested to ensure a space. Register via fax, or email (see
+last page of this announcement).
+
+Questions / Information 
+
+For registration questions, call Mike Singleton, 416-751-2346 (e-mail:
+Mike-Singleton at rogers.com). For course content questions, call Marlin
+Addison at 480-968-2040 (e-mail: marlin.addison at doe2.com). 
+
+
+
+
+ 
+
+Or e-mail me for further information and the registration form.
+
+ 
+
+Regards,
+
+____________________
+
+Brian Fountain, P.Eng.
+
+Principal
+
+ 
+
+GreenSim
+
+ 
+
+(905)639-6014 -- voice
+
+(905)639-0443 -- fax
+
+bfountain at canada.com
+
+____________________
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040511/e66b9165/attachment.htm>
+
+From larry at taz.tamu.edu  Mon May 10 08:59:21 2004
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Mon, 10 May 2004 10:59:21 -0500
+Subject: [bldg-sim] IBPSA News April 2004 Available on the IBPSA web site.
+Message-ID: <MDAEMON-F200405101100.AA0030265pd80000144458@gard.com>
+
+The April 2004 Issue (Vol. 14, No. 1) in PDF format can now be
+downloaded from the IBPSA Web site at:
+http://www.ibpsa.org/IBPSANews-14-1.pdf.  If you wish to just look at
+the main IBPSA web site, it?s at: http://www.ibpsa.org
+<http://www.ibpsa.org/> .  Once again, thanks go to Marion for a fine
+job in creating this issue.
+ 
+   
+ 
+We are dedicating this issue to the late Tamami Kusuda and re-announcing
+the Building Simulation-2005 to be held in Montreal, Quebec, 15-18
+August 2005.  Many other interesting software/simulation announcements
+are present.  Also, we are featuring three papers from BS-2003 in
+Eindhoven, addressing the topics of:
+*	District energy system simulation by Y. Yamaguchi et al (Osaka,
+Japan)
+*	Simulation of fa?ade options by A. Tzempelikos and A.K.
+Athienitis (Concordia Univ., Canada)
+*	Building simulation experience in an architectural firm by D.
+Hobbs et al (Glasgow, Scotland)
+ 
+Best regards,
+ 
+L.O. Degelman, IBPSA Newsletter chairperson.
+===================================== 
+Larry O. Degelman, P.E.                  larry at taz.tamu.edu 
+Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+Texas A&M University
+=====================================
+ 
+ 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040510/6791491d/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 4564 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040510/6791491d/attachment.jpeg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 6733 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040510/6791491d/attachment-0001.jpeg>
+
+From bojic at knez.uis.kg.ac.yu  Sat May  8 12:39:37 2004
+From: bojic at knez.uis.kg.ac.yu (MB)
+Date: Sat, 8 May 2004 21:39:37 +0200
+Subject: [bldg-sim] Hong Kong Weather
+References: <MDAEMON-F200405081037.AA3710359pd80000151010@gard.com>
+Message-ID: <MDAEMON-F200405081438.AA3820546pd80000141492@gard.com>
+
+Thanks for Russia but I realy am interested where I can find the weather
+file for Hong Kong.
+Bojic
+
+----- Original Message -----
+From: <Drury.Crawley at EE.DOE.GOV>
+To: <bldg-sim at gard.com>
+Sent: Saturday, May 08, 2004 5:35 PM
+Subject: [bldg-sim] Hong Kong Weather
+
+
+>
+> Download from the EnergyPlus web site:
+>
+> www.energyplus.gov/cfm/weatherdata_int.cfm#RUS
+>
+> will take you to the list of locations in Russia.
+>
+>
+>
+>
+>                       bojic at knez.uis.kg
+>                       .ac.yu                   To:       bldg-sim at gard.com
+>                       Sent by:                 cc:
+>                       postman at gard.com         Subject:  [bldg-sim] Hong
+Kong Weather
+>
+>
+>                       05/08/2004 11:23
+>                       AM
+>                       Please respond to
+>                       bojic
+>
+>
+>
+>
+>
+>
+> Does anyone have the weather file for Moscow, Russia for use with the
+> EnergyPlus program?
+>
+>
+> Milorad Bojic
+> Faculty of Mech. Eng.
+> Kragujevac
+>
+>
+>
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+>
+>
+>
+>
+>
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at EE.DOE.GOV  Sat May  8 08:35:38 2004
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Sat, 8 May 2004 11:35:38 -0400
+Subject: [bldg-sim] Hong Kong Weather
+Message-ID: <MDAEMON-F200405081037.AA3711718pd80000141159@gard.com>
+
+
+Download from the EnergyPlus web site:
+
+www.energyplus.gov/cfm/weatherdata_int.cfm#RUS
+
+will take you to the list of locations in Russia.
+
+
+
+                                                                                                           
+                      bojic at knez.uis.kg                                                                    
+                      .ac.yu                   To:       bldg-sim at gard.com                                 
+                      Sent by:                 cc:                                                         
+                      postman at gard.com         Subject:  [bldg-sim] Hong Kong Weather                      
+                                                                                                           
+                                                                                                           
+                      05/08/2004 11:23                                                                     
+                      AM                                                                                   
+                      Please respond to                                                                    
+                      bojic                                                                                
+                                                                                                           
+                                                                                                           
+
+
+
+
+Does anyone have the weather file for Moscow, Russia for use with the
+EnergyPlus program?
+
+
+Milorad Bojic
+Faculty of Mech. Eng.
+Kragujevac
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bojic at knez.uis.kg.ac.yu  Sat May  8 08:23:58 2004
+From: bojic at knez.uis.kg.ac.yu (MB)
+Date: Sat, 8 May 2004 17:23:58 +0200
+Subject: [bldg-sim] Hong Kong Weather
+References: <MDAEMON-F200405071517.AA1724390pd80000148715@gard.com> <MDAEMON-F200405071934.AA3443156pd80000149579@gard.com>
+Message-ID: <MDAEMON-F200405081022.AA2245312pd80000141123@gard.com>
+
+Does anyone have the weather file for Moscow, Russia for use with the
+EnergyPlus program?
+
+
+Milorad Bojic
+Faculty of Mech. Eng.
+Kragujevac
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From YJHuang at lbl.gov  Fri May  7 17:33:47 2004
+From: YJHuang at lbl.gov (Joe Huang)
+Date: Fri, 7 May 2004 17:33:47 -0700
+Subject: [bldg-sim] Moscow Weather
+References: <MDAEMON-F200405071517.AA1724390pd80000148715@gard.com>
+Message-ID: <MDAEMON-F200405071934.AA3444359pd80000140094@gard.com>
+
+The format of the IWEC weather files is identical to that of TMY2, with two
+minor differences - (1) the year is in four digits instead of two, and (2)
+there is an extra field for visibility (?). What I did was to use an awk
+script or shell editor to modify IWEC to TMY2 format, and then packed the
+file with the DOE-2 weather packer (doewth) as TMY2 files.  I then wrote a
+batch file that processed all 200 some IWEC files at one shot. Very
+painless.  Having said that, I'd add a warning that the *.bin files loses
+some precision, because the original IWEC have temperatures in tenths of
+degrees C, while the *.bin files store them in integer degrees F.
+
+Joe Huang
+
+----- Original Message -----
+From: "Varkie Thomas" <Varkie.Thomas at som.com>
+To: <bldg-sim at gard.com>
+Sent: Friday, May 07, 2004 1:14 PM
+Subject: [bldg-sim] Moscow Weather
+
+
+The subject of my last message should have been "Moscow Weather" and not
+"Radiant Heating/Cooling".  I did receive the Moscow weather in binary
+format and the other information that I requested.  I think a program
+that converts IWEC weather files into a "*.bin" files for use by the
+DOE2 programs would be very useful.
+
+Varkie Thomas
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Varkie
+Thomas
+Sent: Thursday, May 06, 2004 1:36 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Radiant Heating/Cooling
+
+Does anyone have the weather file (.bin format) for Moscow, Russia for
+use with the DOE2 program?  I also need the instructions for converting
+the raw TRY weather data from NCDC (.dat + .inp ?) into a .bin weather
+file.  Is it possible to convert IWEC weather data for use with DOE2?
+
+Varkie Thomas
+Skidmore, Owings & Merrill
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Varkie.Thomas at som.com  Fri May  7 13:14:38 2004
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Fri, 7 May 2004 16:14:38 -0400
+Subject: [bldg-sim] Moscow Weather
+Message-ID: <MDAEMON-F200405071517.AA1725906pd80000139724@gard.com>
+
+The subject of my last message should have been "Moscow Weather" and not
+"Radiant Heating/Cooling".  I did receive the Moscow weather in binary
+format and the other information that I requested.  I think a program
+that converts IWEC weather files into a "*.bin" files for use by the
+DOE2 programs would be very useful.
+
+Varkie Thomas
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Varkie
+Thomas
+Sent: Thursday, May 06, 2004 1:36 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Radiant Heating/Cooling
+
+Does anyone have the weather file (.bin format) for Moscow, Russia for
+use with the DOE2 program?  I also need the instructions for converting
+the raw TRY weather data from NCDC (.dat + .inp ?) into a .bin weather
+file.  Is it possible to convert IWEC weather data for use with DOE2?
+
+Varkie Thomas
+Skidmore, Owings & Merrill
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Varkie.Thomas at som.com  Thu May  6 11:36:15 2004
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Thu, 6 May 2004 14:36:15 -0400
+Subject: [bldg-sim] Radiant Heating/Cooling
+Message-ID: <MDAEMON-F200405061339.AA3902375pd80000137376@gard.com>
+
+Does anyone have the weather file (.bin format) for Moscow, Russia for
+use with the DOE2 program?  I also need the instructions for converting
+the raw TRY weather data from NCDC (,dat + .inp ?) into a .bin weather
+file.  Is it possible to convert IWEC weather data for use with DOE2?
+
+Varkie Thomas
+Skidmore, Owings & Merrill
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From gmasters at stanford.edu  Wed May  5 20:58:58 2004
+From: gmasters at stanford.edu (Gil Masters)
+Date: Wed, 5 May 2004 20:58:58 -0700
+Subject: [BLDG-SIM] Stanford faculty position
+Message-ID: <MDAEMON-F200405052258.AA5814140pd80000136101@gard.com>
+
+Stanford University
+Department of Civil & Environmental Engineering
+Faculty Position in Sustainable Development of Buildings & Infrastructure
+
+
+The Department of Civil and Environmental Engineering at Stanford 
+University invites applications for a tenure line faculty position at 
+the Assistant Professor or untenured Associate Professor level 
+focusing on Sustainable Development of Buildings and Infrastructure. 
+The successful candidate is expected to have in-depth knowledge of 
+methods and tools for integrating energy efficiency, water reuse, and 
+other sustainability concerns into the early conceptual design stage 
+of the facility lifecycle.  The selected candidate will be expected 
+to:
+
+v Teach core courses at the BS, MS and PhD level on sustainable 
+development of building and infrastructure in Stanford's programs of 
+Construction Engineering and Management (CEM) and/or 
+Design/Construction Integration (DCI);
+
+v Conduct research on emerging technologies and approaches for the 
+integrated design and construction of sustainable buildings and 
+infrastructure, and contribute to the department's broader research 
+program of Engineering for Sustainability.
+
+Required background and qualifications include an earned doctorate in 
+Civil & Environmental Engineering, a related engineering discipline, 
+or a M.Arch. degree.  Significant experience in the facility design 
+and construction process, and involvement in projects that include 
+performance-based sustainable engineering, are desirable 
+qualifications.
+
+Applications should include a Curriculum Vitae, a list of 
+Publications, a brief statement of Research Vision and Teaching 
+Interests and the names of three to five References.  We encourage 
+email submission of these documents as Adobe Acrobat file 
+attachments, each labeled "LastName_FirstName_DocName.pdf" to  
+CEM-DCI-Search-Levitt at stanford.edu .
+
+Alternatively, applications can be mailed to:  Professor Raymond 
+Levitt, Chair, CEM/DCI Faculty Search Committee, Dept. of Civil & 
+Environmental Engineering, Stanford University, Stanford, CA 
+94305-4020.  The review of applications will begin on September 15, 
+2004; however, applications will be accepted until the position is 
+filled. 
+
+Stanford University is an equal opportunity, affirmative action employer.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040505/46851e56/attachment.htm>
+
+From dlombard at retec.com  Mon May  3 11:37:01 2004
+From: dlombard at retec.com (Debra Lombard)
+Date: Mon, 3 May 2004 14:37:01 -0400
+Subject: [BLDG-SIM] Cool-roofs
+In-Reply-To: <MDAEMON-F200405031102.AA0203109pd80000143579@gard.com>
+Message-ID: <MDAEMON-F200405031337.AA3755453pd50000130951@gard.com>
+
+Maybe you can use this:
+
+
+
+
+DOE Cool Roof Calculator
+http://www.ornl.gov/sci/roofs+walls/facts/CoolCalcEnergy.htm
+
+
+
+Debra Lombard
+LEEDtm Accredited Professional
+Lighting & Sustainable Design 
+The RETEC Group
+900 Chapel St., 2nd Fl - Box 9
+New Haven, CT 06510
+Tel: 203-776-2358 x 237
+Fax: 203-773-3657
+www.retec.com
+dlombard at retec.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040503/d78cc752/attachment.htm>
+
+From rbrahme at harc.edu  Mon May  3 09:01:04 2004
+From: rbrahme at harc.edu (Rohini Brahme)
+Date: Mon, 3 May 2004 11:01:04 -0500
+Subject: [BLDG-SIM] Cool-roofs
+Message-ID: <MDAEMON-F200405031102.AA0204906pd80000130574@gard.com>
+
+Sometime back I had read on this list that DOE-2 had some limitations with respect to predicting cool-roof energy impact. Any thoughts/experience with using energyplus for cool-roof calculations?
+ 
+Thanks
+ 
+Rohini
+
+From idoebber at vt.edu  Mon May  3 08:10:22 2004
+From: idoebber at vt.edu (Ian Doebber)
+Date: Mon, 3 May 2004 11:10:22 -0400
+Subject: [BLDG-SIM] Residential Air Conditioner Standard Conditions
+References: <MDAEMON-F200404231413.AA131500pd80000128640@gard.com>
+Message-ID: <MDAEMON-F200405031011.AA1112671pd80000130428@gard.com>
+
+I am trying to model a standard packaged Air Conditioner for my residence.  I am interested in the typical air conditions right after it exits the cooling coil.  I am mainly interested in how reduced the temperature should be below my set point temperature (I have seen roughly 15-25 F below), my air flow rate per ton of cooling (I have seen roughly 350-450 cfm/ton), and what the humidity ratio should be (right now I have set it at 0.0094).  Also, what is a typical Sensible Heating Ratio for a residential air conditioner (right now I'm geting ~75%) and if anyone could give me their estimation for the ton of cooling for a 2275 ft2 house in Atlanta would be that would be great.  Finally, other then ASHRAE Fundamentals, are there any other standard ratings for the exiting air conditions and where could I find them.
+
+Thanks
+Ian Doebber
+Masters Student
+Virginia Tech
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040503/5be4aa9b/attachment.htm>
+
+From jglazer at gard.com  Mon May  3 06:09:22 2004
+From: jglazer at gard.com (Jason Glazer)
+Date: Mon, 03 May 2004 08:09:22 -0500
+Subject: [BLDG-SIM] (Fwd) Weather Data for Los Alamos
+Message-ID: <MDAEMON-F200405030810.AA1004171pd80000130165@gard.com>
+
+
+------- Forwarded message follows -------
+Subject:        	Weather Data for Los Alamos
+Date sent:      	Fri, 30 Apr 2004 16:15:43 -0600
+From:           	"Vikram Sami" <Vikram at ensargroup.com>
+To:             	<BLDG-SIM at gard.com>
+
+Hi,
+I was wondering if anyone had annual rainfall data (broken
+up by month) for Los Alamos, NM. Thanks
+
+Vikram Sami
+  _____  
+
+Ensar Group Inc.
+2305 Broadway
+Boulder, CO 80304
+Tel: (303) 449-5226
+Fax: (303) 449-5276
+
+
+------- End of forwarded message -------
+=========================================================
+Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Mon May  3 06:08:25 2004
+From: jglazer at gard.com (Jason Glazer)
+Date: Mon, 03 May 2004 08:08:25 -0500
+Subject: [BLDG-SIM] (Fwd) Question about exhaust fans
+Message-ID: <MDAEMON-F200405030809.AA0913546pd80000130160@gard.com>
+
+
+------- Forwarded message follows -------
+Subject:        	Question about exhaust fans
+Date sent:      	Fri, 30 Apr 2004 16:00:41 -0600
+From:           	"Vikram Sami" <Vikram at ensargroup.com>
+To:             	<BLDG-SIM at gard.com>
+
+Hi,
+Is there any way I can assign an operation schedule for
+exhaust fans in eQUEST? I am trying to model this facility
+whos only heating source is a radiant slab, and the only
+ventilation source is a series of exhaust fans.
+
+Thanks
+
+Vikram Sami
+  _____  
+
+Ensar Group Inc.
+2305 Broadway
+Boulder, CO 80304
+Tel: (303) 449-5226
+Fax: (303) 449-5276
+
+
+------- End of forwarded message -------
+=========================================================
+Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cpederse at uiuc.edu  Sun May  2 12:03:53 2004
+From: cpederse at uiuc.edu (Curtis Pedersen)
+Date: Sun, 2 May 2004 14:03:53 -0500
+Subject: [BLDG-SIM] Double Skin Buildings in Energy Plus
+In-Reply-To: <MDAEMON-F200405020405.AA0511750pd80000139966@gard.com>
+References: <MDAEMON-F200405020405.AA0511750pd80000139966@gard.com>
+Message-ID: <MDAEMON-F200405021400.AA0031671pd80000128808@gard.com>
+
+Samuel:
+
+Both Mixing and CrossMixing in EnergyPlus have the feature you  
+describe.  Both objects have a "delta temperature" field that sets the  
+temperature difference for mixing. Look in the Input/Output Reference,   
+Group Air Flow, Objects:  Mixing and Cross Mixing.
+
+Curtis Pedersen
+
+
+
+
+
+
+
+On May 2, 2004, at 5:06 AM, Samuel Hassid wrote:
+
+> I am trying to simulate a Double Skin Building in Energy Plus and I  
+> have the fllowing dilema:
+> ?
+> One can choose between Simple AIRFLOW and COMIS.
+> ?
+> COMIS has the disadvantage that you have to simulate the whole  
+> building and will not accept non-communicating air paths - and besides  
+> cannot be used if you have a system simultaneously.
+> ?
+> My best solution would have been if I could use with MIXING a MIXING  
+> RATE which depends on the temperature difference and can be stopped if  
+> the temperature difference is less than, say, two degrees. This is  
+> something that can be done with VENTILLATION but not with MIXING. Does  
+> any one know a way around this difficulty ?
+> ??????????????????????????????????????????????????????????????????????? 
+> ????????????????????????????????????? Thanks
+> ?
+>
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cvrhasd at techunix.technion.ac.il  Sun May  2 03:06:03 2004
+From: cvrhasd at techunix.technion.ac.il (Samuel Hassid)
+Date: Sun, 2 May 2004 12:06:03 +0200
+Subject: [BLDG-SIM] Double Skin Buildings in Energy Plus
+Message-ID: <MDAEMON-F200405020405.AA0512734pd80000128159@gard.com>
+
+I am trying to simulate a Double Skin Building in Energy Plus and I have the fllowing dilema:
+
+One can choose between Simple AIRFLOW and COMIS.
+
+COMIS has the disadvantage that you have to simulate the whole building and will not accept non-communicating air paths - and besides cannot be used if you have a system simultaneously.
+
+My best solution would have been if I could use with MIXING a MIXING RATE which depends on the temperature difference and can be stopped if the temperature difference is less than, say, two degrees. This is something that can be done with VENTILLATION but not with MIXING. Does any one know a way around this difficulty ?
+                                                                                                             Thanks
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20040502/e061959e/attachment.htm>
+

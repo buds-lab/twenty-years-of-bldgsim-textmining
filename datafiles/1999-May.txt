@@ -1,0 +1,73 @@
+From raphael.compagnon at eif.ch  Fri May 21 13:00:40 1999
+From: raphael.compagnon at eif.ch (=?iso-8859-1?Q?Rapha=EBl?= Compagnon)
+Date: Fri, 21 May 1999 22:00:40 +0200
+Subject: [BLDG-SIM] COMIS Programmer's Guide
+In-Reply-To: <MDAEMON-F199905211309.AA093309MD36122@gard.com>
+Message-ID: <MDAEMON-F199905211459.AA592979MD46780@gard.com>
+
+>     We have been studying the source code for COMIS 3.0 with  IISiBat and
+>noted the reference in the main element to:   COMVEN Programmer's Guide,
+>EMPA 175, Duebendorf,  Switzerland, 1993   What must we do to obtain a
+>copy?  Thank  you.   Ron Pennsyle
+
+
+You may find what you want at: http://www.empa.ch/englisch/erg/comis/comis.htm
+
+
+__________________________________________________________
+Raphael Compagnon
+Departement d'Architecture, Ecole d'Ingenieurs de Fribourg
+Bd. de Perolles 80, 1705 Fribourg  Switzerland
+Tel:    +41 26 429 6666 or +41 26 429 6611 (secretariat)
+Fax:    +41 26 429 6600
+E-Mail: Raphael.Compagnon at eif.ch    WWW: http://www.eif.ch
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From munwiver at erols.com  Fri May 14 12:19:11 1999
+From: munwiver at erols.com (Ron P.)
+Date: Fri, 14 May 1999 15:19:11 -0400
+Subject: [BLDG-SIM] COMIS/TRNSYS
+Message-ID: <MDAEMON-F199905141412.AA123485MD45050@gard.com>
+
+Although I have over 30 years experience modeling the release of hazardous sources outdoors, I am a rookie in the indoor environment looking for insightful guidance. My expertise is in source representation for Gaussian models, but my current assignment is to find a non-CFD building simulation that handles explosive releases or liquid spills that allows the indoor concentration to control the evaporation rate. There does not appear to be such a model today (please correct me if I'm wrong), so I am looking at the COMIS/TRNSYS combo as a foundation for developing such a dynamic source release. Any thoughts or suggestions in this regard would be appreciated. Thanks in advance.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990514/19eb474b/attachment.htm>
+
+From bob at rer.com  Wed May  5 09:01:11 1999
+From: bob at rer.com (Bob Ramirez)
+Date: Wed, 5 May 1999 09:01:11 -0700
+Subject: [BLDG-SIM] Can anyone comment on the use of TRNSYS for simulating refrigerat
+	ed warehouses?
+Message-ID: <MDAEMON-F199905051104.AA042968MD42867@gard.com>
+
+I'd be interested in any comments on this.  Thanks!
+
+Bob
+
+
+Bob Ram?rez (bobram at rer.com or bob at rer.com)
+
+Regional Economic Research, Inc.             http://www.rer.com
+11236 El Camino Real #A, San Diego, CA 92130
+Phone: 619.481.0081 ext. 427
+FAX: 619.481.7550
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

@@ -1,0 +1,923 @@
+From tconlon at geopraxis.com  Mon May  1 22:45:26 2000
+From: tconlon at geopraxis.com (Tom Conlon)
+Date: Mon, 1 May 2000 22:45:26 -0700
+Subject: [BLDG-SIM] GeoPraxis Announces XML Schema for Building Energy and Environmental Performance Analysis
+Message-ID: <MDAEMON-F200005020108.AA081606MD32037@gard.com>
+
+FOR IMMEDIATE RELEASE
+
+Contact: Tom Conlon, Principal
+GeoPraxis, Inc.
+Phone: 707-996-9408
+Fax: 707-939-8702
+gbXML at geopraxis.com
+
+
+May 2, 2000
+
+GeoPraxis Announces XML Schema for Building Energy and Environmental
+Performance Analysis
+------------------------------------------
+
+SONOMA, Calif., May 2, 2000 / -- Today pioneering energy analysis solutions
+provider GeoPraxis, Inc. announced the publication of an open XML schema
+that will greatly facilitate the analysis of building energy and
+environmental performance.  Soon architects, engineers, and others who
+design and build buildings in CAD will be able to predict how much energy
+their buildings will use and how much pollution they will produce with
+drag-and-drop simplicity.
+
+The new schema, Green Building XML (gbXML), will greatly simplify and
+popularize the use of powerful but traditionally hard to use building energy
+simulation software.  Presently this type of software is only used for
+research or on the largest construction projects that can afford to hire
+specially trained engineers.
+
+The gbXML schema will facilitate the transfer of building information
+including product characteristics and equipment performance data between
+manufacturer?s databases, CAD applications, and energy simulation engines.
+Improved data interoperability between the tools currently used in the
+architecture, engineering, and construction (A/E/C) industry will greatly
+reduce the time and cost of designing high performance, energy and resource
+efficient buildings.
+
+John Kennedy, head of software development at GeoPraxis, made the
+announcement.  ?After six months of dedicated effort by our simulation tool
+development team, the preliminary gbXML specification is now ready for
+industry review and comment.  GeoPraxis is actively seeking cooperation with
+other interested parties before submission to BizTalk.Org and XML.Org later
+this month.  The next generation of gbXML-enabled CAD tools will allow
+architects to estimate energy consumption and associated environmental
+impacts as soon as their schematic designs are entered into CAD.  Engineers,
+Construction Managers, and other design team members see the benefits too
+since they will be able to refine the CAD files and re-perform the analyses
+without having to re-enter the data into another program.?
+
+Kennedy added, ?For building product manufacturers, CAD software vendors,
+and A/E/C project extranets, the best news in this announcement is that this
+schema is much more than a simple template to guide future schema and tool
+development.  In fact, the schema has already been integrated into the
+powerful IDEA Server(TM) web-based energy analysis application that is
+available right now.  And the benefits of the schema will be available to
+the users of the popular 3D CAD modeling software DesignWorkshop(R) by the
+end of the year.?
+
+Kennedy said he expects the schema will ultimately be adopted by the
+International Alliance for Interoperability (IAI), the organization that has
+been advocating data interoperability in the A/E/C industry for the past six
+years.  The long elusive goal of interoperability received a big boost when
+Bentley announced the publication of their aecXML standard last fall.  Since
+then, GeoPraxis has been closely following aecXML developments.
+
+?Our focus groups and survey of over 400 A/E/C 3D CAD users have confirmed
+there is great demand for energy analysis tools that are easier to use than
+what is currently available?, said Marketing Director Tom Conlon.  ?Almost
+all the architects we have spoken with are excited about the advanced
+capabilities this new technology will bring them.  No one wants to become an
+energy expert if they don?t have to, and no one has time to re-enter data or
+spend hours researching the properties of green building materials.?  Conlon
+says that manufacturers who make information about their high performance
+products compatible with the schema will be giving CAD users the easiest way
+possible to evaluate their products.
+
+President of Artifice, Inc. Kevin Matthews observed, "The new Green Building
+schema provides a real advance in CAD integration, for all the right
+reasons.  We will be supporting gbXML aggressively in our DesignWorkshop(R)
+Professional architectural modeling, rendering, and walkthrough software."
+
+"Using the gbXML schema, we can efficiently provide a new range of AEC
+design and analysis capabilities.  From our consumer-level web-based
+building design tools, to the high-level business and enterprise-level
+energy simulation solutions we are creating with GeoPraxis, this schema is
+the key to unlocking the power of the Internet for improved environmental
+performance."
+
+=============================
+About XML.
+Extensible Markup Language, or XML, is a meta-markup language that provides
+a universal data format for describing structured information.  The
+"extensibility" of the XML language makes it a very powerful business tool
+for communicating and collaborating on the Internet. By developing and
+implementing an "XML schema" or relational vocabulary specific to AEC
+projects, organizations using the same schema could use their existing
+software applications to send, receive, access and retrieve virtually any
+type of project document or transactional data. It also gives AEC firms a
+much more efficient and effective way for taking advantage of
+e-collaboration and e-commerce opportunities, such as coordinating and
+synchronizing related project information with clients as well as doing
+business with suppliers and purchasers of equipment, materials, supplies,
+parts and services.
+
+=============================
+About GeoPraxis.
+GeoPraxis, Inc. combines its expertise in energy engineering, market
+research, and software development to meet the rigorous research and
+development needs of some of the most sophisticated resource companies,
+research organizations, and policy-making bodies in the world.
+GeoPraxis is all about putting the best ideas to work for the most effective
+use of limited resources.  In Greek "Geo" means Earth and "Praxis" means
+Action, the exercise of an art, science, skill, or practice.  At GeoPraxis,
+our work enables people and organizations across the planet to better
+understand and manage their resource use.  Understanding how we use
+resources is the first step to taking control and managing their associated
+costs and risks.
+
+For information on how to view and comment on the schema, visit
+http://www.geopraxis.com/
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From RJHitchcock at lbl.gov  Mon May  1 06:37:57 2000
+From: RJHitchcock at lbl.gov (RJHitchcock at lbl.gov)
+Date: Mon, 01 May 2000 13:37:57 GMT
+Subject: [BLDG-SIM] EnXML - A Schema for Energy Simulation Data
+ Exchange
+Message-ID: <MDAEMON-F200005010827.AA272229MD31781@gard.com>
+
+The IAI has recently voted to make the IFC model available for public 
+review.  They are still working through copyright issues on the 
+documentation of the model.  I will try to keep you posted as the 
+glacier moves forward.
+
+Rob
+
+----- Original Message -----
+From: Charles Eley <charles at eley.com>
+Date: Friday, April 28, 2000 2:32 pm
+Subject: [BLDG-SIM] EnXML - A Schema for Energy Simulation Data Exchange
+
+> I agree that we should try to work with what IFC has done. The 
+> problem is
+> that the work of the organization is not really open for public 
+> review.Unless IFC
+> is willing to release its "proprietary" information into a public 
+> forum like
+> the
+> BLDG-SIM list, I think we should begin to develop our own XML schema.
+> 
+> Charles Eley
+> 
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Tue May 30 09:32:12 2000
+From: jglazer at gard.com (Jason Glazer)
+Date: Tue, 30 May 2000 11:32:12 -0500
+Subject: [BLDG-SIM] (Fwd) EZ Sim Billing Analysis Software on Internet!
+Message-ID: <MDAEMON-F200005301119.AA193776MD39459@gard.com>
+
+This message is from the Northwest Energy Efficiency 
+Alliance mailing list.
+
+------- Forwarded message follows -------
+Subject:        	EZ Sim Billing Analysis Software on Internet!
+Date sent:      	Tue, 30 May 2000 09:20:21 -0700
+Send reply to:  	energyline at energy.wsu.edu
+From:           	Alliance1 at energy.wsu.edu
+
+EZ Sim Billing Analysis Software for Commercial Facilities,
+a project sponsored by the Northwest Energy Efficiency
+Alliance, is now available over the internet for all US
+locations at http://www.ezsim.com
+
+New Web-based features and technical support include:
+* Online purchase of EZ Sim software (gas and electric, and
+multi-fuel versions) * Response to user's emailed questions
+* Automated downloadable tutorial * An electronic user
+newsletter, featuring discussions with other practitioners *
+Case studies and library models that can be downloaded *
+Current weather files for purchase * News about EZ Sim
+
+For more information please contact:
+Stellar Processes, Inc.
+1033 SW Yamhill Suite 405
+Portland, OR 97205
+(503) 827-8336
+www.ezsim.com
+
+
+==================================================
+This message was sent by the Alliance1 listserv, an email
+service that allows the Northwest Energy Efficiency Alliance
+to broadcast messages to the many people who have requested
+information on Alliance-sponsored activities.
+
+The Northwest Energy Efficiency Alliance is a non-profit
+consortium of Northwest utilities, the Bonneville Power
+Administration, government representatives, and public
+interest and efficiency groups. The Alliance is dedicated to
+increasing the acceptance and affordability of
+energy-efficient products and services in the Northwest.
+
+A complete listing and descriptions of all Alliance-funded
+projects can be found on our website at
+http://www.nwalliance.org
+
+If you do not wish to receive future messages, send a
+message to:
+
+alliance1-request at listserv.energy.wsu.edu
+
+In the body of the message (not the subject line) type:
+
+unsubscribe alliance1 <your email address>
+
+So we don't bombard everybody with unnecessary messages, we
+ask that you not use this service to broadcast responses to
+the group.  Instead, if you have questions about any of the
+message content, please direct them to the project contact
+included in the message. If you have any questions regarding
+the listserve, please forward them to the listserv
+administrator at "owner-alliance1 at listserv.energy.wsu.edu"
+or call 1-800-872-3568 (1-360-956-2237 outside of the
+Pacific Northwest).
+
+------- End of forwarded message -------
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cbarnaby at wrightsoft.com  Tue May 30 07:57:31 2000
+From: cbarnaby at wrightsoft.com (Chip Barnaby)
+Date: Tue, 30 May 2000 10:57:31 -0400
+Subject: [BLDG-SIM] IBPSA-USA Minneapolis meeting, June 24, 2000
+Message-ID: <MDAEMON-F200005300946.AA465662MD39395@gard.com>
+
+To IBPSA-USA members and friends --
+
+Following our now traditional format, we will meet in Minneapolis on Sat. 
+June 24, 2000.  An informal program will begin at 4 PM, followed by dinner 
+(with speaker) at 6:30 PM.
+
+The details of the program are being finalized and will be publicized shortly.
+
+Meanwhile,  plan to attend.  The meeting and dinner are open to everyone, 
+so bring friends and relatives.
+
+Please RSVP by eMail (to me) if you plan to attend the dinner.  As usual, 
+the cost will be in the $30 range.  We need a count for planning purposes.
+
+I hope to see you in Minneapolis!
+
+Chip Barnaby
+President, IPBSA-USA
+
+P.S.:  Sorry about duplicates of this message, we're using multiple lists.
+---------------------------------------------------------
+Chip Barnaby                   cbarnaby at wrightsoft.com
+Director of Software Development
+Wrightsoft Corp.               781-862-8719 x118 voice
+394 Lowell St, Suite 12        781-861-2058 fax
+Lexington, MA 02420            www.wrightsoft.com
+(Note new area code, formerly 617.)
+(Note new zip code, formerly 02173.  Insult to injury.)
+---------------------------------------------------------
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From iecc at vt.edu  Tue May 30 06:38:30 2000
+From: iecc at vt.edu (IEC)
+Date: Tue, 30 May 2000 09:38:30 -0400
+Subject: [BLDG-SIM] Weather Data
+Message-ID: <MDAEMON-F200005300824.AA241395MD39357@gard.com>
+
+Could someone tell me the best place to find good, current (1999) weather
+data for use in PowerDOE for a city not in the library?  I am trying to
+locate Blacksburg weather data hopefully in an acceptable format (TMY, TMY2,
+etc.).  Thanks.
+
+Morgan Stewart
+Virginia Tech
+iecc at vt.edu
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ckmail at pd.jaring.my  Mon May 29 02:12:30 2000
+From: ckmail at pd.jaring.my (ck)
+Date: Mon, 29 May 2000 17:12:30 +0800
+Subject: [BLDG-SIM] Awning Simulator
+In-Reply-To: <MDAEMON-F200005262148.AA481020MD27872@gard.com>
+Message-ID: <MDAEMON-F200005290407.AA074704MD39168@gard.com>
+
+John,
+
+You might want to take a look at SunCast from www.ies4d.com 
+You can create almost any shape that you like except real curve. And the
+model you create for shading analysis can be use for further analysis with
+ESP (Thermal Simulation) or Lighting with Radiance. 
+
+SunCast even have facilities for you to "remove" walls/roof to observe what
+is happening "inside" the building. 
+
+Regards,
+
+CK 
+
+At 07:46 PM 5/26/00 PDT, you wrote:
+>Is there a general purpose simulator that yields shading coefficient for 
+>various window/awning geometries?  I'm particularly interested in modeling 
+>curved awning shapes, exterior light shelf, and optimizing:
+>-shading for cooling load reduction,
+>-little interference w/ winter heat gain, and
+>-enhanced daylighting (penetration into room, illumination of high surfaces, 
+>etc.) throughout the year.
+>Having nothing to do with emotion (heaven forbid!) the shape could be
+>[(  ]  with the right bracket the window sill, a slot above the ( awning 
+>bounces daylight through the top ~1/4 of window opening.
+>Thanks!
+>John Porterfield, Director
+>Energy Initiatives
+>Renacer Westside Community Network, Inc.
+>2040 W. Jackson Blvd.
+>Chicago, IL  60612
+>312-226-6007 fax 226-1742
+>jmporterfield at hotmail.com
+>
+>________________________________________________________________________
+>Get Your Private, Free E-mail from MSN Hotmail at http://www.hotmail.com
+>
+>
+>
+>======================================================
+>You received this e-mail because you are subscribed 
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From john.daglish at vnumail.com  Sat May 27 02:28:40 2000
+From: john.daglish at vnumail.com (John Daglish)
+Date: Sat, 27 May 2000 11:28:40 +0200
+Subject: [BLDG-SIM] Awning Simulator
+Message-ID: <MDAEMON-F200005270421.AA213165MD38976@gard.com>
+
+Dear Mr Porter
+
+One of the best tools for sunshade design I have come across is
+Ecotect, an Australian simulation software product.
+http://fridge.arch.uwa.edu.au/software/index_default.html
+It is an architectural science tool, simple energy sim (uses CIBSE
+admittance method) +acoustics, but it can automatically design a
+sunshade given time and date parameters. There is a standalone
+sunshade program in the suite of available programs but it will only
+do rectangular best fit ...the main program will do a free form design
+eg put a top and sides on a shade for a window and it will "cut" the
+shade to the optimised form.
+
+Regards
+
+John DAGLISH
+eco-tecture, baubiologie & permaculture
+
+7, rue Georges Mandel
+91300 Massy, FRANCE
+Tel / Fax : +33.1.60 11 12 10
+Email : john.daglish at vnumail.com
+
+***********************************************
+This email is confidential. If you are not the intended recipient, you
+must not disclose or use the information contained in it. If you have
+received this email in error, please tell us immediately by return
+email and delete the document.
+***********************************************
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mchugh at h-m-g.com  Fri May 26 20:32:10 2000
+From: mchugh at h-m-g.com (Jon McHugh)
+Date: Fri, 26 May 2000 20:32:10 -0700
+Subject: [BLDG-SIM] Awning Simulator
+Message-ID: <MDAEMON-F200005262309.AA092590MD38920@gard.com>
+
+
+
+-----Original Message-----
+From: Jon McHugh 
+Sent: Friday, May 26, 2000 8:31 PM
+To: 'jmporterfield at hotmail.com'
+Subject: RE: [BLDG-SIM] Awning Simulator
+
+
+John,
+
+There is a simple graphical tool called the Libbey Owens Ford (LOF) Sun
+Angle Calculator.  A description of how to use it is in Fuller Moore's book
+Concepts and Practice of Architectural Daylighting, Van Nostrand, New York
+1985.  A great daylighting book by the way.
+
+Jon McHugh
+Heschong Mahone Group
+11626 Fair Oaks Blvd #302
+Fair Oaks, CA 95628 (Sacramento)
+(916)962-7001
+(916)962-0101 FAX
+e-mail: mchugh at h-m-g.com
+URL: www.h-m-g.com
+home e-mail: daylight at softcom.net
+
+-----Original Message-----
+From: John Porterfield [mailto:jmporterfield at hotmail.com]
+Sent: Friday, May 26, 2000 7:47 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Awning Simulator
+
+
+Is there a general purpose simulator that yields shading coefficient for 
+various window/awning geometries?  I'm particularly interested in modeling 
+curved awning shapes, exterior light shelf, and optimizing:
+-shading for cooling load reduction,
+-little interference w/ winter heat gain, and
+-enhanced daylighting (penetration into room, illumination of high surfaces,
+
+etc.) throughout the year.
+Having nothing to do with emotion (heaven forbid!) the shape could be
+[(  ]  with the right bracket the window sill, a slot above the ( awning 
+bounces daylight through the top ~1/4 of window opening.
+Thanks!
+John Porterfield, Director
+Energy Initiatives
+Renacer Westside Community Network, Inc.
+2040 W. Jackson Blvd.
+Chicago, IL  60612
+312-226-6007 fax 226-1742
+jmporterfield at hotmail.com
+
+________________________________________________________________________
+Get Your Private, Free E-mail from MSN Hotmail at http://www.hotmail.com
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jmporterfield at hotmail.com  Fri May 26 19:46:42 2000
+From: jmporterfield at hotmail.com (John Porterfield)
+Date: Fri, 26 May 2000 19:46:42 PDT
+Subject: [BLDG-SIM] Awning Simulator
+Message-ID: <MDAEMON-F200005262147.AA475584MD38896@gard.com>
+
+Is there a general purpose simulator that yields shading coefficient for 
+various window/awning geometries?  I'm particularly interested in modeling 
+curved awning shapes, exterior light shelf, and optimizing:
+-shading for cooling load reduction,
+-little interference w/ winter heat gain, and
+-enhanced daylighting (penetration into room, illumination of high surfaces, 
+etc.) throughout the year.
+Having nothing to do with emotion (heaven forbid!) the shape could be
+[(  ]  with the right bracket the window sill, a slot above the ( awning 
+bounces daylight through the top ~1/4 of window opening.
+Thanks!
+John Porterfield, Director
+Energy Initiatives
+Renacer Westside Community Network, Inc.
+2040 W. Jackson Blvd.
+Chicago, IL  60612
+312-226-6007 fax 226-1742
+jmporterfield at hotmail.com
+
+________________________________________________________________________
+Get Your Private, Free E-mail from MSN Hotmail at http://www.hotmail.com
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From fcw at pegasus.lbl.gov  Tue May 16 09:25:00 2000
+From: fcw at pegasus.lbl.gov (Fred Winkelmann)
+Date: Tue, 16 May 00 09:25:00 PDT
+Subject: [BLDG-SIM] thermal bridges software
+Message-ID: <MDAEMON-F200005161121.AA210846MD36138@gard.com>
+
+Try THERM at http://windows.lbl.gov/software/therm/therm.html
+
+Fred Winkelmann
+
+
+----- Begin Included Message -----
+
+
+From jhernand at dmu.ac.uk  Tue May 16 07:18:01 2000
+From: jhernand at dmu.ac.uk (Jose Hernandez)
+Date: Tue, 16 May 2000 15:18:01 +0100
+Subject: [BLDG-SIM] thermal bridges software
+Message-ID: <MDAEMON-F200005160914.AA140540MD25519@gard.com>
+
+Hello all
+
+My name is Jose Hernandez from the Institute of Energy and Sustainable
+Development (IESD), De Montfort University, UK. I am currently looking for
+some software dealing with the analysis of thermal bridges or the simulation
+of heat transfer in 3D. I've already found Heat 3D (Heat 2D and FETH for 2D
+analysis). Preferably, free software or demo versions (directly downloadable
+would be great).
+Thank you very much in advance.
+
+Jose Hernandez
+
+********************************
+Research Student
+Jos? Hern?ndez
+Institute of Energy & Sustainable Development,
+De Montfort University,
+Netherleys Building, Scraptoft Campus,
+Scraptoft, Leicester. LE7 9SU.
+UK.
+
+jhernand at dmu.ac.uk
+Tel. +44 (0)116 255 1551 ext. 8711
+Fax: +44 (0) 116 257 7981
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+----- End Included Message -----
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From erwin.mlecnik at cenergie.be  Tue May 16 08:35:06 2000
+From: erwin.mlecnik at cenergie.be (Erwin Mlecnik)
+Date: Tue, 16 May 2000 17:35:06 +0200
+Subject: [BLDG-SIM] thermal bridges software
+Message-ID: <MDAEMON-F200005161053.AA534931MD36124@gard.com>
+
+Dear Jose
+
+(Euro)Kobra is also a software package dealing with 2D standard
+solutions for thermal bridges in buildings. The company Physibel in
+Belgium promised that it would be available as freeware.
+Also try www.physibel.be for more information on 3D packages.
+
+Regards,
+Erwin Mlecnik.
+
+ir. Erwin MLECNIK
+CENERGIE cvba
+Gitschotellei 138
+B-2600 Berchem
+
+tel.: +32 3 271 19 39
+fax: +32 3 271 03 59
+e-mail: erwin.mlecnik at cenergie.be
+
+-----Original Message-----
+From: Jose Hernandez [mailto:jhernand at dmu.ac.uk]
+Sent: dinsdag 16 mei 2000 16:18
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] thermal bridges software
+
+
+Hello all
+
+My name is Jose Hernandez from the Institute of Energy and Sustainable
+Development (IESD), De Montfort University, UK. I am currently looking
+for
+some software dealing with the analysis of thermal bridges or the
+simulation
+of heat transfer in 3D. I've already found Heat 3D (Heat 2D and FETH for
+2D
+analysis). Preferably, free software or demo versions (directly
+downloadable
+would be great).
+Thank you very much in advance.
+
+Jose Hernandez
+
+********************************
+Research Student
+Jos? Hern?ndez
+Institute of Energy & Sustainable Development,
+De Montfort University,
+Netherleys Building, Scraptoft Campus,
+Scraptoft, Leicester. LE7 9SU.
+UK.
+
+jhernand at dmu.ac.uk
+Tel. +44 (0)116 255 1551 ext. 8711
+Fax: +44 (0) 116 257 7981
+
+
+
+
+=====================================================You received this
+e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jhernand at dmu.ac.uk  Tue May 16 07:18:01 2000
+From: jhernand at dmu.ac.uk (Jose Hernandez)
+Date: Tue, 16 May 2000 15:18:01 +0100
+Subject: [BLDG-SIM] thermal bridges software
+Message-ID: <MDAEMON-F200005160914.AA140901MD36062@gard.com>
+
+Hello all
+
+My name is Jose Hernandez from the Institute of Energy and Sustainable
+Development (IESD), De Montfort University, UK. I am currently looking for
+some software dealing with the analysis of thermal bridges or the simulation
+of heat transfer in 3D. I've already found Heat 3D (Heat 2D and FETH for 2D
+analysis). Preferably, free software or demo versions (directly downloadable
+would be great).
+Thank you very much in advance.
+
+Jose Hernandez
+
+********************************
+Research Student
+Jos? Hern?ndez
+Institute of Energy & Sustainable Development,
+De Montfort University,
+Netherleys Building, Scraptoft Campus,
+Scraptoft, Leicester. LE7 9SU.
+UK.
+
+jhernand at dmu.ac.uk
+Tel. +44 (0)116 255 1551 ext. 8711
+Fax: +44 (0) 116 257 7981
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jmporterfield at hotmail.com  Fri May 12 10:19:27 2000
+From: jmporterfield at hotmail.com (John Porterfield)
+Date: Fri, 12 May 2000 10:19:27 PDT
+Subject: [BLDG-SIM] Window Properties
+Message-ID: <MDAEMON-F200005121208.AA083028MD35332@gard.com>
+
+A good reference, perhaps dated, is U. S. Glass, Metal & Glazing magazine 
+article, Aug 1989, by Todd W. Sitrin, provided to me by Southwall 
+Technologies.  I advocate use of "reflector shade" as originally conceived 
+by Steve Baer of Zomeworks to manage winter/summer transition of solar gain 
+and daylight availability, though I haven't had the opportunity to manage an 
+installation.  If subscribers have experience with this skylight treatment 
+please let me know.  Also, having done numerous infrared scans, I have yet 
+to see a skylight well and curb that have been insulated to my liking.  I 
+advocate a "lay-light" glazing conforming to the ceiling plane to block 
+air/heat/moisture movement to the skylight glazing.
+Thanks!
+John Porterfield, Director
+Energy Initiatives
+Renacer Westside Community Network
+2040 W. Jackson Blvd.
+Chicago, IL 60612
+312-226-6007 FAX 226-1742
+jmporterfield at hotmail.com
+
+
+________________________________________________________________________
+Get Your Private, Free E-mail from MSN Hotmail at http://www.hotmail.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From iecc at vt.edu  Fri May 12 07:55:45 2000
+From: iecc at vt.edu (IEC)
+Date: Fri, 12 May 2000 10:55:45 -0400
+Subject: [BLDG-SIM] Window Properties
+Message-ID: <MDAEMON-F200005120942.AA421553MD35284@gard.com>
+
+Does anyone know of a good source for window properties?  I am trying to
+model a skylight with 1/4" tempered glass (clear), 1/2" air space, 3/8"
+laminated glass (clear) and 1 1/8" glazing.
+
+Morgan Stewart
+Virginia Tech
+iecc at vt.edu
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mcase at etcgrp.com  Tue May  9 13:46:09 2000
+From: mcase at etcgrp.com (Mark Case)
+Date: Tue, 9 May 2000 14:46:09 -0600
+Subject: [BLDG-SIM] centrifugal blowers
+Message-ID: <MDAEMON-F200005091538.AA381596MD34439@gard.com>
+
+Does anyone have experience with a variable speed drive on a centrifugal
+blower used in an industrial vacuum system?
+This is a 60 HP machine that is never loaded beyond 40% (power) - even with
+an inlet bypass. Any suggestions would be greatly appreciated.
+The manufacturer has been useless (they already sold the machine and
+apparently could care less about making it more efficienct, although they
+did provide us with a performance curve)
+
+Mark E. Case, P.E.
+President, etc Group, Inc.
+3481 South 2300 East
+Salt Lake City, Utah 84109
+801-278-1927, 801-278-1942 (F)
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20000509/5897afc3/attachment.htm>
+
+From larry at archone.tamu.edu  Tue May  9 12:56:41 2000
+From: larry at archone.tamu.edu (Larry Degelman)
+Date: Tue, 9 May 2000 14:56:41 -0500
+Subject: [BLDG-SIM] Simulation publication...
+Message-ID: <MDAEMON-F200005091446.AA465579MD34407@gard.com>
+
+Does anyone recognize this citation?
+
+From MWetter at lbl.gov  Mon May  8 12:21:03 2000
+From: MWetter at lbl.gov (Michael Wetter)
+Date: Mon, 08 May 2000 19:21:03 +0000
+Subject: [BLDG-SIM] GenOpt 1.1 beta released
+Message-ID: <MDAEMON-F200005081405.AA053046MD34062@gard.com>
+
+GenOpt(R) 1.1 beta has been released. GenOpt is a generic optimization
+program developed by the Simulation Research Group at LBNL.
+
+It is designed for minimization of a so-called objective function, such
+as annual energy use, that is computed by an external simulation
+program.
+
+GenOpt can automatically determine the values of user-selected system
+parameters such that optimal system performance is achieved. It can also
+identify unknown parameters in a data-fitting process.
+
+By modifying a configuration file, users can easily couple any external
+program (like DOE-2, SPARK, BLAST, EnergyPlus, TRACE, TRNSYS, or any
+user-written program with text-based input/output) to compute the
+function being minimized.
+
+GenOpt also offers an interface for implementing own optimization
+algorithms in its library.
+
+For more information, please visit http://simulationresearch.lbl.gov and
+follow the link to GenOpt 1.1 beta.
+
+
+Michael Wetter
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Fri May  5 07:56:18 2000
+From: jglazer at gard.com (Jason Glazer)
+Date: Fri, 5 May 2000 09:56:18 -0500
+Subject: [BLDG-SIM] No Virus from BLDG-SIM
+Message-ID: <MDAEMON-F200005050944.AA441751MD33452@gard.com>
+
+You just received a message from the BLDG-SIM mailing list with the subject 
+"ILOV3YOU" (with the 3 being an E).  The message you received did not include 
+the attachment that contains the virus you may have heard about. The virus 
+attachment was removed by the software on the GARD mail server prior to it being 
+distributed so the message you received was safe and could not cause any virus 
+problem on your computer.
+
+For some good pointers on how to avoid viruses, please see today's TOURBUS post 
+at:
+
+http://listserv.aol.com/cgi-bin/wa?A2=ind0005A&L=tourbus&P=R183&m=1
+
+For the recent virus the best suggestion is:
+
+"IF SOMEONE UNEXPECTEDLY SENDS YOU AN EXECUTABLE FILE OR VISUAL BASIC SCRIPT 
+FILE -- IN OTHER WORDS, A FILE THAT ENDS IN .EXE OR .VBS -- THROW IT OUT."
+
+Sincerely,
+
+Jason
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

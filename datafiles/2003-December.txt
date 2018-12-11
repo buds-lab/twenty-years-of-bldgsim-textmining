@@ -1,0 +1,3480 @@
+From davecstewart at ns.sympatico.ca  Tue Dec  2 09:26:35 2003
+From: davecstewart at ns.sympatico.ca (David Stewart)
+Date: Tue, 2 Dec 2003 13:26:35 -0400
+Subject: [BLDG-SIM] Increased R value Credit for Concrete and Themal Massing
+Message-ID: <MDAEMON-F200312021119.AA1908750pd80000501894@gard.com>
+
+Dear Folks
+
+Has anyone explored the increased R value credits for thermal massing for example Dow T-Mass etc. and can one simply increase the R value to the 'effective R value while changing the mass in DOE.  I would like some more background on this credit with 3rd party validation
+
+Thanks
+
+Dave Stewart
+
+David C. Stewart & Associates Inc.
+16 Shawinigan Road
+Dartmouth, NS B2W 3A3
+
+Website: http://dcsa.ca
+
+Tel: 902 462 8111
+Fax 902 435 6646
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031202/534b656f/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: David C Stewart MS P. Eng..vcf
+Type: text/x-vcard
+Size: 830 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031202/534b656f/attachment.vcf>
+
+From sagerer at paonline.com  Tue Dec  2 09:26:32 2003
+From: sagerer at paonline.com (Sheila Sagerer)
+Date: Tue, 2 Dec 2003 12:26:32 -0500
+Subject: [BLDG-SIM] Hourly Reports in Equest
+Message-ID: <MDAEMON-F200312021123.AA232115pd80000501903@gard.com>
+
+
+With your project open, click the "Project & Site" button on the navigation
+bar.  Select the component tree tab in the project tree (If the project tree
+is not showing, go to "View" on the top toolbar and select "Project Tree").
+You should now see folders for "Hourly Reports" and "Hourly Report Blocks"
+in the tree.  Double-clicking on an existing report or block allows you to
+edit that component.  Right-clicking should bring up an option to create a
+new component.  The detail screens look very similar to PowerDOE report and
+block screens.
+
+Hope this helps.
+
+Sheila Sagerer
+Energy Engineer, LEED AP
+Energy Opportunities, Inc
+717-880-9069
+Fax: 717-291-9497
+
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of
+HermesPropylaios at aol.com
+Sent: Tuesday, December 02, 2003 10:41 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Hourly Reports in Equest
+
+
+Gentlemen:
+  Doing a project in Equest rather than PowerDOE.  I want to check some
+trends, but I can not find out where to specify hourly reports.  If anyone
+could tell me how/where to find them, I would appreciate it.
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From HermesPropylaios at aol.com  Tue Dec  2 07:41:18 2003
+From: HermesPropylaios at aol.com (HermesPropylaios at aol.com)
+Date: Tue, 02 Dec 2003 10:41:18 -0500
+Subject: [BLDG-SIM] Hourly Reports in Equest
+Message-ID: <MDAEMON-F200312020933.AA3344265pd80000501762@gard.com>
+
+Gentlemen:
+  Doing a project in Equest rather than PowerDOE.  I want to check some trends, but I can not find out where to specify hourly reports.  If anyone could tell me how/where to find them, I would appreciate it.
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Christoph.Reinhart at nrc-cnrc.gc.ca  Tue Dec  2 06:59:47 2003
+From: Christoph.Reinhart at nrc-cnrc.gc.ca (Reinhart, Christoph)
+Date: Tue, 2 Dec 2003 09:59:47 -0500 
+Subject: [BLDG-SIM] 5 minutes of your time: Survey on the use of daylight simulation 
+	tools
+Message-ID: <MDAEMON-F200312020853.AA5322250pd80000501704@gard.com>
+
+Please excuse the cross-postings...
+ 
+Dear colleague,
+ 
+This is your opportunity to influence future developments of daylight
+simulation tools.
+ 
+You are invited to participate in an online survey on the current use of
+daylight simulation tools during building design. The survey is carried out
+as part of a research project of the International Energy Agency's Task 31,
+Daylighting Buildings in the 21st Century.The survey is administered by the
+National Research Council Canada and will be active until Tuesday, December
+23rd 2003. The outcome of the survey will be used to: 
+?        identify existing weaknesses of daylighting design software
+packages 
+?        better understand design practitioners' needs 
+?        tailor the output of tools accordingly. 
+ 
+We would like you to fill out an online questionnaire about your daylighting
+design experience. Please respond to all questions as openly and honestly as
+possible. There are no right or wrong answers; it is only your opinion that
+is important. All information that we obtain from you through this survey
+will be kept confidential. Your participation in this research is voluntary.
+Should you decide to participate in the survey, you still reserve the right
+to end your participation at any time and for any reason, without prejudice.
+
+ 
+If you are interested in participating in this survey, please go to
+<http://irc.nrc-cnrc.gc.ca/ie/light/survey.html>
+http://irc.nrc-cnrc.gc.ca/ie/light/survey.html. Thank you in advance for
+your participation.
+Should you have any questions or suggestions, please contact Dr. Christoph
+Reinhart at  <mailto:christoph.reinhart at nrc-cnrc.gc.ca>
+christoph.reinhart at nrc-cnrc.gc.ca or +1(613)993 9703.
+ 
+Christoph Reinhart, Ph.D.                        tel: (613) 993-9703 
+Research Officer                                      fax: (613) 954-3733 
+Institute for Research in Construction      e-mail:
+christoph.reinhart at nrc-cnrc.gc.ca 
+National Research Council Canada        1200 Montreal Road M-24, Ottawa 
+Ontario K1A 0R6 Canada 
+
+Daylighting Analysis Software: 
+The Lightswitch Wizard (initial design)   www.buildwiz.com
+<http://www.buildwiz.com/lightswitch/index.cfm>  
+DAYSIM (expert software)                       www.daysim.com
+<outbind://55/www.daysim.com>   <outbind://55/www.daysim.com> 
+
+
+IEA Task 31
+http://www.iea-shc.org/task31/ <http://www.iea-shc.org/task31/>  
+
+ 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031202/a7e56e14/attachment.htm>
+
+From vhanby at dmu.ac.uk  Tue Dec  2 02:11:55 2003
+From: vhanby at dmu.ac.uk (Vic Hanby)
+Date: Tue, 2 Dec 2003 10:11:55 +0000 (GMT)
+Subject: [BLDG-SIM] Determination of Boiler System Losses and Efficiencies
+Message-ID: <MDAEMON-F200312020404.AA0442359pd80000501457@gard.com>
+
+Jim:
+
+Five or six years ago we developed a (gas and oil-fired) boiler model that had 
+detailed combustion and heat transfer modelling. It needed geometrical 
+information that was generally available from manufacturers and was validated 
+against an extensive testing programme at BSRIA in the UK. It's more focused on 
+modelling specific boilers and needs less empirical coefficients than the 
+Primary Toolkit model and was written up in HVAC&R 3(2) 1997.
+
+The original code was wrapped into a TRNSYS Type and therefore could be combined 
+with a load circuit and controls to simulate long term operation. The researcher 
+who worked on this with me left some while ago, and I haven't done much with the 
+code since. It may be possible to dust this off if there was enough interest: it 
+would certainly be capable of addressing all four of the issues. The original 
+work was funded by a UK Research Council.
+
+Regards
+
+Vic Hanby
+-------------------------------------------------
+Professor V I Hanby
+Institute of Energy and Sustainable Development
+De Montfort University
+The Gateway
+Leicester LE1 9BH, UK
++44 (0)116 257 7980,  7977 (fax)
+-------------------------------------------------
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mwilson at enerficiency.ca  Mon Dec  1 15:35:17 2003
+From: mwilson at enerficiency.ca (Michael Wilson)
+Date: Mon, 1 Dec 2003 15:35:17 -0800
+Subject: [BLDG-SIM] Determination of Boiler System Losses and Efficiencies
+In-Reply-To: <MDAEMON-F200312011536.AA3600734pd80000650668@gard.com>
+Message-ID: <MDAEMON-F200312011727.AA2731968pd80000500824@gard.com>
+
+
+I've been looking for info on this subject for some time, with little
+success. There seems to be lots of testing of combustion efficiency, but
+little info on jacket losses and off cycle stack losses. Which makes it
+difficult to create accurate DOE-2 boiler curves. But DOE-2's default
+curves, and in fact the whole boiler simulation model, is, in my opinion,
+not particularly accurate.
+
+I'll be very interested in what you can find out.
+Michael Wilson, P.Eng.
+Enerficiency Consulting
+455 Elphinstone Ave.
+Gibsons, BC, V0N 1V1
+604-886-9864 phone
+604-676-2604 fax (Vancouver local #)
+mwilson at enerficiency.ca
+
+  -----Original Message-----
+  From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Jim Willson
+  Sent: December 1, 2003 1:41 PM
+  To: BLDG-SIM at gard.com
+  Subject: [BLDG-SIM] Determination of Boiler System Losses and Efficiencies
+
+
+  TC 4.7 has been approached with a request for an insight, studies,
+articles, or other sources that could assist them in developing tools,
+intended for gas customer use, to estimate:
+           1.  Annual Fuel Utilization Efficiency or Seasonal Boiler
+Efficiency
+           2.  Cycling losses
+           3.  Fuel savings of lowering the operating steam pressure
+           4.  Efficiency reduction due to oversized boilers
+
+  This is an area that doesn't seem to get discussed much in the building
+energy arena.  I am interested to see what develops.  Please share anything
+you know.
+
+  Regards,
+
+  Jim Willson
+  Applications Subcommittee Chair TC 4.7
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031201/a7c0ab7a/attachment.htm>
+
+From mmehta at bnim.com  Mon Dec  1 14:04:24 2003
+From: mmehta at bnim.com (Mohit Mehta)
+Date: Mon, 1 Dec 2003 16:04:24 -0600
+Subject: [BLDG-SIM] Throttling Range in eQUEST
+Message-ID: <MDAEMON-F200312011557.AA5700234pd80000500659@gard.com>
+
+Isn't the generally used unit for throttling range - deg F or Deg C? But
+in the 'zone parameters window' it asks for the input in deg R...??? Is
+this the Rankine scale, which as I understand, is virtually never used
+in scientific research these days.  
+Also when I look at the BDL file generated by eQUEST it shows -
+"THROTTLING-RANGE = 0.2500 R"
+Is this an error or am I not understanding it correctly?
+Thanks.
+~mohit
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031201/abaf142c/attachment.htm>
+
+From mmehta at bnim.com  Mon Dec  1 13:49:02 2003
+From: mmehta at bnim.com (Mohit Mehta)
+Date: Mon, 1 Dec 2003 15:49:02 -0600
+Subject: [BLDG-SIM] Throttling Range in eQUEST
+Message-ID: <MDAEMON-F200312011541.AA4158390pd80000500631@gard.com>
+
+Isn't the generally used unit for throttling range - deg F or Deg C? But
+in the 'zone parameters window' it asks for the input in deg R...??? Is
+this the Rankine scale, which as I understand, is virtually never used
+in scientific research these days.  
+Also when I look at the BDL file generated by eQUEST it shows -
+"THROTTLING-RANGE = 0.2500 R"
+Is this an error or am I not understanding it correctly?
+Thanks.
+~mohit
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031201/fbd58c2e/attachment.htm>
+
+From jimwill at indy.net  Mon Dec  1 13:40:33 2003
+From: jimwill at indy.net (Jim Willson)
+Date: Mon, 1 Dec 2003 16:40:33 -0500
+Subject: [BLDG-SIM] Determination of Boiler System Losses and Efficiencies
+Message-ID: <MDAEMON-F200312011535.AA3554421pd80000500612@gard.com>
+
+TC 4.7 has been approached with a request for an insight, studies, articles, or other sources that could assist them in developing tools, intended for gas customer use, to estimate:
+         1.  Annual Fuel Utilization Efficiency or Seasonal Boiler Efficiency
+         2.  Cycling losses
+         3.  Fuel savings of lowering the operating steam pressure 
+         4.  Efficiency reduction due to oversized boilers
+
+This is an area that doesn't seem to get discussed much in the building energy arena.  I am interested to see what develops.  Please share anything you know.
+
+Regards,
+
+Jim Willson
+Applications Subcommittee Chair TC 4.7
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031201/1fab7f18/attachment.htm>
+
+From rkstrand at uiuc.edu  Mon Dec  1 11:09:47 2003
+From: rkstrand at uiuc.edu (Rick Strand)
+Date: Mon, 01 Dec 2003 13:09:47 -0600
+Subject: [BLDG-SIM] SimBuild 2004
+Message-ID: <MDAEMON-F200312011314.AA1458375pd80000500403@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031201/1a96f7e3/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: IBPSAlogo.jpg
+Type: image/jpeg
+Size: 14655 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031201/1a96f7e3/attachment.jpg>
+
+From ckmail at pd.jaring.my  Tue Dec 30 16:24:55 2003
+From: ckmail at pd.jaring.my (CKTang)
+Date: Wed, 31 Dec 2003 08:24:55 +0800
+Subject: [bldg-sim] Cibse U-value & Ashrae U-value
+Message-ID: <MDAEMON-F200312301817.AA1715406pd80000542585@gard.com>
+
+Is there any differences between Cibse U-value and Ashrae U-value?
+
+Shouldn't they be identical values?
+
+Regards,
+
+CK 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From michel.bernier at polymtl.ca  Tue Dec 30 09:09:05 2003
+From: michel.bernier at polymtl.ca (Michel Bernier)
+Date: Tue, 30 Dec 2003 12:09:05 -0500
+Subject: [bldg-sim] Atmospheric Pollution Data
+In-Reply-To: <MDAEMON-F200312300957.AA5751359pd80000701519@gard.com>
+Message-ID: <MDAEMON-F200312301101.AA0109625pd80000542069@gard.com>
+
+Hydro-Quebec has produced an interesting north america map showing 
+electrical generation
+and atmospheric emissions in Canada and in the United States:
+http://www.hydroquebec.com/environment/comparaison_energie/pdf/fneameric.pdf 
+(5.7 Mb !)
+
+Michel Bernier
+
+
+
+At 11:03 30/12/2003 -0500, Drury.Crawley at EE.DOE.GOV wrote:
+>In the US, there's a great set of data on atmospheric pollution due
+>to electrical generation--national, state and utility average down to
+>the power plant.
+>(http://www.epa.gov/cleanenergy/egrid/pdfs/egrid2003factsheet.pdf)
+>
+>Are similar data available for other countries?
+>
+>Dru Crawley
+>DOE
+>
+>
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+***************************************
+Michel Bernier ing., Ph.D.
+Professeur
+Departement de genie mecanique
+Ecole Polytechnique de Montreal
+Case Postale 6079, Succ. "Centre-Ville"
+Montreal, Quebec Canada
+H3C 3A7
+T?l: (514) 340-4711 ext: 4381
+Fax: (514) 340-5917
+e-mail:michel.bernier at polymtl.ca
+***************************************
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at EE.DOE.GOV  Tue Dec 30 08:03:54 2003
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Tue, 30 Dec 2003 11:03:54 -0500
+Subject: [bldg-sim] Atmospheric Pollution Data
+Message-ID: <MDAEMON-F200312300957.AA5744218pd80000541957@gard.com>
+
+In the US, there's a great set of data on atmospheric pollution due
+to electrical generation--national, state and utility average down to
+the power plant.
+(http://www.epa.gov/cleanenergy/egrid/pdfs/egrid2003factsheet.pdf)
+
+Are similar data available for other countries?
+
+Dru Crawley
+DOE
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From glenn at rlw.com  Mon Dec 29 08:35:03 2003
+From: glenn at rlw.com (Glenn Haynes)
+Date: Mon, 29 Dec 2003 11:35:03 -0500
+Subject: [bldg-sim] Exterir lighting
+Message-ID: <MDAEMON-F200312291023.AA2357359pd80000540530@gard.com>
+
+Can someone tell me how to specify exterior lighting power in DOE2.2?  I've
+tried the DOE2.1E method, and that doesn't seem to work.  Also, I've
+searched all the DOE2.2 manuals for something on this, but with no success.
+
+Thanks,
+Glenn
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at EE.DOE.GOV  Sun Dec 28 17:28:41 2003
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Sun, 28 Dec 2003 20:28:41 -0500
+Subject: [bldg-sim] Typical Canadian house
+Message-ID: <MDAEMON-F200312281921.AA2152781pd80000539616@gard.com>
+
+For Canadian data, you should check out the NRCan
+Office of Energy Efficiency data and analysis web pages:
+
+http://oee1.nrcan.gc.ca/neud/dpa/home.cfm?PrintView=N&Text=N
+
+and particularly some of the publications on this page:
+
+http://oee1.nrcan.gc.ca/neud/dpa/data_e/neud_publications.cfm?PrintView=N&Text=N
+
+
+
+----- Forwarded by Drury Crawley/EE/DOE on 12/28/2003 08:24 PM -----
+                                                                                                           
+                      Drury Crawley                                                                        
+                                               To:      bldg-sim at gard.com                                  
+                      12/28/2003 08:22         cc:                                                         
+                      PM                       Subject: Re: [bldg-sim] Typical Canadian house(Document     
+                                               link: Drury Crawley)                                        
+                                                                                                           
+
+
+
+LBNL did an analysis of a variety of residential buildings
+using DOE-2 to characterize the entire US residential
+building stock, completed in late 1999.  Joe Huang is working
+to update the models and convert them into EnergyPlus.
+
+Here's the 1999 report:
+http://www.eere.energy.gov/buildings/documents/pdfs/lbnl-44636.pdf
+
+
+
+                                                                                                           
+                      "Muhammad Haider                                                                     
+                      Khan"                    To:       bldg-sim at gard.com                                 
+                      <muhamhk at okstate.        cc:                                                         
+                      edu>                     Subject:  [bldg-sim] Typical Canadian house                 
+                      Sent by:                                                                             
+                      postman at gard.com                                                                     
+                                                                                                           
+                                                                                                           
+                      12/28/2003 07:08                                                                     
+                      PM                                                                                   
+                      Please respond to                                                                    
+                      muhamhk                                                                              
+                                                                                                           
+                                                                                                           
+
+
+
+
+I am graduate student, currently my research is on designing GSHP for
+residential buildings. if someone here has calculated heating/cooling loads
+for a typical Canadian house or typical houses in northern USA, using
+either of BLAST, DOE, EnergyPlus, HOT2000 or TRYNSYS, please send me the
+input file for the program and the description of the residential building.
+thanks,
+Haider.
+
+
+=====================================================You received this
+e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at EE.DOE.GOV  Sun Dec 28 17:22:04 2003
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Sun, 28 Dec 2003 20:22:04 -0500
+Subject: [bldg-sim] Typical Canadian house
+Message-ID: <MDAEMON-F200312281919.AA195346pd80000539611@gard.com>
+
+
+LBNL did an analysis of a variety of residential buildings
+using DOE-2 to characterize the entire US residential
+building stock, completed in late 1999.  Joe Huang is working
+to update the models and convert them into EnergyPlus.
+
+Here's the 1999 report:
+http://www.eere.energy.gov/buildings/documents/pdfs/lbnl-44636.pdf
+
+
+
+                                                                                                           
+                      "Muhammad Haider                                                                     
+                      Khan"                    To:       bldg-sim at gard.com                                 
+                      <muhamhk at okstate.        cc:                                                         
+                      edu>                     Subject:  [bldg-sim] Typical Canadian house                 
+                      Sent by:                                                                             
+                      postman at gard.com                                                                     
+                                                                                                           
+                                                                                                           
+                      12/28/2003 07:08                                                                     
+                      PM                                                                                   
+                      Please respond to                                                                    
+                      muhamhk                                                                              
+                                                                                                           
+                                                                                                           
+
+
+
+
+I am graduate student, currently my research is on designing GSHP for
+residential buildings. if someone here has calculated heating/cooling loads
+for a typical Canadian house or typical houses in northern USA, using
+either of BLAST, DOE, EnergyPlus, HOT2000 or TRYNSYS, please send me the
+input file for the program and the description of the residential building.
+thanks,
+Haider.
+
+
+=====================================================You received this
+e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From muhamhk at okstate.edu  Sun Dec 28 16:08:38 2003
+From: muhamhk at okstate.edu (Muhammad Haider Khan)
+Date: Sun, 28 Dec 2003 18:08:38 -0600
+Subject: [bldg-sim] Typical Canadian house
+Message-ID: <MDAEMON-F200312281800.AA003262pd80000539534@gard.com>
+
+I am graduate student, currently my research is on designing GSHP for residential buildings. if someone here has calculated heating/cooling loads for a typical Canadian house or typical houses in northern USA, using either of BLAST, DOE, EnergyPlus, HOT2000 or TRYNSYS, please send me the input file for the program and the description of the residential building.
+thanks,
+Haider.
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031228/76070ede/attachment.htm>
+
+From jarques at gasnatural.com  Mon Dec 22 07:17:24 2003
+From: jarques at gasnatural.com (Arques Torrentgeneros, Jaume)
+Date: Mon, 22 Dec 2003 16:17:24 +0100
+Subject: [bldg-sim] ENERGY CONSUMPTION/FT2 (OFFICES)
+Message-ID: <MDAEMON-F200312220910.AA1029203pd80000531674@gard.com>
+
+First, thank you for the information!
+
+I think, James F. Dolan was looking for kBtu/sf/yr (annual energy
+consumption). 
+We have got information at
+http://www.eia.doe.gov/emeu/cbecs/public_use.html, ( 1999 Commercial
+Buildings Energy Consumption Survey: Consumption and Expenditures
+Tables).
+Also, we are studying offices consumption in Spain.
+
+Now, we would like use the "climate zone : 45-year average, Table C1.
+Total Consumption by Major Fuel, 1999", with Spain cities heating degree
+day. But in Spain we use heating degree day base 15?C (Gd 15/15). We
+have values using this base.
+
+Do you have the values of "Climate zone. TableC1. Total Consumption by
+Major Fuel, 1999", calculated with base 15?C (Gd 15/15)?
+Could we get this information?
+
+Thank you.
+Kind regards,
+Jaume Arqu?s
+Gas Natural, SDG, S.A.
+ 
+
+========================================
+
+Esta informaci?n es privada y confidencial y est? dirigida ?nicamente a su destinatario. Si usted no es el destinatario original de este mensaje y por este medio pudo acceder a dicha informaci?n por favor elimine el mensaje y notifique el env?o err?neo al remitente. La distribuci?n o copia de este mensaje est? estrictamente prohibida. Esta comunicaci?n es s?lo para prop?sitos de informaci?n y no deber?a ser considerada como una declaraci?n oficial del Grupo gasNatural. La transmisi?n de e-mails no garantiza que el correo electr?nico sea seguro. Por consiguiente, no manifestamos que esta informaci?n sea completa o precisa. Toda informaci?n est? sujeta a alterarse sin previo aviso. Este Correo Electr?nico ha sido procesado por nuestro sistema de Antivirus corporativo 
+
+ This information is private and confidential and intended for the recipient only. If you are not the intended recipient of this message you are hereby notified that any review it and notify the sender immediately, dissemination, distribution or copying of this message is strictly prohibited.  This communication is for information purposes only and should not be regarded as an official statement from gasNatural Group. Email transmission cannot be guaranteed to be secure.  Therefore, we do not represent that this information is complete or accurate and it should not be relied upon as such.All information is subject to change without notice. This email has been scanned by our Antivirus system
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031222/339e55a1/attachment.htm>
+
+From Varkie.Thomas at som.com  Fri Dec 19 08:31:19 2003
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Fri, 19 Dec 2003 11:31:19 -0500
+Subject: [bldg-sim] Pump location
+Message-ID: <MDAEMON-F200312191030.AA3059765pd80000527801@gard.com>
+
+Thanks for all the information I received.  The questions about the
+vertical height limits used in closed piping systems for tall buildings,
+the alternative locations for pumps and equipment in piping systems, and
+determining the number of and location of mechanical floors came up when
+viewing piping riser diagrams at a graduate course at IIT-Chicago. 300
+psi is equivalent to 690 ft (about 50 floors), but plate & frame HX's
+can be designed for higher pressures up to 450 psi (over 1000 ft).
+Shell & tube HXs are designed for even higher pressures so why not break
+the piping system every 1000 ft with a HX when pumping say district CHW
+up to cooling coils at say 2000 ft.  The riser diagram that I presented
+to the class was based on a real project and showed plate & frame HXs
+and the pump location on the discharge side of the HX.  I was hoping to
+find published literature on this topic and on piping systems design for
+high-rise buildings in general explaining the pros & cons of different
+piping arrangements.  
+
+ 
+
+Riser diagrams and equipment schedules on HVAC, Plumbing & Fire
+Protection drawings identify most of the energy consuming products in
+the base building with a few exceptions such as elevators.  All energy
+consuming products in the building and their operating profiles have to
+be entered as input into energy programs to get the correct electrical
+demand costs.  Is there any interest in developing a teaching design
+manual for graduate courses in "Energy Efficient Building Design" and
+"Energy Codes & Code Compliance"?  The manual would be developed with
+the support of architectural-engineering design firms and would
+emphasize case studies of different types of buildings.
+
+ 
+
+Varkie Thomas, Ph.D., P.E., CEM
+
+Adjunct Professor, Illinois Institute of Technology.
+
+ 
+
+ 
+
+ 
+
+-----Original Message-----
+From: Kirchhoff, Eric [mailto:EKirchhoff at semprasolutions.com] 
+Sent: Wednesday, December 17, 2003 6:42 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Pump location
+
+ 
+
+From thornton at tess-inc.com  Thu Dec 18 14:07:48 2003
+From: thornton at tess-inc.com (Jeff Thornton)
+Date: Thu, 18 Dec 2003 16:07:48 -0600
+Subject: [bldg-sim] solar absorption cooling system
+In-Reply-To: <MDAEMON-F200312171601.AA0123328pd80000691424@gard.com>
+Message-ID: <MDAEMON-F200312181557.AA5723375pd80000526743@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031218/39e0f3bf/attachment.htm>
+
+From kemerson2002 at yahoo.com  Thu Dec 18 05:23:36 2003
+From: kemerson2002 at yahoo.com (K Emerson)
+Date: Thu, 18 Dec 2003 05:23:36 -0800 (PST)
+Subject: [bldg-sim] Pump location
+In-Reply-To: <MDAEMON-F200312171835.AA3529796pd80000693243@gard.com>
+Message-ID: <MDAEMON-F200312180715.AA1544437pd80000526002@gard.com>
+
+Varkie, 
+
+I certainly agree with what Eric states.  Plate-frame
+heat exchangers are probably not the best choice for
+high pressure applications.  In addition, look out for
+pressure drop if you are trying to stuff a lot of
+water through a few plates.  
+
+Pump location really doesn't matter except that you
+have to watch out for what is called "net positive
+suction head" or "NPSH".  Basically, if you put the
+pump suction in a low pressure situation
+(intentionally or unintentionally) you can tear up the
+pump with cavitation.  
+
+Keith Emerson
+
+--- "Kirchhoff, Eric" <EKirchhoff at semprasolutions.com>
+wrote:
+> From design experience, plate-frame heat exchangers
+> can be quite expensive,
+> particularly when you have to rate the HX for high
+> pressures.  There are two
+> kinds of plate HXs, gasketed and soldered.  Getting
+> a soldered type sort of
+> defeats one of the main advantages of a plate-frame
+> type HX, its
+> expandability.  The gasketed type for high-pressure
+> applications are less in
+> supply and as a result cost a lot.  The
+> highest-pressure rating I've seen
+> for a gasketed-type plate-frame HX is 300 psia.
+>  
+> My following comments apply to a gasketed-type
+> plate-frame heat exchanger.
+>  
+> (1) How high do you want to go?  This is really an
+> indirect question related
+> to the fill pressure of the system, the location of
+> the expansion tank, and
+> the location of the HX in the system.  Note that
+> when you fill the system,
+> you need an addition 2 to 5 psig of pressure to
+> allow the water to spit out
+> of the top of the system, ensuring the entire system
+> is filled and most (if
+> not all) of the air is out.  (2) By putting the HX
+> at the pump discharge
+> means you will feel the full impact of the dynamic
+> head of the pump and
+> static head of the system at that location.  Not the
+> best place in large
+> systems like campuses or district energy plants. (3)
+> When including the
+> comments provided in (2) previously, one can then
+> note that you can
+> eliminate the dynamic head from the equation.  (4)
+> HX exposed to all of the
+> static head plus the dynamic head depending upon the
+> placement of the pump
+> in relation to the HX.  (5) Your static head is
+> minimum, and dynamic head is
+> again only that contribution depending on the pump's
+> placement in relation
+> to the HX.  Note this is probably your cheapest
+> plate-frame HX since the
+> pressure is probably the lowest (assuming the
+> expansion tank is also located
+> at the suction inlet of the pump).  (6) I don't know
+> exactly what you mean
+> here.
+>  
+> As for what are the issues when the HX is replaced
+> with other equipment such
+> as chillers and boilers:  this will depend upon the
+> system you are dealing
+> with.  Are there existing chillers and boilers being
+> displaced by this
+> replacement?  Why?  Is it of economic benefit to the
+> owner?  Higher
+> efficient device?  Perhaps you are referring to the
+> approach temperature.
+> Note the closer the approach temperature, the more
+> expensive the heat
+> exchanger.  However, the closer the approach
+> temperature, the more efficient
+> the system.  For example, if you have a
+> chilled-water system circulating
+> water at a 14 delta T, and you have a heat exchanger
+> with a 2 degree
+> approach, then the load side of the heat exchanger
+> operates at a 10 degree
+> delta T.  If you have the same chiller system
+> circulating water at 14
+> degrees delta T and you have a 1-degree approach,
+> then your load side of the
+> heat exchanger can operate at a 12-degree delta T. 
+> As you can intuitively
+> see, the one-degree approach HX provides for a more
+> efficient system.
+>  
+>  
+> Sincerely,
+>  
+> Eric Kirchhoff, PE
+>  
+>  
+> -----Original Message-----
+> From: Varkie Thomas [mailto:Varkie.Thomas at som.com]
+> Sent: Wednesday, December 17, 2003 3:05 PM
+> To: bldg-sim at gard.com
+> Subject: [bldg-sim] Pump location
+>  
+> I am looking for information (articles, research
+> papers, case studies) on
+> the effect of the location of the pump relative to a
+> plate and frame heat
+> exchanger in a closed piping system.  Some of the
+> issues are (1) the
+> vertical height of the piping system (1000' to
+> 2000'), how high can you go,
+> (2) pumping thru HX, (3) pumping away from HX, (4)
+> pump and HX located at
+> bottom of system, (5) pump and HX at top of system,
+> and (6) pump start up.
+> What are the issues when the HX is replaced with
+> other equipment such as
+> chillers and boilers?
+>  
+> Varkie Thomas
+> Skidmore, Owings & Merrill
+> 312-360-4467
+>  
+>  
+>  
+>
+=====================================================You
+> received this
+> e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+>
+======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+__________________________________
+Do you Yahoo!?
+New Yahoo! Photos - easier uploading and sharing.
+http://photos.yahoo.com/
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jhaberl at esl.tamu.edu  Wed Dec 17 16:46:08 2003
+From: jhaberl at esl.tamu.edu (Jeff Haberl)
+Date: Wed, 17 Dec 2003 18:46:08 -0600
+Subject: [bldg-sim] Pump location
+Message-ID: <MDAEMON-F200312171838.AA3832140pd80000525193@gard.com>
+
+Hello:
+ 
+We've got data on lots of pumps...including the REJ building, where the
+whole physical plant was put up 2 stories in the air to reduce pumping
+power, and the cooling towers placed directly on top of the plant to further
+reduce pumping energy, or at least this was the design intent.
+ 
+Jeff
+ 
+
+
+8=!   8=)  :=)   8=)   ;=)   8=)   8=(   8=)   8=()   8=)   8=|   8=)   :=')
+8=)   8=)   8=? 
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu 
+Professor...............................................Office Ph:
+979-845-6507 
+Department of Architecture...........................Lab Ph: 979-845-6065 
+Energy Systems Laboratory...........................FAX: 979-862-2457 
+Texas A&M University..................................77843-3581 
+College Station, Texas, USA...........................URL: www-esl.tamu.edu 
+
+8=/   8=)  :=)   8=)  ;=)   8=)   8=()   8=)   :=)   8=)   8=!   8=)   8=?
+8=)   8=)   8=0   
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Varkie Thomas
+Sent: Wednesday, December 17, 2003 5:05 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Pump location
+
+
+
+I am looking for information (articles, research papers, case studies) on
+the effect of the location of the pump relative to a plate and frame heat
+exchanger in a closed piping system.  Some of the issues are (1) the
+vertical height of the piping system (1000' to 2000'), how high can you go,
+(2) pumping thru HX, (3) pumping away from HX, (4) pump and HX located at
+bottom of system, (5) pump and HX at top of system, and (6) pump start up.
+What are the issues when the HX is replaced with other equipment such as
+chillers and boilers?
+
+ 
+
+Varkie Thomas
+
+Skidmore, Owings & Merrill
+
+312-360-4467
+
+ 
+
+
+
+==================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031217/96bf32db/attachment.htm>
+
+From EKirchhoff at semprasolutions.com  Wed Dec 17 16:42:05 2003
+From: EKirchhoff at semprasolutions.com (Kirchhoff, Eric)
+Date: Wed, 17 Dec 2003 16:42:05 -0800
+Subject: [bldg-sim] Pump location
+Message-ID: <MDAEMON-F200312171835.AA352493pd80000525188@gard.com>
+
+
+From Varkie.Thomas at som.com  Wed Dec 17 15:05:29 2003
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Wed, 17 Dec 2003 18:05:29 -0500
+Subject: [bldg-sim] Pump location
+Message-ID: <MDAEMON-F200312171704.AA040300pd80000525020@gard.com>
+
+I am looking for information (articles, research papers, case studies)
+on the effect of the location of the pump relative to a plate and frame
+heat exchanger in a closed piping system.  Some of the issues are (1)
+the vertical height of the piping system (1000' to 2000'), how high can
+you go, (2) pumping thru HX, (3) pumping away from HX, (4) pump and HX
+located at bottom of system, (5) pump and HX at top of system, and (6)
+pump start up.  What are the issues when the HX is replaced with other
+equipment such as chillers and boilers?
+
+ 
+
+Varkie Thomas
+
+Skidmore, Owings & Merrill
+
+312-360-4467
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031217/9bce3f62/attachment.htm>
+
+From mkummert at wisc.edu  Wed Dec 17 14:57:25 2003
+From: mkummert at wisc.edu (=?ISO-8859-1?Q?Micha=EBl_Kummert?=)
+Date: Wed, 17 Dec 2003 16:57:25 -0600
+Subject: [bldg-sim] solar absorption cooling system
+In-Reply-To: <MDAEMON-F200312171601.AA0115890pd80000691292@gard.com>
+References: <MDAEMON-F200312171601.AA0115890pd80000691292@gard.com>
+Message-ID: <MDAEMON-F200312171649.AA491431pd80000524994@gard.com>
+
+Jean-Pierre,
+
+> I want to model a building with solar absorption cooling system.
+> Has anyone developped a TRNSYS type for such systems, or in a more 
+> simple way, is there information on the way to calculate or cuurent 
+> values of the efficiency of an absorption cooling system .
+
+The standard TRNSYS library includes all the components you need to 
+simulate such a system, from the multizone building (Type 56) to the 
+solar collector (Type 71 for evacuated tube collectors) to the 
+absorption machine (Type 7).
+
+Some non-standard components are also available from TESS if you need 
+more flexibility to simulate the absorption cooling machine. You can 
+find more information on the TESS libraries on the TRNSYS website: 
+http://sel.me.wisc.edu/trnsys
+(go to "component models", you will find a list of available Types and a 
+link to TESS)
+
+Kind regards,
+
+Micha?l Kummert
+
+-- 
+_________________________________________________________
+
+Micha?l Kummert - TRNSYS Coordinator
+
+Solar Energy Laboratory - University of Wisconsin-Madison
+1303 Engr Res Bldg, 1500 Engineering Drive
+Madison, WI 53706
+
+Tel: +1 (608) 263-1589
+Fax: +1 (608) 262-8464
+E-mail: kummert at engr.wisc.edu
+
+SEL Web Site: http://sel.me.wisc.edu
+TRNSYS Web Site: http://sel.me.wisc.edu/trnsys
+on 2003-12-17 16:09, Jean-Pierre BEDRUNE wrote:
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bedrune at addenda.fr  Wed Dec 17 14:09:58 2003
+From: bedrune at addenda.fr (Jean-Pierre BEDRUNE)
+Date: Wed, 17 Dec 2003 23:09:58 +0100
+Subject: [bldg-sim] solar absorption cooling system
+Message-ID: <MDAEMON-F200312171601.AA0109343pd80000524879@gard.com>
+
+Hi all, and appologies for cross posting
+
+I want to model a building with solar absorption cooling system. 
+Has anyone developped a TRNSYS type for such systems, or in a more simple way, is there information on the way to calculate or cuurent values of the efficiency of an absorption cooling system .
+
+Thanks,
+
+Jean-Pierre BEDRUNE
+Laboratoire d'Energ?tique 
+Universit? Paul Sabatier - 118, route de Narbonne 
+31062 TOULOUSE Cedex 4  -  FRANCE
+Tel :  (33) (0)561.55.64.79       Fax :  (33) (0)561.55.60.21
+mailto : bedrune at addenda.fr    web :  http://sphinx.ups-tlse.fr
+Equipe C.E.TH "Convection et Environnement THermique"
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031217/45413d01/attachment.htm>
+
+From ttxu at lbl.gov  Wed Dec 17 10:40:13 2003
+From: ttxu at lbl.gov (Tim T.  Xu)
+Date: Wed, 17 Dec 2003 10:40:13 -0800
+Subject: [bldg-sim] specific energie in office buildings
+References: <MDAEMON-F200312160358.AA5850406pd80000687162@gard.com>
+Message-ID: <MDAEMON-F200312171335.AA3512218pd80000524659@gard.com>
+
+specific energie in office buildingsJaume,
+
+For the US data, you can get this from the CBECS website:
+http://www.eia.doe.gov/emeu/cbecs/tables/fuels_consumption_expenditures.html
+
+Regards,
+_________________________________________________________
+Tengfang (Tim) Xu, Ph.D., PE
+Project Manager
+Building Technologies Department
+Environmental Energy Technologies Division
+Lawrence Berkeley National Laboratory
+One Cyclotron Road             Tel: (510) 486-7810
+BLDG 90R3111                   Fax: (510) 486-4089
+Berkeley, CA 94720-8134   Email: ttxu at lbl.gov
+_________________________________________________________
+
+  ----- Original Message ----- 
+  From: Arques Torrentgeneros, Jaume 
+  To: bldg-sim at gard.com 
+  Sent: Tuesday, December 16, 2003 2:05 AM
+  Subject: [bldg-sim] specific energie in office buildings
+
+
+
+
+  Our company, Gas Natural SDG, S.A.,  has been working in the energy area for many years ago. The headquarters are in Barcelona (Spain), but we are working around the world (Mexico, Brazil, Argentina, Marocco, Italy,...).  Now, we are looking for the value of specific energie in office buildings.
+
+  Anybody knows the ratio kWh/m2 (or BtuIT/ft2), for offices buildings?(it depensd of the clima). If not, could you give to us how to get it? or any information relationed?
+
+  Kind regards, 
+  Jaume Arqu?s 
+
+
+
+   
+
+  ========================================
+
+  Esta informaci?n es privada y confidencial y est? dirigida ?nicamente a su destinatario. Si usted no es el destinatario original de este mensaje y por este medio pudo acceder a dicha informaci?n por favor elimine el mensaje y notifique el env?o err?neo al remitente. La distribuci?n o copia de este mensaje est? estrictamente prohibida. Esta comunicaci?n es s?lo para prop?sitos de informaci?n y no deber?a ser considerada como una declaraci?n oficial del Grupo gasNatural. La transmisi?n de e-mails no garantiza que el correo electr?nico sea seguro. Por consiguiente, no manifestamos que esta informaci?n sea completa o precisa. Toda informaci?n est? sujeta a alterarse sin previo aviso. Este Correo Electr?nico ha sido procesado por nuestro sistema de Antivirus corporativo 
+
+  This information is private and confidential and intended for the recipient only. If you are not the intended recipient of this message you are hereby notified that any review it and notify the sender immediately, dissemination, distribution or copying of this message is strictly prohibited. This communication is for information purposes only and should not be regarded as an official statement from gasNatural Group. Email transmission cannot be guaranteed to be secure. Therefore, we do not represent that this information is complete or accurate and it should not be relied upon as such.All information is subject to change without notice. This email has been scanned by our Antivirus system
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031217/64b78137/attachment.htm>
+
+From geraldpde at yahoo.com  Wed Dec 17 07:45:43 2003
+From: geraldpde at yahoo.com (Gerald Pde)
+Date: Wed, 17 Dec 2003 07:45:43 -0800 (PST)
+Subject: [bldg-sim] eQUEST: Economics reporting
+Message-ID: <MDAEMON-F200312170937.AA375300pd80000524215@gard.com>
+
+Hi,
+I am running eQUEST 3.37 and somehow neither of the
+economics report are printed in the SIM file. I
+verified this thinking that non hourly report for
+economics were not selected by going to the properties
+for non hourly reports, and selected the desired
+verifications and summary reports.
+This haven?t worked, I tried inputting the reporting
+commands directly into the INP and BDL files and I am
+still haven?t manage to print the economics report in
+the SIM file.
+Does anyone know about this problem or in another
+matter is it possible to RUN eQUEST BDL directly from
+Text pad or command prompt.
+
+
+__________________________________
+Do you Yahoo!?
+New Yahoo! Photos - easier uploading and sharing.
+http://photos.yahoo.com/
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From brittelmann at ibacos.com  Wed Dec 17 06:47:01 2003
+From: brittelmann at ibacos.com (William D. Rittelmann)
+Date: Wed, 17 Dec 2003 09:47:01 -0500
+Subject: [bldg-sim] residential internal heat gain information
+Message-ID: <MDAEMON-F200312170833.AA3354906pd80000524114@gard.com>
+
+Ian,
+
+The DOE Building America program has been working for the last year or so to establish a definition for a Benchmark House that can be used to calculate savings from the houses affected by the program. The kind of information you are looking for has been addressed in this document. http://www.eere.energy.gov/buildings/building_america/pdfs/benchmark_def_ver3.pdf
+
+Bill Rittelmann
+IBACOS, Inc.
+
+-----Original Message-----
+From: Ian Doebber [mailto:idoebber at vt.edu]
+Sent: Tuesday, December 16, 2003 5:46 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] residential internal heat gain information
+Importance: Low
+
+I am trying to figure out how much heat each particular appliances in
+residences give off.  I have already calculated the amount of energy
+consumption by each appliance but I can't find any data on what fraction of
+that consumed energy by each appliance is given off to the surrounding air.
+If anyone has an idea of where I could obtain this information, I would
+appreciate it.
+
+Thanks
+Ian
+
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+***E-mail Confidentiality Notice*** 
+The information contained in this e-mail message and any attachments may constitute confidential information.  The information is intended only for the use of the intended recipient.  You are hereby notified that any dissemination, distribution or copying of this communication by anyone other than the intended recipient is strictly prohibited. If you have received this communication in error, please notify the sender by reply e-mail and delete this message and any attachments thereto.  Thank you.
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From idoebber at vt.edu  Tue Dec 16 14:46:12 2003
+From: idoebber at vt.edu (Ian Doebber)
+Date: Tue, 16 Dec 2003 17:46:12 -0500
+Subject: [bldg-sim] residential internal heat gain information
+References: <MDAEMON-F200312150941.AA4145718pd80000685781@gard.com> <MDAEMON-F200312151342.AA4255312pd80000686215@gard.com>
+Message-ID: <MDAEMON-F200312161637.AA3738265pd80000523161@gard.com>
+
+I am trying to figure out how much heat each particular appliances in
+residences give off.  I have already calculated the amount of energy
+consumption by each appliance but I can't find any data on what fraction of
+that consumed energy by each appliance is given off to the surrounding air.
+If anyone has an idea of where I could obtain this information, I would
+appreciate it.
+
+Thanks
+Ian
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From HermesPropylaios at aol.com  Tue Dec 16 07:52:27 2003
+From: HermesPropylaios at aol.com (HermesPropylaios at aol.com)
+Date: Tue, 16 Dec 2003 10:52:27 -0500
+Subject: [bldg-sim] Billing Units
+Message-ID: <MDAEMON-F200312160944.AA4448703pd80000522601@gard.com>
+
+Gentleman:
+  I have a question on the billing units labels.  I am not sure how the values for energy and demand conversion are calculated.  My particular concern is for the steam meters I have in the building.  Any information for these inputs would be appreciated.
+Thank you,
+JP 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jarques at gasnatural.com  Tue Dec 16 02:05:14 2003
+From: jarques at gasnatural.com (Arques Torrentgeneros, Jaume)
+Date: Tue, 16 Dec 2003 11:05:14 +0100
+Subject: [bldg-sim] specific energie in office buildings
+Message-ID: <MDAEMON-F200312160358.AA5831703pd80000522197@gard.com>
+
+
+Our company, Gas Natural SDG, S.A.,  has been working in the energy area
+for many years ago. The headquarters are in Barcelona (Spain), but we
+are working around the world (Mexico, Brazil, Argentina, Marocco,
+Italy,...).  Now, we are looking for the value of specific energie in
+office buildings.
+
+Anybody knows the ratio kWh/m2 (or BtuIT/ft2), for offices buildings?(it
+depensd of the clima). If not, could you give to us how to get it? or
+any information relationed?
+
+Kind regards,
+Jaume Arqu?s
+
+
+ 
+========================================
+
+Esta informaci?n es privada y confidencial y est? dirigida ?nicamente a su destinatario. Si usted no es el destinatario original de este mensaje y por este medio pudo acceder a dicha informaci?n por favor elimine el mensaje y notifique el env?o err?neo al remitente. La distribuci?n o copia de este mensaje est? estrictamente prohibida. Esta comunicaci?n es s?lo para prop?sitos de informaci?n y no deber?a ser considerada como una declaraci?n oficial del Grupo gasNatural. La transmisi?n de e-mails no garantiza que el correo electr?nico sea seguro. Por consiguiente, no manifestamos que esta informaci?n sea completa o precisa. Toda informaci?n est? sujeta a alterarse sin previo aviso. Este Correo Electr?nico ha sido procesado por nuestro sistema de Antivirus corporativo 
+
+ This information is private and confidential and intended for the recipient only. If you are not the intended recipient of this message you are hereby notified that any review it and notify the sender immediately, dissemination, distribution or copying of this message is strictly prohibited.  This communication is for information purposes only and should not be regarded as an official statement from gasNatural Group. Email transmission cannot be guaranteed to be secure.  Therefore, we do not represent that this information is complete or accurate and it should not be relied upon as such.All information is subject to change without notice. This email has been scanned by our Antivirus system
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031216/89417503/attachment.htm>
+
+From ttxu at lbl.gov  Mon Dec 15 11:55:38 2003
+From: ttxu at lbl.gov (Tim T.  Xu)
+Date: Mon, 15 Dec 2003 11:55:38 -0800
+Subject: [bldg-sim] Residential building types
+References: <MDAEMON-F200312150941.AA4145718pd80000685781@gard.com>
+Message-ID: <MDAEMON-F200312151342.AA4256734pd80000521318@gard.com>
+
+Chip,
+Check out http://www.eia.doe.gov/residential.html.  There is a lot of good
+information relevant to this sector.
+
+Best Regards,
+_________________________________________________________
+Tengfang (Tim) Xu, Ph.D., PE
+Project Manager
+Building Technologies Department
+Environmental Energy Technologies Division
+Lawrence Berkeley National Laboratory
+One Cyclotron Road             Tel: (510) 486-7810
+BLDG 90R3111                   Fax: (510) 486-4089
+Berkeley, CA 94720-8134   Email: ttxu at lbl.gov
+_________________________________________________________
+
+
+----- Original Message ----- 
+From: "Chip Barnaby" <cbarnaby at wrightsoft.com>
+To: <bldg-sim at gard.com>
+Sent: Monday, December 15, 2003 7:49 AM
+Subject: [bldg-sim] Residential building types
+
+
+> Greetings --
+>
+> We (Wrightsoft) are trying to assemble a set of residential building
+> descriptions that represent the common house types found in the U. S.  The
+> goal is to provide our Right-Suite Residential users with example projects
+> for the house types they are likely to encounter.
+>
+> Is anyone aware of a systematic categorization of the U.S. housing
+> stock?   Ideally, we would want some example floor plans for each
+> type.  Note that we don't need detailed statistics on the population or
+> regional distribution of each type ... the question is more one of "field
+> guide to U. S. residential buildings."
+>
+> Thanks for any help.
+>
+> Chip Barnaby
+>
+> ---------------------------------------------------------
+> Chip Barnaby                   cbarnaby at wrightsoft.com
+> Vice President of Research
+> Wrightsoft Corp.               781-862-8719 x118 voice
+> 394 Lowell St, Suite 12        781-861-2058 fax
+> Lexington, MA 02420            www.wrightsoft.com
+> ---------------------------------------------------------
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cbarnaby at wrightsoft.com  Mon Dec 15 07:49:18 2003
+From: cbarnaby at wrightsoft.com (Chip Barnaby)
+Date: Mon, 15 Dec 2003 10:49:18 -0500
+Subject: [bldg-sim] Residential building types
+Message-ID: <MDAEMON-F200312150941.AA4124562pd80000520954@gard.com>
+
+Greetings --
+
+We (Wrightsoft) are trying to assemble a set of residential building 
+descriptions that represent the common house types found in the U. S.  The 
+goal is to provide our Right-Suite Residential users with example projects 
+for the house types they are likely to encounter.
+
+Is anyone aware of a systematic categorization of the U.S. housing 
+stock?   Ideally, we would want some example floor plans for each 
+type.  Note that we don't need detailed statistics on the population or 
+regional distribution of each type ... the question is more one of "field 
+guide to U. S. residential buildings."
+
+Thanks for any help.
+
+Chip Barnaby
+
+---------------------------------------------------------
+Chip Barnaby                   cbarnaby at wrightsoft.com
+Vice President of Research
+Wrightsoft Corp.               781-862-8719 x118 voice
+394 Lowell St, Suite 12        781-861-2058 fax
+Lexington, MA 02420            www.wrightsoft.com
+---------------------------------------------------------
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From werner at cstb.fr  Fri Dec 12 06:47:01 2003
+From: werner at cstb.fr (Werner Keilholz)
+Date: Fri, 12 Dec 2003 15:47:01 +0100
+Subject: [BLDG-SIM] TRNSYS meeting in France
+Message-ID: <MDAEMON-F200312120839.AA3929421pd80000517161@gard.com>
+
+(sorry for cross-posting...)
+
+Dear colleagues,
+
+The announcement and call for papers for the 6th French TRNSYS user
+meeting (March 8, 2004) and training (March 9-10) has now been published
+
+in the ?Events? section of our Web site,
+
+http://software.cstb.fr
+
+As you probably know, there is also an English version of this site -
+click on the flag or directly here:
+
+http://software.cstb.fr/main/home_vl.asp?langue=us
+
+
+Sincerely,
+
+Werner Keilholz
+--
+  /    \____ Werner Keilholz, Software Development Group Leader
+  \____/     CSTB Sophia Antipolis, SAIL
+  /    \____ s-mail: BP 209, 06904 SOPHIA ANTIPOLIS,  F R A N C E
+  \____/     phone: +33 (0)4 93 95 67 00 -- fax: +33 (0)4 93 95 67 33
+  /    \____ Mailto:werner at cstb.fr -- ASPAM=antispamwpk42
+  \____/     http://evl.cstb.fr/english/team/WK/werner.htm
+
+  TRNSYS 16 PRESALE has started !!! http://software.cstb.fr
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From YJHuang at lbl.gov  Thu Dec 11 17:38:24 2003
+From: YJHuang at lbl.gov (Joe Huang)
+Date: Thu, 11 Dec 2003 17:38:24 -0800
+Subject: [BLDG-SIM] Response to my posting on "Are there publicly available schedules for  ASHRAE 90.1 calculations ?"
+Message-ID: <MDAEMON-F200312111929.AA291531pd80000516453@gard.com>
+
+I received 12 responses to my posting yesterday on the availability of ASHRAE 90.1 schedules. Since almost all of them were sent directly to me, I want to summarize for the other readers of BLDG-SIM what I learned:
+
+1. To my surprise, I learned that post-1999 versions of ASHRAE 90.1 no longer require the use of default schedules for internal conditions, with the only caveat that the same schedules for lights, internal gains, occupancy, etc., are used consistently in the simulations for the reference and the designed building. This suits me fine, since I have already defined schedules for the demonstration building that are probably more representative of typical office conditions in China than those in the 1999 and previous versions of ASHRAE 90.1
+
+2. For those still interested in the old, i.e.,  1989,  ASHRAE 90.1 default schedules, these are available from several sources :  (1) in EnergyPlus format in the data sets released with the EnergyPlus program, (2) in VisualDOE (don't know how extractable), (3) in COMCheck (please contact LIU, Bing at PNNL for details  Bing.liu at pnl.gov).
+
+Joe 
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031211/b78a4f1a/attachment.htm>
+
+From sbedard at bpa.ca  Thu Dec 11 07:10:29 2003
+From: sbedard at bpa.ca (sbedard at bpa.ca)
+Date: Thu, 11 Dec 2003 10:10:29 -0500
+Subject: [BLDG-SIM] heat rejection question
+Message-ID: <MDAEMON-F200312110904.AA0430484pd80000515606@gard.com>
+
+I'm modeling a condenser loop with eQuest. The chiller condenser pump powers
+the loop and the fluid cooler pump acts as a recirculation pump. The loop
+net load includes the heat from both pumps (115534 btu/h), but the cooling
+tower load doesn't seem to reject heat from the recirculation pump (62604
+btu/h). Could anyone help me understand how DOE calculates the heat rejected
+by the cooling towers ? Why the recirculation pump heat is considered in the
+loop net load but is not rejected ?
+ 
+ 
+         L-EGL-RH    L-EGL-RH     L-EGL-RH  L-EGL-RH    ETR PRIM     ETR
+PRIM   L-ETR-TR
+         1           1            1         1           AIRE         AIRE
+1       
+          CHILLER        HEAT         HEAT  START-UP    NET LOOP
+PUMP    COOLING
+             LOAD    REJECTED     RECOVERD      LOAD        LOAD
+HEAT   TWR LOAD
+         BTU/HR      BTU/HR       BTU/HR    BTU/HR      BTU/HR       BTU/HR
+BTU/HR  
+ 
+
+         ----( 1)    ----(19)     ----(20)  ----(30)    ----( 5)
+----(26)   ----( 1)
+1231 1      50749.     63075.3         0.0      0.0        178215.   115534.
+115611.
+1231 2      51642.     64186.3         0.0      0.0        179432.   115534.
+116828.
+1231 3      52403.     65131.4         0.0      0.0        180420.   115534.
+117816.
+1231 4      53048.     65933.4         0.0      0.0        181259.   115534.
+118656.
+1231 5      53620.     66644.9         0.0      0.0        181995.   115534.
+119391.
+1231 6      54117.     67261.8         0.0      0.0        182636.   115534.
+120032.
+1231 7      54566.     67819.8         0.0      0.0        183209.   115534.
+120606.
+1231 8    1863450.   2219465.8         0.0      0.0       2260712.   115534.
+2198109.
+1231 9    1995354.   2379245.8         0.0      0.0       2455264.   115534.
+2392660.
+ <?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office"
+/>
+Thanks, 
+ 
+ 
+ 
+=====================
+Simon B?dard, ing. jr
+Bouthillette Parizeau & Ass.
+T. (514) 383-3747  ext. 217
+F. (514) 383-8760
+sbedard at bpa.ca <mailto:sbedard at bpa.ca> 
+ 
+ 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031211/0247d670/attachment.htm>
+
+From jhaberl at esl.tamu.edu  Thu Dec 11 06:35:08 2003
+From: jhaberl at esl.tamu.edu (Jeff Haberl)
+Date: Thu, 11 Dec 2003 08:35:08 -0600
+Subject: [BLDG-SIM] Are there publicly available schedules for ASHRAE 
+	90.1 calculations ?
+Message-ID: <MDAEMON-F200312110827.AA2733328pd80000515537@gard.com>
+
+ASHRAE Research Project 1093 developed "typical" diversity factor schedules
+for use in DOE-2, BLAST and EnergyPlus, which are based on real data.
+ 
+Jeff
+ 
+
+
+
+8=!   8=)  :=)   8=)   ;=)   8=)   8=(   8=)   8=()   8=)   8=|   8=)   :=')
+8=)   8=)   8=? 
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu 
+Professor...............................................Office Ph:
+979-845-6507 
+Department of Architecture...........................Lab Ph: 979-845-6065 
+Energy Systems Laboratory...........................FAX: 979-862-2457 
+Texas A&M University..................................77843-3581 
+College Station, Texas, USA...........................URL: www-esl.tamu.edu 
+
+8=/   8=)  :=)   8=)  ;=)   8=)   8=()   8=)   :=)   8=)   8=!   8=)   8=?
+8=)   8=)   8=0   
+
+ 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031211/6eee92a4/attachment.htm>
+
+From geraldpde at yahoo.com  Thu Dec 11 04:13:55 2003
+From: geraldpde at yahoo.com (Gerald Pde)
+Date: Thu, 11 Dec 2003 04:13:55 -0800 (PST)
+Subject: [BLDG-SIM] Calculation of Sky/reflective Glare for daylit offices
+In-Reply-To: <MDAEMON-F200312101654.AA540778pd80000679770@gard.com>
+Message-ID: <MDAEMON-F200312110606.AA0611734pd80000515329@gard.com>
+
+Professor,
+How are you?
+I am not fimiliar with Radiance and some of the Glare
+issues it has. I found a method of calculating Glare
+constant using the 'cornell formula' and then
+subsequently getting a glare index out of it.
+I dont know if this algorithm has been validated or if
+it is widely used as a practise for glare or DGI
+calculations.
+I will also write to Amarpreet about this.
+Gerald
+
+
+--- Harvey Bryan <Harvey.Bryan at asu.edu> wrote:
+> Gerald,
+> 
+> Amarpreet Sethi at ASU just finished her thesis
+> which explored a number of daylighting using
+> Radiance. I believe she might be able to help you,
+> her email is sethi at asu.edu
+> 
+> Harvey Bryan
+> 
+> -----Original Message-----
+> From: postman at gard.com [mailto:postman at gard.com]On
+> Behalf Of Gerald Pde
+> Sent: Wednesday, December 10, 2003 4:16 AM
+> To: BLDG-SIM at GARD.COM
+> Subject: [BLDG-SIM] Calculation of Sky/reflective
+> Glare for daylit
+> offices
+> 
+> 
+> Could anyone tell me how to calculate sky glare and
+> reflective glare for offices. The only lighting tool
+> I
+> have is Lumen Micro, and there is no direct way of
+> getting these results.
+> What are the other hand-calc resources? I dont have
+> the IESNA handbook and need to get this done quick.
+> regards,
+> Gerald
+> 
+> __________________________________
+> Do you Yahoo!?
+> New Yahoo! Photos - easier uploading and sharing.
+> http://photos.yahoo.com/
+> 
+>
+======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+>
+=====================================================You
+> received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+
+__________________________________
+Do you Yahoo!?
+New Yahoo! Photos - easier uploading and sharing.
+http://photos.yahoo.com/
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From YJHuang at lbl.gov  Wed Dec 10 18:31:04 2003
+From: YJHuang at lbl.gov (Joe Huang)
+Date: Wed, 10 Dec 2003 18:31:04 -0800
+Subject: [BLDG-SIM] Are there publicly available schedules for ASHRAE 90.1 calculations ?
+Message-ID: <MDAEMON-F200312102022.AA2231515pd80000514756@gard.com>
+
+BLDG-SIM denizens,
+
+I have a fairly complete DOE-2 model for a soon-to-be completed US-China demonstration energy-efficient office building in Beijing that I've used since 2000 to track the evolution of the design and evaluate proposed energy-efficiency improvements.  What I need to do now is to do an ASHRAE 90.1 simulation to document how much the demo building exceeds ASHRAE 90.1 for LEED certification. I first thought of keyboarding in the occupancy, internal loads, lighting and equipment loads, etc. from the ASHRAE standards, but then thought that someone must have done that already. Furthermore, I was worried about getting some of the input parameters wrong.   Does anyone know of any ready-to-use DOE-2 input fragments for ASHRAE 90.1 calculations that are publicly available ?  
+
+Joe Huang
+
+Following is a picture of the building, which is slated to be completed in mid-January 2004.
+
+For more details of the project, please see
+http://www.oit.doe.gov/international/st1_eebd.shtml  (DOE description of project circa 2000)
+ http://aesl.hanyang.ac.kr/resource/lbl-report/46302.pdf (technical paper from 2000 ACEEE, don't know it ended up at a Korean web site !)
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031210/de64c099/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 21434 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031210/de64c099/attachment.jpeg>
+
+From Harvey.Bryan at asu.edu  Wed Dec 10 15:01:40 2003
+From: Harvey.Bryan at asu.edu (Harvey Bryan)
+Date: Wed, 10 Dec 2003 16:01:40 -0700
+Subject: [BLDG-SIM] Calculation of Sky/reflective Glare for daylit offices
+Message-ID: <MDAEMON-F200312101654.AA5410328pd80000514464@gard.com>
+
+Gerald,
+
+Amarpreet Sethi at ASU just finished her thesis which explored a number of daylighting using Radiance. I believe she might be able to help you, her email is sethi at asu.edu
+
+Harvey Bryan
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Gerald Pde
+Sent: Wednesday, December 10, 2003 4:16 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Calculation of Sky/reflective Glare for daylit
+offices
+
+
+Could anyone tell me how to calculate sky glare and
+reflective glare for offices. The only lighting tool I
+have is Lumen Micro, and there is no direct way of
+getting these results.
+What are the other hand-calc resources? I dont have
+the IESNA handbook and need to get this done quick.
+regards,
+Gerald
+
+__________________________________
+Do you Yahoo!?
+New Yahoo! Photos - easier uploading and sharing.
+http://photos.yahoo.com/
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From vikram at ensargroup.com  Wed Dec 10 14:49:44 2003
+From: vikram at ensargroup.com (Vikram Sami)
+Date: Wed, 10 Dec 2003 15:49:44 -0700
+Subject: [BLDG-SIM] Importing Window5 files into eQUEST
+In-Reply-To: <MDAEMON-F200312101519.AA1924296pd80000677784@gard.com>
+Message-ID: <MDAEMON-F200312101648.AA4839765pd80000514446@gard.com>
+
+I have been trying to import window5 files  (glass assemblies) to eQUEST,
+but I seem to be having problems. I used the report function in window, and
+saved it in the eQUEST window directory. Problem is, every time I try to
+import it, it gives me an error message saying "Invalid U-value Conditions -
+likely due to non-NFRC conditions being specified in the Window program."
+The file I was trying to export was a glazing system assembly from Window5,
+and I checked - it had the NFRC environmental condition.
+Has anyone else had a similar problem? If so, what can I do to correct it?
+
+Thanks
+
+Vikram Sami
+
+ENSAR Group, Inc.
+2305 Broadway
+Boulder, C0 80304
+(303).449.5226 Tel
+(303).449.5276 Fax
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031210/961689d9/attachment.htm>
+
+From JAulbach at semprasolutions.com  Wed Dec 10 13:25:57 2003
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Wed, 10 Dec 2003 13:25:57 -0800
+Subject: [BLDG-SIM] Simulating in-suite HRV's on FC type systems using
+	 eQUEST
+Message-ID: <MDAEMON-F200312101518.AA1855296pd80000514282@gard.com>
+
+Brian:
+ 
+I was taught a trick by an old dog, Mr.. Bruce Birdsall of Lawrence Berkeley
+Labs, who was in on the original creation of DOE-2. along with Fred
+Winkleman, Jeff Hirsch, and Fred Buhl. HELLO to all of these people.
+ 
+Bruce told me to use an induction system in the guest rooms (I was heavily
+into Hilton Hotels at the time). Such a system allowed primary and secondary
+heating and cooling coils, and by using  the bypass ratio, allowed outside
+air to entrain. I don't have time to research the exact bypass ration, or
+all the stuff I did (it was in DOE-2.1C version).
+ 
+But that would allow you to use outside air with virtually a fan coil
+system, either two or four pipe. Then the corridor air is on it's own loads
+and system.
+ 
+Try it.
+
+ -----Original Message-----
+From: Brian Fountain [mailto:greensim at lara.on.ca]
+Sent: Wednesday, December 10, 2003 1:15 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Simulating in-suite HRV's on FC type systems using
+eQUEST
+
+
+
+I am using eQUEST to model a high-rise multi-unit residential building (in a
+cold climate).  The mechanical system most likely for selection will include
+2-pipe fan coils (with a supplementary electric coil) in the suites and a
+corridor make-up air unit.  The in-suite fan coils under consideration have
+an outdoor air intake and an air-to-air heat exchanger to recover heat from
+the suite washroom exhaust.  This is not how the FC fan coil system is set
+up in DOE 2.2 - and there is no provision for heat recovery at the fan-coil
+level.  I am using the OA-FROM-SYS keyword which moves the entire
+ventilation load to the corridor make-up air system where heat recovery can
+be applied.  Doing this appears to greatly improve the energy performance of
+the building.  I am wondering if modeling the system in this was is
+over-stating performance of the heat recovery.
+
+ 
+
+I am wondering if there is experience within the group to better model such
+a system.  Any assistance would be greatly appreciated.
+
+ 
+
+Kind regards,
+
+ 
+
+Brian Fountain, P.Eng.
+
+Energy Engineer
+
+ 
+
+GreenSim
+
+ 
+
+(905)639-6014 -- voice
+
+(905)639-0443 -- fax
+
+bfountain at canada.com
+
+ 
+
+
+
+=====================================================You received this
+e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031210/a84dcb65/attachment.htm>
+
+From greensim at lara.on.ca  Wed Dec 10 13:15:03 2003
+From: greensim at lara.on.ca (Brian Fountain)
+Date: Wed, 10 Dec 2003 16:15:03 -0500
+Subject: [BLDG-SIM] Simulating in-suite HRV's on FC type systems using eQUEST
+Message-ID: <MDAEMON-F200312101507.AA0745781pd80000514270@gard.com>
+
+I am using eQUEST to model a high-rise multi-unit residential building (in a
+cold climate).  The mechanical system most likely for selection will include
+2-pipe fan coils (with a supplementary electric coil) in the suites and a
+corridor make-up air unit.  The in-suite fan coils under consideration have
+an outdoor air intake and an air-to-air heat exchanger to recover heat from
+the suite washroom exhaust.  This is not how the FC fan coil system is set
+up in DOE 2.2 - and there is no provision for heat recovery at the fan-coil
+level.  I am using the OA-FROM-SYS keyword which moves the entire
+ventilation load to the corridor make-up air system where heat recovery can
+be applied.  Doing this appears to greatly improve the energy performance of
+the building.  I am wondering if modeling the system in this was is
+over-stating performance of the heat recovery.
+
+ 
+
+I am wondering if there is experience within the group to better model such
+a system.  Any assistance would be greatly appreciated.
+
+ 
+
+Kind regards,
+
+ 
+
+Brian Fountain, P.Eng.
+
+Energy Engineer
+
+ 
+
+GreenSim
+
+ 
+
+(905)639-6014 -- voice
+
+(905)639-0443 -- fax
+
+bfountain at canada.com
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031210/ce18e271/attachment.htm>
+
+From abushakr at msoe.edu  Wed Dec 10 08:59:31 2003
+From: abushakr at msoe.edu (Abushakra, Bass)
+Date: Wed, 10 Dec 2003 10:59:31 -0600
+Subject: [BLDG-SIM] nternal load profiles forresidential buildings in 
+	europe
+Message-ID: <MDAEMON-F200312101053.AA5310781pd80000513876@gard.com>
+
+There was a thesis done at Lund Institute of Technology, in Sweden in 1997,
+that discussed typical load shapes in 6 categories of Swedish commercial
+buildings.  The thesis is written by C. Noren, Department of Heat and Power
+Engineering, Division of Energy Economics and Planning, Lund, Sweden.  The
+results are also reported in "Energy and Buildings", Vol. 28, Number 3,
+1998.  I came across this work when I was working on ASHRAE RP-1093
+(Compilation of Diversity Factors and Schedules for Energy and Cooling Load
+Calculations), at Texas A&M few years ago.
+
+ 
+
+Bass Abushakra, Ph.D.
+
+Assistant Professor, Building Environmental Systems
+
+Architectural Engineering and Building Construction Department
+
+Milwaukee School of Engineering
+
+1025 N. Broadway, CC60-B
+
+Milwaukee, WI 53202
+
+Phone: 414-277-4551
+
+Fax:     414-277-7415
+
+http://people.msoe.edu/~abushakr/index.htm
+
+ 
+
+ 
+
+ 
+
+ 
+
+-----Original Message-----
+From: Samuel Hassid [mailto:cvrhasd at techunix.technion.ac.il] 
+Sent: Wednesday, December 10, 2003 5:20 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] nternal load profiles forresidential buildings in europe
+
+ 
+
+ 
+
+ 
+
+can anybody suggest to me where to find an internal thermal loads profile
+(ie dependence with time) for residential (multi-story) buildings in europe
+?  Thanks
+
+ 
+ 
+=====================================================You received this
+e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031210/a0d6a9cb/attachment.htm>
+
+From Drury.Crawley at EE.DOE.GOV  Wed Dec 10 08:53:43 2003
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Wed, 10 Dec 2003 11:53:43 -0500
+Subject: [BLDG-SIM] internal load profiles for residential buildings
+ in europe
+Message-ID: <MDAEMON-F200312101048.AA4803671pd80000513868@gard.com>
+
+
+Two sources--the EIA Commercial Building Energy Consumption Survey:
+http://www.eia.doe.gov/commercial.html
+
+and the Building Energy Databook:
+http://buildingsdatabook.eere.energy.gov/
+
+
+
+                                                                                                           
+                      "Jim Dolan"                                                                          
+                      <jdolan at olace.com        To:       BLDG-SIM at GARD.COM                                 
+                      >                        cc:                                                         
+                      Sent by:                 Subject:  [BLDG-SIM] nternal load profiles forresidential   
+                      postman at gard.com          buildings in europe                                        
+                                                                                                           
+                                                                                                           
+                      12/10/2003 09:12                                                                     
+                      AM                                                                                   
+                      Please respond to                                                                    
+                      jdolan                                                                               
+                                                                                                           
+                                                                                                           
+
+
+
+
+
+I'm looking for annual energy consumption costing data for the NorthEast
+US.
+(or any other related research)  I.E. kBtu/sf/yr for typical buildings such
+as offices, schools, etc.
+
+Presently our most reliable data consists of our own research on buildings
+(not formalized), our own modeling efforts, and Energy Star Target Finder.
+
+
+Thank you
+
+James F. Dolan, P.E. LEED AP
+
+OLA Engineering
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From sowell at fullerton.edu  Wed Dec 10 08:30:15 2003
+From: sowell at fullerton.edu (Edward F. Sowell)
+Date: Wed, 10 Dec 2003 08:30:15 -0800
+Subject: [BLDG-SIM] Semantic question
+In-Reply-To: <MDAEMON-F200312100202.AA022731pd80000670208@gard.com>
+Message-ID: <MDAEMON-F200312101022.AA2236781pd80000513803@gard.com>
+
+Pieter,
+
+A search at www.onelook.com finds it in three English dictionaries,
+including "Forthrights Phrontistery - Dictionary of Obscure Words."
+
+Ed Sowell
+ 
+ 
+> Dear list members, 
+> 
+> I have had a small discussion with fellow list member Chip 
+> Barnaby on the word 'hygric'. Translating from my native 
+> language, Dutch, hygric would be the correct word to indicate 
+> anything 'pertaining to moisture'. However, hygric does not 
+> appear in the ASHRAE terminology book, handbook of fundamentals, etc. 
+> 
+> So.... can anyone tell me whether this a difference between UK 
+> and US English, or....? Should one use the term, or is it unknown 
+> in a large part of the world? Any suggestions on synonyms? 
+> 
+> Best regards,
+> 
+> Pieter de Wilde
+>
+> 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From denis.bourgeois at arc.ulaval.ca  Wed Dec 10 07:35:14 2003
+From: denis.bourgeois at arc.ulaval.ca (Denis Bourgeois)
+Date: Wed, 10 Dec 2003 10:35:14 -0500
+Subject: [BLDG-SIM] nternal load profiles forresidential buildings in europe
+Message-ID: <MDAEMON-F200312100934.AA3444953pd80000513711@gard.com>
+
+It may not be Northeastern US, but you can find interesting data on energy use for various buildings types in Canada from the OEE site:
+
+http://oee.nrcan.gc.ca/publications/infosource/home/index.cfm?act=category&category=03&PrintView=N&Text=N
+
+Specifically, section 10.2 of the COMMERCIAL AND INSTITUTIONAL BUILDING ENERGY USE SURVEY 2000 (CIBEUS) Detailed Statistical Report, December 2002(http://oee.nrcan.gc.ca/neud/dpa/energy_consumption_intensity.cfm?PrintView=N&Text=N) may be useful to you as it crosses regions with building types for total energy use (Obvious reminder: large parts of Atlantic, Quebec and Ontario 'regions' are quite similar in climate to NE US). Hope this helps!
+
+Denis Bourgeois
+?cole d'architecture, Universit? Laval
+denis.bourgeois at arc.ulaval.ca
+
+---
+
+I'm looking for annual energy consumption costing data for the NorthEast US. (or any other related research)  I.E. kBtu/sf/yr for typical buildings such as offices, schools, etc.  
+
+Presently our most reliable data consists of our own research on buildings (not formalized), our own modeling efforts, and Energy Star Target Finder.  
+
+Thank you 
+
+James F. Dolan, P.E. LEED AP
+
+OLA Engineering
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031210/b98ce8fd/attachment.htm>
+
+From jhaberl at esl.tamu.edu  Wed Dec 10 07:19:35 2003
+From: jhaberl at esl.tamu.edu (Jeff Haberl)
+Date: Wed, 10 Dec 2003 09:19:35 -0600
+Subject: [BLDG-SIM] nternal load profiles forresidential buildings in 
+	europe
+Message-ID: <MDAEMON-F200312100912.AA1207203pd80000513667@gard.com>
+
+RECS or CBECS should have something of value.
+
+Jeff
+
+
+8=!   8=)  :=)   8=)   ;=)   8=)   8=(   8=)   8=()   8=)   8=|   8=)   :=')
+8=)   8=)   8=?
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+Professor...............................................Office Ph:
+979-845-6507
+Department of Architecture...........................Lab Ph: 979-845-6065
+Energy Systems Laboratory...........................FAX: 979-862-2457
+Texas A&M University..................................77843-3581
+College Station, Texas, USA...........................URL: www-esl.tamu.edu
+
+8=/   8=)  :=)   8=)  ;=)   8=)   8=()   8=)   :=)   8=)   8=!   8=)   8=?
+8=)   8=)   8=0   
+
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Jim Dolan
+Sent: Wednesday, December 10, 2003 8:13 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] nternal load profiles forresidential buildings in europe
+
+
+ 
+I'm looking for annual energy consumption costing data for the NorthEast US.
+(or any other related research)  I.E. kBtu/sf/yr for typical buildings such
+as offices, schools, etc.  
+
+Presently our most reliable data consists of our own research on buildings
+(not formalized), our own modeling efforts, and Energy Star Target Finder.  
+
+Thank you 
+
+James F. Dolan, P.E. LEED AP
+
+OLA Engineering
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Bob.Ramirez at itron.com  Wed Dec 10 06:52:51 2003
+From: Bob.Ramirez at itron.com (Ramirez, Bob)
+Date: Wed, 10 Dec 2003 06:52:51 -0800
+Subject: [BLDG-SIM] nternal load profiles forresidential buildings in europe
+Message-ID: <MDAEMON-F200312100845.AA4506906pd80000513629@gard.com>
+
+Mornin' Jim
+
+You should check out Itron/RER eShapes on our website.  You can download free end use load shapes for a variety of commercial building prototypes and heating/cooling fuel combinations:
+
+http://www.rer.com/Online/eshapes.htm
+
+The free shapes are available on the regional basis, shown in the map attached to this link:
+http://www.rer.com/eshapes/map.htm
+
+
+As described on the website, we also offer residential and industrial shapes, and we can also do custom applications (i.e. state level, shapes for specific end uses on, etc.).
+
+The only caveat is that eShapes results are presented as kWh (electric) and kBtu (gas), so you would have to convert the kWh if you are interested in overall energy use in kBtu/sf/yr.
+
+If you receive any other useful reference sources that aren't posted back to the group, could you please do so?
+
+Thanks and good luck!
+
+Sincerely,
+
+Bob Ramirez
+
+
+
+Bob Ram?rez, P.E. 
+Senior Engineer 
+Bob.Ramirez at Itron.com 
+ 
+Itron
+http://www.RER.com/Consulting 
+11236 El Camino Real  San Diego, CA 92130    USA
+VOICE:858.481.0081X427  FAX:858.481.7550 
+ 
+ 
+
+
+-----Original Message-----
+From: Jim Dolan [mailto:jdolan at olace.com] 
+Sent: Wednesday, December 10, 2003 6:13 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] nternal load profiles forresidential buildings in europe
+
+
+ 
+I'm looking for annual energy consumption costing data for the NorthEast US. (or any other related research)  I.E. kBtu/sf/yr for typical buildings such as offices, schools, etc.  
+
+Presently our most reliable data consists of our own research on buildings (not formalized), our own modeling efforts, and Energy Star Target Finder.  
+
+Thank you 
+
+James F. Dolan, P.E. LEED AP
+
+OLA Engineering
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+This message was scanned for viruses!!
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jdolan at olace.com  Wed Dec 10 06:12:41 2003
+From: jdolan at olace.com (Jim Dolan)
+Date: Wed, 10 Dec 2003 09:12:41 -0500
+Subject: [BLDG-SIM] nternal load profiles forresidential buildings in 
+	europe
+Message-ID: <MDAEMON-F200312100805.AA0517718pd80000513565@gard.com>
+
+ 
+I'm looking for annual energy consumption costing data for the NorthEast US.
+(or any other related research)  I.E. kBtu/sf/yr for typical buildings such
+as offices, schools, etc.  
+
+Presently our most reliable data consists of our own research on buildings
+(not formalized), our own modeling efforts, and Energy Star Target Finder.  
+
+Thank you 
+
+James F. Dolan, P.E. LEED AP
+
+OLA Engineering
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cvrhasd at techunix.technion.ac.il  Wed Dec 10 03:20:01 2003
+From: cvrhasd at techunix.technion.ac.il (Samuel Hassid)
+Date: Wed, 10 Dec 2003 13:20:01 +0200
+Subject: [BLDG-SIM] nternal load profiles forresidential buildings in europe
+Message-ID: <MDAEMON-F200312100509.AA0906718pd80000513388@gard.com>
+
+
+
+can anybody suggest to me where to find an internal thermal loads profile (ie dependence with time) for residential (multi-story) buildings in europe ?  Thanks
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031210/73b268bc/attachment.htm>
+
+From geraldpde at yahoo.com  Wed Dec 10 03:15:58 2003
+From: geraldpde at yahoo.com (Gerald Pde)
+Date: Wed, 10 Dec 2003 03:15:58 -0800 (PST)
+Subject: [BLDG-SIM] Calculation of Sky/reflective Glare for daylit offices
+In-Reply-To: <MDAEMON-F200312071938.AA3831500pd80000666293@gard.com>
+Message-ID: <MDAEMON-F200312100508.AA081978pd80000513384@gard.com>
+
+Could anyone tell me how to calculate sky glare and
+reflective glare for offices. The only lighting tool I
+have is Lumen Micro, and there is no direct way of
+getting these results.
+What are the other hand-calc resources? I dont have
+the IESNA handbook and need to get this done quick.
+regards,
+Gerald
+
+__________________________________
+Do you Yahoo!?
+New Yahoo! Photos - easier uploading and sharing.
+http://photos.yahoo.com/
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From P.deWilde at bouw.tno.nl  Wed Dec 10 00:10:00 2003
+From: P.deWilde at bouw.tno.nl (Wilde, Pieter de)
+Date: Wed, 10 Dec 2003 09:10:00 +0100
+Subject: [BLDG-SIM] Semantic question
+Message-ID: <MDAEMON-F200312100202.AA0216703pd80000513208@gard.com>
+
+Dear list members, 
+
+I have had a small discussion with fellow list member Chip Barnaby on the word 'hygric'. Translating from my native language, Dutch, hygric would be the correct word to indicate anything 'pertaining to moisture'. However, hygric does not appear in the ASHRAE terminology book, handbook of fundamentals, etc. 
+
+So.... can anyone tell me whether this a difference between UK and US English, or....? Should one use the term, or is it unknown in a large part of the world? Any suggestions on synonyms? 
+
+Best regards,
+
+Pieter de Wilde
+
+TNO Building and Construction Research
+PO Box 49, 2600AA Delft, the Netherlands
+phone: ++31-15-2763520
+fax: ++31-2763022
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From machesis at comcast.net  Tue Dec  9 17:00:07 2003
+From: machesis at comcast.net (Conrad)
+Date: Tue, 9 Dec 2003 17:00:07 -0800
+Subject: [BLDG-SIM] User Defined Utility Rates
+In-Reply-To: <MDAEMON-F200312091544.AA4447703pd80000668055@gard.com>
+Message-ID: <MDAEMON-F200312091852.AA5216593pd80000512807@gard.com>
+
+User Defined Utility Ratesthey have the txt extension, delete the extension
+just use *.ert and *.grt
+
+conrad
+  -----Original Message-----
+  From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Zoeteman,
+Mark R.
+  Sent: Tuesday, December 09, 2003 1:52 PM
+  To: BLDG-SIM at GARD.COM
+  Subject: [BLDG-SIM] User Defined Utility Rates
+
+
+  I have written following simple utility rate files in BDL syntax and
+structure stated in "DOE2-BDL Utility Rate Documentation".  The files are
+not showing up in Wizard Screen 1 Electric or Gas Utility Rate pick lists
+when "file" is selected.  Does anyone have any suggestions?
+
+  <<ELEC.ert.txt>> <<GAS.grt.txt>>
+
+  Mark Zoeteman
+  FTC&H
+  (616) 464-3739
+  mrzoeteman at ftch.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031209/b72ba6f4/attachment.htm>
+
+From bhandari at ecs.umass.edu  Tue Dec  9 14:51:50 2003
+From: bhandari at ecs.umass.edu (Mahabir Bhandari)
+Date: Tue, 9 Dec 2003 17:51:50 -0500
+Subject: [BLDG-SIM] USER DEFINED UTILITY RATES
+In-Reply-To: <MDAEMON-F200312091544.AA4426296pd80000667783@gard.com>
+Message-ID: <MDAEMON-F200312091701.AA0157421pd80000512642@gard.com>
+
+Mark,
+ I presume that you are using eQuest. Somehow your files are
+showing .txt as an extension. i.e the files look like
+Elec.GRT.TXT. If you change this file to Elec.GRT it should
+work. Attached are the files with right extension and you
+can see the files on Wizard screen 1.
+
+Mahabir
+
+Mahabir Bhandari,
+Research Fellow
+CEERE
+Department of Mechanical and Industrial Engineering
+University of Massachusetts
+Amherst, MA 01003-2210
+
+TEL: (413) 577-4726
+FAX: (413) 545-1027
+email: bhandari at ecs.umass.edu 
+
+
+ 
+
+I have written following simple utility rate files in BDL
+syntax and structure stated in "DOE2-BDL Utility Rate
+Documentation". The files are not showing up in Wizard
+Screen 1 Electric or Gas Utility Rate pick lists when "file"
+is selected. Does anyone have any suggestions?
+<<ELEC.ert.txt>> <<GAS.grt.txt>> 
+Mark Zoeteman 
+FTC&H 
+(616) 464-3739 
+mrzoeteman at ftch.com 
+
+	  
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: winmail.dat
+Type: application/ms-tnef
+Size: 10299 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031209/d440bc3a/attachment.bin>
+
+From mrzoeteman at FTCH.com  Tue Dec  9 13:52:13 2003
+From: mrzoeteman at FTCH.com (Zoeteman, Mark R.)
+Date: Tue, 9 Dec 2003 16:52:13 -0500
+Subject: [BLDG-SIM] User Defined Utility Rates
+Message-ID: <MDAEMON-F200312091544.AA444100pd80000512519@gard.com>
+
+I have written following simple utility rate files in BDL syntax and
+structure stated in "DOE2-BDL Utility Rate Documentation".  The files
+are not showing up in Wizard Screen 1 Electric or Gas Utility Rate pick
+lists when "file" is selected.  Does anyone have any suggestions?
+
+ <<ELEC.ert.txt>>  <<GAS.grt.txt>> 
+
+Mark Zoeteman
+FTC&H
+(616) 464-3739
+mrzoeteman at ftch.com
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031209/c71d1a5a/attachment.htm>
+-------------- next part --------------
+An embedded and charset-unspecified text was scrubbed...
+Name: ELEC.ert.txt
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031209/c71d1a5a/attachment.txt>
+-------------- next part --------------
+An embedded and charset-unspecified text was scrubbed...
+Name: GAS.grt.txt
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031209/c71d1a5a/attachment-0001.txt>
+
+From Habaza11 at cs.com  Mon Dec  8 17:22:41 2003
+From: Habaza11 at cs.com (Habaza11 at cs.com)
+Date: Mon, 8 Dec 2003 20:22:41 EST
+Subject: [BLDG-SIM] A copy of the Ph.D. dissertation /RE:  Increased R value
+Message-ID: <MDAEMON-F200312081915.AA1503218pd80000511214@gard.com>
+
+Since I received more than 50 e-mails asking for a copy of the Ph.D. research 
+about sensible and latent thermal storage and dehumidification, I posted it 
+in the following  Internet site;
+ 
+ http://personal.ecu.edu/abazah/abaza.htm
+It is in a pdf format. The first file is 1.8 mb which is the research and
+the second file is 0.36 mb which is the appendix. Please feel free to e-mail
+me should you have any problems in downloading the files. 
+Sorry for not responding to each of you personally.
+
+Hussein Abaza, Ph.D.,
+Assistant Professor
+Construction Management 
+East Carolina University 
+Rawl 332 
+Greenville, NC 27858-4353 
+Phone: (252) 328-4140 
+FAX: (252) 328-1165 
+Email: abazah at mail.ecu.edu 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031208/8c2bbdd7/attachment.htm>
+
+From DougM at TWGI.com  Sun Dec  7 17:46:15 2003
+From: DougM at TWGI.com (Doug Maddox)
+Date: Sun, 7 Dec 2003 19:46:15 -0600
+Subject: [BLDG-SIM] DOE2.1E PTAC cooling coil module
+Message-ID: <MDAEMON-F200312071938.AA3834234pd80000509711@gard.com>
+
+Hi,
+ 
+It appears as though the PTAC cooling coil routine in DOE2.1E is overestimating latent load on the coil.  
+ 
+As shown by the lines of DOE2.1E code listed below, the sensible load is calculated via an averaged supply air temperature (TS), which is derived from the zone load and temperature.  Since the PTAC cooling coil runs either fully on or fully off, the value of TS in a part-load condition becomes a time weighted average between the temperature of the air off the cooling coil in the ON mode and the mixed air temperature. I believe this is all correct.
+ 
+      IF(PO .GT. 0.0)                                                           PTAC   150
+     1TS     = TAVE - <QNOW>/(CONS(1)*<CFMAX>*LSR(1))                           PTAC   151
+     .
+     .
+     .
+C              CALC UNIT COOLING LOAD.                                          PTAC   209
+    7 CONTINUE                                                                  PTAC   210
+      ZQC    = AMAX1(0., (TM-TS)*CONS(1)*FC)                                    PTAC   211
+C              THEN ANY MOISTURE REMOVAL INCREASES THE LOAD                     PTAC   212
+      ZQC    = ZQC + AMAX1(0.,WM-WCOIL)*CONS(2)*FC                              PTAC   213
+
+The latent load, however, is calculated from the ON mode leaving coil moisture value with no adjustment for the off-time in a given hour. I would expect that an adjustement such as the following line would be needed to only allow latent load for the time that the coil is on.
+ 
+      IF (DTMC.GT.0) ONTIME = (TM-TS)/(TM-TC)
+
+Am I missing something here?  I think I can fix the problem with a function, but I want to make sure I'm not mistaken that it is a problem.
+ 
+Thanks,
+Doug Maddox
+The Weidt Group
+dougm at twgi.com
+
+From Habaza11 at cs.com  Fri Dec  5 17:38:19 2003
+From: Habaza11 at cs.com (Habaza11 at cs.com)
+Date: Fri, 5 Dec 2003 20:38:19 EST
+Subject: [BLDG-SIM] Increased R value Credit for Concrete and Themal Massing
+Message-ID: <MDAEMON-F200312051930.AA3043453pd80000507432@gard.com>
+
+My Ph.D thesis " An Integrated Design and Control Strategy for Energy 
+Efficient Buildings, April 2002" discussed the relations between thermal mass " 
+sensible and latent thermal mass", thermal insulation, solar radiation, and 
+controlled natural ventilation. In this research I used Energy-Plus to test a house 
+very similar to steve's house in Blacksburg, Virginia. The house was designed 
+and built by Professor Yvan Beliveau (Virginia Tech.). I also collected field 
+data for the house. 
+In summary, Internal thermal mass is a heat storage. If free heat source (or 
+cooling source) is available, e.g from windows during warm days in winter or 
+ventilation during cool nights in summer, then, thermal mass is useful. But if 
+no free heat source is available, then, thermal mass may hurt since it will 
+store the heat from the active heating or cooling system, especially when using 
+more than one temperature set point for the active air conditioning.
+The other half of the story, which is utilizing the latent thermal mass, is 
+introduced and  thoroughly investigated for the first time in this research. I 
+can e-mail this thesis in PDF file to any one who is interested in this 
+subject.
+Hussein. Abaza
+Assistant Professor 
+East Carolina University
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031205/271f675a/attachment.htm>
+
+From stvgates at pacbell.net  Wed Dec  3 17:18:45 2003
+From: stvgates at pacbell.net (stvgates at pacbell.net)
+Date: Wed, 3 Dec 2003 17:18:45 -0800
+Subject: [BLDG-SIM] Increased R value Credit for Concrete and Themal Massing
+References: <MDAEMON-F200312021310.AA1058593pd80000656953@gard.com> <MDAEMON-F200312031455.AA5506593pd80000660559@gard.com> <005201c3b9ff$dfedf9a0$f4160380@D77MPY01>
+Message-ID: <MDAEMON-F200312031919.AA1918515pd80000504263@gard.com>
+
+The house is not instrumented, so all performance monitoring is by direct observation and utility bills (I work at home, so I can watch it closely).  However, I would be happy to volunteer this house for such a study.....
+
+Other noteworthy features:
+1)  The underslab hot water lines are all insulated.  This allows one to draw water in a kitchen or bathroom, and then draw water again 5-10 minutes later and still have it hot.  That's especially convenient when cooking and cleaning up, and ensures that each dishwasher draw is hot.  As a result, the water heater temperature can be lowered.
+
+2)  All lights that can utilize the 110V screw-in solid-state fluorescents are retrofitted with them.  Approximately 30 can lights use the 15W fluorescents.  They work beautifully, once you get used to the 1 minute warm-up.  Other ceiling fixtures use the 13W corkscrew type bulb.  It's nice not constantly reminding the kids to turn off the lights.  The biggest problem is educating the rest of the family about the lights.  They keep turning off the brighter fluorescent fixtures, and turning on some of the dimmer decorative incandescent fixtures; thinking they are saving energy.
+  ----- Original Message ----- 
+  From: Joe Huang 
+  To: stvgates at pacbell.net 
+  Cc: BLDG-SIM at gard.com 
+  Sent: Wednesday, December 03, 2003 4:45 PM
+  Subject: Re: [BLDG-SIM] Increased R value Credit for Concrete and Themal Massing
+
+
+  Steve,
+
+  Are you monitoring the indoor and outdoor temperatures at your new house ?  I would be interested to see if these corroborate what one would get modeling the house with a simulation program.  When I did some analysis for a CIEE project about 8 years ago to design a house for California transition climates that would not require air-conditioning, the analysis showed modest improvements in peak indoor temperatures with increased insulation beyond Title-24 requirements (which are R-19 wall, R-38 ceiling, U-0.65/0.40SHGC windows in your area anyway), but dramatic drops as the amount of thermal mass is increased.  Since we're in earthquake country, I did not consider masonry walls, but rather thicker or even multiple layers of sheetrock, plus exposing half of the floor slab (assuming that the other half will be covered by furniture, rugs, etc.).  The combined effect was good, but I'm not convinced how well the program (I used DOE-2.1E) was modeling thermal mass and ground heat transfer, especially under floating temperature conditions.  That's why I would be interested to learn of your real-life assessment (especially if you're recording actual data) of such a house.
+
+  Joe 
+    ----- Original Message ----- 
+    From: stvgates at pacbell.net 
+    To: BLDG-SIM at gard.com 
+    Cc: BLDG-SIM at gard.com 
+    Sent: Wednesday, December 03, 2003 1:01 PM
+    Subject: [BLDG-SIM] Increased R value Credit for Concrete and Themal Massing
+
+
+    My area of expertise is simulation of mechanical systems, and I do not claim to be an expert in heavy mass walls.  However I'll stick my neck out and add my thoughts to this discussion, and invite others to respond.  
+
+    I agree with Curt Petersen.  But, in addition to being frequency dependent, my understanding is that heavy-mass wall performance is also dependent on the average daily temperature differential across the wall, the placement of mass vs. insulation, and interior heat gains.  
+
+    1)  Mass vs. Resistance (vs. daily outdoor temperature swing)
+
+    Assume a lightweight interior space, having no internal loads, is to be maintained at 70F.  If the average daily outdoor temperature is also 70F, and the daily outdoor temperature is swinging +/- 15F about the average, then a heavy construction will maintain the interior temperature very close to 70F.  In this situation, the heavy mass wall will perform better than a resistance wall.
+
+    If instead the average daily temperature is 30F, with the same daily swing, then the interior temperature will be close to 30F.  This is also true of a resistance wall.  However, the daily (not instantaneous) amount of heat required to maintain the interior temperature at 70F is now a function of the resistance, not the impedance, and the low-resistance heavy-mass wall will require considerably more heat to maintain 70F.
+
+    In other words, for a heavy mass wall to get credit for impedance, the outdoor temperature swing must overlap the desired interior temperature.  The closer the average outdoor temperature to the indoor, the greater the effect of the impedance.  This has significant ramifications for different climates.  For moderate climates or moderate seasons where the outdoor temperature swing overlaps the desired interior temperature for the majority of hours, heavy mass walls can work well.  For more extreme climates or seasons, it's hard to see how a heavy mass wall can be of significant benefit.  
+
+    I live in Sacramento, Calif where the average lo/hi summer temperatures are 60F and 95F.  Here, a mass wall can work well.  However, in winter, the average temperatures are around 40F/60F, and I wouldn't be willing to trade a well-insulated house for one built out of uninsulated concrete!  
+
+    2) Placement of mass vs. insulation (vs. solar gains)
+
+    The above is a little too simplistic because it ignores the placement of mass vs. insulation, and solar gains.  Assume the sun is shining strongly on a wall.  If the insulation is to the outside of the mass, then the outer wall surface temperature (sol-air temperature) will be hotter than if the mass is to the outside.  This is because the mass readily conducts heat inward, whereas insulation doesn't.  Since re-radiation is proportional to the fourth power of absolute temperature, placing the insulation to the outside will cause the wall to instantaneously reject a greater portion of the solar gain.  Placing the mass to the outside allows the wall to capture more of the solar gain; part re-readiates at night, but part conducts into the space.  So which is better?  It depends on whether you are more concerned about winter or summer performance, and how sunny those seasons are.
+
+    I recently participated in a study of a refrigerated warehouse that demonstrated this effect.  Holding all factors constant except the placement of mass vs. insulation, mass to the outside of the wall increased annual cooling loads because of the increased capture of solar gains.  (And by the way, this effect was captured in DOE-2).
+
+    3)  Effect of interior loads
+
+    High interiors loads and/or solar gains thru windows, as well as when they occur bias all of the above.  
+
+
+    Conclusion?  For residential buildings, I believe that a high-resistance shell with a moderate amount of interior mass is the most cost-effective approach for most climates.  While overly simple, a key concept is the "time constant" of a house, which is the product of resistance and capacitance.  The interior temperature decays to the exterior temperature as a function of the time constant (  exp(1/RC) ).  The greater the time constant, the slower the decay rate.  In general it is cheaper to achieve a given time constant by adding insulation instead of thermal mass.
+
+    I just built a two-story house and am currently testing this theory.  The interior mass consists of a concrete slab with about 60% tile on the first floor, and 5/8" sheetrock interior walls.  The exterior walls are 2x6 studs with damp-spray rock-wool insulation (R22 in a 5-1/2" cavity, with no voids).  The windows are fiberglass, low-e2, with overhangs on the east, south, and west exposures; most windows facing north and south (~14% of floor area).  The attic has blown rock-wool.  The roof is metal over 2" fiberglass insulation, with a radiant barrier on the underside.  I opted for a metal roof instead of tile because we live in earthquake country, and I wanted the roof to be as light as possible, while still durable.  The kitchen appliances are all electric, as the house is well-sealed and I didn't want to worry about the NOx and CO produced by a gas stove.  All bathroom exhaust fans are on timers to ensure moisture removal after bathing.
+
+    We moved in late last summer.  During September, the outdoor temperature range was typically 60F to 95F.  The interior temperature stayed in the low-70's without any air conditioning, and swung about 2-3F.  We ran the whole house fan a couple of nights just to see how cool we could get it, but didn't need to.  I don't know about winter performance yet, but so far we have been heating the entire house (3500 sq.ft.) using two 20,000 Btuh, 80% efficient, thermostatically-controlled gas fireplaces.  Outdoor temperatures have been as low as 35F, but we have not yet needed the conventional forced-air gas furnaces to maintain 70F inside, and most of the time the fireplaces are off.  
+
+    This house hardly fits the classic definition of a "passive solar" house, but it performs like one because of its high time constant, achieved primarily through insulation rather than mass.  While the tile floors were great during the summer, I am waiting until March to assess the comfort of these floors with colder ground temperatures (the slab is not insulated).  If anyone wants an update later on, send me your address.
+
+    Comments?
+
+    ----- Original Message ----- 
+      From: Curtis Pedersen 
+      To: BLDG-SIM at gard.com 
+      Cc: BLDG-SIM at gard.com 
+      Sent: Tuesday, December 02, 2003 11:21 AM
+      Subject: [BLDG-SIM] Increased R value Credit for Concrete and Themal Massing
+
+
+      Dave:
+
+      This concept falls into the "cheater" category. What happens is that the proponents of heavy construction elements show that the steady periodic behavior of a heavy structure, at some well-selected frequency, is better than the behavior at steady state. The electrical analogy would be to replace resistance with capacitive impedance. Of course it depends on the frequency, and it is not resistance, so the steady state (zero frequency) result will be different. 
+
+      A reasonable building simulation tool properly accounts for both the capacitance and the resistance of a building element. The "effective R" is bogus. 
+
+      Curtis Pedersen
+      Professor Emeritus of Mechanical Engineering
+      University of Illinois
+
+
+
+      On Tuesday, December 2, 2003, at 11:26 AM, David Stewart wrote:
+
+
+        Dear Folks
+         
+        Has anyone explored the increased R value credits for thermal massing for example Dow T-Mass etc. and can one simply increase the R value to the 'effective R value while changing the mass in DOE.  I would like some more background on this credit with 3rd party validation
+         
+        Thanks
+         
+        Dave Stewart
+         
+        David C. Stewart & Associates Inc.
+        16 Shawinigan Road
+        Dartmouth, NS B2W 3A3
+         
+        Website: http://dcsa.ca
+         
+        Tel: 902 462 8111
+        Fax 902 435 6646
+        <David C Stewart MS P. Eng..vcf>
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031203/d02210e2/attachment.htm>
+
+From milne at ucla.edu  Wed Dec  3 17:00:10 2003
+From: milne at ucla.edu (Murray Milne)
+Date: Wed, 03 Dec 2003 17:00:10 -0800
+Subject: [BLDG-SIM] Increased R value Credit for Concrete and
+  Themal Massing
+In-Reply-To: <MDAEMON-F200312031455.AA5548703pd80000660910@gard.com>
+References: <MDAEMON-F200312021310.AA1058593pd80000656953@gard.com>
+Message-ID: <MDAEMON-F200312031913.AA1305562pd80000504245@gard.com>
+
+Re. Mass/Insulation Discussion:
+
+We have on our web site (see below) a free program called OPAQUE that 
+allows you to graphically assemble wall sections made up of mass and 
+insulation in any combinations and thicknesses, and it will plot the hourly 
+heat gain through the wall, plus hourly outdoor air temperature and solar 
+gains for the orientation you choose... It also calculates the U factor, 
+time lag and decrement...
+
+Murray Milne
+____________________________________________________________
+Murray Milne          		                                     Research 
+Professor
+UCLA,  Department of Architecture and Urban Design, Los Angeles, 90095
+             NEW UCLA Office   Voice: (310)206-7021     Fax: (310)825-8959
+             Malibu Office  Voice: (310)454-7328          E-mail: 
+milne at ucla.edu
+All our  ENERGY DESIGN TOOLS  software can be downloaded free from:
+             http://www.aud.ucla.edu/energy-design-tools
+Please try HEED, Home Energy Efficient Design, and give us your thoughts:
+             http://www.aud.ucla.edu/heed
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From YJHuang at lbl.gov  Wed Dec  3 16:45:11 2003
+From: YJHuang at lbl.gov (Joe Huang)
+Date: Wed, 3 Dec 2003 16:45:11 -0800
+Subject: [BLDG-SIM] Increased R value Credit for Concrete and Themal Massing
+References: <MDAEMON-F200312021310.AA1058593pd80000656953@gard.com> <MDAEMON-F200312031455.AA5506593pd80000660559@gard.com>
+Message-ID: <MDAEMON-F200312031836.AA3628500pd80000504191@gard.com>
+
+Steve,
+
+Are you monitoring the indoor and outdoor temperatures at your new house ?  I would be interested to see if these corroborate what one would get modeling the house with a simulation program.  When I did some analysis for a CIEE project about 8 years ago to design a house for California transition climates that would not require air-conditioning, the analysis showed modest improvements in peak indoor temperatures with increased insulation beyond Title-24 requirements (which are R-19 wall, R-38 ceiling, U-0.65/0.40SHGC windows in your area anyway), but dramatic drops as the amount of thermal mass is increased.  Since we're in earthquake country, I did not consider masonry walls, but rather thicker or even multiple layers of sheetrock, plus exposing half of the floor slab (assuming that the other half will be covered by furniture, rugs, etc.).  The combined effect was good, but I'm not convinced how well the program (I used DOE-2.1E) was modeling thermal mass and ground heat transfer, especially under floating temperature conditions.  That's why I would be interested to learn of your real-life assessment (especially if you're recording actual data) of such a house.
+
+Joe 
+  ----- Original Message ----- 
+  From: stvgates at pacbell.net 
+  To: BLDG-SIM at gard.com 
+  Cc: BLDG-SIM at gard.com 
+  Sent: Wednesday, December 03, 2003 1:01 PM
+  Subject: [BLDG-SIM] Increased R value Credit for Concrete and Themal Massing
+
+
+  My area of expertise is simulation of mechanical systems, and I do not claim to be an expert in heavy mass walls.  However I'll stick my neck out and add my thoughts to this discussion, and invite others to respond.  
+
+  I agree with Curt Petersen.  But, in addition to being frequency dependent, my understanding is that heavy-mass wall performance is also dependent on the average daily temperature differential across the wall, the placement of mass vs. insulation, and interior heat gains.  
+
+  1)  Mass vs. Resistance (vs. daily outdoor temperature swing)
+
+  Assume a lightweight interior space, having no internal loads, is to be maintained at 70F.  If the average daily outdoor temperature is also 70F, and the daily outdoor temperature is swinging +/- 15F about the average, then a heavy construction will maintain the interior temperature very close to 70F.  In this situation, the heavy mass wall will perform better than a resistance wall.
+
+  If instead the average daily temperature is 30F, with the same daily swing, then the interior temperature will be close to 30F.  This is also true of a resistance wall.  However, the daily (not instantaneous) amount of heat required to maintain the interior temperature at 70F is now a function of the resistance, not the impedance, and the low-resistance heavy-mass wall will require considerably more heat to maintain 70F.
+
+  In other words, for a heavy mass wall to get credit for impedance, the outdoor temperature swing must overlap the desired interior temperature.  The closer the average outdoor temperature to the indoor, the greater the effect of the impedance.  This has significant ramifications for different climates.  For moderate climates or moderate seasons where the outdoor temperature swing overlaps the desired interior temperature for the majority of hours, heavy mass walls can work well.  For more extreme climates or seasons, it's hard to see how a heavy mass wall can be of significant benefit.  
+
+  I live in Sacramento, Calif where the average lo/hi summer temperatures are 60F and 95F.  Here, a mass wall can work well.  However, in winter, the average temperatures are around 40F/60F, and I wouldn't be willing to trade a well-insulated house for one built out of uninsulated concrete!  
+
+  2) Placement of mass vs. insulation (vs. solar gains)
+
+  The above is a little too simplistic because it ignores the placement of mass vs. insulation, and solar gains.  Assume the sun is shining strongly on a wall.  If the insulation is to the outside of the mass, then the outer wall surface temperature (sol-air temperature) will be hotter than if the mass is to the outside.  This is because the mass readily conducts heat inward, whereas insulation doesn't.  Since re-radiation is proportional to the fourth power of absolute temperature, placing the insulation to the outside will cause the wall to instantaneously reject a greater portion of the solar gain.  Placing the mass to the outside allows the wall to capture more of the solar gain; part re-readiates at night, but part conducts into the space.  So which is better?  It depends on whether you are more concerned about winter or summer performance, and how sunny those seasons are.
+
+  I recently participated in a study of a refrigerated warehouse that demonstrated this effect.  Holding all factors constant except the placement of mass vs. insulation, mass to the outside of the wall increased annual cooling loads because of the increased capture of solar gains.  (And by the way, this effect was captured in DOE-2).
+
+  3)  Effect of interior loads
+
+  High interiors loads and/or solar gains thru windows, as well as when they occur bias all of the above.  
+
+
+  Conclusion?  For residential buildings, I believe that a high-resistance shell with a moderate amount of interior mass is the most cost-effective approach for most climates.  While overly simple, a key concept is the "time constant" of a house, which is the product of resistance and capacitance.  The interior temperature decays to the exterior temperature as a function of the time constant (  exp(1/RC) ).  The greater the time constant, the slower the decay rate.  In general it is cheaper to achieve a given time constant by adding insulation instead of thermal mass.
+
+  I just built a two-story house and am currently testing this theory.  The interior mass consists of a concrete slab with about 60% tile on the first floor, and 5/8" sheetrock interior walls.  The exterior walls are 2x6 studs with damp-spray rock-wool insulation (R22 in a 5-1/2" cavity, with no voids).  The windows are fiberglass, low-e2, with overhangs on the east, south, and west exposures; most windows facing north and south (~14% of floor area).  The attic has blown rock-wool.  The roof is metal over 2" fiberglass insulation, with a radiant barrier on the underside.  I opted for a metal roof instead of tile because we live in earthquake country, and I wanted the roof to be as light as possible, while still durable.  The kitchen appliances are all electric, as the house is well-sealed and I didn't want to worry about the NOx and CO produced by a gas stove.  All bathroom exhaust fans are on timers to ensure moisture removal after bathing.
+
+  We moved in late last summer.  During September, the outdoor temperature range was typically 60F to 95F.  The interior temperature stayed in the low-70's without any air conditioning, and swung about 2-3F.  We ran the whole house fan a couple of nights just to see how cool we could get it, but didn't need to.  I don't know about winter performance yet, but so far we have been heating the entire house (3500 sq.ft.) using two 20,000 Btuh, 80% efficient, thermostatically-controlled gas fireplaces.  Outdoor temperatures have been as low as 35F, but we have not yet needed the conventional forced-air gas furnaces to maintain 70F inside, and most of the time the fireplaces are off.  
+
+  This house hardly fits the classic definition of a "passive solar" house, but it performs like one because of its high time constant, achieved primarily through insulation rather than mass.  While the tile floors were great during the summer, I am waiting until March to assess the comfort of these floors with colder ground temperatures (the slab is not insulated).  If anyone wants an update later on, send me your address.
+
+  Comments?
+
+  ----- Original Message ----- 
+    From: Curtis Pedersen 
+    To: BLDG-SIM at gard.com 
+    Cc: BLDG-SIM at gard.com 
+    Sent: Tuesday, December 02, 2003 11:21 AM
+    Subject: [BLDG-SIM] Increased R value Credit for Concrete and Themal Massing
+
+
+    Dave:
+
+    This concept falls into the "cheater" category. What happens is that the proponents of heavy construction elements show that the steady periodic behavior of a heavy structure, at some well-selected frequency, is better than the behavior at steady state. The electrical analogy would be to replace resistance with capacitive impedance. Of course it depends on the frequency, and it is not resistance, so the steady state (zero frequency) result will be different. 
+
+    A reasonable building simulation tool properly accounts for both the capacitance and the resistance of a building element. The "effective R" is bogus. 
+
+    Curtis Pedersen
+    Professor Emeritus of Mechanical Engineering
+    University of Illinois
+
+
+
+    On Tuesday, December 2, 2003, at 11:26 AM, David Stewart wrote:
+
+
+      Dear Folks
+       
+      Has anyone explored the increased R value credits for thermal massing for example Dow T-Mass etc. and can one simply increase the R value to the 'effective R value while changing the mass in DOE.  I would like some more background on this credit with 3rd party validation
+       
+      Thanks
+       
+      Dave Stewart
+       
+      David C. Stewart & Associates Inc.
+      16 Shawinigan Road
+      Dartmouth, NS B2W 3A3
+       
+      Website: http://dcsa.ca
+       
+      Tel: 902 462 8111
+      Fax 902 435 6646
+      <David C Stewart MS P. Eng..vcf>
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031203/265d6fd0/attachment.htm>
+
+From astevens at dmiinc.com  Wed Dec  3 14:16:47 2003
+From: astevens at dmiinc.com (Alec Stevens)
+Date: Wed, 3 Dec 2003 17:16:47 -0500
+Subject: [BLDG-SIM] job posting
+Message-ID: <MDAEMON-F200312031611.AA1122562pd80000503985@gard.com>
+
+Hello,
+
+DMI has a job opening for an energy engineer.  
+The job responsibilities include measure identification, spreadsheet and hourly building simulations, report writing, site visits to collect data, and client interaction.  We work mostly on commercial, industrial, and institutional buildings in southern New England.
+
+See our posting at Monster.com (search for DMI) for more details.
+
+Alec Stevens
+
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031203/ded3d9ea/attachment.htm>
+
+From stvgates at pacbell.net  Wed Dec  3 13:01:43 2003
+From: stvgates at pacbell.net (stvgates at pacbell.net)
+Date: Wed, 3 Dec 2003 13:01:43 -0800
+Subject: [BLDG-SIM] Increased R value Credit for Concrete and Themal Massing
+References: <MDAEMON-F200312021310.AA1058593pd80000656953@gard.com>
+Message-ID: <MDAEMON-F200312031455.AA5537796pd80000503865@gard.com>
+
+My area of expertise is simulation of mechanical systems, and I do not claim to be an expert in heavy mass walls.  However I'll stick my neck out and add my thoughts to this discussion, and invite others to respond.  
+
+I agree with Curt Petersen.  But, in addition to being frequency dependent, my understanding is that heavy-mass wall performance is also dependent on the average daily temperature differential across the wall, the placement of mass vs. insulation, and interior heat gains.  
+
+1)  Mass vs. Resistance (vs. daily outdoor temperature swing)
+
+Assume a lightweight interior space, having no internal loads, is to be maintained at 70F.  If the average daily outdoor temperature is also 70F, and the daily outdoor temperature is swinging +/- 15F about the average, then a heavy construction will maintain the interior temperature very close to 70F.  In this situation, the heavy mass wall will perform better than a resistance wall.
+
+If instead the average daily temperature is 30F, with the same daily swing, then the interior temperature will be close to 30F.  This is also true of a resistance wall.  However, the daily (not instantaneous) amount of heat required to maintain the interior temperature at 70F is now a function of the resistance, not the impedance, and the low-resistance heavy-mass wall will require considerably more heat to maintain 70F.
+
+In other words, for a heavy mass wall to get credit for impedance, the outdoor temperature swing must overlap the desired interior temperature.  The closer the average outdoor temperature to the indoor, the greater the effect of the impedance.  This has significant ramifications for different climates.  For moderate climates or moderate seasons where the outdoor temperature swing overlaps the desired interior temperature for the majority of hours, heavy mass walls can work well.  For more extreme climates or seasons, it's hard to see how a heavy mass wall can be of significant benefit.  
+
+I live in Sacramento, Calif where the average lo/hi summer temperatures are 60F and 95F.  Here, a mass wall can work well.  However, in winter, the average temperatures are around 40F/60F, and I wouldn't be willing to trade a well-insulated house for one built out of uninsulated concrete!  
+
+2) Placement of mass vs. insulation (vs. solar gains)
+
+The above is a little too simplistic because it ignores the placement of mass vs. insulation, and solar gains.  Assume the sun is shining strongly on a wall.  If the insulation is to the outside of the mass, then the outer wall surface temperature (sol-air temperature) will be hotter than if the mass is to the outside.  This is because the mass readily conducts heat inward, whereas insulation doesn't.  Since re-radiation is proportional to the fourth power of absolute temperature, placing the insulation to the outside will cause the wall to instantaneously reject a greater portion of the solar gain.  Placing the mass to the outside allows the wall to capture more of the solar gain; part re-readiates at night, but part conducts into the space.  So which is better?  It depends on whether you are more concerned about winter or summer performance, and how sunny those seasons are.
+
+I recently participated in a study of a refrigerated warehouse that demonstrated this effect.  Holding all factors constant except the placement of mass vs. insulation, mass to the outside of the wall increased annual cooling loads because of the increased capture of solar gains.  (And by the way, this effect was captured in DOE-2).
+
+3)  Effect of interior loads
+
+High interiors loads and/or solar gains thru windows, as well as when they occur bias all of the above.  
+
+
+Conclusion?  For residential buildings, I believe that a high-resistance shell with a moderate amount of interior mass is the most cost-effective approach for most climates.  While overly simple, a key concept is the "time constant" of a house, which is the product of resistance and capacitance.  The interior temperature decays to the exterior temperature as a function of the time constant (  exp(1/RC) ).  The greater the time constant, the slower the decay rate.  In general it is cheaper to achieve a given time constant by adding insulation instead of thermal mass.
+
+I just built a two-story house and am currently testing this theory.  The interior mass consists of a concrete slab with about 60% tile on the first floor, and 5/8" sheetrock interior walls.  The exterior walls are 2x6 studs with damp-spray rock-wool insulation (R22 in a 5-1/2" cavity, with no voids).  The windows are fiberglass, low-e2, with overhangs on the east, south, and west exposures; most windows facing north and south (~14% of floor area).  The attic has blown rock-wool.  The roof is metal over 2" fiberglass insulation, with a radiant barrier on the underside.  I opted for a metal roof instead of tile because we live in earthquake country, and I wanted the roof to be as light as possible, while still durable.  The kitchen appliances are all electric, as the house is well-sealed and I didn't want to worry about the NOx and CO produced by a gas stove.  All bathroom exhaust fans are on timers to ensure moisture removal after bathing.
+
+We moved in late last summer.  During September, the outdoor temperature range was typically 60F to 95F.  The interior temperature stayed in the low-70's without any air conditioning, and swung about 2-3F.  We ran the whole house fan a couple of nights just to see how cool we could get it, but didn't need to.  I don't know about winter performance yet, but so far we have been heating the entire house (3500 sq.ft.) using two 20,000 Btuh, 80% efficient, thermostatically-controlled gas fireplaces.  Outdoor temperatures have been as low as 35F, but we have not yet needed the conventional forced-air gas furnaces to maintain 70F inside, and most of the time the fireplaces are off.  
+
+This house hardly fits the classic definition of a "passive solar" house, but it performs like one because of its high time constant, achieved primarily through insulation rather than mass.  While the tile floors were great during the summer, I am waiting until March to assess the comfort of these floors with colder ground temperatures (the slab is not insulated).  If anyone wants an update later on, send me your address.
+
+Comments?
+
+----- Original Message ----- 
+  From: Curtis Pedersen 
+  To: BLDG-SIM at gard.com 
+  Cc: BLDG-SIM at gard.com 
+  Sent: Tuesday, December 02, 2003 11:21 AM
+  Subject: [BLDG-SIM] Increased R value Credit for Concrete and Themal Massing
+
+
+  Dave:
+
+  This concept falls into the "cheater" category. What happens is that the proponents of heavy construction elements show that the steady periodic behavior of a heavy structure, at some well-selected frequency, is better than the behavior at steady state. The electrical analogy would be to replace resistance with capacitive impedance. Of course it depends on the frequency, and it is not resistance, so the steady state (zero frequency) result will be different. 
+
+  A reasonable building simulation tool properly accounts for both the capacitance and the resistance of a building element. The "effective R" is bogus. 
+
+  Curtis Pedersen
+  Professor Emeritus of Mechanical Engineering
+  University of Illinois
+
+
+
+  On Tuesday, December 2, 2003, at 11:26 AM, David Stewart wrote:
+
+
+    Dear Folks
+     
+    Has anyone explored the increased R value credits for thermal massing for example Dow T-Mass etc. and can one simply increase the R value to the 'effective R value while changing the mass in DOE.  I would like some more background on this credit with 3rd party validation
+     
+    Thanks
+     
+    Dave Stewart
+     
+    David C. Stewart & Associates Inc.
+    16 Shawinigan Road
+    Dartmouth, NS B2W 3A3
+     
+    Website: http://dcsa.ca
+     
+    Tel: 902 462 8111
+    Fax 902 435 6646
+    <David C Stewart MS P. Eng..vcf>
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031203/d08d4fab/attachment.htm>
+
+From jhaberl at esl.tamu.edu  Wed Dec  3 07:53:02 2003
+From: jhaberl at esl.tamu.edu (Jeff Haberl)
+Date: Wed, 3 Dec 2003 09:53:02 -0600 
+Subject: [BLDG-SIM] Faculty Search at Texas A&M University
+Message-ID: <MDAEMON-F200312030945.AA4536453pd80000503409@gard.com>
+
+FYI:
+
+The Department of Architecture, the Department of Construction Science and
+the Department of Landscape Architecture and Urban Planning at Texas A&M
+University seeks five faculty with expertise in the three "signature" areas
+of VISUALIZATION, DESIGN FOR HEALTH, and SUSTAINABILITY to join a dynamic,
+interdisciplinary research and teaching community. Positions will be filled
+at ranks of assistant professor, associate professor or professor as tenured
+or tenure-track appointments to teach and conduct research in one of the
+three departments. Successful applicants will join a diverse and preeminent
+faculty of artists, architects, landscape architects, designers, engineers,
+construction scientists, urban planners, environmental psychologists,
+sociologists, and computer scientists. 
+
+Candidates should have records of excellence or evidence of extraordinary
+potential in research, practice, or creative work in one or more of the
+signature areas. Appropriate credentials, such as a doctorate, professional
+degree, and professional license are expected. Preference will be given to
+candidates who can provide leadership in addressing needs of
+underrepresented communities. Extensive startup packages are available to
+enable new faculty to initiate strong research programs. 
+
+VISUALIZATION candidates should have expertise in one or more of the areas
+of computer graphics, simulation, time-based media, architectural
+visualization, construction visualization, geographic information systems,
+urban visualization, scientific visualization, visual art, graphic
+communication, history and theory of visualization, or other areas of
+relevance. Opportunities are available for new faculty to assume leadership
+roles in developing a new department focused on this discipline. 
+
+DESIGN FOR HEALTH candidates should possess expertise in areas such as
+health facilities design, landscape design, health facilities construction,
+health facilities management, healthy communities, environmental psychology,
+history and theory, and environmental impacts upon health. Opportunities are
+available for new faculty to assume leadership roles in Texas A&M
+University's Center for Health Systems and Design. 
+
+SUSTAINABLE ENVIRONMENTS candidates should have expertise in areas such as
+environmental planning/policy, environmental hazards, sustainable urban
+design and community planning, environmental justice, environmental
+psychology, green architecture and construction, energy conserving design,
+sustainable land development, high performance buildings, historic
+conservation, and history and theory of sustainability. 
+
+The College of Architecture is the largest of its kind in the United States.
+Over 100 faculty in three departments serve over 1800 students in 12 degree
+programs that span the entire planning, design, construction and operation
+life-span of the built environment. The college is renowned for its
+accredited programs in architecture, landscape architecture, construction
+science, and urban planning, its extensive Ph.D. programs in architecture
+and urban and regional science, and its graduate program in visualization
+science. 
+
+Texas A&M University is a comprehensive teaching and research university
+with an enrollment of approximately 44,000 students, including over 8,000
+graduate and professional students. Located in College Station, the
+university is 90 miles northwest of Houston and has easy access to Dallas,
+Austin and San Antonio. 
+
+The new faculty positions are part of an aggressive plan to attain top ten
+status among public universities in the United States by the year 2020. The
+university will fill over 400 new faculty positions in the next four years.
+The College of Architecture will fill 16 new faculty positions to enhance
+its signature programs in VISUALIZATION, DESIGN FOR HEALTH, and SUSTAINABLE
+ENVIRONMENTS. In addition to the five positions to be filled in 2004, seven
+faculty will be appointed in 2005-2006 and two each in the 2006-2007 and
+2007-2008 academic years. 
+
+Nominations of qualified faculty are encouraged. Applicants should send a
+letter of application, a curriculum vitae, non-returnable samples of work or
+portfolio, and names and addresses of three references. Additional materials
+may be requested. Applications will be accepted until the positions are
+filled, but please provide materials by February 15, 2004 for priority
+consideration. 
+
+Please send nominations and materials to the appropriate individual:
+David G. Woodcock, Chair, Search Committee, Department of Architecture 
+
+Robert O. Segner, Jr., Chair, Search Committee, Department of Construction
+Science 
+
+Nancy J. Volkman, Chair, Search Committee, Department of Landscape
+Architecture and Urban Planning 
+
+College of Architecture, TAMU 3137
+Texas A&M University
+College Station, Texas 77843-3137
+(979) 845-1221
+Texas A&M University is an Equal Opportunity Affirmative Action Employer
+with a strong commitment to the achievement of diversity among its faculty
+and staff. Women and minorities are encouraged to apply. Please be advised
+that under Texas law, names and other information concerning applicants or
+nominees may be subject to disclosure upon request. 
+
+Note: The job openings on the following pages are provided on this site as a
+public service. These listings do not connote an endorsement by the College
+of Architecture. While every attempt is made to keep these listings current,
+the College of Architecture cannot guarantee the availability of the
+positions. 
+
+
+8=!   8=)  :=)   8=)   ;=)   8=)   8=(   8=)   8=()   8=)   8=|   8=)   :=')
+8=)   8=)   8=?
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+Professor...............................................Office Ph:
+979-845-6507
+Department of Architecture...........................Lab Ph: 979-845-6065
+Energy Systems Laboratory...........................FAX: 979-862-2457
+Texas A&M University..................................77843-3581
+College Station, Texas, USA...........................URL: www-esl.tamu.edu
+
+8=/   8=)  :=)   8=)  ;=)   8=)   8=()   8=)   :=)   8=)   8=!   8=)   8=?
+8=)   8=)   8=0   
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jhaberl at esl.tamu.edu  Wed Dec  3 06:42:06 2003
+From: jhaberl at esl.tamu.edu (Jeff Haberl)
+Date: Wed, 3 Dec 2003 08:42:06 -0600 
+Subject: [BLDG-SIM] Increased R value Credit for Concrete and Themal M
+	assing
+Message-ID: <MDAEMON-F200312030834.AA3447406pd80000503273@gard.com>
+
+Hello:
+ 
+We are currently completing a report for the Texas Legislature where we have
+attempted to simulate the effects of thermal mass on a "standard" building
+as defined by the 2000 IECC. So far, we've spent most of our time trying to
+define how to simulate the building, since the 2000 IECC is flawed in that
+it requires 13.5 lb/ft2 of floor space, which makes the simulation of
+thermal mass impossible with DOE-2. (i.e., it forces the use of floor-weight
+values, which then use pre-calculated ASHRAE weighting factors, which are
+not as accurate as custom weighting factors). 
+ 
+There are multiple issues with accomplishing this with DOE-2, which our
+report points out in some detail. In general the report shows mixed results,
+with the largest variation coming from peak value predictions, which is
+important for Texas and the Ozone reduction during summertime (i.e.,reduce
+peak cooling loads). We also found the following items affect the results:
+SC vs Window 5 simulation of windows, Effective-U value and fictitious
+ground heat transfer (i.e., Winklemann's memo), placement of the mass has an
+impact as well (inside or outside of thermal mass). Finally, the ground
+temperatures that DOE-2 uses when using a TMY2 tape for a city are suspect
+(i.e., too cold for Texas in the summer and winter, average o.k.). I'm
+hoping to have a synopsis of the report to pass around at the next 90.1
+Envelop meeting and/or TC 4.7 in Kansas City.
+ 
+Jeff
+ 
+8=!   8=)  :=)   8=)   ;=)   8=)   8=(   8=)   8=()   8=)   8=|   8=)   :=')
+8=)   8=)   8=? 
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu 
+Professor...............................................Office Ph:
+979-845-6507 
+Department of Architecture...........................Lab Ph: 979-845-6065 
+Energy Systems Laboratory...........................FAX: 979-862-2457 
+Texas A&M University..................................77843-3581 
+College Station, Texas, USA...........................URL: www-esl.tamu.edu 
+
+8=/   8=)  :=)   8=)  ;=)   8=)   8=()   8=)   :=)   8=)   8=!   8=)   8=?
+8=)   8=)   8=0   
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of David Stewart
+Sent: Tuesday, December 02, 2003 11:27 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Increased R value Credit for Concrete and Themal Massing
+
+
+Dear Folks
+ 
+Has anyone explored the increased R value credits for thermal massing for
+example Dow T-Mass etc. and can one simply increase the R value to the
+'effective R value while changing the mass in DOE.  I would like some more
+background on this credit with 3rd party validation
+ 
+Thanks
+ 
+Dave Stewart
+ 
+David C. Stewart & Associates Inc.
+16 Shawinigan Road
+Dartmouth, NS B2W 3A3
+ 
+Website: http://dcsa.ca <http://dcsa.ca> 
+ 
+Tel: 902 462 8111
+Fax 902 435 6646
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031203/7af1774c/attachment.htm>
+
+From Habaza11 at cs.com  Tue Dec  2 16:58:48 2003
+From: Habaza11 at cs.com (Habaza11 at cs.com)
+Date: Tue, 2 Dec 2003 19:58:48 EST
+Subject: [BLDG-SIM] Increased R value Credit for Concrete and Themal Massing
+Message-ID: <MDAEMON-F200312021851.AA5113343pd80000502491@gard.com>
+
+The DOE sponsored research to test the effect of the thermal mass and the 
+relation between thermal mass and thermal insulation in different climates. DOE-2 
+was used to simulate different building alternatives. In summary, the 
+research results showed that thermal mass may increase, decrease or has no effect on 
+energy consumption. 
+H. Abaza, Ph.D.
+Assistant professor.
+ECU University
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031202/af59dd6e/attachment.htm>
+
+From idoebber at vt.edu  Tue Dec  2 13:06:48 2003
+From: idoebber at vt.edu (Ian Doebber)
+Date: Tue, 2 Dec 2003 16:06:48 -0500
+Subject: [BLDG-SIM] Increased R value Credit for Concrete and Themal Massing
+References: <MDAEMON-F200312021119.AA1907421pd80000655370@gard.com>
+Message-ID: <MDAEMON-F200312021459.AA5939781pd80000502219@gard.com>
+
+The equivalent wall concept incorporates the increased performance of your large thermal mass wall relative to say a wood frame structure due to both changes in insulation and thermal mass.  Therefore, increasing the R-value of your structure to the effective R-value and then increasing the mass would unrealistically make your building perform even better.  Even though I have never used it, DOE2 does not handle thermal mass benefits that well which is one of the improvements with using EnergyPlus.  Two journals that I recommend reading from ASHRAE Transactions are:
+
+"Performance Check Between Whole Building Thermal Performance Criteria and Exterior Wall Measured Clear Wall R-Value, Thermal Briding, Thermal Mass, and Airtightness" by Jan Kosny, J.E. Christian ....
+
+"Thermal Mass Credits Relating to Building Envelope Energy Standards" by "J.E. Christian
+
+Hope these help.
+
+Ian Doebber
+Graduate Student
+Virginia Tech
+  ----- Original Message ----- 
+  From: David Stewart 
+  To: BLDG-SIM at gard.com 
+  Sent: Tuesday, December 02, 2003 12:26 PM
+  Subject: [BLDG-SIM] Increased R value Credit for Concrete and Themal Massing
+
+
+  Dear Folks
+
+  Has anyone explored the increased R value credits for thermal massing for example Dow T-Mass etc. and can one simply increase the R value to the 'effective R value while changing the mass in DOE.  I would like some more background on this credit with 3rd party validation
+
+  Thanks
+
+  Dave Stewart
+
+  David C. Stewart & Associates Inc.
+  16 Shawinigan Road
+  Dartmouth, NS B2W 3A3
+
+  Website: http://dcsa.ca
+
+  Tel: 902 462 8111
+  Fax 902 435 6646
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031202/35df37c0/attachment.htm>
+
+From cpederse at uiuc.edu  Tue Dec  2 11:21:41 2003
+From: cpederse at uiuc.edu (Curtis Pedersen)
+Date: Tue, 2 Dec 2003 13:21:41 -0600
+Subject: [BLDG-SIM] Increased R value Credit for Concrete and Themal Massing
+In-Reply-To: <MDAEMON-F200312021118.AA1857421pd80000655246@gard.com>
+Message-ID: <MDAEMON-F200312021310.AA1038328pd80000502079@gard.com>
+
+Dave:
+
+This concept falls into the "cheater" category.  What happens is that 
+the proponents of heavy construction elements show that the steady 
+periodic behavior of a heavy structure, at some well-selected 
+frequency, is better than the behavior at steady state.  The electrical 
+analogy would be to replace resistance with capacitive impedance.  Of 
+course it depends on the frequency, and it is not resistance, so the 
+steady state (zero frequency) result will be different.
+
+A reasonable building simulation tool properly accounts for both the 
+capacitance and the resistance of a building element.  The "effective 
+R" is bogus.
+
+Curtis Pedersen
+Professor Emeritus of Mechanical Engineering
+University of Illinois
+
+
+
+On Tuesday, December 2, 2003, at 11:26 AM, David Stewart wrote:
+
+> Dear Folks
+> ?
+> Has anyone explored the increased R value credits for thermal massing 
+> for example Dow T-Mass etc. and can one simply increase the R value to 
+> the 'effective R value while changing the mass in DOE.? I would like 
+> some more background on this credit with 3rd party validation
+> ?
+> Thanks
+> ?
+> Dave Stewart
+> ?
+> David C. Stewart & Associates Inc.
+> 16 Shawinigan Road
+> Dartmouth, NS B2W 3A3
+> ?
+> Website: http://dcsa.ca
+> ?
+> Tel: 902 462 8111
+> Fax 902 435 6646
+> <David C Stewart MS P. Eng..vcf>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: text/enriched
+Size: 1890 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20031202/58ffb56e/attachment.bin>
+

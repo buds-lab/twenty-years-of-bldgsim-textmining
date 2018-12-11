@@ -1,0 +1,2710 @@
+From mjwitte at gard.com  Mon Oct 28 13:52:00 2002
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Mon, 28 Oct 2002 15:52:00 -0600
+Subject: [bldg-sim] entering air temp for air-cooled condensers
+In-Reply-To: <MDAEMON-F200210281426.AA2604875pd80000210048@gard.com>
+Message-ID: <MDAEMON-F200210281549.AA4944203pd80000210096@gard.com>
+
+EnergyPlus uses the outdoor dry bulb temperature.
+
+
+On 28 Oct 2002, at 15:26, Mottillo, Maria wrote:
+
+> Hi,
+> 
+> I am looking for information on appropriate adjustments to entering
+> air temperatures for air-cooled condensers to take into account the
+> location of the condenser (for example, next to building and subject
+> to solar gains, etc.). Is any simulation program considering this, or
+> using any such adjustment, or is it standard practice to use
+> information directly from the weather file (i.e. conditions at weather
+> station).
+> 
+> Any information on the method used by EnergyPlus and/or DOE-2 would
+> also be greatly appreciated (I had no luck finding the information in
+> the reference documentation).
+> 
+> Thanks!
+> Maria
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jmaxwell at aspensys.com  Mon Oct 28 13:21:03 2002
+From: jmaxwell at aspensys.com (Jon Maxwell)
+Date: Mon, 28 Oct 2002 15:21:03 -0600
+Subject: [bldg-sim] entering air temp for air-cooled condensers
+References: <MDAEMON-F200210281426.AA2602468pd80000282452@gard.com> <MDAEMON-F200210281443.AA4305593pd80000283233@gard.com>
+Message-ID: <MDAEMON-F200210281542.AA4216765pd80000210087@gard.com>
+
+The Florida Solar Energy Center did three field tests with and without
+shading for a residential split system and published the results in
+1996.  See http://www.fsec.ucf.edu/bldg/pubs/pf302/.
+
+In short, the authors conclude that "any savings produced by localized
+AC condenser shading are quite modest (<3%) and that the risk of
+interrupting air flow to the condenser may outweigh shading
+considerations. The preferred strategy may be a long-term one:
+locating AC condensers in an unobstructed location on the shaded north
+side of buildings and depending on extensive site and
+neighborhood-level landscaping to lower localized air temperatures."
+The authors attributed the surprisingly small savings as being due to
+the fact that the air flow volume greatly exceeds the shaded area
+volume.
+
+Jon Maxwell, PE
+Aspen Systems
+
+----- Original Message -----
+From: "Alex B. Lekov" <ABLekov at lbl.gov>
+To: <bldg-sim at gard.com>
+Cc: <bldg-sim at gard.com>
+Sent: Monday, October 28, 2002 2:43 PM
+Subject: [bldg-sim] entering air temp for air-cooled condensers
+
+
+This topic is discussed in the following paper:
+"The Measured Impacts of Air Conditioner Condenser Shading", J.Stone,
+D.Parker and S.Barkaszi, presented at 2002 ACEEE Summer study of
+Energy
+Efficiency in Buildings.
+
+Hope this will help.
+
+Alex Lekov
+
+"Mottillo, Maria" wrote:
+>
+> Hi,
+>
+> I am looking for information on appropriate adjustments to entering
+air
+> temperatures for air-cooled condensers to take into account the
+location of
+> the condenser (for example, next to building and subject to solar
+gains,
+> etc.). Is any simulation program considering this, or using any such
+> adjustment, or is it standard practice to use information directly
+from the
+> weather file (i.e. conditions at weather station).
+>
+> Any information on the method used by EnergyPlus and/or DOE-2 would
+also be
+> greatly appreciated (I had no luck finding the information in the
+reference
+> documentation).
+>
+> Thanks!
+> Maria
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From ABLekov at lbl.gov  Mon Oct 28 12:43:58 2002
+From: ABLekov at lbl.gov (Alex B. Lekov)
+Date: Mon, 28 Oct 2002 12:43:58 -0800
+Subject: [bldg-sim] entering air temp for air-cooled condensers
+References: <MDAEMON-F200210281426.AA2602468pd80000282452@gard.com>
+Message-ID: <MDAEMON-F200210281443.AA430515pd80000210063@gard.com>
+
+This topic is discussed in the following paper:
+"The Measured Impacts of Air Conditioner Condenser Shading", J.Stone,
+D.Parker and S.Barkaszi, presented at 2002 ACEEE Summer study of Energy
+Efficiency in Buildings.
+
+Hope this will help.
+
+Alex Lekov
+
+"Mottillo, Maria" wrote:
+> 
+> Hi,
+> 
+> I am looking for information on appropriate adjustments to entering air
+> temperatures for air-cooled condensers to take into account the location of
+> the condenser (for example, next to building and subject to solar gains,
+> etc.). Is any simulation program considering this, or using any such
+> adjustment, or is it standard practice to use information directly from the
+> weather file (i.e. conditions at weather station).
+> 
+> Any information on the method used by EnergyPlus and/or DOE-2 would also be
+> greatly appreciated (I had no luck finding the information in the reference
+> documentation).
+> 
+> Thanks!
+> Maria
+> 
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: ABLekov.vcf
+Type: text/x-vcard
+Size: 642 bytes
+Desc: Card for Alex B. Lekov
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021028/4e439f8d/attachment.vcf>
+
+From MMottilo at NRCan.gc.ca  Mon Oct 28 12:26:48 2002
+From: MMottilo at NRCan.gc.ca (Mottillo, Maria)
+Date: Mon, 28 Oct 2002 15:26:48 -0500
+Subject: [bldg-sim] entering air temp for air-cooled condensers
+Message-ID: <MDAEMON-F200210281426.AA2615875pd80000210049@gard.com>
+
+Hi,
+
+I am looking for information on appropriate adjustments to entering air
+temperatures for air-cooled condensers to take into account the location of
+the condenser (for example, next to building and subject to solar gains,
+etc.). Is any simulation program considering this, or using any such
+adjustment, or is it standard practice to use information directly from the
+weather file (i.e. conditions at weather station).
+
+Any information on the method used by EnergyPlus and/or DOE-2 would also be
+greatly appreciated (I had no luck finding the information in the reference
+documentation).
+
+Thanks!
+Maria
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From lawler at ersresults.com  Wed Oct 23 12:19:33 2002
+From: lawler at ersresults.com (Tim Lawler)
+Date: Wed, 23 Oct 2002 14:19:33 -0500
+Subject: [bldg-sim] HVAC positions available...
+Message-ID: <MDAEMON-F200210231415.AA1552562pd80000208153@gard.com>
+
+HVAC Engineer(s) Needed:
+Senior Mechanical Engineer/Designer(s):
+Requires 7+ years experience, strong technical understanding of HVAC systems
+design for hospital, lab, large commercial, and industrial projects.
+Entrepreneurial company, people at this level will have the opportunity to
+chart their own course by being given as much responsibility and opportunity
+as they can handle.  We are looking for people with experience or desire to
+be involved in leading a team.  Knowledge of energy analysis is a plus.
+Interested candidates, please email your resume or call Tim Lawler
+Lawler at ersresults.com <mailto:Lawler at ersresults.com>  to confidentially
+discuss the position details.
+Compensation includes a competitive salary and a financially rewarding bonus
+program.  If relocation is necessary, appropriate expenses will be covered.
+We are looking for both PE and non-registered engineers/designers.
+The employer is an engineering firm with strengths in technical innovation &
+complexity.  A diversified, national client base and long standing client
+relationships contribute to this firm's continued business success.
+Location is Midwest - not far from Chicago, in Wisconsin.  Please pass this
+information along to other potentially interested HVAC engineers/designers.
+For specifics, please contact:
+Tim Lawler
+President
+ERS, LLC
+877-425-6351 office, toll free 
+312-420-0703 cell
+lawler at ersresults.com <mailto:lawler at ersresults.com>    
+
+Executive Recruitment Solutions, LLC is a professional and executive search
+firm serving the US engineering and construction industry.  All
+confidentiality will be carefully respected.  Other leadership (some
+principal level) positions in mechanical engineering are available in the
+West, Northwest, and Midwest.
+PS - We are also looking for a specialist in central heat and power/steam
+systems with 8+ years experience to lead client relationships and a project
+team.
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: winmail.dat
+Type: application/ms-tnef
+Size: 4556 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021023/91c844e8/attachment.bin>
+
+From werner at cstb.fr  Thu Oct 17 06:01:03 2002
+From: werner at cstb.fr (Werner Keilholz)
+Date: Thu, 17 Oct 2002 15:01:03 +0200
+Subject: [BLDG-SIM] French TRNSYS meeting - March 24-26
+Message-ID: <MDAEMON-F200210170758.AA5855953pd80000205814@gard.com>
+
+(sorry for cross-posting...)
+
+Dear colleagues, Chers coll?gues,  (version fran?aise ci-dessous),
+
+The 2003 French TRNSYS user meeting will be held in Sophia Antipolis,
+France, on March 24th, 2003. This 5th edition has a European dimension,
+thanks to the participation of several international guests of renown.
+As a matter of fact, a developer conference held just before the seminar
+
+will unite the ?TRNSYS who?s who? in the South of France. Living legends
+
+like William Beckman and Sandy Klein are among the expected guest, as
+well as key developers of TESS, TRANSSOLAR and CSTB.
+
+Although the official language of the seminar is French, an important
+number of
+presentations will be given in English.
+
+Invited presentations include :
+- the next TRNSYS version (TRNSYS 16) ? a preview
+- the integration of COMIS into PREBID (TRNFLOW by TRANSSOLAR)
+- and of course, as usual, the real-world project experience presented
+by our users.
+
+Use this extraordinary occasion to meet the architects and developers of
+
+TRNSYS, to discuss with other users, or to present your projects !
+
+The deadline for submitting presentations and/articles is January 31rd,
+2003.
+
+For more information, please contact mailto:software at cstb.fr
+
+A complete list of other TRNSYS related events worldwide is
+available at
+http://software.cstb.fr/main/events.asp?langue=us&context=&m=ho
+
+Hoping to welcome you in Sophia Antipolis,
+
+Werner Keilholz
+
+
+---------- French
+------------------------------------------------------------
+
+J?ai le plaisir de vous envoyer, ci-joint, l?annonce et appel ? articles
+
+des 5?mes Journ?es TRNSYS Francophones (la liste compl?te des ?v?nements
+
+est disponible sur notre site Internet:
+http://software.cstb.fr/main/events.asp).
+
+Cette cinqui?me ?dition s?est vu attribu? le label ? Europ?en ?, gr?ce ?
+
+la pr?sence des nombreux invit?s internationaux ; en effet, les journ?es
+
+TRNSYS
+Europ?ens font depuis l?ann?e pass? (Barcelone) le tour des diff?rents
+distributeurs. Le CSTB a donc l?honneur d?accueillir des ?l?gendes
+vivantes?
+comme Bill Beckman et Sandy Klein le 24 Mars 2003 ? Sophia Antipolis.
+
+Ne manquez pas cette occasion pour les rencontrer et vous informer sur
+
+- la prochaine version de TRNSYS (TRNSYS 16)
+- l?int?gration de COMIS dans PREBID (TRNFLOW de TRANSSOLAR, pr?sent?
+par son concepteur)
+- et comme d?habitude, les activit?s des autres utilisateurs !
+
+Vos propositions de pr?sentations sont, bien sur, les bienvenus : la
+date limite pour l?envoie des propositions est le 31 Janvier 2003.
+
+En esp?rant de vous rencontrer ? Sophia Antipolis,
+
+Cordialement,
+
+Werner Keilholz
+
+--
+  /    \____ Werner Keilholz, Software Development Group Leader
+  \____/     CSTB Sophia Antipolis, SAIL
+  /    \____ s-mail: BP 209, 06904 SOPHIA ANTIPOLIS,  F R A N C E
+  \____/     phone: +33 (0)4 93 95 67 00 -- fax: +33 (0)4 93 95 67 33
+  /    \____ Mailto:werner at cstb.fr
+  \____/     http://evl.cstb.fr/english/team/WK/werner.htm
+
+For technical questions about our software, please
+mailto:software at cstb.fr
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: journees_trnsys5.pdf
+Type: application/pdf
+Size: 72332 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021017/e0330c09/attachment.pdf>
+
+From cvrhasd at techunix.technion.ac.il  Wed Oct 16 04:44:01 2002
+From: cvrhasd at techunix.technion.ac.il (Samuel Hassid)
+Date: Wed, 16 Oct 2002 13:44:01 +0200 (IST)
+Subject: [BLDG-SIM] sc
+Message-ID: <MDAEMON-F200210160643.AA4314421pd80000205326@gard.com>
+
+   i was wondering if anybody is aware of a standard for determining the
+sc (i think that writing shading coefficient is misleading - in reality
+this is a property of the glazing) of glass.  (directly or indirectly)
+                                              thanks
+                                              S. Hassid
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From demba.ndiaye at polymtl.ca  Tue Oct 15 12:20:30 2002
+From: demba.ndiaye at polymtl.ca (Demba NDIAYE)
+Date: Tue, 15 Oct 2002 15:20:30 -0400
+Subject: [BLDG-SIM] change of address
+References: <MDAEMON-F200210151331.AA3136562pd80000277950@gard.com>
+Message-ID: <MDAEMON-F200210151419.AA1915531pd80000205042@gard.com>
+
+A way to do this is:
+
+1. to send a blank message to bldg-sim-subscribe at gard.com using your new
+address (you subscribe with your new e-mail address)
+
+2. to send a blank message to bldg-sim-unsubscribe at gard.com using your
+ancient address (you unsubscribe your ancient address). If this ancient
+address is no longer valid in any way, simply skip this step.
+
+It is important to wait a confirmation of the susbcription before
+unsubscribing.
+
+_________________________________
+Demba NDIAYE
+Associ? de recherche
+?cole Polytechnique de Montr?al
+T?l : (514) 340-4711 # 5896
+       (514) 733-4395
+Montr?al (Qu?bec)
+----- Original Message -----
+From: "Shefali Rajendra Modi" <smodi at umich.edu>
+To: <BLDG-SIM at gard.com>
+Sent: Tuesday, October 15, 2002 2:32 PM
+Subject: [BLDG-SIM] change of address
+
+
+> My apologies to this mass mail, I am unaware how to send a mail only to
+> the egroup moderator.
+>
+> I would like to change my email address to shef88 at yahoo.co.uk. Is there
+> someway to do it.
+>
+> Sincerely
+> Shefali Modi
+>
+> --------------------------------------------------------
+> Shefali Modi
+> M.Sc. Architecture, Environmental Technology
+> Art and Architecture Building 2094
+>
+>
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From smodi at umich.edu  Tue Oct 15 11:32:06 2002
+From: smodi at umich.edu (Shefali Rajendra Modi)
+Date: Tue, 15 Oct 2002 14:32:06 -0400 (EDT)
+Subject: [BLDG-SIM] change of address
+In-Reply-To: <MDAEMON-F200207311144.AA442023pd80000232655@gard.com>
+Message-ID: <MDAEMON-F200210151331.AA3141343pd80000204995@gard.com>
+
+My apologies to this mass mail, I am unaware how to send a mail only to
+the egroup moderator.
+
+I would like to change my email address to shef88 at yahoo.co.uk. Is there
+someway to do it.
+
+Sincerely
+Shefali Modi
+
+--------------------------------------------------------
+Shefali Modi
+M.Sc. Architecture, Environmental Technology
+Art and Architecture Building 2094
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bob at rer.com  Mon Oct 14 12:27:59 2002
+From: bob at rer.com (Bob Ramirez)
+Date: Mon, 14 Oct 2002 12:27:59 -0700
+Subject: [BLDG-SIM] Contract/Full-Time Bldg Simulation Job Opportunity in San Diego, CA
+Message-ID: <MDAEMON-F200210141426.AA2650609pd80000204572@gard.com>
+
+ 
+
+Engineer/DOE-2 Specialist
+RER is presently developing energy use simulation models for 2,500 commercial buildings in California. To assist in this effort, RER has an immediate opening for a DOE-2/eQuest modeling specialist in their San Diego Office. This is a contract position that requires a full-time commitment for the length of the project which is expected to be between seven and nine months. The successful candidate will have at least two years experience in developing energy use simulation models for commercial buildings using DOE-2 and eQuest. Strong SQL Server, writing, Microsoft Access and Excel skills are a plus. An Engineering Degree is preferred. RER is an equal opportunity employer offering a competitive salary and generous benefit package. Mail resume to RER, 11236 El Camino Real, San Diego, CA 92130. Resumes can also be e-mailed to jobs at rer.com <mailto:jobs at rer.com>  or faxed to (858) 481-7550. Please refer to job position CAESD.
+
+ 
+
+ 
+
+Bob Ram?rez, P.E. 
+Senior Engineer 
+bob at rer.com  VOICE:858.481.0081X427  FAX:858.481.7550 
+
+ 
+
+RER is now Itron!
+http://www.RER.com/Consulting 
+11236 El Camino Real  San Diego, CA 92130    USA
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021014/778230e8/attachment.htm>
+
+From dbirleanu at ers-inc.com  Mon Oct 14 11:46:21 2002
+From: dbirleanu at ers-inc.com (Daniel Birleanu)
+Date: Mon, 14 Oct 2002 14:46:21 -0400
+Subject: [BLDG-SIM] Buiding Management System Issues
+Message-ID: <MDAEMON-F200210141345.AA4537812pd80000204552@gard.com>
+
+
+Hi everyone,
+
+My name is Dan Birleanu and I'm working on a project for an three stories
+office building. To model this building I'm using VisualDOE.
+
+This is a new construction and in the Base Case the building is heated and
+cooled with Packaged Terminal Air Conditioning units. As VisualDOE doesn't
+have an option for Packaged Terminal Heat Pump units, I have used the PTAC
+template. For heating I selected an electric heat pump with supplementary
+electric heating. To simulate the fans, I selected "Include in EER/COP"
+method and I declared the EER and COP inputs.
+
+For schedules, I assumed constant heating (70F) and cooling (72F)
+temperatures, 24/7. I let the software to switch between heating and cooling
+seasons. There is no seasonal schedules for heating or cooling.
+
+One of the measures that we are proposing is a Building Management System
+which will tide up all PTAC units under a central system. Could you please
+give me some ideas how to do that? I tried to simulate that by changing the
+heating and cooling temperature schedules, but the results are not
+satisfactory. I declared new setback and setforward temperatures and also
+different schedules for weekend days and holidays. The saving are too low.
+
+Should I consider something else too?
+
+Thank you,
+Dan
+
+
+________________________________________
+
+Dan Birleanu
+ENERGY & RESOURCE SOLUTIONS, INC.
+13 Railroad Square, Suite 504
+Haverhill, MA 01832
+Phone: (978) 521-2550 x265
+FAX: (978) 521-4588
+Email: dbirleanu at ers-inc.com
+Web:   www.ers-inc.com
+________________________________________
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From thong at eley.com  Mon Oct 14 11:19:16 2002
+From: thong at eley.com (Tianzhen Hong)
+Date: Mon, 14 Oct 2002 11:19:16 -0700
+Subject: [BLDG-SIM] VisualSch and VisualConst
+Message-ID: <MDAEMON-F200210141319.AA1941562pd80000204534@gard.com>
+
+ 
+
+ 
+
+Dear Prof. Chan 
+
+Thank you for your interest in VisualSch and VisualConst.
+
+VisualSch can read an EnergyPlus input file (*.idf) and extract all
+schedules. Those schedules can be modified using our schedule editor.
+New schedules can also be created. VisualSch can output schedules in
+EnergyPlus language to an idf file.
+
+VisualConst does not support EnergyPlus constructions right now. We do
+have the plan to develop the VisualE+ which will use the VisualDOE
+(www.visualdoe.com) interface and E+ as the calculation engine.
+
+If you are interested in testing VisualE+ once it is available please
+let us know. You can also try VisualDOE by downloading it from our web
+site if you have not tried it before.
+
+ 
+
+_____________________________
+
+Tianzhen Hong, PhD, PE
+Technology/Software Manager
+Eley Associates
+
+
+
+ 
+
+ 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021014/ce865be4/attachment.htm>
+
+From jhaberl at esl.tamu.edu  Thu Oct 10 12:23:55 2002
+From: jhaberl at esl.tamu.edu (Jeff Haberl)
+Date: Thu, 10 Oct 2002 14:23:55 -0500
+Subject: [BLDG-SIM] Static Pressure Reset modeling in DOE 2
+Message-ID: <MDAEMON-F200210101413.AA1339171pd80000203325@gard.com>
+
+Hello:
+ 
+Here's my $0.05 worth.
+ 
+First, I doubt seriously, that DOE-2 is  +- 2 % accurate, compared to what?
+This claim would need justifying. 
+One way of testing DOE-2 in the near future is with ASHRAE new accuracy test
+for air-side systems, 865-RP.
+Tests are available for 7 systems, under varying conditions. The "accuracy"
+of 865-RP has been developed
+to be +- 1%, which caused the two contractors much pain, and many years of
+effort.
+ 
+This should help resolve some of the issues regarding accuracy.
+ 
+Jeff
+
+
+8=!   8=)  :=)   8=)   ;=)   8=)   8=(   8=)   8=()   8=)   8=|   8=)   :=')
+8=)   8=)   8=? 
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu 
+Associate Professor....................................Office Ph:
+979-845-6507 
+Department of Architecture...........................Lab Ph: 979-845-6065 
+Energy Systems Laboratory...........................FAX: 979-862-2457 
+Texas A&M University..................................77843-3581 
+College Station, Texas, USA...........................URL: www-esl.tamu.edu 
+
+8=/   8=)  :=)   8=)  ;=)   8=)   8=()   8=)   :=)   8=)   8=!   8=)   8=?
+8=)   8=)   8=0   
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Steve Gates
+Sent: Thursday, October 10, 2002 12:00 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Static Pressure Reset modeling in DOE 2
+
+
+Mark, 
+ 
+In many cases I fully agree with you about the value of keeping the problem
+simple.  Indeed, we have been criticized numerous times in the past for
+DOE-2's 'overly simplistic' equipment algorithms.  Interestingly, when a
+couple of recent independent studies compared DOE-2's chiller and cooling
+tower algorithms to more sophisticated algorithms published in the
+literature, they found that DOE-2's 'simple' algorithms gave the most
+accurate results. (One of these studies found that the ASHRAE Toolkit
+chiller algorithm is so complex that it is next to impossible to calibrate
+to manufacturer's data, and generates errors on the order of +/- 10%; while
+DOE-2's accuracy was on the order of +/- 2%).
+ 
+But I have to disagree with you in the case of variable-speed fans and
+pumps. How many of you have heard the claim of VSD salemen that "power goes
+as the cube of the flow"?  That claim is patently false when applied to
+airhandlers and pumps.  It is only true in the case where the pressure falls
+off as approximately the square of the flow, such as in a cooling tower, or
+a piping system with no valves.  In the case of systems where a significant
+portion of the pressure loss is associated with non-turbulent components,
+pressure losses do not follow the flow-squared law.  And a fixed pressure
+setpoint further reduces the potential savings.  In fact, if the pressure
+setpoint is set high enough, the VSD will run at full speed regardless of
+flow (I have observed this situation).
+ 
+So it can make sense for DDC control systems to reset the setpoint as a
+function of the pressure requirement of the worst case component (but watch
+out for the rogue VAV box or coil!)  And, since one of our goals is to allow
+engineers to utilize DOE-2 to study the cost-effectiveness of more
+sophisticated control sequences, the program needs to do a better job of
+simulating this situation.  Granted, we will keep the algorithms as simple
+as is consistent with this goal!  And the default control sequence will
+utilize a fixed setpoint so everyone can keep asking "how come the power
+consumption doesn't drop off as the cube of the flow, like the salesman told
+me?"
+ 
+ 
+
+----- Original Message ----- 
+From: Mark A.  <mailto:MAW at abacus-engr.com> Webb 
+To: Steve Gates <mailto:steve.gates at doe2.com>  ; BLDG-SIM at GARD.COM
+<mailto:BLDG-SIM at GARD.COM>  
+Sent: Thursday, October 10, 2002 4:11 AM
+Subject: RE: [BLDG-SIM] Static Pressure Reset modeling in DOE 2
+
+
+Has anyone ever told you guys that you were nuts!  By the time you get done
+with all of your guessing, manipulation, trickery, and manual curve creation
+- you could have just made an intelligent guess and been closer.  With the
+added bonus of saving a bunch of time.  Unless it is some kind of PhD kind
+of thing.
+ 
+Mark
+
+-----Original Message-----
+From: Steve Gates [mailto:stvgates at pacbell.net] 
+Sent: Wednesday, October 09, 2002 7:44 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Static Pressure Reset modeling in DOE 2
+
+
+Currently there is no "optimized static pressure control" for fans/ducts in
+DOE-2.  However, J. Hirsch & Associates has funding to implement such a
+mechanism in DOE-2.2 within the next few months.  The funding is provided by
+Southern California Edison as part of their "Energy Design Resources"
+program ( http://www.energydesignresources.com/
+<http://www.energydesignresources.com/> ).  These enhancement will be
+incorporated into both DOE-2.2 and eQUEST (not PowerDOE), and will be made
+available to the user community at no charge.
+ 
+This control mechanism will be similar to the head reset controls already
+implemented for variable-flow pumping systems in DOE-2.2, where the pump
+head setpoint can be reset based on the hourly head demand of the worst-case
+valve. The actual pump head is then a function of the worst-case valve head,
+plus the additional variable-flow head losses of the loop piping and the
+central plant equipment.  This control sequence maximizes the potential
+savings of variable-speed pumps, as the required speed of a pump is
+dependent on both the flow as well as the head requirement; with the head
+requirement usually being the dominant factor. (The maximum head of a pump
+varies roughly as the square of the impeller speed; if the head requirement
+does not decrease as the flow drops off, then the speed cannot decrease
+significantly).
+ 
+For fans/ducts, the simple curve-fit that varies fan power as a function of
+flow will become obsolete. Instead, DOE-2.2 will keep track of the static
+requirement of the worst-case VAV box, as well as ducting, coils, filters,
+etc.  Each component must be accounted for separately, as the head of all of
+these devices varies differently for a given flow.  (Some components, such
+as ducts and sound traps, experience turbulent flow, and their head varies
+as the 1.85 power of flow.  Other components, such as coils and filters, are
+more laminar, and their head typically varies in the range of the 1.1-1.6
+power of flow.  Still others, such as a VAV box without an intelligent DDC
+system to monitor damper position, will have a constant head requirement;
+i.e. a constant head setpoint out toward the end of the ducting.)  These
+changes will require DOE-2.2 to know about the flow through each component
+in the system, the component's head characteristic, as well as the fan map
+for a given type of fan (forward-curved, airfoil, etc.)  Based on flow and
+static requirement, DOE-2.2 will then be able to determine the fan speed and
+power consumption.  
+ 
+In the meantime, you can approximate "optimized static pressure control" by
+generating a new curve that causes power to fall off more rapidly with flow
+than the default curves.  However, this is not a straightforward task, as
+you would have to calculate by hand all of the algorithms we have designed
+for DOE-2, and repeat the calculations for a series of flows.  Perhaps
+someone has already done this exercise, and can share their curves with you.
+ 
+Steve Gates
+
+----- Original Message ----- 
+From: babetsk at jbb.com <mailto:babetsk at jbb.com>  
+To: BLDG-SIM at GARD.COM <mailto:BLDG-SIM at GARD.COM>  
+Sent: Wednesday, October 09, 2002 2:41 PM
+Subject: [BLDG-SIM] Static Pressure Reset modeling in DOE 2
+
+
+To Doe 2 Users:
+ 
+Hello,
+ 
+Does anybody know if there is a way to model (in DOE-2) an "optimized static
+pressure control", that is a control method where the controller dynamically
+adjusts the static pressure set point based on the position of the
+modulating devices in the VAV terminal units? 
+ 
+Thank you
+ 
+ 
+Konstantin E. Babets, Ph.D.
+CFD/Energy Modeling Engineer
+Jaros Baum and Bolles
+Consulting Engineers
+80 Pine Street
+New York NY 1005
+Tel:   212.530.9455
+Fax: 212.269.5894
+
+ 
+==================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+==================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+==================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021010/70500d67/attachment.htm>
+
+From stvgates at pacbell.net  Thu Oct 10 09:59:41 2002
+From: stvgates at pacbell.net (Steve Gates)
+Date: Thu, 10 Oct 2002 09:59:41 -0700
+Subject: [BLDG-SIM] Static Pressure Reset modeling in DOE 2
+References: <280C7F3ACBDDB043852B1BEEA2957A48870A8A@exchange1.sea.aes.com>
+Message-ID: <MDAEMON-F200210101153.AA5339265pd80000203256@gard.com>
+
+MessageMark, 
+
+In many cases I fully agree with you about the value of keeping the problem simple.  Indeed, we have been criticized numerous times in the past for DOE-2's 'overly simplistic' equipment algorithms.  Interestingly, when a couple of recent independent studies compared DOE-2's chiller and cooling tower algorithms to more sophisticated algorithms published in the literature, they found that DOE-2's 'simple' algorithms gave the most accurate results. (One of these studies found that the ASHRAE Toolkit chiller algorithm is so complex that it is next to impossible to calibrate to manufacturer's data, and generates errors on the order of +/- 10%; while DOE-2's accuracy was on the order of +/- 2%).
+
+But I have to disagree with you in the case of variable-speed fans and pumps. How many of you have heard the claim of VSD salemen that "power goes as the cube of the flow"?  That claim is patently false when applied to airhandlers and pumps.  It is only true in the case where the pressure falls off as approximately the square of the flow, such as in a cooling tower, or a piping system with no valves.  In the case of systems where a significant portion of the pressure loss is associated with non-turbulent components, pressure losses do not follow the flow-squared law.  And a fixed pressure setpoint further reduces the potential savings.  In fact, if the pressure setpoint is set high enough, the VSD will run at full speed regardless of flow (I have observed this situation).
+
+So it can make sense for DDC control systems to reset the setpoint as a function of the pressure requirement of the worst case component (but watch out for the rogue VAV box or coil!)  And, since one of our goals is to allow engineers to utilize DOE-2 to study the cost-effectiveness of more sophisticated control sequences, the program needs to do a better job of simulating this situation.  Granted, we will keep the algorithms as simple as is consistent with this goal!  And the default control sequence will utilize a fixed setpoint so everyone can keep asking "how come the power consumption doesn't drop off as the cube of the flow, like the salesman told me?"
+
+
+  ----- Original Message ----- 
+  From: Mark A. Webb 
+  To: Steve Gates ; BLDG-SIM at GARD.COM 
+  Sent: Thursday, October 10, 2002 4:11 AM
+  Subject: RE: [BLDG-SIM] Static Pressure Reset modeling in DOE 2
+
+
+  Has anyone ever told you guys that you were nuts!  By the time you get done with all of your guessing, manipulation, trickery, and manual curve creation - you could have just made an intelligent guess and been closer.  With the added bonus of saving a bunch of time.  Unless it is some kind of PhD kind of thing.
+
+  Mark
+    -----Original Message-----
+    From: Steve Gates [mailto:stvgates at pacbell.net] 
+    Sent: Wednesday, October 09, 2002 7:44 PM
+    To: BLDG-SIM at GARD.COM
+    Subject: [BLDG-SIM] Static Pressure Reset modeling in DOE 2
+
+
+    Currently there is no "optimized static pressure control" for fans/ducts in DOE-2.  However, J. Hirsch & Associates has funding to implement such a mechanism in DOE-2.2 within the next few months.  The funding is provided by Southern California Edison as part of their "Energy Design Resources" program (http://www.energydesignresources.com/).  These enhancement will be incorporated into both DOE-2.2 and eQUEST (not PowerDOE), and will be made available to the user community at no charge.
+
+    This control mechanism will be similar to the head reset controls already implemented for variable-flow pumping systems in DOE-2.2, where the pump head setpoint can be reset based on the hourly head demand of the worst-case valve. The actual pump head is then a function of the worst-case valve head, plus the additional variable-flow head losses of the loop piping and the central plant equipment.  This control sequence maximizes the potential savings of variable-speed pumps, as the required speed of a pump is dependent on both the flow as well as the head requirement; with the head requirement usually being the dominant factor. (The maximum head of a pump varies roughly as the square of the impeller speed; if the head requirement does not decrease as the flow drops off, then the speed cannot decrease significantly).
+
+    For fans/ducts, the simple curve-fit that varies fan power as a function of flow will become obsolete. Instead, DOE-2.2 will keep track of the static requirement of the worst-case VAV box, as well as ducting, coils, filters, etc.  Each component must be accounted for separately, as the head of all of these devices varies differently for a given flow.  (Some components, such as ducts and sound traps, experience turbulent flow, and their head varies as the 1.85 power of flow.  Other components, such as coils and filters, are more laminar, and their head typically varies in the range of the 1.1-1.6 power of flow.  Still others, such as a VAV box without an intelligent DDC system to monitor damper position, will have a constant head requirement; i.e. a constant head setpoint out toward the end of the ducting.)  These changes will require DOE-2.2 to know about the flow through each component in the system, the component's head characteristic, as well as the fan map for a given type of fan (forward-curved, airfoil, etc.)  Based on flow and static requirement, DOE-2.2 will then be able to determine the fan speed and power consumption.  
+
+    In the meantime, you can approximate "optimized static pressure control" by generating a new curve that causes power to fall off more rapidly with flow than the default curves.  However, this is not a straightforward task, as you would have to calculate by hand all of the algorithms we have designed for DOE-2, and repeat the calculations for a series of flows.  Perhaps someone has already done this exercise, and can share their curves with you.
+
+    Steve Gates
+      ----- Original Message ----- 
+      From: babetsk at jbb.com 
+      To: BLDG-SIM at GARD.COM 
+      Sent: Wednesday, October 09, 2002 2:41 PM
+      Subject: [BLDG-SIM] Static Pressure Reset modeling in DOE 2
+
+
+      To Doe 2 Users:
+
+      Hello,
+
+      Does anybody know if there is a way to model (in DOE-2) an "optimized static pressure control", that is a control method where the controller dynamically adjusts the static pressure set point based on the position of the modulating devices in the VAV terminal units? 
+
+      Thank you
+
+
+      Konstantin E. Babets, Ph.D.
+      CFD/Energy Modeling Engineer
+      Jaros Baum and Bolles
+      Consulting Engineers
+      80 Pine Street
+      New York NY 1005
+      Tel:   212.530.9455
+      Fax: 212.269.5894
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021010/e46a263c/attachment.htm>
+
+From MAW at abacus-engr.com  Thu Oct 10 04:11:03 2002
+From: MAW at abacus-engr.com (Mark A. Webb)
+Date: Thu, 10 Oct 2002 04:11:03 -0700
+Subject: [BLDG-SIM] Static Pressure Reset modeling in DOE 2
+Message-ID: <MDAEMON-F200210100600.AA003778pd80000203123@gard.com>
+
+Has anyone ever told you guys that you were nuts!  By the time you get
+done with all of your guessing, manipulation, trickery, and manual curve
+creation - you could have just made an intelligent guess and been
+closer.  With the added bonus of saving a bunch of time.  Unless it is
+some kind of PhD kind of thing.
+ 
+Mark
+
+	-----Original Message-----
+	From: Steve Gates [mailto:stvgates at pacbell.net] 
+	Sent: Wednesday, October 09, 2002 7:44 PM
+	To: BLDG-SIM at GARD.COM
+	Subject: [BLDG-SIM] Static Pressure Reset modeling in DOE 2
+	
+	
+	Currently there is no "optimized static pressure control" for
+fans/ducts in DOE-2.  However, J. Hirsch & Associates has funding to
+implement such a mechanism in DOE-2.2 within the next few months.  The
+funding is provided by Southern California Edison as part of their
+"Energy Design Resources" program
+(http://www.energydesignresources.com/).  These enhancement will be
+incorporated into both DOE-2.2 and eQUEST (not PowerDOE), and will be
+made available to the user community at no charge.
+	 
+	This control mechanism will be similar to the head reset
+controls already implemented for variable-flow pumping systems in
+DOE-2.2, where the pump head setpoint can be reset based on the hourly
+head demand of the worst-case valve. The actual pump head is then a
+function of the worst-case valve head, plus the additional variable-flow
+head losses of the loop piping and the central plant equipment.  This
+control sequence maximizes the potential savings of variable-speed
+pumps, as the required speed of a pump is dependent on both the flow as
+well as the head requirement; with the head requirement usually being
+the dominant factor. (The maximum head of a pump varies roughly as the
+square of the impeller speed; if the head requirement does not decrease
+as the flow drops off, then the speed cannot decrease significantly).
+	 
+	For fans/ducts, the simple curve-fit that varies fan power as a
+function of flow will become obsolete. Instead, DOE-2.2 will keep track
+of the static requirement of the worst-case VAV box, as well as ducting,
+coils, filters, etc.  Each component must be accounted for separately,
+as the head of all of these devices varies differently for a given flow.
+(Some components, such as ducts and sound traps, experience turbulent
+flow, and their head varies as the 1.85 power of flow.  Other
+components, such as coils and filters, are more laminar, and their head
+typically varies in the range of the 1.1-1.6 power of flow.  Still
+others, such as a VAV box without an intelligent DDC system to monitor
+damper position, will have a constant head requirement; i.e. a constant
+head setpoint out toward the end of the ducting.)  These changes will
+require DOE-2.2 to know about the flow through each component in the
+system, the component's head characteristic, as well as the fan map for
+a given type of fan (forward-curved, airfoil, etc.)  Based on flow and
+static requirement, DOE-2.2 will then be able to determine the fan speed
+and power consumption.  
+	 
+	In the meantime, you can approximate "optimized static pressure
+control" by generating a new curve that causes power to fall off more
+rapidly with flow than the default curves.  However, this is not a
+straightforward task, as you would have to calculate by hand all of the
+algorithms we have designed for DOE-2, and repeat the calculations for a
+series of flows.  Perhaps someone has already done this exercise, and
+can share their curves with you.
+	 
+	Steve Gates
+
+		----- Original Message ----- 
+		From: babetsk at jbb.com 
+		To: BLDG-SIM at GARD.COM 
+		Sent: Wednesday, October 09, 2002 2:41 PM
+		Subject: [BLDG-SIM] Static Pressure Reset modeling in
+DOE 2
+
+		
+		To Doe 2 Users:
+		 
+		Hello,
+		 
+		Does anybody know if there is a way to model (in DOE-2)
+an "optimized static pressure control", that is a control method where
+the controller dynamically adjusts the static pressure set point based
+on the position of the modulating devices in the VAV terminal units? 
+		 
+		Thank you
+		 
+		 
+		Konstantin E. Babets, Ph.D.
+		CFD/Energy Modeling Engineer
+		Jaros Baum and Bolles
+		Consulting Engineers
+		80 Pine Street
+		New York NY 1005
+		Tel:   212.530.9455
+		Fax: 212.269.5894
+		
+		 
+		==================
+		You received this e-mail because you are subscribed 
+		to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+		from this mailing list send a blank message to 
+		BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+	
+	==================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021010/7876e6cc/attachment.htm>
+
+From stvgates at pacbell.net  Wed Oct  9 16:44:08 2002
+From: stvgates at pacbell.net (Steve Gates)
+Date: Wed, 9 Oct 2002 16:44:08 -0700
+Subject: [BLDG-SIM] Static Pressure Reset modeling in DOE 2
+References: <MDAEMON-F200210091620.AA2045187pd80000273688@gard.com>
+Message-ID: <MDAEMON-F200210091837.AA3759875pd80000202967@gard.com>
+
+Currently there is no "optimized static pressure control" for fans/ducts in DOE-2.  However, J. Hirsch & Associates has funding to implement such a mechanism in DOE-2.2 within the next few months.  The funding is provided by Southern California Edison as part of their "Energy Design Resources" program (http://www.energydesignresources.com/).  These enhancement will be incorporated into both DOE-2.2 and eQUEST (not PowerDOE), and will be made available to the user community at no charge.
+
+This control mechanism will be similar to the head reset controls already implemented for variable-flow pumping systems in DOE-2.2, where the pump head setpoint can be reset based on the hourly head demand of the worst-case valve. The actual pump head is then a function of the worst-case valve head, plus the additional variable-flow head losses of the loop piping and the central plant equipment.  This control sequence maximizes the potential savings of variable-speed pumps, as the required speed of a pump is dependent on both the flow as well as the head requirement; with the head requirement usually being the dominant factor. (The maximum head of a pump varies roughly as the square of the impeller speed; if the head requirement does not decrease as the flow drops off, then the speed cannot decrease significantly).
+
+For fans/ducts, the simple curve-fit that varies fan power as a function of flow will become obsolete. Instead, DOE-2.2 will keep track of the static requirement of the worst-case VAV box, as well as ducting, coils, filters, etc.  Each component must be accounted for separately, as the head of all of these devices varies differently for a given flow.  (Some components, such as ducts and sound traps, experience turbulent flow, and their head varies as the 1.85 power of flow.  Other components, such as coils and filters, are more laminar, and their head typically varies in the range of the 1.1-1.6 power of flow.  Still others, such as a VAV box without an intelligent DDC system to monitor damper position, will have a constant head requirement; i.e. a constant head setpoint out toward the end of the ducting.)  These changes will require DOE-2.2 to know about the flow through each component in the system, the component's head characteristic, as well as the fan map for a given type of fan (forward-curved, airfoil, etc.)  Based on flow and static requirement, DOE-2.2 will then be able to determine the fan speed and power consumption.  
+
+In the meantime, you can approximate "optimized static pressure control" by generating a new curve that causes power to fall off more rapidly with flow than the default curves.  However, this is not a straightforward task, as you would have to calculate by hand all of the algorithms we have designed for DOE-2, and repeat the calculations for a series of flows.  Perhaps someone has already done this exercise, and can share their curves with you.
+
+Steve Gates
+  ----- Original Message ----- 
+  From: babetsk at jbb.com 
+  To: BLDG-SIM at GARD.COM 
+  Sent: Wednesday, October 09, 2002 2:41 PM
+  Subject: [BLDG-SIM] Static Pressure Reset modeling in DOE 2
+
+
+  To Doe 2 Users:
+
+  Hello,
+
+  Does anybody know if there is a way to model (in DOE-2) an "optimized static pressure control", that is a control method where the controller dynamically adjusts the static pressure set point based on the position of the modulating devices in the VAV terminal units? 
+
+  Thank you
+
+
+  Konstantin E. Babets, Ph.D.
+  CFD/Energy Modeling Engineer
+  Jaros Baum and Bolles
+  Consulting Engineers
+  80 Pine Street
+  New York NY 1005
+  Tel:   212.530.9455
+  Fax: 212.269.5894
+
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021009/ccce61d6/attachment.htm>
+
+From babetsk at jbb.com  Wed Oct  9 14:41:20 2002
+From: babetsk at jbb.com (babetsk at jbb.com)
+Date: Wed, 9 Oct 2002 17:41:20 -0400
+Subject: [BLDG-SIM] Static Pressure Reset modeling in DOE 2
+Message-ID: <MDAEMON-F200210091620.AA2036234pd80000202915@gard.com>
+
+To Doe 2 Users:
+
+Hello,
+
+Does anybody know if there is a way to model (in DOE-2) an "optimized static pressure control", that is a control method where the controller dynamically adjusts the static pressure set point based on the position of the modulating devices in the VAV terminal units? 
+
+Thank you
+
+
+Konstantin E. Babets, Ph.D.
+CFD/Energy Modeling Engineer
+Jaros Baum and Bolles
+Consulting Engineers
+80 Pine Street
+New York NY 1005
+Tel:   212.530.9455
+Fax: 212.269.5894
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021009/3ea460c1/attachment.htm>
+
+From habaza11 at cs.com  Tue Oct  8 13:01:28 2002
+From: habaza11 at cs.com (habaza11 at cs.com)
+Date: Tue, 08 Oct 2002 16:01:28 -0400
+Subject: [BLDG-SIM] "Cool Roofing"
+Message-ID: <MDAEMON-F200210081451.AA5100406pd80000202318@gard.com>
+
+Hi;
+If you consider both heat and moisture flux (absorption), roof surface properties will have even more impact on load. I applied this to bridge decks to reduce surface freezing and had significant results.
+H. Abaza
+Tom Anderson <hvac at cx-assoc.com> wrote:
+
+>Oh Contrair.
+>
+> I ran load calcs for a 100,000 square foot single story big box store
+>in the Burlington, VT area last year to determine what if any benefits
+>would result from changing the flat membrane roof color from dark to
+>light. Occupancy was typical urban sprawl well-known national retailers.
+>
+>Peak air conditioning roof  heat gain was reduced by 50%.
+>
+>Roof was insulated to about R-22, plenum return, packaged DX rooftops.
+>Ran the numbers using Carrier HAP.  Annual AC energy savings came in at
+>about 3%.  Software did show a *slight* heating season penalty, but that
+>was because the software did not account for the usual snow cover on a
+>Vermont roof in winter. There was a worthwhile installed tonnage
+>reduction also.
+>
+>
+>     Thomas E. Anderson
+>     President
+>     Cx Associates, Ltd.
+>     Building Commissioning Specialists
+>     http://www.cx-assoc.com
+>     933 Road 101
+>     Jeffersonville, Vermont 05464 USA
+>     hvac at cx-assoc.com
+>     Tel: 802-644-5616 Fax: 802-644-6797
+>
+>Marcus Sheffer wrote:
+>
+>>  Whenever we have modeled this in the Northeast we also have seen
+>> negligible savings using PowerDOE and others.
+>>
+>> We have come to the conclusion that the savings depend upon the amount
+>> of roof insulation and type of building.  If we enter minimal
+>> insulation the effect of a white roof is larger especially in a
+>> cooling dominated building, high internal loads, etc.
+>>
+>> If you are installing even moderate amounts of insulation (R15 or
+>> more) then the effect of a white roof in the Northeast is virtually
+>> nil for most any building type.
+>>
+>> Now when it comes to the urban heat island effect it can have a
+>> tremendously positive impact . . . but that is another issue.
+>>
+>>
+>> At 01:55 PM 10/07/2002 -0400, you wrote:
+>>
+>>> Has anyone had any success modeling cool roofing options (i.e.
+>>> reflective or light colored surfaces) in PowerDOE?  So far, I have
+>>> seen negligible results from the adjustment of roof construction
+>>> absorptance values (emissivity is also known to play a role, but
+>>> there is no input for this in PowerDOE).  I have seen data showing
+>>> cooling energy savings from 0.06 to 0.54 kWh/sqft/yr, depending on
+>>> building type.  I am getting only a very small fraction of this.
+>>> Data collected in the study was from facilities in the southern and
+>>> western US, and I work primarily on buildings in the Northeast.
+>>>
+>>> My questions:
+>>> How well can I expect PowerDOE to simulate this?  Is there a better
+>>> way to simulate cool roofing?  Is the sun simply too low in the sky
+>>> in New England to yield substantial savings?
+>>>
+>>> Your thoughts are appreciated.
+>>>
+>>> Wade McLaughlin
+>>> DMI
+>>
+>> Marcus B. Sheffer                          energy & environmental
+>> consulting
+>> Energy Opportunities                     717-292-2636
+>> 1200 E Camping Area Road            Fax: 717-292-0585
+>> Wellsville, PA USA 17365-9783        sheffer at sevengroup.com
+>> a Seven Group member company   www.sevengroup.com
+>
+>
+>======================================================
+>You received this e-mail because you are subscribed 
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+"Guedi Capeluto" <arrguedi at techunix.technion.ac.il> wrote:
+
+>Hello,
+> 
+>Some years ago we published a work that presented a sensitivity analysis
+>of building's energy performance in a hot-humid climate (Tel Aviv)
+>to the values assigned to various design parameters among them Roof
+>color. It was done for a standard heavily constructed apartment building
+>block, using the simulation model ENERGY developed by Shaviv and Shaviv.
+>The results show that the influence is dependent on the roof insulation
+>and can be positive or negative during different seasons.
+> 
+>For more details check:
+> 
+>
+> Shaviv E. and I. G. Capeluto, 1992. "The Relative Importance of Various
+>Geometrical Design ?Parameters in Hot-Humid Climate", "ASHRAE Trans.",
+>Vol.98, AN-92-1-1, Baltimore. (pp. 589-605) 
+>
+> 
+>
+>Best,
+>
+> 
+>
+>Guedi Capeluto
+>
+> 
+>
+>---
+>
+>Arch. Guedi Capeluto, D.Sc.
+>Faculty of Architecture and Town Planning
+>Technion - Israel Institute of Technology
+>Technion City, Haifa 32000. Israel.
+>Tel: +972.4.8294013 ? ?Fax: +972.4.8294617
+>email: arrguedi at tx.technion.ac.il
+>
+>
+>
+> 
+>
+> 
+>
+>
+>======================================================
+>You received this e-mail because you are subscribed 
+>to the BLDG-SIM at GARD.COM mailing list. ?To unsubscribe 
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mg at geopraxis.com  Tue Oct  8 10:04:24 2002
+From: mg at geopraxis.com (Matt Gangemi)
+Date: Tue, 8 Oct 2002 10:04:24 -0700
+Subject: [BLDG-SIM] Indirect Evaporative Cooling
+Message-ID: <MDAEMON-F200210081147.AA4732796pd80000202227@gard.com>
+
+Hello,
+
+I'm analyzing a building with a central plant, and would like to simulate pre-cooling the outside air using indirect evaporative
+cooling, using relief air as the secondary stream.  Does anyone know how to do this with DOE2?  (I've been using 2.2, but let me
+know if there's a solution in any version)
+
+Not knowing how to simulate this exact situation, I've tried to simulate indirect evaporative cooling using outside air as the
+secondary stream.  However, this gave me results that I don't believe.  Specifically, after adding evaporative cooling our increased
+fan energy dwarfed any chiller savings.  Although this is possible if the climate is mild enough, in that case the demand should
+still be reduced.  According to some spreadsheet calculations, we should save ~40kW in demand from the reduction in chiller size,
+and gain ~10kW in fans.  However, in the simulation results the demand increases by ~200 kW.
+
+Here are the commands I had  added:
+   EVAP-CL-TYPE     = INDIRECT
+   EVAP-CL+M-SUP    = TOGETHER
+   EVAP-CL+REC-RA   = YES
+
+Does anyone know of oddities in modeling indirect evaporation that I should know about?
+
+Thanks,
+-Matt Gangemi
+ GeoPraxis
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From arrguedi at techunix.technion.ac.il  Tue Oct  8 09:11:58 2002
+From: arrguedi at techunix.technion.ac.il (Guedi Capeluto)
+Date: Tue, 8 Oct 2002 18:11:58 +0200
+Subject: [BLDG-SIM] "Cool Roofing"
+In-Reply-To: <MDAEMON-F200210081003.AA0301781pd80000270611@gard.com>
+Message-ID: <MDAEMON-F200210081102.AA0241531pd80000202181@gard.com>
+
+Hello,
+ 
+Some years ago we published a work that presented a sensitivity analysis
+of building's energy performance in a hot-humid climate (Tel Aviv)
+to the values assigned to various design parameters among them Roof
+color. It was done for a standard heavily constructed apartment building
+block, using the simulation model ENERGY developed by Shaviv and Shaviv.
+The results show that the influence is dependent on the roof insulation
+and can be positive or negative during different seasons.
+ 
+For more details check:
+ 
+
+ Shaviv E. and I. G. Capeluto, 1992. "The Relative Importance of Various
+Geometrical Design  Parameters in Hot-Humid Climate", "ASHRAE Trans.",
+Vol.98, AN-92-1-1, Baltimore. (pp. 589-605) 
+
+ 
+
+Best,
+
+ 
+
+Guedi Capeluto
+
+ 
+
+---
+
+Arch. Guedi Capeluto, D.Sc.
+Faculty of Architecture and Town Planning
+Technion - Israel Institute of Technology
+Technion City, Haifa 32000. Israel.
+Tel: +972.4.8294013    Fax: +972.4.8294617
+email: arrguedi at tx.technion.ac.il
+
+
+
+ 
+
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021008/0383127a/attachment.htm>
+
+From jhaberl at esl.tamu.edu  Tue Oct  8 08:13:18 2002
+From: jhaberl at esl.tamu.edu (Jeff Haberl)
+Date: Tue, 8 Oct 2002 10:13:18 -0500 
+Subject: [BLDG-SIM] "Cool Roofing"
+Message-ID: <MDAEMON-F200210081003.AA0330625pd80000202125@gard.com>
+
+Hello:
+ 
+Here's my $0.05 worth.
+ 
+First, FSEC, LBNL and others have done lots and lots of work on this...and
+the "results" are very dependent on what is going on 
+below the roof. For example, if there are ducts, what model is used, etc.
+Information about what they have
+done can be found in papers by Parker, and Fairey, etc.
+ 
+Second, to be correct, one needs a simulation model that has radiation and
+natural convection calculated 
+correctly in the attic -- usually outside the domain of DOE-2, or powerDOE,
+for example see the work by 
+Mario Medina et al. at the University of Kansas.
+ 
+Third, if one insists on using DOE-2 we have found that it makes a big
+difference when one turns on the
+CUSTOM-WEIGHTING-FACTORS by setting the floor weight equal to zero.  This,
+of course needs
+lots of other things, like a different floor model, and real materials,
+etc., not for the faint-of-heart.
+ 
+Finally, I have my doubts about DOE-2's radiative coupling to the sky, its
+"rain" simulation, and its "dewpoint" assumptions,
+based on some simulations that we have made where we compared the data from
+measured attic temperatures from a Habitat House that
+showed the simulation losing more heat than the real attic did --
+interesting stuff that will be presented in a paper someday, report
+available from the ESL soon.
+ 
+Here's an annotated bibliography that we recently prepared for the
+California Energy Commission on the topic.  
+ 
+Jeff
+ 
+Akbari, H. (1998). Cool Roofs Save Energy. ASHRAE Transactions, Vol.104, Pt.
+1B, pp. 783-788. <?xml:namespace prefix = o ns =
+"urn:schemas-microsoft-com:office:office" />
+
+ 
+
+This paper discusses about field data documenting the effect of white roofs
+that has been found to reduce the air conditioning load in individual
+buildings in California and Florida by between 10% and 50%, depending on the
+thickness of insulation beneath the roof. In addition 'cool' roofs can limit
+or reverse the urban heat island effect and can reduce low-level ozone
+concentrations. The paper also presents simulated savings for several U.S.
+metropolitan areas and briefly discusses policy and implementation issues
+such as ratings and ASHRAE standards.
+
+ 
+
+Akbari, H., Gartland, L. M., & Konopacki, S. J. (1998). Measured Energy
+Savings of Light-colored Roofs: Results from Three California Demonstration
+Sites. ACEEE 1998 Summer Study on Energy Efficiency in Buildings: Efficiency
+& Sustainability, Vol. 3, pp. 3.1-3.12. 
+
+ 
+
+This study demonstrated the impact of roof albedo in reducing cooling energy
+use in three commercial buildings in California. Increasing the roof
+reflectance from about 20% to 60% dropped the roof temperature on hot summer
+afternoon by about 45?F. Savings are a function of both climate and the
+amount of roof insulation. The cooling energy savings for reflective roofs
+are highest in hot climates. A reflective roof may also lead to higher
+heating energy use. Reflective coatings are also used in commercial building
+to protect the roofing membrane. Reflectivity of coatings changes with
+weathering and aging which have an effect on building cooling-energy
+savings.  
+
+ 
+
+Akbari, H, & Konopacki, S. J. (1998). The Impact of Reflectivity and
+Emissivity of Roofs on Building Cooling and Heating Energy Use. Proceedings
+of the ASHRAE/DOE Conference on Thermal Performance of the Exterior
+Envelopes of Buildings VII, Clearwater Beach, FL., pp. 29-39. 
+
+ 
+
+This paper summarizes the result of computer simulations and analyses the
+impact of roof albedo and emissivity on heating and cooling energy use. The
+simulations are performed for eleven representative climates throughout the
+country. Several residential and commercial prototypical buildings are
+considered for these simulations. In hot climates, changing the roof
+emissivity from 0.9 (emissivity of most nonmetallic surfaces) to 0.25
+(emissivity of fresh and shiny metallic surfaces) can result in a net 10%
+increase in annual utility bills. In colder climates, the heating energy
+savings approximately cancel out the cooling energy penalties from
+decreasing the roof emissivity. In very cold climates with no summertime
+cooling, the heating energy savings resulting from decreasing the roof
+emissivity can be up to 3%.
+
+ 
+
+Akbari, H., Konopacki, S. J., Eley, C. N., Wilcox, B. A., Van Geem, M. G. &
+Parker, D. S. (1998). Calculations for Reflective Roofs in Support of
+Standard 90.1. ASHRAE Transactions, Vol. 104, Pt. 1B, pp. 976-987. 
+
+This paper summarizes the results of a simulation effort in support of
+ASHRAE SSPC 90.1 for the inclusion of reflective roofs in the proposed
+standard. Simulation results include the annual electricity and fuel use for
+two building types, residential and non-residential. The 90.1 Envelope
+Subcommittee DOE-2 prototype building and operating schedules were used. The
+parametric simulations were performed for 19 climate bins, as defined in the
+current 90.1 draft; a range of roof absorptivities from 0.25 to 0.95; and
+three roof U-factors (corresponding to roof insulation of R3, R11, and R38).
+The results are condensed into climate-dependent adjustment factors to
+reduce roof insulation for buildings with reflective roofs such that the net
+energy use of the building stays constant when compared with the energy use
+of a dark-colored roof.
+
+ 
+
+Akbari, H., Konopacki, S. J.,  & Parker, D. S. (2000). Updates on Revision
+to ASHRAE  Standard 90.2: Including Roof Reflectivity for Residential
+Buildings. ACEEE 2000 Summer Study on Energy Efficiency in Buildings:
+Efficiency & Sustainability, Vol. 1, pp. 1.1-1.11.
+
+ 
+
+This paper discusses the results of a simulation effort in support of ASHRAE
+SSPC 90.2 for inclusion of reflective roofs in the proposed standard.
+Simulation results include the annual electricity and fuel use for a
+prototypical single-family one-story house. The 90.2 Envelope Subcommittee
+DOE-2 prototype building and operating schedules were used. The parametric
+simulations were performed for the following scenarios and combinations
+thereof: 3 heating systems, 4 duct and duct insulation configurations, 5
+levels of roof reflectivity, and 4 levels of attic air change rate. The
+simulations were performed for 32 climate regions. The results are condensed
+into climate-dependent adjustment factors that equivalent reductions in roof
+insulation levels corresponding to increased roof reflectivity. Results
+indicate that in hot climates, increasing the roof reflectivity from 20% to
+60% is worth over half of the roof insulation. 
+
+ 
+
+Akbari, H., Levinson, R. & Berdahl, P. (1996). ASTM Standards for Measuring
+Solar Reflectance and Infrared Emittance of Construction Materials and
+Comparing their Steady-State Surface Temperatures. ACEEE 1996 Summer Study
+on Energy Efficiency in Buildings: Efficiency & Sustainability, Vol. 1, pp.
+1.1-1.9.
+
+ 
+
+This paper describes the technical issues relating to development of two
+American Society for Testing & Materials (ASTM) standards, E 903 ? Test
+Method for Solar Absorptance, Reflectance, and Transmittance of Materials
+Using Integrating Spheres, and E 408 ? Test Methods for total Normal
+Emittance of Surface Using Inspection-Meter Techniques. The study addresses
+the measurement of the solar reflectance of the horizontal surfaces in the
+field and translating the results into a comparative index. SRI is an
+excellent predictor of relative surface temperature for materials with high
+infrared emittance and is generally insensitive to variations in convection
+coefficients, ambient temperature, and sky temperature.
+
+ 
+
+Akbari,H., Taha, H., & Sailor, D. (1992). Measured Savings in Air
+Conditioning from Shade Trees and White Surfaces. Proceeding of the ACEEE
+1992 Summer Study on Energy Efficiency in Buildings: Efficiency &
+Sustainability, Vol. 9, pp. 9.1-9.10.
+
+This study discusses the measured saving in air-conditioning electricity use
+which resulted from painting roofs white and planting shade trees for six
+houses and a school bungalow in Sacramento, CA. Preliminary data indicate
+the painting roof white of one of the houses eliminated air-conditioning
+energy use about 12 kWh/day and 2.3 kW in peak power. Painting the roof and
+one wall of a school bungalow white reduced its air-conditioning energy use
+by over 50%. Shading the west windows, south windows, and air-conditioning
+condenser units of two houses with trees appear to have lowered cooling
+electricity use by 10 to 40%.
+
+ 
+
+Akridge, J. M. (1998). High-albedo Roof Coating - Impact on Energy
+Consumption. ASHRAE Transactions, Vol. 104, Pt. 1B, pp. 957-962. 
+
+ 
+
+The paper addresses the recent tests conducted on a 12,000ft? single-story
+building used as an educational center identified high roof temperatures as
+a significant problem. The galvanized roof frequently reached temperatures
+above 180?F. Considerable heat energy reached the non-ventilated attic,
+resulting in temperatures as high as 105degF during the peak of summer.
+Although the HVAC units were equipped with insulated return ducts, these
+temperatures increased energy conduction through the duct insulation and
+through the ceiling insulation into the conditioned space. The roof was
+coated on March 28 and 29, 1995, with a high-albedo acrylic coating
+developed to control thermal gain and rust. Tests show installation of the
+thermal-control roof coating reduced the peak roof temperature to 120?F and
+significantly decreased the energy flow through the roof and ceilings. Tests
+show that the high-reflectivity roof coating reduced HVAC energy consumption
+in a range from 8.7% to 27.5%, depending on the solar radiation and the
+ambient temperature.
+
+ 
+
+Anderson, R. W. (1989). Radiation Control Coatings: An Underutilized Energy
+Conservation Technology for Buildings. ASHRAE Transactions, Vol. 95, Pt. 2,
+pp. 682-685.
+
+ 
+
+The paper points out that the application of radiation control coatings
+(RCCs) to exterior roof and wall surfaces can effectively block solar heat
+gains and significantly reduce cooling energy consumption and the sizing of
+cooling equipment in warm climates. The application of RCCs remains
+underutilized and is not yet recognized in building energy codes. The paper
+discusses the status of RCC technology and the benefits to be gained from
+the use of RCCs, including estimated reductions in cooling requirements and
+energy consumption and suggests projects to demonstrate the full potential
+of RCCs technology for building applications.
+ 
+Bretz, S. E., & Akbari, H. (1994). Durability of High-Albedo Roof Coatings.
+ACEEE 1994 Summer Study on Energy Efficiency in Buildings: Efficiency &
+Sustainability, Vol. 9, pp. 9.65-9.75.
+
+The study addresses the aging characteristics of high-albedo roofs.
+Twenty-six spot albedo measurements of roofs were made using a calibrated
+pyranometer. The decrease in albedo depends on the coating itself, the
+texture of the surface, the slope of the roof and the nearby sources of dirt
+and debris. The largest decrease in albedo occurs in the first year, at a
+reduction of about 20%. After the second year, the incremental decrease in
+albedo can be small, lowering saving estimates by 10-20%. Washing the
+high-albedo coatings returned the albedo to 90-100% of the estimated
+original value but it is not cost-effective if only concerned with
+cooling-energy saving. 
+
+ 
+
+Carlson, J. D., Christian, J. E., & Smith, T. L. (1992). In Situ Thermal
+Performance of APP-modified Bitumen Roof Membranes Coated with Reflective
+Coatings. Proceedings of the ASHRAE/DOE Conference on Thermal Performance of
+the Exterior Envelopes of Buildings V, Clearwater Beach, FL., pp. 420-428.
+
+ 
+
+A multi-faceted field research program regarding seven atactic polypropylene
+(APP) modified bitumen membrane roof systems and four reflective coatings
+began in 1991. This long-term project is evaluating the performance of
+various APP-modified bitumen membranes (both coated and uncoated), the
+comparative performance of coating application soon after membrane
+installation versus pre-weathering, coating performance, and aspects of
+recoating. Reports progress on the in-situ thermal performance of the
+various types of coated membranes compared to the thermal performance of the
+exposed membranes. The thermal performance of an adjacent ballasted ethylene
+propylene diene terpolymer (EPDM) roofing system is also described.
+
+ 
+
+Fawcett, S. L., Shull, P.D., & Smith, D. (1992). Application and Experience
+in the Use of Aluminium Chips as a Reflective Surface for Commercial
+Roofing. Proceedings of the ASHRAE/DOE Conference on Thermal Performance of
+the Exterior Envelopes of Buildings V, Clearwater Beach, FL., pp. 417-419.
+
+ 
+
+The paper contains the information of using thin aluminium chips as a
+reflective surface for commercial roofing. Chips can be field or factory
+applied. Solar reflectivity measurements indicate that approximately 70% of
+the full solar spectrum is reflected. A brief review of the early roofing
+projects indicates that retained reflectivity and extended roof life are
+being achieved. The paper describes characteristics of such roofing
+surfaces, how the product is applied to roofs, and the experience to date in
+their application and performance.
+
+ 
+
+Fisette, P. (1996). ?Roofing and Siding Rehabs Get an Energy Fix?, Home
+Energy Journal, November-December, pp.25-31.
+
+ 
+
+This paper explains the idea of using thin aluminum chips as a reflective
+surface for commercial roofing. The paper states about reflectivity of the
+chips (approximately 70%) that more than 96% is still retained over 10
+years. Advantages of roof temperature reduction, roof life as well as
+characteristics of roofing surface, how the product is applied to roofing,
+and the experience to date in their application and performance are also
+described. 
+
+                                             
+
+Gartland, L. M., Konopacki, S. J., & and Akbari, H. (1996). Modeling the
+Effects of Reflective Roofing. ACEEE 1996 Summer Study on Energy Efficiency
+in Buildings: Efficiency & Sustainability, Vol. 4, pp. 4.117-4.124.
+
+ 
+
+This paper describes a function that was written to incorporate the attic
+heat transfer processes into the DOE-2 building energy simulation. This
+function adds radiative, convective and conductive equations to the energy
+balance of the roof. Results of the enhanced DOE-2 model were compared to
+measured data collected from a school bungalow in a Sacramento Municipal
+Utility District monitoring project. The function improves the accuracy of
+DOE-2 in modeling the effects of high albedo roofing but still over-predicts
+the daily energy use of both high and low albedo roofs. The yearly energy
+savings of a white roof may be as much as four times higher than is
+currently predicted by DOE-2.
+
+ 
+
+Griggs, E. I., & Shipp, P. H. (1988). The Impact of Surface Reflectance on
+Roofs: An Experimental Study. ASHRAE Transactions, Vol. 94, Pt. 2, pp.
+1626-1642.
+
+ 
+
+The paper is the study about the thermal effects of black versus white
+membranes on an insulated low slope roof over an 18 month period. White or
+black polyisobutylene (PIB) membrane was used. Seasonal distinctions in the
+measured data between black and white membranes are reported. Included are
+cumulative and instantaneous heat fluxes and hourly surface temperature
+variations. Peak membrane temperatures were observed to differ by up to 50
+?F during the day. Nighttime differences in membrane surface temperatures
+were negligible. Changes due to dirt accumulation and local environmental
+factors were observed in surface reflectance values calculated from the
+energy balance at the roof membrane and from reflectometer measurements.
+
+ 
+
+Hildebrandt, E. W., Bos, & W., Moore, R. (1998). Assessing the Impact of
+White Roofs on Building Energy Loads. ASHRAE Transactions, Vol.104, Pt. 1B,
+pp. 810-818. 
+
+ 
+
+The study states the impact of white roof coatings on energy loads in three
+non-residential buildings in Sacramento. Hourly metered loads were designed
+to isolate the effects of white roof coatings on building cooling loads from
+changes in cooling loads due to variations in outdoor temperatures. Basic
+multiple linear regression model used to weather normalize energy
+consumption data was expanded to include hourly solar radiation or
+insolation levels as explanatory variables, along with explanatory variables
+representing outdoor temperatures. Results indicate that the effect of solar
+insolation levels on cooling energy consumption was significantly decreased
+after the application of white roofs in all three buildings. Savings
+estimates based on this approach range from 17% to 39% of total cooling
+loads, or .35kWh to .68kWh per square foot of treated roof area per year.
+
+ 
+
+Kochhar, G. S., Osborne, R. W. A., & Lewis, E. R. (1992). Enhancement of
+Thermal Performance of Domestic Roofing System for Tropical Climes.
+Proceedings of the ASHRAE/DOE Conference on Thermal Performance of the
+Exterior Envelopes of Buildings V, Clearwater Beach, FL., pp. 429-439. 
+
+ 
+
+This paper studies a series of side-by-side tests using model roof
+assemblies have been conducted to determine the potential of radiant
+barriers for enhancing the thermal microclimate of local domestic,
+single-storey low-cost housing, for tropical climates. A comparative system
+was adopted, using two identical test models, one an unchanging reference
+and the other a test unit for examining the behavior of various radiant
+barrier and ceiling configurations. The paper presents the design details of
+the outdoor testing system used and the results of comparative testing of
+aluminium foil and aluminium paint with regard to their effectiveness as
+radiant barriers. Experimental results showed that the low-cost aluminium
+paint, although not as effective as aluminium foil, does have an enhancing
+effect on the thermal performance of the roof assembly system. 
+
+ 
+
+Konopacki, S., & Parker, D. (1998). ?Saving Energy with Reflective Roofs?,
+Home Energy Journal, November-December, pp. 9-10.
+
+ 
+
+This paper contains information of five final case studies out of ten case
+studies that the Florida Solar Energy Center conducted in Florida during
+midsummer over a period of four years. The studies measured the effect of
+increasing the roof surface solar reflectance on air conditioning energy
+use. The studies did not recommend painting or coating a conventional
+shingle roof white because it can lead to potential moisture damage. In all
+locations, reflective roofs reduced space-cooling varying from 13% to 58%.
+Heating consumption was increased only slightly, from 3% to 6%.    
+
+ 
+
+MacDonald, J. M., Courville, G. E., Griggs, E. I., & Sharp, T. R. (1989). A
+Guide for Estimating Potential Energy Savings from Increased Solar
+Reflectance of a Low-sloped Roof. Proceedings of the ASHRAE/DOE Conference
+on Thermal Performance of the Exterior Envelopes of Buildings IV, Orlando,
+FL., pp. 348-357. 
+
+ 
+
+This paper describes the methodology and limitations of an easy-to-use guide
+for calculating energy and cost saving resulting from a change in the solar
+reflectance of a low-slope roof. The guide provides data and calculation
+procedures for estimating energy and cost savings. In most instances, the
+cooling cost savings associated with a change to a white roof surface (one
+with higher solar reflectance) exceed the heating cost penalty. If the
+difference between reduced cooling costs and increased heating costs is
+significant, it can affect the choice of membrane for a new roof or a
+re-roofed building. The guide helps the user estimate this energy cost
+difference and also describes how various factors influence potential energy
+savings and actual roof surface temperatures for different solar
+reflectance.
+
+ 
+
+Parker, D., & Barkaszi, S. (1994). ?Saving Energy with Reflective Roof
+Coatings?, Home Energy Journal, May-June, pp. 15-20. 
+
+ 
+
+This paper contains information of six case studies out of ten case studies
+that the Florida Solar Energy Center conducted in Florida during midsummer
+over a period of four years. The studies measured the effect of increasing
+the roof surface solar reflectance on air conditioning energy use and shows
+that reflective roofs can reduce space-cooling energy consumption and demand
+in Florida. The savings is about 10-40% that is around 440 to 1760 kWh per
+year for household electricity use or an annual saving of $35-$140 at
+current electricity rates (assuming 8 cents per kWh). The savings will vary
+depending upon the severity of the cooling season and roof insulations. The
+paper discusses the payback concern of reflective roofing which overall
+application would cost about $1 per ft? or approximately $2,200 for a
+typical home. With annual energy saving in Florida of $35-$140, the payback
+times are long, usually, lasting longer than the roof itself.
+
+ 
+
+Parker, D. S., Cummings, J. B., Sherwin, J. R., Stedman, T. C., & McIlvaine,
+J. E. R. (1994). Measured Residential Cooling Energy Savings from Reflective
+Roof Coatings in Florida. ASHRAE Transactions, Vol. 100, Pt. 2, pp. 36-49.
+
+ 
+
+This study presents experiments about the impact of reflective coating on
+air conditioning energy use that were applied to the roof of two residential
+buildings in Cocoa Beach, Florida, in the summer of 1992. Site 1 with
+approximately R-11 (RSI 1.9) ceiling insulation and Site 2 with a flat roof
+with no insulation. Reflective coatings were applied to the roofs of both
+residences in mid-summer. Analysis revealed substantial reductions in
+space-cooling energy use in both homes. Air-conditioning energy use was
+reduced by approximately 25% at Site 1. Utility coincident peak demand
+between 5 and 6 p.m. was reduced by 28%. Cooling energy savings at the
+uninsulated Site 2 home were approximately 43% and the coincident peak
+reduction was 38%.
+
+ 
+
+Parker, D. S., Huang, Y. J., Konopacki, S. J., Gartland, L. M., Sherwin, J.
+R. & Gu, L. (1998). Measured and Simulated Performance of Reflective Roofing
+Systems in Residential Buildings. ASHRAE Transactions, Vol.104, Pt. 1B, pp.
+963-975.
+
+ 
+
+This paper contains information about a series of experiments in Florida
+residences that have measured the impact of increasing roof solar
+reflectance on space cooling. In tests on eleven homes with the roof colour
+changed in mid-summer, the average cooling energy use was reduced by 19%.
+Measurements and infrared thermography show that a significant part of the
+savings is due to interactions when the duct system is located in the attic
+space. An improved residential attic and duct simulation model, taking these
+experimental results into account, has been implemented in the DOE-2.1E
+building energy simulation program. The model was then used to estimate the
+impact of reflective roofing in fourteen climatic locations around the
+United States.
+
+ 
+
+Parker, D. S., Sherwin, J. R., & Sonne, J. K. (1998). Measured Performance
+of a Reflective Roofing System in a Florida Commercial Building. ASHRAE
+Transactions, Vol.104, Pt. 1B, pp. 789-794.
+
+ 
+
+
+The paper reports on the first results from tests on a reflective roofing
+system on a commercial building in Florida. The building is an elementary
+school with a sloped, modified bitumen roof. Air conditioning power was
+measured in a base configuration prior to the roofing system being changed
+to a white colour. Roof, decking, and plenum air temperatures were strongly
+affected by the change to a white roof system. The school, which was
+monitored for a full year in both the pre- and post-condition, saw the
+measured annual chiller electric power reduced by 10%, or 13,000kWh/yr.
+Cooling-load reductions during the utility summer peak were substantially
+greater, more than 30% during the afternoon hours.
+
+
+Petrie, T. W., Childs, P. W., &Christian, J. E. (1998). Radiation Control
+Coatings Installed on Rough-surfaced Built-up Roofs: Initial Test Results.
+ASHRAE Transactions, Vol. 95, Pt. 2, pp. 795-809.
+
+
+This paper is a study on the solar reflectance and thermal performance of
+small samples of various radiation control coatings on smooth surfaces that
+have been tracked for several years on a roof test facility in East
+Tennessee. The focus is on white coatings because of their potential to
+weather, which causes the solar reflectance to decrease as the coatings age.
+An extension of the study included more small samples on smooth surfaces and
+entire rough-surfaced roofs at a federal facility in Florida. Two
+rough-surfaced, moderately well insulated, low solar reflectance built-up
+roofs (BURs) were spray-coated with a latex-based product including ceramic
+beads. Only a small patch was left uncoated on each BUR to gather data
+throughout the project on the performance with no coating for direct
+comparison to data from instrumented coated areas. The average power demand
+during occupied periods for the first month with the coating for the
+building with the thermally massive roof deck was 13% less than during the
+previous month without the coating. For the other building, with a
+lightweight roof deck but high internal loads, there were no clear average
+power savings due to the coating. 
+
+ 
+
+Petrie, T. W., Childs, P. W., & Christian, J. E. (1998). Radiation Control
+Coatings on Rough-surfaced Roofs at a Federal Facility: Two Summers of
+Monitoring Plus Roof and Whole Building Modeling. Proceedings of the
+ASHRAE/DOE Conference on Thermal Performance of the Exterior Envelopes of
+Buildings VII, Clearwater Beach, FL., pp. 353-371. 
+
+ 
+
+This paper updates and completes the presentation of data for this New
+Technology Demonstration Programme (NTDP) project. The paper discusses the
+effect of radiation control coatings on rough-surfaced, low-slope roofs at a
+federal facility in the Panhandle of Florida. Two gravel-topped, moderately
+well-insulated, low solar reflectance built-up roofs (BURs) were spray
+coated with a white, latex-based product with ceramic beads. One roof was
+significantly shaded and its building had high internal loads. The other had
+a thermally massive deck but its building had little internal load.
+Measurements show the history of coated and uncoated outside-surface
+temperatures and solar reflectance of the roof surfaces from July 1996, when
+the roofs were coated, through October 1997. Roof models based on
+one-dimensional transient conduction through the roofs are used to compare
+the heat fluxes through the roof deck for coated and uncoated roof surfaces.
+DOE-2.1E whole building annual energy use predictions specific to the
+buildings and their operating schedules show the effect of the coatings and
+other building features for the climatic conditions of the Florida
+Panhandle. 
+
+ 
+
+Rosenfeld, A. H., Akbari, H., Taha, H., & Bretz, S. (1992). Implementation
+of Light-Colored Surfaces: Profits for Utilities and Labels for Paints.
+Proceeding of the ACEEE 1992 Summer Study on Energy Efficiency in Buildings:
+Efficiency & Sustainability, Vol. 9, pp. 9.141-9.144. 
+
+ 
+
+This study discusses about the problem of summer urban heat islands that
+requires significant additional generating capacity and results in increased
+pollutant emissions and higher energy bills. Urban areas can be lightened
+through use of high-albedo materials for both building and urban surfaces.
+The paper estimates that heat island reduction savings of $1 billion could
+be realized through utility-sponsored demand-side management (DSM) programs
+that promote the whitening and greening of cities. Assuming these utilities
+are permitted to retain 10% of program savings, then they could earn about
+$100 million/year.
+
+ 
+Jeff
+
+
+8=!   8=)  :=)   8=)   ;=)   8=)   8=(   8=)   8=()   8=)   8=|   8=)   :=')
+8=)   8=)   8=? 
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu 
+Associate Professor....................................Office Ph:
+979-845-6507 
+Department of Architecture...........................Lab Ph: 979-845-6065 
+Energy Systems Laboratory...........................FAX: 979-862-2457 
+Texas A&M University..................................77843-3581 
+College Station, Texas, USA...........................URL: www-esl.tamu.edu 
+
+8=/   8=)  :=)   8=)  ;=)   8=)   8=()   8=)   :=)   8=)   8=!   8=)   8=?
+8=)   8=)   8=0   
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021008/0d8c48d8/attachment.htm>
+
+From jmaxwell at aspensys.com  Tue Oct  8 06:24:40 2002
+From: jmaxwell at aspensys.com (Jon Maxwell)
+Date: Tue, 8 Oct 2002 08:24:40 -0500
+Subject: [BLDG-SIM] "Cool Roofing"
+References: <MDAEMON-F200210071927.AA2721968pd80000270216@gard.com>
+Message-ID: <MDAEMON-F200210081015.AA1534296pd80000202143@gard.com>
+
+The City of Santa Clara has a cool roofing initiative that pays $0.20
+/sf.
+http://www.siliconvalleypower.com/Business/ProductsAndServices/PublicB
+enefitsProgramsMoneyInYourPocket.html
+
+
+----- Original Message -----
+From: "John Porterfield" <jmporterfield at hotmail.com>
+To: <BLDG-SIM at gard.com>
+Sent: Monday, October 07, 2002 7:37 PM
+Subject: [BLDG-SIM] "Cool Roofing"
+
+
+All -
+
+In response to: 'Now when it comes to the urban heat island effect it
+can
+have a tremendously positive impact . . . but that is another issue.'
+
+Recent addition of Energy Code (IECC2000) to Chicago Building Code was
+supplemented with reflective roofing requirement.  Please let me know
+if
+other jurisdictions similarly target urban heat island effect through
+their
+Code.  Codes ordinarily do not address exterior surface optical
+properties.
+The purpose of the Chicago Code extends to 'promote public welfare' in
+addition to the usual 'protect life / health / safety.'
+See < http://www.ci.chi.il.us/Buildings/BuildingCode/roofreflect.html
+>
+
+John Porterfield
+Community Energy Cooperative
+2125 W. North Ave.
+Chicago, IL  60647
+773-486-7600  x-189 fax 773-486-7643
+www.energycooperative.org
+JohnP at energycooperative.org
+
+Action springs from love or fear; as we choose, love.
+
+
+
+_________________________________________________________________
+MSN Photos is the easiest way to share and print your photos:
+http://photos.msn.com/support/worldwide.aspx
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jmporterfield at hotmail.com  Mon Oct  7 17:37:51 2002
+From: jmporterfield at hotmail.com (John Porterfield)
+Date: Tue, 08 Oct 2002 00:37:51 +0000
+Subject: [BLDG-SIM] "Cool Roofing"
+Message-ID: <MDAEMON-F200210071927.AA2721515pd80000201869@gard.com>
+
+All -
+
+In response to: 'Now when it comes to the urban heat island effect it can 
+have a tremendously positive impact . . . but that is another issue.'
+
+Recent addition of Energy Code (IECC2000) to Chicago Building Code was 
+supplemented with reflective roofing requirement.  Please let me know if 
+other jurisdictions similarly target urban heat island effect through their 
+Code.  Codes ordinarily do not address exterior surface optical properties.  
+The purpose of the Chicago Code extends to 'promote public welfare' in 
+addition to the usual 'protect life / health / safety.'
+See < http://www.ci.chi.il.us/Buildings/BuildingCode/roofreflect.html >
+
+John Porterfield
+Community Energy Cooperative
+2125 W. North Ave.
+Chicago, IL  60647
+773-486-7600  x-189 fax 773-486-7643
+www.energycooperative.org
+JohnP at energycooperative.org
+
+Action springs from love or fear; as we choose, love.
+
+
+
+_________________________________________________________________
+MSN Photos is the easiest way to share and print your photos: 
+http://photos.msn.com/support/worldwide.aspx
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mcase at etcgrp.com  Mon Oct  7 15:07:19 2002
+From: mcase at etcgrp.com (Mark E. Case)
+Date: Mon, 7 Oct 2002 16:07:19 -0600
+Subject: [BLDG-SIM] "Cool Roofing"
+In-Reply-To: <MDAEMON-F200210071521.AA2108500pd80000269309@gard.com>
+Message-ID: <MDAEMON-F200210071656.AA5631859pd80000201823@gard.com>
+
+I know a researcher at LBNL that has done a significant amount of work on
+cool roofs. I have taken the liberty to forward the previous emails to him
+to see if he can provide any enlightenment. There are numerous papers in the
+peer reviewed literature that you may want to look at.
+  -----Original Message-----
+  From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Tom Anderson
+  Sent: Monday, October 07, 2002 2:32 PM
+  To: BLDG-SIM at GARD.COM
+  Subject: [BLDG-SIM] "Cool Roofing"
+
+
+  Oh Contrair.
+   I ran load calcs for a 100,000 square foot single story big box store in
+the Burlington, VT area last year to determine what if any benefits would
+result from changing the flat membrane roof color from dark to light.
+Occupancy was typical urban sprawl well-known national retailers.
+
+  Peak air conditioning roof  heat gain was reduced by 50%.
+
+  Roof was insulated to about R-22, plenum return, packaged DX rooftops.
+Ran the numbers using Carrier HAP.  Annual AC energy savings came in at
+about 3%.  Software did show a *slight* heating season penalty, but that was
+because the software did not account for the usual snow cover on a Vermont
+roof in winter. There was a worthwhile installed tonnage reduction also.
+
+
+    Thomas E. Anderson
+    President
+    Cx Associates, Ltd.
+    Building Commissioning Specialists
+    http://www.cx-assoc.com
+    933 Road 101
+    Jeffersonville, Vermont 05464 USA
+    hvac at cx-assoc.com
+    Tel: 802-644-5616 Fax: 802-644-6797
+  Marcus Sheffer wrote:
+     Whenever we have modeled this in the Northeast we also have seen
+negligible savings using PowerDOE and others.
+    We have come to the conclusion that the savings depend upon the amount
+of roof insulation and type of building.  If we enter minimal insulation the
+effect of a white roof is larger especially in a cooling dominated building,
+high internal loads, etc.
+
+    If you are installing even moderate amounts of insulation (R15 or more)
+then the effect of a white roof in the Northeast is virtually nil for most
+any building type.
+
+    Now when it comes to the urban heat island effect it can have a
+tremendously positive impact . . . but that is another issue.
+
+
+    At 01:55 PM 10/07/2002 -0400, you wrote:
+
+      Has anyone had any success modeling cool roofing options (i.e.
+reflective or light colored surfaces) in PowerDOE?  So far, I have seen
+negligible results from the adjustment of roof construction absorptance
+values (emissivity is also known to play a role, but there is no input for
+this in PowerDOE).  I have seen data showing cooling energy savings from
+0.06 to 0.54 kWh/sqft/yr, depending on building type.  I am getting only a
+very small fraction of this.  Data collected in the study was from
+facilities in the southern and western US, and I work primarily on buildings
+in the Northeast.
+      My questions:
+      How well can I expect PowerDOE to simulate this?  Is there a better
+way to simulate cool roofing?  Is the sun simply too low in the sky in New
+England to yield substantial savings?
+
+      Your thoughts are appreciated.
+
+      Wade McLaughlin
+      DMI
+
+    Marcus B. Sheffer                          energy & environmental
+consulting
+    Energy Opportunities                     717-292-2636
+    1200 E Camping Area Road            Fax: 717-292-0585
+    Wellsville, PA USA 17365-9783        sheffer at sevengroup.com
+    a Seven Group member company   www.sevengroup.com
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021007/2745be53/attachment.htm>
+
+From hvac at cx-assoc.com  Mon Oct  7 13:31:39 2002
+From: hvac at cx-assoc.com (Tom Anderson)
+Date: Mon, 07 Oct 2002 16:31:39 -0400
+Subject: [BLDG-SIM] "Cool Roofing"
+References: <MDAEMON-F200210071329.AA2902250pd80000268267@gard.com>
+Message-ID: <MDAEMON-F200210071521.AA2104718pd80000201760@gard.com>
+
+Oh Contrair.
+
+ I ran load calcs for a 100,000 square foot single story big box store
+in the Burlington, VT area last year to determine what if any benefits
+would result from changing the flat membrane roof color from dark to
+light. Occupancy was typical urban sprawl well-known national retailers.
+
+Peak air conditioning roof  heat gain was reduced by 50%.
+
+Roof was insulated to about R-22, plenum return, packaged DX rooftops.
+Ran the numbers using Carrier HAP.  Annual AC energy savings came in at
+about 3%.  Software did show a *slight* heating season penalty, but that
+was because the software did not account for the usual snow cover on a
+Vermont roof in winter. There was a worthwhile installed tonnage
+reduction also.
+
+
+     Thomas E. Anderson
+     President
+     Cx Associates, Ltd.
+     Building Commissioning Specialists
+     http://www.cx-assoc.com
+     933 Road 101
+     Jeffersonville, Vermont 05464 USA
+     hvac at cx-assoc.com
+     Tel: 802-644-5616 Fax: 802-644-6797
+
+Marcus Sheffer wrote:
+
+>  Whenever we have modeled this in the Northeast we also have seen
+> negligible savings using PowerDOE and others.
+>
+> We have come to the conclusion that the savings depend upon the amount
+> of roof insulation and type of building.  If we enter minimal
+> insulation the effect of a white roof is larger especially in a
+> cooling dominated building, high internal loads, etc.
+>
+> If you are installing even moderate amounts of insulation (R15 or
+> more) then the effect of a white roof in the Northeast is virtually
+> nil for most any building type.
+>
+> Now when it comes to the urban heat island effect it can have a
+> tremendously positive impact . . . but that is another issue.
+>
+>
+> At 01:55 PM 10/07/2002 -0400, you wrote:
+>
+>> Has anyone had any success modeling cool roofing options (i.e.
+>> reflective or light colored surfaces) in PowerDOE?  So far, I have
+>> seen negligible results from the adjustment of roof construction
+>> absorptance values (emissivity is also known to play a role, but
+>> there is no input for this in PowerDOE).  I have seen data showing
+>> cooling energy savings from 0.06 to 0.54 kWh/sqft/yr, depending on
+>> building type.  I am getting only a very small fraction of this.
+>> Data collected in the study was from facilities in the southern and
+>> western US, and I work primarily on buildings in the Northeast.
+>>
+>> My questions:
+>> How well can I expect PowerDOE to simulate this?  Is there a better
+>> way to simulate cool roofing?  Is the sun simply too low in the sky
+>> in New England to yield substantial savings?
+>>
+>> Your thoughts are appreciated.
+>>
+>> Wade McLaughlin
+>> DMI
+>
+> Marcus B. Sheffer                          energy & environmental
+> consulting
+> Energy Opportunities                     717-292-2636
+> 1200 E Camping Area Road            Fax: 717-292-0585
+> Wellsville, PA USA 17365-9783        sheffer at sevengroup.com
+> a Seven Group member company   www.sevengroup.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021007/7a0cf298/attachment.htm>
+
+From EKirchhoff at semprasolutions.com  Mon Oct  7 11:44:42 2002
+From: EKirchhoff at semprasolutions.com (Kirchhoff, Eric)
+Date: Mon, 7 Oct 2002 11:44:42 -0700 
+Subject: [BLDG-SIM] "Cool Roofing"
+Message-ID: <MDAEMON-F200210071354.AA542731pd80000201705@gard.com>
+
+If you model energy savings for roofing products, be sure to account for
+smog.  Yes I'm in Los Angeles.  But ASHRAE does also note that energy
+savings is negligible in industrial areas due to smoke and smog.  I believe
+the real point here is that unless the direct irradiation level is high then
+there isn't much chance of savings.  The diffuse irradiation will have the
+same affect on a wall as it does a roof--White paint or rock anyone (as
+opposed to snowcap type products)?  Your point about New England's latitude
+would fit in here about the diffuse radiation part.  Additionally, I do
+recall that there was a researcher at LBL who was educating people about
+albedo (smooth vs. fluffy) as a surface property that needs to also be
+addressed; this is in addition to abosorptance, reflectance, and
+emisstivity.
+ 
+I do not believe very highly in the accuracy of the energy performance
+estimates for the high performance roofing products.  All you need is a hazy
+month in June, and you've got more savings then the prior year.  Wash the
+roof, for that matter, and the results will change.
+ 
+My point is, don't expect much from your model, and expect less in real
+life.
+ 
+Eric Kirchhoff, PE
+Project Engineer
+ 
+Sempra Energy Solutions
+Phone: (213) 244-4228
+Fax:     (213) 244-4244
+ekirchhoff at semprasolutions.com
+ 
+Sempra Energy Solutions is not the same company as the utility SDG&E or
+SoCalGas, and Sempra Energy Solutions is not regulated by the California
+Public Utilities Commission.
+ 
+-----Original Message-----
+From: Wade McLaughlin [mailto:wmclaughlin at dmiinc.com]
+Sent: Monday, October 07, 2002 10:55 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] "Cool Roofing"
+ 
+Has anyone had any success modeling cool roofing options (i.e. reflective or
+light colored surfaces) in PowerDOE?  So far, I have seen negligible results
+from the adjustment of roof construction absorptance values (emissivity is
+also known to play a role, but there is no input for this in PowerDOE).  I
+have seen data showing cooling energy savings from 0.06 to 0.54 kWh/sqft/yr,
+depending on building type.  I am getting only a very small fraction of
+this.  Data collected in the study was from facilities in the southern and
+western US, and I work primarily on buildings in the Northeast.
+ 
+My questions:
+How well can I expect PowerDOE to simulate this?  Is there a better way to
+simulate cool roofing?  Is the sun simply too low in the sky in New England
+to yield substantial savings?
+ 
+Your thoughts are appreciated.
+ 
+Wade McLaughlin
+DMI
+450 Lexington St.
+Newton, MA  02466
+p 617-527-1525 x103
+f  617-527-6606
+ 
+ 
+=====================================================You received this
+e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021007/efc8985d/attachment.htm>
+
+From sheffer at paonline.com  Mon Oct  7 11:39:09 2002
+From: sheffer at paonline.com (Marcus Sheffer)
+Date: Mon, 07 Oct 2002 14:39:09 -0400
+Subject: [BLDG-SIM] "Cool Roofing"
+In-Reply-To: <MDAEMON-F200210071245.AA4520375pd80000267322@gard.com>
+Message-ID: <MDAEMON-F200210071329.AA2903250pd80000201687@gard.com>
+
+Whenever we have modeled this in the Northeast we also have seen negligible 
+savings using PowerDOE and others.
+
+We have come to the conclusion that the savings depend upon the amount of 
+roof insulation and type of building.  If we enter minimal insulation the 
+effect of a white roof is larger especially in a cooling dominated 
+building, high internal loads, etc.
+
+If you are installing even moderate amounts of insulation (R15 or more) 
+then the effect of a white roof in the Northeast is virtually nil for most 
+any building type.
+
+Now when it comes to the urban heat island effect it can have a 
+tremendously positive impact . . . but that is another issue.
+
+
+At 01:55 PM 10/07/2002 -0400, you wrote:
+>Has anyone had any success modeling cool roofing options (i.e. reflective 
+>or light colored surfaces) in PowerDOE?  So far, I have seen negligible 
+>results from the adjustment of roof construction absorptance values 
+>(emissivity is also known to play a role, but there is no input for this 
+>in PowerDOE).  I have seen data showing cooling energy savings from 0.06 
+>to 0.54 kWh/sqft/yr, depending on building type.  I am getting only a very 
+>small fraction of this.  Data collected in the study was from facilities 
+>in the southern and western US, and I work primarily on buildings in the 
+>Northeast.
+>
+>My questions:
+>How well can I expect PowerDOE to simulate this?  Is there a better way to 
+>simulate cool roofing?  Is the sun simply too low in the sky in New 
+>England to yield substantial savings?
+>
+>Your thoughts are appreciated.
+>
+>Wade McLaughlin
+>DMI
+
+Marcus B. Sheffer                          energy & environmental consulting
+Energy Opportunities                     717-292-2636
+1200 E Camping Area Road            Fax: 717-292-0585
+Wellsville, PA USA 17365-9783        sheffer at sevengroup.com
+a Seven Group member company    www.sevengroup.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021007/0b9e118e/attachment.htm>
+
+From TCornish at taylor-engineering.com  Mon Oct  7 11:39:10 2002
+From: TCornish at taylor-engineering.com (Tracy Cornish)
+Date: Mon, 7 Oct 2002 11:39:10 -0700 
+Subject: [BLDG-SIM] "Cool Roofing"
+Message-ID: <MDAEMON-F200210071326.AA2628640pd80000201683@gard.com>
+
+There is a DOE22 keyword called  "OUTSIDE-EMISS" which I think can be
+modified to represent a Cool Roof, along with the "ABSORPTANCE" keyword that
+you mentioned. When I attempted to model a Cool Roof, I also didn't see any
+big results until I found the "OUTSIDE-EMISS" keyword. 
+
+Tracy L. Cornish, P.E., Mechanical Engineer, Taylor Engineering, LLC 
+1305 Marina Village Parkway, Suite 101, Alameda CA 94501-1028 
+(510) 749-9135 office, (510) 749-9136 fax, (925) 381-8183 mobile 
+
+tcornish at taylor-engineering.com 
+www.taylor-engineering.com 
+
+
+-----Original Message-----
+From: Wade McLaughlin [mailto:wmclaughlin at dmiinc.com]
+Sent: Monday, October 07, 2002 10:55 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] "Cool Roofing"
+
+
+Has anyone had any success modeling cool roofing options (i.e. reflective or
+light colored surfaces) in PowerDOE?  So far, I have seen negligible results
+from the adjustment of roof construction absorptance values (emissivity is
+also known to play a role, but there is no input for this in PowerDOE).  I
+have seen data showing cooling energy savings from 0.06 to 0.54 kWh/sqft/yr,
+depending on building type.  I am getting only a very small fraction of
+this.  Data collected in the study was from facilities in the southern and
+western US, and I work primarily on buildings in the Northeast.
+ 
+My questions:
+How well can I expect PowerDOE to simulate this?  Is there a better way to
+simulate cool roofing?  Is the sun simply too low in the sky in New England
+to yield substantial savings?
+ 
+Your thoughts are appreciated.
+ 
+Wade McLaughlin
+DMI
+450 Lexington St.
+Newton, MA  02466
+p 617-527-1525 x103
+f  617-527-6606
+
+
+=====================================================You received this
+e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021007/e3c0b00a/attachment.htm>
+
+From wmclaughlin at dmiinc.com  Mon Oct  7 10:55:11 2002
+From: wmclaughlin at dmiinc.com (Wade McLaughlin)
+Date: Mon, 7 Oct 2002 13:55:11 -0400
+Subject: [BLDG-SIM] "Cool Roofing"
+Message-ID: <MDAEMON-F200210071245.AA4512671pd80000201642@gard.com>
+
+Has anyone had any success modeling cool roofing options (i.e. reflective or light colored surfaces) in PowerDOE?  So far, I have seen negligible results from the adjustment of roof construction absorptance values (emissivity is also known to play a role, but there is no input for this in PowerDOE).  I have seen data showing cooling energy savings from 0.06 to 0.54 kWh/sqft/yr, depending on building type.  I am getting only a very small fraction of this.  Data collected in the study was from facilities in the southern and western US, and I work primarily on buildings in the Northeast.
+
+My questions:
+How well can I expect PowerDOE to simulate this?  Is there a better way to simulate cool roofing?  Is the sun simply too low in the sky in New England to yield substantial savings?
+
+Your thoughts are appreciated.
+
+Wade McLaughlin
+DMI
+450 Lexington St.
+Newton, MA  02466
+p 617-527-1525 x103
+f  617-527-6606
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021007/0a259cb4/attachment.htm>
+
+From JAulbach at semprasolutions.com  Wed Oct  2 10:31:23 2002
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Wed, 2 Oct 2002 10:31:23 -0700 
+Subject: [BLDG-SIM] Multiple air cooled, split type airconditioner
+Message-ID: <MDAEMON-F200210021240.AA4045265pd80000199708@gard.com>
+
+Do you have to zone the building so all 42 air cooled units are distinct? Or
+can you combine them into, say, 5-8 mega units?
+ 
+Also, make sure you model by facing direction and either a single or two
+interior zones.
+ 
+You could also combine mid floors (2-9), if, again, you don't need to be
+precise on the 42 units' zoning.
+ 
+John R. Aulbach, PE, CEM
+Project Engineer
+Sempra Energy Solutions
+555 West Fifth Street
+Mail Location 27F3
+Los Angeles, CA 90013
+Tel: (213) 244-8551 Beeper (888) 520-1051
+ 
+
+"Sempra Energy Solutions is not the same company as SDG&E/ SoCalGas, the
+Utilities.  Sempra Energy Solutions is not regulated by the California
+Public Utilities Commission, and you do not have to buy Sempra Energy
+Solutions products or services to continue to receive quality regulated
+service from the Utilities."  
+
+-----Original Message-----
+From: Stanley [mailto:stanleyc at sby.dnet.net.id]
+Sent: Wednesday, October 02, 2002 10:24 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Multiple air cooled, split type airconditioner
+
+
+I am modeling a 10 storey 40*40 sq.m building with large atrium which is
+served by multiple (42 units) air cooled, 
+split type AC ( AC supplying air through ducts to various spaces) using the
+Micro-DOE2.1E
+ 
+Does anyone have any input similiar with this kind of building, so I can
+learn furthermore how to model correctly?
+ 
+ 
+ 
+Stanley Christian
+stanleyc at sby.dnet.net.id <mailto:stanleyc at sby.dnet.net.id> 
+Undergraduate student of Civil Engineering
+Petra Christian University - Indonesia
+
+
+=====================================================You received this
+e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021002/26f51a8d/attachment.htm>
+
+From stanleyc at sby.dnet.net.id  Wed Oct  2 10:23:35 2002
+From: stanleyc at sby.dnet.net.id (Stanley)
+Date: Thu, 3 Oct 2002 00:23:35 +0700
+Subject: [BLDG-SIM] Multiple air cooled, split type airconditioner
+Message-ID: <MDAEMON-F200210021214.AA142700pd80000199680@gard.com>
+
+I am modeling a 10 storey 40*40 sq.m building with large atrium which is served by multiple (42 units) air cooled, 
+split type AC ( AC supplying air through ducts to various spaces) using the Micro-DOE2.1E
+
+Does anyone have any input similiar with this kind of building, so I can learn furthermore how to model correctly?
+
+
+
+Stanley Christian
+stanleyc at sby.dnet.net.id
+Undergraduate student of Civil Engineering
+Petra Christian University - Indonesia
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20021003/66b0a31f/attachment.htm>
+
+From jglazer at gard.com  Wed Oct  2 07:28:43 2002
+From: jglazer at gard.com (Jason Glazer)
+Date: Wed, 02 Oct 2002 09:28:43 -0500
+Subject: [BLDG-SIM] (Fwd) IBPSA News
+Message-ID: <MDAEMON-F200210020918.AA1815140pd80000199582@gard.com>
+
+
+------- Forwarded message follows -------
+Send reply to:  	<larry at taz.tamu.edu>
+From:           	"Larry Degelman" <larry at taz.tamu.edu>
+To:             	"Jason Glazer" <JGlazer at gard.com>
+Subject:        	IBPSA News
+Date sent:      	Tue, 1 Oct 2002 21:04:15 -0500
+Organization:   	Texas A&M University
+
+To Building Performance Simulationists far and wide:
+
+Since 1998, the IBPSA News has been published only in PDF 
+format on the IBPSA web site, http://www.ibpsa.org 
+<http://www.ibpsa.org/> .  Please look there for past 
+issues (we've already had two this year.)  
+
+We are hoping to have a third issue in early to mid-
+November, so please get your simulation news items to me as 
+soon as possible.  Anything relating to simulation ==> 
+conferences, awards, seminars, workshops, new software (no 
+advertisements please, unless you want to pay).  We like 
+color, and we like actual articles if we have your 
+permission to publish.  
+
+The CUT-OFF date for items for this next issue will be 25 
+October.  
+
+Thanks and best wishes.
+
+L. Degelman, IBPSA Newsletter Chairperson 
+(My e-mail is:larry at taz.tamu.edu) 
+=====================================
+Larry O. Degelman, P.E.                  larry at taz.tamu.edu
+Prof. Emeritus of Architecture    Ph./Fax: 1-979-696-2506
+Texas A&M University 
+College Station, TX 77845
+=====================================
+
+
+
+------- End of forwarded message -------
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

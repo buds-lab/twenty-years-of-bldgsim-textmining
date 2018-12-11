@@ -1,0 +1,2046 @@
+From mroberts20 at kc.rr.com  Fri Apr 18 10:08:11 2003
+From: mroberts20 at kc.rr.com (Mike Roberts)
+Date: Fri, 18 Apr 2003 12:08:11 -0500
+Subject: [bldg-sim] Chiller Staging
+In-Reply-To: <MDAEMON-F200304181052.AA5247531pd80000434339@gard.com>
+Message-ID: <MDAEMON-F200304181204.AA0447890pd80000292243@gard.com>
+
+Joe,
+
+First, I am not sure which version of the program you are using.  It sounds
+like DOE-2.2, but could be JJ Hirsch level 100+ of DOE-2.1E.  Are you using
+the eQUEST or PowerDOE interfaces?
+
+The primary/secondary loops routine of DOE actually does consider flow and
+will not allow a secondary flow greater than the primary flow, so runs the
+chillers run in parallel to provide sufficient flow.  While a real life
+primary/secondary system can have higher secondary flow, it is unusual and
+not normally what you want.  If you use two way valves on the secondary
+loop, you can run a single chiller for some hours.  My experience is that
+you can do that less than you would initially expect, but if you think it
+through, the DOE model will give you results closer to real life than
+earlier programs that just do a BTU calculation on the cooling requirements.
+
+Let me know if you need to go further with this.
+
+Mike Roberts
+
+  -----Original Message-----
+  From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Joe Hager
+  Sent: Friday, April 18, 2003 10:48 AM
+  To: bldg-sim at gard.com
+  Subject: [bldg-sim] Chiller Staging
+
+
+  Hello,
+
+  In DOE-2 I am having trouble with chiller staging.
+
+  System Description
+  I have a simplified model that has four zones, two cooled by DX units and
+two with chilled water coils.   I have a primary chiller water loop with two
+500 ton (6 MBtu/h) chillers and two constant speed primary chilled water
+pumps.  On the secondary chilled water loop I have a variable speed
+secondary chilled water pump and the two zone cooling coils (with two way
+valves).  I have created an Equipment Control sequence that has the first
+chiller running to loads through 4.5 MBtu/h and then both chillers running
+to loads through 999 MBtu/h.
+
+  When I run the model I am getting this warning:
+
+**WARNING*******************************************************************
+***
+
+               An EQUIP-CTRL sequence will be overridden because
+
+               the selected equipment cannot meet the resulting
+
+               flow requirements.
+
+               Loop: prim chw loop                    First occurrence:
+6/21/ 4
+
+
+  and the chillers always run in parallel.  My question comes because I have
+been adjusting the capacity of the two RTUs with the chilled water coils and
+if the cooling capacity of those units is well below the capacity of the
+chillers then they stage properly or if I increase the capacity of the
+chillers well beyond the capacity of the RTUs then they stage properly, but
+when the capacity of the RTU's is close to the capacity of the chillers then
+I get that error above and the chillers don't stage.
+
+
+
+  Any help would be greatly appreciated.
+
+
+
+  Joe Hager
+
+  DMI
+
+  (617) 527-1525
+
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030418/3524967d/attachment.htm>
+
+From jhager at dmiinc.com  Fri Apr 18 08:48:22 2003
+From: jhager at dmiinc.com (Joe Hager)
+Date: Fri, 18 Apr 2003 11:48:22 -0400
+Subject: [bldg-sim] Chiller Staging
+Message-ID: <MDAEMON-F200304181052.AA5212765pd80000292182@gard.com>
+
+Hello,
+
+In DOE-2 I am having trouble with chiller staging.  
+
+System Description
+I have a simplified model that has four zones, two cooled by DX units and two with chilled water coils.   I have a primary chiller water loop with two 500 ton (6 MBtu/h) chillers and two constant speed primary chilled water pumps.  On the secondary chilled water loop I have a variable speed secondary chilled water pump and the two zone cooling coils (with two way valves).  I have created an Equipment Control sequence that has the first chiller running to loads through 4.5 MBtu/h and then both chillers running to loads through 999 MBtu/h.
+
+When I run the model I am getting this warning:
+ **WARNING**********************************************************************
+
+             An EQUIP-CTRL sequence will be overridden because
+
+             the selected equipment cannot meet the resulting
+
+             flow requirements.
+
+             Loop: prim chw loop                    First occurrence:  6/21/ 4 
+ 
+
+and the chillers always run in parallel.  My question comes because I have been adjusting the capacity of the two RTUs with the chilled water coils and if the cooling capacity of those units is well below the capacity of the chillers then they stage properly or if I increase the capacity of the chillers well beyond the capacity of the RTUs then they stage properly, but when the capacity of the RTU's is close to the capacity of the chillers then I get that error above and the chillers don't stage.  
+
+
+
+Any help would be greatly appreciated.
+
+
+
+Joe Hager
+
+DMI
+
+(617) 527-1525 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030418/1e1f6f14/attachment.htm>
+
+From jglazer at gard.com  Fri Apr 18 06:52:28 2003
+From: jglazer at gard.com (Jason Glazer)
+Date: Fri, 18 Apr 2003 08:52:28 -0500
+Subject: [bldg-sim] ASHRAE Standard Public Review Started
+Message-ID: <MDAEMON-F200304180848.AA4850875pd80000292069@gard.com>
+
+Two different public reviews regarding building energy 
+simulation in ASHRAE Standard 90.1 started today.  
+
+a) The first is a refinement to the performance rating 
+method for buildings that are built beyond the 90.1 level. 
+
+b) The second is a new requirement for the simulation 
+program that may be used for the Energy Cost Budget method, 
+now it must be tested according to ASHRAE Standard 140 a 
+new standard that includes a series of tests for building 
+energy simulation program.
+
+The both can be downloaded along with many other draft 
+changes to ASHRAE standards at:
+
+http://xp20.ashrae.org/STANDARDS/availdft.htm
+
+Anyone can submit comments to ASHRAE concerning these 
+during the public review period. More information is shown 
+below.
+
+Jason
+
+PS. I am currently serving as the chair of the 90.1 
+subcommittee responsible for both of these proposed 
+changes.
+
+----------------------------------------------------
+
+2nd Public Review of BSR/ASHRAE/IESNA Addendum e to 
+ANSI/ASHRAE/IESNA Standard 90.1-2001, (ISC to 1st Public 
+Review) Energy Standard for Buildings Except Low-Rise 
+Residential Buildings
+
+45-day 2nd Public Review: April 18, 2003 to June 2, 2003 
+This proposed addendum contains several key revisions for 
+the 2nd public review: (1) The non-regulated loads are now 
+included to provide a more accurate accounting for the 
+energy cost savings. (2) The baseline performance is now 
+generated only by rotating the building four times and 
+averaging the results; this eliminates the option to have 
+equal areas in the cardinal directions. (3) The baseline 
+now uses eight instead of six system types; the two new  
+types are packaged DX VAV systems.
+
+----------------------------------------------------
+
+1st Public Review of BSR/ASHRAE/IESNA Addendum p to 
+ANSI/ASHRAE/IESNA Standard 90.1-2001, Energy Standard for 
+Buildings Except Low-Rise Residential Buildings 45-day 
+First Public Review: April 18, 2003 to June 2, 2003
+
+The Energy Cost Budget section requires the use of a 
+building energy simulation program to estimate the energy 
+cost difference between the design building model and a 
+budget building model. Section 11.2.1 specifies the minimum 
+capabilities of the program but not its minimum quality. 
+This addendum starts to address this omission by requiring 
+that the program be tested with ANSI/ASHRAE Standard 140-
+2001, Standard Method of Test for the Evaluation of 
+Building Energy Analysis Computer Programs.
+
+
+=========================================================
+Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From larry at taz.tamu.edu  Thu Apr 17 07:52:57 2003
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Thu, 17 Apr 2003 09:52:57 -0500
+Subject: [bldg-sim] Error in IBPSA News Vol. 13, No. 1
+Message-ID: <MDAEMON-F200304170951.AA5152109pd80000291419@gard.com>
+
+The recent issue of IBPSA News has a misrepresentation about the
+developer of the ABACODE spreadsheets.  The issue will be updated to
+reflect the correction.  In the meantime, the News will be removed from
+the website.  Please download the corrected version after it becomes
+available.  I will announce its availability after it has been
+re-installed on the IBPSA web site.  
+ 
+My apologies for the error.
+ 
+===================================== 
+Larry O. Degelman, P.E.                  larry at taz.tamu.edu 
+IBPSA News chair
+=====================================
+ 
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030417/7115df48/attachment.htm>
+
+From monjur at ecaad.com  Wed Apr 16 09:05:54 2003
+From: monjur at ecaad.com (Monjur M Mourshed)
+Date: Wed, 16 Apr 2003 17:05:54 +0100
+Subject: [bldg-sim] Apology
+Message-ID: <MDAEMON-F200304161103.AA0300281pd80000290654@gard.com>
+
+Hi
+ 
+I am sorry that the previous two letters originally directed to me,
+accidentally appeared in the group. I have seen the same thing before.
+If a letter from the group is forwarded to the third person, the reply
+from the person always finds its way through.
+ 
+I apologise for inconvenience.
+ 
+Monjur 
+***************************************
+Monjur M Mourshed
+IRUSE
+Informatics Research Unit for Sustainable Engineering
+National University of Ireland Cork. Ireland.
+Web:    <http://www.ecaad.com/monjur> http://www.ecaad.com/monjur
+            <http://www.ucc.ie/iruse/monjur>
+http://www.ucc.ie/iruse/monjur
+Email :  <mailto:m.mourshed at mars.ucc.ie> m.mourshed at mars.ucc.ie
+            <mailto:monjur at ecaad.com> monjur at ecaad.com
+***************************************
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030416/d055c337/attachment.htm>
+
+From larry at taz.tamu.edu  Tue Apr 15 17:13:27 2003
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Tue, 15 Apr 2003 19:13:27 -0500
+Subject: [bldg-sim] IBPSA News, Vol. 13, No. 1 is here!
+Message-ID: <MDAEMON-F200304151911.AA1107468pd80000290184@gard.com>
+
+  <http://www.ibpsa.org/newslett.htm> 
+
+Hello everyone,
+
+It's here!  Check it out on the IBPSA web site:  http://www.ibpsa.org.
+Read the two feature articles from U.K. authors.  One is on Integrating
+Simulation into Design by Monjur Masum Mourshed et al, based on
+discussions from the BLDG-SIM group sponsored by Gard Analytics.  The
+second feature article is from Ecotect and discusses Ecotect software
+and educational resources in the U.K.  Several other software
+announcements are in this issue as well.  Also, there's a reminder to
+attend the Building Simulation-2003 conference in Eindhoven on 11-14
+August.  Check out the conference web site for registration details at
+http://www.bs2003.tue.nl/.
+
+The next IBPSA News issue will be published in October (with submittal
+deadline of 21 September -- no extensions).  You have plenty of lead
+time to get your news items and articles ready.
+
+Thanks go to our Newsletter Editor, Marion Bartholomew, for another
+great job on this issue.
+
+
+  _____  
+
+L.O. Degelman, IBPSA Newsletter Chair
+
+larry at taz.tamu.edu
+
+
+  _____  
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030415/aee7f16a/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 2743 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030415/aee7f16a/attachment.jpeg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 14145 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030415/aee7f16a/attachment-0001.jpeg>
+
+From mroberts20 at kc.rr.com  Tue Apr 15 11:06:52 2003
+From: mroberts20 at kc.rr.com (Mike Roberts)
+Date: Tue, 15 Apr 2003 13:06:52 -0500
+Subject: [bldg-sim] Ground source water-to-water heat pumps
+In-Reply-To: <MDAEMON-F200304150952.AA5254578pd80000428933@gard.com>
+Message-ID: <MDAEMON-F200304151319.AA1951421pd80000289957@gard.com>
+
+Chris,
+
+DOE-2.2 does ground source heat pumps, as do the JJ Hirsch level 100+
+versions of DOE-2.1E.  I believe this is available in eQUEST.  It is
+described as "experimental" in the documentation, and does not automatically
+size.  I have not used the capability.  There is some detailed documentation
+in the DOE-2.2 documentation.
+
+Mike
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of Chris Jones
+Sent: Tuesday, April 15, 2003 10:09 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Ground source water-to-water heat pumps
+
+
+It looks like I would have to lay out $4K USD to get TRNSYS.  Too rich for
+my blood.
+
+
+>At 04:17 PM 3/29/2003 -0500, you wrote:
+>
+>>I have a few clients wishing to model ground source heat pumps which are
+>>water-to-water heat pumps (water furnace) serving heating and chilled
+>>water loops (fan coils, make-up air systems, etc).  This is not possible
+>>to simulate with DOE2.1E.  Is it possible with Equest (DOE2.2) or
+EnergyPlus?
+>
+>Chris,
+>
+>We have been using the TRNSYS program for projects very similar to the one
+>you mentioned above.  The ground heat exchanger model is excellent, the
+>extended libraries contain all the options you mention, and the program is
+>extremely flexible - allowing you to configure ANY type of HVAC system
+>without being forced to "trick" the program into simulating your
+>configuration.  We have published several reports and technical papers on
+>geothermal system modeling in TRNSYS and would be happy to share them if
+>you are interested.  And unlike many of the other programs, TRNSYS does
+>not distinguish between load/system/plant models - instead solving all
+>components simultaneously for a better dynamic approach.
+>
+>With kindest regards,
+>
+>Jeff
+>
+>
+>***************************************************************************
+******
+>Thermal Energy System Specialists (TESS)
+>Jeff Thornton                                   2916 Marketplace Drive
+>Principal                                       Suite 104
+>Phone:  (608) 274-2577                  Madison WI 53719
+>Fax:  (608) 278-1475                            USA
+>E-mail:   thornton at tess-inc.com
+>Web Page:       www.tess-inc.com
+>
+>"Providing software solutions for today's energy engineering projects"
+>***************************************************************************
+******
+>
+>======================================================
+>You received this e-mail because you are subscribed to the
+>BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this mailing list
+>send a blank message to BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+Chris Jones, P. Eng.
+14 Oneida Avenue
+Toronto, ON M5J 2E3
+Tel. 416 203-7465
+Fax. 416 203-8249
+
+======================================================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From JAulbach at semprasolutions.com  Tue Apr 15 09:41:05 2003
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Tue, 15 Apr 2003 09:41:05 -0700
+Subject: [BLDG-SIM] VAVS in PowerDoe
+Message-ID: <MDAEMON-F200304151143.AA4356687pd80000289884@gard.com>
+
+Are you calling out a steam boiler in PLANT?
+
+-----Original Message-----
+From: Leela Kala [mailto:kala_sim at yahoo.co.in]
+Sent: Monday, April 14, 2003 9:15 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] VAVS in PowerDoe
+
+
+ Hi,
+I am modeling a 6 storey building with VAV system in
+PowerDoe. I do not get any steam consumption. Pl let
+me know if I am missing some information. The details
+of one system are as follows:
+
+"5th Floor AC" = SYSTEM          
+   TYPE             = VAVS
+   HEAT-SOURCE      = HOT-WATER
+   ZONE-HEAT-SOURCE = HOT-WATER
+   RETURN-AIR-PATH  = DUCT
+   HEATING-SCHEDULE = "Heating-T Sch"
+   COOLING-SCHEDULE = "Cooling-T Sch"
+   SUPPLY-FLOW      = 36040
+   MIN-OUTSIDE-AIR  = 0.015
+   FAN-SCHEDULE     = "5th floor FAN"
+   FAN-CONTROL      = SPEED
+   REHEAT-DELTA-T   = 55
+   HW-LOOP          = "HW Loop"
+   CHW-LOOP         = "CHW Loop"
+   MSTR-ELEC-METER  = "EM1"
+   MSTR-FUEL-METER  = "FM1"
+   ..
+Thanks
+Leela
+
+
+
+________________________________________________________________________
+Missed your favourite TV serial last night? Try the new, Yahoo! TV.
+       visit http://in.tv.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030415/31253c99/attachment.htm>
+
+From per.sahlin at equa.se  Tue Apr 15 08:53:53 2003
+From: per.sahlin at equa.se (Per Sahlin)
+Date: Tue, 15 Apr 2003 17:53:53 +0200
+Subject: [BLDG-SIM] IDA/NMF course, May 8-9 in Stockholm
+Message-ID: <MDAEMON-F200304151052.AA5257125pd80000289841@gard.com>
+
+Dear Colleagues,
+
+After appreciated events last year in Helsinki and Lucerne, the two-day
+course on NMF modelling for IDA
+Indoor Climate and Energy will be given at KTH in Stockholm on May 8-9. For
+more info, please visit:
+
+http://www.equa.se/eng.training.html#Advanced
+
+The course is intended both as an introduction to IDA/NMF/ICE
+(www.equa.se/ice) for experienced building simulationists in general and
+for IDA ICE users wanting to write their own component models.
+
+The cost for both days is EUR 500, including daytime meals.
+
+Please contact me if you would like to participate.
+
+Best regards,
+
+Per Sahlin
+
+------------------------------------------
+Per Sahlin,    EQUA Simulation AB
+per.sahlin at equa.se
++46-8-27 27 67
++46 70 422 03 02 (mobile)
++46-8-27 40 32 (fax)
+P.O. Box 1376
+172 27 Sundbyberg, Sweden
+http://www.equa.se
+-----------------------------------------
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cj at cr-jay.ca  Tue Apr 15 08:08:45 2003
+From: cj at cr-jay.ca (Chris Jones)
+Date: Tue, 15 Apr 2003 11:08:45 -0400
+Subject: [BLDG-SIM] Ground source water-to-water heat pumps
+In-Reply-To: <MDAEMON-F200304011233.AA3322359pd80000416720@gard.com>
+References: <MDAEMON-F200303291502.AA0200890pd80000415197@gard.com>
+ <MDAEMON-F200303281800.AA0043875pd80000414266@gard.com>
+ <MDAEMON-F200303281720.AA2054375pd80000413250@gard.com>
+Message-ID: <MDAEMON-F200304150952.AA5248484pd80000289767@gard.com>
+
+It looks like I would have to lay out $4K USD to get TRNSYS.  Too rich for 
+my blood.
+
+
+>At 04:17 PM 3/29/2003 -0500, you wrote:
+>
+>>I have a few clients wishing to model ground source heat pumps which are 
+>>water-to-water heat pumps (water furnace) serving heating and chilled 
+>>water loops (fan coils, make-up air systems, etc).  This is not possible 
+>>to simulate with DOE2.1E.  Is it possible with Equest (DOE2.2) or EnergyPlus?
+>
+>Chris,
+>
+>We have been using the TRNSYS program for projects very similar to the one 
+>you mentioned above.  The ground heat exchanger model is excellent, the 
+>extended libraries contain all the options you mention, and the program is 
+>extremely flexible - allowing you to configure ANY type of HVAC system 
+>without being forced to "trick" the program into simulating your 
+>configuration.  We have published several reports and technical papers on 
+>geothermal system modeling in TRNSYS and would be happy to share them if 
+>you are interested.  And unlike many of the other programs, TRNSYS does 
+>not distinguish between load/system/plant models - instead solving all 
+>components simultaneously for a better dynamic approach.
+>
+>With kindest regards,
+>
+>Jeff
+>
+>
+>*********************************************************************************
+>Thermal Energy System Specialists (TESS)
+>Jeff Thornton                                   2916 Marketplace Drive
+>Principal                                       Suite 104
+>Phone:  (608) 274-2577                  Madison WI 53719
+>Fax:  (608) 278-1475                            USA
+>E-mail:   thornton at tess-inc.com
+>Web Page:       www.tess-inc.com
+>
+>"Providing software solutions for today's energy engineering projects"
+>*********************************************************************************
+>
+>======================================================
+>You received this e-mail because you are subscribed to the 
+>BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this mailing list 
+>send a blank message to BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+Chris Jones, P. Eng.
+14 Oneida Avenue
+Toronto, ON M5J 2E3
+Tel. 416 203-7465
+Fax. 416 203-8249
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kala_sim at yahoo.co.in  Mon Apr 14 09:15:18 2003
+From: kala_sim at yahoo.co.in (=?iso-8859-1?q?Leela=20Kala?=)
+Date: Mon, 14 Apr 2003 17:15:18 +0100 (BST)
+Subject: [BLDG-SIM] VAVS in PowerDoe
+In-Reply-To: <MDAEMON-F200208271404.AA042531pd80000244640@gard.com>
+Message-ID: <MDAEMON-F200304141111.AA1158187pd80000289043@gard.com>
+
+ Hi,
+I am modeling a 6 storey building with VAV system in
+PowerDoe. I do not get any steam consumption. Pl let
+me know if I am missing some information. The details
+of one system are as follows:
+
+"5th Floor AC" = SYSTEM          
+   TYPE             = VAVS
+   HEAT-SOURCE      = HOT-WATER
+   ZONE-HEAT-SOURCE = HOT-WATER
+   RETURN-AIR-PATH  = DUCT
+   HEATING-SCHEDULE = "Heating-T Sch"
+   COOLING-SCHEDULE = "Cooling-T Sch"
+   SUPPLY-FLOW      = 36040
+   MIN-OUTSIDE-AIR  = 0.015
+   FAN-SCHEDULE     = "5th floor FAN"
+   FAN-CONTROL      = SPEED
+   REHEAT-DELTA-T   = 55
+   HW-LOOP          = "HW Loop"
+   CHW-LOOP         = "CHW Loop"
+   MSTR-ELEC-METER  = "EM1"
+   MSTR-FUEL-METER  = "FM1"
+   ..
+Thanks
+Leela
+
+
+
+________________________________________________________________________
+Missed your favourite TV serial last night? Try the new, Yahoo! TV.
+       visit http://in.tv.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From YJHuang at lbl.gov  Thu Apr 10 12:05:01 2003
+From: YJHuang at lbl.gov (Joe Huang)
+Date: Thu, 10 Apr 2003 12:05:01 -0700
+Subject: [BLDG-SIM] DOE Shading Question
+References: <MDAEMON-F200304091011.AA1143859pd80000426427@gard.com>
+Message-ID: <MDAEMON-F200304101400.AA0010296pd80000286977@gard.com>
+
+Wade,
+
+The correct usage is the second one. The Visual Transmittance Schedue works the same as the Shading Schedule, except that it applies to the transmittance of light rather than heat. 
+
+Joe 
+  ----- Original Message ----- 
+  From: Wade McLaughlin 
+  To: BLDG-SIM at gard.com 
+  Sent: Wednesday, April 09, 2003 8:14 AM
+  Subject: [BLDG-SIM] DOE Shading Question
+
+
+  In DOE-2, I'm a little unsure about how to use the Visual-Transmittance schedule with Shading and Daylight Dimming.
+
+  Does the Visual-Transmittance schedule define the transmittance for the shading device (and window) for the portion of the window covered by the device (defined by the Shading-Schedule)?
+
+  i.e. Do I define the VT value as if the entire window were covered by the shade, and DOE takes care of the rest using the Shading-Schedule?
+
+  Or...
+
+  Does it define the effective visual transmittance for the entire window?
+
+  i.e. Do I need to define the effective VT for the entire window considering the shading fraction for each hour (taking the Shading-Schedule into account, which I've already defined)?
+
+  As usual, many thanks,
+  Wade
+
+  Wade McLaughlin
+  DMI
+  450 Lexington St.
+  Newton, MA  02466
+  p 617-527-1525 x103
+  f  617-527-6606
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030410/4c58b283/attachment.htm>
+
+From wmclaughlin at dmiinc.com  Wed Apr  9 08:14:23 2003
+From: wmclaughlin at dmiinc.com (Wade McLaughlin)
+Date: Wed, 9 Apr 2003 11:14:23 -0400
+Subject: [BLDG-SIM] DOE Shading Question
+Message-ID: <MDAEMON-F200304091011.AA1154390pd80000286179@gard.com>
+
+In DOE-2, I'm a little unsure about how to use the Visual-Transmittance schedule with Shading and Daylight Dimming.
+
+Does the Visual-Transmittance schedule define the transmittance for the shading device (and window) for the portion of the window covered by the device (defined by the Shading-Schedule)?
+
+i.e. Do I define the VT value as if the entire window were covered by the shade, and DOE takes care of the rest using the Shading-Schedule?
+
+Or...
+
+Does it define the effective visual transmittance for the entire window?
+
+i.e. Do I need to define the effective VT for the entire window considering the shading fraction for each hour (taking the Shading-Schedule into account, which I've already defined)?
+
+As usual, many thanks,
+Wade
+
+Wade McLaughlin
+DMI
+450 Lexington St.
+Newton, MA  02466
+p 617-527-1525 x103
+f  617-527-6606
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030409/0a4335a1/attachment.htm>
+
+From peter.alspach at arup.com  Mon Apr  7 16:13:06 2003
+From: peter.alspach at arup.com (Peter Alspach)
+Date: Tue, 8 Apr 2003 00:13:06 +0100 
+Subject: [BLDG-SIM] Carrier HAP 4.1 Questions
+Message-ID: <MDAEMON-F200304071810.AA1023531pd80000285151@gard.com>
+
+I have a couple questions about HAP:
+
+1) Can HAP do simplified daylighting analysis?
+2) Is anyone familiar with the limitations of HAP's Ice storage simulation
+capabilities? I know that in v 3.2 they had the capability to simulate
+multiple types of ice storage. Is this capability still present in the new
+version? Can anyone give me feedback on it?
+
+Thanks,
+
+Peter
+
+__________________________________________________
+Peter Alspach
+Mechanical Engineer
+
+ARUP
+901 Market Street, Suite 260
+San Francisco, CA 94103
+415-957-9445 x284 or
+415-946-0284 (direct)
+fax: 415-957-9096
+peter.alspach at arup.com
+www.arup.com
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030408/b4c1ae49/attachment.htm>
+
+From JAulbach at semprasolutions.com  Mon Apr  7 15:31:42 2003
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Mon, 7 Apr 2003 15:31:42 -0700 
+Subject: [BLDG-SIM] Modeling DX with reheat in VisualDOE/DOE-2
+Message-ID: <MDAEMON-F200304071734.AA3432421pd80000285111@gard.com>
+
+This looks like a better method. There would be no "master" zone, and the
+system would be on either heating or cooling with reheat. And no worry from
+killing the pumping.
+
+Sounds like Michael has it !!
+
+-----Original Message-----
+From: Michael Wilson [mailto:mwilsonbc at yahoo.com]
+Sent: Monday, April 07, 2003 3:28 PM
+To: Aulbach, John; BLDG-SIM at GARD.COM
+Cc: 'BLDG-SIM at gard.com'
+Subject: Re: [BLDG-SIM] Modeling DX with reheat in VisualDOE/DOE-2
+
+
+You might also try using a packaged VAV (PVAVS) system
+and setting the central heating capacity to zero (or
+very small), and the box minimums to 100% so it acts
+like a constant volume system. Then you should get DX
+cooling and reheat heating.
+
+
+--- "Aulbach, John" <JAulbach at semprasolutions.com>
+wrote:
+> As a long time DOE-2 user, I would go with the
+> Constant Volume Reheat, make
+> the chiller an air cooled DX, and kill the hot water
+> and chilled water
+> pumps. As you appear to be running Visual DOE, you
+> do not have the "fancy"
+> version of DOE-2.1E to actually put in kW/GPM for
+> hot and chilled water
+> pumps. You need to keep the pseudo-chilled water
+> flow going to the the
+> chiller (else the chiller will not operate). The
+> fact you have electric heat
+> negates any problems with the hot water pump.
+>  
+> Try something like 100% loss or 0% motor efficiency
+> to remove any pump kW.
+>  
+> Hope it works. Have BLDG-SIMs other "wise"
+> emissaries input at well.
+> 
+> -----Original Message-----
+> From: John M. Topmiller [mailto:jmt at abacus-engr.com]
+> Sent: Monday, April 07, 2003 5:42 AM
+> To: BLDG-SIM at gard.com
+> Subject: [BLDG-SIM] Modeling DX with reheat in
+> VisualDOE/DOE-2
+> 
+> 
+> 
+> I have a fairly simple system in a building that I
+> am modeling but I'm not
+> sure the best DOE-2 system to use.  The building is
+> served by one air
+> handler in the middle of the building with DX
+> cooling and no heating at the
+> unit level.  Each of the two sides of the building
+> has electric resistance
+> reheats in the ducts; I'd figure I'd model the
+> building with two zones each
+> with 50 kW reheat.  I considered modeling the system
+> as Packaged Single Zone
+> AC with Heating and Subzone Reheating, however, with
+> this system the heating
+> in the control zone comes from the air handler and
+> only the subzones have
+> reheat capabilities.  With this system I'd have to
+> set up a dummy control
+> zone to truly model the building.  The system also
+> is close to the
+> Constant-Volume Reheat Fan System in the DOE-2
+> manual, but I have DX cooling
+> and not a chiller and cooling coil system.  With
+> this system I'd have to
+> convert the cooling loads of the chiller to that of
+> a DX system.  
+> 
+> Does anyone have any experience with this type of
+> system and know the best
+> way to proceed? 
+> 
+> Thanks, 
+> 
+> John M. Topmiller, CEM 
+> Energy Engineer 
+> Abacus Engineered Systems 
+> 4431 North Front St., Suite 100
+> Harrisburg, PA 17110-1709 
+> p: (717) 232-8182 ext. 239 
+> c: (717) 514-9767
+> f: (717) 232-8187 
+>  <mailto:jmt at abacus-engr.com> jmt at abacus-engr.com 
+> 
+>  <http://www.abacus-engr.com> www.abacus-engr.com 
+> 
+> 
+> 
+>
+=====================================================You
+> received this
+> e-mail because you are subscribed 
+> 
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> 
+> from this mailing list send a blank message to 
+> 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+
+
+=====
+Michael Wilson
+455 Elphinstone Ave.
+Gibsons, BC, V0N 1V1
+604-886-9864 phone
+604-676-2604 fax
+
+__________________________________________________
+Do you Yahoo!?
+Yahoo! Tax Center - File online, calculators, forms, and more
+http://tax.yahoo.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030407/561b815e/attachment.htm>
+
+From mwilsonbc at yahoo.com  Mon Apr  7 15:28:25 2003
+From: mwilsonbc at yahoo.com (Michael Wilson)
+Date: Mon, 7 Apr 2003 15:28:25 -0700 (PDT)
+Subject: [BLDG-SIM] Modeling DX with reheat in VisualDOE/DOE-2
+In-Reply-To: <MDAEMON-F200304071222.AA2200718pd80000423255@gard.com>
+Message-ID: <MDAEMON-F200304071725.AA255015pd80000285100@gard.com>
+
+You might also try using a packaged VAV (PVAVS) system
+and setting the central heating capacity to zero (or
+very small), and the box minimums to 100% so it acts
+like a constant volume system. Then you should get DX
+cooling and reheat heating.
+
+
+--- "Aulbach, John" <JAulbach at semprasolutions.com>
+wrote:
+> As a long time DOE-2 user, I would go with the
+> Constant Volume Reheat, make
+> the chiller an air cooled DX, and kill the hot water
+> and chilled water
+> pumps. As you appear to be running Visual DOE, you
+> do not have the "fancy"
+> version of DOE-2.1E to actually put in kW/GPM for
+> hot and chilled water
+> pumps. You need to keep the pseudo-chilled water
+> flow going to the the
+> chiller (else the chiller will not operate). The
+> fact you have electric heat
+> negates any problems with the hot water pump.
+>  
+> Try something like 100% loss or 0% motor efficiency
+> to remove any pump kW.
+>  
+> Hope it works. Have BLDG-SIMs other "wise"
+> emissaries input at well.
+> 
+> -----Original Message-----
+> From: John M. Topmiller [mailto:jmt at abacus-engr.com]
+> Sent: Monday, April 07, 2003 5:42 AM
+> To: BLDG-SIM at gard.com
+> Subject: [BLDG-SIM] Modeling DX with reheat in
+> VisualDOE/DOE-2
+> 
+> 
+> 
+> I have a fairly simple system in a building that I
+> am modeling but I'm not
+> sure the best DOE-2 system to use.  The building is
+> served by one air
+> handler in the middle of the building with DX
+> cooling and no heating at the
+> unit level.  Each of the two sides of the building
+> has electric resistance
+> reheats in the ducts; I'd figure I'd model the
+> building with two zones each
+> with 50 kW reheat.  I considered modeling the system
+> as Packaged Single Zone
+> AC with Heating and Subzone Reheating, however, with
+> this system the heating
+> in the control zone comes from the air handler and
+> only the subzones have
+> reheat capabilities.  With this system I'd have to
+> set up a dummy control
+> zone to truly model the building.  The system also
+> is close to the
+> Constant-Volume Reheat Fan System in the DOE-2
+> manual, but I have DX cooling
+> and not a chiller and cooling coil system.  With
+> this system I'd have to
+> convert the cooling loads of the chiller to that of
+> a DX system.  
+> 
+> Does anyone have any experience with this type of
+> system and know the best
+> way to proceed? 
+> 
+> Thanks, 
+> 
+> John M. Topmiller, CEM 
+> Energy Engineer 
+> Abacus Engineered Systems 
+> 4431 North Front St., Suite 100
+> Harrisburg, PA 17110-1709 
+> p: (717) 232-8182 ext. 239 
+> c: (717) 514-9767
+> f: (717) 232-8187 
+>  <mailto:jmt at abacus-engr.com> jmt at abacus-engr.com 
+> 
+>  <http://www.abacus-engr.com> www.abacus-engr.com 
+> 
+> 
+> 
+>
+=====================================================You
+> received this
+> e-mail because you are subscribed 
+> 
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> 
+> from this mailing list send a blank message to 
+> 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+
+
+=====
+Michael Wilson
+455 Elphinstone Ave.
+Gibsons, BC, V0N 1V1
+604-886-9864 phone
+604-676-2604 fax
+
+__________________________________________________
+Do you Yahoo!?
+Yahoo! Tax Center - File online, calculators, forms, and more
+http://tax.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mwilsonbc at yahoo.com  Mon Apr  7 15:28:25 2003
+From: mwilsonbc at yahoo.com (Michael Wilson)
+Date: Mon, 7 Apr 2003 15:28:25 -0700 (PDT)
+Subject: [BLDG-SIM] Modeling DX with reheat in VisualDOE/DOE-2
+In-Reply-To: <MDAEMON-F200304071222.AA2200718pd80000423255@gard.com>
+Message-ID: <MDAEMON-F200304071725.AA2507687pd80000285096@gard.com>
+
+You might also try using a packaged VAV (PVAVS) system
+and setting the central heating capacity to zero (or
+very small), and the box minimums to 100% so it acts
+like a constant volume system. Then you should get DX
+cooling and reheat heating.
+
+
+--- "Aulbach, John" <JAulbach at semprasolutions.com>
+wrote:
+> As a long time DOE-2 user, I would go with the
+> Constant Volume Reheat, make
+> the chiller an air cooled DX, and kill the hot water
+> and chilled water
+> pumps. As you appear to be running Visual DOE, you
+> do not have the "fancy"
+> version of DOE-2.1E to actually put in kW/GPM for
+> hot and chilled water
+> pumps. You need to keep the pseudo-chilled water
+> flow going to the the
+> chiller (else the chiller will not operate). The
+> fact you have electric heat
+> negates any problems with the hot water pump.
+>  
+> Try something like 100% loss or 0% motor efficiency
+> to remove any pump kW.
+>  
+> Hope it works. Have BLDG-SIMs other "wise"
+> emissaries input at well.
+> 
+> -----Original Message-----
+> From: John M. Topmiller [mailto:jmt at abacus-engr.com]
+> Sent: Monday, April 07, 2003 5:42 AM
+> To: BLDG-SIM at gard.com
+> Subject: [BLDG-SIM] Modeling DX with reheat in
+> VisualDOE/DOE-2
+> 
+> 
+> 
+> I have a fairly simple system in a building that I
+> am modeling but I'm not
+> sure the best DOE-2 system to use.  The building is
+> served by one air
+> handler in the middle of the building with DX
+> cooling and no heating at the
+> unit level.  Each of the two sides of the building
+> has electric resistance
+> reheats in the ducts; I'd figure I'd model the
+> building with two zones each
+> with 50 kW reheat.  I considered modeling the system
+> as Packaged Single Zone
+> AC with Heating and Subzone Reheating, however, with
+> this system the heating
+> in the control zone comes from the air handler and
+> only the subzones have
+> reheat capabilities.  With this system I'd have to
+> set up a dummy control
+> zone to truly model the building.  The system also
+> is close to the
+> Constant-Volume Reheat Fan System in the DOE-2
+> manual, but I have DX cooling
+> and not a chiller and cooling coil system.  With
+> this system I'd have to
+> convert the cooling loads of the chiller to that of
+> a DX system.  
+> 
+> Does anyone have any experience with this type of
+> system and know the best
+> way to proceed? 
+> 
+> Thanks, 
+> 
+> John M. Topmiller, CEM 
+> Energy Engineer 
+> Abacus Engineered Systems 
+> 4431 North Front St., Suite 100
+> Harrisburg, PA 17110-1709 
+> p: (717) 232-8182 ext. 239 
+> c: (717) 514-9767
+> f: (717) 232-8187 
+>  <mailto:jmt at abacus-engr.com> jmt at abacus-engr.com 
+> 
+>  <http://www.abacus-engr.com> www.abacus-engr.com 
+> 
+> 
+> 
+>
+=====================================================You
+> received this
+> e-mail because you are subscribed 
+> 
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> 
+> from this mailing list send a blank message to 
+> 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+
+
+=====
+Michael Wilson
+455 Elphinstone Ave.
+Gibsons, BC, V0N 1V1
+604-886-9864 phone
+604-676-2604 fax
+
+__________________________________________________
+Do you Yahoo!?
+Yahoo! Tax Center - File online, calculators, forms, and more
+http://tax.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Varkie.Thomas at som.com  Mon Apr  7 14:44:57 2003
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Mon, 7 Apr 2003 17:44:57 -0400
+Subject: [BLDG-SIM] Operating Profiles
+Message-ID: <MDAEMON-F200304071648.AA4820265pd80000285074@gard.com>
+
+Is there a library of operating profiles available (occupancy, lighting, receptacles, elevators, DHW, systems, plants, etc) for different types of rooms in different types of buildings for different types of locations?  I am particularly interested in hospitals, different types of hospitals (I assume a County hospital would be different from a VA hospital or a Private hospital).
+ 
+I have the profiles published by USDOE in 1979.  TRACE and EQUEST have some built in standard profiles.  Section 10 of the Code of Federal Regulations Parts 434 & 435 has a few.  Are there any other sources?  
+ 
+In large commercial buildings these profiles have a significant effect on the annual energy usage compared to the building envelope.
+ 
+Varkie Thomas
+Skidmore, Owings & Merrill
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030407/22fb0ead/attachment.htm>
+
+From JAulbach at semprasolutions.com  Mon Apr  7 10:19:02 2003
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Mon, 7 Apr 2003 10:19:02 -0700 
+Subject: [BLDG-SIM] Modeling DX with reheat in VisualDOE/DOE-2
+Message-ID: <MDAEMON-F200304071221.AA215378pd80000284915@gard.com>
+
+As a long time DOE-2 user, I would go with the Constant Volume Reheat, make
+the chiller an air cooled DX, and kill the hot water and chilled water
+pumps. As you appear to be running Visual DOE, you do not have the "fancy"
+version of DOE-2.1E to actually put in kW/GPM for hot and chilled water
+pumps. You need to keep the pseudo-chilled water flow going to the the
+chiller (else the chiller will not operate). The fact you have electric heat
+negates any problems with the hot water pump.
+ 
+Try something like 100% loss or 0% motor efficiency to remove any pump kW.
+ 
+Hope it works. Have BLDG-SIMs other "wise" emissaries input at well.
+
+-----Original Message-----
+From: John M. Topmiller [mailto:jmt at abacus-engr.com]
+Sent: Monday, April 07, 2003 5:42 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Modeling DX with reheat in VisualDOE/DOE-2
+
+
+
+I have a fairly simple system in a building that I am modeling but I'm not
+sure the best DOE-2 system to use.  The building is served by one air
+handler in the middle of the building with DX cooling and no heating at the
+unit level.  Each of the two sides of the building has electric resistance
+reheats in the ducts; I'd figure I'd model the building with two zones each
+with 50 kW reheat.  I considered modeling the system as Packaged Single Zone
+AC with Heating and Subzone Reheating, however, with this system the heating
+in the control zone comes from the air handler and only the subzones have
+reheat capabilities.  With this system I'd have to set up a dummy control
+zone to truly model the building.  The system also is close to the
+Constant-Volume Reheat Fan System in the DOE-2 manual, but I have DX cooling
+and not a chiller and cooling coil system.  With this system I'd have to
+convert the cooling loads of the chiller to that of a DX system.  
+
+Does anyone have any experience with this type of system and know the best
+way to proceed? 
+
+Thanks, 
+
+John M. Topmiller, CEM 
+Energy Engineer 
+Abacus Engineered Systems 
+4431 North Front St., Suite 100
+Harrisburg, PA 17110-1709 
+p: (717) 232-8182 ext. 239 
+c: (717) 514-9767
+f: (717) 232-8187 
+ <mailto:jmt at abacus-engr.com> jmt at abacus-engr.com 
+
+ <http://www.abacus-engr.com> www.abacus-engr.com 
+
+
+
+=====================================================You received this
+e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030407/ad495bb8/attachment.htm>
+
+From jmt at abacus-engr.com  Mon Apr  7 05:42:10 2003
+From: jmt at abacus-engr.com (John M. Topmiller)
+Date: Mon, 7 Apr 2003 05:42:10 -0700
+Subject: [BLDG-SIM] Modeling DX with reheat in VisualDOE/DOE-2
+Message-ID: <MDAEMON-F200304070739.AA3906500pd80000284740@gard.com>
+
+I have a fairly simple system in a building that I am modeling but I'm
+not sure the best DOE-2 system to use.  The building is served by one
+air handler in the middle of the building with DX cooling and no heating
+at the unit level.  Each of the two sides of the building has electric
+resistance reheats in the ducts; I'd figure I'd model the building with
+two zones each with 50 kW reheat.  I considered modeling the system as
+Packaged Single Zone AC with Heating and Subzone Reheating, however,
+with this system the heating in the control zone comes from the air
+handler and only the subzones have reheat capabilities.  With this
+system I'd have to set up a dummy control zone to truly model the
+building.  The system also is close to the Constant-Volume Reheat Fan
+System in the DOE-2 manual, but I have DX cooling and not a chiller and
+cooling coil system.  With this system I'd have to convert the cooling
+loads of the chiller to that of a DX system.  
+
+Does anyone have any experience with this type of system and know the
+best way to proceed?
+
+Thanks,
+
+John M. Topmiller, CEM
+Energy Engineer
+Abacus Engineered Systems
+4431 North Front St., Suite 100
+Harrisburg, PA 17110-1709
+p: (717) 232-8182 ext. 239
+c: (717) 514-9767
+f: (717) 232-8187
+jmt at abacus-engr.com
+
+www.abacus-engr.com
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030407/3758f773/attachment.htm>
+
+From brad at rer.com  Thu Apr  3 11:57:52 2003
+From: brad at rer.com (Brad Souza)
+Date: Thu, 3 Apr 2003 11:57:52 -0800
+Subject: [BLDG-SIM] absorption chiller part load efficiency
+Message-ID: <MDAEMON-F200304031352.AA5236421pd80000282979@gard.com>
+
+Hello,
+ 
+I am looking for absorption chiller efficiency curves or part load values.  Specifically I'm interested in Century chillers but any general information would be helpful.
+
+Thanks,
+Brad Souza 
+Engineer 
+Regional Economic Research, Inc 
+11236 El Camino Real 
+San Diego CA 92130-2650 
+(858) 481-0195 ext. 425 
+Fax (858) 481-7550 
+brad at rer.com 
+
+ 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030403/7b7c72d4/attachment.htm>
+
+From mjwitte at gard.com  Wed Apr  2 15:08:42 2003
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Wed, 2 Apr 2003 17:08:42 -0600
+Subject: [BLDG-SIM] EnergyPlus Training - Early Registration Deadline Approaching
+Message-ID: <MDAEMON-F200304021704.AA0415640pd80000282347@gard.com>
+
+(Please excuse cross postings.)
+
+*** Upcoming EnergyPlus Training Workshops *** 
+
+EnergyPlus, the U.S. Department of Energy's new generation building 
+energy simulation program, includes many innovative simulation 
+capabilities including time steps of less than one hour and modular 
+systems simulation modules that are integrated with a heat balance-
+based zone simulation.  
+
+EnergyPlus Introductory Workshop for Beginning Modelers  
+April 28 ? May 1, 2003
+Register by April 11 for discounted fee
+
+The objective of this course is to introduce EnergyPlus to beginning 
+modelers and to teach the basic concepts of building energy 
+simulation such as thermal zoning, building geometry, specifying 
+materials and constructions, internal loads, and schedules.  Time 
+will be set aside to allow students to model basic building envelopes 
+ and systems using the latest version of EnergyPlus on their own 
+laptop computers.    
+
+
+EnergyPlus Advanced Workshop  
+June 3-4, 2003
+Register by May 16 for discounted fee
+
+This course will build on concepts introduced in the "EnergyPlus 
+Introductory Workshop for Beginning Modelers" and  "EnergyPlus 
+Introductory Workshop for Experienced Modelers", and will introduce 
+some of the more advanced simulation concepts (specific topics to be 
+announced soon).  Time will be set aside to allow students to model 
+advanced building envelopes and systems using the latest version of 
+EnergyPlus on their own laptop computers. 
+
+
+Both workshops will be held at the Wingate Inn in Prospect Heights,
+Illinois, USA (a northwest suburb of Chicago). 
+
+For more information, please visit the EnergyPlus Training website at 
+
+  http://www.gard.com/training.htm  
+
+Please direct questions to EnergyPlus-Training at gard.com.   
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From DSE at grummanbutkus.com  Wed Apr  2 07:26:26 2003
+From: DSE at grummanbutkus.com (David S Eldridge)
+Date: Wed, 2 Apr 2003 09:26:26 -0600
+Subject: [BLDG-SIM] eQuest:  primary/secondary WLHPS?
+Message-ID: <MDAEMON-F200304020922.AA2252453pd80000281936@gard.com>
+
+
+Has anyone completed a project in eQuest or DOE2.2 utilizing a WLHPS
+with a primary/secondary arrangement?  My boiler seems to be adding heat
+to the loop at all times of the year...even more in the summer than
+winter.  The same result occurred for multiple weather files, so it
+wasn't something to do with the Sunnyvale (Palo Alto) weather file.
+
+If I change the project to a primary WLHPS only, then everything looks
+about like I think it should...cooling electric consumption goes way
+down from the primary/secondary case and the gas consumption has the
+more typical profile higher in the winter and low in the summer.
+
+I'm not sure if I'm setting up the model incorrectly, or if the
+simulation model was only meant to handle CHW loops (I didn't see
+anything in the manual that suggests this, of course all of the examples
+are CHW systems).
+
+Are there any  resources available that have an example
+Primary/Secondary WLHPS?  Suggestions on which loop parameters to
+investigate?
+
+Any help or suggestions would be appreciated!
+
+David
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From energy_news2002 at yahoo.com  Tue Apr  1 17:26:12 2003
+From: energy_news2002 at yahoo.com (Nikhil Kapur)
+Date: Tue, 1 Apr 2003 17:26:12 -0800 (PST)
+Subject: [BLDG-SIM] e-Quest - Title 24 Compliance Run Error
+In-Reply-To: <MDAEMON-F200302141132.AA3250656pd80000358236@gard.com>
+Message-ID: <MDAEMON-F200304011922.AA2253921pd80000281579@gard.com>
+
+
+Hi, 
+I am working on a building model for certification for Title 24 compliance and I am using a SZRH and FC units attached to a chiller for the mechanical system. The simulation for the compliance analysis abruptly ends towards the "T-24 Standard HVAC sizing" option which is the second last step in the overall compliance simulation in e-Quest. 
+On further investigation of the ".sim" file for the T-24 StandardHVAC Sizing run the error reported is 
+ Loop: Chilled Water Loop               has zero design flow.
+             Check input for consistency, or specify design loads.
+
+
+The normal simulation for the model works fine. I would appreciate of anyone could provide a feedback as to why this error is occuring or a solution to fix this.
+
+Thanks 
+Nikhil Kapur 
+CTG Energetics 
+Irvine, CA 92618
+
+
+
+---------------------------------
+Do you Yahoo!?
+Yahoo! Tax Center - File online, calculators, forms, and more
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030401/66018b84/attachment.htm>
+
+From thornton at tess-inc.com  Tue Apr  1 09:43:37 2003
+From: thornton at tess-inc.com (Jeff Thornton)
+Date: Tue, 01 Apr 2003 11:43:37 -0600
+Subject: [BLDG-SIM] Ground source water-to-water heat pumps
+In-Reply-To: <MDAEMON-F200303291502.AA0200890pd80000415197@gard.com>
+References: <MDAEMON-F200303281800.AA0043875pd80000414266@gard.com>
+ <MDAEMON-F200303281720.AA2054375pd80000413250@gard.com>
+Message-ID: <MDAEMON-F200304011233.AA3329265pd80000281357@gard.com>
+
+At 04:17 PM 3/29/2003 -0500, you wrote:
+
+>I have a few clients wishing to model ground source heat pumps which are 
+>water-to-water heat pumps (water furnace) serving heating and chilled 
+>water loops (fan coils, make-up air systems, etc).  This is not possible 
+>to simulate with DOE2.1E.  Is it possible with Equest (DOE2.2) or EnergyPlus?
+
+Chris,
+
+We have been using the TRNSYS program for projects very similar to the one 
+you mentioned above.  The ground heat exchanger model is excellent, the 
+extended libraries contain all the options you mention, and the program is 
+extremely flexible - allowing you to configure ANY type of HVAC system 
+without being forced to "trick" the program into simulating your 
+configuration.  We have published several reports and technical papers on 
+geothermal system modeling in TRNSYS and would be happy to share them if 
+you are interested.  And unlike many of the other programs, TRNSYS does not 
+distinguish between load/system/plant models - instead solving all 
+components simultaneously for a better dynamic approach.
+
+With kindest regards,
+
+Jeff
+
+
+*********************************************************************************
+Thermal Energy System Specialists (TESS)
+Jeff Thornton                                   2916 Marketplace Drive
+Principal                                       Suite 104
+Phone:  (608) 274-2577                  Madison WI 53719
+Fax:  (608) 278-1475                            USA
+E-mail:   thornton at tess-inc.com
+Web Page:       www.tess-inc.com
+
+"Providing software solutions for today's energy engineering projects"
+*********************************************************************************
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jszhang at purdue.edu  Wed Apr 30 07:18:54 2003
+From: jszhang at purdue.edu (Jinsong Zhang)
+Date: Wed, 30 Apr 2003 09:18:54 -0500
+Subject: [BLDG-SIM] A simple EnergyPlus Model for small office with plant equipment such as chiller and boiler
+Message-ID: <MDAEMON-F200304300915.AA1509578pd80000299769@gard.com>
+
+Hi there,
+ 
+I'm a PowerDOE user and switching to EnergyPlus. I found it's very
+confusing when dealing with the concept of node and branch and etc. Does
+anybody have a simple EnergyPlus model for small office with plant
+equipment such as chiller and boiler? I think it will be much easier to
+learn from a small simple and complete model. Thanks in advance,
+ 
+ 
+Song
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030430/eb254c46/attachment.htm>
+
+From eolsen at owpp.com  Fri Apr 25 06:40:52 2003
+From: eolsen at owpp.com (Olsen, Erik)
+Date: Fri, 25 Apr 2003 08:40:52 -0500
+Subject: [bldg-sim] Call for Case Studies
+Message-ID: <MDAEMON-F200304250834.AA3449703pd80000296576@gard.com>
+
+Your firm can provide valuable input to presentations that will be used
+across the U.S. to promote the use of building performance simulation in the
+design process.
+
+The International Building Performance Simulation Association, USA
+affiliate, has contracted OWP/P Engineers and Michael Iversen, Architect, to
+prepare presentation materials on the use of building simulation tools.
+These presentations are intended for a general audience of architects and
+engineers that wish to learn more about incorporating this valuable tool
+into the design process.  The presentations will not be highly technical or
+academic, but rather provide a comprehensive overview of the different
+classes of analysis tools and their application.  These presentations will
+be available for use by IBPSA members and other interested parties (with
+permission from IBPSA-USA).
+
+We are seeking case studies from U.S. projects to supplement the
+presentations.  Case studies should be completed (fully designed) U.S.
+projects in which some form of building simulation was used to assist in
+making design decisions.  Simulation tools could include, but are not
+limited to:  energy simulation, computational fluid dynamics, daylighting
+analysis, and multizone network airflow models.  Projects demonstrating
+strong synergy between the simulation and the remainder of the design
+process are especially encouraged.  Your firm will be credited in the
+presentation materials.
+
+To submit your project, prepare an abstract or other descriptive document (1
+page maximum) describing the project, what simulation tools were used, how
+they fit into the design process, and what effect the simulation had on the
+final design.  Submissions can be emailed to:
+
+eolsen at owpp.com
+Please give your message the subject line "IBPSA case study abstract."
+
+***** Hurry - abstracts are due by May 12, 2003*****
+Please contact me if you are interested in submitting a case study but are
+unable to make this deadline.
+
+We look forward to input from the entire design and simulation community on
+this exciting project!
+
+Sincerely,
+
+Erik Olsen
+OWP/P Engineers
+HVAC / Energy Consulting
+111 West Washington Street, Suite 2100
+Chicago, Illinois 60602-2714
+312.960.8313 Direct
+312.827.8313 Fax
+eolsen at owpp.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Varkie.Thomas at som.com  Thu Apr 24 10:33:48 2003
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Thu, 24 Apr 2003 13:33:48 -0400
+Subject: [bldg-sim] Doe 2.1-e, custom functions
+Message-ID: <MDAEMON-F200304241238.AA3848812pd80000295984@gard.com>
+
+Is there any interest in creating an informal group for discussing, developing and exchanging custom DOE2.1E functions?  I understand that there was no response to the inquiry below. 
+ 
+We need add-on functions to analyze (1) central chiller ground source heat pumps,  (2) paraboloic tracking and fixed solar collectors to generate high temperature hot water or steam for heating, domestic hot water and also to drive absorption chillers, (3) photovoltaics for commercial buildings, (4) light shelves, and (5) heat pipes.  
+ 
+The group could also discuss the needs of architects and engineers in practice who have to use energy programs on commercial projects.  Issues for discussion include (1) underfloor air distribution, (2) occupancy based ventilation using CO2 sensors, (3) operating profiles for different types of buildings in different locations, (4) design criteria for space, systems and plant, (5) cogeneration systems, (6) multiple systems serving zones, (7) including stair pressurization fans, elevator machine room conditioning, elevators, escalators, etc. to get more accurate demand costs  (8) showing code compliance using the existing energy programs and (9) the development requirements of future energy programs from the perspective of engineers in practice.
+ 
+ All projects (envelope, systems, plant ant utility costs) in this office have been routinely analyzed with the DOE2.1E program at the preliminary and schematic design phases for over 20 years.  We now have to analyze projects for energy code compliance (at SOM it is always performance and not prescriptive because glass exceeds 50%) when submitting construction documents.  Projects in this office vary in size from 0.5 million sqft to over 3 million sqft and trying to show code compliance at the construction documents submittal phase using programs using recently issued programs such as EnergyPlus or eQUEST is not realistic.  
+ 
+It is impossible to automatically convert about 200 architectural AutoCAD 2-dimensional drawings directly into an energy program.  These drawings get constantly revised, especially at the last minute, and over 90% of the detail on these drawings are not relevant for energy analysis.  Architectural 3-dimensional models (inside and outside) are only developed at the conceptual phase for client presentations.  It is not practical to describe ductwork and piping schematics using nodes, splitters, branches for about 50 systems and numerous plant equipment.  How would you analyze central versus distributed plant and cogeneration systems for all the buildings of a new or existing large university campus.  Numerous imbedded input forms and the assistance of wizards can be confusing and restrictive as programs increase in size and scope.
+ 
+DOE2 BDL is still the best energy program for use in our office and the ability to add your own functions is a powerful feature.  The syntax, structure, vocabulary, etc of the DOE2 BDL needs to be reviewed and improved so that it can be read like a specification of the energy model and analysis.  
+ 
+Are there any stand-alone programs for analyzing (1) photovoltaics and solar collectors for commercial buildings, and (2) reflected glare from adjacent buildings?  Is there a DOE2.1E binary file available for Dubai?   
+ 
+Varkie C. Thomas, Ph.D., P.E., CEM
+Skidmore, Owings & Merrill
+varkie.thomas at som.com
+(312) 360-4467  Telephone Direct
+
+ 
+ -----Original Message-----
+From: babetsk at jbb.com [mailto:babetsk at jbb.com]
+Sent: Thursday, March 13, 2003 9:40 AM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Doe 2.1-e, custom functions
+
+
+
+ 
+Hello everyone, 
+I am trying to find out if there exists a collection or a database of custom DOE-2.1 functions.
+ 
+Thanks
+ 
+
+Konstantin E. Babets, Ph.D. 
+
+Jaros Baum & Bolles 
+CFD/Energy Modeling
+Tel 212.530.9455
+Fax 212.269.5894
+babetsk at jbb.com
+ 
+
+ 
+
+
+==================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030424/84ba0c38/attachment.htm>
+
+From larry at taz.tamu.edu  Tue Apr 22 17:38:49 2003
+From: larry at taz.tamu.edu (Larry Degelman)
+Date: Tue, 22 Apr 2003 19:38:49 -0500
+Subject: [bldg-sim] IBPSA News Vol. 13, No. 1 is back online. (Revised)
+Message-ID: <MDAEMON-F200304221935.AA3558312pd80000294660@gard.com>
+
+  <http://www.ibpsa.org/newslett.htm> 
+
+Hello everyone,
+
+A correction has been made to the IBPSA News by our editor (thanks
+Marion), and the issue is back online at the IBPSA web site:
+http://www.ibpsa.org.  
+
+There are a couple good feature articles and a reminder to attend the
+Building Simulation-2003 conference in Eindhoven on 11-14 August.  Check
+out the conference web site for registration details at
+http://www.bs2003.tue.nl/.
+
+The next IBPSA News issue will be published in October (with submittal
+deadline of 21 September -- no extensions).  You have plenty of lead
+time to get your news items and articles ready.
+
+Thanks go to our Newsletter Editor, Marion Bartholomew, for another
+great job on this issue, as well as enduring a correction.
+
+
+  _____  
+
+L.O. Degelman, IBPSA Newsletter Chair 
+
+larry at taz.tamu.edu
+
+
+  _____  
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030422/66834f47/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 2743 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030422/66834f47/attachment.jpeg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/jpeg
+Size: 14145 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030422/66834f47/attachment-0001.jpeg>
+
+From jhaberl at esl.tamu.edu  Tue Apr 22 08:29:06 2003
+From: jhaberl at esl.tamu.edu (Jeff Haberl)
+Date: Tue, 22 Apr 2003 10:29:06 -0500
+Subject: [bldg-sim] ASHRAE 1050-RP (research) Regression Models
+Message-ID: <MDAEMON-F200304221025.AA2531656pd80000294327@gard.com>
+
+Also:
+
+Two papers will be presented at Kansas City:
+
+Kissock, K., Haberl, J., Claridge, D. 2003. "Inverse Model Toolkit (1050RP):
+Numerical Algorithms for Best-Fit Variable-Base Degree-Day and Change-Point
+Models", ASHRAE Transactions-Research, accepted for publication.
+
+Haberl, J., Claridge, D., Kissock, K. 2003. "Inverse Model Toolkit (1050RP):
+Application and Testing, ASHRAE Transactions-Research, submitted for
+publication. 
+
+Jeff
+
+8=!   8=)  :=)   8=)   ;=)   8=)   8=(   8=)   8=()   8=)   8=|   8=)   :=')
+8=)   8=)   8=?
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+Associate Professor....................................Office Ph:
+979-845-6507
+Department of Architecture...........................Lab Ph: 979-845-6065
+Energy Systems Laboratory...........................FAX: 979-862-2457
+Texas A&M University..................................77843-3581
+College Station, Texas, USA...........................URL: www-esl.tamu.edu
+
+8=/   8=)  :=)   8=)  ;=)   8=)   8=()   8=)   :=)   8=)   8=!   8=)   8=?
+8=)   8=)   8=0   
+
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com]On Behalf Of
+Drury.Crawley at EE.DOE.GOV
+Sent: Monday, April 21, 2003 1:32 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] ASHRAE 1050-RP (research) Regression Models
+
+
+
+The final report for 1050-RP was just approved at the
+last ASHRAE meeting.  Contact Michael Vaughn at
+ASHRAE if you are interested in obtaining a copy
+of the final report (for a fee).
+
+
+
+ 
+
+                      "Bill Koran"
+
+                      <bkoran at qwest.net        To:       bldg-sim at gard.com
+
+                      >                        cc:
+
+                      Sent by:                 Subject:  [bldg-sim] ASHRAE
+1050-RP (research) Regression      
+                      postman at gard.com          Models
+
+ 
+
+ 
+
+                      04/21/2003 01:49
+
+                      PM
+
+                      Please respond to
+
+                      bkoran
+
+ 
+
+ 
+
+
+
+
+
+Has anything been published on this yet?  I saw a couple items on the
+ASHRAE Annual Meeting agenda, but I couldn't find anything but the project
+description on the ASHRAE site.  Any information available?
+
+--Bill Koran
+
+
+=====================================================You received this
+e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From prln at bol.com.br  Mon Apr 21 20:55:40 2003
+From: prln at bol.com.br (Paulo Roberto)
+Date: Tue, 22 Apr 2003 00:55:40 -0300
+Subject: [bldg-sim] IWEC Weather Data
+References: <MDAEMON-F200304211338.AA3844609pd80000437554@gard.com>
+Message-ID: <MDAEMON-F200304212252.AA5209765pd80000294011@gard.com>
+
+Hello, Joel!
+
+The data format that you want is the format used by EnergyPlus Weather 
+Data (.epw).
+You can get some information about this at:
+
+ http://www.eere.energy.gov/buildings/energyplus/pdfs/weatherdatainformation.pdf
+
+Another source of information is two E+ books: Input-Output Reference 
+Document and Auxiliary Programs Document.
+These books you'll get at:
+
+http://www.eere.energy.gov/buildings/energyplus/pdfs/weatherdatainformation.pdfion.htm
+
+I hope I've helped you anyway...
+Sorry for my poor english...
+
+Paulo Roberto
+prln at bol.com.br
+
+
+Joel K. Dietrich wrote:
+
+>E-mail Premium BOL
+>Antiv?rus, anti-spam e at? 100 MB de espa?o. Assine j?!
+>http://email.bol.com.br/
+>I need the data format for the IWEC (.epw) files? 
+>
+>I would greatly appreciate it if someone would please send me the file format.
+>
+>Thank you,
+>Joel
+>
+>
+>
+>
+>======================================================
+>You received this e-mail because you are subscribed 
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+>
+>  
+>
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From dietrich at ou.edu  Mon Apr 21 11:42:31 2003
+From: dietrich at ou.edu (Joel K. Dietrich)
+Date: Mon, 21 Apr 2003 13:42:31 -0500
+Subject: [bldg-sim] IWEC Weather Data
+Message-ID: <MDAEMON-F200304211338.AA3837250pd80000293715@gard.com>
+
+I need the data format for the IWEC (.epw) files? 
+
+I would greatly appreciate it if someone would please send me the file format.
+
+Thank you,
+Joel
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at EE.DOE.GOV  Mon Apr 21 11:31:38 2003
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Mon, 21 Apr 2003 14:31:38 -0400
+Subject: [bldg-sim] ASHRAE 1050-RP (research) Regression Models
+Message-ID: <MDAEMON-F200304211337.AA3721734pd80000293710@gard.com>
+
+
+The final report for 1050-RP was just approved at the
+last ASHRAE meeting.  Contact Michael Vaughn at
+ASHRAE if you are interested in obtaining a copy
+of the final report (for a fee).
+
+
+
+                                                                                                              
+                      "Bill Koran"                                                                            
+                      <bkoran at qwest.net        To:       bldg-sim at gard.com                                    
+                      >                        cc:                                                            
+                      Sent by:                 Subject:  [bldg-sim] ASHRAE 1050-RP (research) Regression      
+                      postman at gard.com          Models                                                        
+                                                                                                              
+                                                                                                              
+                      04/21/2003 01:49                                                                        
+                      PM                                                                                      
+                      Please respond to                                                                       
+                      bkoran                                                                                  
+                                                                                                              
+                                                                                                              
+
+
+
+
+Has anything been published on this yet?  I saw a couple items on the
+ASHRAE Annual Meeting agenda, but I couldn't find anything but the project
+description on the ASHRAE site.  Any information available?
+
+--Bill Koran
+
+
+=====================================================You received this
+e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bkoran at qwest.net  Mon Apr 21 10:49:17 2003
+From: bkoran at qwest.net (Bill Koran)
+Date: Mon, 21 Apr 2003 10:49:17 -0700
+Subject: [bldg-sim] ASHRAE 1050-RP (research) Regression Models
+Message-ID: <MDAEMON-F200304211246.AA4651750pd80000293662@gard.com>
+
+Has anything been published on this yet?  I saw a couple items on the ASHRAE
+Annual Meeting agenda, but I couldn't find anything but the project
+description on the ASHRAE site.  Any information available?
+
+--Bill Koran
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030421/e3acb0a0/attachment.htm>
+

@@ -1,0 +1,2528 @@
+From jeffhaberl at tees.tamus.edu  Wed Jun 29 15:50:51 2005
+From: jeffhaberl at tees.tamus.edu (Jeff Haberl)
+Date: Wed, 29 Jun 2005 17:50:51 -0500
+Subject: [BLDG-SIM] Inlet water temperatures
+Message-ID: <MDAEMON-F200506291752.AA5200734pd80000717154@gard.com>
+
+Most cities record their water supply temps, which can be helpful. Otherwise this issue is currently a research topic for ASHRAE's TC 4.2. 
+
+Jeff
+BB 8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  :=')  8=)  8=)  8=? BB
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+BB 8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=) 8=?  8=)  8=)  8= BB
+
+
+-----Original Message-----
+From: postman at gard.com <postman at gard.com>
+To: BLDG-SIM at gard.com <BLDG-SIM at gard.com>
+Sent: Wed Jun 29 13:26:27 2005
+Subject: [BLDG-SIM] Inlet water temperatures
+
+For the purposes of modeling residential water heating energy use, 
+can anyone suggest a source for annual average water inlet temps 
+(from the municipal water system)? 
+I've been using the annual average outdoor dry-bulb (offset by a few degrees) 
+or estimated shallow ground temperatures in the TMY2 files, but these don't 
+seem to give plausible values in cold climates like Alaska 
+(annual averages are well below freezing, even at 4m depth). 
+(a related question might be how they get piped water in places with ground 
+temperatures that low). 
+
+thanks, 
+Rich Brown 
+--------------------------------------------------------------- 
+Rich Brown * REBrown at lbl.gov 
+Energy Analysis Department * Phone: (510) 486-5896 
+Lawrence Berkeley National Laboratory * Fax: (510) 486-4247 
+---------------------------------------------------------------
+
+From REBrown at lbl.gov  Wed Jun 29 11:26:27 2005
+From: REBrown at lbl.gov (Rich Brown)
+Date: Wed, 29 Jun 2005 11:26:27 -0700
+Subject: [BLDG-SIM] Inlet water temperatures
+Message-ID: <MDAEMON-F200506291327.AA2741968pd80000716883@gard.com>
+
+For the purposes of modeling residential water heating energy use,
+can anyone suggest a source for annual average water inlet temps
+(from the municipal water system)?
+I've been using the annual average outdoor dry-bulb (offset by a few 
+degrees)
+or estimated shallow ground temperatures in the TMY2 files, but these 
+don't
+seem to give plausible values in cold climates like Alaska
+(annual averages are well below freezing, even at 4m depth).
+(a related question might be how they get piped water in places with 
+ground
+temperatures that low).
+
+thanks,
+Rich Brown
+---------------------------------------------------------------
+Rich Brown                              * REBrown at lbl.gov
+Energy Analysis Department	            * Phone: (510) 486-5896
+Lawrence Berkeley National Laboratory   * Fax:   (510) 486-4247
+---------------------------------------------------------------
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: text/enriched
+Size: 943 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050629/371da884/attachment.bin>
+
+From sobrinski at econergy.net  Wed Jun 29 09:29:41 2005
+From: sobrinski at econergy.net (Dan Sobrinski)
+Date: Wed, 29 Jun 2005 10:29:41 -0600
+Subject: [BLDG-SIM] Radiant Cooling
+Message-ID: <MDAEMON-F200506291135.AA3507718pd80000716737@gard.com>
+
+What is the best way to model a radiant cooling (thermo-active slab) system for a commercial building?
+
+ 
+
+In the past I have attempted to mimic this system with Equest by using a fan coil system, eliminating fan energy, and then handling OA requirements in a "dummy" zone.  Please let me know if you have any suggestions and/or papers that discuss modeling radiant cooling using this technique or any other technique (EnergyPlus?).
+
+ 
+
+Also, does anyone have experience or comments on TAS?  The software's web site claims to be capable of modeling radiant cooling however when I reviewed some literature on the subject it appeared to be a bit limited.  For example, a major drawback to modeling radiant cooling in TAS is the temperature or operation of the radiant cavity cannot be controlled by the space temperature. Therefore the operation has to be controlled by on/off schedule in the equipment schedule.  This seems a bit questionable when analyzing annual energy use but maybe this is the best approach available.  It seems, at a minimum, it would be a good way to check peak cooling loads against the previously discussed Equest mimic.  
+
+ 
+
+Anyway... thanks in advance for the help.
+
+ 
+
+Dan Sobrinski
+
+Econergy
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050629/92dca99f/attachment.htm>
+
+From Christoph.Reinhart at nrc-cnrc.gc.ca  Mon Jun 27 18:08:30 2005
+From: Christoph.Reinhart at nrc-cnrc.gc.ca (Reinhart, Christoph)
+Date: Mon, 27 Jun 2005 21:08:30 -0400
+Subject: [BLDG-SIM] Registration open for 2005 Radiance Workshop
+Message-ID: <MDAEMON-F200506272009.AA0941671pd80000715057@gard.com>
+
+What: The use of RADIANCE in Design Practice, Research, and Education 
+
+Where: McGill University, School of Architecture, Montreal, Canada 
+ 
+When: August 11th & 12th 2005 (The week before Building Simulation 2005.)
+ 
+
+Purpose: To provide design practitioners, researchers, and educators with an opportunity to present their work with the Radiance lighting simulation software, and to share ideas and solutions with other attendees. 
+ 
+Radiance users of all levels are welcome.
+ 
+The workshop will be hosted by the National Research Council Canada (NRC) and McGill University, School of Architecture. Workshop organizers are Christoph Reinhart (NRC) and Greg Ward (Anyhere Software). For further information and to register, please go to  <http://irc.nrc-cnrc.gc.ca/ie/light/RadianceWorkshop2005/> http://irc.nrc-cnrc.gc.ca/ie/light/RadianceWorkshop2005/.
+ 
+Christoph and Greg
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050627/dc103f63/attachment.htm>
+
+From dschroeder at sbicouncil.org  Mon Jun 27 10:17:47 2005
+From: dschroeder at sbicouncil.org (Doug Schroeder)
+Date: Mon, 27 Jun 2005 13:17:47 -0400
+Subject: [BLDG-SIM] =?iso-8859-1?Q?SBIC_announces_the_release_of_ENERGY-10=99_?= 
+ Version 1.7
+Message-ID: <MDAEMON-F200506271228.AA2806421pd80000714773@gard.com>
+
+The Sustainable Buildings Industry Council recently announced the release 
+of ENERGY-10(TM) Version 1.7.  ENERGY-10(TM) analyzes - and illustrates - 
+the energy and cost savings that can be achieved by applying up to a dozen 
+sustainable design strategies. ENERGY-10(TM) calculates integrated energy 
+performance and is best suited to buildings with one or two thermal zones. 
+The interface is simple, the analysis thorough, and the results accurate 
+and quick. Building types that are most frequently simulated using this 
+software include retail and office buildings, warehouses, schools, 
+restaurants, residences, lodging facilities, and more.  Visit 
+www.Energy-10.com for details about the Version 1.7 release.
+
+Contact: Doug Schroeder, Sustainable Buildings Industry Council, TEL 
+202-628-7400, ext. 210, 
+<mailto:DSchroeder at sbicouncil.org>DSchroeder at sbicouncil.<mailto:DSchroeder at sbicouncil.org>org
+
+  SBIC, celebrating 25 years, 1980 - 2005, www.sbicouncil.org
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at EE.DOE.GOV  Sat Jun 25 20:52:22 2005
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Sat, 25 Jun 2005 23:52:22 -0400
+Subject: [BLDG-SIM] Reports on Six Low-Energy Test Buildings Now Available
+Message-ID: <MDAEMON-F200506252257.AA5740921pd80000713421@gard.com>
+
+Over the last few years, the National Renewable Energy Laboratory (NREL)
+has been evaluating the operating energy performance of six low-energy
+buildings for the U.S.Department of Energy.  These case studies compare the
+measured energy consumption of each building with the design goals and
+identify successes and lessons learned for each.   A summary of lessons
+learned from the test buildings as well as the analysis and monitoring
+research is under preparation. The six reports are available for download
+from the web:
+
+Zion National Park Visitor Center
+8,800 ft2 (817 m2) Visitor Center with retail, office, and interpretative
+displays located in southwestern Utah.
+http://www.nrel.gov/docs/fy05osti/34607.pdf
+
+Adam Joseph Lewis Center for Environmental Studies, Oberlin College
+13,600 ft2 college building located in Oberlin, Ohio.
+http://www.nrel.gov/docs/fy05osti/33180.pdf
+
+NREL Thermal Test Facility
+10,000 ft2 (929 m2) mixed office/light laboratory building in Golden,
+Colorado.
+http://www.nrel.gov/docs/fy05osti/34832.pdf
+
+BigHorn Home Improvement Center
+42,366 ft2 (3,936 m2) hardware store, warehouse, and lumberyard in the
+mountains of Colorado.
+http://www.nrel.gov/docs/fy05osti/34930.pdf
+
+Pennsylvania Department of Environmental Protection Cambria Office Building
+34,500 ft2 (3,205 m2) office building, LEED Gold certification, located in
+Ebensburg, Pennsylvania.
+http://www.nrel.gov/docs/fy05osti/34931.pdf
+
+Chesapeake Bay Foundation's Philip Merrill Environmental Center
+31,000 ft2 (2,880 m2) office building serving as foundation headquarters,
+first LEED Platinum certification, located in Annapolis, Maryland.
+http://www.nrel.gov/docs/fy05osti/34830.pdf
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jra_sac at yahoo.com  Fri Jun 24 10:25:56 2005
+From: jra_sac at yahoo.com (John Aulbach)
+Date: Fri, 24 Jun 2005 10:25:56 -0700 (PDT)
+Subject: [BLDG-SIM] Virtual memory extension success !!!!!!!!!!
+In-Reply-To: <04a401c57810$d3184480$050ba8c0@JJH4>
+Message-ID: <MDAEMON-F200506241226.AA264731pd80000712396@gard.com>
+
+I thank ALL who have contributed to helping me solve
+my problem. I thought I would answer through my memo
+from Jeff Hirsch, as it was his instructions I
+followed to solve the problem. See below...
+
+I increased my Min-Max range on virtual memory to 100
+- 1000 Mb (1 Gig), as I have a 40 GB hard drive and
+about 25 Gb left. I ran the previous baseline plus 2
+EEMs (I assumje this is a batch run, like old DOE-2),
+and it ran without fail. PLUS, my printer did not hang
+up AT ALL from printing the reports, one after
+another.
+
+JEFF, I assume that the size of the project will not
+be a factor now as well (say a 200 zone+ building)??
+
+ALSO, I looked a bit in the eQUEST 3.40 Manual
+(updates ??), and I could not find a place to save the
+Summary color reports to FILE, so I may send them to
+clients and collegues who do not have eQUEST.
+
+Is there a way?????
+
+
+--- Jeff Hirsch <Jeff.Hirsch at DOE2.com> wrote:
+
+> Do you have the correct printer driver installed and
+> have your
+> printer selected as the default printer?
+> 
+> Do you have sufficient hard drive space for a big
+> paging file;
+> with 256MBytes of memory you at least 512MB of
+> virtual
+> memory, but better to have 1000MB when using eQUEST
+> (as it uses 250-350 itself)  See, on control panel,
+> system
+> properties, advanced tab, then under performance
+> press the
+> setting button and look at the bottom of the
+> advanced tab 
+> (virtual memory) and change if needed (may require
+> that you
+> defragment your c: drive - on properties sheet for
+> drive look
+> on the tools tab - to get enough contiguous space)
+> 
+> 
+> ---
+> Jeff Hirsch
+> James J. Hirsch & Associates
+> Building Performance Analysis Software & Consulting
+> 12185 Presilla Road
+> Camarillo, CA 93012-9243 USA
+> phone: (805) 553-9000
+> fax: (805) 532-2401
+> email: Jeff.Hirsch at DOE2.com
+> web: http://DOE2.com
+> 
+> 
+> ----- Original Message ----- 
+> From: "John Aulbach" <jra_sac at yahoo.com>
+> To: <BLDG-SIM at gard.com>
+> Sent: Thursday, June 23, 2005 6:55 AM
+> Subject: [BLDG-SIM] Is it eQuest, or is it Memorex?
+> 
+> 
+> > I just loaded eQuest 3.55 on my desktop Pentium 3
+> > (don't laugh), and it seemed to run fine. I
+> started
+> > doing some sample "what if" runs,and I got a
+> "running
+> > out of virtual memory" warning.
+> > 
+> > I thought I fixed that, then tried to print
+> several of
+> > the given color reports offered. That made my
+> computer
+> > shut down and reboot.
+> > 
+> > I did NOT have this problem in all earlier version
+> of
+> > eQuest.
+> > 
+> > Anyone have similar problems to this?
+> > 
+> > I need to try the same thing with my laptop to see
+> if
+> > a similar thing happens.
+> > 
+> > This is Windows XP with 256MB in real memory.
+> > 
+> > Please give be PRECISE instructions if you know
+> how to
+> > fix this problem.
+> > 
+> > Thanks.
+> > 
+> > __________________________________________________
+> > Do You Yahoo!?
+> > Tired of spam?  Yahoo! Mail has the best spam
+> protection around 
+> > http://mail.yahoo.com 
+> > 
+> >
+>
+======================================================
+> > You received this e-mail because you are
+> subscribed 
+> > to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe 
+> > from this mailing list send a blank message to 
+> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> > 
+> > 
+> 
+
+
+__________________________________________________
+Do You Yahoo!?
+Tired of spam?  Yahoo! Mail has the best spam protection around 
+http://mail.yahoo.com 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jra_sac at yahoo.com  Thu Jun 23 06:55:26 2005
+From: jra_sac at yahoo.com (John Aulbach)
+Date: Thu, 23 Jun 2005 06:55:26 -0700 (PDT)
+Subject: [BLDG-SIM] Is it eQuest, or is it Memorex?
+In-Reply-To: <MDAEMON-F200506220213.AA1327578pd80000824665@gard.com>
+Message-ID: <MDAEMON-F200506230856.AA5612546pd80000711065@gard.com>
+
+I just loaded eQuest 3.55 on my desktop Pentium 3
+(don't laugh), and it seemed to run fine. I started
+doing some sample "what if" runs,and I got a "running
+out of virtual memory" warning.
+
+I thought I fixed that, then tried to print several of
+the given color reports offered. That made my computer
+shut down and reboot.
+
+I did NOT have this problem in all earlier version of
+eQuest.
+
+Anyone have similar problems to this?
+
+I need to try the same thing with my laptop to see if
+a similar thing happens.
+
+This is Windows XP with 256MB in real memory.
+
+Please give be PRECISE instructions if you know how to
+fix this problem.
+
+Thanks.
+
+__________________________________________________
+Do You Yahoo!?
+Tired of spam?  Yahoo! Mail has the best spam protection around 
+http://mail.yahoo.com 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bradley at tess-inc.com  Wed Jun 22 10:40:12 2005
+From: bradley at tess-inc.com (David Bradley)
+Date: Wed, 22 Jun 2005 12:40:12 -0500
+Subject: [BLDG-SIM] TRNSYS Training Course Announcement
+Message-ID: <MDAEMON-F200506221241.AA4110265pd80000710015@gard.com>
+
+Hello,
+   There is a two day TRNSYS training course scheduled to be held on August 
+6-7 in Orlando, Florida just before the 2005 Solar World Conference.
+
+   The course is intended to provide participants with an overview of 
+TRNSYS 16 (released in November 2004) and give them a quick start in using 
+the software. The course is intended for researchers and practitioners in 
+low energy building design, renewable energy (solar thermal, PV, wind, 
+etc.) as well as those interested in more conventional energy technologies. 
+Participants must bring along a laptop and a temporary copy of TRNSYS will 
+be provided including all documentation. The course will be appropriate for 
+those new to TRNSYS, those simply interested in what it does, those who 
+have experience with earlier versions and those who have purchased TRNSYS 
+16 and would like a leg up on learning how to use it.
+
+   Anyone interested in additional information on the course topics is 
+encouraged to email me (bradley at tess-inc.com). To register for the course, 
+please visit the Solar World Conference web site at http://www.swc2005.org/
+
+Kind regards,
+   David
+
+
+****************************************************************************************
+Thermal Energy System Specialists (TESS), LLC
+David BRADLEY                           2916 Marketplace Drive - Suite 104
+Partner                                        Madison, WI 53719
+Phone: (608) 274-2577 USA
+Fax: (608) 278-1475
+E-mail: bradley at tess-inc.com
+Web Pages:  http://www.tess-inc.com     and      http://www.trnsys.com
+
+"Providing software solutions for today's energy engineering projects"
+****************************************************************************************
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From marketing at inergicorp.com  Wed Jun 22 00:12:16 2005
+From: marketing at inergicorp.com (marketing at inergicorp.com)
+Date: Wed, 22 Jun 2005 15:12:16 +0800
+Subject: [BLDG-SIM] Job Opportunity - Sales & Marketing Engineer/Manager
+In-Reply-To: <MDAEMON1012200505240110.AA1029562@gard.com>
+Message-ID: <MDAEMON-F200506220213.AA1327140pd80000709387@gard.com>
+
+Dear Sir,
+
+We are a Hong Kong based building services engineering firm seeks the
+following calibre:
+
+Sales & Marketing Engineer/Manager
+
+Responsibilities:
+-  Report to the Managing Director;
+-  Responsible in the delivery of business plan, including the development
+and execution of marketing and sales strategy;
+-  Market analysis;
+-  Coordination with technical and engineering team on products and
+service deliveries; as well as departmental forecast and budget.
+
+Requirements:
+-  Over 5 years experience in consultancy or engineering firm in the
+discipline of HVAC and/or E&M
+-  Undergraduate Degree holder in Mechanical engineering, Electrical &
+Electronic engineering, Building Services engineering or equivalent.  A
+second degree in Business &/or Management will have an advantage.
+-  Member of ASHRAE and CIBSE or any equivalent professional bodies
+preferred.
+
+Interested parties please email your CV to us.
+
+For and on behalf of
+INERGI Corporation Limited
+ Peon Liu
+Manager, HR & Administration
+Tel :	+852 3102 3192
+Fax :	+852 3101 9613
+
+
+
+
+
+------------------
+ATTACHMENT REMOVED
+------------------
+
+From mdec at glumac.com  Fri Jun 17 10:59:58 2005
+From: mdec at glumac.com (Mitchell Dec)
+Date: Fri, 17 Jun 2005 10:59:58 -0700
+Subject: [BLDG-SIM] Bug in Window 5.2
+Message-ID: <MDAEMON-F200506171301.AA0119187pd80000705040@gard.com>
+
+Hello All,
+ 
+I was wondering if there is documentation of the "known bugs" for future
+reference.  This would be extremely benefical if these problems were posted
+somewhere online in order to reference this material in the future.
+ 
+Thanks,
+ 
+Mitch 
+
+Mitchell J. Dec
+Energy Analyst 
+503.345.6283 | mdec at glumac.com <mailto:mdec at glumac.com>  
+
+ <http://www.glumac.com/> 
+
+  _____  
+
+320 SW Washington, Suite 200
+Portland, OR 97204-2640
+T.  503.227.5280  F. 503.274.7674
+
+Thinking. Inside the building.
+http://www.glumac.com/ <http://www.glumac.com/>  
+
+-----Original Message-----
+From: Mahabir Bhandari [mailto:bhandari at fenestration.com]
+Sent: Friday, June 17, 2005 7:57 AM
+To: BLDG-SIM at gard.com
+Cc: 'Robin Mitchell'
+Subject: [BLDG-SIM] Bug in Window 5.2
+
+
+
+Michael,
+
+ 
+
+Thanks for pointing this out. This is a known bug in WINDOW5.  However, you
+can still use WINDOW5 with a little modification. The methodology for
+calculating inside heat transfer coefficient was changed in WINDOW5 where
+radiative and convective part of film coefficients are calculated separately
+but the DOE2 output report from WINDOW5 only reports convective part. I saw
+this bug a long time back and asked Jeff Hirsch about the clarifications, I
+would like to share his reply with the group:
+
+ 
+
+Mahabir Bhandari
+
+Mahabir Bhandari, Ph.D.
+Senior Energy Analyst
+Carli Inc.
+Tel:  (413) 256 4647
+Fax: (413) 256 4823
+
+
+
+
+STATEMENT OF CONFIDENTIALITY
+The information contained in this electronic message and any attachments to
+this message are intended for the exclusive use of the addressee(s) and may
+contain confidential or privileged information.  If you are not the intended
+recipient, please notify Carli Inc. immediately at either 413-256-4647 or at
+home at fenestration.com, and destroy all copies of this message and any
+attachments.
+
+ 
+
+ 
+
+ 
+
+The problem is an issue with Window 5 ouput that eQUEST cannot fix;
+
+Window 5's ouput for the hrout, hcout , and (hcrin + hcin) reported
+
+at the bottom of the ouput is inconsistent with the reported u-center.
+
+For example (here is a W5 ouput table for u-center)
+
+ 
+
+Overall and Center of Glass Ig U-values (W/m2-K)
+Outdoor Temperature                 -17.8 C      15.6 C      26.7 C
+37.8 C
+Solar      WdSpd  hcout hrout  hin
+(W/m2)     (m/s)     (W/m2-K)
+   0        0.00   4.00  3.54  2.77  3.63 3.63  3.67 3.67  3.75 3.75  4.11
+4.11 
+   0        6.71  30.84  3.30  3.13  5.88 5.88  5.51 5.51  5.52 5.52  6.22
+6.22 
+ 783        0.00   4.00  3.64  2.59  3.63 3.63  3.67 3.67  3.75 3.75  4.11
+4.11 
+ 783        6.71  30.84  3.33  3.08  5.88 5.88  5.51 5.51  5.52 5.52  6.22
+6.22
+
+ 
+
+Where the same glass from W4 would produce
+
+ 
+
+Overall and Center of Glass Window U-values (W/m2-C)
+Outdoor Temperature                 -17.8 C      15.6 C      26.7 C
+37.8 C
+Solar      WdSpd  hcout hrout  hin
+(W/m2)     (m/s)     (W/m2-C)
+   0        0.00  12.25  3.43  8.23  5.10 5.30  4.83 4.98  4.82 4.97  5.33
+5.57 
+   0        6.71  25.47  3.33  8.30  5.95 6.31  5.49 5.76  5.46 5.72  6.13
+6.51 
+ 783        0.00  12.25  3.48  8.17  5.09 5.28  4.56 4.66  5.06 5.25  5.43
+5.69 
+ 783        6.71  25.47  3.37  8.27  5.94 6.29  5.34 5.58  5.67 5.97  6.22
+6.61 
+
+ 
+
+The three film coefficient should be input into the FILMS-COND
+
+keyword in the GLASS-TYPE-CODE command. For the above
+
+window 4 library entry the values would be:
+
+ 
+
+     FILMS-COND=  (25.47, 3.33, 8.30)
+
+These values are in agreement with the window 4 report u-center's in the
+table, but the
+
+above window 5 value for the last film coeff is not correct (it does not
+include both radiative
+
+and convective components) as it does not allow the reproduction of the
+reported u-center's
+
+of the table.
+
+ 
+
+eQUEST, at this time, does not put a FILMS-COND keyword into the
+glass-type-code command
+
+due to this W5 probelm; we will decide what to do at some point (we were
+waiting for the W5 group to
+
+fix this problem/bug in their output)
+
+ 
+
+For now you could insert a films-cond keyword using the first two values
+reported by
+
+W5 and replacing the third with a value you calculate to get the right
+u-center based
+
+upon the glass the the other two values reported by W5 (or just approx with
+8.3,
+
+but then LS-D will not be correct)
+
+ 
+
+ 
+
+
+  _____  
+
+
+From: Mike Tillou [mailto:miket at etcgrp.com] 
+Sent: Friday, June 17, 2005 9:02 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Bug in Window 5.2
+
+ 
+
+Hi All, 
+
+Anyone using Window 5 (any version) to create custom glazing for DOE2
+simulations should be very careful.  There is a bug in the output feature of
+Window 5 that incorrectly reports the window film coefficients used to
+calculate the center of glass U-value.  If you use this data in a DOE 2
+simulation the calculated center of glass U-value may be off by as much as
+40%.  BE CAREFUL and check the output reports to verify glazing performance
+if you are importing Window 5 performance data.  Apparently Window 4 does
+not have this problem, it worked fine when I tried it.  
+
+I have been told that LBNL is aware of the problem but to date has not
+resolved the issue.  
+
+I have only heard one side of the story (and would be happy to hear the
+other) but it seems like this is another chapter in the ongoing saga of DOE2
+vs Energy Plus.  I am not saying this is the case, but it is disturbing to
+think that software bugs in publicly funded software are not getting fixed
+for political reasons.
+
+Unfortunately those of us trying to use these tools and can't because of
+issues like this suffer most. 
+
+Sincerely, 
+
+Disgruntled Modeler. 
+
+ 
+
+Michael Tillou, PE
+etc Group, Inc.
+PO Box 7, Williamstown, MA 01267
+ph. (413) 458-9870  fx. (413) 458-9875
+
+  
+
+ 
+ 
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+=====================================================You received this
+e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050617/3047a09d/attachment.htm>
+
+From bhandari at fenestration.com  Fri Jun 17 07:57:02 2005
+From: bhandari at fenestration.com (Mahabir Bhandari)
+Date: Fri, 17 Jun 2005 10:57:02 -0400
+Subject: [BLDG-SIM] Bug in Window 5.2
+In-Reply-To: <MDAEMON-F200506170755.AA5513671pd80000817504@gard.com>
+Message-ID: <MDAEMON-F200506170957.AA575078pd80000704786@gard.com>
+
+Michael,
+
+ 
+
+Thanks for pointing this out. This is a known bug in WINDOW5.  However, you
+can still use WINDOW5 with a little modification. The methodology for
+calculating inside heat transfer coefficient was changed in WINDOW5 where
+radiative and convective part of film coefficients are calculated separately
+but the DOE2 output report from WINDOW5 only reports convective part. I saw
+this bug a long time back and asked Jeff Hirsch about the clarifications, I
+would like to share his reply with the group:
+
+ 
+
+Mahabir Bhandari
+
+Mahabir Bhandari, Ph.D.
+Senior Energy Analyst
+Carli Inc.
+Tel:  (413) 256 4647
+Fax: (413) 256 4823
+
+
+
+
+STATEMENT OF CONFIDENTIALITY
+The information contained in this electronic message and any attachments to
+this message are intended for the exclusive use of the addressee(s) and may
+contain confidential or privileged information.  If you are not the intended
+recipient, please notify Carli Inc. immediately at either 413-256-4647 or at
+home at fenestration.com, and destroy all copies of this message and any
+attachments.
+
+ 
+
+ 
+
+ 
+
+The problem is an issue with Window 5 ouput that eQUEST cannot fix;
+
+Window 5's ouput for the hrout, hcout , and (hcrin + hcin) reported
+
+at the bottom of the ouput is inconsistent with the reported u-center.
+
+For example (here is a W5 ouput table for u-center)
+
+ 
+
+Overall and Center of Glass Ig U-values (W/m2-K)
+Outdoor Temperature                 -17.8 C      15.6 C      26.7 C
+37.8 C
+Solar      WdSpd  hcout hrout  hin
+(W/m2)     (m/s)     (W/m2-K)
+   0        0.00   4.00  3.54  2.77  3.63 3.63  3.67 3.67  3.75 3.75  4.11
+4.11 
+   0        6.71  30.84  3.30  3.13  5.88 5.88  5.51 5.51  5.52 5.52  6.22
+6.22 
+ 783        0.00   4.00  3.64  2.59  3.63 3.63  3.67 3.67  3.75 3.75  4.11
+4.11 
+ 783        6.71  30.84  3.33  3.08  5.88 5.88  5.51 5.51  5.52 5.52  6.22
+6.22
+
+ 
+
+Where the same glass from W4 would produce
+
+ 
+
+Overall and Center of Glass Window U-values (W/m2-C)
+Outdoor Temperature                 -17.8 C      15.6 C      26.7 C
+37.8 C
+Solar      WdSpd  hcout hrout  hin
+(W/m2)     (m/s)     (W/m2-C)
+   0        0.00  12.25  3.43  8.23  5.10 5.30  4.83 4.98  4.82 4.97  5.33
+5.57 
+   0        6.71  25.47  3.33  8.30  5.95 6.31  5.49 5.76  5.46 5.72  6.13
+6.51 
+ 783        0.00  12.25  3.48  8.17  5.09 5.28  4.56 4.66  5.06 5.25  5.43
+5.69 
+ 783        6.71  25.47  3.37  8.27  5.94 6.29  5.34 5.58  5.67 5.97  6.22
+6.61 
+
+ 
+
+The three film coefficient should be input into the FILMS-COND
+
+keyword in the GLASS-TYPE-CODE command. For the above
+
+window 4 library entry the values would be:
+
+ 
+
+     FILMS-COND=  (25.47, 3.33, 8.30)
+
+These values are in agreement with the window 4 report u-center's in the
+table, but the
+
+above window 5 value for the last film coeff is not correct (it does not
+include both radiative
+
+and convective components) as it does not allow the reproduction of the
+reported u-center's
+
+of the table.
+
+ 
+
+eQUEST, at this time, does not put a FILMS-COND keyword into the
+glass-type-code command
+
+due to this W5 probelm; we will decide what to do at some point (we were
+waiting for the W5 group to
+
+fix this problem/bug in their output)
+
+ 
+
+For now you could insert a films-cond keyword using the first two values
+reported by
+
+W5 and replacing the third with a value you calculate to get the right
+u-center based
+
+upon the glass the the other two values reported by W5 (or just approx with
+8.3,
+
+but then LS-D will not be correct)
+
+ 
+
+ 
+
+  _____  
+
+From: Mike Tillou [mailto:miket at etcgrp.com] 
+Sent: Friday, June 17, 2005 9:02 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Bug in Window 5.2
+
+ 
+
+Hi All, 
+
+Anyone using Window 5 (any version) to create custom glazing for DOE2
+simulations should be very careful.  There is a bug in the output feature of
+Window 5 that incorrectly reports the window film coefficients used to
+calculate the center of glass U-value.  If you use this data in a DOE 2
+simulation the calculated center of glass U-value may be off by as much as
+40%.  BE CAREFUL and check the output reports to verify glazing performance
+if you are importing Window 5 performance data.  Apparently Window 4 does
+not have this problem, it worked fine when I tried it.  
+
+I have been told that LBNL is aware of the problem but to date has not
+resolved the issue.  
+
+I have only heard one side of the story (and would be happy to hear the
+other) but it seems like this is another chapter in the ongoing saga of DOE2
+vs Energy Plus.  I am not saying this is the case, but it is disturbing to
+think that software bugs in publicly funded software are not getting fixed
+for political reasons.
+
+Unfortunately those of us trying to use these tools and can't because of
+issues like this suffer most. 
+
+Sincerely, 
+
+Disgruntled Modeler. 
+
+ 
+
+Michael Tillou, PE
+etc Group, Inc.
+PO Box 7, Williamstown, MA 01267
+ph. (413) 458-9870  fx. (413) 458-9875
+
+  
+
+ 
+ 
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050617/445f76dc/attachment.htm>
+
+From bills at fo.com  Fri Jun 17 07:42:44 2005
+From: bills at fo.com (Bill Shadish)
+Date: Fri, 17 Jun 2005 10:42:44 -0400
+Subject: [BLDG-SIM] Energy information site survey
+References: <MDAEMON-F200411130903.AA0317281pd80000411047@gard.com> <MDAEMON-F200411151012.AA1208171pd80000413038@gard.com>
+Message-ID: <MDAEMON-F200506170941.AA4152265pd80000704754@gard.com>
+
+The below site is the basis of an article
+on Best facility energy information sites:
+
+  http://www.foaudits.com/eis.asp
+
+
+We would like to gather a list of the most useful
+information sites and believe that the right way
+to do this is by asking the users of these sites.
+
+This site allows you to select from various 
+information sites, picking the ones that you use 
+the most. You can add your own choices, so that 
+others may select your favorite sites as well. 
+The vote updates automatically so you can 
+visit the site as often as you want to see 
+what others think (but please vote just once).
+
+Thanks
+~Bill Shadish, foAudits
+http://www.foaudits.com
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From cj at cr-jay.ca  Fri Jun 17 06:51:17 2005
+From: cj at cr-jay.ca (Chris Jones)
+Date: Fri, 17 Jun 2005 09:51:17 -0400
+Subject: [BLDG-SIM] Bug in Window 5.2
+In-Reply-To: <MDAEMON-F200506170755.AA5513984pd80000817563@gard.com>
+References: <MDAEMON-F200506170755.AA5513984pd80000817563@gard.com>
+Message-ID: <MDAEMON-F200506170847.AA4729921pd80000704671@gard.com>
+
+No wonder I kept getting very surprising results.  Thanks for pointing that 
+out.
+
+At 09:02 17/06/2005, you wrote:
+
+>Hi All,
+>
+>Anyone using Window 5 (any version) to create custom glazing for DOE2 
+>simulations should be very careful.  There is a bug in the output feature 
+>of Window 5 that incorrectly reports the window film coefficients used to 
+>calculate the center of glass U-value.  If you use this data in a DOE 2 
+>simulation the calculated center of glass U-value may be off by as much as 
+>40%.  BE CAREFUL and check the output reports to verify glazing 
+>performance if you are importing Window 5 performance data.  Apparently 
+>Window 4 does not have this problem, it worked fine when I tried it.
+>
+>I have been told that LBNL is aware of the problem but to date has not 
+>resolved the issue.
+>
+>I have only heard one side of the story (and would be happy to hear the 
+>other) but it seems like this is another chapter in the ongoing saga of 
+>DOE2 vs Energy Plus.  I am not saying this is the case, but it is 
+>disturbing to think that software bugs in publicly funded software are not 
+>getting fixed for political reasons.
+>
+>Unfortunately those of us trying to use these tools and can't because of 
+>issues like this suffer most.
+>
+>Sincerely,
+>
+>Disgruntled Modeler.
+>
+>Michael Tillou, PE
+>etc Group, Inc.
+>PO Box 7, Williamstown, MA 01267
+>ph. (413) 458-9870  fx. (413) 458-9875
+>
+>
+>
+>
+>
+>
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+Chris Jones, P.Eng.
+14 Oneida Avenue
+Toronto, ON M5J2E3
+Tel. 416 203-7465
+Fax. 416 946-1005 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050617/908442f6/attachment.htm>
+
+From miket at etcgrp.com  Fri Jun 17 06:02:09 2005
+From: miket at etcgrp.com (Mike Tillou)
+Date: Fri, 17 Jun 2005 07:02:09 -0600
+Subject: [BLDG-SIM] Bug in Window 5.2
+Message-ID: <MDAEMON-F200506170755.AA5515109pd80000704599@gard.com>
+
+Hi All,
+
+Anyone using Window 5 (any version) to create custom glazing for DOE2 simulations should be very careful.  There is a bug in the output feature of Window 5 that incorrectly reports the window film coefficients used to calculate the center of glass U-value.  If you use this data in a DOE 2 simulation the calculated center of glass U-value may be off by as much as 40%.  BE CAREFUL and check the output reports to verify glazing performance if you are importing Window 5 performance data.  Apparently Window 4 does not have this problem, it worked fine when I tried it.  
+
+I have been told that LBNL is aware of the problem but to date has not resolved the issue.  
+
+I have only heard one side of the story (and would be happy to hear the other) but it seems like this is another chapter in the ongoing saga of DOE2 vs Energy Plus.  I am not saying this is the case, but it is disturbing to think that software bugs in publicly funded software are not getting fixed for political reasons.
+
+Unfortunately those of us trying to use these tools and can't because of issues like this suffer most.
+
+Sincerely,
+
+Disgruntled Modeler.
+
+
+Michael Tillou, PE
+etc Group, Inc.
+PO Box 7, Williamstown, MA 01267
+ph. (413) 458-9870  fx. (413) 458-9875
+
+  
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050617/76d5527f/attachment.htm>
+
+From miket at etcgrp.com  Thu Jun 16 19:49:34 2005
+From: miket at etcgrp.com (Mike Tillou)
+Date: Thu, 16 Jun 2005 20:49:34 -0600
+Subject: [BLDG-SIM] WLHPs and Hot Water
+Message-ID: <MDAEMON-F200506162142.AA4245921pd80000704205@gard.com>
+
+Fred,
+
+DOE 2.2 is capable of using a schedule with a unique value for each hour
+of the year.  This allows capabilities similar to the file-load feature
+in DOE2.1e.  This is a good way to assign an external load to a
+circulation loop.   
+
+For anyone interested I have attached a template for an hourly value
+schedule to use in DOE2.2.  It has 53 weeks and 375 days.  The annual
+week end-dates are currently set up for 2005.  The holidays are not set
+up to match their corresponding day, that would have to be done by the
+user.
+
+The schedule I included is a fraction schedule so you will need to
+normalize your data similar to the method for making performance curves.
+I mentioned one way of doing this in my earlier email.
+
+I recommend making changes within the template first and then importing
+the file into your DOE2.2/equest project.
+
+I recently used this to model the performance of an ERV system on a heat
+pump   
+
+
+Regards,
+
+Mike
+
+
+Michael Tillou, PE
+etc Group, Inc.
+PO Box 7, Williamstown, MA 01267
+ph. (413) 458-9870  fx. (413) 458-9875
+www.etcgrp.com
+  
+
+
+-----Original Message-----
+From: Fred Porter [mailto:fporter at archenergy.com] 
+Sent: Thursday, June 16, 2005 2:21 PM
+To: Mike Tillou
+Subject: Re: [BLDG-SIM] WLHPs and Hot Water
+
+
+Mike;
+Can DOE2.2 accept a 52 week, 365 separate day schedule now? That would 
+be handy for post-processing outputs from other programs, adding in 
+metered loads, etc. It used to be limited, but in 2.1 we used the 
+function file-read to insert data to a schedule. Do you have an example 
+of this method you could share?
+Fred
+
+Mike Tillou wrote:
+
+>I was going to recommend the same idea.
+>
+>Create a boiler on the WLHP and determine the unmet heating load that
+>is not met by the heat pumps.  Capture this load in an hourly report 
+>and import it into excel (you can create an output report that imports 
+>directly into excel).  Find the peak hourly MBTU unmet heating load. 
+>Determine the ratio of unmet heating load to peak unmet heating load 
+>for each hour of the year.  Create a schedule TYPE=FRACTION using these
+
+>ratio values (52 weeks, 365 days).  In your hot water loop (with the
+>boilers) assign a process heating load equal to the peak unmet heating 
+>load, use the schedule you created as the process heating schedule.
+>
+>You can verify this is working right by running hourly reports
+>comparing the WLHP boiler load and the process load.  Set the HIR of 
+>the WLHP boiler and the kW of the WLHP boiler pump to 0 so that you 
+>don't get any unmet heating hours in your air-side systems output (for 
+>the heat pump systems).
+>
+>
+>Good Luck,
+>
+>
+>Mike
+>
+>
+>Michael Tillou, PE
+>etc Group, Inc.
+>PO Box 7, Williamstown, MA 01267
+>ph. (413) 458-9870  fx. (413) 458-9875
+>www.etcgrp.com
+>  
+>
+>
+>-----Original Message-----
+>From: postman at gard.com [mailto:postman at gard.com] On Behalf Of John
+>Aulbach
+>Sent: Thursday, June 16, 2005 12:37 PM
+>To: BLDG-SIM at gard.com
+>Subject: [BLDG-SIM] WLHPs and Hot Water
+>
+>
+>Wade:
+>
+>This may the "old fashioned" method, but...
+>
+>Can't you run the WSHP scenario with a gas fired
+>boiler, assuming a 100% boiler efficiency (horrors!),
+>and get an 8,760 hourly output on the dynamics of that
+>boiler?
+>
+>Then, input this dynamic heating load (AS A HEATING
+>LOAD) into another eQuest run for the rest of your
+>loads and main boilers, thus hopefully getting the
+>dynamics you need.
+>
+>At least the theory feels right...
+>
+>
+>__________________________________________________
+>Do You Yahoo!?
+>Tired of spam?  Yahoo! Mail has the best spam protection around 
+>http://mail.yahoo.com
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+>====================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>  
+>
+
+-- 
+Fred W. Porter
+Senior Engineer
+Architectural Energy Corp.
+2540 Frontier Ave. Suite 201
+Boulder CO 80301
+email: fporter at archenergy.com
+fax: 303-444-4304
+
+office: 303-444-4149 x225
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Hourly Value Schedule 2005.zip
+Type: application/x-zip-compressed
+Size: 3256 bytes
+Desc: Hourly Value Schedule 2005.zip
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050616/52986348/attachment.bin>
+
+From miket at etcgrp.com  Thu Jun 16 10:59:04 2005
+From: miket at etcgrp.com (Mike Tillou)
+Date: Thu, 16 Jun 2005 11:59:04 -0600
+Subject: [BLDG-SIM] WLHPs and Hot Water
+Message-ID: <MDAEMON-F200506161252.AA5209281pd80000703679@gard.com>
+
+I was going to recommend the same idea.  
+
+Create a boiler on the WLHP and determine the unmet heating load that is
+not met by the heat pumps.  Capture this load in an hourly report and
+import it into excel (you can create an output report that imports
+directly into excel).  Find the peak hourly MBTU unmet heating load.
+Determine the ratio of unmet heating load to peak unmet heating load for
+each hour of the year.  Create a schedule TYPE=FRACTION using these
+ratio values (52 weeks, 365 days).  In your hot water loop (with the
+boilers) assign a process heating load equal to the peak unmet heating
+load, use the schedule you created as the process heating schedule.  
+
+You can verify this is working right by running hourly reports comparing
+the WLHP boiler load and the process load.  Set the HIR of the WLHP
+boiler and the kW of the WLHP boiler pump to 0 so that you don't get any
+unmet heating hours in your air-side systems output (for the heat pump
+systems).  
+
+
+Good Luck,
+
+
+Mike
+
+
+Michael Tillou, PE
+etc Group, Inc.
+PO Box 7, Williamstown, MA 01267
+ph. (413) 458-9870  fx. (413) 458-9875
+www.etcgrp.com
+  
+
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of John
+Aulbach
+Sent: Thursday, June 16, 2005 12:37 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] WLHPs and Hot Water
+
+
+Wade:
+
+This may the "old fashioned" method, but...
+
+Can't you run the WSHP scenario with a gas fired
+boiler, assuming a 100% boiler efficiency (horrors!),
+and get an 8,760 hourly output on the dynamics of that
+boiler?
+
+Then, input this dynamic heating load (AS A HEATING
+LOAD) into another eQuest run for the rest of your
+loads and main boilers, thus hopefully getting the
+dynamics you need.
+
+At least the theory feels right...
+
+
+__________________________________________________
+Do You Yahoo!?
+Tired of spam?  Yahoo! Mail has the best spam protection around 
+http://mail.yahoo.com 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jra_sac at yahoo.com  Thu Jun 16 09:37:12 2005
+From: jra_sac at yahoo.com (John Aulbach)
+Date: Thu, 16 Jun 2005 09:37:12 -0700 (PDT)
+Subject: [BLDG-SIM] WLHPs and Hot Water
+In-Reply-To: <MDAEMON-F200506161106.AA0638640pd80000813731@gard.com>
+Message-ID: <MDAEMON-F200506161138.AA3807437pd80000703545@gard.com>
+
+Wade:
+
+This may the "old fashioned" method, but...
+
+Can't you run the WSHP scenario with a gas fired
+boiler, assuming a 100% boiler efficiency (horrors!),
+and get an 8,760 hourly output on the dynamics of that
+boiler?
+
+Then, input this dynamic heating load (AS A HEATING
+LOAD) into another eQuest run for the rest of your
+loads and main boilers, thus hopefully getting the
+dynamics you need.
+
+At least the theory feels right...
+
+
+__________________________________________________
+Do You Yahoo!?
+Tired of spam?  Yahoo! Mail has the best spam protection around 
+http://mail.yahoo.com 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From wmclaughlin at dmiinc.com  Thu Jun 16 09:05:33 2005
+From: wmclaughlin at dmiinc.com (Wade McLaughlin)
+Date: Thu, 16 Jun 2005 12:05:33 -0400
+Subject: [BLDG-SIM] WLHPs and Hot Water
+Message-ID: <MDAEMON-F200506161106.AA0638484pd80000703469@gard.com>
+
+Dear All,
+ 
+I have system I'm working on that I'm having trouble conceptualizing in
+eQuest.  A condenser water loop serves heating/cooling water-source heat
+pumps throughout an apartment building.  Heat rejection is provided by
+cooling towers.  Heat addition for the heating season is provided by a
+hot water loop, bleeding hot water into the condenser water loop as
+necessary to maintain setpoints (~70degF).  The hot water loop also
+serves heating coils (@~180degF) in various end users such as AHUs and
+unit heaters, and is heated by a series of staged boilers.
+ 
+I haven't been able to find a working method to use the hot water loop
+to heat the condenser water loop in eQuest.  This is important to me,
+because one of the energy efficiency measures involves staging and
+control of the boilers -- which will require accurate simulation of
+part-load operation.  Otherwise I'd use a dirty method of assigning
+dumbed-down boiler approximations separately on the hot water and
+condenser water loops, and just let part-load operation slide.
+Additionally, because of the temperature setpoint differences between
+the two loops, boiler models on the hot water loop will perform
+differently than those on the condenser water loop.
+ 
+Any suggestions would be appreciated.
+ 
+Thanks,
+Wade
+ 
+Wade McLaughlin, PE
+Demand Management Institute
+450 Lexington Street
+Newton, MA  02466
+Office: 617-527-1525 x103
+Fax: 617-527-6606
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050616/c062744f/attachment.htm>
+
+From steve.gates at doe2.com  Thu Jun 16 08:44:30 2005
+From: steve.gates at doe2.com (Steven Gates)
+Date: Thu, 16 Jun 2005 08:44:30 -0700
+Subject: [BLDG-SIM] eQuest warning
+In-Reply-To: <MDAEMON-F200506160922.AA2230843pd80000811229@gard.com>
+Message-ID: <MDAEMON-F200506161045.AA4534125pd80000703401@gard.com>
+
+I am the programmer who originated that message.  I should probably revisit
+that routine, make a couple of changes, and get rid of the error message.
+The routine in question attempts to allocate the hourly electric load of a
+packaged unit to 5-minute bins so that the UTILITY-RATE can use sub-hourly
+windows (such as 15 minutes) in calculating demand.  If the program did not
+calculate equipment capacity exactly correctly that hour, then some of the
+load cannot be allocated, and the peak in the economics section may be off
+slightly.  The net result is almost certainly negligible.
+
+ 
+
+  _____  
+
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of
+smorgan at noresco.com
+Sent: Thursday, June 16, 2005 7:22 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] eQuest warning
+
+ 
+
+ 
+
+Does anyone know how to rectify this eQuest warning? 
+
+Zone: EL1 East Perim Zn (G.E3)could not successfully 
+             allocate all equipment energy to the 5-minute bins 
+             because of an equipment overload.  The peak load 
+             used in ECONOMICS will not include the fraction due 
+             to the overload, but the PLANT reports will. 
+             Mon/Day/Hour:  1  3  8  Energy:   2.5  Unallocated: 0.310 
+
+
+
+
+
+ 
+ 
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050616/227281b6/attachment.htm>
+
+From bmunger at bhengineers.com  Thu Jun 16 07:33:46 2005
+From: bmunger at bhengineers.com (Bryce Munger)
+Date: Thu, 16 Jun 2005 07:33:46 -0700
+Subject: [BLDG-SIM] eQuest user library
+Message-ID: <MDAEMON-F200506160931.AA315962pd80000703279@gard.com>
+
+I would like to add some materials to the user library that I frequently
+use.  Below is a copy of my usrlib.dat file with a single entry:
+
+$LIBRARY-NAME usrlib.dat
+$UNITS ENGLISH
+
+$LIBRARY-ENTRY 2x6x24 R-19                 MAT             Batt Insulation
+$2x6x24 R-19
+  TYPE=RESISTANCE RES=8.6   ..
+
+This appears to be the same syntax as eQ_Lib.dat but when I try to open
+eQuest, I get the error "Error initializing BDLLib32."
+
+Any help is appreciated,
+
+Bryce Munger
+Balzhiser & Hubbard Engineers
+Mechanical - Electrical - Civil - Energy - Lighting - Surveying -
+Commissioning - Sustainability
+100 West 13th Avenue, Eugene, Oregon 97401  (541) 686-8478  fax (541)
+345-5303
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050616/1a5158e2/attachment.htm>
+
+From smorgan at noresco.com  Thu Jun 16 07:21:40 2005
+From: smorgan at noresco.com (smorgan at noresco.com)
+Date: Thu, 16 Jun 2005 10:21:40 -0400
+Subject: [BLDG-SIM] eQuest warning
+Message-ID: <MDAEMON-F200506160922.AA222978pd80000703256@gard.com>
+
+
+
+Does anyone know how to rectify this eQuest warning?
+
+Zone: EL1 East Perim Zn (G.E3)could not successfully
+             allocate all equipment energy to the 5-minute bins
+             because of an equipment overload.  The peak load
+             used in ECONOMICS will not include the fraction due
+             to the overload, but the PLANT reports will.
+             Mon/Day/Hour:  1  3  8  Energy:   2.5  Unallocated: 0.310
+
+
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050616/d450d8a3/attachment.htm>
+
+From fporter at archenergy.com  Thu Jun 16 05:29:22 2005
+From: fporter at archenergy.com (Fred Porter)
+Date: Thu, 16 Jun 2005 06:29:22 -0600
+Subject: [BLDG-SIM] boiler
+In-Reply-To: <MDAEMON-F200506151733.AA331731pd80000806568@gard.com>
+References: <MDAEMON-F200506151733.AA331731pd80000806568@gard.com>
+Message-ID: <MDAEMON-F200506160729.AA2954296pd80000703116@gard.com>
+
+Good thing to check!
+The PS-C heat load divided by the PS-C fuel use is the annual 
+boiler-only efficiency that DOE-2.2 has calculated:
+1. starting from the 84% steady-state, full-load, thermal efficiency (or 
+combustion efficiency if you input boiler shell losses separately),
+2. considering any other inputs to the boiler command or the default 
+boiler values,
+3. using the (much less than full load) load distribution over the year,
+4. applying the DOE2.2 boiler algorithms.
+
+The resulting "almost two-thirds" annual efficiency from 84% 
+steady-state, would be typical of, or better than, the annual efficiency 
+of a big, old, boiler.
+
+The boiler algorithms and default inputs and curves need to be used with 
+caution. Check the "dictionary" and some old posts in the listserv 
+archive; in particular:  
+http://www.gard.com/ml/bldg-sim-archive/msg00914.html
+
+The PS-C heating load should equal the HW loop load, which is the sum of 
+loads from the systems, and the load from the loop losses, if any are 
+defined. The "coil loads" on the HW loop should be the loads from the 
+systems (The system loads include outside air, overcooling & reheating, 
+and the temperature setpoint schedule), and any process loads defined. 
+The loads in loads are calculated at a constant temperature defined in 
+the space command, and don't include any system effects. They do not 
+apply to this issue.
+
+V?mshi Gooj? wrote:
+
+> Hi-
+> In the PS-C report (sim file), the annual heating load for the boiler 
+> is almost two-third the annual fuel use (in MBtu).
+> I'm assuming that ventilation load is the difference between the 
+> heating loads from PS-C and LS-F, so PS-C should have ventilation 
+> included. Correct me if 'm wrong.
+> The boiler heat load is 1940 MBTU and the Fuel use is 3100 MBTU 
+> (PS-C). Applying, 84% boiler efficiency to heat load should give me 
+> 2308 MBTU (i.e., 1940* 1.19).
+> So where am I getting that extra 800 MBTU from?
+> Any feedback appreciated.
+> -- 
+> V?mshi Gooj?
+>  
+
+
+-- 
+Fred W. Porter
+Senior Engineer
+Architectural Energy Corp.
+2540 Frontier Ave. Suite 201
+Boulder CO 80301
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jeffhaberl at tees.tamus.edu  Wed Jun 15 18:43:54 2005
+From: jeffhaberl at tees.tamus.edu (Jeff Haberl)
+Date: Wed, 15 Jun 2005 20:43:54 -0500
+Subject: [BLDG-SIM] boiler
+Message-ID: <MDAEMON-F200506152044.AA4440406pd80000702682@gard.com>
+
+In DOE-2.1e the LS-x  reports represent the load on the secondary HVAC system without ventilation loads, at constant space temp. The PS-X loads include the secondary HVAC system efficiency, primary HVAC system efficiency and estimates of losses for the distribution system, as well as availabilities of systems, and a few other things...so comparing LS and SS and PS reports should be done with great caution.
+
+Jeff
+BB 8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  :=')  8=)  8=)  8=? BB
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+BB 8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=) 8=?  8=)  8=)  8= BB
+
+
+-----Original Message-----
+From: postman at gard.com <postman at gard.com>
+To: BLDG-SIM at gard.com <BLDG-SIM at gard.com>
+Sent: Wed Jun 15 17:32:41 2005
+Subject: [BLDG-SIM] boiler
+
+Hi-
+In the PS-C report (sim file), the annual heating load for the boiler is almost two-third the annual fuel use (in MBtu). 
+I'm assuming that ventilation load is the difference between the heating loads from PS-C and LS-F, so PS-C should have ventilation included. Correct me if 'm wrong.
+The boiler heat load is 1940 MBTU and the Fuel use is 3100 MBTU (PS-C). Applying, 84% boiler efficiency to heat load should give me 2308 MBTU (i.e., 1940* 1.19). 
+So where am I getting that extra 800 MBTU from? 
+Any feedback appreciated.
+-- 
+V?mshi Gooj?
+ 
+
+From jra_sac at yahoo.com  Wed Jun 15 16:21:56 2005
+From: jra_sac at yahoo.com (John Aulbach)
+Date: Wed, 15 Jun 2005 16:21:56 -0700 (PDT)
+Subject: [BLDG-SIM] boiler
+In-Reply-To: <MDAEMON-F200506151733.AA3317828pd80000806693@gard.com>
+Message-ID: <MDAEMON-F200506151822.AA2236359pd80000702572@gard.com>
+
+A guess, sir. Just because you put in 84% boiler
+efficiency does not mean 84% on the curve. You need to
+input a linear boiler curve with 84% at, say 100%,
+75%, 50%, and 25%. DOE-2 has a default curve. My
+experience is really need to ram this linear curve in
+to keep the boiler efficiency up.
+
+And, by the way, audience, isn't this actually boiler
+SYSTEM efficiency? Aren't there piping and duct losses
+to contend with?
+
+
+
+		
+__________________________________ 
+Discover Yahoo! 
+Have fun online with music videos, cool games, IM and more. Check it out! 
+http://discover.yahoo.com/online.html
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From miket at etcgrp.com  Wed Jun 15 16:10:30 2005
+From: miket at etcgrp.com (Mike Tillou)
+Date: Wed, 15 Jun 2005 17:10:30 -0600
+Subject: [BLDG-SIM] Heating Load question
+Message-ID: <MDAEMON-F200506151803.AA0327687pd80000702552@gard.com>
+
+Vikram,
+ 
+I am guessing that this is what the problem is.
+ 
+You need to enter a value for "HEAT-SET-T", something like 95F will
+work.  The default is "COOL-SET-T" which I am guessing you have set to
+~55F which is why you're not getting any heat out of the main heating
+coil.  To activate the zone level re-heat coils you need to be sure to
+specify a reheat delta-T.  Both of these keywords are on the main
+heating tab of the HVAC System.
+ 
+Regards,
+ 
+Mike    
+ 
+
+Michael Tillou, PE
+etc Group, Inc.
+PO Box 7, Williamstown, MA 01267
+ph. (413) 458-9870  fx. (413) 458-9875
+
+  
+
+-----Original Message-----
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Vikram
+Sami
+Sent: Wednesday, June 15, 2005 5:01 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Heating Load question
+
+
+I'm trying to model a packaged VAV system in eQUEST (v5.2), and I find
+that I am not getting a heating load. I have the heating setup as hot
+water coils. When I model the system as packaged multizone I get a
+heating load, but this disappears when I use the packaged VAV option. Is
+there a setting I need to turn on? Or is this simply not an option with
+eQUEST?
+ 
+Thanks
+
+Vikram Sami,  LEED AP 
+Direct Phone 404-253-1466 | Direct Fax  404-253-1366 
+
+LORD, AECK & SARGENT ARCHITECTURE
+Responsive Design * Technological Expertise * Exceptional Service 
+www.lordaecksargent.com 
+
+ 
+
+
+==================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050615/f32fd284/attachment.htm>
+
+From vamshi.gooje at gmail.com  Wed Jun 15 15:32:41 2005
+From: vamshi.gooje at gmail.com (=?ISO-8859-1?Q?V=E4mshi_Gooj=E8?=)
+Date: Wed, 15 Jun 2005 18:32:41 -0400
+Subject: [BLDG-SIM] boiler
+Message-ID: <MDAEMON-F200506151733.AA3317671pd80000702521@gard.com>
+
+Hi-
+In the PS-C report (sim file), the annual heating load for the boiler is 
+almost two-third the annual fuel use (in MBtu). 
+I'm assuming that ventilation load is the difference between the heating 
+loads from PS-C and LS-F, so PS-C should have ventilation included. Correct 
+me if 'm wrong.
+The boiler heat load is 1940 MBTU and the Fuel use is 3100 MBTU (PS-C). 
+Applying, 84% boiler efficiency to heat load should give me 2308 MBTU (i.e., 
+1940* 1.19). 
+So where am I getting that extra 800 MBTU from? 
+Any feedback appreciated.
+-- 
+V?mshi Gooj?
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050615/1eae8562/attachment.htm>
+
+From VSami at lasarchitect.com  Wed Jun 15 14:00:41 2005
+From: VSami at lasarchitect.com (Vikram Sami)
+Date: Wed, 15 Jun 2005 17:00:41 -0400
+Subject: [BLDG-SIM] Heating Load question
+Message-ID: <MDAEMON-F200506151601.AA0125328pd80000702413@gard.com>
+
+I'm trying to model a packaged VAV system in eQUEST (v5.2), and I find that I am not getting a heating load. I have the heating setup as hot water coils. When I model the system as packaged multizone I get a heating load, but this disappears when I use the packaged VAV option. Is there a setting I need to turn on? Or is this simply not an option with eQUEST?
+ 
+Thanks
+
+Vikram Sami,  LEED AP 
+Direct Phone 404-253-1466 | Direct Fax  404-253-1366 
+
+LORD, AECK & SARGENT ARCHITECTURE
+Responsive Design * Technological Expertise * Exceptional Service 
+www.lordaecksargent.com 
+
+ 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050615/bd51a92c/attachment.htm>
+
+From smorgan at noresco.com  Tue Jun 14 15:32:13 2005
+From: smorgan at noresco.com (smorgan at noresco.com)
+Date: Tue, 14 Jun 2005 18:32:13 -0400
+Subject: [BLDG-SIM] eQuest Zoning
+Message-ID: <MDAEMON-F200506141732.AA3252953pd80000701477@gard.com>
+
+
+I am in the process of re-zoning and calculating heat loads for an
+existing 2-story office building.  However, the zoning geometry is
+attached to both floors.  I need 2 different zoning geometries -- one
+for each floor.  
+Can someone shed some insight on how I can correct this?   I don't use
+eQuest as much as I used to and I've seemed to forgotten this simple
+task.  Thanks!!!
+
+
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050614/f502b07c/attachment.htm>
+
+From Peter_Ellis at nrel.gov  Tue Jun 14 14:09:58 2005
+From: Peter_Ellis at nrel.gov (Ellis, Peter)
+Date: Tue, 14 Jun 2005 15:09:58 -0600
+Subject: [BLDG-SIM] IBPSA / USGBC Meeting on June 25
+Message-ID: <MDAEMON-F200506141610.AA1043125pd80000701380@gard.com>
+
+Please excuse the cross-postings...
+
+
+
+                  IBPSA          &           USGBC-Co
+International Building Performance Simulation Association                               US Green Building Council
+                           USA Affiliate                                                                             Colorado Chapter
+ 
+
+Invite you to a joint meeting in Denver on June 25!
+
+
+</> 
+Meeting Highlights: 
+                    Education and Training Needs for Simulation in Sustainable Design
+                    Planning for SimBuild 2006
+                    Social Hour and Dinner
+                    Guest Speaker:  Malcom Lewis, CTG Energetics, Inc.
+
+
+
+IBPSA-USA/USGBC COLORADO CHAPTER MEETING ANNOUNCEMENT
+Dinner RSVP requested (see below)
+4 PM, Saturday, June 25, 2005
+Denver, Colorado
+
+
+Location:     Holiday Inn
+                    450 Glenarm Place, (located 2-3 blocks from the Adams Mark Hotel, the main ASHRAE meeting hotel)
+                    Denver, CO
+
+4:00 PM - 5:30 PM    Meeting Topic:  Education and Training Needs for Simulation in Sustainable Design
+                    General discussion of needs, followed by a detailed review of a 'straw man' proposal for a half-day training
+                    workshop aimed at producing informed clients for simulation services.
+                    IBPSA-USA's aim is to offer the workshop in conjunction with USGBC Chapters.
+ 
+5:30 PM - 6:00 PM    Meeting Topic:  Planning for SimBuild 2006
+                    SimBuild 2006 is IBPSA-USA's next conference to be held in July or August 2006.
+                    The main topic for discussion will be development of a program aimed at practitioners, with an emphasis on sustainable design.
+
+6:00 PM - 7:00 PM    Social hour with cash bar
+
+7:00 PM    Dinner
+                    (Cost TBD)
+
+8:00 PM (approx)    After-dinner talk: Current and Future Impacts of LEED on the Simulation Market
+                    Malcom Lewis, Ph.D., P.E. 
+                    CTG Energetics, Inc. and former member of USGBC Board of Directors (see below for bio)
+
+
+Reservations:      Space is limited so reservations are requested!  To make a reservation contact Peter Ellis < peter_ellis at nrel.gov> via email by June 20, 2005, 5 PM (MDT).  Confirmation of reservations will be sent via email (if you do not receive a confirmation within two business days, please resend your reservation request).
+ <http://www.ibpsa.org/ibpsa_usa> 
+We look forward to seeing you there!
+
+
+
+
+Malcolm Lewis
+
+Dr. Lewis is a consulting engineer who specializes in mechanical, electrical and energy systems for buildings  and industrial processes.  He has over 30 years' experience in the engineering design, analysis, and construction observa?tion of mechanical and electrical systems of buildings. He is registered in Civil, Mechanical, and Electrical engineering and brings a broad perspective to the resolution of construction disputes.
+
+Dr. Lewis has been the Engineer of Record for numerous new construction and renovation projects for commercial, institutional, residential and industrial facilities, totaling over 20 million square feet. He is known internationally for his expertise in the design of energy-efficient buildings and brings a broad perspective to the development of sustainably designed and energy efficient buildings. His experience includes five years during the 1970's as an executive responsible for product engineering for one of the largest home-building firms in the U.S. He continues to direct the engineering analysis and design of buildings in his work.
+
+Dr. Lewis is active in the application of "sustainable design" to the design and construction of "green buildings." He has led CTG's involvement in over 150 green buildings in the past seven years. He served as a Director of the U.S. Green Building Council from 1997 to 2002, and is actively involved in the development of their LEED(tm) Green Building Rating system. 
+
+
+
+
+
+------------------
+ATTACHMENT REMOVED
+------------------
+
+From mmehta at bnim.com  Thu Jun  9 16:25:53 2005
+From: mmehta at bnim.com (Mohit Mehta)
+Date: Thu, 9 Jun 2005 18:25:53 -0500
+Subject: [BLDG-SIM] eQUESTt error
+Message-ID: <MDAEMON-F200506091826.AA2627296pd80000696814@gard.com>
+
+Hi,
+I am not sure if anyone else experienced this problem. I downloaded eQUEST 3.55 on to a new computer and the text editor "D2SimViewer.exe" is not working. I get an error message on trying to view the simulation results - "DOE-2 Simulation Results Viewer has encountered a problem and needs to close". I have never had this happen before. I even re-installed it again to make sure it installed correctly.
+Thanks for any help on this.
+~m
+
+
+-- 
+No virus found in this outgoing message.
+Checked by AVG Anti-Virus.
+Version: 7.0.323 / Virus Database: 267.6.6 - Release Date: 6/8/2005
+ 
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Peter_Ellis at nrel.gov  Tue Jun  7 17:26:42 2005
+From: Peter_Ellis at nrel.gov (Ellis, Peter)
+Date: Tue, 7 Jun 2005 18:26:42 -0600
+Subject: [BLDG-SIM] IBPSA-USA Meeting Announcement
+Message-ID: <MDAEMON-F200506071927.AA2714250pd80000694369@gard.com>
+
+Please excuse the cross-postings...
+
+
+
+IBPSA
+International Building Performance Simulation Association
+USA Affiliate
+
+IBPSA-USA invites you to join us in Denver for our Summer 2005 meeting!
+
+
+Meeting Highlights: 
+                    Education and Training Needs for Simulation in Sustainable Design
+                    Planning for SimBuild 2006
+                    Social Hour and Dinner
+                    Guest Speaker:  Malcom Lewis, CTG Energetics, Inc.
+
+
+
+IBPSA-USA MEETING ANNOUNCEMENT
+Dinner RSVP requested (see below)
+4 PM, Saturday, June 25, 2005
+Denver, Colorado
+
+
+Location:     Holiday Inn
+                    450 Glenarm Place, (located 2-3 blocks from the Adams Mark Hotel, the main ASHRAE meeting hotel)
+                    Denver, CO
+
+4:00 PM - 5:30 PM    Meeting Topic:  Education and Training Needs for Simulation in Sustainable Design
+                    General discussion of needs, followed by a detailed review of a 'straw man' proposal for a half-day training
+                    workshop aimed at producing informed clients for simulation services.
+                    IBPSA-USA's aim is to offer the workshop in conjunction with USGBC Chapters.
+ 
+5:30 PM - 6:00 PM    Meeting Topic:  Planning for SimBuild 2006
+                    SimBuild 2006 is IBPSA-USA's next conference to be held in July or August 2006.
+                    The main topic will be development of a program aimed at practitioners, with an emphasis on sustainable design.
+
+6:00 PM - 7:00 PM    Social hour with cash bar
+
+7:00 PM    Dinner
+                    (Cost TBD)
+
+8:00 PM (approx)    After-dinner talk
+                    Malcom Lewis, P.E.  ( http://www.ctg-net.com/energetics/PublicResumes-Energetics/Lewis.htm)
+                    CTG Energetics, Inc.
+
+Reservations:      Space is limited so reservations are requested!  To make a reservation contact Peter Ellis < peter_ellis at nrel.gov> via email by June 20, 2005, 5 PM (MST).  Confirmation of reservations will be sent via email (if you do not receive a confirmation within two business days, please resend your reservation request).
+ <http://www.ibpsa.org/ibpsa_usa> 
+We look forward to seeing you there!
+
+Philip Haves                            Peter Ellis
+President, IBPSA-USA            Secretary, IBPSA-USA 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050607/b58f5374/attachment.htm>
+
+From mdec at glumac.com  Tue Jun  7 12:14:00 2005
+From: mdec at glumac.com (Mitchell Dec)
+Date: Tue, 7 Jun 2005 12:14:00 -0700 
+Subject: [BLDG-SIM] eQUEST Preheat/Heating-Capacity in System Warning
+Message-ID: <MDAEMON-F200506071436.AA3638906pd80000694118@gard.com>
+
+Hello All,
+
+I have received the following error message from a model I am currently
+working on in Portland, Oregon.  The first floor is a veterinary clinic with
+a single Packaged VAV System with 100% OA and ERV.  I have checked the
+inputs and loads as described at the end of the error warning without
+obtaining a solution.
+
+ 
+
+**WARNING*******************************************************************
+***
+
+PREHEAT/HEATING-CAPACITY in SYSTEM 1st Floor (RTU-1 VAV) 
+
+is too low to provide the requested supply temperature for
+
+the calculated mixed air temperature using total ZONE loads
+
+(on LS-A/B) and SYSTEM design parameters, plus outside air
+
+conditions (on LS-C), and specified capacities & air flows.
+
+Requested temperature is 55.00 calculated is 22.76
+
+Check HEATING-CAPACITY, HEAT-SET-T, PRE-HEAT-T, MAX-SUPPLY-T,
+
+DESIGN-HEAT-T, and ZONE loads for consistency.
+
+ 
+
+Has anyone ever encountered this message?  and if so, do you have any
+suggestions as to how this can be resolved.  This has caused a significant
+cooling load increase and heating load decrease.
+
+I would greatly appreciate any help that could aid me.
+
+Thanks,
+
+Mitchell J. Dec
+Energy Analyst 
+503.345.6283 | mdec at glumac.com <mailto:mdec at glumac.com>  
+
+ <http://www.glumac.com/> <?xml:namespace prefix = o ns =
+"urn:schemas-microsoft-com:office:office" />
+
+  _____  
+
+320 SW Washington, Suite 200
+Portland, OR 97204-2640
+T.  503.227.5280  F. 503.274.7674
+
+Thinking. Inside the building.
+http://www.glumac.com/ <http://www.glumac.com/>  
+
+ 
+
+
+------------------
+ATTACHMENT REMOVED
+------------------
+
+From pedromanuelrc at yahoo.es  Tue Jun  7 00:15:32 2005
+From: pedromanuelrc at yahoo.es (Pedro Rodrigo)
+Date: Tue, 7 Jun 2005 09:15:32 +0200 (CEST)
+Subject: [BLDG-SIM] TRNSYS: Reading cloudiness factor from TMY2
+Message-ID: <MDAEMON-F200506070216.AA160900pd80000693382@gard.com>
+
+
+> Hi all,
+> The sky temperature module (type 69) provides two
+> options to get the fictive sky temperature: i) by
+> calculating the cloudiness factor from the relation
+> between sky diffuse and total readiation; ii) by
+> reading the cloudiness factor from a file.
+> I would like to use the second option by reading the
+> total sky cover and opaque sky cover from a TMY2
+> weather file using type 89d. The problem is that I
+> don?t know the equation to obtain the TRNSYS
+> cloudiness factor from the two read fields (total
+> and
+> opaque sky cover). I have searched for information
+> in
+> the TRNSYS documentation but no success.
+> Thanks for your help,
+> Regards,
+
+
+Pedro Manuel Rodrigo Cruz
+University of Jaen, Spain
+
+
+		
+______________________________________________ 
+Renovamos el Correo Yahoo! 
+Nuevos servicios, m?s seguridad 
+http://correo.yahoo.es
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Christoph.Reinhart at nrc-cnrc.gc.ca  Mon Jun  6 17:03:16 2005
+From: Christoph.Reinhart at nrc-cnrc.gc.ca (Reinhart, Christoph)
+Date: Mon, 6 Jun 2005 20:03:16 -0400 
+Subject: [BLDG-SIM] 10 minutes of your time: Survey on the role of daylighting in sus
+	tainable design
+Message-ID: <MDAEMON-F200506061903.AA0351671pd80000693132@gard.com>
+
+My apologies for any cross postings. 
+
+Dear colleague,
+
+You are invited to participate in an online survey on the role of daylighting in sustainable building design practice. The survey is carried out as part of an international effort led by the National Research Council Canada (NRC) and Lawrence Berkeley National Laboratory (LBNL) to develop a new online design guide that will help design practitioners with an interest in daylighting and sustainable design to effectively implement daylighting within their projects. The survey is administered by the NRC  and will be opened until July 8th 2005. The outcome of the survey will be used to: 
+
+*	understand which daylight performance indicators, rules-of-thumb, and design tools practitioners are currently using to integrate daylighting 
+
+*	to identify the additional information needed by design practitioners with an interest in daylighting, beyond what is in the current generation of design guides 
+
+*	to propose content and format for a daylighting design guide that addresses these needs.
+
+We would like you to fill out the following online questionnaire according to your daylighting design experience. Please respond to all of the items as openly and honestly as possible. There are no right or wrong answers; it is only your opinions that are important.
+
+If you are interested in participating in this survey, please go to http://irc.nrc-cnrc.gc.ca/ie/lighting/daylight/docs/OriginalSurveyInvitation.html <http://irc.nrc-cnrc.gc.ca/ie/lighting/daylight/docs/OriginalSurveyInvitation.html> . Thank you in advance for your participation.
+
+Should you have any concerns, questions or suggestions, please contact Dr. Christoph Reinhart at  <mailto:christoph.reinhart at nrc-cnrc.gc.ca> christoph.reinhart at nrc-cnrc.gc.ca or +1(613)993 9703. 
+
+We would appreciate it if you circulated this invitation within your company/department as the success of this initiative clearly depends on the number of participating design professionals. 
+ 
+Christoph Reinhart, Ph.D.                        
+Associate Research Officer                     National Research Council Canada         Institute for Research in Construction
+Adjunct Professor                                    McGill University                                      School of Architecture
+1200 Montreal Road M-24, Ottawa         Ontario K1A 0R6, Canada 
+tel: (613) 993-9703                                  fax: (613) 954 3733                                  <blocked::mailto:christoph.reinhart at nrc-cnrc.gc.ca> christoph.reinhart at nrc-cnrc.gc.ca 
+ 
+Lightswitch Wizard (initial design)            <blocked::http://www.buildwiz.com/> www.buildwiz.com  
+DAYSIM (expert software)                         <blocked::http://www.daysim.com/> www.daysim.com  
+Radiance Workshop 2005                         <blocked::http://irc.nrc-cnrc.gc.ca/ie/light/RadianceWorkshop2005> http://irc.nrc-cnrc.gc.ca/ie/light/RadianceWorkshop2005 
+ 
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050606/2292aadc/attachment.htm>
+
+From fdmfernando at yahoo.es  Fri Jun  3 11:52:52 2005
+From: fdmfernando at yahoo.es (=?iso-8859-1?q?Fernando=20Dom=EDnguez=20Mu=F1oz?=)
+Date: Fri, 3 Jun 2005 20:52:52 +0200 (CEST)
+Subject: [BLDG-SIM] perimeter zones
+Message-ID: <MDAEMON-F200506031353.AA5325187pd80000690546@gard.com>
+
+Dear all,
+ 
+I do not undestand who to model the interaction between perimeter and core zones. E-quest seems to use an "air wall" with impossed U-value and solar absortance. How are these values chosen? and, Does this wall exchange long wave radiation?
+ 
+Thank you in advance.
+ 
+Fernando Dom?nguez
+University of M?laga (Spain)
+
+		
+---------------------------------
+
+Correo Yahoo!
+Comprueba qu? es nuevo, aqu?
+http://correo.yahoo.es
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050603/59ce938d/attachment.htm>
+
+From chalfoun at email.arizona.edu  Wed Jun  1 11:45:28 2005
+From: chalfoun at email.arizona.edu (Dr. Nader Chalfoun)
+Date: Wed,  1 Jun 2005 11:45:28 -0700
+Subject: [BLDG-SIM] Fwd: Re: BLDG-SIM message too big concerning straw bale
+Message-ID: <MDAEMON-F200506011345.AA4554921pd80000688425@gard.com>
+
+I am resending this message with smaller immages
+
+Nader
+
+--------------------------------------------
+Nader V. Chalfoun, Ph.D.
+Professor of Architecture
+Director: The House Energy Doctor Program
+http://capla.arizona.edu/research/hed/index.html
+Coordinator: Graduate Program on "Design and Energy Conservation"
+
+Address:
+University of Arizona
+College of Architecture and Landscape Architecture
+1040 N. Olive St., Tucson, AZ 85721, U.S.A.
+Phone: (520)621-6751    Fax: (520)621-8700
+
+
+
+
+
+----- Forwarded message from chalfoun at email.arizona.edu -----
+    Date: Wed,  1 Jun 2005 10:39:51 -0700
+    From: "Dr. Nader Chalfoun" <chalfoun at email.arizona.edu>
+Reply-To: "Dr. Nader Chalfoun" <chalfoun at email.arizona.edu>
+ Subject: Re: BLDG-SIM message too big concerning straw bale
+      To: jglazer at gard.com
+
+Sorry for the inconvenient.  Here are the immages in a smaller format
+
+Nader
+
+--------------------------------------------
+Nader V. Chalfoun, Ph.D.
+Professor of Architecture
+Director: The House Energy Doctor Program
+http://capla.arizona.edu/research/hed/index.html
+Coordinator: Graduate Program on "Design and Energy Conservation"
+
+Address:
+University of Arizona
+College of Architecture and Landscape Architecture
+1040 N. Olive St., Tucson, AZ 85721, U.S.A.
+Phone: (520)621-6751    Fax: (520)621-8700
+
+
+Quoting Jason Glazer <jglazer at gard.com>:
+
+> Recently you sent a message to the BLDG-SIM mailing list
+> that included a graphic. Unfortunately the size of the
+> message with the graphic was larger than the maximum size
+> allowed (102400 bytes).  Perhaps you can resend with a
+> lower resolution image?
+>
+> Thanks
+>
+> Jason
+> =========================================================
+> Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+> GARD Analytics - http://www.gard.com/
+> 1028 Busse Highway, Park Ridge, IL 60068
+> Building Energy Simulation and Analysis
+> Admin of BLDG-SIM list for building simulation users
+
+----- End forwarded message -----
+
+
+------------------
+ATTACHMENT REMOVED
+------------------
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+From glicks at MIT.EDU  Wed Jun  1 08:20:48 2005
+From: glicks at MIT.EDU (Leon Glicksman)
+Date: Wed, 01 Jun 2005 11:20:48 -0400
+Subject: [BLDG-SIM] double envelope
+In-Reply-To: <MDAEMON-F200505311825.AA2500171pd80000787661@gard.com>
+References: <MDAEMON-F200505311743.AA4337640pd80000786942@gard.com>
+ <MDAEMON-F200505311825.AA2500171pd80000787661@gard.com>
+Message-ID: <MDAEMON-F200506011021.AA2130734pd80000688173@gard.com>
+
+the program Design Advisor handles this. You can access it at 
+DesignAdvisor.mit.edu
+Leon Glicksman
+
+At 07:24 PM 5/31/2005, Amit Khanna wrote:
+>Dear all,
+>
+>I am working on a simulation of structure with a dynamic double envelope 
+>external wall. This external wall allows outside air to remove heat from 
+>the within the double envelope and depending on the inside/ outside 
+>conditions rejects it outside or supplies inside.
+>
+>Does anyone have any ideas for how to simulate this. Can I use it as a 
+>sun-space or separate thermal zones for each side(8" wide)? I am using 
+>EnergyPlus but am open to other tools if any help.
+>
+>Thanks
+>Amit
+>
+>Amit Khanna
+>LEED AP
+>
+>Research Assistant
+>Architecture
+>Virginia Tech.
+>
+>Ph. 540.559.7970
+>
+>
+>
+>
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+Leon R. Glicksman
+Professor of Building Technology and Mechanical Engineering
+Room 5-418
+Massachusetts Institute of Technology
+Cambridge MA 02139
+617 253 2233    glicks at mit.edu 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050601/109a117c/attachment.htm>
+
+From jcampbell at geo-marine.com  Wed Jun  1 08:09:26 2005
+From: jcampbell at geo-marine.com (James Campbell)
+Date: Wed, 1 Jun 2005 11:09:26 -0400
+Subject: [BLDG-SIM] eQuest - Night-cycle humidity control
+Message-ID: <MDAEMON-F200506011009.AA0952250pd80000688144@gard.com>
+
+In DOE2.1E, the system fan must operate to simulate humidity control. Can
+eQuest simulate humidity control when the system fan is cycled during night
+setback?
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jeffhaberl at tees.tamus.edu  Wed Jun  1 06:12:00 2005
+From: jeffhaberl at tees.tamus.edu (Jeff Haberl)
+Date: Wed, 1 Jun 2005 08:12:00 -0500
+Subject: [BLDG-SIM] Heat recovery in eQUEST (yes - another question)
+Message-ID: <MDAEMON-F200506010812.AA1231343pd80000688001@gard.com>
+
+Depends on the system and building loads.
+
+ 
+
+What's the system? What are the internal loads?
+
+ 
+
+Jeff
+
+ 
+
+8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  8=()  8=)  8=|  8=)  :=')  8=)
+8=)  8=?
+
+Jeff S. Haberl, Ph.D.,
+P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office
+Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=)  :=)  8=)  8=!  8=)  8=?  8=)
+8=)  8=0 
+
+ 
+
+________________________________
+
+From: postman at gard.com [mailto:postman at gard.com] On Behalf Of Vikram
+Sami
+Sent: Tuesday, May 31, 2005 5:43 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Heat recovery in eQUEST (yes - another question)
+
+ 
+
+I followed the method suggested earlier to model the heat recovery
+system (Renee's email). I set the ERV type to 'enthalpy wheel', with the
+make up air temp ctrl set to mixed air reset & capacity control to '
+trim economizer's (the design engineer suggested this was the closest to
+the designed system). 
+
+ 
+
+The overall savings shown were minute, with a penalty shown on the
+electric side in fans (this I had foreseen from additional static
+pressure needed to drive the air through the enthalpy wheel) & space
+cooling (this was surprising - especially since the base system had
+humidity controlled at 50%). The space heating was the only thing which
+showed considerable savings.
+
+ 
+
+Am I missing something, or does this mean that the system (a Semco ERV
+unit) is probably not great for this climate (Asheville, NC). 
+
+ 
+
+I would appreciate any insight into this
+
+ 
+
+Thanks
+
+ 
+
+ 
+
+Vikram Sami,  LEED AP 
+Direct Phone 404-253-1466 | Direct Fax  404-253-1366 
+
+LORD, AECK & SARGENT ARCHITECTURE
+Responsive Design * Technological Expertise * Exceptional Service 
+www.lordaecksargent.com 
+
+ 
+
+ 
+ 
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20050601/86f096f7/attachment.htm>
+

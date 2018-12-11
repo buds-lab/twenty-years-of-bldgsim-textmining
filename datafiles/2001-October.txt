@@ -1,0 +1,145 @@
+From pieterdewilde at arch.gatech.edu  Mon Oct  8 07:35:24 2001
+From: pieterdewilde at arch.gatech.edu (Pieter de Wilde)
+Date: Mon, 08 Oct 2001 10:35:24 -0400
+Subject: [BLDG-SIM] Design Analysis Integration Workshop for Building Energy
+  Consultants
+Message-ID: <MDAEMON-F200110080939.AA395220pd80000081888@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20011008/b809d9fe/attachment.htm>
+
+From tanmay at eley.com  Tue Oct  9 11:50:51 2001
+From: tanmay at eley.com (Tanmay)
+Date: Tue, 9 Oct 2001 11:50:51 -0700
+Subject: [BLDG-SIM] Ground Source Heat Pumps in DOE2.1E
+In-Reply-To: <MDAEMON-F200110080940.AA400232pd80000115990@gard.com>
+Message-ID: <MDAEMON-F200110091344.AA442425pd80000082291@gard.com>
+
+
+I recently noticed the option for simulating ground source heat pumps in
+DOE-2.1E (ref. DOE-2.1E Update Package #1, Page 3).
+
+It adds the option of setting HP-LOOP-HEATING and HP-LOOP-COOLING source
+under PLANT-ASSIGNMENT to FROM-GROUND. The new keyword GLOOP-TEMP-SCH
+accepts a schedule of ground temperatures in F with a default of the weather
+file ground temperatures.
+
+Has anyone had any experience with using these keywords, or modeling ground
+source heat pump in DOE-2.1E? I couldn't find any other documentation for
+this. Are there other keyword specifying the properties of the GLOOP?
+
+Thanks,
+
+Tanmay Tathagat
+
+Eley Associates
+http://www.eley.com
+415-957-1977 phone
+415-957-1381 fax
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From thong at eley.com  Wed Oct 10 10:51:25 2001
+From: thong at eley.com (Tianzhen Hong)
+Date: Wed, 10 Oct 2001 10:51:25 -0700
+Subject: [BLDG-SIM] Converting a TMY2 weather file to DOE-2 weather file
+In-Reply-To: <MDAEMON-F200109261252.AA524742pd80000114599@gard.com>
+Message-ID: <MDAEMON-F200110101245.AA455992pd80000082554@gard.com>
+
+Can anyone let me know whether there is a tool to convert a TMY2 weather
+file to DOE-2 weather file?
+
+Thanks
+
+Tianzhen
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20011010/1dc38095/attachment.htm>
+
+From bseaton at ASHRAE.org  Mon Oct 15 08:09:52 2001
+From: bseaton at ASHRAE.org (Seaton, Bill)
+Date: Mon, 15 Oct 2001 11:09:52 -0400
+Subject: [BLDG-SIM] ASHRAE Research Projects Ready to Bid
+Message-ID: <MDAEMON-F200110151008.AA085292md50000083636@gard.com>
+
+
+ASHRAE has just posted two new requests-for-proposal (RFP) for your review
+and consideration.  The number of projects is much lower than in past years.
+To view and download these RFPs, go to the ASHRAE Home Page
+(www.ashrae.org), click on "Research" and then on "Research Projects Ready
+to Bid".  The following necessary  forms can also be downloaded under
+"Research:
+
+ASHRAE Application for Grant of Funds
+Additional Information for Researchers and Contractors 
+Proposal Formatting Guidelines
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Bart.callens3 at pandora.be  Mon Oct 22 01:06:33 2001
+From: Bart.callens3 at pandora.be (Bart Callens)
+Date: Mon, 22 Oct 2001 10:06:33 +0200
+Subject: [BLDG-SIM] daylight control with roof windows
+Message-ID: <MDAEMON-F200110220257.AA570350pd80000085303@gard.com>
+
+Hi,
+
+I'm trying to simulate a building, which has windows in the roof. I would like to take those windows in account. The reason why is because there aren't any other windows in the building, and I would like to do a daylight control of the light in the room. Is there any solution to that problem. In a first order solution, I 've put a estimation of the power generated into the EPD, but that involves no daylight control.
+
+Thanks
+
+Bart
+student civil engineer at Ghent
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20011022/e933c212/attachment.htm>
+
+From KPrigmore at eypae.com  Mon Oct 22 07:22:35 2001
+From: KPrigmore at eypae.com (Kathryn Prigmore)
+Date: Mon, 22 Oct 2001 10:22:35 -0400
+Subject: [BLDG-SIM] Photovoltaic System Specification
+Message-ID: <MDAEMON-F200110220917.AA171534pd80000085380@gard.com>
+
+Is anyone aware of where I can get hold of a guide specification for a
+photovoltaic system - Section 13650 - to include in a set of construction
+documents?  
+ 
+Kathryn T, Prigmore, AIA
+Senior Associate
+Einhorn Yaffee Prescott, Architecture and Engineering, PC
+1000 Potomac Street, NW
+Washington, DC  20007
+Prigmore at eypae.com <mailto:kprigmore at eypae.com> 
+202-471-5132
+202-471-5050
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20011022/ddf33b3e/attachment.htm>
+

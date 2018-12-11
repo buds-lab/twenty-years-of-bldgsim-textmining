@@ -1,0 +1,733 @@
+From Harvey.Bryan at asu.edu  Fri Jan 25 09:13:15 2002
+From: Harvey.Bryan at asu.edu (Harvey Bryan)
+Date: Fri, 25 Jan 2002 10:13:15 -0700
+Subject: [BLDG-SIM] Convective loop in passive solar building
+Message-ID: <MDAEMON-F200201251109.AA095443pd80000112587@gard.com>
+
+Severin,
+ 
+Nick Baker developed a simplified method (called the LM Method) for sizing
+atria in mid-size buildings. His method is presented in his book "Energy and
+Environment in Architecture: A Technical Design Guide," E & FN SPON, 2000.
+ 
+Harvey Bryan, Ph.D.
+School of Architecture
+Arizona State University
+P.O. Box 871605
+Tempe, AZ.  85287-1605
+Tel:     480-965-6094
+Fax:    480-965-0968
+e-mail: harvey.bryan at asu.edu <mailto:harvey.bryan at asu.edu>  
+
+-----Original Message-----
+From: STAUFFER Vincent [mailto:geres.stauffer at free.fr]
+Sent: Friday, January 25, 2002 2:11 AM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] Convective loop in passive solar building
+
+
+Hello,
+ 
+in order to developp a bioclimatic building in Ladakh, we are looking for
+information about convective loop.
+ 
+The building we try to design should have two storeys and one sunspace on
+its south face. We already have information about convective heat transfer
+inside passive solar buildings thanks to publications issued from the Los
+Alamos National Laboratory. However these documents were published on 1985
+and they only provide major principles and data providing from few examples.
+ 
+Does anybody know one non numerical method to design convective loop, or a
+document which could be used as a reference on this subject?
+ 
+Thanks,
+S?verin POUTREL.
+
+
+=====================================================You received this
+e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020125/87cf3748/attachment.htm>
+
+From igt at integral-design-engineering.ca  Fri Jan 25 08:22:44 2002
+From: igt at integral-design-engineering.ca (I.G. Theaker)
+Date: Fri, 25 Jan 2002 08:22:44 -0800
+Subject: [BLDG-SIM] Convective loop in passive solar building
+References: <MDAEMON-F200201250306.AA060675pd80000151603@gard.com>
+Message-ID: <MDAEMON-F200201251013.AA135170pd80000112542@gard.com>
+
+Hi, Severin & other Bldg-Simmers,
+
+By "non numerical" I assume you mean not computer-simulated?  I'd say it's
+impossible to do any reasonable airflow design without some
+number-crunching....
+
+The venerable Duffie & Beckman's chapter 14 offers some guidance on "Trombe
+wall" type collector design:
+"Solar Energy Thermal Processes" (ISBN: 0-471-22371-9)
+
+For more detailed aid with the calcs, and natural ventilation/cooling in
+general, check out Baruch Givoni's books:
+"Climate Considerations in Building and Urban Design" (ISBN: 0-471-29177-3)
+"Passive and Low Energy Cooling of Buildings" (sorry, no ISBN; my copy was
+lent & not returned - gnashing of teeth....)
+"Man, Climate and Architecture, 2nd Edition" (ISBN: 0-85334-108-7)
+Givoni has done decades of empirical research on full scale building
+airflows at the University of Haifa; and developing simulation routines at
+Haifa and UCLA.  *Excellent* texts, both non-numeric (in the form of clear,
+simple graphics) and with the numbers/equations.
+
+Another classic:
+G. Z. Brown, et al
+"Sun, Wind & Light: Architectural Design Strategies, 2nd Edition" (ISBN:
+0-471-34877-5)
+
+
+Be aware: at residential scales, convection-driven ("stack-effect") air
+pressures are usually much smaller than wind-induced air pressures; so you
+must have a *very* airtight building to ensure it operates as you intend.
+Better to design for combined wind-stack airflows.
+
+
+Good luck!
+Ian Theaker, P.Eng.
+
+- - -- --- ----- -------- ------------- --------------------- --------------
+--------------------
+Integral Design / Engineering           Helping create beautiful,
+Ste. 303 - 2050 Scotia Street           comfortable, ecologically-
+Vancouver, BC V5T 4T1 Canada     responsive buildings.
+- - -- --- ----- -------- ------------- --------------------- --------------
+--------------------
+----- Original Message -----
+From: "STAUFFER Vincent" <geres.stauffer at free.fr>
+To: <BLDG-SIM at gard.com>
+Sent: Friday, January 25, 2002 1:11 AM
+Subject: [BLDG-SIM] Convective loop in passive solar building
+
+
+Hello,
+
+in order to developp a bioclimatic building in Ladakh, we are looking for
+information about convective loop.
+
+The building we try to design should have two storeys and one sunspace on
+its south face. We already have information about convective heat transfer
+inside passive solar buildings thanks to publications issued from the Los
+Alamos National Laboratory. However these documents were published on 1985
+and they only provide major principles and data providing from few examples.
+
+Does anybody know one non numerical method to design convective loop, or a
+document which could be used as a reference on this subject?
+
+Thanks,
+S?verin POUTREL.
+
+
+==================
+You received this e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From geres.stauffer at free.fr  Fri Jan 25 01:11:05 2002
+From: geres.stauffer at free.fr (STAUFFER Vincent)
+Date: Fri, 25 Jan 2002 10:11:05 +0100
+Subject: [BLDG-SIM] Convective loop in passive solar building
+Message-ID: <MDAEMON-F200201250306.AA060765pd80000112425@gard.com>
+
+Hello,
+
+in order to developp a bioclimatic building in Ladakh, we are looking for information about convective loop.
+
+The building we try to design should have two storeys and one sunspace on its south face. We already have information about convective heat transfer inside passive solar buildings thanks to publications issued from the Los Alamos National Laboratory. However these documents were published on 1985 and they only provide major principles and data providing from few examples.
+
+Does anybody know one non numerical method to design convective loop, or a document which could be used as a reference on this subject?
+
+Thanks,
+S?verin POUTREL.
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020125/ac59aa6f/attachment.htm>
+
+From r-strand at uiuc.edu  Thu Jan 24 11:49:24 2002
+From: r-strand at uiuc.edu (Rick Strand)
+Date: Thu, 24 Jan 2002 13:49:24 -0600
+Subject: [BLDG-SIM] IBPSA-USA Membership, elections
+Message-ID: <MDAEMON-F200201241343.AA431054pd80000112238@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020124/88f17d3b/attachment.htm>
+
+From perry.steiner at facilities.gatech.edu  Tue Jan 22 11:25:10 2002
+From: perry.steiner at facilities.gatech.edu (Steiner, Perry)
+Date: Tue, 22 Jan 2002 14:25:10 -0500
+Subject: [BLDG-SIM] Maintenance labor and materials costs
+Message-ID: <MDAEMON-F200201221317.AA174570pd80000111575@gard.com>
+
+Georgia Tech will be replacing a site built 120,000 pph watertube boiler
+that was erected in 1944.  We intend to install a package boiler of
+about 135,000 pph that uses low NOx burners.  In order to calculate the
+Life Cycle Cost of the replacement boiler we need to estimate the
+maintenance labor and materials costs.  Are there industry or government
+guidelines that use a set percentage of the installation cost for
+estimating these costs?  Are these cost ever estimated as a percentage
+of the installation cost?
+
+For example:
+Maintenance labor and material costs equal 2% of installation cost per
+year for the useful life of the boiler.
+
+Please let me know where I might be able to obtain this information.
+
+
+Sincerely,
+
+
+Perry Steiner		Office: 404/385-0541
+Utilities Analyst		Fax: 404/385-0961
+Georgia Tech		perry.steiner at facilities.gatech.edu
+
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From philippe_rynikiewicz at yahoo.fr  Thu Jan 17 05:23:22 2002
+From: philippe_rynikiewicz at yahoo.fr (=?iso-8859-1?q?Philippe=20Rynikiewicz?=)
+Date: Thu, 17 Jan 2002 14:23:22 +0100 (CET)
+Subject: [BLDG-SIM] Climate data himalaya
+Message-ID: <MDAEMON-F200201170717.AA172089pd80000110179@gard.com>
+
+Dear all,
+
+does any body know where to find simple climate data
+(like temperature, precipitation, if possible sun
+glazing) on specific areas of himalaya (Like Ladakh,
+Spiti,Lahaul, Zanskar, Mustang, Sikkim...).
+I'm interested by high altitude inhabited desert with
+a lot of sun, to initialise the simulation of a solar
+building in Best conditions.
+Thanks for your help
+
+Philippe
+
+
+
+
+___________________________________________________________
+Do You Yahoo!? -- Une adresse @yahoo.fr gratuite et en fran?ais !
+Yahoo! Courrier : http://courrier.yahoo.fr
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From astevens at dmiinc.com  Wed Jan 16 13:49:36 2002
+From: astevens at dmiinc.com (Alec Stevens)
+Date: Wed, 16 Jan 2002 16:49:36 -0500
+Subject: [BLDG-SIM] Screw chiller performance curves
+References: <MDAEMON-F200201161429.AA292304pd80000148706@gard.com>
+Message-ID: <MDAEMON-F200201161542.AA420045pd80000109976@gard.com>
+
+Steve,
+Thanks for this update.
+Two additional questions:
+1) will the new version of DOE2.2 that models the screw chillers and the VFD chillers be incorporated into PowerDOE? (maybe a question for Jeff Hirsch)
+2) are there / will there be any default curves for air-cooled screw chillers?  I have been trying to model this without much success so far.  I created my own curves, but the results don't appear to make sense.  When I created an output report, the modified values of EIR based on my curves made good sense, but the chiller kW that is being shown makes no sense at all.  I haven't finished debugging this yet, but wonder if anyone has any suggestions.
+
+
+Sincerely,
+
+Alec Stevens
+DMI
+p: 617-527-1525x105
+f: 617-527-6606
+e: astevens at dmiinc.com
+
+  ----- Original Message ----- 
+  From: Steve Gates 
+  To: BLDG-SIM at gard.com 
+  Sent: Wednesday, January 16, 2002 3:31 PM
+  Subject: [BLDG-SIM] Screw chiller performance curves
+
+
+  James Hirsch & Associates is currently implementing new chiller algorithms in DOE-2, and defaults performance curves for screw chillers will be included. 
+
+  For both reciprocating and screw chillers, the program will use different performance curves depending on the number of compressors in the machine. The program will also model centrifugal chillers with variable-speed drives. Since some of these curves utilize new types of CURVE-FITS, they require a new version of DOE-2.2 which won't be released for another month or two.
+
+  In the meantime, for current versions of DOE-2.2, the following models a water-cooled screw:
+
+  "ScrewH2O-Cap-fCHWT&LCT" = CURVE-FIT    
+
+     TYPE = BI-QUADRATIC-T
+
+     INPUT-TYPE = DATA
+
+     IN-TEMP1 = ( 44.0, 44.0, 44.0, 44.0, 44.0,  $ CHW T
+
+                  48.0, 48.0, 48.0, 48.0, 48.0,
+
+                  52.0, 52.0, 52.0, 52.0, 51.0,
+
+                  40.0, 40.0, 40.0, 40.0, 40.0)
+
+     IN-TEMP2 = ( 85.0, 75.0, 70.0, 95.0, 100.,  $ ECT
+
+                  85.0, 75.0, 70.0, 95.0, 100.,
+
+                  85.0, 75.0, 70.0, 95.0, 100.,
+
+                  85.0, 75.0, 70.0, 95.0, 100.)
+
+     OUTPUT  = (  1.00, 1.07, 1.10, 0.92, 0.89,  $ Capacity ratio
+
+                  1.09, 1.16, 1.18, 1.00, 0.96,
+
+                  1.18, 1.24, 1.26, 1.09, 1.05,
+
+                  0.92, 0.99, 1.02, 0.85, 0.83)  ..
+
+   
+
+  "ScrewH2O-EIR-fCHWT&LCT" = CURVE-FIT     
+
+     TYPE = BI-QUADRATIC-T
+
+     INPUT-TYPE = DATA
+
+     IN-TEMP1 = ( 44.0, 44.0, 44.0, 44.0, 44.0,  $ CHW T
+
+                  48.0, 48.0, 48.0, 48.0, 48.0,
+
+                  52.0, 52.0, 52.0, 52.0, 51.0,
+
+                  40.0, 40.0, 40.0, 40.0, 40.0)
+
+     IN-TEMP2 = ( 85.0, 75.0, 70.0, 95.0, 100.,  $ ECT
+
+                  85.0, 75.0, 70.0, 95.0, 100.,
+
+                  85.0, 75.0, 70.0, 95.0, 100.,
+
+                  85.0, 75.0, 70.0, 95.0, 100.)
+
+     OUTPUT  = (  1.00, 0.85, 0.78, 1.20, 1.31,  $ EIR ratio
+
+                  0.94, 0.81, 0.74, 1.13, 1.24,
+
+                  0.90, 0.77, 0.71, 1.07, 1.17,
+
+                  1.06, 0.89, 0.82, 1.27, 1.39)  ..
+
+
+
+  $ Two circuits, one compressor/circuit
+
+
+  "ScrewH2O-EIR-fPLR&dT-1Comp/Ckt" = CURVE-FIT 
+
+     TYPE = QUADRATIC
+
+     INPUT-TYPE = DATA
+
+     INPUT   = ( 1.00, 0.75, 0.50, 0.25, 0.10)
+
+     OUTPUT  = (  1.00, .906, .538, .332, .141)  ..
+
+   
+
+  $ Two circuits, two compressors/circuit
+
+  "ScrewH2O-EIR-fPLR&dT-2Comp/Ckt" = CURVE-FIT  
+
+     TYPE = QUADRATIC                           
+
+     INPUT-TYPE = DATA
+
+     INPUT    = ( 1.00, 0.75, 0.50, 0.25, 0.10)
+
+     OUTPUT  = (  1.00, .842, .664, .289, .151)  ..
+
+
+
+
+  "A Generic Screw Chiller" = CHILLER
+
+     TYPE             = ELEC-HERM-REC
+
+     ELEC-INPUT-RATIO = .202
+
+     CAPACITY-FT      = "ScrewH2O-Cap-fCHWT&LCT"
+
+     EIR-FT           = "ScrewH2O-EIR-fCHWT&LCT"
+
+     EIR-FPLR         = "ScrewH2O-EIR-fPLR&dT-1Comp/Ckt"
+
+     etc.
+
+     ..
+
+     
+
+
+
+  Hope this helps!
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020116/4ab2d877/attachment.htm>
+
+From stvgates at pacbell.net  Wed Jan 16 12:31:13 2002
+From: stvgates at pacbell.net (Steve Gates)
+Date: Wed, 16 Jan 2002 12:31:13 -0800
+Subject: [BLDG-SIM] Screw chiller performance curves
+Message-ID: <MDAEMON-F200201161429.AA293639pd80000109938@gard.com>
+
+James Hirsch & Associates is currently implementing new chiller algorithms in DOE-2, and defaults performance curves for screw chillers will be included. 
+
+For both reciprocating and screw chillers, the program will use different performance curves depending on the number of compressors in the machine. The program will also model centrifugal chillers with variable-speed drives. Since some of these curves utilize new types of CURVE-FITS, they require a new version of DOE-2.2 which won't be released for another month or two.
+
+In the meantime, for current versions of DOE-2.2, the following models a water-cooled screw:
+
+"ScrewH2O-Cap-fCHWT&LCT" = CURVE-FIT    
+
+   TYPE = BI-QUADRATIC-T
+
+   INPUT-TYPE = DATA
+
+   IN-TEMP1 = ( 44.0, 44.0, 44.0, 44.0, 44.0,  $ CHW T
+
+                48.0, 48.0, 48.0, 48.0, 48.0,
+
+                52.0, 52.0, 52.0, 52.0, 51.0,
+
+                40.0, 40.0, 40.0, 40.0, 40.0)
+
+   IN-TEMP2 = ( 85.0, 75.0, 70.0, 95.0, 100.,  $ ECT
+
+                85.0, 75.0, 70.0, 95.0, 100.,
+
+                85.0, 75.0, 70.0, 95.0, 100.,
+
+                85.0, 75.0, 70.0, 95.0, 100.)
+
+   OUTPUT  = (  1.00, 1.07, 1.10, 0.92, 0.89,  $ Capacity ratio
+
+                1.09, 1.16, 1.18, 1.00, 0.96,
+
+                1.18, 1.24, 1.26, 1.09, 1.05,
+
+                0.92, 0.99, 1.02, 0.85, 0.83)  ..
+
+ 
+
+"ScrewH2O-EIR-fCHWT&LCT" = CURVE-FIT     
+
+   TYPE = BI-QUADRATIC-T
+
+   INPUT-TYPE = DATA
+
+   IN-TEMP1 = ( 44.0, 44.0, 44.0, 44.0, 44.0,  $ CHW T
+
+                48.0, 48.0, 48.0, 48.0, 48.0,
+
+                52.0, 52.0, 52.0, 52.0, 51.0,
+
+                40.0, 40.0, 40.0, 40.0, 40.0)
+
+   IN-TEMP2 = ( 85.0, 75.0, 70.0, 95.0, 100.,  $ ECT
+
+                85.0, 75.0, 70.0, 95.0, 100.,
+
+                85.0, 75.0, 70.0, 95.0, 100.,
+
+                85.0, 75.0, 70.0, 95.0, 100.)
+
+   OUTPUT  = (  1.00, 0.85, 0.78, 1.20, 1.31,  $ EIR ratio
+
+                0.94, 0.81, 0.74, 1.13, 1.24,
+
+                0.90, 0.77, 0.71, 1.07, 1.17,
+
+                1.06, 0.89, 0.82, 1.27, 1.39)  ..
+
+
+
+$ Two circuits, one compressor/circuit
+
+
+"ScrewH2O-EIR-fPLR&dT-1Comp/Ckt" = CURVE-FIT 
+
+   TYPE = QUADRATIC
+
+   INPUT-TYPE = DATA
+
+   INPUT   = ( 1.00, 0.75, 0.50, 0.25, 0.10)
+
+   OUTPUT  = (  1.00, .906, .538, .332, .141)  ..
+
+ 
+
+$ Two circuits, two compressors/circuit
+
+"ScrewH2O-EIR-fPLR&dT-2Comp/Ckt" = CURVE-FIT  
+
+   TYPE = QUADRATIC                           
+
+   INPUT-TYPE = DATA
+
+   INPUT    = ( 1.00, 0.75, 0.50, 0.25, 0.10)
+
+   OUTPUT  = (  1.00, .842, .664, .289, .151)  ..
+
+
+
+
+"A Generic Screw Chiller" = CHILLER
+
+   TYPE             = ELEC-HERM-REC
+
+   ELEC-INPUT-RATIO = .202
+
+   CAPACITY-FT      = "ScrewH2O-Cap-fCHWT&LCT"
+
+   EIR-FT           = "ScrewH2O-EIR-fCHWT&LCT"
+
+   EIR-FPLR         = "ScrewH2O-EIR-fPLR&dT-1Comp/Ckt"
+
+   etc.
+
+   ..
+
+   
+
+
+
+Hope this helps!
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020116/1231451e/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Steven D. Gates.vcf
+Type: text/x-vcard
+Size: 628 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020116/1231451e/attachment.vcf>
+
+From eldridd at okstate.edu  Wed Jan 16 10:12:03 2002
+From: eldridd at okstate.edu (eldridd at okstate.edu)
+Date: Wed, 16 Jan 2002 12:12:03 -0600 (CST)
+Subject: [BLDG-SIM]
+Message-ID: <MDAEMON-F200201161209.AA094828pd80000109876@gard.com>
+
+Would anyone have a reference for me to look over as far as modeling a screw chiller in DOE2?
+
+A screw chiller template of some sort would be most helpful.
+
+Thanks!
+
+David
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bradley at tess-inc.com  Tue Jan  8 13:22:15 2002
+From: bradley at tess-inc.com (David Bradley)
+Date: Tue, 08 Jan 2002 15:22:15 -0600
+Subject: [BLDG-SIM] TRNSYS Training Course - reminder
+Message-ID: <MDAEMON-F200201081517.AA170614pd80000107512@gard.com>
+
+Dear Colleagues,
+   This is just a reminder that although time is running out, there is 
+still room for a few more participants in the TRNSYS Training Course 
+scheduled for January 21-23 in Madison, Wisconsin. TRNSYS, commercially 
+available since 1975, is a modular tool designed to simulate the transient 
+performance of any energy system. The course will cover the following topics:
+
+Introduction to Energy Simulations with TRNSYS
+Simulating Building Energy Use with TRNSYS
+Creating New Components
+Creating Distributable TRNSYS Simulations with TRNSED
+Performing Combined Thermal/Airflow Simulations with TRNSYS and COMIS
+Using SimCad, the CAD Package for TRNSYS Building Simulations
+
+Additionally, course participants will receive a free copy of TRNOPT, a 
+tool that allows users to perform optimizations of TRNSYS input files. 
+Anyone interested in more information about the course can email us or 
+check out the course home page on the web at 
+http://www.tess-inc.com/tess/training.htm. Please do not hesitate to 
+contact us if you have any questions.
+
+Cheers and Happy New Year,
+   David
+
+
+*********************************************************************************
+Thermal Energy System Specialists (TESS)
+David BRADLEY           2916 Marketplace Drive - Suite 104
+Project Engineer                Madison, WI  53719
+Phone:  (608) 274-2577  USA
+Fax:  (608) 278-1475
+E-mail:   bradley at tess-inc.com
+Web Page:       www.tess-inc.com
+
+"Providing software solutions for today's energy engineering projects"
+**************************************************************************** 
+*****
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From r-strand at uiuc.edu  Fri Jan  4 08:00:15 2002
+From: r-strand at uiuc.edu (Rick Strand)
+Date: Fri, 04 Jan 2002 10:00:15 -0600
+Subject: [BLDG-SIM] (Last Chance!) IBPSA-USA Atlantic City Meeting Announcement
+Message-ID: <MDAEMON-F200201041054.AA540945pd80000106161@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020104/4acc4a04/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 27e70a.jpg
+Type: image/jpeg
+Size: 28460 bytes
+Desc: not available
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20020104/4acc4a04/attachment.jpg>
+
+From jzhang at selectenergysi.com  Wed Jan  2 08:50:45 2002
+From: jzhang at selectenergysi.com (Jinsong Zhang)
+Date: Wed, 02 Jan 2002 11:50:45 -0500
+Subject: [BLDG-SIM] Converting Visual-Doe 2.5 files into Power-Doe files
+Message-ID: <MDAEMON-F200201021045.AA455220pd80000105380@gard.com>
+
+Hi, 
+
+Happy new year to everybody!
+
+Does anyone have experience in converting Visual-DOE 2.5 project files into Power-Doe files?
+
+Thanks a lot!
+
+
+Song
+
+****************************************************************
+Jinsong (Song) Zhang, Project Engineer
+Select Energy Services, Inc., (Formerly HEC) 
+24 Prime Parkway, Natick, MA 01760
+Tel: 508-653-0456 x 1284  Fax: 508-653-0266
+Toll Free: 800-325-4432 x 1284
+E-mail: jzhang at selectenergysi.com
+****************************************************************
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Fri Jan 25 12:12:43 2002
+From: jglazer at gard.com (Jason Glazer)
+Date: Fri, 25 Jan 2002 14:12:43 -0600
+Subject: [BLDG-SIM] Message Archive Updated
+Message-ID: <MDAEMON-F200201251406.AA063753pd80000112675@gard.com>
+
+The BLDG-SIM archive has been updated to cover through 
+today.  The archive was last updated in August.  Someone 
+could remind me to do more often :-)
+
+The BLDG-SIM mailing list page is:
+
+  http://www.gard.com/ml/bldg-sim.htm
+
+Sorted by topic:
+
+  http://www.gard.com/ml/bldg-sim-archive/threads.html
+
+Sorted by date:
+
+  http://www.gard.com/ml/bldg-sim-archive/maillist.html
+
+Jason
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

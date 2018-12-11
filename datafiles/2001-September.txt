@@ -1,0 +1,999 @@
+From brian.fountain at energyadvantage.com  Wed Sep  5 07:45:21 2001
+From: brian.fountain at energyadvantage.com (Brian Fountain)
+Date: Wed, 5 Sep 2001 10:45:21 -0400
+Subject: [BLDG-SIM] extracting hourly humidity
+Message-ID: <MDAEMON-F200109050942.AA420328pd80000073922@gard.com>
+
+
+I am trying to extract the hourly temperature and humidity for a space in a
+DOE2.1e simulation.  Temperature is easy enough -- for VARIABLE-TYPE = u
+name for zone, VARIABLE-LIST = (6) or (31) does the trick.  But what about
+humidity?  Variable 47 is not appropriate on many system types yet report
+SS-N gives me a zonal relative humidity plot.
+
+So far my best guess is to use the return air humidity ratio.  Any other
+suggestions?
+
+Many thanks
+
+
+Brian Fountain, P.Eng
+Energy Engineer
+
+Energy Advantage Inc.
+690 Dorval Dr., Suite 400
+Oakville, ON L6K 3W7
+phone:  (905) 337-2205 ext. 250
+fax:      (905) 337-2209
+
+brian.fountain at energyadvantage.com
+<mailto:brian.fountain at energyadvantage.com>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From neymarkj at qwest.net  Wed Sep  5 14:06:39 2001
+From: neymarkj at qwest.net (joel neymark)
+Date: Wed, 5 Sep 2001 15:06:39 -0600
+Subject: [BLDG-SIM] extracting hourly humidity
+References: <MDAEMON-F200109050942.AA420807pd80000106996@gard.com>
+Message-ID: <MDAEMON-F200109051558.AA581623pd80000074033@gard.com>
+
+Brian
+
+Return air humidity ratio V-T = system, V-L = (35) is also what we have used
+for obtaining zone humidity data.  Such zone humidity ratio results give
+good agreement with analytical solutions developed for a single-zone test
+case using a validation procedure ("HVAC BESTEST") that will be published in
+the near future by National Renewable Energy Laboratory in conjunction with
+the International Energy Agency.
+
+joel
+
+Joel Neymark P.E.
+J. Neymark & Associates
+2140 Ellis St.
+Golden, Colorado  80401  USA
+Tel: (1) 303 384 3672
+Fax: (1) 303 384 9427
+email: neymarkj at qwest.net
+
+
+----- Original Message -----
+From: Brian Fountain <brian.fountain at energyadvantage.com>
+To: <BLDG-SIM at gard.com>
+Sent: Wednesday, September 05, 2001 8:45 AM
+Subject: [BLDG-SIM] extracting hourly humidity
+
+
+>
+> I am trying to extract the hourly temperature and humidity for a space in
+a
+> DOE2.1e simulation.  Temperature is easy enough -- for VARIABLE-TYPE = u
+> name for zone, VARIABLE-LIST = (6) or (31) does the trick.  But what about
+> humidity?  Variable 47 is not appropriate on many system types yet report
+> SS-N gives me a zonal relative humidity plot.
+>
+> So far my best guess is to use the return air humidity ratio.  Any other
+> suggestions?
+>
+> Many thanks
+>
+>
+> Brian Fountain, P.Eng
+> Energy Engineer
+>
+> Energy Advantage Inc.
+> 690 Dorval Dr., Suite 400
+> Oakville, ON L6K 3W7
+> phone:  (905) 337-2205 ext. 250
+> fax:      (905) 337-2209
+>
+> brian.fountain at energyadvantage.com
+> <mailto:brian.fountain at energyadvantage.com>
+>
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From rgl.lsbris at lincolne.com.au  Wed Sep  5 15:13:35 2001
+From: rgl.lsbris at lincolne.com.au (Robert Lord)
+Date: Thu, 6 Sep 2001 08:13:35 +1000
+Subject: [BLDG-SIM]
+Message-ID: <MDAEMON-F200109051724.AA240939pd80000074066@gard.com>
+
+Gentlemen, I receive your emails daily and learn from them. However, one
+question which we as Australians are wrestling with at the moment in our
+consideration of energy auditing regulations.
+
+The motivation to consume more energy comes from an occupant's desire to
+feel comfortable. A very significant factor in a person's perception of
+comfort is radiant heat. How does DOE2 deal with radiant heat exchange?
+
+
+
+Regards
+
+
+Rob Lord
+Lincolne Scott
+1 Gardner Close
+Milton Qld 4064
+Ph:          61 7 3368 6614
+Fax:        61 7 3368 6699
+Mobile:   0418 641 707
+Email:    rgl.lsbris at lincolne.com.au
+
+This message contains information that is intended for the addressee.  If
+you have received this message in error, you are asked to respect its
+confidentiality by destroying it and not copying or disclosing it.  Please
+notify the sender and remove it from your computer system.  Lincolne Scott
+accepts no responsibility concerning the security, transmission, content,
+virus status or delay in receipt of any information electronically
+transmitted.
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From smckay at eegrp.com  Thu Sep  6 00:35:54 2001
+From: smckay at eegrp.com (SCOTT MCKAY)
+Date: Thu, 6 Sep 2001 03:35:54 -0400
+Subject: [BLDG-SIM] JOB Announcement - Energy Auditors and DOE-2
+Message-ID: <MDAEMON-F200109051430.AA305384pd80000074012@gard.com>
+
+Greetings,
+ We are looking for engineers with energy auditing experience and background in thermodynamics, heat transfer, steam and gas fired equipment to accept several positions that are open. The positions are in Maryland. Salary is in 70K range with relocation expenses provided. 
+ We are looking for an entry level engineer with strong DOE-2 skills. This position is in Maryland.
+Please call or email for additional information. 
+
+SCOTT MCKAY  agent
+Electronic Engineering Group
+smckay at eegrp.com
+866-895-1852
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010906/2492fb1a/attachment.htm>
+
+From m.s.imbabi at abdn.ac.uk  Thu Sep  6 04:54:57 2001
+From: m.s.imbabi at abdn.ac.uk (Dr Mohammed Salah-Eldin Imbabi)
+Date: Thu, 6 Sep 2001 12:54:57 +0100
+Subject: [BLDG-SIM] Job opportunity in Scotland
+Message-ID: <MDAEMON-F200109060647.AA470340pd80000074181@gard.com>
+
+BUILDING SERVICES / CIVIL ENGINEERING GRADUATE
+(TCS Associate)
+
+
+The TCS partnership is seeking a talented, highly motivated individual with good communication skills, academic qualifications, and up to 4 years experience in building design.  A background in either building services or civil engineering is an advantage, but consideration will also be given to suitable candidates from mechanical engineering, materials science or architecture.  The post is for 2 years, and the successful candidate, working within the project team, will develop the know-how and tools needed to construct the 'smart, eco-friendly, breathing' buildings of the future.
+
+James Campbell Architects & Environmental Consultants (The Studio) are located in Craigearn, Kemnay, Aberdeenshire, 15 miles west of Aberdeen. The practice has wide experience in Architectural, Planning and Development Projects covering all building classifications with special interest in Energy, Environment and Ecological Design.
+
+In addition to being based in an attractive, rewarding work environment, all the benefits of TCS Associate status apply to this post: training package, academic and industrial supervision, and the opportunity to enrol for a higher degree.
+
+CLOSING DATE: 21st September 2001
+SALARY CIRCA: ?18,000
+
+Informal enquiries may be directed to Dr M. Imbabi, tel. (01224) 272506, email: m.s.imbabi at abdn.ac.uk.
+Application forms and further particulars are available from Human Resources, University Office, University of Aberdeen, King's College, Aberdeen, AB24 3FX, tel. (01224) 272727, quoting reference number YEG007A. A 24 hour answering service is in operation.
+An equal opportunities employer.
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010906/17240b5f/attachment.htm>
+
+From jweale at eskimo.com  Mon Sep 10 18:56:10 2001
+From: jweale at eskimo.com (John Weale)
+Date: Mon, 10 Sep 2001 18:56:10 -0700 (PDT)
+Subject: [BLDG-SIM] How to model a soil covered earth roof in DOE2?
+Message-ID: <MDAEMON-F200109102052.AA523832pd80000075445@gard.com>
+
+Hello,
+
+I am trying to get an approximate energy savings from adding a 'green
+roof' (6" soil with living grass) to a flat roofed building.  Currently, I
+see how to define a 'soil' layer, which will account for the u-value and
+thermal mass of the soil. I do not see how to account for the evaporative
+cooling effects (the grass will be properly watered).  I expect the
+cooling to be rather small since the roof would have R-19 insulation under
+the grass, so I am leaning towards neglecting them.
+
+The other issue I would appreciate comments on is modeling the roof
+surface temperature.  Is there an option to give the roof surface a
+maximum temperature (it should not get above the ambient wetbulb), or do I
+need to just settle with the absorbance of green?  This is really another
+aspect of the evaporative cooling question.
+
+The building will be a two story, flat roofed building in a pretty cold
+climate (near Denver, Colorado, USA).  The grass roof is desirable for
+non-energy reasons (esthetics and process water disposal) so this
+calculation doesn't need to be overly precise (I would not be using DOE2
+for it except I already have a fair DOE2 model I can quickly tweak into
+shape).  Any advice or experience on forcing DOE2 into doing this?
+
+Thanks,
+
+John Weale, P.E.
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at EE.DOE.GOV  Thu Sep 13 12:45:53 2001
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Thu, 13 Sep 2001 15:45:53 -0400
+Subject: [BLDG-SIM] Sustainable Buildings III Symposium Oct 17-18 and Workshop Oct
+ 13-16, Santa Fe, New Mexico
+Message-ID: <MDAEMON-F200109131527.AA275279pd80000076227@gard.com>
+
+Please consider attending and advise other interested persons about the
+National Institute of Building Sciences, (Building Environment and Thermal
+Envelope Council  (BETEC) Symposium and Workshop via your e-mail lists and
+other contacts.  Hotel rate of $90/single or double is good until Sept 15.
+The Symposium, titled "Sustainable Buildings III" is on October 17 and 18
+in Santa Fe, NM.  The Symposium is preceded by a BETEC workshop on October
+13-16 in El Rito, NM (1 hour drive from Santa Fe); where home builders,
+potential owner builders, state and local energy and building code
+officials can get hands-on experience of scientifically improved "old" low
+tech; and "new" high tech techniques such as rammed earth, load bearing
+strawbale walls, papercrete structures (recycled paper/cement), composite
+structures (extremely high tech), adobe, earth tire walls, and compressed
+sustainable, insulation (QuickFill) walls.  The workshop topics are also
+presented at the Symposium.  Presenters are from academia, industry, DOE
+labs, and entrepreneurs.
+
+     Desired outcome of this BETEC Symposium and Workshop: Tech transfer on
+development of technologies that drop the cost of constructing durable
+houses so that the money saved can be used for more insulation, more energy
+efficient heating and cooling equipment etc.
+
+     Further details and updates to the program are on the website of the
+National Institute of Building Sciences at NIBS.ORG or
+http://www.nibs.org/nibshome.htm , or I can provide further information to
+outsiders via my coordinates shown below.
+
+Thank You
+
+Arun Vohra,
+Manager, Thermal Insulation and Building Materials Program
+Office of Building Technology, State and Community Programs
+U.S. Department of Energy, EE-41
+1000 Independence Ave SW, Washington, DC 20585-0121,
+
+Phone (202)586-2193, Fax (202)586-9811; E-mail:  ARUN.VOHRA at EE.DOE.GOV
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From F.Al-ajmi at lboro.ac.uk  Sun Sep 16 08:28:39 2001
+From: F.Al-ajmi at lboro.ac.uk (F.Alajmi)
+Date: Sun, 16 Sep 2001 16:28:39 +0100
+Subject: [BLDG-SIM]
+Message-ID: <MDAEMON-F200109161026.AA264353pd80000076726@gard.com>
+
+Hi everybody,
+can anyone help,
+As we you Know materials  used to construct walls are assumed to be uniform 
+and homogeneous If i have a wall that has insulation with presence of air 
+gaps between the thermal insulation boards, Does TRNSYS-Pre-bed consider 
+this presence of air gaps,
+regards,
+
+Farraj Alajmi
+Department of Civil & Building Engineering
+Loughborough University
+Loughborough Leics  LE11 3TU  UK
+Tel(01509)263171 ext.4140
+  
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bradley at tess-inc.com  Mon Sep 17 06:04:03 2001
+From: bradley at tess-inc.com (David Bradley)
+Date: Mon, 17 Sep 2001 08:04:03 -0500
+Subject: [BLDG-SIM]
+In-Reply-To: <MDAEMON-F200109161026.AA263562pd80000110461@gard.com>
+Message-ID: <MDAEMON-F200109170802.AA023895pd80000076840@gard.com>
+
+Dear Farraj,
+	Prebid does consider airgaps. They are added to wall descriptions as any other material would be. You will find the various air gap layers at the end of the library of wall materials. Please let me know if you have further trouble finding them.
+Cheers,
+	David
+
+At 04:28 PM 9/16/01 +0100, F.Alajmi wrote:
+>Hi everybody,
+>can anyone help,
+>As we you Know materials  used to construct walls are assumed to be uniform 
+>and homogeneous If i have a wall that has insulation with presence of air 
+>gaps between the thermal insulation boards, Does TRNSYS-Pre-bed consider 
+>this presence of air gaps,
+>regards,
+>
+>Farraj Alajmi
+>Department of Civil & Building Engineering
+>Loughborough University
+>Loughborough Leics  LE11 3TU  UK
+>Tel(01509)263171 ext.4140
+>  
+>
+>
+>======================================================
+>You received this e-mail because you are subscribed 
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+>from this mailing list send a blank message to 
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+*********************************************************************************
+Thermal Energy System Specialists (TESS)
+David BRADLEY			5610 Medical Circle
+Engineer					Suite 31
+Phone:? (608) 274-2577	Madison WI 53719
+Fax:? (608) 278-1475		USA
+E-mail:?? bradley at tess-inc.com 		
+Web Page:	www.tess-inc.com
+
+"Providing software solutions for today's energy engineering projects"
+*********************************************************************************
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jhernand at dmu.ac.uk  Wed Sep 19 07:21:21 2001
+From: jhernand at dmu.ac.uk (Jose Hernandez)
+Date: Wed, 19 Sep 2001 15:21:21 +0100
+Subject: [BLDG-SIM] Climate file for London for warm years
+Message-ID: <MDAEMON-F200109190919.AA190414pd80000077444@gard.com>
+
+
+
+Colleagues,
+
+We are looking for an esp-r climate file to do some overheating analysis for
+a building in London. The appropriate (warmer) years would be one of the
+following: 1997, 1993, 1983, 1976.
+
+Has anyone come across a climate file for London for either of the above
+years and could make it available to us?
+
+Many thanks.
+Best regards.
+Dusan
+
+
+
+^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^
+Dr Dusan Fiala
+Institute of Energy & Sustainable Development
+De Montfort University, Scraptoft Campus
+Leicester LE7 9SU - UK
+              Tel..:(+44) 0116 257 - 7971
+              Fax:  (+44) 0116 257 - 7981
+              email:  dfiala at dmu.ac.uk
+^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Tue Sep 25 12:37:07 2001
+From: jglazer at gard.com (Jason Glazer)
+Date: Tue, 25 Sep 2001 14:37:07 -0500
+Subject: [BLDG-SIM] Weather FAQ Development
+Message-ID: <MDAEMON-F200109251433.AA330598pd80000078917@gard.com>
+
+Looking back over the archives of the messages to the BLDG-
+SIM mailing list, it seems like a good fraction of the 
+messages have to do with obtaining weather data for annual 
+energy simulation.  Given how often it has come up, I'm 
+thinking about putting together a FAQ (frequently asked 
+question) document on the topic but I need your help.  If 
+you have answered any of this type of question or have 
+asked and received an  answer, I'm asking for your help. 
+Please send me an e-mail directly to me, not to the list, 
+with the following information.  The closer you can get it 
+to the format the better:
+
+  Program: <program name or 'General'>
+
+  Location: <city>, <state>, <country> 
+
+  Question: <from question e-mail>
+
+  Answer: <from answer e-mail>
+
+I'll assemble all the responses to this e-mail, add a table 
+of contents, and post it to the mailing list and put it on 
+the web site.  (Notice that I don't promise when.)
+
+If someone wants to volunteer to help out in the assembling 
+process, please let me know, I'm glad to share the work!
+
+Jason
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+List Administrator for 90.1, GPC18 and BLDG-SIM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jmaxwell at aspensys.com  Tue Sep 25 13:38:25 2001
+From: jmaxwell at aspensys.com (Jon Maxwell)
+Date: Tue, 25 Sep 2001 15:38:25 -0500
+Subject: [BLDG-SIM] Fraction of Possible Sunshine
+References: <MDAEMON-F200109251433.AA330654pd80000112633@gard.com>
+Message-ID: <MDAEMON-F200109251535.AA352826pd80000078949@gard.com>
+
+Does anyone out there have or know of a source for a graphical illustration of Fraction of Possible Sunshine over the U.S.  I found a very good table of such data at http://cdiac.esd.ornl.gov/ftp/ndp021/ (file #12), but haven't had any luck with a map.  Thanks in advance.
+
+Jon Maxwell, PE
+Aspen Systems Corp.
+jmaxwell at aspensys.com 
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010925/5e06c5fe/attachment.htm>
+
+From cbarnaby at wrightsoft.com  Wed Sep 26 07:12:42 2001
+From: cbarnaby at wrightsoft.com (Chip Barnaby)
+Date: Wed, 26 Sep 2001 10:12:42 -0400
+Subject: [BLDG-SIM] Fraction of Possible Sunshine
+In-Reply-To: <MDAEMON-F200109251535.AA352140pd80000112893@gard.com>
+References: <MDAEMON-F200109251433.AA330654pd80000112633@gard.com>
+Message-ID: <MDAEMON-F200109260908.AA084314pd80000079130@gard.com>
+
+Jon --
+
+I don't know of a source for a map, but I do have a question ... what do 
+you want it for?
+
+I am trying to learn how people use this statistic.  It has been 
+traditionally observed, so people keep observing it.  I am involved in work 
+on ASHRAE TC 4.2 (Weather Information) that is developing methods for 
+extracting solar radiation from weather data measured by ASOS (Automated 
+Surface Observation System) now used to observe weather at most sites in 
+the US.  ASOS has planned to add sunshine meters to their machines (that 
+plan is now delayed due to funding), but it would be just about as easy, 
+and much more useful (in our opinion) to measure solar radiation.  Sunshine 
+fraction is a notoriously bad predictor of solar radiation (the 
+correlations are pretty poor).  With trivial data processing, 
+minute-by-minute solar radiation data can be used to estimate sunshine, but 
+not vice-versa.
+
+Thus as far as I know the solar and building simulation community has no 
+use for sunshine data -- the statistic should be declared obsolete from our 
+point of view.  However, at every opportunity, I try to find why people 
+want it, there may be some other uses that we don't know about.
+
+So, if you're willing, please let me know what you're up to.
+
+To the rest of BLDG-SIM: anyone else know of uses for sunshine fraction?
+
+Thanks, Chip Barnaby
+
+>Does anyone out there have or know of a source for a graphical 
+>illustration of Fraction of Possible Sunshine over the U.S.  I found a 
+>very good table of such data at 
+><http://cdiac.esd.ornl.gov/ftp/ndp021/>http://cdiac.esd.ornl.gov/ftp/ndp021/ 
+>(file #12), but haven't had any luck with a map.  Thanks in advance.
+>
+>Jon Maxwell, PE
+>Aspen Systems Corp.
+><mailto:jmaxwell at aspensys.com>jmaxwell at aspensys.com
+>
+>
+>
+>
+>
+>
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+---------------------------------------------------------
+Chip Barnaby                   cbarnaby at wrightsoft.com
+Vice President of Research
+Wrightsoft Corp.               781-862-8719 x118 voice
+394 Lowell St, Suite 12        781-861-2058 fax
+Lexington, MA 02420            www.wrightsoft.com
+---------------------------------------------------------
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010926/b45ce784/attachment.htm>
+
+From jmaxwell at aspensys.com  Wed Sep 26 08:55:07 2001
+From: jmaxwell at aspensys.com (Jon Maxwell)
+Date: Wed, 26 Sep 2001 10:55:07 -0500
+Subject: [BLDG-SIM] Fraction of Possible Sunshine
+References: <MDAEMON-F200109251433.AA330654pd80000112633@gard.com> <5.0.2.1.2.20010926094836.02aaf6a0@chimaera.wrightsoft.com>
+Message-ID: <MDAEMON-F200109261052.AA523076pd80000079182@gard.com>
+
+I wanted to compare FPS plots against radiation plots so I could learn more about their correlation (or lack thereof) in different locales.  I planned to use one or the other to help me get a sense for possible regional variation in daylighting/dimming controls savings potential.  I had a lot easier time finding radiation data, if it is any consolation to you in your mission, Chip. but I thought sunshine data would be better to use if available.  Tabular data is better for quantitative analysis of course, but I wanted to see pictures.
+
+FYI two good sources for solar radiation plots are:
+
+    -  http://www.homepower.com/solmap.htm 
+       for an annual plot (attractive training illustration),
+
+    -  http://rredc.nrel.gov/solar/old_data/nsrdb/redbook/atlas/Table.html 
+       for monthly plots by various orientations ( a better analytical tool).
+
+Not to be too contrary but I spot-checked the tabular data from the source in my original email with the homepower map above and the general patterns do seem to correlate pretty well. 
+
+Finally, for those of you that are interested, Jeff Haberl responded to me directly with a FPS resource: "I believe that there is a map on Kreith and Kreider's Solar energy handbook...that shows this for the world...using the Angstrom-Lof minutes of sunshine."  Thanks to Jeff.
+
+
+----- Original Message ----- 
+From: Chip Barnaby 
+To: Jon Maxwell 
+Cc: BLDG-SIM at GARD.COM 
+Sent: Wednesday, September 26, 2001 9:12 AM
+Subject: Re: [BLDG-SIM] Fraction of Possible Sunshine
+
+
+Jon --
+
+I don't know of a source for a map, but I do have a question ... what do you want it for?
+
+I am trying to learn how people use this statistic.  It has been traditionally observed, so people keep observing it.  I am involved in work on ASHRAE TC 4.2 (Weather Information) that is developing methods for extracting solar radiation from weather data measured by ASOS (Automated Surface Observation System) now used to observe weather at most sites in the US.  ASOS has planned to add sunshine meters to their machines (that plan is now delayed due to funding), but it would be just about as easy, and much more useful (in our opinion) to measure solar radiation.  Sunshine fraction is a notoriously bad predictor of solar radiation (the correlations are pretty poor).  With trivial data processing, minute-by-minute solar radiation data can be used to estimate sunshine, but not vice-versa.
+
+Thus as far as I know the solar and building simulation community has no use for sunshine data -- the statistic should be declared obsolete from our point of view.  However, at every opportunity, I try to find why people want it, there may be some other uses that we don't know about.
+
+So, if you're willing, please let me know what you're up to.
+
+To the rest of BLDG-SIM: anyone else know of uses for sunshine fraction?
+
+Thanks, Chip Barnaby
+
+
+  Does anyone out there have or know of a source for a graphical illustration of Fraction of Possible Sunshine over the U.S.  I found a very good table of such data at http://cdiac.esd.ornl.gov/ftp/ndp021/ (file #12), but haven't had any luck with a map.  Thanks in advance.
+   
+  Jon Maxwell, PE
+  Aspen Systems Corp.
+  jmaxwell at aspensys.com 
+   
+   
+
+
+
+
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+---------------------------------------------------------
+Chip Barnaby                   cbarnaby at wrightsoft.com
+Vice President of Research
+Wrightsoft Corp.               781-862-8719 x118 voice
+394 Lowell St, Suite 12        781-861-2058 fax
+Lexington, MA 02420            www.wrightsoft.com
+--------------------------------------------------------- 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010926/24b83c88/attachment.htm>
+
+From cbarnaby at wrightsoft.com  Wed Sep 26 10:23:33 2001
+From: cbarnaby at wrightsoft.com (Chip Barnaby)
+Date: Wed, 26 Sep 2001 13:23:33 -0400
+Subject: [BLDG-SIM] Fraction of Possible Sunshine
+In-Reply-To: <04eb01c146a3$9dd04450$3187b4d0@JMAXWELL1>
+References: <MDAEMON-F200109251433.AA330654pd80000112633@gard.com>
+ <5.0.2.1.2.20010926094836.02aaf6a0@chimaera.wrightsoft.com>
+Message-ID: <MDAEMON-F200109261219.AA193342pd80000079212@gard.com>
+
+Thanks ... I would expect that sunshine would correlate with solar 
+radiation on a long-term basis.  Hourly correlations have not worked well, 
+though.  As a bldg-simulationist, I want hourly data.
+
+If you do find useful relationships, that would be great -- you should 
+publish your results.
+
+
+At 11:55 AM 9/26/01, Jon Maxwell wrote:
+>I wanted to compare FPS plots against radiation plots so I could learn 
+>more about their correlation (or lack thereof) in different locales.  I 
+>planned to use one or the other to help me get a sense for possible 
+>regional variation in daylighting/dimming controls savings potential.  I 
+>had a lot easier time finding radiation data, if it is any consolation to 
+>you in your mission, Chip. but I thought sunshine data would be better to 
+>use if available.  Tabular data is better for quantitative analysis of 
+>course, but I wanted to see pictures.
+>
+>FYI two good sources for solar radiation plots are:
+>
+>     - 
+> <http://www.homepower.com/solmap.htm>http://www.homepower.com/solmap.htm
+>        for an annual plot (attractive training illustration),
+>
+>     - 
+> <http://rredc.nrel.gov/solar/old_data/nsrdb/redbook/atlas/Table.html>http://rredc.nrel.gov/solar/old_data/nsrdb/redbook/atlas/Table.html 
+>
+>        for monthly plots by various orientations ( a better analytical tool).
+>
+>Not to be too contrary but I spot-checked the tabular data from the source 
+>in my original email with the homepower map above and the general patterns 
+>do seem to correlate pretty well.
+>
+>Finally, for those of you that are interested, Jeff Haberl responded to me 
+>directly with a FPS resource: "I believe that there is a map on Kreith and 
+>Kreider's Solar energy handbook...that shows this for the world...using 
+>the Angstrom-Lof minutes of sunshine."  Thanks to Jeff.
+>
+>
+>----- Original Message -----
+>From: <mailto:cbarnaby at wrightsoft.com>Chip Barnaby
+>To: <mailto:jmaxwell at aspensys.com>Jon Maxwell
+>Cc: <mailto:BLDG-SIM at GARD.COM>BLDG-SIM at GARD.COM
+>Sent: Wednesday, September 26, 2001 9:12 AM
+>Subject: Re: [BLDG-SIM] Fraction of Possible Sunshine
+>
+>Jon --
+>
+>I don't know of a source for a map, but I do have a question ... what do 
+>you want it for?
+>
+>I am trying to learn how people use this statistic.  It has been 
+>traditionally observed, so people keep observing it.  I am involved in 
+>work on ASHRAE TC 4.2 (Weather Information) that is developing methods for 
+>extracting solar radiation from weather data measured by ASOS (Automated 
+>Surface Observation System) now used to observe weather at most sites in 
+>the US.  ASOS has planned to add sunshine meters to their machines (that 
+>plan is now delayed due to funding), but it would be just about as easy, 
+>and much more useful (in our opinion) to measure solar 
+>radiation.  Sunshine fraction is a notoriously bad predictor of solar 
+>radiation (the correlations are pretty poor).  With trivial data 
+>processing, minute-by-minute solar radiation data can be used to estimate 
+>sunshine, but not vice-versa.
+>
+>Thus as far as I know the solar and building simulation community has no 
+>use for sunshine data -- the statistic should be declared obsolete from 
+>our point of view.  However, at every opportunity, I try to find why 
+>people want it, there may be some other uses that we don't know about.
+>
+>So, if you're willing, please let me know what you're up to.
+>
+>To the rest of BLDG-SIM: anyone else know of uses for sunshine fraction?
+>
+>Thanks, Chip Barnaby
+>
+>>Does anyone out there have or know of a source for a graphical 
+>>illustration of Fraction of Possible Sunshine over the U.S.  I found a 
+>>very good table of such data at 
+>><http://cdiac.esd.ornl.gov/ftp/ndp021/>http://cdiac.esd.ornl.gov/ftp/ndp021/ 
+>>(file #12), but haven't had any luck with a map.  Thanks in advance.
+>>
+>>Jon Maxwell, PE
+>>Aspen Systems Corp.
+>><mailto:jmaxwell at aspensys.com>jmaxwell at aspensys.com
+>>
+>>
+>>
+>>
+>>
+>>
+>>You received this e-mail because you are subscribed
+>>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>>from this mailing list send a blank message to
+>>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>---------------------------------------------------------
+>Chip Barnaby                   cbarnaby at wrightsoft.com
+>Vice President of Research
+>Wrightsoft Corp.               781-862-8719 x118 voice
+>394 Lowell St, Suite 12        781-861-2058 fax
+>Lexington, MA 02420            www.wrightsoft.com
+>---------------------------------------------------------
+
+---------------------------------------------------------
+Chip Barnaby                   cbarnaby at wrightsoft.com
+Vice President of Research
+Wrightsoft Corp.               781-862-8719 x118 voice
+394 Lowell St, Suite 12        781-861-2058 fax
+Lexington, MA 02420            www.wrightsoft.com
+---------------------------------------------------------
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010926/67da733a/attachment.htm>
+
+From mchugh at h-m-g.com  Wed Sep 26 11:00:42 2001
+From: mchugh at h-m-g.com (Jon McHugh)
+Date: Wed, 26 Sep 2001 11:00:42 -0700
+Subject: [BLDG-SIM] Fraction of Possible Sunshine
+Message-ID: <MDAEMON-F200109261252.AA523650pd80000079228@gard.com>
+
+Jon,
+ 
+SkyCalc is simple to use tool to look at daylighting potential from
+skylights and daylight harvesting controls potentials.  SkyCalc is an Excel
+spreadsheet that uses preprocessed DOE-2 hourly outputs to generate energy
+savings estimates for different fractions of roof area covered with
+skylights and under different lighting control strategies.
+ 
+SkyCalc is free and is available with climate specific "weather files" for
+34 locations.  SkyCalc can be downloaded from www.h-m-g.com
+<http://www.h-m-g.com> .
+ 
+Jon McHugh, PE, LC 
+Heschong Mahone Group 
+11626 Fair Oaks Blvd #302 
+Fair Oaks, CA 95628 (Sacramento) 
+(916)962-7001 
+(916)962-0101 FAX 
+e-mail: mchugh at h-m-g.com 
+URL: www.h-m-g.com 
+
+-----Original Message-----
+From: Jon Maxwell [mailto:jmaxwell at aspensys.com]
+Sent: Wednesday, September 26, 2001 8:55 AM
+To: BLDG-SIM at gard.com
+Cc: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Fraction of Possible Sunshine
+
+
+I wanted to compare FPS plots against radiation plots so I could learn more
+about their correlation (or lack thereof) in different locales.  I planned
+to use one or the other to help me get a sense for possible regional
+variation in daylighting/dimming controls savings potential.  I had a lot
+easier time finding radiation data, if it is any consolation to you in your
+mission, Chip. but I thought sunshine data would be better to use if
+available.  Tabular data is better for quantitative analysis of course, but
+I wanted to see pictures.
+ 
+FYI two good sources for solar radiation plots are: 
+ 
+    -   <http://www.homepower.com/solmap.htm>
+http://www.homepower.com/solmap.htm 
+       for an annual plot (attractive training illustration),
+ 
+    -   http://rredc.nrel.gov/solar/old_data/nsrdb/redbook/atlas/Table.html
+<http://rredc.nrel.gov/solar/old_data/nsrdb/redbook/atlas/Table.html>  
+       for monthly plots by various orientations ( a better analytical
+tool).
+ 
+Not to be too contrary but I spot-checked the tabular data from the source
+in my original email with the homepower map above and the general patterns
+do seem to correlate pretty well. 
+ 
+Finally, for those of you that are interested, Jeff Haberl responded to me
+directly with a FPS resource: "I believe that there is a map on Kreith and
+Kreider's Solar energy handbook...that shows this for the world...using the
+Angstrom-Lof minutes of sunshine."  Thanks to Jeff.
+ 
+ 
+----- Original Message ----- 
+From: Chip  <mailto:cbarnaby at wrightsoft.com> Barnaby 
+To: Jon Maxwell <mailto:jmaxwell at aspensys.com>  
+Cc: BLDG-SIM at GARD.COM <mailto:BLDG-SIM at GARD.COM>  
+Sent: Wednesday, September 26, 2001 9:12 AM
+Subject: Re: [BLDG-SIM] Fraction of Possible Sunshine
+
+
+Jon --
+
+I don't know of a source for a map, but I do have a question ... what do you
+want it for?
+
+I am trying to learn how people use this statistic.  It has been
+traditionally observed, so people keep observing it.  I am involved in work
+on ASHRAE TC 4.2 (Weather Information) that is developing methods for
+extracting solar radiation from weather data measured by ASOS (Automated
+Surface Observation System) now used to observe weather at most sites in the
+US.  ASOS has planned to add sunshine meters to their machines (that plan is
+now delayed due to funding), but it would be just about as easy, and much
+more useful (in our opinion) to measure solar radiation.  Sunshine fraction
+is a notoriously bad predictor of solar radiation (the correlations are
+pretty poor).  With trivial data processing, minute-by-minute solar
+radiation data can be used to estimate sunshine, but not vice-versa.
+
+Thus as far as I know the solar and building simulation community has no use
+for sunshine data -- the statistic should be declared obsolete from our
+point of view.  However, at every opportunity, I try to find why people want
+it, there may be some other uses that we don't know about.
+
+So, if you're willing, please let me know what you're up to.
+
+To the rest of BLDG-SIM: anyone else know of uses for sunshine fraction?
+
+Thanks, Chip Barnaby
+
+
+
+Does anyone out there have or know of a source for a graphical illustration
+of Fraction of Possible Sunshine over the U.S.  I found a very good table of
+such data at http://cdiac.esd.ornl.gov/ftp/ndp021/
+<http://cdiac.esd.ornl.gov/ftp/ndp021/>  (file #12), but haven't had any
+luck with a map.  Thanks in advance.
+ 
+Jon Maxwell, PE
+Aspen Systems Corp.
+jmaxwell at aspensys.com <mailto:jmaxwell at aspensys.com>  
+ 
+ 
+
+
+
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+---------------------------------------------------------
+Chip Barnaby                   cbarnaby at wrightsoft.com
+Vice President of Research
+Wrightsoft Corp.               781-862-8719 x118 voice
+394 Lowell St, Suite 12        781-861-2058 fax
+Lexington, MA 02420            www <http://www.wrightsoft.com/> .wrightsoft.
+com <http://www.wrightsoft.com/> 
+--------------------------------------------------------- 
+
+
+
+=====================================================You received this
+e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20010926/eca5523e/attachment.htm>
+
+From bradley at tess-inc.com  Fri Sep 28 10:01:39 2001
+From: bradley at tess-inc.com (David Bradley)
+Date: Fri, 28 Sep 2001 12:01:39 -0500
+Subject: [BLDG-SIM] TRNSYS energy modeling software training
+Message-ID: <MDAEMON-F200109281159.AA594400pd80000079807@gard.com>
+
+Dear BLDG-SIM subscribers,
+
+Thermal Energy System Specialists (TESS) it pleased to announce that they will be offering a three day TRNSYS training course in January 2002. TRNSYS is a very flexible thermal modeling tool akin to DOE2 and EnergyPlus. It has been under continual development by the University of Wisconsin, TESS and three other commercial partners in Europe for over 25 years. You can find out more about TRNSYS by visiting the website http://www.trnsys.com. Some of the course topics are listed below and complete information on the TRNSYS Training 2002 course is available on the TESS website at http://www.tess-inc.com. 
+
+Course topics will include:
+- Use of the standard TRNSYS programs IISiBat and Prebid
+- Modeling buildings in TRNSYS (both conventional and unconventional designs)
+- Creating distributable TRNSYS applications using TRNSED
+- Adding new capabilities and component models to TRNSYS
+- Using SimCad with TRNSYS. SimCad is a CAD based tool for simaltaneously creating a graphical representation and a thermal model of a building in TRNSYS
+- Performing combined thermal and natural ventilation studies using TRNSYS with COMIS and CONTAM/AIRNET.
+
+We would welcome the opportunity to see you in Madison this winter and if you have any questions about the course, please do not hesitate to contact us!
+
+My apologies for any cross listings...
+
+Cheers,
+	David
+*********************************************************************************
+Thermal Energy System Specialists (TESS)
+David BRADLEY			5610 Medical Circle
+Engineer					Suite 31
+Phone:? (608) 274-2577	Madison WI 53719
+Fax:? (608) 278-1475		USA
+E-mail:?? bradley at tess-inc.com 		
+Web Page:	www.tess-inc.com
+
+"Providing software solutions for today's energy engineering projects"
+*********************************************************************************
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

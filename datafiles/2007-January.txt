@@ -1,0 +1,5023 @@
+From renee at ambient-e.com  Mon Jan  1 19:45:51 2007
+From: renee at ambient-e.com (Renee Azerbegi)
+Date: Mon, 1 Jan 2007 20:45:51 -0700
+Subject: [bldg-sim] displacement ventilation again
+In-Reply-To: <MDAEMON-F200612281202.AA0256687pd80002400442@gard.com>
+Message-ID: <MDAEMON-F200701012150.AA5029578pd80001348741@gard.com>
+
+ 
+I have a question which might have been proposed to the Bldg. Sim. in the past but I'm not sure. Regarding underfloor air systems, since  DOE2 assumes a well mixed space and cannot model the destratification effect and since the supply air temperature for heating and cooling tends to be much lower/higher than typical conditions, the throttling range tends to be quite high. There is an exception in ASHRAE 90.1 Appendix G that if you have a high throttling range you can try to argue an exception to this but I'm not sure if LEED would accept this. This might be similar to the natural ventilation issue. Would an underfloor air system which has typically 62 F to 64 F SAT with room thermostat settings of 72 to 75 F fall under this exception for LEED since DOE2 cannot mode the distratification effect or do most people try to force the throttling range down to meet LEED/ASHRAE requirements which is what I have done in the past.  I did not see anything in the USGBC Credit Interpretation Rulings regarding this subject. I have heard the next version of eQuest should be able to model underfloor air systems and that Energy Plus does but until then.....
+ 
+Thank you,
+ 
+Ren?e
+
+Ren?e Azerbegi, CEM, LEED-AP
+
+ambient energy - solar & sustainable design solutions
+
+t 303.278.1532 | f 303.278.8533 | c 303.885.2695 | renee at ambient-e.com | ambient-e.com  
+
+ 
+
+ 
+
+
+________________________________
+
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Mike Tillou
+Sent: Thursday, December 28, 2006 10:56 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Modeling buildings with natural ventilation for Appendix G
+
+
+There is no specific temperature range called out but Section G3.1.2.2 does limit the number of unmet heating and cooling hours your simulation can have.  The heating and cooling schedules you establish would be the required high / low temperatures you would need to meet.  
+ 
+Again my interpretation of the Exception Calculation methodology is that if I feel the design I am modeling doesn't need to meet G3.1.2.2 then I need to argue the case why.
+   
+ 
+
+Michael Tillou, PE 
+ETC Group, Inc - Energy Engineering for a Sustainable Future 
+Ph:413-458-9870 
+
+	-----Original Message-----
+	From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Jon McHugh
+	Sent: Thursday, December 21, 2006 2:44 PM
+	To: bldg-sim at gard.com
+	Subject: [bldg-sim] Modeling buildings with natural ventilation for Appendix G
+	
+	
+	Mike,
+	 
+	The prescribed range being what?  Is there a schedule of high and low  temperatures that are called out in Appendix G?
+	 
+	Thanks,
+	 
+	Jon
+
+________________________________
+
+	From: Mike Tillou [mailto:miket at etcgrp.com] 
+	Sent: Thursday, December 21, 2006 11:12 AM
+	To: Jon McHugh; bldg-sim at gard.com
+	Subject: RE: [bldg-sim] Modeling buildings with natural ventilation for Appendix G
+	
+	
+	I have always gone under the assumption that my results have to meet the criteria for zone temperatures being within the prescribed range.
+	 
+	MMT
+	 
+
+	Michael Tillou, PE 
+	ETC Group, Inc - Energy Engineering for a Sustainable Future 
+	Ph:413-458-9870 
+
+		-----Original Message-----
+		From: Jon McHugh [mailto:Jon.McHugh at h-m-g.com] 
+		Sent: Tuesday, December 19, 2006 1:25 PM
+		To: Mike Tillou; bldg-sim at gard.com
+		Subject: RE: [bldg-sim] Modeling buildings with natural ventilation for Appendix G
+		
+		
+		Mike,
+		 
+		Does this proposed methodology place limits on the number of occupied hours above or below a given temperature/RH?
+		 
+		Thanks,
+		 
+		Jon McHugh
+
+________________________________
+
+		From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Mike Tillou
+		Sent: Tuesday, December 19, 2006 7:18 AM
+		To: bldg-sim at gard.com
+		Subject: [bldg-sim] Modeling buildings with natural ventilation for Appendix G
+		
+		
+		Ramana,
+		 
+		The ASHRAE 90.1 ECB sub-committee is working on a methodology for simulating natural ventilation within the framework of Appendix G but I don't think its finished yet.  In the meantime here is what I would recommend.
+		 
+		Appendix G / 90.1 ECB allows you to use an exception calculation method to simulate hybrid systems or unique efficiency measures to demonstrate above-standard performance.  I think this would certainly apply in your case.   
+		 
+		Here's what I have done on projects requiring an exception calculation method.  
+		1. Establish your energy cost budget and your design energy case following the Appendix G guidelines.  
+		2. Create a second model using the Design Energy Case as the baseline and make the necessary modifications to simulate radiant heating / no cooling via natural ventilation.  
+		3. Report the energy savings from your exception calculation as a line item at the end of your LEED EA-1 summary table (similar to how renewable energy is reported). 
+		4.  Include a seperate summary table  for the exception calculation showing the energy end-use breakdown and how you arrived at the cost savings.  Show both the baseline and proposed energy use.  
+		5. Make sure the savings are reasonable and prudent for the system you are proposing.  
+		6. Document any changes to the model especially changes to schedules that were necessary to properly simulate your system. 
+		7. Make it easy for someone to review your assumptions and the methodology you used to estimate the savings
+		 
+		I hope this helps.  Good luck.
+		 
+		Mike
+		 
+
+		Michael Tillou, PE 
+		ETC Group, Inc - Energy Engineering for a Sustainable Future 
+		Ph:413-458-9870 
+
+			-----Original Message-----
+			From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Ramana Koti
+			Sent: Monday, December 18, 2006 4:53 PM
+			To: bldg-sim at gard.com
+			Subject: [bldg-sim] Modeling buildings with natural ventilation for Appendix G
+			
+			
+			Dear all,
+			
+			Is ignoring natural ventilation in both proposed and baseline designs an accepted/fair way of modeling based on Appendix G (ASHRAE 90.1-2004)?
+			
+			Part of the proposed design has (radiant heating + natural ventilation) with no cooling which was modeled as a radiant slab, no cooling, natural ventilation ignored. 
+			
+			But the Baseline HVAC system based on Appendix G is System 5: Packaged VAV w/Reheat. (Natural ventilation can be modeled based on Air Change method or Sherman Grimsrud method though I do not know how to do it).
+			
+			I cannot decide how to make the baseline and proposed comparable with respect to Natural Ventilation (in a manner acceptable to LEED review), suggestions will be appreciated.
+			
+			Thanks,
+			
+			Ramana Koti, Sustainable Building Analyst 
+			LEED AP
+			
+			ELEMENTS | a division of berkebile nelson immenschuh mcdowell architects
+			106 W. 14th Street Suite 200
+			Kansas City, Missouri 64105
+			
+			p 816.783.1635 f 816.783.1501
+			www.bnim.com| elements.bnim.com
+			
+			
+
+		==================
+		You received this e-mail because you are subscribed 
+		to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+		from this mailing list send a blank message to 
+		BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+	==================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070101/2b5edd1b/attachment.htm>
+
+From gmehta75 at gmail.com  Wed Jan 31 21:29:19 2007
+From: gmehta75 at gmail.com (Gaurav Mehta)
+Date: Wed, 31 Jan 2007 21:29:19 -0800
+Subject: [bldg-sim] Costa Rica weather file
+References: <MDAEMON-F200701311655.AA5544515pd80002477633@gard.com>
+Message-ID: <MDAEMON-F200701312334.AA3400328pd80001361528@gard.com>
+
+Ramana,
+
+You may look at Nicaragua weather files. Managua the capital of Nicaragua is located at Lat. 12 deg N Lat. and Long. 86 deg W or Rivas in Nicaragua located at Lat. 11 deg N and Long. 85.8 deg W and San Jose' the capital of Costa Rica located at Lat. 9 deg N and Long 84 deg W. These cities are close to each other and have similar tropical climatic conditions and hence for your purpose this may be a quick and easy option. 
+Otherwise, you may contact some authority in Costa Rica that records the weather, it could be either the local government of that city or the airport.
+
+
+Best regards,
+
+Gaurav
+
+
+  ----- Original Message ----- 
+  From: Ramana Koti 
+  To: bldg-sim at gard.com 
+  Sent: Wednesday, January 31, 2007 14:50
+  Subject: [bldg-sim] Costa Rica weather file
+
+
+  All,
+
+  I'm looking for Costa Rica weather file, preferably in energy plus format for climate analysis using climate consultant. It's not listed on the energy plus weather data website. Any pointers to alternate ways of doing it? 
+
+  Thanks,
+  -- 
+  Ramana Koti, Sustainable Building Analyst
+  LEED AP
+
+  ELEMENTS | a division of berkebile nelson immenschuh mcdowell architects
+  106 W. 14th Street Suite 200
+  Kansas City, Missouri 64105 
+
+  p 816.783.1635 f 816.783.1501
+  www.bnim.com| elements.bnim.com
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070131/db75312b/attachment.htm>
+
+From ADahlstrom at AKF-ENG.com  Wed Jan 31 18:29:12 2007
+From: ADahlstrom at AKF-ENG.com (Dahlstrom, Aaron)
+Date: Wed, 31 Jan 2007 21:29:12 -0500
+Subject: [bldg-sim] how much cold air infiltration can I really expect?
+Message-ID: <MDAEMON-F200701312034.AA3417609pd80001361429@gard.com>
+
+I have noticed that infiltration makes up most of the winter heating
+load for several high-bay single-story commercial buildings I'm
+modeling. (big-box retailer, light manufacturing facility)
+ 
+I've used a variety of methods - ACH estimates, CFM / so of facade (per
+ASHRAE F27.10), and Area(crack) x Velocity(winter wind) - to estimate
+infiltration.
+ 
+Have other people stuck with these methods? Or does anyone know of
+better ways to estimate infiltration?
+ 
+Aaron Dahlstrom
+AKF Engineers, LLP
+1500 Walnut Street, Suite 1400
+Philadelphia, PA 19102 
+Phone:   (215) 282-2169
+Fax:        (215) 735-6706
+ <http://www.akf-engineers.com/> www.akf-engineers.com
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070131/f52c2d9c/attachment.htm>
+
+From ramana.koti at gmail.com  Wed Jan 31 14:50:44 2007
+From: ramana.koti at gmail.com (Ramana Koti)
+Date: Wed, 31 Jan 2007 16:50:44 -0600
+Subject: [bldg-sim] Costa Rica weather file
+Message-ID: <MDAEMON-F200701311655.AA5544843pd80001361337@gard.com>
+
+All,
+
+I'm looking for Costa Rica weather file, preferably in energy plus format
+for climate analysis using climate consultant. It's not listed on the energy
+plus weather data website. Any pointers to alternate ways of doing it?
+
+Thanks,
+-- 
+Ramana Koti, Sustainable Building Analyst
+LEED AP
+
+ELEMENTS | a division of berkebile nelson immenschuh mcdowell architects
+106 W. 14th Street Suite 200
+Kansas City, Missouri 64105
+
+p 816.783.1635 f 816.783.1501
+www.bnim.com| elements.bnim.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070131/4fc6658b/attachment.htm>
+
+From srunyon at rmf.com  Wed Jan 31 11:09:34 2007
+From: srunyon at rmf.com (Scott Runyon)
+Date: Wed, 31 Jan 2007 14:09:34 -0500
+Subject: [bldg-sim] Equest - Process Loads: Heat Gain or Consumption
+Message-ID: <MDAEMON-F200701311315.AA1529890pd80001361195@gard.com>
+
+When I am performing calculations in Equest I am confused about several
+screens:
+
+ 
+
+1)     Lighting: I am asked to input the W/ft^2.   Does this only
+account for the amount of electricity consumed to provide light to the
+space and/or does it also account for the heat the light gives off?
+
+ 
+
+2)     Miscellaneous Equipment: If I have a coffee machine or computer,
+does this ask for the energy consumption only and/or the heat
+contributed to the space?
+
+ 
+
+3)  Process Loads: on the screen there are two columns under Electric
+and two columns under Process Loads.  I want to make sure that the heat
+gain from my pumps, chillers, etc is reflected in these spaces. If I
+type in the btu/sf under process loads will that do the trick?  Does the
+electric side need to know the total electric consumption in w/ft^2 for
+these pieces of equipment or can I leave it blank? My big issue is
+accounting for the heat gain from the equipment and what each of the
+four columns represents: energy consumption or heat output.
+
+ 
+
+As always, Thank You for your help.
+
+Scott Runyon, LEED AP 
+
+ 
+
+ 
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070131/8da285fe/attachment.htm>
+
+From geraldpde at yahoo.com  Wed Jan 31 08:27:19 2007
+From: geraldpde at yahoo.com (Gerald Pde)
+Date: Wed, 31 Jan 2007 08:27:19 -0800 (PST)
+Subject: [bldg-sim] Min Outdoor Air
+In-Reply-To: <MDAEMON-F200701301559.AA5921281pd80002467881@gard.com>
+Message-ID: <MDAEMON-F200701311032.AA3220859pd80001361075@gard.com>
+
+Steve,
+Here are my 2 cents. I don't know what your inputs are
+but you might want to check if there are other values
+that might be over-riding the min OA rate.
+Make sure that the OA rate is set only by the Min OA
+fraction and not by occupancy or actual CFM values.
+
+Hope this helps.
+Gerald
+
+
+
+
+--- Steve Barnell <energy at mad.scientist.com> wrote:
+
+> Hello, I am modelling a building in Canada with
+> eQUEST and have several
+> runs varying the min OA rate. In comparing the runs
+> I noticed that the
+> cooling comsumption varied as expected however the
+> Space Heating
+> comsumption is not altered. This seems counter
+> intuitive to me. Any
+> ideas? -Steve
+> 
+
+
+
+ 
+____________________________________________________________________________________
+The fish are biting. 
+Get more visitors on your site using Yahoo! Search Marketing.
+http://searchmarketing.yahoo.com/arp/sponsoredsearch_v2.php
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From bradley at tess-inc.com  Wed Jan 31 07:40:59 2007
+From: bradley at tess-inc.com (David Bradley)
+Date: Wed, 31 Jan 2007 09:40:59 -0600
+Subject: [bldg-sim] TRNSYS Training Reminder
+Message-ID: <MDAEMON-F200701310946.AA460300pd80001361018@gard.com>
+
+Dear Colleagues,
+
+My apologies for the cross postings.
+
+A final reminder that we are holding a TRNSYS Training course will be held 
+in Madison, WI on February 20-22, 2007.
+
+The course will cover the following topics:
+
+Introduction to Energy Simulations with TRNSYS
+Simulating Building Energy Use with TRNSYS
+Creating New Components
+Creating Distributable TRNSYS Simulations with TRNSED
+
+An additional day will be offered on working with NIST's CONTAM software to 
+perform air flow and natural ventilation studies in conjunction with TRNSYS.
+
+Course participants will receive a free copy of TRNOPT, a tool that allows 
+users to perform optimizations of TRNSYS input files. Anyone interested in 
+more information about the course can check the course home page and 
+download a registration form on the web at http://www.trnsys.com by 
+clicking on the "Training Courses" link. Please do not hesitate to contact 
+us if you have any questions.
+
+Kind regards,
+  David Bradley
+
+
+****************************************************************************************
+Thermal Energy System Specialists (TESS), LLC
+David BRADLEY                           2916 Marketplace Drive - Suite 104
+Partner                                        Madison, WI 53719
+Phone: (608) 274-2577 USA
+Fax: (608) 278-1475
+E-mail: bradley at tess-inc.com
+Web Pages:  http://www.tess-inc.com     and      http://www.trnsys.com
+
+"Providing software solutions for today's energy engineering projects"
+****************************************************************************************
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From geraldpde at yahoo.com  Wed Jan 31 07:11:28 2007
+From: geraldpde at yahoo.com (Gerald Pde)
+Date: Wed, 31 Jan 2007 07:11:28 -0800 (PST)
+Subject: [bldg-sim] Package VAV w/reheat Versus CHW VAV w/reheat
+In-Reply-To: <MDAEMON-F200701300856.AA5608703pd80002461043@gard.com>
+Message-ID: <MDAEMON-F200701310916.AA1628437pd80001360976@gard.com>
+
+John,
+It might be that your CHW loop is on "Standby" mode
+which might require for your loop to be always loaded.
+Try setting it to "Demand" and see if that makes any
+difference.
+
+Gerald
+
+
+
+--- "Aulbach, John" <jaulbach at nexant.com> wrote:
+
+>  
+> Hi all:
+> 
+> I swear this continued comparison will send me to an
+> early grave.
+> 
+> ASHRAE 90.1 requires a building less than 5 stories
+> and between 75K -
+> 150K floor area to have a package VAV/reheat as its
+> system. There are
+> those designers that like the CHW VAV system better.
+> There is a penalty
+> of having a running CHW pump in that case.
+> 
+> However, I just did an eQuest comparison between the
+> two systems, all
+> things equal (I hope). The CHW system space cooling
+> used 60% MORE energy
+> than the package system. In the dead of summer, the
+> CHW beats the
+> package. But in the winter, there seems to be a
+> false load the chiller
+> is seeing, as the package cooling is almost nil, but
+> the CHW system is
+> still has 2/3 of the summer usage.
+> 
+> I THINK I have CHW reset correctly programmed for
+> the CHW system.
+> 
+> ANY IDEAS ???
+> 
+> John R. Aulbach, PE, CEM
+> Project Manager
+> Nexant, Inc.
+> 100 North Barranca, Suite 820
+> West Covina, CA 91791 USA
+> Phone: 626-430-9054
+> Fax: 626-430-9060
+> email: jaulbach at nexant.com
+>  
+> 
+>
+=====================================================You
+> received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To
+> unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+
+
+
+ 
+____________________________________________________________________________________
+Never Miss an Email
+Stay connected with Yahoo! Mail on your mobile.  Get started!
+http://mobile.yahoo.com/services?promote=mail
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From vaipotnis at hotmail.com  Tue Jan 30 16:45:43 2007
+From: vaipotnis at hotmail.com (Vaibhav Potnis)
+Date: Wed, 31 Jan 2007 06:15:43 +0530
+Subject: [bldg-sim] Job Posting in Portland, Oregon
+In-Reply-To: <MDAEMON-F200701301620.AA202078pd80002472058@gard.com>
+Message-ID: <MDAEMON-F200701301850.AA5045171pd80001360749@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070131/b345f2fb/attachment.htm>
+
+From jaulbach at nexant.com  Tue Jan 30 14:15:08 2007
+From: jaulbach at nexant.com (Aulbach, John)
+Date: Tue, 30 Jan 2007 14:15:08 -0800
+Subject: [bldg-sim] Min Outdoor Air
+In-Reply-To: <MDAEMON-F200701301559.AA5921718pd80002467944@gard.com>
+Message-ID: <MDAEMON-F200701301620.AA2014453pd80001360531@gard.com>
+
+Steve:
+ 
+What type of HVAC system are you running? A VAV system Outside air will only see the mixing with return air upstream of the coil. The cooling coil will adjust as required to maintain the 55 ?F setpoint need as outside conditions change.  Downstream, the reheat coils will never see the outside conditions.
+ 
+Correct me if I am wrong...
+
+________________________________
+
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Steve Barnell
+Sent: Tuesday, January 30, 2007 1:54 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Min Outdoor Air
+
+
+Hello,
+ 
+I am modelling a building in Canada with eQUEST and have several runs varying the min OA rate. In comparing the runs I noticed that the cooling comsumption varied as expected however the Space Heating comsumption is not altered. This seems counter intuitive to me. Any ideas?
+ 
+-Steve
+
+--  <http://a8-asy.a8ww.net/a8-ads/adftrclick?redirectid=en-mail_a_01>  
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070130/a8e6e306/attachment.htm>
+
+From Drury.Crawley at EE.DOE.GOV  Tue Jan 30 14:01:54 2007
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Tue, 30 Jan 2007 17:01:54 -0500
+Subject: [bldg-sim] passive solar simulation
+Message-ID: <MDAEMON-F200701301610.AA101500pd80001360503@gard.com>
+
+
+Check the comparison of 20 tools available here:
+http://www.eere.energy.gov/buildings/tools_directory/pdfs/contrasting_the_capabilities_of_building_energy_performance_simulation_programs_v1.0.pdf
+
+
+
+
+                                                                                                            
+                      "Kingsley, Michael                                                                    
+                      L."                      To: bldg-sim at gard.com                                        
+                      <MICHAEL.L.KINGSLEY      cc:                                                          
+                      @saic.com>               Subject:  [bldg-sim] passive solar simulation                
+                      Sent by:                                                                              
+                      bldg-sim at gard.com                                                                     
+                                                                                                            
+                                                                                                            
+                      01/30/2007 11:15 AM                                                                   
+                      Please respond to                                                                     
+                      MICHAEL.L.KINGSLEY                                                                    
+                                                                                                            
+                                                                                                            
+                                                                                                            
+
+
+I am interested in comments and recommendations as to which energy
+simulation programs would be most appropriate for modeling passive solar
+buildings (heating especially, but I'm interested in passive
+cooling/ventilation too).  I would really appreciate any references to
+technical papers or case studies that deal with this topic too.
+
+Thank you in advance for your input.
+
+Mike Kingsley
+Energy Engineer
+
+
+
+
+
+=====================================================You received this
+e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+
+
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From cbalbach at psdconsulting.com  Tue Jan 30 13:56:31 2007
+From: cbalbach at psdconsulting.com (Chris Balbach)
+Date: Tue, 30 Jan 2007 16:56:31 -0500
+Subject: [bldg-sim] passive solar simulation
+In-Reply-To: <MDAEMON-F200701301047.AA4748781pd80002464778@gard.com>
+References: <MDAEMON-F200701301047.AA4748781pd80002464778@gard.com>
+Message-ID: <MDAEMON-F200701301601.AA0155468pd80001360482@gard.com>
+
+Mike:
+
+Check out NREL's SUNREL (formerly SERI-RES) for modeling advanced 
+passive energy features such as rock bins, phase change materials, and 
+advanced infiltration/natural ventilation algorithms. There are some 
+papers published by NREL regarding the natural ventilation/infiltration 
+schemes - (Google SUNREL & PDF). The SUNREL engine is an multizone 
+hourly energy modeling program that accepts TMY annual weather files and 
+can calculate the hourly heating and cooling  loads. The SUNREL engine 
+inputs takes ascii text input files. - It's a powerful residential 
+energy modeling engine.
+
+DISCLAIMER - the company I work for, Performance Systems Development, 
+has developed the only commercial front end for SUN-REL that I am aware 
+of - the software is called "TREAT". Check out www.treatsoftware.com for 
+functionality.
+
+
+Have fun - Chris
+
+Chris Balbach, P.E., LEED AP
+Manager of Energy Engineering Services
+Performance Systems Development
+124 Brindley Street, Ithaca, NY 14850
+www.psdconsulting.com
+(607)-277-6240
+
+
+Mark R. wrote:
+> Check out SBIC's "Designing Low Energy Buildings: Passive Solar 
+> Strategies & Energy 10 Software"
+>  
+> http://www.sbicouncil.org/store/e10.php?PHPSESSID=fda65f421e42bc28b1ce7fe25e589561
+>  
+>
+> Mark Zoeteman, FTC&H
+>
+> ------------------------------------------------------------------------
+> *From:* bldg-sim at gard.com [mailto:bldg-sim at gard.com] *On Behalf Of 
+> *Kingsley, Michael L.
+> *Sent:* Tuesday, January 30, 2007 11:16 AM
+> *To:* bldg-sim at gard.com
+> *Subject:* [bldg-sim] passive solar simulation
+>
+> I am interested in comments and recommendations as to which energy 
+> simulation programs would be most appropriate for modeling passive 
+> solar buildings (heating especially, but I'm interested in passive 
+> cooling/ventilation too).  I would really appreciate any references to 
+> technical papers or case studies that deal with this topic too.
+>
+>  
+>
+> Thank you in advance for your input.
+>
+>  
+>
+> Mike Kingsley
+>
+> Energy Engineer
+>
+>  
+>
+> ==================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>   
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>   
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070130/297ef57c/attachment.htm>
+
+From glenn.haynes at rlw.com  Tue Jan 30 13:56:53 2007
+From: glenn.haynes at rlw.com (Glenn Haynes)
+Date: Tue, 30 Jan 2007 13:56:53 -0800
+Subject: [bldg-sim] Package VAV w/reheat Versus CHW VAV w/reheat
+Message-ID: <MDAEMON-F200701301602.AA0243906pd80001360485@gard.com>
+
+John,
+
+I am assuming your packaged system is DX.  If not, the next few comments
+might be a little presumptuous, especially if you are already doing
+them.
+
+Is it possible you are letting DOE2 over-specify the chilled water and
+condenser water pumps?  I found that it was necessary to go through some
+careful design steps to accurately specify pumps (flows, heads,
+efficiencies) in my water-cooled chiller models to obtain valid results.
+Also, you need to be careful in specifying the right two-way chilled
+water coil valve(s) in the secondary chilled water loop if you are using
+variable capacity pumping.  The same design rigor may be needed for the
+cooling tower specification.
+
+If the CHW system is running at 2/3 of summer kW usage during the time
+the package system is practically nil, then it must be due to auxiliary
+loads, and not the chiller, assuming the system schedules and control
+strategies for both systems are achieving the same effect within the
+cooled spaces.
+
+If DOE2 is allowed to default on most specifications, it can sometimes
+be difficult to trace the real cause of an obvious flaw in the results
+back to what you actually specified within the model.  It's probably
+best to nail down everything if you need to accurately compare such a
+simple system to one so complex.
+
+Good luck with this issue.  Please let us know if and when you identify
+the real problem.  Could be educational for some of us.
+
+Glenn Haynes, PE
+Senior Consulting Engineer
+RLW Analytics, Inc.
+860-346-5001x202
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Aulbach,
+John
+Sent: Monday, January 29, 2007 4:37 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Package VAV w/reheat Versus CHW VAV w/reheat
+
+ 
+Hi all:
+
+I swear this continued comparison will send me to an early grave.
+
+ASHRAE 90.1 requires a building less than 5 stories and between 75K -
+150K floor area to have a package VAV/reheat as its system. There are
+those designers that like the CHW VAV system better. There is a penalty
+of having a running CHW pump in that case.
+
+However, I just did an eQuest comparison between the two systems, all
+things equal (I hope). The CHW system space cooling used 60% MORE energy
+than the package system. In the dead of summer, the CHW beats the
+package. But in the winter, there seems to be a false load the chiller
+is seeing, as the package cooling is almost nil, but the CHW system is
+still has 2/3 of the summer usage.
+
+I THINK I have CHW reset correctly programmed for the CHW system.
+
+ANY IDEAS ???
+
+John R. Aulbach, PE, CEM
+Project Manager
+Nexant, Inc.
+100 North Barranca, Suite 820
+West Covina, CA 91791 USA
+Phone: 626-430-9054
+Fax: 626-430-9060
+email: jaulbach at nexant.com
+ 
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+ 
+ _________________
+
+ 
+CONFIDENTIALITY NOTICE
+IMPORTANT: This communication, together with any attachments hereto or links contained herein, is for the sole use of the intended recipient(s) and may contain information that is confidential and/or legally protected and privileged. If you are not the intended recipient, you are hereby notified that any review, redisclosure, copying, dissemination, distribution, forwarding, printing or use of this communication or its attachments is STRICTLY PROHIBITED. If you have received this communication in error, please notify the sender immediately by return e-mail message and delete the original and all copies of the communication, along with any attachments hereto or links herein, from your system. If you disclose this communication to any person or entity without our prior written consent, you may be subject to an action for breach of confidentiality, in addition to all other actions in law and in equity.
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From energy at mad.scientist.com  Tue Jan 30 13:54:20 2007
+From: energy at mad.scientist.com (Steve Barnell)
+Date: Tue, 30 Jan 2007 16:54:20 -0500
+Subject: [bldg-sim] Min Outdoor Air
+Message-ID: <MDAEMON-F200701301559.AA5921781pd80001360478@gard.com>
+
+Hello, I am modelling a building in Canada with eQUEST and have several
+runs varying the min OA rate. In comparing the runs I noticed that the
+cooling comsumption varied as expected however the Space Heating
+comsumption is not altered. This seems counter intuitive to me. Any
+ideas? -Steve
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070130/b008d2ba/attachment.htm>
+
+From peter.alspach at arup.com  Tue Jan 30 11:27:00 2007
+From: peter.alspach at arup.com (Peter Alspach)
+Date: Tue, 30 Jan 2007 11:27:00 -0800
+Subject: [bldg-sim] Package VAV w/reheat Versus CHW VAV w/reheat
+Message-ID: <MDAEMON-F200701301332.AA3208734pd80001360312@gard.com>
+
+ You might also double check that your chilled water loop control is set
+to demand instead of standby. standby operation can cause lots of
+parasitic energy consumption during no load periods.
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Mark
+Nieman
+Sent: Tuesday, January 30, 2007 7:54 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Package VAV w/reheat Versus CHW VAV w/reheat
+
+John, you might run hourly reports on the compressor power inputs to see
+if their unloading curves are reasonable.
+
+Here's a step through for those not familiar with the hourly reports:
+1. Under the "Mode" menu, switch to "Detailed Data Edit".
+2. Select the "Project & Site" button.
+3. Right-click on the Project name and select, "Create Hourly Report
+Block..."
+4. Name your block and "Create from scratch".
+5. Under Variable Type, select one of your chillers (something like
+Chiller1a if using the default name).
+6. Under the Variable List, pick your variables, like "Assigned load
+(already selected", "Operating capacity at current conditions" and
+"Electrical power consumed".
+7. Then, under the Hourly Results Selection dialog, pick "New Report" at
+the bottom of the dialog.
+8. Name your report, create from scratch.
+9. For Report Schedule, select "Hourly Report Schedule". For First
+Report Block, select your newly created Report Block.
+10. Create any other required Report Blocks and then highlight your new
+Report and select all the applicable Report Blocks.
+11. Select Done and run your model.
+12. With the current version of eQUEST on the doe2.com website, you can
+now return to the Input Building Description and select "File" on the
+menu and "Export Hourly Results...". Select the appropriate run and
+click Export. It will create a .csv file and asks you to select the
+report and select Open.
+13. You'll likely see the default reports in the first 30 columns, but
+your new custom reports will be to the right of that default output
+data.
+14. You can then do a little post production work on the numbers to see
+if the part loading is reasonable. I did a simple test building with
+chilled water and got between 0.3 kW/ton and 3.4 kW/ton for the chiller
+operation. You can then compare this kind of info with your chiller
+manufacturer data to see if it makes sense. Often, water cooled chillers
+can only unload to 30% (lower with VFD's), depending on the type. Also,
+don't forget that there is also cooling tower energy in addition to the
+pumps. You may want to create hourly reports for those too. You might
+find some surprises (depending on your inputs, of course) with the way
+the CT and pumps are operating. Reports can also be made for the CHW and
+CW temperatures to verify reset.
+
+
+Mark Nieman, PE, CEM
+Sr. Energy Engineer
+McKinstry Essention
+Direct: (206) 832-8152
+Cell: (206) 510-4760
+FAX: (206) 832-8552
+http://www.mckinstry.com
+"For The Life Of Your Building"
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Aulbach,
+John
+Sent: Monday, January 29, 2007 1:37 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Package VAV w/reheat Versus CHW VAV w/reheat
+
+ 
+Hi all:
+
+I swear this continued comparison will send me to an early grave.
+
+ASHRAE 90.1 requires a building less than 5 stories and between 75K -
+150K floor area to have a package VAV/reheat as its system. There are
+those designers that like the CHW VAV system better. There is a penalty
+of having a running CHW pump in that case.
+
+However, I just did an eQuest comparison between the two systems, all
+things equal (I hope). The CHW system space cooling used 60% MORE energy
+than the package system. In the dead of summer, the CHW beats the
+package. But in the winter, there seems to be a false load the chiller
+is seeing, as the package cooling is almost nil, but the CHW system is
+still has 2/3 of the summer usage.
+
+I THINK I have CHW reset correctly programmed for the CHW system.
+
+ANY IDEAS ???
+
+John R. Aulbach, PE, CEM
+Project Manager
+Nexant, Inc.
+100 North Barranca, Suite 820
+West Covina, CA 91791 USA
+Phone: 626-430-9054
+Fax: 626-430-9060
+email: jaulbach at nexant.com
+ 
+
+==================
+You received this e-mail because you are subscribed to the
+BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this mailing list
+send a blank message to BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+This email is the property of McKinstry or one of its affiliates and may
+contain confidential and/or privileged information. If you are not the
+intended recipient or have received this e-mail in error please notify
+the sender immediately and delete this e-mail. 
+
+Any unauthorized copying, disclosure or distribution of the material in
+this e-mail is strictly forbidden.
+
+==================
+You received this e-mail because you are subscribed to the
+BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this mailing list
+send a blank message to BLDG-SIM-UNSUBSCRIBE at GARD.COM
+____________________________________________________________
+Electronic mail messages entering and leaving Arup  business
+systems are scanned for acceptability of content and viruses
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From milne at ucla.edu  Tue Jan 30 09:53:36 2007
+From: milne at ucla.edu (Murray Milne)
+Date: Tue, 30 Jan 2007 09:53:36 -0800
+Subject: [bldg-sim] passive solar simulation
+In-Reply-To: <MDAEMON-F200701301047.AA4751156pd80002465144@gard.com>
+References: <MDAEMON-F200701301047.AA4751156pd80002465144@gard.com>
+Message-ID: <MDAEMON-F200701301459.AA5953671pd80001360403@gard.com>
+
+Mike...
+
+If you are doing residential buildings take a look at HEED (Home 
+Energy Efficient Design) on www.aud.ucla.edu/heed   Technical papers 
+are on www.aud.ucla.edu/energy-design-tools
+
+Murray Milne
+
+
+At 1/30/2007, Zoeteman, Mark R. wrote:
+>Check out SBIC's "Designing Low Energy Buildings: Passive Solar 
+>Strategies & Energy 10 Software"
+>
+><http://www.sbicouncil.org/store/e10.php?PHPSESSID=fda65f421e42bc28b1ce7fe25e589561>http://www.sbicouncil.org/store/e10.php?PHPSESSID=fda65f421e42bc28b1ce7fe25e589561
+>
+>
+>Mark Zoeteman, FTC&H
+>
+>----------
+>From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of 
+>Kingsley, Michael L.
+>Sent: Tuesday, January 30, 2007 11:16 AM
+>To: bldg-sim at gard.com
+>Subject: [bldg-sim] passive solar simulation
+>
+>I am interested in comments and recommendations as to which energy 
+>simulation programs would be most appropriate for modeling passive 
+>solar buildings (heating especially, but I'm interested in passive 
+>cooling/ventilation too).  I would really appreciate any references 
+>to technical papers or case studies that deal with this topic too.
+>
+>
+>
+>Thank you in advance for your input.
+>
+>
+>
+>Mike Kingsley
+>
+>Energy Engineer
+>
+>
+>
+>
+>
+>==================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+>
+>
+>
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+Murray 
+Milne                                                      Research 
+Professor
+UCLA,  Department of Architecture and Urban Design, Los Angeles, 90095
+             UCLA Office   Voice: 
+(310)206-7021                   Fax: (310)825-8959
+             Malibu Office  Voice: (310)454-7328            E-mail: 
+milne at ucla.edu
+All our  ENERGY DESIGN TOOLS  software can be downloaded free from:
+             http://www.aud.ucla.edu/energy-design-tools
+Please try HEED, Home Energy Efficient Design, and give us your thoughts:
+             http://www.aud.ucla.edu/heed
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From mrzoeteman at FTCH.com  Tue Jan 30 08:43:19 2007
+From: mrzoeteman at FTCH.com (Zoeteman, Mark R.)
+Date: Tue, 30 Jan 2007 11:43:19 -0500
+Subject: [bldg-sim] passive solar simulation
+Message-ID: <MDAEMON-F200701301047.AA4750359pd80001360103@gard.com>
+
+Check out SBIC's "Designing Low Energy Buildings: Passive Solar
+Strategies & Energy 10 Software"
+ 
+http://www.sbicouncil.org/store/e10.php?PHPSESSID=fda65f421e42bc28b1ce7f
+e25e589561
+ 
+
+Mark Zoeteman, FTC&H
+
+________________________________
+
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of
+Kingsley, Michael L.
+Sent: Tuesday, January 30, 2007 11:16 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] passive solar simulation
+
+
+
+I am interested in comments and recommendations as to which energy
+simulation programs would be most appropriate for modeling passive solar
+buildings (heating especially, but I'm interested in passive
+cooling/ventilation too).  I would really appreciate any references to
+technical papers or case studies that deal with this topic too.
+
+ 
+
+Thank you in advance for your input.
+
+ 
+
+Mike Kingsley
+
+Energy Engineer
+
+ 
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070130/bfe9cc55/attachment.htm>
+
+From MICHAEL.L.KINGSLEY at saic.com  Tue Jan 30 08:19:19 2007
+From: MICHAEL.L.KINGSLEY at saic.com (Kingsley, Michael L.)
+Date: Tue, 30 Jan 2007 11:19:19 -0500
+Subject: [bldg-sim] straw bale
+Message-ID: <MDAEMON-F200701301024.AA2433640pd80001360053@gard.com>
+
+I am interested in modeling a straw bale structure.  Has anyone modeled
+or seen case studies on models for straw bale structures before?  Any
+recommendations on modeling the straw as a building material?
+
+ 
+
+Thanks in advance!
+
+ 
+
+Mike Kingsley
+
+Energy Engineer
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070130/5300f07f/attachment.htm>
+
+From MICHAEL.L.KINGSLEY at saic.com  Tue Jan 30 08:15:40 2007
+From: MICHAEL.L.KINGSLEY at saic.com (Kingsley, Michael L.)
+Date: Tue, 30 Jan 2007 11:15:40 -0500
+Subject: [bldg-sim] passive solar simulation
+Message-ID: <MDAEMON-F200701301020.AA2053437pd80001360047@gard.com>
+
+I am interested in comments and recommendations as to which energy
+simulation programs would be most appropriate for modeling passive solar
+buildings (heating especially, but I'm interested in passive
+cooling/ventilation too).  I would really appreciate any references to
+technical papers or case studies that deal with this topic too.
+
+ 
+
+Thank you in advance for your input.
+
+ 
+
+Mike Kingsley
+
+Energy Engineer
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070130/e68394df/attachment.htm>
+
+From MARKN at McKinstry.com  Tue Jan 30 07:54:20 2007
+From: MARKN at McKinstry.com (Mark Nieman)
+Date: Tue, 30 Jan 2007 07:54:20 -0800
+Subject: [bldg-sim] Package VAV w/reheat Versus CHW VAV w/reheat
+In-Reply-To: <MDAEMON-F200701300856.AA5603500pd80002460744@gard.com>
+Message-ID: <MDAEMON-F200701300959.AA5959390pd80001359993@gard.com>
+
+John, you might run hourly reports on the compressor power inputs to see
+if their unloading curves are reasonable.
+
+Here's a step through for those not familiar with the hourly reports:
+1. Under the "Mode" menu, switch to "Detailed Data Edit".
+2. Select the "Project & Site" button.
+3. Right-click on the Project name and select, "Create Hourly Report
+Block..."
+4. Name your block and "Create from scratch".
+5. Under Variable Type, select one of your chillers (something like
+Chiller1a if using the default name).
+6. Under the Variable List, pick your variables, like "Assigned load
+(already selected", "Operating capacity at current conditions" and
+"Electrical power consumed".
+7. Then, under the Hourly Results Selection dialog, pick "New Report" at
+the bottom of the dialog.
+8. Name your report, create from scratch.
+9. For Report Schedule, select "Hourly Report Schedule". For First
+Report Block, select your newly created Report Block.
+10. Create any other required Report Blocks and then highlight your new
+Report and select all the applicable Report Blocks.
+11. Select Done and run your model.
+12. With the current version of eQUEST on the doe2.com website, you can
+now return to the Input Building Description and select "File" on the
+menu and "Export Hourly Results...". Select the appropriate run and
+click Export. It will create a .csv file and asks you to select the
+report and select Open.
+13. You'll likely see the default reports in the first 30 columns, but
+your new custom reports will be to the right of that default output
+data.
+14. You can then do a little post production work on the numbers to see
+if the part loading is reasonable. I did a simple test building with
+chilled water and got between 0.3 kW/ton and 3.4 kW/ton for the chiller
+operation. You can then compare this kind of info with your chiller
+manufacturer data to see if it makes sense. Often, water cooled chillers
+can only unload to 30% (lower with VFD's), depending on the type. Also,
+don't forget that there is also cooling tower energy in addition to the
+pumps. You may want to create hourly reports for those too. You might
+find some surprises (depending on your inputs, of course) with the way
+the CT and pumps are operating. Reports can also be made for the CHW and
+CW temperatures to verify reset.
+
+
+Mark Nieman, PE, CEM
+Sr. Energy Engineer
+McKinstry Essention
+Direct: (206) 832-8152
+Cell: (206) 510-4760
+FAX: (206) 832-8552
+http://www.mckinstry.com
+"For The Life Of Your Building"
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Aulbach,
+John
+Sent: Monday, January 29, 2007 1:37 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Package VAV w/reheat Versus CHW VAV w/reheat
+
+ 
+Hi all:
+
+I swear this continued comparison will send me to an early grave.
+
+ASHRAE 90.1 requires a building less than 5 stories and between 75K -
+150K floor area to have a package VAV/reheat as its system. There are
+those designers that like the CHW VAV system better. There is a penalty
+of having a running CHW pump in that case.
+
+However, I just did an eQuest comparison between the two systems, all
+things equal (I hope). The CHW system space cooling used 60% MORE energy
+than the package system. In the dead of summer, the CHW beats the
+package. But in the winter, there seems to be a false load the chiller
+is seeing, as the package cooling is almost nil, but the CHW system is
+still has 2/3 of the summer usage.
+
+I THINK I have CHW reset correctly programmed for the CHW system.
+
+ANY IDEAS ???
+
+John R. Aulbach, PE, CEM
+Project Manager
+Nexant, Inc.
+100 North Barranca, Suite 820
+West Covina, CA 91791 USA
+Phone: 626-430-9054
+Fax: 626-430-9060
+email: jaulbach at nexant.com
+ 
+
+==================
+You received this e-mail because you are subscribed to the
+BLDG-SIM at GARD.COM mailing list.  To unsubscribe from this mailing list
+send a blank message to BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+This email is the property of McKinstry or one of its affiliates and may contain confidential and/or privileged information. If you are not the intended recipient or have received this e-mail in error please notify the sender immediately and delete this e-mail. 
+
+Any unauthorized copying, disclosure or distribution of the material in this e-mail is strictly forbidden.
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From jaulbach at nexant.com  Mon Jan 29 13:36:55 2007
+From: jaulbach at nexant.com (Aulbach, John)
+Date: Mon, 29 Jan 2007 13:36:55 -0800
+Subject: [bldg-sim] Package VAV w/reheat Versus CHW VAV w/reheat
+In-Reply-To: <MDAEMON-F200701261115.AA1502515pd80002456349@gard.com>
+Message-ID: <MDAEMON-F200701300856.AA5610546pd80001359790@gard.com>
+
+ 
+Hi all:
+
+I swear this continued comparison will send me to an early grave.
+
+ASHRAE 90.1 requires a building less than 5 stories and between 75K -
+150K floor area to have a package VAV/reheat as its system. There are
+those designers that like the CHW VAV system better. There is a penalty
+of having a running CHW pump in that case.
+
+However, I just did an eQuest comparison between the two systems, all
+things equal (I hope). The CHW system space cooling used 60% MORE energy
+than the package system. In the dead of summer, the CHW beats the
+package. But in the winter, there seems to be a false load the chiller
+is seeing, as the package cooling is almost nil, but the CHW system is
+still has 2/3 of the summer usage.
+
+I THINK I have CHW reset correctly programmed for the CHW system.
+
+ANY IDEAS ???
+
+John R. Aulbach, PE, CEM
+Project Manager
+Nexant, Inc.
+100 North Barranca, Suite 820
+West Covina, CA 91791 USA
+Phone: 626-430-9054
+Fax: 626-430-9060
+email: jaulbach at nexant.com
+ 
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From jeffhaberl at tees.tamus.edu  Fri Jan 26 14:08:53 2007
+From: jeffhaberl at tees.tamus.edu (Jeff Haberl)
+Date: Fri, 26 Jan 2007 16:08:53 -0600
+Subject: Fw: [bldg-sim] Ground Source Heat Pump and Baseline
+Message-ID: <5A325AB346D01144885FBAFA3653140F013F9188@TEESMAIL.tees.tamus.edu>
+
+FYI. 
+
+Jeff
+BB 8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  :=')  8=)  8=)  8=? BB
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+BB 8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=) 8=?  8=)  8=)  8= BB
+ 
+
+-----Original Message-----
+From: bldg-sim at gard.com
+To: bldg-sim at gard.com
+Sent: Thu Jan 25 14:13:11 2007
+Subject: [bldg-sim] Ground Source Heat Pump and Baseline
+
+Virdi,
+
+ 
+
+A ground source heat pump would be considered ?Electric and Other? and require System 6 in this case.
+
+ 
+
+Hope that helps,
+
+ 
+
+Justin Aruck, LEED-AP
+
+Project Manager
+
+EMO Energy Solutions, LLC
+
+2733 Hartland Road
+
+Falls Church, VA 22043
+
+Phone: 703-205-0445  x122
+
+Fax: 703-205-0449
+
+ 
+
+________________________________
+
+From: BLDG-SIM at GARD.COM [mailto:BLDG-SIM at GARD.COM] On Behalf Of Virdi Permana
+Sent: Thursday, January 25, 2007 2:37 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Ground Source Heat Pump and Baseline
+
+ 
+
+Hello All,
+
+I have a ?Nonresidential & 4 or 5 Floors & < 75,000 sqft or 5 floors or Less & 75,000 sqft to 150,000 sqft? type of building.
+
+If a proposed design uses geothermal heat pump, which system I should utilize for the baseline? 
+
+Is it ?System 5? or ?System 6??
+
+I lean toward system 5 because it complies with the note under Table G3.1.1A since Ground Source Heat pump is considered as the source of heating energy.
+
+Please confirm.
+
+Thanks
+
+ 
+
+Virdiansyah "Virdi" Permana
+
+EMSI
+
+Energy Analyst
+
+(202) 291 3102 T
+
+(202) 291 3107 F 
+
+ 
+
+ 
+ 
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From muehleisen at iit.edu  Fri Jan 26 12:52:51 2007
+From: muehleisen at iit.edu (Ralph Muehleisen)
+Date: Fri, 26 Jan 2007 14:52:51 -0600
+Subject: [bldg-sim] Announcement of a Joint AE/Arch Faculty Position at IIT
+Message-ID: <MDAEMON-F200701261457.AA575546pd80001359101@gard.com>
+
+Below is an announcement of a new joint position between the College
+of Architecture and the Department of Civil and Architectural
+Engineering at the Illinois Institute of Technology (IIT) in Chicago,
+IL.
+
+IIT is looking for applicants at all levels, but especially at the
+senior level.  Areas of special interest include: (1) sustainability and
+energy efficiency in building design; (2) structural design in
+architecture; (3) computational fluid dynamics modeling in building
+science; (4) indoor air quality; (5) building lighting and/or
+electrical system design; (6) building controls or (7) building
+envelope components.
+
+As this is a joint appointment, faculty must have both an interest and
+the ability to teach courses for both architects and for engineers.
+
+The Architectural Engineering program is ABET accredited at the
+undergraduate level and offers both the MS and a professional masters
+degrees.  The College of Architecture has an  accredited BArch and 
+March programs along with a PhD program.\
+
+Contact information for interested parties is given in the announcement 
+below.  A PDF version of the announcement can be obtained from
+http://cae.iit.edu/announcement.pdf.
+
+The CAE Department's web site address is http://cae.iit.edu
+
+Ralph
+
+--
+Ralph T. Muehleisen
+Assistant Professor, Civil and Architectural Engineering
+Illinois Institute of Technology, Chicago, IL 60616
+tel: 312-567-3545    fax: 312-567-3519
+email: muehleisen at iit.edu    url:http://acoustics.iit.edu/muehleisen
+
+
+Announcement:
+
+Illinois Institute of Technology, Department of Civil and
+Architectural Engineering and College of Architecture announce the
+opening for a joint faculty position.  The suitable candidate will
+have a joint appointment with Civil and Architectural Engineering
+(which is housed within IIT's Armour College of Engineering) and the
+College of Architecture.  The position is expected to be filled no
+later than August 1, 2007.  Applications will be considered until
+April 30, 2007 or until the position is filled. Special consideration
+will be given to those candidates who qualify for appointment at an
+associate or full professor level.  The general expertise is expected
+in the area of holistic building integration of building envelops and
+control systems, with emphasis on architectural design.  Specific
+areas of expertise within one or more of the following areas are
+preferred: (1) sustainability and energy efficiency in building
+design; (2) structural design in architecture; (3) computational fluid
+dynamics modeling in building science; (4) indoor air quality; (5)
+building lighting and/or electrical system design; (6) building
+controls or (7) building envelope components.
+
+For a candidate to a joint appointment with Architecture and
+Architectural Engineering, he/she must have the experience and
+technical background to teach engineering analysis and design as well
+as architectural design courses; experience and technical background
+needed to develop a research program that results in significant
+research grants that support graduate students (from both College of
+Architecture and Civil and Architectural Engineering Department); and,
+a record of published research results in recognized technical
+journals.  We would also expect the candidate to help better integrate
+the teaching and research between Architecture and Architectural
+Engineering.  The College of Architecture, in collaboration with
+Department of Civil and Architectural Engineering, is in the process
+of establishing a research center in the area of building science, and
+the chosen candidate is expected to have a major role in this center.
+Preferred minimum qualifications include an earned doctorate in
+engineering or a terminal degree in architecture with a professional
+engineering license and a significant track record in related research
+areas.  Salary and rank will be appropriate to the credentials of the
+selected applicant.
+
+The College of Architecture at IIT has an enrollment size of about 537
+undergraduate and 217 graduate students; and, the Civil and
+Architectural Engineering has an enrollment of about 200 undergraduate
+and 145 graduate students. The information on the current faculty
+size, research areas, and undergraduate and graduate degree programs
+of the College of Architecture and the Department of Civil and
+Architectural Engineering can be found on IIT's web site
+http://www.iit.edu.
+
+IIT is a private university emphasizing interprofessional research by
+faculty and students and it is committed to excellence in
+undergraduate, graduate and professional education.  Applications or
+nominations should be directed to Dr. Jamshid Mohammadi, Department of
+Civil and Architectural Engineering, Illinois Institute of Technology,
+3201 South Dearborn Street, Chicago, IL 60616
+(E-mail:mohammadi at iit.edu); or to Professor Donna Robertson, College
+of Architecture, Crown Hall, Illinois Institute of Technology,
+Chicago, IL 60616 (E-mail:robertson at iit.edu).  IIT is an equal
+opportunity, affirmative action employer.  M/F/H/V.
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From jeffhaberl at tees.tamus.edu  Fri Jan 26 12:19:02 2007
+From: jeffhaberl at tees.tamus.edu (Jeff Haberl)
+Date: Fri, 26 Jan 2007 14:19:02 -0600
+Subject: [bldg-sim] Comparing ASHRAE 90.1 2004 with ASHRAE 90.1 1999
+Message-ID: <MDAEMON-F200701261423.AA2359609pd80001359037@gard.com>
+
+Hello. 
+
+We used RP-1093 profiles for the office building. For other building types, we plan to use a sample of utility bills. The Laboratory has completed an analysis of 90.1 1999 vs 2004 as part of our legislative work, which will be in our 2006 report. 
+
+Jeff
+BB 8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  :=')  8=)  8=)  8=? BB
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+BB 8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=) 8=?  8=)  8=)  8= BB
+ 
+
+-----Original Message-----
+From: bldg-sim at gard.com
+To: bldg-sim at gard.com
+Sent: Thu Jan 25 09:28:54 2007
+Subject: [bldg-sim] Comparing ASHRAE 90.1 2004 with ASHRAE 90.1 1999
+
+ 
+We are trying to put together a comparison analysis of ASHRAE 90.1 2004 with the current City of Houston standard (IECC 2000 with 2001 amendments / ASHRAE 90.1 1999). By presenting this analysis we hope to point out that ASHRAE 90.1 2004 is more stringent than the current energy code options.  Any suggestions as to how we can choose our base case specifications?
+Dr. Haberl, Are you tuned in?
+Thanks 
+Jaya Mukhopadhyay
+
+________________________________
+
+Need a quick answer? Get one in minutes from people who know. Ask your question on Yahoo! Answers <http://answers.yahoo.com/;_ylc=X3oDMTFvbGNhMGE3BF9TAzM5NjU0NTEwOARfcwMzOTY1NDUxMDMEc2VjA21haWxfdGFnbGluZQRzbGsDbWFpbF90YWcx> .
+
+From haidermkhan at gmail.com  Fri Jan 26 10:06:07 2007
+From: haidermkhan at gmail.com (Haider Khan)
+Date: Fri, 26 Jan 2007 13:06:07 -0500
+Subject: [bldg-sim] EPACT 2005
+Message-ID: <MDAEMON-F200701261211.AA1106718pd80001358944@gard.com>
+
+Hey All,
+
+I am working on developing an energy model of a building for a client that
+wants to claim the tax deduction based on EPACT 2005. As this is the first
+time I am doing this, can someone please post a checklist of things that I
+might need from the client and a step-wise process to get through to the
+results. The building is a 63000 Sqft textile processing plant /
+warehouse. I am also wondering about the legal liability, and what should
+the final deliverable contain.
+
+thanks,
+Haider.
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070126/238e1c21/attachment.htm>
+
+From thong at archenergy.com  Fri Jan 26 09:09:27 2007
+From: thong at archenergy.com (Tianzhen Hong)
+Date: Fri, 26 Jan 2007 09:09:27 -0800
+Subject: [bldg-sim] Digest (01/26/2007 03:01) (#2007-830)
+In-Reply-To: <MDAEMON0512200701260301.AA0156000@gard.com>
+Message-ID: <MDAEMON-F200701261115.AA1503156pd80001358895@gard.com>
+
+
+Anybody interested in BIM or Green Building Studio (GBS) web services may
+like to contact PG&E Steve Blanc for a report "Validating Green Building
+Studio". The project used real world buildings to test how Revit,
+Architectural Desktop, ABS, and ArchiCAD worked with GBS to produce
+meaningful energy simulations.
+
+Tianzhen
+
+> -----Original Message-----
+> From: postman at gard.com [mailto:postman at gard.com] 
+> Sent: Friday, January 26, 2007 1:02 AM
+> To: bldg-sim at gard.com
+> Subject: [bldg-sim] Digest (01/26/2007 03:01) (#2007-830)
+> 
+> 
+> (#2007-830) - Topics this issue:
+> 
+>      1) Comparing ASHRAE 90.1 2004 with ASHRAE 90.1 1999, 
+> <jaya_mukho at yahoo.com>
+>      2) IBPSA News, Vol. 17, No. 1 -- April 2007, 
+> <ldegelman at suddenlink.net>
+>      3) Building Information Modeling, <ramana.koti at gmail.com>
+>      4) Building Information Modeling, <RJHitchcock at lbl.gov>
+>      5) Building Information Modeling, <vaipotnis at hotmail.com>
+>      6) Ground Source Heat Pump and Baseline, 
+> <vpermana at emsi-green.com>
+>      7) Ground Source Heat Pump and Baseline, <jaruck at emoenergy.com>
+> 
+> ----------------------------------------------------------------------
+> 
+> 
+> Date: Thu, 25 Jan 2007 07:28:54 -0800 (PST)
+> From: Jaya Mukhopadhyay <jaya_mukho at yahoo.com>
+> Subject: Comparing ASHRAE 90.1 2004 with ASHRAE 90.1 1999
+> 
+>  
+>   We are trying to put together a comparison analysis of 
+> ASHRAE 90.1 2004 with the current City of Houston standard 
+> (IECC 2000 with 2001 amendments / ASHRAE 90.1 1999). By 
+> presenting this analysis we hope to point out that ASHRAE 
+> 90.1 2004 is more stringent than the current energy code 
+> options.  Any suggestions as to how we can choose our base 
+> case specifications?
+>   Dr. Haberl, Are you tuned in?
+>   Thanks 
+>   Jaya Mukhopadhyay
+> 
+>  
+> 
+> 
+> 
+> ------------------------------
+> 
+> 
+> Date: Thu, 25 Jan 2007 10:37:23 -0600
+> From: "Larry Degelman" <ldegelman at suddenlink.net>
+> Subject: IBPSA News, Vol. 17, No. 1 -- April 2007
+> 
+> 
+> Hello Simulationists:
+>  
+> It's time to send in your news for the April 2007 issue of 
+> IBPSA News. Any articles relating to building performance 
+> simulation, weather data simulation, and new software 
+> releases - also awards, conferences and meetings relating to 
+> building simulation are being solicited.
+>  
+> Please send me your contributions by Wednesday, 21 March.
+>  
+> Thank you.
+>  
+> LO Degelman, Newsletter Chairperson 
+> ================================================
+> Larry O. Degelman, P.E.          <mailto:ldegelman at suddenlink.net>
+> ldegelman at suddenlink.net
+> Professor Emeritus of Architecture     1-979-696-2506
+> Texas A&M University ================================================
+>  
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> ------------------------------
+> 
+> 
+> Date: Thu, 25 Jan 2007 12:08:34 -0600
+> From: "Ramana Koti" <ramana.koti at gmail.com>
+> Subject: Building Information Modeling
+> 
+> Dear all,
+> 
+> What is the current situation on the Industry foundation 
+> classes (IFCs) of International Alliance For Interoperability 
+> (IAI) with regards to building energy and daylight 
+> simulation? Also with regards to AutoCAD and Revit: with the 
+> CAD shifting to Revit, is there interoperability between 
+> Revit and the simulation tools we use everyday?
+> 
+> Any information is appreciated,
+> 
+> Ramana Koti, Sustainable Building Analyst
+> LEED AP
+> 
+> ELEMENTS | a division of berkebile nelson immenschuh mcdowell 
+> architects 106 W. 14th Street Suite 200 Kansas City, Missouri 64105
+> 
+> p 816.783.1635 f 816.783.1501
+> www.bnim.com| elements.bnim.com
+> 
+> 
+> 
+> 
+> ------------------------------
+> 
+> 
+> Date: Thu, 25 Jan 2007 10:48:54 -0800
+> From: Rob Hitchcock <RJHitchcock at lbl.gov>
+> Subject: Re: [bldg-sim] Building Information Modeling
+> 
+> Ramana,
+> 
+> There is still work in progress on developing utilities for import of 
+> IFC geometry, materials, and construction data into energy 
+> simulation.  
+> To my knowledge, this work has not yet produced a robust utility for 
+> this data exchange in the U.S. market.
+> 
+> There are tools currently available for data exchange between 
+> Autodesk, 
+> and other vendor, CAD software and energy simulation tools (e.g., see 
+> Green Building Studio at www.greenbuildingstudio.com).
+> 
+> Rob Hitchcock
+> =========
+> Ramana Koti wrote:
+> 
+> > Dear all,
+> >
+> > What is the current situation on the Industry foundation classes
+> > (IFCs) of International Alliance For Interoperability (IAI) with 
+> > regards to building energy and daylight simulation?
+> > Also with regards to AutoCAD and Revit: with the CAD shifting to 
+> > Revit, is there interoperability between Revit and the simulation 
+> > tools we use everyday?
+> >
+> > Any information is appreciated,
+> >
+> > Ramana Koti, Sustainable Building Analyst
+> > LEED AP
+> >
+> > ELEMENTS | a division of berkebile nelson immenschuh mcdowell 
+> > architects 106 W. 14th Street Suite 200 Kansas City, Missouri 64105
+> >
+> > p 816.783.1635 f 816.783.1501
+> > www.bnim.com| elements.bnim.com <http://elements.bnim.com>
+> >
+> 
+> 
+> 
+> 
+> 
+> ------------------------------
+> 
+> 
+> Date: Fri, 26 Jan 2007 00:57:47 +0530
+> From: "Vaibhav Potnis" <vaipotnis at hotmail.com>
+> Subject: RE: [bldg-sim] Building Information Modeling
+> 
+> <html><div style='background-color:'><P>Ramana,</P>
+> <P>Please search the archives of this group for a great 
+> discussion on this topic last year.</P> <P>&nbsp;</P> 
+> <P>~vaibhav<BR><BR><FONT style="FONT-SIZE: 11px; FONT-FAMILY: 
+> tahoma,sans-serif"> <HR color=#a0c6e5 SIZE=1>
+> From: <I>"Ramana Koti" 
+> &lt;ramana.koti at gmail.com&gt;</I><BR>Reply-To: 
+> <I>ramana.koti at gmail.com</I><BR>To: 
+> <I>&lt;bldg-sim at gard.com&gt;</I><BR>Subject: <I>[bldg-sim] 
+> Building Information Modeling</I><BR>Date: <I>Thu, 25 Jan 
+> 2007 12:08:34 -0600</I><BR><BR>Dear all,<BR><BR>What is the 
+> current situation on the Industry foundation classes (IFCs) 
+> of International Alliance For Interoperability (IAI) with 
+> regards to building energy and daylight simulation? <BR>Also 
+> with regards to AutoCAD and Revit: with the CAD shifting to 
+> Revit, is there interoperability between Revit and the 
+> simulation tools we use everyday? <BR><BR>Any information is 
+> appreciated,<BR clear=all><BR>Ramana Koti, Sustainable 
+> Building Analyst<BR>LEED AP<BR><BR>ELEMENTS | a division of 
+> berkebile nelson immenschuh mcdowell architects<BR>106 W. 
+> 14th Street Suite 200 <BR>Kansas City, Missouri 
+> 64105<BR><BR>p 816.783.1635 f 
+> 816.783.1501<BR>www.bnim.com| <A 
+> href="http://elements.bnim.com/">elements.bnim.com</A><BR><BR>
+> <BR></FONT></P></div><br clear=all><hr>Latest from the world 
+> <a href="http://g.msn.com/8HMAENIN/2743??PS=47575" 
+> target="_top">of gadgets and gizmos</a> </html>
+> 
+> 
+> ------------------------------
+> 
+> 
+> Date: Thu, 25 Jan 2007 14:37:03 -0500
+> From: "Virdi Permana" <vpermana at emsi-green.com>
+> Subject: Ground Source Heat Pump and Baseline
+> 
+> 
+> Hello All,
+> 
+> I have a "Nonresidential & 4 or 5 Floors & < 75,000 sqft or 5 
+> floors or Less & 75,000 sqft to 150,000 sqft" type of building.
+> 
+> If a proposed design uses geothermal heat pump, which system 
+> I should utilize for the baseline? 
+> 
+> Is it "System 5" or "System 6"?
+> 
+> I lean toward system 5 because it complies with the note 
+> under Table G3.1.1A since Ground Source Heat pump is 
+> considered as the source of heating energy.
+> 
+> Please confirm.
+> 
+> Thanks
+> 
+>  
+> 
+> Virdiansyah "Virdi" Permana
+> 
+> EMSI
+> 
+> Energy Analyst
+> 
+> (202) 291 3102 T
+> 
+> (202) 291 3107 F 
+> 
+>  
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> ------------------------------
+> 
+> 
+> Date: Thu, 25 Jan 2007 15:13:11 -0500
+> From: "Justin Aruck" <jaruck at emoenergy.com>
+> Subject: RE: [BLDG-SIM] Ground Source Heat Pump and Baseline
+> 
+> 
+> Virdi,
+> 
+>  
+> 
+> A ground source heat pump would be considered "Electric and 
+> Other" and require System 6 in this case.
+> 
+>  
+> 
+> Hope that helps,
+> 
+>  
+> 
+> Justin Aruck, LEED-AP
+> 
+> Project Manager
+> 
+> EMO Energy Solutions, LLC
+> 
+> 2733 Hartland Road
+> 
+> Falls Church, VA 22043
+> 
+> Phone: 703-205-0445  x122
+> 
+> Fax: 703-205-0449
+> 
+>  
+> 
+>   _____  
+> 
+> From: BLDG-SIM at GARD.COM [mailto:BLDG-SIM at GARD.COM] On Behalf 
+> Of Virdi Permana
+> Sent: Thursday, January 25, 2007 2:37 PM
+> To: BLDG-SIM at GARD.COM
+> Subject: [BLDG-SIM] Ground Source Heat Pump and Baseline
+> 
+>  
+> 
+> Hello All,
+> 
+> I have a "Nonresidential & 4 or 5 Floors & < 75,000 sqft or 5 
+> floors or Less & 75,000 sqft to 150,000 sqft" type of building.
+> 
+> If a proposed design uses geothermal heat pump, which system 
+> I should utilize for the baseline? 
+> 
+> Is it "System 5" or "System 6"?
+> 
+> I lean toward system 5 because it complies with the note 
+> under Table G3.1.1A since Ground Source Heat pump is 
+> considered as the source of heating energy.
+> 
+> Please confirm.
+> 
+> Thanks
+> 
+>  
+> 
+> Virdiansyah "Virdi" Permana
+> 
+> EMSI
+> 
+> Energy Analyst
+> 
+> (202) 291 3102 T
+> 
+> (202) 291 3107 F 
+> 
+>  
+> 
+>  
+>  
+> ==================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> ------------------------------
+> 
+> End bldg-sim at gard.com Digest [01/26/2007 03:01]
+> -----------------------------------------------
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+> 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From phay at cwjamaica.com  Fri Jan 26 08:00:41 2007
+From: phay at cwjamaica.com (Paul Hay)
+Date: Fri, 26 Jan 2007 11:00:41 -0500
+Subject: [bldg-sim] Building Information Modeling
+Message-ID: <MDAEMON-F200701261006.AA0603328pd80001358829@gard.com>
+
+----- Original Message ----- 
+From: Paul Hay 
+To: ramana.koti at gmail.com 
+Sent: Friday, January 26, 2007 9:59 AM
+Subject: Re: [bldg-sim] Building Information Modeling
+
+
+Hi Ramana,
+
+Only Autodesk's Architectural Desktop [ADT] is listed as being IFC 2x compliant, as of 2003 <see http://www.bauwesen.fh-muenchen.de/iai/ImplementationOverview.htm> . But, Revit has recently been added.
+
+It is my understanding that ADT requires an add-on to fully utilize IFC capabilities.  In energy simulations undertaken on the Freedom Tower, which was created with ADT, Lawrence Berkeley National Laboratories used Graphisoft's ArchiCAD.  This may be of importance to you since the Freedom Tower also involved daylight simulations.
+
+Paul Hay
+Managing Partner
+
+PAUL HAY Consultants
+15a Cassia Park Road
+Kingston 10
+Jamaica, W.I.
+
+Strategic Facility Planning & Office Automation
+
+tel: +1 (876) 923-8882/or
+      +1 (876) 923-9433
+fax: +1 (876)923-3038
+
+website: www.phcjamaica.com
+e-mail: phay at phcjamaica.com
+  ----- Original Message ----- 
+  From: Ramana Koti 
+  To: bldg-sim at gard.com 
+  Sent: Thursday, January 25, 2007 1:08 PM
+  Subject: [bldg-sim] Building Information Modeling
+
+
+  Dear all,
+
+  What is the current situation on the Industry foundation classes (IFCs) of International Alliance For Interoperability (IAI) with regards to building energy and daylight simulation? 
+  Also with regards to AutoCAD and Revit: with the CAD shifting to Revit, is there interoperability between Revit and the simulation tools we use everyday? 
+
+  Any information is appreciated,
+
+  Ramana Koti, Sustainable Building Analyst
+  LEED AP
+
+  ELEMENTS | a division of berkebile nelson immenschuh mcdowell architects
+  106 W. 14th Street Suite 200 
+  Kansas City, Missouri 64105
+
+  p 816.783.1635 f 816.783.1501
+  www.bnim.com| elements.bnim.com
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070126/cb1048fa/attachment.htm>
+
+From jon at esru.strath.ac.uk  Fri Jan 26 04:39:53 2007
+From: jon at esru.strath.ac.uk (Jon Hand (clcv10))
+Date: Fri, 26 Jan 2007 12:39:53 +0000
+Subject: [BLDG-SIM] ESP-r Developers Conference 2007 - announcement
+Message-ID: <MDAEMON-F200701260644.AA4438171pd80001358730@gard.com>
+
+
+Announcement:  ESP-r Developers Conference
+
+Venue:  Department of Mechanical Engineering, University of  
+Strathclyde, Glasgow Scotland
+
+Date: 22-24 March 2007
+
+Cost: 100 Pounds (to cover lunches and refreshments and  
+administrative overheads)
+
+The Energy Systems Research Unit of the University of Strathclyde are  
+pleased to announce the 3rd ESP-r Developers Conference to be held in  
+Glasgow this March.
+
+Overview
+
+Much has happened since the ESP-r community last gathered:
+
+q       ESP-r is well into its transition from using X11 graphics to  
+the multi-platform GTK graphics tool kit.
+
+q       A Beta version of windows ESP-r has been released.
+
+q       Self-extracting installers have been introduced for each of  
+the major computing platforms.
+
+q       ESP-r development has been placed under a central source code  
+repository - there have been more than 700 commits to the repository  
+since March of 2006!
+
+q       A formal testing procedure for source code developments has  
+been put in place.
+
+q       The Install process has been rewritten, and new features  
+added.  For example, it is no longer necessary for ESP-r to be  
+located in /usr/esru
+
+q       A new email list for the core development team is up and  
+running providing notification of changes in each of the development  
+branches.
+
+q       New Exemplar models and facilities for managing model  
+variants have been introduced.
+
+q       Many new features have been added. For example: new detailed  
+component models have been developed for plant and commercial scale  
+systems models have been developed; contaminant tracking and coupling  
+of CFD to building models have been made more user friendly.
+
+One of the functions of the conference will be to highlight these  
+developments. However the main focus will be to discuss the options  
+for continuing the development of ESP-r into the future.
+
+Conference Details
+
+The conference will cover a range of topics relating to the future  
+development of ESP-r. Each session will feature presentations and a  
+discussion on an important development topic. Each session will be  
+moderated and the discussion and outcomes will be recorded with a  
+view to producing conference proceedings and a development strategy  
+document.
+
+Thursday session 1: Introduction and Review
+
+Opening announcements and a review of the current state of ESP-r.
+
+Thursday session 2: Development Issues
+
+There are two issues that confront the community, which ultimately  
+will dictate the survival of the code:
+
+q       ESP-r needs to attract new users, as it is from new users  
+that new developers emerge. Currently ESP-r, while being an  
+incredibly powerful tool, does not conform to novice user  
+expectations, the result being that new users are discouraged from  
+using the tool and consequently lose many potential developers.  How  
+can we evolve the tool to develop a thriving user community?
+
+q       ESP-r has recently passed several critical CEN standards but  
+is continually confronted by changes in regulatory standards and the  
+need to evolve so as to gain accreditation. What opportunities exist  
+to fund vital accreditation work?
+
+This session will evolve a list of tasks and issues to carry forward  
+to subsequent sessions.
+
+Thursday session 3: Interface
+
+The ESP-r interface has served the community well, however a lack of  
+funding has limited development and in its current form problems are  
+emerging as highlighted above for new users but also in the general  
+development and management of simulation projects. These problems  
+could be addressed by leveraging the substantial wealth of interface  
+widgets that GTK offers to bring ESP-r in line with user  
+expectations.  However there is currently a lack of interface  
+development in the community to progress this task at an acceptable  
+pace.
+
+This session is focused on finding the means to accelerate the  
+evolution of the interface and developing the guidelines and key  
+objectives for future interface development.
+
+Thursday evening dinner
+
+Details TBC
+
+Friday session 1: Mainstreaming Advanced Features
+
+ESP-r has a number of lesser-used advanced features that require a  
+lot of expert knowledge to use, effectively hiding them from the user  
+community. This session is focused on developing a strategy to bring  
+the power of ESP-r?s advanced features to the rest of the community.
+
+Friday session 2: Improving Information Retrieval
+
+ESP-r produces a wealth of data from a simulation yet there are  
+significant issues as to how this data is stored and analysed.  
+Simulation information is often scattered across several results  
+libraries. Further, information data such as fan power or the overall  
+performance of environmental systems made up from a network of  
+detailed components needs to be derived from the raw simulation data  
+and involves significant user effort. Finally it is difficult to  
+compare the performance of different model variants.
+
+This session is focused on improving results processing facilities to  
+better support performance analysis.  The session will also seek to  
+identify where critical model  attributes need to be extended in  
+order to deliver more appropriate performance information.
+
+Friday session 2: Source Code Control [Hands On]
+
+The move to subversion has had many implications for the evolution of  
+ESP-r. This session is designed to introduce the mechanics of source  
+code control to the development community. Features:
+
+
+q       Review of the structure of the archive and working practices.
+
+q       45 min workshop with hands-on experience in the use of  
+subversion tasks and the development cycle
+
+q       Open discussion on how we leverage source code control to  
+work in distributed teams and to tackle major projects.
+
+
+Friday session 4: Wrap-up and outcomes
+
+This session brings together the consensus from the earlier sessions  
+(session chairs report) for discussion and decision making.
+
+The goal of the session is a list of specific actions, likely  
+contributors and potential  resources which can be distributed to the  
+community at the end of the conference.
+
+
+If you would be interested in attending please reply by return e- 
+mail. Further details will be sent soon
+
+  [  ] I would like to attend.
+       Name:
+       Organisation:
+       email:
+       telephone:
+
+Further information:
+
+[  ] I would like to moderate a session
+      session name:_________
+
+[  ] I have a presentation for one of the sessions
+      session name:_________
+      title of presentation:___________
+      length of presentation [ max. 10 minutes]
+
+[  ] I want to take part in the Saturday subversion skills workshop
+
+[  ]  I have a source code branch
+       branch name:________
+
+[  ]  I am thinking about joining the development community
+
+[  ]  I have an idea for the development of ESP-r and I want to find  
+others to work with:
+       development description:____
+       skills I have:____
+       ideas for contributions by others:____
+
+
+Regards,
+
+-ESRU
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070126/6f1a91d0/attachment.htm>
+
+From jaruck at emoenergy.com  Thu Jan 25 12:13:11 2007
+From: jaruck at emoenergy.com (Justin Aruck)
+Date: Thu, 25 Jan 2007 15:13:11 -0500
+Subject: [bldg-sim] Ground Source Heat Pump and Baseline
+In-Reply-To: <MDAEMON-F200701251341.AA4158328pd80002451955@gard.com>
+Message-ID: <MDAEMON-F200701251418.AA1815265pd80001358476@gard.com>
+
+Virdi,
+
+ 
+
+A ground source heat pump would be considered "Electric and Other" and
+require System 6 in this case.
+
+ 
+
+Hope that helps,
+
+ 
+
+Justin Aruck, LEED-AP
+
+Project Manager
+
+EMO Energy Solutions, LLC
+
+2733 Hartland Road
+
+Falls Church, VA 22043
+
+Phone: 703-205-0445  x122
+
+Fax: 703-205-0449
+
+ 
+
+  _____  
+
+From: BLDG-SIM at GARD.COM [mailto:BLDG-SIM at GARD.COM] On Behalf Of Virdi
+Permana
+Sent: Thursday, January 25, 2007 2:37 PM
+To: BLDG-SIM at GARD.COM
+Subject: [BLDG-SIM] Ground Source Heat Pump and Baseline
+
+ 
+
+Hello All,
+
+I have a "Nonresidential & 4 or 5 Floors & < 75,000 sqft or 5 floors or Less
+& 75,000 sqft to 150,000 sqft" type of building.
+
+If a proposed design uses geothermal heat pump, which system I should
+utilize for the baseline? 
+
+Is it "System 5" or "System 6"?
+
+I lean toward system 5 because it complies with the note under Table G3.1.1A
+since Ground Source Heat pump is considered as the source of heating energy.
+
+Please confirm.
+
+Thanks
+
+ 
+
+Virdiansyah "Virdi" Permana
+
+EMSI
+
+Energy Analyst
+
+(202) 291 3102 T
+
+(202) 291 3107 F 
+
+ 
+
+ 
+ 
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070125/a595c678/attachment.htm>
+
+From vpermana at emsi-green.com  Thu Jan 25 11:37:03 2007
+From: vpermana at emsi-green.com (Virdi Permana)
+Date: Thu, 25 Jan 2007 14:37:03 -0500
+Subject: [BLDG-SIM] Ground Source Heat Pump and Baseline
+Message-ID: <MDAEMON-F200701251342.AA4208234pd80001358394@gard.com>
+
+Hello All,
+
+I have a "Nonresidential & 4 or 5 Floors & < 75,000 sqft or 5 floors or Less
+& 75,000 sqft to 150,000 sqft" type of building.
+
+If a proposed design uses geothermal heat pump, which system I should
+utilize for the baseline? 
+
+Is it "System 5" or "System 6"?
+
+I lean toward system 5 because it complies with the note under Table G3.1.1A
+since Ground Source Heat pump is considered as the source of heating energy.
+
+Please confirm.
+
+Thanks
+
+ 
+
+Virdiansyah "Virdi" Permana
+
+EMSI
+
+Energy Analyst
+
+(202) 291 3102 T
+
+(202) 291 3107 F 
+
+ 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070125/6083fe5a/attachment.htm>
+
+From vaipotnis at hotmail.com  Thu Jan 25 11:27:47 2007
+From: vaipotnis at hotmail.com (Vaibhav Potnis)
+Date: Fri, 26 Jan 2007 00:57:47 +0530
+Subject: [bldg-sim] Building Information Modeling
+In-Reply-To: <MDAEMON-F200701251213.AA1344843pd80002449732@gard.com>
+Message-ID: <MDAEMON-F200701251332.AA3247875pd80001358388@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070126/3b1077bd/attachment.htm>
+
+From RJHitchcock at lbl.gov  Thu Jan 25 10:48:54 2007
+From: RJHitchcock at lbl.gov (Rob Hitchcock)
+Date: Thu, 25 Jan 2007 10:48:54 -0800
+Subject: [bldg-sim] Building Information Modeling
+In-Reply-To: <MDAEMON-F200701251213.AA1328765pd80002449012@gard.com>
+References: <MDAEMON-F200701251213.AA1328765pd80002449012@gard.com>
+Message-ID: <MDAEMON-F200701251254.AA5400546pd80001358336@gard.com>
+
+Ramana,
+
+There is still work in progress on developing utilities for import of 
+IFC geometry, materials, and construction data into energy simulation.  
+To my knowledge, this work has not yet produced a robust utility for 
+this data exchange in the U.S. market.
+
+There are tools currently available for data exchange between Autodesk, 
+and other vendor, CAD software and energy simulation tools (e.g., see 
+Green Building Studio at www.greenbuildingstudio.com).
+
+Rob Hitchcock
+=========
+Ramana Koti wrote:
+
+> Dear all,
+>
+> What is the current situation on the Industry foundation classes 
+> (IFCs) of International Alliance For Interoperability (IAI) with 
+> regards to building energy and daylight simulation?
+> Also with regards to AutoCAD and Revit: with the CAD shifting to 
+> Revit, is there interoperability between Revit and the simulation 
+> tools we use everyday?
+>
+> Any information is appreciated,
+>
+> Ramana Koti, Sustainable Building Analyst
+> LEED AP
+>
+> ELEMENTS | a division of berkebile nelson immenschuh mcdowell architects
+> 106 W. 14th Street Suite 200
+> Kansas City, Missouri 64105
+>
+> p 816.783.1635 f 816.783.1501
+> www.bnim.com| elements.bnim.com <http://elements.bnim.com>
+>
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070125/7606e717/attachment.htm>
+
+From ramana.koti at gmail.com  Thu Jan 25 10:08:34 2007
+From: ramana.koti at gmail.com (Ramana Koti)
+Date: Thu, 25 Jan 2007 12:08:34 -0600
+Subject: [bldg-sim] Building Information Modeling
+Message-ID: <MDAEMON-F200701251213.AA1335718pd80001358264@gard.com>
+
+Dear all,
+
+What is the current situation on the Industry foundation classes (IFCs) of
+International Alliance For Interoperability (IAI) with regards to building
+energy and daylight simulation?
+Also with regards to AutoCAD and Revit: with the CAD shifting to Revit, is
+there interoperability between Revit and the simulation tools we use
+everyday?
+
+Any information is appreciated,
+
+Ramana Koti, Sustainable Building Analyst
+LEED AP
+
+ELEMENTS | a division of berkebile nelson immenschuh mcdowell architects
+106 W. 14th Street Suite 200
+Kansas City, Missouri 64105
+
+p 816.783.1635 f 816.783.1501
+www.bnim.com| elements.bnim.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070125/67fae00f/attachment.htm>
+
+From ldegelman at suddenlink.net  Thu Jan 25 08:37:23 2007
+From: ldegelman at suddenlink.net (Larry Degelman)
+Date: Thu, 25 Jan 2007 10:37:23 -0600
+Subject: [BLDG-SIM] IBPSA News, Vol. 17, No. 1 -- April 2007
+Message-ID: <MDAEMON-F200701251054.AA5455281pd80001358172@gard.com>
+
+Hello Simulationists:
+ 
+It's time to send in your news for the April 2007 issue of IBPSA News.
+Any articles relating to building performance simulation, weather data
+simulation, and new software releases - also awards, conferences and
+meetings relating to building simulation are being solicited.
+ 
+Please send me your contributions by Wednesday, 21 March.
+ 
+Thank you.
+ 
+LO Degelman, Newsletter Chairperson
+================================================
+Larry O. Degelman, P.E.          <mailto:ldegelman at suddenlink.net>
+ldegelman at suddenlink.net
+Professor Emeritus of Architecture     1-979-696-2506
+Texas A&M University
+================================================
+ 
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070125/616ff1d5/attachment.htm>
+
+From jaya_mukho at yahoo.com  Thu Jan 25 07:28:54 2007
+From: jaya_mukho at yahoo.com (Jaya Mukhopadhyay)
+Date: Thu, 25 Jan 2007 07:28:54 -0800 (PST)
+Subject: [bldg-sim] Comparing ASHRAE 90.1 2004 with ASHRAE 90.1 1999
+Message-ID: <MDAEMON-F200701250933.AA335162pd80001358062@gard.com>
+
+ 
+  We are trying to put together a comparison analysis of ASHRAE 90.1 2004 with the current City of Houston standard (IECC 2000 with 2001 amendments / ASHRAE 90.1 1999). By presenting this analysis we hope to point out that ASHRAE 90.1 2004 is more stringent than the current energy code options.  Any suggestions as to how we can choose our base case specifications?
+  Dr. Haberl, Are you tuned in?
+  Thanks 
+  Jaya Mukhopadhyay
+
+ 
+---------------------------------
+Need a quick answer? Get one in minutes from people who know. Ask your question on Yahoo! Answers.
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070125/3a4cbf21/attachment.htm>
+
+From jeffhaberl at tees.tamus.edu  Wed Jan 24 19:04:09 2007
+From: jeffhaberl at tees.tamus.edu (Jeff Haberl)
+Date: Wed, 24 Jan 2007 21:04:09 -0600
+Subject: [bldg-sim] creating budget cases
+Message-ID: <MDAEMON-F200701242109.AA0910406pd80001357818@gard.com>
+
+You can find a paper that outlines a procedure we use for office buildings at "eslsb5.tamu.edu". Go to reports, then go to ICEBO papers, and get the 2005 paper on commercial buildings. 
+
+Jeff
+BB 8=!  8=)  :=)  8=)  ;=)  8=)  8=(  8=)  :=')  8=)  8=)  8=? BB
+
+Jeff S. Haberl, Ph.D., P.E.............................jhaberl at esl.tamu.edu
+
+Professor......................................................Office Ph: 979-845-6507
+
+Department of Architecture.......................Lab Ph: 979-845-6065 
+
+Energy Systems Laboratory.......................FAX: 979-862-2457 
+
+Texas A&M University..............................77843-3581
+
+College Station, Texas, USA.......................URL: www-esl.tamu.edu
+
+BB 8=/  8=)  :=)  8=)  ;=)  8=)  8=()  8=) 8=?  8=)  8=)  8= BB
+ 
+
+-----Original Message-----
+From: bldg-sim at gard.com
+To: bldg-sim at gard.com
+Sent: Tue Jan 23 14:51:51 2007
+Subject: [bldg-sim] creating budget cases
+
+One of tasks I find myself doing repeatedly is creating budget cases, both for compliance and performance modeling.
+ 
+I've been wondering if automated software could take a design building and automatically create the budget case.
+ 
+I'm currently modeling in VisDOE and eQuest and may soon expand to TRNSYS.
+ 
+Has anyone seen such add-ons for:
+- ASHRAE 90.1-2001
+- ASHRAE 90.1- 2004 ECB, and / or
+- ASHRAE 90.1-2004 App. G?
+ 
+Thanks,
+ 
+Aaron Dahlstrom
+AKF Engineers, LLP
+1500 Walnut Street, Suite 1400
+Philadelphia, PA 19102 
+Phone:   (215) 282-2169
+Fax:        (215) 735-6706
+www.akf-engineers.com <http://www.akf-engineers.com/> 
+ 
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at EE.DOE.GOV  Wed Jan 24 07:39:26 2007
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Wed, 24 Jan 2007 10:39:26 -0500
+Subject: [BLDG-SIM] Call for Papers -- How Low Can You Go? Case Studies of
+ Low-Energy Buildings ASHRAE
+Message-ID: <MDAEMON-F200701240945.AA4553250pd80001357504@gard.com>
+
+'How Low Can You Go?  Case Studies of Low-Energy Buildings' ASHRAE
+Symposium
+
+
+As you may know ASHRAE TCs 2.8, 4.7, 7.1, and 7.6 have been sponsoring a
+series of symposium papers on 'How Low can You Go?  Case Studies of
+Low-Energy
+Buildings'.  With 5 papers in process for Long Beach and the upcoming 4
+papers
+to be presented at the Dallas meeting in January, we now have almost 20
+papers
+for this 4 meeting symposium series.
+
+But we are looking for papers for New York (2008) and beyond! We have 70
+reviewers just waiting for your paper.
+
+REMINDER--WE ARE LOOKING FOR PAPERS THAT INCLUDE MEASURED ENERGY SAVINGS
+DATA, EITHER UTILITY BILLS OR SUBMETERED DATA.
+
+If you have a building that you'd like to write a paper for the New York
+or later ASHRAE meeting, please let me know ASAP.  To meet the deadlines
+for
+the New York (January 2008) meeting, the final papers must be submitted by
+mid/late March for  review, revision and final submission into ASHRAE no
+later than 15 July 2007.
+
+REMINDER--YOUR PAPER MUST INCLUDE MEASURED ENERGY SAVINGS, EITHER
+UTILITY BILLS OR SUBMETERED DATA.
+
+If you cannot meet the deadlines for Long Beach and would like to try for a
+later symposium in 2008 or 2009 (Salt Lake City June 2008, Chicago January
+2009, or Louisville June 2009), please let me know.  As long as we continue
+to receive enough high-quality papers, we'll keep this series going.
+
+If you have any questions, please let me know as soon as possible.
+
+Dru Crawley
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From Drury.Crawley at EE.DOE.GOV  Tue Jan 23 19:41:44 2007
+From: Drury.Crawley at EE.DOE.GOV (Drury.Crawley at EE.DOE.GOV)
+Date: Tue, 23 Jan 2007 22:41:44 -0500
+Subject: [bldg-sim] creating budget cases
+Message-ID: <MDAEMON-F200701232147.AA4703937pd80001357301@gard.com>
+
+
+EnergyPlus has a similar capability--an example file generator on the E+
+web site.  It allows you to create, run, and get results back for three
+levels of 90.1--
+1999, 2001, and 2004 along with the recent ASHRAE 30% guide for small
+buildings (30% less than 1999).  We're looking at adding 189 as well once
+that gets to public review.
+
+
+
+                                                                                                             
+                      "Dahlstrom, Aaron"                                                                     
+                      <ADahlstrom at AKF-ENG      To: bldg-sim at gard.com                                         
+                      .com>                    cc:                                                           
+                      Sent by:                 Subject:  [bldg-sim] creating budget cases                    
+                      bldg-sim at gard.com                                                                      
+                                                                                                             
+                                                                                                             
+                      01/23/2007 03:51 PM                                                                    
+                      Please respond to                                                                      
+                      ADahlstrom                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+
+
+
+One of tasks I find myself doing repeatedly is creating budget cases, both
+for compliance and performance modeling.
+
+I've been wondering if automated software could take a design building and
+automatically create the budget case.
+
+I'm currently modeling in VisDOE and eQuest and may soon expand to TRNSYS.
+
+Has anyone seen such add-ons for:
+- ASHRAE 90.1-2001
+- ASHRAE 90.1- 2004 ECB, and / or
+- ASHRAE 90.1-2004 App. G?
+
+Thanks,
+
+Aaron Dahlstrom
+AKF Engineers, LLP
+<?xml:namespace prefix = st1 ns
+= "urn:schemas-microsoft-com:office:smarttags" />1500 Walnut Street, Suite
+1400
+Philadelphia, PA 19102
+Phone:   (215) 282-2169
+Fax:        (215) 735-6706
+www.akf-engineers.com
+
+
+
+=====================================================You received this
+e-mail because you are subscribed
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+from this mailing list send a blank message to
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From bfountain at greensim.com  Tue Jan 23 13:54:08 2007
+From: bfountain at greensim.com (Brian Fountain)
+Date: Tue, 23 Jan 2007 16:54:08 -0500
+Subject: [BLDG-SIM] creating budget cases
+In-Reply-To: <MDAEMON-F200701231456.AA5650531pd80002437876@gard.com>
+Message-ID: <MDAEMON-F200701231559.AA5921140pd80001357056@gard.com>
+
+eQUEST comes with a "compliance engine" which will automatically
+create the reference case; but the reference building rule set for
+ASHRAE 90.1 has not been created (or has not been publicly released)
+that I am aware of.  See volume 5 of the eQUEST documentation.
+
+_____________________________________________________
+GreenSim
+Building Energy Performance Solutions 
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of
+Dahlstrom, Aaron
+Sent: January 23, 2007 3:52 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] creating budget cases
+
+ 
+
+One of tasks I find myself doing repeatedly is creating budget cases,
+both for compliance and performance modeling.
+
+ 
+
+I've been wondering if automated software could take a design building
+and automatically create the budget case.
+
+ 
+
+I'm currently modeling in VisDOE and eQuest and may soon expand to
+TRNSYS.
+
+ 
+
+Has anyone seen such add-ons for:
+
+- ASHRAE 90.1-2001
+
+- ASHRAE 90.1- 2004 ECB, and / or
+
+- ASHRAE 90.1-2004 App. G?
+
+ 
+
+Thanks,
+
+ 
+
+Aaron Dahlstrom
+
+AKF Engineers, LLP
+1500 Walnut Street, Suite 1400
+Philadelphia, PA 19102 
+Phone:   (215) 282-2169
+Fax:        (215) 735-6706
+ <http://www.akf-engineers.com/> www.akf-engineers.com
+
+ 
+
+ 
+ 
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070123/e45c92be/attachment.htm>
+
+From rbrahme at harc.edu  Tue Jan 23 13:35:16 2007
+From: rbrahme at harc.edu (Rohini Brahme)
+Date: Tue, 23 Jan 2007 15:35:16 -0600
+Subject: [bldg-sim] creating budget cases
+In-Reply-To: <MDAEMON-F200701231457.AA5705125pd80002438368@gard.com>
+Message-ID: <MDAEMON-F200701231541.AA4143796pd80001357024@gard.com>
+
+I have heard that FSEC's energygauge software does it - havn't tried it
+myself.
+ 
+
+	-----Original Message-----
+	From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of
+Dahlstrom, Aaron
+	Sent: Tuesday, January 23, 2007 2:52 PM
+	To: bldg-sim at gard.com
+	Subject: [bldg-sim] creating budget cases
+	
+	
+	One of tasks I find myself doing repeatedly is creating budget
+cases, both for compliance and performance modeling.
+	 
+	I've been wondering if automated software could take a design
+building and automatically create the budget case.
+	 
+	I'm currently modeling in VisDOE and eQuest and may soon expand
+to TRNSYS.
+	 
+	Has anyone seen such add-ons for:
+	- ASHRAE 90.1-2001
+	- ASHRAE 90.1- 2004 ECB, and / or
+	- ASHRAE 90.1-2004 App. G?
+	 
+	Thanks,
+	 
+	Aaron Dahlstrom
+	AKF Engineers, LLP
+	1500 Walnut Street, Suite 1400
+	Philadelphia, PA 19102 
+	Phone:   (215) 282-2169
+	Fax:        (215) 735-6706
+	www.akf <http://www.akf-engineers.com/> -engineers.com
+	 
+	
+	==================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070123/97c9a336/attachment.htm>
+
+From BrandonN at Hargis.biz  Tue Jan 23 13:29:36 2007
+From: BrandonN at Hargis.biz (Brandon Nichols)
+Date: Tue, 23 Jan 2007 13:29:36 -0800
+Subject: [bldg-sim] Glycol Chillers/Pacakge units..
+Message-ID: <MDAEMON-F200701231533.AA3346343pd80001357012@gard.com>
+
+Hi John,
+ 
+Isn't it "simply" a matter of the derating coil heat transfer and
+pumping efficiencies, based on the percentage of glycol concentration?
+Of course, deriving the derating factors is the not so simple part...
+and probably the general solution would be to define a parametric
+relationship between the glycol concentration and the coil and pumping
+efficiencies.
+ 
+Glycol manufacturer's data should have plenty of info on the derating
+factors, perhaps even a parametric equation that can be utilized in BDL.
+ 
+Well that was the easy part... hope it helps!
+ 
+Brandon Nichols, PE
+Mechanical
+HARGIS ENGINEERS
+600 Stewart St
+Suite 1000
+Seattle, WA 98101
+d | 206.436.0400 c | 206.228.8707
+o | 206.448.3376 f | 206.448.4450
+www.hargis.biz
+
+
+  _____  
+
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Aulbach,
+John
+Sent: Tuesday, January 23, 2007 11:12 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Glycol Chillers/Pacakge units..
+
+
+Hi Folks:
+ 
+I am running into a few office/data center buildings where the main
+office areas are cooled by conventional chillers and the data
+center/server areas are conditioned by either Liebert type package units
+or 40% glycol-to-water mix chillers (colder climates that still need
+servers cooled). Naturally, both units will be on the same electric
+meter.
+ 
+The standard DOE-2 does not model glycol cooling, and a commercial
+building does not need the refrigeration version of eQuest.  Usually, I
+know the kw/ton (or the moral equivalent) of the glycol cooling source.
+But glycol/water does not have the same heat absorption properties as
+straight shot water to follow the load.
+ 
+I am trying to insure I am showing the correct energy used by these
+units, as I believe the LEED now includes the process loads within the
+Base and Proposed models to certify the level of LEED obtained.
+ 
+Does anyone have any "tricks" they have used?
+ 
+John R. Aulbach, PE, CEM
+Project Manager
+Nexant, Inc.
+100 North Barranca, Suite 820
+West Covina, CA 91791 USA
+Phone: 626-430-9054
+Fax: 626-430-9060
+email: jaulbach at nexant.com
+ 
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070123/100df53e/attachment.htm>
+
+From jaulbach at nexant.com  Tue Jan 23 13:26:59 2007
+From: jaulbach at nexant.com (Aulbach, John)
+Date: Tue, 23 Jan 2007 13:26:59 -0800
+Subject: [bldg-sim] creating budget cases
+In-Reply-To: <MDAEMON-F200701231456.AA565831pd80002438103@gard.com>
+Message-ID: <MDAEMON-F200701231531.AA3131656pd80001357007@gard.com>
+
+Aaron:
+ 
+Too bad your buildings are not in California. Both EnergyPro (Gabel
+Associates) and eQuest model a Title-24 Base case building with what you
+give it as the actual building. It changes the schedules as well to
+Title-24.
+ 
+EnergyPro is currently approved, with eQuest due for approval by the
+California Energy Commission in a month or so.
+ 
+The only other potential I know is the effort by the Oregon Energy Trust
+to get a version of eQuest to bless the Oregon version of
+ASHRAE-90.1-2004.  Since 90.1 is a Standard, many states reference this
+Standard, then add their own "tidbits" to it as they see fit. So it
+would be difficult to modify the standard for each case.
+ 
+Having done work through the Utah Energy FinAnswer program, I know the
+effort you speak of trying to create a base case building.
+ 
+Email Jeff Hirsch at jeff.hirsch at doe2.com to see what might be "cooking"
+with future eQuests.
+ 
+Also consider joining BSUG (Building Simulation Users Group), a group of
+modelers who met by web cast once a month to discuss such issues.
+Contact kathryn.j.henderson at saic.com in Portland, Oregon, who
+coordinates the seminar, once a month.
+
+________________________________
+
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of
+Dahlstrom, Aaron
+Sent: Tuesday, January 23, 2007 12:52 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] creating budget cases
+
+
+One of tasks I find myself doing repeatedly is creating budget cases,
+both for compliance and performance modeling.
+ 
+I've been wondering if automated software could take a design building
+and automatically create the budget case.
+ 
+I'm currently modeling in VisDOE and eQuest and may soon expand to
+TRNSYS.
+ 
+Has anyone seen such add-ons for:
+- ASHRAE 90.1-2001
+- ASHRAE 90.1- 2004 ECB, and / or
+- ASHRAE 90.1-2004 App. G?
+ 
+Thanks,
+ 
+Aaron Dahlstrom
+AKF Engineers, LLP
+1500 Walnut Street, Suite 1400
+Philadelphia, PA 19102 
+Phone:   (215) 282-2169
+Fax:        (215) 735-6706
+www.akf <http://www.akf-engineers.com/> -engineers.com
+ 
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070123/d0f32858/attachment.htm>
+
+From ADahlstrom at AKF-ENG.com  Tue Jan 23 12:51:51 2007
+From: ADahlstrom at AKF-ENG.com (Dahlstrom, Aaron)
+Date: Tue, 23 Jan 2007 15:51:51 -0500
+Subject: [bldg-sim] creating budget cases
+Message-ID: <MDAEMON-F200701231456.AA5658140pd80001356961@gard.com>
+
+One of tasks I find myself doing repeatedly is creating budget cases,
+both for compliance and performance modeling.
+ 
+I've been wondering if automated software could take a design building
+and automatically create the budget case.
+ 
+I'm currently modeling in VisDOE and eQuest and may soon expand to
+TRNSYS.
+ 
+Has anyone seen such add-ons for:
+- ASHRAE 90.1-2001
+- ASHRAE 90.1- 2004 ECB, and / or
+- ASHRAE 90.1-2004 App. G?
+ 
+Thanks,
+ 
+Aaron Dahlstrom
+AKF Engineers, LLP
+1500 Walnut Street, Suite 1400
+Philadelphia, PA 19102 
+Phone:   (215) 282-2169
+Fax:        (215) 735-6706
+ <http://www.akf-engineers.com/> www.akf-engineers.com
+ 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070123/71c5f307/attachment.htm>
+
+From jaulbach at nexant.com  Tue Jan 23 11:12:05 2007
+From: jaulbach at nexant.com (Aulbach, John)
+Date: Tue, 23 Jan 2007 11:12:05 -0800
+Subject: [bldg-sim] Glycol Chillers/Pacakge units..
+In-Reply-To: <MDAEMON-F200701170853.AA5309703pd80002423998@gard.com>
+Message-ID: <MDAEMON-F200701231316.AA1640578pd80001356866@gard.com>
+
+Hi Folks:
+ 
+I am running into a few office/data center buildings where the main
+office areas are cooled by conventional chillers and the data
+center/server areas are conditioned by either Liebert type package units
+or 40% glycol-to-water mix chillers (colder climates that still need
+servers cooled). Naturally, both units will be on the same electric
+meter.
+ 
+The standard DOE-2 does not model glycol cooling, and a commercial
+building does not need the refrigeration version of eQuest.  Usually, I
+know the kw/ton (or the moral equivalent) of the glycol cooling source.
+But glycol/water does not have the same heat absorption properties as
+straight shot water to follow the load.
+ 
+I am trying to insure I am showing the correct energy used by these
+units, as I believe the LEED now includes the process loads within the
+Base and Proposed models to certify the level of LEED obtained.
+ 
+Does anyone have any "tricks" they have used?
+ 
+John R. Aulbach, PE, CEM
+Project Manager
+Nexant, Inc.
+100 North Barranca, Suite 820
+West Covina, CA 91791 USA
+Phone: 626-430-9054
+Fax: 626-430-9060
+email: jaulbach at nexant.com
+ 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070123/0c39ad5f/attachment.htm>
+
+From Peter_Ellis at nrel.gov  Mon Jan 22 22:31:23 2007
+From: Peter_Ellis at nrel.gov (Ellis, Peter)
+Date: Mon, 22 Jan 2007 23:31:23 -0700
+Subject: [BLDG-SIM] Final Reminder and Room Numbers for IBPSA-USA Dallas Meeting
+Message-ID: <MDAEMON-F200701230038.AA3845218pd50001356549@gard.com>
+
+Please excuse the cross-postings...
+ 
+ 
+Final Reminder:
+You still have until 5 PM (MDT) Tuesday, January 23 to register for the dinner.  
+ 
+ 
+Room Numbers:
+We are in two different rooms for this event.  Both are located on the 4th floor of the Adams Mark Hotel:
+ 
+4:30 PM - 7:00 PM    Software Demos and Social Hour in room Cityview 6
+ 
+7:00 PM - finish         Dinner and Talk in room Cityview 7
+ 
+ 
+ 
+ 
+Addendum:
+The cost of dinner is $40--sorry I neglected to mention it in the previous announcement.
+ 
+ 
+Please excuse the cross-postings...
+
+
+IBPSA
+International Building Performance Simulation Association
+USA Affiliate
+
+IBPSA-USA invites you to join us in Dallas, Texas for our Winter 2007 meeting!
+
+
+Meeting Highlights: 
+                   Simulation Software Demonstrations
+                   Susan Reilly will speak about the general state of simulation for LEED
+
+IBPSA-USA MEETING ANNOUNCEMENT
+Dinner RSVP requested (see below)
+4:30* PM, Saturday, January 27, 2007 
+Dallas, Texas
+
+
+Location:     Meeting and dinner at the Adams Mark Hotel, 400 North Olive Street, Dallas, Texas
+
+*Note that we'll be starting at 4:30 this time instead of the usual 4:00 PM (for room scheduling reasons)
+4:30* PM - 6:00 PM    Simulation Software Demonstrations  
+                                (If you are a software developer interested in participating, 
+                                please contact Mike Brandemuehl at michael.brandemuehl at colorado.edu
+                                DEADLINE to reply is Wednesday, January 17.)
+
+6:00 PM - 7:00 PM    Social hour with cash bar
+
+7:00 PM    Dinner, $40
+
+8:00 PM (approx)    After-dinner talk:  Susan Reilly, President of Enermodel Engineering
+                                                          
+Susan will speak about the general state of simulation for LEED, including common blunders, difficulties with the required methods, challenging systems, needs for improved modeling and tools, educational opportunities, and general observations and opinions.
+ 
+Susan Reilly, P.E. is president of Enermodal Engineering, Inc. located in Denver, Colorado.  Enermodal Engineering, Inc. consults on energy and resource efficiency in the built environment.  Susan has worked with design teams in Colorado and throughout the U.S. to incorporate greater energy efficiency and sustainable design practices into their projects over the past 15 years.  She is a LEED Accredited Professional, a reviewer of LEED Energy and Atmosphere credits for RMI/Ensar Built Environments, and recently completed her role as technical support for the development of the Energy and Atmosphere sections of the reference guides for LEED-NC, CI, and EB.
+ 
+                                                          
+Reservations:      To make a reservation contact Peter Ellis < peter_ellis at nrel.gov> via email by January 23, 2007, 5 PM (MDT).  Confirmation of reservations will be sent via email (if you do not receive a confirmation within two business days, please resend your reservation request).
+
+For the latest information about IBPSA-USA, please visit our web site: http://www.ibpsa. <http://www.ibpsa.us/> us
+
+We look forward to seeing you there!
+
+Michael Brandemuehl                        Peter Ellis
+President, IBPSA-USA                      Secretary, IBPSA-USA 
+ 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070122/ce7d0690/attachment.htm>
+
+From twhite at glumac.com  Fri Jan 19 16:59:06 2007
+From: twhite at glumac.com (Thomas White)
+Date: Fri, 19 Jan 2007 16:59:06 -0800
+Subject: [BLDG-SIM] increasing concrete slab conductivity
+In-Reply-To: <MDAEMON-F200701191607.AA0750140pd80002432821@gard.com>
+Message-ID: <MDAEMON-F200701191904.AA0406718pd80001355632@gard.com>
+
+Ian,
+ 
+Here is a great website that is all about concrete and nothing but concrete. 
+ 
+http://www.concretethinker.com
+ 
+You might find an answer there.
+ 
+...Tom White
+ 
+503.345.6246  |  twhite at glumac.com
+ 
+Glumac
+320 SW Washington, Suite 200
+Portland, OR 97204-2640
+T. 503.227.5280   F. 503.274.7674 
+http://www.glumac.com <http://www.glumac.com/> 
+ 
+ 
+ 
+-----Original Message-----
+From: BLDG-SIM at gard.com [mailto:BLDG-SIM at gard.com]On Behalf Of Ian Doebber
+Sent: Friday, January 19, 2007 2:03 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] increasing concrete slab conductivity
+
+
+
+Anyone know of a common and cheap procedure to add a material to a concrete pour to drive up its conductivity from a common 1.6 to 1.7 W/m-K.  We don't want to add rebar nor a wire mess.  I'm thinking of pulverized metal material that would not corrode within the conrete reducing the strength, causing cracks/discoloration.  I'd be appreciative if anyone knew of any research or currently applied practices.  
+
+ 
+
+With radiant tubing buried a further depth below the finished surface, want to increase the dynamic response of the slab.
+
+ 
+
+Thanks
+
+ 
+
+Ian Doebber
+
+Arup
+
+Mechanical Engineer
+
+Office : 415-946-0292
+
+Fax : 415-957-9096
+
+Cell : 415-613-4314
+
+ 
+
+____________________________________________________________
+
+Electronic mail messages entering and leaving Arup  business
+
+systems are scanned for acceptability of content and viruses
+
+
+==================
+
+You received this e-mail because you are subscribed 
+
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+
+from this mailing list send a blank message to 
+
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070119/fd5a4424/attachment.htm>
+
+From Ian.Doebber at arup.com  Fri Jan 19 14:02:41 2007
+From: Ian.Doebber at arup.com (Ian Doebber)
+Date: Fri, 19 Jan 2007 14:02:41 -0800
+Subject: [BLDG-SIM] increasing concrete slab conductivity
+Message-ID: <MDAEMON-F200701191607.AA073831pd80001355530@gard.com>
+
+Anyone know of a common and cheap procedure to add a material to a
+concrete pour to drive up its conductivity from a common 1.6 to 1.7
+W/m-K.  We don't want to add rebar nor a wire mess.  I'm thinking of
+pulverized metal material that would not corrode within the conrete
+reducing the strength, causing cracks/discoloration.  I'd be
+appreciative if anyone knew of any research or currently applied
+practices.  
+
+ 
+
+With radiant tubing buried a further depth below the finished surface,
+want to increase the dynamic response of the slab.
+
+ 
+
+Thanks
+
+ 
+
+Ian Doebber
+
+Arup
+
+Mechanical Engineer
+
+Office : 415-946-0292
+
+Fax : 415-957-9096
+
+Cell : 415-613-4314
+
+ 
+
+____________________________________________________________
+Electronic mail messages entering and leaving Arup  business
+systems are scanned for acceptability of content and viruses
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070119/1cde7ed6/attachment.htm>
+
+From imaor at pwienergy.com  Thu Jan 18 11:44:01 2007
+From: imaor at pwienergy.com (Itzhak Maor)
+Date: Thu, 18 Jan 2007 14:44:01 -0500
+Subject: [bldg-sim] Job Posting at PWI-Energy
+Message-ID: <MDAEMON-F200701181348.AA4848781pd80001355014@gard.com>
+
+PWI-Energy Inc., an energy consulting firm specializing in identifying,
+assessing and implementing energy conservation projects for
+pharmaceutical, industrial and institutional facilities domestically and
+internationally, seeks self-motivated individuals for the following
+positions based in Philadelphia, PA.
+
+Senior Energy/Mechanical Engineer. The candidate should have at least 5
+years of HVAC systems design, laboratories, central steam and chilled
+water plants, compressed air etc. for large facilities. The ideal
+candidate will have a B.S in mechanical engineering, architectural
+engineering or a professional engineering license (PE) along with proven
+record of project management and leadership. It is expected that the
+selected individual will have the ability to lead a team of engineers
+and analysts in energy surveys and prepare professional reports for
+sophisticated clients.  
+
+Energy/ Mechanical Engineer The candidate should be an
+HVAC/Mechanical/Architectural engineer with 1+ years of relevant
+experience using building simulation tools. The candidate will have
+strong knowledge of, DOE-2, TRACE, or e-Quest. Experience with HVAC
+systems and/or HVAC controls are ideal. The candidate should have
+excellent abilities with MS Excel. A highly motivated, entry level
+engineer with advanced degree (MS/PhD) in engineering will be considered
+for this position.  
+
+Please submit your resume to:
+ 
+
+Itzhak Maor, Ph.D., P.E., CEM
+Principal / Director of Engineering
+PWI-Energy
+327 North 17th Street
+Philadelphia, PA 19103
+Tel:  (215) 241-9111 ext 156
+Fax: (215) 241-0113
+
+imaor at pwienergy.com
+
+www.pwi-energy.com
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070118/eca1702a/attachment.htm>
+
+From peter.alspach at arup.com  Thu Jan 18 10:48:38 2007
+From: peter.alspach at arup.com (Peter Alspach)
+Date: Thu, 18 Jan 2007 10:48:38 -0800
+Subject: [bldg-sim] Horizontal shading in EQUEST
+Message-ID: <MDAEMON-F200701181253.AA5359500pd80001354962@gard.com>
+
+also keep in kind that when autosizing the result is generally that the
+system autosizes based on the sum of all coil loads without accounting
+for diversity, resulting in what would be an oversized system from a
+design perspective. depending on your equipment curves this can result
+in low part load efficiency which will affect your results, sometimes in
+a significant manner. One way to check is to look at your equipment
+operation and see the PLR ranges it is operating in as well as comparing
+equipment capacity to actual loop loads. After a prelim run you can then
+hard size the primary equipment to a reasonable value based on the
+actual loop loads if you don't have equipment selected at your point in
+the design process.
+
+Peter
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Glenn
+Haynes
+Sent: Thursday, January 18, 2007 9:29 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Horizontal shading in EQUEST
+
+Rohini,
+
+Is it possible that your system is allowed to autosize?  If so, you may
+be reducing outside air when the fan CFM is reduced due to the cooling
+load reduction.  This could explain the decrease in heating energy.
+
+BTW, if you are designing a new building or sizing a new system, it is
+OK to allow the system to autosize, and the surprising interactive
+results of other changes may actually be valid.
+
+But if you have a system (such as an existing system) that is not
+actually going to change with some other change, you should not forget
+to fix that system capacity (and, possibly other things) and run your
+fixed baseline before you add the desired change and rerun the model.
+With everything else fixed, all you will see are the effects of the
+desired change.
+
+Glenn
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Rohini
+Brahme
+Sent: Thursday, January 18, 2007 10:40 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Horizontal shading in EQUEST
+
+I have also seen similar results. If I remember correctly, I was
+autosizing the system - and the sizing of the fan cfm is small with
+shades - which seemed like the reason for lower heating. Also, reduction
+in reheating is a likely cause - any report that just shows the
+reheating energy? If you look at the LS-D report, you should find that
+the heating has increased and the cooling has decreased.
+ 
+Having said that, the shading results always tend to surprise me.
+- Rohini
+ 
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+----
+ 
+What do you mean by Horizontal Shading? Like fins (the device fin are
+vertical, but cut down light horizontally) ??
+ 
+I just ran a typical office (250,000 sf) in Fresno, CA in eQuest.  When
+I put 2.5 ft fins on all the windows, I got a slight decrease in heating
+as well (but not to your % level).
+ 
+I traded the 2.5 ft fins with 2.5 overhangs. I got a 15% decrease in
+cooling, and a 13% decrease in heating. This building is dominated by
+VAV/reheat. What I can surmise is that when the cooling load decreased,
+the need to reheat decreased as well. That the building is not skin
+dominated for energy.
+ 
+Anyone else have a clue?
+ 
+John R. Aulbach, PE, CEM
+Project Manager
+Nexant, Inc.
+100 North Barranca, Suite 820
+West Covina, CA 91791 USA
+Phone: 626-430-9054
+Fax: 626-430-9060
+email: jaulbach at nexant.com
+ 
+
+________________________________
+
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Jaya
+Mukhopadhyay
+Sent: Wednesday, January 17, 2007 3:25 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Horizontal shading in EQUEST
+
+
+I am examining several options for Horizontal shading for an office
+building using EQUEST.
+A synopsis of the answers is as follows:
+	Total Annual Energy MBTU	 Space Cooling MBTU	 Space
+Heating MBTU	
+Unshaded Option	 8380	 2411.9	 308.1	
+2.5 ft Horizontal shading on East West and South
+ 
+7936.8	 2178.8	 284.2	
+5 ft Horizontal shading on East West and South	  
+7835
+ 
+2158
+ 
+269.7
+ 
+The Questions:
+1. Its very baffling to see the heating consumption go down too. I
+wanted to see an increase in heating on implementing the shading
+devices. How can I justify that decrease?
+ 
+2. The building has a total area of 210273 sqft. with 15 ft deep
+perimeter zones. The shading reduces the energy consumption by 5 to 6 %.
+Is that acceptable?
+ 
+Any help is greatly appreciated.
+Thank you
+Jaya Mukhopadhyay
+
+________________________________
+
+Get your own web address.
+<http://us.rd.yahoo.com/evt=49678/*http://smallbusiness.yahoo.com/domain
+s/?p=BESTDEAL>
+Have a HUGE year through Yahoo! Small Business.
+<http://us.rd.yahoo.com/evt=49678/*http://smallbusiness.yahoo.com/domain
+s/?p=BESTDEAL> 
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+ 
+ _________________
+
+ 
+CONFIDENTIALITY NOTICE
+IMPORTANT: This communication, together with any attachments hereto or
+links contained herein, is for the sole use of the intended recipient(s)
+and may contain information that is confidential and/or legally
+protected and privileged. If you are not the intended recipient, you are
+hereby notified that any review, redisclosure, copying, dissemination,
+distribution, forwarding, printing or use of this communication or its
+attachments is STRICTLY PROHIBITED. If you have received this
+communication in error, please notify the sender immediately by return
+e-mail message and delete the original and all copies of the
+communication, along with any attachments hereto or links herein, from
+your system. If you disclose this communication to any person or entity
+without our prior written consent, you may be subject to an action for
+breach of confidentiality, in addition to all other actions in law and
+in equity.
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+____________________________________________________________
+Electronic mail messages entering and leaving Arup  business
+systems are scanned for acceptability of content and viruses
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From glenn.haynes at rlw.com  Thu Jan 18 09:28:43 2007
+From: glenn.haynes at rlw.com (Glenn Haynes)
+Date: Thu, 18 Jan 2007 09:28:43 -0800
+Subject: [bldg-sim] Horizontal shading in EQUEST
+Message-ID: <MDAEMON-F200701181133.AA3334828pd80001354875@gard.com>
+
+Rohini,
+
+Is it possible that your system is allowed to autosize?  If so, you may
+be reducing outside air when the fan CFM is reduced due to the cooling
+load reduction.  This could explain the decrease in heating energy.
+
+BTW, if you are designing a new building or sizing a new system, it is
+OK to allow the system to autosize, and the surprising interactive
+results of other changes may actually be valid.
+
+But if you have a system (such as an existing system) that is not
+actually going to change with some other change, you should not forget
+to fix that system capacity (and, possibly other things) and run your
+fixed baseline before you add the desired change and rerun the model.
+With everything else fixed, all you will see are the effects of the
+desired change.
+
+Glenn
+
+-----Original Message-----
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Rohini
+Brahme
+Sent: Thursday, January 18, 2007 10:40 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Horizontal shading in EQUEST
+
+I have also seen similar results. If I remember correctly, I was
+autosizing the system - and the sizing of the fan cfm is small with
+shades - which seemed like the reason for lower heating. Also, reduction
+in reheating is a likely cause - any report that just shows the
+reheating energy? If you look at the LS-D report, you should find that
+the heating has increased and the cooling has decreased.
+ 
+Having said that, the shading results always tend to surprise me.
+- Rohini
+ 
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+----
+ 
+What do you mean by Horizontal Shading? Like fins (the device fin are
+vertical, but cut down light horizontally) ??
+ 
+I just ran a typical office (250,000 sf) in Fresno, CA in eQuest.  When
+I put 2.5 ft fins on all the windows, I got a slight decrease in heating
+as well (but not to your % level).
+ 
+I traded the 2.5 ft fins with 2.5 overhangs. I got a 15% decrease in
+cooling, and a 13% decrease in heating. This building is dominated by
+VAV/reheat. What I can surmise is that when the cooling load decreased,
+the need to reheat decreased as well. That the building is not skin
+dominated for energy.
+ 
+Anyone else have a clue?
+ 
+John R. Aulbach, PE, CEM
+Project Manager
+Nexant, Inc.
+100 North Barranca, Suite 820
+West Covina, CA 91791 USA
+Phone: 626-430-9054
+Fax: 626-430-9060
+email: jaulbach at nexant.com
+ 
+
+________________________________
+
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Jaya
+Mukhopadhyay
+Sent: Wednesday, January 17, 2007 3:25 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Horizontal shading in EQUEST
+
+
+I am examining several options for Horizontal shading for an office
+building using EQUEST.
+A synopsis of the answers is as follows:
+	Total Annual Energy MBTU	 Space Cooling MBTU	 Space
+Heating MBTU	
+Unshaded Option	 8380	 2411.9	 308.1	
+2.5 ft Horizontal shading on East West and South
+ 
+7936.8	 2178.8	 284.2	
+5 ft Horizontal shading on East West and South	  
+7835
+ 
+2158
+ 
+269.7
+ 
+The Questions:
+1. Its very baffling to see the heating consumption go down too. I
+wanted to see an increase in heating on implementing the shading
+devices. How can I justify that decrease?
+ 
+2. The building has a total area of 210273 sqft. with 15 ft deep
+perimeter zones. The shading reduces the energy consumption by 5 to 6 %.
+Is that acceptable?
+ 
+Any help is greatly appreciated.
+Thank you 
+Jaya Mukhopadhyay
+
+________________________________
+
+Get your own web address.
+<http://us.rd.yahoo.com/evt=49678/*http://smallbusiness.yahoo.com/domain
+s/?p=BESTDEAL> 
+Have a HUGE year through Yahoo! Small Business.
+<http://us.rd.yahoo.com/evt=49678/*http://smallbusiness.yahoo.com/domain
+s/?p=BESTDEAL> 
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+ 
+ _________________
+
+ 
+CONFIDENTIALITY NOTICE
+IMPORTANT: This communication, together with any attachments hereto or links contained herein, is for the sole use of the intended recipient(s) and may contain information that is confidential and/or legally protected and privileged. If you are not the intended recipient, you are hereby notified that any review, redisclosure, copying, dissemination, distribution, forwarding, printing or use of this communication or its attachments is STRICTLY PROHIBITED. If you have received this communication in error, please notify the sender immediately by return e-mail message and delete the original and all copies of the communication, along with any attachments hereto or links herein, from your system. If you disclose this communication to any person or entity without our prior written consent, you may be subject to an action for breach of confidentiality, in addition to all other actions in law and in equity.
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From rbrahme at harc.edu  Thu Jan 18 07:39:32 2007
+From: rbrahme at harc.edu (Rohini Brahme)
+Date: Thu, 18 Jan 2007 09:39:32 -0600
+Subject: [bldg-sim] Horizontal shading in EQUEST
+References: <MDAEMON-F200701171851.AA5129640pd80002427402@gard.com>
+Message-ID: <MDAEMON-F200701180946.AA4612906pd80001354789@gard.com>
+
+I have also seen similar results. If I remember correctly, I was autosizing the system - and the sizing of the fan cfm is small with shades - which seemed like the reason for lower heating. Also, reduction in reheating is a likely cause - any report that just shows the reheating energy? If you look at the LS-D report, you should find that the heating has increased and the cooling has decreased.
+ 
+Having said that, the shading results always tend to surprise me.
+- Rohini
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+What do you mean by Horizontal Shading? Like fins (the device fin are vertical, but cut down light horizontally) ??
+ 
+I just ran a typical office (250,000 sf) in Fresno, CA in eQuest.  When I put 2.5 ft fins on all the windows, I got a slight decrease in heating as well (but not to your % level).
+ 
+I traded the 2.5 ft fins with 2.5 overhangs. I got a 15% decrease in cooling, and a 13% decrease in heating. This building is dominated by VAV/reheat. What I can surmise is that when the cooling load decreased, the need to reheat decreased as well. That the building is not skin dominated for energy.
+ 
+Anyone else have a clue?
+ 
+John R. Aulbach, PE, CEM
+Project Manager
+Nexant, Inc.
+100 North Barranca, Suite 820
+West Covina, CA 91791 USA
+Phone: 626-430-9054
+Fax: 626-430-9060
+email: jaulbach at nexant.com
+ 
+
+________________________________
+
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Jaya Mukhopadhyay
+Sent: Wednesday, January 17, 2007 3:25 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Horizontal shading in EQUEST
+
+
+I am examining several options for Horizontal shading for an office building using EQUEST.
+A synopsis of the answers is as follows:
+	Total Annual Energy MBTU	 Space Cooling MBTU	 Space Heating MBTU	
+Unshaded Option	 8380	 2411.9	 308.1	
+2.5 ft Horizontal shading on East West and South
+ 
+7936.8	 2178.8	 284.2	
+5 ft Horizontal shading on East West and South	  
+7835
+ 
+2158
+ 
+269.7
+ 
+The Questions:
+1. Its very baffling to see the heating consumption go down too. I wanted to see an increase in heating on implementing the shading devices. How can I justify that decrease?
+ 
+2. The building has a total area of 210273 sqft. with 15 ft deep perimeter zones. The shading reduces the energy consumption by 5 to 6 %. Is that acceptable?
+ 
+Any help is greatly appreciated.
+Thank you 
+Jaya Mukhopadhyay
+
+________________________________
+
+Get your own web address. <http://us.rd.yahoo.com/evt=49678/*http://smallbusiness.yahoo.com/domains/?p=BESTDEAL> 
+Have a HUGE year through Yahoo! Small Business. <http://us.rd.yahoo.com/evt=49678/*http://smallbusiness.yahoo.com/domains/?p=BESTDEAL> 
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From jaulbach at nexant.com  Wed Jan 17 16:46:32 2007
+From: jaulbach at nexant.com (Aulbach, John)
+Date: Wed, 17 Jan 2007 16:46:32 -0800
+Subject: [bldg-sim] Horizontal shading in EQUEST
+In-Reply-To: <MDAEMON-F200701171730.AA3035906pd80002426187@gard.com>
+Message-ID: <MDAEMON-F200701171851.AA5127265pd80001354558@gard.com>
+
+What do you mean by Horizontal Shading? Like fins (the device fin are
+vertical, but cut down light horizontally) ??
+ 
+I just ran a typical office (250,000 sf) in Fresno, CA in eQuest.  When
+I put 2.5 ft fins on all the windows, I got a slight decrease in heating
+as well (but not to your % level).
+ 
+I traded the 2.5 ft fins with 2.5 overhangs. I got a 15% decrease in
+cooling, and a 13% decrease in heating. This building is dominated by
+VAV/reheat. What I can surmise is that when the cooling load decreased,
+the need to reheat decreased as well. That the building is not skin
+dominated for energy.
+ 
+Anyone else have a clue?
+ 
+John R. Aulbach, PE, CEM
+Project Manager
+Nexant, Inc.
+100 North Barranca, Suite 820
+West Covina, CA 91791 USA
+Phone: 626-430-9054
+Fax: 626-430-9060
+email: jaulbach at nexant.com
+ 
+
+________________________________
+
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Jaya
+Mukhopadhyay
+Sent: Wednesday, January 17, 2007 3:25 PM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Horizontal shading in EQUEST
+
+
+I am examining several options for Horizontal shading for an office
+building using EQUEST.
+A synopsis of the answers is as follows:
+	Total Annual Energy MBTU	 Space Cooling MBTU	 Space
+Heating MBTU	
+Unshaded Option	 8380	 2411.9	 308.1	
+2.5 ft Horizontal shading on East West and South
+ 
+7936.8	 2178.8	 284.2	
+5 ft Horizontal shading on East West and South	  
+7835
+ 
+2158
+ 
+269.7
+ 
+The Questions:
+1. Its very baffling to see the heating consumption go down too. I
+wanted to see an increase in heating on implementing the shading
+devices. How can I justify that decrease?
+ 
+2. The building has a total area of 210273 sqft. with 15 ft deep
+perimeter zones. The shading reduces the energy consumption by 5 to 6 %.
+Is that acceptable?
+ 
+Any help is greatly appreciated.
+Thank you 
+Jaya Mukhopadhyay
+
+________________________________
+
+Get your own web address.
+<http://us.rd.yahoo.com/evt=49678/*http://smallbusiness.yahoo.com/domain
+s/?p=BESTDEAL> 
+Have a HUGE year through Yahoo! Small Business.
+<http://us.rd.yahoo.com/evt=49678/*http://smallbusiness.yahoo.com/domain
+s/?p=BESTDEAL> 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070117/1027656c/attachment.htm>
+
+From jaya_mukho at yahoo.com  Wed Jan 17 15:25:16 2007
+From: jaya_mukho at yahoo.com (Jaya Mukhopadhyay)
+Date: Wed, 17 Jan 2007 15:25:16 -0800 (PST)
+Subject: [bldg-sim] Horizontal shading in EQUEST
+Message-ID: <MDAEMON-F200701171730.AA3036171pd80001354505@gard.com>
+
+I am examining several options for Horizontal shading for an office building using EQUEST.
+  A synopsis of the answers is as follows:
+                      Total Annual Energy MBTU  Space Cooling MBTU  Space Heating MBTU    Unshaded Option  8380  2411.9  308.1      2.5 ft Horizontal shading on East West and South
+   
+  7936.8  2178.8  284.2    5 ft Horizontal shading on East West and South     
+  7835
+     
+  2158
+     
+  269.7
+
+   
+  The Questions:
+  1. Its very baffling to see the heating consumption go down too. I wanted to see an increase in heating on implementing the shading devices. How can I justify that decrease?
+   
+  2. The building has a total area of 210273 sqft. with 15 ft deep perimeter zones. The shading reduces the energy consumption by 5 to 6 %. Is that acceptable?
+   
+  Any help is greatly appreciated.
+  Thank you 
+  Jaya Mukhopadhyay
+
+ 
+---------------------------------
+ Get your own web address.
+ Have a HUGE year through Yahoo! Small Business.
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070117/5cce945d/attachment.htm>
+
+From cj at cr-jay.ca  Wed Jan 17 09:00:00 2007
+From: cj at cr-jay.ca (Chris Jones)
+Date: Wed, 17 Jan 2007 12:00:00 -0500
+Subject: [bldg-sim] LEED application grace period
+In-Reply-To: <MDAEMON-F200701161755.AA550000pd80002422559@gard.com>
+References: <MDAEMON-F200701161755.AA550000pd80002422559@gard.com>
+Message-ID: <MDAEMON-F200701171104.AA0454359pd80001354279@gard.com>
+
+Is there a time limit for submitting documentation for projects that 
+registered under LEED 2.0?  At what point would the project have to change 
+to LEED 2.2?
+
+Thanks for any help on this question!
+
+
+
+
+Chris Jones
+14 Oneida Avenue
+Toronto, ON M52E3
+Tel 416-203-7465
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070117/aa5e7be1/attachment.htm>
+
+From arutter at staenglengineering.com  Wed Jan 17 06:47:22 2007
+From: arutter at staenglengineering.com (Allison Rutter)
+Date: Wed, 17 Jan 2007 09:47:22 -0500
+Subject: [bldg-sim] PVVT Sytems with zone voting control
+Message-ID: <MDAEMON-F200701170853.AA5310296pd80001354184@gard.com>
+
+Hi all,
+
+ 
+
+Has anyone used eQUEST to model a PVVT system with zone voting control?  It
+seems that I am only able to specify a control zone, and have all other
+zones be "proportionate to the airflow of the control zone", whose
+thermostats have no effect on the operation of the supply
+airflow/temperature.  Is there a way in which I can simulate the intended
+system by specifying another system type in eQUEST, or by specifying a
+cooling/heating availability schedule?  Any help would be appreciated.
+
+ 
+
+Thank you,
+
+ 
+
+Allison Rutter
+
+Mechanical Engineer, LEED AP 
+
+STAENGL ENGINEERING
+
+300 W. Main St. Suite 302
+
+Charlottesville, VA 22903
+
+Ph:   (434) 295-8105
+
+Fax: (866) 810-2879
+
+www.staenglengineering.com
+
+ 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070117/2c4d3139/attachment.htm>
+
+From astevens at dmiinc.com  Tue Jan 16 15:50:13 2007
+From: astevens at dmiinc.com (Alec Stevens)
+Date: Tue, 16 Jan 2007 18:50:13 -0500
+Subject: [bldg-sim] Job posting at DMI
+Message-ID: <MDAEMON-F200701161755.AA5507625pd80001353943@gard.com>
+
+Hello,
+
+DMI has a current opening for mechanical engineers.
+
+Please see our posting on craigslist
+
+http://boston.craigslist.org/bmw/egr/263679577.html
+
+ 
+
+ 
+
+ 
+
+Sincerely,
+
+Alec Stevens, PE, LEED AP
+
+DMI
+
+450 Lexington St., Newton, MA 02466
+
+p: 617-527-1525 x105 f: 617-527-6606
+
+e: astevens at dmiinc.com
+
+ 
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070116/897ffe9b/attachment.htm>
+
+From Peter_Ellis at nrel.gov  Mon Jan 15 15:41:28 2007
+From: Peter_Ellis at nrel.gov (Ellis, Peter)
+Date: Mon, 15 Jan 2007 16:41:28 -0700
+Subject: [BLDG-SIM] Addendum:  IBPSA-USA Dallas Meeting Reminder
+Message-ID: <MDAEMON-F200701151748.AA484862pd50001353440@gard.com>
+
+ 
+Addendum:
+The cost of dinner is $40--sorry I neglected to mention it in the previous announcement.
+ 
+ 
+Please excuse the cross-postings...
+
+
+IBPSA
+International Building Performance Simulation Association
+USA Affiliate
+
+IBPSA-USA invites you to join us in Dallas, Texas for our Winter 2007 meeting!
+
+
+Meeting Highlights: 
+                   Simulation Software Demonstrations
+                   Susan Reilly will speak about the general state of simulation for LEED
+
+IBPSA-USA MEETING ANNOUNCEMENT
+Dinner RSVP requested (see below)
+4:30* PM, Saturday, January 27, 2007 
+Dallas, Texas
+
+
+Location:     Meeting and dinner at the Adams Mark Hotel, 400 North Olive Street, Dallas, Texas
+
+*Note that we'll be starting at 4:30 this time instead of the usual 4:00 PM (for room scheduling reasons)
+4:30* PM - 6:00 PM    Simulation Software Demonstrations  
+                                (If you are a software developer interested in participating, 
+                                please contact Mike Brandemuehl at michael.brandemuehl at colorado.edu
+                                DEADLINE to reply is Wednesday, January 17.)
+
+6:00 PM - 7:00 PM    Social hour with cash bar
+
+7:00 PM    Dinner
+
+8:00 PM (approx)    After-dinner talk:  Susan Reilly, President of Enermodel Engineering
+                                                          
+Susan will speak about the general state of simulation for LEED, including common blunders, difficulties with the required methods, challenging systems, needs for improved modeling and tools, educational opportunities, and general observations and opinions.
+ 
+Susan Reilly, P.E. is president of Enermodal Engineering, Inc. located in Denver, Colorado.  Enermodal Engineering, Inc. consults on energy and resource efficiency in the built environment.  Susan has worked with design teams in Colorado and throughout the U.S. to incorporate greater energy efficiency and sustainable design practices into their projects over the past 15 years.  She is a LEED Accredited Professional, a reviewer of LEED Energy and Atmosphere credits for RMI/Ensar Built Environments, and recently completed her role as technical support for the development of the Energy and Atmosphere sections of the reference guides for LEED-NC, CI, and EB.
+ 
+                                                          
+Reservations:      To make a reservation contact Peter Ellis < peter_ellis at nrel.gov> via email by January 23, 2007, 5 PM (MDT).  Confirmation of reservations will be sent via email (if you do not receive a confirmation within two business days, please resend your reservation request).
+
+For the latest information about IBPSA-USA, please visit our web site: http://www.ibpsa. <http://www.ibpsa.us/> us
+
+We look forward to seeing you there!
+
+Michael Brandemuehl                        Peter Ellis
+President, IBPSA-USA                      Secretary, IBPSA-USA 
+ 
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070115/b6971d52/attachment.htm>
+
+From Peter_Ellis at nrel.gov  Fri Jan 12 16:08:07 2007
+From: Peter_Ellis at nrel.gov (Ellis, Peter)
+Date: Fri, 12 Jan 2007 17:08:07 -0700
+Subject: [BLDG-SIM] IBPSA-USA Dallas Meeting Reminder
+Message-ID: <MDAEMON-F200701121815.AA151631pd50001352721@gard.com>
+
+Please excuse the cross-postings...
+
+
+IBPSA
+International Building Performance Simulation Association
+USA Affiliate
+
+IBPSA-USA invites you to join us in Dallas, Texas for our Winter 2007 meeting!
+
+
+Meeting Highlights: 
+                   Simulation Software Demonstrations
+                   Susan Reilly will speak about the general state of simulation for LEED
+
+IBPSA-USA MEETING ANNOUNCEMENT
+Dinner RSVP requested (see below)
+4:30* PM, Saturday, January 27, 2007 
+Dallas, Texas
+
+
+Location:     Meeting and dinner at the Adams Mark Hotel, 400 North Olive Street, Dallas, Texas
+
+*Note that we'll be starting at 4:30 this time instead of the usual 4:00 PM (for room scheduling reasons)
+4:30* PM - 6:00 PM    Simulation Software Demonstrations  
+                                (If you are a software developer interested in participating, 
+                                please contact Mike Brandemuehl at michael.brandemuehl at colorado.edu
+                                DEADLINE to reply is Wednesday, January 17.)
+
+6:00 PM - 7:00 PM    Social hour with cash bar
+
+7:00 PM    Dinner
+
+8:00 PM (approx)    After-dinner talk:  Susan Reilly, President of Enermodel Engineering
+                                                          
+Susan will speak about the general state of simulation for LEED, including common blunders, difficulties with the required methods, challenging systems, needs for improved modeling and tools, educational opportunities, and general observations and opinions.
+ 
+Susan Reilly, P.E. is president of Enermodal Engineering, Inc. located in Denver, Colorado.  Enermodal Engineering, Inc. consults on energy and resource efficiency in the built environment.  Susan has worked with design teams in Colorado and throughout the U.S. to incorporate greater energy efficiency and sustainable design practices into their projects over the past 15 years.  She is a LEED Accredited Professional, a reviewer of LEED Energy and Atmosphere credits for RMI/Ensar Built Environments, and recently completed her role as technical support for the development of the Energy and Atmosphere sections of the reference guides for LEED-NC, CI, and EB.
+ 
+                                                          
+Reservations:      To make a reservation contact Peter Ellis < peter_ellis at nrel.gov> via email by January 23, 2007, 5 PM (MDT).  Confirmation of reservations will be sent via email (if you do not receive a confirmation within two business days, please resend your reservation request).
+
+For the latest information about IBPSA-USA, please visit our web site: http://www.ibpsa. <http://www.ibpsa.us/> us
+
+We look forward to seeing you there!
+
+Michael Brandemuehl                        Peter Ellis
+President, IBPSA-USA                      Secretary, IBPSA-USA 
+ 
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070112/e41a8a04/attachment.htm>
+
+From jaya_mukho at yahoo.com  Thu Jan 11 12:05:39 2007
+From: jaya_mukho at yahoo.com (Jaya Mukhopadhyay)
+Date: Thu, 11 Jan 2007 12:05:39 -0800 (PST)
+Subject: [bldg-sim] Modeling ECM Motors in VAV Fan Powered Boxes
+Message-ID: <MDAEMON-F200701111410.AA1025531pd80001352290@gard.com>
+
+Howdy:
+  Can anybody give me advise on how to model ECM motors in VAV Fan Powered Boxes?
+  I am using EQUEST3.6 for my analysis.
+  Any advice is greatly appreciated.
+  Thank you
+  Jaya Mukhopadhyay
+
+ 
+---------------------------------
+Everyone is raving about the all-new Yahoo! Mail beta.
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070111/7988b50e/attachment.htm>
+
+From gems at spiritone.com  Tue Jan  9 20:23:08 2007
+From: gems at spiritone.com (Carol Gardner)
+Date: Tue, 09 Jan 2007 20:23:08 -0800
+Subject: [bldg-sim] Roommate needed
+Message-ID: <MDAEMON-F200701092227.AA2755640pd80001351616@gard.com>
+
+I'm looking for someone to share a room with at the Dallas ASHRAE 
+meeting.  I have a room at the Hilton which is reputed to be closer to 
+the convention center but serviced by a shuttle.  I'm a Hilton Honors 
+member and usually get pretty good rooms.
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From jaya_mukho at yahoo.com  Tue Jan  9 15:22:54 2007
+From: jaya_mukho at yahoo.com (Jaya Mukhopadhyay)
+Date: Tue, 9 Jan 2007 15:22:54 -0800 (PST)
+Subject: [bldg-sim] Job Posting - Kirksey
+Message-ID: <MDAEMON-F200701091727.AA2752765pd80001351496@gard.com>
+
+  Sustainable Design Analyst
+  Kirksey is currently seeking a Sustainable Design Analyst. 
+  Kirksey is one of Houston's leading architectural design firms specializing in architecture, interior design, master planning and sustainable design & consulting. The demands of these projects present unique opportunities for innovative design and the potential to make large impacts on energy consumption and more informed design practices and decisions. 
+  The Analyst will work with our Ecoservices team to help evaluate building and system design strategies. The emphasis will be on using building and daylight simulation tools to help inform design, as well as document performance compared to accepted standards. The Analyst will also work to educate clients, architects and engineers on new technologies and innovative solutions. There will be opportunity to work with design engineers and develop better understanding and knowledge of the MEP consulting field. 
+  The candidate should be an HVAC/Mechanical/Architectural/Energy Engineer and/or Energy Modeler with 1+ years of relevant experience using building simulation tools. Degree required. The candidate will have strong knowledge of TRNSYS, DOE-2, TRACE, or EnergyPlus. Experience with CFD and daylight modeling would be beneficial. Experience with HVAC systems and/or HVAC controls is beneficial. The candidate should have excellent abilities with MS Excel and PowerPoint. Candidate should be a creative thinker with effective communication and teamwork skills. The person would ideally be environmentally minded with an understanding of energy and climate change issues.
+  If you are interested in learning more about Kirksey and this opportunity, please respond to the contact below:
+   
+  Brian M. Malarkey, AIA, LEED 
+Vice President 
+  Kirksey 
+6909 Portwest Drive 
+Houston, Texas 77024 
+t 713 426 7473 
+f 713 850 7308 
+  brianm at kirksey.com 
+http://www.kirksey.com 
+http://kirkseygreen.com 
+   
+
+ __________________________________________________
+Do You Yahoo!?
+Tired of spam?  Yahoo! Mail has the best spam protection around 
+http://mail.yahoo.com 
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070109/5dd0b5d2/attachment.htm>
+
+From ramana.koti at gmail.com  Mon Jan  8 14:56:30 2007
+From: ramana.koti at gmail.com (Ramana Koti)
+Date: Mon, 8 Jan 2007 16:56:30 -0600
+Subject: [bldg-sim] separate buildings or floors
+In-Reply-To: <MDAEMON-F200701081627.AA2744296pd80002412605@gard.com>
+References: <MDAEMON-F200701081627.AA2744296pd80002412605@gard.com>
+Message-ID: <MDAEMON-F200701081701.AA010400pd80001351092@gard.com>
+
+Michael,
+
+If I understand the situation correctly, your case can be modeled using the
+design development wizard wherein you can create different shells for
+different levels or different buildings, all using the same HVAC system. For
+each shell, you can specify conditions like if it is on the grade or over a
+conditioned space etc.
+
+Hope this helps,
+Ramana.
+
+On 1/8/07, Kingsley, Michael L. <MICHAEL.L.KINGSLEY at saic.com> wrote:
+>
+>  I want to use eQUEST to model a building that has a base footprint on the
+> lower levels but upper levels are not contiguous (like separate towers
+> rising from the base).  What is the best way to define the upper levels?  If
+> I define the polygon shape for the upper levels but don't fill it in
+> completely with the building, will eQUEST ignore the floor area between the
+> towers that is not assigned to zones?
+>
+>
+>
+> Alternately, is there a way to model 2 separate buildings that use the
+> same heating & cooling plants?
+>
+>
+>
+> Thanks
+>
+>
+>
+> *Michael L. Kingsley*
+>
+> *SAIC*
+>
+> East Syracuse, New York 13057
+>
+> *E-mail <kezark at saic.com>*:  kingsleym at saic.com <kezark at saic.com>
+>
+>
+>
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+
+
+-- 
+Ramana Koti, Sustainable Building Analyst
+LEED AP
+
+ELEMENTS | a division of berkebile nelson immenschuh mcdowell architects
+106 W. 14th Street Suite 200
+Kansas City, Missouri 64105
+
+p 816.783.1635 f 816.783.1501
+www.bnim.com| elements.bnim.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070108/7cd63e0e/attachment.htm>
+
+From MICHAEL.L.KINGSLEY at saic.com  Mon Jan  8 14:22:13 2007
+From: MICHAEL.L.KINGSLEY at saic.com (Kingsley, Michael L.)
+Date: Mon, 8 Jan 2007 17:22:13 -0500
+Subject: [BLDG-SIM] separate buildings or floors
+Message-ID: <MDAEMON-F200701081627.AA2732734pd80001351040@gard.com>
+
+I want to use eQUEST to model a building that has a base footprint on
+the lower levels but upper levels are not contiguous (like separate
+towers rising from the base).  What is the best way to define the upper
+levels?  If I define the polygon shape for the upper levels but don't
+fill it in completely with the building, will eQUEST ignore the floor
+area between the towers that is not assigned to zones?  
+
+ 
+
+Alternately, is there a way to model 2 separate buildings that use the
+same heating & cooling plants?
+
+ 
+
+Thanks
+
+ 
+
+Michael L. Kingsley
+
+SAIC
+
+East Syracuse, New York 13057
+
+E-mail <mailto:kezark at saic.com> :  kingsleym at saic.com
+<mailto:kezark at saic.com> 
+
+ 
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070108/609dab1e/attachment.htm>
+
+From miket at etcgrp.com  Fri Jan  5 07:26:43 2007
+From: miket at etcgrp.com (Mike Tillou)
+Date: Fri, 5 Jan 2007 08:26:43 -0700
+Subject: [BLDG-SIM] eQuest Detailed Edit mode level question..
+Message-ID: <MDAEMON-F200701050932.AA3205140pd80001350178@gard.com>
+
+John,
+
+As far as I know there isn't a zone level temperature reset schedule.
+
+The only way to do that is to create a custom time schedule that changes
+your zone thermostat setting based on the TMY2 weather file you're
+simulating.
+
+If you look back in the Bldg-Sim archives I posted a template for an
+8,760 hourly input schedule that you can paste into your input file.
+It's pretty easy to pre process your data in Excel or a database and use
+macros to prepare all the schedule code for the input file.
+
+MMT
+
+
+Michael Tillou, PE
+ETC Group, Inc - Energy Engineering for a Sustainable Future
+Ph:413-458-9870
+
+
+-----Original Message-----
+From: BLDG-SIM at gard.com [mailto:BLDG-SIM at gard.com] On Behalf Of Aulbach,
+John
+Sent: Thursday, January 04, 2007 5:21 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] eQuest Detailed Edit mode level question..
+
+
+ 
+Hi Gang:
+
+Happy New Year.
+
+I am at the Detailed Edit mode of eQuest(theoretical Point of No
+Return). I wish to incorporate a zone thermostat reset schedule based on
+Outdoor Air Temperature, NOT TIME.
+
+Any suggestions as to how to do it?
+
+John R. Aulbach, PE, CEM
+Project Manager
+Nexant, Inc.
+100 North Barranca, Suite 820
+West Covina, CA 91791 USA
+Phone: 626-430-9054
+Fax: 626-430-9060
+email: jaulbach at nexant.com
+ 
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From Kendra.Tupper at sf.fk.com  Thu Jan  4 15:44:49 2007
+From: Kendra.Tupper at sf.fk.com (Tupper, Kendra)
+Date: Thu, 4 Jan 2007 15:44:49 -0800
+Subject: [BLDG-SIM] LEED Core and Shell, Enhanced Commissioning Credit
+Message-ID: <MDAEMON-F200701041750.AA5008812pd80001349955@gard.com>
+
+Folks,
+
+Our office is working on a LEED Core and Shell project in which the
+building is a cold, dark shell (no lighting or HVAC in the scope).  Do
+you know how to achieve the Enhanced Commissioning credit for a cold,
+dark shell?  The only thing you could commission would be the envelope.
+
+Thanks,
+
+Kendra
+
+
+Kendra Tupper
+LEED(r) AP		
+ FLACK + KURTZ	
+405 Howard Street		415.398.3833 Main
+Suite 500			415.402.5840 Direct
+San Francisco, CA 94105		415.433.5311 Fax
+http://www.flackandkurtz.com	kendra.tupper at sf.fk.com
+ 
+
+This e-mail may contain confidential and/or privileged information. 
+If you are not the intended recipient (or have received this e-mail in
+error)
+please notify the sender immediately and destroy this e-mail. 
+Any unauthorized copying, disclosure or distribution of the material 
+in this e-mail is strictly forbidden.
+
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070104/4c1d479f/attachment.htm>
+
+From jaulbach at nexant.com  Thu Jan  4 14:21:27 2007
+From: jaulbach at nexant.com (Aulbach, John)
+Date: Thu, 4 Jan 2007 14:21:27 -0800
+Subject: [BLDG-SIM] eQuest Detailed Edit mode level question..
+In-Reply-To: <MDAEMON-F200701041216.AA1645531pd80002406193@gard.com>
+Message-ID: <MDAEMON-F200701041624.AA2436390pd80001349905@gard.com>
+
+ 
+Hi Gang:
+
+Happy New Year.
+
+I am at the Detailed Edit mode of eQuest(theoretical Point of No
+Return). I wish to incorporate a zone thermostat reset schedule based on
+Outdoor Air Temperature, NOT TIME.
+
+Any suggestions as to how to do it?
+
+John R. Aulbach, PE, CEM
+Project Manager
+Nexant, Inc.
+100 North Barranca, Suite 820
+West Covina, CA 91791 USA
+Phone: 626-430-9054
+Fax: 626-430-9060
+email: jaulbach at nexant.com
+ 
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From mjwitte at gard.com  Thu Jan  4 10:12:58 2007
+From: mjwitte at gard.com (Michael J. Witte)
+Date: Thu, 04 Jan 2007 12:12:58 -0600
+Subject: [BLDG-SIM] EnergyPlus Workshop, Irvine, CA, March 2007
+Message-ID: <MDAEMON-F200701041216.AA1645718pd80001349653@gard.com>
+
+EnergyPlus and DesignBuilder Training Workshops
+
+* March 13-15, 2007, Irvine, California, USA
+
+* January 10-12, Illinois Institute of Technology, Chicago, Illinois, USA
+
+============
+
+Introduction to EnergyPlus and DesignBuilder
+
+Irvine, California, March 13-15, 2007
+Early registration ends on February 8, 2007
+Registration closes after March 4, 2007
+
+For more details and to register on-line go to
+
+http://www.gard.com/training.htm
+
+============
+
+EnergyPlus and DesignBuilder Seminar
+
+January 10-12, Illinois Institute of Technology, Chicago, Illinois, USA
+
+For more details and to register on-line go to
+
+http://www.iit.edu/~archdoc/energyseminar.html
+
+============
+
+HOST A WORKSHOP 
+
+If your organization would like to host an EnergyPlus workshop, please contact 
+EnergyPlus- Training at gard.com  Hosting may cover a range of services, and can 
+be as simple as providing a meeting room for up to 20 participants with 
+laptops.  Free registrations may be made available to the host organization  
+depending on the level of support provided.  
+
+========================================================
+EnergyPlus Training         EnergyPlus-Training at gard.com
+Michael J. Witte
+GARD Analytics, Inc.                        www.gard.com
+1028 Busse Highway                    Phone 847-698-5685
+Park Ridge, Illinois 60068-1802         FAX 847-698-5600
+USA          Energy, Environmental and Economic Research
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+From renee at ambient-e.com  Mon Jan  1 19:45:51 2007
+From: renee at ambient-e.com (Renee Azerbegi)
+Date: Mon, 1 Jan 2007 20:45:51 -0700
+Subject: [bldg-sim] displacement ventilation again
+In-Reply-To: <MDAEMON-F200612281202.AA0256687pd80002400442@gard.com>
+Message-ID: <MDAEMON-F200701012150.AA5029578pd80001348741@gard.com>
+
+ 
+I have a question which might have been proposed to the Bldg. Sim. in the past but I'm not sure. Regarding underfloor air systems, since  DOE2 assumes a well mixed space and cannot model the destratification effect and since the supply air temperature for heating and cooling tends to be much lower/higher than typical conditions, the throttling range tends to be quite high. There is an exception in ASHRAE 90.1 Appendix G that if you have a high throttling range you can try to argue an exception to this but I'm not sure if LEED would accept this. This might be similar to the natural ventilation issue. Would an underfloor air system which has typically 62 F to 64 F SAT with room thermostat settings of 72 to 75 F fall under this exception for LEED since DOE2 cannot mode the distratification effect or do most people try to force the throttling range down to meet LEED/ASHRAE requirements which is what I have done in the past.  I did not see anything in the USGBC Credit Interpretation Rulings regarding this subject. I have heard the next version of eQuest should be able to model underfloor air systems and that Energy Plus does but until then.....
+ 
+Thank you,
+ 
+Ren?e
+
+Ren?e Azerbegi, CEM, LEED-AP
+
+ambient energy - solar & sustainable design solutions
+
+t 303.278.1532 | f 303.278.8533 | c 303.885.2695 | renee at ambient-e.com | ambient-e.com  
+
+ 
+
+ 
+
+
+________________________________
+
+From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Mike Tillou
+Sent: Thursday, December 28, 2006 10:56 AM
+To: bldg-sim at gard.com
+Subject: [bldg-sim] Modeling buildings with natural ventilation for Appendix G
+
+
+There is no specific temperature range called out but Section G3.1.2.2 does limit the number of unmet heating and cooling hours your simulation can have.  The heating and cooling schedules you establish would be the required high / low temperatures you would need to meet.  
+ 
+Again my interpretation of the Exception Calculation methodology is that if I feel the design I am modeling doesn't need to meet G3.1.2.2 then I need to argue the case why.
+   
+ 
+
+Michael Tillou, PE 
+ETC Group, Inc - Energy Engineering for a Sustainable Future 
+Ph:413-458-9870 
+
+	-----Original Message-----
+	From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Jon McHugh
+	Sent: Thursday, December 21, 2006 2:44 PM
+	To: bldg-sim at gard.com
+	Subject: [bldg-sim] Modeling buildings with natural ventilation for Appendix G
+	
+	
+	Mike,
+	 
+	The prescribed range being what?  Is there a schedule of high and low  temperatures that are called out in Appendix G?
+	 
+	Thanks,
+	 
+	Jon
+
+________________________________
+
+	From: Mike Tillou [mailto:miket at etcgrp.com] 
+	Sent: Thursday, December 21, 2006 11:12 AM
+	To: Jon McHugh; bldg-sim at gard.com
+	Subject: RE: [bldg-sim] Modeling buildings with natural ventilation for Appendix G
+	
+	
+	I have always gone under the assumption that my results have to meet the criteria for zone temperatures being within the prescribed range.
+	 
+	MMT
+	 
+
+	Michael Tillou, PE 
+	ETC Group, Inc - Energy Engineering for a Sustainable Future 
+	Ph:413-458-9870 
+
+		-----Original Message-----
+		From: Jon McHugh [mailto:Jon.McHugh at h-m-g.com] 
+		Sent: Tuesday, December 19, 2006 1:25 PM
+		To: Mike Tillou; bldg-sim at gard.com
+		Subject: RE: [bldg-sim] Modeling buildings with natural ventilation for Appendix G
+		
+		
+		Mike,
+		 
+		Does this proposed methodology place limits on the number of occupied hours above or below a given temperature/RH?
+		 
+		Thanks,
+		 
+		Jon McHugh
+
+________________________________
+
+		From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Mike Tillou
+		Sent: Tuesday, December 19, 2006 7:18 AM
+		To: bldg-sim at gard.com
+		Subject: [bldg-sim] Modeling buildings with natural ventilation for Appendix G
+		
+		
+		Ramana,
+		 
+		The ASHRAE 90.1 ECB sub-committee is working on a methodology for simulating natural ventilation within the framework of Appendix G but I don't think its finished yet.  In the meantime here is what I would recommend.
+		 
+		Appendix G / 90.1 ECB allows you to use an exception calculation method to simulate hybrid systems or unique efficiency measures to demonstrate above-standard performance.  I think this would certainly apply in your case.   
+		 
+		Here's what I have done on projects requiring an exception calculation method.  
+		1. Establish your energy cost budget and your design energy case following the Appendix G guidelines.  
+		2. Create a second model using the Design Energy Case as the baseline and make the necessary modifications to simulate radiant heating / no cooling via natural ventilation.  
+		3. Report the energy savings from your exception calculation as a line item at the end of your LEED EA-1 summary table (similar to how renewable energy is reported). 
+		4.  Include a seperate summary table  for the exception calculation showing the energy end-use breakdown and how you arrived at the cost savings.  Show both the baseline and proposed energy use.  
+		5. Make sure the savings are reasonable and prudent for the system you are proposing.  
+		6. Document any changes to the model especially changes to schedules that were necessary to properly simulate your system. 
+		7. Make it easy for someone to review your assumptions and the methodology you used to estimate the savings
+		 
+		I hope this helps.  Good luck.
+		 
+		Mike
+		 
+
+		Michael Tillou, PE 
+		ETC Group, Inc - Energy Engineering for a Sustainable Future 
+		Ph:413-458-9870 
+
+			-----Original Message-----
+			From: bldg-sim at gard.com [mailto:bldg-sim at gard.com] On Behalf Of Ramana Koti
+			Sent: Monday, December 18, 2006 4:53 PM
+			To: bldg-sim at gard.com
+			Subject: [bldg-sim] Modeling buildings with natural ventilation for Appendix G
+			
+			
+			Dear all,
+			
+			Is ignoring natural ventilation in both proposed and baseline designs an accepted/fair way of modeling based on Appendix G (ASHRAE 90.1-2004)?
+			
+			Part of the proposed design has (radiant heating + natural ventilation) with no cooling which was modeled as a radiant slab, no cooling, natural ventilation ignored. 
+			
+			But the Baseline HVAC system based on Appendix G is System 5: Packaged VAV w/Reheat. (Natural ventilation can be modeled based on Air Change method or Sherman Grimsrud method though I do not know how to do it).
+			
+			I cannot decide how to make the baseline and proposed comparable with respect to Natural Ventilation (in a manner acceptable to LEED review), suggestions will be appreciated.
+			
+			Thanks,
+			
+			Ramana Koti, Sustainable Building Analyst 
+			LEED AP
+			
+			ELEMENTS | a division of berkebile nelson immenschuh mcdowell architects
+			106 W. 14th Street Suite 200
+			Kansas City, Missouri 64105
+			
+			p 816.783.1635 f 816.783.1501
+			www.bnim.com| elements.bnim.com
+			
+			
+
+		==================
+		You received this e-mail because you are subscribed 
+		to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+		from this mailing list send a blank message to 
+		BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+	==================
+	You received this e-mail because you are subscribed 
+	to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+	from this mailing list send a blank message to 
+	BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+==================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20070101/2b5edd1b/attachment-0001.htm>
+

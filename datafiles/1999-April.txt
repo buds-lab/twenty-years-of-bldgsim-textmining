@@ -1,0 +1,945 @@
+From staff at dmiinc.com  Thu Apr 22 09:34:05 1999
+From: staff at dmiinc.com (Mark Mullins)
+Date: Thu, 22 Apr 1999 12:34:05 -0400
+Subject: [BLDG-SIM] Job opening for building energy simulation engineer
+Message-ID: <MDAEMON-F199904221135.AA350451MD40093@gard.com>
+
+Job Opening  April 22, 1999  Boston area
+
+Innovative, respected small firm has an immediate opening for an
+experienced building modeler to take the lead on our modeling projects.
+Experience in TRACE and DOE desired.   See our website at www.dmiinc.com.
+Please reply in confidence to Peter Barrer, PE, DMI, 450 Lexington Street,
+Newton, MA  02466.  617-527-1525 x104.  
+pbarrer at dmiinc.com 
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From vshresth at ucla.edu  Thu Apr 22 08:58:44 1999
+From: vshresth at ucla.edu (Vikas Shrestha)
+Date: Thu, 22 Apr 1999 08:58:44 -0700
+Subject: [BLDG-SIM] Solar Collectors Algorithm
+Message-ID: <MDAEMON-F199904221054.AA543840MD40072@gard.com>
+
+Hi!
+
+I'm a student at UCLA. I'm looking for a simplified Building Performance
+Algorithm for flat plate solar collectors. I would appreciate your help.
+
+Thank you.
+
+Vikas Shrestha
+___________________________________________________________________________     
+Webpage: http://www.ben2.ucla.edu/~vshresth
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From brittelmann at ibacos.com  Wed Apr 21 12:45:24 1999
+From: brittelmann at ibacos.com (Bill D. Rittelmann)
+Date: Wed, 21 Apr 1999 15:45:24 -0400
+Subject: [BLDG-SIM] Programming Position Available
+Message-ID: <MDAEMON-F199904211444.AA444387MD39858@gard.com>
+
+We are looking for an individual (college student or recent graduate) with a
+good working knowledge of Lotus 123 and experience with any DOE 2.1-based or
+BLAST building simulation program to assist us in developing a user
+interface for EnergyPlus.  The project entails modification of an existing
+Lotus 123-based building simulation spreadsheet to produce EnergyPlus input
+files and receive EnergyPlus output files.  Please send e-mail or resume to:
+
+Bill Rittelmann
+IBACOS, Inc.
+2214 Liberty Avenue
+Pittsburgh PA 15222-4502
+
+Brittelmann at ibacos.com <mailto:Brittelmann at ibacos.com> 
+Tel 412-765-3043
+Fax 412-765-3738
+
+IBACOS, Inc. (Integrated Building And Construction Solutions) is an
+innovation company that conducts research and development into new and
+better building practices, through a unique industry network and
+comprehensive understanding of the changing marketplace.  It was founded in
+1991 by several leading product manufacturers and in 1993 became the first
+team to join the U.S. Department of Energy's Building America Program.
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From JJHirsch at ez2.net  Wed Apr 21 11:33:39 1999
+From: JJHirsch at ez2.net (James J. Hirsch)
+Date: Wed, 21 Apr 1999 11:33:39 -0700
+Subject: [BLDG-SIM] Experience with DOE-2 User Interfaces
+References: <MDAEMON-F199904211217.AA174076MD31583@gard.com>
+Message-ID: <MDAEMON-F199904211332.AA323882MD39823@gard.com>
+
+A note on eQUEST - the SCE Energy Design Resources web site is a bit
+out-of-date for the current eQUEST preview (Jan99 version instead of Apr99
+verion.)  I'll suggest they update their posting, but here is where you
+can get (with most browsers) the most up-to-date eQUEST freeware:
+
+eQUEST (a preview of the energy quick estimator tool):
+
+Save thefile found at the following link on your hard drive, then double
+click on the saved file in the windows explorer to install (6 megabytes)
+
+   ftp://equest:equest at doe2.com/eQUEST_Preview_Setup.EXE
+
+Note that the eUQEST install procedure needs to update
+some windows\system files so close ALL other applications
+prior to installing eQUEST.  The first full eQUEST freeware
+release will happen within the next month.
+
+Mark Case wrote:
+
+> -----Original Message-----
+> From: Jason Glazer [mailto:jglazer at gard.com]
+> Sent: Wednesday, April 21, 1999 7:18 AM
+> To: mcase at etcgrp.com
+> Subject: RE: [BLDG-SIM] Experience with DOE-2 User Interfaces
+>
+> Mark,
+>
+> Feel free to share this information with the mailing list.
+> I was not aware of that program and I expend effort to try
+> to stay up to date.
+>
+> Jason
+>
+> On 20 Apr 99, at 17:05, Mark Case wrote:
+>
+> > Jason
+> > SoCalEdison publishes a `wizard' called eQuest for PowerDoe/DOE2.2 that
+> you
+> > should look at. It's free and has 18 (or so) screens that lead through
+> > generation of a complete building model (obviously with many
+> > simplifications). The resulting file can be used in either DOE2.2 or
+> > PowerDoe.  See www.energydesignresources.com
+> >
+> > Mark E. Case, P.E.
+> > President, etc Group, Inc.
+> > 3481 South 2300 East
+> > Salt Lake City, Utah 84109
+> > 801-278-1927, 801-278-1942 (F)
+> >
+> >
+> > -----Original Message-----
+> > From: Postman at gard.com [mailto:Postman at gard.com]On Behalf Of Jason
+> > Glazer
+> > Sent: Tuesday, April 20, 1999 3:06 PM
+> > To: BLDG-SIM at gard.com
+> > Subject: [BLDG-SIM] Experience with DOE-2 User Interfaces
+> >
+> >
+> > Six people responded to my question shown below about user
+> > interfaces for DOE-2.   For DOE-2 all suggested either
+> > VisualDOE or PowerDOE.  VisualDOE's strengths are easier to
+> > use, easier to learn and doesn't crash as often but it is
+> > limited to only a subset of features found in DOE-2.1E.
+> > PowerDOE's strengths are it use of the newest version of
+> > DOE-2, its building visualization and its complete coverage
+> > of all features in DOE-2.2 but it may not be officially
+> > available yet and like any new software has more bugs.
+> >
+> > My decision is (the envelope please) ...
+> >
+> > The input was valuable but I think I will look at both
+> > demo's again  (see www.eley.com and www.doe2.com) and see
+> > what I like better.
+> >
+> > Jason
+> >
+> > On 8 Apr 99, at 10:19, Jason Glazer wrote:
+> >
+> > > I am trying to decide which user interface for DOE-2 to
+> > > purchase.  I usually use a text editor for DOE-2 but have a
+> > > project where a user interface would probably be more
+> > > efficient.  I'm running NT 4.0.  Any recommendations or
+> > > guidance?  I prefer something easy to use but need access
+> > > to all features of DOE-2.  I would be great but not
+> > > essential to be able to read existing DOE-2 input files.
+> > > Parametrics are important but I will probably use the
+> > > system I have now (custom batch files, spreadsheets and
+> > > customer programs) most of the time.
+> > >
+> > > Jason
+> > > =========================================================
+> > > Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+> > > GARD Analytics - http://www.gard.com/
+> > > Building Energy Simulation and Analysis
+> > > List Administrator & 90.1 Consultant
+> > >
+> > > ======================================================
+> > > You received this e-mail because you are subscribed
+> > > to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> > > from this mailing list send a blank message to
+> > > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> > >
+> >
+> >
+> > =========================================================
+> > Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+> > GARD Analytics - http://www.gard.com/
+> > Building Energy Simulation and Analysis
+> > List Administrator & 90.1 Consultant
+> >
+> > ======================================================
+> > You received this e-mail because you are subscribed
+> > to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> > from this mailing list send a blank message to
+> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> >
+> >
+>
+> =========================================================
+> Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+> GARD Analytics - http://www.gard.com/
+> Building Energy Simulation and Analysis
+> List Administrator & 90.1 Consultant
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+--
+Jeff Hirsch
+James J. Hirsch & Associates
+Building Performance Analysis Software & Consulting
+12185 Presilla Road
+Camarillo, CA 93012-9243 USA
+phone: (805) 532-1045
+fax: (805) 532-2401
+email: Jeff.Hirsch at DOE2.com OR JJHirsch at ez2.net
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: JJHirsch.vcf
+Type: text/x-vcard
+Size: 504 bytes
+Desc: Card for James J. Hirsch
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990421/5a2b91cf/attachment.vcf>
+
+From mcase at etcgrp.com  Wed Apr 21 10:14:04 1999
+From: mcase at etcgrp.com (Mark Case)
+Date: Wed, 21 Apr 1999 11:14:04 -0600
+Subject: [BLDG-SIM] Experience with DOE-2 User Interfaces
+Message-ID: <MDAEMON-F199904211217.AA174053MD39795@gard.com>
+
+
+
+-----Original Message-----
+From: Jason Glazer [mailto:jglazer at gard.com]
+Sent: Wednesday, April 21, 1999 7:18 AM
+To: mcase at etcgrp.com
+Subject: RE: [BLDG-SIM] Experience with DOE-2 User Interfaces
+
+
+Mark,
+
+Feel free to share this information with the mailing list.
+I was not aware of that program and I expend effort to try
+to stay up to date.
+
+Jason
+
+On 20 Apr 99, at 17:05, Mark Case wrote:
+
+> Jason
+> SoCalEdison publishes a `wizard' called eQuest for PowerDoe/DOE2.2 that
+you
+> should look at. It's free and has 18 (or so) screens that lead through
+> generation of a complete building model (obviously with many
+> simplifications). The resulting file can be used in either DOE2.2 or
+> PowerDoe.  See www.energydesignresources.com
+>
+> Mark E. Case, P.E.
+> President, etc Group, Inc.
+> 3481 South 2300 East
+> Salt Lake City, Utah 84109
+> 801-278-1927, 801-278-1942 (F)
+>
+>
+> -----Original Message-----
+> From: Postman at gard.com [mailto:Postman at gard.com]On Behalf Of Jason
+> Glazer
+> Sent: Tuesday, April 20, 1999 3:06 PM
+> To: BLDG-SIM at gard.com
+> Subject: [BLDG-SIM] Experience with DOE-2 User Interfaces
+>
+>
+> Six people responded to my question shown below about user
+> interfaces for DOE-2.   For DOE-2 all suggested either
+> VisualDOE or PowerDOE.  VisualDOE's strengths are easier to
+> use, easier to learn and doesn't crash as often but it is
+> limited to only a subset of features found in DOE-2.1E.
+> PowerDOE's strengths are it use of the newest version of
+> DOE-2, its building visualization and its complete coverage
+> of all features in DOE-2.2 but it may not be officially
+> available yet and like any new software has more bugs.
+>
+> My decision is (the envelope please) ...
+>
+> The input was valuable but I think I will look at both
+> demo's again  (see www.eley.com and www.doe2.com) and see
+> what I like better.
+>
+> Jason
+>
+> On 8 Apr 99, at 10:19, Jason Glazer wrote:
+>
+> > I am trying to decide which user interface for DOE-2 to
+> > purchase.  I usually use a text editor for DOE-2 but have a
+> > project where a user interface would probably be more
+> > efficient.  I'm running NT 4.0.  Any recommendations or
+> > guidance?  I prefer something easy to use but need access
+> > to all features of DOE-2.  I would be great but not
+> > essential to be able to read existing DOE-2 input files.
+> > Parametrics are important but I will probably use the
+> > system I have now (custom batch files, spreadsheets and
+> > customer programs) most of the time.
+> >
+> > Jason
+> > =========================================================
+> > Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+> > GARD Analytics - http://www.gard.com/
+> > Building Energy Simulation and Analysis
+> > List Administrator & 90.1 Consultant
+> >
+> > ======================================================
+> > You received this e-mail because you are subscribed
+> > to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> > from this mailing list send a blank message to
+> > BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> >
+>
+>
+> =========================================================
+> Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+> GARD Analytics - http://www.gard.com/
+> Building Energy Simulation and Analysis
+> List Administrator & 90.1 Consultant
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Tue Apr 20 14:06:03 1999
+From: jglazer at gard.com (Jason Glazer)
+Date: Tue, 20 Apr 1999 16:06:03 -0500
+Subject: [BLDG-SIM] Experience with DOE-2 User Interfaces
+In-Reply-To: <MDAEMON-F199904081012.AA125762MD36797@gard.com>
+Message-ID: <MDAEMON-F199904201559.AA593895MD39537@gard.com>
+
+Six people responded to my question shown below about user 
+interfaces for DOE-2.   For DOE-2 all suggested either 
+VisualDOE or PowerDOE.  VisualDOE's strengths are easier to 
+use, easier to learn and doesn't crash as often but it is 
+limited to only a subset of features found in DOE-2.1E.  
+PowerDOE's strengths are it use of the newest version of 
+DOE-2, its building visualization and its complete coverage 
+of all features in DOE-2.2 but it may not be officially 
+available yet and like any new software has more bugs.
+
+My decision is (the envelope please) ...   
+
+The input was valuable but I think I will look at both 
+demo's again  (see www.eley.com and www.doe2.com) and see 
+what I like better.
+
+Jason
+
+On 8 Apr 99, at 10:19, Jason Glazer wrote:
+
+> I am trying to decide which user interface for DOE-2 to 
+> purchase.  I usually use a text editor for DOE-2 but have a 
+> project where a user interface would probably be more 
+> efficient.  I'm running NT 4.0.  Any recommendations or 
+> guidance?  I prefer something easy to use but need access 
+> to all features of DOE-2.  I would be great but not 
+> essential to be able to read existing DOE-2 input files.  
+> Parametrics are important but I will probably use the 
+> system I have now (custom batch files, spreadsheets and 
+> customer programs) most of the time.  
+> 
+> Jason
+> =========================================================
+> Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+> GARD Analytics - http://www.gard.com/
+> Building Energy Simulation and Analysis
+> List Administrator & 90.1 Consultant
+> 
+> ======================================================
+> You received this e-mail because you are subscribed 
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+> from this mailing list send a blank message to 
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+> 
+
+
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Robert.Sonderegger at SRC-Systems.com  Mon Apr 19 13:01:29 1999
+From: Robert.Sonderegger at SRC-Systems.com (Robert Sonderegger)
+Date: Mon, 19 Apr 1999 13:01:29 -0700
+Subject: [BLDG-SIM] Reviewers needed!
+Message-ID: <MDAEMON-F199904191500.AA001306MD39223@gard.com>
+
+Jason et al:
+
+I hope this does not stretch the policy of this newsgroup:  ASHRAE needs
+reviewers for a technical paper 
+
+"Advanced Transient Simulation of a Solar Housing Development in Scotland"
+
+3 weeks turnaround from date of receipt.  I would have volunteered, but am
+getting a bit rusty in this field.  Yet if this newsgroup isn't the primary
+meeting place of a major part of the world's experts on simulation, what is?
+
+Please do a good deed and email your coordinates to Mary McGee at ASHRAE HQ:
+
+MMCGEE at ashrae.org
+
+Thank you in advance!
+
+Robert
+
+_________________________________________________________________________
+Robert C. Sonderegger                          SRC Systems Inc.
+Executive Vice President, R&D               2855 Telegraph Avenue, Suite 410
+SRC Systems Inc.                                   Berkeley, CA  94705-1152
+USA
+Voice (510) 848-8400 Ext. 101               Website:
+http://www.src-systems.com
+Fax (510) 848-0788                                Products: Metrix,
+MarketManager, Metrix Profiler
+
+---> RCS at src-systems.com <--- NOTE NEW EMAIL ADDRESS***
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mcdowell at tess-inc.com  Mon Apr 19 06:28:35 1999
+From: mcdowell at tess-inc.com (Timothy P. McDowell)
+Date: Mon, 19 Apr 1999 08:28:35 -0500
+Subject: [BLDG-SIM] Looking for Papers
+Message-ID: <MDAEMON-F199904190826.AA263453MD39126@gard.com>
+
+I am chairing an ASHRAE symposium on "Recent Innovations in HVAC System
+Modeling" and I am looking for people interested in submitting papers.
+
+If any of you are interested in submitting papers or know of people not
+connected with this mailing list who would like to submit papers please
+have them contact me.
+
+Thank you,
+
+Tim McDowell
+----------------------
+Timothy P. McDowell
+Thermal Energy System Specialists
+5610 Medical Circle Suite 31
+Madison, WI 53719
+Phone: 608-274-2577
+Fax: 608-278-1475
+Email: mcdowell at tess-inc.com
+http://www.tess-inc.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bob at rer.com  Thu Apr 15 14:33:46 1999
+From: bob at rer.com (Bob Ramirez)
+Date: Thu, 15 Apr 1999 14:33:46 -0700
+Subject: [BLDG-SIM] Can anyone recommend a good on-site energy audit program/package?
+Message-ID: <MDAEMON-F199904151708.AA080845MD38530@gard.com>
+
+I'm looking for something that can be used to do on-site surveys of
+commmercial and industrial sites.  Some of the features I'm looking for
+include:
+a) Survey design should incorporate gathering of information about energy
+conservation (DSM) measures
+b) It must be designed to handle surveys of Industrial equally as well as
+Commercial sites.
+c) Survey data should be detailed enough to use it for building simulations.
+d) Decent report generation capabilites, i.e. something that can be
+presented to the customer
+
+There are of course many other desriable features, but these are the main
+ones we're looking for.  Any information will be appreciated.  Personal
+experience with these packages is preferred.
+
+Thanks all!
+
+Bob
+
+
+Bob Ram?rez (bobram at rer.com or bob at rer.com)
+
+Regional Economic Research, Inc.             http://www.rer.com
+11236 El Camino Real #A, San Diego, CA 92130
+Phone: 619.481.0081 ext. 427
+FAX: 619.481.7550
+
+
+
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mcase at etcgrp.com  Wed Apr 14 05:51:06 1999
+From: mcase at etcgrp.com (Mark Case)
+Date: Wed, 14 Apr 1999 06:51:06 -0600
+Subject: [BLDG-SIM] Call For Presenters - Natural Ventilation
+Message-ID: <MDAEMON-F199904140808.AA084668MD38043@gard.com>
+
+Oops! How embarrassing - I meant Seminar, as you supposed. Perhaps a
+symposium in Jan. 2001?
+Again, sorry for multiple postings.
+
+-----Original Message-----
+From: Andrew Persily [ <mailto:andrew.persily at nist.gov>]
+Sent: Tuesday, April 13, 1999 12:52 PM
+To: mcase at etcgrp.com
+Cc: Andrew Persily
+Subject: Re: FYI: FW: Natural Ventilation in Large Buildings
+
+Your email says symposium, but only refers to abstracts not papers. Makes it
+sound like a seminar to me. Which is it?
+Thanks
+
+============================================================================
+=========
+Natural Ventilation in Large Buildings:
+
+ASHRAE Technical Committee TC1.10 - Energy Resources and TG2.BIE -
+Buildings' Impact on the Environment are looking for Symposium presentations
+on "Natural Ventilation in Large Buildings: Applications, Barriers and Case
+Studies" for the Annual meeting in Dallas, February 2000. We are interested
+in a wide range of issues from design tools, case studies, barriers to
+application, code concerns, IAQ, etc.
+Proposed Abstracts are due by June 1st. Selections will be made by June 31st
+and final Abstracts are due July 31st. If you are interested in presenting,
+please contact me. Please pass this along and post where appropriate.
+
+Mark E. Case, P.E.
+President, etc Group, Inc.
+3481 South 2300 East
+Salt Lake City, Utah 84109
+801-278-1927, 801-278-1942 (F)
+mcase at etcgrp.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From kelsey at kw-energy.com  Thu Apr  8 16:44:09 1999
+From: kelsey at kw-energy.com (Jim Kelsey)
+Date: Thu, 08 Apr 1999 16:44:09 -0700
+Subject: [BLDG-SIM] Experience with DOE-2 User Interfaces
+References: <MDAEMON-F199904081012.AA125845MD27287@gard.com>
+Message-ID: <MDAEMON-F199904081848.AA480351MD36991@gard.com>
+
+I have used both VisualDOE and PowerDOE. VisualDOE is easier to set up a
+building fast and crashes less often but only offers a subset of
+potential system options. PowerDOE is still somewhat buggy. It crashes
+often although I have not lost a lot of data nor had files corrupted. It
+uses DOE 2.2 & supposedly can model ANY system that the engine can
+handle. PowerDOE does have a nice 3-D model visualization scheme. You
+can zoom in and out, inspect walls, choose whether or not roofs and
+walls are visible, etc.
+
+Neither of the two seems to be very good at dealing with old BDL files.
+What I have done usually is to use VisualDOE to get a model started &
+then go to ASCII editing for fine tuning & and expanded set of modeling
+options.
+
+Good luck.
+
+- Jim
+
+--
+Jim Kelsey
+KW Energy Engineering
+(510) 834-6420
+http://www.kw-energy.com
+
+Jason Glazer wrote:
+
+> I am trying to decide which user interface for DOE-2 to
+> purchase.  I usually use a text editor for DOE-2 but have a
+> project where a user interface would probably be more
+> efficient.  I'm running NT 4.0.  Any recommendations or
+> guidance?  I prefer something easy to use but need access
+> to all features of DOE-2.  I would be great but not
+> essential to be able to read existing DOE-2 input files.
+> Parametrics are important but I will probably use the
+> system I have now (custom batch files, spreadsheets and
+> customer programs) most of the time.
+>
+> Jason
+> =========================================================
+> Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+> GARD Analytics - http://www.gard.com/
+> Building Energy Simulation and Analysis
+> List Administrator & 90.1 Consultant
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From mcase at etcgrp.com  Thu Apr  8 16:26:15 1999
+From: mcase at etcgrp.com (Mark Case)
+Date: Thu, 8 Apr 1999 17:26:15 -0600
+Subject: [BLDG-SIM] Call For Presenters - Natural Ventilation
+Message-ID: <MDAEMON-F199904081852.AA525056MD36997@gard.com>
+
+Natural Ventilation in Large Buildings:
+
+ASHRAE Technical Committee TC1.10 - Energy Resources and TG2.BIE -
+Buildings' Impact on the Environment are looking for Symposium presentations
+on "Natural Ventilation in Large Buildings: Applications, Barriers and Case
+Studies" for the Annual meeting in Dallas, February 2000. We are interested
+in a wide range of issues from design tools, case studies, barriers to
+application, code concerns, IAQ, etc.
+Proposed Abstracts are due by June 1st. Selections will be made by June 31st
+and final Abstracts are due July 31st. If you are interested in presenting,
+please contact me. Please pass this along and post where appropriate.
+
+Mark E. Case, P.E.
+President, etc Group, Inc.
+3481 South 2300 East
+Salt Lake City, Utah 84109
+801-278-1927, 801-278-1942 (F)
+mcase at etcgrp.com
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990408/a8c85a10/attachment.htm>
+
+From JJHirsch at ez2.net  Thu Apr  8 15:22:16 1999
+From: JJHirsch at ez2.net (James J. Hirsch)
+Date: Thu, 08 Apr 1999 15:22:16 -0700
+Subject: [BLDG-SIM] Experience with DOE-2 User Interfaces
+References: <MDAEMON-F199904081012.AA125785MD27277@gard.com>
+Message-ID: <MDAEMON-F199904081828.AA280990MD36963@gard.com>
+
+User Interfaces, like wine, are subject to personal taste.
+
+Access to all DOE-2 features adds problems.  Of the
+one that exist (DOE-Plus, EX-DOE, Visual-DOE, PowerDOE,
+and eQUEST) all, like any large software application, have their
+problems and/or limitations.  Also, different users applying
+the same application to different projects will experience these
+problems and/or limitations in varying ways.
+
+Bottom line, try several.
+
+To try PowerDOE anyone can obtain 90 evaluation license for
+complete product at no cost (download is free, CD has price.)
+
+Go to http://DOE2.com and follow the links under PowerDOE to the 90 day
+evaluation licensing (or you can go directly there with the following link
+http://www.DOE2.com/PDLicInf.html )  For a no-expiration license
+follow the link http://www.DOE2.com/PDStatus.html and download the
+appropriate license and send with correct fee.
+
+Note that neither DOE-2.2 nor PowerDOE support metric input/output,
+functions, or parametric-input command yet.  DOE-2.2 will have these
+soon, PowerDOE will not have these until late this year (version 2).
+
+Jason Glazer wrote:
+
+> I am trying to decide which user interface for DOE-2 to
+> purchase.  I usually use a text editor for DOE-2 but have a
+> project where a user interface would probably be more
+> efficient.  I'm running NT 4.0.  Any recommendations or
+> guidance?  I prefer something easy to use but need access
+> to all features of DOE-2.  I would be great but not
+> essential to be able to read existing DOE-2 input files.
+> Parametrics are important but I will probably use the
+> system I have now (custom batch files, spreadsheets and
+> customer programs) most of the time.
+>
+> Jason
+> =========================================================
+> Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+> GARD Analytics - http://www.gard.com/
+> Building Energy Simulation and Analysis
+> List Administrator & 90.1 Consultant
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+--
+Jeff Hirsch
+James J. Hirsch & Associates
+Building Performance Analysis Software & Consulting
+12185 Presilla Road
+Camarillo, CA 93012-9243 USA
+phone: (805) 532-1045
+fax: (805) 532-2401
+email: Jeff.Hirsch at DOE2.com OR JJHirsch at ez2.net
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: JJHirsch.vcf
+Type: text/x-vcard
+Size: 504 bytes
+Desc: Card for James J. Hirsch
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/19990408/f92a8fbb/attachment.vcf>
+
+From hittle at lamar.colostate.edu  Thu Apr  8 10:44:27 1999
+From: hittle at lamar.colostate.edu (Doug)
+Date: Thu, 08 Apr 1999 11:44:27 -0600
+Subject: [BLDG-SIM] Experience with DOE-2 User Interfaces
+References: <MDAEMON-F199904081012.AA125667MD27258@gard.com>
+Message-ID: <MDAEMON-F199904081240.AA403640MD36857@gard.com>
+
+You might like to try the HBLC interface to BLAST. 1-800-UIBLAST
+
+Jason Glazer wrote:
+
+> I am trying to decide which user interface for DOE-2 to
+> purchase.  I usually use a text editor for DOE-2 but have a
+> project where a user interface would probably be more
+> efficient.  I'm running NT 4.0.  Any recommendations or
+> guidance?  I prefer something easy to use but need access
+> to all features of DOE-2.  I would be great but not
+> essential to be able to read existing DOE-2 input files.
+> Parametrics are important but I will probably use the
+> system I have now (custom batch files, spreadsheets and
+> customer programs) most of the time.
+>
+> Jason
+> =========================================================
+> Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+> GARD Analytics - http://www.gard.com/
+> Building Energy Simulation and Analysis
+> List Administrator & 90.1 Consultant
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Thu Apr  8 08:19:03 1999
+From: jglazer at gard.com (Jason Glazer)
+Date: Thu, 8 Apr 1999 10:19:03 -0500
+Subject: [BLDG-SIM] Experience with DOE-2 User Interfaces
+Message-ID: <MDAEMON-F199904081012.AA125762MD36797@gard.com>
+
+I am trying to decide which user interface for DOE-2 to 
+purchase.  I usually use a text editor for DOE-2 but have a 
+project where a user interface would probably be more 
+efficient.  I'm running NT 4.0.  Any recommendations or 
+guidance?  I prefer something easy to use but need access 
+to all features of DOE-2.  I would be great but not 
+essential to be able to read existing DOE-2 input files.  
+Parametrics are important but I will probably use the 
+system I have now (custom batch files, spreadsheets and 
+customer programs) most of the time.  
+
+Jason
+=========================================================
+Jason Glazer, P.E.  mailto:jglazer at gard.com  847 698 5686
+GARD Analytics - http://www.gard.com/
+Building Energy Simulation and Analysis
+List Administrator & 90.1 Consultant
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From Drury.Crawley at ee.doe.gov  Thu Apr  8 07:48:22 1999
+From: Drury.Crawley at ee.doe.gov (Drury.Crawley at ee.doe.gov)
+Date: Thu, 8 Apr 1999 10:48:22 -0400
+Subject: [BLDG-SIM] EnergyPlus Developers Workshop, May 7th, Chicago
+Message-ID: <MDAEMON-F199904080941.AA415923MD36789@gard.com>
+
+
+
+(We apologize for duplicate cross-postings.)
+
+Dear Colleague,
+
+As you probably know, the US Department of Energy has been working
+on a new generation building energy simulation program, EnergyPlus.
+EnergyPlus builds on the features and capabilities of both DOE-2 and BLAST.
+The EnergyPlus team, US Army CERL, LBNL, and University of Illinois, have
+been working for the past two years to create this new program.  In
+December 1998, we reached the milestone of a running alpha version
+(internal).  We plan to have a beta version running by June 1999.  This
+version is primarily for internal testing but we also will make it
+available
+to people who are interested in developing an user interface or new
+calculational modules.
+
+To give those developers who are interested in EnergyPlus an opportunity to
+have their detailed questions answered and to make arrangements to get
+their fingers into the code, we are holding a one-day workshop in Chicago
+on May 7.  The workshop will start at 9 am and end by 5 pm.
+
+To participate in the workshop, you must execute an EnergyPlus Developers
+License.  The license gives you access to the code but is not a commercial
+use license and you cannot redistribute EnergyPlus code or executables with
+this license. Once the commercial use license is available later this year,
+you can easily transfer licenses if you wish.  There is a $100 charge for
+executing the EnergyPlus Developers License.
+
+You may download a PDF version of the Developers license from the web.
+Go to http://gundog.lbl.gov, click on EnergyPlus, click on Developers
+License.
+
+More info about EnergyPlus is shown on our web site:
+http://www.eren.doe.gov/buildings/energy_tools/energyplus.htm
+
+If you are interested in the workshop, please contact either Dru Crawley
+(e-mail: Drury.Crawley at ee.doe.gov), Fred Winkelmann (e-mail:
+FCWinkelmann at lbl.gov),
+or Linda Lawrie (e-mail: Lawrie at cecer.army.mil).
+
+Dru Crawley
+Program Manager, Building Energy Tools
+US Dept of Energy
+
+
+
+
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From bseaton at ASHRAE.org  Thu Apr  1 06:11:38 1999
+From: bseaton at ASHRAE.org (Seaton, Bill)
+Date: Thu, 1 Apr 1999 09:11:38 -0500
+Subject: [BLDG-SIM] RESEARCH PROJECTS READY TO BID
+Message-ID: <MDAEMON-F199904010810.AA105851MD35401@gard.com>
+
+This is to inform you that we have added 12 new requests-for-proposal (RFP)
+to the 5 already posted on the ASHRAE Home Page (www.ashrae.org).  To view
+and/or download them, click on 'Research' and then 'Research Projects Ready
+To Bid'.
+
+We will be adding several more about a week from now when final information
+is received from the sponsoring Technical Committees.
+
+Please forward this announcement to any of your colleagues who may have an
+interest.  As always, we will be happy to add to, or delete names from, this
+list if properly notified.
+
+William W. Seaton              bseaton at ashrae.org
+Manager of Research 
+ASHRAE, Inc.                    Ph.  404-636-8400
+1791 Tullie Circle             Fax  404-321-5478
+Atlanta, GA 30329
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+

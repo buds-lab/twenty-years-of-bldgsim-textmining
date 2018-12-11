@@ -1,0 +1,1123 @@
+From JAulbach at semprasolutions.com  Thu Jul 31 15:54:11 2003
+From: JAulbach at semprasolutions.com (Aulbach, John)
+Date: Thu, 31 Jul 2003 15:54:11 -0700
+Subject: [BLDG-SIM] DOE-2 Hourly Information sought
+Message-ID: <MDAEMON-F200307311748.AA4848593pd80000366644@gard.com>
+
+I am trying to ascertain the effect that outside air has on the energy load
+of a school. There are 27 air units I am running as SZRH (and they really DO
+have reheat coils versus a heating coil).
+ 
+By the way, I input the outside air requirements at the ZONE level (actually
+one ZONE corresponds to one SYSTEM).
+ 
+In my perusal of hourly parameters, there really is no specific component
+for outside air ANYTHING shown. I have attempted to use the Return Air Temp
+and the Mixed Air Temp, along with the fixed Total Supply, Return, and
+Outside air volumes to do a mass balance, thus determining the OSA cooling
+and heating energy components.
+ 
+But the hourly data shows the Return and Mixed Temperatures almost
+identical. Because I put the Outside Air in the ZONE command, is it acting
+like Infiltration? Should I be bringing it into the SYSTEM level instead?
+ 
+John R. Aulbach, PE, CEM
+Project Engineer
+Sempra Energy Solutions
+555 West Fifth Street
+Mail Location 27F3
+Los Angeles, CA 90013
+Tel: (213) 244-8551 Cell (213) 219-4875
+ 
+
+"Sempra Energy Solutions is not the same company as SDG&E/ SoCalGas, the
+Utilities.  Sempra Energy Solutions is not regulated by the California
+Public Utilities Commission, and you do not have to buy Sempra Energy
+Solutions products or services to continue to receive quality regulated
+service from the Utilities."  
+
+ 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030731/9019279c/attachment.htm>
+
+From YJHuang at lbl.gov  Thu Jul 31 04:46:41 2003
+From: YJHuang at lbl.gov (Joe Huang)
+Date: Thu, 31 Jul 2003 04:46:41 -0700
+Subject: [BLDG-SIM] DOE-2 function
+References: <MDAEMON-F200307302107.AA0707421pd80000520987@gard.com>
+Message-ID: <MDAEMON-F200307310639.AA3946437pd80000366145@gard.com>
+
+DOE-2 functions need to be called at the right spot in the calculation
+sequence. Without looking at your function and BDL, it's impossible to tell
+what's going on. You can e-mail it to me at YJHuang at lbl.gov and I'll do a
+quick look-see.
+
+Joe
+----- Original Message -----
+From: "Xu Zheng" <zhxu1 at vt.edu>
+To: <BLDG-SIM at gard.com>
+Sent: Wednesday, July 30, 2003 7:12 PM
+Subject: [BLDG-SIM] DOE-2 function
+
+
+> Is there anybody who could give me an indication about my simulation
+problem?
+>
+> I am doing simulation on double-glass-facade's feasibility on improve
+> building's energy performance. From the data I collected from my mock-up,
+I
+> conducted a function. In DOE 2, I define it as an input function.
+>
+> Then I input all the data, including geometry,material property, system,
+> plant, and my own function. But the output shows me that the function I
+> referred to those facades has never been called during the calculation!
+>
+> Any kind of help would be highly appreciated!
+>
+> Xu, Zheng
+> Environmental Design & Planning Studio
+> College of Architecture & Urban Studies
+> Tel.540-953-0555(H)540-231-4359(O)
+>
+>
+> ======================================================
+> You received this e-mail because you are subscribed
+> to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+> from this mailing list send a blank message to
+> BLDG-SIM-UNSUBSCRIBE at GARD.COM
+>
+>
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From zhxu1 at vt.edu  Wed Jul 30 19:12:47 2003
+From: zhxu1 at vt.edu (Xu Zheng)
+Date: Wed, 30 Jul 2003 22:12:47 -0400
+Subject: [BLDG-SIM] DOE-2 function
+Message-ID: <MDAEMON-F200307302107.AA0719578pd80000365823@gard.com>
+
+Is there anybody who could give me an indication about my simulation problem?
+
+I am doing simulation on double-glass-facade's feasibility on improve 
+building's energy performance. From the data I collected from my mock-up, I 
+conducted a function. In DOE 2, I define it as an input function.
+
+Then I input all the data, including geometry,material property, system, 
+plant, and my own function. But the output shows me that the function I 
+referred to those facades has never been called during the calculation!
+
+Any kind of help would be highly appreciated!
+
+Xu, Zheng
+Environmental Design & Planning Studio
+College of Architecture & Urban Studies
+Tel.540-953-0555(H)540-231-4359(O)
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From sjudson at noresco.com  Tue Jul 29 12:43:36 2003
+From: sjudson at noresco.com (sjudson at noresco.com)
+Date: Tue, 29 Jul 2003 15:43:36 -0400
+Subject: [BLDG-SIM] EUN Software Recommendations
+Message-ID: <MDAEMON-F200307291437.AA3745781pd80000364540@gard.com>
+
+What would your list be?
+
+-----Original Message-----
+From: Tianzhen Hong [mailto:thong at eley.com]
+Sent: Thursday, July 24, 2003 1:50 PM
+To: BLDG-SIM at gard.com
+Subject: [BLDG-SIM] EUN Software Recommendations
+
+
+
+
+Just read the article this morning on the train.
+
+Most of the recommendated tools are decades old and not supported any
+more by anyone.
+
+I believe engineers that really use building energy simulations would
+give a totally different list.
+
+Tianzhen
+
+
+
+> -----Original Message-----
+> From: postman at gard.com [mailto:postman at gard.com] On Behalf Of 
+> Jason Glazer
+> Sent: Thursday, July 24, 2003 10:13 AM
+> To: BLDG-SIM at gard.com
+> Subject: [BLDG-SIM] EUN Software Recommendations
+> 
+> 
+> In a recent Energy User News article, a list of energy 
+> tools were recommended with special emphasis on lighting 
+> related software.  Here is the article:
+> 
+http://www.energyusernews.com/CDA/ArticleInformation/feature
+s/BNP__Features__Item/0,2584,102460,00.html
+
+Try the following if that URL is too long:
+
+  http://tinyurl.com/hxsg
+
+Here are the 10 tools they recommended:
+
+FLEX
+LTGSTD ASHRAE 90.1
+SuperLight
+ProjectKalc
+ComCheck-Plus
+SkyCalc
+Radiance
+EQuest
+PVWatts
+ASEAM
+
+A second opinion in a sidebar by Bion Howard suggested:
+
+Energy-10
+EnergyPlus
+DOE-2.1 or 2.2
+BLAST
+
+I'm interested if the readers of BDLG-SIM would come to the 
+same recommendations.
+
+Jason
+
+=========================================================
+Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From raevans at aerotek.com  Thu Jul 24 14:41:30 2003
+From: raevans at aerotek.com (Ralph L. Evans Jr.)
+Date: Thu, 24 Jul 2003 17:41:30 -0400
+Subject: [BLDG-SIM] Energy Modeler position
+Message-ID: <MDAEMON-F200307241636.AA3609593pd80000361042@gard.com>
+
+My name is Ralph Evans with Onsite Energy in Portland, Oregon. I'm in
+the process of trying to locate a Energy Modeler who has experience in a
+
+modlers environment,eQuest DOE 2.2, TRACE 700 or TAS experience. Must
+have 3-7 yrs exp. using building/auditing simulation programs.
+If anyone meets these requirements please send me a resume to
+raevans at aerotek.com
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: raevans.vcf
+Type: text/x-vcard
+Size: 403 bytes
+Desc: Card for Ralph L. Evans Jr.
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030724/dcc23271/attachment.vcf>
+
+From thong at eley.com  Thu Jul 24 10:50:17 2003
+From: thong at eley.com (Tianzhen Hong)
+Date: Thu, 24 Jul 2003 10:50:17 -0700
+Subject: [BLDG-SIM] EUN Software Recommendations
+In-Reply-To: <MDAEMON-F200307241207.AA0739312pd80000517198@gard.com>
+Message-ID: <MDAEMON-F200307241247.AA475662pd80000360779@gard.com>
+
+
+
+Just read the article this morning on the train.
+
+Most of the recommendated tools are decades old and not supported any
+more by anyone.
+
+I believe engineers that really use building energy simulations would
+give a totally different list.
+
+Tianzhen
+
+
+
+> -----Original Message-----
+> From: postman at gard.com [mailto:postman at gard.com] On Behalf Of 
+> Jason Glazer
+> Sent: Thursday, July 24, 2003 10:13 AM
+> To: BLDG-SIM at gard.com
+> Subject: [BLDG-SIM] EUN Software Recommendations
+> 
+> 
+> In a recent Energy User News article, a list of energy 
+> tools were recommended with special emphasis on lighting 
+> related software.  Here is the article:
+> 
+http://www.energyusernews.com/CDA/ArticleInformation/feature
+s/BNP__Features__Item/0,2584,102460,00.html
+
+Try the following if that URL is too long:
+
+  http://tinyurl.com/hxsg
+
+Here are the 10 tools they recommended:
+
+FLEX
+LTGSTD ASHRAE 90.1
+SuperLight
+ProjectKalc
+ComCheck-Plus
+SkyCalc
+Radiance
+EQuest
+PVWatts
+ASEAM
+
+A second opinion in a sidebar by Bion Howard suggested:
+
+Energy-10
+EnergyPlus
+DOE-2.1 or 2.2
+BLAST
+
+I'm interested if the readers of BDLG-SIM would come to the 
+same recommendations.
+
+Jason
+
+=========================================================
+Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From dlombard at earthlink.net  Thu Jul 24 10:33:23 2003
+From: dlombard at earthlink.net (Debra Lombard)
+Date: Thu, 24 Jul 2003 13:33:23 -0400
+Subject: [BLDG-SIM] [Fwd: modeling Fume hood ventilation]
+Message-ID: <MDAEMON-F200307241229.AA2951250pd80000360753@gard.com>
+
+Hello!
+
+I am looking to find out if anyone has modeled fume hoods for a LEED
+project.
+
+I am wondering if 100% of the ventilation is considered process energy
+or only part. If only part, what %? Any practical experience would be
+greatly
+appreciated.
+
+Thank you!
+Debra Lombard
+The RETEC Group, Inc.
+Lighting & Sustainable Design
+dlombard at retec.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jglazer at gard.com  Thu Jul 24 10:12:44 2003
+From: jglazer at gard.com (Jason Glazer)
+Date: Thu, 24 Jul 2003 12:12:44 -0500
+Subject: [BLDG-SIM] EUN Software Recommendations
+Message-ID: <MDAEMON-F200307241207.AA0727703pd80000360715@gard.com>
+
+In a recent Energy User News article, a list of energy 
+tools were recommended with special emphasis on lighting 
+related software.  Here is the article:
+
+http://www.energyusernews.com/CDA/ArticleInformation/feature
+s/BNP__Features__Item/0,2584,102460,00.html
+
+Try the following if that URL is too long:
+
+  http://tinyurl.com/hxsg
+
+Here are the 10 tools they recommended:
+
+FLEX
+LTGSTD ASHRAE 90.1
+SuperLight
+ProjectKalc
+ComCheck-Plus
+SkyCalc
+Radiance
+EQuest
+PVWatts
+ASEAM
+
+A second opinion in a sidebar by Bion Howard suggested:
+
+Energy-10
+EnergyPlus
+DOE-2.1 or 2.2
+BLAST
+
+I'm interested if the readers of BDLG-SIM would come to the 
+same recommendations.
+
+Jason
+
+=========================================================
+Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From dlombard at earthlink.net  Wed Jul 23 20:36:02 2003
+From: dlombard at earthlink.net (Debra Lombard)
+Date: Wed, 23 Jul 2003 23:36:02 -0400
+Subject: [BLDG-SIM] modeling Fume hood ventilation
+Message-ID: <MDAEMON-F200307232232.AA3224343pd80000360208@gard.com>
+
+Hello!
+
+I am looking to find out if anyone has modeled fume hoods for a LEED
+project.
+
+I am wondering if 100% of the ventilation is considered process energy
+or only part.
+If only part, what %? Any practical experience would be greatly
+appreciated.
+
+Thank you!
+Debra Lombard
+dlombard at earthlink.net
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From vaipotnis at hotmail.com  Wed Jul 23 14:38:01 2003
+From: vaipotnis at hotmail.com (Vaibhav Potnis)
+Date: Thu, 24 Jul 2003 03:08:01 +0530
+Subject: [BLDG-SIM] ASHRAE 90.1 Query - Infiltration
+Message-ID: <MDAEMON-F200307231632.AA3242421pd80000359989@gard.com>
+
+Hey Nikhil,
+I would sugeest you take a look at page 5-12of the 90.1 User Manual under 
+Air leakage section 5.2.3
+It says that all the requirements o f air leakage must be met in both the 
+prescriptive and ECB method.
+
+Regards,
+Vaibhav Potnis
+B.Arch.,LEED Accredited Professional
+Graduate Student
+M.S.Building Design
+Energy Performance and
+Climate Responsive Architecture
+School of Architecture,Arizona State University
+P O Box 1605 , Tempe, AZ- 85287-1605
+www.caed.asu.edu/msenergy
+--------------------------------------------------------------------------------
+To improve is to change. To be perfect is to change often.
+                                               ? Winston Churchill
+
+
+
+
+
+>From: Nikhil Kapur <energy_news2002 at yahoo.com>
+>Reply-To: energy_news2002 at yahoo.com
+>To: <BLDG-SIM at gard.com>
+>Subject: [BLDG-SIM] ASHRAE 90.1 Query - Infiltration
+>Date: Tue, 22 Jul 2003 11:22:16 -0700 (PDT)
+>
+>I have a question reagrding modeling of infiltration rates in the Energy 
+>Cost budget Method for ASHRAE 90.1
+>
+>Does the budget and the proposed case both have to have the same 
+>infiltration modeled? I could not figure this out in the standard.
+>
+>I would appreciate if anyone could help me out with this query.
+>
+>Thanks
+>
+>Nikhil
+>
+>
+>
+>---------------------------------
+>Do you Yahoo!?
+>Yahoo! SiteBuilder - Free, easy-to-use web site design software
+>
+>======================================================
+>You received this e-mail because you are subscribed
+>to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe
+>from this mailing list send a blank message to
+>BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+_________________________________________________________________
+Cool new emoticons. Lots of colour! 
+http://server1.msn.co.in/sp03/messengerpromo/index.asp On MSN Messenger V6.0
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From energy_news2002 at yahoo.com  Tue Jul 22 11:22:16 2003
+From: energy_news2002 at yahoo.com (Nikhil Kapur)
+Date: Tue, 22 Jul 2003 11:22:16 -0700 (PDT)
+Subject: [BLDG-SIM] ASHRAE 90.1 Query - Infiltration
+Message-ID: <MDAEMON-F200307221316.AA1658250pd80000358984@gard.com>
+
+I have a question reagrding modeling of infiltration rates in the Energy Cost budget Method for ASHRAE 90.1 
+ 
+Does the budget and the proposed case both have to have the same infiltration modeled? I could not figure this out in the standard.
+ 
+I would appreciate if anyone could help me out with this query.
+ 
+Thanks
+ 
+Nikhil
+ 
+
+
+---------------------------------
+Do you Yahoo!?
+Yahoo! SiteBuilder - Free, easy-to-use web site design software
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030722/f6711b7b/attachment.htm>
+
+From jglazer at gard.com  Tue Jul 22 06:21:26 2003
+From: jglazer at gard.com (Jason Glazer)
+Date: Tue, 22 Jul 2003 08:21:26 -0500
+Subject: [BLDG-SIM] Admin: GARD Mailing Lists Down Due to Power Outage
+Message-ID: <MDAEMON-F200307220816.AA1613156pd80000358704@gard.com>
+
+The GARD mailing lists including SSPC901L, 901ECB, 901ENV, 
+SPC140-L, TC28-L, TC47-L, IBPSAUSA and BLDG-SIM where 
+unavailable from approximately July 20 at 11 pm to July 21 
+at 2 pm due to a power outage (yes, 15 hours). If you tried 
+to send an email to one of the mailing lists during that 
+time, please resend your message.
+
+Jason (sorry about cross posting)
+
+=========================================================
+Jason Glazer, P.E.  jglazer AT gard DOT com  847 698 5686
+GARD Analytics - http://www.gard.com/
+1028 Busse Highway, Park Ridge, IL 60068
+Building Energy Simulation and Analysis
+Admin of BLDG-SIM list for building simulation users
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From jon at esru.strath.ac.uk  Tue Jul 22 01:43:48 2003
+From: jon at esru.strath.ac.uk (Jon Hand)
+Date: Tue, 22 Jul 2003 09:43:48 +0100
+Subject: [BLDG-SIM] Updated session schedule for the world wide ESP-r developers conference
+Message-ID: <MDAEMON-F200307220336.AA3622265pd80000358535@gard.com>
+
+Updated schedule for the world-wide ESP-r developers conference
+
+The following is an updated schedule for the world-wide 
+developers' conference and workshops to be held in Glasgow
+Scotland the week after the IBPSA conference in Eindhoven.
+
+Join delegates from Canada, Norway, Portugal, The Netherlands,
+Switzerland, South Korea, Hong Kong, Poland, United States,
+France and the United Kingdom as we review the current state
+of ESP-r, discuss its evolution and delve into its code. 
+
+Monday 18 August: Conference on ESP-r Developments
+8:30 - 9:00: Registration
+9:00 - 9:30: Summary of ESP-r history, licensing, development
+9:30 -lunch: Presentations by visitors
+2:00 - 4:00: ESRU: summary of ESP-r status and development plans
+4:00 - 5:30: Discussion of partnerships and topics for
+             future developments.
+
+Tuesday 19 August: Basic Workshop for Developers
+9:00 -  9:45: ESP-r structure - overview
+9:45 - 10:15: Databases - updating, adding components
+10:15 - lunch: Setting up user environment & compile/link/test cycle
+          Demonstration then exercises of compile/link/test cycle.
+2:00 - 3:30: Demonstration and exercise for code intervention to
+             add a new algorithm.
+3:30 - 4:30: Overview of documentation, exemplars, code location etc.
+4:30 - 5:00: Overview of coding standards and procedures document.
+
+19h00 Conference dinner.
+
+Wednesday 20 August: Advanced Workshop for Developers
+Workshop sessions of the following groups of topics with participants
+browsing code and hands-on exercises. Session lengths will be adjusted
+to fit participant demand.
+9:00 - 17:00 with a lunch break
+
+ 1. Compile/link/load (including OS platforms, porting,
+    Fortran-C-Fortran).
+
+ 2. Database content, management and extensions, HVAC systems,
+    electrical power flow, renewable energy systems, 
+    control (zone, system, flow).
+
+ 3. Weather parameters (current and possible extensions), long-wave
+    radiation, surface convection, casual heat gains, daylight and
+    artificial lighting.
+
+ 4. Geometry manipulation (current and possible extensions), user
+    interface (including CAD interactions and web based interfaces).
+    Life Cycle Impact Assessment, care and feeding of exemplar models.
+
+ 5. Shading and insolation, short-wave radiation, transient conduction,
+    thermal bridges, fabric moisture flow and in-line validation.
+
+ 6. Numerical solvers, network air flow, computational fluid dynamics.
+    time-step control, results analysis (including Integrated
+Performance
+    Views).
+
+Thursday 21 August: Open Workshop
+Workshop in support of those involved in or planning
+joint development efforts.
+
+---------------------------------------------------------------
+Check the ESRU web page under `training` for late breaking news
+and registration information.
+<http://www.esru.strath.ac.uk>
+
+Questions can be directed to Jon Hand, jon at esru.strath.ac.uk
+
+While the conference venue will have a limited number of
+Linux and Sun workstations to use during the workshops, we 
+encourage delegates to bring ESP-r compatable laptop computers 
+and development environments (and a converter for power outlets 
+to work with UK power sockets).
+---------------------------------------------------------------
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From hamnmegs at ozemail.com.au  Mon Jul 21 03:33:56 2003
+From: hamnmegs at ozemail.com.au (Graham & Megan)
+Date: Mon, 21 Jul 2003 20:33:56 +1000
+Subject: [BLDG-SIM] EQuest (DOE-2.2) Enhancement Funding
+Message-ID: <MDAEMON-F200307211432.AA3216390pd80000357738@gard.com>
+
+I am trying to gain financial support to have some particular enhancements made to the DOE-2.2 engine and EQuest interface supported by JJ Hirsch & Associates.  These include:
+1) Metric input and output units
+2) Southern hemishpere daylight savings (avoids doubling schedule input)
+3) Allowing supply temperature to be passed when using OA-FROM-SYSTEM rather than return temperature only.  This is useful in modelling tempered outdoor air systems for 4-pipe fan coil units or in modelling systems that share a common outdoor air economiser section.
+4) Allowing the Induction Unit system supply temperature control to be reset to meet the heating needs of the zone of greatest heating demand.  This is needed to correctly model the heating and reheating (following dehumidification) passive / active chilled beam systems.  Currently you have to control heating on an outdoor reset schedule and you cannot use this to reheat when supply temperature is dropped for dehumidification.
+
+I can gain some financial support from within my company, but require financial support from others to make it happen.  If anyone is interested in supporting some or all of these enhancements and would like to further details or to discuss further please do not hesitate to contact me.
+
+Regards,
+Graham Carter
+Bovis Lend Lease - Sustainability Unit
++62 2 9236 6347
+graham.carter at lendlease.com.au
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030721/5c9d3c7d/attachment.htm>
+
+From Habaza11 at cs.com  Tue Jul 15 10:37:25 2003
+From: Habaza11 at cs.com (Habaza11 at cs.com)
+Date: Tue, 15 Jul 2003 13:37:25 -0400
+Subject: [BLDG-SIM] Students need help/  CAD files
+Message-ID: <MDAEMON-F200307151232.AA3224781pd80000353336@gard.com>
+
+Please;
+
+Could any one provide some CAD files for a simple building to be used as an example for my Building Construction students in the Mech. systems class?. I will be grateful if any one may mail or e-mail me a basic design for an open plan factory or retail building with mechanical and electrical layout, I don?t need the structure or the architectural details, It is just the layout of the Arch. Mech., and electrical. If  there is specifications, simulations? calculations, etc. that will be great also. The students will first design the mech. and electrical system, and then will look at the original design. 
+43 thanks from the students and me. 
+Hussein Abaza. Ph.D.
+
+EC University
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From chapman at ksu.edu  Sun Jul 13 20:44:04 2003
+From: chapman at ksu.edu (Kirby Chapman)
+Date: Sun, 13 Jul 2003 22:44:04 -0500
+Subject: [BLDG-SIM] Simple air loop in EnergyPlus
+Message-ID: <MDAEMON-F200307132239.AA3900203pd80000351926@gard.com>
+
+We're putting together a relatively simple EP file to analyze a central
+forced air furnace in residential building. Does anyone have a simple
+IDF file that shows how the air loop and associated heating system are
+described? Or better yet, if someone has come across a succinct
+description of how to build an air loop and air distribution system,
+that would be very much appreciated.
+
+Thanks for any help.
+
+Kirby S. Chapman
+Professor and Director
+Kansas State University
+National Gas Machinery Laboratory
+245 Levee Drive
+Manhattan, KS 66502
+
+O: (785) 532-2319
+F: (785) 532-3744
+www.ngml.ksu.edu
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030713/ea91902a/attachment.htm>
+
+From cbarnaby at wrightsoft.com  Fri Jul 11 06:26:08 2003
+From: cbarnaby at wrightsoft.com (Chip Barnaby)
+Date: Fri, 11 Jul 2003 09:26:08 -0400
+Subject: [BLDG-SIM] Tools for parametric studies
+Message-ID: <MDAEMON-F200307110821.AA2101687pd80000350243@gard.com>
+
+Hello --
+
+Can anyone give me some leads on software for generation and management of 
+batch input files for parametric studies?  I am investigating doing a large 
+study using the ASHRAE loads toolkit, so the input files will be of 
+home-grown format (not DOE-2).
+
+The one tool that I have found is PREP from Item Systems (www.item.com), 
+which looks very promising.  Any experience using PREP?
+
+Any other possibilities?
+
+Thanks!
+
+Chip Barnaby
+
+
+---------------------------------------------------------
+Chip Barnaby                   cbarnaby at wrightsoft.com
+Vice President of Research
+Wrightsoft Corp.               781-862-8719 x118 voice
+394 Lowell St, Suite 12        781-861-2058 fax
+Lexington, MA 02420            www.wrightsoft.com
+---------------------------------------------------------
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From fporter at archenergy.com  Wed Jul  9 08:09:15 2003
+From: fporter at archenergy.com (Fred Porter)
+Date: Wed, 09 Jul 2003 09:09:15 -0600
+Subject: [BLDG-SIM] ASHRAE 90.1 Query - II
+References: <MDAEMON-F200307082259.AA594393pd80000507134@gard.com>
+Message-ID: <MDAEMON-F200307091004.AA0422375pd80000348716@gard.com>
+
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030709/6fabd618/attachment.htm>
+
+From energy_news2002 at yahoo.com  Tue Jul  8 21:04:48 2003
+From: energy_news2002 at yahoo.com (Nikhil Kapur)
+Date: Tue, 8 Jul 2003 21:04:48 -0700 (PDT)
+Subject: [BLDG-SIM] ASHRAE 90.1 Query - II
+Message-ID: <MDAEMON-F200307082259.AA5947125pd80000348385@gard.com>
+
+Hi all,
+ 
+Thanks for the responses on the ASHRAE query. I was able to feed in the right inputs into the eQuest model based on your comments and suggestions. 
+ 
+Continuing on the same topic I had one concern, regarding the budget model for the proposed design. For the Energy Cost Budget calculations two simulations will have to be run, one with the proposed case and the other the budget case based on ASHRAE 90.1 standards. In case of the budget simulation model, ASHRAE 90.1 lists the EER's of the packaged units which includes the fan energy. 
+ 
+When doing the model for the budget case I chose the system types as per the ASHRAE 90.1 selection table. Now I have the EER for the packaged units in my case System 11. But how do I model the fan energy for the budget case. I would have to first determine the CFM for the supply fans and the cooling capacity of the unit. 
+ 
+I tried one approach and I do not know whether it is the right way to go or not.
+ 
+I modeled a Packaged Single Zone system with the ASHRAE 90.1 EER. Assigned a 0 value to the fan energy so that there is no fan energy. and ran the eQuest Model. Then from the SS-P report I used the CFM and cooling capacity calculated by the program to determine the appropriate fan energy. Also in this process I used the ASHRAE 90.1 guideline for the fan HP to be 1.2HP/1000 cfm for  upto 20,000 cfm. So using the cfm reported on the SS-P I calculated the fan HP for the budget case, and using the cooling capacity calculated the EER for the system excluding the fan energy. 
+ 
+Then I plugged in the individual values and ran the simulation model for the budget building.
+ 
+Any suggestions to if this approach is appropriate or not.
+ 
+Thanks
+ 
+Nikhil
+ 
+
+
+---------------------------------
+Do you Yahoo!?
+SBC Yahoo! DSL - Now only $29.95 per month!
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030708/cb938e52/attachment.htm>
+
+From energy_news2002 at yahoo.com  Mon Jul  7 11:13:59 2003
+From: energy_news2002 at yahoo.com (Nikhil Kapur)
+Date: Mon, 7 Jul 2003 11:13:59 -0700 (PDT)
+Subject: [BLDG-SIM] eQuest: ASHRAE 90.1 query
+Message-ID: <MDAEMON-F200307071309.AA0921890pd80000347282@gard.com>
+
+Hi,
+ 
+I would appreciate if someone could clarify this question regarding modeling ASHRAE 90.1 modeling in eQuest.
+ 
+ASHRAE 90.1 requires the proposed and the budget design simulation models to have the same fan system efficiency for both the cases. The systems listed in ASHRAE 90.1 provide the total unit efficiencies at ARI conditions. 
+ 
+How does one calculate the fan efficiency to model it separately from the system efficiency in eQuest. 
+ 
+For e.g. for a rooftop packaged unit with an EER of 11.6 how does one know what the EER is without the indoor supply fan energy or alternatively what is the fan energy for the supply fans. 
+ 
+Thanks
+ 
+Nikhil
+ 
+ 
+ 
+
+
+---------------------------------
+Do you Yahoo!?
+SBC Yahoo! DSL - Now only $29.95 per month!
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.onebuilding.org/pipermail/bldg-sim-onebuilding.org/attachments/20030707/08cfcac6/attachment.htm>
+
+From Varkie.Thomas at som.com  Mon Jul  7 08:07:33 2003
+From: Varkie.Thomas at som.com (Varkie Thomas)
+Date: Mon, 7 Jul 2003 11:07:33 -0400
+Subject: [BLDG-SIM] The conclusion of
+	the" getting the design team to  use the energy simulation from the beg
+	inning"
+Message-ID: <MDAEMON-F200307071009.AA0946140pd80000347124@gard.com>
+
+Dear Dr. Fanny:
+
+This is in response to your inquiry below.  I did not attend the ASHRAE meetings in Kansas City last week so I am waiting for their report also.  I assume it will deal with future priorities and directions for research & developing and upgrading standards.  I believe that ASHRAE has a Chapter in Egypt.  ASHRAE members get handbooks, journals, and newsletters that provide information on energy related work. You will find information on presenting papers for future symposiums and and seminars. Besides BLDG-SIM you can also subscribe to ASHRAE's TC-4.7 Energy Calculations discussion group.  There are several other such discussion groups including one for EnergyPlus and IBPSA. Since I work for an A-E design firm, my interest is mainly in using energy analysis software to show compliance with standards and codes. Below are some web-site addresses that you might be interested in looking at.
+
+Best wishes
+
+Varkie Thomas
+
+http://xp20.ashrae.org/
+
+http://www.eere.energy.gov/buildings/energyplus/
+
+http://www.bfrl.nist.gov/
+
+http://www.usgbc.org/
+
+http://www.mae.okstate.edu/ibpsa/
+
+http://www.aeecenter.org/
+
+http://www.iea.org/
+
+http://www.energycodes.gov/
+
+http://www.eere.energy.gov/buildings/tools_directory/
+
+http://epb1.lbl.gov/EPB/
+
+http://windows.lbl.gov/default.htm
+
+http://www.weea.org/
+
+
+
+
+-----Original Message-----
+From: Mona Fanni [mailto:monafanny at yahoo.com]
+Sent: Saturday, July 05, 2003 4:35 AM
+To: jimwill at indy.net; Varkie Thomas; eolsen at owpp.com
+Cc: BLDG-SIM at gard.com
+Subject: The conclusion of the" getting the design team to use the
+energy simulation from the beginning"
+
+
+ Dear
+ Greetings
+ Please, I and all; as I think, were intereseted by
+ the
+ e- discussion of the suggestions given by DR. James
+ W.
+ about the " getting the design team to use the
+ energy
+ simulation in the begining" and the replies,
+ comments
+ and suggestions given by others,So, we are intrested
+ for knowing the results about the discussion in the
+ last Kansas Conference about it. Please, Can the
+ results or the conclusions send to us.
+ Please, I note that the full report of the meeting
+ or
+ the conference could read from the web page before
+ about month from the next conference, So , people ;
+ may be couldn't fellow the suggestions and the
+ porposal results that they intrseted and also , it
+ may
+ be not enough time to arrange the thoughts, ideas
+ and
+ the works; towards the next, So, it could these
+ reports be available to read through few days after
+ the end of the conference . 
+  Thanks for all
+ Best Regards
+ Dr. Mona Ahmed M. Fanny
+ BUilding Physics Dep. BUilding Research Center,
+ P.O.Box 1770 Tahreer Street , Dokki, Cairo, Egypt.
+ Fax: 202 3351564
+ Tel 202 3356722- 3356853(512)
+ 
+ __________________________________
+ Do you Yahoo!?
+ SBC Yahoo! DSL - Now only $29.95 per month!
+ http://sbc.yahoo.com
+ 
+
+
+__________________________________
+Do you Yahoo!?
+SBC Yahoo! DSL - Now only $29.95 per month!
+http://sbc.yahoo.com
+
+===========================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From monafanny at yahoo.com  Sat Jul  5 02:34:42 2003
+From: monafanny at yahoo.com (Mona Fanni)
+Date: Sat, 5 Jul 2003 02:34:42 -0700 (PDT)
+Subject: [BLDG-SIM] The conclusion of the " getting the design team to  use the energy simulation from the beginning"
+In-Reply-To: <B07181CB0073D51180C30002A537E9BF05D806D5@CHGO-EXCHANGE>
+Message-ID: <MDAEMON-F200307050429.AA2945312pd80000346029@gard.com>
+
+ Dear
+ Greetings
+ Please, I and all; as I think, were intereseted by
+ the
+ e- discussion of the suggestions given by DR. James
+ W.
+ about the " getting the design team to use the
+ energy
+ simulation in the begining" and the replies,
+ comments
+ and suggestions given by others,So, we are intrested
+ for knowing the results about the discussion in the
+ last Kansas Conference about it. Please, Can the
+ results or the conclusions send to us.
+ Please, I note that the full report of the meeting
+ or
+ the conference could read from the web page before
+ about month from the next conference, So , people ;
+ may be couldn't fellow the suggestions and the
+ porposal results that they intrseted and also , it
+ may
+ be not enough time to arrange the thoughts, ideas
+ and
+ the works; towards the next, So, it could these
+ reports be available to read through few days after
+ the end of the conference . 
+  Thanks for all
+ Best Regards
+ Dr. Mona Ahmed M. Fanny
+ BUilding Physics Dep. BUilding Research Center,
+ P.O.Box 1770 Tahreer Street , Dokki, Cairo, Egypt.
+ Fax: 202 3351564
+ Tel 202 3356722- 3356853(512)
+ 
+ __________________________________
+ Do you Yahoo!?
+ SBC Yahoo! DSL - Now only $29.95 per month!
+ http://sbc.yahoo.com
+ 
+
+
+__________________________________
+Do you Yahoo!?
+SBC Yahoo! DSL - Now only $29.95 per month!
+http://sbc.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From monafanny at yahoo.com  Sat Jul  5 02:25:55 2003
+From: monafanny at yahoo.com (Mona Fanni)
+Date: Sat, 5 Jul 2003 02:25:55 -0700 (PDT)
+Subject: [BLDG-SIM] the conclusion of the " getting the design team to use the energy simulation from the beginning"
+Message-ID: <MDAEMON-F200307050420.AA2055984pd80000346025@gard.com>
+
+Dear
+Greetings
+Please, I and all; as I think, were intereseted by the
+e- discussion of the suggestions given by DR. James W.
+about the " getting the design team to use the energy
+simulation in the begining" and the replies, comments
+and suggestions given by others,So, we are intrested
+for knowing the results about the discussion in the
+last Kansas Conference about it. Please, Can the
+results or the conclusions send to us.
+Please, I note that the full report of the meeting or
+the conference could read from the web page before
+about month from the next conference, So , people ;
+may be couldn't fellow the suggestions and the
+porposal results that they intrseted and also , it may
+be not enough time to arrange the thoughts, ideas and
+the works; towards the next, So, it could these
+reports be available to read through few days after
+the end of the conference . 
+ Thanks for all
+Best Regards
+Dr. Mona Ahmed M. Fanny
+BUilding Physics Dep. BUilding Research Center,
+P.O.Box 1770 Tahreer Street , Dokki, Cairo, Egypt.
+Fax: 202 3351564
+Tel 202 3356722- 3356853(512)
+
+__________________________________
+Do you Yahoo!?
+SBC Yahoo! DSL - Now only $29.95 per month!
+http://sbc.yahoo.com
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
+From DavidStrip at comcast.net  Wed Jul  2 19:08:01 2003
+From: DavidStrip at comcast.net (David Strip)
+Date: Wed, 02 Jul 2003 20:08:01 -0600
+Subject: [BLDG-SIM] materials properties for rammed earth?
+Message-ID: <MDAEMON-F200307022100.AA0030171pd80000344600@gard.com>
+
+I'm new to this area and am trying to use EnergyPlus to model a rammed
+earth building. I've searched various sources and archives and have not
+been able to find materials properties for rammed earth walls and earth
+roofs. Any guidance is much appreciated.
+
+David Strip
+Albuquerque,NM
+
+
+
+======================================================
+You received this e-mail because you are subscribed 
+to the BLDG-SIM at GARD.COM mailing list.  To unsubscribe 
+from this mailing list send a blank message to 
+BLDG-SIM-UNSUBSCRIBE at GARD.COM
+
+
