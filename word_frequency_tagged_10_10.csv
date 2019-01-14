@@ -47,7 +47,7 @@ General,tools,8
 General,text,8
 Envelope,wall,8
 General,1e,7
-Load,loads,7
+None,loads,7
 Organization,tamu,7
 General,analytics,7
 Equipment,pump,7
@@ -208,7 +208,7 @@ Company,bigladdersoftware,3
 General,hourly,3
 General,desc,3
 LastName,dirkes,3
-Envelope,windows,3
+None,windows,3
 General,newsletter,3
 General,report,2
 HVAC,controls,2
@@ -225,7 +225,7 @@ General,pde,2
 Software,radiance,2
 General,st,2
 General,8653,2
-Envelope,walls,2
+None,walls,2
 General,mil,2
 General,recovery,2
 General,latest,2
