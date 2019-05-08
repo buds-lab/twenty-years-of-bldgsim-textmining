@@ -1,0 +1,6153 @@
+Nick Caton,309
+Jason Glazer,275
+Jim Dirkes,205
+Vikram Sami,188
+Joe Huang,183
+Karen Walkerman,158
+John Aulbach,155
+Robert Wichert,138
+Jeff Haberl,137
+John Aulbach,134
+David Eldridge,124
+Brandon Nichols,122
+Jeff Haberl,114
+Chris Yates,106
+Leen Peeters,99
+Chris Jones,99
+Ramana Koti,97
+Carol Gardner,90
+Drury Crawley,89
+Chris Jones,85
+Mike Tillou,85
+James Hansen,84
+Cheney,77
+Varkie Thomas,76
+Paul Riemer,75
+Gerald Pde,72
+" kkyte at robsonwoese.com (Kevin Kyte)
+",72
+" bfountain at greensim.com (Brian Fountain)
+",71
+Joe Huang,71
+" andrew_c at ieice.com (Andrew Craig)
+",68
+David Eldridge,68
+Leonard Sciarra,65
+" tiwari.sambhav at gmail.com (sambhav tiwari)
+",64
+" cstalberg at naturalintelligence.us (Christian Stalberg)
+",64
+" arpanbakshi at gmail.com (Arpan Bakshi)
+",63
+" kswartz at ecw.org (Keith Swartz)
+",62
+" ldegelman at suddenlink.net (Larry Degelman)
+",61
+Varkie Thomas,61
+" michael.tillou at gmail.com (Michael Tillou)
+",61
+" fporter at archenergy.com (Fred Porter)
+",59
+Vikram Sami,58
+" bradley at tess-inc.com (David Bradley)
+",58
+Drury Crawley,56
+Steven Ayala <sayala81@gmail.com>,56
+" juliabeabout at yahoo.com (Julia Beabout)
+",55
+" floodyc at gmail.com (Chris)
+",55
+" John.S.Eurek at usace.army.mil (Eurek, John S NWO)
+",54
+" hamnmegs at ozemail.com.au (Graham Carter & Megan Lyall)
+",54
+Performance Network via Bldg-sim <bldg-sim@lists.onebuilding.org>,54
+" bbishop at pathfinder-ea.com (Bishop, Bill)
+",54
+" bogus@does.not.exist.com ()
+",54
+" asmith at mreng.ca (Aaron Smith)
+",52
+Esmond Tresidder via Bldg-sim <bldg-sim@lists.onebuilding.org>,52
+" wbishop at pathfinder-ea.com (Bishop, Bill)
+",51
+Steven Ayala via Bldg-sim <bldg-sim@lists.onebuilding.org>,50
+" sheffer at energyopportunities.com (Marcus Sheffer)
+",49
+" peter.simmonds at ibece.net (Peter Simmonds)
+",49
+" shanta.tucker at atelierten.com (Shanta Tucker)
+",48
+" nathan.kegel at iesve.com (Nathan Kegel)
+",48
+" mjwitte at gard.com (Michael J. Witte)
+",47
+" energy.wwind at cox.net (JRR)
+",47
+" mrzoeteman at FTCH.com (Zoeteman, Mark R.)
+",46
+Varkie Thomas,46
+" jon at esru.strath.ac.uk (Jon Hand)
+",46
+" Peter_Ellis at nrel.gov (Ellis, Peter)
+",45
+" jcrossett at phasechange.com (Jeremiah Crossett)
+",45
+" astevens at dmiinc.com (Alec Stevens)
+",45
+" hamnmegs at ozemail.com.au (Graham & Megan)
+",44
+" tito_ at MIT.EDU (Christoph Reinhart)
+",44
+" morgan at ecotope.com (Morgan Heater)
+",43
+" jvd2pe at tds.net (James V Dirkes II, PE)
+",43
+" smignogna at gmail.com (Steve Mignogna)
+",43
+" robbyo at rushingco.com (Robby Oylear)
+",43
+" tianzhen9 at yahoo.com (Zhen Tian)
+",42
+" Robert.Guglielmetti at nrel.gov (Guglielmetti, Robert)
+",41
+" cbalbach at psdconsulting.com (Chris Balbach)
+",41
+" santiagogvelez at gmail.com (Santiago Velez)
+",41
+" maria.karpman at karpmanconsulting.net (Maria Karpman)
+",41
+" pieter.dewilde at plymouth.ac.uk (Pieter De Wilde)
+",41
+" XLiu at climatemaster.com (Xiaobing Liu)
+",41
+" nathanm at rushingco.com (Nathan Miller)
+",40
+" abakshi at yrgxyz.com (Arpan Bakshi)
+",40
+" Michael.Rosenberg at state.or.us (Michael Rosenberg)
+",40
+Drury Crawley,39
+" YiZhang at dmu.ac.uk (Yi Zhang)
+",39
+" dknight at wholebuildingsystems.com (Dennis Knight)
+",39
+" cbarnaby at wrightsoft.com (Chip Barnaby)
+",39
+" JAulbach at semprasolutions.com (Aulbach, John)
+",39
+" peter.alspach at arup.com (Peter Alspach)
+",39
+" dse at grummanbutkus.com (David Eldridge)
+",38
+" larry at taz.tamu.edu (Larry Degelman)
+",38
+" poleary1969 at gmail.com (Patrick J. O'Leary, Jr.)
+",37
+" paul at zed-uk.com (Paul Carey)
+",37
+" KKyte at watts-ae.com (Kevin Kyte)
+",36
+" j.hensen at tue.nl (Hensen, J.L.M.)
+",36
+" Demba.Ndiaye at setty.com (Demba Ndiaye)
+",36
+" smartin at shaunmartinconsulting.com (Shaun Martin)
+",35
+" vaipotnis at hotmail.com (Vaibhav Potnis)
+",35
+" LMatutinovic at halsall.com (Matutinovic, Luka)
+",35
+" jeremiah at cleantechanalytics.com (CleanTech Analytics)
+",35
+" perickson at aeieng.com (Paul Erickson)
+",34
+" wahid.hamed at gmail.com (Wahid Hamed)
+",34
+" slv3sat at gmail.com (R B)
+",34
+" ajain at setty.com (Alpana Jain)
+",34
+" demba.ndiaye at setty.com (Demba Ndiaye)
+",34
+" pallavi.mantha at gmail.com (Pallavi Mantha)
+",34
+" rbrahme at harc.edu (Rohini Brahme)
+",33
+" thong at archenergy.com (Tianzhen Hong)
+",33
+" jvd2pe at tds.net (James V. Dirkes II  P.E.)
+",32
+" Cory.Duggin at tlc-eng.com (Duggin, Cory)
+",32
+Aaron Boranian <aaron.boranian@bigladdersoftware.com>,32
+" Jeff.Hirsch at DOE2.com (Jeff Hirsch)
+",32
+" gail22 at gmail.com (gail)
+",32
+" btalbert at aeieng.com (Bill Talbert)
+",31
+" sadeghipour at gmail.com (Mostapha Sadeghipour)
+",31
+" MARKN at McKinstry.com (Mark Nieman)
+",31
+" wmak at epsteinglobal.com (Will Mak)
+",31
+" joe at drawbdl.com (Joe Huang)
+",30
+" ADahlstrom at in-posse.com (Dahlstrom, Aaron)
+",30
+" rathnashreep at yahoo.in (Rathna Shree)
+",30
+" rdh4176 at gmail.com (Rob Hudson)
+",30
+" cjones at halsall.com (Jones, Christopher)
+",30
+" twhite at glumac.com (Thomas White)
+",30
+" phaves at lbl.gov (Philip Haves)
+",30
+" timothy.moore at iesve.com (Timothy Moore)
+",30
+" ckaltreider at sudassociates.com (Christian Kaltreider)
+",30
+" Kendra.Tupper at sf.fk.com (Tupper, Kendra)
+",29
+" renee at ambient-e.com (Renee J. Azerbegi)
+",29
+" vinay.devanathan at gmail.com (Vinay Devanathan)
+",29
+" yizhao1 at vt.edu (yizhao1 at vt.edu)
+",29
+" d.bradley at tess-inc.com (David BRADLEY)
+",29
+" chris at zed-uk.com (Chris Yates)
+",29
+" silkworth at transsolar.com (Cramer Silkworth)
+",29
+" YJHuang at lbl.gov (Joe Huang)
+",29
+" rdmitchell at lbl.gov (Robin Mitchell)
+",28
+" fbetz at aeieng.com (Fred Betz)
+",28
+" e2fye2 at 163.com (Esmireta)
+",28
+" lajevardi at mech.sharif.ir (lajevardi at mech.sharif.ir)
+",28
+Jim Dirkes <jim@buildingperformanceteam.com>,27
+" mdec at glumac.com (Mitchell Dec)
+",27
+" mwetter at lbl.gov (Michael Wetter)
+",27
+" umit.esiyok at uni-dortmund.de (=?iso-8859-1?Q?=DCmit_Esiyok?=)
+",27
+Performance Network <workshops@performance.network>,27
+" patrick.bivona at gmail.com (Patrick Bivona)
+",27
+" mcase at etcgrp.com (Mark Case)
+",27
+Jim Dirkes via Bldg-sim <bldg-sim@lists.onebuilding.org>,27
+" FPorter at archenergy.com (Fred Porter)
+",27
+" jhaberl at esl.tamu.edu (Jeff Haberl)
+",27
+" reinhart at gsd.harvard.edu (Reinhart, Christoph)
+",26
+" ericy at pae-engineers.com (Eric Youngson)
+",26
+" christian at naturalintelligence.us (Christian Stalberg)
+",26
+" cloris.chen at gmail.com (nicole chen)
+",26
+" shaojieworld2006 at yahoo.com (eric wang)
+",26
+" rasheed.jmi at gmail.com (Rasheed Ahmad)
+",26
+" Timothy.Howe at stantec.com (Howe, Timothy)
+",26
+Joe Huang via Bldg-sim <bldg-sim@lists.onebuilding.org>,26
+" usrobotics011 at yahoo.com (Sasa Pantic)
+",26
+" mjwitte at gard.com (Michael J Witte)
+",26
+" julien.marrec at gmail.com (Julien Marrec)
+",25
+" steve.gates at doe2.com (Steven Gates)
+",25
+" thorntonenergy at comcast.net (Brian Thornton)
+",25
+" sroth at carmelsoft.com (Stephen Roth)
+",25
+" sagerer at paonline.com (Sheila Sagerer)
+",25
+" thornton at tess-inc.com (Jeff Thornton)
+",25
+" LQualmann at sbwConsulting.com (Lynn Qualmann)
+",24
+" Harvey.Bryan at asu.edu (Harvey Bryan)
+",24
+" higgins at edi-arch.com (Matthew Higgins)
+",24
+" Scott.Criswell at doe2.com (Scott Criswell)
+",24
+" bbishop at PathfinderEngineers.com (Bishop, Bill)
+",24
+" sspangle at rmf.com (Seth P. Spangler)
+",24
+" sheelamkhare26 at gmail.com (Sheelam Khare)
+",23
+" jspencer17 at gmail.com (Justin Spencer)
+",23
+" panderson at jpengineer.com (W. Peter Anderson)
+",23
+" bob at rer.com (Bob Ramirez)
+",23
+" robbyoylear at gmail.com (Robby Oylear)
+",23
+" gems at spiritone.com (Carol Gardner)
+",23
+" ery.mailinglist at gmail.com (Ery Djunaedy)
+",23
+" thong at lbl.gov (Tianzhen Hong)
+",23
+" mchugh at h-m-g.com (Jon McHugh)
+",23
+" ssavich at systemswestengineers.com (Steven Savich)
+",23
+" wbahnfleth at psu.edu (William Bahnfleth)
+",23
+" curcija at designbuildersoftware.com (D. Charlie Curcija)
+",23
+" Christoph.Reinhart at nrc-cnrc.gc.ca (Reinhart, Christoph)
+",23
+" Scott.West at jacobs.com (West, Scott P)
+",23
+" chuck.khuen at wxaglobal.com (Chuck Khuen)
+",23
+" JPeterson at Vanderweil.com (Peterson, John)
+",22
+" ktupper at rmi.org (Kendra Tupper)
+",22
+" vpermana at emsi-green.com (Virdi Permana)
+",22
+Aaron Boranian via Bldg-sim <bldg-sim@lists.onebuilding.org>,22
+" grobe at gmx.net (Lars O. Grobe)
+",22
+" AndrewC at InterfaceEng.Com (Andrew Craig)
+",22
+" sam.mason at atelierten.com (Sam Mason)
+",22
+" estuder at dmiinc.com (Eric Studer)
+",22
+" amitbhansali7 at gmail.com (amit bhansali)
+",22
+" chalfoun at email.arizona.edu (Dr. Nader Chalfoun)
+",22
+" miller.clayton at gmail.com (Clayton Miller)
+",21
+" michael.rosenberg at pnl.gov (Rosenberg, Michael I)
+",21
+" hsamuelson at gsd.harvard.edu (Holly W. Samuelson)
+",21
+" Ian.Doebber at arup.com (Ian Doebber)
+",21
+" bseaton at ASHRAE.org (Seaton, Bill)
+",21
+" jaya_mukho at yahoo.com (Jaya Mukhopadhyay)
+",21
+" ldegelman at cox.net (Larry Degelman)
+",20
+" peter.ellis at bigladdersoftware.com (Peter Ellis)
+",20
+" randy at hvacware.net (Randy Wilkinson)
+",20
+Jason Glazer via Bldg-sim <bldg-sim@lists.onebuilding.org>,20
+Sandeep Ahuja <sandeep.ahuja@patternarch.com>,20
+" MICHAEL.L.KINGSLEY at saic.com (Kingsley, Michael L.)
+",20
+" Shariq_Ali at URSCorp.com (Shariq_Ali at URSCorp.com)
+",20
+" ahussein at spsu.edu (Abaza Hussein)
+",20
+" JHess at tmecorp.com (James Hess)
+",20
+" ahussein at spsu.edu (Hussein Abaza)
+",20
+" foolishstar at 163.com (=?GBK?B?uqvQxw==?=)
+",20
+" near_ej at yahoo.com (Neeraj Kapoor)
+",20
+" mike.karpman at karpmanconsulting.net (Mike Karpman)
+",19
+" andyjmc at gmail.com (Andy McNamara)
+",19
+" tsnouidui at lbl.gov (Thierry Nouidui)
+",19
+" gmehta75 at gmail.com (Gaurav Mehta)
+",19
+" efranconi at rmi.org (Ellen Franconi)
+",19
+" sheffer at sevengroup.com (Marcus Sheffer)
+",19
+" thong at eley.com (Tianzhen Hong)
+",19
+" M.Fahmy at sheffield.ac.uk (M F A Ramadan)
+",19
+" werner at cstb.fr (Werner Keilholz)
+",19
+" ncaton at catonenergy.com (Nicholas Caton)
+",18
+" linda at fortlawrie.com (Linda Lawrie)
+",18
+" mcdowell at tess-inc.com (mcdowell at tess-inc.com)
+",18
+" A.Marston at eb-engineers.com (Annie Marston)
+",18
+" dbcrawley at gmail.com (Dru Crawley)
+",18
+" Mark.Dewsbury at utas.edu.au (mark dewsbury)
+",18
+" martin.roy at mra.qc.ca (Martin Roy ing. LEED AP)
+",18
+" jtorres-coto at mbo1.com (Jorge Torres-Coto)
+",18
+Gail Hampsmire <ghampsmire@usgbc.org>,18
+" Bhandari at DesignBuildersoftware.com (Mahabir Bhandari)
+",18
+" fgenest at pageaumorel.com (Genest, Frederic)
+",18
+" cvrhasd at techunix.technion.ac.il (Samuel Hassid)
+",18
+" fitzgerald at sevengroup.com (Cam Fitzgerald)
+",17
+" Energy.wwind at cox.net (JRR)
+",17
+" Paul at zed-uk.com (Paul Carey)
+",17
+" johannes.hopf at dreso.com (Hopf, Johannes)
+",17
+" srunyon at rmf.com (Scott Runyon)
+",17
+" bhandari at fenestration.com (Mahabir Bhandari)
+",17
+" oconnor_dj at hotmail.com (=?iso-8859-1?B?RPNuYWwgTydDb25ub3I=?=)
+",17
+" cglover at epstengroup.com (Cheryl Glover)
+",17
+" DTroy at glumac.com (Dana Troy)
+",17
+" sheffer at paonline.com (Marcus Sheffer)
+",17
+" Drury.Crawley at ee.doe.gov (Drury.Crawley at ee.doe.gov)
+",17
+" SeanH at ieice.com (Sean Henry)
+",17
+" phay at cwjamaica.com (P. Hay)
+",16
+" Andy.Tindale at designbuilder.co.uk (Andy Tindale)
+",16
+" ADahlstrom at AKF-ENG.com (Dahlstrom, Aaron)
+",16
+" dlombard at retec.com (Debra Lombard)
+",16
+Michael Wetter <mwetter@lbl.gov>,16
+Chris Yates <chris.malcolm.yates@gmail.com>,16
+" ajackson at klingstubbins.com (Jackson, Alan)
+",16
+" danr at engineeringinc.com (Dan Russell)
+",16
+" seldomvarun at gmail.com (varun kulkarni)
+",16
+" e.wealend at cundall.com (Wealend, Edwin)
+",16
+" cjaigath at yahoo.com (Jaigath Chandraprakash)
+",16
+" gliddick at theepstengroup.com (Gregg Liddick)
+",16
+" andyhoover at thebestconsultant.com (Andy hoover)
+",16
+" BTysoe at mcw.com (Brian Tysoe)
+",16
+" kevin.burke at arup.com (Kevin Burke)
+",15
+" stvgates at pacbell.net (Steve Gates)
+",15
+" YJHuang at whiteboxtechnologies.com (Joe Huang)
+",15
+" AChapin at sriregistrar.com (AChapin at sriregistrar.com)
+",15
+" krishnan.gowri at pnl.gov (Gowri, Krishnan)
+",15
+" Christie.Rimes at wspfk.com (Rimes, Christie)
+",15
+" ghampsmire at usgbc.org (Gail Hampsmire)
+",15
+" DWilkerson at DWYER.COM (Daniel Wilkerson)
+",15
+" apappas.enermodal at gmail.com (Aleka Pappas)
+",15
+" dkoffs at gmail.com (Kofoworola)
+",15
+" omoltay at mimtarch.com (omoltay at mimtarch.com)
+",15
+" mroberts20 at kc.rr.com (Mike Roberts)
+",15
+" a.benayed at eb-engineers.com (Anis Ben Ayed)
+",15
+" jzarske at nexant.com (Zarske, Jim)
+",15
+" csturdiv at rmf.com (Christopher Sturdivant)
+",15
+" veronica.soebarto at adelaide.edu.au (Veronica Soebarto)
+",15
+" Bob.Ramirez at itron.com (Ramirez, Bob)
+",15
+"""arpan.bakshi@performance.network"" <arpan.bakshi@performance.network>",15
+" energy.wwind at cox.net (John R Ross III PE)
+",15
+" Bing.Liu at pnl.gov (Liu, Bing)
+",15
+" EShadd at archenergy.com (Eric Shadd)
+",15
+"=?utf-8?Q?Performance=20Systems=20Development?= via Bldg-sim
+	<bldg-sim@lists.onebuilding.org>",15
+" mprince at aeieng.com (Mark Prince)
+",15
+" umesh at innovativedesign.net (Umesh Atre)
+",14
+" javedvit at gmail.com (javed iqbal)
+",14
+" Chris at zed-uk.com (Chris Yates)
+",14
+" linda.lam at sf.fk.com (Lam, Linda)
+",14
+" ckmail at pd.jaring.my (CK Tang)
+",14
+" jyotirmay.mathur at gmail.com (jyotirmay mathur)
+",14
+Peter Ellis via Bldg-sim <bldg-sim@lists.onebuilding.org>,14
+" per.sahlin at equa.se (Per Sahlin)
+",14
+" marcantoine.paquin at mra.qc.ca (Marc-Antoine Paquin)
+",14
+" BrahmeR at utrc.utc.com (Brahme, Rohini            UTRC)
+",14
+" Jeremy.Poling at transwestern.net (Jeremy Poling)
+",14
+" Kristin.Field at nrel.gov (Field, Kristin)
+",14
+" ABarker at pemi.com (Adam Barker)
+",14
+" pedromanuelrc at yahoo.es (Pedro Rodrigo)
+",14
+" rkstrand at uiuc.edu (Rick Strand)
+",14
+" NKravik at willdan.com (Nikola Kravik)
+",14
+" jminming at yahoo.com (Jin Minming)
+",14
+" syedf at progressiveae.com (Fareed Syed)
+",14
+" HopfeC at cardiff.ac.uk (Christina Hopfe)
+",14
+" Irene.Pau at arup.com (Irene Pau)
+",14
+" kris_raj at rocketmail.com (Kris Raj)
+",14
+Julien Marrec <julien.marrec@gmail.com>,14
+" chris at greenengineer.com (Christopher Schaffner)
+",14
+" r-strand at uiuc.edu (Rick Strand)
+",14
+" stvgates at pacbell.net (stvgates at pacbell.net)
+",14
+" cdenson at ssr-inc.com (Clark Denson)
+",14
+" paul.grahovac at prosoco.com (Paul Grahovac)
+",14
+" hzirnhelt at hotmail.com (Hayes Zirnhelt)
+",14
+" mcase at etcgrp.com (Mark E. Case)
+",14
+" Jude.Chakraborty at WSPGroup.com (Chakraborty, Judhajit)
+",14
+" jcurtin at WylieAssociates.com (Jonathan Curtin)
+",13
+" kemerson2002 at yahoo.com (K Emerson)
+",13
+" idoebber at vt.edu (Ian Doebber)
+",13
+" ruju_r at yahoo.com (ruju rathod)
+",13
+" DougM at TWGI.com (Doug Maddox)
+",13
+" jpoling at epsteinglobal.com (Jeremy Poling)
+",13
+" pdybskiy at gmail.com (Pavel Dybskiy)
+",13
+" raoniv at ig.com.br (=?ISO-8859-1?Q?Raoni_Ven=E2ncio_dos_Santos_Lima?=)
+",13
+" akrickx at seriousmaterials.com (Alex Krickx)
+",13
+" jdunn at uidaho.edu (Dunn, Jacob (jdunn@uidaho.edu))
+",13
+Jason Glazer <jglazer@gard.com>,13
+" dgarciasanchez at greenaffair.com (David GARCIA-SANCHEZ)
+",13
+" alexc at 2rw.com (Alex Chapin)
+",13
+" vikram.sami at zgf.com (Sami, Vikram)
+",13
+" jones.0bj3 at gmail.com (Marcus)
+",13
+" jtalbert at hallam-ics.com (Talbert, Joshua)
+",13
+" Vikram at ensargroup.com (Vikram Sami)
+",13
+" bperron at ameresco.com (Perron, Brett)
+",13
+" upadhyaykapil at yahoo.com (Kapil Upadhyay)
+",13
+" ulrik.horn at silpainc.com (Ulrik Welle-Strand Horn)
+",13
+" elenisoulti at co2engineering.eu (elenisoulti at co2engineering.eu)
+",13
+" mmehta at bnim.com (Mohit Mehta)
+",13
+" FCastore at abeldesigngroup.com (Filo Castore)
+",13
+" wmclaughlin at dmiinc.com (Wade McLaughlin)
+",13
+" juan.carrizo at alumni.carleton.ca (Sebastian Carrizo)
+",12
+" jvd2pe at tds.net (James V. Dirkes II, PE)
+",12
+" gangwu1 at yahoo.com (Gang Wu)
+",12
+" duffy at tess-inc.com (Matt Duffy)
+",12
+" mloder at psdconsulting.com (Marek Loder)
+",12
+" GuptaA at bre.co.uk (Gupta, Apeksha)
+",12
+" mwilsonbc at yahoo.com (Michael Wilson)
+",12
+" francesco.passerini at inwind.it (francesco.passerini at inwind.it)
+",12
+" C.J.Hopfe at lboro.ac.uk (Christina Hopfe)
+",12
+" dlombard at earthlink.net (dlombard at earthlink.net)
+",12
+" cristian.jara.toro at gmail.com (Cristian Salvador Jara Toro)
+",12
+" dyuill at cox.net (David Yuill)
+",12
+" Gary.Chatfield at lv.fk.com (Chatfield, Gary)
+",12
+" RHammond at gb-eng.com (Ryan Hammond)
+",12
+" Alan.Jackson at BuroHappold.com (Alan Jackson)
+",12
+" mdubrovich at emcengineers.com (Matthew Dubrovich)
+",12
+" tcm at berkeley.edu (Timothy Moore)
+",12
+" RJHitchcock at lbl.gov (Rob Hitchcock)
+",12
+" Eric.Yang at smithgroup.com (Eric Yang)
+",12
+" jglazer at gardanalytics.com (Jason Glazer)
+",12
+" FPorter at archenergy.com (Porter, Fred              AEC)
+",12
+" mayank.23aug at gmail.com (Mayank Bhatnagar)
+",11
+"""Cheryl M. Saldanha via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",11
+" bkoran at qwest.net (Bill)
+",11
+" curcija at ecs.umass.edu (D. Charlie Curcija)
+",11
+" bthornton at glumac.com (Brian Thornton)
+",11
+=?utf-8?Q?Performance=20Systems=20Development?= <dtan@psdconsulting.com>,11
+" ashraf at mecsd.com (Ashraf Khan)
+",11
+" BHall at karpinskieng.com (Hall, Brendan)
+",11
+Christina Hopfe <C.J.Hopfe@lboro.ac.uk>,11
+" amanda at bvm-engineering.com (Amanda Bogner)
+",11
+" bojic at knez.uis.kg.ac.yu (MB)
+",11
+" David.Cocking at designbuilder.co.uk (David Cocking)
+",11
+" mzeng at leoadaly.com (Zeng, Ming)
+",11
+" marianaristi at hotmail.com (Mariana Aristizabal)
+",11
+" TaylorRD at utrc.utc.com (Taylor, Russell D         UTRC)
+",11
+" michael.rosenberg at pnnl.gov (Rosenberg, Michael I)
+",11
+" bfountain at greensim.com (B. Fountain)
+",11
+" hsamuelson at gsd.harvard.edu (Samuelson, Holly Wasilowski)
+",11
+" jimmy.jungle at gmail.com (jimmy jungle)
+",11
+" Brent_Griffith at nrel.gov (Griffith, Brent)
+",11
+" grammy.hkust at gmail.com (Grammy)
+",11
+" Daniel.Studer at nrel.gov (Studer, Daniel)
+",11
+" massucci at gmail.com (Francisco Massucci)
+",11
+" Ronan.CARNEY at projectservices.qld.gov.au (CARNEY Ronan)
+",11
+" avn8166 at blackfoot.net (Vicki Lynne)
+",11
+" qpwang at gatech.edu (Qinpeng Wang)
+",11
+" paul at zed-uk.com (=?utf-8?B?UGF1bCBDYXJleQ==?=)
+",11
+" xiaobing.liu at okstate.edu (Liu, Xiaobing)
+",11
+" cburton at pepractice.com (Craig Burton)
+",11
+" jmaxwell at aspensys.com (Jon Maxwell)
+",11
+" Gaurav.Mehta at stantec.com (Mehta, Gaurav)
+",11
+" lamar43 at earthlink.net (Lamar Henderson)
+",11
+" timj at ctagroup.com (Tim Johnson)
+",10
+" karen at secondlaw.biz (Karen Walkerman)
+",10
+" pmantha at swinter.com (Pallavi Mantha)
+",10
+" Yuvaraj.Saravanan at arup.com (Yuvaraj Saravanan)
+",10
+Nicholas Caton <ncaton@catonenergy.com>,10
+Chris Jones via Bldg-sim <bldg-sim@lists.onebuilding.org>,10
+" Dominique.Michaud at dessausoprin.com (Dominique Michaud)
+",10
+"""Christian Stalberg"" <christian@naturalintelligence.us>",10
+" Swalkes at smseng.com (Stirling Walkes)
+",10
+" MWetter at lbl.gov (Michael Wetter)
+",10
+" StaceyL at interfaceeng.com (Stacey Lin)
+",10
+" oschwieterman at fhai.com (Otto Schwieterman)
+",10
+" jevans at sustaineng.com (Jon Evans)
+",10
+" BKoran at aol.com (BKoran at aol.com)
+",10
+" jforester at dmiinc.com (John Forester)
+",10
+" yjhuang at lbl.gov (Joe Huang)
+",10
+"""Stephen Roth"" <sroth@carmelsoft.com>",10
+Javed Iqbal <javedvit@gmail.com>,10
+" juran at summerconsultants.com (Anne Juran)
+",10
+" fpasserini.tn at gmail.com (Francesco Passerini)
+",10
+" shruti_narayan at hotmail.com (shruti narayan)
+",10
+" neal.kruis at bigladdersoftware.com (Neal Kruis)
+",10
+" amarpreet.sethi at stantec.com (Sethi, Amarpreet)
+",10
+" jeremiah at setnrgh2o.com (Jeremiah Crossett)
+",10
+" Minu.Agarwal at BuroHappold.com (Minu Agarwal)
+",10
+" ClaireDasBhaumik at hoarelea.com (Claire Das Bhaumik)
+",10
+" hamnmegs at ozemail.com.au (hamnmegs at ozemail.com.au)
+",10
+" renee at ambient-e.com (Renee Azerbegi)
+",10
+" michel.bernier at polymtl.ca (Michel Bernier)
+",10
+" milne at ucla.edu (Murray Milne)
+",10
+" scott.criswell at doe2.com (Scott Criswell)
+",10
+" dtan at psdconsulting.com (=?utf-8?Q?Performance=20Systems=20Development?=)
+",10
+" phay at cwjamaica.com (Paul Hay)
+",10
+" nrepka at aeieng.com (Norbert Repka)
+",10
+" jdunn at uidaho.edu (Jacob Dunn)
+",10
+" chenzhuolun at hotmail.com (Zhuolun Chen)
+",10
+" hrichardson at long.com (Holly Richardson)
+",10
+" KField at archenergy.com (Kristin Field)
+",9
+" Michael.Deru at nrel.gov (Deru, Michael)
+",9
+" mbusman at noresco.com (mbusman at noresco.com)
+",9
+" jacobfaiola at yahoo.com (Jacob Faiola)
+",9
+" Aziz.Laouadi at nrc-cnrc.gc.ca (Laouadi, Aziz)
+",9
+" shrutiak at gmail.com (Shruti Kasarekar)
+",9
+" higgins at edi-arch.com (Mathew Higgins)
+",9
+" cjprocha at yahoo.com (Caroline Prochazka)
+",9
+" AFerguso at NRCan.gc.ca (Ferguson, Alex)
+",9
+" tabbas at hilsonmoran.com (Tariq Abbas)
+",9
+" vishnu at kalpakrit.com (Vishnuraj Nair)
+",9
+" sjrees at dmu.ac.uk (Simon Rees)
+",9
+" randallcwilkinson at gmail.com (Randy Wilkinson)
+",9
+" JKeazer at tmecorp.com (Jay Keazer)
+",9
+" GPueltz at MuellerBBM.de (Pueltz, Gunter)
+",9
+" nicholas.blanton at arup.com (Nicholas Blanton)
+",9
+" cstalberg at naturalintelligence.us (christian stalberg)
+",9
+" Julien.Dutel at mern.gouv.qc.ca (Julien.Dutel at mern.gouv.qc.ca)
+",9
+" mcdowell at tess-inc.com (Timothy McDowell)
+",9
+" vssami at yahoo.com (Vikram Sami)
+",9
+" iecc at vt.edu (IEC)
+",9
+" gmehta75 at gmail.com (gaurav mehta)
+",9
+" razerbegi at rmhgroup.com (Azerbegi, Renee)
+",9
+" jeemang at gmail.com (Josh K)
+",9
+" Pallavi.mantha at som.com (Pallavi Mantha)
+",9
+" backer at uidaho.edu (Acker, Brad)
+",9
+" Denis.Bourgeois at arc.ulaval.ca (Denis J. Bourgeois)
+",9
+" shackel at ecw.org (Scott Hackel)
+",9
+" glicks at MIT.EDU (Leon Glicksman)
+",9
+" rgengelbach at sustainablemech.com (Robert Gengelbach)
+",9
+" Energy.wwind at cox.net (John Ross)
+",9
+" CASnyder at ic.org (Christina A. Snyder)
+",9
+Jon Hand <jon@esru.strath.ac.uk>,9
+Peter Ellis <peter.ellis@bigladdersoftware.com>,9
+" Hayssam.Barhoun at arup.com (Hayssam Barhoun)
+",9
+" PaulR at TWGI.com (Paul Riemer)
+",9
+" linda at lawrie.com (Linda Lawrie)
+",9
+" oconnor_dj at hotmail.com (=?Windows-1252?B?RPNuYWwgTydDb25ub3I=?=)
+",9
+" sandeep.kachhawa at gmail.com (Sandeep Kachhawa)
+",9
+" Ian_Doebber at nrel.gov (Doebber, Ian)
+",9
+" bldg-sim at ndoylend.fastmail.fm (Nick Doylend)
+",9
+" tiwari.sambhav at gmail.com (Sambhav Tiwari)
+",9
+" micharadi at hotmail.com (micha radi)
+",9
+" Jcrockett at nexant.com (Crockett, Jim)
+",9
+" hollywas at yahoo.com (holly wasilowski)
+",9
+" tauhid80 at gmail.com (Maudud Quazi)
+",9
+" cpederse at uiuc.edu (Curtis Pedersen)
+",9
+" corinne.benedek at arup.com (Corinne Benedek)
+",9
+" bradpainting at gmail.com (Brad Painting)
+",9
+" kmozes at gmail.com (karen mozes)
+",9
+" abushakr at msoe.edu (Abushakra, Bass)
+",9
+" sayala81 at gmail.com (Steven Ayala)
+",9
+" creations.deepa at googlemail.com (deepa chandrashekaran)
+",9
+" hwasilow at gsd.harvard.edu (Holly W. Samuelson)
+",9
+" bob.irving at btinternet.com (Bob Irving)
+",9
+The Energy Simulation Academy <info@simulate.energy>,9
+" jdunn at eskewdumezripple.com (Jacob Dunn)
+",9
+" cmorais at iit.edu (Caroline Morais)
+",8
+" sangeetha_divakar at yahoo.com (Sangeetha Divakar)
+",8
+" cholekar at yahoo.com (Sanjay Cholekar)
+",8
+" slmcallister at lbl.gov (Susan McAllister)
+",8
+Christina Hopfe via Bldg-sim <bldg-sim@lists.onebuilding.org>,8
+" DOcarroll at rhfae.com (Dan Ocarroll)
+",8
+" brent.huchuk at gmail.com (Brent Huchuk)
+",8
+" ross.harding at built-ecology.com (Harding, Ross)
+",8
+" ABAZAH at ecu.edu (Abaza, Hussein)
+",8
+" jason.alan.kirkpatrick at gmail.com (Jason Kirkpatrick)
+",8
+" david.j.reddy1 at gmail.com (David Reddy)
+",8
+" paul at esru.strath.ac.uk (Paul Strachan)
+",8
+" James.F.Pegues at carrier.utc.com (Pegues, James F           CAR)
+",8
+" max.tillberg at bengtdahlgren.se (Max Tillberg)
+",8
+" Sgupta at energy.state.ca.us (Smita Gupta)
+",8
+" superfig at hotmail.com (=?ks_c_5601-1987?B?wLHBpMjG?=)
+",8
+" rpg at rumblestrip.org (Rob Guglielmetti)
+",8
+" psimmonds11 at gmail.com (Peter Simmonds)
+",8
+" demba.ndiaye at polymtl.ca (Demba NDIAYE)
+",8
+" haidermkhan at gmail.com (Haider Khan)
+",8
+" MHuffman at murphymiller.com (Matt Huffman)
+",8
+" ashfaque at gmail.com (Ashfaque Ahmed Chowdhury)
+",8
+" bmunger at bhengineers.com (Bryce Munger)
+",8
+"""Cheryl M. Saldanha"" <CMSaldanha@sgh.com>",8
+" oleksandra.onisko at ecovert.ca (Oleksandra Onisko)
+",8
+" jeremy.plitt at setty.com (Jeremy Plitt)
+",8
+" cstalberg at southern-energy.com (Christian Stalberg)
+",8
+" Robert.Sonderegger at SRC-Systems.com (Robert Sonderegger)
+",8
+" wookey at wookware.org (Wookey)
+",8
+" crithy at gmail.com (Zhai Chaoqin)
+",8
+" routhconsultingengineers at charter.net (Routh Consulting Engineers)
+",8
+" norm_weaver at interwvr.com (Norm Weaver)
+",8
+" Mike.Dillon at avistacorp.com (Dillon, Mike)
+",8
+" ldegelman at suddenlink.net (ldegelman at suddenlink.net)
+",8
+" smita at swinter.com (Smita Chandra)
+",8
+" jfk at greenbuildingstudio.com (John F. Kennedy)
+",8
+" fcw at pegasus.lbl.gov (Fred Winkelmann)
+",8
+" duke at gaiadevelopment.com (Duke Graham)
+",8
+" Amandine.Gal at snclavalin.com (Gal, Amandine)
+",8
+" sarathyn at energynpower.com (Sarathy Narasimhan)
+",8
+Julien MARREC via Bldg-sim <bldg-sim@lists.onebuilding.org>,8
+" jpark at aerotek.com (Park, Joseph)
+",8
+" tbutler at southface.org (Tom Butler)
+",8
+" Lesley.Herrmann at nrel.gov (Herrmann, Lesley)
+",8
+" xavier.garcia at aiguasol.coop (=?ISO-8859-1?Q?Xavier_Garc=EDa_Casals?=)
+",8
+" jason.e.quinn at gmail.com (Jason Quinn)
+",8
+" adamjackaway at yahoo.com (Adam Jackaway)
+",8
+" jill at jilldalglish.com (Jill Dalglish)
+",8
+" nanderson at mdaengr.com (Nick Anderson)
+",8
+" jpkarasa at cbg-engrs.com (John P. Karasaki, P.E.)
+",8
+" bhandari at designbuildersoftware.com (Mahabir Bhandari)
+",8
+" sowell at fullerton.edu (Edward F. Sowell)
+",8
+" sachin5787 at gmail.com (Sachin Sharma)
+",8
+" Arvinder.Dang at som.com (Arvinder Dang)
+",8
+" dionisiofranca at gmail.com (Dionisio Franca)
+",8
+" michael.tillou at gmail.com (Michael tillou)
+",8
+" fms at lnec.pt (Marques da Silva)
+",8
+" rangitokomo at hotmail.com (Tavis Wells)
+",8
+" sherif.sabr at gmail.com (Sherif Farag)
+",8
+" Mike at roberts-engineering.com (Mike Roberts)
+",8
+" xupingjessica at gmail.com (Jessica XP)
+",8
+" claricebleil at yahoo.com.br (Clarice Bleil de Souza)
+",8
+" arrguedi at techunix.technion.ac.il (Guedi Capeluto)
+",8
+" tito_ at mit.edu (Christoph Reinhart)
+",8
+" david at 360-analytics.com (David Reddy)
+",8
+" RGarcia at akf-eng.com (Garcia, Robert)
+",8
+" JGreenfield at primerachicago.com (Josh Greenfield)
+",8
+" ONeillZ at utrc.utc.com (O'Neill, Zheng D          UTRC)
+",8
+" areilman at syska.com (Reilman, Andrew)
+",8
+" andrea.gasparella at unibz.it (Gasparella Andrea(P))
+",8
+" olsen at transsolar.com (Erik Olsen)
+",8
+" ioannis.rizos at bdsp.com (Ioannis Rizos)
+",7
+" erydjunaedy at gmail.com (Ery Djunaedy)
+",7
+" hvac at cx-assoc.com (Tom Anderson)
+",7
+" dave at arrow-energy-solutions.co.uk (David Cocking)
+",7
+" shubha.mohunta at gmail.com (Shubha Mohunta)
+",7
+" jwendel at heatheng.com (Jason Wendel)
+",7
+" amcnamara at brightpower.biz (Andrew McNamara)
+",7
+" christian.struck at hslu.ch (Struck Christian HSLU T&A)
+",7
+" neko.enko at gmail.com (Anna Shadrina)
+",7
+" neymarkj at msn.com (Joel Neymark)
+",7
+David BRADLEY <d.bradley@tess-inc.com>,7
+" asitorus at glumac.com (Albert Sitorus)
+",7
+"""Roth, Amir via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",7
+" Scott_Horowitz at nrel.gov (Horowitz, Scott)
+",7
+" nigusse_ba at yahoo.com (Bereket Nigusse)
+",7
+" ahernandez at owpp.com (Hernandez, Arturo)
+",7
+" Jessica.McCready at US.KEMA.com (McCready, Jessica)
+",7
+" 38keeney at cardinalmail.cua.edu (Patrick Keeney)
+",7
+" Carol Gardner <cmg750 at gmail.com>
+",7
+" Vaibhav Potnis <vaipotnis at hotmail.com> 
+",7
+" info at healthyheating.com (info at healthyheating.com)
+",7
+" pbailey at geopraxis.com (Pat Bailey)
+",7
+" Susanne.Sipola at arup.com (Susanne Sipola)
+",7
+" CCianfrone at morrisonhershfield.com (Christian Cianfrone)
+",7
+" obrien_liam at hotmail.com (Liam O'Brien)
+",7
+" lists at spacesustainers.org (Max D)
+",7
+" kleichliter at uidaho.edu (Leichliter, Katrina (kleichliter@uidaho.edu))
+",7
+" sanyogitamanu at yahoo.com (sanyogita manu)
+",7
+" benmichaeljordan at gmail.com (Benjamin Jordan)
+",7
+" glenn at rlw.com (Glenn Haynes)
+",7
+" near_ej at yahoo.com (Nearedge)
+",7
+" Habaza11 at cs.com (Habaza11 at cs.com)
+",7
+Arpan Bakshi <arpanbakshi@gmail.com>,7
+" bills at fo.com (Bill Shadish)
+",7
+" ncostab at gmail.com (Nuno Brandao)
+",7
+" suneel.gupta at energyadvantage.com (Suneel Gupta)
+",7
+" MAEustice at htlyons.com (Michael A. Eustice)
+",7
+" monafanny at yahoo.com (Mona Fanni)
+",7
+" ramyashivkumar at gmail.com (r s)
+",7
+" MHuffman at murphymiller.com (Matthew Huffman)
+",7
+" vishal at iiit.net (Vishal Garg)
+",7
+" fvdiez at gmail.com (fernando varela)
+",7
+" karol.bandurski at put.poznan.pl (Karol Bandurski)
+",7
+" shankssl at kjww.com (Stormy L. Shanks)
+",7
+" ljameslo at gmail.com (James Lo)
+",7
+" vaibhav.energyarchitect at gmail.com (Vaibhav Jain)
+",7
+" KFridgen at morrisonhershfield.com (Kyle Fridgen)
+",7
+" Michael.Rosenberg at pnnl.gov (Rosenberg, Michael I)
+",7
+" monjur at ecaad.com (Monjur M Mourshed)
+",7
+" soham.babu at setty.com (Soham Babu)
+",7
+" Daniel.Macumber at nrel.gov (Macumber, Daniel)
+",7
+Rasheed Ahmad <rasheed.jmi@gmail.com>,7
+" Glenn.Haynes at kema.com (Haynes, Glenn)
+",7
+" eric at zed-uk.com (Eric Roberts)
+",7
+" rgl.lsbris at lincolne.com.au (Robert Lord)
+",7
+" andy at designbuilder.co.uk (Andy Tindale)
+",7
+" haidermkhan at ymail.com (Haider Khan)
+",7
+" harry.boyer at univ-reunion.fr (Harry BOYER)
+",7
+" jross-bain at smithdalia.com (Ross-Bain, Jeff)
+",7
+" surekhatetali at gmail.com (surekha tetali)
+",7
+" Peter.Simmonds at ibece.net (Peter Simmonds)
+",7
+Chris Yates via Bldg-sim <bldg-sim@lists.onebuilding.org>,7
+" patrick.wilkinson at ibece.net (Patrick Wilkinson)
+",7
+" altengineer at gmail.com (tim)
+",7
+" phcjam at yahoo.com (Paul Hay)
+",7
+" TLagus at Sebesta.com (Todd Lagus)
+",7
+" weixiuk at yahoo.com (weixiu kong)
+",7
+" javedvit at gmail.com (Javed Iqbal)
+",7
+" Michael.Donn at vuw.ac.nz (Michael Donn)
+",7
+" APappas at enermodal.com (Aleka Pappas)
+",7
+" smodi at umich.edu (Shefali Rajendra Modi)
+",7
+" molly.curtz at arup.com (Molly Curtz)
+",7
+Keith Swartz <KSwartz@seventhwave.org>,7
+" deepika.khowal at gmail.com (deepika khowal)
+",7
+" JJHirsch at ez2.net (James J. Hirsch)
+",7
+" energy_news2002 at yahoo.com (Nikhil Kapur)
+",7
+Dru Crawley <dbcrawley@gmail.com>,7
+" Iain.Macdonald at nrc-cnrc.gc.ca (Macdonald, Iain)
+",7
+" dancingdavide at hotmail.com (David Eldridge)
+",7
+" linda.lam at wspfk.com (Lam, Linda)
+",7
+" ChrisB at TWGI.com (Chris Baker)
+",7
+" javedvit at gmail.com<mailto:javedvit at gmail.com>
+",6
+" brian.fountain at energyadvantage.com (Brian Fountain)
+",6
+" near_ej at yahoo.com (near_ej at yahoo.com)
+",6
+" rviula at FosterandPartners.com (Raquel Viula)
+",6
+" martin.roy at mra.qc.ca (Martin Roy)
+",6
+" p.raftery at gmail.com (Paul Raftery)
+",6
+" radocea70 at yahoo.com (Radocea Andrei)
+",6
+" Rschaber at PHMECH.com (Reba Schaber)
+",6
+" jahe at fago.bwk.tue.nl (Jan Hensen)
+",6
+" dulen at xtra.co.nz (Dusko Nikolic)
+",6
+" richman at ryerson.ca (Russell Richman)
+",6
+" Virdi.Permana at smithgroup.com (Virdi Permana)
+",6
+" David S Eldridge <DSE at grummanbutkus.com> 
+",6
+" dbcrawley at gmail.com (Drury B Crawley)
+",6
+" J.A.Wright at lboro.ac.uk (Jonathan Wright)
+",6
+" chien.harriman at iesve.com (Chien Si Harriman)
+",6
+" hisham at edsglobal.com (Hisham Ahmad)
+",6
+" rchang at wrldesign.com (Roger Chang)
+",6
+" diwanshu.shekhar at lmco.com (Shekhar, Diwanshu)
+",6
+" F.Al-ajmi at lboro.ac.uk (F.Alajmi)
+",6
+" mhaughey at earthlink.net (Michael Haughey)
+",6
+" DEvenson at hydro.mb.ca (Evenson, Devin)
+",6
+" David.Goldwasser at nrel.gov (Goldwasser, David)
+",6
+Elizabeth Gillmor <elizabeth@energetics-eng.com>,6
+" klgardiner at flowgroup.ca (Katherine Louman-Gardiner)
+",6
+Gail Hampsmire via Bldg-sim <bldg-sim@lists.onebuilding.org>,6
+" normwheatley at gmail.com (norman wheatley)
+",6
+" sara_ghalayini at yahoo.com (Sara Ghalayini)
+",6
+"""J. Alstan Jakubiec via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",6
+" gtqite at gmail.com (Te Qi)
+",6
+" dannall at mindspring.com (Daniel H. Nall)
+",6
+" saftab.rashid at yahoo.com (Syed aftab Rashid)
+",6
+" jimwill at indy.net (James K. Willson)
+",6
+" elo at MichaelsEngineering.com (Eric O'Neill)
+",6
+" rhys.goldstein at autodesk.com (Rhys Goldstein)
+",6
+" ablue at sustainable-solutions.ca (Alex Blue)
+",6
+" A.Marston at baumann-us.com (Annie Marston)
+",6
+" kevinjm5000 at yahoo.com (Kevin Madison)
+",6
+" SeverFranc at karpinskieng.com (Sever, Franc)
+",6
+" nburrows at EMEGroup.com (Neville Burrows)
+",6
+" msnarski at shwgroup.com (Snarski, Marty)
+",6
+" annaliu_67 at yahoo.com (Anna Liu)
+",6
+" kevin at warren-energy.com (Kevin Warren)
+",6
+" ryan at petersenengineering.com (Ryan Lacey)
+",6
+" annazhou at geopraxis.com (Zhou, Anna)
+",6
+" alisonc at pae-engineers.com (Alison Christensen)
+",6
+" tangang at gmail.com (Gang Tan)
+",6
+" JGrando at cosentini.com (Grando, John)
+",6
+" rachitkumar11 at gmail.com (RACHIT KUMAR)
+",6
+" tconlon at geopraxis.com (Tom Conlon)
+",6
+" erik.dyrr at gmail.com (Erik Dyrr)
+",6
+"""Roth, Amir"" <Amir.Roth@EE.Doe.Gov>",6
+" lorenappin at gmail.com (Loren Appin)
+",6
+" dlanceta at mafalda.cps.unizar.es (David Lanceta)
+",6
+" Denis.Bourgeois at nrc-cnrc.gc.ca (Bourgeois, Denis)
+",6
+" agonthier at Horizon-Engineering.com (Adam Gonthier)
+",6
+" glenn.haynes at rlw.com (Glenn Haynes)
+",6
+" aizaz.a.samuel at strath.ac.uk (Aizaz Samuel)
+",6
+" vlieding at VACOMTECH.com (Victoria Lieding)
+",6
+" chipbarnaby at gmail.com (Chip Barnaby)
+",6
+" USGBC [mailto:usgbc at usgbc.org] 
+",6
+" arpan.bakshi at performance.network (arpan.bakshi at performance.network)
+",6
+" twombly at kw-engineering.com (Eben Twombly, PE)
+",6
+" Abdessemed at Transsolar.com (Nadir Abdessemed)
+",6
+" denis.bourgeois at arc.ulaval.ca (Denis Bourgeois)
+",6
+" nicole.santos at cadmusgroup.com (Nicole Santos)
+",6
+" shivrajdhaka at gmail.com (Shivraj Dhaka)
+",6
+" bhanu at prairiearchitects.ca (Bhanu Duggirala)
+",6
+" RKasliwal at cogentenergy.com (Rishabh Kasliwal)
+",6
+" Abdelaziz.Laouadi at nrc-cnrc.gc.ca (Laouadi, Aziz)
+",6
+" ggui at ers-inc.com (Gavin Gui)
+",6
+" MMarceau at ctlgroup.com (Marceau, Medgar)
+",6
+Christoph Reinhart <tito_@mit.edu>,6
+" Harris.Poirazis at arup.com (Harris Poirazis)
+",6
+" bturner at ClarkNexsen.com (Brian A. Turner)
+",6
+" wbonafe at moseleyarchitects.com (Bonafe, Wes)
+",6
+" hittle.doug at gmail.com (Doug Hittle)
+",6
+<Julien.Dutel@mern.gouv.qc.ca>,6
+" gems at teleport.com (Carol Gardner)
+",6
+" eolsen at owpp.com (Olsen, Erik)
+",6
+" harakhlaal at gmail.com (Harakhlaal)
+",6
+" Joe Huang <YJHuang at whiteboxtechnologies.com>
+",6
+" xiaowei.xu at ny.fk.com (Xu, Xiaowei)
+",6
+"""Duggin, Cory"" <Cory.Duggin@tlc-eng.com>",6
+" jason.p.kirchhoff at gmail.com (Jason Kirchhoff)
+",6
+" EFranconi at archenergy.com (Ellen Franconi)
+",6
+" prabhat.greenbuildings at gmail.com (Prabhat Barnwal)
+",6
+" medwards at aeieng.com (Matt Edwards)
+",6
+" near_ej at yahoo.com (neeraj)
+",6
+" Paulo.Tabares at nrel.gov (Tabares Velasco, Paulo Cesar)
+",6
+" e.morrissey at mars.ucc.ie (Elmer Morrissey)
+",6
+" andyhoover at thebestconsultant.com (Andy Hoover)
+",6
+" gbrager at berkeley.edu (Gail Brager)
+",6
+" ryanatanner at gmail.com (Ryan Tanner)
+",6
+David Cocking via Bldg-sim <bldg-sim@lists.onebuilding.org>,6
+" Anthony at geoenergyservices.com (Anthony Hardman)
+",6
+Rathna Shree <rathnashreep@yahoo.in>,6
+" Gunes.Inan at betek.com.tr (Gunes Inan)
+",6
+Santiago Velez <santiagogvelez@gmail.com>,6
+" bryce at lseng.com (Bryce Eschenbacher)
+",6
+" alex.colta at rtsbuildingenvelope.com (Alex Colta)
+",6
+" jcampbell at geo-marine.com (James Campbell)
+",6
+" marlin.addison at doe2.com (Marlin Addison)
+",6
+" abakshi at yrgsustainability.com (Arpan Bakshi)
+",6
+" kevin.wyman at utcpower.com (Wyman, Kevin L            UTPWR)
+",6
+" EKirchhoff at semprautilities.com (Kirchhoff, Eric)
+",5
+" bkrug at solutions-aec.com (Brett Krug, PE)
+",5
+" DEnergyServices at comcast.net (Mark Sorensen)
+",5
+" Celia.King-Scott at US.KEMA.com (King-Scott, Celia)
+",5
+" greensim at lara.on.ca (Brian Fountain)
+",5
+" JEvans at sustaineng.com (Jon Evans)
+",5
+" arutter at staenglengineering.com (Allison Rutter)
+",5
+" geshen516 at gmail.com (zhang xiangjing)
+",5
+" gunsworth at mcw.com (Grant Unsworth)
+",5
+" linda at ambient-e.com (Linda Morrison)
+",5
+" bren at bvm-engineering.com (Brenda V. Morawa)
+",5
+" Demba.Ndiaye at uoit.ca (Demba Ndiaye)
+",5
+" jkairento at cosentini-ma.com (Kairento, Janne)
+",5
+Tianzhen Hong <thong@lbl.gov>,5
+Cheol Soo Park via Bldg-sim <bldg-sim@lists.onebuilding.org>,5
+" zhxu1 at vt.edu (Xu Zheng)
+",5
+" sanketpuranik at gmail.com (Sanket Puranik)
+",5
+" jmcclanathan at CDiengineers.com (Jeremy McClanathan)
+",5
+" nkravik at mazzetti.com (Nikola Kravik)
+",5
+John Aulbach <jra_sac@yahoo.com>,5
+" mail at smitagupta.com (mail at smitagupta.com)
+",5
+" tkriel at sustaineng.com (Tony Kriel)
+",5
+" dakotak at teliospc.com (Dakota Kelley)
+",5
+" cchristenson at brummitt.com (Charles Christenson)
+",5
+" craig at greenengineer.com (Craig Simmons)
+",5
+" jl9jb at virginia.edu (Jiakang Lu)
+",5
+" pbailey at greenbuildingstudio.com (Pat Bailey)
+",5
+" sukreetsingh at gmail.com (sukreet singh)
+",5
+" ScottS at Dykeman.net (Scott Schreffler)
+",5
+" n_surmeli at yahoo.com (Nesen Surmeli)
+",5
+" jdwaechter at bgce.com (James D. Waechter)
+",5
+" javier at b-green.cl (Javier Duran)
+",5
+" kdk_71 at yahoo.com (Kevin Krudwig)
+",5
+" vsmith at archenergy.com (Vern Smith)
+",5
+Michael J Witte <mjwitte@gard.com>,5
+" liuwang94710 at yahoo.com (Danni Wang)
+",5
+" fdmfernando at yahoo.es (=?iso-8859-1?q?Fernando=20Dom=EDnguez=20Mu=F1oz?=)
+",5
+" deblombard at swinter.com (Debra Lombard)
+",5
+" cjg04austin at swbell.net (C. J. Gann)
+",5
+" lirainer at davisenergy.com (Leo Rainer)
+",5
+" backer at uidaho.edu (Brad Acker)
+",5
+Sandeep Ahuja via Bldg-sim <bldg-sim@lists.onebuilding.org>,5
+" mygiuliani at yahoo.com (Myrene Giuliani)
+",5
+" deblombard at swinter.com (Debra A. Lombard)
+",5
+" ibeausol at NRCan.gc.ca (Beausoleil-Morrison, Ian)
+",5
+" sansregret.simon at lte.ireq.ca (sansregret.simon at lte.ireq.ca)
+",5
+" keith_lane at g-g-d.com (Keith Lane)
+",5
+" gkanagaraj83 at gmail.com (kanagaraj ganesan)
+",5
+" omoltay at mimtarch.com (Omer Moltay)
+",5
+" EKirchhoff at semprasolutions.com (Kirchhoff, Eric)
+",5
+" Phylroy.Lopez at stantec.com (Lopez, Phylroy)
+",5
+" asl1 at psu.edu (Andy Lau)
+",5
+" HermesPropylaios at aol.com (HermesPropylaios at aol.com)
+",5
+" uxp10 at psu.edu (Ute Poerschke)
+",5
+" kala_sim at yahoo.co.in (=?iso-8859-1?q?Leela=20Kala?=)
+",5
+" Brent.Griffith at nrel.gov (Griffith, Brent)
+",5
+" vlado at gundog.lbl.gov (Vladimir Bazjanac)
+",5
+" elenisoulti at co2engineering.eu (Eleni Soulti)
+",5
+" jeremy at esru.strath.ac.uk (Jeremy Cockroft)
+",5
+" artitecture at gmail.com (Giulio Castorina)
+",5
+" ekolderup at archenergy.com (Erik Kolderup)
+",5
+" jllona at cdiengineers.com (Joe Llona)
+",5
+" jhernand at dmu.ac.uk (Jose Hernandez)
+",5
+" may.xu at hok.com (May Xu)
+",5
+" jlondenberg at designwesteng.com (Joel Londenberg)
+",5
+" Sean.Maxwell at csgrp.com (Maxwell, Sean)
+",5
+" shubhrakothari at gmail.com (Shubhra Kothari)
+",5
+" ukmaster3 at gmail.com (JH Choi)
+",5
+" anderson.a.letti at gmail.com (Anderson Letti)
+",5
+" redmodeler at yahoo.com (John Eurek)
+",5
+Michael Wetter via Bldg-sim <bldg-sim@lists.onebuilding.org>,5
+" jweale at eskimo.com (John Weale)
+",5
+" ss at a10nyc.com (Shivani Shah)
+",5
+" FRW at ramboll.dk (Frederik Vildbrad Winther (FRW))
+",5
+" akrickx at seriousenergy.com (Alex Krickx)
+",5
+" Kevin.Wyman at carrier.utc.com (Wyman, Kevin L            CCS)
+",5
+" DBryan at AmerIndian.com (David Bryan)
+",5
+" slee at beardsley.com (Lee Shawn)
+",5
+" bojic at kg.ac.rs (bojic)
+",5
+David Eldridge <DEldridge@grummanbutkus.com>,5
+" ABAZAH at MAIL.ECU.EDU (Abaza, Hussein)
+",5
+" alex.hutton at stantec.com (Hutton, Alex)
+",5
+" ymatsuyama220 at gmail.com (Yoko Matsuyama)
+",5
+" LJones at morrisonhershfield.com (Leslie Jones)
+",5
+" gorbachinsky at gmail.com (Evgenia Gorbachinsky)
+",5
+" jwaller at cambridge-eng.com (Jeff P. Waller)
+",5
+" madeline.leroux.1 at ulaval.ca (Madeline Leroux)
+",5
+" Ralf-Roman.Schmidt at ait.ac.at (Schmidt Ralf-Roman)
+",5
+" campbellj3 at eudoramail.com (James Campbell)
+",5
+" yatinc at teri.res.in (Yatin Choudhary)
+",5
+" kalvarez at corpoelec.gob.ve (Khristiam Alvarez)
+",5
+" wba.dsw at gmail.com (David Wood)
+",5
+" nkravik at rumseyengineers.com (Nikola Kravik)
+",5
+" Lukas.Swan at dal.ca (Lukas Swan (Dal))
+",5
+Anna Shadrina <neko.enko@gmail.com>,5
+" consumer at madronagrove.com (Mike Kennedy)
+",5
+" Aditya.Potipireddi at stantec.com (Potipireddi, Aditya)
+",5
+Nathan Brown <nathan@coolshadow.com>,5
+" sylvesterkat at hotmail.com (Sylvester Kat)
+",5
+" stvgates at pacbell.net (Steven Gates)
+",5
+" mkummert at wisc.edu (=?ISO-8859-1?Q?Micha=EBl_Kummert?=)
+",5
+" jorge at mbo1.com (Jorge Torres-Coto)
+",5
+" pierson at uiuc.edu (Andrew Pierson)
+",5
+" jstaller at ctgenergetics.com (Jeff Staller)
+",5
+" cjg04austin at swbell.net (Craig Gann)
+",5
+" hwakong at hotmail.com (Hwakong Cheng)
+",5
+"""Sami, Vikram"" <vikram.sami@zgf.com>",5
+" JWK at BRPLUSA.COM (Knowles, Jacob)
+",5
+" gzeng at royalservice.com (Gary Zeng)
+",5
+" v_bazjanac at lbl.gov (Vladimir Bazjanac)
+",5
+" renielbarroso at yahoo.com (reniel barroso)
+",5
+" lbellenger at pathfinder-ea.com (Bellenger, Lynn)
+",5
+" celey at dnai.com (Charles Eley)
+",5
+" christopher.yates at halcrowyolles.com (Yates, Christopher)
+",5
+" elyse.malherek at mcquay.com (Malherek, Elyse)
+",5
+" sjudson at noresco.com (sjudson at noresco.com)
+",5
+" kevinv at uidaho.edu (Kevin Van Den Wymelenberg)
+",5
+" desrosiers at studioma.com (Robert Des Rosiers)
+",5
+" anupam11 at gmail.com (Anupam Jain)
+",5
+" elizabeth at energetics-eng.com (Elizabeth Gillmor)
+",5
+" sgould at franklinenergy.com (Sharon Gould)
+",5
+" chrlee at gmail.com (Christine Lee)
+",5
+" WetterM at utrc.utc.com (Wetter, Michael           UTRC)
+",5
+" uart at rediffmail.com (Rajan Upendra Rawal)
+",5
+" fvarela at eis.uva.es (fernando varela)
+",5
+" parthursson at cdiengineers.com (Peter Arthursson)
+",5
+" mark at etcgrp.com (Mark Case)
+",5
+" lizzy.guhl at energyarq.com (Lizzy Guhl)
+",5
+" sabbott at CDiengineers.com (Sean Abbott)
+",5
+" ScottF.Hintz at trane.com (Hintz, Scott F)
+",5
+" caleb at pcdengineering.com (Caleb Rockenbaugh)
+",5
+" dan at eeEnviro.com (Dan Katzenberger)
+",5
+" kathrynpants at gmail.com (kathryn l)
+",5
+" kevinv at uidaho.edu (Van Den Wymelenberg, Kevin (kevinv@uidaho.edu))
+",5
+" Jon.McHugh at h-m-g.com (Jon McHugh)
+",5
+" deepak0agrawal at gmail.com (Deepak Agrawal)
+",5
+" bfountain at greensim.com (bfountain at greensim.com)
+",5
+" gstaengl at earthlink.net (Galen Staengl)
+",5
+" efranconi at archenergy.com (Ellen Franconi)
+",5
+" ordenes at ctcinternet.cl (Familia Ordenes)
+",5
+" JBrain at Vanderweil.com (Brain, Joshua)
+",5
+" PaulG at McKinstry.com (Paul Gustafson)
+",4
+" Eric.Bonnema at nrel.gov (Bonnema, Eric)
+",4
+" RBSPURLO at southernco.com (Spurlock, R. Bruce)
+",4
+" samuel.brunswick at gmail.com (Sam Brunswick)
+",4
+" cgbf_info at yahoo.com (Meera Parthasarathy)
+",4
+" ivankorolija at yahoo.com (Ivan Korolija)
+",4
+"""Jie \(Jay\) Zhao, PhD via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",4
+" asl1 at psu.edu (Andrew S. LAU)
+",4
+" lori.mcelroy at thelighthouse.co.uk (Lori McElroy)
+",4
+" Derek.Whitehead at rwdi.com (Derek Whitehead)
+",4
+" drobison at teleport.com (Dave Robison)
+",4
+" PLopez at NRCan.gc.ca (Lopez, Phylroy)
+",4
+" Benjamin_Barnes at nrel.gov (Barnes, Benjamin)
+",4
+" David.Chassin at pnl.gov (Chassin, David P)
+",4
+" dademarino at gmail.com (davide marino)
+",4
+" habaza11 at cs.com (habaza11 at cs.com)
+",4
+" raval at transsolar.com (pratik raval)
+",4
+" Liam_OBrien at carleton.ca (Liam O'Brien)
+",4
+" shaunmartin at shaw.ca (Shaun Martin)
+",4
+" omarcanope at prtc.net (Osvaldo Marcano)
+",4
+" vaibhavjain.co at gmail.com (Vaib)
+",4
+" stobin at smithboucher.com (Steve Tobin)
+",4
+" resumes at integral-group.ca (Cobalt Resumes)
+",4
+" alstan at jakubiec.net (J. Alstan Jakubiec)
+",4
+" dhostetter at centerpointeng.net (David Hostetter)
+",4
+" lpl at us.es (=?iso-8859-1?Q?Luis_P=E9rez-Lombard?=)
+",4
+Sherif Farag <sherif.sabr@gmail.com>,4
+" fraij at yahoo.com (Ahmed Fraij)
+",4
+" dgarciasanchez at greenaffair.com (David GARCIA SANCHEZ)
+",4
+" kelsey at kw-energy.com (Jim Kelsey)
+",4
+" RSchmidt at Horizon-Engineering.com (Ryan Schmidt)
+",4
+" lbiondo at cte.com.br (Leandro Meneguelli Biondo)
+",4
+" Matthew.Herman at BuroHappold.com (Matthew Herman)
+",4
+" pmlaroche at csupomona.edu (Pablo La Roche)
+",4
+leen peeters via Bldg-sim <bldg-sim@lists.onebuilding.org>,4
+" ashraf at mecsd.com (ashraf khan)
+",4
+John Aulbach via Bldg-sim <bldg-sim@lists.onebuilding.org>,4
+Justin Spencer <jspencer17@gmail.com>,4
+" apappas at group14eng.com (Aleka Pappas)
+",4
+" ESturm at trane.com (Sturm, Eric A.)
+",4
+" paul at zed-uk.com (Dr Paul Carey)
+",4
+" bhollon at antella-inc.com (Ben Hollon)
+",4
+" steve at thespinnakergroupinc.com (STEVE SAMENSKI)
+",4
+" nick at 360-analytics.com (Nick Caton)
+",4
+" msajjal at swinter.com (Mirza Sajjal)
+",4
+" yjiang_mit at yahoo.com (Yi Jiang)
+",4
+"""Eurek, John S NWO"" <John.S.Eurek@usace.army.mil>",4
+" Keegan.Yager at hdrinc.com (Yager, Keegan)
+",4
+" yashika.gulati111 at gmail.com (yashika gulati)
+",4
+" JoeC at designengineers.com (Joe Chappell)
+",4
+" ers-tl at execpc.com (Tim Lawler)
+",4
+" felipe at b-green.cl (Felipe Duran B-GREEN)
+",4
+" pasha.pkconsulting at gmail.com (Pasha Korber-Gonzalez)
+",4
+" dmahone at h-m-g.com (Douglas Mahone)
+",4
+" erik at kolderupconsulting.com (Erik Kolderup)
+",4
+" antixs.antixs at gmail.com (antixs antixs)
+",4
+" greenandsmartbuildings at gmail.com (Greentech Partners)
+",4
+" SJamadagni at go-sbs.com (Sachin Jamadagni)
+",4
+" YLui at eypmcf.com (Yury Lui)
+",4
+" lindelof at ieee.org (=?ISO-8859-1?Q?David_Lindel=F6f?=)
+",4
+" mohitsc at gmail.com (Mohit Singh)
+",4
+" michael.brandemuehl at colorado.edu (Michael Brandemuehl)
+",4
+" ayezioro at gmail.com (Abraham Yezioro)
+",4
+" TButler at lasarchitect.com (Tom Butler)
+",4
+" hi.sanghoon at gmail.com (Lee, Sang Hoon)
+",4
+" attiqurrahman at hotmail.com (Attiq)
+",4
+" larry at archone.tamu.edu (Larry Degelman)
+",4
+" rosheidat at yahoo.com (akram rosheidat)
+",4
+" juran at summerconsultants.com (Anne C. Juran)
+",4
+" omoltay at mimtarch.com (=?ISO-8859-1?Q?=D6mer_Moltay?=)
+",4
+" BEubanks at taylor-engineering.com (Brent Eubanks)
+",4
+" kkyte at robsonwoese.com (Kevin J. Kyte)
+",4
+" sonal at burohappold.com (Rashmi Sonal)
+",4
+" KHaddad at NRCan.gc.ca (Haddad, Kamel)
+",4
+Kiran Ghosh <kirankghosh31@gmail.com>,4
+" Rasheed Ahmad <rasheed.jmi at gmail.com>
+",4
+" Supriya.Goel at pnnl.gov (Goel, Supriya)
+",4
+Dru Crawley via Bldg-sim <bldg-sim@lists.onebuilding.org>,4
+" ratnalee at yahoo.com (Ratnalee Patil)
+",4
+" D.Spillane at ldn.cjp.co.uk (Spillane, Damien)
+",4
+" Lam at Transsolar.com (Linda Lam)
+",4
+" deukwookim at skku.edu (=?ks_c_5601-1987?B?sei09r/s?=)
+",4
+" pete.murray at iesve.com (Pete Murray)
+",4
+" samuelc at aspica.es (Samuel Casado)
+",4
+" Allison_Gaiko at aha-engineers.com (Gaiko Allison)
+",4
+" mcasella at yeatonassociates.com (Mike Casella)
+",4
+" shenjie820730 at hotmail.com (=?gb2312?B?yfK94A==?=)
+",4
+" dtan at psdconsulting.com (David Tan)
+",4
+" yipch at emsd.gov.hk (Martin YIP)
+",4
+" CMSaldanha at sgh.com (Cheryl M. Saldanha)
+",4
+" Mmullins at hecenergy.com (Mark Mullins)
+",4
+" sheila at energyopportunities.com (Sheila)
+",4
+" keirh at bluestoneenergy.com (Keir Howell)
+",4
+" ppeixeiro at lnec.pt (Pedro Peixeiro)
+",4
+" julien.marrec at gmail.com (Julien MARREC)
+",4
+" odelgado at enermechpr.com (Omar Delgado)
+",4
+" gurneet at edsglobal.com (Gurneet Monga)
+",4
+" paulreeves at att.net (Paul Reeves)
+",4
+" jonprevitali at yahoo.com (Jon Previtali)
+",4
+" Christian.Struck at BuroHappold.com (Christian Struck)
+",4
+" m_kordjamshidi at yahoo.com (Maria Kordjamshidi)
+",4
+" jh.eco.cas at gmail.com (Jianhua Huang)
+",4
+" jchin.bu at gmail.com (Justin Chin)
+",4
+" ScottHaag at auseea.com (Scott Haag)
+",4
+" meeker at jdreng.com (Tim Meeker)
+",4
+" tim.reynolds at cbengineers.com (Tim Reynolds)
+",4
+" jedev at visarc.com (Jack de Valpine)
+",4
+" markzoeteman at core.com (Mark Zoeteman)
+",4
+" phudon at bpa.ca (Hudon, Philippe)
+",4
+" seselkowitz at lbl.gov (Stephen Selkowitz)
+",4
+" MWHiggins at bpce.com (Matthew W. Higgins)
+",4
+Thierry Nouidui via Bldg-sim <bldg-sim@lists.onebuilding.org>,4
+" mona.azarba at gmail.com (Mona A)
+",4
+Gang Tan <tangang@gmail.com>,4
+" sjacobseng at gmail.com (Steve Jacobs)
+",4
+" AUR at CJBrownEnergy.com (Attiq Ur Rahman)
+",4
+Julien Marrec via Bldg-sim <bldg-sim@lists.onebuilding.org>,4
+" mike at mikebarker.co.za (mike barker)
+",4
+" Olivier.Pol at arsenal.ac.at (Pol Olivier)
+",4
+" pallivathukkal_thomas at yahoo.com (PC Thomas)
+",4
+" javedvit at gmail.com
+",4
+" milorad.bojic at gmail.com (Milorad Bojic)
+",4
+" sscheiber at aeieng.com (Shana Scheiber)
+",4
+" apappas at enermodal.com (Aleka Pappas)
+",4
+" Neil.Finlayson at lews.uhi.ac.uk (Neil Finlayson)
+",4
+" aditect at gmail.com (aditya potipireddi)
+",4
+" dbryan at amerindian.com (David Bryan)
+",4
+" jon at esru.strath.ac.uk (Jon Hand (clcv10))
+",4
+" cfluhrer at rmi.org (Caroline Fluhrer)
+",4
+" RSalcido at archenergy.com (Rob Salcido)
+",4
+" aviruchbhatia at yahoo.co.in (aviruch bhatia)
+",4
+" babetsk at jbb.com (Konstantine Babets)
+",4
+" Todd.Taylor at pnl.gov (Z. Todd Taylor)
+",4
+" jawanrawat at gmail.com (JAWAN RAWAT)
+",4
+" tom at momeyer.com (Tom Momeyer)
+",4
+" taylor.keep at arup.com (Taylor Keep)
+",4
+" jim at buildingperformanceteam.com (James V Dirkes II, PE)
+",4
+Vikram Sami via Bldg-sim <bldg-sim@lists.onebuilding.org>,4
+" s.zhukovskiy at cundall.com.au (Zhukovskiy, Sergey)
+",4
+" bridgetteb at 2rw.com (Baugher, Bridgette)
+",4
+" J.Mardaljevic at lboro.ac.uk (John Mardaljevic)
+",4
+" mbush at dmiinc.com (Mickey Bush)
+",4
+" amitbhansali7 at gmail.com (Amit Gmail)
+",4
+" alecstevens at hotmail.com (Alec Stevens)
+",4
+Keith Swartz via Bldg-sim <bldg-sim@lists.onebuilding.org>,4
+" Ralph.Evins at BuroHappold.com (Ralph Evins)
+",4
+" demba.ndiaye at polymtl.ca (Demba Ndiaye)
+",4
+" Andy at designbuilder.co.uk (Andy Tindale)
+",4
+" ldebaillie at ecw.org (Lee DeBaillie)
+",4
+" ibpsa.boston at gmail.com (IBPSA Boston)
+",4
+" kce2 at kamalcogentenergy.com (ashu gupta)
+",4
+" Michael.Keohane at pmg.ie (Keohane, Michael)
+",4
+"""Samuelson,
+	Holly Wasilowski via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",4
+" aykutpekdemir at gmail.com (Emir Aykut Pekdemir)
+",4
+" xgcasals at telefonica.net (Xavier Garcia Casals)
+",4
+" mtobias at loringengineers.com (Tobias, Mike)
+",4
+" spoolakkool at km.com.qa (Sajid Thekke Poolakkool)
+",4
+" Rachel at ambient-e.com (Rachel Bannon-Godfrey)
+",4
+" mceddysantosa at gmail.com (eddy santosa)
+",4
+" abdnakhi at yahoo.com (Abdullatif Ben-Nakhi)
+",4
+" RDMitchell at lbl.gov (Robin Mitchell)
+",4
+" djestico at hilsonmoran.com (Dan Jestico)
+",4
+" aloysiusdecruz2004 at yahoo.com (Aloysius Decruz)
+",4
+" steve.g.silva at att.net (Steve Silva)
+",4
+" pande at h-m-g.com (Abhijeet Pande)
+",4
+" jitendra_kr at hotmail.com (Jeetendra Kumar)
+",4
+" sam.mason at a10nyc.com (Sam Mason)
+",4
+" Stephen_Turner at brown.edu (Turner, Stephen)
+",4
+" jorgembo1 at gmail.com (Jorge Torres Coto)
+",4
+" rdelbalso at gmail.com (Ryan Del Balso)
+",4
+" lvanbelle at tei-engineering.com (L. Calvin van Belle)
+",4
+" LWilson at integral-group.net (Wilson, Luke)
+",4
+" 503271081 at qq.com (=?gb18030?B?wOTD5rqux7k=?=)
+",4
+Tianzhen Hong via Bldg-sim <bldg-sim@lists.onebuilding.org>,4
+" katet at pae-engineers.com (Kate Turpin)
+",4
+" hittle at colostate.edu (Doug Hittle)
+",4
+" babetsk at jbb.com (Konstantin Babets)
+",4
+" xiaodongyi at hotmail.com (xiao dongyi)
+",4
+" Galen.D.Rejda at usace.army.mil (Rejda, Galen D NWO)
+",4
+" cfm_lopes at poli.ufrj.br (Cicero Lopes)
+",4
+" rwattanasak at emoenergy.com (Rut Wattanasak)
+",4
+" nathan.miller at stantec.com (Miller, Nathan)
+",4
+" cjgann at swbell.net (Craig Gann)
+",4
+" dkoerniawan at yahoo.com (MDK)
+",4
+" krishna at cdhenergy.com (Bharath Krishna Karambakkam)
+",4
+" lee.elson at jpl.nasa.gov (Lee Elson)
+",4
+" reg.asnds at gmail.com (Reg Asnds)
+",4
+" creations.deepa at googlemail.com (Deepa)
+",4
+Ibrahim NEYA <ibrahim.neyapro@gmail.com>,4
+" bhandari at ecs.umass.edu (Mahabir Bhandari)
+",4
+" jfk at geopraxis.com (John Kennedy)
+",4
+" Alison.Oliver at tandf.co.uk (Oliver, Alison)
+",4
+" Kevin.Campbell at megroup.com (Kevin Campbell)
+",4
+" mjesus at fe.up.pt (Miguel Jesus)
+",4
+" dingli at ucla.edu (Ding Li)
+",4
+" KapilU at kirksey.com (Kapil Upadhyaya)
+",4
+" Christopher.r.Jones at wspgroup.com (Jones, Christopher)
+",4
+" Zeina.Alwan at dargroup.com (Zeina Alwan)
+",4
+Roel Tersteeg <R.M.Tersteeg@lboro.ac.uk>,4
+" Peter.Simmonds at arup.com (Peter Simmonds)
+",4
+" ""leen peeters"" <l.f.r.peeters at gmail.com>
+",4
+" lmblanes at gmail.com (Luis Miguel Blanes Restoy)
+",4
+" dipaktwri at yahoo.co.in (Deepak Tewari)
+",4
+" bldg-sim at stephenhorvath.com (Stephen Horvath)
+",4
+" Amir.Roth at EE.Doe.Gov (Roth, Amir)
+",4
+" jim at jimverzino.com (Jim Verzino)
+",4
+" rbialobrzeski at dmiinc.com (Rob Bialobrzeski)
+",4
+" muehleisen at gmail.com (Ralph Muehleisen)
+",4
+" Ryan at ambient-e.com (Ryan Del Balso)
+",4
+" Fawwaz.Hammad at atkinsglobal.com (Hammad, Fawwaz)
+",4
+Jeff Haberl <jhaberl@tamu.edu>,4
+" a2_azhari at hotmail.com (Ahmed Azhari)
+",4
+" nidhik.vyas at gmail.com (Nidhi Vyas)
+",4
+" Joe.DAngelo at tandf.co.uk (D'Angelo, Joseph)
+",4
+" Sowgol.KHOSHROONEJAD at cc.emu.edu.tr (Sowgol KHOSHROONEJAD)
+",4
+" Alex.Ferguson at NRCan-RNCan.gc.ca (Ferguson, Alex)
+",4
+" pranita.kothuru at gmail.com (pranita kothuru)
+",4
+" bfero at robsonwoese.com (Brett Fero)
+",4
+" cab at thethomasgroup.com (Christopher Balbach)
+",4
+" davecstewart at ns.sympatico.ca (David Stewart)
+",4
+"""Jennings, Coles via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",4
+" energy at mad.scientist.com (Steve Barnell)
+",4
+" AutifS at TWGI.com (Autif Sayyed)
+",3
+" DJarratt at stantec.com (Jarratt, David)
+",3
+" Aaron.Etzkorn at tac.com (Aaron.Etzkorn at tac.com)
+",3
+" kendra.dardano at iesve.com (Kendra Milton)
+",3
+" salehsnjsaadi404 at yahoo.com (saleh saadi)
+",3
+" Madhav.Munshi at atelierten.com (Madhav Munshi)
+",3
+" luismiguel_78 at hotmail.com (Luis Miguel Candanedo)
+",3
+" zhouzr at cabr-sh.com (zhiren zhou)
+",3
+" russell.richman at utoronto.ca (Russell Richman)
+",3
+" mhydeman at taylor-engineering.com (Mark Hydeman)
+",3
+" ghampsmire at gbci.org (Gail Hampsmire)
+",3
+" jgeers at sfa-architects.com (James Geers)
+",3
+" csz59 at mst.edu (Chou Shen)
+",3
+" mwilson at enerficiency.ca (Michael Wilson)
+",3
+" igt at integral-design-engineering.ca (I.G. Theaker)
+",3
+" ar.srishti at gmail.com (srishti srivastava)
+",3
+" eslee at lbl.gov (Eleanor Lee)
+",3
+" KMS at BRPLUSA.COM (Shank, Kurt)
+",3
+" gcg at natural-works.com (Guilherme CG)
+",3
+" pasha.pkconsulting at gmail.com (PKConsulting)
+",3
+" andrew at heliosltd.com (Andrew D. Holden)
+",3
+" shahryar_habibi at yahoo.com (shahryar habibi)
+",3
+" odosiere at dmiinc.com (olivier dosiere)
+",3
+" docarroll at burnip.com (O'Carroll, Daniel)
+",3
+" vamshi.gooje at gmail.com (=?ISO-8859-1?Q?V=E4mshi_Gooj=E8?=)
+",3
+"""Raslan, Rokia"" <r.raslan@ucl.ac.uk>",3
+" usrobotics011 at yahoo.com (Panta)
+",3
+" Shawn.Lee at fluor.com (Shawn.Lee at fluor.com)
+",3
+" JAruck at emoenergy.com (Justin Aruck)
+",3
+" fazia.alitoudert at daad-alumni.de (fazia.alitoudert at daad-alumni.de)
+",3
+" Jim.Bradburn at mortenson.com (Jim.Bradburn at mortenson.com)
+",3
+" ttxu at lbl.gov (Tim T. Xu)
+",3
+" mattb at lseng.com (Matt Barker)
+",3
+" wae11 at columbia.edu (Elmes, Wilmouth)
+",3
+" shivrajdhaka at gmail.com (shivraj dhaka)
+",3
+" bradley at sel.me.wisc.edu (David Bradley)
+",3
+" jaruck at emoenergy.com (Justin Aruck)
+",3
+" Krista.Raines at som.com (Krista Raines)
+",3
+" jhager at dmiinc.com (Joe Hager)
+",3
+" jameshatheway at jhrecruiting.com (James Hatheway)
+",3
+" Bejlniu at polyu.edu.hk (J.L. Niu)
+",3
+" nanoprakash at yahoo.com (Guruprakash Sastry)
+",3
+" C.J.Hopfe at tue.nl (Hopfe, C.J)
+",3
+" ASiegrist at AKF-ENG.com (Siegrist, Adam)
+",3
+" andrewm at canetaenergy.com (Andrew Morrison)
+",3
+Chris Balbach <cbalbach@psdconsulting.com>,3
+" klellington at lbl.gov (kathy ellington)
+",3
+" FengS at cdm.com (Feng, Sophi)
+",3
+" Elliott.Pallett at jacobs.com (Pallett, Elliott)
+",3
+" guozhou2005 at gmail.com (Guo Zhou)
+",3
+" mauriziosorce at dream.unipa.it (Maurizio Sorce)
+",3
+" kevin.wyman at UTCPower.com (Wyman, Kevin L            UTPWR)
+",3
+" john_m_porterfield at yahoo.com (John Porterfield)
+",3
+" SSchuetter at ecw.org (Scott Schuetter)
+",3
+via Bldg-sim <bldg-sim@lists.onebuilding.org>,3
+" ""Zhai Chaoqin"" <crithy at gmail.com>
+",3
+" mmunshi at kohlerronan.com (Madhav Munshi)
+",3
+" philboutelle at gmail.com (Philip Boutelle)
+",3
+" Azam.Khan at autodesk.com (Azam Khan)
+",3
+" hannon at cenerg.ensmp.fr (Kathleen Hannon)
+",3
+" David.Ellis at hdrinc.com (Ellis, David)
+",3
+" kleichliter at uidaho.edu (Leichliter, Katie (kleichliter@uidaho.edu))
+",3
+" dashamir.marini at gmail.com (Dashamir Marini)
+",3
+" radler63 at hotmail.com (Radler63)
+",3
+" wryan at uic.edu (William Ryan)
+",3
+Arpan Bakshi via Bldg-sim <bldg-sim@lists.onebuilding.org>,3
+" XYang at mcw.com (Xiangjin Yang)
+",3
+" wu.xuchao at arup.com (Wu Xuchao)
+",3
+" MCrowe at engsolutions.com (Melissa Crowe)
+",3
+" TDavidson at DLBASSOCIATES.com (Davidson, Tom)
+",3
+" bojic at kg.ac.rs (Milorad Bojic)
+",3
+" lvandriest at archenergy.com (Laurel VanDriest)
+",3
+" Matthew.Kimball at jacobs.com (Kimball, Matthew)
+",3
+" lukas.rokka at gmail.com (=?ISO-8859-1?Q?Lukas_Lundstr=F6m?=)
+",3
+Elizabeth Gillmor via Bldg-sim <bldg-sim@lists.onebuilding.org>,3
+" Misuriello at ase.org (Misuriello, Harry)
+",3
+" MContri at DLBASSOCIATES.com (Contri, Michelle)
+",3
+" harrell at siu.edu (Justin Harrell)
+",3
+" ribeiroysousa at gmail.com (Joao Sousa)
+",3
+Tim McDowell <mcdowell@tess-inc.com>,3
+" mathaase at gmail.com (Matthias Haase)
+",3
+" emo at emoenergy.com (Eric Oliver)
+",3
+Fred Betz <fbetz@aeieng.com>,3
+" jblystone at icthomasson.com (Jacob T. Blystone)
+",3
+" brittany.glattly at autodesk.com (Brittany Glattly (Temp))
+",3
+" christopher.zabaneh at ibece.net (Christopher Zabaneh)
+",3
+" Mmullins at selectenergysi.com (Mark Mullins)
+",3
+" Philip.Leader at akahn.com (Leader, Philip)
+",3
+" JBliss at B2Qassociates.com (Joe Bliss)
+",3
+Dr Yi Zhang via Bldg-sim <bldg-sim@lists.onebuilding.org>,3
+" RCalla at NRCan.gc.ca (Calla, Robert)
+",3
+" meninbm at gmail.com (Boris Menin)
+",3
+" tstreck at WoodHarbinger.com (Tara Streck)
+",3
+" NKegel at hga.com (Nathan Kegel)
+",3
+" ksorce at tin.it (Maurizio Sorce)
+",3
+" maddox at sover.net (Doug Maddox)
+",3
+" 00901490r at polyu.edu.hk (YU Fu wing)
+",3
+" Ken.Neuhauser at csgrp.com (Neuhauser, Ken)
+",3
+" apeksha22 at gmail.com (Apeksha)
+",3
+" simgeandolsun at gmail.com (Simge Andolsun)
+",3
+" Patrick.Wilkinson at trane.com (Wilkinson, Patrick)
+",3
+"""Chakraborty, Judhajit"" <Jude.Chakraborty@WSPGroup.com>",3
+" dschroeder at sbicouncil.org (Doug Schroeder)
+",3
+" babetsk at jbb.com (babetsk at jbb.com)
+",3
+" rkasliwal at cogentenergy.com (Rishabh Kasliwal)
+",3
+" Dane.Christensen at nrel.gov (Christensen, Dane)
+",3
+Luis Miguel Blanes Restoy <lmblanes@gmail.com>,3
+" Edward.A.Decker at jci.com (Edward.A.Decker at jci.com)
+",3
+" Shena.Turlington at arup.com.au (Shena Turlington)
+",3
+" kirankumar.devs at gmail.com (kiran kumar)
+",3
+" Neal.Kruis at nrel.gov (Kruis, Neal)
+",3
+" John.Avina at SRC-Systems.com (John Avina)
+",3
+" jzhang at selectenergysi.com (Jinsong Zhang)
+",3
+" bsimtrn at yahoo.com (Poppong Sakulpipatsin)
+",3
+" ravi.s.srinivasan at gmail.com (Ravi Srinivasan)
+",3
+" jmporterfield at hotmail.com (John Porterfield)
+",3
+" carlson at cdhenergy.com (Steven Carlson)
+",3
+" Ruchi.Choudhary at coa.gatech.edu (Choudhary , Ruchi)
+",3
+" anazari at mcw.com (Ali Nazari)
+",3
+" jfk at geopraxis.com (John F. Kennedy)
+",3
+" Pasha.Korber at keen.ca (Pasha Korber)
+",3
+" Kitty.Knauz at exelonservices.com (Knauz, Kitty)
+",3
+" a_okeil at yahoo.com (ahmad okeil)
+",3
+" paivabruno at gmail.com (Bruno Paiva)
+",3
+" brunolee at psu.edu (Bruno Lee)
+",3
+" kodongh at iit.edu (Dong-Hwan Ko)
+",3
+Joseph Firrantello via Bldg-sim <bldg-sim@lists.onebuilding.org>,3
+" Harvey Bryan <Harvey.Bryan at asu.edu> 
+",3
+" mmccalla at oaconsulting.com (Matt McCalla)
+",3
+Sprout Info_Mail via Bldg-sim <bldg-sim@lists.onebuilding.org>,3
+" Michael_Deru at nrel.gov (Deru, Michael)
+",3
+" JRegnier at enovity.com (Justin Regnier)
+",3
+" molly at ecotope.com (Molly Curtz)
+",3
+" DSoto-Alvarez at cosentini.com (Soto-Alvarez, Diana)
+",3
+Stacey Lin <StaceyL@interfaceeng.com>,3
+Sherif Farag via Bldg-sim <bldg-sim@lists.onebuilding.org>,3
+" gwlandreth at frontierassoc.com (Greg Landreth)
+",3
+" bryane at engr.ucsb.edu (Bryan Eisenhower)
+",3
+" jonmatthews10 at yahoo.com (Jon Matthews)
+",3
+" spugggy at gmail.com (jake spuggy)
+",3
+" peter.vogelsanger at solarenergy.ch (Peter Vogelsanger)
+",3
+" andelman at jrma-ae.com (Michael Andelman)
+",3
+" akrickx at integralgroup.com (Alex Krickx)
+",3
+" martinez at dmu.ac.uk (David Martinez)
+",3
+" janemiller200 at yahoo.com (Jane Miller)
+",3
+" Celia.King-Scott at dnvgl.com (King-Scott, Celia)
+",3
+" csharma at fsec.ucf.edu (Chandan Sharma)
+",3
+" tbleicher at googlemail.com (Thomas Bleicher)
+",3
+Chip Barnaby via Bldg-sim <bldg-sim@lists.onebuilding.org>,3
+"""Goel, Supriya"" <Supriya.Goel@pnnl.gov>",3
+" kala_sim at yahoo.co.in (Leela Kala)
+",3
+" Olsen at Transsolar.com (Erik Olsen)
+",3
+" Michael.Guin at WSPGroup.com (Guin, Michael)
+",3
+" peter at insitegroup.net (Peter Moberg)
+",3
+" adybdahl at WoodHarbinger.com (Audra Dybdahl)
+",3
+" Kristen.Parrish at asu.edu (Kristen Parrish)
+",3
+" dgwaltneybwa at yahoo.com (Dug Gwalt)
+",3
+" estuder at dmiinc.com (=?iso-8859-1?Q?estuder?=)
+",3
+" waranoam at gmail.com (Alexandra Waranowski)
+",3
+" ""Donal O'Connor"" <oconnor_dj at hotmail.com>
+",3
+Stephen Roth via Bldg-sim <bldg-sim@lists.onebuilding.org>,3
+Apoorv Goyal <apoorv.goyal@hok.com>,3
+" bonvehi at asolba.com (Francesc Bonvehi)
+",3
+" marjoriestein at yahoo.com (Marjorie Stein)
+",3
+" oodukoma at purdue.edu (Seun Odukomaiya)
+",3
+Christoph Reinhart via Bldg-sim <bldg-sim@lists.onebuilding.org>,3
+" mayosten at Colorado.EDU (Peter T. May-Ostendorp)
+",3
+" pdybskiy at ryerson.ca (Pavel Dybskiy)
+",3
+RobertWichert <robert@wichert.org>,3
+" David.Gibney at mwgroup.net (Gibney, David)
+",3
+" mike at andelmanlelek.com (Michael Andelman)
+",3
+" rmuehleisen at anl.gov (Ralph Muehleisen)
+",3
+Rajan Rawal <rajanrawal@cept.ac.in>,3
+" ross.harding at lincolnescott.com (Ross Harding)
+",3
+" fwdbker at gmail.com (Shawn)
+",3
+Sheila Sagerer <ssagerer@comcast.net>,3
+" PMeyer at Horizon-Engineering.com (Paul Meyer, P.E.)
+",3
+" Jason.Boehning at ricegardner.com (Jason Boehning)
+",3
+" KSwartz at seventhwave.org (Keith Swartz)
+",3
+" ""??"" <foolishstar at 163.com>
+",3
+Linda Lawrie <linda@fortlawrie.com>,3
+"""J. Alstan Jakubiec"" <alstan@jakubiec.net>",3
+" tom at chassaylast.co.uk (Tom Dine)
+",3
+" bennychow816 at gmail.com (Dr. Benny Chow)
+",3
+" tstreck at WoodHarbinger.com (Tara Frentrop)
+",3
+" vikram at ensargroup.com (Vikram Sami)
+",3
+" C.Struck at tue.nl (Struck, C.)
+",3
+" far at paaet.edu.kw (far at paaet.edu.kw)
+",3
+" floodyc at gmail.com (Chris Flood)
+",3
+" energy.wwind at cox.net (John Ross)
+",3
+" James.Dudt at burthill.com (James.Dudt at burthill.com)
+",3
+" vhanby at dmu.ac.uk (Vic Hanby)
+",3
+" neetu at greenengineer.com (Neetu Singh)
+",3
+" andy.stone at bdsp.com (Andy Stone)
+",3
+Matt Steen <Matt@ambient-e.com>,3
+" Third-Level at comcast.net (David Bryan)
+",3
+" tanmay at eley.com (Tanmay)
+",3
+" DGwaltney at BarrettWoodyard.com (Doug Gwaltney)
+",3
+" rauffermann at dagherengineering.com (Richard Auffermann)
+",3
+" neetu at greenengineer.com (Neetu S. Siddarth)
+",3
+" vleguilvout at eneor.com (Vincent LE GUILVOUT)
+",3
+" danjoh99 at yahoo.com (Dan Johnson)
+",3
+" arpan at kalpakrit.com (arpan at kalpakrit.com)
+",3
+" ""Chris Jones"" <cj at enersave.ca>
+",3
+" empire999 at hotmail.com (milda margarin)
+",3
+Christian via Bldg-sim <bldg-sim@lists.onebuilding.org>,3
+" Erowe at peci.org (Erin Rowe)
+",3
+Tobias Maile <Tobias.Maile@D-Alchemy.com>,3
+" gjolly at gfbris.com (Guillaume Jolly)
+",3
+" kajalm at gmail.com (Kajal Chatterjee)
+",3
+" everani at hilsonmoran.com (Elena Verani)
+",3
+" aquila.velonis at quantecllc.com (Aquila Velonis)
+",3
+Francesco Passerini <fpasserini.tn@gmail.com>,3
+" ran_jith_s at hotmail.com (Ranjith)
+",3
+" rachel.casey at iesve.com (Rachel Casey)
+",3
+Javed Iqbal via Bldg-sim <bldg-sim@lists.onebuilding.org>,3
+" cbrewer at tace.ca (Crawford Brewer)
+",3
+" imaor at pwienergy.com (Itzhak Maor)
+",3
+" yuhangwu2004 at googlemail.com (myeagle00@yahoo.com wu)
+",3
+" mirzkazim9 at gmail.com (Kazim Mirza)
+",3
+" bulusu at sankhya.com (Gopi Kumar Bulusu)
+",3
+" Sarfraz at mahykhoory.com (Sarfraz Dairkee - M.A.H.Y. Khoory & Co. LLC)
+",3
+" smignogna.BLDG.SIM at gmail.com (Steve Mignogna)
+",3
+" ssw1007 at hotmail.com (songsuwon)
+",3
+" eturner at robisonengineering.com (Erik Turner)
+",3
+" Joseph.Llona at tetratech.com (Llona, Joseph)
+",3
+" dkrauel at halsall.com (Krauel, Danielle)
+",3
+Mayank Bhatnagar <mayank.23aug@gmail.com>,3
+" wrlenzi at yahoo.com (Lenzi Walter)
+",3
+Mike Karpman via Bldg-sim <bldg-sim@lists.onebuilding.org>,3
+" hvac at together.net (Tom Anderson)
+",3
+" ecodesigns at tpg.com.au (Richard M Sapwell)
+",3
+" dirk.schwede at energydesign-asia.com (Dr. Dirk A. Schwede)
+",3
+"""Hensen, J.L.M."" <j.hensen@tue.nl>",3
+" krishnaji at mecsd.com (Krishnaji)
+",3
+Tarek Rakha <rakha.tarek@gmail.com>,3
+Rasheed Ahmad via Bldg-sim <bldg-sim@lists.onebuilding.org>,3
+" jmaxwell at ers-inc.com (Jon Maxwell)
+",3
+" neeraj at kamalcogentenergy.com (Neeraj Arora)
+",3
+" PATRICK.WILKINSON at TRANE.COM (Wilkinson, Patrick)
+",3
+" david at airah.org.au (David Leach (AIRAH))
+",3
+" kgustafson at eypae.com (Kristin Gustafson)
+",3
+" chris at mullinaxsolutions.com (Chris Mullinax)
+",3
+" Kevin.Wyman at carrier.utc.com (Wyman, Kevin L            CAR)
+",3
+" michael.kummert at gmail.com (=?ISO-8859-1?Q?Micha=EBl_Kummert?=)
+",3
+Sprout Info_Mail <info@sprout-green.com>,3
+" Kelly.Kissock at notes.udayton.edu (Kelly.Kissock at notes.udayton.edu)
+",3
+" bedrune at addenda.fr (Jean-Pierre BEDRUNE)
+",3
+" seritta at concinnitygroup.biz (seritta)
+",3
+" oikos at netspace.net.au (oikos at netspace.net.au)
+",3
+" vicedomine at yahoo.com (James Vicedomine)
+",3
+" James.F.Pegues at carrier.utc.com (Pegues, James F           CCS)
+",3
+" zqchen at emsi-green.com.cn (July Chen)
+",3
+"""Duggin, Cory via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",3
+" cesbp2013 at tuwien.ac.at (cesbp2013 at tuwien.ac.at)
+",3
+" andrew.corney at sefaira.com (Andrew Corney)
+",3
+"""Guglielmetti, Robert"" <Robert.Guglielmetti@nrel.gov>",3
+" fakra at univ-reunion.fr (ali hamada fakra)
+",3
+" lorton at gmail.com (Luke Morton)
+",3
+Rajan Rawal via Bldg-sim <bldg-sim@lists.onebuilding.org>,3
+" lesolarch at vsnl.net (Anil Misra)
+",3
+" pete at pjmurraysolutions.com (Pete Murray)
+",3
+Alen Mahic via Bldg-sim <bldg-sim@lists.onebuilding.org>,3
+" pedro_mateus13 at hotmail.com (pedro mateus)
+",3
+" allen_dongenergy at yahoo.com.sg (Bing Dong)
+",3
+" chew3yuffie3 at yahoo.com (Teck Chew)
+",3
+" ghazel at aol.com (Gerard Hazel)
+",3
+" samuel.brunswick at gmail.com (Samuel Brunswick)
+",3
+" Robert.N.Degrasse at jci.com (Robert.N.Degrasse at jci.com)
+",3
+" xfang at emcengineers.com (Xia Fang)
+",3
+" MatthewRLarson at Eaton.com (MatthewRLarson at Eaton.com)
+",3
+Bing Dong <bingcat2007@gmail.com>,3
+" Don.Shirey at bentley.com (Don.Shirey at bentley.com)
+",3
+" pongsak_archenergy at sbcglobal.net (Pongsak Chaisuparasmikul)
+",3
+" Jill at ambient-e.com (Jill Dalglish)
+",3
+" haidermkhan at ymail.com (Haider)
+",3
+Mike Karpman <mike.karpman@karpmanconsulting.net>,3
+" Mithun.Kamat at UTCPower.com (Kamat, Mithun R           Export License Required - US - UTPWR)
+",3
+" chang.siewyik at gmail.com (Chang Siew Yik)
+",3
+" dsaal at aeieng.com (Don Saal)
+",3
+" yuxia_ch at hotmail.com (YuXiang Chen)
+",3
+" Vickie.Chen at arup.com.au (Vickie Chen)
+",3
+" oconnor_dj at hotmail.com (Donal O'Connor)
+",3
+" Jeff.Blake at NRCan-RNCan.gc.ca (Blake, Jeff)
+",3
+" BDavis at dwyer.com (Brian Davis)
+",3
+" priyap at serapdx.com (Priya Premchandran)
+",3
+" TCornish at taylor-engineering.com (Tracy Cornish)
+",3
+" arovillard at me-eng.com (a rovillard)
+",3
+" LDeBaillie at ecw.org (Lee DeBaillie)
+",3
+" hrashedali at hotmail.com (Hazem Rashed-Ali)
+",3
+Boris Menin <meninbm@gmail.com>,3
+" thulasiguptha at yahoo.com (thulasi guptha)
+",3
+" claire at inklingllp.com (Claire Das Bhaumik)
+",3
+" dcallan at syska.com (Callan, David)
+",3
+" mahabir_bhandari at hotmail.com (Mahabir Bhandari)
+",3
+" PLincicome at tmecorp.com (Paul Lincicome)
+",3
+" josh at concordenergystrategies.com (Josh Howes)
+",3
+" matthew.redekopp at stantec.com (Redekopp, Matthew)
+",3
+" lfoster at brendlegroup.com (Laurel Foster)
+",3
+"""Neetu S. Siddarth"" <neetu@greenengineer.com>",3
+" helen.willis at iesve.com (Helen Willis)
+",3
+" wpb5 at psu.edu (William Bahnfleth)
+",3
+" bdhoward at ix.netcom.com (Bion D. Howard)
+",3
+" mannir2003 at yahoo.com (mohammed aliyu)
+",3
+" er.sadafalam at gmail.com (sadaf)
+",3
+" mgangemi at WoodHarbinger.com (Matt Gangemi)
+",3
+" adedosunmu at stanfordalumni.org (Ade Dosunmu)
+",3
+" js336 at drexel.edu (js336 at drexel.edu)
+",3
+" deukwookim at skku.edu (=?utf-8?B?6rmA642V7Jqw?=)
+",3
+" chadiattia at hotmail.com (Shady Attia)
+",3
+" jross-bain at smithdalia.com (Jeff Ross-Bain)
+",3
+" gems at spiritone.com (gems at spiritone.com)
+",3
+" billhclark at bar-x-soft.com (billhclark at bar-x-soft.com)
+",3
+" huguesboivin at sympatico.ca (Hugues Boivin)
+",3
+" crossdr at ornl.gov (Cross, Doug)
+",2
+" michael.p.bieber at njit.edu (Bieber, Michael P.)
+",2
+" d.bourgeois at hotmail.com (Denis Bourgeois)
+",2
+" sirdh1 at gmail.com (Donghyun Seo)
+",2
+" joeparker at esbits.com (Joe Parker)
+",2
+" Hugues.Boivin at cima.ca (Hugues Boivin)
+",2
+" umit.esiyok at uni-dortmund.de (Esiyok, LS KA, Uni Dortmund)
+",2
+" Adam.Menter at autodesk.com (Adam Menter)
+",2
+" arthi.87 at gmail.com (arthi maarimuthu)
+",2
+" steve.moller at sbe.com.au (steve moller - SBE)
+",2
+" cjg04austin at swbell.net (C. Gann)
+",2
+" jorgembo1 at gmail.com (jorge torres coto)
+",2
+" Laurier.Nichols at dessausoprin.com (Laurier Nichols)
+",2
+" archiengautrix at lycos.com (Diane Davis)
+",2
+" krishnan.gowri at pnnl.gov (Gowri, Krishnan)
+",2
+" michael.blasnik at verizon.net (Michael Blasnik)
+",2
+" W.A.C.Zoon at tue.nl (Zoon, W.A.C.)
+",2
+" gwendolyn.fuertes at gmail.com (Gwen Fuertes)
+",2
+" sara.gunasingh at gmail.com (Saranya Gunasingh)
+",2
+" icesand at 163.com (icesand)
+",2
+Veronica Ochoa <veronica.ochoa@hurleypalmerflatt.com>,2
+" brown at h-m-g.com (Carrie Brown)
+",2
+" bennett.fisher at retroficiency.com (Bennett Fisher)
+",2
+" mbusman at noresco.com (Busman, Michael)
+",2
+" kinghochik at hotmail.com (chik king ho)
+",2
+" TEnglish at tkscengineering.com (Travis English)
+",2
+" ted.kesik at utoronto.ca (Ted Kesik)
+",2
+" colliver at bae.uky.edu (Donald Colliver)
+",2
+" bkoran at qwest.net (Bill Koran)
+",2
+akshay gupta <akshaykg@gmail.com>,2
+" Jeremy Poling <jpoling at epsteinglobal.com>
+",2
+"""Blake, Jeff (NRCan/RNCan)"" <jeff.blake@canada.ca>",2
+"""Liam O'Brien"" <Liam.OBrien@carleton.ca>",2
+" kummert at engr.wisc.edu (=?iso-8859-1?Q?Micha=EBl_Kummert?=)
+",2
+" aazhari at jainconsultants.com (Ahmed Azhari)
+",2
+" srosta at swinter.com (Sandor Rosta)
+",2
+" carlos.trujillo at ldimechanical.com (Carlos Trujillo)
+",2
+" hzirnhelt at rmi.org (Hayes Zirnhelt)
+",2
+" roberto.lamberts at ufsc.br (Roberto Lamberts)
+",2
+" aalokd at asu.edu (Aalok Deshmukh)
+",2
+" gpaliaga at taylor-engineering.com (Gwelen Paliaga)
+",2
+" resumes at integral-group.ca (Integral Resumes)
+",2
+" kelkafa at yahoo.com (Dogan Yiginer)
+",2
+" Florian.Stift at ait.ac.at (Stift Florian)
+",2
+" rc488 at cam.ac.uk (Ruchi Choudhary)
+",2
+Paul Riemer <Paul.Riemer@dunhameng.com>,2
+" rsteele at aerotek.com (Steele, Robert)
+",2
+" mseibert at cmtaegrs.com (Mark Seibert)
+",2
+" tbeek at wnainc.com (Tom Beekhuysen)
+",2
+" felipe at b-green.cl (=?ISO-8859-1?Q?Felipe_Dur=E1n?=)
+",2
+" uxp10 at psu.edu (UTE POERSCHKE)
+",2
+" davidb at orionsearchgroup.com (David Borak)
+",2
+Nikola Kravik <NKravik@willdan.com>,2
+" michelle.vigil at arup.com (Michelle Vigil)
+",2
+" ykyi at design.upenn.edu (Yun)
+",2
+" dannall at mindspring.com (Dan Nall)
+",2
+David BRADLEY via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" dlombard at earthlink.net (Debra Lombard)
+",2
+Larry Degelman via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" chms2002 at naver.com (=?EUC-KR?B?w9a5zryu?=)
+",2
+" ross.namiranian at ifactor.com (ross.namiranian at ifactor.com)
+",2
+Francesco Passerini via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" osalaymeh at smithandandersen.com (Omar Salaymeh)
+",2
+=?gb18030?B?wOTD5rqux7k=?= via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" JBlake at NRCan.gc.ca (Blake, Jeff)
+",2
+" cnp45 at drexel.edu (Price,Courtney)
+",2
+" rsg4999 at yahoo.com (ROBERT GOMEZ)
+",2
+" brody.energy at gmail.com (Brody Wilson)
+",2
+" hlin at emsi-green.com.cn (Lin Han)
+",2
+" Aaron.Etzkorn at buildings.schneider-electric.com (Aaron.Etzkorn at buildings.schneider-electric.com)
+",2
+" 2034464wagemakers at zuyd.nl (Wagemakers, Jens (2034464))
+",2
+" Lilah.Montague at perkinswill.com (Montague, Lilah)
+",2
+" kathy at srge.lbl.gov (Kathy Ellington)
+",2
+" LBokovoy at glumac.com (Lori Bokovoy)
+",2
+" stefano.avesani at eurac.edu (Avesani Stefano )
+",2
+" Alan.Jackson at burohappold.com (Alan Jackson)
+",2
+" cyturk at uwyo.edu (C. Yavuzturk)
+",2
+" energysimulation2003 at yahoo.it (=?iso-8859-1?q?F.Altavilla=20e=20B.Vicari?=)
+",2
+" ery.mailinglist at gmail.com (Ery Mailing-List)
+",2
+" fearghaloconnor at yahoo.com (Fearghal O'Connor)
+",2
+" geert.h.aerts at gmail.com (Geert Aerts)
+",2
+Andrew Corney via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" kahns at vt.edu (Amit Khanna)
+",2
+" anantjoshi at asme.org (anant Joshi)
+",2
+" dherrick at CDiengineers.com (Dawne Herrick)
+",2
+" Ian.Doebber at nrel.gov (Doebber, Ian)
+",2
+" ishan.mehtaug08 at students.iiit.ac.in (ishan.mehtaug08)
+",2
+" hwasilow at gsd.harvard.edu (Holly Wasilowski Samuelson)
+",2
+" sobrinski at econergy.net (Dan Sobrinski)
+",2
+"""Dr Yi Zhang"" <yi@jeplus.org>",2
+" lhu at mwce.net (Lan Hu)
+",2
+" MCollarin at elmengr.com (Michael Collarin)
+",2
+" Krishnan.Gowri at pnnl.gov (Gowri, Krishnan)
+",2
+" samuel at labeee.ufsc.br (samuel)
+",2
+" vdbrake at smitsvanburgst.nl (jacco)
+",2
+" yuskalkadin at gmail.com (yuskalkadin at gmail.com)
+",2
+" Martin.Belusko at unisa.edu.au (Martin Belusko)
+",2
+Doug Maddox via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" DRollins at mbakercorp.com (Rollins, Daniel)
+",2
+" asifcivil07 at gmail.com (Asif Raza)
+",2
+" jdunn at uidaho.edu (Dunn, Jacob)
+",2
+" nfonner at henneman.com (Fonner, Nicholas)
+",2
+" ingenieria at solcam.es (Pere Vizcaino)
+",2
+" mtraeger at long.com (Maren Traeger)
+",2
+" jon at f7engineers.com (Jon Bruneau)
+",2
+" yashika gulati <yashika.gulati111 at gmail.com>
+",2
+" bwnichols at gmail.com (Brandon Nichols)
+",2
+" k1kyte at gmail.com (kevin kyte)
+",2
+" tmickley at thekcompany.com (Tom Mickley)
+",2
+" amandgal at acciona.es (Amandine Marlyse Gal)
+",2
+" WOC6 at pitt.edu (WOC6 at pitt.edu)
+",2
+" mlemmon at trane.com (Lemmon, Mike)
+",2
+" bnelson at mcw.com (Bernard W. Nelson)
+",2
+" andrew at heliosltd.com (Andrew Holden)
+",2
+" jbacchus at rumseyengineers.com (Jamy Bacchus)
+",2
+" lpl at us.es (=?iso-8859-1?Q?Luis_Per=E9z-Lombard?=)
+",2
+" muehleisen at iit.edu (Ralph Muehleisen)
+",2
+" a.jackson at case-inc.com (Alan Jackson)
+",2
+" mark.campion at state.or.us (Campion Mark)
+",2
+" Catherine.MacCallum at keen.ca (Catherine MacCallum)
+",2
+" alan.foo at cpgcorp.com.sg (Alan Foo Tze Ee)
+",2
+" csjoshi at asu.edu (Charudatta Joshi (CJ))
+",2
+" andreas.abdon at cpsag.ch (Andreas Abdon, CPS)
+",2
+" xavier.garcia at arup.com (Xavier Garcia)
+",2
+" Matt.Edwards at me-engineers.com (Matt Edwards)
+",2
+" Scott.Horowitz at nrel.gov (Horowitz, Scott)
+",2
+" kmackenzie at glumac.com (Katie MacKenzie)
+",2
+" jarques at gasnatural.com (Arques Torrentgeneros, Jaume)
+",2
+" prln at bol.com.br (Paulo Roberto)
+",2
+" ali at atn-energy.com (Ali Nazari)
+",2
+" sjrees at okstate.edu (Simon J Rees)
+",2
+" DavidP at JMPCO.com (Pleasants, David)
+",2
+" miguel.pelicano at gmail.com (Miguel Pelicano)
+",2
+" conradb at pae-engineers.com (Conrad Brown)
+",2
+" spope at NRCan.gc.ca (Pope, Stephen)
+",2
+" mnitankur at gmail.com (ankur khandelwal)
+",2
+" Matt.Daly at wesd.org (Daly, Matt)
+",2
+" vidyacg at vt.edu (vidya gowda)
+",2
+" Travis.R.English at kp.org (Travis.R.English at kp.org)
+",2
+" shirey at fsec.ucf.edu (Don Shirey)
+",2
+"""Leichliter, Katie (kleichliter@uidaho.edu)"" <kleichliter@uidaho.edu>",2
+" daya.anandh at gmail.com (Dhayanandh Murugan)
+",2
+sanyogita manu <sanyogitamanu@yahoo.com>,2
+" kabirsingh.86 at gmail.com (kabir singh)
+",2
+" bcoffey at berkeley.edu (Brian Coffey)
+",2
+" klellington at lbl.gov (Kathy Ellington)
+",2
+" flyn.hawyn at gmail.com (Aaron Boranian)
+",2
+" D.Costola at tue.nl (Costola, D.)
+",2
+" Molinini.Louis at dol.gov (Molinini, Louis - ETA)
+",2
+" mailforaj at gmail.com (AJ)
+",2
+" Kimberly at NorthernArchitects.com (Kimberly Killian)
+",2
+" Malcolm.Cook at lboro.ac.uk (Malcolm Cook)
+",2
+" jchabrera at ksw.cl (Julia Chabrera)
+",2
+" mtoper at genesysengineering.net (Matthew Toper)
+",2
+" Sjain at ls-energy.com (Sunayana Jain)
+",2
+" kenhuck at jps.net (Ken Huck)
+",2
+" rmacintosh at halsall.com (Macintosh, Richard)
+",2
+" srutter at airsystems1.com (Steven Rutter)
+",2
+" splayo at phyinc.com (Steve Playo)
+",2
+" dbryan at amerindian.com (david bryan)
+",2
+" kbw at sbi.dk (Kim B. Wittchen)
+",2
+" kathrynlistserv at gmail.com (Kathryn Lee)
+",2
+" wufi2004 at yahoo.ca (Wufi2004)
+",2
+" michael.keohane at pmgroup-global.com (Keohane, Michael)
+",2
+" lp.allard.1 at gmail.com (Louis-Philippe Allard)
+",2
+" energy.modeler at gmail.com (Energy Modeler)
+",2
+" wmclaughlin at dmiinc.com (=?iso-8859-1?Q?wmclaughlin?=)
+",2
+" sareena.nagpal at gmail.com (sareena nagpal)
+",2
+" rodrigo.cerqueira at mra.qc.ca (Rodrigo Cerqueira)
+",2
+" alessandro.maccarini at gmail.com (Alessandro Maccarini)
+",2
+" curcija at ceere.org (D. Charlie Curcija)
+",2
+" antoni.fonseca at gmail.com (Antoni Fonseca Casas)
+",2
+" jtellefsen at lg.com (Tellefsen, John (LGE-NJ))
+",2
+" aczank at r3energy.com (Alexander Czank)
+",2
+" damien.tavan at aiguasol.coop (Damien Tavan)
+",2
+" btowell at cxegroup.com (Robert Towell)
+",2
+" jelkin at mreng.ca (Justin Elkin)
+",2
+" MAW at abacus-engr.com (Mark A. Webb)
+",2
+" James.F.Pegues at carrier.utc.com (James F Pegues)
+",2
+" mojisimo at yahoo.com (Mike D)
+",2
+" parntip.h at gmail.com (Parntip H.)
+",2
+" anne.moellenberndt at arup.com (Anne M. Moellenberndt)
+",2
+" npearson at halsall.com (Pearson, Nastassja)
+",2
+" wshoard at cosentini.com (Shoard, Will)
+",2
+" cyu at archenergy.com (Charlie Yu)
+",2
+" john.daglish at vnumail.com (John Daglish)
+",2
+" kamaraj.k at pbworld.com (Kamaraj, Karthikeyan)
+",2
+" walkeng at swva.net (david walker)
+",2
+" dewhitehead at stantec.com (Whitehead, Derek)
+",2
+" jhuber at udk-berlin.de (Joerg Huber, UdK Berlin)
+",2
+" pkraftery at lbl.gov (Paul Raftery)
+",2
+" 90estep at cardinalmail.cua.edu (Cory Estep)
+",2
+" jamybacchus at nyc.rr.com (Jamy Bacchus)
+",2
+" farrera at MarmonMok.com (Edgar Farrera)
+",2
+" george.hu at awe-e.com (George Hu)
+",2
+" Angelo.Delsante at csiro.au (Angelo.Delsante at csiro.au)
+",2
+" ldebaillie at gbci.org (Lee DeBaillie)
+",2
+" KB at rsp.net (Karen A. Bates)
+",2
+" leticiadeoneves at yahoo.com (Leticia Neves)
+",2
+"""Bishop, Bill"" <bbishop@pathfinder-ea.com>",2
+" ""??"" <foolishstar at 163.com<mailto:foolishstar at 163.com>>
+",2
+" guilherme.martins at blcnavitas.pt (Guilherme V. Martins)
+",2
+" cjara at ksw.cl (Cristian Jara)
+",2
+" PDolan at serenasturm.com (Pat Dolan)
+",2
+" sjkonopacki at yahoo.com (S Konopacki)
+",2
+" Brian_Thornton at pgn.com (Brian Thornton)
+",2
+" berkecelikel at erketasarim.com (=?iso-8859-9?Q?Berke_=C7elikel?=)
+",2
+David Eldridge via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+Coles Jennings <C.Jennings@ha-inc.com>,2
+" F.Al-ajmi at lboro.ac.uk (F.ajmi)
+",2
+" v_icha_s at yahoo.com (Icha S)
+",2
+" vietdrum at ufl.edu (Thomas Vu)
+",2
+" david at d-n-a-design.com (David Scheer)
+",2
+" Sheelam Khare <sheelamkhare26 at gmail.com>
+",2
+" lam at transsolar.com (Linda Lam)
+",2
+" ckmail at pd.jaring.my (CKTang)
+",2
+" tianhuifeng at pkpm.com.cn (=?gb2312?B?zO+727fl?=)
+",2
+" ""Deepak Tewari"" <deepak.tewari at teri.res.in>
+",2
+" <bldg-sim-request at lists.onebuilding.org>
+",2
+" samehmona at yahoo.com (sameh monna)
+",2
+" yanbin2003 at gmail.com (Bin YAN)
+",2
+" santosh_philip at yahoo.com (Santosh Philip)
+",2
+" WCampbell at m3dg.com (Warren A. Campbell)
+",2
+" dyiginer at davislangdon.us (Dogan Yiginer)
+",2
+" bforsthoffer at fspisearch.com (bforsthoffer at fspisearch.com)
+",2
+" jmarrec at brightpower.com (Julien Marrec)
+",2
+" Pete.Liotino at bentley.com (Pete.Liotino at bentley.com)
+",2
+" MWyllie at hiscutt-aia.com (Mary Wyllie)
+",2
+" afox at osborn-eng.com (Allan Fox)
+",2
+" marco.beccali at polimi.it (Marco Beccali)
+",2
+" jweale at gmail.com (John Weale)
+",2
+" dennis.lee.pe at gmail.com (Dennis Lee Gmail)
+",2
+" mike584595 at aol.com (Mike Porter)
+",2
+" Andrew.T.Phelps at erdc.usace.army.mil (Phelps, Andrew T ERDC-CERL-IL Contractor)
+",2
+" hittle at colostate.edu (Douglas Hittle)
+",2
+" justinw at fbe.unsw.edu.au (Justin Wong)
+",2
+" g_elavarasan86 at yahoo.co.in (G elavarasan)
+",2
+" M.G.L.C.Loomans at tue.nl (Loomans, M.G.L.C.)
+",2
+" mathaase at hkusua.hku.hk (mathaase at hkusua.hku.hk)
+",2
+" VLimin at waterman-int.com (Vladimir Limin)
+",2
+" pkearns at nexant.com (Kearns, Patrick)
+",2
+" p.raftery at berkeley.edu (Paul Raftery)
+",2
+" gschlegel at etcgrp.com (Greg Schlegel)
+",2
+" azeller at capitolmechanical.com (Al Zeller)
+",2
+Nassim Jamali via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" HBeaudoin at grummanbutkus.com (Heather Beaudoin)
+",2
+" fried.augenbroe at coa.gatech.edu (Augenbroe, Godfried L)
+",2
+" Moncef.Krarti at Colorado.EDU (Moncef Krarti)
+",2
+" krishh666 at gmail.com (KRISHNAJI PAWAR)
+",2
+Philip Haves via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" Harris.Qureshi at stantec.com (Qureshi, Harris)
+",2
+" pramod at dewpoint.biz (Dew Point)
+",2
+" lucky at ecobee.com (Lucky Chandana)
+",2
+" deepak.tewari at teri.res.in (Deepak Tewari)
+",2
+Andrew Corney <andrew.corney@sefaira.com>,2
+" fsp at parand.co.uk (Foroutan Parand)
+",2
+" msafatly at hfx.eastlink.ca (Maurice Safatly)
+",2
+" sshell at rdgusa.com (Stuart Shell)
+",2
+" vhanby at dmu.ac.uk (Victor Hanby)
+",2
+" eric.swan at rlw.com (Eric Swan)
+",2
+Arfa Aijazi <arfa@berkeley.edu>,2
+" simeb at lte.ireq.ca [mailto:simeb at lte.ireq.ca]
+",2
+" zrogers at daylightinginnovations.com (Zack Rogers)
+",2
+Nathaniel Jones <nljones@mit.edu>,2
+" Philipp.Geyer at asro.kuleuven.be (Philipp Geyer)
+",2
+" aalmeida at isec.pt (=?utf-8?Q?Ant=C3=B3nio_Manuel_Almeida?=)
+",2
+David Cocking <David.Cocking@designbuilder.co.uk>,2
+" paulreeves5 at uswest.net (Paul Reeves)
+",2
+" bpressman at practicalenergy.net (Ben Pressman)
+",2
+"""Lars O. Grobe"" <grobe@gmx.net>",2
+" stobin at smithboucher.com (stobin)
+",2
+" anup at kalpakrit.com (Anup Rathi)
+",2
+" shensley at chpengr.com (Sherie E. Hensley)
+",2
+Te Qi via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" farmerp at boltblue.com (farmerp at boltblue.com)
+",2
+" ho.tinkit at scottwilson.com.hk (Ho Tinkit)
+",2
+" m.yerkes at tjharrisinc.com (Mark)
+",2
+" Amir.Nosrat at icfi.com (Nosrat, Amir)
+",2
+" ICEBO2010 <info at icebo2010.org>
+",2
+" chris at zed-uk.com (=?utf-8?q?=22Chris=22?=)
+",2
+" vfiorentino at greenlivingprojects.com (Valeria Fiorentino)
+",2
+" treeck at bv.tu-muenchen.de (Christoph van Treeck)
+",2
+" equestpaul at yahoo.com (Paul Brooks)
+",2
+" AdamN at TWGI.com (Adam Niederloh)
+",2
+" bhartendu.awasthi90 at gmail.com (Bhartendu Awasthi)
+",2
+" ksundaram81 at gmail.com (Sundaram)
+",2
+" kbaker at syska.com (Baker, Kristopher)
+",2
+" kathleen.matthews at abraxasenergy.com (kathleen matthews)
+",2
+" m.lebourhis at elioth.fr (m.lebourhis)
+",2
+" MichaelB at auseea.com (Michael Bejrowski)
+",2
+" g.bala at voila.fr (g.bala at voila.fr)
+",2
+" rlandry at mncee.org (Russ Landry)
+",2
+" xiang.liu at colorado.edu (Xiang Liu)
+",2
+" yilmazzer at itu.edu.tr (=?iso-8859-9?Q?Prof.Dr.Zerrin_Y=FDlmaz?=)
+",2
+" jsisko03 at aol.com (Joe Sisko)
+",2
+" bhont at girard.com (Bernie Hont)
+",2
+" FKhatri at arnoldandosheridan.com (Farhan Khatri)
+",2
+" yi at jeplus.org (Dr Yi Zhang)
+",2
+" Neal_Kruis at nrel.gov (Kruis, Neal)
+",2
+" sagerer at sevengroup.com (Sheila Sagerer)
+",2
+" dschafer at bnim.com (Dustin Schafer)
+",2
+" jonathan at edsl.net (Jonathan Catterall)
+",2
+" s.n.murray at umail.ucc.ie (Sean Noel Murray)
+",2
+" paulo.roberto at synergon.eng.br (Paulo Roberto)
+",2
+"""Karol Bandurski"" <karol.bandurski@put.poznan.pl>",2
+" james.vicedomine at s-aeb.net (James Vicedomine)
+",2
+" muhamhk at okstate.edu (Muhammad Haider Khan)
+",2
+" steve-gates at softcom.net (Steven D. Gates)
+",2
+" pxp912 at psu.edu (Priya Premchandran)
+",2
+" nmendes at rla01.pucpr.br (Nathan Mendes)
+",2
+" grace.ming at ymail.com (Grace Ming)
+",2
+" woc6 at pitt.edu (Collinge, William Overton)
+",2
+" ashraf at mecsd.com (Ashraf khan)
+",2
+" jaivardhany at yahoo.com (jai yadav)
+",2
+" hiller at transsolar.com (Marion Hiller)
+",2
+" jrhazel at bellsouth.net (J. R Anderson)
+",2
+" azeller at capitolmechanical.com (al )
+",2
+" jesse at kaplanthompson.com (Jesse Thompson)
+",2
+"""Macumber, Daniel via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",2
+" caaronpowers at gmail.com (Aaron Powers)
+",2
+" Matt at ambient-e.com (Matt Steen)
+",2
+" Otto.Schwieterman at Emerson.com (Otto.Schwieterman at Emerson.com)
+",2
+" charles at eley.com (Charles Eley)
+",2
+" ELO at MichaelsEnergy.com (Eric O'Neill)
+",2
+" urban at marbek.ca (Ruth Urban)
+",2
+" Gustav.Jansson at akj.se (Gustav Jansson)
+",2
+" tauhid80 at gmail.com (Tauhid)
+",2
+" P.deWilde at bouw.tno.nl (Wilde, Pieter de)
+",2
+" muhammadhaiderkhan at hotmail.com (khan muhammad)
+",2
+" sura.almaiyah at port.ac.uk (Sura Almaiyah)
+",2
+"""J. Bouchard via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",2
+" daylight at softcom.net (Jon McHugh)
+",2
+" adam at sustainablybuilt.com (Adam Stenftenagel)
+",2
+Clemens Felsmann via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" icesand at 163.com (Mingming Zuo)
+",2
+" lvandriest at archenergy.com (Laurel Van Driest)
+",2
+" ANazari at mcw.com (Ali Nazari)
+",2
+" Art_Veneklase at URSCorp.com (Art_Veneklase at URSCorp.com)
+",2
+" prashant.bhanware at gmail.com (PRASHANT BHANWARE)
+",2
+" godfried.augenbroe at arch.gatech.edu (Godfried Augenbroe)
+",2
+" shrikarbhave at gmail.com (shrikar bhave)
+",2
+" bruno_ramos_pereira at hotmail.com (Bruno Ramos Pereira)
+",2
+" diegobeps at gmail.com (Diego Ibarra)
+",2
+" danc at ibcengineering.com (Daniel Croisant)
+",2
+" jianguang_yi at ecadi.com (=?gb2312?B?RkXXqM/uvLzK9dbQ0MQt0sK9obni?=)
+",2
+" asheaffer at environcorp.com (Andrew Sheaffer)
+",2
+Syed Safiuddin Hussaini <safi.hussaini91@gmail.com>,2
+" Mudit.Saxena at h-m-g.com (Mudit Saxena)
+",2
+" tomw at greenbuildingservices.com (Tom White)
+",2
+"""Vlachokostas, Efthimios A"" <alex.vlachokostas@pnnl.gov>",2
+" 546751190 at qq.com (=?gb18030?B?0rvStrHi1ts=?=)
+",2
+" TimD at Hargis.biz (Tim Dion)
+",2
+" chillarrahul at yahoo.com (Rahul Chillar)
+",2
+sukreet singh via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" Jeremy McClanathan <jmcclanathan at CDiengineers.com> 
+",2
+" Rasheed Ahmad <rasheed.jmi at gmail.com<mailto:rasheed.jmi at gmail.com>>
+",2
+" atowell at cxegroup.com (atowell at cxegroup.com)
+",2
+ashish shukla <ashishmshukla@outlook.com>,2
+" anup.rathi at iesve.com (Anup Rathi)
+",2
+" thomas.s.blue at us.army.mil (Blue, Thomas S Mr CTR USA IMCOM)
+",2
+" Mirza.Sajjal at BuroHappold.com (Mirza Sajjal)
+",2
+Omar ElRawy via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" ninoletti at gmail.com (Nino Letti)
+",2
+" marke at energynpower.com (Mark Ertas)
+",2
+" minu.agarwal at iesve.com (Minu Agarwal)
+",2
+Nathan Miller <nathanm@rushingco.com>,2
+" msmith at northrop.com.au (Michael Smith)
+",2
+" Joey.Jiao at WSPGroup.com.cn (Jiao, Joey)
+",2
+" lsgreer at gmail.com (Leonard Greer)
+",2
+" vamshi.gooje at gmail.com (=?ISO-8859-1?Q?V=E4mshi_Gooj=E9?=)
+",2
+" eeesolomon at gmail.com (Gideon Solomon)
+",2
+" pdolan at pssarchitects.com (Patrick Dolan)
+",2
+" heiples at cecs.pdx.edu (Shem Heiple)
+",2
+" sheelamkhare26 at gmail.com (sheelamkhare26 at gmail.com)
+",2
+" vshresth at ucla.edu (Vikas Shrestha)
+",2
+" DContoyannis at archenergy.com (Dimitri Contoyannis)
+",2
+" Philip.Pointer at jacobs.com (Pointer, Philip)
+",2
+" nob_naka at va.starcat.ne.jp (=?ISO-2022-JP?B?GyRCQ2Y4Nj8uQDgbKEI=?=)
+",2
+" gulsu at mmf.gazi.edu.tr (=?windows-1254?Q?G=FClsu_Ulukavak?=)
+",2
+" daniellouis at verizon.net (daniellouis at verizon.net)
+",2
+" istahlbrand at pcl.com (Ian Stahlbrand)
+",2
+" milind_usd at yahoo.com (Milind mantravadi)
+",2
+" tvu at aeieng.com (Thomas Vu)
+",2
+Mayank Bhatnagar via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" gsawaya at lbl.gov (Geof Sawaya)
+",2
+" randallcwilkinson at gmail.com (Randall Wilkinson)
+",2
+Heather Beaudoin via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" lzhao at gsd.harvard.edu (Liuwei Zhao)
+",2
+" m_kordjamshidi at yahoo.com (maria kordjamshidi)
+",2
+" HoffmannCaroline at gmx.de (Caroline Hoffmann)
+",2
+Morgan Heater via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" chris at celticenergy.com (Chris Halpin)
+",2
+" yjy101 at psu.edu (Younju Yoon)
+",2
+" vera.rodrigues at bluecape.com.pt (Vera Rodrigues)
+",2
+" Amy.Mussen at bentley.com (Amy.Mussen at bentley.com)
+",2
+" alexc at 2rw.com (Chapin, Alex)
+",2
+" tyler at energyopportunities.com (Tyler Thumma)
+",2
+" treeck at bv.tum.de (Christoph van Treeck)
+",2
+" Mike at ambient-e.com (Mike Kaufman)
+",2
+" tkdogan at MIT.EDU (Timur Dogan)
+",2
+" seldomvarun at gmail.com
+",2
+" waseem at edsglobal.com (Waseem Shah Khan)
+",2
+Liam O'Brien via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" kce2 at kamalcogentenergy.com (Ashu Gupta)
+",2
+" jenni.yoshida at skanskausa.com (Yoshida, Jenni)
+",2
+" munwiver at erols.com (Ron P.)
+",2
+" nouman310 at yahoo.com (Nouman)
+",2
+" andyhoover at thebestconsultant.com (Andrew S. Hoover)
+",2
+" chadjk1 at yahoo.com (chad K)
+",2
+" sunayana_jain at neo.tamu.edu (Sunayana Jain)
+",2
+" Alex.Colta at rtsbuildingenvelope.com (Alexandru Colta)
+",2
+" anuragroy at vsnl.com (anuragroy at vsnl.com)
+",2
+" herbert at asirenovations.com (Herbert Dwyer)
+",2
+" kajalm at gmail.com (Kajal Mehta)
+",2
+" Mike Tillou <miket at etcgrp.com> 
+",2
+" PZacuto at eri.eqt.com (PZacuto at eri.eqt.com)
+",2
+" rudolph at transsolar.com (Matthias Rudolph)
+",2
+" serendipity.luo at gmail.com (=?GB2312?B?wt7orw==?=)
+",2
+" zhaof03 at gmail.com (Fei ZHAO)
+",2
+" bob at energy-models.com (Bob Fassbender)
+",2
+" frederic.miranville at univ-reunion.fr (=?ISO-8859-1?Q?Fr=E9d=E9ric_Miranville?=)
+",2
+" smorgan at noresco.com (smorgan at noresco.com)
+",2
+" SHenry at glumac.com (Sean Henry)
+",2
+" mmendoza at adwilliams.com (Mario Mendoza)
+",2
+Shanta Tucker via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" James Hansen <JHANSEN at ghtltd.com>
+",2
+" feizhao at gatech.edu (Fei Zhao)
+",2
+" chadlock at fluentgroup.com (Christopher Hadlock)
+",2
+Hayes Zirnhelt <hzirnhelt@rmi.org>,2
+" felipe at b-green.cl (Felipe Duran)
+",2
+" Rudy.J.Bohince at jci.com (Rudy.J.Bohince at jci.com)
+",2
+" jschmadeke at noresco.com (Schmadeke, Jeffrey)
+",2
+" Justin.Allaire at rpeng.ca (Justin Allaire)
+",2
+" dhill at emcengineers.com (Dan Hill)
+",2
+" php at rij73.com (rij73)
+",2
+" Martina.Soderlund at perkinswill.com (Soderlund, Martina)
+",2
+" ""Marcus"" <jones.0bj3 at gmail.com>
+",2
+" mJohnston at archenergy.com (Mike Johnston)
+",2
+" juan.carrizo at alumni.carleton.ca (Carleton Inbox)
+",2
+" donl at auseea.com (Don Lipinski)
+",2
+" twhately at moseleyarchitects.com (Whately, Tyler)
+",2
+" eyoungson at rmi.org (Eric Youngson)
+",2
+" marco.beccali at dream.unipa.it (marco.beccali at dream.unipa.it)
+",2
+" rajendra.adhikari at polimi.it (Rajendra Adhikari)
+",2
+" carla.morton at autodesk.com (Carla Morton (Temp))
+",2
+" alpayakguc at yahoo.com (Ayzer Akguc)
+",2
+" Georgios.KOKOGIANNAKIS at nottingham.edu.cn (Georgios KOKOGIANNAKIS)
+",2
+" rbharathidhasan at yahoo.co.in (rbharathi dhasan)
+",2
+Syed Safiuddin Hussaini via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" Florian.Noeske at ibp.fraunhofer.de (=?iso-8859-1?Q?Florian_N=F6ske?=)
+",2
+" ttxu at lbl.gov (Tim T.  Xu)
+",2
+" Tammie_Watkins at URSCorp.com (Tammie_Watkins at URSCorp.com)
+",2
+" sweitzer at labspecialists.com (Sweitzer)
+",2
+" krishnaji at mecsd.com (krishnaji pawar)
+",2
+" lawler at ersresults.com (Tim Lawler)
+",2
+" glicks at MIT.EDU (glicksman)
+",2
+" MMottilo at NRCan.gc.ca (Mottillo, Maria)
+",2
+" Justin.M.Hill at nasa.gov (Hill, Justin M. (MSFC-AS01))
+",2
+" hebarhoun at ges-int.com (Hayssam Elias Barhoun)
+",2
+" gcgraca at fc.ul.pt (=?Windows-1252?Q?Guilherme_Carrilho_da_Gra=E7a?=)
+",2
+" ljonsson at cdiengineers.com (Leslie Jonsson)
+",2
+" alan.abela2010 at my.ntu.ac.uk (Abela, Alan 2010 (PGR))
+",2
+" cdbuntine at greenworkstudio.com (Buntine, Chris)
+",2
+" listbox at elfstrom.com (David Elfstrom)
+",2
+" shishir at mechartes.com (Shishir Gupta)
+",2
+" HoangDuong at gallowayus.com (Hoang Duong)
+",2
+" subhash290487 at yahoo.com (subhash j)
+",2
+"""Andrew S. Hoover via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",2
+" sunayana_jain at neo.tamu.edu (sunayana jain)
+",2
+" namrata.vora at soladigm.com (Namrata Vora)
+",2
+" holtzhower at ufl.edu (Holtzhower,Darby L)
+",2
+" blair at sel.me.wisc.edu (Nate Blair)
+",2
+" Vamshi.Gooje at asu.edu (Vamshi.Gooje at asu.edu)
+",2
+" Steven.Moller at csiro.au (Steven.Moller at csiro.au)
+",2
+" vbajic at expertapp.com (Vladimir Bajic)
+",2
+" gschlegel at aeieng.com (Greg Schlegel)
+",2
+" cvrhasd at techunix.technion.ac.il (S. Hassid)
+",2
+" Perry.Steiner at facilities.gatech.edu (Steiner Perry)
+",2
+" amyallen at stanford.edu (Amy Allen)
+",2
+Justin Spencer via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+Chip Barnaby <chipbarnaby@gmail.com>,2
+" sawant085 at gmail.com (teja sawant)
+",2
+" jdolan at olace.com (Jim Dolan)
+",2
+" vera.rodrigues at bluecape.com.pt (vera.rodrigues at bluecape.com.pt)
+",2
+" miaoworld at chinaren.com (yang miao)
+",2
+" Oberdorf at transsolar.com (Christian Oberdorf)
+",2
+" Jason at ibece.net (Jason Kirchhoff)
+",2
+"""Peters, Judith M via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",2
+" Nate at Bazzani.com (Nate Gillette)
+",2
+" ajochems at aerotek.com (Andrew Jochems)
+",2
+" J.Poullot at cir2d.com (Julien Poullot)
+",2
+" wang95 at purdue.edu (wang95 at purdue.edu)
+",2
+" r.raslan at ucl.ac.uk (Raslan, Rokia)
+",2
+" odditems at yahoo.com (ranjith a)
+",2
+" Jerry.Jackson at autodesk.com (Jerry Jackson)
+",2
+" mtoper at genesysengineering.net (mtoper at genesysengineering.net)
+",2
+" MMottill at NRCan.gc.ca (Mottillo, Maria)
+",2
+" mwalters at aeieng.com (Mike Walters)
+",2
+" missngao at hotmail.com (Siritip Harntaweewongsa)
+",2
+" s.bharath at ntu.edu.sg (Bharath Seshadri)
+",2
+" erwin.mlecnik at cenergie.be (Erwin Mlecnik)
+",2
+" mertas at onsitenergy.com (Mark Ertas)
+",2
+" O.Baumann at eb-engineers.com (Oliver Baumann)
+",2
+" daoud.ahmed at lte.ireq.ca (daoud.ahmed at lte.ireq.ca)
+",2
+" mhsueh at integralgroup.com (Michael Hsueh)
+",2
+" cjhadlock at gmail.com (Chris Hadlock)
+",2
+" jsun at tas.com (Sun, Jian)
+",2
+"""Agnes, Dylan \(dagnes@uidaho.edu\) via Bldg-sim""
+	<bldg-sim@lists.onebuilding.org>",2
+" mido_fahmy2007 at hotmail.com (Mohamad fahmy)
+",2
+" info at bs2015.in (=?utf-8?Q?BS=202015?=)
+",2
+David Reddy via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" sgm_attia at neo.tamu.edu (Attia, Shady Galal Mohamed)
+",2
+" Roth, Amir <Amir.Roth at ee.doe.gov>
+",2
+" scottr at rushingco.com (Scott Rushing)
+",2
+" 730093 at gmx.net (Christian Bauer)
+",2
+" daniel.ocarroll at burgessniple.com (O'Carroll, Daniel)
+",2
+" DDeRose at halsall.com (De Rose, David)
+",2
+" allender at energy-rm.com.hk (Robert Allender (Energy Resources Management))
+",2
+" jfamailbox-i3er at yahoo.fr (jfamailbox-i3er at yahoo.fr)
+",2
+" sagerer at sevengroup.com (Sheila)
+",2
+" shane.wells at hfa-ae.com (Shane Wells)
+",2
+" foolishstar at 163.com (=?UTF-8?B?6Z+p5pif?=)
+",2
+" a.roetzel at rzcn.haw-hamburg.de (Astrid Roetzel)
+",2
+" aa1 at brighton.ac.uk (aa1 at brighton.ac.uk)
+",2
+" RSalcido at archenergy.com (Salcido, Victor           AEC)
+",2
+" dkenny at nexant.com (Kenny, David)
+",2
+De Michele Giuseppe <Giuseppe.DeMichele@eurac.edu>,2
+" igtheaker at gmail.com (Ian G. Theaker)
+",2
+" paul at esru.strath.ac.uk (paul strachan)
+",2
+" vpermana at emsi-green.com (vpermana at emsi-green.com)
+",2
+Karol Bandurski via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" sheila at energyopportunities.com (Sheila Sagerer)
+",2
+" REBrown at lbl.gov (Rich Brown)
+",2
+" rajanrawal at cept.ac.in (rajanrawal at cept.ac.in)
+",2
+" syed.husnain at gmail.com (Hasnain Abbas)
+",2
+" sburton at mcw.com (Steve Burton)
+",2
+" hujia06 at gmail.com (Jia Hu)
+",2
+" jacob.lindblom at ivl.se (Jacob Lindblom)
+",2
+" joeheineck at msn.com (Joseph Heineck)
+",2
+" peterl at givenandassociates.com (Peter Lemessurier)
+",2
+" Bart.callens3 at pandora.be (Bart Callens)
+",2
+" davidr at madisonengineeringps.com (David Reddy)
+",2
+" Taylor.Sims at personified.com (Taylor Sims)
+",2
+" donald_i at sealgar.co.uk (Donald I Macdonald)
+",2
+" kleadbetter at PathfinderEngineers.com (Leadbetter, Keith)
+",2
+" JKairento at B2Qassociates.com (Janne Kairento)
+",2
+" chiassonandrew at hotmail.com (Andrew Chiasson)
+",2
+" jpradal at grundfos.com (Jerome Pradal)
+",2
+" kpleegm at gmail.com (Hans Lee)
+",2
+" joe at fieldcrafteng.com (Joe Chan)
+",2
+" greg at zonengineering.com (Greg Leskien)
+",2
+" dwcautley at mindspring.com (Dan Cautley)
+",2
+" asawa.t.aa at m.titech.ac.jp (Takashi Asawa)
+",2
+" kenpilcher at hotmail.com (Ken Pilcher)
+",2
+" mpolak at viridianee.com (Marcin Polak)
+",2
+" tcornell at gard.com (tcornell at gard.com)
+",2
+"""=?gb18030?B?wOTD5rqux7k=?="" <503271081@qq.com>",2
+"""Macumber, Daniel"" <Daniel.Macumber@nrel.gov>",2
+" ery at djunaedy.com (Ery Djunaedy)
+",2
+" zhaicq98 at yahoo.com (Chaoqin Zhai)
+",2
+" rdavis at oarsman.com (Randy Davis)
+",2
+" jhaberl at esl.tamu.edu (Jeff S. Haberl)
+",2
+" bingcat2007 at gmail.com (Bing Dong)
+",2
+" noel.oconnor at nuigalway.ie (OConnor, Noel)
+",2
+" ABLekov at lbl.gov (Alex B. Lekov)
+",2
+Victoria Lieding <vlieding@VACOMTECH.com>,2
+=?iso-8859-1?Q?Micha=EBl_Kummert?= <michael.kummert@polymtl.ca>,2
+Angelica Walsh via Bldg-sim <bldg-sim@lists.onebuilding.org>,2
+" andrew at heliosltd.com (Andrew D. Holden, P.E.)
+",2
+" KPrigmore at eypae.com (Kathryn Prigmore)
+",2
+"""Maria Karpman"" <maria.karpman@karpmanconsulting.net>",2
+" kfulcher at ashrae.org (Fulcher, Kim)
+",2
+" ali at bvm-engineering.com (Ali Nazari)
+",2
+" bmieritz at franklinenergy.com (Bryon Mieritz)
+",1
+" bforshey at Horizon-Engineering.com (Brian Forshey)
+",1
+" kcreamer at nc.rr.com (kcreamer at nc.rr.com)
+",1
+" Sven.Detterberg at ramboll.se (Detterberg Sven)
+",1
+" ken at firstfuel.com (Ken Kolkebeck)
+",1
+" ken at imagicdesign.co.jp (Ken HATAKEYAMA)
+",1
+" kim.shinn at tlc-eng.com (Shinn, Kim)
+",1
+" rvercillo at torontohydro.com (Ross Vercillo)
+",1
+" ejwilsn1 at uiuc.edu (Eric Wilson)
+",1
+" malc at dmu.ac.uk (malc at dmu.ac.uk)
+",1
+" Paul.Barton at wallacewhittle.com (Paul Barton)
+",1
+" davidknifton at rawlingsmechanical.com (David Knifton)
+",1
+" kathryn.cousins at hodder.co.uk (Kathryn Cousins)
+",1
+ROBERT GOMEZ <rsg4999@yahoo.com>,1
+" Wayne.R.Vearil at jci.com (Wayne.R.Vearil at jci.com)
+",1
+" Simon Rees <sjrees at dmu.ac.uk> 
+",1
+" dbirleanu at ers-inc.com (Daniel Birleanu)
+",1
+" richd at comcast.net (richd at comcast.net)
+",1
+Fernando Varela <fvarela@ind.uned.es>,1
+" yx at kinetic-aiu.com (Yan Xing)
+",1
+" ty.law1980 at yahoo.com (Ty Law)
+",1
+" zeidan at nurenergy.net (Omar Zeidan)
+",1
+" noreply at badoo.com (Badoo)
+",1
+" MMariani at hilsonmoran.com (Mattia Mariani)
+",1
+Jamie Bull via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" drf10 at cornell.edu (David Frostclapp)
+",1
+" Zbigniew.Kopec at norr.ae (Zbigniew Kopec)
+",1
+"""Forth, Kasimir"" <kasimir.forth@tum.de>",1
+" ssmith at elmengr.com (Stephen Smith)
+",1
+" Craig_Christensen at nrel.gov (Christensen, Craig)
+",1
+" aali_asif at yahoo.com (shaheen asif)
+",1
+" marketing at inergicorp.com (marketing at inergicorp.com)
+",1
+"""Daze, Charles"" <cdaze@burnsmcd.com>",1
+" ery at djunaedy.com (=?iso-8859-1?Q?Ery=20Djunaedy?=)
+",1
+" carolina at casadofuturo.com (Carolina H. Galeazzi)
+",1
+" dwolfe at burnsmcd.com (Don Wolfe)
+",1
+" dkoerniawan at yahoo.com (donny ::)
+",1
+" Andrew McNamara <amcnamara at brightpower.com>
+",1
+" JSparks at uams.edu (Sparks, Jason)
+",1
+" andrew at peelpassivehouse.ca (Andrew Peel)
+",1
+" Maria.Xia at ny.fk.com (Xia, Maria)
+",1
+" patriciaanjos at netcabo.pt (=?iso-8859-1?Q?Patr=EDcia_Anjos?=)
+",1
+" jon at esru.strath.ac.uk (jon hand)
+",1
+Sura Almaiyah <sura.almaiyah@port.ac.uk>,1
+" steved at sesnet.com (Steven DiBerardine)
+",1
+" MICHAEL.L.KINGSLEY at saic.com (Kingsley,Michael L.)
+",1
+" steffen at energirigtigtbyggeri.dk (Steffen Petersen)
+",1
+"""Jennings, Coles"" <Coles.Jennings@MasonandHanger.com>",1
+" randy at hvacware.net (randy at hvacware.net)
+",1
+" BBaugher at southlandind.com (Bridgette Baugher)
+",1
+" Mead.Rusert at carrier.utc.com (Rusert, Mead              CCS)
+",1
+" colbns0rpid at gmail.com (D G)
+",1
+" jon at theruckerco.com (Jon Rucker)
+",1
+" Ian_T at ieice.com (Ian Theaker)
+",1
+" dboz66 at earthlink.net (Dave Bosworth)
+",1
+Roel Tersteeg via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" ekwtsang at yahoo.com.hk (Kin Wai Tsang)
+",1
+" twombly at kw-engineering.com (Eben Twombly, P.E.)
+",1
+" horst at pichlmueller.net (=?iso-8859-1?Q?Horst_Pichlm=FCller?=)
+",1
+Bruno Scalet via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" gfanslow at veic.org (Gregory Fanslow)
+",1
+Robin Thornton <robin.thornton@cel.ca>,1
+" spitler at okstate.edu (Jeffrey Spitler)
+",1
+" lalder at etcgrp.com (Lin Alder)
+",1
+" lars.hvac at gmail.com (Lars Verheyen)
+",1
+" choothiansiong at yahoo.co.uk (Choo Thian Siong)
+",1
+" LisaFrench at branz.co.nz (Lisa French)
+",1
+" geib.martin1 at gmail.com (Martin GEIB)
+",1
+" belafi.zsofia at abud.hu (=?iso-8859-2?Q?B=E9lafi_Zs=F3fia?=)
+",1
+" djohnsto at hawaii.edu (Dean Scott Johnston)
+",1
+" iaccabr at hotmail.com (He Tao)
+",1
+" kiopper at yahoo.it (kiopper)
+",1
+Leslie Keith Norford via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" john at rjdtech.com (john at rjdtech.com)
+",1
+" eric.jh.wilson at colorado.edu (Eric Wilson)
+",1
+" WongLS at aol.com (WongLS at aol.com)
+",1
+" E.Goetz at ha-inc.com (Elizabeth Goetz)
+",1
+" ZRogers at archenergy.com (Zack Rogers)
+",1
+" Anthony at GeoEnergyServices.com (Anthony Hardman)
+",1
+" john.daglish at vnumail.com (john.daglish vnu)
+",1
+" alvaro.urrutia at gmail.com (Alvaro Urrutia)
+",1
+" mrooke at envinity.com (Matthew Rooke)
+",1
+" sbedard at bpa.ca (sbedard at bpa.ca)
+",1
+Kiran Kumar via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" spitler at okstate.edu (Jeffrey D. Spitler)
+",1
+" sliu at archenergy.com (Simeng Liu)
+",1
+" rshea at noresco.com (Shea, Rebecca)
+",1
+" giles.de at mindspring.com (Derrick Giles)
+",1
+rishabh kasliwal <rishabh@kamalcogentenergy.com>,1
+parthesh soni <psoni@krishnaos.com>,1
+" Benny Chow <bennychow816 at gmail.com>
+",1
+" jburgess at facadegroup.com (Jillian Burgess)
+",1
+" sravi at design.upenn.edu (Ravi Srinivasan)
+",1
+" yuskalkadin at gmail.com (Yuskal Kadin)
+",1
+" jamie.bull at oco-carbon.com (Jamie Bull)
+",1
+" joel at andelmanlelek.com (Joel Travis)
+",1
+" nhkvarma.archi at gmail.com (hara kumar varma namburu)
+",1
+" kyriaki.goulouti at epfl.ch (Goulouti Kyriaki)
+",1
+" rishabh at kamalcogentenergy.com (rishabh kasliwal)
+",1
+" stephen.wittkopf at nus.edu.sg (Stephen K Wittkopf)
+",1
+" zesmer at earthlink.net (Sarah Zesmer)
+",1
+" davethomasis at hotmail.com (David Carroll)
+",1
+Paul Raftery <p.raftery@berkeley.edu>,1
+Ralph Evins via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" machesis at comcast.net (Conrad)
+",1
+" revans at energyprofiles.com (Ryan Evans)
+",1
+" krishh666 at gmail.com (krishnaji pawar)
+",1
+anant Joshi <anantjoshi@asme.org>,1
+" manuel.ruiz at dim.unirioja.es (=?iso-8859-1?Q?Manuel_Mar=EDa_Ruiz_De_Adana_Santiago?=)
+",1
+Dominique Michaud via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" kevin at gilleranenergy.com (Kevin P. Gilleran)
+",1
+Ellen Franconi <efranconi@rmi.org>,1
+" jhuber at udk-berlin.de (Joerg Huber)
+",1
+" AGilbert at icfconsulting.com (Gilbert, Angela)
+",1
+" ppulliam at bhengineers.com (Pam Pulliam)
+",1
+" michael.tillou at gmail.com (MIke Tillou)
+",1
+Saber Khoshdel-Nikkho via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" Pete.Thompson at arup.com (Pete Thompson)
+",1
+" gilerbert73 at gmail.com (Jin Moon)
+",1
+" bldgsim at hotmail.com (Kevin Wyman)
+",1
+" Drury.Crawley at EE.DOE.GOV
+",1
+" p.ashraf at aesg-me.com (Ashraf Khan)
+",1
+" ross.namiranian at ifactor.com (Ross Namiranian)
+",1
+" member at linkedin.com (Salah Mahdi via LinkedIn)
+",1
+" droberts at archenergy.com (Dave Roberts)
+",1
+" l.brotas at unl.ac.uk (l.brotas at unl.ac.uk)
+",1
+" bradw at pae-engineers.com (Brad Wilson)
+",1
+" karol.bandurski at put.poznan.pl (Karol BANDURSKI)
+",1
+" jbradburn at rmhgroup.com (jbradburn at rmhgroup.com)
+",1
+Jaeyoon Koh <jaeyoon.koh@lge.com>,1
+" malkawi at design.upenn.edu (Ali Malkawi)
+",1
+" frano at mcei.com (Fran Ohman)
+",1
+" saskia.gabriel at artesis.be (=?iso-8859-1?Q?Gabri=EBl_Saskia?=)
+",1
+" richd at enertiaenergy.com (Rich Davis)
+",1
+" mtravers at RDKEngineers.com (Travers, Mike)
+",1
+" doug at greenroundtable.org (Doug Kot)
+",1
+" runabha at gmail.com (Arunabha Sau)
+",1
+Peter Simmonds via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" lester.d.jackson at gmail.com (Lester Jackson)
+",1
+" chinfook at gmail.com (chinfook at gmail.com)
+",1
+Robin Mitchell <rdmitchell@lbl.gov>,1
+James Hansen via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" mmlpatterson at gmail.com (Michael Patterson)
+",1
+" heiples at cecs.pdx.edu (shem heiple)
+",1
+" welter.sebastian at googlemail.com (Sebastian Welter)
+",1
+" glenmerc at sonic.net (Glenn Mercurio)
+",1
+" piyush at edsglobal.com (Piyush Varma)
+",1
+" Peter.Alspach at keeneng.com (Peter Alspach)
+",1
+" nhouldson at glumac.com (Natasha Houldson)
+",1
+" Karen Walkerman <kwalkerman at gmail.com> 
+",1
+" alvarofialho at gmail.com (=?ISO-8859-1?Q?=C1lvaro_Fialho?=)
+",1
+" radler63 at hotmail.com (E Radler)
+",1
+" marcello.caciolo at mines-paristech.fr (Marcello Caciolo)
+",1
+" ar.pvnramesh at gmail.com (PVN Ramesh)
+",1
+" james.young82 at yahoo.com (James Young)
+",1
+" AParekh at NRCan.gc.ca (Parekh, Anil)
+",1
+RobertWichert via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" Yehuda at NewSource-Energy.com (Yehuda Israel)
+",1
+" brians at paemail.com (Brian K. Schultz)
+",1
+" joester at dcengineering.net (Joel Oester)
+",1
+" david.geddes at iesve.com (David Geddes)
+",1
+=?iso-8859-2?Q?Bogn=E1r_=C1d=E1m?= <bognar.adam@abud.hu>,1
+" cdbuntine at hedev.com (Buntine, Chris)
+",1
+" STURDIVC at rmf.com (Christopher Sturdivant)
+",1
+" SRegan at Vanderweil.com (Regan, Scott)
+",1
+Kera Lagios <keralagios@gmail.com>,1
+" ming_s_hwa at yahoo.com (ming hwa)
+",1
+" kummert at sel.me.wisc.edu (=?iso-8859-1?Q?Micha=EBl_Kummert?=)
+",1
+" alonso at MIT.EDU (Alonso Dominguez Espinosa)
+",1
+" jluck at jsace.com (Jane C. Luck)
+",1
+Christopher Schaffner via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" bungane.mehlomakulu at ibece.net (Bungane Mehlomakulu)
+",1
+" bedrune at laurenti.com (Jean Pierre BEDRUNE)
+",1
+" grammy.jiang at gmail.com (Grammy Jiang)
+",1
+" Gerald Pde <geraldpde at yahoo.com>
+",1
+" ewei at iesllc.biz (Elise Wei)
+",1
+Leo Su via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" bharathidhasan.r at en3online.com (Bharathidhasan)
+",1
+Joe Chappell <Joe.Chappell@designengineers.com>,1
+" gjernstrom at CDiengineers.com (Greg Jernstrom)
+",1
+" fhartley at dynamix-ltd.com (Frank Hartley)
+",1
+"""G. Bradley Guy via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+Samuel Letellier-Duchesne <samuel.letellier-duchesne@polymtl.ca>,1
+" czabaneh at davislangdon.us (Christopher Zabaneh)
+",1
+" cordier at cict.fr (Alain CORDIER)
+",1
+" troyg at telus.net (Troy Glasner)
+",1
+" mark.blackwood at riverpltech.com (Mark Blackwoood)
+",1
+" vic at pear-trees.demon.co.uk (Victor Hanby)
+",1
+" buildenergysim at gmail.com (buildenergysim)
+",1
+" ed.cremin at atelierten.com (Ed Cremin)
+",1
+" smita at andrew.cmu.edu (Smita)
+",1
+Mili Kyropoulou <mili.kyropoulou@gmail.com>,1
+" fazia.alitoudert at daad-alumni.de 
+",1
+" allison.rutter at gmail.com (Allison Rutter)
+",1
+"""Michael O'Keefe"" <michael.okeefe@bigladdersoftware.com>",1
+Leonard Sciarra via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+Dan Johnson <dan@designandenergy.com>,1
+" Faruq.Ahmed at stantec.com (Ahmed, Faruq)
+",1
+" ""Matthew W. Higgins"" <MWHiggins at bpce.com>
+",1
+Alfonso Hernandez via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+Amin Moazami <amin.moazami65@gmail.com>,1
+" bill.liu at umowlai.com.au (Bill Liu)
+",1
+" romer at ecn.nl (Jan Romer)
+",1
+" ""Santiago Velez"" <santiagogvelez at gmail.com>
+",1
+" wufi2004 at yahoo.ca (Wu Min)
+",1
+" pieterdewilde at arch.gatech.edu (Pieter de Wilde)
+",1
+Bin Yan <byan@gsd.harvard.edu>,1
+" kgorczynski at olace.com (Kerry Gorczynski)
+",1
+" Bernd at icceconsul.com (=?iso-8859-1?Q?Bernd_Espa=F1a?=)
+",1
+" eturner at DLRGROUP.com (Turner, Erik)
+",1
+"""Jie Zhao, PhD"" <jie.zhao@delos.com>",1
+" john.daglish at vnumail.com (jd)
+",1
+Mike Najaf via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+"""Sami, Vikram via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+" Adam_Torborg at energymodelhelp.com (Adam Torborg)
+",1
+" pkedrows at hotmail.com (Philip Kedrowski)
+",1
+" nouri.zarg at gmail.com (amelia zargandeh)
+",1
+" rmoheisen at ara.com (Ragab M. Moheisen)
+",1
+"""Goel, Supriya via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+" AutifS at twgi.com (Sayyed, Autif)
+",1
+" dwortman at brendlegroup.com (Dave Wortman)
+",1
+" VPal at lbl.gov (Vineeta Pal)
+",1
+" cameron.johnstone at strath.ac.uk (C Johnstone)
+",1
+" rrichman at sympatico.ca (Russell Richman)
+",1
+" marinafehl at gmx.de (Marina Fehl)
+",1
+" Nancy.Zikri at BuroHappold.com (Nancy Zikri)
+",1
+" eduardocunha81 at gmail.com (Eduardo Cunha)
+",1
+" Daniel.Gstoehl at uni.li (=?iso-8859-1?Q?Gst=F6hl_Daniel?=)
+",1
+" jjlee7 at asu.edu (John Lee)
+",1
+" smodi at umich.edu (smodi at umich.edu)
+",1
+" froshin at dasskorea.com (Yook Lewis)
+",1
+" mhardy at blackoakengineering.com (Michael Hardy)
+",1
+" mattb at rlw.com (Matt Brost)
+",1
+" aleka.pappas at gmail.com (Aleka Pappas)
+",1
+k bk via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" rego.teixeira at ineti.pt (=?iso-8859-1?Q?Ant=F3nio_Rego_Teixeira?=)
+",1
+" Michael_Sm at ieice.com (Mike Smith)
+",1
+" JJB at BRPLUSA.COM (Butz, Jeffrey)
+",1
+" daniel.tuhus.dubrow at gmail.com (Daniel Tuhus-Dubrow)
+",1
+" yipch at emsd.gov.hk (Martin Yip)
+",1
+" mmottill at NRCan.gc.ca (Mottillo, Maria)
+",1
+"""Jones, Christopher"" <Christopher.r.Jones@wspgroup.com>",1
+" David.Gibney at hdrinc.com (Gibney, David)
+",1
+" fminoyetti at gmail.com (francisco minoyetti)
+",1
+" kprabhu at swinter.com (Kishore Prabhu)
+",1
+" Alamelu.Brooks at icfi.com (Brooks, Alamelu)
+",1
+" stravoravdiss at yahoo.com (Spyros Stravoravdis)
+",1
+" oxis at aix.meng.auth.gr (Simos Oxizidis)
+",1
+" michael.kummert at gmail.com (=?iso-8859-1?Q?Micha=EBl_Kummert?=)
+",1
+" rod.boerman at gmail.com (Rodney Boerman)
+",1
+" eallen at long.com (Edward Allen)
+",1
+" amy at friedandcompany.com (Amy Fried)
+",1
+" member at linkedin.com (Shubhra Kothari via LinkedIn)
+",1
+" Shruti.Kasarekar at arup.com (Shruti Kasarekar)
+",1
+" Graham Carter & Megan Lyall <hamnmegs at ozemail.com.au> 
+",1
+" alexandra.gibson at arup.com (Alexandra Gibson)
+",1
+Walzer Annette <walzer@ibi.baug.ethz.ch>,1
+" joel.yow at hdrinc.com (Yow, Joel)
+",1
+" kiwiindo at yahoo.com.sg (E. McMillan (EES))
+",1
+" j.woodall at hcma.ca (James Woodall)
+",1
+" staff at dmiinc.com (Mark Mullins)
+",1
+" jhrovat at nwenergy.com (Jeff Hrovat)
+",1
+"""Nagy, Gyorgy Zoltan"" <nagy@utexas.edu>",1
+" ibeausol at mae.carleton.ca (Ian Beausoleil-Morrison)
+",1
+" jpkidd at hydro.mb.ca (Kidd, Peter)
+",1
+" morgan.heater at sea.fk.com (Heater, Morgan B.)
+",1
+" quecen at yahoo.com (ece k)
+",1
+" centag14 at necso.es (centag14 at necso.es)
+",1
+" smitagupta at attbi.com (smitagupta at attbi.com)
+",1
+" haneef at hmsmep.com (Haneef Shakeel)
+",1
+" gtg590u at mail.gatech.edu (Huafen Hu)
+",1
+" brycem at enertiaenergy.com (brycem at enertiaenergy.com)
+",1
+" ""Rathna Shree"" <rathnashreep at yahoo.in>
+",1
+" christensen at econergy.net (Eric Christensen)
+",1
+" jvirskus at emcengineers.com (Jason Virskus)
+",1
+" jszhang at purdue.edu (Jinsong Zhang)
+",1
+" gkg at uow.edu.au (Georgios Kokogiannakis)
+",1
+" jhansen at ghtltd.com (James Hansen)
+",1
+" kitty.knauz at exeloncorp.com (kitty.knauz at exeloncorp.com)
+",1
+" camilovelez at greenfactory.com.co (Camilo Velez :::Green Factory:::)
+",1
+" jose.hernandez-de-pedro at strath.ac.uk (mr jose hernandez de pedro)
+",1
+" member at linkedin.com (John Aulbach, PE,  CEM via LinkedIn)
+",1
+" micha radi <micharadi at hotmail.com> 
+",1
+" ""Matutinovic, Luka"" <LMatutinovic at halsall.com>
+",1
+" Darren.Lewis at hdrinc.com (Lewis, Darren P.)
+",1
+" salahemail at gmail.com (Salah Mahdi)
+",1
+" Pierre.Hollmuller at cuepe.unige.ch (Pierre.Hollmuller at cuepe.unige.ch)
+",1
+" Shuichi.Hendrickson at erm.com (Shuichi Hendrickson)
+",1
+" reichard at vt.edu (Reichard, Georg)
+",1
+" sun55 at optusnet.com.au (Tejes Das)
+",1
+" timothyfu at gmail.com (Tim Fu)
+",1
+" Sansregret.Simon at ireq.ca (Sansregret, Simon)
+",1
+Anderson Letti <anderson.a.letti@gmail.com>,1
+" Jesse at ViridianUSA.com (Jesse Eisenhart)
+",1
+" acaron at ecosynergy.ca (Amelie)
+",1
+" amarino2010 at yahoo.com (Amy Marino)
+",1
+" erik.wurster at ensi.no (Erik Wurster)
+",1
+Akshay Gupta <akshaykg@gmail.com>,1
+" Jason.Schaeffer at crbusa.com (Jason Schaeffer)
+",1
+" PWilkins at perrycrabb.com (Patrick C. Wilkins)
+",1
+" AmirKavousian at Gmail.com (Amir Kavousian)
+",1
+" newyork at climateform.com (ClimateForm)
+",1
+" ZaiyiL at bre.co.uk (Zaiyi, Liao)
+",1
+Justin Wong via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" Jess.Harper at jacobs.com (Harper, Jess A.)
+",1
+" etouma at aa-ae.com (Elie Touma)
+",1
+" DFerzacca at arcengrs.com (Dustin Ferzacca)
+",1
+" mstein at geopraxis.com (Margie Stein)
+",1
+Murray Milne via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" S.Smith at ha-inc.com (Stephen Smith)
+",1
+" aliyaras at gmail.com (Ali Yaras)
+",1
+Sam Borgeson <sborgeson@berkeley.edu>,1
+" john.daglish at vnumail.com (john.d vnu)
+",1
+Julie Hendricks via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" Alexej.Goehring at arup.com (Alexej Goehring)
+",1
+" ashu.gupta at hdrinc.com (Gupta, Ashu)
+",1
+" j_a_herbert at yahoo.com (John Herbert)
+",1
+" mcdowell at tess-inc.com (Timothy P. McDowell)
+",1
+" YGAO at cxgbs.com (G GAO)
+",1
+" jlwarner at lbl.gov (Jeffrey L. Warner)
+",1
+" AlfonsoH at kirksey.com (Alfonso Hernandez)
+",1
+" Andy McNamara <andyjmc at gmail.com> 
+",1
+" randy at hvacware.net (randy wilkinson)
+",1
+" Jose.L.CastroAguilar at student.uts.edu.au (Jose Castro Aguilar)
+",1
+" answers at healthyheating.com (answers at healthyheating.com)
+",1
+" jmcmains at burnsmcd.com (McMains, Jarrod)
+",1
+Nathan Kegel via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" m.gresty at kinetixllc.com (Michael Gresty)
+",1
+Yeonsook Heo <yeonsook.heo@gmail.com>,1
+Ralph Muehleisen <rmuehleisen@anl.gov>,1
+" ee4 at NRCan.gc.ca (EE4 Support)
+",1
+" rsaikowski at consolidated.net (Ron Saikowski)
+",1
+"""Rosenberg, Michael I"" <Michael.Rosenberg@pnnl.gov>",1
+" keralagios at gmail.com (Kera Lagios)
+",1
+" andrew at passivehouse.ca (Andrew Peel)
+",1
+" ssookdeo at manascisaac.com (Steven Sookdeo)
+",1
+" Joe Huang <yjhuang at whiteboxtechnologies.com>
+",1
+" philippe_rynikiewicz at yahoo.fr (=?iso-8859-1?q?Philippe=20Rynikiewicz?=)
+",1
+Meredith Davey <meredith.davey@atelierten.com>,1
+" alex at slow-coach.freeserve.co.uk (Alex Harvey)
+",1
+" utsumi at miyagi-ct.ac.jp (utsumi)
+",1
+" boukara at marseille.archi.fr (Aziz)
+",1
+" TomM at TWGI.com (Tom McDougall)
+",1
+" alex555 at fastmail.fm (alex555 at fastmail.fm)
+",1
+" bquitadamo at RDKEngineers.com (Quitadamo, Bob)
+",1
+andyhoover <andyhoover@thebestconsultant.com>,1
+" ashish.jindal at teri.res.in (Ashish Jindal)
+",1
+" elfredyang at gmail.com (Elfred Yang)
+",1
+" richard.juntunen at cbengineers.com (Richard Juntunen)
+",1
+Will Turner via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" Lyons at ZapotecEnergy.com (Paul Lyons)
+",1
+" aallen at bnim.com (Amy Allen)
+",1
+" YuanY at utrc.utc.com (Yuan, Yuan Export License Required - US UTRC)
+",1
+" hyphen at dial.pipex.com (Mark and/or Jan Bigland-Pritchard)
+",1
+Justin Shultz via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" kprabhu at viridianee.com (Kishore Prabhu)
+",1
+" rob at spaulding-associates.com (Rob Spaulding)
+",1
+" bernd at icceconsul.com (=?iso-8859-1?Q?Bernd_Espa=F1a?=)
+",1
+" bwalker at breadloaf.com (Bevan Walker)
+",1
+" davecstewart at ns.sympatico.ca (David Charles Stewart)
+",1
+" dtan at psdconsulting.com (=?utf-8?Q?David=20Tan?=)
+",1
+" jmartell at mreng.ca (Jake Martell)
+",1
+" pdolan at serenasturm.com (Pat Dolan)
+",1
+" gmasters at stanford.edu (Gil Masters)
+",1
+" DavidStrip at comcast.net (David Strip)
+",1
+" msegal at cadmusgroup.com (Michael Segal)
+",1
+"""D. Charlie Curcija"" <dccurcija@lbl.gov>",1
+" gt6102a at prism.gatech.edu (Hyeun Jun Moon)
+",1
+Paul S Potter via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" PMatthes at eonerc.rwth-aachen.de (Matthes, Peter)
+",1
+=?UTF-8?Q?V=C3=ADctor_Moreno_Solana?= <gestienergetica@gmail.com>,1
+" ali.benbrahim at bbatechnology.com (Ali Benbrahim)
+",1
+" zhouzr at cabr-sh.com (=?gb2312?B?1tzWvsjK?=)
+",1
+Timur Dogan via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" dsmith at cesct.com (Delbert Smith)
+",1
+" E.Mantesi at lboro.ac.uk (Eirini Mantesi)
+",1
+" jjones at rmhgroup.com (jjones at rmhgroup.com)
+",1
+" ebrancif at aerotek.com (Branciforte, Emily)
+",1
+" stephane.bertagnolio at ulg.ac.be (Stephane Bertagnolio)
+",1
+" info at comnet.org (info at comnet.org)
+",1
+" Aleka Pappas <APappas at enermodal.com>
+",1
+" cgoldstein at epstengroup.com (Craig Goldstein)
+",1
+" perry.steiner at facilities.gatech.edu (Steiner Perry)
+",1
+" mbasarkar at fsec.ucf.edu (Mangesh Basarkar)
+",1
+" imaor at comcast.net (Itzhak Maor)
+",1
+" rjhitchcock at gmail.com (Rob Hitchcock)
+",1
+" amcewin at jordanskala.com (Aaron McEwin)
+",1
+Guillaume Martel via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" michaeld at lseng.com (michael)
+",1
+" d.bradley at cstb.fr (David BRADLEY)
+",1
+" nuno.rolo at hotmail.com (nuno.rolo at hotmail.com)
+",1
+" modelingcomp at ibpsanyc.com (SimBuild 2010 Energy Modeling Competition)
+",1
+" Liam.OBrien at carleton.ca (Liam O'Brien)
+",1
+" leeed2001 at gmail.com (Edwin Lee)
+",1
+" MBlank at Sebesta.com (Mary Blank)
+",1
+" urban at marbek.ca (Ruth E. Urban)
+",1
+" wryan at uic.edu (William A. Ryan)
+",1
+" NSandoz at EMEGroup.com (Nick Allen-Sandoz)
+",1
+Leigh Mingledorff <leighm@rushingco.com>,1
+" keith0523 at gmail.com (Keith Huang)
+",1
+equest user <equestuser00@gmail.com>,1
+" franklinhl at gmail.com (Franklinhl)
+",1
+" Jeremy Poling <jpoling at epsteinglobal.com<mailto:jpoling at epsteinglobal.com>>
+",1
+" ylui at Sebesta.com (Yury Lui)
+",1
+" quynh79 at hotmail.com (Liu Jing)
+",1
+" jmt at abacus-engr.com (John M. Topmiller)
+",1
+" fil_cunha at sapo.pt (Filipe Cunha)
+",1
+"""Chip Barnaby"" <chipbarnaby@gmail.com>",1
+Waqas Khalid via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" paloma.cubillas at uca.es (Paloma Cubillas Fdez.)
+",1
+" lanfang.liu at hotmail.com (lanfang liu)
+",1
+" jaykeazer at gmail.com (Jay Keazer)
+",1
+" caw6y at virginia.edu (Christin Whitco)
+",1
+" david at d-n-a-design.com (david at d-n-a-design.com)
+",1
+" bliu at emcengineers.com (Bing Liu)
+",1
+"""Winkler, Jon via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+" imran at hmsmep.com (Imran Syed)
+",1
+"""Cheol Soo Park"" <cheolspark@skku.edu>",1
+" Charles Eley <charles at eley.com>
+",1
+" gthomas at psdconsulting.com (Gregory Thomas)
+",1
+" ksorce at tin.it (Maurizio)
+",1
+" alex at termodeck.com (=?iso-8859-1?Q?Alexander_Engstr=F6m?=)
+",1
+" c_dhamne at yahoo.com (Chinmay Dhamne)
+",1
+" jeffr at sandpebblebuilders.com (Jeff Romanosky)
+",1
+" ken at iblogix.com (Ken Kolkebeck)
+",1
+" majid.h at pbworld.com (Sapar, Majid Haji)
+",1
+" mattiasj at clallampud.net (Mattias Jarvegren  x263)
+",1
+" AlpanaJain at setty.com (Alpana Jain)
+",1
+" info at pythonpoweredbuilding.com (info info)
+",1
+" bosworth at buildlab.net (David Bosworth)
+",1
+Xing Chen via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" xpaolo.mari at gmail.com (Paolo Mari)
+",1
+" gzeng at royalservice.com (Gary Zeng )
+",1
+" kevinm at madisonengineeringps.com (Kevin Madison)
+",1
+<Dru.Crawley@bentley.com>,1
+" paloma.cubillas at uca.es (=?iso-8859-1?Q?Paloma_Roc=EDo_Cubillas_Fern=E1ndez?=)
+",1
+" coutinho at fis.ua.pt (Jose Coutinho)
+",1
+" Rohini Brahme <rbrahme at harc.edu>
+",1
+Martin Roy via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" ""Ellis, Peter"" <Peter_Ellis at nrel.gov> 
+",1
+" mike at bvm-engineering.com (Mike Gutowski)
+",1
+" beshikhar at gmail.com (beshikhar at gmail.com)
+",1
+" dmwhitsett at gmail.com (Dason Whitsett)
+",1
+" brad at lseng.com (Brad Bergler)
+",1
+" atilarios at hotmail.com (Atila Rios)
+",1
+Edie Taylor <edith.taylor28@gmail.com>,1
+" heimrath at iwt.tu-graz.ac.at (Richard Heimrath)
+",1
+" Godfried.Augenbroe at coa.gatech.edu (AUGENBROE , GODFRIED L)
+",1
+" Manjinder.SINGH at projectservices.qld.gov.au (SINGH Manjinder)
+",1
+" brittelmann at ibacos.com (Bill D. Rittelmann)
+",1
+"""Athalye, Rahul A"" <Rahul.Athalye@pnnl.gov>",1
+" jorr at cxgbs.com (Joshua Orr)
+",1
+Alex Chapin via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" altengineer at gmail.com (Tim Guiterman)
+",1
+" meaganp at pae-engineers.com (Meagan Pischel)
+",1
+" gnoe at vwc.edu (Garry Noe)
+",1
+"""Jones, Christopher via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+amit bhansali via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" lmolinini at syska.com (Molinini, Louis)
+",1
+" mcook at dmu.ac.uk (Malcolm Cook)
+",1
+" Lizzie.Davies at arup.com (Lizzie Davies)
+",1
+" usa.recruitment at atelierten.com (A10 USA Recruitment)
+",1
+" umesh at innovativedesign.net (Umesh Atre, LEED)
+",1
+" ahussein at spsu.edu (hussein abaza)
+",1
+" arutter at rmi.org (Allison Rutter)
+",1
+Mike Kennedy <consumer@madronagrove.com>,1
+" jvidal at salleurl.edu (Jordina Vidal)
+",1
+" Melanie.Starrs at inbuilt.co.uk (Melanie Starrs)
+",1
+" lvolpi at societatorganica.com (Luca Volpi)
+",1
+"""Raslan, Rokia via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+" MSBERR at aol.com (MSBERR at aol.com)
+",1
+" Chris at zed-uk.com (Chris at zed-uk.com)
+",1
+" Claire.DasBhaumik at scottwilson.com (Claire Das Bhaumik)
+",1
+"""Vicki Lynne"" <vickil@ncat.org>",1
+Alessandro Maccarini <alessandro.maccarini@gmail.com>,1
+" James.F.Pegues at carrier.utc.com (Pegues, James F            CAR)
+",1
+" lasmith_architect.leed at yahoo.com (Larry Smith)
+",1
+" Glenn.M.Hansen at state.or.us (Glenn M Hansen)
+",1
+" Peter.Ellis at nrel.gov (Ellis, Peter)
+",1
+" er.ashokdhayal at gmail.com (Ashok Dhayal)
+",1
+mcdowell@tess-inc.com,1
+" curcija at ceere.org (Dragan Curcija)
+",1
+Liping Wang <lwang12@uwyo.edu>,1
+"""Marcus Sheffer"" <sheffer@sevengroup.com>",1
+" MKennedy at Vanderweil.com (Kennedy, Michael)
+",1
+" mgraney at bhengineers.com (Michael Graney)
+",1
+" zhxu1 at vt.edu (xu zheng)
+",1
+" coder.myers at emp2.com (Coder Myers)
+",1
+" RSingla at taylor-engineering.com (Rupam Singla)
+",1
+" ryan.oswald at pureecoes.com (Ryan Oswald)
+",1
+David Berty <dberty@baselineenergyconsulting.com>,1
+Hayes <hzirnhelt@hotmail.com>,1
+" Christopher.Ercoli at wspfk.com (Ercoli, Christopher)
+",1
+" a.lahme at alware.de (Andreas Lahme)
+",1
+Erik Olsen <Olsen@Transsolar.com>,1
+"""Matthes, Peter via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+" JLukes at RGVP.Vanderweil.com (Lukes, Jason)
+",1
+" RMalcolm at edison-source.com (RMalcolm at edison-source.com)
+",1
+" ""Chris Jones"" <cj at enersave.ca<mailto:cj at enersave.ca>>
+",1
+" georg.suter at tuwien.ac.at (Georg Suter)
+",1
+R B via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" Kai.Kang at jacobs.com (Kang, Kai)
+",1
+" frederico.goncalves at cstb.fr (Goncalves, Frederico)
+",1
+Alessandro Gober <alessandro.gober@yahoo.it>,1
+Simge Andolsun <simgeandolsun@gmail.com>,1
+" pedro_peixeiro at hotmail.com (Pedro Peixeiro)
+",1
+" JMaxwell at aspensys.com (Maxwell, Jon)
+",1
+" dkoerniawan at yahoo.com (donny koerniawan)
+",1
+" dan at eeenviro.com (dan at eeenviro.com)
+",1
+" michele at technobuild.com.br (Michele Matos)
+",1
+" ltodd at dmiinc.com (Lagan Todd)
+",1
+" ""Kruis, Neal"" <Neal.Kruis at nrel.gov>
+",1
+" Anamaria.Isaacs at autodesk.com (Anamaria Isaacs (Temp))
+",1
+" alexandre.nassiopoulos at ifsttar.fr (Alexandre Nassiopoulos)
+",1
+" Mike at Roberts-Engineering.com (Mike Roberts)
+",1
+" davit_john at yahoo.com (John Davit)
+",1
+" mcevoy at engr.mun.ca (mcevoy at engr.mun.ca)
+",1
+" jallard at bpa.ca (Allard, Julien)
+",1
+" Andrew.Phelps at larsonbinkley.com (Andrew Phelps)
+",1
+" careers_losangeles at hedev.com (`Careers Los Angeles)
+",1
+" yhc22 at glink.drexel.edu (Lisa Chen Ng)
+",1
+Paul Erickson <perickson@aeieng.com>,1
+" chuck at ckollars.org (Chuck Kollars)
+",1
+" blair at sel.me.wisc.edu (Nate Blair at MTM)
+",1
+Eva Skorupka <eva@karpmanconsulting.net>,1
+" joe.kwiatkowski at ecofactor.com (Joe Kwiatkowski)
+",1
+" sbedard at bpa.ca (=?Windows-1252?Q?=22B=E9dard=2C_Simon=22?=)
+",1
+Scott Yager <yager@eceng.com>,1
+Ian Johnson <ian@signaturesustainability.com>,1
+" mapascual at nclimate.com (Miguel Angel Pascual Buisan)
+",1
+" Ali Hajiah <ahajiah at safat.kisr.edu.kw> 
+",1
+" ospelt at alum.mit.edu (Christoph Ospelt)
+",1
+" jandrews at rumseyengineers.com (John Andrews)
+",1
+" seyong.choi at kr.bureauveritas.com (seyong.choi at kr.bureauveritas.com)
+",1
+" bennychow at cuhk.edu.hk (Benny KM Chow (CUHK))
+",1
+" edith.taylor28 at gmail.com (Edie Taylor)
+",1
+" b.walker.smith at velux.com (b.walker.smith at velux.com)
+",1
+" hittle at lamar.colostate.edu (Doug)
+",1
+" randy at mail.hvacware.net (Randy Wilkinson)
+",1
+Mostapha Sadeghipour Roudsari <sadeghipour@gmail.com>,1
+Lincoln Christopher Harmer via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" MASTEWART23 at aol.com (MASTEWART23 at aol.com)
+",1
+" Fredrik.E.Karlsson at sweco.se (=?Windows-1252?Q?Karlsson_Fredrik_E__Systems_Norrk=F6ping?=)
+",1
+" Sangeetha Divakar <sangeetha_divakar at yahoo.com> 
+",1
+" mvidaurre at unav.es (mvidaurre at unav.es)
+",1
+" omoltay at mimtarch.com (=?iso-8859-9?Q?=D6mer_Moltay?=)
+",1
+" kimk at notkinhi.com (Kim Kido)
+",1
+" caussant at gmail.com (Christianne Aussant)
+",1
+" MaggieCZou at enovity.com (Chen [Maggie] Zou)
+",1
+" felipe at b-green.cl (=?iso-8859-1?Q?Felipe_Dur=E1n?=)
+",1
+" praveerkum at gmail.com (Praveer Kumar)
+",1
+" mabadie at univ-lr.fr (mabadie at univ-lr.fr)
+",1
+"""Laouadi, Abdelaziz via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+" JulieH at kirksey.com (Julie Hendricks)
+",1
+" jross3 at erols.com (john ross)
+",1
+" GRECH at cua.edu (Grech, Christopher P.)
+",1
+Bob Towell via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" amarpreet.sethi at keeneng.com (Amarpreet Sethi)
+",1
+Xiangjin Yang via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" marialidakoun at gmail.com (Maria-Lida Kou)
+",1
+" giuseppe.toniato at riellogroup.com (Giuseppe Toniato)
+",1
+" jyquinette at tecsol.fr (Jy.Quinette)
+",1
+" mgangemi at wood-harbinger.com (Matt Gangemi)
+",1
+" frenzel at transsolar.com (Christian Frenzel)
+",1
+Rut Wattanasak <rut.wattanasak@gmail.com>,1
+" andrew at heliosltd.com (andrew at heliosltd.com)
+",1
+" th.psomas at gmail.com (=?UTF-8?B?zqbOkc6dzpfOoyDOqM6pzpzOkc6j?=)
+",1
+paul <paul@esru.strath.ac.uk>,1
+David Reddy <david@360-analytics.com>,1
+" William.A.Ernst at jci.com (William.A.Ernst at jci.com)
+",1
+" perry.steiner at facilities.gatech.edu (Steiner, Perry)
+",1
+" jhansen at ghtltd.com (JHANSEN)
+",1
+" jkaiser at franklinenergy.com (Jay Kaiser)
+",1
+" dlarson at smithandandersen.com (Dan Larson)
+",1
+" beaware.350ppm at gmail.com (Bea Ware)
+",1
+" hcl_altatech at yahoo.com (Hector Lee)
+",1
+" rishii at aesc-inc.com (Ronald K. Ishii)
+",1
+" steadys at charter.net (mike steadman)
+",1
+"""Soto-Alvarez, Diana"" <DSoto-Alvarez@cosentini.com>",1
+" JedcoCEO at aol.com (JedcoCEO at aol.com)
+",1
+Kyle Fridgen via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" a.orellana at usyd.edu.au (Abel Orellana)
+",1
+" VinayG at TWGI.com (Vinay Ghatti)
+",1
+" Gren_Yuill/CET/UNO/UNEBR at unomail.unomaha.edu (Gren_Yuill/CET/UNO/UNEBR at unomail.unomaha.edu)
+",1
+" wuxc at surbana.com (Wu Xuchao)
+",1
+" znammari at hotmail.com (zaher nammari)
+",1
+" john.connell at sourcecorptax.com (Connell, John)
+",1
+" jeff.buscher at gmail.com (Jeff Buscher)
+",1
+" sarah.moore at arup.com (Sarah Moore)
+",1
+Paul Riemer via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" bennychow816 at gmail.com (Benny Chow)
+",1
+" Kathiresan.Rajagopal at jci.com (Kathiresan.Rajagopal at jci.com)
+",1
+" jaulbach at sna.sempra-esco.com (John Aulbach)
+",1
+" adang at syska.com (Dang, Arvinder)
+",1
+" storm at essess.com (Storm Duncan)
+",1
+" JHowe at jbace.com (John Howe)
+",1
+" trevor at uppercanadamarine.com (Trevor Day)
+",1
+" anisur1294 at yahoo.com (Anisur Rahman)
+",1
+" Stirling Walkes <Swalkes at smseng.com> 
+",1
+"""Hollon, Ben"" <bhollon@antella-inc.com>",1
+" zjames at us.ibm.com (Zack James)
+",1
+" mstein at geopraxis.com (Marjorie Stein)
+",1
+" Allison.Coley at cjmw.com (Allison Coley)
+",1
+" mbarros at consultareng.com.br (Mauricio de Barros)
+",1
+" fcastore at abeldesigngroup.com (Filo Castore)
+",1
+" kcreamer at nc.rr.com (Kurt Creamer)
+",1
+Kjell Anderson via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+Claire Das Bhaumik via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+Chris Murphy <cmurphy@cenergistic.com>,1
+" soldattm at gmail.com (Maria Elena Soldatti)
+",1
+" chenyu73 at gmail.com (chen yu)
+",1
+" lyang at tjeg.com (Yang, Liu)
+",1
+"""West, Scott P"" <Scott.West@jacobs.com>",1
+"""Lavigne, Karine"" <Lavigne.Karine@ireq.ca>",1
+" mwh-arkitect at comcast.net (mwh-arkitect at comcast.net)
+",1
+" egreensfelder at rmi.org (Erik Greensfelder)
+",1
+Shana Scheiber <sscheiber@aeieng.com>,1
+" mookku at gmail.com (Chanikarn Yimprayoon)
+",1
+" michele at technobuild.com.br (Michele Matos Barcelos)
+",1
+" cmurphy at cenergistic.com (Chris Murphy)
+",1
+" lnorford at MIT.EDU (Les Norford)
+",1
+" judsonb at krahn.com (Judson Brown)
+",1
+" tepnhp at gateway.net (tepnhp)
+",1
+" Seongwon.Seo at csiro.au (Seongwon.Seo at csiro.au)
+",1
+" dve at BOUILLON-OR.com (David V. Edelstein)
+",1
+" Michel.DePaepe at rug.ac.be (Michel.DePaepe at rug.ac.be)
+",1
+" Larry Degelman <ldegelman at suddenlink.net>
+",1
+Nathaniel Jones <nathanieljon@gmail.com>,1
+" mike584595 at aol.com (mike584595 at aol.com)
+",1
+" kmayberry at emcad.ca (Kathleen Mayberry)
+",1
+AChapin@sriregistrar.com,1
+" goh5067 at psu.edu (GUIYUAN HAN)
+",1
+" jjones at rmhgroup.com (Jones, Jessica)
+",1
+" gauravm at rushingco.com (Gaurav Mehta)
+",1
+" FCWinkelmann at lbl.gov (Frederick C. Winkelmann)
+",1
+"""Christian Stalberg"" <christian@energymodeling.net>",1
+" gcg at ucsd.edu (Guilherme CG)
+",1
+" ambermahone1 at yahoo.com (Amber Mahone)
+",1
+" TKriel at sustaineng.com (Tony Kriel)
+",1
+" tcornish at taylor-engineering.com (Tracy Cornish)
+",1
+Evgenia Gorbachinsky <gorbachinsky@gmail.com>,1
+" marzia.sedino at som.com (Marzia Sedino)
+",1
+" daryl.summerson at stvinc.com (Daryl J Summerson)
+",1
+" aalok.deshmukh at gmail.com (Aalok Deshmukh)
+",1
+" bvempati at nexant.com (Vempati, Bhaskar)
+",1
+Jacob Dunn <jdunn@eskewdumezripple.com>,1
+" CoutinD at erdmananthony.com (Dan Coutin)
+",1
+" peter at xergyconsulting.com (Peter May-Ostendorp)
+",1
+Gasparella Andrea <andrea.gasparella@unibz.it>,1
+Pieter De Wilde via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" frederic.miranville at univ-reunion.fr (=?iso-8859-1?Q?Fr=E9d=E9ric_Miranville?=)
+",1
+" member at linkedin.com (John Aulbach, PE, CEM via LinkedIn)
+",1
+" nick at kgsbuildings.com (Nick Gayeski)
+",1
+" guillermo_soriano at hotmail.com (Guillermo Soriano)
+",1
+" yetsuh.frank at usgbcny.org (Yetsuh Frank)
+",1
+Shaun Martin via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+Ben Hollon <Ben@lankfordfendler.com>,1
+" avlokita_iitr at yahoo.co.in (Avlokita Agrawal)
+",1
+Esmail M Saber via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" serge.volkov at gmail.com (Serge Volkov)
+",1
+" jlucorrea at googlemail.com (=?ISO-8859-1?Q?Jos=E9_Luis?=)
+",1
+" Lixing Gu <gu at fsec.ucf.edu> 
+",1
+" alshaali at ucla.edu (Rashed K. Alshaali)
+",1
+" caria.roberto at tiscali.it (caria.roberto at tiscali.it)
+",1
+" pierre.hollmuller at fc.ul.pt (Pierre Hollmuller)
+",1
+" sjemmeri at email.nist.gov (Steven J Emmerich)
+",1
+" fervarela at gmail.com (Fernando Varela)
+",1
+" nathanieljon at gmail.com (Nathaniel Jones)
+",1
+" rkstrand at illinois.edu (Rick Strand)
+",1
+Michael J Witte via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" SOP at birch-krogboe.dk (SOP at birch-krogboe.dk)
+",1
+" anoop.vijayan at platinumsdi.com (Anoop Vijayan)
+",1
+"""Porter,
+	Frederick         NOR via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+" Nick Caton <ncaton at smithboucher.com>
+",1
+" djweiss at bgacal.com (Darren Weiss)
+",1
+" HBarhoun at cobaltengineering.com (Hayssam Barhoun)
+",1
+" gutschow at coffman.com (Gutschow, Ezra)
+",1
+" Kwongpm at aol.com (Kwongpm at aol.com)
+",1
+" Chris.Buntine at sce.com (Chris.Buntine at sce.com)
+",1
+" Al.Ketterer at benham.com (Ketterer, Al)
+",1
+"""Rosenberg, Michael I via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+"""Weili Xu"" <weili.xu@buildsimhub.net>",1
+" mshirong2003 at yahoo.com.cn (mshirong)
+",1
+" nochi at gmx.net (noci)
+",1
+" Varkie Thomas <thomasv at iit.edu> 
+",1
+" ckmail at pd.jaring.my (ck)
+",1
+" kstache at ringdu.com (Kirk Stache)
+",1
+" vleal at fe.up.pt (Vitor Leal)
+",1
+" pxu at lbl.gov (peng xu)
+",1
+Rysanek Adam <rysanek@arch.ethz.ch>,1
+" orabghi at engr.colostate.edu (omar)
+",1
+" archmghasemzadeh at gmail.com (Marzieh Ghasemzadeh)
+",1
+" dhardy at fau.edu (Deirdre Hardy)
+",1
+" M.Mirsadeghi at tue.nl (Mirsadeghi, M.)
+",1
+" usgbc at usgbc.org (USGBC)
+",1
+" Donald.Macritchie at lews.uhi.ac.uk (Donald Macritchie)
+",1
+" ats138 at psu.edu (Adam Szczepanski)
+",1
+"""Sarfraz Dairkee - M.A.H.Y. Khoory & Co. LLC"" <Sarfraz@mahykhoory.com>",1
+" abyarch at hotmail.com (abhay bhargava)
+",1
+" beatrizbarreiro at ymail.com (Beatriz Barreiro)
+",1
+" Kate.Colson at nrel.gov (Colson, Kate)
+",1
+" arch_mohammeds at yahoo.com (mohammed samier)
+",1
+" mdillon at AvistaAdvantage.com (Dillon, Mike)
+",1
+" djermyn at ryerson.ca (Denver Jermyn)
+",1
+" DContoyannis at archenergy.com (Contoyannis, Dimitrios    AEC)
+",1
+" chenzhuolun at hotmail.com (=?gb2312?B?17/C1yCzwg==?=)
+",1
+" Chris Jones <cj at cr-jay.ca> 
+",1
+" sonal at BuroHappold.com (Rashmi Sonal)
+",1
+" karen.hovenga at sbe.com.au (karen hovenga - SBE)
+",1
+" meenu_sahu at yahoo.com (Meenakshi Sahu)
+",1
+" info at bs2015.in (info at bs2015.in)
+",1
+" heeren at ibi.baug.ethz.ch (Heeren  Niko)
+",1
+" jens at voshage.net (Jens Voshage)
+",1
+" shrikar bhave <shrikarbhave at gmail.com>
+",1
+" John.Kennedy at autodesk.com (John Kennedy)
+",1
+Mattias Jarvegren x263 via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" Howard.But at arup.com (Howard But)
+",1
+" kraines at kpf.com (Raines, Krista)
+",1
+" jknayak at me.iitb.ac.in (J.K. Nayak)
+",1
+" Joe.Chappell at designengineers.com (Joe Chappell)
+",1
+" deepa at edsglobal.com (Deepa Parekh)
+",1
+"""Lauster, Moritz via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+" AMcMillen at ecw.org (Adam McMillen)
+",1
+" hittle at lamar.colostate.edu (Doug Hittle)
+",1
+" Philip.Pointer at BuroHappold.com (Philip Pointer)
+",1
+" hollywas at yahoo.com (hollywas at yahoo.com)
+",1
+" gozdegali at gmail.com (gozde gali)
+",1
+Kenneth Eldridge <keldridge@icdsllc.com>,1
+Rut W <sustainable8760@gmail.com>,1
+Joseph Firrantello <j.firrantello@gmail.com>,1
+" zhengdengc at yahoo.com (deng zheng)
+",1
+" eeesolomon at gmail.com (gideon solomon)
+",1
+" ""Morgan Heater"" <morgan at ecotope.com>
+",1
+" Holly W. Samuelson <hwasilow at gsd.harvard.edu>
+",1
+" beran_gc at yahoo.com (beran gurtekin)
+",1
+" ""Sheelam Khare"" <sheelamkhare26 at gmail.com>
+",1
+" peter_ellis at nrel.gov (Ellis, Peter)
+",1
+" rokiaraslan at aim.com (rokiaraslan at aim.com)
+",1
+" AsifChaudhry at DesignLearned.com (Asif Chaudhry)
+",1
+" ggoldblum at hedev.com (Goldblum, Gary)
+",1
+" John_Karasaki at pgn.com (John Karasaki)
+",1
+Ilker Karadag <ilkermimar@gmail.com>,1
+Claire Das Bhaumik <claire@inklingllp.com>,1
+" krishh666 at gmail.com (K. PAWAR)
+",1
+" tugrulkaraguzel at hotmail.com (tugrul karaguzel)
+",1
+"""Simon Taylor (Civil & Building Eng)"" <S.C.Taylor@lboro.ac.uk>",1
+" tdstrucely at interact.ccsd.net (Timothy D. Strucely)
+",1
+" jsaretsky at rumseyengineers.com (Jeff Saretsky)
+",1
+" adam at padiaconsulting.com (Adam Spach)
+",1
+" hlinton at psdconsulting.com (Heather Linton)
+",1
+" Derek.Whitehead at keen.ca (Derek Whitehead)
+",1
+" mterry at intraxinc.com (Melissa Terry)
+",1
+" raevans at aerotek.com (Ralph L. Evans Jr.)
+",1
+" hzirnhelt at hotmail.com (Hayes)
+",1
+Nicholas Blanton <nicholas.blanton@arup.com>,1
+" DBirleanu at ers-inc.com (Daniel Birleanu)
+",1
+Bill Talbert <btalbert@aeieng.com>,1
+" akrickx at integralgroup.com (Alexander Krickx)
+",1
+" dietrich at ou.edu (Joel K. Dietrich)
+",1
+" VerityW at tandf.co.uk (Verity Warne)
+",1
+" JingB at UTRC.utc.com (Jing, Buyun Export License Required - US UTRC)
+",1
+" ddhviste at drtel.net (Doug Hvistendahl)
+",1
+" kolderup at eley.com (Erik Kolderup)
+",1
+" justin.aruck at gmail.com (Justin Aruck)
+",1
+" rgaray at labein.es (rgaray at labein.es)
+",1
+" Justin.DeBlois at setty.com (Justin DeBlois)
+",1
+" khenry at walterfedy.com (Kevin Henry)
+",1
+" Jonathan Curtin <jcurtin at WylieAssociates.com> 
+",1
+Jon Previtali <jonprevitali@yahoo.com>,1
+" prasad.mukka at siemens.com (Mukka, Venkata Prasad (SCR US))
+",1
+mughalhumera2 via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" rcook at terrastructure.com (Rachel Cook)
+",1
+" emanuele.naboni at gmail.com (Emanuele Naboni)
+",1
+"""Jeanne"" <jeanne@brundt.com>",1
+" Maher.Hemod at rpeng.ca (Maher Hemod)
+",1
+" davidkais at gmail.com (David Kaiser)
+",1
+" eesmyal at recollective.ca (Eesmyal Santos-Brault)
+",1
+" Annalisa.Simonella at arup.com (Annalisa Simonella)
+",1
+" tanmay at edsglobal.com (Tanmay Tathagat)
+",1
+"""Wilkinson, Patrick via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+" iangball at hotmail.com (ian ball)
+",1
+" jan.potac at gmail.com (Jan Potac)
+",1
+" sasa.cemesova at tiscali.co.uk (sasa.cemesova at tiscali.co.uk)
+",1
+" sregan at emoenergy.com (Scott Regan)
+",1
+" Oskar.MaieramTinkhof.fl at ait.ac.at (Maier am Tinkhof Oskar)
+",1
+"""Patrick J. O'Leary, Jr. via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+Andy Tindale <Andy.Tindale@designbuilder.co.uk>,1
+" yizhao1 at vt.edu (Ying Zhao)
+",1
+" krishnajipawar at rocketmail.com (Krishnaji Pawar)
+",1
+" kendra.milton at iesve.com (Kendra Milton)
+",1
+" Kara.Hammond at eeiengineers.com (Kara Hammond)
+",1
+" K_Papamichael at lbl.gov (Konstantinos Papamichael)
+",1
+" ameetadalvi at gmail.com (ameeta dalvi)
+",1
+" hbarhoun at ehvert.com (Hayssam Barhoun)
+",1
+" kce4 at kamalcogentenergy.com (Kushagra Juneja)
+",1
+" Naaz, Bushra [mailto:Bushra.Naaz at Honeywell.com] 
+",1
+"""Cam Fitzgerald"" <fitzgerald@sevengroup.com>",1
+" GUY at cua.edu (Guy, G. Bradley)
+",1
+" MWaters at enermodal.com (Marlene Waters)
+",1
+" damien.tavan at gmail.com (Damien Tavan)
+",1
+" walzer at ibi.baug.ethz.ch (Walzer Annette)
+",1
+"""Deru, Michael via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+" don.koenig at sbt.siemens.com (Koenig Don)
+",1
+" kummert at engr.wisc.edu (=?ISO-8859-1?Q?Micha=EBl_Kummert?=)
+",1
+Felipe Lopes <felipelopes.arq@gmail.com>,1
+" waseemshahkhan at gmail.com (waseem khan)
+",1
+" malcolm.murray at lews.uhi.ac.uk (Malcolm Murray)
+",1
+" holdingsgi at live.com (Gunatilaka vasantha)
+",1
+" michela.chiogna at ing.unitn.it (Michela Chiogna)
+",1
+" armarts at yahoo.com.mx (armando lopez)
+",1
+Clarice Bleil de Souza via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" Bruce at Davidovich.com (Bruce Rohani)
+",1
+" aas at MichaelsEngineering.com (Andy Szczepaniak)
+",1
+" shresthass at ornl.gov (Shrestha, Som S.)
+",1
+" jdoherty at dcengineering.net (Josh Doherty)
+",1
+" lbarosow at yahoo.com (Lyuben Barosow)
+",1
+" mg at geopraxis.com (Matt Gangemi)
+",1
+Sheila Sagerer via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+Sven Moosberger <sven.moosberger@equa.ch>,1
+" Steven.Moller at dbce.csiro.au (Steve Moller)
+",1
+" pcunningham at klingstubbins.com (Cunningham, Phil)
+",1
+" astevens at dmiinc.com (=?iso-8859-1?Q?Alec=20Stevens?=)
+",1
+"""mikenajaf@yahoo.com"" <mikenajaf@yahoo.com>",1
+" rprochot at mag-net.com (Ronald Prochot)
+",1
+" Mark.Dewsbury at utas.edu.au (markd0)
+",1
+" dbc1109 at hotmail.com (Dave c)
+",1
+" Mike.Lemmon at waterfurnace.com (Mike Lemmon)
+",1
+Ajit Naik via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+"""Emir A. Pekdemir"" <aykutpekdemir@gmail.com>",1
+" mpaul at mail.smu.edu (Paul, Michael)
+",1
+David Bosworth <bosworth@buildlab.net>,1
+" scc68494 at ait.ac.th (Abdul Samad Kazi)
+",1
+" Jaime.Birman at arup.com (Jaime Birman)
+",1
+" miversen at uic.edu (Michael Iversen)
+",1
+" m.s.imbabi at abdn.ac.uk (Dr Mohammed Salah-Eldin Imbabi)
+",1
+Scott Haag via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+Zack Rogers <zrogers@daylightinginnovations.com>,1
+Volkan Ozdemir <ozdvolkan@gmail.com>,1
+" hguo at itecsys.com (Harry Guo)
+",1
+" eharrington at rmi.org (Eric Harrington)
+",1
+" j.hernandez at ntlworld.com (jhp)
+",1
+" Weimin.Wang at pnl.gov (Wang, Weimin)
+",1
+" jvoshage at kasian.com (Jens Voshage)
+",1
+" JustinW at fbe.unsw.edu.au (Justin Wong)
+",1
+" raquelviula at yahoo.co.uk (Raquel Viula)
+",1
+" dit5020 at gmail.com (David Tamayo)
+",1
+eugene badere via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" mark at 925talent.com (Mark Carmona)
+",1
+" eguiles at tagmechanical.com (Ellis Guiles)
+",1
+" cdavis at gbci.org (Christopher Davis)
+",1
+" thong at supersym.com.sg (Tianzhen HONG)
+",1
+" th.psomas at gmail.com (Theofanis Psomas)
+",1
+" odosiere at dmiinc.com (Olivier Dosiere)
+",1
+" schan at rmi.org (Siu Chan)
+",1
+" ffonics at gmail.com (nic)
+",1
+manasa lingamallu via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" astrid.roetzel at hcu-hamburg.de (Astrid Roetzel)
+",1
+" mvidaurre at unav.es (Marina Vidaurre Arbizu)
+",1
+" Title24 at iesve.com (Title24)
+",1
+Laide <lyday011@yahoo.com>,1
+" Gllf22 at aol.com (Gllf22 at aol.com)
+",1
+" kemerson at psco.com (Emerson, Keith)
+",1
+" ashraf at mecsd.com (Ashraf)
+",1
+" Scott Criswell <Scott.Criswell at doe2.com>
+",1
+"""Jonathan Kocher \(AIR\) via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+" ABAZAH at ecu.edu (Abaza, Hussein F)
+",1
+" postmaster at boxbe.com (postmaster at boxbe.com)
+",1
+" eguiles at tagmechanical.com (Ellis)
+",1
+" yeonsook.heo at gmail.com (Yeonsook Heo)
+",1
+Alshehri F via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" zdmhvac at yahoo.com (Daming Zhu)
+",1
+" jobs at usgbc.org (jobs at usgbc.org)
+",1
+" Sheelam Khare <sheelamkhare26 at gmail.com<mailto:sheelamkhare26 at gmail.com>>
+",1
+" adensmore at rumseyengineers.com (Alex Densmore)
+",1
+" John_Karasaki at pgn.com (John Karasaki )
+",1
+" Jeff Haberl <jeffhaberl at tees.tamus.edu> 
+",1
+" klair at iastate.edu (Kevin Lair)
+",1
+" karim.bibawi at retroficiency.com (Karim Bibawi)
+",1
+" Mika.Vuolle at sisailmatieto.com (Mika Vuolle)
+",1
+Nicholas Allen-Sandoz <nick@karpmanconsulting.net>,1
+" joao.santos at lmit.pt (=?iso-8859-1?Q?Jo=E3o_Pedro_Santos?=)
+",1
+" SafatlyM at mmm.ca (Maurice Safatly)
+",1
+" ecubi at irec.cat (Eduard Cubi)
+",1
+" erik.eriksson at white.se (Erik Eriksson)
+",1
+Volkan Ozdemir <Volkan.Ozdemir@rencons.com>,1
+" iball_bldgsim at yahoo.ca (Ian Ball)
+",1
+" cheng.chinfook at gmail.com (Simon C.)
+",1
+" daniel at buildingscience.com (Daniel Bergey)
+",1
+" nshank at dmu.ac.uk (Neil Shankland)
+",1
+" dgwaltbwa at gmail.com (Dug Gwalt)
+",1
+Lukas Hovee via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+"""Abushakra, Dr. Bass"" <abushakr@msoe.edu>",1
+Philip Haves <phaves@lbl.gov>,1
+Neal Kruis <neal.kruis@bigladdersoftware.com>,1
+" ILarsen at eheinc.com (Ivy Larsen)
+",1
+" santhosh at kalpakrit.com (Santhosh M)
+",1
+" gu at fsec.ucf.edu (Lixing Gu)
+",1
+" T.Yonker at ha-inc.com (Tina Yonker)
+",1
+" Siegrist, Adam <ASiegrist at akf-eng.com>
+",1
+leen peeters <l.f.r.peeters@gmail.com>,1
+" ross.harding at lincolnescott.com (Harding, Ross)
+",1
+" tobias.leibing at gmx.de (Tobias  Leibing)
+",1
+" yuqiong0309 at yahoo.cn (Yuqiong)
+",1
+" cholekar at gmail.com (=?UTF-8?B?U2FuamF5IOCkuOCkguCknOCkryBDaG9sZWthcg==?=)
+",1
+" JLecker at elmengr.com (Jason Lecker)
+",1
+Naddunuri Kumar <naddunuri.kumar@cept.ac.in>,1
+" christiankoranteng at yahoo.co.uk (Christian Koranteng)
+",1
+" tboydston at noresco.com (Boydston, Tina)
+",1
+" aide at cloudforestsoftware.com (Aide Fitch)
+",1
+"""Nageler, Peter via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+" bldgsimmail at gmail.com (bldgsim bldgsim)
+",1
+" ROsser at Vanderweil.com (Osser, Roselin)
+",1
+Katy Hollbacher <katy@beyondefficiency.us>,1
+" sotos.enveng at gmail.com (Sotiris Papantoniou)
+",1
+" carloslx at mail.telepac.pt (Carlos Lisboa)
+",1
+" vamshi.gooje at gmail.com (Vamshi Gooje)
+",1
+" Justin.M.Hill at nasa.gov (Hill, Justin M. (MSFC-AS22))
+",1
+Integral Resumes via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+Dennis Knight via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" Sean.Murphy at hdrinc.com (Murphy, Sean)
+",1
+" planetkbk at gmail.com (k bk)
+",1
+" Chris.Millar at arup.com (Chris Millar)
+",1
+joe breskin via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" ykyi at design.upenn.edu (Yun Yi)
+",1
+" chalfoun at email.arizona.edu (Chalfoun, Nader V - (chalfoun))
+",1
+" jeremy.poling at att.net (Jeremy Poling)
+",1
+" vickil at ncat.org (Vicki Lynne)
+",1
+AnLei Huang <anery817@gmail.com>,1
+" robbieyjg at gmail.com (jian guang yi)
+",1
+" chrisb at twgi.com (Chris Baker)
+",1
+" g.ulukavak.harputlugil at gmail.com (Gulsu Ulukavak Harputlugil)
+",1
+" georg_suter at yahoo.com (Georg Suter)
+",1
+" dom_michaud at yahoo.com (dom_michaud at yahoo.com)
+",1
+" JStapp at sbwconsulting.com (Jeremy Stapp)
+",1
+"""Larry Degelman"" <ldegelman@suddenlink.net>",1
+hzirnhelt@rmi.org,1
+" georgebldg at hotmail.com (TanGeorge)
+",1
+"""Tyler Thumma"" <tyler@energyopportunities.com>",1
+" 
+",1
+" shillpa at gmail.com (Shillpa Singh)
+",1
+" Marina.Laskari at arup.com (Marina Laskari)
+",1
+" crockenbaugh at yrgconsultants.com (Caleb Rockenbaugh)
+",1
+" AAlonso at hilsonmoran.com (Andres Alonso)
+",1
+" lindsay.kinnally at iesve.com (Lindsay Kinnally)
+",1
+Leonard Sciarra <leonard_sciarra@gensler.com>,1
+" jcarpenter at genesysengineering.net (John Carpenter)
+",1
+" neymarkj at qwest.net (joel neymark)
+",1
+Jaume Salom <jsalom@irec.cat>,1
+Parag Rastogi <rastogi.parag@gmail.com>,1
+" mmarceau at ctlgroup.com (Marceau, Medgar)
+",1
+" Kate.Hudon at nrel.gov (Hudon, Kate)
+",1
+"""IT Service Center"" <ITSC@aramex.com>",1
+Ben Hollon via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" C.Jennings at ha-inc.com (Coles Jennings)
+",1
+" member at linkedin.com (Benny Chow via LinkedIn)
+",1
+" d.hay at scaengineering.com (Donald Hay)
+",1
+" info at iaqvec2016.org (=?utf-8?B?6rSA66as7J6Q?=)
+",1
+" jamybacchus at nyc.rr.com (jamybacchus at nyc.rr.com)
+",1
+" geres.stauffer at free.fr (STAUFFER Vincent)
+",1
+" lamberts at ecv.ufsc.br (Roberto Lamberts)
+",1
+" georgios.kazas at polito.it (Georgios Kazas)
+",1
+" brian.edward.coffey at gmail.com (Brian Coffey)
+",1
+Eleonora Brembilla via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" Giorgio.Tonella at lu.unisi.ch (tonella)
+",1
+" BTso at sbwConsulting.com (Bing Tso)
+",1
+" Larry.Schaefer at carrier.utc.com (Schaefer, Larry           CAR)
+",1
+" jeffrey.m.calbert at carrier.utc.com (Calbert, Jeffrey M         CAR)
+",1
+"""Wealend, Edwin"" <e.wealend@cundall.com>",1
+" iulian.david at telrad.com (Iulian David)
+",1
+" jimwill at indy.net (Jim Willson)
+",1
+" Volkan.Ozdemir at rencons.com (Volkan Ozdemir)
+",1
+" Steve.Beck at lechase.com (Steve Beck)
+",1
+" Alex.Leonard at mcw.com (Alex Leonard)
+",1
+Nathan Brown via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+Alexandra CEMESOVA via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" pmnunes at gmail.com (Pedro Nunes)
+",1
+" postmaster at gard.com (postmaster at gard.com)
+",1
+Sriraj G via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" sphackel at uwalumni.com (sphackel at uwalumni.com)
+",1
+" samehmona at yahoo.com (samehmona at yahoo.com)
+",1
+" ken_hall at gensler.com (Ken Hall)
+",1
+Nicholas Caton via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+Anna Osborne via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" bhollon at antella-inc.com (Hollon, Ben)
+",1
+" justin.allaire at stantec.com (Allaire, Justin)
+",1
+" CDunn at glumac.com (Casey S. Dunn)
+",1
+" ""??"" < foolishstar at 163.com > 
+",1
+Shanta Tucker <Shanta.Tucker@atelierten.com>,1
+" jpeterson at hp.com (Peterson, John (EYP/HP CFS))
+",1
+" wshoard at ptrenergy.com (Will Shoard)
+",1
+" gg at identidaddesigngroup.com (Gustavo Goldman)
+",1
+" tirumayammari at yahoo.com (Mariappan Kalyanaraman)
+",1
+yash harit <yashharit.harit@gmail.com>,1
+" jason at glazersoftware.com (Jason Glazer)
+",1
+" pc.thomas at unsw.edu.au (PC Thomas)
+",1
+" cassiewaddellbsim at gmail.com (Cassie Waddell)
+",1
+" peter.benson at npl.co.uk (Peter Benson)
+",1
+" mxu at emsi-green.com.cn (May Xu)
+",1
+" Rebecca.Leigh.Butler at gmail.com (Rebecca Butler)
+",1
+" DRoberts at archenergy.com (Dave Roberts)
+",1
+" amr.mortada at gmail.com (Amr Ahmed)
+",1
+" haneef at hmsmep.com (haneef at hmsmep.com)
+",1
+<mattp@7actech.com>,1
+" farrokhi.afshar at gmail.com (Neda Farrokhi Afshar)
+",1
+" gcollins at greendinosaur.org (Greg Collins)
+",1
+Clayton Miller via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" RJHitchcock at lbl.gov (RJHitchcock at lbl.gov)
+",1
+" sjansen at brendlegroup.com (Seth Jansen)
+",1
+" sambhav tiwari <tiwari.sambhav at gmail.com>
+",1
+" DCohen at esdesign.com (Cohen, Daniel)
+",1
+" maria at pointenergyinnovations.com (Maria Berta)
+",1
+" shirish at ecpl.co.in (Shirish Deshpande)
+",1
+" bstanley at oppd.com (STANLEY, BRUCE E)
+",1
+" thomas.kim at firstfuel.com (Thomas Kim)
+",1
+" AndrewC at Hargis.biz (Andrew Clagett)
+",1
+" dcoutin at novusengineering.com (Dan Coutin)
+",1
+" mwellman at nexant.com (Wellman, Michael)
+",1
+" chandansharma101 at gmail.com (chandan sharma)
+",1
+" idoebber at vt.edu (idoebber)
+",1
+" michael.smith at wspfk.com (Smith, Michael)
+",1
+" renato.sousa at fluidinova.pt (Renato Sousa)
+",1
+" Dedelstein at AKF-ENG.com (Edelstein, David)
+",1
+" ebarrigana at uol.com.br (Eduardo Barrigana)
+",1
+" bstrombotne at gmail.com (Brian Strombotne)
+",1
+Morgan Heater <morgan@ecotope.com>,1
+" ABLekov at lbl.gov (Alex Lekov)
+",1
+" weber at ecosainstitute.org (Charlie Weber)
+",1
+" info at energy-forum.com (info at energy-forum.com)
+",1
+" tjutw at yahoo.com (tianii tll)
+",1
+" giometti at ashrae.org (Giometti, Tony)
+",1
+" mramos at innovaengineers.com (Maria Ramos)
+",1
+" mike at andelmanlelek.com (mike at andelmanlelek.com)
+",1
+Qinpeng Wang via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+Ramya S <ramyashivkumar@gmail.com>,1
+" environjoe at chartermi.net (Joe Azzarello)
+",1
+" jippnojunk at gmail.com (JP Beaulieu)
+",1
+" ajlapa at gmail.com (=?ISO-8859-1?Q?=C1lvaro_Lapa?=)
+",1
+" lbellenger at PathfinderEngineers.com (Bellenger, Lynn)
+",1
+" smckay at eegrp.com (SCOTT MCKAY)
+",1
+" hulan199 at yahoo.com (Lan Hu)
+",1
+" stanleyc at sby.dnet.net.id (Stanley)
+",1
+" mbstutman at engr.psu.edu (Mark Stutman)
+",1
+" hwan at dasskorea.com (=?EUC-KR?B?sei5zsiv?=)
+",1
+" ""Michael A. Eustice"" <MAEustice at htlyons.com>
+",1
+" daarias at gmail.com (Diego Alejandro Arias)
+",1
+K Gowri <kgowri.2014@gmail.com>,1
+" sdalanzo at yahoo.com (shanta dalanzo)
+",1
+" esim at NRCan.gc.ca (ES.SE ESim)
+",1
+Harshul Singhal <harshul263@gmail.com>,1
+" smohunta at pepractice.com (Shubha Mohunta)
+",1
+" inanici at u.washington.edu (Mehlika Inanici)
+",1
+" nedzibb at pae-engineers.com (Nedzib Biberic)
+",1
+" cmhui at hku.hk (Sam C M Hui)
+",1
+" dmiller208 at gmail.com (Danielle E.M. Bond)
+",1
+" way at freese.com (Adam Young)
+",1
+" CTaylor at HKIT.com (Taylor, Chris)
+",1
+" g.mixoudis at deerns.nl (g mixoudis)
+",1
+" amasonrattay at CDiengineers.com (Amy Mason-Rattay)
+",1
+" ""Paul Carey"" <paul at zed-uk.com>
+",1
+" ahajiah at safat.kisr.edu.kw (Ali  E. Hajiah)
+",1
+" dkoerniawan at yahoo.com (dkoerniawan)
+",1
+" gearoidwhite at gmail.com (Gearoid White)
+",1
+" EZagorski at EMEGroup.com (Eric Zagorski)
+",1
+" aryn.bergman at autodesk.com (Aryn Bergman)
+",1
+" smason at nexant.com (Mason, Sam)
+",1
+" Kateri.Heon at dessausoprin.com (Kateri Heon)
+",1
+" bcrossman at canetaenergy.com (Brian Crossman)
+",1
+" luc.delestrade at iesve.com (Luc Delestrade)
+",1
+" brobinson at arcengineering.ca (Brad Robinson)
+",1
+" OOnisko at mcw.com (Oleksandra Onisko)
+",1
+" ben at edsl.net (Ben Haytack)
+",1
+Pablo La Roche <pmlaroche@cpp.edu>,1
+" sven.moosberger at equa.ch (Sven Moosberger)
+",1
+" Charles.Blaschke at burthill.com (Charles.Blaschke at burthill.com)
+",1
+R B <slv3sat@gmail.com>,1
+" chapman at ksu.edu (Kirby Chapman)
+",1
+" sheikh.ahmadzaki at gmail.com (sheikh ahmad zaki)
+",1
+" jrhazel at bellsouth.net (J.R. Anderson)
+",1
+Denis Bourgeois <denis@rd2.ca>,1
+" zabdulmurad at yahoo.com (Abdul Murad Zainal Abidin)
+",1
+" paul at esru.strath.ac.uk (paul)
+",1
+" sun55 at optusnet.com.au (tejes)
+",1
+" Lukas.Swan at Dal.Ca (Lukas Swan (Dal))
+",1
+" zitzmann at fh-coburg.de (Tobias Zitzmann)
+",1
+Leo Su <leo.su@live.ca>,1
+" Malcolm.Cook at lboro.ac.uk (Malcolm.Cook at lboro.ac.uk)
+",1
+Matt Jungclaus <mjungclaus@rmi.org>,1
+" akmisra at teri.res.in (Anil Kumar Misra)
+",1
+" robert.urban at abraxasenergy.com (Robert Urban)
+",1
+" AMorton at dbhms.com (Anna Morton)
+",1
+" sheaffer at uic.edu (Andrew Sheaffer)
+",1
+" ericringold at gmail.com (Eric Ringold)
+",1
+ng khanh <cnkhanh1986@gmail.com>,1
+" Nick.Kovess at meinhardtgroup.com (Nick Kovess)
+",1
+" jcyuan at MIT.EDU (Jinchao Yuan)
+",1
+" maria at pointenergyinnovations.com (maria at pointenergyinnovations.com)
+",1
+" ukmaster at gmail.com (Joon Ho Choi)
+",1
+" brian.polidoro at nist.gov (Brian Polidoro)
+",1
+" raphael.compagnon at eif.ch (=?iso-8859-1?Q?Rapha=EBl?= Compagnon)
+",1
+" DonL at auseea.com (Don Lipinski)
+",1
+Schmidt Ralf-Roman <Ralf-Roman.Schmidt@ait.ac.at>,1
+" amorrison at haleyaldrich.com (Morrison, Andrew)
+",1
+" hemasree.r at gmail.com (Hema Sree Rallapalli)
+",1
+" chuck.khuen at wxaglobal.com (chuck.khuen at wxaglobal.com)
+",1
+" Shaun Martin <smartin at shaunmartinconsulting.com> 
+",1
+" building0729 at gmail.com (Min Yan)
+",1
+" Carla.Summerfield at tandf.co.uk (Summerfield, Carla)
+",1
+" Ardas at dfwcgi.com (Ardas Sabuncuyan)
+",1
+RICKY SAMBO Macharm via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+Zack Rogers via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+"""Zhang, Jian M via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+" kbk.kbk at outlook.com (kbk kbk)
+",1
+" Fabian.Posadas at dnvkema.com (Posadas, Fabian)
+",1
+" arp91 at powerstudents.com (Quinn)
+",1
+" TMarcial at taylor-engineering.com (Tracy Marcial)
+",1
+" hr at rushingco.com (HR)
+",1
+Kaiyu Sun via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" jianguang_yi at ecadi.com (=?utf-8?B?RkXkuJPpobnmioDmnK/kuK3lv4Mt6KGj5YGl5YWJ?=)
+",1
+" sborgeson at berkeley.edu (Sam Borgeson)
+",1
+" kelsey at kw-engineering.com (Jim Kelsey)
+",1
+" engler at 012.net.il (Michael Engler)
+",1
+" RRaustad at fsec.ucf.edu (Richard Raustad)
+",1
+" MAWK at nnepharmaplan.com (MAWK (Matthew Kimball))
+",1
+" energysimulation2003 at yahoo.it (Francesca Altavilla Barbara Vicari)
+",1
+" jerikanderson at yahoo.com (John Anderson)
+",1
+" rva at byg.dtu.dk (Rune Korsholm Andersen)
+",1
+Nathan Miller via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" f.dubisch at ifes-koeln.de (Dubisch, Florian)
+",1
+" Vikram.Sami at asu.edu (Vikram.Sami at asu.edu)
+",1
+" vleal at fe.up.pt (=?ISO-8859-1?Q?V=EDtor_Leal?=)
+",1
+" ""CleanTech Analytics"" <jeremiah at cleantechanalytics.com>
+",1
+"""Samuelson, Holly Wasilowski"" <hsamuelson@gsd.harvard.edu>",1
+Aaron Smith via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+KSEPL Energy Efficiency <cxa.ee.expert@kalpakrit.com>,1
+Scott Schuetter via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" rkulkarni at usgbc.org (Reshma Kulkarni)
+",1
+=?iso-8859-1?Q?Luis_Per=E9z-Lombard?= <lpl@us.es>,1
+" Schl?ter Arno <schlueter at arch.ethz.ch>
+",1
+Rut Wattanasak via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+DEBACQ-LAPASSAT Marie via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" kodongh at iit.edu (Dong Hwan Ko)
+",1
+" dwasserman at southface.org (David Wasserman)
+",1
+" meagan.pischel at munroassoc.net (Meagan Pischel)
+",1
+" njbourassa at lbl.gov (Norman J Bourassa)
+",1
+" martin.roy at mra.qc.ca (Martin Roy ing. LEED Fellow)
+",1
+" pjacobs at archenergy.com (Pete Jacobs)
+",1
+" yunazhang12 at gmail.com (Yuna Zhang)
+",1
+" sphackel at uwalumni.com (Scott Hackel)
+",1
+" jfc at us.es (Juan F. Coronel Toro)
+",1
+" craig.wheatley at iesve.com (Craig Wheatley)
+",1
+"""Athalye, Rahul A via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+Aslihan Tavil via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" vidyacg at gmail.com (vidya gowda)
+",1
+Ilker Karadag <ilkerkaradag@mail.com>,1
+" Larry.Schaefer at carrier.utc.com (Schaefer, Larry            CAR)
+",1
+" mike at sustainablesolutionscorporation.com (Michael Campbell)
+",1
+" greentsquare at gmail.com (Smita Chandra)
+",1
+" droberts at archenergy.com (David R. Roberts)
+",1
+" gfanslow at veic.org (Greg Fanslow)
+",1
+" mohamad.araji at gmail.com (Mohamad Araji)
+",1
+" janak at simulaciebudov.sk (Milan Janak)
+",1
+" roswald at coreadvisors.net (Ryan Oswald)
+",1
+Penny Cole <pennytravelling@yahoo.com>,1
+" S.C.Taylor at lboro.ac.uk (Simon Taylor (Civil & Building Eng))
+",1
+Wookey <wookey@wookware.org>,1
+" MEdwards at Vanderweil.com (Edwards, Matt)
+",1
+" srichendollar at kierantimberlake.com (Sarah Richendollar)
+",1
+" daylight7group at yahoo.com (Robert Thomas)
+",1
+" fred.roberts at neenan.com (Fred Roberts)
+",1
+" kmerrill at energy-solution.com (Kate Merrill)
+",1
+" bennychow816 at gmail.com (Benny KM Chow (Gmail))
+",1
+" SKumar at lbl.gov (Satish Kumar)
+",1
+" hwakong at colorado.edu (Hwakong Cheng)
+",1
+" buhl at gronk.lbl.gov (Fred Buhl)
+",1
+" email at pgengineers.com (Peterson Engineering, PC)
+",1
+Negin Nazarian via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+=?gb18030?B?zO/WvrOs?= via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" roos.rick at gmail.com (Rick Roos)
+",1
+Ravi Srinivasan <ravi.s.srinivasan@gmail.com>,1
+" skost at aix.meng.auth.gr (Stergios Kostidis)
+",1
+" ""David Eldridge"" <dse at grummanbutkus.com>
+",1
+" bharati4 at exchange.vt.edu (Karmarkar, Bharati)
+",1
+" victorpermanent at gmail.com (Victor Li)
+",1
+Blanka Majoros <majoros.blanka@gmail.com>,1
+" Roberto.Lollini at icite.mi.cnr.it (Roberto Lollini)
+",1
+" coryabramowicz at gmail.com (Cory Abramowicz)
+",1
+" aizaz.a.samuel at strath.ac.uk (Aizaz Aamir Samuel)
+",1
+" rafael.querencias at dicyp.es (=?iso-8859-1?Q?Rafael_Querencias_Fern=E1ndez?=)
+",1
+" annazhou at geopraxis.com (Anna Zhou)
+",1
+Waqas Khalid <waqaskhalid03@gmail.com>,1
+"""Hensen, J.L.M. via Bldg-sim"" <bldg-sim@lists.onebuilding.org>",1
+" Michael.C.Allison at jci.com (Michael.C.Allison at jci.com)
+",1
+" spencer.lipp at gmail.com (Spencer Lipp)
+",1
+" thellier at sphinx.ups-tlse.fr (Francoise THELLIER)
+",1
+" bain0305 at gmail.com (Bai, Ning)
+",1
+" t.beekhuizen at hiensch.nl (Tom Beekhuizen)
+",1
+" Judhajit.Chakraborty at wspfk.com (Chakraborty, Jude)
+",1
+Gurneet Singh <gurneet@edsglobal.com>,1
+" gulsu at mmf.gazi.edu.tr (GULSU ULUKAVAK)
+",1
+" akocharian at nri.ac.ir (Albert Kochari)
+",1
+" FCWinkelmann at lbl.gov (Frederick Winkelmann)
+",1
+" paula.esquivias at hotmail.com (paula esquivias)
+",1
+" Matt.Leach at nrel.gov (Leach, Matt)
+",1
+" zhangjieabcd1984 at 163.com (zhangjie)
+",1
+Dennis Knight <dknight@wholebuildingsystems.com>,1
+" jbradburn at rmhgroup.com (Bradburn, Jim)
+",1
+" jlmillr at gmail.com (Joseph L Miller)
+",1
+Nick Cardwell <nick.cardwell@bractlet.com>,1
+" jasonglazer at gmail.com (Jason Glazer)
+",1
+" ARutter at rmi.org (Allison Rutter)
+",1
+" jeisenhart at cromwell.com (jeisenhart at cromwell.com)
+",1
+Jon Hand via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" Noel.Merket at nrel.gov (Merket, Noel)
+",1
+" nick_gayeski at hotmail.com (Nicholas Gayeski)
+",1
+" ZIRKIYEVS at coned.com (Zirkiyev, Simkho )
+",1
+" r7pushkala at gmail.com (Pushkala R)
+",1
+" ""Jim Dirkes"" <jim at buildingperformanceteam.com>
+",1
+" Haidermkhan at ymail.com (Haider Khan)
+",1
+" briancorbell2 at yahoo.com (Brian Corbell)
+",1
+" czabaneh at halsall.com (Zabaneh, Christopher)
+",1
+" feizhao at gatech.edu (Zhao, Fei)
+",1
+" CLR at NIRAS.DK (Claus Rudbeck (CLR))
+",1
+Aditya Potipireddi <aditect@gmail.com>,1
+" mwitkowski at mchugheng.com (Mike Witkowski, PE)
+",1
+" Florian.Stift at arsenal.ac.at (Stift Florian)
+",1
+Sven Moosberger via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" pramod at dewpoint.biz (pramod at dewpoint.biz)
+",1
+Danielle Bond via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" ""Dr. Dirk A. Schwede"" <dirk.schwede at energydesign-asia.com>
+",1
+Energy Simulation Academy <info@simulate.energy>,1
+" omoltay at mimtarch.com (=?ISO-8859-9?Q?=D6mer_Moltay?=)
+",1
+" Reddy at andelmanlelek.com (Reddy Tupakula)
+",1
+" daniel_mugnier at yahoo.com (=?iso-8859-1?q?Daniel=20Mugnier?=)
+",1
+" simeonagas at yahoo.gr (Simeon Oxizidis)
+",1
+" pmlaroche at csupomona.edu (Dr. Pablo La Roche)
+",1
+" ismael.rodriguez at uca.es (=?iso-8859-1?Q?Ismael_Rodr=EDguez_Maestre?=)
+",1
+" Douglas.Kot at US.KEMA.com (Kot, Douglas)
+",1
+" eldridd at okstate.edu (eldridd at okstate.edu)
+",1
+" JRios at akfgroup.com (Rios, Jeffrey)
+",1
+Maria-Lida Kou <marialidakoun@gmail.com>,1
+" walterelyon at gmail.com (Walter Elyon)
+",1
+" Giuseppe.DeMichele at eurac.edu (De Michele Giuseppe)
+",1
+James Woodall <j.woodall@hcma.ca>,1
+Harshul Singhal via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" Na.Lu at uncc.edu (Lu, Na)
+",1
+" Shanta.Tucker at atelierten.com (Shanta Tucker)
+",1
+" evlacho00 at citymail.cuny.edu (alexandros vlachokostas)
+",1
+" turnercm at kjww.com (Colleen M. Turner)
+",1
+" leighm at rushingco.com (Leigh Mingledorff)
+",1
+" cic at jci.com (cic at jci.com)
+",1
+" Pierre.Hollmuller at unige.ch (Pierre Hollmuller)
+",1
+" hamish at insituarchitecture.com (Insitu Architecture)
+",1
+" pierre.hollmuller at cuepe.unige.ch (Pierre Hollmuller)
+",1
+" sliu at mail.unomaha.edu (Simeng Liu)
+",1
+" khussmann at epsteinglobal.com (Katelynn Hussmann)
+",1
+" sjain at ftch.com (Jain, Sunayana)
+",1
+" June at invirosystems.ca (June Co-Nei)
+",1
+" xbarrera at gmail.com (Xavier Barrera)
+",1
+" BFountain at EnbridgeIBT.com (Brian Fountain)
+",1
+" mpz at tinet.org (Maria Peralta Zaragoza)
+",1
+" gte179e at mail.gatech.edu (gte179e at mail.gatech.edu)
+",1
+" ganderson at etcgrp.com (Glen Anderson)
+",1
+" john.daglish at vnumail.com (DAGLISH)
+",1
+" salahemail at gmail.com (SALAH MAHDI)
+",1
+=?UTF-8?Q?Cl=c3=a9ment_Lechartier?= <clement.lechartier@gmail.com>,1
+" yanjun at petersenengineering.com (Yanjun Cui)
+",1
+" akshaykg at gmail.com (akshay gupta)
+",1
+" gt7296c at prism.gatech.edu (CHEOL-SOO PARK)
+",1
+" Raphael.Compagnon at eif.ch (Raphael Compagnon)
+",1
+<Julien.Dutel@teq.gouv.qc.ca>,1
+Stephen Roth <sroth@carmelsoft.com>,1
+" ZhangJ at utrc.utc.com (Zhang, Jifeng             Export License Required - US UTRC)
+",1
+Linda Lawrie via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+Tianyao Zhang <tzhang@seventhwave.org>,1
+"""Davidson, Tom"" <TDavidson@DLBASSOCIATES.com>",1
+" Phillip.Tran at ch2m.com (Phillip.Tran at ch2m.com)
+",1
+" MLauster at eonerc.rwth-aachen.de (Lauster, Moritz)
+",1
+" M.Spyrou at lboro.ac.uk (Maria Spyrou)
+",1
+" dannall at mindspring.com (dannall at mindspring.com)
+",1
+" enerbat at metissacana.sn (PNUD/ENERBAT)
+",1
+Ralph Evins <revins@uvic.ca>,1
+" Caminade at lemonconsult.ch (Anne Caminade)
+",1
+" MattDubrovich at Eaton.com (MattDubrovich at Eaton.com)
+",1
+Judson Brown via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" carlos.alonso at iesve.com (Carlos Alonso)
+",1
+" JSiensa at klingstubbins.com (Siensa, Jason)
+",1
+" felipelopes.arq at gmail.com (Felipe Lopes)
+",1
+" vickil at ncat.org ('Vicki Lynne')
+",1
+" cliff_f at uclink.berkeley.edu (Clifford Federspiel)
+",1
+" glicks at MIT.EDU (glicks)
+",1
+AJ <mailforaj@gmail.com>,1
+" Xuchao.Wu at arup.com (Xuchao Wu)
+",1
+" marcb at paemail.com (Marc Brune)
+",1
+" saracino at gmail.com (Tony Saracino)
+",1
+" anouri at legacy-development.com (Ana Nouri)
+",1
+" josephderinger at yahoo.com (J Deringer at Yahoo)
+",1
+" keirh at BluestoneEnergy.com (Keir Howell)
+",1
+" bobfass11 at hotmail.com (Bob Fassbender)
+",1
+"""Jones, Christopher"" <cjones@halsall.com>",1
+" dbs176 at gmail.com (David Smith)
+",1
+" sven.schneider at uni-weimar.de (Sven Schneider)
+",1
+" cgrimes at dynamix-ltd.com (Cyrus Grimes)
+",1
+" asethi at stantec.com (Sethi, Amarpreet)
+",1
+" mwilliamson at cosentini-ma.com (Williamson, Michael)
+",1
+" radler63 at hotmail.com (G.fried)
+",1
+" brittelmann at ibacos.com (William D. Rittelmann)
+",1
+" Philippe.Geril at biomath.UGent.be (phil)
+",1
+" SJennings at hga.com (Staci Jennings)
+",1
+" nicole.dubowski at arup.com (Nicole Dubowski)
+",1
+"""Augenbroe, Godfried L"" <fried.augenbroe@coa.gatech.edu>",1
+" j.l.m.hensen at bwk.tue.nl (Hensen, J.L.M.)
+",1
+Sunayana Jain via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" brad at rer.com (Brad Souza)
+",1
+" johnaugustolson at hotmail.com (John Olson)
+",1
+Priyam Tewari via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
+" mr.pedro.gomez at googlemail.com (Pedro Gomez)
+",1
+" ""Martin Roy ing. LEED AP"" <martin.roy at mra.qc.ca>
+",1
+"""Guy, G. Bradley"" <GUY@cua.edu>",1
+Panos Bakos <bakospan@gmail.com>,1
+" beccali at cdc8g5.cdc.polimi.it (marco beccali)
+",1
+Karol BANDURSKI via Bldg-sim <bldg-sim@lists.onebuilding.org>,1
